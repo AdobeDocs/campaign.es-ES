@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
+source-git-commit: 29c13e6c1b08a5b0f6ba8bb433f7165e3e452942
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '383'
 ht-degree: 43%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 43%
 
 1. ¿Se puede monitorizar la ejecución del flujo de trabajo?
 
-   :arrow_upper_right: Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo de Campaign [en el Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+   :arrow_upper_right: Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo de Campaign [en la documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
 
 1. ¿Con qué sistemas y componentes es compatible Campaign v8?
 
@@ -53,7 +53,7 @@ ht-degree: 43%
 
 1. ¿Dónde están las notas de la versión de Campaign v8?
 
-   :bulb: Puede acceder a las notas más recientes de la versión de Campaign [en esta página](release-notes.md).
+   :bulb: Puede acceder a las últimas notas de la versión de Campaign aquí.
 
 1. ¿Cuál es el procedimiento para la configuración del dominio?
 
