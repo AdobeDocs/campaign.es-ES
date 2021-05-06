@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
+source-git-commit: fa46fc3218d3bdc90c27d1abc9e944d73c7b91bc
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 15%
+source-wordcount: '134'
+ht-degree: 18%
 
 ---
 
@@ -25,26 +25,3 @@ Los procesos técnicos utilizan las cuentas externas como flujos de trabajo téc
 Una cuenta externa específica administra la conexión entre la base de datos local de Campaign y la base de datos de Cloud ([!DNL Snowflake]).
 
 : globo_voz: Como usuario de Cloud Services administrados, la cuenta externa [!DNL Snowflake] está configurada para su instancia por Adobe.
-
-Puede acceder a esta cuenta externa para comprobar la configuración y ejecutar flujos de trabajo de replicación. Para ello, siga los pasos a continuación:
-
-1. En Campaña **[!UICONTROL Explorer]**, haga clic en **[!UICONTROL Administration > Platform > External Accounts]**.
-
-1. Seleccione la cuenta externa **[!UICONTROL Full FDA]**.
-
-![](assets/snowflake-ext-account.png)
-
-La configuración global se muestra en **[!UICONTROL General tab]**.
-
-Utilice la pestaña **[!UICONTROL Parameters]** y el botón **[!UICONTROL Deploy functions]** para crear funciones.
-
-![](assets/snowflake-parameters.png)
-
-**AÑADIR PARÁMETROS DESC AQUÍ**
-
-Utilice la pestaña **[!UICONTROL Full FDA]** para forzar la ejecución del flujo de trabajo de duplicación.
-
-![](assets/snowflake-full-fda.png)
-
-**AÑADIR DETALLES AQUÍ**
-
