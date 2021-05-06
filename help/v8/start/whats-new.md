@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 translation-type: tm+mt
-source-git-commit: 0e0cd6eb9fcf656c9ba6c72cd1a782098f9399fe
+source-git-commit: c3eaaecd33c70be0b8c7e9e69a78aa43cf5d18b8
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '404'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Y simplificamos la administración de datos al mismo tiempo
 
 ## Simplificación y aumento del rendimiento
 
-Campaign v8 simplifica la administración de datos: sin índice, sin mantenimiento de la base de datos. Con Campaign v8, no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y iniciar.
+Campaign v8 incorpora el concepto de **Acceso de datos federado completo** (FDA): todos los datos ahora son remotos en la base de datos de Cloud.
+
+Con esta nueva arquitectura, Campaign v8 simplifica la administración de datos: no se requiere ningún índice en la base de datos de Cloud. Basta con crear las tablas, copiar los datos y iniciar.
 
 [!DNL Snowflake] es la base de datos de Campaign Cloud y le proporcionará velocidad y resistencia: no hay sobrecarga de los picos de actividad del sistema.
 
