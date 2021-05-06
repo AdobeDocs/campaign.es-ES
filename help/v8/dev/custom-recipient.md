@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
 translation-type: tm+mt
-source-git-commit: 5b9e381c154420c57a66e5b41b25bd4754036c60
+source-git-commit: ac75a1c085e13cd934af0f09ceba89c54bbc560a
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -28,7 +28,6 @@ Esta funcionalidad permite a Adobe Campaign procesar datos desde una base de dat
 * Uso de una base de datos de perfiles con una estructura no estándar: posibilidad de enviar a perfiles guardados en varias tablas con varias estructuras, utilizando una sola instancia.
 
 En esta sección se describen los puntos clave para asignar las tablas existentes en Adobe Campaign y los ajustes de configuración que se aplican para ejecutar entregas en función de cualquier tabla. También describe cómo diseñar interfaces de consulta para usuarios finales.
-
 
 >[!CAUTION]
 >
