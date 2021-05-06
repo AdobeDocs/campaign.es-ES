@@ -4,82 +4,61 @@ product: campaign
 title: Ampliación de esquemas de Campaign
 description: Descubra cómo ampliar los esquemas de Campaign
 translation-type: tm+mt
-source-git-commit: 779542ab70f0bf3812358884c698203bab98d1ce
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 6%
+source-wordcount: '223'
+ht-degree: 1%
 
 ---
 
 # Ampliar un esquema{#extend-schemas}
 
-En este artículo se describe cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign.
+Como usuario técnico, puede personalizar el modelo de datos de Campaign para satisfacer las necesidades de su implementación: añadir elementos a un esquema existente, modificar un elemento de un esquema o eliminar elementos.
+
+Los pasos clave para personalizar el modelo de datos de Campaign son:
+
+1. Crear un esquema de extensión
+1. Actualización de la base de datos de Campaign
+1. Adaptación del formulario de entrada
+
+>[!CAUTION]
+>El esquema integrado no debe modificarse directamente. Si necesita adaptar un esquema integrado, debe ampliarlo.
 
 :bulb: Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta página](datamodel.md).
 
-La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada **schema**.
+Para ampliar un esquema, siga los pasos a continuación:
 
-Un esquema es un documento XML asociado a una tabla de base de datos. Define la estructura de datos y describe la definición SQL de la tabla:
+1. Vaya a la carpeta **[!UICONTROL Administration > Configuration > Data schemas]** en el Explorador.
+1. Haga clic en el botón **New** y seleccione **[!UICONTROL Extend the data in a table using an extension schema]**.
 
-* Nombre de la tabla
-* Campos
-* Vínculos con otras tablas
+   ![](assets/extend-schema-option.png)
 
-También describe la estructura XML utilizada para almacenar datos:
+1. Identifique el esquema integrado que desea ampliar y selecciónelo.
 
-* Elementos y atributos
-* Jerarquía de elementos
-* Tipos de elementos y atributos
-* Valores predeterminados
-* Etiquetas, descripciones y otras propiedades.
+   ![](assets/extend-schema-select.png)
 
-Los esquemas permiten definir una entidad en la base de datos. Hay un esquema para cada entidad.
+   Por convención, asigne el mismo nombre al esquema de extensión que al esquema integrado y utilice un espacio de nombres personalizado.
 
-## Sintaxis de esquemas {#syntax-of-schemas}
+   ![](assets/extend-schema-validate.png)
 
-El elemento raíz del esquema es **`<srcschema>`**. Contiene los subelementos **`<element>`** y **`<attribute>`**.
+1. Una vez en el editor de esquemas, añada los elementos que necesite utilizando el menú contextual y guarde.
 
-El primer subelemento **`<element>`** coincide con la raíz de la entidad.
+   ![](assets/extend-schema-edit.png)
 
-```
-<srcSchema name="recipient" namespace="cus">
-  <element name="recipient">  
-    <attribute name="lastName"/>
-    <attribute name="email"/>
-    <element name="location">
-      <attribute name="city"/>
+   En el siguiente ejemplo, agregamos el atributo Membership Year , establecemos un límite de longitud para los apellidos (este límite sobrescribirá el predeterminado) y eliminamos la fecha de nacimiento del esquema integrado.
+
+   ```
+   <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
+           img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
+           mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
+   <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
+           name="recipient">
+   <attribute name="Membership Year" label="memberYear" type="long"/>
+   <attribute length="50" name="lastName"/>
+   <attribute _operation="delete" name="birthDate"/>
    </element>
-  </element>
-</srcSchema>
-```
+   </srcSchema> 
+   ```
 
->[!NOTE]
->
->El elemento raíz de la entidad tiene el mismo nombre que el esquema.
-
-![](assets/schema_and_entity.png)
-
-Las etiquetas **`<element>`** definen los nombres de los elementos de entidad. **`<attribute>`** las etiquetas del esquema definen los nombres de los atributos en las  **`<element>`** etiquetas a las que se han vinculado.
-
-## Identificación de un esquema {#identification-of-a-schema}
-
-Un esquema de datos se identifica con su nombre y área de nombres.
-
-Un área de nombres permite agrupar un conjunto de esquemas por área de interés. Por ejemplo, el espacio de nombres **cus** se utiliza para la configuración específica del cliente (**customers**).
-
->[!CAUTION]
->
->Como estándar, el nombre del área de nombres debe ser conciso y contener únicamente caracteres autorizados de acuerdo con las reglas de nomenclatura XML.
->
->Los identificadores no deben comenzar con caracteres numéricos.
-
-Algunas áreas de nombres están reservadas para descripciones de las entidades del sistema necesarias para el funcionamiento de la aplicación Adobe Campaign:
-
-* **xxl**: sobre esquemas de base de datos de Cloud,
-* **xtk**: sobre los datos del sistema de plataforma,
-* **nl**: sobre el uso global de la solicitud,
-* **nms**: sobre la entrega (destinatario, entrega, seguimiento, etc.),
-* **ncm**: sobre la gestión de contenido,
-* **temp**: reservado para esquemas temporales.
-
-La clave de identificación de un esquema es una cadena creada con el área de nombres y el nombre separado por dos puntos; por ejemplo: **nms:recipient**.
+1. Actualice la estructura de la base de datos para aplicar los cambios. [Obtenga más información](update-database-structure.md)
+1. Una vez implementados los cambios en la base de datos, se puede adaptar el formulario de entrada de destinatarios para que los cambios sean visibles. [Obtenga más información](forms.md)
