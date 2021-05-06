@@ -4,22 +4,95 @@ product: campaign
 title: Trabajo con esquemas de Campaign
 description: Introducción a los esquemas
 translation-type: tm+mt
-source-git-commit: 779542ab70f0bf3812358884c698203bab98d1ce
+source-git-commit: f1aed22d04bc0170b533bc088bb1a8e187b44dce
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 9%
+source-wordcount: '1243'
+ht-degree: 7%
 
 ---
 
 # Trabajar con esquemas{#gs-ac-schemas}
 
+La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada **schema**.
+
+Un esquema es un documento XML asociado a una tabla de base de datos. Define la estructura de datos y describe la definición SQL de la tabla:
+
+* Nombre de la tabla
+* Campos
+* Vínculos con otras tablas
+
+También describe la estructura XML utilizada para almacenar datos:
+
+* Elementos y atributos
+* Jerarquía de elementos
+* Tipos de elementos y atributos
+* Valores predeterminados
+* Etiquetas, descripciones y otras propiedades.
+
+Los esquemas permiten definir una entidad en la base de datos. Hay un esquema para cada entidad.
+
 Adobe Campaign emplea esquemas de datos para:
 
-* Definir el modo en que los objetos de datos de la aplicación están vinculados a las tablas de bases de datos subyacentes.
+* Defina cómo los objetos de datos de la aplicación están vinculados a las tablas de base de datos subyacentes.
 * Definir vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign.
 * Definir y describir los campos individuales incluidos en cada objeto.
 
 Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](datamodel.md).
+
+>[!CAUTION]
+>
+>Algunos esquemas de Campaign integrados tienen un esquema asociado en la base de datos de Cloud. Estos esquemas están identificados por el espacio de nombres **Xxl** y no deben modificarse.
+
+## Sintaxis de esquemas {#syntax-of-schemas}
+
+El elemento raíz del esquema es **`<srcschema>`**. Contiene los subelementos **`<element>`** y **`<attribute>`**.
+
+El primer subelemento **`<element>`** coincide con la raíz de la entidad.
+
+```
+<srcSchema name="recipient" namespace="cus">
+  <element name="recipient">  
+    <attribute name="lastName"/>
+    <attribute name="email"/>
+    <element name="location">
+      <attribute name="city"/>
+   </element>
+  </element>
+</srcSchema>
+```
+
+>[!NOTE]
+>
+>El elemento raíz de la entidad tiene el mismo nombre que el esquema.
+
+![](assets/schema_and_entity.png)
+
+Las etiquetas **`<element>`** definen los nombres de los elementos de entidad. **`<attribute>`** las etiquetas del esquema definen los nombres de los atributos en las  **`<element>`** etiquetas a las que se han vinculado.
+
+## Identificación de un esquema {#identification-of-a-schema}
+
+Un esquema de datos se identifica con su nombre y área de nombres.
+
+Un área de nombres permite agrupar un conjunto de esquemas por área de interés. Por ejemplo, el espacio de nombres **cus** se utiliza para la configuración específica del cliente (**customers**).
+
+>[!CAUTION]
+>
+>Como estándar, el nombre del área de nombres debe ser conciso y contener únicamente caracteres autorizados de acuerdo con las reglas de nomenclatura XML.
+>
+>Los identificadores no deben comenzar con caracteres numéricos.
+
+## Espacios de nombres reservados
+
+Algunas áreas de nombres están reservadas para descripciones de las entidades del sistema necesarias para el funcionamiento de la aplicación Adobe Campaign. El siguiente espacio de nombres **no debe utilizarse** para identificar un nuevo esquema, en cualquier combinación de mayúsculas y minúsculas:
+
+* **xxl**: reservado a esquemas de base de datos de Cloud,
+* **xtk**: reservado para datos del sistema de plataforma,
+* **nl**: reservado para el uso general de la aplicación,
+* **nms**: reservado para entregas (destinatario, entrega, seguimiento, etc.),
+* **ncm**: reservado para la gestión de contenido,
+* **temp**: reservado para esquemas temporales.
+
+La clave de identificación de un esquema es una cadena creada con el área de nombres y el nombre separado por dos puntos; por ejemplo: **nms:recipient**.
 
 ## Crear o ampliar esquemas de Campaign {#create-or-extend-schemas}
 
@@ -32,6 +105,7 @@ Para añadir un tipo de datos completamente nuevo que no exista en Adobe Campaig
 :bulb: Para obtener más información, consulte [Crear un nuevo esquema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
+
 
 Una vez que haya creado o ampliado un esquema para que funcione, la práctica recomendada es definir sus elementos de contenido XML en el mismo orden en que aparecen a continuación.
 
