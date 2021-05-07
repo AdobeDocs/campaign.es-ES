@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: b39cac492f4605b7d1d7aeb75f6af26a20bf43e6
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '746'
 ht-degree: 21%
 
 ---
@@ -35,7 +35,7 @@ Antes de comenzar a implementar campañas de marketing, debe estar familiarizado
 
 * **Planificar**: el plan de marketing puede contener varios programas. Está vinculado a un periodo, tiene un presupuesto asignado y también puede estar vinculado a documentos y objetivos.
 
-* **Flujo de trabajo de la campaña**: un flujo de trabajo de campaña contiene actividades para crear la lógica de campaña. El uso de flujos de trabajo de campaña permite definir audiencias y crear envíos para todos los canales disponibles.
+* **Flujo de trabajo de la campaña**: un flujo de trabajo de campaña contiene actividades para crear la lógica de campaña. Utilice flujos de trabajo de campaña para definir audiencias y crear envíos para todos los canales disponibles.
 
 * **Campañas** recurrentes: las campañas recurrentes se crean a partir de una plantilla específica que define la plantilla de flujo de trabajo que se va a ejecutar y la programación de ejecución.
 
