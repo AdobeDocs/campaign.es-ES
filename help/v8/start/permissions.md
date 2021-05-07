@@ -1,6 +1,6 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Concesión de permisos para Campaign v8
 description: Obtenga información sobre cómo conceder permisos a Campaign v8
 feature: Audiencias
@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 translation-type: tm+mt
-source-git-commit: 69f2098872e024d30ca1d97d8c289102e3e00096
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 2%
