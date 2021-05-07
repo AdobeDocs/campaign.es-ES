@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e1308398e5a33f2ad9659ad632aeb05af9916e69
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '526'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 3%
 # Campaign Classic v7: Funcionalidades de Campaign v8{#gs-matrix}
 
 
-Como usuario Campaign Classic v7 existente, debe esperar cualquier interrupción en la forma en que normalmente &quot;juega&quot; con Adobe Campaign. La mayoría de los cambios no están visibles, excepto los cambios pequeños que aparecen en los pasos de interfaz de usuario y configuración.
+Como usuario Campaign Classic v7 existente, no debería esperar grandes interrupciones en la forma en que normalmente interactúa con Adobe Campaign. La mayoría de los cambios en la versión 8 no están visibles, excepto los pequeños cambios que aparecen en la interfaz de usuario y en los pasos de configuración.
 
 Cambios clave:
 
@@ -37,13 +37,13 @@ Como usuario Campaign Classic, tenga en cuenta que la mayoría de las funciones 
 
 El almacenamiento en la nube se realiza en [!DNL Snowflake]: una nueva cuenta externa garantiza la conectividad con la base de datos en la nube. [Más información](#ac-gs-snowflake).
 
-Este es un cambio fundamental en la arquitectura del software. Los datos ahora son remotos: Campaign federa todos los datos, incluidos los perfiles. El proceso de campaña ahora escala de principio a fin, desde Segmentación a Ejecución de entrega: La ingesta de datos, la segmentación, el establecimiento de objetivos, las consultas, la ejecución del envío ahora se ejecutarán en minutos.
+Este es un cambio fundamental en la arquitectura del software. Ahora, los datos son remotos y Campaign federa todos los datos, incluidos los perfiles. Los procesos de Campaign ahora escalan de extremo a extremo, desde la segmentación hasta la ejecución del mensaje: la ingesta de datos, la segmentación, la segmentación, las consultas, las entregas ahora se ejecutan normalmente en minutos.
 
-Esta nueva versión resuelve todo el desafío de Scaling, manteniendo el mismo nivel de flexibilidad y extensibilidad. El número de perfiles es casi ilimitado y se puede ampliar la retención de datos.
+Esta nueva versión resuelve todo el desafío de escalar mientras mantiene el mismo nivel de flexibilidad y extensibilidad. El número de perfiles es casi ilimitado y se puede ampliar la retención de datos.
 
 Una nueva cuenta externa **externa** integrada está dedicada a FDA completa. Este es el corazón de la conectividad de la base de datos de Cloud. Recomendamos salir tal cual.
 
-Cualquier esquema/tabla integrado que deba moverse o replicarse en la base de datos de Cloud viene con una extensión de esquema integrada en el espacio de nombres **xxl**. En cuanto a la extensión de esquema, el nuevo espacio de nombres XXL se utilizará para cualquier parte nueva de la configuración de OOTB, como JavaScript, JSSP, etc.
+Cualquier esquema o tabla integrado que deba moverse o replicarse en la base de datos de Cloud viene con una extensión de esquema integrada en el espacio de nombres **xxl**.
 
 Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos local de Campaign a la base de datos de la nube [!DNL Snowflake] y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
 
@@ -59,41 +59,39 @@ Un flujo de trabajo técnico específico gestiona la duplicación de tablas que 
 >[!NOTE]
 >
 > Se han creado varias políticas de replicación en función del tamaño de la tabla (XS, XL, etc.).
-> Algunas tablas se replican en tiempo real, ya que otras se realizarán por hora. Algunas tablas tendrán actualizaciones incrementales, ya que otras se actualizarán por completo.
+> Algunas tablas se duplican en tiempo real, otras se duplican cada hora. Algunas tablas tendrán actualizaciones incrementales, otras se actualizarán por completo.
 
 
 [Más información sobre la replicación de datos](../config/replication.md)
 
 ### Administración de ID
 
-Los objetos de Campaign v8 ahora utilizan **Universally Unique ID (UUID)**, lo que implica valores únicos ilimitados para identificar los datos
+Los objetos de Campaign v8 ahora utilizan un **identificador único universal (UUID)**, que permite valores únicos ilimitados para identificar datos
 
 Tenga en cuenta que este ID se basa en cadenas y no en secuencias.
 
 ### Mantenimiento simplificado
 
-Los usuarios de Campaign no necesitan ser expertos en bases de datos: ya no es necesario mantener flujos de trabajo largos ni indexar tablas complejas.
+Los usuarios de Campaign no necesitan ser expertos en bases de datos: ya no es necesario realizar operaciones complejas de mantenimiento de bases de datos o indexar tablas complejas.
 
 ## Funciones no disponibles temporales{#gs-unavailable-features}
 
-Tenga en cuenta que algunas funciones no están disponibles en esta primera versión, pero se lanzarán próximamente, como:
+Tenga en cuenta que algunas funciones aún no están disponibles en esta primera versión, como:
 
 * Administración de recursos de marketing
 * Distributed Marketing
-* Mensajes entrantes de Administración de ofertas (módulo de interacción)
+* Administración de ofertas entrantes (módulo de interacción)
 * Campaign Optimization (Optimización de la campaña)
 * Gestor de respuestas
-* Marketing social con Twitter
 * Modelos de implementación híbridos/locales
 
 ## Funciones eliminadas{#gs-removed}
 
-Para alinearse con la nueva arquitectura y el modelo de implementación de Campaign v8, algunas funciones históricas del Campaign Classic v7 no están disponibles en Campaign v8.
+Para alinearse con la nueva arquitectura y el modelo de implementación de Campaign v8, algunas funciones históricas del Campaign Classic v7 ya no están disponibles en Campaign v8.
 
 * Cupones
 * Seguimiento web
 * Encuestas
-* Marketing social con Facebook
+* Social Marketing
 * Conector ACS (oferta principal)
-* Base de datos Microsoft SQL
-* base de datos de oracle
+
