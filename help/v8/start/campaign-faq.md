@@ -8,16 +8,16 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 0f9827319484a84e762cf651fed18d704d4af66e
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 43%
+source-wordcount: '377'
+ht-degree: 41%
 
 ---
 
 # Preguntas frecuentes{#faq}
 
-¿Necesita ayuda para trabajar con Campaign Classic? Lea las 10 preguntas más frecuentes a continuación y otras preguntas frecuentes de esa página. También puede realizar lo siguiente:
+¿Necesita ayuda mientras trabaja con Campaign? Lea las 10 preguntas más frecuentes a continuación y otras preguntas frecuentes de esa página.
 
 1. ¿Cómo puedo actualizar Campaign a la versión más reciente?
 
@@ -25,7 +25,7 @@ ht-degree: 43%
 
    Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Esta es la razón por la que creemos que es fundamental que ejecute la versión más reciente de Adobe Campaign.
 
-   Debe ponerse en contacto con el equipo del Servicio de atención al cliente para actualizar su entorno.
+   Póngase en contacto con el equipo de atención al cliente para actualizar su entorno.
 
 1. ¿Cómo puedo conectarme a Campaign v8?
 
