@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 81a6d365554d87b020d47be6fd6a896f8ad33d57
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 43%
+source-wordcount: '702'
+ht-degree: 40%
 
 ---
 
@@ -64,7 +64,7 @@ El objetivo se puede crear mediante una combinación de consultas en una secuenc
 
 Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos.
 
-Por &quot;perfil&quot; se entiende un registro de información (por ejemplo: un registro de la [tabla de destinatarios](../dev/datamodel.md) o una tabla externa que contenga un ID de cookie, ID de cliente, identificador móvil u otra información relacionada con un canal determinado) que represente a un cliente final, a un cliente potencial o a un posible cliente. Los perfiles se consideran activos si se han segmentado o si se ha comunicado con ellos en los últimos 12 meses.
+Por &quot;perfil&quot; se entiende un registro de información (por ejemplo: un registro de la [tabla de destinatarios](../dev/datamodel.md) o una tabla externa que contenga un ID de cookie, ID de cliente, identificador móvil u otra información relacionada con un canal determinado) que represente a un cliente final, a un cliente potencial o a un posible cliente. Los perfiles se consideran activos si se han identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
 Puede monitorizar el número de perfiles activos utilizados en las instancias directamente desde Campaign Panel de control de Campaign.
 
