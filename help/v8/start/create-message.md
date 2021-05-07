@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 221adcce8951a3884b83d5e5e2de1a73fbe96050
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '693'
 ht-degree: 27%
 
 ---
@@ -32,6 +32,7 @@ Adobe Campaign v8 incluye los siguientes canales de envío:
 * **Canal** móvil: los envíos en canales móviles permiten enviar mensajes de texto personalizados a la población objetivo.  Obtenga más información en [esta página](../send/sms.md)
 
 * **Canal de aplicación móvil**: los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android.  Obtenga más información en [esta página](../send/push.md)
+* **Canal** LINE: Los envíos LINE le permiten enviar mensajes en LINE, una aplicación de mensajería instantánea disponible en todos los teléfonos inteligentes. Obtenga más información en [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html)
 
 ## Elija cómo enviar los mensajes
 
