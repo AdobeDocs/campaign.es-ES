@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 9b6190f48373b772a72d6c1ef1b7510ec41112be
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1159'
 ht-degree: 4%
 
 ---
@@ -19,14 +19,14 @@ ht-degree: 4%
 
 En esta sección, aprenderá a ajustar Adobe Campaign a los requisitos de su empresa. Siga estas directrices para estructurar y organizar la implementación.
 
-1. **Definir configuración**: conceder acceso, compartir consola de cliente, configurar canales (correo electrónico, push, sms)
+1. **Definir configuración**: conceder acceso, compartir la consola de cliente, configurar canales (correo electrónico, push, sms)
 1. **Prepare su entorno**: importar perfiles, crear audiencias, diseñar plantillas de flujo de trabajo y campaña, crear reglas de tipología
 1. **Personalice la instancia**: crear nuevos campos de datos, añadir tablas/esquemas
 1. **Amplíe la implementación**: conexión a soluciones de Adobe, otros productos y sistemas: conectores, configuración de varias soluciones
 
 ## Antes de empezar
 
-Esta sección incluye información para desarrolladores específica de su implementación que deben cuidar de la privacidad y la seguridad antes de comenzar.
+Esta sección contiene información crítica sobre privacidad y seguridad que debe revisarse y tenerse en cuenta antes incluso de iniciar la implementación real.
 
 ### Privacidad
 
@@ -62,7 +62,7 @@ Antes de empezar a enviar mensajes y crear campañas de marketing, debe:
 
 1. Importar perfiles y crear audiencias
 
-   Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfiles directamente en la tabla de destinatarios.
+   Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfil directamente en la tabla de destinatarios.
 
    :bulb: [Obtenga información sobre cómo importar perfiles](import.md).
 
@@ -88,7 +88,7 @@ Antes de empezar a enviar mensajes y crear campañas de marketing, debe:
 
 1. Familiarícese con el modelo de datos integrado de Campaign
 
-   Adobe Campaign viene con un modelo de datos predefinido. Para implementar y personalizar su entorno, debe estar familiarizado con las tablas integradas del modelo de datos de Adobe Campaign y su interacción.
+   Adobe Campaign viene con un modelo de datos predefinido. Para implementar y personalizar su entorno, debe estar familiarizado con las tablas integradas del modelo de datos de Adobe Campaign y con cómo se relacionan entre sí.
 
    :bulb: [Obtenga más información sobre el modelo de datos de Campaign](../dev/datamodel.md).
 
