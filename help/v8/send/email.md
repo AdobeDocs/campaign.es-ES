@@ -1,13 +1,13 @@
 ---
-solution: Campaign Classic
-product: campaign
+solution: Campaign
+product: Adobe Campaign
 title: Envío de correos electrónicos con Adobe Campaign
 description: Introducción a los correos electrónicos en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: f2c156f8e7c5725d5be39919637371a0509c6106
+source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 3%
