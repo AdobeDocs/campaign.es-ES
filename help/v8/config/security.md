@@ -4,10 +4,10 @@ product: Adobe Campaign
 title: Prácticas recomendadas de seguridad de Campaign
 description: Introducción a las prácticas recomendadas de seguridad de Campaign
 translation-type: tm+mt
-source-git-commit: d758b6ffaee5fdab3f600f58be5a81694162d269
+source-git-commit: 5592dd4e79391d953a4bc54cdd47475417e07b56
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 24%
+source-wordcount: '505'
+ht-degree: 20%
 
 ---
 
@@ -40,9 +40,9 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 ## Restricción de datos
 
-Debe asegurarse de que los usuarios autenticados con privilegios bajos no puedan acceder a las contraseñas cifradas. Para ello, hay dos formas principales: restringir el acceso solo a campos de contraseña o a toda la entidad (necesita una compilación >= 8770).
+Debe asegurarse de que los usuarios autenticados con privilegios bajos no puedan acceder a las contraseñas cifradas. Para ello, hay dos maneras principales: restringir el acceso solo a campos de contraseña o a toda la entidad.
 
-Esta restricción permite eliminar los campos con contraseñas, pero permite a la cuenta externa acceder a ella desde la interfaz de todos los usuarios. Obtenga más información en [esta página](../dev/restrict-pi-view.md).
+Esta restricción permite eliminar los campos de contraseñas, pero deja la cuenta externa accesible desde la interfaz para todos los usuarios. Obtenga más información en [esta página](../dev/restrict-pi-view.md).
 
 1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
@@ -115,10 +115,10 @@ La gestión del acceso es una parte importante del refuerzo de la seguridad. Est
 
 Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.), siga siempre estas directrices:
 
-* Secuencias de comandos: Intente evitar las declaraciones SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para usar en la lista de permitidos.
+* **Secuencias de comandos**: Intente evitar las declaraciones SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para usar en la lista de permitidos.
 
-* Proteja el modelo de datos: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
+* **Proteja el modelo** de datos: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
 
-* Añadir captchas en aplicaciones web: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
+* **Añadir captchas en aplicaciones** web: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
 
 :arrow_upper_right: Obtenga más información en [Documentación de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic)
