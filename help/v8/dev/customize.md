@@ -8,10 +8,10 @@ role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: ddf60fb823cb0df99bdf3bc99f17d7a1abe6a33b
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 21%
+source-wordcount: '562'
+ht-degree: 20%
 
 ---
 
@@ -25,13 +25,13 @@ Obtenga información sobre cómo **personalizar la instancia de Campaign**
 
 ## Crear nuevos campos de datos y esquemas
 
-Adobe Campaign emplea esquemas de datos para:
+Adobe Campaign utiliza esquemas de datos para:
 
 * Definir el modo en que los objetos de datos de la aplicación están vinculados a las tablas de bases de datos subyacentes
 * Definir vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign
 * Definir y describir los campos individuales incluidos en cada objeto
 
-Puede añadir un campo a una tabla existente, como la tabla de destinatarios (nms:recipient), debe ampliar ese esquema.
+Por ejemplo, para añadir un campo a una tabla existente, como la tabla de destinatarios (nms:recipient), debe ampliar ese esquema.
 
 Hay dos modos de extensión de tabla disponibles:
 
@@ -44,7 +44,7 @@ Hay dos modos de extensión de tabla disponibles:
    :bulb: Aprenda a ampliar un esquema existente en [esta sección](../dev/extend-schema.md).
 
 
-Puede crear nuevas tablas en la base de datos de Campaign y ampliar el modelo de datos integrado.
+También puede crear nuevas tablas en la base de datos de Campaign y ampliar el modelo de datos integrado.
 
 Para añadir un tipo de datos completamente nuevo que no exista de forma predeterminada en Adobe Campaign (por ejemplo, una tabla de contratos), puede crear un esquema personalizado directamente. Para obtener más información, consulte [este ejemplo](../dev/create-schema.md#example--creating-a-contract-table).
 
@@ -57,7 +57,7 @@ Para añadir un tipo de datos completamente nuevo que no exista de forma predete
 
 ## Modificación de los formularios de entrada
 
-Los formularios de entrada de Campaign se pueden adaptar para adaptarse a su implementación. Puede añadir o quitar campos modificando el contenido XML.
+Los formularios de entrada de Campaign se pueden adaptar a su implementación. Puede agregar o quitar campos de formulario modificando el contenido XML.
 
 :bulb: Aprenda a modificar un formulario de entrada existente o crear un nuevo formulario en [esta sección](../dev/forms.md).
 
