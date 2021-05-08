@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: Prácticas recomendadas del modelo de datos
 description: Conozca las prácticas recomendadas de extensión del modelo de datos de Campaign
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 8da6928096feec988d6495fdb617dda7d7cac6ff
 workflow-type: tm+mt
-source-wordcount: '2708'
+source-wordcount: '2663'
 ht-degree: 4%
 
 ---
@@ -17,7 +17,7 @@ Este documento describe las recomendaciones clave al diseñar el modelo de datos
 
 El sistema Adobe Campaign es muy flexible y se puede ampliar más allá de la implementación inicial. Sin embargo, aunque las posibilidades son infinitas, es fundamental tomar decisiones sabias y construir bases sólidas para empezar a diseñar su modelo de datos.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](datamodel.md) .
+Para comprender mejor las tablas integradas de Campaign y cómo se relacionan entre sí, consulte [esta sección](datamodel.md) .
 
 :bulb: Lea [esta sección](schemas.md) para empezar a utilizar esquemas de Campaign.
 
@@ -67,9 +67,8 @@ Para garantizar una buena arquitectura y un buen rendimiento de su sistema, siga
 
 ### Elección de campos {#choice-of-fields}
 
-Un campo debe almacenarse en una tabla si tiene un propósito de objetivo o personalización. En otras palabras, si un campo no se utiliza para enviar un correo electrónico personalizado o se utiliza como criterio en una consulta, ocupa espacio en disco, mientras que es inútil.
+Un campo debe almacenarse en una tabla si tiene un propósito de objetivo o personalización. En otras palabras, si un campo no se utiliza para enviar un correo electrónico personalizado o se utiliza como criterio en una consulta, ocupará innecesariamente espacio en disco.
 
-Para instancias híbridas y locales, FDA (Acceso de Datos Federados, una función opcional que permite acceder a datos externos) cubre la necesidad de agregar un campo &quot;sobre la marcha&quot; durante un proceso de campaña. No es necesario importar todo si tiene FDA. Para obtener más información, consulte [Acceso de datos federado](../connect/fda.md).
 
 ### Elección de claves {#choice-of-keys}
 
@@ -97,7 +96,7 @@ En la tabla siguiente se describen estos identificadores y su finalidad.
 | Nombre (o nombre interno) | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente, normalmente con un nombre generado.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign y no debe estar vacío.</li></ul> | <ul><li>Cambie el nombre del registro generado por Adobe Campaign si el objeto está diseñado para implementarse de un entorno a otro.</li><li>Cuando un objeto tiene un atributo de espacio de nombres (*schema*, por ejemplo), este área de nombres común se utilizará en todos los objetos personalizados creados. Algunas áreas de nombres reservadas no deben usarse: *nms*, *xtk*.</li><li>Cuando un objeto no tiene área de nombres (*workflow* o *delivery*, por ejemplo), esta noción de área de nombres se agregaría como prefijo de un objeto de nombre interno: *namespaceMyObjectName*.</li><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;. Todos estos caracteres se sustituirían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
 | Etiqueta | <ul><li>La etiqueta es el identificador comercial de un objeto o registro en Adobe Campaign.</li><li>Este objeto permite espacios y caracteres especiales.</li><li>No garantiza la exclusividad de un registro.</li></ul> | <ul><li>Se recomienda determinar una estructura para las etiquetas de objeto.</li><li>Esta es la solución más fácil de usar para identificar un registro u objeto para un usuario de Adobe Campaign.</li></ul> |
 
-La clave principal de Adobe Campaign es un UUID generado automáticamente para todas las tablas integradas y puede ser la misma para las tablas personalizadas.
+La clave principal de Adobe Campaign es un UUID generado automáticamente para todas las tablas integradas. También se puede utilizar un UUID para tablas personalizadas.
 
 Aunque el número de ID sea infinito, debe cuidar el tamaño de la base de datos para garantizar un rendimiento óptimo. Para evitar cualquier problema, asegúrese de ajustar la configuración de depuración de la instancia. Para obtener más información, consulte [esta sección](#data-retention).
 
@@ -123,7 +122,7 @@ Al crear una tabla personalizada, tiene dos opciones:
 
 ### Vínculos {#links}
 
-Tenga cuidado con la integridad &quot;propia&quot; de las tablas grandes. La eliminación de registros que tienen tablas anchas con integridad &quot;propia&quot; puede detener la instancia. La tabla está bloqueada y las eliminaciones se realizan una por una. Así que es mejor usar integridad &quot;neutral&quot; en tablas secundarias que tienen grandes volúmenes.
+Tenga cuidado con la integridad &quot;propia&quot; de las tablas grandes. La eliminación de registros que tienen tablas grandes con integridad &quot;propia&quot; puede detener la instancia. La tabla está bloqueada y las eliminaciones se realizan una por una. Así que es mejor usar integridad &quot;neutral&quot; en tablas secundarias que tienen grandes volúmenes.
 
 Declarar un vínculo como una unión externa no es bueno para el rendimiento. El registro de id cero emula la funcionalidad de unión externa. No es necesario declarar las uniones externas si el vínculo utiliza el autouuid.
 
