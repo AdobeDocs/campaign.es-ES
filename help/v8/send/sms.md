@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: bbaa603e73d4c1618f326624600ea3d357b265e6
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 26%
+source-wordcount: '309'
+ht-degree: 22%
 
 ---
 
@@ -30,9 +30,9 @@ Los pasos clave para enviar un SMS se detallan en estas secciones:
 Antes de comenzar a enviar mensajes SMS:
 
 * Asegúrese de que los perfiles de los destinatarios contengan al menos un teléfono móvil en su perfil.
-* Lea las [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages) de Adobe Campaign Classic que también se aplican a Campaign v8.
+* Revise las [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=en#sending-messages) de Adobe Campaign Classic que también se aplican a Campaign v8.
 
-Además, debe estar familiarizado con el protocolo y la configuración de SMS. Consulte la configuración de conexión entre Adobe Campaign y un proveedor SMPP en [este documento](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)
+Además, debe estar familiarizado con el protocolo y la configuración SMS. Consulte la configuración de conexión entre Adobe Campaign y un proveedor SMPP en [este documento](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol.html?lang=en#sending-messages)
 
 Para obtener información global sobre cómo crear un envío, consulte [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages).
 
