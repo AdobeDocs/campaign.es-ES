@@ -8,7 +8,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 translation-type: tm+mt
-source-git-commit: 0f9827319484a84e762cf651fed18d704d4af66e
+source-git-commit: f413844de6b71b6a7d5b681af9ceb47a1f5ecaae
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 41%
@@ -25,7 +25,7 @@ ht-degree: 41%
 
    Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Esta es la razón por la que creemos que es fundamental que ejecute la versión más reciente de Adobe Campaign.
 
-   Póngase en contacto con el equipo de atención al cliente para actualizar su entorno.
+   Póngase en contacto con el equipo de atención al cliente de Adobe para actualizar su entorno.
 
 1. ¿Cómo puedo conectarme a Campaign v8?
 
