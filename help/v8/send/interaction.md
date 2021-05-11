@@ -7,7 +7,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: 6f84e739f25caf5dbd2ef964e38a6264e4b4342b
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 37%
@@ -68,7 +68,7 @@ Antes de empezar, como **Administrator** de Campaign, asegúrese de realizar las
 
 1. Crear perfiles de usuario. [Más información](interaction-operators.md).
 1. (opcional) Cree un entorno de oferta para cada dimensión de segmentación. [Obtenga más información](interaction-env.md)
-1. Cree reglas de tipología para cada entorno. [Más información](interaction-offers.md#offer-presentation).
+1. Cree reglas de tipología para cada entorno. [Más información](interaction-offer.md#offer-presentation).
 1. Cree espacios de oferta para cada entorno y configure las funciones de renderización. [Más información](interaction-offer-spaces.md).
 Si el espacio está definido mediante un canal unitario en modo identificado, se deben especificar los parámetros avanzados para este espacio.
 
