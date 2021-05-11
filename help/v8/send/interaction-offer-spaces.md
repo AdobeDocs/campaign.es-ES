@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 42%
+source-wordcount: '606'
+ht-degree: 39%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 42%
 El contenido del catálogo de ofertas se configura en espacios de oferta. De forma predeterminada, el contenido puede incluir los campos siguientes: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** y **[!UICONTROL Text content]**. La secuencia de campos se configura en el espacio de oferta.
 
 Como **administrador técnico**, puede crear espacios de oferta en el entorno Design . Debe tener acceso a la subcarpeta del espacio de oferta. Una vez creados, estos espacios de oferta se duplican automáticamente en el entorno Live durante la aprobación de la oferta.
-
-Los parámetros avanzados permiten especificar una clave de identificación de contacto (que puede estar formada por varios elementos, el campo de nombre y de correo electrónico al mismo tiempo, por ejemplo). Para obtener más información, consulte la sección [Presentación de una oferta identificada](../../interaction/using/integration-via-javascript--client-side-.md#presenting-an-identified-offer).
 
 La renderización HTML se crea mediante una función de renderización. La secuencia de los campos definidos en la función de renderización debe ser idéntica a la secuencia configurada en el contenido.
 
@@ -66,8 +64,6 @@ Para crear un nuevo espacio de oferta, siga los pasos a continuación:
 1. Inserte la función de renderización.
 
    ![](assets/offer_space_create_007.png)
-
-Si es necesario, puede sobrecargar las funciones de renderización de texto y HTML. [Más información](../../interaction/using/about-inbound-channels.md).
 
 ## Estados de propuesta de oferta {#offer-proposition-statuses}
 
@@ -161,5 +157,5 @@ Si un destinatario no es elegible para ninguna oferta, esto se muestra en la vis
 ![](assets/offer_space_overview_001.png)
 
 <!--
-The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to [Extension example](../../interaction/using/extension-example.md)).
+The preview can ignore contexts when they are restricted to a space. This is the case when the interaction schema has been extended to add fields referenced in a space using an inbound channel (for more on this, refer to Extension example.
 -->
