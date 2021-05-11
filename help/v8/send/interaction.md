@@ -7,7 +7,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 37%
@@ -68,22 +68,22 @@ Antes de empezar, como **Administrator** de Campaign, asegúrese de realizar las
 
 1. Crear perfiles de usuario. [Más información](interaction-operators.md).
 1. (opcional) Cree un entorno de oferta para cada dimensión de segmentación. [Obtenga más información](interaction-env.md)
-1. Cree reglas de tipología para cada entorno. [Más información](../../interaction/using/managing-offer-presentation.md#creating-and-referencing-an-offer-presentation-rule).
-1. Cree espacios de oferta para cada entorno y configure las funciones de renderización. [Más información](../../interaction/using/creating-offer-spaces.md).
+1. Cree reglas de tipología para cada entorno. [Más información](interaction-offers.md#offer-presentation).
+1. Cree espacios de oferta para cada entorno y configure las funciones de renderización. [Más información](interaction-offer-spaces.md).
 Si el espacio está definido mediante un canal unitario en modo identificado, se deben especificar los parámetros avanzados para este espacio.
 
 ### Crear y publicar el catálogo de ofertas {#managing-the-offer-catalog-}
 
 Como **Offer manager** debe realizar las siguientes tareas:
 
-1. Cree categorías de oferta en entornos de diseño. [Más información](../../interaction/using/creating-offer-categories.md).
-1. Cree ofertas en entornos de diseño. [Más información](../../interaction/using/creating-an-offer.md).
-1. Apruebe y publique ofertas en uno o varios espacios para que estén disponibles en entornos interactivos para el gestor de envíos. [Más información](../../interaction/using/approving-and-activating-an-offer.md).
+1. Cree categorías de oferta en entornos de diseño. [Más información](interaction-offer-catalog.md#creating-offer-categories).
+1. Cree ofertas en entornos de diseño. [Más información](interaction-offer.md).
+1. Apruebe y publique ofertas en uno o varios espacios para que estén disponibles en entornos interactivos para el gestor de envíos. [Más información](interaction-offer.md#approve-offers).
 
 ### Aproveche el catálogo de ofertas {#using-the-offer-catalog-}
 
 Como **Delivery manager** debe realizar las siguientes tareas:
 
 1. Cree una campaña.
-1. Haga referencia a una oferta de la campaña o la entrega. [Más información](../../interaction/using/about-outbound-channels.md).
+1. Haga referencia a una oferta de la campaña o la entrega. [Más información](interaction-send-offers.md).
 
