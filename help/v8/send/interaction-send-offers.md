@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 75%
+source-wordcount: '1282'
+ht-degree: 74%
 
 ---
 
@@ -150,7 +150,7 @@ De forma predeterminada, cuando se utiliza una actividad **Enrichment** para ent
 
 Sin embargo, se puede almacenar esta información de la siguiente manera:
 
-1. Cree un recurso al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega. [Más información](../../interaction/using/integrating-an-offer-via-a-workflow.md#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Cree un recurso al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega. [Más información](#specifying-an-offer-or-a-call-to-the-offer-engine).
 1. En la ventana principal de la actividad, seleccione **[!UICONTROL Edit additional data...]**
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -203,8 +203,7 @@ Para ello, utilice el proceso siguiente:
 
       ![](assets/int_offer_per_cell1.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Para obtener más información sobre esto, consulte la sección [Inserción de una propuesta de oferta en una sección de entrega](../../interaction/using/integrating-an-offer-via-the-wizard.md#inserting-an-offer-proposition-into-a-delivery).
-
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido.
 
 <!--
 
