@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: 113f4b3e91c40438c4809bdb97976b58935a2f18
+source-git-commit: 4bc62dcf806abd71e8230ce209d9151a4188b62e
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 39%
+source-wordcount: '388'
+ht-degree: 38%
 
 ---
 
@@ -26,7 +26,7 @@ Dos tipos de operadores pueden utilizar Campaign Interaction: **Administradores 
 
 1. Creación de un nuevo operador.
 
-Los pasos para crear un operador en Campaign se detallan en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   :arrow_upper_right: Los pasos para crear un operador en Campaign se detallan en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Offer manager]**.
 
@@ -49,7 +49,8 @@ Tenga en cuenta que si se utilizan ofertas en un flujo de trabajo, el operador d
 ## Crear un operador de administrador de envíos {#delivery-manager}
 
 1. Creación de un nuevo operador.
-Los pasos para crear un operador en Campaign se detallan en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+
+   :arrow_upper_right: Los pasos para crear un operador en Campaign se detallan en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Delivery manager]**.
 
