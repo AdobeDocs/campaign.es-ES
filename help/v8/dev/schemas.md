@@ -4,9 +4,9 @@ product: Adobe Campaign
 title: Trabajo con esquemas de Campaign
 description: Introducción a los esquemas
 translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1242'
 ht-degree: 7%
 
 ---
@@ -162,7 +162,7 @@ Los atributos permiten definir los campos que conforman el objeto de datos. Pued
 
 ![](assets/schemaextension_2.png)
 
-La lista completa de atributos está disponible en la sección `<attribute>` del elemento de la sección [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Estos son algunos de los atributos más utilizados: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label a13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref **3/>,**@xml **,**@type **.**
+La lista completa de atributos está disponible en la sección del elemento `<attribute>` de la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Estos son algunos de los atributos más utilizados: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label a13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref **3/>,**@xml **,**@type **.**
 
 :arrow_upper_right: Para obtener más información sobre cada atributo, consulte la descripción del atributo en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
