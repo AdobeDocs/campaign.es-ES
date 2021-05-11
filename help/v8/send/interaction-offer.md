@@ -7,7 +7,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 67%
@@ -188,9 +188,9 @@ Ahora puede aprobar y activar la oferta para que esté disponible en el entorno 
 
 :arrow_upper_right: Para obtener más información, consulte la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=en#approving-offer-content)
 
-## Administración de presentación de ofertas
+## Administración de presentación de ofertas{#offer-presentation}
 
-Campaign permite controlar el flujo de propuestas de ofertas mediante reglas de presentación. Estas reglas, que son específicas de la interacción de campaña, son reglas de tipología. Permiten excluir ofertas basadas en el historial de propuestas que ya se hayan hecho a un destinatario. Se las menciona en el entorno..
+Campaign permite controlar el flujo de propuestas de ofertas mediante reglas de presentación. Estas reglas, que son específicas de la interacción de campaña, son **reglas de tipología**. Permiten excluir ofertas basadas en el historial de propuestas que ya se hayan hecho a un destinatario. Se las menciona en el entorno..
 
 :arrow_upper_right: Para obtener más información, consulte la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=en#managing-offers)
 
