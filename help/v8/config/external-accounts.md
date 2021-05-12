@@ -6,11 +6,10 @@ description: Cuentas externas de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 3f63fa1f599252311e2539aa35d4917c03e079b4
 workflow-type: tm+mt
-source-wordcount: '134'
-ht-degree: 18%
+source-wordcount: '148'
+ht-degree: 16%
 
 ---
 
@@ -19,6 +18,12 @@ ht-degree: 18%
 Adobe Campaign viene con un conjunto de cuentas externas predefinidas. Para configurar conexiones con sistemas externos, puede crear nuevas cuentas externas.
 
 Los procesos técnicos utilizan las cuentas externas como flujos de trabajo técnicos o flujos de trabajo de campaña. Por ejemplo, al configurar una transferencia de archivos en un flujo de trabajo o un intercambio de datos con cualquier otra aplicación (Adobe Target, Experience Manager, etc.), debe seleccionar una cuenta externa.
+
+
+>[!CAUTION]
+>
+>La cuenta externa de enrutamiento de envío de correo electrónico interna no debe estar habilitada en Campaign v8.
+
 
 :arrow_upper_right: Obtenga información sobre cómo crear y configurar cuentas externas en [Campaign Classic documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts.html)
 
