@@ -7,10 +7,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '653'
 ht-degree: 6%
 
 ---
@@ -23,15 +22,15 @@ Campaign está disponible como instancias individuales y cada instancia represen
 
 Tres tipos de entornos disponibles con el Cloud Service de Campaign:
 
-* Entorno de producción: aloja las aplicaciones para los profesionales del negocio.
+* **Entorno** de producción: aloja las aplicaciones para los profesionales del negocio.
 
-* Entorno de ensayo: se utiliza para varias pruebas de rendimiento y calidad antes de que los cambios en la aplicación se inserten en el entorno de producción.
+* **Entorno de ensayo**: se utiliza para varias pruebas de rendimiento y calidad antes de que los cambios en la aplicación se inserten en el entorno de producción.
 
-* Entorno de desarrollo: permite a los desarrolladores implementar Campaign en las mismas condiciones de tiempo de ejecución que los entornos de ensayo y producción.
+* **Entorno** de desarrollo: permite a los desarrolladores implementar Campaign en las mismas condiciones de tiempo de ejecución que los entornos de ensayo y producción.
 
 Puede exportar e importar paquetes de un entorno a otro.
 
-:arrow_upper_right: Obtenga más información sobre los paquetes en la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=en#about-data-packages)
+:arrow_upper_right: Obtenga más información sobre los paquetes en la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
 
 ## Implementación intermediaria{#mid-sourcing-deployment}
 
