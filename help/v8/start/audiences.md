@@ -8,9 +8,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 translation-type: tm+mt
-source-git-commit: ea4e73f1c0810a46a0df4e4dff929e73830115bd
+source-git-commit: 3870395ec74dd51ed42944981a3851d1052ee255
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '702'
 ht-degree: 40%
 
 ---
@@ -30,7 +30,7 @@ En Adobe Campaign, los destinatarios son los perfiles seleccionados por defecto 
 
 :arrow_forward: [Comprender qué es un perfil en video](https://video.tv.adobe.com/v/35611?quality=12)
 
-:arrow_upper_right: Aprenda a administrar perfiles en [esta guía](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?target=&quot;_blank&quot;).
+:arrow_upper_right: Aprenda a administrar perfiles en [esta guía](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
 
 ## Privacidad y consentimiento
 
