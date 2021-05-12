@@ -4,10 +4,9 @@ product: Adobe Campaign
 title: Arquitectura general
 description: Arquitectura general de Campaign v8
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 51efce79e4195c9d53db167be80c7adcda811e21
 workflow-type: tm+mt
-source-wordcount: '1162'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -123,3 +122,10 @@ La base de datos de Adobe Campaign Cloud se basa en [!DNL Snowflake] que contien
 Los clientes pueden implementar Adobe Campaign utilizando el data mart y los esquemas predefinidos, y también pueden ampliarlo. Adobe Campaign accede a todos los datos del data mart a través de llamadas SQL. Adobe Campaign también proporciona un complemento completo de las herramientas de extracción, transformación y carga (ETL) para realizar la importación y exportación de datos dentro y fuera del sistema.
 
 ![](assets/data-flow-diagram.png)
+
+
+>[!CAUTION]
+>
+>Con **Cloud Services administrados de Campaign**, su entorno y la configuración inicial se han configurado mediante Adobes, según los términos del acuerdo de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
+>
+>Si necesita utilizar un complemento de Campaign o una funcionalidad específica que no se haya aprovisionado por usted, debe ponerse en contacto con **Adobe Customer Care**.
