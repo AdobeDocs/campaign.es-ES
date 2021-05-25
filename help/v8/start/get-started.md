@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Introducción a Campaign v8
 description: Descubra las funcionalidades clave, la interfaz de usuario y las directrices globales
@@ -7,11 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-translation-type: tm+mt
-source-git-commit: cebe3fedb97a5570aa404bf97709e6b26bf90d7c
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 47%
+source-wordcount: '898'
+ht-degree: 44%
 
 ---
 
@@ -21,9 +20,9 @@ Adobe Campaign proporciona una plataforma para diseñar experiencias de clientes
 
 Utilice Campaign para:
 
-* Impulse la personalización y la participación mediante una única vista accesible del cliente
-* Integración de canales de correo electrónico, móviles, en línea y sin conexión en el recorrido del cliente
-* Automatice el envío de mensajes y ofertas significativos y oportunos
+* **** Impulse la personalización y la participación mediante una sola vista accesible del cliente
+* **** Integración de canales de correo electrónico, móviles, en línea y sin conexión en el recorrido del cliente
+* **** Automatizar el envío de mensajes y ofertas significativos y oportunos
 
 ![](assets/ac-capabilities.png)
 
@@ -70,7 +69,7 @@ Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemp
 
 Adobe Campaign permite monitorizar e interpretar el comportamiento de sus clientes mediante la mejora gradual de sus datos y perfiles. Las herramientas de análisis y elaboración de informes le permiten poner en marcha cada nueva campaña, segmentar mejor sus iniciativas de marketing y optimizar el impacto y la rentabilidad de la inversión.
 
-:bulb:  Obtenga más información sobre las capacidades de informes y seguimiento en [esta sección](reporting.md).
+:bulb: Obtenga más información sobre las capacidades de informes y seguimiento en [esta sección](reporting.md).
 
 ## Integraciones con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
@@ -86,11 +85,36 @@ Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implemen
 
 ## Espacio de trabajo y personalización
 
-El espacio de trabajo de Campaign está disponible a través de la consola de cliente.
+El espacio de trabajo de Campaign está disponible a través de la [Consola de cliente](../dev/general-architecture.md).
 
-:bulb:  Aprenda a utilizar el espacio de trabajo de Campaign en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+:bulb: [Obtenga más información sobre la Consola de cliente de Campaign](../start/connect.md).
 
-:bulb:  Aprenda a personalizar listas en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
+El espacio de trabajo de Campaign se puede adaptar según sus necesidades.
+
+:arrow_upper_right:  Aprenda a utilizar el espacio de trabajo de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html)
+
+:arrow_upper_right:  Obtenga información sobre cómo personalizar listas en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html)
 
 También puede acceder a algunas funciones a través de la web.
+
+:bulb: [Obtenga más información sobre Campaign Web Access](../start/connect.md#web-access).
+
+
+## Idiomas
+
+La interfaz de usuario de Campaign v8 está disponible en los siguientes idiomas:
+
+* Inglés (RU)
+* Inglés (EE. UU.)
+* Francés
+* Alemán
+* Japonés
+
+El idioma se selecciona durante el proceso de instalación.
+
+>[!CAUTION]
+>
+>No se puede cambiar el idioma después de la creación de la instancia.
+
+Fechas y formatos de hora afectados por el idioma. Para obtener más información, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time).
 
