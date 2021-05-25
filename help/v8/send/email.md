@@ -1,15 +1,14 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Envío de correos electrónicos con Adobe Campaign
 description: Introducción a los correos electrónicos en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '362'
 ht-degree: 3%
 
 ---
@@ -18,13 +17,13 @@ ht-degree: 3%
 
 Los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo.
 
-:arrow_upper_right: Obtenga más información en la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+:arrow_upper_right: Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
 
 ## Creación de la primera entrega de correo electrónico
 
 Cree correos electrónicos personalizados y relevantes para el contexto que sean coherentes con el resto de la experiencia del cliente.
 
-:arrow_upper_right: [Obtenga información sobre cómo crear un envío de correo electrónico en la documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
+:arrow_upper_right: [Obtenga información sobre cómo crear un envío de correo electrónico en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case--creating-an-email-delivery.html)
 
 Puede crear directamente en Campaign o importar la audiencia, así como el contenido del correo electrónico. Utilice los vínculos siguientes para aprender a:
 
@@ -44,7 +43,7 @@ Puede crear directamente en Campaign o importar la audiencia, así como el conte
 
 Campaign ofrece varias formas de probar y validar los correos electrónicos antes de enviarlos a las audiencias.
 
-:arrow_upper_right: [Aplique las prácticas recomendadas enumeradas en la documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
+:arrow_upper_right: [Aplique las prácticas recomendadas enumeradas en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html)
 
 Puede:
 
@@ -54,11 +53,11 @@ Puede:
 * Uso de grupos de control
 * Compruebe la renderización del correo electrónico
 
-:arrow_upper_right: [Más información en la documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+:arrow_upper_right: [Más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 ## Supervisión de los correos electrónicos
 
 Una vez enviado, compruebe su estado de envío en el panel de envío y acceda a los registros de envío y a los informes para confirmar que los mensajes se han enviado correctamente.
 
-:arrow_upper_right: [Más información en la documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
+:arrow_upper_right: [Más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
