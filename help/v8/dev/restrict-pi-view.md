@@ -1,10 +1,9 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Restringir la vista IP
 description: Obtenga información sobre cómo restringir la vista IP
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 0%
