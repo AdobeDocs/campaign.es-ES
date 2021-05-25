@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: 'Campaign Classic v7: matriz de capacidades de Campaign v8'
 description: Comprender las diferencias entre Campaign Classic v7 y Campaign v8
@@ -7,50 +7,45 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-translation-type: tm+mt
-source-git-commit: e1308398e5a33f2ad9659ad632aeb05af9916e69
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 3%
+source-wordcount: '572'
+ht-degree: 4%
 
 ---
 
-# Campaign Classic v7: Funcionalidades de Campaign v8{#gs-matrix}
+# [!DNL Campaign Classic] v7: funciones  [!DNL Campaign] v8{#gs-matrix}
 
-
-Como usuario Campaign Classic v7 existente, no debería esperar grandes interrupciones en la forma en que normalmente interactúa con Adobe Campaign. La mayoría de los cambios en la versión 8 no están visibles, excepto los pequeños cambios que aparecen en la interfaz de usuario y en los pasos de configuración.
+Como usuario [!DNL Campaign Classic] v7 existente, no debería esperar grandes interrupciones en la forma en que normalmente interactúa con [!DNL Adobe Campaign]. La mayoría de los cambios en la versión 8 no están visibles, excepto los pequeños cambios que aparecen en la interfaz de usuario y en los pasos de configuración.
 
 Cambios clave:
 
 * Crear segmentos hasta 200 veces más rápido
-
 * Aumentar la velocidad de entrega
+* Informes en tiempo real con Cubes
 
-* Informes en tiempo real
+Como usuario [!DNL Campaign Classic], tenga en cuenta que la mayoría de las funciones [!DNL Campaign Classic] v7 están disponibles con [!DNL Campaign] v8, excepto un pequeño conjunto de ellas, enumeradas en [esta sección](#gs-removed). Otros vendrán en futuras versiones. [Obtenga más información en esta sección](#gs-unavailable-features)
 
-Como usuario Campaign Classic, tenga en cuenta que la mayoría de las funciones de Campaign Classic v7 están disponibles con Campaign v8, excepto un pequeño conjunto de ellas, que se enumeran en [esta sección](#gs-removed). Otros vendrán en futuras versiones. [Obtenga más información](#gs-unavailable-features)
-
+:bulb: Obtenga más información sobre la arquitectura [!DNL Campaign] v8 en [esta página](../dev/architecture.md).
 
 ## Cambios en la configuración del producto
 
-### Campaña y [!DNL Snowflake] {#ac-gs-snowflake}
+### [!DNL Campaign] y [!DNL Snowflake] {#ac-gs-snowflake}
 
-El almacenamiento en la nube se realiza en [!DNL Snowflake]: una nueva cuenta externa garantiza la conectividad con la base de datos en la nube. [Más información](#ac-gs-snowflake).
+[!DNL Adobe Campaign] v8 funciona con dos bases de datos: una base de datos local para la interfaz de usuario mensajería en tiempo real y consultas unitarias y escritura a través de API, y una base de datos de Cloud para la ejecución de campañas, consultas por lotes y la ejecución del flujo de trabajo.
 
-Este es un cambio fundamental en la arquitectura del software. Ahora, los datos son remotos y Campaign federa todos los datos, incluidos los perfiles. Los procesos de Campaign ahora escalan de extremo a extremo, desde la segmentación hasta la ejecución del mensaje: la ingesta de datos, la segmentación, la segmentación, las consultas, las entregas ahora se ejecutan normalmente en minutos.
+Este es un cambio fundamental en la arquitectura del software. Ahora, los datos son remotos y Campaign federa todos los datos, incluidos los perfiles. [!DNL Campaign] ahora, los procesos escalan de principio a fin, desde la segmentación hasta la ejecución del mensaje: la ingesta de datos, la segmentación, la segmentación, las consultas, las entregas ahora se ejecutan normalmente en minutos. Esta nueva versión resuelve todo el desafío de escalar mientras mantiene el mismo nivel de flexibilidad y extensibilidad. El número de perfiles es casi ilimitado y se puede ampliar la retención de datos.
 
-Esta nueva versión resuelve todo el desafío de escalar mientras mantiene el mismo nivel de flexibilidad y extensibilidad. El número de perfiles es casi ilimitado y se puede ampliar la retención de datos.
+El almacenamiento en la nube se realiza en **[!DNL Snowflake]**: una nueva **cuenta externa** integrada garantiza la conectividad con la base de datos de Cloud. Está configurado por Adobe y no debe modificarse. [Más información](../config/external-accounts.md).
 
-Una nueva cuenta externa **externa** integrada está dedicada a FDA completa. Este es el corazón de la conectividad de la base de datos de Cloud. Recomendamos salir tal cual.
-
-Cualquier esquema o tabla integrado que deba moverse o replicarse en la base de datos de Cloud viene con una extensión de esquema integrada en el espacio de nombres **xxl**.
-
-Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos local de Campaign a la base de datos de la nube [!DNL Snowflake] y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
+Cualquier esquema o tabla integrado que deba moverse o replicarse en la base de datos de Cloud viene con una extensión de esquema integrada en el espacio de nombres **xxl**. Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos local [!DNL Campaign] a la base de datos de [!DNL Snowflake] Cloud y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
 
 >[!CAUTION]
 >
-> Los datos del cliente no se almacenan en la base de datos local de Campaign. Como consecuencia, cualquier tabla personalizada debe crearse en la base de datos de Cloud.
+> Los datos del cliente no se almacenan en la base de datos local [!DNL Campaign]. Como consecuencia, cualquier tabla personalizada debe crearse en la base de datos de Cloud.
 
+
+Hay API específicas disponibles para administrar los datos entre la base de datos local y la base de datos en la nube. Descubra cómo funcionan estas nuevas API y cómo utilizarlas en [esta página](../dev/new-apis.md).
 
 ### Duplicación de datos
 
