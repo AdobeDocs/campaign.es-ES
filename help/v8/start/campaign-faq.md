@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Preguntas más frecuentes sobre Campaign v8
 description: Preguntas y respuestas frecuentes sobre Discover Campaign
@@ -7,56 +7,84 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-translation-type: tm+mt
-source-git-commit: f413844de6b71b6a7d5b681af9ceb47a1f5ecaae
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 41%
+source-wordcount: '652'
+ht-degree: 40%
 
 ---
 
 # Preguntas frecuentes{#faq}
 
-¿Necesita ayuda mientras trabaja con Campaign? Lea las 10 preguntas más frecuentes a continuación y otras preguntas frecuentes de esa página.
+¿Necesita ayuda mientras trabaja con Campaign? Lea las preguntas / respuestas principales a continuación.
 
-1. ¿Cómo puedo actualizar Campaign a la versión más reciente?
+1. **¿Cómo puedo actualizar Campaign a la versión más reciente?**
 
    Adobe Campaign se actualiza periódicamente. Cada año se publican versiones menores con nuevas funciones, mejoras y correcciones. Además, lanzamos versiones periódicamente solamente con correcciones acumulativas.
 
    Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Esta es la razón por la que creemos que es fundamental que ejecute la versión más reciente de Adobe Campaign.
 
-   Póngase en contacto con el equipo de atención al cliente de Adobe para actualizar su entorno.
+   : globo_voz: Como usuario de Cloud Services administrados, la instancia se actualiza en Adobe con cada nueva versión.
 
-1. ¿Cómo puedo conectarme a Campaign v8?
+1. **¿Cómo puedo conectarme a Campaign v8?**
+
+   Debe descargar e instalar la consola del cliente de Campaign para conectarse a Adobe Campaign.
 
    :bulb: [Haga clic aquí para obtener más información](connect.md).
 
-1. ¿Cómo mejorar la capacidad de envío de correo electrónico?
+1. **¿Campaign v8 se puede instalar en un entorno local o híbrido?**
+
+   Por ahora, Campaign v8 solo está disponible en Cloud Services administrados, totalmente alojados por Adobe.
+
+1. **¿Cómo mejorar la capacidad de envío de correo electrónico?**
+
+   La capacidad de envío de correo electrónico, un componente crítico para el éxito del programa de marketing de cada remitente, se caracteriza por criterios y reglas que cambian constantemente. La navegación eficaz en este mundo digital requiere un ajuste regular de su estrategia de correo electrónico, teniendo en cuenta las tendencias clave de envío, para llegar mejor a sus audiencias.
 
    :arrow_upper_right: Consulte esta guía para obtener más información sobre [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
-   :arrow_upper_right: Aprenda a implementar la capacidad de envío en Campaign [en esta sección](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
+   :arrow_upper_right: Aprenda a implementar la capacidad de envío en Campaign [en esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html)
 
-1. ¿Cómo puedo asegurarme de que mi envío se envíe sin errores?
+1. **¿Cómo puedo asegurarme de que mi envío se envíe sin errores?**
 
    Adobe Campaign incluye un conjunto de paneles y herramientas para monitorizar las entregas de correo electrónico.
 
    [Lea la documentación de Campaign Classic v7 para ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html) saber cómo asegurarse de que los mensajes se envían, monitorizar la ejecución y actuar en consecuencia si se produce un error.
 
-1. ¿Se puede monitorizar la ejecución del flujo de trabajo?
+1. **¿Se puede monitorizar la ejecución del flujo de trabajo?**
 
-   :arrow_upper_right: Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo de Campaign [en la documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
+   :arrow_upper_right: Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo de Campaign [en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html).
 
-1. ¿Con qué sistemas y componentes es compatible Campaign v8?
+1. **¿Con qué sistemas y componentes es compatible Campaign v8?**
 
    Puede obtener la lista de todos los sistemas y componentes compatibles con la última versión de Campaign en [Adobe Campaign Compatibility matrix](compatibility-matrix.md).
 
-1. ¿Dónde están las notas de la versión de Campaign v8?
-
-   :bulb: Puede acceder a las últimas notas de la versión de Campaign aquí.
-
-1. ¿Cuál es el procedimiento para la configuración del dominio?
+1. **¿Cuál es el procedimiento para la delegación de dominios?**
 
    Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico (mensajes transaccionales, información de marketing, etc.).
 
-   :arrow_upper_right: Utilice el Panel de control de Campaign de Campaign para configurar la delegación de dominios. [Haga clic aquí para obtener más información](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html).
+   : globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para delegar los subdominios a Adobe.
+
+1. **Como usuario Campaign Classic v7, ¿puedo migrar a Campaign v8?**
+
+   Por ahora, Campaign v8 solo está disponible para nuevas implementaciones.
+
+1. **¿Cómo puedo descargar Campaign?**
+
+   Puede obtener el programa de instalación y la consola del cliente desde el Centro de descargas de Adobe.
+
+   [](https://experience.adobe.com/#/downloads/content/software-distributicampaign.html)Haga clic aquí para acceder a la distribución de software de Experience Cloud.
+
+   Obtenga más información sobre el Centro de distribución [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es).
+
+1. **¿Puedo conectarme con expertos en Campaign?**
+
+   Únase a la comunidad de Campaign: buscar respuestas en preguntas existentes o preguntar a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/?profile.language=en)
+
+
+1. **¿Cómo puedo registrar un problema?**
+
+   La creación de un caso le permite ponerse en contacto con el equipo de Asistencia al cliente de Adobe en relación con cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con Asistencia al cliente de Adobe.
+
+   Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminConsole.adobe.com/overview).
+
+   Este sistema requiere cuentas individuales para cada usuario, con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
