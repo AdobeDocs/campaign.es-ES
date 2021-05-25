@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Trabajo con Campaign y Adobe Experience Manager
 description: Aprenda a trabajar con Campaign y Adobe Experience Manager
@@ -7,11 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: 556cd7727c7c2bf0158d59d71ae0131b4c1013ee
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 22%
+source-wordcount: '170'
+ht-degree: 17%
 
 ---
 
@@ -19,13 +18,13 @@ ht-degree: 22%
 
 La integración entre Adobe Campaign y Adobe Experience Manager le permite gestionar el contenido de las entregas de los correos electrónicos y los formularios directamente en Adobe Experience Manager.
 
-También puede insertar recursos directamente desde la biblioteca de recursos de Adobe Experience Manager mientras edita un mensaje de correo electrónico o una página de aterrizaje en Adobe Campaign. Esta funcionalidad se detalla en la sección Activos.**AGREGAR VÍNCULO**
+También puede insertar recursos directamente desde la biblioteca de recursos de Adobe Experience Manager mientras edita un mensaje de correo electrónico o una página de aterrizaje en Adobe Campaign. Esta funcionalidad se detalla en el [capítulo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html) de Adobe Experience Manager Assets.
 
 Esto significa que puede sacar el máximo partido de las funcionalidades de edición de contenido de Adobe Experience Manager y de envío de Adobe Campaign.
 
-:arrow_upper_right: [Obtenga más información en este documento](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
+:arrow_upper_right:  [Obtenga más información en este documento](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=en#aem-and-adobe-campaign-integration-workflow)
 
-:arrow_upper_right: [Descubra esta integración en esta muestra completa](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
+:arrow_upper_right:  [Descubra esta integración en esta muestra completa](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en)
 
-: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/support.md#support) para integrar Adobe Experience Manager con Campaign.
+: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para integrar Adobe Experience Manager con Campaign.
 
