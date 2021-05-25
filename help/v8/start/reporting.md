@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Introducción a los informes de Campaign
 description: Introducción a las funcionalidades de informes de Campaign
@@ -7,8 +7,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-translation-type: tm+mt
-source-git-commit: 43914bcbe3cf0ddb323d99a9df16189a1f687317
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 17%
@@ -33,10 +32,10 @@ reportsAdobe Campaign permite crear informes de los datos de la base de datos. U
 * ****
 CubesAnalice y mida los datos, calcule las estadísticas, simplifique y optimice la creación y el cálculo de informes con Cubos.  Puede ampliar las capacidades de análisis y exploración de la base de datos y facilitar a los usuarios finales la configuración de informes y tablas: todo lo que deben hacer es seleccionar un cubo existente (completamente configurado) al crear su informe o tabla para procesar cálculos, medidas y estadísticas.
 
-Según la complejidad de las consultas, los cálculos y los volúmenes, los datos analizados en estos informes se pueden recopilar mediante una consulta y preacumular en una lista (flujo de trabajo de tipo &quot;gestión de datos&quot;) o en un cubo (mediante Marketing Analytics). Se muestra en forma de tabla dinámica o lista de grupos.
+Según la complejidad de las consultas, los cálculos y los volúmenes, los datos analizados en estos informes se pueden recopilar mediante una consulta y preacumular en una lista (flujo de trabajo de tipo de gestión de datos) o en un cubo (mediante Marketing Analytics). Se muestra en forma de tabla dinámica o lista de grupos.
 
 
 :arrow_upper_right: Para obtener más información sobre las funcionalidades de informes, [consulte esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reporting-in-adobe-campaign/about-adobe-campaign-reporting-tools.html).
 
-Tenga en cuenta que los informes de Campaign v8 están optimizados y ofrecen mejores prestaciones de escalado que el Campaign Classic v7. Las limitaciones existentes en Cubos no se aplican.
+Tenga en cuenta que los informes de Adobe Campaign están optimizados y ofrecen mejores prestaciones de escalado que Campaign Classic v7. Las limitaciones existentes en Cubos no se aplican.
 
