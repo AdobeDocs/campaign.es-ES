@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Introducción a la automatización de campañas
 description: Introducción a la automatización de campañas
@@ -7,11 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-translation-type: tm+mt
-source-git-commit: 2ea953145b645d376d5ea88b89350b45f024ea7d
+source-git-commit: 15b11b144d0086adf8aade0e2a3c9b388d6163dd
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 0%
+source-wordcount: '1222'
+ht-degree: 17%
 
 ---
 
@@ -40,51 +39,132 @@ Obtenga más información sobre los flujos de trabajo en estas secciones:
    * [Actividades](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html) de control de flujo: planificador, ramificación, alerta, señal externa, etc.
    * [Actividades](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) de acción: envíos multicanal, código JavaScript, actividades CRM, actualizar acumulado, etc.
    * [Actividades de evento](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html): transferencia de archivos, descarga de web y más
-* [Conozca los casos de uso end-to-end](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/about-workflow-use-cases.html)
+* [Conozca los casos de uso end-to-end](#end-to-end-uc)
 * [Crear una audiencia en un flujo de trabajo de campaña de marketing](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
 * [Prácticas recomendadas de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html)
 * [Flujos de trabajo técnicos integrados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html)
 * [Monitorización de la ejecución de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html)
 
+
 ## Configuración de campañas recurrentes
 
-Diseñe una instancia recurrente y cree una nueva instancia de envío cada vez que se ejecute. Por ejemplo, si el flujo de trabajo está diseñado para ejecutarse una vez a la semana, el resultado sería 52 envíos después de un año. Esto también significa que los registros se separarán por cada instancia de envío.
+Diseñe un flujo de trabajo recurrente y cree una nueva instancia de envío cada vez que se ejecute el flujo de trabajo. Por ejemplo, si el flujo de trabajo está diseñado para ejecutarse una vez a la semana, el resultado sería 52 envíos después de un año. Esto también significa que los registros se separarán por cada instancia de envío.
 
-:arrow_upper_right: Aprenda a crear una campaña recurrente en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns).
-
-## Configurar el ciclo de validación completo
-
-Configure el proceso de aprobación para cada paso de los envíos y asegúrese de realizar una monitorización y un control completos de los distintos procesos de las campañas de marketing: segmentación, contenido, presupuesto, extracción y envío de una prueba.
-
-Las notificaciones se envían a los operadores de Adobe Campaign que se establecen como revisores para informarles de una solicitud de aprobación.
-
-:arrow_upper_right: Obtenga información sobre cómo configurar y administrar el proceso de aprobación en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html).
-
-
-## Enviar alertas
-
-Como operador de Campaign, puede recibir alertas cuando se produce un error.
-
-Puede crear un flujo de trabajo que le permita monitorizar el estado de un conjunto de flujos de trabajo y enviar mensajes recurrentes a los supervisores.
-
-:arrow_upper_right: Obtenga información sobre cómo crear un flujo de trabajo para monitorizar el estado de otros flujos de trabajo en la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html?lang=en#step-1--creating-the-monitoring-workflow).
-
-También puede recibir una alerta cuando se produzca un error
-
-## Enviar informes automáticos
-
-:arrow_upper_right: Obtenga información sobre cómo enviar automáticamente un informe a una lista de operadores [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html?lang=en#step-1--creating-the-recipient-list).
+:arrow_upper_right: Aprenda a crear una campaña recurrente en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns).
 
 
 ## Aprovechar los eventos de déclencheur
 
-Utilice la mensajería transaccional de Campaign para automatizar los mensajes generados a partir de eventos activados desde sistemas de información. Estos mensajes transaccionales pueden ser factura, confirmación de pedido, confirmación de envío, cambio de contraseña, notificación de no disponibilidad del producto, extracto de cuenta o creación de cuenta de sitio web, por ejemplo. Estos mensajes se pueden enviar de forma individual o por lotes mediante correos electrónicos, SMS o notificaciones push.
+Utilice la mensajería transaccional de Campaign para automatizar los mensajes generados a partir de eventos activados desde sistemas de información. Estos mensajes transaccionales pueden ser factura, confirmación de pedido, confirmación de envío, cambio de contraseña, notificación de no disponibilidad del producto, extracto de cuenta o creación de cuenta de sitio web, por ejemplo. Estos mensajes se pueden enviar de forma individual o en lote por correo electrónico, SMS o notificaciones push.
 
-:arrow_upper_right: Obtenga más información sobre las funcionalidades de mensajería transaccional en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging).
+:arrow_upper_right: Obtenga más información sobre las funcionalidades de mensajería transaccional en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging).
 
 
 Conecte Adobe Campaign y Adobe Analytics para recuperar acciones de usuario y enviar mensajes personalizados casi en tiempo real.
 
-:arrow_upper_right: Aprenda a integrar Campaign con los déclencheur de Analytics en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
+:arrow_upper_right: Aprenda a integrar Campaign con los déclencheur de Analytics en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
 
 :bulb: Aprenda a integrar Campaign con otras soluciones en [esta sección](../start/connect.md)
+
+
+## Casos de uso de extremo a extremo del flujo de trabajo{#end-to-end-uc}
+
+En esta sección, encontrará varios casos de uso que aprovechan las capacidades de los Flujos de trabajo de Campaign. Estos casos de uso se crean en Adobe Campaign Classic v7 y se aplican a Adobe Campaign v8.
+
+### Entregas {#deliveries}
+
+<img src="assets/do-not-localize/icon_send.svg" width="60px">
+
+* [Prueba A/B](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html)
+
+   Obtenga información sobre cómo comparar dos contenidos de entrega de correo electrónico a través de un flujo de trabajo de objetivo. El mensaje y el texto son idénticos en ambos envíos: solo cambia el diseño. La población objetivo se divide en tres: dos grupos de prueba y la población restante. Se envía una versión diferente a cada grupo de prueba.
+
+* [Envío de correo electrónico de cumpleaños](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/sending-a-birthday-email.html)
+
+   Este caso de uso detalla cómo planificar la entrega de un correo electrónico recurrente a una lista de destinatarios en el día de su cumpleaños.
+
+* [Carga de contenido de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+
+   Cuando el contenido de su envío está disponible en un archivo HTML ubicado en un servidor remoto, puede cargar fácilmente este contenido en los envíos de Adobe Campaign.
+
+* [Flujo de trabajo de entrega por canales cruzados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/cross-channel-delivery-workflow.html)
+
+   Obtenga información sobre cómo crear un flujo de trabajo de envío entre canales. El objetivo es segmentar una audiencia de los destinatarios de la base de datos en grupos diferentes y enviar un correo electrónico al primer grupo y un SMS al otro.
+
+* [Enriquecimiento de correo electrónico con campos de datos personalizados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/email-enrichment-with-custom-date-fields.html)
+
+   Aprenda a enviar un correo electrónico con campos de datos personalizados a perfiles que celebran su cumpleaños este mes. El correo electrónico incluirá un cupón válido una semana antes y después de su cumpleaños.
+
+* [Automatización de la creación, edición y publicación de contenido](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html)
+
+   Obtenga información sobre cómo automatizar la creación y el envío de un bloque de contenido con el complemento Gestión de contenido de Campaign.
+
+
+### Monitorización {#monitoring}
+
+<img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
+
+* [Envío de un informe a una lista](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html)
+
+   Obtenga información sobre cómo generar un informe mensual integrado Tracking indicators en formato PDF y enviarlo a una lista de operadores de Campaign.
+
+* [Supervisión de los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html)
+
+   Aprenda a crear un flujo de trabajo que le permita monitorizar el estado de un conjunto de flujos de trabajo que estén &quot;en pausa&quot;, &quot;detenidos&quot; o &quot;con errores&quot;.
+
+* [Envío de alertas personalizadas a operadores](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-personalized-alerts-to-operators.html)
+
+   Aprenda a enviar una alerta a un operador que contendrá el nombre de los perfiles que abrieron una newsletter pero que no hicieron clic en el vínculo que contenía.
+
+### Gestión de datos {#management}
+
+<img src="assets/do-not-localize/icon_manage.svg" width="60px">
+
+* [Coordinación de actualizaciones de datos](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/coordinating-data-updates.html)
+
+   Obtenga información sobre cómo comprobar que el proceso de actualización ha finalizado antes de ejecutar otra operación de actualización. Para ello, se configura una variable de instancia y se deja que el flujo de trabajo pruebe si la instancia se está ejecutando para decidir si continuar o no con la ejecución del flujo de trabajo y realizar la actualización.
+
+* [Creación de una lista de resumen](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/creating-a-summary-list.html)
+
+   Aprenda a crear un flujo de trabajo que, después de recopilar archivos y de seguir varios enriquecimientos, le permita crear una lista de resumen. El ejemplo se basa en una lista de contactos que realizaron compras en una tienda.
+
+* [Enriquecimiento de datos](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html)
+
+   Aprenda a enviar envíos personalizados a perfiles que participaron en la competición más reciente en función de su puntuación.
+
+* [Uso de agregados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/using-aggregates.html)
+
+   Obtenga información sobre cómo identificar los últimos destinatarios agregados a la base de datos.
+
+* [Actualización trimestral de la lista con una consulta incremental](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/quarterly-list-update.html)
+
+   Aprenda a utilizar una consulta incremental para actualizar automáticamente una lista de destinatarios.
+
+* [Configuración de un flujo de trabajo de importación recurrente](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/recurring-import-workflow.html)
+
+   Aprenda a diseñar un flujo de trabajo que se pueda reutilizar para importar perfiles procedentes de un CRM en la base de datos de Adobe Campaign.
+
+### Segmentación {#designing-queries}
+
+<img src="assets/do-not-localize/icon_filter.svg" width="60px">
+
+* [Consulta de la tabla de destinatarios](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-recipient-table.html)
+
+   Obtenga información sobre cómo recuperar los nombres y correos electrónicos de los destinatarios cuyo dominio de correo electrónico es &quot;orange.co.uk&quot; y que no viven en Londres.
+
+* [Información de envío de consulta](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-delivery-information.html)
+
+   Aprenda a definir consultas sobre la información de envío para recuperar el comportamiento del perfil.
+
+* [Calcular agregados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/performing-aggregate-computing.html)
+
+   Aprenda a contar la cantidad de perfiles que viven en Londres, según el sexo.
+
+* [Realización de consultas con una relación de varios a varios](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/designing-queries/querying-using-many-to-many-relationship.html)
+
+   Obtenga información sobre cómo encontrar perfiles no contactados durante los últimos 7 días.
+
+* [Llame a una variable de instancia en una consulta](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=en#example)
+
+   Aprenda a utilizar una variable de instancia para calcular dinámicamente el porcentaje dividido que se aplicará a una población.
+
