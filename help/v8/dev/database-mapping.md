@@ -1,10 +1,9 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Asignación de base de datos de campaña
 description: Asignación de base de datos de campaña
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 0%
@@ -389,7 +388,7 @@ Enlace a una carpeta (esquema &quot;xtk:folder&quot;):
 
 El valor predeterminado devuelve el identificador del primer archivo de tipo de parámetro apto introducido en la función &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
 
-### Ejemplo 4 {#example-5}
+### Ejemplo 5 {#example-5}
 
 En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; al esquema &quot;cus:empresa&quot;) con el atributo **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
 
