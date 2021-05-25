@@ -1,16 +1,15 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Catálogo de ofertas de interacción de Campaign
 description: Obtenga información sobre cómo crear un catálogo de ofertas
 feature: Información general
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: b9de052de5aaeee4b089feb70bf20723be5c9cfa
+source-git-commit: 58f294b3d17de5eca64c82fdf7720b2734320bad
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 41%
+source-wordcount: '381'
+ht-degree: 27%
 
 ---
 
@@ -52,19 +51,9 @@ Para crear una nueva categoría, siga los pasos a continuación:
 
       ![](assets/offer_cat_create_004.png)
 
-   * Escribir las palabras clave que se pueden utilizar para seleccionar ofertas dentro de esta categoría, utilizando el campo **[!UICONTROL Themes]**.
+   * **[!UICONTROL Edit query]** para aplicar filtros al objetivo de la oferta.
 
-      ![](assets/offer_cat_create_005.png)
-
-      >[!NOTE]
-      >
-      >Al llamar al motor de oferta, solo se selecciona la parte del catálogo en la que coinciden los temas o categorías con los parámetros.
-
-   * Se puede “incrementar” temporalmente la ponderación de la oferta de una categoría durante un periodo determinado mediante el campo **[!UICONTROL Multiplier weight]**.
-
-      ![](assets/offer_cat_create_006.png)
-
-Un resumen de las reglas de idoneidad está disponible en el panel de las ofertas incluidas en la categoría. Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
+   * Resumen de las reglas de idoneidad. Para verlas, haga clic en el enlace **[!UICONTROL Schedule and eligibility rules of the offer]**.
 
 ## Añadir una categoría de reserva
 
