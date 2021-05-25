@@ -1,12 +1,11 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Trabajo con esquemas de Campaign
 description: Introducción a los esquemas
-translation-type: tm+mt
-source-git-commit: e31b7e16cb4d5ed01d615e71fc15485b4e4a1859
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '1242'
+source-wordcount: '1252'
 ht-degree: 7%
 
 ---
@@ -41,7 +40,7 @@ Para comprender mejor las tablas integradas de Campaign y su interacción, consu
 
 >[!CAUTION]
 >
->Algunos esquemas de Campaign integrados tienen un esquema asociado en la base de datos de Cloud. Estos esquemas están identificados por el espacio de nombres **Xxl** y no deben modificarse.
+>Algunos esquemas de Campaign integrados tienen un esquema asociado en la base de datos de Cloud. Estos esquemas están identificados por el espacio de nombres **Xxl** y no deben modificarse ni ampliarse.
 
 ## Sintaxis de esquemas {#syntax-of-schemas}
 
@@ -81,16 +80,17 @@ Un área de nombres permite agrupar un conjunto de esquemas por área de interé
 >
 >Los identificadores no deben comenzar con caracteres numéricos.
 
-## Espacios de nombres reservados
+## Espacios de nombres reservados {#reserved-namespaces}
 
 Algunas áreas de nombres están reservadas para descripciones de las entidades del sistema necesarias para el funcionamiento de la aplicación Adobe Campaign. El siguiente espacio de nombres **no debe utilizarse** para identificar un nuevo esquema, en cualquier combinación de mayúsculas y minúsculas:
 
-* **xxl**: reservado a esquemas de base de datos de Cloud,
-* **xtk**: reservado para datos del sistema de plataforma,
-* **nl**: reservado para el uso general de la aplicación,
-* **nms**: reservado para entregas (destinatario, entrega, seguimiento, etc.),
-* **ncm**: reservado para la gestión de contenido,
-* **temp**: reservado para esquemas temporales.
+* **xxl**: reservado a esquemas de base de datos de Cloud
+* **xtk**: reservado para datos del sistema de plataforma
+* **nl**: reservado para el uso general de la aplicación
+* **nms**: reservado para entregas (destinatario, entrega, seguimiento, etc.)
+* **ncm**: reservado para la gestión de contenido
+* **temp**: reservado a esquemas temporales
+* **crm**: reservado para la integración de conectores CRM
 
 La clave de identificación de un esquema es una cadena creada con el área de nombres y el nombre separado por dos puntos; por ejemplo: **nms:recipient**.
 
@@ -162,9 +162,9 @@ Los atributos permiten definir los campos que conforman el objeto de datos. Pued
 
 ![](assets/schemaextension_2.png)
 
-La lista completa de atributos está disponible en la sección del elemento `<attribute>` de la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Estos son algunos de los atributos más utilizados: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label a13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref **3/>,**@xml **,**@type **.**
+La lista completa de atributos está disponible en la sección del elemento `<attribute>` de la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Estos son algunos de los atributos más utilizados: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label a13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref **3/>,**@xml **,**@type **.**
 
-:arrow_upper_right: Para obtener más información sobre cada atributo, consulte la descripción del atributo en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+:arrow_upper_right: Para obtener más información sobre cada atributo, consulte la descripción del atributo en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 ### Ejemplos {#examples}
 
