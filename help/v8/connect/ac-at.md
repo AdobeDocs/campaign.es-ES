@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Trabajo con Campaign y Adobe Target
 description: Aprenda a trabajar con Campaign y Adobe Target
@@ -7,11 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 56%
+source-wordcount: '991'
+ht-degree: 52%
 
 ---
 
@@ -19,22 +18,22 @@ ht-degree: 56%
 
 Conecte Campaign y Target para incluir una oferta de Adobe Target en una entrega de correo electrónico de Adobe Campaign.
 
-Esta integración ayuda a implementar casos de uso de la siguiente manera: cuando un destinatario abre un correo electrónico enviado mediante Adobe Campaign, una llamada a Adobe Target le permite mostrar una versión dinámica del contenido. Esta versión dinámica se calcula según las reglas especificadas previamente al crear el correo electrónico.
+Esta integración le ayuda a implementar casos de uso de la siguiente manera: cuando un destinatario abre un correo electrónico enviado mediante Adobe Campaign, una llamada a Adobe Target le permite mostrar una versión dinámica del contenido. Esta versión dinámica se calcula según las reglas especificadas previamente al crear el correo electrónico.
 
 >[!NOTE]
->La integración solo admite imágenes estáticas. El resto del contenido no se puede personalizar.
+>La integración solo admite imágenes estáticas. Los demás tipos de contenido no se pueden personalizar.
 
-: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/support.md#support) para implementar los déclencheur de Experience Cloud con Campaign.
+: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para implementar los déclencheur de Experience Cloud con Campaign.
 
 Adobe Target puede utilizar los siguientes tipos de datos:
 
-* Datos del datamart de Adobe Campaign:
-* Segmentos vinculados a la ID de visitante en Adobe Target, si los datos utilizados no están sujetos a limitaciones legales
+* Datos de la base de datos de Adobe Campaign
+* Segmentos vinculados a la ID de visitante en Adobe Target, solo si los datos utilizados no están sujetos a limitaciones legales
 * Datos de Adobe Target: agente de usuario, dirección IP, datos de geolocalización
 
 ## Inserción de contenido dinámico
 
-En el siguiente ejemplo, aprenderá a integrar una oferta dinámica de Adobe Target en un correo electrónico de Adobe Campaign.
+En el siguiente ejemplo, aprenderá a integrar **una oferta dinámica** de Adobe Target en un correo electrónico de Adobe Campaign.
 
 Queremos crear un mensaje con una imagen que cambie dinámicamente según el país del destinatario. Los datos se envían con cada solicitud mbox y dependen de la dirección IP del visitante.
 
