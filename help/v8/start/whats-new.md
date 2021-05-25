@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Novedades de Campaign v8
 description: Descubra más funciones clave
@@ -7,17 +7,16 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-translation-type: tm+mt
-source-git-commit: 3870395ec74dd51ed42944981a3851d1052ee255
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
 # ¿Qué novedades hay en Adobe Campaign v8? {#ac-gs-what-is-new}
 
-Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, capacidad de envío y supervisión. Al aprovechar [!DNL Snowflake], una tecnología de base de datos en la nube, Adobe Campaign mejora considerablemente su escala y velocidad, con la capacidad de administrar una cantidad más significativa de perfiles de clientes, así como tasas de envío y transacciones por hora mucho más altas.
+Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, capacidad de envío y supervisión. Al aprovechar [[!DNL Snowflake]](https://www.snowflake.com/), una tecnología de base de datos en la nube, Adobe Campaign mejora considerablemente su escala y velocidad, con la capacidad de administrar una cantidad más significativa de perfiles de clientes, así como tasas de envío y transacciones por hora mucho más altas.
 
 Las funciones clave incluyen:
 
@@ -29,19 +28,18 @@ Las funciones clave incluyen:
 
 >[!CAUTION]
 >
->Por ahora, Campaign v8 **solo** está disponible en como Cloud Service administrado y no se puede implementar en entornos locales o híbridos.
+>Por ahora, Campaign v8 **solo** está disponible como Cloud Service administrado y no se puede implementar en entornos locales o híbridos.
 >
 >La migración desde un entorno de Campaign Classic v7 existente aún no está disponible.
 
 
 ## Escala
 
-Campaign v8 ofrece una escala de extremo a extremo en cualquier paso del proceso, desde Segmentación hasta el informe final:
+Campaign v8 ofrece una escala de extremo a extremo en cualquier paso del proceso, desde el objetivo hasta el informe final:
 
 * Escalar el volumen de datos que puede gestionar (hasta 8 TB)
 * Escalar el rendimiento de las consultas para segmentación y segmentación, pero también el consumo y la salida de datos
 * Escalar la preparación del envío (de horas a minutos)
-Y simplificamos la administración de datos al mismo tiempo
 
 ## Simplificación y aumento del rendimiento
 
@@ -49,7 +47,7 @@ Campaign v8 incorpora el concepto de **Acceso de datos federado completo** (FDA)
 
 Con esta nueva arquitectura, Campaign v8 simplifica la administración de datos: no se requiere ningún índice en la base de datos de Cloud. Basta con crear las tablas, copiar los datos y iniciar.
 
-[!DNL Snowflake] es la base de datos de Campaign Cloud y le proporcionará velocidad y resistencia: no hay sobrecarga de los picos de actividad del sistema.
+[!DNL Snowflake] es la base de datos de Campaign Cloud, le proporcionará velocidad y resistencia: no hay sobrecarga de los picos de actividad del sistema.
 
 La tecnología de la base de datos en la nube no requiere un mantenimiento específico para garantizar el nivel de rendimiento.
 
