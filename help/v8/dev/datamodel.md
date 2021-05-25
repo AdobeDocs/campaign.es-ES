@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: 'Introducción al modelo de datos de Campaign '
 description: 'Introducción al modelo de datos de Campaign '
@@ -7,10 +7,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '657'
 ht-degree: 4%
 
 ---
@@ -29,11 +28,11 @@ La estructura básica del modelo de datos de Adobe Campaign se puede describir d
 
 * **Registros tablas**: Estas tablas almacenan todos los registros asociados con la ejecución de las campañas.
 
-   Los registros de envío son todos los mensajes enviados a los destinatarios o dispositivos en todos los canales. La tabla principal Delivery logs (NmsBroadLog) contiene los registros de envío de todos los destinatarios.
-La tabla principal Tracking logs (NmsTrackingLog) almacena los registros de seguimiento de todos los destinatarios. Los registros de seguimiento hacen referencia a reacciones de los destinatarios, como aperturas de correo electrónico y clics. Cada reacción corresponde a un registro de seguimiento.
+   Los registros de envío son todos los mensajes enviados a los destinatarios o dispositivos en todos los canales. La tabla principal Delivery logs (NmsBroadLogRcp) contiene los registros de envío de todos los destinatarios.
+La tabla principal Tracking logs (NmsTrackingLogRcp) almacena los registros de seguimiento de todos los destinatarios. Los registros de seguimiento hacen referencia a reacciones de los destinatarios, como aperturas de correo electrónico y clics. Cada reacción corresponde a un registro de seguimiento.
 Los registros de envío y los registros de seguimiento se eliminan después de un periodo determinado, que se especifica en Adobe Campaign y se puede modificar. Por lo tanto, es muy recomendable exportar los registros de forma regular.
 
-* **Tablas** técnicas: Recopile datos técnicos utilizados para el proceso aplicativo, incluidos operadores y derechos de usuario (NmsGroup), carpetas (XtkFolder).
+* **Tablas** técnicas: Recopile datos técnicos utilizados para el proceso aplicativo, incluidos operadores y derechos de usuario (xtkGroup), carpetas (XtkFolder).
 
 >[!NOTE]
 >
@@ -63,7 +62,7 @@ Es posible ampliar la tabla de destinatarios, pero no reducir el número de camp
 
 :bulb: Aprenda a ampliar un esquema existente en [esta sección](extend-schema.md).
 
-:arrow_upper_right: Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+:arrow_upper_right: Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 También puede utilizar una tabla de destinatarios diferente para adaptarla mejor a sus necesidades empresariales o funcionales. Este método viene con limitaciones y se describe en [esta sección](custom-recipient.md).
 
