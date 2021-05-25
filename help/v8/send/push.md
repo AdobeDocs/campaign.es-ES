@@ -1,15 +1,14 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Envío de notificaciones push con Adobe Campaign
 description: Introducción a las notificaciones push en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '295'
 ht-degree: 16%
 
 ---
@@ -25,7 +24,7 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 1. Añada a este servicio las versiones de iOS y Android de la aplicación.
 1. Cree un envío tanto para iOS como para Android.
 
-:arrow_upper_right: Obtenga información sobre cómo empezar a usar la aplicación móvil en la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
+:arrow_upper_right: Obtenga información sobre cómo empezar a usar la aplicación móvil en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html)
 
 ## Integración con el SDK de Adobe
 
@@ -33,7 +32,7 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 
 El SDK de Campaign facilita la integración de la aplicación móvil en la plataforma Adobe Campaign.
 
-:arrow_upper_right: Obtenga información sobre cómo integrar el SDK de Campaign con su aplicación en la [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
+:arrow_upper_right: Aprenda a integrar el SDK de Campaign con su aplicación en la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
 
 ### Configurar la extensión de Campaign en Launch
 
@@ -45,10 +44,15 @@ Puede integrar el SDK de Launch de Adobe Experience Platform con Campaign, aprov
 
 Debe definir la configuración de las aplicaciones de iOS y Android en Adobe Campaign.
 
-:arrow_upper_right: Las directrices de configuración para iOS se detallan en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages)
+:arrow_upper_right: Las directrices de configuración para iOS se detallan en [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en#sending-messages)
 
-:arrow_upper_right: Las directrices de configuración para Android se detallan en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)
+:arrow_upper_right: Las directrices de configuración para Android se detallan en [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages)
 
 ## Creación de la primera notificación push
 
-:arrow_upper_right: Aprenda a crear sus primeras notificaciones push en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
+:arrow_upper_right: Obtenga información sobre cómo crear sus primeras notificaciones push en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
+
+
+>[!CAUTION]
+>
+>Con el registro móvil de Campaign v8 ahora es **asíncrono**. [Más información](../dev/staging.md).
