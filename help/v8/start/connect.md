@@ -1,5 +1,5 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Obtenga información sobre cómo conectarse a Campaign v8
 description: Conexión a Campaign v8
@@ -7,11 +7,10 @@ feature: Audiencias
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-translation-type: tm+mt
-source-git-commit: 1ac6b58e1d5731d4df4d6d7c6a9b25f0f41ff563
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 13%
+source-wordcount: '762'
+ht-degree: 11%
 
 ---
 
@@ -105,15 +104,21 @@ Los usuarios de Campaign pueden conectarse a la consola de Adobe Campaign median
 * Política de administración de contraseñas más sólida.
 * Uso de cuentas de ID federadas (proveedor de ID externo).
 
-: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](support.md#support) para implementar el Adobe IMS con Campaign.
+: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](campaign-faq.md#support) para implementar el Adobe IMS con Campaign.
 
 ## Conectarse a Campaign con su inicio de sesión LDAP
 
 Adobe Campaign se puede configurar para que el usuario acceda a la plataforma mediante su autenticación LDAP.
 
-: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](support.md#support) para configurar la integración LDAP con Campaign.
+: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](campaign-faq.md#support) para configurar la integración LDAP con Campaign.
 
 
-## Acceso web
+## Acceso web{#web-access}
 
-Se puede acceder a ciertas partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario HTML: informes, aprobación de envíos, supervisión de instancias, etc.
+Se puede acceder a ciertas partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario HTML: Panel de campañas, informes de cubos, supervisión de instancias, etc.
+
+:arrow_upper_right: Obtenga más información sobre el acceso web en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+
+El acceso web también se utiliza en el proceso de validación: Los operadores pueden hacer clic en el correo electrónico de solicitud de aprobación y conectarse a Campaign a través de su explorador web para validar o rechazar un contenido o presupuesto de envío.
+
+:arrow_upper_right: Obtenga información sobre cómo configurar y administrar aprobaciones en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
