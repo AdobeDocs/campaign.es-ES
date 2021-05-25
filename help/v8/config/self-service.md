@@ -1,20 +1,23 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Panel de control de Campaign
 description: Panel de control de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+hidefromtoc: true
+hide: true
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 62%
+source-wordcount: '361'
+ht-degree: 61%
 
 ---
 
 # Panel de control de Campaign
+
+AÚN NO DISPONIBLE
 
 El Panel de control de Campaign de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite supervisar fácilmente el uso de recursos clave, así como realizar tareas administrativas como adición direcciones IP a listas de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
 
@@ -45,7 +48,7 @@ Puede monitorizar los subdominios y sus certificados. Más información:
 * [Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html)
 * [Monitorización de certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html)
 
-## Configuración de instancia
+## Configuración de instancias
 
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign en el Panel de control.
 * [IP en la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html)
