@@ -1,15 +1,14 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Operadores de interacción de Campaign
 description: Creación de operadores de administración de ofertas
 feature: Información general
 role: Data Engineer
 level: Beginner
-translation-type: tm+mt
-source-git-commit: 4bc62dcf806abd71e8230ce209d9151a4188b62e
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 38%
 
 ---
@@ -26,7 +25,7 @@ Dos tipos de operadores pueden utilizar Campaign Interaction: **Administradores 
 
 1. Creación de un nuevo operador.
 
-   :arrow_upper_right: Los pasos para crear un operador en Campaign se detallan en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   :arrow_upper_right: Los pasos para crear un operador en Campaign se detallan en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Offer manager]**.
 
@@ -50,7 +49,7 @@ Tenga en cuenta que si se utilizan ofertas en un flujo de trabajo, el operador d
 
 1. Creación de un nuevo operador.
 
-   :arrow_upper_right: Los pasos para crear un operador en Campaign se detallan en [documentación del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   :arrow_upper_right: Los pasos para crear un operador en Campaign se detallan en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Delivery manager]**.
 
