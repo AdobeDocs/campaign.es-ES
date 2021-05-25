@@ -1,13 +1,12 @@
 ---
-solution: Campaign
+solution: Campaign v8
 product: Adobe Campaign
 title: Ampliación de esquemas de Campaign
 description: Descubra cómo ampliar los esquemas de Campaign
-translation-type: tm+mt
-source-git-commit: 8dd7b5a99a0cda0e0c4850d14a6cb95253715803
+source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 1%
+source-wordcount: '244'
+ht-degree: 2%
 
 ---
 
@@ -37,7 +36,7 @@ Para ampliar un esquema, siga los pasos a continuación:
 
    ![](assets/extend-schema-select.png)
 
-   Por convención, asigne el mismo nombre al esquema de extensión que al esquema integrado y utilice un espacio de nombres personalizado.
+   Por convención, asigne el mismo nombre al esquema de extensión que al esquema integrado y utilice un espacio de nombres personalizado.  Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces).
 
    ![](assets/extend-schema-validate.png)
 
@@ -50,17 +49,17 @@ Para ampliar un esquema, siga los pasos a continuación:
    ![](assets/extend-schema-sample.png)
 
    ```
-   <srcSchema created="YY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
-           img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YY-MM-DD"
+   <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
+           img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
-    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient"
-          name="recipient">
-   <attribute label="Member since" name="MembershipYear" type="long"/>
-   <attribute length="50" name="lastName"/>
-   <attribute _operation="delete" name="birthDate"/>
+    <element desc="Recipient table" img="nms:recipient.png" label="Recipients" labelSingular="Recipient" name="recipient">
+       <attribute label="Member since" name="MembershipYear" type="long"/>
+       <attribute length="50" name="lastName"/>
+       <attribute _operation="delete" name="birthDate"/>
    </element>
    </srcSchema>
    ```
+
 1. Desconecte y vuelva a conectarse a Campaign para comprobar la actualización de la estructura del esquema en la pestaña **[!UICONTROL Structure]**.
 
    ![](assets/extend-schema-structure.png)
