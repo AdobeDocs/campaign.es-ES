@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo administrar suscripciones y bajas 
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 26%
@@ -17,7 +17,7 @@ ht-degree: 26%
 
 Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como boletines informativos, y para administrar las suscripciones/bajas de suscripción a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real. Consulte Administración de suscripciones.
 
-:[!DNL :arrow_upper_right:]: Aprenda a crear un servicio informativo, enviar boletín y administrar la inclusión y la exclusión en la documentación de [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html)
+[!DNL :arrow_upper_right:] Aprenda a crear un servicio informativo, enviar boletín y administrar la inclusión y la exclusión en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html)
 
 Para suscribirse (activar) un perfil a un servicio, las opciones disponibles son:
 
@@ -57,7 +57,7 @@ Para cancelar la suscripción (exclusión) de un perfil de un servicio, las opci
 * Especifique un límite de duración del servicio informativo: los destinatarios se cancelarán de forma automática cuando el periodo de validez haya caducado. El periodo se configura en la pestaña Edit de las propiedades del servicio. Se muestra en días.
 * Configuración de un flujo de trabajo de baja para una población
 
-:[!DNL :arrow_upper_right:]: Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
+[!DNL :arrow_upper_right:] Obtenga más información en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service)
 
 
 >[!CAUTION]
@@ -66,4 +66,4 @@ Para cancelar la suscripción (exclusión) de un perfil de un servicio, las opci
 
 También puede permitir que los destinatarios de la entrega reenvíen mensajes a un amigo. Para ello, inserte los vínculos correspondientes en la entrega. Puede hacer un seguimiento de este proceso de uso compartido, así como del número de visitas a las páginas en cuestión.
 
-:[!DNL :arrow_upper_right:]: Para obtener más información sobre esta funcionalidad, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend).
+[!DNL :arrow_upper_right:] Para obtener más información sobre esta funcionalidad, consulte la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend).
