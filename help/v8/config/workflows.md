@@ -7,9 +7,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 15b11b144d0086adf8aade0e2a3c9b388d6163dd
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1222'
+source-wordcount: '1212'
 ht-degree: 17%
 
 ---
@@ -50,21 +50,21 @@ Obtenga más información sobre los flujos de trabajo en estas secciones:
 
 Diseñe un flujo de trabajo recurrente y cree una nueva instancia de envío cada vez que se ejecute el flujo de trabajo. Por ejemplo, si el flujo de trabajo está diseñado para ejecutarse una vez a la semana, el resultado sería 52 envíos después de un año. Esto también significa que los registros se separarán por cada instancia de envío.
 
-:arrow_upper_right: Aprenda a crear una campaña recurrente en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns).
+:[!DNL :arrow_upper_right:]: Aprenda a crear una campaña recurrente en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns).
 
 
 ## Aprovechar los eventos de déclencheur
 
 Utilice la mensajería transaccional de Campaign para automatizar los mensajes generados a partir de eventos activados desde sistemas de información. Estos mensajes transaccionales pueden ser factura, confirmación de pedido, confirmación de envío, cambio de contraseña, notificación de no disponibilidad del producto, extracto de cuenta o creación de cuenta de sitio web, por ejemplo. Estos mensajes se pueden enviar de forma individual o en lote por correo electrónico, SMS o notificaciones push.
 
-:arrow_upper_right: Obtenga más información sobre las funcionalidades de mensajería transaccional en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging).
+:[!DNL :arrow_upper_right:]: Obtenga más información sobre las funcionalidades de mensajería transaccional en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/about-transactional-messaging.html?lang=en#transactional-messaging).
 
 
 Conecte Adobe Campaign y Adobe Analytics para recuperar acciones de usuario y enviar mensajes personalizados casi en tiempo real.
 
-:arrow_upper_right: Aprenda a integrar Campaign con los déclencheur de Analytics en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
+:[!DNL :arrow_upper_right:]: Aprenda a integrar Campaign con los déclencheur de Analytics en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en#integrating-with-adobe-experience-cloud).
 
-:bulb: Aprenda a integrar Campaign con otras soluciones en [esta sección](../start/connect.md)
+[!DNL :bulb:] Aprenda a integrar Campaign con otras soluciones en  [esta sección](../start/connect.md)
 
 
 ## Casos de uso de extremo a extremo del flujo de trabajo{#end-to-end-uc}
