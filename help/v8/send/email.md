@@ -6,7 +6,7 @@ description: Introducción a los correos electrónicos en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 3%
@@ -28,15 +28,15 @@ Cree correos electrónicos personalizados y relevantes para el contexto que sean
 Puede crear directamente en Campaign o importar la audiencia, así como el contenido del correo electrónico. Utilice los vínculos siguientes para aprender a:
 
 * Diseño de un correo electrónico en Campaign
-:[!DNL :arrow_upper_right:]: [Obtenga información sobre cómo diseñar un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
+   [!DNL :arrow_upper_right:] [Aprenda a diseñar un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html)
 * Importación de contenido de correo electrónico
-:[!DNL :arrow_upper_right:]: [Caso de uso: Creación de un flujo de trabajo para cargar un contenido de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
+   [!DNL :arrow_upper_right:] [Caso de uso: Creación de un flujo de trabajo para cargar un contenido de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html)
 * Creación y uso de una plantilla de correo electrónico
-:[!DNL :arrow_upper_right:]: [Más información sobre las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+   [!DNL :arrow_upper_right:] [Más información sobre las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
 * Seleccione la audiencia del correo electrónico
-:[!DNL :arrow_upper_right:]: [Obtenga información sobre cómo definir la población objetivo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+   [!DNL :arrow_upper_right:] [Obtenga información sobre cómo definir la población objetivo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * Validación de una entrega y envío de pruebas
-:[!DNL :arrow_upper_right:]: [Conozca los pasos clave para validar un envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+   [!DNL :arrow_upper_right:] [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 * Añadir [direcciones semilla](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## Comprobación y validación de los correos electrónicos
