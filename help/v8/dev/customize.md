@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 20%
+source-wordcount: '546'
+ht-degree: 21%
 
 ---
 
@@ -36,11 +36,11 @@ Hay dos modos de extensión de tabla disponibles:
 
 * A través de la interfaz, utilizando el asistente **New field**
 
-   :arrow_upper_right: Aprenda a añadir rápidamente un nuevo campo en Campaign en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
+   :[!DNL :arrow_upper_right:]: Aprenda a añadir rápidamente un nuevo campo en Campaign en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=en#configuring-campaign-classic)
 
 * Programáticamente, ampliando el esquema
 
-   :bulb: Aprenda a ampliar un esquema existente en [esta sección](../dev/extend-schema.md).
+   [!DNL :bulb:] Aprenda a ampliar un esquema existente en  [esta sección](../dev/extend-schema.md).
 
 
 También puede crear nuevas tablas en la base de datos de Campaign y ampliar el modelo de datos integrado.
@@ -49,16 +49,16 @@ Para añadir un tipo de datos completamente nuevo que no exista de forma predete
 
 **Temas relacionados**
 
-:arrow_upper_right: Ejemplo de edición de esquema en la documentación [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
+:[!DNL :arrow_upper_right:]: Ejemplo de edición de esquema en la documentación de [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#configuring-campaign-classic)
 
-:arrow_upper_right: Caso de uso: vincular un campo a una tabla de referencia existente en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
+:[!DNL :arrow_upper_right:]: Caso de uso: vincular un campo a una tabla de referencia existente en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#uc-link)
 
 
 ## Modificación de los formularios de entrada
 
 Los formularios de entrada de Campaign se pueden adaptar a su implementación. Puede agregar o quitar campos de formulario modificando el contenido XML.
 
-:bulb: Aprenda a modificar un formulario de entrada existente o crear un nuevo formulario en [esta sección](../dev/forms.md).
+[!DNL :bulb:] Aprenda a modificar un formulario de entrada existente o crear un nuevo formulario en  [esta sección](../dev/forms.md).
 
 ## Personalizar tableros{#gs-custom-dashboards}
 
@@ -66,7 +66,7 @@ La interfaz de Adobe Campaign utiliza muchas aplicaciones web para acceder, gest
 
 Las aplicaciones web listas para su uso se almacenan en el nodo Administration > Configuration > Web applications.
 
-:arrow_upper_right: Obtenga información sobre cómo crear una página de información general en Campaign en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)
+:[!DNL :arrow_upper_right:]: Aprenda a crear una página de información general en Campaign en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/use-cases--creating-overviews.html?lang=en#creating-a-single-page-web-application)
 
 
 ## Personalización de listas y creación de filtros {#gs-lists-and-filters}
@@ -75,16 +75,16 @@ Las aplicaciones web listas para su uso se almacenan en el nodo Administration >
 
 Las listas de campañas incluyen filtros predefinidos para facilitar la navegación y la visualización de datos.
 
-:arrow_upper_right: Obtenga más información sobre las opciones de filtrado en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)
+:[!DNL :arrow_upper_right:]: Obtenga más información sobre las opciones de filtrado en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/filtering-options.html?lang=en#about-filtering)
 
 
 ### Acceso a datos desde el Explorador
 
 Cuando navega por el árbol del Explorador de Adobe Campaign, los datos contenidos en la base de datos se muestran en listas. Puede filtrar estas listas, ejecutar búsquedas, añadir información, filtrar y ordenar datos.
 
-:arrow_upper_right: Obtenga información sobre cómo configurar listas y guardar una configuración de lista en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)
+:[!DNL :arrow_upper_right:]: Obtenga información sobre cómo configurar listas y guardar una configuración de lista en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=en#getting-started)
 
 
 Puede aplicar filtros en estas listas para mostrar solo los datos que necesita el operador. A continuación, se pueden ejecutar acciones en los datos filtrados. La configuración del filtro permite seleccionar datos de una lista de forma dinámica. Al modificar los datos, los datos filtrados se actualizan.
 
-:arrow_upper_right: Obtenga información sobre cómo filtrar datos en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)
+:[!DNL :arrow_upper_right:]: Obtenga información sobre cómo filtrar datos en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/filtering-data/creating-filters.html?lang=en#typology-of-available-filters)
