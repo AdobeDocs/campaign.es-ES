@@ -7,9 +7,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '340'
 ht-degree: 13%
 
 ---
@@ -24,7 +24,7 @@ Adobe Campaign incluye varios conectores que le permiten comunicarse con aplicac
 
 Modernice su implementación y aproveche todas las funcionalidades de Adobe Experience Cloud.
 
-: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud. Debe implementar Adobe Identity Management Service (IMS). [Obtenga más información](../start/connect.md#connect-ims)
+[!DNL :speech_balloon:] Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para conectar Campaign con los servicios y soluciones de Adobe Experience Cloud. Debe implementar Adobe Identity Management Service (IMS). [Obtenga más información](../start/connect.md#connect-ims)
 
 Campaign v8 puede conectarse con:
 
