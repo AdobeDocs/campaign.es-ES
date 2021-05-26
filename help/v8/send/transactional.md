@@ -6,10 +6,10 @@ description: Introducción a la mensajería transaccional
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 72%
+source-wordcount: '1484'
+ht-degree: 73%
 
 ---
 
@@ -25,9 +25,9 @@ Los mensajes transaccionales se utilizan para enviar:
 * una respuesta individual en tiempo real a una acción del cliente
 * contenido no promocional
 
-:bulb: La configuración de mensajería transaccional se detalla en [esta sección](../config/transactional-msg-settings.md).
+[!DNL :bulb:] La configuración de mensajería transaccional se detalla en  [esta sección](../config/transactional-msg-settings.md).
 
-:bulb: Comprenda la arquitectura de mensajería transaccional en [esta página](../dev/architecture.md).
+[!DNL :bulb:] Comprenda la arquitectura de mensajería transaccional en  [esta página](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -152,7 +152,7 @@ Puede probar la entrega de mensajes enviando una prueba a una dirección semilla
 
 El envío de una prueba implica realizar el mismo proceso que para cualquier entrega.
 
-:arrow_upper_right: Obtenga más información sobre las pruebas en la [documentación de Campaign Classic v7]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
+:[!DNL :arrow_upper_right:]: Obtenga más información sobre las pruebas en la [documentación de Campaign Classic v7]((https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html))
 
 Sin embargo, para enviar una prueba de un mensaje transaccional, debe realizar las siguientes operaciones:
 
