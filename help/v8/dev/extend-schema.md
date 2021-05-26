@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Ampliación de esquemas de Campaign
 description: Descubra cómo ampliar los esquemas de Campaign
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '243'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,7 @@ Los pasos clave para personalizar el modelo de datos de Campaign son:
 >[!CAUTION]
 >El esquema integrado no debe modificarse directamente. Si necesita adaptar un esquema integrado, debe ampliarlo.
 
-:bulb: Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta página](datamodel.md).
+[!DNL :bulb:] Para comprender mejor las tablas integradas de Campaign y su interacción, consulte  [esta página](datamodel.md).
 
 Para ampliar un esquema, siga los pasos a continuación:
 
