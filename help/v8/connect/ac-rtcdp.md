@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 23%
+source-wordcount: '132'
+ht-degree: 25%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 23%
 
 Con **Adobe Experience Platform**, puede compartir datos entre Campaign y la plataforma de datos del cliente en tiempo real de Adobe (RTCDP). Esto le permite dirigirse a las audiencias de Adobe Experience Platform en sus flujos de trabajo de Campaign y, a continuación, enviar los datos de la plataforma de datos del cliente en tiempo real de Adobe relacionados con estas audiencias, como envíos, aperturas y clics.
 
-:arrow_upper_right: Obtenga más información sobre RTCDP en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en)
+:[!DNL :arrow_upper_right:]: Obtenga más información sobre RTCDP en [esta sección](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=en)
 
-:arrow_upper_right: Aprenda a implementar y utilizar RTCDP con Campaign en la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
+:[!DNL :arrow_upper_right:]: Aprenda a implementar y utilizar RTCDP con Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
 : globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para conectar RTCDP y Campaign.
