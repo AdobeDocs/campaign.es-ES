@@ -7,7 +7,7 @@ feature: Audiencias
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
 workflow-type: tm+mt
 source-wordcount: '743'
 ht-degree: 32%
@@ -37,14 +37,14 @@ Para rellenar Campaign con datos de perfil, puede:
 ![](assets/create-profile.png)
 
 
-[!DNL :[!DNL :arrow_upper_right:]:] Obtenga información sobre cómo administrar perfiles en [documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
+[!DNL :[!DNL :arrow_upper_right:]:] Obtenga información sobre cómo administrar perfiles en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html).
 
 
 ## Privacidad y consentimiento
 
 Adobe Campaign es una potente herramienta para recopilar y procesar un gran volumen de datos, que incluye información personal y datos confidenciales. Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
 
-:[!DNL :arrow_upper_right:]: Aprenda a administrar la privacidad y el consentimiento en la [documentación de Adobe Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html).
+:[!DNL :arrow_upper_right:]: Aprenda a administrar la privacidad y el consentimiento en la [documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html).
 
 ## Crear listas
 
