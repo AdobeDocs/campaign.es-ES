@@ -7,7 +7,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 0dae3431ac1ddc840244d7df4929b0c949f8011f
 workflow-type: tm+mt
 source-wordcount: '631'
 ht-degree: 6%
@@ -82,4 +82,4 @@ A continuación, con el sessionToken proporcionado por la instancia de ejecució
 * Varias instancias de ejecución
 En una arquitectura de ejecución de varias celdas con varias instancias de ejecución detrás de un equilibrador de carga, el método de inicio de sesión invocado por la aplicación externa pasa por el equilibrador de carga: por este motivo, no se puede utilizar una autenticación basada en tokens. Se requiere autenticación de usuario/contraseña.
 
-:[!DNL :arrow_upper_right:]: Obtenga más información sobre los eventos de mensajería transaccional en la [documentación de Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
+:[!DNL :arrow_upper_right:]: Obtenga más información sobre los eventos de mensajería transaccional en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/introduction/event-description.html?lang=en#about-transactional-messaging-datamodel)
