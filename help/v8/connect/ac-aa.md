@@ -7,9 +7,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 556cd7727c7c2bf0158d59d71ae0131b4c1013ee
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '364'
 ht-degree: 43%
 
 ---
@@ -40,7 +40,7 @@ Los campos de acción de cada herramienta son los siguientes:
 
 Obtenga más información sobre Adobe Campaign y Adobe Analytics en [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/adobe-analytics-data-connector.html)
 
-: globo_voz:  Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para integrar Adobe Analytics Data Connector con Campaign.
+[!DNL :speech_balloon:]  Como usuario de Managed Cloud Services,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para integrar Adobe Analytics Data Connector con Campaign.
 
 
 ## Activadores de Experience Cloud
@@ -49,4 +49,4 @@ Puede utilizar Déclencheur de Experience Cloud para conectar datos entre Adobe 
 
 Obtenga más información sobre Adobe Campaign y los Déclencheur de Experience Cloud en [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en).
 
-: globo_voz:  Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para implementar los déclencheur de Experience Cloud con Campaign.
+[!DNL :speech_balloon:]  Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para implementar déclencheur de Experience Cloud con Campaign.
