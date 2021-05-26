@@ -6,7 +6,7 @@ description: Cuentas externas de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '1017'
 ht-degree: 32%
@@ -42,7 +42,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
    La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-   :[!DNL :arrow_upper_right:]: Obtenga más información sobre los correos electrónicos entrantes en la documentación de [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
+   [!DNL :arrow_upper_right:] Obtenga más información sobre los correos electrónicos entrantes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
 
 * **Enrutamiento**
 
