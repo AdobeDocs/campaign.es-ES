@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 11%
+source-wordcount: '342'
+ht-degree: 13%
 
 ---
 
@@ -40,9 +40,9 @@ Campaign v8 puede conectarse con:
 
 También puede combinar sus **audiencias** y **recursos** entre soluciones de Experience Cloud con las funcionalidades de uso compartido de recursos y audiencias.
 
-:arrow_upper_right: Obtenga más información sobre **Audience sharing** entre Campaign y las soluciones de Experience Cloud en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+:[!DNL :arrow_upper_right:]: Obtenga más información sobre **Audience sharing** entre Campaign y las soluciones de Experience Cloud en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:arrow_upper_right: Obtenga más información sobre **Asset sharing** entre Campaign y las soluciones de Experience Cloud en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+:[!DNL :arrow_upper_right:]: Obtenga más información sobre **Asset sharing** entre Campaign y las soluciones de Experience Cloud en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ## Conectores CRM{#gs-crm-connectors}
 
@@ -51,13 +51,13 @@ Puede conectar su plataforma de Adobe Campaign a sus **sistemas de terceros de C
 Active sus datos CRM en la comunicación entre canales: obtenga información sobre cómo pasar contactos de su sistema CRM a Adobe Campaign y compartir datos de campaña de Adobe Campaign a su sistema CRM.
 Los conectores CRM permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para garantizar que los datos estén actualizados en todo momento a lo largo de los sistemas.
 
-:bulb: Aprenda a integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en [esta página](crm.md)
+[!DNL :bulb:] Aprenda a integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en  [esta página](crm.md)
 
 ## Acceso de datos federado (FDA){#gs-fda}
 
 Utilice el conector FDA (Acceso de Datos Federados) para conectar Campaign a una o más **bases de datos externas** y procesar la información almacenada en ellas sin afectar a los datos de la base de datos de Campaign Cloud.
 
-:bulb: Obtenga más información en [esta página](fda.md)
+[!DNL :bulb:][ Obtenga más información en esta página](fda.md)
 
 
 <!-- 
@@ -69,4 +69,4 @@ Use the **Managing social networks (Social Marketing)** option to interact with 
 
 * Collect new contacts - Adobe Campaign Social Marketing also makes it easy to acquire new contacts via Facebook: contact users and ask them if they want to share their profile information. If they accept, Adobe Campaign automatically recovers the data, which enables you to carry out targeting campaigns and, when possible, to implement cross-channel strategies.
 
-:bulb: Learn how to set up and use Campaign Social Marketing in [this section](../connect/ac-tw.md) -->
+[!DNL :bulb:] Learn how to set up and use Campaign Social Marketing in [this section](../connect/ac-tw.md) -->
