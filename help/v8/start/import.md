@@ -10,11 +10,11 @@ exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '306'
-ht-degree: 11%
+ht-degree: 59%
 
 ---
 
-# Importar datos en Campaign {#ootb-profiles}
+# Importación de datos en Campaign {#ootb-profiles}
 
 Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfil directamente en la tabla de destinatarios.
 
@@ -23,25 +23,25 @@ Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar 
 
 ## Importación de perfiles en un flujo de trabajo
 
-Las importaciones de perfil se configuran en plantillas dedicadas ejecutadas a través de flujos de trabajo mediante la actividad **Import**. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html).
+Las importaciones de perfil se configuran en plantillas dedicadas ejecutadas a través de flujos de trabajo mediante la actividad **Importación**. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/import-export-workflows.html?lang=es).
 
 ![](assets/import-wf.png)
 
 Obtenga más información en la documentación de Campaign Classic v7:
 
-[!DNL :arrow_upper_right:] [Introducción a importaciones y exportaciones](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html)
+[!DNL :arrow_upper_right:] [Introducción a importaciones y exportaciones](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/get-started-data-import-export.html?lang=es)
 
-[!DNL :arrow_upper_right:] [Prácticas recomendadas de importación y exportación](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html)
+[!DNL :arrow_upper_right:] [Prácticas recomendadas de importación y exportación](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/best-practices/import-export-best-practices.html?lang=es)
 
-[!DNL :arrow_upper_right:] [Configuración y ejecución de una importación](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html)
+[!DNL :arrow_upper_right:] [Configuración y ejecución de una importación](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=es)
 
-## Ejecutar importaciones unitarias
+## Ejecución de importaciones unitarias
 
 Cree y ejecute un trabajo de importación de datos genérico para cargar contactos en la base de datos de Cloud.
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] Obtenga información sobre cómo ejecutar trabajos de importación unitarios para alimentar la base de datos en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html).
+[!DNL :arrow_upper_right:] Obtenga información sobre cómo ejecutar trabajos de importación unitarios para alimentar la base de datos en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=es).
 
 ## Recopilación de perfiles mediante aplicaciones web
 
@@ -54,5 +54,5 @@ Utilice Campaign para crear formularios web y recopilar y administrar la informa
 **Temas relacionados**
 
 * [Crear audiencias](audiences.md)
-* [Deduplicación de perfiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html)
-* [Enriquecimiento de los datos de perfil](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html)
+* [Deduplicación de perfiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=es)
+* [Enriquecimiento de los datos de perfil](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=es)
