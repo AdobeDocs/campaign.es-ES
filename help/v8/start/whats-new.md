@@ -7,10 +7,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: a48e69a3f34c48ed4828bf29b8a02a3dc07bfa7e
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 65%
+source-wordcount: '453'
+ht-degree: 62%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, c
 
 Las funciones clave incluyen:
 
-* **Velocidad y escala**. Adobe Campaign v8 aprovecha el Cloud Database Manager, lo que conduce a que las consultas se realicen hasta 200 veces más rápido, escalas de varios petabytes, un mayor número de mensajes por hora (con hasta 20 millones/hora o 1,5 millones/hora en el caso de mensajes transaccionales) y administración de hasta 200 millones de perfiles activos con el potencial de alcanzar 1B.
+* **Velocidad y escala**. Adobe Campaign v8 aprovecha el Cloud Database Manager, lo que conduce a que las consultas se realicen hasta 200 veces más rápido, escalas de varios petabytes, un mayor número de mensajes por hora (con hasta 20 millones/hora o 1 millones/hora en el caso de mensajes transaccionales) y administración de hasta 200 millones de perfiles activos con el potencial de alcanzar 1B.
 
 * **Conexiones a Adobe Experience Platform**. Adobe Campaign v8 admite conectores de datos con Adobe Experience Platform/RT-CDP, perfil de cliente unificado e integración nativa con Journey Orchestration. Estas inversiones optimizarán la experiencia del cliente de Adobe Campaign y desbloquearán nuevos casos de uso, como la capacidad de añadir recorridos personalizados del cliente en tiempo real a las campañas.
 
@@ -31,6 +31,8 @@ Las funciones clave incluyen:
 >Por ahora, Campaign v8 **solo** está disponible como Cloud Service administrado y no se puede implementar en entornos locales o híbridos.
 >
 >La migración desde un entorno de Campaign Classic v7 existente aún no está disponible.
+>
+>Si no está seguro del modelo de implementación o tiene alguna pregunta, póngase en contacto con el equipo de la cuenta.
 
 
 ## Escala
