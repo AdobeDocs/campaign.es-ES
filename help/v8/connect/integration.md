@@ -7,7 +7,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: ab7e458db5ad5696d144c17f6e89e4437a476d11
 workflow-type: tm+mt
 source-wordcount: '342'
 ht-degree: 13%
@@ -40,9 +40,9 @@ Campaign v8 puede conectarse con:
 
 También puede combinar sus **audiencias** y **recursos** entre soluciones de Experience Cloud con las funcionalidades de uso compartido de recursos y audiencias.
 
-:[!DNL :arrow_upper_right:]: Obtenga más información sobre **Audience sharing** entre Campaign y las soluciones de Experience Cloud en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+[!DNL :arrow_upper_right:] Obtenga más información sobre el  **uso compartido de** audiencias entre Campaign y las soluciones de Experience Cloud en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
-:[!DNL :arrow_upper_right:]: Obtenga más información sobre **Asset sharing** entre Campaign y las soluciones de Experience Cloud en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+[!DNL :arrow_upper_right:] Obtenga más información sobre el  **uso compartido** de recursos entre Campaign y las soluciones de Experience Cloud en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
 
 ## Conectores CRM{#gs-crm-connectors}
 
