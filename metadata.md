@@ -10,8 +10,8 @@ git-repo: https://git.corp.adobe.com/AdobeDocs/campaign.es-ES
 hide: true
 source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 58%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,4 +20,4 @@ ht-degree: 58%
 
 El archivo metadata.md incluye metadatos de nivel de repo que pasan a los archivos TOC.md de la guía del usuario en la repo. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo TOC.md.
 
-Consulte [Metadatos](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=en) para obtener una lista de valores válidos para **solución**, **producto** y **tipo**.
+Consulte [Metadatos](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=es) para obtener una lista de valores válidos para **solución**, **producto** y **tipo**.
