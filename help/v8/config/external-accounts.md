@@ -6,10 +6,10 @@ description: Cuentas externas de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5cafea0ca9adde6e9e7156baf44b65801f84b2a7
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 31%
+source-wordcount: '1017'
+ht-degree: 32%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
    La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-   :arrow_upper_right: Obtenga más información sobre los correos electrónicos entrantes en la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
+   :[!DNL :arrow_upper_right:]: Obtenga más información sobre los correos electrónicos entrantes en la documentación de [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
 
 * **Enrutamiento**
 
@@ -56,7 +56,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
    En el contexto de los mensajes transaccionales, las instancias de ejecución están vinculadas a la instancia de control y las conectan. Las plantillas de mensajes transaccionales se implementan en la instancia de ejecución.
 
-   :bulb: Obtenga más información sobre la arquitectura del Centro de mensajes en [esta página](../dev/architecture.md#transac-msg-archi).
+   [!DNL :bulb:] Obtenga más información sobre la arquitectura del Centro de mensajes en  [esta página](../dev/architecture.md#transac-msg-archi).
 
 ## Acceso a cuentas externas de sistemas externos
 
@@ -66,7 +66,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
    Las bases de datos externas compatibles con Adobe Campaign v8 se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md)
 
-   :bulb: Obtenga más información sobre la opción Acceso de Datos Federados (FDA) en [esta sección](../connect/fda.md).
+   [!DNL :bulb:] Obtenga más información sobre la opción Acceso de datos federado (FDA) en  [esta sección](../connect/fda.md).
 
 ## Adobe Solución Integración Cuentas externas
 
@@ -74,7 +74,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
    Para conectarse a la consola de Adobe Campaign mediante un Adobe ID, debe configurar la cuenta externa de **[!UICONTROL Adobe Experience Cloud]**.
 
-   :bulb: Obtenga más información sobre el servicio Identity Management de Adobe (IMS) en [esta sección](../start/connect.md#connect-ims).
+   [!DNL :bulb:] Obtenga más información sobre el servicio Identity Management de Adobe (IMS) en  [esta sección](../start/connect.md#connect-ims).
 
    : globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para implementar el Adobe IMS con Campaign.
 
@@ -82,14 +82,14 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
    Utilice la cuenta externa **[!UICONTROL Web Analytics (Adobe Analytics)]** para configurar la transferencia de datos de Adobe Analytics a Adobe Campaign.
 
-   :bulb: Obtenga más información sobre la integración de Adobe Campaign con Adobe Analytics en [esta página](../connect/ac-aa.md).
+   [!DNL :bulb:] Obtenga más información sobre la integración de Adobe Campaign con Adobe Analytics en  [esta página](../connect/ac-aa.md).
 
    : globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para integrar Adobe Analytics con Campaign.
 
    * **Adobe Experience Manager**
    La cuenta externa **[!UICONTROL AEM]** permite administrar el contenido de los envíos de correos electrónicos y los formularios directamente en Adobe Experience Manager.
 
-   :bulb: Obtenga más información sobre la integración de Adobe Campaign con Adobe Analytics en [esta página](../connect/ac-aem.md).
+   [!DNL :bulb:] Obtenga más información sobre la integración de Adobe Campaign con Adobe Analytics en  [esta página](../connect/ac-aem.md).
 
    : globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para integrar Adobe Experience Manager con Adobe Campaign.
 
@@ -100,7 +100,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
    La cuenta externa **[!UICONTROL Microsoft Dynamics CRM]** permite importar y exportar datos de Microsoft Dynamics en Adobe Campaign.
 
-   :bulb: Obtenga más información sobre la integración de Adobe Campaign con Microsoft Dynamics CRM en [esta página](../connect/crm.md).
+   [!DNL :bulb:] Obtenga más información sobre la integración de Adobe Campaign con Microsoft Dynamics CRM en  [esta página](../connect/crm.md).
 
    Con el tipo de implementación **[!UICONTROL Web API]** y la autenticación **[!UICONTROL Password credentials]**, debe proporcionar los siguientes detalles:
 
@@ -146,7 +146,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
 Estas cuentas externas se pueden utilizar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]** .
 
-:arrow_upper_right: Obtenga más información sobre la transferencia de archivos en flujos de trabajo en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
+:[!DNL :arrow_upper_right:]: Obtenga más información sobre la transferencia de archivos en flujos de trabajo en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
 
 * **FTP y SFTP**
 
