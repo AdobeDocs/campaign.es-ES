@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Prácticas recomendadas del modelo de datos
 description: Conozca las prácticas recomendadas de extensión del modelo de datos de Campaign
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '2681'
+source-wordcount: '2679'
 ht-degree: 4%
 
 ---
@@ -177,7 +177,7 @@ Existen varias soluciones para minimizar la necesidad de registros en Adobe Camp
 
 Puede declarar el atributo &quot;deleteStatus&quot; en un esquema. Es más eficaz marcar el registro como eliminado y posponer la eliminación en la tarea de limpieza.
 
-: globo_voz: Como usuario de Cloud Services administrados, póngase en contacto con los consultores de Adobe o administradores técnicos para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
+[!DNL :speech_balloon:] Como usuario de Cloud Services administrados, póngase en contacto con los consultores de Adobe o administradores técnicos para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
 
 ## Rendimiento {#performance}
 
