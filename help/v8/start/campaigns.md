@@ -7,7 +7,7 @@ feature: Audiencias
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 167730cc3e81ee47f02bcdbc2c39fe793a99c534
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 22%
@@ -55,33 +55,33 @@ Los pasos clave para crear una campaña de marketing multicanal son:
 
    Defina la jerarquía y la programación, establezca el presupuesto, añada recursos y seleccione operadores.
 
-   :[!DNL :arrow_upper_right:]: Obtenga información sobre cómo crear un plan de marketing y configurar campañas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)
+   [!DNL :arrow_upper_right:] Obtenga información sobre cómo crear un plan de marketing y configurar campañas en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#creating-plan-and-program-hierarchy)
 
    Todas las campañas de marketing se basan en una plantilla, que almacena la configuración y las capacidades principales. Se proporciona una plantilla para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
 
-   :[!DNL :arrow_upper_right:]: Aprenda a trabajar con las plantillas de campaña en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Aprenda a trabajar con las plantillas de campaña en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=en#orchestrating-campaigns)
 
-   :[!DNL :arrow_upper_right:]: Descubra las campañas recurrentes y cómo configurarlas en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)
+   [!DNL :arrow_upper_right:] Descubra las campañas recurrentes y cómo configurarlas en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns)
 
 1. **Definir audiencias**
 
    Puede crear la audiencia en un flujo de trabajo o seleccionar un grupo existente, como una lista de destinatarios, suscriptores de un boletín informativo, destinatarios de un envío anterior o cualquier condición de filtrado.
 
-   :[!DNL :arrow_upper_right:]: Aprenda a definir la audiencia de sus mensajes en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Aprenda a definir la audiencia de los mensajes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#orchestrating-campaigns)
 
 1. **Creación de envíos**
 
    Seleccione los canales, defina el contenido del mensaje e inicie las entregas.
 
-   :[!DNL :arrow_upper_right:]: Obtenga información sobre cómo crear e iniciar envíos de campañas de marketing en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)
+   [!DNL :arrow_upper_right:] Obtenga información sobre cómo crear e iniciar envíos de campañas de marketing en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=en#creating-deliveries)
 
    Puede asociar varios documentos a una campaña: informe, foto, página web, diagrama, etc.
 
-   :[!DNL :arrow_upper_right:]: Obtenga más información sobre los documentos asociados en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)
+   [!DNL :arrow_upper_right:] Obtenga más información sobre los documentos asociados en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-assets.html?lang=en#adding-documents)
 
 1. **Configuración del proceso de aprobación**
 
    Adobe Campaign permite configurar procesos de aprobación colaborativos para las etapas principales de la campaña de marketing. Para cada campaña, puede aprobar el objetivo de envío, el contenido y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación desde la consola o a través de una conexión web.
 
-   :[!DNL :arrow_upper_right:]: Obtenga información sobre cómo configurar y administrar aprobaciones en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Obtenga información sobre cómo configurar y administrar aprobaciones en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
 
