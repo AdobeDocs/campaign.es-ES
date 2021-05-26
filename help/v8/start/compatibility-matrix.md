@@ -2,7 +2,7 @@
 solution: Campaign v8
 product: Adobe Campaign
 title: Matriz de compatibilidad de Campaign v8
-description: Aprenda los sistemas y las versiones compatibles con Campaign v8
+description: Descubra los sistemas y las versiones compatibles con Campaign v8
 feature: Información general
 role: Data Engineer
 level: Beginner
@@ -10,7 +10,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: ffdfc9a2e1bec191b5a3cc7f7b40683b2456bf3e
 workflow-type: tm+mt
 source-wordcount: '274'
-ht-degree: 31%
+ht-degree: 75%
 
 ---
 
@@ -21,7 +21,7 @@ Este documento enumera todos los sistemas y componentes compatibles con la últi
 >[!CAUTION]
 >
 >* A menos que se indique lo contrario, se admiten todas las versiones menores.
->* A medida que las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL), Adobe Campaign ya no es compatible con ellas y se eliminan de esta matriz de compatibilidad. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
+>* Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL), Adobe Campaign ya no es compatible con ellas y se eliminan de esta matriz de compatibilidad. Para evitar problemas, compruebe que tiene una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
 
 ## Sistemas compatibles
@@ -33,7 +33,7 @@ Este documento enumera todos los sistemas y componentes compatibles con la últi
 **Sistemas operativos**
 
 * **Microsoft Windows Server** 2016, 2012
-* **Microsoft Windows** 8, 10 (recomendado para instancias japonesas)
+* **Microsoft Windows** 8, 10 (recomendado para instancias japonesas))
 
 **Navegador**
 
@@ -41,7 +41,7 @@ Este documento enumera todos los sistemas y componentes compatibles con la últi
 
 ### Conectores CRM{#CRMconnectors}
 
-* **** Versión 49 de la API de SalesforceConnector
+* **** Versión 49 de la API de conector Salesforce
 * **Conector de Microsoft** Dynamics, API web: Dynamics 365 On-Premise y en línea
 
 ### Acceso de datos federado (FDA){#FederatedDataAccessFDA}
@@ -52,17 +52,17 @@ Este documento enumera todos los sistemas y componentes compatibles con la últi
 ### SDK móvil{#MobileSDK}
 
 * **Android** 7.x, 8.x, 9.0 con la versión 1.0.27 del SDK móvil.
-* **Apple iOS** 9 - 14 con la versión 1.0.26 del SDK móvil, compatible con las versiones de 32 y 64 bits.
+* **Apple iOS** 9 -14 con la versión 1.0.26 del SDK móvil, compatible con las versiones de 32 y 64 bits.
 
 ### Navegadores admitidos {#Browsers}
 
 Los siguientes exploradores son compatibles con Campaign for Web Access.
 
-* **Microsoft Edge**,  **Mozilla Firefox**,  **Google Chrome**,  **Safari**  (versiones más recientes)
+* **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versiones más recientes)
 
 * **Internet Explorer** 11
 
-## Cómo comprobar la versión de Campaign
+## Comprobación de la versión de Campaign
 
 Utilice el menú **Help > About...** para comprobar su versión.
 
