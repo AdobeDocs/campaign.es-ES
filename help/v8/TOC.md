@@ -9,8 +9,8 @@ title: Documentos de Campaign v8
 hide: true
 source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 35%
    + [Notas de la versión](start/release-notes.md)
    + [Limitaciones conocidas](start/known-limitations.md)
    + [Classic v7 a v8](start/capability-matrix.md)
-+ Start {#start}
++ Inicio {#start}
    + [Introducción](start/get-started.md)
    + [Perfiles y audiencias](start/audiences.md)
-   + [Importar datos](start/import.md)
+   + [Importación de datos](start/import.md)
    + [Creación de campañas](start/campaigns.md)
-   + [entrega de mensajes](start/create-message.md)
+   + [Envío de mensajes](start/create-message.md)
    + [Administración de las suscripciones](start/subscriptions.md)
    + [Seguimiento y monitorización](start/tracking.md)
    + [Métricas e informes](start/reporting.md)
@@ -37,7 +37,7 @@ ht-degree: 35%
    + [Pasos de implementación](start/implement.md)
    + [Personalizar la instancia](dev/customize.md)
    + [Directrices de seguridad](config/security.md)
-   + [Diseñar aplicaciones y formularios web](dev/webapps.md)
+   + [Diseño de aplicaciones y formularios web](dev/webapps.md)
    + [Prácticas recomendadas del modelo de datos](dev/datamodel-best-practices.md)
 + Implementar {#deploy}
    + [Matriz de compatibilidad](start/compatibility-matrix.md)
@@ -71,9 +71,9 @@ ht-degree: 35%
 + Conectar {#connect}
    + [Conectar con otras soluciones](connect/integration.md)
    + [Campaign + Analytics](connect/ac-aa.md)
-   + [Campaña + Experience Manager](connect/ac-aem.md)
-   + [Campaña + Target](connect/ac-at.md)
-   + [Campaña + RTCDP](connect/ac-rtcdp.md)
+   + [Campaign + Experience Manager](connect/ac-aem.md)
+   + [Campaign + Target](connect/ac-at.md)
+   + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + Base de datos externa](connect/fda.md)
    + [Campaign + su CRM](connect/crm.md)
@@ -82,7 +82,7 @@ ht-degree: 35%
    + [Arquitectura](dev/architecture.md)
    + [Modelo de datos](dev/datamodel.md)
    + Esquemas y formularios {#shemas-forms}
-      + [Trabajar con esquemas](dev/schemas.md)
+      + [Usar esquemas](dev/schemas.md)
       + [Crear esquemas](dev/create-schema.md)
       + [Ampliar esquemas](dev/extend-schema.md)
       + [Estructura del esquema](dev/schema-structure.md)
