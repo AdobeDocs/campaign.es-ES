@@ -6,9 +6,9 @@ description: Mecanismo de ensayo de la API de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '271'
 ht-degree: 3%
 
 ---
@@ -51,7 +51,7 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
    </srcSchema>
    ```
 
-   :bulb: Obtenga más información sobre la creación de esquemas personalizados en [esta página](create-schema.md).
+   [!DNL :bulb:] Obtenga más información sobre la creación de esquemas personalizados en  [esta página](create-schema.md).
 
 1. Guarde y actualice la estructura de la base de datos.  [Obtenga más información](update-database-structure.md)
 
