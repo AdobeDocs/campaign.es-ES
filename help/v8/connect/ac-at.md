@@ -7,9 +7,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '989'
 ht-degree: 52%
 
 ---
@@ -23,7 +23,7 @@ Esta integración le ayuda a implementar casos de uso de la siguiente manera: cu
 >[!NOTE]
 >La integración solo admite imágenes estáticas. Los demás tipos de contenido no se pueden personalizar.
 
-: globo_voz: Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para implementar los déclencheur de Experience Cloud con Campaign.
+[!DNL :speech_balloon:] Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para implementar déclencheur de Experience Cloud con Campaign.
 
 Adobe Target puede utilizar los siguientes tipos de datos:
 
