@@ -7,10 +7,10 @@ description: Documentación de Campaign v8
 breadcrumb-title: Campaign v8
 title: Documentos de Campaign v8
 hide: true
-source-git-commit: 6e098ffa538c4348889a35eb454da747c80d6262
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '197'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 0%
       + [Creación de un catálogo de ofertas](send/interaction-offer-catalog.md)
       + [Creación de una oferta](send/interaction-offer.md)
       + [Enviar una oferta](send/interaction-send-offers.md)
-      + [Ejemplos de uso](send/interaction-use-cases.md)
+      + [Casos de uso](send/interaction-use-cases.md)
 + Configurar {#config}
    + [Automatización con flujos de trabajo](config/workflows.md)
    + [Administración de datos](config/replication.md)
@@ -73,6 +73,7 @@ ht-degree: 0%
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
+   + [Campaña + déclencheur de Experience Cloud](connect/ac-triggers.md)
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + Base de datos externa](connect/fda.md)
@@ -88,7 +89,7 @@ ht-degree: 0%
       + [Estructura del esquema](dev/schema-structure.md)
       + [Asignación de base de datos](dev/database-mapping.md)
       + [Restringir la vista IP](dev/restrict-pi-view.md)
-      + [Usar una tabla de destinatarios personalizada](dev/custom-recipient.md)
+      + [Uso de una tabla de destinatarios personalizada](dev/custom-recipient.md)
       + [Actualizar la base de datos](dev/update-database-structure.md)
       + [Formularios de entrada](dev/forms.md)
    + API {#api}
