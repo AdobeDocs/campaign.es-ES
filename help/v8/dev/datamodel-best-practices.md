@@ -3,9 +3,9 @@ solution: Campaign v8
 product: Adobe Campaign
 title: Prácticas recomendadas del modelo de datos
 description: Conozca las prácticas recomendadas de extensión del modelo de datos de Campaign
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
-source-wordcount: '2679'
+source-wordcount: '2681'
 ht-degree: 4%
 
 ---
@@ -71,7 +71,7 @@ Un campo debe almacenarse en una tabla si tiene un propósito de objetivo o pers
 
 ### Elección de claves {#choice-of-keys}
 
-Además del **autouuid** definido de forma predeterminada en la mayoría de las tablas, debe considerar la posibilidad de agregar algunas claves lógicas o empresariales (número de cuenta, número de cliente, etc.). Se puede utilizar más adelante para importar/reconciliación o paquetes de datos. Para obtener más información, consulte [Identifiers](#identifiers).
+Además de los valores **autouuid** y **autopk** definidos de forma predeterminada en la mayoría de las tablas, debe considerar la posibilidad de agregar algunas claves lógicas o empresariales (número de cuenta, número de cliente, etc.). Se puede utilizar más adelante para importar/reconciliación o paquetes de datos. Para obtener más información, consulte [Identifiers](#identifiers).
 
 Las claves eficientes son esenciales para el rendimiento. Con Snowflake, puede insertar tipos de datos numéricos o basados en cadenas como claves para las tablas.
 
@@ -110,7 +110,7 @@ Esta clave personalizada es la clave principal del registro real en el sistema e
 
 Al crear una tabla personalizada, tiene dos opciones:
 * Una combinación de clave generada automáticamente (id) y clave interna (custom). Esta opción es interesante si la clave del sistema es una clave compuesta o no un número entero. Con Snowflake, enteros o claves basadas en cadenas proporcionarán un mayor rendimiento en tablas grandes y se unirán con otras tablas.
-* Uso de la clave principal como clave principal del sistema externo. Esta solución suele ser preferible, ya que simplifica el enfoque para importar y exportar datos, con una clave coherente entre los distintos sistemas. Se debe desactivar el autoid si la clave se denomina &quot;id&quot; y se espera que se rellene con valores externos (no autogenerados).
+* Uso de la clave principal como clave principal del sistema externo. Esta solución suele ser preferible, ya que simplifica el enfoque para importar y exportar datos, con una clave coherente entre los distintos sistemas. **** Se debe desactivar la función Autouuidsi si la clave se denomina &quot;id&quot; y se espera que se rellene con valores externos (no generados automáticamente).
 
 >[!CAUTION]
 >
@@ -123,7 +123,7 @@ Al crear una tabla personalizada, tiene dos opciones:
 
 Tenga cuidado con la integridad &quot;propia&quot; de las tablas grandes. La eliminación de registros que tienen tablas grandes con integridad &quot;propia&quot; puede detener la instancia. La tabla está bloqueada y las eliminaciones se realizan una por una. Así que es mejor usar integridad &quot;neutral&quot; en tablas secundarias que tienen grandes volúmenes.
 
-Declarar un vínculo como una unión externa no es bueno para el rendimiento. El registro de id cero emula la funcionalidad de unión externa. No es necesario declarar las uniones externas si el vínculo utiliza el autouuid.
+Declarar un vínculo como una unión externa no es bueno para el rendimiento. El registro de id cero emula la funcionalidad de unión externa. No es necesario declarar uniones externas si el vínculo utiliza **autouuid**.
 
 Aunque es posible unir cualquier tabla en un flujo de trabajo, Adobe recomienda definir vínculos comunes entre los recursos directamente en la definición de la estructura de datos.
 
