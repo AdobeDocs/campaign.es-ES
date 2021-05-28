@@ -7,9 +7,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: eaad05675d2f875af2db5f71781afdad3a9ff004
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '342'
 ht-degree: 13%
 
 ---
@@ -29,13 +29,10 @@ Modernice su implementación y aproveche todas las funcionalidades de Adobe Expe
 Campaign v8 puede conectarse con:
 
 * [Journey Orchestration de Adobe](https://experienceleague.adobe.com/docs/journeys/using/action-journeys/acc-action.html?lang=en)
-
 * [CDP en tiempo real](../connect/ac-rtcdp.md)
-
-* [Conector de datos de Adobe Analytics](../connect/ac-aa.md)
-
+* [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
-
+* [déclencheur de Adobe Experience Cloud](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
 
 También puede combinar sus **audiencias** y **recursos** entre soluciones de Experience Cloud con las funcionalidades de uso compartido de recursos y audiencias.
@@ -57,7 +54,7 @@ Los conectores CRM permiten una integración de datos rápida y sencilla: Adobe 
 
 Utilice el conector FDA (Acceso de Datos Federados) para conectar Campaign a una o más **bases de datos externas** y procesar la información almacenada en ellas sin afectar a los datos de la base de datos de Campaign Cloud.
 
-[!DNL :bulb:][ Obtenga más información en esta página](fda.md)
+[!DNL :bulb:] Obtenga más información en [esta página](fda.md)
 
 
 <!-- 
