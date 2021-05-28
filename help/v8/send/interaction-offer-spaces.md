@@ -6,7 +6,7 @@ description: Obtenga información sobre cómo crear espacios de oferta
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 583a8f6a03b00e1eafa6d408c9949e60a6f8158d
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 39%
@@ -70,7 +70,7 @@ El estado de la propuesta de oferta varía en función de las interacciones con 
 
 >[!NOTE]
 >
->La actualización de estado es un proceso asincrónico. Se lleva a cabo mediante el flujo de trabajo de seguimiento, que se activa cada hora.
+>La actualización de estado es un proceso **asíncrono**. Se lleva a cabo mediante el flujo de trabajo de seguimiento, que se activa cada hora.
 
 ### Lista de estado de oferta {#status-list}
 
