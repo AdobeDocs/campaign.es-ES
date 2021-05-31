@@ -6,16 +6,16 @@ description: Nuevas API de Campaign v8
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: d872702fe8933a1ef200b690f21efcbd8e5ab3bc
+source-git-commit: 0d6902e8c0bd68a081f7a5ef3ab9fc7a89367d5c
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 5%
+source-wordcount: '432'
+ht-degree: 4%
 
 ---
 
 # Nuevas API de campaña{#gs-new-api}
 
-Campaign v8 incluye tres nuevas API para administrar datos entre la base de datos local de Campaign y la base de datos de Cloud. Los requisitos previos para utilizarlos son habilitar el mecanismo de ensayo en el esquema. [Más información](staging.md).
+Campaign v8 incluye dos nuevas API para administrar datos entre la base de datos local de Campaign y la base de datos de Cloud. Los requisitos previos para utilizarlos son habilitar el mecanismo de ensayo en el esquema. [Más información](staging.md).
 
 * API de ingesta: **xtk.session.ingest**
 
@@ -24,10 +24,6 @@ Campaign v8 incluye tres nuevas API para administrar datos entre la base de dato
 * API de actualización/eliminación de datos: **xtk.session.ingestExt**
 
    Esta API se utiliza para actualizar o eliminar datos. [Obtenga más información](#data-update-api)
-
-* API de consulta: **xtk.session.lookup**.
-
-   Esta API recupera datos de una consulta. [Obtenga más información](#lookup-api)
 
 Un flujo de trabajo integrado dedicado sincronizará los datos en la base de datos de Cloud.
 
