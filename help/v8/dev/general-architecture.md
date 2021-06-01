@@ -1,13 +1,12 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Arquitectura general
 description: Arquitectura general de Campaign v8
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: 69d69c909e6b17ca3f5fb18d6680aa51d0d701cf
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -31,9 +30,9 @@ La implementación típica de la solución Adobe Campaign consta de los siguient
 
 Se puede acceder a la aplicación de diferentes maneras: Cliente enriquecido, cliente ligero o integración de API.
 
-* **Consola** de cliente: La interfaz de usuario principal de la aplicación es una aplicación nativa (en Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign con protocolos de Internet estándar (SOAP, HTTP, etc.). Adobe Campaign Client Console ofrece una buena facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñado para facilitar la implementación. Esta consola se puede implementar desde un explorador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).
+* **Consola** de cliente: La interfaz de usuario principal de la aplicación es una aplicación nativa (en Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign con protocolos de Internet estándar (SOAP, HTTP, etc.). La consola del cliente de Adobe Campaign ofrece una buena facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para facilitar la implementación. Esta consola se puede implementar desde un explorador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).
 
-   [!DNL :bulb:] [Obtenga más información sobre la consola de cliente de Campaign](../start/connect.md).
+   [!DNL :bulb:] [Obtenga más información sobre la consola del cliente de Campaign](../start/connect.md).
 
 * **Acceso** web: se puede acceder a partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario HTML, que incluye el módulo de informes, las etapas de aprobación de la entrega, la supervisión de instancias, etc.
 
