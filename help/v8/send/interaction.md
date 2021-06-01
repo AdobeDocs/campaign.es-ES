@@ -1,12 +1,11 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: 'Interacción de campaña: administración de ofertas'
 description: Introducción a la administración de ofertas
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 37%
@@ -32,7 +31,7 @@ Antes de empezar, como **Administrator** de Campaign, asegúrese de realizar las
 1. Crear perfiles de usuario. [Más información](interaction-operators.md).
 1. (opcional) Cree un entorno de oferta para cada dimensión de segmentación. [Obtenga más información](interaction-env.md)
 1. Cree reglas de tipología para cada entorno. [Más información](interaction-offer.md#offer-presentation).
-1. Cree espacios de oferta para cada entorno y configure las funciones de renderización. [Más información](interaction-offer-spaces.md).
+1. Cree espacios de oferta para cada entorno y configure las funciones de renderización. [Obtenga más información](interaction-offer-spaces.md).
 Si el espacio está definido mediante un canal unitario en modo identificado, se deben especificar los parámetros avanzados para este espacio.
 
 ### Crear y publicar el catálogo de ofertas {#managing-the-offer-catalog-}
