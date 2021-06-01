@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Obtenga información sobre cómo conectarse a Campaign v8
 description: Conexión a Campaign v8
@@ -7,10 +6,10 @@ feature: Audiencias
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 4ae0c968bd68d76d7ceffb91023d5426d6a810ea
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '752'
-ht-degree: 11%
+ht-degree: 13%
 
 ---
 
@@ -121,4 +120,4 @@ Se puede acceder a ciertas partes de la aplicación a través de un explorador w
 
 El acceso web también se utiliza en el proceso de validación: Los operadores pueden hacer clic en el correo electrónico de solicitud de aprobación y conectarse a Campaign a través de su explorador web para validar o rechazar un contenido o presupuesto de envío.
 
-[!DNL :arrow_upper_right:] Obtenga información sobre cómo configurar y administrar aprobaciones en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=en#orchestrating-campaigns)
+[!DNL :arrow_upper_right:] Obtenga información sobre cómo configurar y administrar aprobaciones en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=es#orchestrating-campaigns)
