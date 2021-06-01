@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Cambio de la tabla de destinatarios predeterminada
 description: Aprenda a utilizar una tabla de destinatarios personalizada
@@ -7,14 +6,14 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 0b71c76b-03d9-4023-84fc-3ecc0df9261b
-source-git-commit: a50a6cc28d9312910668205e528888fae5d0b1aa
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '253'
 ht-degree: 2%
 
 ---
 
-# Usar una tabla de destinatarios personalizada{#gs-ac-custom-recipient}
+# Uso de una tabla de destinatarios personalizada{#gs-ac-custom-recipient}
 
 Adobe Campaign incluye una tabla de perfiles integrada: **nmsRecipient**. Esta tabla tiene una serie de campos predefinidos y tablas que se pueden ampliar fácilmente. Obtenga más información sobre esta tabla en [esta página](datamodel.md#ootb-profiles).
 
