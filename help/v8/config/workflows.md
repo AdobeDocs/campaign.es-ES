@@ -1,5 +1,4 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Introducción a la automatización de campañas
 description: Introducción a la automatización de campañas
@@ -7,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 8ede6bc1bc08a27e74dde6a427561c33f154a883
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '1187'
-ht-degree: 18%
+ht-degree: 19%
 
 ---
 
@@ -35,7 +34,7 @@ Aprenda a diseñar flujos de trabajo en estos[casos de uso de extremo a extremo]
 
 Obtenga más información sobre los flujos de trabajo, la interfaz de usuario y la ejecución en la documentación de Campaign Classic v7 :
 
-[!DNL :arrow_upper_right:]  [Introducción a flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
+[!DNL :arrow_upper_right:]  [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows)
 * Actividades de flujo de trabajo:
    * [Actividades de segmentación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html): consulta, lista de lectura, enriquecimiento, unión y más
    * [Actividades](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html) de control de flujo: planificador, ramificación, alerta, señal externa, etc.
@@ -115,7 +114,7 @@ En esta sección, encontrará varios casos de uso que aprovechan las capacidades
 
    Aprenda a enviar una alerta a un operador que contendrá el nombre de los perfiles que abrieron una newsletter pero que no hicieron clic en el vínculo que contenía.
 
-### Gestión de datos {#management}
+### Administración de datos {#management}
 
 <img src="assets/do-not-localize/icon_manage.svg" width="60px">
 
