@@ -1,15 +1,14 @@
 ---
-solution: Campaign v8
 product: Adobe Campaign
 title: Configuración del canal de correo electrónico de Campaign
 description: Configuración del canal de correo electrónico de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 3fd91879485a33961769c684acba8ca3c48bbbed
+source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
@@ -50,6 +49,6 @@ Una vez configurado el CCO de correo electrónico, asegúrese de que la función
 
 [!DNL :arrow_upper_right:] [Establecer la dirección de correo electrónico de rechazo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails)
 
-[!DNL :arrow_upper_right:] [Uso de plantillas de envíos de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html)
+[!DNL :arrow_upper_right:] [Uso de plantillas de envíos de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es)
 
-[!DNL :arrow_upper_right:] [Comprensión de los errores de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
+[!DNL :arrow_upper_right:] [Comprensión de los errores de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)
