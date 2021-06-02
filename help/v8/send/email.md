@@ -5,9 +5,9 @@ description: Introducción a los correos electrónicos en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: d1e96b1311d9de24ceb918230186cd3cad609ab2
+source-git-commit: 5762e58aafb11932d0e28d87df84704974c09564
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '790'
 ht-degree: 51%
 
 ---
@@ -77,7 +77,7 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
 
    * Integración de un vínculo a una aplicación web
 
-      El editor de contenido permite integrar vínculos a aplicaciones web desde la consola de Adobe Campaign, como una página de destino o una página de formulario. Para obtener más información, consulte [Vínculo a una aplicación web](../../web/using/editing-content.md#link-to-a-web-application).
+      El editor de contenido permite integrar vínculos a aplicaciones web desde la consola de Adobe Campaign, como una página de destino o una página de formulario.
 
       Seleccione un campo de texto para enlazar a una aplicación web y, a continuación, haga clic en el primer icono. Seleccione **[!UICONTROL Link to a Web application]** y luego seleccione la aplicación deseada haciendo clic en el icono situado al final del campo **Web Application**.
 
