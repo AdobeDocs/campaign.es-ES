@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Administración de claves en Campaign '
 description: Introducción a la administración de claves
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ En Campaign v8, la clave principal es un identificador único universal (UUID), 
 
 La campaña de Adobe v8 viene con el Snowflake como la base de datos principal. La arquitectura distribuida de la base de datos de Snowflake no proporciona mecanismos para administrar la unicidad de una clave dentro de una tabla: los usuarios finales son responsables de garantizar la coherencia de las claves dentro de la base de datos de Adobe Campaign.
 
-Evitar duplicados en las claves, y especialmente en las claves principales, es obligatorio para preservar la coherencia de la base de datos relacional. Los duplicados en las claves principales producen problemas con las actividades de flujo de trabajo de administración de datos como Consulta, Reconciliación, Actualización, etc.
+Evitar duplicados en las claves, y especialmente en las claves principales, es obligatorio para preservar la coherencia de la base de datos relacional. Los duplicados en las claves principales producen problemas con las actividades de flujo de trabajo de administración de datos como **Query**, **Reconciliation**, **Update data**, etc.
 
-Adobe Campaign propone potentes herramientas de gestión de datos para reconciliar los datos, asegurarse de insertar o actualizar los datos según su presencia en la base de datos (Reconciliación) y eliminar duplicados antes de introducir los datos (Deduplicación). Como práctica recomendada, Adobe recomienda adoptar una estrategia [Detect](#detect-duplicates) y [Correcto](#correct-duplicates) como parte de su proceso general de gestión de datos, en caso de que se hayan cargado claves duplicadas en la base de datos.
+Adobe Campaign propone poderosas herramientas de administración de datos para reconciliar los datos, asegurarse de insertar o actualizar los datos según su presencia en la base de datos (**Reconciliation**) y eliminar duplicados antes de ingerir datos (**Deduplication**). Como práctica recomendada, Adobe recomienda adoptar una estrategia [Detect](#detect-duplicates) y [Correcto](#correct-duplicates) como parte de su proceso general de gestión de datos, en caso de que se hayan cargado claves duplicadas en la base de datos.
 
 ## Detectar duplicados{#detect-duplicates}
 
@@ -81,4 +81,4 @@ and urecipientid = 'c04d93f2-6012-4668-b523-88db1262cd46';
 
 ![](assets/sql-data-management.png)
 
-Una vez que la fila seleccionada se actualiza con un nuevo UUID, puede comprobar la fila actualizada desde la interfaz y observar que el UUID se ha actualizado según lo esperado. También puede detectar duplicados en la base de datos ejecutando el flujo de trabajo &quot;Detectar duplicados&quot; [como se explica aquí](#detect-duplicates).
+Una vez que la fila seleccionada se actualiza con un nuevo UUID, puede comprobar la fila actualizada desde la interfaz y observar que el UUID se ha actualizado según lo esperado. También puede detectar duplicados en la base de datos ejecutando el flujo de trabajo **Detect duplicates** [como se explica aquí](#detect-duplicates).
