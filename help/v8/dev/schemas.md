@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Trabajo con esquemas de Campaign
 description: Introducción a los esquemas
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1247'
 ht-degree: 7%
 
 ---
@@ -135,7 +135,7 @@ type="string" enum="exTransactionTypeEnum"/>
 
 ## Claves {#keys}
 
-Cada tabla debe tener al menos una clave y, a menudo, se establece automáticamente en el elemento principal del esquema mediante el atributo **@autouuid=true** establecido en &quot;true&quot;.
+Cada tabla debe tener al menos una clave y, a menudo, se establece automáticamente en el elemento principal del esquema mediante los atributos **@autouuid** y **autopk** establecidos en **true**.
 
 La clave principal también se puede definir utilizando el atributo **internal**.
 
