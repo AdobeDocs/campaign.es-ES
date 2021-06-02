@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Administración de claves en Campaign '
 description: Introducción a la administración de claves
-source-git-commit: 08c1f2fbe79845fe54670e25ac4a63ab65517513
+source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '656'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ La campaña de Adobe v8 viene con el Snowflake como la base de datos principal. 
 
 Evitar duplicados en las claves, y especialmente en las claves principales, es obligatorio para preservar la coherencia de la base de datos relacional. Los duplicados en las claves principales producen problemas con las actividades de flujo de trabajo de administración de datos como **Query**, **Reconciliation**, **Update data**, etc.
 
-Adobe Campaign propone poderosas herramientas de administración de datos para reconciliar los datos, asegurarse de insertar o actualizar los datos según su presencia en la base de datos (**Reconciliation**) y eliminar duplicados antes de ingerir datos (**Deduplication**). Como práctica recomendada, Adobe recomienda adoptar una estrategia [Detect](#detect-duplicates) y [Correcto](#correct-duplicates) como parte de su proceso general de gestión de datos, en caso de que se hayan cargado claves duplicadas en la base de datos.
+Como práctica recomendada, Adobe recomienda adoptar una estrategia [Detect](#detect-duplicates) y [Correcto](#correct-duplicates) como parte de su proceso general de gestión de datos, en caso de que se hayan cargado claves duplicadas en la base de datos.
 
 ## Detectar duplicados{#detect-duplicates}
 
