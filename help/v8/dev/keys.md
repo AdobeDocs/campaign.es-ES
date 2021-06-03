@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: 'Administración de claves en Campaign '
 description: Introducción a la administración de claves
-source-git-commit: 9a1c44f74f6558f0397617353f3e78186fb15717
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,10 @@ Como práctica recomendada, Adobe recomienda adoptar una estrategia [Detect](#de
 ## Detectar duplicados{#detect-duplicates}
 
 Campaign viene con una nueva protección que elimina automáticamente cualquier UID duplicado de una audiencia durante la preparación del envío. Este nuevo mecanismo evita que se produzca cualquier error al preparar una entrega.
+
+>[!CAUTION]
+>
+>Las claves duplicadas no están restringidas a los UUID. Puede suceder en con los ID, incluidas las claves personalizadas creadas en tablas personalizadas.
 
 Como usuario final, puede comprobar esta información en los registros de envío: algunos destinatarios pueden excluirse del destinatario principal debido a la clave duplicada. En ese caso, se muestra la siguiente advertencia: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
