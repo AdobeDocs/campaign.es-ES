@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo crear un catálogo de ofertas
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 75%
@@ -14,7 +14,7 @@ ht-degree: 75%
 
 # Enviar una oferta
 
-Para que el motor de oferta pueda seleccionar una oferta, esta se ha aprobado y está disponible en un entorno **Live**. [Obtenga más información](interaction-offer.md#approve-offers)
+Para que el motor de oferta pueda seleccionar una oferta, esta se ha aprobado y está disponible en un entorno **Live**. [Más información](interaction-offer.md#approve-offers)
 
 La presentación de ofertas a través de un canal de comunicación saliente se realiza mediante correo postal, correo electrónico o envíos móviles. También puede utilizar el modo unitario con mensajes transaccionales (Centro de mensajes).
 
@@ -40,11 +40,11 @@ Para insertar propuestas de oferta en una entrega, siga los pasos a continuació
 
    ![](assets/offer_delivery_005.png)
 
-1. Seleccione la opción **[!UICONTROL Exclude non-eligible recipients]** si es necesario. [Más información](#parameters-for-calling-offer-engine).
+1. Seleccione la opción **[!UICONTROL Exclude non-eligible recipients]** si es necesario. [Más información](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_006.png)
 
-1. Si es necesario, seleccione la opción **[!UICONTROL Do not display anything if no offers are selected]** . [Más información](#parameters-for-calling-offer-engine).
+1. Si es necesario, seleccione la opción **[!UICONTROL Do not display anything if no offers are selected]** . [Más información](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -110,7 +110,7 @@ Después de configurar su actividad **Query**:
 
       ![](assets/int_enrichment_offer4.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -132,7 +132,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/int_enrichment_link2.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -148,7 +148,7 @@ De forma predeterminada, cuando se utiliza una actividad **Enrichment** para ent
 
 Sin embargo, se puede almacenar esta información de la siguiente manera:
 
-1. Cree un recurso al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega. [Más información](#specifying-an-offer-or-a-call-to-the-offer-engine).
+1. Cree un recurso al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega. [Más información](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. En la ventana principal de la actividad, seleccione **[!UICONTROL Edit additional data...]**
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -182,7 +182,7 @@ Después de configurar su actividad **Query**:
 
    ![](assets/int_offerengine_activity1.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#inserting-an-offer-proposition-into-a-delivery).
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#inserting-an-offer-proposition-into-a-delivery)
 
 ### Ofertas por celda {#offers-by-cell}
 
