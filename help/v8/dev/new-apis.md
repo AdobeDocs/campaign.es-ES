@@ -5,7 +5,7 @@ description: Nuevas API de Campaign v8
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 4%
@@ -14,15 +14,15 @@ ht-degree: 4%
 
 # Nuevas API de campaña{#gs-new-api}
 
-Campaign v8 incluye dos nuevas API para administrar datos entre la base de datos local de Campaign y la base de datos de Cloud. Los requisitos previos para utilizarlos son habilitar el mecanismo de ensayo en el esquema. [Más información](staging.md).
+Campaign v8 incluye dos nuevas API para administrar datos entre la base de datos local de Campaign y la base de datos de Cloud. Los requisitos previos para utilizarlos son habilitar el mecanismo de ensayo en el esquema. [Más información](staging.md)
 
 * API de ingesta: **xtk.session.ingest**
 
-   Esta API está dedicada únicamente a la inserción de datos. [Obtenga más información](#data-insert-api)
+   Esta API está dedicada únicamente a la inserción de datos. [Más información](#data-insert-api)
 
 * API de actualización/eliminación de datos: **xtk.session.ingestExt**
 
-   Esta API se utiliza para actualizar o eliminar datos. [Obtenga más información](#data-update-api)
+   Esta API se utiliza para actualizar o eliminar datos. [Más información](#data-update-api)
 
 Un flujo de trabajo integrado dedicado sincronizará los datos en la base de datos de Cloud.
 
@@ -208,7 +208,7 @@ Como resultado, la tabla de ensayo se actualiza según lo esperado.
 
 La administración de suscripciones en Campaign se describe en [esta página](../start/subscriptions.md).
 
-La inserción de los datos de suscripción y baja depende del [Mecanismo de ensayo](staging.md) en la base de datos local de Campaign. La información del suscriptor se almacena temporalmente en tablas de ensayo en la base de datos local y el flujo de trabajo de sincronización envía estos datos de la base de datos local a la base de datos de Cloud. Como consecuencia, los procesos de suscripción y baja son **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Obtenga más información](../config/replication.md#tech-wf)
+La inserción de los datos de suscripción y baja depende del [Mecanismo de ensayo](staging.md) en la base de datos local de Campaign. La información del suscriptor se almacena temporalmente en tablas de ensayo en la base de datos local y el flujo de trabajo de sincronización envía estos datos de la base de datos local a la base de datos de Cloud. Como consecuencia, los procesos de suscripción y baja son **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](../config/replication.md#tech-wf)
 
 
 **Temas relacionados**
