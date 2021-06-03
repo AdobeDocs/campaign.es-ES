@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo trabajar con bases de datos de Cam
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 58%
@@ -54,9 +54,9 @@ Se requieren **permisos específicos** en [!DNL Adobe Campaign] y en la base de 
 Para configurar el acceso a una base de datos externa con FDA, los pasos de configuración son:
 
 1. Como usuario de Adobe Managed Services, póngase en contacto con Adobe para instalar los controladores en la instancia de Campaign.
-1. Una vez instalados los controladores, configure la cuenta externa que se corresponda con la base de datos en el servidor de Adobe Campaign y pruebe la cuenta externa. [Más información](#fda-external-account).
-1. Crear el esquema de la base de datos externa en Adobe Campaign. Esto permite identificar la estructura de datos de la base de datos externa. [Obtenga más información](#create-data-schema)
-1. Si es necesario, cree una nueva asignación de destino a partir del esquema creado anteriormente. Esto es necesario si los destinatarios de los envíos proceden de la base de datos externa. Esta implementación incluye limitaciones relacionadas con la personalización de mensajes. [Obtenga más información](#define-data-mapping)
+1. Una vez instalados los controladores, configure la cuenta externa que se corresponda con la base de datos en el servidor de Adobe Campaign y pruebe la cuenta externa. [Más información](#fda-external-account)
+1. Crear el esquema de la base de datos externa en Adobe Campaign. Esto permite identificar la estructura de datos de la base de datos externa. [Más información](#create-data-schema)
+1. Si es necesario, cree una nueva asignación de destino a partir del esquema creado anteriormente. Esto es necesario si los destinatarios de los envíos proceden de la base de datos externa. Esta implementación incluye limitaciones relacionadas con la personalización de mensajes. [Más información](#define-data-mapping)
 
 ## Cuenta externa de la base de datos externa{#fda-external-account}
 
