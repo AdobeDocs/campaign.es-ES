@@ -5,7 +5,7 @@ description: Introducción a la mensajería transaccional
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
+source-git-commit: 973e04eb25887f63564b416515c6e229ed5233a4
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 72%
@@ -36,7 +36,7 @@ Los mensajes transaccionales se utilizan para enviar:
 
 Cada evento puede almacenar en déclencheur un mensaje personalizado. Para que esto suceda, debe crear una plantilla de mensaje que coincida con cada tipo de evento. Las plantillas contienen la información necesaria para personalizar el mensaje transaccional. También puede utilizar plantillas para probar la vista previa del mensaje y enviar pruebas utilizando las direcciones semilla antes de enviar al destinatario final.
 
-## Creación de la plantilla
+### Creación de la plantilla
 
 Para crear una plantilla de mensaje, siga los pasos a continuación:
 
@@ -62,7 +62,7 @@ Para crear una plantilla de mensaje, siga los pasos a continuación:
 
 1. Introduzca una naturaleza y una descripción y, a continuación, haga clic en **[!UICONTROL Continue]** para crear el cuerpo del mensaje. Consulte [Crear el contenido del mensaje](#create-message-content).
 
-## Cree el contenido{#create-message-content}
+### Cree el contenido{#create-message-content}
 
 La definición del contenido del mensaje transaccional es la misma que para todas las entregas de Adobe Campaign. Por ejemplo, para una entrega de correo electrónico, puede crear contenido en formato HTML o texto, añadir archivos adjuntos o personalizar el objeto de envío. Para obtener más información, consulte [esta sección](../start/create-message.md).
 
@@ -92,7 +92,7 @@ Para insertar etiquetas de personalización en el cuerpo de un mensaje de correo
 
    ![](assets/messagecenter_create_custo_2.png)
 
-## Adición de direcciones semilla{#add-seeds}
+### Adición de direcciones semilla{#add-seeds}
 
 Una dirección semilla permite mostrar una vista previa del mensaje, enviar una prueba y probar la personalización del mensaje antes de enviarlo. Las direcciones semilla están vinculadas a la entrega y no se pueden utilizar para otros envíos.
 
@@ -118,7 +118,7 @@ Una dirección semilla permite mostrar una vista previa del mensaje, enviar una 
 
 Una vez creadas las direcciones, puede acceder a su vista previa y personalización.
 
-## Añadir datos de personalización{#personalization-data}
+### Añadir datos de personalización{#personalization-data}
 
 Puede añadir datos en la plantilla de mensaje para probar la personalización del mensaje transaccional. Esto le permite generar una vista previa o enviar una prueba. Si instala el módulo **Deliverability**, estos datos le permiten mostrar una renderización de los mensajes para varios clientes de escritorio, web o móviles.
 
@@ -133,7 +133,7 @@ Esta información le permite personalizar el contenido del mensaje mediante etiq
 
    ![](assets/messagecenter_create_custo_3.png)
 
-## Vea previamente su mensaje transaccional{#transactional-message-preview}
+### Previsualizar el mensaje transaccional{#transactional-message-preview}
 
 Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje, puede obtener una vista previa del mensaje y comprobar su personalización.
 
@@ -145,7 +145,7 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
    ![](assets/messagecenter_create_seed_7.png)
 
-## Envío de una prueba
+### Envío de una prueba
 
 Puede probar la entrega de mensajes enviando una prueba a una dirección semilla creada anteriormente.
 
