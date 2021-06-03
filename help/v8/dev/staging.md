@@ -5,7 +5,7 @@ description: Mecanismo de ensayo de la API de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 2%
@@ -20,7 +20,7 @@ La capacidad de ensayo de Campaign está habilitada de forma predeterminada en a
 
 * La estructura del esquema de datos se duplica en la tabla de ensayo local
 * Las nuevas API dedicadas a la ingesta de datos fluyen directamente a la tabla de ensayo local. [Más información](new-apis.md)
-* Un flujo de trabajo programado déclencheur cada hora y sincroniza los datos con la base de datos de Cloud. [Más información](../config/replication.md).
+* Un flujo de trabajo programado déclencheur cada hora y sincroniza los datos con la base de datos de Cloud. [Más información](../config/replication.md)
 
 Algunos esquemas integrados están Ensayados de forma predeterminada, como nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
