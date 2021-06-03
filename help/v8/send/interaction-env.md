@@ -5,7 +5,7 @@ description: Creación de operadores de administración de ofertas
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 43%
@@ -31,7 +31,7 @@ De forma predeterminada, Campaign viene con un entorno **[!UICONTROL Design]** y
 
 ![](assets/offer_environments_overview_002.png)
 
-Los administradores de envío solo pueden ver el entorno **[!UICONTROL Live]** y aprovechar las ofertas para enviarlas. Los administradores de ofertas pueden ver y utilizar el entorno **[!UICONTROL Design]** y ver el entorno **[!UICONTROL Live]**. [Más información](interaction-operators.md).
+Los administradores de envío solo pueden ver el entorno **[!UICONTROL Live]** y aprovechar las ofertas para enviarlas. Los administradores de ofertas pueden ver y utilizar el entorno **[!UICONTROL Design]** y ver el entorno **[!UICONTROL Live]**. [Más información](interaction-operators.md)
 
 ## Crear un entorno de oferta {#creating-an-offer-environment}
 
