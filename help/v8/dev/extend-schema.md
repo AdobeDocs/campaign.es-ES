@@ -2,9 +2,9 @@
 product: Adobe Campaign
 title: Ampliación de esquemas de Campaign
 description: Descubra cómo ampliar los esquemas de Campaign
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '254'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Los pasos clave para personalizar el modelo de datos de Campaign son:
 >[!CAUTION]
 >El esquema integrado no debe modificarse directamente. Si necesita adaptar un esquema integrado, debe ampliarlo.
 
-[!DNL :bulb:] Para comprender mejor las tablas integradas de Campaign y su interacción, consulte  [esta página](datamodel.md).
+[!DNL :bulb:] Para comprender mejor las tablas integradas de Campaign y su interacción, consulte  [esta página](datamodel.md). Consulte también las recomendaciones al crear un nuevo esquema en [esta página](create-schema.md).
 
 Para ampliar un esquema, siga los pasos a continuación:
 
@@ -43,7 +43,7 @@ Para ampliar un esquema, siga los pasos a continuación:
 
    ![](assets/extend-schema-edit.png)
 
-   En el siguiente ejemplo, agregamos el atributo MembershipYear, establecemos un límite de longitud para los apellidos (este límite sobrescribirá el predeterminado) y eliminamos la fecha de nacimiento del esquema integrado.
+   En el siguiente ejemplo, agregamos el atributo **MembershipYear**, establecemos un límite de longitud para los apellidos (este límite sobrescribirá el predeterminado) y eliminamos la fecha de nacimiento del esquema integrado.
 
    ![](assets/extend-schema-sample.png)
 
@@ -63,6 +63,6 @@ Para ampliar un esquema, siga los pasos a continuación:
 
    ![](assets/extend-schema-structure.png)
 
-1. Actualice la estructura de la base de datos para aplicar los cambios. [Obtenga más información](update-database-structure.md)
+1. Actualice la estructura de la base de datos para aplicar los cambios. [Más información](update-database-structure.md)
 
-1. Una vez implementados los cambios en la base de datos, se puede adaptar el formulario de entrada de destinatarios para que los cambios sean visibles. [Obtenga más información](forms.md)
+1. Una vez implementados los cambios en la base de datos, se puede adaptar el formulario de entrada de destinatarios para que los cambios sean visibles. [Más información](forms.md)
