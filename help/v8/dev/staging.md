@@ -5,21 +5,21 @@ description: Mecanismo de ensayo de la API de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 3%
+source-wordcount: '312'
+ht-degree: 2%
 
 ---
 
 # Mecanismo de ensayo de la API de Campaign
 
-Con la base de datos de Campaign Cloud, no se recomiendan las llamadas unitarias blast debido al rendimiento (latencia y concurrencia). Siempre se prefiere el funcionamiento por lotes. Para garantizar un rendimiento óptimo de las API, Campaign sigue gestionando las llamadas de API a nivel de base de datos local.
+Con la base de datos de Campaign Cloud, no se recomienda realizar llamadas unitarias a la paralización con respecto al rendimiento (latencia y concurrencia). Siempre se prefiere la operación de agrupamiento. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
 
-El mecanismo de ensayo de campañas está disponible para tablas integradas y personalizadas, y ofrece las siguientes ventajas:
+La capacidad de ensayo de Campaign está habilitada de forma predeterminada en algunos esquemas integrados. También podemos activarlo en cualquier esquema personalizado. Mecanismo de ensayo en pocas palabras:
 
 * La estructura del esquema de datos se duplica en la tabla de ensayo local
-* Las nuevas API para la ingesta fluyen directamente a la tabla de ensayo. [Obtenga más información](new-apis.md)
+* Las nuevas API dedicadas a la ingesta de datos fluyen directamente a la tabla de ensayo local. [Más información](new-apis.md)
 * Un flujo de trabajo programado déclencheur cada hora y sincroniza los datos con la base de datos de Cloud. [Más información](../config/replication.md).
 
 Algunos esquemas integrados están Ensayados de forma predeterminada, como nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
@@ -28,7 +28,13 @@ Las API de Campaign Classic v7 siguen disponibles, pero no pueden beneficiarse d
 
 >[!CAUTION]
 >
->Con este nuevo mecanismo, la sincronización de datos para suscripciones, bajas de suscripción o registro móvil es ahora **asíncrona**.
+>* Con este nuevo mecanismo, la sincronización de datos para la exclusión del canal, las suscripciones, las bajas de suscripción o el registro móvil es ahora **asíncrona**.
+   >
+   >
+* El ensayo solo se aplica a esquemas almacenados en la base de datos de Cloud. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema de ensayo
+
+>
+
 
 
 ## Pasos de implementación{#implement-staging}
@@ -52,7 +58,7 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
 
    [!DNL :bulb:] Obtenga más información sobre la creación de esquemas personalizados en  [esta página](create-schema.md).
 
-1. Guarde y actualice la estructura de la base de datos.  [Obtenga más información](update-database-structure.md)
+1. Guarde y actualice la estructura de la base de datos.  [Más información](update-database-structure.md)
 
 1. Habilite el mecanismo de ensayo en la definición del esquema añadiendo el parámetro **autoStg=&quot;true&quot;**.
 
