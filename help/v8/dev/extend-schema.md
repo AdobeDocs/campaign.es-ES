@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Ampliación de esquemas de Campaign
 description: Descubra cómo ampliar los esquemas de Campaign
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 2%
@@ -35,7 +35,7 @@ Para ampliar un esquema, siga los pasos a continuación:
 
    ![](assets/extend-schema-select.png)
 
-   Por convención, asigne el mismo nombre al esquema de extensión que al esquema integrado y utilice un espacio de nombres personalizado.  Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces).
+   Por convención, asigne el mismo nombre al esquema de extensión que al esquema integrado y utilice un espacio de nombres personalizado.  Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
