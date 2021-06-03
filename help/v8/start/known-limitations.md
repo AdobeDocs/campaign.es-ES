@@ -6,9 +6,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: 38ea3e82fca6299b067d6843424d4ccb92213d00
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '154'
 ht-degree: 3%
 
 ---
@@ -24,6 +24,5 @@ Para Adobe Campaign v8, existen las siguientes limitaciones:
 * Sin replicación de datos bidireccional: la replicación solo se produce desde la base de datos local de Campaign a la base de datos de Cloud
 * Las capacidades enumeradas [en esta sección](capability-matrix.md#gs-unavailable-features) no están disponibles en la versión actual de Campaign v8
 * Algunas funciones no disponibles o eliminadas siguen estando visibles en la interfaz de usuario
-* Los mecanismos de suscripción (inclusión) y baja (exclusión), y el registro móvil son procesos asincrónicos. Las solicitudes se procesan cada hora a través de un flujo de trabajo técnico específico. [Obtenga más información](../config/replication.md#tech-wf)
-* Los usuarios finales deben gestionar manualmente los duplicados. [Obtenga más información](../dev/keys.md)
-* Latencia: para confirmar + detalles
+* Los mecanismos de suscripción (inclusión) y baja (exclusión), y el registro móvil son procesos asincrónicos. Las solicitudes se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](../config/replication.md#tech-wf)
+* Los usuarios finales deben gestionar manualmente los duplicados. [Más información](../dev/keys.md)
