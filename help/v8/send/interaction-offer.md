@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo crear una oferta
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 67%
@@ -30,9 +30,9 @@ Para crear una oferta, siga los pasos a continuación:
 
 Ahora puede utilizar la pestaña **[!UICONTROL Eligibility]** para definir:
 
-* Período de elegibilidad de la oferta. [Obtenga más información](#eligibility-period)
-* Filtros en la población objetivo de la oferta. [Obtenga más información](#filters-on-the-target)
-* La ponderación de la oferta. [Obtenga más información](#offer-weight)
+* Período de elegibilidad de la oferta. [Más información](#eligibility-period)
+* Filtros en la población objetivo de la oferta. [Más información](#filters-on-the-target)
+* La ponderación de la oferta. [Más información](#offer-weight)
 
 ### Período de elegibilidad de la oferta{#eligibility-period}
 
@@ -50,7 +50,7 @@ Para ello, haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione el 
 
 ![](assets/offer_eligibility_create_003.png)
 
-Si ya se han creado filtros predefinidos, puede seleccionarlos de la lista de filtros de usuario. [Más información](interaction-predefined-filters.md).
+Si ya se han creado filtros predefinidos, puede seleccionarlos de la lista de filtros de usuario. [Más información](interaction-predefined-filters.md)
 
 ![](assets/offer_eligibility_create_004.png)
 
@@ -64,7 +64,7 @@ Por ejemplo, una oferta puede tener una ponderación de A para los contactos de 
 
 >[!NOTE]
 >
->La ponderación asignada se puede modificar de forma temporal de acuerdo con los parámetros de la categoría a la que pertenece la oferta. [Más información](interaction-offer-catalog.md#creating-offer-categories).
+>La ponderación asignada se puede modificar de forma temporal de acuerdo con los parámetros de la categoría a la que pertenece la oferta. [Más información](interaction-offer-catalog.md#creating-offer-categories)
 
 Para crear una ponderación en una oferta, siga los siguientes pasos:
 
@@ -140,7 +140,7 @@ Utilice la pestaña **[!UICONTROL Content]** para definir el contenido de la ofe
 
    ![](assets/offer_content_create_002.png)
 
-   Para buscar los campos requeridos tal y como estaban definidos durante la configuración del espacio de oferta, haga clic en el vínculo **[!UICONTROL Content definitions]** para mostrar la lista. [Más información](interaction-offer-spaces.md).
+   Para buscar los campos requeridos tal y como estaban definidos durante la configuración del espacio de oferta, haga clic en el vínculo **[!UICONTROL Content definitions]** para mostrar la lista. [Más información](interaction-offer-spaces.md)
 
    ![](assets/offer_content_create_003.png)
 
