@@ -5,10 +5,10 @@ description: Introducción a la mensajería transaccional
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 41ea85bc3c616ed7cdd0718ff3368aab971a5352
+source-git-commit: 726e8d3ba00481237af2765e2f339d755f4e6a01
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 73%
+source-wordcount: '1477'
+ht-degree: 72%
 
 ---
 
@@ -219,8 +219,8 @@ Una vez publicada una plantilla de mensaje en las instancias de ejecución, se p
 
 Para cancelar la publicación de una plantilla de mensaje transaccional, siga los pasos a continuación.
 
-1. En la instancia de control, vaya a la carpeta **[!UICONTROL Message Center > Transactional message templates]** del árbol.
-1. Seleccione la plantilla cuya publicación desea cancelar.
+1. En la instancia de control, vaya a la carpeta **[!UICONTROL Message Center > Transactional message templates]** .
+1. Seleccione la plantilla para cancelar la publicación.
 1. Haga clic **[!UICONTROL Unpublish]**.
 1. Haga clic **[!UICONTROL Start]**.
 
