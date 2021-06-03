@@ -6,9 +6,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 38ea3e82fca6299b067d6843424d4ccb92213d00
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '805'
 ht-degree: 45%
 
 ---
@@ -35,7 +35,7 @@ Como usuario [!DNL Campaign Classic], tenga en cuenta que la mayoría de las fun
 
 Este es un cambio fundamental en la arquitectura del software. Ahora, los datos son remotos y Campaign federa todos los datos, incluidos los perfiles. [!DNL Campaign]Los procesos de ahora escalan de extremo a extremo, desde la segmentación hasta la ejecución del mensaje: la ingesta de datos, la segmentación, el direccionamiento, las consultas y las entregas ahora se ejecutan normalmente en minutos. Esta nueva versión resuelve el desafío del escalado por completo, pero mantiene el mismo nivel de flexibilidad y extensibilidad. El número de perfiles es casi ilimitado y se puede ampliar la retención de datos.
 
-El almacenamiento en la nube se realiza en **[!DNL Snowflake]**: una nueva **cuenta externa** integrada garantiza la conectividad con la base de datos de Cloud. Está configurado por Adobe y no debe modificarse. [Más información](../config/external-accounts.md).
+El almacenamiento en la nube se realiza en **[!DNL Snowflake]**: una nueva **cuenta externa** integrada garantiza la conectividad con la base de datos de Cloud. Está configurado por Adobe y no debe modificarse. [Más información](../config/external-accounts.md)
 
 Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de datos en la nube viene con una extensión de esquema integrada en el área de nombres **xxl.** Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos local [!DNL Campaign] a la base de datos de [!DNL Snowflake] Cloud y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
 
@@ -66,8 +66,7 @@ Tenga en cuenta que este ID se basa en cadenas y no en secuencias. La clave prin
 
 En Campaign Classic v7 y versiones anteriores, la unicidad de una clave dentro de un esquema (es decir, una tabla) se gestiona a nivel del motor de la base de datos. De forma más general, los motores de base de datos clásicos como PostgreSQL, Oracle o SQL Server incluyen un mecanismo nativo para evitar la inserción de filas duplicadas basadas en una columna o un conjunto de columnas a través de claves principales o índices únicos. El ID duplicado no existe en estas versiones cuando el índice adecuado y las claves principales se establecen en el nivel de base de datos.
 
-La campaña de Adobe v8 viene con el Snowflake como la base de datos principal. Como aumenta drásticamente la escala de las consultas, la arquitectura distribuida de la base de datos de Snowflake no proporciona esos mecanismos para administrar y, a continuación, hacer cumplir la unicidad de una clave dentro de una tabla. Como consecuencia, con Adobe Campaign v8, nada impide la ingesta de claves duplicadas en una tabla. Los usuarios finales ahora son responsables de garantizar la coherencia de las claves en la base de datos de Adobe Campaign. [Más información](../dev/keys.md).
-
+La campaña de Adobe v8 viene con el Snowflake como la base de datos principal. Como aumenta drásticamente la escala de las consultas, la arquitectura distribuida de la base de datos de Snowflake no proporciona esos mecanismos para administrar y, a continuación, hacer cumplir la unicidad de una clave dentro de una tabla. Como consecuencia, con Adobe Campaign v8, nada impide la ingesta de claves duplicadas en una tabla. Los usuarios finales ahora son responsables de garantizar la coherencia de las claves en la base de datos de Adobe Campaign. [Más información](../dev/keys.md)
 
 ### Mantenimiento simplificado
 
@@ -84,6 +83,7 @@ Tenga en cuenta que algunas funciones no están disponibles en esta primera vers
 * Gestor de respuestas
 * Modelos de implementación híbridos/locales
 * Mensajería LINE
+* Panel de control de Campaign
 
 >[!CAUTION]
 >
