@@ -5,7 +5,7 @@ description: Introducción a las notificaciones push en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
 workflow-type: tm+mt
 source-wordcount: '277'
 ht-degree: 17%
@@ -54,4 +54,4 @@ Debe definir la configuración de las aplicaciones de iOS y Android en Adobe Cam
 
 >[!CAUTION]
 >
->Con el registro móvil de Campaign v8 ahora es **asíncrono**. [Más información](../dev/staging.md).
+>Con el registro móvil de Campaign v8 ahora es **asíncrono**. [Más información](../dev/staging.md)
