@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 0e99b836dc035c0076f6771b5b430dfd1bd8edaf
+source-git-commit: bf2c44adc560d2be700a27b02ab35f6630192d00
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,6 +85,8 @@ Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implemen
 ## Espacio de trabajo y personalización
 
 El espacio de trabajo de Campaign está disponible a través de la [Consola de cliente](../dev/general-architecture.md).
+
+![](assets/home-page.png)
 
 [!DNL :bulb:] [Obtenga más información sobre la consola del cliente de Campaign](../start/connect.md).
 
