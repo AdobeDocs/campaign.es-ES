@@ -6,7 +6,7 @@ feature: Audiencias
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 032bee3b58948b558efe50796efa789a046ff5e4
+source-git-commit: efb236fe47653ddd45f8a5a08e0595b9f6287b7d
 workflow-type: tm+mt
 source-wordcount: '730'
 ht-degree: 85%
@@ -70,11 +70,15 @@ Los pasos clave para crear una campaña de marketing multicanal son estos:
 
    Puede crear la audiencia en un flujo de trabajo o seleccionar un grupo existente, como una lista de destinatarios, suscriptores de un boletín informativo, destinatarios de una entrega anterior o cualquier condición de filtrado.
 
+   ![](assets/campaign-wf.png)
+
    [!DNL :arrow_upper_right:] Aprenda a definir la audiencia de los mensajes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=es#orchestrating-campaigns)
 
 1. **Creación de entregas**
 
    Seleccione los canales, defina el contenido del mensaje e inicie las entregas.
+
+   ![](assets/campaign-dashboard.png)
 
    [!DNL :arrow_upper_right:] Obtenga información sobre cómo crear e iniciar envíos de campañas de marketing en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html?lang=es#creating-deliveries)
 
