@@ -3,10 +3,10 @@ keywords: Campaign Classic, inicio, temas populares
 description: Centro de ayuda de Campaign v8
 title: Documentación del producto de Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: f266172e6b0e14aedd0029025260c42977cf467f
+source-git-commit: efb236fe47653ddd45f8a5a08e0595b9f6287b7d
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 62%
+source-wordcount: '95'
+ht-degree: 74%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 62%
 
 * **[Directrices de implementación](start/implement.md)**: Aprenda a iniciar la implementación
 
-* **[De la versión 7 a la versión 8](start/capability-matrix.md)** : ¿Se está pasando de la versión 7 de Campaign Classic a la versión 8 de Campaign? Descubra las principales diferencias
+* **[De la versión 7 a la versión 8](start/capability-matrix.md)**: ¿Se está realizando la transición de Campaign Classic v7 a v8? Descubra las principales diferencias
 
 ## Introducción
 
@@ -65,4 +65,4 @@ ht-degree: 62%
 * [Medición y seguimiento](start/reporting.md)
 * [Conectar con otras soluciones](connect/integration.md)
 * [Preguntas más frecuentes sobre Campaign v8](start/campaign-faq.md)
-* [Descripción del producto de Adobe Campaign v8](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
+* [Descripción del producto de Adobe Campaign v8](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
