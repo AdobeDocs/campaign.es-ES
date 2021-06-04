@@ -6,7 +6,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: a7309c9ec735f958f038c6ea4e702c99c726f8bd
+source-git-commit: 36e29801bcc95565c32e51742a23d4d74d4e3049
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 31%
@@ -135,8 +135,6 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
 1. Desde la ventana **[!UICONTROL Configure Analytics integration]** , asigne la cuenta externa con el grupo de informes creado anteriormente, con la siguiente información:
 
-   ![](assets/analytics_connector_0.png)
-
    * **[!UICONTROL E-Mail]**
    * **[!UICONTROL IMS Org]**
    * **[!UICONTROL Analytics Company]**
@@ -160,6 +158,8 @@ Para obtener más información, consulte la página [Perfiles de producto para A
    ![](assets/analytics_connnector_12.png)
 
 1. Si es necesario, puede añadir o eliminar segmentos de la pestaña **[!UICONTROL Update Segments]** .
+
+   ![](assets/analytics_connnector_12a.png)
 
 1. En **[!UICONTROL External account]**, haga clic en el enlace **[!UICONTROL Enrich the formula...]** para cambiar la fórmula de cálculo de URL y especificar la información de integración de la herramienta de Web Analytics (ID de campaña) y los dominios de los sitios cuya actividad debe rastrearse.
 
