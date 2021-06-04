@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo administrar suscripciones y bajas 
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: f69d318b4ea767c44f8c19bf0cf45fb1b7001b11
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 26%
@@ -21,6 +21,8 @@ Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como 
 Para suscribirse (activar) un perfil a un servicio, las opciones disponibles son:
 
 * Añada manualmente el servicio al perfil de destinatario: para ello, en la pestaña **[!UICONTROL Subscriptions]** de su perfil, haga clic en **[!UICONTROL Add]** y seleccione el servicio informativo que corresponda.
+
+   ![](assets/subscribe-to-a-service.png)
 
    [!DNL :arrow_upper_right:] Obtenga más información en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab)
 
@@ -61,7 +63,7 @@ Para cancelar la suscripción (exclusión) de un perfil de un servicio, las opci
 
 >[!CAUTION]
 >
->Las suscripciones y las bajas de suscripción son procesos **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora. [Obtenga más información](../dev/new-apis.md#sub-apis)
+>Las suscripciones y las bajas de suscripción son procesos **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora. [Más información](../dev/new-apis.md#sub-apis)
 
 También puede permitir que los destinatarios de la entrega reenvíen mensajes a un amigo. Para ello, inserte los vínculos correspondientes en la entrega. Puede hacer un seguimiento de este proceso de uso compartido, así como del número de visitas a las páginas en cuestión.
 
