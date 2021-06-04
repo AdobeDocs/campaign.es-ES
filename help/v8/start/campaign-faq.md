@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 1f3af0a9ea29506296710024791511ceafddc824
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 67%
+source-wordcount: '640'
+ht-degree: 68%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 67%
 
 1. **¿Puedo conectarme con expertos en Campaign?**
 
-   Únase a la comunidad de Campaign: busque respuestas en preguntas existentes o pregunte a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/?profile.language=en)
+   Únase a la comunidad de Campaign: busque respuestas en preguntas existentes o pregunte a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community)
 
 
 1. **¿Cómo puedo registrar un problema?**
@@ -86,4 +86,4 @@ ht-degree: 67%
 
    Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminConsole.adobe.com/overview).
 
-   Este nuevo sistema requiere nuevas cuentas individuales para cada usuario, con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html)
+   Este nuevo sistema requiere nuevas cuentas individuales para cada usuario, con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Atención al cliente lo ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html)
