@@ -5,10 +5,10 @@ description: Introducción a las notificaciones push en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: b0fcdefb638a2424e9464cf520724cc492fabc55
+source-git-commit: 09979331284757527fc9a24479a53d2d488f4649
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 44%
+source-wordcount: '781'
+ht-degree: 34%
 
 ---
 
@@ -51,7 +51,7 @@ Debe definir la configuración de las aplicaciones de iOS y Android en Adobe Cam
 
 En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS y Android.
 
-[!DNL :arrow_upper_right:] Todos los pasos para crear notificaciones push se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
+[!DNL :arrow_upper_right:] Todos los pasos para crear notificaciones push se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
 
 >[!CAUTION]
 >
@@ -61,7 +61,9 @@ Para crear un nuevo envío, vaya a la pestaña **[!UICONTROL Campaigns]** , haga
 
 ![](assets/delivery_step_1.png)
 
-### Envío de notificaciones en iOS {#sending-notifications-on-ios}
+[!DNL :arrow_upper_right:] Para obtener información global sobre cómo crear una entrega, consulte la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages).
+
+### Envío de notificaciones en iOS {#send-notifications-on-ios}
 
 1. Seleccione la plantilla de envío **[!UICONTROL Deliver on iOS]** y haga clic en **[!UICONTROL Continue]**.
 
@@ -83,33 +85,37 @@ Para crear un nuevo envío, vaya a la pestaña **[!UICONTROL Campaigns]** , haga
 
 1. Introduzca **[!UICONTROL Message]** y **[!UICONTROL Value of the badge]** en función del tipo de notificación elegido.
 
-1. **[!UICONTROL Action button]** le permite definir una etiqueta para el botón de acción que aparece en las notificaciones de alerta (campo **action_loc_key** de la carga útil).
+1. También puede definir los siguientes elementos:
 
-1. En el campo **[!UICONTROL Play a sound]**, seleccione el sonido que el terminal móvil debe reproducir cuando reciba la notificación.
+   * **[!UICONTROL Action button]** le permite definir una etiqueta para el botón de acción que aparece en las notificaciones de alerta (campo **action_loc_key** de la carga útil).
 
-1. En el campo **[!UICONTROL Application variables]**, introduzca el valor de cada variable. Por ejemplo, puede configurar una pantalla de aplicación específica para que se muestre cuando el usuario active la notificación.
+   * En el campo **[!UICONTROL Play a sound]**, seleccione el sonido que el terminal móvil debe reproducir cuando reciba la notificación.
+
+   * En el campo **[!UICONTROL Application variables]**, introduzca el valor de cada variable. Por ejemplo, puede configurar una pantalla de aplicación específica para que se muestre cuando el usuario active la notificación.
 
 1. Una vez configurada la notificación, haga clic en la pestaña **[!UICONTROL Preview]** para previsualizar la notificación.
 
    ![](assets/push-ios-preview.png)
 
-### Envío de notificaciones en Android {#sending-notifications-on-android}
+[!DNL :arrow_upper_right:] Todos los pasos detallados para crear y enviar notificaciones push en iOS se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-ios)
+
+### Envío de notificaciones en Android {#send-notifications-on-android}
 
 1. Seleccione la plantilla de envíos **[!UICONTROL Deliver on Android (android)]**.
 
-   <!--![](assets/push-template-android.png)-->
+   ![](assets/push-template-android.png)
 
 1. Para definir el objetivo de la notificación, haga clic en el enlace **[!UICONTROL To]** y, luego, en **[!UICONTROL Add]**.
 
-   <!--![](assets/nmac_delivery_android_2.png)-->
+   ![](assets/push-android-select-target.png)
 
 1. Seleccione **[!UICONTROL Subscribers of an Android mobile application]**, elija el servicio correspondiente a su aplicación móvil (Neotrips, en este caso), y luego seleccione la versión de Android de la aplicación.
 
-   <!--![](assets/push-android-select-target.png)-->
+   ![](assets/push-ios-subscribers.png)
 
 1. A continuación, introduzca el contenido de la notificación.
 
-   <!--![](assets/push-android-content.png)-->
+   ![](assets/push-android-content.png)
 
 1. Haga clic en el icono **[!UICONTROL Insert emoticon]** para insertar emoticonos en la notificación push.
 
@@ -119,8 +125,22 @@ Para crear un nuevo envío, vaya a la pestaña **[!UICONTROL Campaigns]** , haga
 
    <!--![](assets/push-android-preview.png)-->
 
+[!DNL :arrow_upper_right:] Todos los pasos detallados para crear y enviar notificaciones push en Android se detallan en la documentación de  [Campaign Classic v7 .](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
+
 ## Prueba, envío y monitorización de las notificaciones push
 
-Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que en las entregas por correo electrónico.
+Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que en las entregas por correo electrónico. Obtenga más información en la documentación de Campaign Classic v7:
 
-Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas.
+* Validación de una entrega y envío de pruebas
+   [!DNL :arrow_upper_right:] [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
+
+* Confirmar y realizar la entrega
+   [!DNL :arrow_upper_right:] [Conozca los pasos clave para realizar una entrega](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
+
+Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Obtenga más información en la documentación de Campaign Classic v7:
+
+* Cuarentena de notificaciones push
+   [!DNL :arrow_upper_right:] [Obtenga más información sobre la cuarentena de notificaciones push](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
+
+* Solución de problemas
+   [!DNL :arrow_upper_right:] [Obtenga información sobre cómo solucionar problemas de las notificaciones push](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
