@@ -5,9 +5,9 @@ description: Introducción a los correos electrónicos en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: dc99c00f68e53a308f8c869f07aa93baed3a5129
+source-git-commit: e65750c4e9ebd0367f0430455cac2cc6502ade7e
 workflow-type: tm+mt
-source-wordcount: '604'
+source-wordcount: '605'
 ht-degree: 15%
 
 ---
@@ -107,7 +107,7 @@ Puede hacer lo siguiente:
 
 ## Supervisión de los correos electrónicos
 
-Una vez enviado, compruebe su estado de envío en el panel de envío y acceda a los registros de envío y a los informes para confirmar que los mensajes se han enviado correctamente.
+Una vez enviado, compruebe su estado de entrega en el panel de entregas y acceda a los registros de envío y a los informes para confirmar que los mensajes se han enviado correctamente.
 
 [!DNL :arrow_upper_right:] [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
 
