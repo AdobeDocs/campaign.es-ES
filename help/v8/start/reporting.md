@@ -6,9 +6,9 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
+source-git-commit: 46f013dc18e504d490084a6d911b4772ce0fac2e
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '366'
 ht-degree: 16%
 
 ---
@@ -53,7 +53,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
    Según la complejidad de las consultas, los cálculos y los volúmenes, los datos analizados en estos informes se pueden recopilar mediante una consulta y preacumular en una lista (flujo de trabajo de tipo de gestión de datos) o en un cubo (mediante Marketing Analytics). Se muestra en forma de tabla dinámica o lista de grupos.
 
-   [!DNL :arrow_upper_right:] Aprenda a crear un Cubes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
+   [!DNL :arrow_upper_right:] Aprenda a crear cubos en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html)
 
 
 Tenga en cuenta que los informes de Adobe Campaign están optimizados y ofrecen mejores prestaciones de escalado que Campaign Classic v7. Las limitaciones existentes en Cubos no se aplican.
