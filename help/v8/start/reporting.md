@@ -6,7 +6,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 95ed0369-7215-496b-8e11-fe264c436488,e7931de5-83ce-431d-ae81-83793d257550
-source-git-commit: 46f013dc18e504d490084a6d911b4772ce0fac2e
+source-git-commit: 983b3cfc2f1569cd071848805e6b6b3411b4d6c6
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 16%
@@ -47,7 +47,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
 * **Cubos**
 
-   Analice y mida los datos, calcule las estadísticas, simplifique y optimice la creación y el cálculo de informes con Cubos.  Puede ampliar las capacidades de análisis y exploración de la base de datos y facilitar a los usuarios finales la configuración de informes y tablas: todo lo que deben hacer es seleccionar un cubo existente (completamente configurado) al crear su informe o tabla para procesar cálculos, medidas y estadísticas.
+   Analice y mida los datos, calcule las estadísticas, simplifique y optimice la creación y el cálculo de informes con Cubos.  Puede ampliar las capacidades de análisis y exploración de bases de datos y facilitar a los usuarios finales la configuración de informes y tablas. Todo lo que deben hacer es seleccionar un cubo existente (completamente configurado) al crear su informe o tabla para procesar cálculos, medidas y estadísticas.
 
    ![](assets/create-a-report.png)
 
