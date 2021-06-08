@@ -1,12 +1,12 @@
 ---
 product: Adobe Campaign
 title: Introducción a la arquitectura de Campaign
-description: Introducción a la arquitectura de Campaign
+description: Descubra los entornos y los conceptos básicos de implementación
 feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: e6086620909277eaaf5966335df9b71c6830e726
+source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 8%
