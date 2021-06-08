@@ -5,7 +5,7 @@ description: Introducción a las notificaciones push en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 09979331284757527fc9a24479a53d2d488f4649
+source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 34%
@@ -51,7 +51,7 @@ Debe definir la configuración de las aplicaciones de iOS y Android en Adobe Cam
 
 En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS y Android.
 
-[!DNL :arrow_upper_right:] Todos los pasos para crear notificaciones push se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
+[!DNL :arrow_upper_right:] Todos los pasos para crear notificaciones push se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en)
 
 >[!CAUTION]
 >
@@ -125,7 +125,7 @@ Para crear un nuevo envío, vaya a la pestaña **[!UICONTROL Campaigns]** , haga
 
    <!--![](assets/push-android-preview.png)-->
 
-[!DNL :arrow_upper_right:] Todos los pasos detallados para crear y enviar notificaciones push en Android se detallan en la documentación de  [Campaign Classic v7 .](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
+[!DNL :arrow_upper_right:] Todos los pasos detallados para crear y enviar notificaciones push en Android se detallan en la documentación de  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/creating-notifications.html?lang=en#sending-notifications-on-android)
 
 ## Prueba, envío y monitorización de las notificaciones push
 
@@ -135,12 +135,12 @@ Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que
    [!DNL :arrow_upper_right:] [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
 
 * Confirmar y realizar la entrega
-   [!DNL :arrow_upper_right:] [Conozca los pasos clave para realizar una entrega](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
+   [!DNL :arrow_upper_right:] [Conozca los pasos clave para realizar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en)
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Obtenga más información en la documentación de Campaign Classic v7:
 
 * Cuarentena de notificaciones push
-   [!DNL :arrow_upper_right:] [Obtenga más información sobre la cuarentena de notificaciones push](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
+   [!DNL :arrow_upper_right:] [Obtenga más información sobre la cuarentena de notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines)
 
 * Solución de problemas
-   [!DNL :arrow_upper_right:] [Obtenga información sobre cómo solucionar problemas de las notificaciones push](https://experienceleague.corp.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
+   [!DNL :arrow_upper_right:] [Obtenga información sobre cómo solucionar problemas de las notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en)
