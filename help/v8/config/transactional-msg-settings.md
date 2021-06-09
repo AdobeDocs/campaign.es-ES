@@ -5,9 +5,9 @@ description: Configuración de mensajería transaccional de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '327'
 ht-degree: 22%
 
 ---
@@ -28,7 +28,7 @@ Para crear nuevos usuarios para las instancias de ejecución del Centro de Mensa
 
 Todas las extensiones de esquema realizadas en los esquemas utilizados por **flujos de trabajo técnicos del centro de mensajes** en cualquiera de las instancias de control o ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional de Adobe Campaign.
 
-[!DNL :arrow_upper_right:] Obtenga más información sobre los flujos de trabajo técnicos del centro de mensajes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/instance-configuration/technical-workflows.html?lang=en#control-instance-workflows)
+[!DNL :arrow_upper_right:] Obtenga más información sobre los flujos de trabajo técnicos del centro de mensajes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## Enviar notificaciones push transaccionales
 
