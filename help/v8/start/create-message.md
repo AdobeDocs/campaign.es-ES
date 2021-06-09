@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 9ecd0af7a6e8e173a89106c84a78de8b2311fef7
+source-git-commit: 9cb1b38456601bce21d458fea42a5c112d9fafb4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '600'
+ht-degree: 68%
 
 ---
 
@@ -55,7 +55,7 @@ Una vez creado el mensaje y diseñado y probado su contenido, puede elegir cómo
 
    [!DNL :arrow_upper_right:] [Obtenga información sobre cómo automatizar los envíos de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/delivery.html?lang=es)
 * [Mensajes de déclencheur ](../send/transactional.md) de un evento
-   [!DNL :arrow_upper_right:] [Caso de uso: obtenga información sobre cómo enviar un correo electrónico transaccional con un archivo adjunto](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=es)
+   [!DNL :arrow_upper_right:] [Caso de uso: obtenga información sobre cómo enviar un correo electrónico transaccional con un archivo adjunto](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 * Programación de mensajes
 
    ![](assets/schedule-send.png)
@@ -84,7 +84,7 @@ La mensajería transaccional (Centro de mensajes) es el módulo de Campaign dise
 
 [!DNL :bulb:] Los pasos para configurar y enviar mensajes transaccionales se detallan en [esta página](../send/transactional.md)
 
-[!DNL :arrow_upper_right:] Descubra esta capacidad en un caso de uso completo en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/use-case/transactional-email-with-attachments.html?lang=es#transactional-messaging)
+[!DNL :arrow_upper_right:] Descubra esta capacidad en un caso de uso completo en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=en)
 
 ## Registros de seguimiento y entrega
 
