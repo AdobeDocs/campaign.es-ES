@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: f1a854c6aa91755add4dfe422879ffd12e8d297b
+source-git-commit: afc624ffdcc3c537bdfa23989c1ed95271edabdb
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1284'
 ht-degree: 43%
 
 ---
@@ -103,7 +103,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
    El `IntegrationKey` debe coincidir con el &quot;IntegrationKey&quot; configurado en la aplicación móvil de Adobe Campaign vinculada a esta aplicación Android.
 
-2. **Registro del dispositivo móvil en el servidor de Adobe Campaign**
+1. **Registro del dispositivo móvil en el servidor de Adobe Campaign**
 
    La función de registro le permite:
 
