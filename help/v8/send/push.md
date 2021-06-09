@@ -5,10 +5,10 @@ description: Introducción a las notificaciones push en Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: f75b2ddc073d05548740cb3e9371063cf0d83ca5
+source-git-commit: 42a83fefb9c4ae3cea906c5dce8ecf725909b4eb
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 34%
+source-wordcount: '790'
+ht-degree: 33%
 
 ---
 
@@ -30,6 +30,8 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 ### Integración del SDK de Campaign
 
 El SDK de Campaign facilita la integración de la aplicación móvil en la plataforma Adobe Campaign.
+
+Las versiones compatibles del SDK se enumeran en la [Matriz de compatibilidad de Campaign](../start/compatibility-matrix.md#MobileSDK).
 
 [!DNL :arrow_upper_right:] Obtenga información sobre cómo integrar el SDK de Campaign con su aplicación en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/integrating-campaign-sdk-into-the-mobile-application.html?lang=en#loading-campaign-sdk)
 
