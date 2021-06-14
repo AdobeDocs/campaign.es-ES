@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
+source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 75%
+source-wordcount: '278'
+ht-degree: 68%
 
 ---
 
@@ -52,8 +52,8 @@ Este documento enumera todos los sistemas y componentes compatibles con la últi
 
 ### SDK móvil{#MobileSDK}
 
-* **Android** 7.x, 8.x, 9.0 con la versión 1.1.1 del SDK móvil.
-* **Apple iOS** 9 -14 con la versión 1.0.26 del SDK móvil, compatible con las versiones de 32 y 64 bits.
+* **Android** 7.x, 8.x, 9.0 con la versión 1.1.1 del SDK para Android de Campaign.
+* **Apple iOS** 9 - 14 con la versión 1.0.26 del SDK para iOS de Campaign, compatible con las versiones de 32 y 64 bits.
 
 ### Navegadores admitidos {#Browsers}
 
