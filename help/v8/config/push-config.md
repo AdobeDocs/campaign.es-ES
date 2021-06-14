@@ -8,9 +8,9 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
+source-git-commit: 68cd7d5a20dafeea3c19f35f5c9547b623319ba2
 workflow-type: tm+mt
-source-wordcount: '1284'
+source-wordcount: '1287'
 ht-degree: 43%
 
 ---
@@ -652,6 +652,9 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
    | ACCRegisterDeviceStatusFailureConnectionIssue | Problema de conexión con ACC | Más información (en el idioma actual de OS) |
    | ACCRegisterDeviceStatusFailureUnknownUUID | Se desconoce la UUID (clave de integración) proporcionada. | VACÍO |
    | ACCRegisterDeviceStatusFailureUnexpectedError | Error inesperado devuelto al servidor ACC. | El mensaje de error devuelto a ACC. |
+
+
+   {style=&quot;table-layout:auto&quot;}
 
 
    El protocolo **Neolane_SDKDelegate** y la definición delegada **registerDeviceStatus** son las siguientes:
