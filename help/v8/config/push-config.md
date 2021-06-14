@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: e5d321b9fb5fe81476197e1913eb815fb2ed758d
+source-git-commit: eec769a09d59034dde59983bd0a53a4ac4fddde5
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 43%
+source-wordcount: '1567'
+ht-degree: 32%
 
 ---
 
@@ -644,156 +644,155 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
    * **ErrorReason** proporciona más información sobre los errores que se han producido. Para obtener más información sobre los errores disponibles y sus descripciones, consulte la tabla siguiente.
 
-   | Estado | Descripción | ErrorReason |
-   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-   | ACCRegisterDeviceStatusSuccess | Registro con éxito | VACÍO |
-   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | El nombre de anfitrión del servidor de marketing ACC está vacío o no se ha definido. | VACÍO |
-   | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | La clave de integración está vacía o no se ha definido. | VACÍO |
-   | ACCRegisterDeviceStatusFailureConnectionIssue | Problema de conexión con ACC | Más información (en el idioma actual de OS) |
-   | ACCRegisterDeviceStatusFailureUnknownUUID | Se desconoce la UUID (clave de integración) proporcionada. | VACÍO |
-   | ACCRegisterDeviceStatusFailureUnexpectedError | Error inesperado devuelto al servidor ACC. | El mensaje de error devuelto a ACC. |
+
+| Estado | Descripción | ErrorReason |
+| ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+| ACCRegisterDeviceStatusSuccess | Registro con éxito | VACÍO |
+| ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | El nombre de anfitrión del servidor de marketing ACC está vacío o no se ha definido. | VACÍO |
+| ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | La clave de integración está vacía o no se ha definido. | VACÍO |
+| ACCRegisterDeviceStatusFailureConnectionIssue | Problema de conexión con ACC | Más información (en el idioma actual de OS) |
+| ACCRegisterDeviceStatusFailureUnknownUUID | Se desconoce la UUID (clave de integración) proporcionada. | VACÍO |
+| ACCRegisterDeviceStatusFailureUnexpectedError | Error inesperado devuelto al servidor ACC. | El mensaje de error devuelto a ACC. |
 
 
-   {style=&quot;table-layout:auto&quot;}
+{style=&quot;table-layout:auto&quot;}
 
-   El protocolo **Neolane_SDKDelegate** y la definición delegada **registerDeviceStatus** son las siguientes:
+    **El protocolo Neolane_SDKDelegate** y la definición delegada **registerDeviceStatus** son las siguientes: 
+    
+    &quot;sql
+    // Neolane_SDK.h
+    // Campaign SDK
+    .
+    ..
+    // Registrar estado del dispositivo 
+    Enumtypedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
+    ACCRegisterDeviceStatusSuccess, // Resister 
+    SucceedACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty, // El nombre de host del servidor de marketing de Campaign está vacío no 
+    setACCRegisterDeviceStatusFailureIntegrationKeyEmpty // La clave de integración está vacía o no 
+    setACCRegisterDeviceStatusFailureConnectionIssue, // Problema de conexión con Campaign, más información en 
+    errorReasonACCRegisterDeviceStatusFailureUnknownUUID, // La integración UUUID proporcionada (clave) ) es 
+    unknownACCRegisterDeviceStatusFailureUnestimatedError // Error inesperado devuelto por el servidor de Campaign, más información en errorReason
+    };
+    /// define el protocolo para el delegado registerDeviceStatus 
+    @protocol Neolane_SDKDelegate  &lt;nsobject>
+    @optional
+    - (void) registerDeviceStatus: Estado (ACCRegisterDeviceStatus) :(NSString *) errorReason;
+    @end
+    @interface Neolane_SDK: NSObject {
+    }
+    ...
+    ...
+    // registerDeviceStatus delegado
+    @property (no atómico, débil) id  &lt;neolane_sdkdelegate> delegado;
+    ...
+    ...
+    @end
+    &quot;
+    
+    Para implementar el delegado **registerDeviceStatus**, siga estos pasos:
+    
+    1. Implemente **setDelegate** durante la inicialización del SDK.
+    
+    &quot;sql
+    // AppDelegate.m
+    ...
+    ...
+    - (BOOL)aplicación:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+    {
+    ...
+    ...
+    // Obtenga la 
+    
+    configuración almacenadaNSUserDefaults *default = [NSUserDefaults standardUserDefaults];
+    NSString *strMktHost = [default objectForKey:@&quot;mktHost&quot;];
+     NSString *strTckHost = [default objectForKey:@&quot;trackHost];
+    NSString *strIntegrationKey = [default objectForKey:@&quot;integrationKey&quot;];
+    userKey = [default objectForKey:@&quot;userKey&quot;];
+    
+    // Configure Campaign SDK en el primer 
+    launchNeolane_SDK *nl = [Neolane_SDK getInstance];
+    [nl setMarketingHost:strMkt Host];
+    [nl setTrackingHost:strTrackHost];
+    [nl setIntegrationKey:strIntegrationKey];
+    [nl setDelegate:self]; // AQUÍ
+    ...
+    ...
+    }
+    &quot;
+    
+    1. Añada el protocolo en el **@interface** de su clase.
+    
+    &quot;sql
+    // AppDelegate.h
+    
+    #import  &lt;uikit>
+    #import  &lt;corelocation>
+    #import &quot;Neolane_SDK.h&quot;
+    
+    @class LandingPageViewController;
+    
+    @interface AppDelegate : UIResponder  &lt;uiapplicationdelegate> {
+    CLLocationManager *locationManager;
+    NSString *userKey;
+    NSString *mktServerUrl;
+    NSString *tckServerUrl;
+    NSString *homeURL;
+    NSString *strLandingPageUrl;
+    NST imer *timer;
+    }
+    &quot;
+    
+    1. Implemente el delegado en **AppDelegate**.
+    
+    &quot;sql
+    // AppDelegate.m
+    
+    #import &quot;AppDelegate.h&quot;
+    #import &quot;Neolane_SDK.h&quot;
+    #import &quot;LandingPageViewController.h&quot;
+    #import &quot;RootViewController.h&quot;
+    ..
+    ...
+    - (void) registerDeviceStatus: Estado (ACCRegisterDeviceStatus) :(NSString *) errorReason
+    {
+    NSLog(@&quot;registerStatus: %lu&quot;,estado);
+    
+    if ( errorReason != nil )
+    NSLog(@&quot;errorReason: %@&quot;,errorReason);
+    
+    if( status == ACCRegisterDeviceStatusSuccess )
+    {
+    // Registro correcto
+    ...
+    ...
+    }
+    else { // Se produjo un error
+    NSString *message;
+    switch ( status ){
+    case ACCRegisterDeviceStatusFailureUnknownUUID:
+    message = @&quot;Unkown IntegrationKey (UUID)&quot;;
+    break;
+    case ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty:
+    message = @&quot;Marketing URL not set or Empty&quot;;
+    break;
+    case ACCRegisterDeviceStatusFailureIntegrationKeyEmpty:&lt;a1 7/>message = @&quot;Integration Key not set or empty&quot;;
+    break;
+    case ACCRegisterDeviceStatusFailureConnectionIssue:
+    message = [NSString stringWithFormat:@&quot;%@ %@&quot;,@&quot;Connection issue:&quot;,errorReason];
+    break;
+    case ACCRegisterDeviceStatusFailureUnestimatedError:
+    default:
+    message = [NSString stringWithFormat:@&quot;%@ %@&quot;,@&quot;Error inesperado&quot;,errorReason];
+    break;
+    }
+    ...
+    ...
+    }
+    }
+    @end
+    &quot;
 
-   ```sql
-   //  Neolane_SDK.h
-   //  Campaign SDK
-   ..
-   .. 
-   // Register Device Status Enum
-   typedef NS_ENUM(NSUInteger, ACCRegisterDeviceStatus) {
-   ACCRegisterDeviceStatusSuccess,                               // Resistration Succeed
-   ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty,   // The Campaign marketing server hostname is Empty or not set
-   ACCRegisterDeviceStatusFailureIntegrationKeyEmpty,            // The integration key is empty or not set
-   ACCRegisterDeviceStatusFailureConnectionIssue,                // Connection issue with Campaign, more information in errorReason
-   ACCRegisterDeviceStatusFailureUnknownUUID,                    // The provided UUID (integration key) is unknown
-   ACCRegisterDeviceStatusFailureUnexpectedError                 // Unexpected error returned by Campaign server, more information in errorReason
-   };
-   // define the protocol for the registerDeviceStatus delegate
-   @protocol Neolane_SDKDelegate <NSObject>
-   @optional
-   - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason;
-   @end
-   @interface Neolane_SDK: NSObject {
-   } 
-   ...
-   ...
-   // registerDeviceStatus delegate
-   @property (nonatomic, weak) id <Neolane_SDKDelegate> delegate;
-   ...
-   ...
-   @end
-   ```
-
-   Para implementar el delegado **registerDeviceStatus**, siga estos pasos:
-
-   1. Implemente **setDelegate** durante la inicialización del SDK.
-
-      ```sql
-      // AppDelegate.m
-      ...
-      ... 
-      - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
-      {
-      ...
-      ...
-          // Get the stored settings
-      
-          NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-          NSString *strMktHost = [defaults objectForKey:@"mktHost"];
-          NSString *strTckHost = [defaults objectForKey:@"tckHost"];
-          NSString *strIntegrationKey = [defaults objectForKey:@"integrationKey"];
-          userKey = [defaults objectForKey:@"userKey"];
-      
-          // Configure Campaign SDK on first launch
-          Neolane_SDK *nl = [Neolane_SDK getInstance];
-          [nl setMarketingHost:strMktHost];
-          [nl setTrackingHost:strTckHost];
-          [nl setIntegrationKey:strIntegrationKey];
-          [nl setDelegate:self];    // HERE
-      ...
-      ...
-      }
-      ```
-
-   1. Añada el protocolo en la **@interface** de su clase.
-
-      ```sql
-      //  AppDelegate.h
-      
-      #import <UIKit/UIKit.h>
-      #import <CoreLocation/CoreLocation.h>
-      #import "Neolane_SDK.h"
-      
-      @class LandingPageViewController;
-      
-      @interface AppDelegate : UIResponder <UIApplicationDelegate, CLLocationManagerDelegate, Neolane_SDKDelegate> {
-          CLLocationManager *locationManager;
-          NSString *userKey;
-          NSString *mktServerUrl;
-          NSString *tckServerUrl;
-          NSString *homeURL;
-          NSString *strLandingPageUrl;
-          NSTimer *timer;
-      }
-      ```
-
-   1. Implemente el delegado en **AppDelegate**.
-
-      ```sql
-      //  AppDelegate.m
-      
-      #import "AppDelegate.h"
-      #import "Neolane_SDK.h"
-      #import "LandingPageViewController.h"
-      #import "RootViewController.h"
-      ...
-      ...
-      - (void) registerDeviceStatus: (ACCRegisterDeviceStatus) status :(NSString *) errorReason
-      {
-          NSLog(@"registerStatus: %lu",status);
-      
-          if ( errorReason != nil )
-              NSLog(@"errorReason: %@",errorReason);
-      
-          if( status == ACCRegisterDeviceStatusSuccess )
-          {
-              // Registration successful
-              ...
-              ...
-          }
-          else { // An error occurred
-              NSString *message;
-              switch ( status ){
-                  case ACCRegisterDeviceStatusFailureUnknownUUID:
-                      message = @"Unkown IntegrationKey (UUID)";
-                      break;
-                  case ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty:
-                      message = @"Marketing URL not set or Empty";
-                      break;
-                  case ACCRegisterDeviceStatusFailureIntegrationKeyEmpty:
-                      message = @"Integration Key not set or empty";
-                      break;
-                  case ACCRegisterDeviceStatusFailureConnectionIssue:
-                      message = [NSString stringWithFormat:@"%@ %@",@"Connection issue:",errorReason];
-                      break;
-                  case ACCRegisterDeviceStatusFailureUnexpectedError:
-                  default:
-                      message = [NSString stringWithFormat:@"%@ %@",@"Unexpected Error",errorReason];
-                      break;
-              }
-          ...
-          ...
-          }
-      }
-      @end
-      ```
-
-
-
+    
 ## Variables {#variables}
 
 Las variables permiten definir el comportamiento de la aplicación móvil después de recibir una notificación. Estas variables deben definirse en el código de la aplicación móvil y en la consola de Adobe Campaign, en la pestaña **[!UICONTROL Variables]** del servicio dedicado de la aplicación móvil.
