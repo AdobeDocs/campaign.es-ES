@@ -8,10 +8,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: 29d6a1545722afa3a07c98de1ab453cdb0a618d2
+source-git-commit: 35fcedd8e4d44bb6c5a97b2a48ff55aa2632947d
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 45%
+source-wordcount: '1284'
+ht-degree: 43%
 
 ---
 
@@ -644,56 +644,15 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
    * **ErrorReason** proporciona más información sobre los errores que se han producido. Para obtener más información sobre los errores disponibles y sus descripciones, consulte la tabla siguiente.
 
+   | Estado | Descripción | ErrorReason |
+   | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
+   | ACCRegisterDeviceStatusSuccess | Registro con éxito | VACÍO |
+   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | El nombre de anfitrión del servidor de marketing ACC está vacío o no se ha definido. | VACÍO |
+   | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | La clave de integración está vacía o no se ha definido. | VACÍO |
+   | ACCRegisterDeviceStatusFailureConnectionIssue | Problema de conexión con ACC | Más información (en el idioma actual de OS) |
+   | ACCRegisterDeviceStatusFailureUnknownUUID | Se desconoce la UUID (clave de integración) proporcionada. | VACÍO |
+   | ACCRegisterDeviceStatusFailureUnexpectedError | Error inesperado devuelto al servidor ACC. | El mensaje de error devuelto a ACC. |
 
-      | Estado | Descripción | ErrorReason |
-      | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
-      | ACCRegisterDeviceStatusSuccess | Registro con éxito | VACÍO |
-      | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | El nombre de anfitrión del servidor de marketing ACC está vacío o no se ha definido. | VACÍO |
-      | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | La clave de integración está vacía o no se ha definido. | VACÍO |
-      | ACCRegisterDeviceStatusFailureConnectionIssue | Problema de conexión con ACC | Más información (en el idioma actual de OS) |
-      | ACCRegisterDeviceStatusFailureUnknownUUID | Se desconoce la UUID (clave de integración) proporcionada. | VACÍO |
-      | ACCRegisterDeviceStatusFailureUnexpectedError | Error inesperado devuelto al servidor ACC. | El mensaje de error devuelto a ACC. |
-   <table> 
-    <thead>
-    <tr>
-    <th> Estado<br /> </th>
-    <th> Descripción<br /> </th>
-    <th> ErrorReason<br /> </th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-    <td> ACCRegisterDeviceStatusSuccess <br /> </td>
-    <td> Registro con éxito<br /> </td>
-    <td> VACÍO<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty <br /> </td>
-    <td> El nombre de anfitrión del servidor de marketing ACC está vacío o no se ha definido.<br /> </td>
-    <td> VACÍO<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureIntegrationKeyEmpty <br /> </td>
-    <td> La clave de integración está vacía o no se ha definido.<br /> </td>
-    <td> VACÍO<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureConnectionIssue<br /> </td>
-    <td> Problema de conexión con ACC<br /> </td>
-    <td> Más información (en el idioma actual de OS)<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnknownUUID<br /> </td>
-    <td> Se desconoce la UUID (clave de integración) proporcionada.<br /> </td>
-    <td> VACÍO<br /> </td>
-    </tr>
-    <tr> 
-    <td> ACCRegisterDeviceStatusFailureUnexpectedError<br /> </td>
-    <td> Error inesperado devuelto al servidor ACC.<br /> </td>
-    <td> El mensaje de error devuelto a ACC.<br /> </td>
-    </tr>
-    </tbody>
-    </table>
 
    El protocolo **Neolane_SDKDelegate** y la definición delegada **registerDeviceStatus** son las siguientes:
 
@@ -830,6 +789,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
       }
       @end
       ```
+
 
 
 ## Variables {#variables}
