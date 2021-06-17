@@ -8,7 +8,7 @@ title: Documentos de Campaign v8
 source-git-commit: d45913ac1da7dc3a447fd27294256522b399f1d0
 workflow-type: tm+mt
 source-wordcount: '204'
-ht-degree: 81%
+ht-degree: 98%
 
 ---
 
@@ -51,10 +51,10 @@ ht-degree: 81%
    + [Mensajes transaccionales](send/transactional.md)
    + Agregar ofertas{#interaction}
       + [Introducción a la interacción](send/interaction.md)
-      + Definir configuración{#interaction}
+      + Definir la configuración de {#interaction}
          + [Creación de operadores](send/interaction-operators.md)
          + [Creación de entornos](send/interaction-env.md)
-         + [Crear filtros predefinidos](send/interaction-predefined-filters.md)
+         + [Creación de filtros predefinidos](send/interaction-predefined-filters.md)
          + [Creación de espacios de oferta](send/interaction-offer-spaces.md)
       + [Creación de un catálogo de ofertas](send/interaction-offer-catalog.md)
       + [Creación de una oferta](send/interaction-offer.md)
@@ -72,7 +72,7 @@ ht-degree: 81%
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
    + [Campaign + Target](connect/ac-at.md)
-   + [Campaña + déclencheur de Experience Cloud](connect/ac-triggers.md)
+   + [Campaign + Activadores de Experience Cloud](connect/ac-triggers.md)
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + Base de datos externa](connect/fda.md)
@@ -89,7 +89,7 @@ ht-degree: 81%
       + [Estructura del esquema](dev/schema-structure.md)
       + [Asignación de base de datos](dev/database-mapping.md)
       + [Restringir la vista IP](dev/restrict-pi-view.md)
-      + [Uso de una tabla de destinatarios personalizada](dev/custom-recipient.md)
+      + [Usar una tabla de destinatarios personalizada](dev/custom-recipient.md)
       + [Actualizar la base de datos](dev/update-database-structure.md)
       + [Formularios de entrada](dev/forms.md)
    + API {#api}
