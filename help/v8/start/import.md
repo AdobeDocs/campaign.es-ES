@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '306'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -17,8 +17,8 @@ ht-degree: 59%
 
 Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfil directamente en la tabla de destinatarios.
 
-[!DNL :bulb:] Introducción a las  [](audiences.md)
-[!DNL :bulb:] audienciasComprender el modelo de  [datos de Campaign](../dev/datamodel.md)
+[!DNL :bulb:] Introducción a [audiencias](audiences.md)
+[!DNL :bulb:]Comprender el [modelo de datos de Campaign](../dev/datamodel.md)
 
 ## Importación de perfiles en un flujo de trabajo
 
@@ -40,7 +40,7 @@ Cree y ejecute un trabajo de importación de datos genérico para cargar contact
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] Obtenga información sobre cómo ejecutar trabajos de importación unitarios para alimentar la base de datos en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=es).
+[!DNL :arrow_upper_right:] Obtenga información sobre cómo ejecutar trabajos de importación unitarios para alimentar la base de datos en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=es).
 
 ## Recopilación de perfiles mediante aplicaciones web
 
@@ -48,7 +48,7 @@ Utilice Campaign para crear formularios web y recopilar y administrar la informa
 
 ![](assets/web-form-page.png)
 
-[!DNL :arrow_upper_right:] Aprenda a crear formularios web en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html).
+[!DNL :arrow_upper_right:] Aprenda a crear formularios web en la documentación de [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es).
 
 **Temas relacionados**
 
