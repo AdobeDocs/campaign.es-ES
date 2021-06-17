@@ -9,7 +9,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: 619edce939b39430832fd950ece734f817f9dce3
 workflow-type: tm+mt
 source-wordcount: '278'
-ht-degree: 68%
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,7 @@ Este documento enumera todos los sistemas y componentes compatibles con la últi
 * **Microsoft Windows Server** 2016, 2012
 * **Microsoft Windows** 8, 10 (recomendado para instancias japonesas))
 
-**Navegador**
+**Explorador**
 
 **Microsoft Internet Explorer** 11
 
@@ -57,7 +57,7 @@ Este documento enumera todos los sistemas y componentes compatibles con la últi
 
 ### Navegadores admitidos {#Browsers}
 
-Los siguientes exploradores son compatibles con Campaign for Web Access.
+Los siguientes exploradores son compatibles con Campaign para Web Access.
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versiones más recientes)
 
@@ -65,13 +65,13 @@ Los siguientes exploradores son compatibles con Campaign for Web Access.
 
 ## Comprobación de la versión de Campaign y generar
 
-Utilice el menú **Help > About...** para comprobar su versión.
+Utilice el menú **Ayuda > Acerca de...** para comprobar su versión.
 
 ![](assets/ac-version.png)
 
 Puede acceder a la siguiente información:
 
-* El número **version** de la consola del cliente y del servidor de aplicaciones. En el ejemplo anterior, la versión es 8.1.5 tanto para la consola del cliente como para el servidor de aplicaciones.
+* El **número de versión** de la consola del cliente y del servidor de aplicaciones. En el ejemplo anterior, la versión es 8.1.5 tanto para la consola del cliente como para el servidor de aplicaciones.
 * El número SHA, entre paréntesis.
 * Un vínculo para ponerse en contacto con el Servicio de atención al cliente de Adobe.
-* Vínculos a la Política de privacidad de Adobe, Condiciones de uso y Política de cookies.
+* Vínculos a la Política de privacidad de Adobe, a las Condiciones de uso y a la Política de cookies.
