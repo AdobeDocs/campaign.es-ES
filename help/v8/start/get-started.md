@@ -9,7 +9,7 @@ exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
 workflow-type: tm+mt
 source-wordcount: '894'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemp
 
 Adobe Campaign permite monitorizar e interpretar el comportamiento de sus clientes mediante la mejora gradual de sus datos y perfiles. Las herramientas de análisis y creación de informes le permiten poner en marcha cada nueva campaña, segmentar mejor sus iniciativas de marketing, y optimizar el impacto y el retorno de la inversión.
 
-[!DNL :bulb:] Obtenga más información sobre las capacidades de informes y seguimiento en  [esta sección](reporting.md).
+[!DNL :bulb:] Obtenga más información acerca de las capacidades de informes y seguimiento en [esta sección](reporting.md).
 
 ## Integraciones con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
@@ -80,11 +80,11 @@ Puede combinar las funcionalidades de entrega y las funcionalidades avanzadas de
 
 Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: [Descripción del producto de Adobe Campaign Classic v8](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-[!DNL :bulb:] ¿Ya está familiarizado con el Campaign Classic? Aprenda las diferencias clave entre Campaign Classic y Campaign v8 en [esta página](capability-matrix.md).
+[!DNL :bulb:] ¿Ya está familiarizado con Campaign Classic? Aprenda las diferencias clave entre Campaign Classic y Campaign v8 en [esta página](capability-matrix.md).
 
 ## Espacio de trabajo y personalización
 
-El espacio de trabajo de Campaign está disponible a través de la [Consola de cliente](../dev/general-architecture.md).
+El espacio de trabajo de Campaign está disponible a través de la [consola del cliente](../dev/general-architecture.md).
 
 ![](assets/home-page.png)
 
@@ -92,13 +92,13 @@ El espacio de trabajo de Campaign está disponible a través de la [Consola de c
 
 El espacio de trabajo de Campaign se puede adaptar según sus necesidades.
 
-[!DNL :arrow_upper_right:]  Aprenda a utilizar el espacio de trabajo de Campaign en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es)
+[!DNL :arrow_upper_right:] Aprenda a utilizar el espacio de trabajo de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es)
 
-[!DNL :arrow_upper_right:]  Obtenga información sobre cómo personalizar listas en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=es)
+[!DNL :arrow_upper_right:] Obtenga información sobre cómo personalizar listas en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=es)
 
 También puede acceder a algunas funciones a través de la web.
 
-[!DNL :bulb:] [Obtenga más información sobre Campaign Web Access](../start/connect.md#web-access).
+[!DNL :bulb:] [Obtenga más información acerca de Campaign Web Access](../start/connect.md#web-access).
 
 
 ## Idiomas
@@ -117,7 +117,7 @@ El idioma se selecciona durante el proceso de instalación.
 >
 >No se puede cambiar el idioma después de la creación de la instancia.
 
-Fechas y formatos de hora afectados por el idioma. Para obtener más información, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#date-and-time).
+Fechas y formatos de hora afectados por el idioma. Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es#date-and-time).
 
 **Consulte también**
 
