@@ -16,7 +16,7 @@ Este proyecto ha adoptado el [Código de conducta de código abierto de Adobe](c
 
 ## Acerca de sus contribuciones al contenido del Adobe
 
-Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consulte la [Guía del colaborador de Adobe Docs](https://docs.adobe.com/content/help/es/contributor/contributor-guide/introduction.html).
 
 La forma en que contribuya depende de quién sea y del tipo de cambios que desee aportar:
 
