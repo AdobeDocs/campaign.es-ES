@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '358'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,4 +55,4 @@ Obtenga información sobre cómo administrar la configuración de las instancias
 * [Detalles de instancias](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es)
 * [Administración de claves GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es)
 
-[!DNL :arrow_upper_right:] Descubra todas las funcionalidades de Panel de control de Campaign en  [esta documentación](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
+[!DNL :arrow_upper_right:] Descubra todas las funcionalidades de Panel de control de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
