@@ -1,12 +1,12 @@
 ---
-keywords: Campaign Classic, inicio, temas populares
+keywords: Campaign Classic;inicio;temas populares
 description: Centro de ayuda de Campaign v8
 title: Documentación del producto de Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
 source-git-commit: 58632224858391f673dfdc87b49417d65b2f9b09
 workflow-type: tm+mt
 source-wordcount: '93'
-ht-degree: 76%
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 76%
 
 ## Novedades
 
-* **[Qué es [!DNL Adobe Campaign]](start/get-started.md)** : Funcionalidades clave y casos de uso
+* **[Qué es [!DNL Adobe Campaign]](start/get-started.md)**: funciones clave y casos de uso
 
 * **[Novedades de la versión 8](start/whats-new.md)**: Funciones de Discover Campaign v8
 
@@ -64,5 +64,5 @@ ht-degree: 76%
 * [Arquitectura](dev/architecture.md)
 * [Medición y seguimiento](start/reporting.md)
 * [Conectar con otras soluciones](connect/integration.md)
-* [Preguntas más frecuentes sobre Campaign v8](start/campaign-faq.md)
+* [Preguntas frecuentes de Campaign v8](start/campaign-faq.md)
 * [Descripción del producto de Adobe Campaign v8](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html)
