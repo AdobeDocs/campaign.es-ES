@@ -7,10 +7,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: true
 hide: true
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: ht
-source-wordcount: '358'
-ht-degree: 100%
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 89%
 
 ---
 
@@ -43,16 +43,16 @@ En el Panel de control, puede interactuar con todos los servidores SFTP conectad
 ## Subdominios y certificados
 
 Puede monitorizar los subdominios y sus certificados. Más información:
-* [Promoción de la marca de subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es)
-* [Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es)
-* [Monitorización de certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es)
+* [Promoción de la marca de subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es){target=&quot;_blank&quot;}
+* [Configurar un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es){target=&quot;_blank&quot;}
+* [Supervisión de certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es){target=&quot;_blank&quot;}
 
 ## Configuración de instancias
 
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign en el Panel de control.
-* [IP en la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es)
-* [Permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es)
-* [Detalles de instancias](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es)
-* [Administración de claves GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es)
+* [IP en la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es){target=&quot;_blank&quot;}
+* [Permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es){target=&quot;_blank&quot;}
+* [Detalles de instancia](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es){target=&quot;_blank&quot;}
+* [Administración de claves GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] Descubra todas las funcionalidades de Panel de control de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
+[!DNL :arrow_upper_right:] Descubra todas las funcionalidades de Panel de control de Campaign en  [esta documentación](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}
