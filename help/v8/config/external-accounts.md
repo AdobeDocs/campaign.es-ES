@@ -5,9 +5,9 @@ description: Cuentas externas de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: ff2c49a2b4f22cde7ebb798d9f565e133c0268fc
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1013'
 ht-degree: 32%
 
 ---
@@ -41,7 +41,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
    La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-   [!DNL :arrow_upper_right:] Obtenga más información sobre los correos electrónicos entrantes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html)
+   [!DNL :arrow_upper_right:] Obtenga más información sobre los correos electrónicos entrantes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/inbound-emails.html){target=&quot;_blank&quot;}
 
 * **Enrutamiento**
 
@@ -145,7 +145,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
 Estas cuentas externas se pueden utilizar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]** .
 
-[!DNL :arrow_upper_right:] Obtenga más información sobre la transferencia de archivos en flujos de trabajo en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html)
+[!DNL :arrow_upper_right:] Obtenga más información sobre la transferencia de archivos en flujos de trabajo en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/event-activities/file-transfer.html){target=&quot;_blank&quot;}
 
 * **FTP y SFTP**
 
