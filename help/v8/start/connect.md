@@ -6,9 +6,9 @@ feature: Audiencias
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '803'
 ht-degree: 13%
 
 ---
@@ -116,7 +116,7 @@ Adobe Campaign se puede configurar para que el usuario acceda a la plataforma me
 
 Se puede acceder a ciertas partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario HTML: Panel de campañas, informes de cubos, supervisión de instancias, etc.
 
-[!DNL :arrow_upper_right:] Obtenga más información sobre el acceso web en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access)
+[!DNL :arrow_upper_right:] Obtenga más información sobre el acceso web en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}
 
 El acceso web proporciona una interfaz similar a la consola, pero con un conjunto reducido de funcionalidades.
 
@@ -130,4 +130,4 @@ Mientras que con el acceso web, las opciones permiten principalmente la visualiz
 
 El acceso web también se utiliza en el proceso de validación: Los operadores pueden hacer clic en el correo electrónico de solicitud de aprobación y conectarse a Campaign a través de su explorador web para validar o rechazar un contenido o presupuesto de envío.
 
-[!DNL :arrow_upper_right:] Obtenga información sobre cómo configurar y administrar aprobaciones en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=es#orchestrating-campaigns)
+[!DNL :arrow_upper_right:] Aprenda a configurar y administrar aprobaciones en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
