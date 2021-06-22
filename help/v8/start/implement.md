@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
-workflow-type: ht
-source-wordcount: '1193'
-ht-degree: 100%
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+workflow-type: tm+mt
+source-wordcount: '1214'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign incluye procesos y configuraciones que permiten utilizar Campaign
 
 * **Consentimiento de usuario y retención de datos**: Obtenga información sobre cómo obtener el consentimiento del usuario, configurar mecanismos de suscripción de doble adhesión, facilitar la exclusión y configurar la retención de datos en la documentación de privacidad de [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#consent)
 
-* **Reglamentos de protección de datos y privacidad**: consulte la [documentación de privacidad de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es) para obtener información acerca del Reglamento general de protección de datos (RGPD) de la Unión Europea, la Ley de privacidad del consumidor de California (CCPA) y otros requisitos de privacidad internacionales, y cómo estos reglamentos afectan a su organización y a Adobe Campaign.
+* **Reglamentos** de protección de datos y privacidad: consulte la documentación de privacidad del  [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es){target=&quot;_blank&quot;} para obtener información sobre el Reglamento General de Protección de Datos (RGPD) de la Unión Europea, la Ley de Privacidad del Consumidor de California (CCPA) y otros requisitos de privacidad internacionales, así como sobre el impacto que estas regulaciones tienen en su organización y Adobe Campaign.
 
 ### Seguridad
 
@@ -52,7 +52,7 @@ Conozca las directrices y los principios de seguridad con Adobe Campaign en la [
 
 Puede añadir usuarios manualmente a Campaign y asociarlos a grupos, alineados con la jerarquía de funciones. Los usuarios podrán entonces iniciar sesión y acceder a los datos y permisos adecuados para ellos.
 
-[!DNL :arrow_upper_right:] Aprenda a añadir usuarios a Adobe Campaign en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=es#getting-started).
+[!DNL :arrow_upper_right:] Aprenda a añadir usuarios a Adobe Campaign en  [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
 ### Instalación de la consola del cliente de Campaign
 
@@ -78,17 +78,17 @@ Antes de empezar a enviar mensajes y crear campañas de marketing, debe realizar
 
    Las campañas, las entregas, los trabajos o los flujos de trabajo se basan en una plantilla, que almacena la configuración y las capacidades clave. Se proporciona una plantilla integrada por componente que no tiene definida ninguna configuración específica. Debe configurar y adaptar las plantillas a sus necesidades, y ponerlas a disposición de los usuarios finales.
 
-   [!DNL :arrow_upper_right:] [Más información acerca de las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es)
+   [!DNL :arrow_upper_right:] [Más información acerca de las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Aprenda a trabajar con plantillas de campaña en [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=es#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Aprenda a trabajar con las plantillas de campaña en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Obtenga información sobre cómo configurar una plantilla de flujo de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=es#workflow-templates)
+   [!DNL :arrow_upper_right:] Aprenda a configurar una plantilla de flujo de trabajo en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=es#workflow-templates){target=&quot;_blank&quot;}
 
 1. Configuración de reglas de tipología
 
    Aproveche las reglas de tipologías de Campaign para filtrar, controlar y monitorizar las entregas. Por ejemplo, las reglas de fatiga controlan la frecuencia y la cantidad de mensajes para evitar la saturación de destinatarios. Una vez implementadas, se hace referencia a las reglas de tipología en las entregas.
 
-   [!DNL :arrow_upper_right:] [Obtenga más información acerca de tipologías y administración de la fatiga](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=es#orchestrating-campaigns)
+   [!DNL :arrow_upper_right:] Obtenga más información sobre tipologías y administración de la fatiga en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 1. Familiarícese con el modelo de datos integrado de Campaign
 
