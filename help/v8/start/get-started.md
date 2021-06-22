@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
+source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 98%
+source-wordcount: '900'
+ht-degree: 95%
 
 ---
 
@@ -92,9 +92,9 @@ El espacio de trabajo de Campaign está disponible a través de la [consola del 
 
 El espacio de trabajo de Campaign se puede adaptar según sus necesidades.
 
-[!DNL :arrow_upper_right:] Aprenda a utilizar el espacio de trabajo de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es)
+[!DNL :arrow_upper_right:] Aprenda a utilizar el espacio de trabajo de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] Obtenga información sobre cómo personalizar listas en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=es)
+[!DNL :arrow_upper_right:]  Aprenda a personalizar listas en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=es){target=&quot;_blank&quot;}
 
 También puede acceder a algunas funciones a través de la web.
 
@@ -117,7 +117,7 @@ El idioma se selecciona durante el proceso de instalación.
 >
 >No se puede cambiar el idioma después de la creación de la instancia.
 
-Fechas y formatos de hora afectados por el idioma. Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es#date-and-time).
+Fechas y formatos de hora afectados por el idioma. Para obtener más información, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es#date-and-time){target=&quot;_blank&quot;}.
 
 **Consulte también**
 
