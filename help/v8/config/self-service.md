@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: true
 hide: true
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '374'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ En el Panel de control, puede interactuar con todos los servidores SFTP conectad
 Puede monitorizar los subdominios y sus certificados. Más información:
 * [Promoción de la marca de subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es){target=&quot;_blank&quot;}
 * [Configurar un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es){target=&quot;_blank&quot;}
-* [Supervisión de certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es){target=&quot;_blank&quot;}
+* [Monitorizar certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es){target=&quot;_blank&quot;}
 
 ## Configuración de instancias
 
@@ -55,4 +55,4 @@ Obtenga información sobre cómo administrar la configuración de las instancias
 * [Detalles de instancia](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es){target=&quot;_blank&quot;}
 * [Administración de claves GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] Descubra todas las funcionalidades de Panel de control de Campaign en  [esta documentación](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:] Descubra todas las funcionalidades del Panel de control en [esta documentación](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}
