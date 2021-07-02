@@ -7,13 +7,13 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '829'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# [!DNL Campaign Classic] v7: funciones de [!DNL Campaign] v8{#gs-matrix}
+# [!DNL Campaign Classic] Funcionalidades de v7 - [!DNL Campaign] v8{#gs-matrix}
 
 Como usuario de [!DNL Campaign Classic] v7 existente, no debería sufrir grandes cambios en la forma en que usa [!DNL Adobe Campaign]. La mayoría de los cambios de la versión 8 no son visibles, excepto los pequeños cambios que aparecen en la IU y en los pasos de configuración.
 
