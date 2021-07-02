@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '322'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Cree y ejecute un trabajo de importación de datos genérico para cargar contact
 
 ![](assets/new-import.png)
 
-[!DNL :arrow_upper_right:] Aprenda a ejecutar trabajos de importación unitarios para alimentar la base de datos en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=es){target=&quot;_blank&quot;}.
+[!DNL :arrow_upper_right:] Aprenda a ejecutar trabajos de importación unitarios para alimentar la base de datos en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=es){target=&quot;_blank&quot;}.
 
 ## Recopilación de perfiles mediante aplicaciones web
 
@@ -48,10 +48,10 @@ Utilice Campaign para crear formularios web y recopilar y administrar la informa
 
 ![](assets/web-form-page.png)
 
-[!DNL :arrow_upper_right:] Aprenda a crear formularios web en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es){target=&quot;_blank&quot;}.
+[!DNL :arrow_upper_right:] Aprenda a crear formularios web en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es){target=&quot;_blank&quot;}.
 
 **Temas relacionados**
 
 * [Crear audiencias](audiences.md)
-* [Deduplicación de perfiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=es){target=&quot;_blank&quot;}
-* [Enriquecimiento de datos](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=es) de perfil {target=&quot;_blank&quot;}
+* [Deduplicar perfiles](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/deduplication-merge.html?lang=es){target=&quot;_blank&quot;}
+* [Enriquecer datos de perfil](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/data-management/enriching-data.html?lang=es){target=&quot;_blank&quot;}
