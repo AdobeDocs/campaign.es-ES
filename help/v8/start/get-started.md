@@ -1,15 +1,15 @@
 ---
 product: Adobe Campaign
 title: Introducción a Campaign v8
-description: ¿Es nuevo en Campaign? Descubra cómo empezar
+description: ¿No tiene experiencia en Campaign? Descubra cómo empezar
 feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '900'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ En Adobe Campaign, los destinatarios son los perfiles seleccionados por defecto 
 
 ## Segmentación dirigida {#targeted-segmentation}
 
-Adobe Campaign tiene funcionalidades de segmentación y selección de objetivos potentes y fáciles de usar, que permiten crear ofertas específicas y diferenciadas. La funcionalidad de análisis descriptivo permite analizar la información de subida y de bajada de las campañas de marketing, mientras que la funcionalidad de filtrado y del editor gráfico de consultas permiten filtrar la población de suscriptores y la muestra, o crear grupos de destino según un número ilimitado de criterios.
+Adobe Campaign tiene funcionalidades de segmentación y direccionamiento potentes y fáciles de usar que permiten crear ofertas específicas y diferenciadas. La funcionalidad de análisis descriptivo permite analizar la información de subida y de bajada de las campañas de marketing, mientras que la funcionalidad de filtrado y del editor gráfico de consultas permiten filtrar la población de suscriptores y la muestra, o crear grupos de destino según un número ilimitado de criterios.
 
 La funcionalidad avanzada de administración de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de direccionamiento incluyendo información que no se encuentra en la base de datos.
 
 [!DNL :bulb:] Obtenga más información acerca de la segmentación, creación de audiencias y personalización en [esta sección](audiences.md).
 
-## Organización de campañas multicanal {#cross-channel-campaign-orchestration}
+## Organización de campañas en canales múltiples {#cross-channel-campaign-orchestration}
 
 Adobe Campaign le permite diseñar y organizar campañas dirigidas y personalizadas en varios canales: correo electrónico, correo directo, SMS, notificaciones push. Una sola interfaz proporciona todas las funcionalidades necesarias para programar, organizar, configurar, personalizar, automatizar, ejecutar y medir todas las campañas y comunicaciones.
 
@@ -72,13 +72,13 @@ Adobe Campaign permite monitorizar e interpretar el comportamiento de sus client
 
 ## Integraciones con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
-Puede combinar las funcionalidades de entrega y las funcionalidades avanzadas de administración de campañas de Adobe Campaign con un conjunto de soluciones creadas para ayudarle a personalizar la experiencia de los usuarios: Adobe Experience Manager, Adobe Analytics, Adobe Target o Adobe Experience Cloud, por ejemplo.
+Puede combinar las funcionalidades de envío y las funcionalidades avanzadas de administración de campañas de Adobe Campaign con un conjunto de soluciones creadas para ayudarle a personalizar la experiencia de los usuarios: Adobe Experience Manager, Adobe Analytics, Adobe Target o Adobe Experience Cloud, por ejemplo.
 
 [!DNL :bulb:] Aprenda a integrar con servicios y soluciones de Adobe en [esta sección](../connect/integration.md).
 
-## Más información sobre las funcionalidades de Campaign {#core-capabilities-and-add-ons}
+## Más información acerca de las funcionalidades de Campaign {#core-capabilities-and-add-ons}
 
-Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: [Descripción del producto de Adobe Campaign Classic v8](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
+Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: [Descripción del producto de Adobe Campaign Classic v8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
 [!DNL :bulb:] ¿Ya está familiarizado con Campaign Classic? Aprenda las diferencias clave entre Campaign Classic y Campaign v8 en [esta página](capability-matrix.md).
 
@@ -94,7 +94,7 @@ El espacio de trabajo de Campaign se puede adaptar según sus necesidades.
 
 [!DNL :arrow_upper_right:] Aprenda a utilizar el espacio de trabajo de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:]  Aprenda a personalizar listas en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=es){target=&quot;_blank&quot;}
+[!DNL :arrow_upper_right:] Aprenda a personalizar listas en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-ui-lists.html?lang=es){target=&quot;_blank&quot;}
 
 También puede acceder a algunas funciones a través de la web.
 
@@ -117,7 +117,7 @@ El idioma se selecciona durante el proceso de instalación.
 >
 >No se puede cambiar el idioma después de la creación de la instancia.
 
-Fechas y formatos de hora afectados por el idioma. Para obtener más información, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es#date-and-time){target=&quot;_blank&quot;}.
+Fechas y formatos de hora afectados por el idioma. Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=es#date-and-time){target=&quot;_blank&quot;}.
 
 **Consulte también**
 
