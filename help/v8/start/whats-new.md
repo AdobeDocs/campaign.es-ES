@@ -7,13 +7,13 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 8b31e24e0b6cfb699179e62366bc6706e9019382
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
-# ¿Qué novedades hay en Adobe Campaign v8? {#ac-gs-what-is-new}
+# ¿Qué novedades hay en Adobe Campaign v8?  {#ac-gs-what-is-new}
 
 Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, capacidad de envío y supervisión. Al aprovechar [[!DNL Snowflake]](https://www.snowflake.com/), una tecnología de base de datos en la nube, Adobe Campaign mejora considerablemente su escala y velocidad, con la capacidad de administrar una cantidad más significativa de perfiles de clientes, así como tasas de entrega y transacciones por hora mucho más altas.
 
@@ -45,7 +45,7 @@ Campaign v8 ofrece una escala de extremo a extremo en cualquier paso del proceso
 
 ## Simplificación y aumento del rendimiento
 
-Campaign v8 incorpora el concepto de **Acceso de datos federado completo** (FFDA): todos los datos ahora son remotos en la base de datos de Cloud.
+Campaign v8 incorpora el concepto de **Acceso de datos federado completo** (FDA): todos los datos ahora son remotos en la base de datos de Cloud.
 
 Con esta nueva arquitectura, Campaign v8 simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar.
 
@@ -55,7 +55,7 @@ La tecnología de la base de datos en la nube no requiere un mantenimiento espec
 
 ## Ecosistema integrado
 
-Puede integrar Campaign con un conjunto de potentes soluciones de Adobe, como: Adobe Analytics, Journey Orchestration de Adobe, CDP en tiempo real y más.
+Puede integrar Campaign con un conjunto de sólidas soluciones de Adobe, como Adobe Analytics, Adobe Journey Orchestration, CDP en tiempo real, etc.
 
 También puede configurar la optimización del tiempo de envío predictivo y la puntuación de participación predictiva con la inteligencia artificial aplicada a la trayectoria, y aumentar las tasas de apertura, los clics y los ingresos.
 
