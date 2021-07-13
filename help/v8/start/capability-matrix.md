@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 93b690d815f73d11de7de90b92ae188082a3e9e4
-workflow-type: ht
-source-wordcount: '829'
-ht-degree: 100%
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
+source-wordcount: '873'
+ht-degree: 94%
 
 ---
 
@@ -25,7 +25,7 @@ Cambios clave:
 
 Como usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría de las funciones de [!DNL Campaign Classic] v7 están disponibles en [!DNL Campaign] v8, excepto un pequeño conjunto de ellas, que se enumeran en [esta sección](#gs-removed). Se incluirán más en futuras versiones. [Obtenga más información en esta sección](#gs-unavailable-features)
 
-[!DNL :bulb:] Obtenga más información acerca la arquitectura de [!DNL Campaign] v8 en [esta página](../dev/architecture.md).
+?? Obtenga más información acerca la arquitectura de [!DNL Campaign] v8 en [esta página](../dev/architecture.md).
 
 ## Cambios en la configuración del producto
 
@@ -72,6 +72,12 @@ Adobe Campaign v8 viene con Snowflake como base de datos principal. Como aumenta
 
 Los usuarios de Campaign no tienen que ser expertos en bases de datos: ya no es necesario realizar operaciones complejas de mantenimiento de bases de datos o indexar tablas complejas.
 
+## Conexión a Campaign
+
+Los usuarios de Campaign se conectan mediante su Adobe ID. El mismo Adobe ID se utiliza para mantener todos sus planes de Adobe y productos asociados a una sola cuenta.
+
+?? Aprenda a conectarse a [!DNL Campaign] en [esta página](connect.md).
+
 ## Creación de informes
 
 Tenga en cuenta que los informes de Adobe Campaign están optimizados y ofrecen mejores prestaciones de escalado que Campaign Classic v7. Las limitaciones existentes en Cubos no se aplican.
@@ -106,4 +112,5 @@ Para alinearse con la nueva arquitectura y el modelo de implementación de Campa
 * Encuestas
 * Marketing social
 * Conector ACS (oferta principal)
-
+* Integración con LDAP
+* Inicio de sesión de usuario/contraseña
