@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo crear un catálogo de ofertas
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1276'
 ht-degree: 75%
@@ -18,7 +18,7 @@ Para que el motor de oferta pueda seleccionar una oferta, esta se ha aprobado y 
 
 La presentación de ofertas a través de un canal de comunicación saliente se realiza mediante correo postal, correo electrónico o envíos móviles. También puede utilizar el modo unitario con mensajes transaccionales (Centro de mensajes).
 
-## Inserción de una oferta en un envío {#offer-into-a-delivery}
+## Inserción de una oferta en una entrega {#offer-into-a-delivery}
 
 Para insertar propuestas de oferta en una entrega, siga los pasos a continuación:
 
@@ -78,7 +78,7 @@ Varias actividades de flujo de trabajo permiten definir la forma en que se prese
 
 La actividad **Enrichment** permite añadir ofertas o vínculos a ofertas para los destinatarios del envío.
 
-[!DNL :arrow_upper_right:] Para obtener más información sobre la actividad de Enriquecimiento, consulte la documentación de  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+↗️ Para obtener más información sobre la actividad de Enriquecimiento, consulte la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
 
 Por ejemplo, puede ampliar los datos de una consulta al destinatario antes de una entrega.
 
@@ -89,7 +89,7 @@ Existen dos métodos para especificar propuestas de oferta.
 * Especificación de una oferta o acceso al motor de oferta.
 * Referencia al vínculo de una oferta.
 
-#### Especifique una oferta o una llamada al motor de oferta {#specifying-an-offer-or-a-call-to-the-offer-engine}
+#### Especificación de una oferta o acceso al motor de oferta {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
 Después de configurar su actividad **Query**:
 
@@ -116,7 +116,7 @@ Después de configurar su actividad **Query**:
    >
    >El número de propuestas disponibles para la vista previa depende de la configuración realizada en la actividad de enriquecimiento y no de cualquier configuración realizada directamente en la entrega.
 
-#### Hacer referencia a un vínculo de oferta {#referencing-a-link-to-an-offer}
+#### Referencia a un vínculo de una oferta {#referencing-a-link-to-an-offer}
 
 También puede hacer referencia a un vínculo de oferta en una actividad **Enrichment**.
 
@@ -138,7 +138,7 @@ Para realizar esto, siga los pasos a continuación:
    >
    >El número de propuestas disponibles para la vista previa depende de la configuración realizada en la entrega.
 
-#### Almacene clasificaciones y consideraciones de ofertas {#storing-offer-rankings-and-weights}
+#### Almacenar calificaciones y consideraciones de ofertas {#storing-offer-rankings-and-weights}
 
 De forma predeterminada, cuando se utiliza una actividad **Enrichment** para entregar ofertas, sus clasificaciones y sus consideraciones no se almacenan en la tabla de propuestas.
 
@@ -165,7 +165,7 @@ La entrega almacena automáticamente la clasificación y las consideraciones de 
 
 La actividad **[!UICONTROL Offer engine]** también permite definir el acceso al motor de oferta antes de una entrega.
 
-[!DNL :arrow_upper_right:] Para obtener más información sobre la  **actividad de** ingeniería de ofertas, consulte la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+↗️ Para obtener más información sobre la actividad **Offer engine**, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
 Esta actividad funciona con el mismo principio que la actividad **Enrichment** con acceso al motor, al enriquecer los datos de población entrantes con una oferta calculada por el motor antes de un envío.
 
@@ -188,7 +188,7 @@ Después de configurar su actividad **Query**:
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-[!DNL :arrow_upper_right:] Para obtener más información sobre la actividad  **Offer by** cellactivity, consulte la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+↗️ Para obtener más información sobre la actividad **Offer by cell**, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
 
 Para ello, utilice el proceso siguiente:
 
