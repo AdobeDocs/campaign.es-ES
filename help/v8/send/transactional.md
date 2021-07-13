@@ -5,7 +5,7 @@ description: Introducción a la mensajería transaccional
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1487'
 ht-degree: 72%
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 La mensajería transaccional (Centro de Mensajes) es un módulo de Campaign diseñado para gestionar mensajes de activación. Estos mensajes se generan a partir de eventos activados desde sistemas de información y pueden ser: una factura, una confirmación de pedido, una confirmación de envío, un cambio de contraseña, una notificación de no disponibilidad del producto, el estado de la cuenta o una creación de cuenta en un sitio web, por ejemplo.
 
-[!DNL :speech_balloon:] Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+?? Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
 Los mensajes transaccionales se utilizan para enviar:
 
@@ -24,9 +24,9 @@ Los mensajes transaccionales se utilizan para enviar:
 * una respuesta individual en tiempo real a una acción del cliente
 * contenido no promocional
 
-[!DNL :bulb:] La configuración de mensajería transaccional se detalla en  [esta sección](../config/transactional-msg-settings.md).
+?? La configuración de mensajería transaccional se detalla en [esta sección](../config/transactional-msg-settings.md).
 
-[!DNL :bulb:] Comprenda la arquitectura de mensajería transaccional en  [esta página](../dev/architecture.md).
+?? Comprenda la arquitectura de mensajería transaccional en [esta página](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -62,7 +62,7 @@ Para crear una plantilla de mensaje, siga los pasos a continuación:
 
 1. Introduzca una naturaleza y una descripción y, a continuación, haga clic en **[!UICONTROL Continue]** para crear el cuerpo del mensaje. Consulte [Crear el contenido del mensaje](#create-message-content).
 
-### Cree el contenido{#create-message-content}
+### Creación del contenido{#create-message-content}
 
 La definición del contenido del mensaje transaccional es la misma que para todas las entregas de Adobe Campaign. Por ejemplo, para una entrega de correo electrónico, puede crear contenido en formato HTML o texto, añadir archivos adjuntos o personalizar el objeto de envío. Para obtener más información, consulte [esta sección](../start/create-message.md).
 
@@ -135,7 +135,7 @@ Esta información le permite personalizar el contenido del mensaje mediante etiq
 
 ### Previsualizar el mensaje transaccional{#transactional-message-preview}
 
-Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje, puede obtener una vista previa del mensaje y comprobar su personalización.
+Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje, puede obtener una previsualización del mensaje y comprobar su personalización.
 
 1. En la plantilla de mensaje, haga clic en la pestaña **[!UICONTROL Preview]** y, a continuación, seleccione **[!UICONTROL A seed address]** en la lista desplegable.
 
@@ -151,7 +151,7 @@ Puede probar la entrega de mensajes enviando una prueba a una dirección semilla
 
 El envío de una prueba implica realizar el mismo proceso que para cualquier entrega.
 
-[!DNL :arrow_upper_right:] Obtenga más información sobre las pruebas en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
+↗️ Obtenga más información sobre las pruebas en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
 
 Sin embargo, para enviar una prueba de un mensaje transaccional, debe realizar las siguientes operaciones:
 
