@@ -6,7 +6,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '989'
 ht-degree: 53%
@@ -22,7 +22,7 @@ Esta integración le ayuda a implementar casos de uso de la siguiente manera: cu
 >[!NOTE]
 >La integración solo admite imágenes estáticas. Los demás tipos de contenido no se pueden personalizar.
 
-[!DNL :speech_balloon:] Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para implementar déclencheur de Experience Cloud con Campaign.
+?? Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para implementar los déclencheur de Experience Cloud con Campaign.
 
 Adobe Target puede utilizar los siguientes tipos de datos:
 
@@ -52,7 +52,7 @@ Es necesario realizar los siguientes pasos en Adobe Campaign y Adobe Target:
 1. [Crear una actividad de segmentación de experiencias](#creating-targeting-activity)
 1. [Vista previa y envío del mensaje](#preview-send-email)
 
-### Inserte la oferta dinámica en un mensaje de correo electrónico {#inserting-dynamic-offer}
+### Inserción de la oferta dinámica en un mensaje de correo electrónico {#inserting-dynamic-offer}
 
 En Adobe Campaign, defina el destinatario y el contenido del correo electrónico. Puede insertar una imagen dinámica desde Adobe Target.
 
@@ -161,7 +161,7 @@ La sección **[!UICONTROL Reporting Settings]** permite seleccionar una acción 
 
 ![](assets/target_experience_2.png)
 
-## Previsualizar y enviar el mensaje {#preview-send-email}
+## Vista previa y envío del mensaje {#preview-send-email}
 
 En Adobe Campaign, ahora puede previsualizar el correo electrónico y probar su renderizado en distintos destinatarios.
 
