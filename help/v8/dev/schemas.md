@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Trabajo con esquemas de Campaign
 description: Introducción a los esquemas
-source-git-commit: 40b38168a3704f171f1f389e2d232e6a2c6f1d85
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 7%
@@ -93,15 +93,15 @@ Algunas áreas de nombres están reservadas para descripciones de las entidades 
 
 La clave de identificación de un esquema es una cadena creada con el área de nombres y el nombre separado por dos puntos; por ejemplo: **nms:recipient**.
 
-## Crear o ampliar esquemas de Campaign {#create-or-extend-schemas}
+## Creación o ampliación de esquemas de Campaign {#create-or-extend-schemas}
 
 Para añadir un campo u otro elemento a uno de los esquemas de datos principales de Campaign, como la tabla de destinatarios (nms:recipient), debe ampliar ese esquema.
 
-[!DNL :bulb:] Para obtener más información, consulte  [Ampliar un esquema](extend-schema.md).
+?? Para obtener más información, consulte [Ampliar un esquema](extend-schema.md).
 
 Para añadir un tipo de datos completamente nuevo que no exista en Adobe Campaign (por ejemplo, una tabla de contratos), puede crear un esquema personalizado directamente.
 
-[!DNL :bulb:] Para obtener más información, consulte  [Crear un nuevo esquema](create-schema.md).
+?? Para obtener más información, consulte [Crear un nuevo esquema](create-schema.md).
 
 ![](assets/schemaextension_1.png)
 
@@ -153,7 +153,7 @@ En este ejemplo, en lugar de permitir que el atributo **@autouuid** cree una cla
 >
 >Al crear un nuevo esquema o durante una ampliación de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
 
-[!DNL :bulb:] Obtenga más información sobre las claves en  [esta sección](database-mapping.md#management-of-keys).
+?? Obtenga más información sobre las claves en [esta sección](database-mapping.md#management-of-keys).
 
 ## Atributos (campos) {#attributes--fields-}
 
@@ -163,7 +163,7 @@ Los atributos permiten definir los campos que conforman el objeto de datos. Pued
 
 La lista completa de atributos está disponible en la sección del elemento `<attribute>` de la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Estos son algunos de los atributos más utilizados: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label a13/>,**@length **,**@name **,**@notNull **,**@required **,**@ref **3/>,**@xml **,**@type **.**
 
-[!DNL :arrow_upper_right:] Para obtener más información sobre cada atributo, consulte la descripción del atributo en la documentación [ de ](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)Campaign Classic v7 .
+↗️ Para obtener más información sobre cada atributo, consulte la descripción del atributo en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
 
 ### Ejemplos {#examples}
 
