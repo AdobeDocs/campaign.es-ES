@@ -6,7 +6,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 3%
@@ -21,7 +21,7 @@ Adobe Campaign incluye un conjunto de flujos de trabajo técnicos integrados. Lo
 
 Estos flujos de trabajo realizan operaciones de mantenimiento en la base de datos, aprovechan la información de seguimiento en los registros de envío, crean campañas recurrentes y mucho más.
 
-[!DNL :arrow_upper_right:] La lista completa de flujos de trabajo técnicos se detalla en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
+↗️ La lista completa de flujos de trabajo técnicos se detalla en la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
 
 Además de estos flujos de trabajo técnicos, Campaign v8 depende de flujos de trabajo técnicos específicos para administrar [replicación de datos](#data-replication).
@@ -39,7 +39,7 @@ Estos flujos de trabajo técnicos están disponibles en el nodo **[!UICONTROL Ad
 
 Si es necesario, puede iniciar la sincronización de datos manualmente. Para ello, haga clic con el botón derecho en la actividad **Scheduler** y seleccione **Execute pending task(s) now**.
 
-## Duplicación de datos{#data-replication}
+## Replicación de datos{#data-replication}
 
 Algunas tablas integradas se replican desde la base de datos local de Campaign a la base de datos de [!DNL Snowflake] Cloud mediante flujos de trabajo dedicados descritos anteriormente.
 
@@ -68,6 +68,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Temas relacionados**
 
-[!DNL :arrow_upper_right:] Obtenga información sobre cómo empezar a usar flujos de trabajo en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+↗️ Obtenga información sobre cómo empezar a usar flujos de trabajo en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
-[!DNL :bulb:] Acceso a los períodos de retención de datos en  [esta sección](../dev/datamodel-best-practices.md#data-retention)
+?? Acceda a los períodos de retención de datos en [esta sección](../dev/datamodel-best-practices.md#data-retention)
