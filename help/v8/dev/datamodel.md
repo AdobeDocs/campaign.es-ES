@@ -6,7 +6,7 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896,b1319b34-ee07-48ed-9ab1-e2d12d3d99f8
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 4%
@@ -21,7 +21,7 @@ La estructura básica del modelo de datos de Adobe Campaign se puede describir d
 
 * **Tabla** de destinatarios: El modelo de datos se basa en una tabla principal que, de forma predeterminada, es la tabla de destinatarios (nmsRecipient). Esta tabla permite almacenar todos los perfiles de marketing.
 
-   [!DNL :bulb:] Para obtener más información sobre la tabla de destinatarios, consulte  [esta sección](#ootb-profiles).
+   ?? Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](#ootb-profiles).
 
 * **Tabla** de envío: El modelo de datos también incluye una parte dedicada a almacenar todas las actividades de marketing. Normalmente es la tabla Delivery (NmsDelivery). Cada registro de esta tabla representa una acción de envío o una plantilla de envío. Contiene todos los parámetros necesarios para realizar envíos como destinatario, contenido, etc.
 
@@ -44,7 +44,7 @@ Puede utilizar la tabla de destinatarios predeterminada con los campos predeterm
 * [Amplíe una ](extend-schema.md) tabla existente con campos nuevos. Por ejemplo, puede agregar un nuevo campo &quot;Lealtad&quot; a la tabla de destinatarios.
 * [Cree una nueva tabla](create-schema.md), por ejemplo una tabla &quot;Purchase&quot; que enumere todas las compras realizadas por cada perfil de la base de datos y vincúlelo a la tabla Recipient .
 
-[!DNL :bulb:] Descubra las prácticas recomendadas al trabajar con el modelo de datos de Campaign en  [esta sección](datamodel-best-practices.md).
+?? Descubra las prácticas recomendadas al trabajar con el modelo de datos de Campaign en [esta sección](datamodel-best-practices.md).
 
 ## Tabla de perfil integrada {#ootb-profiles}
 
@@ -59,9 +59,9 @@ Los beneficios de utilizar la tabla de destinatarios estándar son:
 
 Es posible ampliar la tabla de destinatarios, pero no reducir el número de campos o vínculos de la tabla.
 
-[!DNL :bulb:] Aprenda a ampliar un esquema existente en  [esta sección](extend-schema.md).
+?? Aprenda a ampliar un esquema existente en [esta sección](extend-schema.md).
 
-[!DNL :arrow_upper_right:] Descubra ejemplos de extensiones de tabla de destinatarios integradas en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
+↗️ Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=en#extending-a-table)
 
 También puede utilizar una tabla de destinatarios diferente para adaptarla mejor a sus necesidades empresariales o funcionales. Este método viene con limitaciones y se describe en [esta sección](custom-recipient.md).
 
@@ -69,9 +69,9 @@ También puede utilizar una tabla de destinatarios diferente para adaptarla mejo
 
 Para comprender mejor la administración de tablas en Campaign v8, tenga en cuenta que las tablas se duplican entre Campaign y su base de datos de Snowflake Cloud.
 
-[!DNL :bulb:] Obtenga más información sobre la estrategia y los mecanismos de replicación en  [esta sección](../config/replication.md).
+?? Obtenga más información sobre la estrategia y los mecanismos de replicación en [esta sección](../config/replication.md).
 
 **Temas relacionados**
 
-[!DNL :bulb:] Descubra cómo importar perfiles en  [esta ](../start/import.md)
-[!DNL :bulb:] secciónObtenga más información sobre las audiencias de Campaign en  [esta sección](../start/audiences.md)
+?? Descubra cómo importar perfiles en [esta sección](../start/import.md)
+?? Obtenga más información sobre las audiencias de Campaign en [esta sección](../start/audiences.md)
