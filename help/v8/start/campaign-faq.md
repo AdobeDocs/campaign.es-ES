@@ -6,8 +6,8 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
-workflow-type: ht
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 100%
 
@@ -23,13 +23,13 @@ ht-degree: 100%
 
    Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Esta es la razón por la que creemos que es esencial que ejecute la versión más reciente de Adobe Campaign.
 
-   [!DNL :speech_balloon:] Como usuario de Cloud Services administrados, la instancia se actualiza en Adobe con cada nueva versión.
+   ?? Como usuario de Cloud Services administrados, la instancia se actualiza en Adobe con cada nueva versión.
 
 1. **¿Cómo puedo conectarme a Campaign v8?**
 
    Debe descargar e instalar la consola del cliente de Campaign para conectarse a Adobe Campaign.
 
-   [!DNL :bulb:] [Haga clic aquí para obtener más información](connect.md).
+   ?? [Haga clic aquí para obtener más información](connect.md).
 
 1. **¿Se puede instalar Campaign v8 en un entorno local o híbrido?**
 
@@ -39,9 +39,9 @@ ht-degree: 100%
 
    La capacidad de envío de correo electrónico, un componente crítico para el éxito del programa de marketing de cada remitente, se caracteriza por criterios y reglas que cambian constantemente. La navegación eficaz en este mundo digital requiere un ajuste regular de su estrategia de correo electrónico, teniendo en cuenta las tendencias clave de envío, para llegar mejor a sus audiencias.
 
-   [!DNL :arrow_upper_right:] Consulte esta guía para obtener más información sobre las [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target=&quot;_blank&quot;}
+   ↗️ Consulte esta guía para obtener más información sobre las [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target=&quot;_blank&quot;}
 
-   [!DNL :arrow_upper_right:] Aprenda a implementar la capacidad de envío de Campaign [en esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es){target=&quot;_blank&quot;}
+   ↗️ Aprenda a implementar la capacidad de envío de Campaign [en esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es){target=&quot;_blank&quot;}
 
 1. **¿Cómo puedo asegurarme de que mi entrega se envíe sin errores?**
 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 1. **¿Se puede monitorizar la ejecución del flujo de trabajo?**
 
-   [!DNL :arrow_upper_right:] Sepa cómo monitorizar la ejecución del flujo de trabajo de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=es){target=&quot;_blank&quot;}
+   ↗️ Sepa cómo monitorizar la ejecución del flujo de trabajo de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=es){target=&quot;_blank&quot;}
 
 1. **¿Con qué sistemas y componentes es compatible Campaign v8?**
 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
    Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico (mensajes transaccionales, información de marketing, etc.).
 
-   [!DNL :speech_balloon:] Como usuario de Cloud Services administrados, [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para delegar sus subdominios a Adobe.
+   ?? Como usuario de Cloud Services administrados, [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para delegar sus subdominios a Adobe.
 
 1. **Como usuario Campaign Classic v7, ¿puedo migrar a Campaign v8?**
 
