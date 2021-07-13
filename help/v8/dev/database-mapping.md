@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Asignación de base de datos de campaña
 description: Asignación de base de datos de campaña
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -256,7 +256,7 @@ Para relaciones de unión mediante Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Cardinalidad 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Cardinalidad 1-N
 
-[!DNL :bulb:] Para obtener más información sobre las tablas de FDA, consulte  [Acceso de datos federado](../connect/fda.md).
+?? Para obtener más información sobre las tablas FDA, consulte [Acceso de datos federado](../connect/fda.md).
 
 Se debe declarar un vínculo en el esquema que contenga la clave externa de la tabla vinculada a través del elemento principal:
 
