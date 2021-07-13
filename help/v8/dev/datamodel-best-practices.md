@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Prácticas recomendadas del modelo de datos
 description: Conozca las prácticas recomendadas de extensión del modelo de datos de Campaign
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
@@ -17,9 +17,9 @@ El sistema Adobe Campaign es muy flexible y se puede ampliar más allá de la im
 
 Para comprender mejor las tablas integradas de Campaign y cómo se relacionan entre sí, consulte [esta sección](datamodel.md) .
 
-[!DNL :bulb:] Lea  [esta ](schemas.md) sección para empezar a utilizar los esquemas de Campaign.
+?? Lea [esta sección](schemas.md) para empezar a utilizar esquemas de Campaign.
 
-[!DNL :bulb:] Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en  [esta página](extend-schema.md).
+?? Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en [esta página](extend-schema.md).
 
 ## Arquitectura del modelo de datos {#data-model-architecture}
 
@@ -52,7 +52,7 @@ Para tomar la decisión de si un atributo sería necesario o no en Adobe Campaig
 
 Si no se incluye en ninguno de estos parámetros, lo más probable es que no necesite este atributo en Adobe Campaign.
 
-### Opción de tipos de datos {#data-types}
+### Elección de tipos de datos {#data-types}
 
 Para garantizar una buena arquitectura y un buen rendimiento de su sistema, siga las prácticas recomendadas a continuación para configurar los datos en Adobe Campaign.
 
@@ -175,7 +175,7 @@ Existen varias soluciones para minimizar la necesidad de registros en Adobe Camp
 
 Puede declarar el atributo &quot;deleteStatus&quot; en un esquema. Es más eficaz marcar el registro como eliminado y posponer la eliminación en la tarea de limpieza.
 
-[!DNL :speech_balloon:] Como usuario de Cloud Services administrados, póngase en contacto con los consultores de Adobe o administradores técnicos para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
+?? Como usuario de Cloud Services administrados, póngase en contacto con los consultores de Adobe o administradores técnicos para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
 
 ## Rendimiento {#performance}
 
@@ -191,7 +191,7 @@ Para garantizar un mejor rendimiento en cualquier momento, siga las prácticas r
 * Utilice una o varias tablas de referencia en lugar de duplicar un campo en cada fila. Al utilizar pares clave/valor, se prefiere elegir una clave numérica.
 * Una cadena corta sigue siendo aceptable. En caso de que las tablas de referencias ya estén implementadas en un sistema externo, reutilizar la misma facilitará la integración de datos con Adobe Campaign.
 
-### Relaciones de uno a varios {#one-to-many-relationships}
+### Relaciones &quot;uno a varios&quot; {#one-to-many-relationships}
 
 * El diseño de datos afecta a la capacidad de uso y la funcionalidad. Si diseña su modelo de datos con muchas relaciones de uno a varios, a los usuarios les resultará más difícil construir una lógica significativa en la aplicación. La lógica de filtro &quot;uno a varios&quot; puede resultar difícil para los especialistas en marketing que no son técnicos construir y comprender correctamente.
 * Es bueno tener todos los campos esenciales en una tabla porque facilita a los usuarios la creación de consultas. A veces también es bueno para el rendimiento duplicar algunos campos entre tablas si puede evitar una unión.
