@@ -5,7 +5,7 @@ description: Creación de operadores de administración de ofertas
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 38%
@@ -24,7 +24,7 @@ Dos tipos de operadores pueden utilizar Campaign Interaction: **Administradores 
 
 1. Creación de un nuevo operador.
 
-   [!DNL :arrow_upper_right:] Los pasos para crear un operador en Campaign se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ↗️ Los pasos para crear un operador en Campaign se detallan en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Offer manager]**.
 
@@ -44,11 +44,11 @@ Tenga en cuenta que si se utilizan ofertas en un flujo de trabajo, el operador d
 >
 >Un **Gestor de ofertas** solo puede aprobar una oferta si no se especifica ningún revisor, o si ha sido declarado como revisor en la plantilla de oferta en la que se basa la oferta.
 
-## Crear un operador de administrador de envíos {#delivery-manager}
+## Creación de un operador Delivery manager {#delivery-manager}
 
 1. Creación de un nuevo operador.
 
-   [!DNL :arrow_upper_right:] Los pasos para crear un operador en Campaign se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ↗️ Los pasos para crear un operador en Campaign se detallan en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Delivery manager]**.
 
