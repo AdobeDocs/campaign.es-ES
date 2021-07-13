@@ -5,10 +5,10 @@ description: Configuración del canal de correo electrónico de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: 0566d40370a3e14d5205861509f7c1ae8cb4b22d
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '290'
-ht-degree: 6%
+ht-degree: 8%
 
 ---
 
@@ -31,7 +31,7 @@ Tenga en cuenta que:
 
 * Solo se tienen en cuenta los correos electrónicos enviados correctamente, no los rechazos.
 
-[!DNL :speech_balloon:] Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para activar el correo electrónico CCO en Campaign. La dirección de correo electrónico CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
+?? Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para activar el correo electrónico CCO en Campaign. La dirección de correo electrónico CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
 
 Una vez configurado el CCO de correo electrónico, asegúrese de que la función esté habilitada en la plantilla de envío o en el envío a través de la opción **Email BCC**.
 
@@ -41,14 +41,14 @@ Una vez configurado el CCO de correo electrónico, asegúrese de que la función
 **Temas relacionados** en la documentación del Campaign Classic v7:
 
 
-[!DNL :arrow_upper_right:] [Generar la página espejo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}
+↗️ [Generar la página espejo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Seleccionar formato de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;}
+↗️ [Seleccionar formato de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Seleccionar codificación de caracteres](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;}
+↗️ [Seleccionar codificación de caracteres](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Establecer la dirección de correo electrónico de rechazo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;}
+↗️ [Establezca la dirección de correo electrónico de rechazo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Usar plantillas de envío de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
+↗️ [Usar plantillas de envío de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
 
-[!DNL :arrow_upper_right:] [Comprender los errores de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
+↗️ [Comprender los errores de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
