@@ -6,10 +6,10 @@ feature: Audiencias
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: 13f3122a830c723fa940290689c8e3a1baa0443a
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 11%
+source-wordcount: '691'
+ht-degree: 13%
 
 ---
 
@@ -99,11 +99,9 @@ Obtenga más información sobre IMS de Adobe en [esta página](https://helpx.ado
 
 ## Acceso web{#web-access}
 
-Se puede acceder a ciertas partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario HTML: Panel de campañas, informes de cubos, supervisión de instancias, etc.
+Se puede acceder a ciertas partes de la aplicación a través de un explorador web mediante una interfaz de usuario HTML: informes, aprobación de envíos, supervisión de instancias, etc.
 
-↗️ Obtenga más información sobre el acceso web en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/campaign-workspace/adobe-campaign-workspace.html?lang=en#console-and-web-access){target=&quot;_blank&quot;}
-
-El acceso web proporciona una interfaz similar a la consola, pero con un conjunto reducido de funcionalidades.
+El acceso web proporciona una interfaz similar a la consola pero con un conjunto reducido de funcionalidades.
 
 Por ejemplo, para un operador determinado, una campaña se mostrará con las siguientes opciones en la consola:
 
@@ -115,4 +113,4 @@ Mientras que con el acceso web, las opciones permiten principalmente la visualiz
 
 El acceso web también se utiliza en el proceso de validación: Los operadores pueden hacer clic en el correo electrónico de solicitud de aprobación y conectarse a Campaign a través de su explorador web para validar o rechazar un contenido o presupuesto de envío.
 
-↗️ Aprenda a configurar y administrar aprobaciones en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
+Para acceder a la instancia de Campaign desde la web, la dirección URL es:  `https://<your adobe campaign server>:<port number>/view/home`.
