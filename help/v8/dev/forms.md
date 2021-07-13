@@ -2,7 +2,7 @@
 product: Adobe Campaign
 title: Formularios de entrada de campaña
 description: Aprenda a personalizar formularios de entrada
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
 workflow-type: tm+mt
 source-wordcount: '2555'
 ht-degree: 3%
@@ -84,7 +84,7 @@ El control de edición se adapta automáticamente al tipo de datos correspondien
 
 De forma predeterminada, cada campo se muestra en una sola línea y ocupa todo el espacio disponible en función del tipo de datos.
 
-[!DNL :arrow_upper_right:] Todos los atributos de formulario se enumeran en la documentación de  [Campaign Classic v7](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+↗️ Todos los atributos de formulario se enumeran en [Campaign Classic v7 documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
 
 ## Formato {#formatting}
 
@@ -205,7 +205,7 @@ Agregue el atributo **style=&quot;down&quot;** para forzar la posición vertical
 
 `<container style="down" type="notebook">  ... </container>`
 
-### Añadir iconos (iconbox) {#icon-list}
+### Agregar iconos (iconbox) {#icon-list}
 
 Utilice este contenedor para mostrar una barra de iconos vertical que le permite seleccionar las páginas que desea mostrar.
 
@@ -268,7 +268,7 @@ Este contenedor le permite activar o desactivar un conjunto de datos de una cond
 
 Un contenedor de habilitación se define mediante el atributo **type=&quot;enabledGroup&quot;**. El atributo **enabledIf** contiene la condición de activación.
 
-## Editar un enlace {#editing-a-link}
+## Editar un vínculo {#editing-a-link}
 
 Recuerde que un vínculo se declara en el esquema de datos de la siguiente manera:
 
@@ -499,7 +499,7 @@ Ejemplo en el campo &quot;Gender&quot;:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## Botón Agregar opción {#radio-button}
+## Agregar botón de radio {#radio-button}
 
 Un botón de opción permite elegir entre varias opciones. Las etiquetas **`<input>`** se utilizan para enumerar las posibles opciones y el atributo **selectedValue** especifica el valor asociado a la opción.
 
