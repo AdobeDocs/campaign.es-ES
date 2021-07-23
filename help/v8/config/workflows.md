@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: cc8707c7765a47fc00d46283eb6588e63a98499d
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 12%
+source-wordcount: '1546'
+ht-degree: 10%
 
 ---
 
@@ -35,12 +35,59 @@ Aprenda a diseñar flujos de trabajo en estos [casos de uso de extremo a extremo
 Obtenga más información sobre los flujos de trabajo, la interfaz de usuario y la ejecución en la documentación de Campaign Classic v7 :
 
 ↗️ [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
-* Actividades de flujo de trabajo:
-   * [Actividades de segmentación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}: Consulta, lista de lectura, enriquecimiento, unión, etc.
-   * [Actividades](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html) de control de flujo{target=&quot;_blank&quot;}: Planificador, ramificación, alerta, señal externa, etc.
-   * [Actividades](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) de acción {target=&quot;_blank&quot;}: Envíos multicanal, código JavaScript, actividades CRM, Actualizar acumulado, etc.
-   * [Actividades de evento](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: Transferencia de archivos, descarga web y más ↗️   [Crear una audiencia en un flujo de trabajo de campaña de marketing ](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;} ↗️   [Prácticas recomendadas del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;} ↗️  [Flujos de trabajo técnicos integrados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;} ↗️  [Monitorizar la ejecución de los flujos de trabajo ](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
 
+↗️ [Prácticas recomendadas del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
+
+↗️ [Flujos de trabajo técnicos integrados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
+
+↗️ [Monitorización de la ejecución de los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
+
+↗️ [Crear una audiencia en un flujo de trabajo de campaña de marketing](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+
+## Actividades de flujo de trabajo {#wf-activities}
+
+↗️ Obtenga más información sobre las actividades de flujo de trabajo disponibles [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}
+
+Las actividades de flujo de trabajo se agrupan por categoría. Están disponibles las cuatro categorías de actividad:
+
+* [Actividades de segmentación](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}: Consulta, lista de lectura, enriquecimiento, unión, etc.
+* [Actividades](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/about-flow-control-activities.html) de control de flujo{target=&quot;_blank&quot;}: Planificador, ramificación, alerta, señal externa, etc.
+* [Actividades](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html) de acción {target=&quot;_blank&quot;}: Envíos multicanal, código JavaScript, actividades CRM, Actualizar acumulado, etc.
+* [Actividades de evento](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/about-action-activities.html){target=&quot;_blank&quot;}: Transferencia de archivos, descarga de web y más
+
+### Cambiar la actividad de la fuente de datos {#change-data-source-activity}
+
+La actividad **[!UICONTROL Change data source]** permite cambiar la fuente de datos de un flujo de trabajo **[!UICONTROL Working table]**. Esto proporciona más flexibilidad para administrar los datos en diferentes fuentes de datos, como FDA, FFDA y bases de datos locales.
+
+El **[!UICONTROL Working table]** permite que el flujo de trabajo de Adobe Campaign gestione datos y comparta datos con las actividades de flujo de trabajo.
+De forma predeterminada, el **[!UICONTROL Working table]** se crea en la misma base de datos que el origen de los datos en los que consultamos.
+
+Por ejemplo, al consultar la tabla **[!UICONTROL Profiles]**, almacenada en la base de datos de Cloud, creará un **[!UICONTROL Working table]** en la misma base de datos de Cloud.
+Para cambiar esto, puede agregar la actividad **[!UICONTROL Change Data Source]** para elegir una fuente de datos diferente para su **[!UICONTROL Working table]**.
+
+Tenga en cuenta que al utilizar la actividad **[!UICONTROL Change Data Source]** , deberá volver a la base de datos de Cloud para continuar con la ejecución del flujo de trabajo.
+
+Para utilizar la actividad **[!UICONTROL Change Data Source]**:
+
+1. Creación de un flujo de trabajo.
+
+1. Consulte a los destinatarios objetivo con una actividad **[!UICONTROL Query]**.
+
+   Para obtener más información sobre la actividad **[!UICONTROL Query]**, consulte la página [Consulta](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) en la documentación de Campaign Classic V7.
+
+1. En la pestaña **[!UICONTROL Targeting]**, añada una actividad **[!UICONTROL Change data source]** y haga doble clic en ella para seleccionar **[!UICONTROL Default data source]**.
+
+   La tabla de trabajo, que contiene el resultado de la consulta, se mueve a la base de datos predeterminada PostgreSQL.
+
+1. En la pestaña **[!UICONTROL Actions]** , arrastre y suelte una actividad **[!UICONTROL JavaScript code]** para realizar operaciones unitarias en la tabla de trabajo.
+
+   Para obtener más información sobre la actividad **[!UICONTROL JavaScript code]** , consulte la página [Código JavaScript y código JavaScript avanzado](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code) en la documentación de Campaign Classic V7 .
+
+1. Agregue otra actividad **[!UICONTROL Change data source]** para volver a la base de datos de Cloud.
+
+   Haga doble clic en la actividad y seleccione **[!UICONTROL Active FDA external account]** y luego la cuenta externa correspondiente.
+
+1. Ahora puede iniciar el flujo de trabajo.
 
 ## Configuración de campañas recurrentes
 
@@ -158,4 +205,34 @@ En esta sección, encontrará varios casos de uso que aprovechan las capacidades
 * [Llame a una variable de instancia en una consulta](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/javascript-scripts-and-templates.html?lang=en#example){target=&quot;_blank&quot;}
 
    Aprenda a utilizar una variable de instancia para calcular dinámicamente el porcentaje dividido que se aplicará a una población.
+
+<!--
+### Change data source activity {#data-source-uc}
+
+The **[!UICONTROL Change data source]** activity allows you to change the data source of a workflow **[!UICONTROL Working table]**. 
+
+In this use case, learn how to use the **[!UICONTROL Change data source]** activity to perform unitary operations to insert or update information to the recipient table.
+
+![](assets/wf_data_source_uc.png)
+
+1. Create a workflow and add a **[!UICONTROL Start]** activity.
+
+1. Query your targeted recipients from the NmsRecipient table with a **[!UICONTROL Query]** activity. 
+
+    For more information on the **[!UICONTROL Query]** activity, refer to the [Query](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) page in Campaign Classic V7 documentation.
+
+1. 
+
+1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
+    
+    The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
+
+1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
+
+1. Add another **[!UICONTROL Change data source]** activity to revert back to the Cloud database. 
+    
+    Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
+
+1. Add an **[!UICONTROL End]** activity and start your workflow.
+-->
 
