@@ -7,7 +7,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '455'
 ht-degree: 100%
 
@@ -59,5 +59,5 @@ Puede integrar Campaign con un conjunto de sólidas soluciones de Adobe, como Ad
 
 También puede configurar la optimización del tiempo de envío predictivo y la puntuación de participación predictiva con la inteligencia artificial aplicada a la trayectoria, y aumentar las tasas de apertura, los clics y los ingresos.
 
-💡 [Obtenga más información sobre las integraciones de Campaign](../connect/integration.md)
+?? [Obtenga más información acerca de las integraciones de Campaign](../connect/integration.md)
 
