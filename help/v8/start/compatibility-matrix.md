@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: f51c36ed426d200a4636290eb4fa1be6b077f976
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '275'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Cuando las versiones específicas de estos sistemas y herramientas de terceros l
 * **Microsoft Windows Server** 2016, 2012
 * **Microsoft Windows** 8, 10 (recomendado para instancias japonesas))
 
-### Navegador
+### Explorador
 
 **Microsoft Internet Explorer** 11
 
@@ -61,7 +61,7 @@ Los siguientes exploradores son compatibles con Campaign para Web Access.
 
 ## Comprobación de la versión de Campaign y la compilación
 
-Acceda al menú **Ayuda > Acerca de...** para comprobar su versión.
+Utilice el menú **Ayuda > Acerca de...** para comprobar su versión.
 
 ![](assets/ac-version.png)
 
