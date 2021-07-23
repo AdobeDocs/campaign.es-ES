@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 94%
+source-wordcount: '916'
+ht-degree: 95%
 
 ---
 
@@ -82,6 +82,14 @@ Los usuarios de Campaign se conectan mediante su Adobe ID. El mismo Adobe ID se 
 
 Tenga en cuenta que los informes de Adobe Campaign están optimizados y ofrecen mejores prestaciones de escalado que Campaign Classic v7. Las limitaciones existentes en Cubos no se aplican.
 
+## Flujo de trabajo {#workflow}
+
+Campaign v8 ofrece una actividad de flujo de trabajo de objetivo adicional: **[!UICONTROL Change data source]**.
+
+La actividad **[!UICONTROL Change data source]** permite cambiar la fuente de datos de un flujo de trabajo **[!UICONTROL Working table]** para administrar los datos en diferentes fuentes de datos, como FDA, FFDA y la base de datos local.
+
+?? Obtenga más información sobre la actividad **[!UICONTROL Change data source]** en [esta página](../config/workflows.md#change-data-source-activity).
+
 ## Funciones no disponibles{#gs-unavailable-features}
 
 Tenga en cuenta que algunas funciones aún no están disponibles en esta primera versión, como estas:
@@ -113,4 +121,4 @@ Para alinearse con la nueva arquitectura y el modelo de implementación de Campa
 * Marketing social
 * Conector ACS (oferta principal)
 * Integración con LDAP
-* Inicio de sesión de usuario/contraseña
+* Inicio de sesión con usuario/contraseña
