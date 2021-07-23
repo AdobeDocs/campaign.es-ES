@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -52,13 +52,13 @@ Conozca las directrices y los principios de seguridad con Adobe Campaign en la [
 
 Puede añadir usuarios manualmente a Campaign y asociarlos a grupos, alineados con la jerarquía de funciones. Los usuarios podrán entonces iniciar sesión y acceder a los datos y permisos adecuados para ellos.
 
-↗️ Aprenda a añadir usuarios a [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=es#getting-started){target=&quot;_blank&quot;}.
+↗️ Aprenda a añadir usuarios a Adobe Campaign en [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
 ### Instalación de la consola del cliente de Campaign
 
 La interfaz de usuario principal de la aplicación es un cliente enriquecido; es decir, es una aplicación nativa (Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign únicamente con protocolos de Internet estándar (SOAP, HTTP, etc.). La consola del cliente de Adobe Campaign ofrece una buena facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para facilitar la implementación. Esta consola se puede implementar desde un explorador web, se puede actualizar automáticamente y no requiere ninguna configuración de red específica porque solo genera tráfico HTTP(S).
 
-?? [Obtenga más información sobre la consola del cliente de Campaign](connect.md).
+?? [Obtenga más información acerca de la consola del cliente de Campaign](connect.md).
 
 ## Preparación del entorno
 
@@ -78,17 +78,17 @@ Antes de empezar a enviar mensajes y crear campañas de marketing, debe realizar
 
    Las campañas, las entregas, los trabajos o los flujos de trabajo se basan en una plantilla, que almacena la configuración y las capacidades clave. Se proporciona una plantilla integrada por componente que no tiene definida ninguna configuración específica. Debe configurar y adaptar las plantillas a sus necesidades, y ponerlas a disposición de los usuarios finales.
 
-   ↗️ [Más información sobre las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
+   ↗️ [Obtenga más información acerca de las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
 
-   ↗️ Aprenda a usar plantillas de campaña en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
+   ↗️ Aprenda a usar plantillas de campaña en la [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-templates.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
 
-   ↗️ Aprenda a configurar una plantilla de flujo de trabajo en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=es#workflow-templates){target=&quot;_blank&quot;}
+   ↗️ Aprenda a configurar una plantilla de flujo de trabajo en la [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html?lang=es#workflow-templates){target=&quot;_blank&quot;}
 
 1. Configuración de reglas de tipología
 
    Aproveche las reglas de tipologías de Campaign para filtrar, controlar y monitorizar las entregas. Por ejemplo, las reglas de fatiga controlan la frecuencia y la cantidad de mensajes para evitar la saturación de destinatarios. Una vez implementadas, se hace referencia a las reglas de tipología en las entregas.
 
-   ↗️ Obtenga más información acerca de tipologías y administración de la fatiga en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
+   ↗️ Obtenga más información acerca de tipologías y administración de la fatiga en la [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 1. Familiarícese con el modelo de datos integrado de Campaign
 
@@ -104,7 +104,7 @@ Puede personalizar muchas áreas y capacidades de Campaign diferentes. La mayor�
 
    Adobe Campaign incluye esquemas comunes para identificar datos como destinatarios, registros de envío, suscripciones, etc.
 
-   ?? Consulte esta sección para obtener más información acerca del [modelo de datos integrado de Campaign](../dev/datamodel.md).
+   ?? Consulte esta sección para obtener más información acerca del [Modelo de datos integrado de Campaign](../dev/datamodel.md).
 
    ?? Puede ampliar los esquemas existentes o crear nuevos esquemas desde cero. Obtenga más información en [esta página](../dev/customize.md).
 
