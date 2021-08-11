@@ -7,9 +7,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '663'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ ht-degree: 97%
 
 1. **¿Se puede monitorizar la ejecución del flujo de trabajo?**
 
-   ↗️ Sepa cómo monitorizar la ejecución del flujo de trabajo de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=es){target=&quot;_blank&quot;}
+   ↗️ Sepa cómo monitorizar la ejecución del flujo de trabajo de Campaign en la [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/executing-a-workflow/starting-a-workflow.html?lang=es){target=&quot;_blank&quot;}
 
 1. **¿Con qué sistemas y componentes es compatible Campaign v8?**
 
@@ -61,7 +61,7 @@ ht-degree: 97%
 
    Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico (mensajes transaccionales, información de marketing, etc.).
 
-   ?? Como usuario de Cloud Services administrados, póngase en contacto con  Adobe para delegar sus subdominios a Adobe.
+   ?? Como usuario de Cloud Services administrados, póngase en contacto con Adobe para delegar sus subdominios a Adobe.
 
 1. **Como usuario Campaign Classic v7, ¿puedo migrar a Campaign v8?**
 
@@ -71,7 +71,7 @@ ht-degree: 97%
 
    Puede obtener el programa de instalación y la consola del cliente desde el Centro de descargas de Adobe.
 
-   Como usuario administrador, acceda al Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html) {target=&quot;_blank&quot;} para descargar Adobe Campaign.
+   Como usuario administrador, acceda a la [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) de Adobe {target=&quot;_blank&quot;} para descargar Adobe Campaign.
 
    Obtenga más información acerca del Centro de distribución [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target=&quot;_blank&quot;}.
 
