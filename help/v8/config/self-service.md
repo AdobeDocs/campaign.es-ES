@@ -1,22 +1,18 @@
 ---
 product: Adobe Campaign
 title: Panel de control de Campaign
-description: Panel de control de Campaign
+description: Introducción a Campaign Panel de control de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
-hide: true
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
-workflow-type: ht
-source-wordcount: '374'
-ht-degree: 100%
+source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+workflow-type: tm+mt
+source-wordcount: '336'
+ht-degree: 91%
 
 ---
 
 # Panel de control de Campaign
-
-AÚN NO DISPONIBLE
 
 El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo como administrador de productos de Adobe Campaign, lo que le permite administrar la configuración y rastrear los usos de cada una de sus instancias. Su intuitiva interfaz le permite supervisar fácilmente el uso de recursos clave, así como realizar tareas administrativas como adición direcciones IP a listas de permitidos, supervisión de almacenamiento SFTP, administración de claves, etc.
 
@@ -27,6 +23,18 @@ Ventajas principales:
 * Mejore la seguridad controlando la configuración de acceso según sus necesidades.
 
 También puede utilizar el Panel de control de Campaign para configurar las instancias, como las listas de IP permitidas, los permisos de URL y recuperar información acerca de su instancia.
+
+↗️ más información en [Campaign Panel de control de Campaign documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=es){target=&quot;_blank&quot;}.
+
+>[!CAUTION]
+> Las siguientes capacidades aún no son compatibles con Campaign v8:
+>
+>* Administración de subdominios
+>* Administración de certificados
+
+>
+
+
 
 ## ¿Cómo acceder al Panel de control?
 
@@ -40,13 +48,6 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 En el Panel de control, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. Puede monitorizar su capacidad de almacenamiento, y administrar las direcciones IP en la lista de permitidos y las claves SSH públicas. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es#sftp-management) para obtener más información.
 
-## Subdominios y certificados
-
-Puede monitorizar los subdominios y sus certificados. Más información:
-* [Promoción de la marca de subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=es){target=&quot;_blank&quot;}
-* [Configurar un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es){target=&quot;_blank&quot;}
-* [Monitorizar certificados SSL](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es){target=&quot;_blank&quot;}
-
 ## Configuración de instancias
 
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign en el Panel de control.
@@ -55,4 +56,3 @@ Obtenga información sobre cómo administrar la configuración de las instancias
 * [Detalles de instancia](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es){target=&quot;_blank&quot;}
 * [Administración de claves GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es){target=&quot;_blank&quot;}
 
-↗️ Descubra todas las funcionalidades del Panel de control en [esta documentación](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}
