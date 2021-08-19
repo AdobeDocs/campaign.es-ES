@@ -5,9 +5,9 @@ description: Introducción a Campaign Panel de control de Campaign
 feature: Información general
 role: Data Engineer
 level: Beginner
-source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+source-git-commit: 8415bfce30948104840a92d1be0d72e07c8e29ee
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '337'
 ht-degree: 91%
 
 ---
@@ -24,7 +24,7 @@ Ventajas principales:
 
 También puede utilizar el Panel de control de Campaign para configurar las instancias, como las listas de IP permitidas, los permisos de URL y recuperar información acerca de su instancia.
 
-↗️ más información en [Campaign Panel de control de Campaign documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=es){target=&quot;_blank&quot;}.
+↗️ más información en [Campaign Panel de control de Campaign documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 > Las siguientes capacidades aún no son compatibles con Campaign v8:
