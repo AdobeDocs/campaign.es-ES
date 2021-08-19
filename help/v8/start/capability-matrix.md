@@ -6,10 +6,10 @@ feature: Información general
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: bfd2df90e5e6bee89bdfc7c5da82c755ac5726df
-workflow-type: ht
-source-wordcount: '916'
-ht-degree: 100%
+source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
+workflow-type: tm+mt
+source-wordcount: '910'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ Los usuarios de Campaign se conectan mediante su Adobe ID. El mismo Adobe ID se 
 
 ## Creación de informes
 
-Tenga en cuenta que los informes de Adobe Campaign están optimizados y ofrecen mejores prestaciones de escalado que Campaign Classic v7. Las limitaciones existentes en Cubos no se aplican.
+Tenga en cuenta que los informes de Adobe Campaign están optimizados y ofrecen mejores prestaciones de escalado que Campaign Classic v7. No se aplican limitaciones en los cubos.
 
 ## Flujo de trabajo {#workflow}
 
@@ -100,8 +100,6 @@ Tenga en cuenta que algunas funciones aún no están disponibles en esta primera
 * Optimización de la campaña
 * Gestor de respuestas
 * Modelos de implementación híbridos/locales
-* Mensajería LINE
-* Panel de control de Campaign
 
 >[!CAUTION]
 >
