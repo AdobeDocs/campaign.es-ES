@@ -2,14 +2,14 @@
 product: Adobe Campaign
 title: 'Campaign Classic v7: Matriz de capacidades de Campaign v8'
 description: Comprender las diferencias entre Campaign Classic v7 y Campaign v8
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: d61888a4536d6f37f5956c8fd5404bdcd893ae6c
-workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '909'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,6 @@ Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de 
 >
 > Los datos del cliente no se almacenan en la base de datos local [!DNL Campaign]. Como consecuencia, cualquier tabla personalizada debe crearse en la base de datos en la nube.
 
-
 Hay API específicas disponibles para administrar los datos entre la base de datos local y la base de datos en la nube. Descubra cómo funcionan estas nuevas API y cómo utilizarlas en [esta página](../dev/new-apis.md).
 
 ### Replicación de datos
@@ -54,7 +53,6 @@ Un flujo de trabajo técnico específico gestiona la replicación de tablas que 
 >
 > Se han creado varias políticas de replicación en función del tamaño de la tabla (XS, XL, etc.).
 > Algunas tablas se duplican en tiempo real, mientras que otras lo hacen cada hora. Algunas tablas sufrirán actualizaciones incrementales, mientras que otras se actualizarán por completo.
-
 
 [Más información acerca de la replicación de datos](../config/replication.md)
 
@@ -80,7 +78,7 @@ Los usuarios de Campaign se conectan mediante su Adobe ID. El mismo Adobe ID se 
 
 ## Creación de informes
 
-Tenga en cuenta que los informes de Adobe Campaign están optimizados y ofrecen mejores prestaciones de escalado que Campaign Classic v7. No se aplican limitaciones en los cubos.
+Tenga en cuenta que los informes de Adobe Campaign están optimizados y ofrecen mejores prestaciones de escalado que Campaign Classic v7. Las limitaciones en Cubos no se aplican.
 
 ## Flujo de trabajo {#workflow}
 
