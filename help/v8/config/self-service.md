@@ -1,14 +1,14 @@
 ---
 product: Adobe Campaign
 title: Panel de control de Campaign
-description: Introducción a Campaign Panel de control de Campaign
-feature: Información general
+description: Introducción al Panel de control de Campaign
+feature: Overview
 role: Data Engineer
 level: Beginner
 source-git-commit: f35122d5e5f5812d9a3fda9b21f2f7fd88aaaa0f
-workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 82%
+workflow-type: ht
+source-wordcount: '344'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Ventajas principales:
 
 También puede utilizar el Panel de control de Campaign para configurar las instancias, como las listas de IP permitidas, los permisos de URL y recuperar información acerca de su instancia.
 
-↗️ más información en [Campaign Panel de control de Campaign documentation](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}.
+↗️ Obtenga más información en la [Documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
 > Las siguientes capacidades aún no son compatibles con Campaign v8:
@@ -35,14 +35,13 @@ También puede utilizar el Panel de control de Campaign para configurar las inst
 >
 
 
-
 ## ¿Cómo acceder al Panel de control?
 
 El Panel de control está disponible directamente en Adobe Experience Cloud. Solo pueden acceder a él los usuarios administradores. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=es){target=&quot;_blank&quot;} para obtener más información.
 
 ## Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=en#control-panel){target=&quot;_blank&quot;} para acceder a las preguntas frecuentes sobre el Panel de control de Campaign de Campaign.
+[Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es#control-panel){target=&quot;_blank&quot;} para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ## Administración de SFTP
 
