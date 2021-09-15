@@ -1,14 +1,13 @@
 ---
-solution: Campaign
-product: Adobe Campaign
 title: Concesión de permisos para Campaign v8
 description: Obtenga información sobre cómo conceder permisos a Campaign v8
-feature: Audiencias
+feature: Audiences
 role: Data Engineer
 level: Beginner
-source-git-commit: 22f47bed75d78684c85471330aca7dadafb9ed65
+exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
+source-git-commit: c3ed24e16d5a8bc67b8a8c959bbf485ea0fd919c
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '382'
 ht-degree: 13%
 
 ---
@@ -37,7 +36,7 @@ Cada operador debe estar vinculado a una zona para iniciar sesión en una instan
 
 Los operadores están vinculados a una zona de seguridad desde su perfil en la consola, accesible en el nodo **[!UICONTROL Administration > Access management > Operators]**.
 
-?? Como usuario de Cloud Services administrados, Adobe establece las zonas de seguridad por usted. Para obtener más información, [póngase en contacto con el Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
+?? Como usuario de Cloud Services administrados, Adobe establece las zonas de seguridad por usted. Para obtener más información, [póngase en contacto con el Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target=&quot;_blank&quot;}.
 
 **Obtenga más información en la documentación de Campaign Classic v7**
 
