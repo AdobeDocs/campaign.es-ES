@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Operadores de interacción de Campaign
 description: Creación de operadores de administración de ofertas
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '258'
 ht-degree: 43%
 
 ---
@@ -33,7 +33,7 @@ De forma predeterminada, Campaign viene con un entorno **[!UICONTROL Design]** y
 
 Los administradores de envío solo pueden ver el entorno **[!UICONTROL Live]** y aprovechar las ofertas para enviarlas. Los administradores de ofertas pueden ver y utilizar el entorno **[!UICONTROL Design]** y ver el entorno **[!UICONTROL Live]**. [Más información](interaction-operators.md)
 
-## Crear un entorno de oferta {#creating-an-offer-environment}
+## Creación de un entorno de oferta {#creating-an-offer-environment}
 
 De forma predeterminada, Campaign viene con un entorno integrado para dirigirse a la tabla de destinatarios (ofertas identificadas). Para dirigirse a otra tabla, siga los pasos a continuación:
 

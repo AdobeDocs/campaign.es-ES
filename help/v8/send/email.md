@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Envío de correos electrónicos con Adobe Campaign
 description: Introducción a los correos electrónicos en Campaign
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '604'
 ht-degree: 20%
 
 ---
@@ -110,4 +110,3 @@ Puede hacer lo siguiente:
 Una vez enviado, compruebe su estado de entrega en el panel de entregas y acceda a los registros de envío y a los informes para confirmar que los mensajes se han enviado correctamente.
 
 ↗️ [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html)
-

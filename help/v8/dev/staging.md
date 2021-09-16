@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Mecanismo de ensayo de la API de Campaign
 description: Mecanismo de ensayo de la API de Campaign
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '311'
 ht-degree: 2%
 
 ---
@@ -29,12 +29,10 @@ Las API de Campaign Classic v7 siguen disponibles, pero no pueden beneficiarse d
 >[!CAUTION]
 >
 >* Con este nuevo mecanismo, la sincronización de datos para la exclusión del canal, las suscripciones, las bajas de suscripción o el registro móvil es ahora **asíncrona**.
-   >
-   >
-* El ensayo solo se aplica a esquemas almacenados en la base de datos de Cloud. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema de ensayo
+>
+>* El ensayo solo se aplica a esquemas almacenados en la base de datos de Cloud. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema de ensayo
 
 >
-
 
 
 ## Pasos de implementación{#implement-staging}

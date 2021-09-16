@@ -1,11 +1,11 @@
 ---
-product: Adobe Campaign
-title: 'Administración de claves en Campaign '
+title: Administración de claves en Campaign
 description: Introducción a la administración de claves
-source-git-commit: 99a1381a0d5cef38eb708dbe6e3e8029e6ff3953
+exl-id: ef06cb6b-1b25-4dbe-8fd0-f880ec9d645b
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 En Campaign v8, la clave principal es un identificador único universal (UUID), que es una cadena de caracteres. Para crear este UUID, el elemento principal del esquema debe contener los atributos **autouuid** y **autopk** establecidos en **true**.
 
-La campaña de Adobe v8 viene con el Snowflake como la base de datos principal. La arquitectura distribuida de la base de datos de Snowflake no proporciona mecanismos para administrar la unicidad de una clave dentro de una tabla: los usuarios finales son responsables de garantizar la coherencia de las claves dentro de la base de datos de Adobe Campaign.
+Adobe Campaign v8 viene con Snowflake como base de datos principal. La arquitectura distribuida de la base de datos de Snowflake no proporciona mecanismos para administrar la unicidad de una clave dentro de una tabla: los usuarios finales son responsables de garantizar la coherencia de las claves dentro de la base de datos de Adobe Campaign.
 
 Evitar duplicados en las claves, y especialmente en las claves principales, es obligatorio para preservar la coherencia de la base de datos relacional. Los duplicados en las claves principales producen problemas con las actividades de flujo de trabajo de administración de datos como **Query**, **Reconciliation**, **Update data**, etc.
 

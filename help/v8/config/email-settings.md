@@ -1,20 +1,20 @@
 ---
-product: Adobe Campaign
 title: Configuración del canal de correo electrónico de Campaign
 description: Configuración del canal de correo electrónico de Campaign
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '289'
 ht-degree: 8%
 
 ---
 
 # Configuración del canal de correo electrónico de Campaign
 
-## Correo electrónico CCO
+## CCO del correo electrónico
 
 Puede configurar Adobe Campaign para que mantenga una copia de los correos electrónicos enviados desde la plataforma.
 
@@ -38,7 +38,7 @@ Una vez configurado el CCO de correo electrónico, asegúrese de que la función
 ![](assets/email-bcc.png)
 
 
-**Temas relacionados** en la documentación del Campaign Classic v7:
+**Temas relacionados** en la documentación de Campaign Classic v7:
 
 
 ↗️ [Generar la página espejo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}

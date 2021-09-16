@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Envío de notificaciones push con Adobe Campaign
 description: Introducción a las notificaciones push en Campaign
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '713'
 ht-degree: 39%
 
 ---

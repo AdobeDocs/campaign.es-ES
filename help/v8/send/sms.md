@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Enviar SMS con Adobe Campaign
 description: Introducción a SMS en Campaign
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '610'
 ht-degree: 15%
 
 ---
@@ -98,7 +98,7 @@ Para enviar una prueba, consulte estas secciones de la documentación de Campaig
 
 Los pasos clave para enviar y supervisar un SMS se detallan en la documentación de Campaign Classic v7 :
 
-* Envío, monitorización y seguimiento de envíos de SMS
+* Envío, monitorización y seguimiento de entregas de SMS
 
    ↗️ [Obtenga información sobre las herramientas para enviar, supervisar y rastrear SMS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-send.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 

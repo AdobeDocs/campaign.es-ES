@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Introducción a las audiencias
 description: Introducción a las audiencias
-feature: Audiencias
+feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '764'
 ht-degree: 34%
 
 ---
@@ -78,7 +77,7 @@ You can monitor the number of active profiles used on your instances directly fr
 ↗️ For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
-**Temas relacionados** en la documentación del Campaign Classic v7:
+**Temas relacionados** en la documentación de Campaign Classic v7:
 
 ↗️ [Diseñe y ejecute un flujo de trabajo específico de la campaña](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;}
 

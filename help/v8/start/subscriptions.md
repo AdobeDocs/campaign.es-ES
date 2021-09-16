@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: Administración de suscripciones y bajas de suscripción en Campaign
 description: Obtenga información sobre cómo administrar suscripciones y bajas de suscripción en Campaign v8
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '537'
 ht-degree: 34%
 
 ---

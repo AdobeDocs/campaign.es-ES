@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Flujos de trabajo técnicos y duplicación de datos
 description: Flujos de trabajo técnicos y duplicación de datos
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: 6334178f6e5d0ad0a33975838be6cf663862d892
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '391'
 ht-degree: 3%
 
 ---
@@ -27,7 +26,7 @@ Estos flujos de trabajo realizan operaciones de mantenimiento en la base de dato
 Además de estos flujos de trabajo técnicos, Campaign v8 depende de flujos de trabajo técnicos específicos para administrar [replicación de datos](#data-replication).
 
 * **[!UICONTROL Replicate Reference tables]**
-Este flujo de trabajo realiza la duplicación automática de las tablas integradas que deben estar presentes en la base de datos local de Campaign (Postgres) y en la base de datos de Cloud ([!DNL Snowflake]). Está programado para ejecutarse cada hora, diariamente. Si existe el campo **lastModified** , la replicación se produce de forma incremental; de lo contrario, se replica toda la tabla. El orden de las tablas de la matriz siguiente es el orden utilizado por el flujo de trabajo de replicación.
+Este flujo de trabajo realiza la duplicación automática de las tablas integradas que deben estar presentes en la base de datos local de Campaign (Postgres) y en la base de datos de Cloud ([!DNL Snowflake]). Está programado para ejecutarse cada hora, diariamente. Si existe el campo **lastModified**, la replicación se produce de forma incremental; de lo contrario, se replica toda la tabla. El orden de las tablas de la matriz siguiente es el orden utilizado por el flujo de trabajo de replicación.
 * **[!UICONTROL Replicate Staging data]**
 Este flujo de trabajo duplica los datos de ensayo para las llamadas unitarias. Está programado para ejecutarse cada hora, diariamente.
 * **[!UICONTROL Deploy FFDA immediately]**\

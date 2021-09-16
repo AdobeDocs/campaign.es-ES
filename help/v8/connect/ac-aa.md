@@ -1,14 +1,13 @@
 ---
-product: Adobe Campaign
 title: Trabajo con Campaign y Adobe Analytics
 description: Aprenda a integrar Campaign y Analytics
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1083'
 ht-degree: 76%
 
 ---
@@ -32,13 +31,13 @@ El perímetro de acción de cada herramienta es el siguiente:
 
 >[!CAUTION]
 >
->El Conector de Adobe Analytics no es compatible con mensajes transaccionales (Centro de mensajería).
+>El conector de Adobe Analytics no es compatible con mensajes transaccionales (Centro de mensajería).
 
 Para configurar la conexión de Campaign-Analytics, debe realizar las siguientes operaciones:
 
 1. [Creación de un grupo de informes en Adobe Analytics](#report-suite-analytics)
 1. [Configuración de las variables de conversión y los eventos de éxito](#configure-conversion-success)
-1. [Configure su cuenta externa en Adobe Campaign](#external-account-ac)
+1. [Configuración de la cuenta externa en Adobe Campaign](#external-account-ac)
 
 ## Crear su grupo de informes de Analytics {#report-suite-analytics}
 

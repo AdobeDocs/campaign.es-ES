@@ -1,14 +1,14 @@
 ---
-product: Adobe Campaign
 title: Limitaciones conocidas de Campaign v8
 description: Limitaciones conocidas
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: true
-source-git-commit: cf00895f988514fc029d0060d7404bdef0c8b30e
-workflow-type: ht
-source-wordcount: '177'
+exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+workflow-type: tm+mt
+source-wordcount: '176'
 ht-degree: 100%
 
 ---
@@ -27,5 +27,3 @@ En Adobe Campaign v8, existen las siguientes limitaciones:
 * Los mecanismos de suscripción (inclusión) y baja (exclusión), y el registro móvil son procesos asíncronos. Las solicitudes se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](../config/replication.md#tech-wf)
 * Los usuarios finales deben gestionar manualmente los duplicados. [Más información](../dev/keys.md)
 * Adobe Campaign v8 no admite rendimiento ampliado en aplicaciones web y API. En caso de tener necesidades específicas, póngase en contacto con Adobe para obtener ayuda.
-
-

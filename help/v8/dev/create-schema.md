@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Creación de un nuevo esquema en Campaign
 description: Obtenga información sobre cómo crear un nuevo esquema en Campaign
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 796af848-b537-4b8d-a601-fe0628a1fc83
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 2%
@@ -111,4 +111,3 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
    ![](assets/configuration_structure.png)
 
 1. Actualice la estructura de la base de datos para crear la tabla a la que se vinculará el esquema. Para obtener más información, consulte [esta sección](update-database-structure.md).
-

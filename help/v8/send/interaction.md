@@ -1,13 +1,13 @@
 ---
-product: Adobe Campaign
 title: 'Interacción de campaña: administración de ofertas'
 description: Introducción a la administración de ofertas
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1213'
 ht-degree: 35%
 
 ---
@@ -34,7 +34,7 @@ Antes de empezar, como **Administrator** de Campaign, asegúrese de realizar las
 1. Cree espacios de oferta para cada entorno y configure las funciones de renderización. [Obtenga ](interaction-offer-spaces.md)
 más informaciónSi el espacio está definido por un canal unitario en modo identificado, debe especificar los parámetros avanzados para este espacio.
 
-### Crear y publicar el catálogo de ofertas {#managing-the-offer-catalog-}
+### Creación y publicación del catálogo de ofertas {#managing-the-offer-catalog-}
 
 Como **Offer manager** debe realizar las siguientes tareas:
 
@@ -42,7 +42,7 @@ Como **Offer manager** debe realizar las siguientes tareas:
 1. Cree ofertas en entornos de diseño. [Más información](interaction-offer.md)
 1. Apruebe y publique ofertas en uno o varios espacios para que estén disponibles en entornos interactivos para el gestor de envíos. [Más información](interaction-offer.md#approve-offers)
 
-### Aproveche el catálogo de ofertas {#using-the-offer-catalog-}
+### Aprovechar el catálogo de ofertas {#using-the-offer-catalog-}
 
 Como **Delivery manager** debe realizar las siguientes tareas:
 
@@ -85,4 +85,3 @@ Hay dos tipos de entornos:
 * La **Preview** de la oferta muestra la oferta tal como se muestra en su carpeta. Es accesible desde la ventana de configuración de la oferta o el perfil de contacto.
 * **Los** filtros predefinidos son reglas de filtrado que pueden tener en cuenta los parámetros de oferta (por ejemplo, un código de oferta). Se pueden reutilizar una vez creadas las ofertas.
 * Una **Offer representation** es una información que el canal utiliza para mostrar la oferta. La representación de la oferta puede crearse a partir de la función de procesamiento del espacio en el que la oferta se representa o se introduce directamente en la interfaz (por ejemplo, en el bloque HTML). Una oferta puede representarse por el espacio.
-

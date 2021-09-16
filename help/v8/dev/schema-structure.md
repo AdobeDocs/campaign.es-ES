@@ -1,8 +1,8 @@
 ---
-product: Adobe Campaign
 title: Estructura del esquema de la campaña
 description: Estructura del esquema de la campaña
-source-git-commit: 5363950db5092bc7e0a72a0823db1132a17dda33
+exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 12%
@@ -350,7 +350,6 @@ Los elementos se designan por su nombre y los atributos se designan por el nombr
 >* **`[@email]`** y  **@** emailare equivalentes
 
 >
-
 
 
 También es posible definir expresiones complejas, como las siguientes operaciones aritméticas:

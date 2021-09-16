@@ -1,5 +1,4 @@
 ---
-product: Adobe Campaign
 title: Integración de los SDK de Campaign con la aplicación
 description: Obtenga información sobre cómo integrar los SDK para iOS y Android de Campaign con su aplicación
 version: v8
@@ -8,9 +7,10 @@ role: Developer
 level: Experienced
 hide: true
 hidefromtoc: true
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1289'
+source-wordcount: '1288'
 ht-degree: 43%
 
 ---
@@ -23,7 +23,7 @@ Las versiones compatibles con Android e iOS, así como las versiones compatibles
 
 >[!NOTE]
 >
->Como administrador de Campaign, puede descargar los SDK de Campaign desde [Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Para obtener más información, póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html?lang=es/enterprise/using/support-for-experience-cloud.ug.html).
+>Como administrador de Campaign, puede descargar los SDK de Campaign desde [Experience Cloud Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Para obtener más información, póngase en contacto con [Adobe Customer Care](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 ## Declarar configuraciones de integración {#declaring-integration-settings}
@@ -77,9 +77,8 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 >[!NOTE]
 >
 > * No olvide descargar y agregar google-services.json a su proyecto.
-   >
-   > 
-* El `apiKey` debe coincidir con el `projectKey` configurado en la aplicación móvil de Adobe Campaign vinculada a esta aplicación Android.
+>
+> * El `apiKey` debe coincidir con el `projectKey` configurado en la aplicación móvil de Adobe Campaign vinculada a esta aplicación Android.
 
 
 ### Configuración del SDK para Android
@@ -591,7 +590,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
    }
    ```
 
-1. **Seguimiento de notificaciones silenciosas**
+1. **Seguimiento de las notificaciones silenciosas**
 
    iOS permite enviar notificaciones silenciosas, una notificación o datos que se envían directamente a una aplicación móvil sin mostrarlo. Adobe Campaign permite rastrearlas.
 
@@ -845,7 +844,7 @@ A continuación, se muestra un ejemplo de código que permite a una aplicación 
 >
 >Adobe recomienda elegir nombres de variables cortos debido a que el tamaño de notificación está limitado a 4 kB para iOS y Android.
 
-## Extensión de servicio de notificaciones {#notification-service-extension}
+## Extensión del servicio de notificaciones {#notification-service-extension}
 
 **Para iOS**
 
@@ -879,7 +878,7 @@ Los medios deben descargarse en el nivel de extensión del servicio de notificac
     // Perform the download to local storage
 ```
 
-## Extensión de contenido de notificación {#notification-content-extension}
+## Extensión del contenido de notificación {#notification-content-extension}
 
 **Para iOS**
 

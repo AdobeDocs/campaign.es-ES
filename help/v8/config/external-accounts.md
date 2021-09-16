@@ -1,17 +1,16 @@
 ---
-product: Adobe Campaign
 title: Cuentas externas de Campaign
 description: Cuentas externas de Campaign
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: c61d8aa8e0a68ccc81a6141782f860daf061bc61
+exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1000'
 ht-degree: 31%
 
 ---
-
 
 # Configuración de las cuentas externas
 
@@ -71,7 +70,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
 * **Adobe Experience Cloud**
 
-   La cuenta externa **[!UICONTROL Adobe Experience Cloud]** se utiliza para implementar el Adobe IMS y conectarse a la consola de Adobe Campaign mediante un Adobe ID.
+   La cuenta externa **[!UICONTROL Adobe Experience Cloud]** se utiliza para implementar Adobe IMS y conectarse a la consola de Adobe Campaign mediante un Adobe ID.
 
    ?? Obtenga más información sobre el servicio Identity Management de Adobe (IMS) en [esta sección](../start/connect.md#connect-ims).
 
@@ -173,4 +172,3 @@ Para ello, especifique en esta cuenta externa la dirección y las credenciales u
    * **[!UICONTROL Encryption]**: Tipo de cifrado entre  **[!UICONTROL None]** o  **[!UICONTROL SSL]**.
 
    * **[!UICONTROL Access key]**: Aprenda a encontrar su  **[!UICONTROL Access key]** en la documentación de  [Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal).
-

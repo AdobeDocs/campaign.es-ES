@@ -1,18 +1,18 @@
 ---
-product: Adobe Campaign
 title: Nuevas API de Campaign v8
 description: Nuevas API de Campaign v8
-feature: Información general
+feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: b11b42220dae7d0a878ba102523ee2825d6fb2e2
+exl-id: dd822f88-b27d-4944-879c-087f68e79825
+source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '431'
 ht-degree: 4%
 
 ---
 
-# Nuevas API de campaña{#gs-new-api}
+# Nuevas API de Campaign{#gs-new-api}
 
 Campaign v8 incluye dos nuevas API para administrar datos entre la base de datos local de Campaign y la base de datos de Cloud. Los requisitos previos para utilizarlos son habilitar el mecanismo de ensayo en el esquema. [Más información](staging.md)
 
@@ -204,7 +204,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se actualiza según lo
 
 Como resultado, la tabla de ensayo se actualiza según lo esperado.
 
-## Administración de suscripciones {#sub-apis}
+## Gestión de suscripciones {#sub-apis}
 
 La administración de suscripciones en Campaign se describe en [esta página](../start/subscriptions.md).
 
