@@ -8,9 +8,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
 source-git-commit: 5b81c8e9e391ea1a9ad1825e5102b66c7926c204
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '756'
-ht-degree: 43%
+ht-degree: 100%
 
 ---
 
@@ -24,37 +24,37 @@ _7 de septiembre de 2021_
 
 **Mejoras de seguridad**
 
-* Se ha corregido un problema de seguridad para reforzar la protección contra ataques de recorrido de directorios. (NEO-28547)
+* Se ha corregido un problema de seguridad para reforzar la protección contra ataques de salto de directorio. (NEO-28547)
 
 **Mejoras**
 
-* Tras finalizar su vida útil, el Flash se ha eliminado de todas las funciones y componentes de Campaign relacionados y se ha sustituido por HTML5. Se ha eliminado el tipo de gráfico **Medición**. (NEO-30330) [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html)
-* Al instalar la consola del cliente en Windows, el instalador ahora comprueba si hay un nodo de registro principal y crea uno si falta. Esto evita posibles problemas al iniciar la consola. (NEO-34854)
-* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) gestione caracteres especiales. Los parámetros de URL ahora están codificados.
+* Tras finalizar su vida útil, Flash se ha eliminado de todas las funciones y componentes de Campaign relacionados y se ha sustituido por HTML5. Se ha eliminado el tipo de gráfico **Medición**. (NEO-30330) [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=es)
+* Al instalar la consola del cliente en Windows, el programa de instalación ahora comprueba si hay un nodo de registro principal y crea uno si falta. Esto evita posibles problemas al iniciar la consola. (NEO-34854)
+* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) tratan los caracteres especiales. Los parámetros de URL ahora están codificados.
 
 **Otros cambios**
 
-* Los conectores de Microsoft CRM obsoletos anteriormente (Office 365 e implementaciones locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
-* Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
-* Se ha agregado una protección para permitir que el [flujo de trabajo técnico de facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html#billing-report) se ejecute en la instancia de marketing.
-* La identificación de la fuente de datos se ha mejorado en las pestañas data y schema de la ventana **View population** de transiciones de flujo de trabajo.
-* Los índices de base de datos que faltaban se agregaron a los siguientes esquemas para evitar problemas de actualización de la base de datos: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
+* Los conectores de Microsoft CRM que ya quedaron obsoletos (Office 365 e implementaciones On-premise) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=es#configure-acc-for-microsoft)
+* Después de la migración a Tomcat 8, el script de configuración del IIS se ha actualizado para solucionar los problemas de integración de este. (NEO-31019)
+* Se ha añadido una protección para permitir que el [flujo de trabajo técnico de facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=es#billing-report) se ejecute en la instancia de marketing.
+* La identificación de la fuente de datos se ha mejorado en las pestañas de datos y esquema de la ventana **Ver población** de las transiciones de flujo de trabajo.
+* Los índices de base de datos que faltaban se han añadido a los siguientes esquemas para evitar problemas de actualización de la base de datos: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 
 **Parches**
 
-* Se ha corregido un problema que impedía que el informe **Hot clicks** funcionara cuando las ofertas estaban vinculadas al envío. (NEO-26295)
-* Se ha corregido un problema con la actividad **Sub-workflow** cuando su ejecución no generaba una tabla de salida. (NEO-36242)
-* Se han corregido varios problemas al exportar el informe **Descriptive analysis** a PDF. (NEO-25847)
-* Se ha corregido un problema que podría provocar errores en los envíos al utilizar un envío de correo externo. (NEO-37435)
-* Se ha corregido un error al conectarse a Microsoft CRM mediante API web. El mensaje de error se ha eliminado porque las funcionalidades no se vieron afectadas.
-* Se ha corregido un problema de deduplicación del registro de seguimiento cuando el servidor mid se establecía como reenvío entre los servidores de seguimiento y marketing. (NEO-36285)
+* Se ha corregido un problema que impedía que el informe **Clics activos** funcionara cuando las ofertas estaban vinculadas al envío. (NEO-26295)
+* Se ha corregido un problema con la actividad **Subflujo de trabajo** por el que su ejecución no generaba una tabla de salida. (NEO-36242)
+* Se han corregido varios problemas al exportar el informe **Análisis descriptivo** a PDF. (NEO-25847)
+* Se ha corregido un problema que podía provocar errores en los envíos al utilizar un envío de correo externo. (NEO-37435)
+* Se ha corregido un error al conectarse a Microsoft CRM mediante la API web. El mensaje de error se ha eliminado porque las funcionalidades no se vieron afectadas.
+* Se ha corregido un problema de anulación de duplicación del registro de seguimiento cuando el servidor intermediario se establecía como relé entre los servidores de seguimiento y marketing. (NEO-36285)
 * Se ha corregido una regresión que impedía que Vault se usara como almacén de código específico.
-* Se ha corregido un problema que impedía usar variables en una actividad de flujo de trabajo **Enrichment** cuando la transición entrante era de una fuente de datos FDA.
-* Se ha corregido un problema con FFDA que impedía la replicación adecuada de los grupos de operadores y los derechos.
-* Se ha corregido un problema que podría provocar el envío de un vínculo de baja incorrecto a través de la entrega.
+* Se ha corregido un problema que impedía usar variables en una actividad de flujo de trabajo de **enriquecimiento** cuando la transición entrante era de una fuente de datos de FDA.
+* Se ha corregido un problema con FDAC que impedía la replicación adecuada de los grupos de operadores y los derechos.
+* Se ha corregido un problema que podía provocar el envío de un vínculo de baja incorrecto a través de la entrega.
 * Se ha corregido un problema en la administración de la replicación que afectaba a la duración de la posactualización.
-* Se ha corregido un problema que podía impedir que se mostrara el **Hot click**.
-* Se ha corregido un problema que podría provocar URL rotas en los mensajes de correo electrónico.
+* Se ha corregido un problema que podía impedir que se mostrara **Clics activos**.
+* Se ha corregido un problema que podía provocar URL rotas en los mensajes de correo electrónico.
 
 ## Versión 8.1.14 {#release-8-1-14}
 
