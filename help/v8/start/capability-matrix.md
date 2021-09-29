@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 873e7df79d60e5c897d09312939bbb1d91f194b2
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 93%
 
 ---
 
@@ -89,7 +89,7 @@ La actividad **[!UICONTROL Change data source]** permite cambiar la fuente de da
 
 ## Funciones no disponibles{#gs-unavailable-features}
 
-Tenga en cuenta que algunas funciones aún no están disponibles en esta primera versión, como estas:
+Tenga en cuenta que algunas funciones no están disponibles en esta versión de Campaign, como:
 
 * Gestión de recursos de marketing
 * Marketing distribuido
@@ -97,6 +97,7 @@ Tenga en cuenta que algunas funciones aún no están disponibles en esta primera
 * Optimización de la campaña
 * Gestor de respuestas
 * Modelos de implementación híbridos/locales
+* Canal de twitter
 
 >[!CAUTION]
 >
@@ -106,14 +107,18 @@ Tenga en cuenta que algunas funciones aún no están disponibles en esta primera
 >
 >Si no está seguro del modelo de implementación o tiene alguna pregunta, póngase en contacto con el equipo de la cuenta.
 
-## Funciones eliminadas{#gs-removed}
+## Funciones no soportadas{#gs-removed}
 
-Para alinearse con la nueva arquitectura y el modelo de implementación de Campaign v8, algunas funciones históricas de Campaign Classic v7 ya no están disponibles en Campaign v8.
+Para alinearse con la nueva arquitectura y el modelo de implementación de Campaign v8, algunas funciones históricas del Campaign Classic v7 ya no son compatibles con Campaign v8, como:
 
 * Cupones
 * Seguimiento web
 * Encuestas
-* Marketing social
+* Marketing social con Facebook
 * Conector ACS (oferta principal)
 * Integración con LDAP
 * Inicio de sesión con usuario/contraseña
+
+>[!NOTE]
+>
+>Algunas funciones no disponibles o no compatibles aún pueden ser visibles en la interfaz de usuario.
