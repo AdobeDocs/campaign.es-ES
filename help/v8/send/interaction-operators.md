@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 38%
+source-wordcount: '363'
+ht-degree: 37%
 
 ---
 
@@ -41,7 +41,7 @@ Tenga en cuenta que si se utilizan ofertas en un flujo de trabajo, el operador d
 
 >[!NOTE]
 >
->Un **Gestor de ofertas** solo puede aprobar una oferta si no se especifica ningún revisor, o si ha sido declarado como revisor en la plantilla de oferta en la que se basa la oferta.
+>**Los** administradores de ofertas solo pueden aprobar una oferta si no se especifica ningún revisor o si se han declarado como revisores en la plantilla de oferta.
 
 ## Creación de un operador Delivery manager {#delivery-manager}
 
@@ -51,15 +51,15 @@ Tenga en cuenta que si se utilizan ofertas en un flujo de trabajo, el operador d
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Delivery manager]**.
 
-Los derechos asignados al Gestor de envíos son/permiten llevar a cabo las siguientes tareas:
+Los derechos asignados a los gestores de envío les permiten llevar a cabo las siguientes tareas:
 
 * Mostrar entornos **[!UICONTROL Live]**.
 * Mostrar y modificar las categorías de oferta.
-* Aprobación de ofertas si se especifica como uno/a de sus revisores.
+* Apruebe ofertas si son sus revisores.
 
    >[!NOTE]
    >
-   >Un **Delivery manager** solo puede aprobar una oferta si ha sido declarado revisor durante la configuración de la oferta.
+   >**El** gestor de envíos solo puede aprobar una oferta si se ha declarado que es revisor en la configuración de la oferta.
 
 ## Matriz de permisos por operador de interacción {#recap-of-rights-according-to-operator}
 
