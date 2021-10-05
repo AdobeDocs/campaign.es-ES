@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
 source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -89,7 +89,7 @@ La actividad **[!UICONTROL Change data source]** permite cambiar la fuente de da
 
 ## Funciones no disponibles{#gs-unavailable-features}
 
-Tenga en cuenta que algunas funciones no están disponibles en esta versión de Campaign, como:
+Tenga en cuenta que algunas funciones aún no están disponibles en esta versión de Campaign, por ejemplo:
 
 * Gestión de recursos de marketing
 * Marketing distribuido
@@ -108,9 +108,9 @@ Tenga en cuenta que algunas funciones no están disponibles en esta versión de 
 >* Si no está seguro del modelo de implementación o tiene alguna pregunta, póngase en contacto con el equipo de la cuenta.
 
 
-## Funciones no soportadas{#gs-removed}
+## Funciones no admitidas{#gs-removed}
 
-Para alinearse con la nueva arquitectura y el modelo de implementación de Campaign v8, algunas funciones históricas del Campaign Classic v7 ya no son compatibles con Campaign v8, como:
+Para alinearse con la nueva arquitectura y el modelo de implementación de Campaign v8, algunas funciones históricas de Campaign Classic v7 ya no están disponibles en Campaign v8. Por ejemplo:
 
 * Cupones
 * Seguimiento web
@@ -122,4 +122,4 @@ Para alinearse con la nueva arquitectura y el modelo de implementación de Campa
 
 >[!NOTE]
 >
->Algunas funciones no disponibles o no compatibles aún pueden ser visibles en la interfaz de usuario.
+>Algunas funciones no disponibles o no admitidas siguen estando visibles en la interfaz de usuario.
