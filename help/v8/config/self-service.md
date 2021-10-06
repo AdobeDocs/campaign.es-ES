@@ -27,11 +27,11 @@ También puede utilizar el Panel de control de Campaign para configurar las inst
 ↗️ Obtenga más información en la [Documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
+>
 > Las siguientes capacidades aún no son compatibles con Campaign v8:
 >
 >* Administración de subdominios
 >* Administración de certificados
-
 >
 
 
