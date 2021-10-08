@@ -2,9 +2,9 @@
 title: Formularios de entrada de campaña
 description: Aprenda a personalizar formularios de entrada
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '2555'
+source-wordcount: '2552'
 ht-degree: 3%
 
 ---
@@ -84,11 +84,11 @@ El control de edición se adapta automáticamente al tipo de datos correspondien
 
 De forma predeterminada, cada campo se muestra en una sola línea y ocupa todo el espacio disponible en función del tipo de datos.
 
-↗️ Todos los atributos de formulario se enumeran en [Campaign Classic v7 documentation](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/control-Button.html).
+![](../assets/do-not-localize/book.png) Todos los atributos de formulario se enumeran en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html).
 
 ## Formato {#formatting}
 
-El diseño de los controles se parece al diseño utilizado en las tablas HTML, con la posibilidad de dividir un control en varias columnas, entrelazar elementos o especificar la ocupación del espacio disponible. Sin embargo, recuerde que el formato solo permite dividir el área por proporciones; no se pueden especificar dimensiones fijas para un objeto.
+El diseño de los controles es similar al diseño utilizado en las tablas de HTML, con la posibilidad de dividir un control en varias columnas, entrelazar elementos o especificar la ocupación del espacio disponible. Sin embargo, recuerde que el formato solo permite dividir el área por proporciones; no se pueden especificar dimensiones fijas para un objeto.
 
 Para mostrar los controles del ejemplo anterior en dos columnas:
 

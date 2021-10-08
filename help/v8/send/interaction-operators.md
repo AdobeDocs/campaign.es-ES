@@ -4,10 +4,9 @@ description: Creación de operadores de administración de ofertas
 feature: Overview
 role: Data Engineer
 level: Beginner
-exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
-source-git-commit: bda1fc37181396d295ee23a7161053d839d9cfc7
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '359'
 ht-degree: 37%
 
 ---
@@ -21,9 +20,9 @@ Dos tipos de operadores pueden utilizar Campaign Interaction: **Administradores 
 
 ## Creación de un operador de gestor de ofertas{#offer-manager}
 
-1. Creación de un nuevo operador.
+1. Creación de un operador.
 
-   ↗️ Los pasos para crear un operador en Campaign se detallan en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) Los pasos para crear un operador en Campaign se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Offer manager]**.
 
@@ -37,7 +36,7 @@ Los derechos asignados al Gestor de ofertas permiten realizar las siguientes tar
 * Configurar la idoneidad de la oferta.
 * Aprobar ofertas.
 
-Tenga en cuenta que si se utilizan ofertas en un flujo de trabajo, el operador debe agregarse al grupo de operadores **[!UICONTROL Administrator]** o **[!UICONTROL Offer managers]** para ejecutar el flujo de trabajo.
+Si se utilizan ofertas en un flujo de trabajo, el operador debe agregarse al grupo de operadores **[!UICONTROL Administrator]** o **[!UICONTROL Offer managers]** para ejecutar el flujo de trabajo.
 
 >[!NOTE]
 >
@@ -45,9 +44,9 @@ Tenga en cuenta que si se utilizan ofertas en un flujo de trabajo, el operador d
 
 ## Creación de un operador Delivery manager {#delivery-manager}
 
-1. Creación de un nuevo operador.
+1. Creación de un operador.
 
-   ↗️ Los pasos para crear un operador en Campaign se detallan en [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
+   ![](../assets/do-not-localize/book.png) Los pasos para crear un operador en Campaign se detallan en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-operators.html)
 
 1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Delivery manager]**.
 
@@ -67,8 +66,8 @@ Los derechos asignados a los gestores de envío les permiten llevar a cabo las s
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Gestor de ofertas (con diseño)</strong><br /> </td> 
-   <td> <strong>Gestor de ofertas (Live Env)</strong><br /> </td> 
+   <td> <strong>Gestor de ofertas (entorno Design)</strong><br /> </td> 
+   <td> <strong>Offer manager (Live environment)</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Nivel de estructura de árbol</strong><br /> </td> 
@@ -127,8 +126,8 @@ Los derechos asignados a los gestores de envío les permiten llevar a cabo las s
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Gestor de envíos (con diseño)</strong><br /> </td> 
-   <td> <strong>Gestor de envíos (Live Env.)</strong><br /> </td> 
+   <td> <strong>Delivery manager (Design env.)</strong><br /> </td> 
+   <td> <strong>Delivery manager (Live env.)</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Nivel de estructura de árbol</strong><br /> </td> 

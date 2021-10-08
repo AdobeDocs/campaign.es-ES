@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 22%
@@ -16,9 +16,9 @@ ht-degree: 22%
 
 ?? Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
-?? Las funcionalidades de mensajería transaccional se detallan en [esta sección](../send/transactional.md).
+![](../assets/do-not-localize/glass.png) Las funcionalidades de mensajería transaccional se detallan en  [esta sección](../send/transactional.md).
 
-?? Comprenda la arquitectura de mensajería transaccional en [esta página](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Comprenda la arquitectura de mensajería transaccional en  [esta página](../dev/architecture.md).
 
 ## Definir permisos
 
@@ -28,13 +28,13 @@ Para crear nuevos usuarios para las instancias de ejecución del Centro de Mensa
 
 Todas las extensiones de esquema realizadas en los esquemas utilizados por **flujos de trabajo técnicos del centro de mensajes** en cualquiera de las instancias de control o ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional de Adobe Campaign.
 
-↗️ Obtenga más información sobre los flujos de trabajo técnicos del centro de mensajes en la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+![](../assets/do-not-localize/book.png) Obtenga más información sobre los flujos de trabajo técnicos del centro de mensajes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## Enviar notificaciones push transaccionales
 
 Cuando se combina con el módulo de canal de aplicaciones móviles, la mensajería transaccional permite enviar mensajes transaccionales mediante notificaciones en dispositivos móviles.
 
-↗️ El canal de la aplicación móvil se detalla en la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) El canal de aplicaciones móviles se detalla en la documentación [ de ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)Campaign Classic v7 .
 
 Para enviar notificaciones push transaccionales, debe realizar las siguientes configuraciones:
 

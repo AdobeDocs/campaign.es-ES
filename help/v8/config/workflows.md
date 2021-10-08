@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
 workflow-type: tm+mt
 source-wordcount: '1545'
-ht-degree: 10%
+ht-degree: 23%
 
 ---
 
@@ -33,19 +33,19 @@ Aprenda a diseñar flujos de trabajo en estos [casos de uso de extremo a extremo
 
 Obtenga más información sobre los flujos de trabajo, la interfaz de usuario y la ejecución en la documentación de Campaign Classic v7 :
 
-↗️ [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+* [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
-↗️ [Prácticas recomendadas del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
+* [Prácticas recomendadas del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html){target=&quot;_blank&quot;}
 
-↗️ [Flujos de trabajo técnicos integrados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
+* [Flujos de trabajo técnicos integrados](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
-↗️ [Monitorización de la ejecución de los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
+* [Monitorización de la ejecución de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html){target=&quot;_blank&quot;}
 
-↗️ [Crear una audiencia en un flujo de trabajo de campaña de marketing](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
+* [Crear una audiencia en un flujo de trabajo de campaña de marketing](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}
 
 ## Actividades de flujo de trabajo {#wf-activities}
 
-↗️ Obtenga más información sobre las actividades de flujo de trabajo disponibles [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información sobre la documentación disponible del  [Campaign Classic v7 sobre las actividades de flujo de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-activities.html){target=&quot;_blank&quot;}
 
 Las actividades de flujo de trabajo se agrupan por categoría. Están disponibles las cuatro categorías de actividad:
 
@@ -58,19 +58,19 @@ Las actividades de flujo de trabajo se agrupan por categoría. Están disponible
 
 La actividad **[!UICONTROL Change data source]** permite cambiar la fuente de datos de un flujo de trabajo **[!UICONTROL Working table]**. Esto proporciona más flexibilidad para administrar los datos en diferentes fuentes de datos, como FDA, FFDA y bases de datos locales.
 
-El **[!UICONTROL Working table]** permite que el flujo de trabajo de Adobe Campaign gestione datos y comparta datos con las actividades de flujo de trabajo.
-De forma predeterminada, el **[!UICONTROL Working table]** se crea en la misma base de datos que el origen de los datos en los que consultamos.
+La **[!UICONTROL Working table]** permite que el flujo de trabajo de Adobe Campaign gestione datos y los comparta con las actividades de flujo de trabajo.
+De forma predeterminada, la **[!UICONTROL Working table]** se crea en la misma base de datos que el origen de los datos que consultamos.
 
-Por ejemplo, al consultar la tabla **[!UICONTROL Profiles]**, almacenada en la base de datos de Cloud, creará un **[!UICONTROL Working table]** en la misma base de datos de Cloud.
-Para cambiar esto, puede agregar la actividad **[!UICONTROL Change Data Source]** para elegir una fuente de datos diferente para su **[!UICONTROL Working table]**.
+Por ejemplo, al consultar la tabla **[!UICONTROL Profiles]**, almacenada en la base de datos en la nube, creará un **[!UICONTROL Working table]** en la misma base de datos en la nube.
+Para cambiar esto, puede añadir la actividad **[!UICONTROL Change Data Source]** para elegir una fuente de datos diferente para su **[!UICONTROL Working table]**.
 
-Tenga en cuenta que al utilizar la actividad **[!UICONTROL Change Data Source]** , deberá volver a la base de datos de Cloud para continuar con la ejecución del flujo de trabajo.
+Tenga en cuenta que al utilizar la actividad **[!UICONTROL Change Data Source]**, deberá volver a la base de datos en la nube para continuar con la ejecución del flujo de trabajo.
 
 Para utilizar la actividad **[!UICONTROL Change Data Source]**:
 
-1. Creación de un flujo de trabajo.
+1. Cree un flujo de trabajo.
 
-1. Consulte a los destinatarios objetivo con una actividad **[!UICONTROL Query]**.
+1. Consulte los destinatarios objetivo con una actividad **[!UICONTROL Query]**.
 
    Para obtener más información sobre la actividad **[!UICONTROL Query]**, consulte la página [Consulta](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query) en la documentación de Campaign Classic V7.
 
@@ -78,13 +78,13 @@ Para utilizar la actividad **[!UICONTROL Change Data Source]**:
 
    La tabla de trabajo, que contiene el resultado de la consulta, se mueve a la base de datos predeterminada PostgreSQL.
 
-1. En la pestaña **[!UICONTROL Actions]** , arrastre y suelte una actividad **[!UICONTROL JavaScript code]** para realizar operaciones unitarias en la tabla de trabajo.
+1. En la pestaña **[!UICONTROL Actions]**, arrastre y suelte una actividad **[!UICONTROL JavaScript code]** para realizar operaciones unitarias en la tabla de trabajo.
 
    Para obtener más información sobre la actividad **[!UICONTROL JavaScript code]** , consulte la página [Código JavaScript y código JavaScript avanzado](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/action-activities/sql-code-and-javascript-code.html#javascript-code) en la documentación de Campaign Classic V7 .
 
-1. Agregue otra actividad **[!UICONTROL Change data source]** para volver a la base de datos de Cloud.
+1. Añada otra actividad **[!UICONTROL Change data source]** para volver a la base de datos en la nube.
 
-   Haga doble clic en la actividad y seleccione **[!UICONTROL Active FDA external account]** y luego la cuenta externa correspondiente.
+   Haga doble clic en la actividad y seleccione **[!UICONTROL Active FDA external account]**, y luego escoja la cuenta externa  correspondiente.
 
 1. Ahora puede iniciar el flujo de trabajo.
 
@@ -92,18 +92,18 @@ Para utilizar la actividad **[!UICONTROL Change Data Source]**:
 
 Diseñe un flujo de trabajo recurrente y cree una nueva instancia de envío cada vez que se ejecute el flujo de trabajo. Por ejemplo, si el flujo de trabajo está diseñado para ejecutarse una vez a la semana, el resultado sería 52 envíos después de un año. Esto también significa que los registros se separarán por cada instancia de envío.
 
-↗️ Aprenda a crear una campaña recurrente en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Aprenda a crear una campaña recurrente en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/setting-up-marketing-campaigns.html?lang=en#recurring-and-periodic-campaigns){target=&quot;_blank&quot;}
 
 
 ## Aprovechar los eventos de déclencheur
 
 Utilice la mensajería transaccional de Campaign para automatizar los mensajes generados a partir de eventos activados desde sistemas de información. Estos mensajes transaccionales pueden ser factura, confirmación de pedido, confirmación de envío, cambio de contraseña, notificación de no disponibilidad del producto, extracto de cuenta o creación de cuenta de sitio web, por ejemplo. Estos mensajes se pueden enviar de forma individual o en lote por correo electrónico, SMS o notificaciones push.
 
-?? Obtenga más información sobre las funcionalidades de mensajería transaccional en [esta sección](../send/transactional.md).
+![](../assets/do-not-localize/glass.png) Obtenga más información sobre las funcionalidades de mensajería transaccional en  [esta sección](../send/transactional.md).
 
 Conecte Adobe Campaign y Adobe Analytics para recuperar acciones de usuario y enviar mensajes personalizados casi en tiempo real.
 
-?? Aprenda a integrar Campaign con otras soluciones en [esta sección](../start/connect.md)
+![](../assets/do-not-localize/glass.png) Aprenda a integrar Campaign con otras soluciones en  [esta sección](../start/connect.md)
 
 
 ## Casos de uso de extremo a extremo del flujo de trabajo{#end-to-end-uc}
@@ -143,7 +143,7 @@ En esta sección, encontrará varios casos de uso que aprovechan las capacidades
 
 * [Enviar un informe a una lista](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/sending-a-report-to-a-list.html){target=&quot;_blank&quot;}
 
-   Obtenga información sobre cómo generar un informe mensual integrado Tracking indicators en formato PDF y enviarlo a una lista de operadores de Campaign.
+   Obtenga información sobre cómo generar un informe mensual integrado Tracking indicators en formato de PDF y enviarlo a una lista de operadores de Campaign.
 
 * [Supervisión de los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/monitoring/supervising-workflows.html){target=&quot;_blank&quot;}
 

@@ -1,12 +1,12 @@
 ---
 title: Integración de los SDK de Campaign con la aplicación
-description: Obtenga información sobre cómo integrar los SDK para iOS y Android de Campaign con su aplicación
+description: Obtenga información sobre cómo integrar los SDK de iOS y Android de Campaign con su aplicación
 version: v8
 feature: Push
 role: Developer
 level: Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: ea7d540af082782114f4a3e32c9d880b0d14df43
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 43%
@@ -17,7 +17,7 @@ ht-degree: 43%
 
 Utilice los SDK de Campaign para iOS y Android para facilitar la integración de la aplicación móvil en la plataforma Adobe Campaign.
 
-Las versiones compatibles con Android e iOS, así como las versiones compatibles de los SDK de Campaign para Campaign v8, se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md#MobileSDK) .
+Las versiones compatibles con Android y iOS, así como las versiones compatibles de los SDK de Campaign para Campaign v8, se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md#MobileSDK) .
 
 >[!NOTE]
 >
@@ -794,7 +794,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
 Las variables permiten definir el comportamiento de la aplicación móvil después de recibir una notificación. Estas variables deben definirse en el código de la aplicación móvil y en la consola de Adobe Campaign, en la pestaña **[!UICONTROL Variables]** del servicio dedicado de la aplicación móvil.
 
-↗️ obtener más información en la **documentación del Campaign Classic v7** en la aplicación móvil: [Pasos de configuración para iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} y [Pasos de configuración para Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Obtenga más información en la  **documentación de** Campaign Classic v7 sobre la aplicación móvil:  [Pasos de configuración para iOS](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;} y pasos de  [configuración para Andoid](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html){target=&quot;_blank&quot;}.
 
 A continuación, se muestra un ejemplo de código que permite a una aplicación móvil recopilar variables añadidas en una notificación. En este ejemplo, se utiliza la variable “VAR”.
 

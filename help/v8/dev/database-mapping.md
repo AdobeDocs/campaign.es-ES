@@ -2,7 +2,7 @@
 title: Asignación de base de datos de campaña
 description: Asignación de base de datos de campaña
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1463'
 ht-degree: 0%
@@ -91,13 +91,13 @@ Para rellenar un campo en XML, debe añadir el atributo **xml** con el valor &qu
    <element name="comment" xml="true" type="memo" label="Comment"/>
    ```
 
-* Descripción de los datos en formato HTML:
+* Descripción de los datos en formato de HTML:
 
    ```
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   El tipo &quot;html&quot; permite almacenar el contenido HTML en una etiqueta CDATA y mostrar una comprobación de edición HTML especial en la interfaz del cliente de Adobe Campaign.
+   El tipo &quot;html&quot; permite almacenar el contenido del HTML en una etiqueta CDATA y mostrar una comprobación de edición especial del HTML en la interfaz del cliente de Adobe Campaign.
 
 El uso de campos XML permite añadir campos sin necesidad de modificar la estructura física de la base de datos. Otra ventaja es que se utilizan menos recursos (tamaño asignado a campos SQL, límite en el número de campos por tabla, etc.).
 
@@ -256,7 +256,7 @@ Para relaciones de unión mediante Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Cardinalidad 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Cardinalidad 1-N
 
-?? Para obtener más información sobre las tablas FDA, consulte [Acceso de datos federado](../connect/fda.md).
+![](../assets/do-not-localize/glass.png) Para obtener más información sobre las tablas de FDA, consulte  [Acceso de datos federado](../connect/fda.md).
 
 Se debe declarar un vínculo en el esquema que contenga la clave externa de la tabla vinculada a través del elemento principal:
 

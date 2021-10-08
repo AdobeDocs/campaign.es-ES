@@ -2,7 +2,7 @@
 title: Prácticas recomendadas del modelo de datos
 description: Conozca las prácticas recomendadas de extensión del modelo de datos de Campaign
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '2683'
 ht-degree: 4%
@@ -17,9 +17,9 @@ El sistema Adobe Campaign es muy flexible y se puede ampliar más allá de la im
 
 Para comprender mejor las tablas integradas de Campaign y cómo se relacionan entre sí, consulte [esta sección](datamodel.md) .
 
-?? Lea [esta sección](schemas.md) para empezar a utilizar esquemas de Campaign.
+![](../assets/do-not-localize/glass.png) Lea  [esta ](schemas.md) sección para empezar a utilizar los esquemas de Campaign.
 
-?? Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en [esta página](extend-schema.md).
+![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en  [esta página](extend-schema.md).
 
 ## Arquitectura del modelo de datos {#data-model-architecture}
 
@@ -108,7 +108,7 @@ Esta clave personalizada es la clave principal del registro real en el sistema e
 
 Al crear una tabla personalizada, tiene dos opciones:
 * Una combinación de clave generada automáticamente (id) y clave interna (custom). Esta opción es interesante si la clave del sistema es una clave compuesta o no un número entero. Con Snowflake, enteros o claves basadas en cadenas proporcionarán un mayor rendimiento en tablas grandes y se unirán con otras tablas.
-* Uso de la clave principal como clave principal del sistema externo. Esta solución suele ser preferible, ya que simplifica el enfoque para importar y exportar datos, con una clave coherente entre los distintos sistemas. **** Se debe desactivar la función Autouuidsi si la clave se denomina &quot;id&quot; y se espera que se rellene con valores externos (no generados automáticamente).
+* Uso de la clave principal como clave principal del sistema externo. Esta solución suele ser preferible, ya que simplifica el enfoque para importar y exportar datos, con una clave coherente entre los distintos sistemas. **** Se debe desactivar la opción de edición automática si la clave se denomina &quot;id&quot; y se espera que se rellene con valores externos (no generados automáticamente).
 
 >[!CAUTION]
 >

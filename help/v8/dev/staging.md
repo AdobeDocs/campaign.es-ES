@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 2%
@@ -31,6 +31,7 @@ Las API de Campaign Classic v7 siguen disponibles, pero no pueden beneficiarse d
 >* Con este nuevo mecanismo, la sincronización de datos para la exclusión del canal, las suscripciones, las bajas de suscripción o el registro móvil es ahora **asíncrona**.
 >
 >* El ensayo solo se aplica a esquemas almacenados en la base de datos de Cloud. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema de ensayo
+
 >
 
 
@@ -53,7 +54,7 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
    </srcSchema>
    ```
 
-   ?? Obtenga más información sobre la creación de esquemas personalizados en [esta página](create-schema.md).
+   ![](../assets/do-not-localize/glass.png) Obtenga más información sobre la creación de esquemas personalizados en  [esta página](create-schema.md).
 
 1. Guarde y actualice la estructura de la base de datos.  [Más información](update-database-structure.md)
 

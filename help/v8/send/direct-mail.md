@@ -1,11 +1,11 @@
 ---
-title: Enviar correos electrónicos directos con Adobe Campaign
-description: Introducción al correo postal en Campaign
+title: Send direct mails with Adobe Campaign
+description: Get started with direct mail in Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '407'
 ht-degree: 35%
@@ -20,9 +20,9 @@ Los pasos para generar el archivo son:
 
 1. Creación de la entrega
 
-   Cree una entrega de correo postal basada en la plantilla . Puede duplicar y configurar la plantilla integrada **[!UICONTROL Deliver by direct mail (paper)]** .
+   Create a direct mail delivery based on the template. Puede duplicar y configurar la plantilla integrada **[!UICONTROL Deliver by direct mail (paper)]** .
 
-   ↗️ Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html)
+   ![](../assets/do-not-localize/book.png)[ Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html)
 
 1. Definición de la audiencia
 
@@ -32,23 +32,23 @@ Los pasos para generar el archivo son:
 
    Se considera que una dirección es completa si el nombre, el campo de código postal y el campo de municipio o ciudad no están vacíos.
 
-   ↗️ Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
+   ![](../assets/do-not-localize/book.png)[ Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 
 1. Definir el contenido del archivo
 
    Utilice el asistente de extracción para definir la información (columnas) que se exportará al archivo de salida.
 
-   ↗️ Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html)
+   ![](../assets/do-not-localize/book.png)[ Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/defining-the-direct-mail-content.html)
 
 1. Validación de la entrega
 
    Compruebe el resultado del análisis y el contenido del archivo de salida.
 
-   ↗️ Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html)
+   ![](../assets/do-not-localize/book.png)[ Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/validating.html)
 
-   En el contexto de una campaña de marketing, en la fecha de extracción, se crea el archivo de extracción. Puede ver el contenido del archivo extraído, aprobarlo o cambiar el formato y volver a iniciar la extracción si es necesario. Una vez aprobado el archivo, puede enviar el correo electrónico de notificación al enrutador.
+   In the context of a marketing campaign, on the extraction date, the extraction file is created. Puede ver el contenido del archivo extraído, aprobarlo o cambiar el formato y volver a iniciar la extracción si es necesario. Una vez aprobado el archivo, puede enviar el correo electrónico de notificación al enrutador.
 
-   ↗️ Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html#approving-an-extraction-file)
+   ![](../assets/do-not-localize/book.png)[ Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html#approving-an-extraction-file)
 
 1. Inicie la entrega
 
@@ -58,4 +58,4 @@ Los pasos para generar el archivo son:
 
    En el contexto de una campaña de marketing, cuando se han concedido todas las aprobaciones, los archivos de extracción se crean mediante un flujo de trabajo especial que, en una configuración predeterminada, se inicia automáticamente cuando un envío de correo postal está pendiente de extracción.
 
-   ↗️ Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html#starting-an-offline-delivery)
+   ![](../assets/do-not-localize/book.png)[ Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-deliveries.html#starting-an-offline-delivery)

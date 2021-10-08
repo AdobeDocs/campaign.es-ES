@@ -5,24 +5,24 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: dd822f88-b27d-4944-879c-087f68e79825
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 4%
+source-wordcount: '428'
+ht-degree: 2%
 
 ---
 
-# Nuevas API de Campaign{#gs-new-api}
+# New Campaign APIs{#gs-new-api}
 
 Campaign v8 incluye dos nuevas API para administrar datos entre la base de datos local de Campaign y la base de datos de Cloud. Los requisitos previos para utilizarlos son habilitar el mecanismo de ensayo en el esquema. [Más información](staging.md)
 
-* API de ingesta: **xtk.session.ingest**
+* Ingestion API: **xtk.session.ingest**
 
    Esta API está dedicada únicamente a la inserción de datos. [Más información](#data-insert-api)
 
 * API de actualización/eliminación de datos: **xtk.session.ingestExt**
 
-   Esta API se utiliza para actualizar o eliminar datos. [Más información](#data-update-api)
+   This API is used to update or delete data. [Más información](#data-update-api)
 
 Un flujo de trabajo integrado dedicado sincronizará los datos en la base de datos de Cloud.
 
@@ -87,9 +87,9 @@ Como resultado, la tabla de ensayo se alimenta según lo esperado.
 
 ![](assets/no-reconciliation.png)
 
-### Insertar con reconciliación
+### Insert with reconciliation
 
-**En un flujo de trabajo**
+**In a workflow**
 
 Utilice el siguiente código en una actividad **Javascript code** para insertar datos en la base de datos de Cloud con reconciliación:
 
@@ -108,9 +108,9 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
 ![](assets/with-reconciliation.png)
 
 
-**Desde una llamada SOAP**
+**From a SOAP call**
 
-1. Obtenga el token de autenticación.
+1. Get the authentication token.
 1. Déclencheur de la API. La carga útil es:
 
    ```
@@ -208,9 +208,9 @@ Como resultado, la tabla de ensayo se actualiza según lo esperado.
 
 La administración de suscripciones en Campaign se describe en [esta página](../start/subscriptions.md).
 
-La inserción de los datos de suscripción y baja depende del [Mecanismo de ensayo](staging.md) en la base de datos local de Campaign. La información del suscriptor se almacena temporalmente en tablas de ensayo en la base de datos local y el flujo de trabajo de sincronización envía estos datos de la base de datos local a la base de datos de Cloud. Como consecuencia, los procesos de suscripción y baja son **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](../config/replication.md#tech-wf)
+Insertion of subscription and unsubscription data relies on the [Staging mechanism](staging.md) in Campaign local database. La información del suscriptor se almacena temporalmente en tablas de ensayo en la base de datos local y el flujo de trabajo de sincronización envía estos datos de la base de datos local a la base de datos de Cloud. Como consecuencia, los procesos de suscripción y baja son **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](../config/replication.md#tech-wf)
 
 
 **Temas relacionados**
 
-* [Campaign Classic v7 JSAPI](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/p-1.html)
+* [Campaign Classic v7 JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html)

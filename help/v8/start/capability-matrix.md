@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62,7105477f-d29e-4af8-8789-82b4459761b0
-source-git-commit: 8668970b0270b990232b78d527d0713efd9d1a4d
-workflow-type: ht
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Cambios clave:
 
 Como usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría de las funciones de [!DNL Campaign Classic] v7 están disponibles en [!DNL Campaign] v8, excepto un pequeño conjunto de ellas, que se enumeran en [esta sección](#gs-removed). Se incluirán más en futuras versiones. [Obtenga más información en esta sección](#gs-unavailable-features)
 
-?? Obtenga más información acerca la arquitectura de [!DNL Campaign] v8 en [esta página](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Obtenga más información acerca la arquitectura de [!DNL Campaign] v8 en [esta página](../dev/architecture.md).
 
 ## Cambios en la configuración del producto
 
@@ -73,7 +73,7 @@ Los usuarios de Campaign no tienen que ser expertos en bases de datos: ya no es 
 
 Los usuarios de Campaign se conectan mediante su Adobe ID. El mismo Adobe ID se utiliza para mantener todos sus planes de Adobe y productos asociados a una sola cuenta.
 
-?? Aprenda a conectarse a [!DNL Campaign] en [esta página](connect.md).
+![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo conectarse a  [!DNL Campaign] en  [esta página](connect.md).
 
 ## Creación de informes
 
@@ -85,7 +85,7 @@ Campaign v8 ofrece una actividad de flujo de trabajo de direccionamiento adicion
 
 La actividad **[!UICONTROL Change data source]** permite cambiar la fuente de datos de la **[!UICONTROL Working table]** de un flujo de trabajo para administrar los datos en diferentes fuentes de datos, como FDA, FDAC y la base de datos local.
 
-?? Obtenga más información sobre la actividad **[!UICONTROL Change data source]** en [esta página](../config/workflows.md#change-data-source-activity).
+![](../assets/do-not-localize/glass.png) Obtenga más información sobre la  **[!UICONTROL Change data source]** actividad en  [esta página](../config/workflows.md#change-data-source-activity).
 
 ## Funciones no disponibles{#gs-unavailable-features}
 

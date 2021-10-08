@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4,df76e7ff-3b97-41be-abc2-640748680ff3
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 3%
@@ -20,13 +20,13 @@ Adobe Campaign incluye un conjunto de flujos de trabajo técnicos integrados. Lo
 
 Estos flujos de trabajo realizan operaciones de mantenimiento en la base de datos, aprovechan la información de seguimiento en los registros de envío, crean campañas recurrentes y mucho más.
 
-↗️ La lista completa de flujos de trabajo técnicos se detalla en la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) La lista completa de flujos de trabajo técnicos se detalla en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html){target=&quot;_blank&quot;}
 
 
 Además de estos flujos de trabajo técnicos, Campaign v8 depende de flujos de trabajo técnicos específicos para administrar [replicación de datos](#data-replication).
 
 * **[!UICONTROL Replicate Reference tables]**
-Este flujo de trabajo realiza la duplicación automática de las tablas integradas que deben estar presentes en la base de datos local de Campaign (Postgres) y en la base de datos de Cloud ([!DNL Snowflake]). Está programado para ejecutarse cada hora, diariamente. Si existe el campo **lastModified**, la replicación se produce de forma incremental; de lo contrario, se replica toda la tabla. El orden de las tablas de la matriz siguiente es el orden utilizado por el flujo de trabajo de replicación.
+Este flujo de trabajo realiza la duplicación automática de las tablas integradas que deben estar presentes en la base de datos local de Campaign (Postgres) y en la base de datos de Cloud ([!DNL Snowflake]). Está programado para ejecutarse cada hora, diariamente. Si existe el campo **lastModified** , la replicación se produce de forma incremental; de lo contrario, se replica toda la tabla. El orden de las tablas de la matriz siguiente es el orden utilizado por el flujo de trabajo de replicación.
 * **[!UICONTROL Replicate Staging data]**
 Este flujo de trabajo duplica los datos de ensayo para las llamadas unitarias. Está programado para ejecutarse cada hora, diariamente.
 * **[!UICONTROL Deploy FFDA immediately]**\
@@ -76,6 +76,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Temas relacionados**
 
-↗️ Obtenga información sobre cómo empezar a usar flujos de trabajo en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga información sobre cómo empezar a utilizar flujos de trabajo en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
-?? Acceda a los períodos de retención de datos en [esta sección](../dev/datamodel-best-practices.md#data-retention)
+![](../assets/do-not-localize/glass.png) Acceso a los períodos de retención de datos en  [esta sección](../dev/datamodel-best-practices.md#data-retention)

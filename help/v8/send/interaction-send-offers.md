@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '1275'
 ht-degree: 75%
@@ -78,7 +78,7 @@ Varias actividades de flujo de trabajo permiten definir la forma en que se prese
 
 La actividad **Enrichment** permite añadir ofertas o vínculos a ofertas para los destinatarios del envío.
 
-↗️ Para obtener más información sobre la actividad de Enriquecimiento, consulte la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
+![](../assets/do-not-localize/book.png) Para obtener más información sobre la actividad de Enriquecimiento, consulte la documentación de  [Campaign Classic v7 .](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/enrichment.html)
 
 Por ejemplo, puede ampliar los datos de una consulta al destinatario antes de una entrega.
 
@@ -165,7 +165,7 @@ La entrega almacena automáticamente la clasificación y las consideraciones de 
 
 La actividad **[!UICONTROL Offer engine]** también permite definir el acceso al motor de oferta antes de una entrega.
 
-↗️ Para obtener más información sobre la actividad **Offer engine**, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
+![](../assets/do-not-localize/book.png) Para obtener más información sobre la  **actividad de** ingeniería de ofertas, consulte la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offer-engine.html)
 
 Esta actividad funciona con el mismo principio que la actividad **Enrichment** con acceso al motor, al enriquecer los datos de población entrantes con una oferta calculada por el motor antes de un envío.
 
@@ -188,7 +188,7 @@ Después de configurar su actividad **Query**:
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-↗️ Para obtener más información sobre la actividad **Offer by cell**, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
+![](../assets/do-not-localize/book.png) Para obtener más información sobre la actividad  **Offer by** cellactivity, consulte la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/offers-by-cell.html)
 
 Para ello, utilice el proceso siguiente:
 

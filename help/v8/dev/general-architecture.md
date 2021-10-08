@@ -2,10 +2,10 @@
 title: Arquitectura general
 description: Obtenga más información sobre la arquitectura y los componentes de Campaign
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
 workflow-type: tm+mt
 source-wordcount: '1217'
-ht-degree: 8%
+ht-degree: 6%
 
 ---
 
@@ -31,15 +31,15 @@ Se puede acceder a la aplicación de diferentes maneras: Cliente enriquecido, cl
 
 * **Consola** de cliente: La interfaz de usuario principal de la aplicación es una aplicación nativa (en Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign con protocolos de Internet estándar (SOAP, HTTP, etc.). La consola del cliente de Adobe Campaign ofrece una buena facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para facilitar la implementación. Esta consola se puede implementar desde un explorador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).
 
-   ?? [Obtenga más información acerca de la consola del cliente de Campaign](../start/connect.md).
+   ![](../assets/do-not-localize/glass.png) [Obtenga más información sobre la consola del cliente de Campaign](../start/connect.md).
 
-* **Acceso** web: se puede acceder a partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario HTML, que incluye el módulo de informes, las etapas de aprobación de la entrega, la supervisión de instancias, etc.
+* **Acceso** web: se puede acceder a partes de la aplicación a través de un explorador web simple mediante una interfaz de usuario de HTML, que incluye el módulo de informes, las etapas de aprobación de envíos, la supervisión de instancias, etc.
 
-   ?? [Obtenga más información acerca de Campaign Web Access](../start/connect.md).
+   ![](../assets/do-not-localize/glass.png) [Obtenga más información acerca de Campaign Web Access](../start/connect.md).
 
 * **API de campaña**: En algunos casos, se puede llamar al sistema desde una aplicación externa mediante las API de servicios web expuestas mediante el protocolo SOAP.
 
-   ?? [Obtenga más información sobre las API de Campaign](../dev/api.md).
+   ![](../assets/do-not-localize/glass.png) [Obtenga más información sobre las API de Campaign](../dev/api.md).
 
 ## Entorno de desarrollo {#dev-env}
 
@@ -124,6 +124,6 @@ Los clientes pueden implementar Adobe Campaign utilizando la base de datos prede
 
 >[!CAUTION]
 >
->Con **Cloud Services administrados de Campaign**, su entorno y la configuración inicial se han configurado mediante Adobe, según los términos del acuerdo de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
+>Con **Cloud Services administrados de Campaign**, su entorno y la configuración inicial se han configurado mediante Adobes, según los términos del acuerdo de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
 >
 >Si necesita utilizar un complemento de Campaign o una funcionalidad específica que no se haya aprovisionado por usted, debe ponerse en contacto con el **Servicio de atención al cliente de Adobe**.
