@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '1486'
 ht-degree: 72%
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 La mensajería transaccional (Centro de Mensajes) es un módulo de Campaign diseñado para gestionar mensajes de activación. Estos mensajes se generan a partir de eventos activados desde sistemas de información y pueden ser: una factura, una confirmación de pedido, una confirmación de envío, un cambio de contraseña, una notificación de no disponibilidad del producto, el estado de la cuenta o una creación de cuenta en un sitio web, por ejemplo.
 
-?? Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
 Los mensajes transaccionales se utilizan para enviar:
 

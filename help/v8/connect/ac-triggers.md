@@ -4,7 +4,8 @@ description: Aprenda a trabajar con Campaign y Adobe Experience Cloud déclenche
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: a2ab85c3-ef5f-49fd-a6c4-2fd397c8d21b
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 18%
@@ -17,4 +18,4 @@ Puede utilizar Déclencheur de Experience Cloud para conectar datos entre Adobe 
 
 Obtenga más información sobre Adobe Campaign y los Déclencheur de Experience Cloud en [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en).
 
-??  Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para implementar los déclencheur de Experience Cloud con Campaign.
+![](../assets/do-not-localize/speech.png)   Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para implementar déclencheur de Experience Cloud con Campaign.

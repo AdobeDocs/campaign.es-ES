@@ -4,7 +4,8 @@ description: Aprenda a trabajar con Campaign y Adobe Experience Manager
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 17%
@@ -23,4 +24,4 @@ Esto significa que puede sacar el máximo partido de las funcionalidades de edic
 
 ![](../assets/do-not-localize/book.png) [Descubra esta integración en este ejemplo completo](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/adobe-experience-manager/creating-an-experience-manager-newsletter.html?lang=en#integrating-with-adobe-experience-cloud)
 
-?? Como usuario de Cloud Services administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para integrar Adobe Experience Manager con Campaign.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para integrar Adobe Experience Manager con Campaign.

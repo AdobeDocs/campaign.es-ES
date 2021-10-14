@@ -2,7 +2,7 @@
 title: Prácticas recomendadas de seguridad de Campaign
 description: Introducción a las prácticas recomendadas de seguridad de Campaign
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 20%
@@ -24,7 +24,7 @@ La configuración y el endurecimiento de la privacidad son elementos clave de la
 * Asegúrese de que las contraseñas cifradas estén restringidas
 * Proteja las páginas que puedan contener información personal, como páginas espejo, aplicaciones web, etc.
 
-?? Como usuario de Cloud Services administrados, Adobe trabajará con usted para implementar estas configuraciones en su entorno.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, Adobe trabajará con usted para implementar estas configuraciones en su entorno.
 
 ## Personalización
 

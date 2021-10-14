@@ -4,7 +4,8 @@ description: Aprenda a trabajar con Campaign y Real-time Customer Data Platform
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: d1e09eae-339e-4d14-9071-097dfcc635aa
+source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 24%
@@ -19,4 +20,4 @@ Con **Adobe Experience Platform**, puede compartir datos entre Campaign y Adobe 
 
 ![](../assets/do-not-localize/book.png) Aprenda a implementar y utilizar RTCDP con Campaign en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/aep-sources-destinations/get-started-sources-destinations.html?lang=en#integrating-with-adobe-experience-cloud)
 
-?? Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para conectar RTCDP y Campaign.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para conectar RTCDP y Campaign.
