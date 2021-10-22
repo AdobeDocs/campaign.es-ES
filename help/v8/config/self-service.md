@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '344'
 ht-degree: 100%
 
@@ -27,11 +27,11 @@ También puede utilizar el Panel de control de Campaign para configurar las inst
 ![](../assets/do-not-localize/book.png) Obtenga más información en la [Documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target=&quot;_blank&quot;}.
 
 >[!CAUTION]
->
 > Las siguientes capacidades aún no son compatibles con Campaign v8:
 >
 >* Administración de subdominios
 >* Administración de certificados
+
 >
 
 
