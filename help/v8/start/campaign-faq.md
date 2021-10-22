@@ -6,7 +6,7 @@ role: Data Engineer
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d,f5688357-db90-4f88-9596-91e9d0a20d75
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
 ht-degree: 100%
 
@@ -60,7 +60,7 @@ ht-degree: 100%
 
    Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico (mensajes transaccionales, información de marketing, etc.).
 
-   ![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, póngase en contacto con  Adobe para delegar sus subdominios a Adobe.
+   ![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, póngase en contacto con Adobe para delegar sus subdominios a Adobe.
 
 1. **Como usuario Campaign Classic v7, ¿puedo migrar a Campaign v8?**
 
