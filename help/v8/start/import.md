@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: 780a29dab99ad2bda554134ca95c435b9e76b494
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '321'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 97%
 
 Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfil directamente en la tabla de destinatarios.
 
-![](../assets/do-not-localize/glass.png) Introducción a las  [audiencias](audiences.md)
+![](../assets/do-not-localize/glass.png) Introducción a las [audiencias](audiences.md)
 
-![](../assets/do-not-localize/glass.png) Comprender el modelo de  [datos de Campaign](../dev/datamodel.md)
+![](../assets/do-not-localize/glass.png) Explicación del [modelo de datos](../dev/datamodel.md) de Campaign
 
 ## Importación de perfiles en un flujo de trabajo
 
