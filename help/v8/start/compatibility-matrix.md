@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 83874f4d124d7892f99e973684b1e8ee571f31e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -37,14 +37,14 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 
 ## Conectores CRM{#CRMconnectors}
 
-A continuación se enumeran los sistemas de administración de la relación con los clientes (CRM) compatibles con Adobe Campaign. [Más información](../connect/crm.md).
+A continuación, se enumeran los sistemas de administración de la relación con los clientes (CRM) compatibles con Adobe Campaign. [Más información](../connect/crm.md).
 
 * **** Versión 49 de la API de conector Salesforce
 * **Conector de Microsoft** Dynamics, API web: Dynamics 365 On-Premise y en línea
 
 ## Acceso de datos federado (FDA){#FederatedDataAccessFDA}
 
-A continuación se enumeran las bases de datos externas compatibles con el módulo de acceso de datos federado (FDA) de Adobe Campaign. [Más información](../connect/fda.md).
+A continuación, se enumeran las bases de datos externas compatibles con el módulo de acceso de datos federado (FDA) de Adobe Campaign. [Más información](../connect/fda.md).
 
 * **Amazon Redshift**
 * **[!DNL Google Big Query]**
@@ -53,7 +53,7 @@ A continuación se enumeran las bases de datos externas compatibles con el módu
 
 ## SDK móvil{#MobileSDK}
 
-Puede utilizar Campaign para enviar [notificaciones push](../send/push.md) en los sistemas operativos que se enumeran a continuación mediante el SDK móvil asociado.
+Puede utilizar Campaign para enviar [notificaciones push](../send/push.md) a los sistemas operativos que se enumeran a continuación mediante el SDK móvil asociado.
 
 * **Android** 7.x, 8.x, 9.0 con la compilación 1.1.1. de Campaign Android SDK.
 * **Apple iOS** 9 - 14 con la compilación 1.0.26 de Campaign iOS SDK, compatible con las versiones de 32 y 64 bits.
