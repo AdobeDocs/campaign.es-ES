@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: eb8ad88ffd9dbaaf1f9ace2e88ba4486711bc72d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1213'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ En esta sección, aprenderá a ajustar Adobe Campaign a los requisitos de su com
 
 >[!CAUTION]
 >
->Con **Cloud Services administrados de Campaign**, su entorno y la configuración inicial se han configurado mediante Adobes, según los términos del acuerdo de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
+>Con **Campaign Managed Cloud Services**, su entorno y la configuración inicial se han configurado con Adobe, según los términos del acuerdo de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
 >
 >Si necesita utilizar un complemento de Campaign o una funcionalidad específica que no se haya aprovisionado por usted, debe ponerse en contacto con el **Servicio de atención al cliente de Adobe**.
 
@@ -49,7 +49,7 @@ Conozca las directrices y los principios de seguridad con Adobe Campaign en la [
 
 ### Agregar usuarios y conceder permisos
 
-Puede agregar usuarios manualmente a Campaign y asociarlos a grupos, alineados con la jerarquía de funciones. Los usuarios podrán entonces iniciar sesión y acceder a los datos y permisos adecuados para ellos.
+Puede añadir usuarios manualmente a Campaign y asociarlos a grupos, alineados con la jerarquía de funciones. Los usuarios podrán entonces iniciar sesión y acceder a los datos y permisos adecuados para ellos.
 
 ![](../assets/do-not-localize/book.png) Aprenda a añadir usuarios a [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=es#getting-started){target=&quot;_blank&quot;}.
 
