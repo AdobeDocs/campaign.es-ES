@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: ca4adc12700f0507e6cc43a104e0cf2987aa5883
+source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
 workflow-type: tm+mt
-source-wordcount: '1597'
-ht-degree: 50%
+source-wordcount: '1574'
+ht-degree: 51%
 
 ---
 
@@ -68,7 +68,6 @@ _28 de octubre de 2021_
 **Mejoras**
 
 * El conector del Snowflake se ha mejorado en términos de rendimiento.
-* En el archivo de configuración del servidor (serverConf.xml), ahora puede establecer un tiempo de espera, por esquema, entre actualizaciones y confirmaciones sobre la marcha.
 * A efectos de supervisión y ensayo, los registros de auditoría de la variable **[!UICONTROL Replicate Staging data]** Ahora, el flujo de trabajo incluye el número de registros que se han enviado a la base de datos de FFDA (acceso de datos federado completo).
 * La actividad SQL code ahora le permite elegir en qué base de datos se almacenará el script SQL: la fuente de datos predeterminada o una cuenta externa de FDA activa seleccionada.
 * Ya está disponible un conjunto de almacenes predefinidos que pueden utilizarse para ejecutar varias consultas en paralelo, como segmentación, ETL o picos. [Más información](../config/workflows.md)
