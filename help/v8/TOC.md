@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentación de Campaign v8
 breadcrumb-title: Campaign v8
 title: Documentos de Campaign v8
-source-git-commit: e0faeda87d5b84309524a72d9f021c381ac4619e
-workflow-type: ht
-source-wordcount: '208'
-ht-degree: 100%
+source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 86%
 
 ---
 
@@ -48,8 +48,10 @@ ht-degree: 100%
    + [Mensajería LINE](send/line.md)
    + [Correo directo](send/direct-mail.md)
    + [Mensajes transaccionales](send/transactional.md)
-   + Agregar ofertas{#interaction}
-      + [Introducción a la interacción](send/interaction.md)
+   + Administrar ofertas con la interacción de Campaign{#interaction}
+      + [Introducción a la interacción en tiempo real](send/interaction.md)
+      + [Entornos y arquitectura](send/interaction-architecture.md)
+      + [Prácticas recomendadas](send/interaction-best-practices.md)
       + Definir la configuración de {#interaction}
          + [Creación de operadores](send/interaction-operators.md)
          + [Creación de entornos](send/interaction-env.md)
@@ -57,7 +59,12 @@ ht-degree: 100%
          + [Creación de espacios de oferta](send/interaction-offer-spaces.md)
       + [Creación de un catálogo de ofertas](send/interaction-offer-catalog.md)
       + [Creación de una oferta](send/interaction-offer.md)
-      + [Enviar una oferta](send/interaction-send-offers.md)
+      + [Enviar una oferta (saliente)](send/interaction-send-offers.md)
+      + Presentar una oferta (entrante){#inbound}
+         + [Contexto](send/interaction-present-offers.md)
+         + [Invocación de una oferta en una página web](send/interaction-integration.md)
+         + [Administrar interacciones anónimas](send/anonymous-interactions.md)
+      + [Informes e historial](send/interaction-tracking.md)
       + [Casos de uso](send/interaction-use-cases.md)
 + Configurar {#config}
    + [Automatización con flujos de trabajo](config/workflows.md)

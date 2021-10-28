@@ -5,20 +5,34 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 35%
+source-wordcount: '1656'
+ht-degree: 71%
 
 ---
 
-# Interacción y gestión de ofertas{#interaction-and-offer-management}
+# Administrar interacciones en tiempo real
 
-Campaign viene con un módulo de **Interaction** que permite responder en tiempo real durante una interacción con un contacto determinado (un cliente o destinatario) mediante la realización de una o varias ofertas adaptadas. Por ejemplo, estas pueden ser mensajes de comunicación sencillos, ofertas especiales sobre uno o varios productos o un servicio.
+Campaign viene con un **Interacción** módulo que permite responder en tiempo real durante una interacción con un contacto determinado (un cliente o destinatario) mediante la realización de una o varias ofertas adaptadas. Por ejemplo, estas pueden ser mensajes de comunicación sencillos, ofertas especiales sobre uno o varios productos o un servicio.
 
-Puede crear un catálogo de ofertas que interactúe con los canales salientes (correo electrónico, correo postal, SMS) para seleccionar la mejor oferta y enviarla a un contacto en un contexto determinado. La mejor selección de ofertas para un destinatario se basa en **reglas de idoneidad**. La selección de una oferta de entre un conjunto de ofertas relevantes se determina mediante reglas de prioridad. Las reglas de presentación de ofertas tienen en cuenta el historial del contacto y ayudan a evitar que reciban la misma oferta varias veces.
+Puede crear un catálogo de ofertas que interactúe con los canales salientes (correo electrónico, correo postal, SMS) para seleccionar la mejor oferta y enviarla a un contacto en un contexto determinado. La mejor selección de ofertas para un destinatario se basa en **reglas de elegibilidad**. La selección de una oferta de entre un conjunto de ofertas relevantes se determina mediante reglas de prioridad. Las reglas de presentación de ofertas tienen en cuenta el historial del contacto y ayudan a evitar que reciban la misma oferta varias veces.
 
 La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de idoneidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
+
+![](assets/interaction-cycle.png)
+
+En primer lugar, se produce un contacto entre un cliente y una empresa a través de un canal de comunicación: puede ser un sitio web (interacción saliente), un correo electrónico, un SMS, una notificación push (interacciones entrantes). [Más información](#interaction-types)
+
+Este contacto resulta en una llamada al motor de oferta. (1)
+
+Cuando se produce la llamada al motor de oferta, se seleccionan una o varias ofertas del catálogo de ofertas en función del número de configuraciones de ofertas de la propuesta. (2)
+
+A continuación, se aplican las reglas de elegibilidad: las mejores ofertas se seleccionan en función de las reglas de idoneidad, las fechas de inicio y finalización de las ofertas, los datos de perfil y el comportamiento del cliente en tiempo real. (3)
+
+El historial de propuestas de perfil se actualiza una vez realizada la selección, para evitar la duplicación de las ofertas que se presentan. (4)
+
+Por último, se propone la mejor oferta al objetivo. (5)
 
 ## Introducción a las ofertas
 
@@ -26,17 +40,29 @@ A continuación se enumeran los pasos clave para comenzar.
 
 ### Configurar su plataforma
 
-Antes de empezar, como **Administrator** de Campaign, asegúrese de realizar las siguientes tareas en entornos de diseño:
+Antes de empezar, as a Campaign **Administrador**, asegúrese de haber realizado las siguientes tareas en entornos de diseño:
 
 1. Crear perfiles de usuario. [Más información](interaction-operators.md)
 1. (opcional) Cree un entorno de oferta para cada dimensión de segmentación. [Más información](interaction-env.md)
 1. Cree reglas de tipología para cada entorno. [Más información](interaction-offer.md#offer-presentation)
-1. Cree espacios de oferta para cada entorno y configure las funciones de renderización. [Obtenga ](interaction-offer-spaces.md)
-más informaciónSi el espacio está definido por un canal unitario en modo identificado, debe especificar los parámetros avanzados para este espacio.
+1. Cree espacios de oferta para cada entorno y configure las funciones de renderización. [Más información](interaction-offer-spaces.md)
+Si el espacio está definido por un canal unitario en modo identificado, debe especificar los parámetros avanzados para este espacio.
+
+   >[!NOTE]
+   >
+   >Si el espacio está definido mediante un canal unitario en modo identificado, se deben especificar los parámetros avanzados para este espacio.
+
+1. Configure el motor de oferta para interacciones entrantes a fin de presentar y actualizar una o varias ofertas.
+
+   Los distintos modos de integración se detallan en [esta sección](interaction-present-offers.md).
+
+   >[!NOTE]
+   >
+   >Cuando se crea un espacio en el canal web entrante, también es preciso configurar el sitio en el que se visualizará la oferta.
 
 ### Creación y publicación del catálogo de ofertas {#managing-the-offer-catalog-}
 
-Como **Offer manager** debe realizar las siguientes tareas:
+Como **Gestor de ofertas** debe realizar las siguientes tareas:
 
 1. Cree categorías de oferta en entornos de diseño. [Más información](interaction-offer-catalog.md#creating-offer-categories)
 1. Cree ofertas en entornos de diseño. [Más información](interaction-offer.md)
@@ -44,27 +70,38 @@ Como **Offer manager** debe realizar las siguientes tareas:
 
 ### Aprovechar el catálogo de ofertas {#using-the-offer-catalog-}
 
-Como **Delivery manager** debe realizar las siguientes tareas:
+Como **Gestor de envíos**  debe realizar las siguientes tareas:
 
 1. Cree una campaña.
 1. Haga referencia a una oferta de la campaña o la entrega. [Más información](interaction-send-offers.md).
 
 
-## Conceptos y terminología
+## Glosario
 
 Descubra los términos específicos de la oferta y las directrices relacionadas antes de comenzar.
 
-* **** Los entornos incluyen un catálogo de ofertas y espacios de oferta (vínculos). Es necesario crear un entorno mediante la dimensión de segmentación.
-Hay dos tipos de entornos:
+* **Environment**: define lo que incluye un catálogo de ofertas y los enlaces (espacios de oferta). Es necesario crear un entorno mediante la dimensión de segmentación. Hay dos tipos de entornos:
 
-   * **Entorno** de diseño: las ofertas se crean en el entorno de diseño, así como en las reglas de tipología y . Las reglas de tipología determinan las ofertas que se presentan (o no) a una persona objetivo. La tabla de personas a las que se dirigen las ofertas y la tabla para almacenar todas las propuestas de ofertas también se definen en este entorno. El nodo **[!UICONTROL Design environment]** contiene subcarpetas del espacio de ofertas, filtros predefinidos y categorías de las ofertas. A cada **[!UICONTROL Design environment]**, le corresponde un **[!UICONTROL Live environment]** de solo lectura, generado a partir de este mismo **[!UICONTROL Design environment]**.
-   * **Entorno** en directo: entorno vinculado a un  **[!UICONTROL Design environment]** que contiene ofertas de solo lectura cuyo contenido e idoneidad se han aprobado a través de  **[!UICONTROL Design environment]**. Se deben seleccionar para presentarlos insertados en un mensaje.
+   * **Design environment**: entorno en el que se crean y/o se definen las reglas tipológicas (reglas que determinan las ofertas para presentarlas, o no, a una persona destinataria). También se definen en este entorno la lista de personas que reciben las ofertas y la lista de almacenamiento de todas ellas. El nodo **[!UICONTROL Design environment]** contiene subcarpetas del espacio de ofertas, filtros predefinidos y categorías de las ofertas. A cada **[!UICONTROL Design environment]**, le corresponde un **[!UICONTROL Live environment]** de solo lectura, generado a partir de este mismo **[!UICONTROL Design environment]**.
+   * **Live environment**: entorno vinculado a **[!UICONTROL Design environment]**. Contiene ofertas de solo lectura cuyo contenido e idoneidad se han aprobado a través de la **[!UICONTROL Design environment]**. Se deben seleccionar para introducirlos en un sitio web o insertarlos en un mensaje.
 
-* El **Offer space** es una ubicación (carpeta) que define la ubicación donde se expone la oferta. Al crear un espacio de oferta, se puede especificar el canal, crear el contenido de la oferta mediante funciones de renderización, especificar el orden de las ofertas y su modo: modo unitario o por lotes (predeterminado). El espacio de oferta es la interfaz entre el canal y el motor de oferta.
-* El **Catálogo de ofertas** es un conjunto de ofertas definidas en Adobe Campaign que se puede seleccionar durante una interacción. El catálogo se organiza de forma jerárquica con cada nodo correspondiente a una categoría.
-* Una **Category** es una carpeta vinculada al catálogo de ofertas en un entorno, que organiza las ofertas en función de la naturaleza, la fecha de idoneidad y el tema de la aplicación. Una categoría puede contener subcategorías que heredan todas las características de la categoría principal. Las reglas de idoneidad se pueden definir para una categoría a fin de compartirlas en varias ofertas.
-* **Los** temas de la aplicación son palabras clave definidas en la categoría, que permiten filtrar ofertas cuando se presentan restringiendo la selección de ofertas a una o dos categorías.
-* **Las** reglas de idoneidad son restricciones aplicadas a un entorno, categoría u oferta, relacionadas con el periodo de validez, el objetivo y el peso. Permiten garantizar que una oferta está en línea con el contacto de destino.
+* **Offer space**: carpeta que determina la ubicación donde se expone la oferta. La definición de un espacio permite especificar el canal utilizado, especificar si se puede utilizar en el modo unitario (de forma predeterminada: solo en modo por lotes), crear el contenido de la oferta utilizando las funciones de renderización y especificar la oferta de las ofertas presentadas. Un espacio es una interfaz entre el canal y el motor de oferta.
+
+   >[!CAUTION]
+   >
+   >Un espacio de oferta no es un canal de comunicación, coincide con una ubicación de presentación específica del canal. Por ejemplo, las ofertas expuestas en un sitio web pueden ocupar dos espacios en la misma página. En este caso, tendrá dos espacios para el mismo canal.
+   >
+   >Los espacios deben definirse en las especificaciones y no deben modificarse durante el proyecto.
+
+* **Offer catalog**: conjunto de ofertas definidas en Adobe Campaign que se puede seleccionar durante una interacción. El catálogo se organiza de forma jerárquica con cada nodo correspondiente a una categoría.
+* **Category**: una carpeta relacionada con el catálogo de ofertas en un entorno, que organiza las ofertas según la naturaleza, la fecha de idoneidad y el tema de la aplicación. Una categoría puede contener subcategorías que heredan todas las características de la categoría principal. Las reglas de idoneidad se pueden definir para una categoría a fin de compartirlas en varias ofertas.
+* **Application themes**: las palabras clave definidas en la categoría permiten filtrar ofertas cuando se presentan en un canal entrante o saliente y restringen la selección de ofertas a una o dos categorías.
+
+   >[!NOTE]
+   >
+   >Las categorías secundarias heredan los temas identificados en la categoría principal.
+
+* **Eligibility rules**: restricciones aplicadas a un entorno, categoría u oferta sobre el periodo de validez, el objetivo y el peso. Permiten garantizar que una oferta está en línea con el contacto de destino.
 
    En los entornos, las reglas de idoneidad incluyen reglas de presentación aplicadas a las ofertas y a las personas objetivo.
 
@@ -72,16 +109,33 @@ Hay dos tipos de entornos:
 
    En las ofertas, las reglas de idoneidad permiten limitar la validez de las ofertas en el tiempo y determinar las personas objetivo.
 
-* El **Arbitrage** es la acción de seleccionar ofertas que se mostrarán en un entorno (ofertas aptas). El arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
-* Una **Outbound interaction** llama al motor de interacción desde una lista de contactos (utilizada para enviar correos electrónicos, correo postal, etc.). Se aplican las mismas reglas y procesos a cada contacto. Este tipo de interacción se procesa generalmente en modo por lotes.
-* El **Batch mode** permite seleccionar la mejor oferta para un conjunto de contactos. Las reglas de idoneidad/priorización se aplican a todos los contactos del conjunto. Este modo se utiliza generalmente para interacciones salientes.
-* El **Unitary mode** permite procesar un solo contacto a la vez. Este modo se utiliza generalmente para mensajes transaccionales.
-* **Las** ofertas aptas son ofertas que satisfacen las restricciones definidas por adelantado y que se pueden ofrecer de forma coherente a un objetivo.
-* **Las** reglas de presentación son reglas de tipología a las que se hace referencia en el entorno de oferta, lo que permite excluir algunas ofertas teniendo en cuenta el historial de propuestas.
-* **** Fórmulas de ponderación que permiten calcular con precisión la importancia de una oferta, para poder seleccionar la oferta más relevante. Los pesos se definen en las ofertas. Las ofertas elegibles se tienen en cuenta en orden de peso reducido.
-* **La** función de renderización se define en el espacio de oferta para crear su representación de oferta en función de los atributos definidos en la oferta. Existen tres modos de función de renderización diferentes: HTML, XML y texto.
-* **La** propuesta de oferta es el resultado de la acción que consiste en presentar una o varias ofertas a un contacto en un espacio determinado (titular de un sitio web, correo electrónico o SMS, por ejemplo). Este resultado se almacena en la tabla de ofertas propuestas. No obstante, no es obligatorio guardar las propuestas.
-* **** Simulationes un módulo que permite probar la presentación de las ofertas en los destinatarios objetivo antes de enviar las ofertas.
-* La **Preview** de la oferta muestra la oferta tal como se muestra en su carpeta. Es accesible desde la ventana de configuración de la oferta o el perfil de contacto.
-* **Los** filtros predefinidos son reglas de filtrado que pueden tener en cuenta los parámetros de oferta (por ejemplo, un código de oferta). Se pueden reutilizar una vez creadas las ofertas.
-* Una **Offer representation** es una información que el canal utiliza para mostrar la oferta. La representación de la oferta puede crearse a partir de la función de procesamiento del espacio en el que la oferta se representa o se introduce directamente en la interfaz (por ejemplo, en el bloque HTML). Una oferta puede representarse por el espacio.
+* **Arbitrage**: seleccionar ofertas que se mostrarán en un entorno (ofertas aptas). El principio de arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
+* **Contact**: un contacto de una interacción entrante. Durante el procesamiento de visualización del motor, el contacto se asocia a una dimensión objetivo. Hay dos tipos de contactos:
+
+   * **[!UICONTROL Identified contact]** : un contacto que se ha identificado voluntariamente en el canal. En las interacciones de salida, el contacto se identifica automáticamente.
+   * **[!UICONTROL Anonymous contact]** : contacto que no se ha suscrito oficialmente a través del canal, pero que puede identificarse implícitamente mediante una cookie. Esta terminología solo se utiliza para interacciones entrantes.
+
+      >[!NOTE]
+      >
+      >Los contactos no identificados y anónimos se atribuyen a la dimensión objetivo del visitante.
+
+* **Interacción saliente**: acceso al motor de oferta desde una lista de contactos (utilizada para enviar correos electrónicos, correo postal, etc.). Se aplican las mismas reglas y procesos a cada contacto. Este tipo de interacción se procesa generalmente en modo por lotes.
+* **Inbound interaction**: interacción después de una llamada entrante generada por la acción de un contacto en el canal. Este tipo de interacción se procesa generalmente en modo unitario.
+* **Batch mode**: el modo por lotes permite seleccionar la mejor oferta para un conjunto de contactos. Las reglas de idoneidad/priorización se aplican a todos los contactos del conjunto. Este modo se utiliza generalmente para interacciones salientes.
+* **Unitary mode**: se procesa un solo contacto cada vez. Este modo se utiliza generalmente para interacciones entrantes y mensajes transaccionales.
+* **Identification mode**: hace referencia al estado de un contacto.
+
+   * **[!UICONTROL explicit]** : el contacto se identifica siguiendo su inicio de sesión en la interfaz del canal.
+   * **[!UICONTROL implicit]** : el contacto se ha identificado mediante una cookie (permanente o por sesión). Puede procesarse como contacto anónimo o identificado.
+   * **[!UICONTROL anonymous]** : el contacto no se puede identificar.
+
+* **Eligible offer**: ofrece a las reuniones las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un objetivo.
+* **Presentation rules**: reglas de tipología a las que se hace referencia en el entorno de la oferta, que le permiten excluir algunas ofertas tomando en cuenta el historial de propuestas.
+* **Weight**: las fórmulas que permiten calcular con precisión la importancia de una oferta, para poder seleccionar la oferta más relevante. Los pesos se definen en las ofertas. Las ofertas elegibles se tienen en cuenta en orden de peso reducido.
+* **Rendering function**: función definida en el espacio de oferta para crear su representación de oferta basada en los atributos definidos en la oferta. Existen tres modos de función de renderización diferentes: HTML, XML y texto.
+* **Offer proposition**: resultado de la acción que consiste en presentar una o varias ofertas a un contacto en un espacio determinado (titular de un sitio web, correo electrónico o SMS, por ejemplo). Este resultado se almacena en la tabla de ofertas propuestas. No obstante, no es obligatorio guardar las propuestas.
+* **Simulation**: módulo que permite probar la presentación de las ofertas en los destinatarios objetivo antes de enviar las ofertas.
+* **Preview**: previsualización de la oferta tal y como se muestra en su carpeta. Es accesible desde la ventana de configuración de la oferta o el perfil de contacto.
+* **filtros predefinidos**: las reglas de filtrado predefinidas pueden tener en cuenta los parámetros de oferta (por ejemplo, un código de oferta). Se pueden reutilizar una vez creadas las ofertas.
+* **Offer representation**: información utilizada por el canal para mostrar la oferta. La representación de la oferta puede crearse a partir de la función de procesamiento del espacio en el que la oferta se representa o se introduce directamente en la interfaz (por ejemplo, en el bloque HTML). Una oferta puede representarse por el espacio.
+* **Changeover process**: un proceso activado en un entorno identificado, responsable de dirigir la llamada a un entorno anónimo si el contacto no se ha identificado explícitamente o está identificado de forma implícita.

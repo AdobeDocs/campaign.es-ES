@@ -5,20 +5,20 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: 7234ca65f785b005b11851a5cd88add8cddeff4f
 workflow-type: tm+mt
 source-wordcount: '102'
 ht-degree: 55%
 
 ---
 
-# Creación de filtros predefinidos{#creating-predefined-filters}
+# Creación de filtros predefinidos{#creating-pre-defined-filters}
 
 Cree filtros predefinidos para definir reglas de idoneidad para la población objetivo que se puedan reutilizar fácilmente durante la creación de la oferta. Son específicos a cada entorno y toman en cuenta los parámetros de oferta.
 
 Para crear un filtro predefinido, siga el siguiente proceso:
 
-1. Vaya a la carpeta **[!UICONTROL Administration]** y seleccione **[!UICONTROL Pre-defined offer filters]**.
+1. Vaya a la **[!UICONTROL Administration]** carpeta y seleccione **[!UICONTROL Pre-defined offer filters]**.
 
    ![](assets/offer_filter_create_005.png)
 

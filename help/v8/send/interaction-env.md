@@ -5,14 +5,16 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: a02d47f172a2c3021a30834adaeb5170a9801b5c
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 43%
+source-wordcount: '393'
+ht-degree: 53%
 
 ---
 
-# Entornos en directo y de diseño{#live-design-environments}
+# Trabajar con entornos{#work-with-environments}
+
+## Entornos en directo y de diseño{#live-design-environments}
 
 La interacción funciona con dos tipos de entornos de oferta:
 
@@ -23,7 +25,7 @@ La interacción funciona con dos tipos de entornos de oferta:
 
 Cada entorno **[!UICONTROL Design]** está relacionado con un entorno **[!UICONTROL Live]**. Cuando se completa una oferta, sus reglas de contenido y de idoneidad están sujetas a un ciclo de aprobación. Una vez completado este ciclo, la oferta correspondiente se implementa automáticamente en el entorno **[!UICONTROL Live]**. A partir de este momento, estará disponible para su envío.
 
-De forma predeterminada, Campaign viene con un entorno **[!UICONTROL Design]** y un entorno **[!UICONTROL Live]** vinculado a él. Ambos entornos están preconfigurados para dirigirse a la [tabla de destinatarios integrada](../dev/datamodel.md#ootb-profiles).
+De forma predeterminada, Campaign viene con un **[!UICONTROL Design]** entorno y **[!UICONTROL Live]** entorno vinculado a él. Ambos entornos están preconfigurados para dirigirse al [tabla de destinatarios integrada](../dev/datamodel.md#ootb-profiles).
 
 >[!NOTE]
 >
@@ -31,17 +33,19 @@ De forma predeterminada, Campaign viene con un entorno **[!UICONTROL Design]** y
 
 ![](assets/offer_environments_overview_002.png)
 
-Los administradores de envío solo pueden ver el entorno **[!UICONTROL Live]** y aprovechar las ofertas para enviarlas. Los administradores de ofertas pueden ver y utilizar el entorno **[!UICONTROL Design]** y ver el entorno **[!UICONTROL Live]**. [Más información](interaction-operators.md)
+Los administradores de envío solo pueden ver la **[!UICONTROL Live]** entorno y aproveche las ofertas para ofrecerlas. Los administradores de ofertas pueden ver y utilizar la variable **[!UICONTROL Design]** y vea la **[!UICONTROL Live]** entorno. [Más información](interaction-operators.md)
 
-## Creación de un entorno de oferta {#creating-an-offer-environment}
+## Creación de un entorno para interacciones anónimas{#create-an-offer-environment}
 
-De forma predeterminada, Campaign viene con un entorno integrado para dirigirse a la tabla de destinatarios (ofertas identificadas). Para dirigirse a otra tabla, siga los pasos a continuación:
+De forma predeterminada, Campaign viene con un entorno integrado para dirigirse a la tabla de destinatarios (ofertas identificadas). Para dirigirse a otra tabla, como perfiles anónimos que visitan el sitio web para interacciones entrantes, debe actualizar la configuración.
+
+Siga estos pasos:
 
 1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**, haga clic con el botón derecho en la asignación de destino que desee utilizar y seleccione **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. Haga clic en **[!UICONTROL Next]**, seleccione la opción **[!UICONTROL Generate a storage schema for propositions]** y haga clic en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Next]**, seleccione **[!UICONTROL Generate a storage schema for propositions]** y haga clic en **[!UICONTROL Save]**.
 
    ![](assets/offer_env_anonymous_002.png)
 
@@ -49,4 +53,16 @@ De forma predeterminada, Campaign viene con un entorno integrado para dirigirse 
    >
    >Si la opción ya está marcada, desmarque y vuelva a seleccionarla.
 
-1. Adobe Campaign crea dos entornos - **[!UICONTROL Design]** y **[!UICONTROL Live]** - con información de objetivo de la asignación de destino habilitada anteriormente. El entorno está preconfigurado con la información de objetivo.
+1. Adobe Campaign crea dos entornos: **[!UICONTROL Design]** y **[!UICONTROL Live]** - con información de objetivo de la asignación de destino habilitada anteriormente. El entorno está preconfigurado con la información de objetivo.
+
+Si ha activado la asignación **[!UICONTROL Visitor]**, la casilla **[!UICONTROL Environment dedicated to incoming anonymous interactions]** se marca automáticamente en la pestaña **[!UICONTROL General]** del entorno.
+
+Esta opción permite activar funciones específicas de interacción anónimas, especialmente al configurar espacios de oferta de entorno. También puede configurar opciones que le permiten cambiar de un entorno “identificado” a un entorno “anónimo”.
+
+Por ejemplo, puede vincular un entorno de destinatario con espacio de ofertas (contacto identificado) con un espacio de oferta que coincida con un entorno de visitante (contacto no identificado). De este modo, se pondrán a disposición del contacto diferentes ofertas en función de si este contacto está identificado o no. Para obtener más información, consulte [Creación de espacios de ofertas](interaction-offer-spaces.md).
+
+![](assets/offer_env_anonymous_003.png)
+
+>[!NOTE]
+>
+>Para obtener más información sobre interacciones anónimas en un canal entrante, consulte [Interacciones anónimas](anonymous-interactions.md).
