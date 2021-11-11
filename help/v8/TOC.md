@@ -5,9 +5,9 @@ description: Documentación de Campaign v8
 breadcrumb-title: Campaign v8
 title: Documentos de Campaign v8
 source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '236'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 86%
    + [Mensajería LINE](send/line.md)
    + [Correo directo](send/direct-mail.md)
    + [Mensajes transaccionales](send/transactional.md)
-   + Administrar ofertas con la interacción de Campaign{#interaction}
+   + Administración de ofertas con la interacción de Campaign{#interaction}
       + [Introducción a la interacción en tiempo real](send/interaction.md)
       + [Entornos y arquitectura](send/interaction-architecture.md)
       + [Prácticas recomendadas](send/interaction-best-practices.md)
@@ -60,10 +60,10 @@ ht-degree: 86%
       + [Creación de un catálogo de ofertas](send/interaction-offer-catalog.md)
       + [Creación de una oferta](send/interaction-offer.md)
       + [Enviar una oferta (saliente)](send/interaction-send-offers.md)
-      + Presentar una oferta (entrante){#inbound}
+      + Presentación de una oferta (entrante){#inbound}
          + [Contexto](send/interaction-present-offers.md)
          + [Invocación de una oferta en una página web](send/interaction-integration.md)
-         + [Administrar interacciones anónimas](send/anonymous-interactions.md)
+         + [Administración de interacciones anónimas](send/anonymous-interactions.md)
       + [Informes e historial](send/interaction-tracking.md)
       + [Casos de uso](send/interaction-use-cases.md)
 + Configurar {#config}
