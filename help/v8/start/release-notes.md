@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
 source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1574'
-ht-degree: 51%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ _28 de octubre de 2021_
 <tbody>
 <tr>
 <td>
-<p>La administración de interacciones en tiempo real ya está disponible para los canales entrantes. Utilice el módulo Interacción entrante de Campaign para presentar la mejor oferta a sus clientes cuando visiten su sitio web o contacten con su centro de llamadas. Esta capacidad viene con Campaign v8 como opción y requiere una configuración específica en la instancia. Póngase en contacto con el representante de Adobe para que tenga acceso al módulo de interacción entrante.</p>
+<p>Real-time lnteraction Management ya está disponible para los canales entrantes. Utilice el módulo Interacción entrante de Campaign para presentar la mejor oferta a sus clientes cuando visiten su sitio web o contacten con su centro de llamadas. Esta capacidad viene como opción con Campaign v8 y requiere una configuración específica en la instancia. Póngase en contacto con el representante de Adobe para tener acceso al módulo de interacción entrante.</p>
 <p>Para obtener más información, consulte la <a href="../send/interaction-architecture.md">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -45,8 +45,8 @@ _28 de octubre de 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Ya está disponible el módulo Campaign Optimization (Optimización de la campaña). Este módulo permite controlar, filtrar y monitorizar la entrega de envíos. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.</p>
-<p>Para obtener más información, consulte las <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html">Documentación de Campaign Classic v7</a>.</p>
+<td> <p>Ya está disponible el módulo Optimización de la campaña. Este módulo permite controlar, filtrar y monitorizar la entrega de envíos. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.</p>
+<p>Para obtener más información, consulte la <a href="https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/about-campaign-typologies.html?lang=es">Documentación de Campaign Classic v7</a> relacionada.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -59,48 +59,48 @@ _28 de octubre de 2021_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Unicity Service es un nuevo componente de Cloud Database Manager. Ayuda a los usuarios a preservar y controlar la integridad de las restricciones clave únicas dentro de las tablas de la base de datos de la nube. Esto le permite reducir el riesgo de insertar claves duplicadas.
-<p>Como la base de datos de Cloud no impone restricciones de unicidad, el servicio de Unicity introduce a nivel de aplicación, <b>un conjunto de nuevas barreras</b> reduzca el riesgo de insertar duplicados al administrar los datos con Adobe Campaign.</p> 
-<p>Unicity Service inicia un nuevo flujo de trabajo integrado denominado <b>ffdaUnicity</b> para controlar las restricciones de unicidad y avisar cuando se detecten duplicados.</p></td> </tr> 
+<td> <p>El Servicio de unicidad es un nuevo componente del administrador de bases de datos de Cloud. Ayuda a los usuarios a preservar y controlar la integridad de las restricciones clave únicas dentro de las tablas de la base de datos de la nube. Esto le permite reducir el riesgo de insertar claves duplicadas.
+<p>Como la base de datos de Cloud no impone restricciones de unicidad, el servicio de unicidad introduce en el nivel de aplicación, <b>un conjunto de nuevas barreras</b> que reduce el riesgo de insertar duplicados al administrar los datos con Adobe Campaign.</p> 
+<p>El Servicio de unicidad inicia un nuevo flujo de trabajo integrado denominado <b>ffdaUnicity</b> para monitorizar las restricciones de unicidad y avisar cuando se detecten duplicados.</p></td> </tr> 
 </tbody> 
 </table>
 
 **Mejoras**
 
-* El conector del Snowflake se ha mejorado en términos de rendimiento.
-* A efectos de supervisión y ensayo, los registros de auditoría de la variable **[!UICONTROL Replicate Staging data]** Ahora, el flujo de trabajo incluye el número de registros que se han enviado a la base de datos de FFDA (acceso de datos federado completo).
-* La actividad SQL code ahora le permite elegir en qué base de datos se almacenará el script SQL: la fuente de datos predeterminada o una cuenta externa de FDA activa seleccionada.
+* El conector de Snowflake se ha mejorado en términos de rendimiento.
+* A efectos de monitorización y pruebas, los registros de auditoría del flujo de trabajo **[!UICONTROL Replicate Staging data]** ahora incluyen el número de registros que se han enviado a la base de datos de FFDA (acceso de datos federado completo).
+* La actividad de código SQL ahora le permite elegir en qué base de datos se almacenará el script SQL: la fuente de datos predeterminada o una cuenta externa de FDA activa seleccionada.
 * Ya está disponible un conjunto de almacenes predefinidos que pueden utilizarse para ejecutar varias consultas en paralelo, como segmentación, ETL o picos. [Más información](../config/workflows.md)
 
 **Otros cambios**
 
 * La variable **[!UICONTROL Encrypted identifier]** se ha añadido al esquema del visitante (`nms:visitor`). Este campo se calcula y se utiliza para aplicaciones web.
-* Se ha corregido un problema que hacía que el análisis de envío fallara cuando existían algunas afinidades de IP en algunos contenedores de mid-sourcing, pero no en todos ellos. Ahora todas las afinidades de IP se almacenan en la base de datos, de modo que cualquier contenedor pueda acceder a las afinidades presentes en todos los demás contenedores. (NEO-37564)
+* Se ha corregido un problema que hacía que el análisis de entrega fallara cuando existían algunas afinidades de IP en algunos contenedores de intermediario, pero no en todos ellos. Ahora todas las afinidades de IP se almacenan en la base de datos, de modo que cualquier contenedor pueda acceder a las afinidades presentes en todos los demás contenedores. (NEO-37564)
 * Ahora puede importar un paquete con varios esquemas y nodos de árbol de navegación.
 
 **Parches**
 
-* Después de que un usuario haya eliminado, en un esquema de datos, la variable `<autoStg>` de un elemento de definición de tabla o cambió su valor de `true` a `false`, no se eliminó la tabla de ensayo relacionada. Este problema se ha corregido.
+* Después de que un usuario eliminara, en un esquema de datos, la variable `<autoStg>` de un elemento de definición de tabla, o cambiara su valor de `true` a `false`, no se eliminaba la tabla de ensayo relacionada. Este problema se ha corregido.
 * Se ha corregido un problema que provocaba un error al crear registros con un formulario dedicado debido a la administración de ID con un origen de datos de FFDA.
-* Se ha corregido un problema que podía impedir que las ofertas se insertaran en una entrega si las ofertas se gestionaban mediante una actividad de enriquecimiento en un flujo de trabajo.
+* Se ha corregido un problema que podía impedir que las ofertas se insertaran en una entrega si se gestionaban mediante una actividad de enriquecimiento en un flujo de trabajo.
 * Se ha corregido un problema que podía ralentizar la importación de paquetes.
-* Se ha corregido un problema que podía impedir que se enviaran envíos de correo electrónico con direcciones semilla.
+* Se ha corregido un problema que podía impedir que se enviaran entregas de correo electrónico con direcciones semilla.
 * Se ha corregido un problema que podía impedir que las propuestas se guardaran en la tabla de propuestas de ofertas.
 * Se ha corregido un problema que provocaba que los problemas de tiempo de espera de red se registraran incorrectamente como problemas de interrupción de secuencia de comandos en lugar de errores de red. Este problema ocurría en el caso de solicitudes HTTP incluidas en actividades JavaScript.
-* Se ha corregido un problema que impedía que las ofertas se replicaran en el entorno de ofertas en directo en el Snowflake.
-* Se ha corregido un problema que ignoraba el atributo &quot;autoStg&quot; para esquemas integrados no ampliados.
-* Se ha corregido un problema que impedía que los usuarios seleccionaran la variable **[!UICONTROL Country/Region]** al obtener una vista previa de un perfil.
-* Se ha corregido un problema que provocaba que el selector de fecha en los informes personalizados produjera un error de secuencia de comandos. (NEO-36345)
+* Se ha corregido un problema que impedía que las ofertas se replicaran en el entorno de ofertas en directo en Snowflake.
+* Se ha corregido un problema que ignoraba el atributo autoStg para esquemas integrados no ampliados.
+* Se ha corregido un problema que impedía que los usuarios seleccionaran el vínculo **[!UICONTROL Country/Region]** al obtener una vista previa de un perfil.
+* Se ha corregido un problema que provocaba que el selector de fecha en los informes personalizados produjera un error de script. (NEO-36345)
 * Se ha corregido un problema que hacía que el sistema se bloqueara al regenerar la configuración en caso de archivos de configuración incorrectos.
 * Se ha corregido un problema que impedía que las instancias de marketing y control se actualizaran correctamente.
-* Se ha corregido un problema que podría provocar que el flujo de trabajo de facturación se bloquee en las instancias de marketing.
-* Se ha corregido un problema que podría provocar la duplicación de claves en tablas predeterminadas del Snowflake de FFDA. (NEO-38583)
-* Se ha corregido un problema que podría provocar la pérdida de esquemas temporales de flujo de trabajo al editar dos actividades de deduplicación una tras otra. (NEO-34063)
+* Se ha corregido un problema que podía provocar que el flujo de trabajo de facturación se bloqueara en las instancias de marketing.
+* Se ha corregido un problema que podía provocar la duplicación de claves en tablas predeterminadas de Snowflake de FFDA. (NEO-38583)
+* Se ha corregido un problema que podía provocar la pérdida de esquemas temporales de flujo de trabajo al editar dos actividades de anulación de duplicación una tras otra. (NEO-34063)
 * Se ha corregido un problema que devolvía resultados incorrectos al ejecutar las funciones Amazon Redshift HoursDiff y MinutesDiff al intentar extraer el componente de tiempo.(NEO-31673)
 * Se ha corregido un problema que podía impedir que los usuarios iniciaran sesión en la consola debido a un problema de configuración de proxy. (NEO-38388)
-* Se ha corregido un problema de regresión que impedía que el **Purge folder** funcionara correctamente. (NEO-37459)
+* Se ha corregido un problema de regresión que impedía que la funcionalidad **Purgar carpeta** funcionara correctamente. (NEO-37459)
 * Se ha corregido un problema que podía impedir que previsualizara los envíos móviles adjuntos a un flujo de trabajo.
-* Se ha corregido un problema que podía impedir que se mostrara la variable **Lista de lectura** la actividad de flujo de trabajo funcionaba cuando la lista se identificaba en la base de datos con un ID negativo. (NEO-39607)
+* Se ha corregido un problema que podía impedir que la actividad de flujo de trabajo **Leer lista** funcionara cuando la lista se identificaba en la base de datos con un ID negativo. (NEO-39607)
 
 ## Versión 8.1.20 {#release-8-1-20}
 
