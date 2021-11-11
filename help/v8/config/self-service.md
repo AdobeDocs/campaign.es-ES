@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 50e138853b047c27b106401f007043a0fcb45f07
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -40,15 +40,15 @@ En el Panel de control, puede interactuar con todos los servidores SFTP conectad
 
 ## Subdominios y certificados
 
-Obtenga información sobre cómo supervisar los subdominios y sus certificados.
+Obtenga información sobre cómo monitorizar los subdominios y sus certificados.
 
-* [Supervisión de subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html){target=&quot;_blank&quot;}
-* [Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html){target=&quot;_blank&quot;}
-* [Supervisión de los certificados SSL de los subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html){target=&quot;_blank&quot;}
+* [Monitorización de subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=es){target=&quot;_blank&quot;}
+* [Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es){target=&quot;_blank&quot;}
+* [Monitorización de los certificados SSL de los subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es){target=&quot;_blank&quot;}
 
-## Supervisión del rendimiento
+## Monitorización del rendimiento
 
-Panel de control de Campaign proporciona varias funcionalidades que le ayudan a supervisar las instancias y garantizar un rendimiento óptimo. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target=&quot;_blank&quot;}
+El Panel de control de Campaign proporciona varias funcionalidades que le ayudan a monitorizar las instancias y garantizar un rendimiento óptimo. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target=&quot;_blank&quot;}
 
 
 ## Configuración de instancias
