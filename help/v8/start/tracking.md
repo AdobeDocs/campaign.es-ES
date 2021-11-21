@@ -4,7 +4,8 @@ description: Introducción a las funcionalidades de seguimiento y monitorizació
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 76269d65246010af60fda84b388a7c74269e236f
+exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 50%
@@ -21,7 +22,7 @@ Para obtener más información, consulte la [documentación de Campaign Classic 
 
 El panel de envío es una herramienta clave para monitorizar los envíos y los problemas potenciales durante el envío de mensajes.
 
-Para obtener más información, consulte [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
+Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=en#sending-messages){target=&quot;_blank&quot;}.
 
 A continuación se enumeran las funciones de seguimiento clave disponibles en Campaign.
 
@@ -50,7 +51,7 @@ Las funciones de seguimiento de Campaign le permiten añadir vínculos en correo
 
 **Registros de seguimiento**
 
-El flujo de trabajo técnico **Tracking** recupera los datos de seguimiento una vez que se ha enviado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío.
+La variable **Seguimiento** flujo de trabajo técnico recupera los datos de seguimiento una vez que se ha realizado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío.
 
 [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
@@ -118,16 +119,16 @@ Adobe Campaign ofrece un conjunto de funcionalidades para supervisar sus proceso
 
 La monitorización de las entregas una vez enviadas es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
 
-Obtenga más información sobre la información que puede monitorizar después de realizar un envío, comprenda cómo se administran los errores y cuarentenas de envío en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+Obtenga más información sobre la información que puede monitorizar después de realizar un envío, comprenda cómo se administran los errores y cuarentenas de envío en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=en#sending-messages){target=&quot;_blank&quot;}
 
 ### Monitorización de los flujos de trabajo
 
-Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo en  [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
 
 ### Supervisión de la instancia
 
-Las directrices de monitorización de instancias están disponibles en la [documentación del Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=en#monitoring-campaign-classic){target=&quot;_blank&quot;}
+Las directrices de monitorización de instancias están disponibles en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html?lang=en#monitoring-campaign-classic){target=&quot;_blank&quot;}
 
 Utilice la interfaz de autoservicio de pista de auditoría para supervisar los cambios realizados dentro de la instancia. La pista de auditoría captura, en tiempo real, una lista completa de las acciones y eventos que se producen dentro de la instancia de Adobe Campaign. Puede acceder a un historial de datos para responder preguntas como: qué ha pasado con sus flujos de trabajo y quién los actualizó por última vez o qué han hecho los usuarios en la instancia.
 
-Obtenga más información sobre la pista de auditoría en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target=&quot;_blank&quot;}
+Obtenga más información sobre la pista de auditoría en  [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target=&quot;_blank&quot;}

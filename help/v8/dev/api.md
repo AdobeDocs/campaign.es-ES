@@ -4,18 +4,19 @@ description: 'Introducción a las API de Campaign '
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 12%
 
 ---
 
-# Introducción a las API [!DNL Campaign]{#gs-ac-api}
+# Introducción con [!DNL Campaign] API{#gs-ac-api}
 
 [!DNL Adobe Campaign] viene con un conjunto de funciones de JavaScript que puede utilizar:
 
-* en scripts: en flujos de trabajo [!DNL Adobe Campaign]
+* en scripts: en [!DNL Adobe Campaign] flujos de trabajo
 * mediante API: desde sistemas externos
 
 Puede utilizar las API de JavaScript para escribir en la base de datos de Campaign cloud o leer desde la base de datos:
@@ -31,26 +32,26 @@ Campaign v8 funciona con dos bases de datos: una base de datos local para la int
 
 ## Requisitos previos
 
-Antes de utilizar las API [!DNL Adobe Campaign], debe conocer los siguientes temas:
+Antes de usar [!DNL Adobe Campaign] , debe conocer los siguientes temas:
 
 * JavaScript
 * Protocolo SOAP
 * [!DNL Adobe Campaign] datamodel
 
-Para utilizar API e interactuar con [!DNL Adobe Campaign], también debe estar familiarizado con el modelo de datos.
+Para utilizar las API e interactuar con [!DNL Adobe Campaign], también debe estar familiarizado con el modelo de datos.
 
 >[!NOTE]
 >Puede generar una descripción completa del modelo de datos. Obtenga más información en [esta página](datamodel.md).
 
 ## [!DNL Campaign] Mecanismo de ensayo de API
 
-Con la [!DNL Campaign] base de datos en la nube, no se recomiendan las llamadas unitarias de blast debido al rendimiento (latencia y concurrencia). Siempre se prefiere el funcionamiento por lotes. Para garantizar un rendimiento óptimo de las API, Campaign sigue gestionando las llamadas de API a nivel de base de datos local.
+con [!DNL Campaign] No se recomiendan las llamadas unitarias a la base de datos en la nube o a blast debido al rendimiento (latencia y concurrencia). Siempre se prefiere el funcionamiento por lotes. Para garantizar un rendimiento óptimo de las API, Campaign sigue gestionando las llamadas de API a nivel de base de datos local.
 
 ![](../assets/do-not-localize/glass.png) [El mecanismo de ensayo de la API se detalla en esta página](staging.md)
 
 ## Nuevas API
 
-Hay nuevas API disponibles para administrar la sincronización de datos entre la base de datos local [!DNL Campaign] y la base de datos de Cloud. También se ha introducido un nuevo mecanismo para gestionar llamadas de API a nivel de base de datos local para evitar la latencia y aumentar el rendimiento general.
+Hay nuevas API disponibles para administrar la sincronización de datos entre [!DNL Campaign] base de datos local y base de datos en la nube. También se ha introducido un nuevo mecanismo para gestionar llamadas de API a nivel de base de datos local para evitar la latencia y aumentar el rendimiento general.
 
 ![](../assets/do-not-localize/glass.png) [Las nuevas API se detallan en esta página](new-apis.md)
 

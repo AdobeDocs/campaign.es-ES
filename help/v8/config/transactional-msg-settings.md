@@ -14,11 +14,11 @@ ht-degree: 22%
 
 # Configuración de mensajería transaccional
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
-![](../assets/do-not-localize/glass.png) Las funcionalidades de mensajería transaccional se detallan en  [esta sección](../send/transactional.md).
+![](../assets/do-not-localize/glass.png) Las capacidades de mensajería transaccional se detallan en [esta sección](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Comprenda la arquitectura de mensajería transaccional en  [esta página](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Comprenda la arquitectura de mensajería transaccional en [esta página](../dev/architecture.md).
 
 ## Definir permisos
 
@@ -26,15 +26,15 @@ Para crear nuevos usuarios para las instancias de ejecución del Centro de Mensa
 
 ## Extensiones de esquema
 
-Todas las extensiones de esquema realizadas en los esquemas utilizados por **flujos de trabajo técnicos del centro de mensajes** en cualquiera de las instancias de control o ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional de Adobe Campaign.
+Todas las extensiones de esquema realizadas en los esquemas utilizados por **Flujos de trabajo técnicos del centro de mensajes** en las instancias de control o ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional de Adobe Campaign.
 
-![](../assets/do-not-localize/book.png) Obtenga más información sobre los flujos de trabajo técnicos del centro de mensajes en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
+![](../assets/do-not-localize/book.png) Obtenga más información sobre los flujos de trabajo técnicos del centro de mensajes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/additional-configurations.html#technical-workflows)
 
 ## Enviar notificaciones push transaccionales
 
 Cuando se combina con el módulo de canal de aplicaciones móviles, la mensajería transaccional permite enviar mensajes transaccionales mediante notificaciones en dispositivos móviles.
 
-![](../assets/do-not-localize/book.png) El canal de aplicaciones móviles se detalla en la documentación [ de ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages)Campaign Classic v7 .
+![](../assets/do-not-localize/book.png) El canal de aplicaciones móviles se detalla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 Para enviar notificaciones push transaccionales, debe realizar las siguientes configuraciones:
 
@@ -44,12 +44,12 @@ Para enviar notificaciones push transaccionales, debe realizar las siguientes co
    >
    >Compruebe el acuerdo de licencia antes de instalar un nuevo paquete integrado de Campaign.
 
-1. Repita el servicio **Mobile application** y las aplicaciones móviles asociadas en las instancias de ejecución.
+1. Repita el **Aplicación móvil** y las aplicaciones móviles asociadas en las instancias de ejecución.
 
 Para que Campaign envíe notificaciones push transaccionales, el evento debe contener los siguientes elementos:
 
 * El ID del dispositivo móvil: **registrationId** para Android y **deviceToken** para iOS. Esta ID representa la “dirección” a la que se envía la notificación.
-* El vínculo a la aplicación móvil o clave de integración (**uuid**) que permite recuperar la información de conexión específica de la aplicación.
+* El vínculo a la aplicación móvil o clave de integración (**uuid**), que permite recuperar información de conexión específica de la aplicación.
 * El canal al que se enviará la notificación (**wishedChannel**): 41 para iOS y 42 para Android.
 * Otros datos que se pueden aprovechar para la personalización.
 

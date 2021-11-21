@@ -8,7 +8,7 @@ exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
 source-git-commit: a02d47f172a2c3021a30834adaeb5170a9801b5c
 workflow-type: tm+mt
 source-wordcount: '393'
-ht-degree: 53%
+ht-degree: 58%
 
 ---
 
@@ -59,7 +59,7 @@ Si ha activado la asignación **[!UICONTROL Visitor]**, la casilla **[!UICONTROL
 
 Esta opción permite activar funciones específicas de interacción anónimas, especialmente al configurar espacios de oferta de entorno. También puede configurar opciones que le permiten cambiar de un entorno “identificado” a un entorno “anónimo”.
 
-Por ejemplo, puede vincular un entorno de destinatario con espacio de ofertas (contacto identificado) con un espacio de oferta que coincida con un entorno de visitante (contacto no identificado). De este modo, se pondrán a disposición del contacto diferentes ofertas en función de si este contacto está identificado o no. Para obtener más información, consulte [Creación de espacios de ofertas](interaction-offer-spaces.md).
+Por ejemplo, puede vincular un entorno de destinatario con espacio de ofertas (contacto identificado) con un espacio de oferta que coincida con un entorno de visitante (contacto no identificado). De esta manera, se ponen a disposición del contacto distintas ofertas en función de si está, o no, identificado. Para obtener más información, consulte [Creación de espacios de ofertas](interaction-offer-spaces.md).
 
 ![](assets/offer_env_anonymous_003.png)
 

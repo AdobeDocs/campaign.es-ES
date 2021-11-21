@@ -16,7 +16,7 @@ ht-degree: 21%
 
 Los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo.
 
-![](../assets/do-not-localize/book.png)[ Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
+![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html).
 
 ## Creación de la primera entrega de correo electrónico
 
@@ -29,7 +29,7 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
 
 1. **Creación de la entrega**
 
-   Para crear un nuevo envío, vaya a la pestaña **Campaigns** , haga clic en **Deliveries** y haga clic en el botón **Create** situado encima de la lista de envíos existentes.
+   Para crear un nuevo envío, vaya a la **Campañas** , haga clic en **Entregas** y haga clic en el botón **Crear** situado encima de la lista de envíos existentes.
 
    ![](assets/delivery_step_1.png)
 
@@ -41,7 +41,7 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
 
 1. **Importar el contenido**
 
-   Haga clic en la pestaña **Source** para pegar el contenido del HTML.
+   Haga clic en el **Fuente** para pegar el contenido del HTML.
 
    ![](assets/paste-content.png)
 
@@ -51,7 +51,7 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
 
    * Añadir el nombre y los apellidos de los destinatarios
 
-      Para insertar el nombre y los apellidos de los perfiles de destino en el contenido del mensaje, coloque el cursor donde desee insertarlos, haga clic en el último icono de la barra de herramientas y, a continuación, haga clic en **[!UICONTROL Include]** y seleccione **[!UICONTROL Greetings]**.
+      Para insertar el nombre y los apellidos de los perfiles de destino en el contenido del mensaje, coloque el cursor donde desee insertarlos y haga clic en el último icono de la barra de herramientas y, a continuación, haga clic en **[!UICONTROL Include]** y seleccione **[!UICONTROL Greetings]**.
 
       ![](assets/include-greetings.png)
 
@@ -61,7 +61,7 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
 
    * Inserción de un vínculo rastreado
 
-      Para transferir los destinatarios de envíos a una dirección externa a través de una imagen o un texto, selecciónelos y haga clic en el icono **[!UICONTROL Add a link]** de la barra de herramientas.
+      Para transferir los destinatarios de envíos a una dirección externa a través de una imagen o un texto, selecciónelos y haga clic en el botón **[!UICONTROL Add a link]** en la barra de herramientas.
 
       Introduzca la dirección URL del vínculo en el campo **URL** con el formato **https://www.myURL.com** y, a continuación, confirme la acción.
 
@@ -72,7 +72,7 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
       Para permitir a los destinatarios ver el contenido de la entrega en un navegador web, añada un vínculo a la página espejo del mensaje.
 
       Sitúe el cursor donde desee insertar este vínculo, haga clic en el último icono de la barra de herramientas y, a continuación, haga clic en **[!UICONTROL Include]** y seleccione **[!UICONTROL link to mirror page]**.
-   Una vez que el contenido esté listo, haga clic en **Guardar**: ahora se muestra en la lista de envíos, en la pestaña **[!UICONTROL Campaigns > Deliveries]**. Su primer envío de correo electrónico está listo. Ahora debe definir la audiencia, validar la entrega y enviarlo.
+   Una vez que el contenido esté listo, haga clic en **Guardar**: ahora se muestra en la lista de envíos, en la variable **[!UICONTROL Campaigns > Deliveries]** pestaña . Su primer envío de correo electrónico está listo. Ahora debe definir la audiencia, validar la entrega y enviarlo.
 
 
 Obtenga más información en estas secciones de la documentación de Campaign Classic v7:
@@ -87,7 +87,7 @@ Obtenga más información en estas secciones de la documentación de Campaign Cl
    ![](../assets/do-not-localize/book.png) [Obtenga información sobre cómo definir la población objetivo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html)
 * Validación de una entrega y envío de pruebas
    ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html)
-* Añadir [direcciones semilla](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
+* Agregar [direcciones semilla](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html)
 
 ## Comprobación y validación de los correos electrónicos
 

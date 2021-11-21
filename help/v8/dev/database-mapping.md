@@ -34,7 +34,7 @@ La asignación SQL de nuestro esquema de ejemplo proporciona el siguiente docume
 
 ## Descripción {#description}
 
-El elemento raíz del esquema ya no es **`<srcschema>`**, sino **`<schema>`**.
+El elemento raíz del esquema ya no es **`<srcschema>`**, pero **`<schema>`**.
 
 Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, denominado simplemente esquema. La aplicación Adobe Campaign utilizará este esquema.
 
@@ -44,7 +44,7 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 * tabla: concatenación del área de nombres y nombre del esquema
 
-   En nuestro ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en el atributo **sqltable**:
+   En nuestro ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en la variable **sqltable** atributo:
 
    ```
    <element name="recipient" sqltable="CusRecipient">
@@ -52,7 +52,7 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 * campo: nombre del elemento precedido por un prefijo definido según el tipo (&quot;i&quot; para integer, &quot;d&quot; para double, &quot;s&quot; para string, &quot;ts&quot; para dates, etc.)
 
-   El nombre del campo se introduce mediante el atributo **sqlname** para cada **`<attribute>`** y **`<element>`** escritos:
+   El nombre del campo se introduce mediante la variable **sqlname** atributo para cada tipo **`<attribute>`** y **`<element>`**:
 
    ```
    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -79,9 +79,9 @@ Las restricciones de campo SQL son las siguientes:
 
 ## Campos XML {#xml-fields}
 
-De forma predeterminada, cualquier elemento escrito **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
+De forma predeterminada, cualquier tipo escrito **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
 
-Para rellenar un campo en XML, debe añadir el atributo **xml** con el valor &quot;true&quot; al elemento correspondiente.
+Para rellenar un campo en XML, debe agregar la variable **xml** con el valor &quot;true&quot; al elemento correspondiente.
 
 **Ejemplo**: aquí hay dos ejemplos de uso de campos XML.
 
@@ -118,7 +118,7 @@ Se declara una clave a partir del elemento principal del esquema de datos.
 Las claves obedecen las siguientes reglas:
 
 * Una clave puede hacer referencia a uno o varios campos de la tabla.
-* Una clave se conoce como &#39;primary&#39; (o &#39;priority&#39;) cuando es la primera del esquema que se rellena o si contiene el atributo **internal** con el valor &quot;true&quot;.
+* Una clave se conoce como &#39;primary&#39; (o &#39;priority&#39;) cuando es la primera del esquema que se rellena o si contiene la variable **internal** con el valor &quot;true&quot;.
 
 **Ejemplo**:
 
@@ -198,7 +198,7 @@ Las claves obedecen las siguientes reglas:
 
 ### Clave principal: identificador
 
-La clave principal de las tablas de Adobe Campaign es un **identificador único universal (UUID)** autogenerado por el motor de la base de datos. El valor clave es único en toda la base de datos. El contenido de la clave se genera automáticamente al insertar el registro.
+La clave principal de las tablas de Adobe Campaign es un **ID único universal (UUID)** generado automáticamente por el motor de base de datos. El valor clave es único en toda la base de datos. El contenido de la clave se genera automáticamente al insertar el registro.
 
 **Ejemplo**
 
@@ -256,7 +256,7 @@ Para relaciones de unión mediante Federated Database Access:
 * ![](assets/do-not-localize/join_fda_11.png) : Cardinalidad 1-1
 * ![](assets/do-not-localize/join_fda_1m.png) : Cardinalidad 1-N
 
-![](../assets/do-not-localize/glass.png) Para obtener más información sobre las tablas de FDA, consulte  [Acceso de datos federado](../connect/fda.md).
+![](../assets/do-not-localize/glass.png) Para obtener más información sobre las tablas FDA, consulte [Acceso de datos federado](../connect/fda.md).
 
 Se debe declarar un vínculo en el esquema que contenga la clave externa de la tabla vinculada a través del elemento principal:
 
@@ -270,28 +270,28 @@ Se debe declarar un vínculo en el esquema que contenga la clave externa de la t
 
 Los vínculos obedecen a las siguientes reglas:
 
-* La definición de un vínculo se introduce en **link**-type **`<element>`** con los siguientes atributos:
+* La definición de un vínculo se introduce en una **vínculo**-type **`<element>`** con los siguientes atributos:
 
-   * **nombre**: nombre del vínculo de la tabla de origen,
+   * **name**: nombre del vínculo de la tabla de origen,
    * **target**: nombre del esquema de destino,
-   * **etiqueta**: etiqueta del vínculo,
-   * **revLink**  (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada),
-   * **integridad**  (opcional): integridad referencial de la aparición de la tabla de origen a la aparición de la tabla de destino. Los valores posibles son los siguientes:
+   * **label**: etiqueta del vínculo,
+   * **revLink** (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada),
+   * **integridad** (opcional): integridad referencial de la aparición de la tabla de origen a la aparición de la tabla de destino. Los valores posibles son los siguientes:
 
-      * **definir**: es posible eliminar la incidencia de origen si ya no se hace referencia a ella en una incidencia de destino,
+      * **define**: es posible eliminar la incidencia de origen si ya no se hace referencia a ella en una incidencia de destino,
       * **normal**: al eliminar la ocurrencia de origen, se inicializan las claves del vínculo a la ocurrencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas,
-      * **propio**: la eliminación de la ocurrencia de origen conduce a la eliminación de la ocurrencia de destino,
-      * **Descargar**: igual que  **own**  (en caso de eliminación) o duplica los sucesos (en caso de duplicación),
-      * **neutro**: no hace nada.
-   * **revIntegrity**  (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada),
-   * **revCardinality**  (opcional): con el valor &quot;simple&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada).
-   * **externalJoin**  (opcional): fuerza la unión exterior
-   * **revExternalJoin**  (opcional): fuerza la unión exterior en el enlace inverso
+      * **own**: la eliminación de la ocurrencia de origen conduce a la eliminación de la ocurrencia de destino,
+      * **Descargar**: el mismo **own** (en caso de eliminación) o duplica los sucesos (en caso de duplicación),
+      * **neutral**: no hace nada.
+   * **revIntegrity** (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada),
+   * **revCardinality** (opcional): con el valor &quot;simple&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada).
+   * **externalJoin** (opcional): fuerza la unión exterior
+   * **revExternalJoin** (opcional): fuerza la unión exterior en el enlace inverso
 
 
-* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión (elemento `<join>` ) no necesitan rellenarse porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destino.
+* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión ( `<join>`  element) no es necesario rellenarlos porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destino.
 * Un vínculo consta de dos vínculos intermedios, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema ampliado del esquema de destino.
-* Una unión puede ser una unión externa si se agrega el atributo **externalJoin** con el valor &quot;true&quot; (compatible con PostgreSQL).
+* Una unión puede ser una unión externa si la variable **externalJoin** se agrega, con el valor &quot;true&quot; (compatible con PostgreSQL).
 
 >[!NOTE]
 >
@@ -348,7 +348,7 @@ Esquema ampliado del objetivo (&quot;cus:company&quot;):
 
 Se ha añadido un vínculo inverso a la tabla &quot;cus:recipient&quot; con los siguientes parámetros:
 
-* **nombre**: deducido automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
+* **name**: deducido automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
 * **revLink**: nombre del vínculo inverso
 * **target**: clave del esquema vinculado (&quot;cus:recipient&quot; schema)
 * **unbound**: el vínculo se declara como un elemento de recopilación para una cardinalidad 1-N (de forma predeterminada)
@@ -389,7 +389,7 @@ El valor predeterminado devuelve el identificador del primer archivo de tipo de 
 
 ### Ejemplo 5 {#example-5}
 
-En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; al esquema &quot;cus:empresa&quot;) con el atributo **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
+En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; a esquema &quot;cus:empresa&quot;) con la variable **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
 
 ```
 <srcSchema name="recipient" namespace="cus">

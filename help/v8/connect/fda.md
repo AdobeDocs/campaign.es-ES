@@ -4,7 +4,8 @@ description: Obtenga información sobre cómo trabajar con bases de datos de Cam
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: 391eac2f5e4d4c8c5d4dadd3394798361640e1d8
+exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
+source-git-commit: 94fc2739c538f3aa8b11e0ea69d08f1bfffb5d32
 workflow-type: tm+mt
 source-wordcount: '1843'
 ht-degree: 58%
@@ -13,21 +14,21 @@ ht-degree: 58%
 
 # Acceso de datos federado (FDA){#gs-fda}
 
-Utilice el conector FDA (Acceso de Datos Federados) para conectar Campaign a una o más **bases de datos externas** y procesar la información almacenada en ellas sin afectar a los datos de la base de datos de Campaign Cloud. A continuación, puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.
+Utilice el conector FDA (Acceso de Datos Federados) para conectar Campaign a uno o varios **bases de datos externas** y procesar la información almacenada en ellas sin afectar a los datos de la base de datos de Campaign Cloud. A continuación, puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.
 
 >[!NOTE]
 >
->Las bases de datos compatibles con FDA se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md).
+>Las bases de datos compatibles con FDA se enumeran en la sección [Matriz de compatibilidad](../start/compatibility-matrix.md).
 
 La opción FDA de campaña le permite ampliar el modelo de datos en una base de datos de terceros. Detecta automáticamente la estructura de las tablas de destino y utiliza datos de los orígenes SQL.
 
-Se requieren **permisos específicos** en [!DNL Adobe Campaign] y en la base de datos externa para interactuar juntos. Obtenga más información en [esta sección](#fda-permissions).
+Específico **permissions** se requiere en [!DNL Adobe Campaign] y en la base de datos externa para interactuar juntos. Obtenga más información en [esta sección](#fda-permissions).
 
 ## Prácticas recomendadas y limitaciones
 
 * **Optimización de la personalización de correo electrónico con datos externos**
 
-   Puede preprocesar la personalización de mensajes en un flujo de trabajo dedicado. Para ello, utilice la opción **[!UICONTROL Prepare the personalization data with a workflow]**, disponible en la pestaña **[!UICONTROL Analysis]** de las propiedades de envío.
+   Puede preprocesar la personalización de mensajes en un flujo de trabajo dedicado. Para ello, utilice el **[!UICONTROL Prepare the personalization data with a workflow]** , disponible en la **[!UICONTROL Analysis]** de las propiedades de entrega.
 
    Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados al objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en una base de datos externa.
 
@@ -63,13 +64,13 @@ Debe crear una cuenta externa específica para conectar la instancia de Campaign
 
 Para conseguir esto, siga los pasos a continuación:
 
-1. En Campaña **[!UICONTROL Explorer]**, vaya a **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
+1. Desde campaña **[!UICONTROL Explorer]**, vaya a **[!UICONTROL Administration]** `>` **[!UICONTROL Platform]** `>` **[!UICONTROL External accounts]**.
 
 1. Haga clic en **[!UICONTROL New]**.
 
    >[!NOTE]
    >
-   > Para estar activa, la opción **[!UICONTROL Enabled]** debe estar activada. Si es necesario, desactive esta opción para deshabilitar el acceso a esta base de datos sin eliminar su configuración.
+   > Para estar activo, la variable **[!UICONTROL Enabled]** debe estar activada. Si es necesario, desactive esta opción para deshabilitar el acceso a esta base de datos sin eliminar su configuración.
 
 1. Seleccione **[!UICONTROL External database]** como **[!UICONTROL Type]** de su cuenta externa.
 
@@ -128,7 +129,7 @@ Para ello, una vez que se haya creado el esquema de la tabla externa, debe crear
 
 Para ello, siga estos pasos:
 
-1. Vaya a **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** desde el explorador de Adobe Campaign.
+1. Vaya a **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** del explorador de Adobe Campaign.
 
 1. Cree una nueva asignación de destino y seleccione el esquema que acaba de crear como dimensión de segmentación.
 
@@ -156,19 +157,19 @@ Para ello, siga estos pasos:
 
 ## Permisos{#fda-permissions}
 
-Se requieren **permisos específicos** en [!DNL Adobe Campaign] y en la base de datos externa para interactuar juntos.
+Específico **permissions** se requiere en [!DNL Adobe Campaign] y en la base de datos externa para interactuar juntos.
 
-En primer lugar, para que el usuario pueda realizar operaciones en una base de datos externa a través de FDA, el operador debe tener un derecho específico denominado en [!DNL Adobe Campaign].
+En primer lugar, para que el usuario pueda realizar operaciones en una base de datos externa a través de FDA, el operador debe tener un derecho específico en [!DNL Adobe Campaign].
 
 1. Seleccione el nodo **[!UICONTROL Administration > Access Management > Named Rights]** en el explorador de Adobe Campaign.
 1. Cree un nuevo derecho especificando la etiqueta elegida.
-1. Introduzca el nombre del derecho asignado en el siguiente formato **user:base@server**, donde:
+1. Introduzca el nombre del derecho Nombre en el siguiente formato **usuario:base@server**, donde :
 
-   * **** useres el nombre del usuario en la base de datos externa
-   * **** bases el nombre de la base de datos externa
-   * **** server es el nombre del servidor de base de datos externo
+   * **usuario** es el nombre del usuario en la base de datos externa
+   * **base** es el nombre de la base de datos externa
+   * **server** es el nombre del servidor de base de datos externo
 
-1. Guarde el derecho Nombre y vincúlelo al operador elegido desde el nodo **[!UICONTROL Administration > Access Management > Operators]** del explorador de Adobe Campaign.
+1. Guarde el derecho asignado y vincúlelo al operador elegido desde el **[!UICONTROL Administration > Access Management > Operators]** del explorador de Adobe Campaign.
 
 A continuación, para procesar los datos contenidos en una base de datos externa, el operador de Adobe Campaign debe tener al menos permisos de escritura en la base de datos para poder crear tablas de trabajo. Adobe Campaign elimina automáticamente estas tablas.
 
@@ -179,7 +180,7 @@ Los siguientes permisos son necesarios:
 * **READ &#39;MetaData**: acceso a los catálogos de datos del servidor para obtener la estructura de la tabla
 * **LOAD**: carga masiva en tablas de trabajo (requerido cuando se trabaja en colecciones y uniones)
 * **CREATE/DROP** para **TABLE/INDEX/PROCEDURE/FUNCTION** (solo para las tablas de trabajo generadas por Adobe Campaign)
-* **EXPLICAR**  (recomendado): para controlar el rendimiento en caso de problemas
+* **EXPLAIN** (recomendado): para controlar el rendimiento en caso de problemas
 * **WRITE Data** (según el escenario de integración)
 
 El administrador de la base de datos debe hacer coincidir estos derechos con los derechos específicos de cada motor de base de datos, como se detalla a continuación.
@@ -205,13 +206,13 @@ Una vez que se haya creado el esquema, los datos se pueden procesar en los flujo
 
 Múltiples actividades permiten interactuar con datos de una base de datos externa:
 
-* **Filter on external data** : la  **[!UICONTROL Query]** actividad permite agregar datos externos y utilizarlos en las configuraciones de filtro definidas.
+* **Filtro en datos externos** - El **[!UICONTROL Query]** actividad le permite agregar datos externos y utilizarlos en las configuraciones de filtro definidas.
 
-* **Crear subconjuntos** : la  **[!UICONTROL Split]** actividad permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse.
+* **Crear subconjuntos** - El **[!UICONTROL Split]** actividad le permite crear subconjuntos. Puede utilizar datos externos para definir los criterios de filtrado que deben utilizarse.
 
-* **Cargar base de datos externa** : puede utilizar los datos externos en la  **[!UICONTROL Data loading (RDBMS)]** actividad .
+* **Cargar base de datos externa** - Puede utilizar los datos externos en la variable **[!UICONTROL Data loading (RDBMS)]** actividad.
 
-* **Adición de información y vínculos** : la  **[!UICONTROL Enrichment]** actividad permite agregar datos adicionales a la tabla de trabajo del flujo de trabajo y vínculos a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa.
+* **Adición de información y vínculos** - El **[!UICONTROL Enrichment]** activity permite añadir datos adicionales a la tabla de trabajo del flujo de trabajo y enlaces a una tabla externa. En este contexto, puede utilizar datos de una base de datos externa.
 
 
 También puede definir directamente una conexión con una base de datos externa desde estas actividades de flujo de trabajo, para un uso temporal. En este caso, se trata de una base de datos externa local, reservada para utilizarse dentro de un flujo de trabajo actual: no se guarda en las cuentas externas.
@@ -220,11 +221,11 @@ También puede definir directamente una conexión con una base de datos externa 
 >
 >Este tipo de configuración solo debe utilizarse de forma temporal para recopilar datos. Se debe preferir la configuración de cuenta externa para cualquier otro uso.
 
-Por ejemplo, en la actividad **[!UICONTROL Query]** puede definir una conexión temporal con una base de datos externa de la siguiente manera:
+Por ejemplo, en la **[!UICONTROL Query]** puede definir una conexión temporal a una base de datos externa de la siguiente manera:
 
-1. Abra la actividad y haga clic en **[!UICONTROL Add data...]**
-1. Seleccione las opciones de **[!UICONTROL External data]**
-1. Seleccione la opción **[!UICONTROL Locally defining the data source]**
+1. Abra la actividad y haga clic en el botón **[!UICONTROL Add data...]**
+1. Seleccione el **[!UICONTROL External data]** opciones
+1. Seleccione el **[!UICONTROL Locally defining the data source]** option
 1. Seleccionar el motor de base de datos de objetivo en la lista desplegable. Introducir el nombre del servidor y especificar los parámetros de autenticación. Especificar también el nombre de la base de datos externa.
 1. Seleccionar la tabla en la que se almacenan los datos. Puede introducir el nombre de la tabla directamente en el campo correspondiente o hacer clic en el icono de edición para acceder a la lista de las tablas de la base de datos.
 1. Hacer clic en el botón **[!UICONTROL Add]** para definir uno o varios campos de reconciliación entre los datos de la base de datos externa y los datos de la base de datos de Adobe Campaign. Los iconos **[!UICONTROL Edit expression]** del **[!UICONTROL Remote field]** y el **[!UICONTROL Local field]** le proporcionan acceso a la lista de campos de cada una de las tablas.

@@ -19,4 +19,4 @@ LINE es una aplicación gratuita para mensajería instantánea, llamadas de voz 
 
 ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html?lang=es){target=&quot;_blank&quot;}.
 
-![](../assets/do-not-localize/book.png) Consulte esta  [documentación completa de ](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) samplein Campaign Classic v7 para crear y enviar su primera entrega LINE.
+![](../assets/do-not-localize/book.png) Consulte esta [muestra completa](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/line-channel.html#example--create-and-send-a-personalized-line-message) en la documentación de Campaign Classic v7 para crear y enviar su primera entrega LINE.

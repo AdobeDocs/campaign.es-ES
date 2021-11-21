@@ -14,14 +14,14 @@ ht-degree: 53%
 
 # Trabajo con Campaign y Adobe Target
 
-Conecte Campaign y Target para incluir una oferta de Adobe Target en una entrega de correo electrónico de Adobe Campaign.
+Conecte Campaign y Target para incluir una oferta de Adobe Target en un envío de correo electrónico de Adobe Campaign.
 
 Esta integración le ayuda a implementar casos de uso de la siguiente manera: cuando un destinatario abre un correo electrónico enviado mediante Adobe Campaign, una llamada a Adobe Target le permite mostrar una versión dinámica del contenido. Esta versión dinámica se calcula según las reglas especificadas previamente al crear el correo electrónico.
 
 >[!NOTE]
 >La integración solo admite imágenes estáticas. Los demás tipos de contenido no se pueden personalizar.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para implementar déclencheur de Experience Cloud con Campaign.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para implementar déclencheur de Experience Cloud con Campaign.
 
 Adobe Target puede utilizar los siguientes tipos de datos:
 
@@ -31,7 +31,7 @@ Adobe Target puede utilizar los siguientes tipos de datos:
 
 ## Inserción de contenido dinámico
 
-En el siguiente ejemplo, aprenderá a integrar **una oferta dinámica** de Adobe Target en un correo electrónico de Adobe Campaign.
+En el ejemplo siguiente, aprenderá a integrar **una oferta dinámica** de Adobe Target a un correo electrónico de Adobe Campaign.
 
 Queremos crear un mensaje con una imagen que cambie dinámicamente según el país del destinatario. Los datos se envían con cada solicitud mbox y dependen de la dirección IP del visitante.
 
@@ -69,10 +69,10 @@ En Adobe Campaign, hay dos formas de insertar una imagen dinámica desde Target 
 
 A continuación, puede definir los parámetros de la imagen:
 
-* La URL de **[!UICONTROL Default image]** es la imagen que se muestra cuando no se cumple ninguna de las condiciones. También puede seleccionar una imagen de su biblioteca de activos.
-* El **[!UICONTROL Target location]** es el nombre de la ubicación de la oferta dinámica. Deberá seleccionar esta ubicación en la actividad de Adobe Target.
-* El **[!UICONTROL Landing Page]** permite redirigir la imagen predeterminada a una página de aterrizaje predeterminada. Esta URL solo se aplica cuando la imagen predeterminada se muestra en el correo electrónico final. Es opcional.
-* El **[!UICONTROL Additional decision parameters]** define la asignación entre los campos definidos en los segmentos de Adobe Target y los campos de Adobe Campaign. Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. En el ejemplo, añadimos el campo País.
+* La variable **[!UICONTROL Default image]** La URL de es la imagen que se muestra cuando no se cumple ninguna de las condiciones. También puede seleccionar una imagen de su biblioteca de activos.
+* La variable **[!UICONTROL Target location]** es el nombre de la ubicación de la oferta dinámica. Deberá seleccionar esta ubicación en la actividad de Adobe Target.
+* La variable **[!UICONTROL Landing Page]** permite redirigir la imagen predeterminada a una página de aterrizaje predeterminada. Esta URL solo se aplica cuando la imagen predeterminada se muestra en el correo electrónico final. Es opcional.
+* La variable **[!UICONTROL Additional decision parameters]**  define la asignación entre los campos definidos en los segmentos de Adobe Target y los campos de Adobe Campaign. Los campos de Adobe Campaign utilizados deben haberse especificado en el “rawbox”. En el ejemplo, añadimos el campo País.
 
 Si utiliza permisos de empresa en la configuración de Adobe Target, añada la propiedad correspondiente en este campo. Obtenga más información sobre los permisos de empresa de Target en [esta página](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/properties-overview.html?lang=en#administer).
 

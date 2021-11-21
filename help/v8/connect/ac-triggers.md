@@ -18,4 +18,4 @@ Puede utilizar Déclencheur de Experience Cloud para conectar datos entre Adobe 
 
 Obtenga más información sobre Adobe Campaign y los Déclencheur de Experience Cloud en [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=en).
 
-![](../assets/do-not-localize/speech.png)   Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para implementar déclencheur de Experience Cloud con Campaign.
+![](../assets/do-not-localize/speech.png)   Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para implementar déclencheur de Experience Cloud con Campaign.

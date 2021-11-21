@@ -2,10 +2,11 @@
 product: campaign
 title: Presentar ofertas a perfiles anónimos (interacción entrante)
 description: Obtenga información sobre cómo presentar ofertas a perfiles anónimos
-source-git-commit: c19336c84114a0c81563c4d5ae760330d3b284cb
+exl-id: b7a04360-f8c6-4c69-9594-2b44d3f819b7
+source-git-commit: 00a88cf9217faf32070a3cd34a2c1ae5243d9a6e
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 70%
+ht-degree: 75%
 
 ---
 
@@ -37,9 +38,9 @@ Para crear categorías y espacios, aplique el mismo proceso que para los visitan
 
 Los visitantes anónimos pueden enviarse a un proceso de identificación de cookie cuando se conectan. Este reconocimiento implícito se basa en el historial del explorador del visitante.
 
-Durante este paso, se realiza una comparación entre los datos que recuperan las cookies y los de la base de datos. En algunos casos, los visitantes se reconocen (y luego se identifican implícitamente), en otros casos no se reconocen (y por lo tanto permanecen anónimos).
+Durante este paso, se realiza una comparación entre los datos que recuperan las cookies y los de la base de datos. En algunos casos, los visitantes se reconocen (y luego se identifican implícitamente); en otros casos, no se reconocen (y por lo tanto permanecen anónimos).
 
-Para ejecutar este análisis, para el espacio de ofertas, marque la opción **[!UICONTROL Implicitly identify the individual based on their browser history]**.
+Para ejecutar este análisis para el espacio de ofertas, marque la opción **[!UICONTROL Implicitly identify the individual based on their browser history]**.
 
 ![](assets/identification_anonymous_visitors.png)
 

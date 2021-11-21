@@ -16,17 +16,17 @@ ht-degree: 76%
 
 Puede configurar Adobe Analytics para integrar Campaign y Analytics.
 
-Esta integración permite que Adobe Campaign y Adobe Analytics interactúen mediante el complemento **Conectores web de Analytics**. Esta integración envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics.
+Esta integración permite que Adobe Campaign y Adobe Analytics interactúen a través del **Conectores web de Analytics** complemento. Esta integración envía indicadores y atributos de las campañas de correo electrónico que envía Adobe Campaign a Adobe Analytics.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para conectar Campaign con los servicios y soluciones de Adobe Experience Cloud. El complemento del conector de Web Analytics debe estar instalado en el entorno, a través del paquete dedicado.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud. El complemento del conector de Web Analytics debe estar instalado en el entorno, a través del paquete dedicado.
 
 A través del Conector de Adobe Analytics, Adobe Campaign puede medir la audiencia de Internet (Web Analytics). Las herramientas de Web Analytics permiten a Adobe Campaign reenviar indicadores y atributos de campaña a Analytics.
 
 El perímetro de acción de cada herramienta es el siguiente:
 
-* **Adobe** Analytics marca las campañas de correo electrónico iniciadas con Adobe Campaign
+* **Adobe Analytics** marca las campañas de correo electrónico iniciadas con Adobe Campaign
 
-* **Adobe** Campaign envía los indicadores y atributos de campaña al conector, que a su vez los reenvía a la herramienta Web Analytics
+* **Adobe Campaign** envía los indicadores y atributos de campaña al conector, que a su vez los reenvía a la herramienta Web Analytics
 
 
 >[!CAUTION]
@@ -41,7 +41,7 @@ Para configurar la conexión de Campaign-Analytics, debe realizar las siguientes
 
 ## Crear su grupo de informes de Analytics {#report-suite-analytics}
 
-Para crear su **[!UICONTROL Report suite]** en [!DNL Adobe Analytics], siga los pasos a continuación:
+Para crear **[!UICONTROL Report suite]** en [!DNL Adobe Analytics], siga los pasos a continuación:
 
 1. En [!DNL Adobe Analytics], seleccione **[!UICONTROL Admin tab]** y haga clic en **[!UICONTROL All admin]**.
 
@@ -191,11 +191,11 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
 El intercambio de datos entre Adobe Campaign y Adobe Analytics se administra mediante un flujo de trabajo técnico que se ejecuta como una tarea en segundo plano.
 
-Este flujo de trabajo está disponible en el árbol del explorador de Campaign, en la carpeta **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]**.
+Este flujo de trabajo está disponible en el árbol del explorador de Campaign, en la sección **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]** carpeta.
 
 ![](assets/webanalytics_workflows.png)
 
-El flujo de trabajo **[!UICONTROL Sending of indicators and campaign attributes]** permite enviar indicadores de campaña de correo electrónico a través de Adobe Campaign a Adobe Experience Cloud mediante Adobe Analytics Connector. Este flujo de trabajo se activa a las 4 de la mañana cada día y los datos pueden tardar hasta 24 horas en enviarse a Analytics.
+La variable **[!UICONTROL Sending of indicators and campaign attributes]** workflow permite enviar indicadores de campaña de correo electrónico a través de Adobe Campaign a Adobe Experience Cloud mediante Adobe Analytics Connector. Este flujo de trabajo se activa a las 4 de la mañana cada día y los datos pueden tardar hasta 24 horas en enviarse a Analytics.
 
 Tenga en cuenta que este flujo de trabajo no debe reiniciarse o volverá a enviar todos los datos anteriores, lo que puede distorsionar los resultados de Analytics.
 

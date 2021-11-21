@@ -16,7 +16,7 @@ ht-degree: 72%
 
 La mensajería transaccional (Centro de Mensajes) es un módulo de Campaign diseñado para gestionar mensajes de activación. Estos mensajes se generan a partir de eventos activados desde sistemas de información y pueden ser: una factura, una confirmación de pedido, una confirmación de envío, un cambio de contraseña, una notificación de no disponibilidad del producto, el estado de la cuenta o una creación de cuenta en un sitio web, por ejemplo.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados,  [póngase en contacto con ](../start/campaign-faq.md#support) Adobe para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
 Los mensajes transaccionales se utilizan para enviar:
 
@@ -24,9 +24,9 @@ Los mensajes transaccionales se utilizan para enviar:
 * una respuesta individual en tiempo real a una acción del cliente
 * contenido no promocional
 
-![](../assets/do-not-localize/glass.png) La configuración de mensajería transaccional se detalla en  [esta sección](../config/transactional-msg-settings.md).
+![](../assets/do-not-localize/glass.png) La configuración de mensajería transaccional se detalla en [esta sección](../config/transactional-msg-settings.md).
 
-![](../assets/do-not-localize/glass.png) Comprenda la arquitectura de mensajería transaccional en  [esta página](../dev/architecture.md).
+![](../assets/do-not-localize/glass.png) Comprenda la arquitectura de mensajería transaccional en [esta página](../dev/architecture.md).
 
 >[!CAUTION]
 >
@@ -60,11 +60,11 @@ Para crear una plantilla de mensaje, siga los pasos a continuación:
    >
    >Evite relacionar un tipo de evento a más de una plantilla.
 
-1. Introduzca una naturaleza y una descripción y, a continuación, haga clic en **[!UICONTROL Continue]** para crear el cuerpo del mensaje. Consulte [Crear el contenido del mensaje](#create-message-content).
+1. Introduzca una naturaleza y una descripción y, a continuación, haga clic en **[!UICONTROL Continue]** para crear el cuerpo del mensaje. Consulte [Creación del contenido del mensaje](#create-message-content).
 
 ### Creación del contenido{#create-message-content}
 
-La definición del contenido del mensaje transaccional es la misma que para todas las entregas de Adobe Campaign. Por ejemplo, para una entrega de correo electrónico, puede crear contenido en formato HTML o texto, añadir archivos adjuntos o personalizar el objeto de envío. Para obtener más información, consulte [esta sección](../start/create-message.md).
+La definición del contenido del mensaje transaccional es la misma que para todas las entregas en Adobe Campaign. Por ejemplo, para una entrega de correo electrónico, puede crear contenido en formato HTML o texto, añadir archivos adjuntos o personalizar el objeto de envío. Para obtener más información, consulte [esta sección](../start/create-message.md).
 
 >[!CAUTION]
 >
@@ -96,7 +96,7 @@ Para insertar etiquetas de personalización en el cuerpo de un mensaje de correo
 
 Una dirección semilla permite mostrar una vista previa del mensaje, enviar una prueba y probar la personalización del mensaje antes de enviarlo. Las direcciones semilla están vinculadas a la entrega y no se pueden utilizar para otros envíos.
 
-1. En la plantilla de mensaje transaccional, haga clic en la pestaña **[!UICONTROL Seed addresses]** y, a continuación, haga clic en el botón **[!UICONTROL Add]**.
+1. En la plantilla de mensaje transaccional, haga clic en el botón **[!UICONTROL Seed addresses]** y, a continuación, haga clic en la pestaña **[!UICONTROL Add]** botón.
 
    ![](assets/messagecenter_create_seed_1.png)
 
@@ -120,7 +120,7 @@ Una vez creadas las direcciones, puede acceder a su vista previa y personalizaci
 
 ### Añadir datos de personalización{#personalization-data}
 
-Puede añadir datos en la plantilla de mensaje para probar la personalización del mensaje transaccional. Esto le permite generar una vista previa o enviar una prueba. Si instala el módulo **Deliverability**, estos datos le permiten mostrar una renderización de los mensajes para varios clientes de escritorio, web o móviles.
+Puede añadir datos en la plantilla de mensaje para probar la personalización del mensaje transaccional. Esto le permite generar una vista previa o enviar una prueba. Si instala la variable **Capacidad de entrega** , estos datos le permiten mostrar un procesamiento de los mensajes para varios clientes de escritorio, web o móviles.
 
 La finalidad de estos datos es probar los mensajes antes de la entrega final. Estos mensajes no coinciden con los datos reales que procesa el Centro de mensajería. Sin embargo, la estructura XML debe ser idéntica a la del evento almacenado en la instancia de ejecución, como se muestra a continuación.
 
@@ -137,7 +137,7 @@ Esta información le permite personalizar el contenido del mensaje mediante etiq
 
 Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje, puede obtener una previsualización del mensaje y comprobar su personalización.
 
-1. En la plantilla de mensaje, haga clic en la pestaña **[!UICONTROL Preview]** y, a continuación, seleccione **[!UICONTROL A seed address]** en la lista desplegable.
+1. En la plantilla del mensaje, haga clic en la **[!UICONTROL Preview]** y, a continuación, seleccione **[!UICONTROL A seed address]** en la lista desplegable .
 
    ![](assets/messagecenter_preview_1.png)
 
@@ -151,11 +151,11 @@ Puede probar la entrega de mensajes enviando una prueba a una dirección semilla
 
 El envío de una prueba implica realizar el mismo proceso que para cualquier entrega.
 
-![](../assets/do-not-localize/book.png) Obtenga más información sobre las pruebas en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información sobre las pruebas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
 
 Sin embargo, para enviar una prueba de un mensaje transaccional, debe realizar las siguientes operaciones:
 
-* Cree una o más [direcciones semilla](#add-seeds) con datos de prueba de personalización
+* Crear una o más [direcciones semilla](#add-seeds) con datos de prueba de personalización
 * Creación del contenido del mensaje
 
 Para enviar la prueba:
@@ -219,7 +219,7 @@ Una vez publicada una plantilla de mensaje en las instancias de ejecución, se p
 
 Para cancelar la publicación de una plantilla de mensaje transaccional, siga los pasos a continuación.
 
-1. En la instancia de control, vaya a la carpeta **[!UICONTROL Message Center > Transactional message templates]** .
+1. En la instancia de control, vaya a la **[!UICONTROL Message Center > Transactional message templates]** carpeta.
 1. Seleccione la plantilla para cancelar la publicación.
 1. Haga clic **[!UICONTROL Unpublish]**.
 1. Haga clic **[!UICONTROL Start]**.

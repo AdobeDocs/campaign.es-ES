@@ -16,11 +16,11 @@ ht-degree: 34%
 
 Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como boletines informativos, y para administrar las suscripciones/bajas de suscripción a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real. Consulte Administración de suscripciones.
 
-![](../assets/do-not-localize/book.png) Aprenda a crear un servicio de información, enviar boletín y administrar la inclusión y la exclusión en la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Aprenda a crear un servicio informativo, enviar boletín y administrar la inclusión y la exclusión en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target=&quot;_blank&quot;}
 
 Para suscribirse (activar) un perfil a un servicio, las opciones disponibles son:
 
-* Añada manualmente el servicio al perfil de destinatario: para ello, en la pestaña **[!UICONTROL Subscriptions]** de su perfil, haga clic en **[!UICONTROL Add]** y seleccione el servicio informativo que corresponda.
+* Añada manualmente el servicio al perfil de destinatario: para ello, en la sección **[!UICONTROL Subscriptions]** de su perfil, haga clic en **[!UICONTROL Add]** y seleccione el servicio informativo que corresponda.
 
    ![](assets/subscribe-to-a-service.png)
 
@@ -52,7 +52,7 @@ Para suscribirse (activar) un perfil a un servicio, las opciones disponibles son
    ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in){target=&quot;_blank&quot;}
 
 
-* Cree un flujo de trabajo de objetivos y utilice una actividad **[!UICONTROL Subscription service]** .
+* Creación de un flujo de trabajo de objetivos y uso de un **[!UICONTROL Subscription service]** actividad.
 
    ![](assets/wf-subscription.png)
 
@@ -76,8 +76,8 @@ Para cancelar la suscripción (exclusión) de un perfil de un servicio, las opci
 
 >[!CAUTION]
 >
->Las suscripciones y las bajas de suscripción son procesos **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora. [Más información](../dev/new-apis.md#sub-apis)
+>Las suscripciones y las bajas de suscripción son **asincrónico** procesos. Las solicitudes de inclusión y exclusión se procesan cada hora. [Más información](../dev/new-apis.md#sub-apis)
 
 También puede permitir que los destinatarios de la entrega reenvíen mensajes a un amigo. Para ello, inserte los vínculos correspondientes en la entrega. Puede hacer un seguimiento de este proceso de uso compartido, así como del número de visitas a las páginas en cuestión.
 
-![](../assets/do-not-localize/book.png) Para obtener más información sobre esta capacidad, consulte la documentación de  [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Para obtener más información sobre esta capacidad, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend){target=&quot;_blank&quot;}

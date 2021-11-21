@@ -19,8 +19,8 @@ Además, nuestro trabajo colaborativo con socios, investigadores destacados, ins
 
 La configuración y el endurecimiento de la privacidad son elementos clave de la optimización de la seguridad. Estas son algunas prácticas recomendadas a seguir con respecto a la privacidad:
 
-* Protect su información personal del cliente (PI) utilizando HTTPS en lugar de HTTP
-* Utilice la [restricción de vista de IP](../dev/restrict-pi-view.md) para proteger la privacidad e impedir que se utilicen incorrectamente los datos
+* Protect su información personal de cliente (PI) utilizando HTTPS en lugar de HTTP
+* Uso [restricción de vista IP](../dev/restrict-pi-view.md) para proteger la privacidad e impedir que los datos se utilicen indebidamente
 * Asegúrese de que las contraseñas cifradas estén restringidas
 * Proteja las páginas que puedan contener información personal, como páginas espejo, aplicaciones web, etc.
 
@@ -44,13 +44,13 @@ Esta restricción permite eliminar los campos de contraseñas, pero deja la cuen
 
 1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
-1. Cree un nuevo **[!UICONTROL Extension of a schema]**.
+1. Cree una nueva **[!UICONTROL Extension of a schema]**.
 
-1. Seleccione **[!UICONTROL External Account]** (extAccount).
+1. Choose **[!UICONTROL External Account]** (extAccount).
 
 1. En la última pantalla, puede editar el nuevo srcSchema para restringir el acceso a todos los campos de contraseña:
 
-   Puede reemplazar el elemento principal (`<element name="extAccount" ... >`) por:
+   Puede reemplazar el elemento principal (`<element name="extAccount" ... >`) de:
 
    ```
    <element name="extAccount">
@@ -107,7 +107,7 @@ La gestión del acceso es una parte importante del refuerzo de la seguridad. Est
 * Compruebe que cada operador tenga los derechos de acceso adecuados
 * Evite utilizar el operador de administrador y evite tener demasiados operadores en el grupo de administración
 
-![](../assets/do-not-localize/book.png) Obtenga más información en la documentación de  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
 
 ## Directrices de codificación
 
@@ -115,8 +115,8 @@ Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.),
 
 * **Secuencias de comandos**: Intente evitar las declaraciones SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para usar en la lista de permitidos.
 
-* **Proteja el modelo** de datos: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
+* **Asegurar el modelo de datos**: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
 
-* **Añadir captchas en aplicaciones** web: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
+* **Añadir captchas en aplicaciones web**: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
 
-![](../assets/do-not-localize/book.png) Obtenga más información en la documentación de  [Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
