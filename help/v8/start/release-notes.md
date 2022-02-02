@@ -6,16 +6,30 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: 4ce21dda9516a881cce39c94454d5ac7b43142a9
+source-git-commit: acb3b60c8b390bf91acdfd568a57899594659c7e
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 100%
+source-wordcount: '1717'
+ht-degree: 92%
 
 ---
 
 # Última versión{#latest-release}
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign v8**.
+
+## Versión 8.2.10 {#release-8-2-10}
+
+_2 de febrero de 2021_
+
+**Parches**
+
+* Se ha corregido un problema que provocaba que fallara la preparación del envío si se llegaba al número máximo de mensajes, definidos en la regla de tipología. (NEO-40062)
+* Se ha corregido un problema durante la configuración del conector de Adobe Analytics cuando la dirección de correo electrónico contenía un carácter &quot;s&quot;. (NEO-39082)
+* Se ha corregido un problema durante la posactualización, que podía provocar que la tabla deliveryMapping perdiera datos de una asignación de envío personalizada. (NEO-40133)
+* Se ha corregido un problema que podía hacer que los destinatarios recibieran el mismo mensaje varias veces para la misma entrega cuando la dirección de correo electrónico contenía un solo carácter de comillas (&#39;). Este carácter ahora se escapa. (NEO-41198)
+* Se ha corregido un problema de generación de ID al enviar pruebas con semillas o direcciones de sustitución. (NEO-42670)
+* Se ha corregido un problema que podía impedir que se enviaran pruebas utilizando el método de sustitución de direcciones. (NEO-40417)
+* Se ha corregido un problema que impedía instalar el paquete LINE. (NEO-42503)
 
 ## Versión 8.2.8 {#release-8-2-8}
 
