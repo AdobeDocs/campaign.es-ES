@@ -8,8 +8,8 @@ hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
 source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,11 +23,11 @@ _2 de febrero de 2022_
 
 **Parches**
 
-* Se ha corregido un problema que hacía que la preparación del envío fallara si se llegaba al número máximo de mensajes, definidos en la regla de tipología.
-* Se ha corregido un problema durante la configuración del conector de Adobe Analytics cuando la dirección de correo electrónico contenía un carácter &quot;s&quot;.
-* Se ha corregido un problema durante la posactualización que podía provocar que la tabla deliveryMapping perdiera datos de una asignación de envío personalizada.
-* Se ha corregido un problema que podía hacer que los destinatarios recibieran el mismo mensaje varias veces para la misma entrega cuando la dirección de correo electrónico contenía un solo carácter de comillas (&#39;). Este carácter ahora se escapa. (NEO-41198)
-* Se ha corregido un problema de generación de ID al enviar pruebas con semillas o direcciones de sustitución. (NEO-42637)
+* Se ha corregido un problema que hacía que la preparación de la entrega fallara si se llegaba al número máximo de mensajes definido en las reglas de tipología.
+* Se ha corregido un problema durante la configuración del conector de Adobe Analytics cuando la dirección de correo electrónico contenía un carácter “s”.
+* Se ha corregido un problema durante la posactualización que podía provocar que la tabla deliveryMapping perdiera datos de una asignación de entrega personalizada.
+* Se ha corregido un problema que podía hacer que los destinatarios recibieran el mismo mensaje varias veces para la misma entrega cuando la dirección de correo electrónico contenía un carácter de comillas simples (&#39;). Este carácter ahora se escapa. (NEO-41198)
+* Se ha corregido un problema de generación de ID al enviar pruebas con direcciones semilla o de sustitución. (NEO-42637)
 * Se ha corregido un problema que podía impedir que se enviaran pruebas utilizando el método de sustitución de direcciones. (NEO-40417)
 * Se ha corregido un problema que impedía instalar el paquete LINE. (NEO-42503)
 
