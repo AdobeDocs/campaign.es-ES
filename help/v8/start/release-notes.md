@@ -5,11 +5,11 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 hidefromtoc: false
-exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471,a9d18e75-18e7-491e-bfc4-671c3600396e
-source-git-commit: b7db9597aa6b4ca4fb2e1e13f8b7b718f4840031
+exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
+source-git-commit: 9283f1e857706455c169eb1da93cd0d04df80da0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1714'
+ht-degree: 100%
 
 ---
 
@@ -45,7 +45,7 @@ _28 de octubre de 2021_
 <tr>
 <td>
 <p>Real-time lnteraction Management ya está disponible para los canales entrantes. Utilice el módulo Interacción entrante de Campaign para presentar la mejor oferta a sus clientes cuando visiten su sitio web o contacten con su centro de llamadas. Esta capacidad viene como opción con Campaign v8 y requiere una configuración específica en la instancia. Póngase en contacto con el representante de Adobe para tener acceso al módulo de interacción entrante.</p>
-<p>Para obtener más información, consulte la <a href="../send/interaction-architecture.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../interaction/interaction-architecture.md">documentación detallada</a>.</p>
 </td>
 </tr>
 </tbody>
