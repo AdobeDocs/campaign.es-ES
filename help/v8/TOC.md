@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentación de Campaign v8
 breadcrumb-title: Campaign v8
 title: Documentos de Campaign v8
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: a6182d37e6b839c8b67c25364b4c35aa7fdde7dc
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 # Documentación de Adobe Campaign v8 {#campaign-v8}
 
 + [Documentación de Campaign v8](campaign-home.md)
-+ Novedades {#start}
++ Novedades {#new}
    + [Funcionalidades clave](start/whats-new.md)
    + [Notas de la versión](start/release-notes.md)
    + [Limitaciones conocidas](start/known-limitations.md)
@@ -47,25 +47,26 @@ ht-degree: 100%
    + [Notificaciones push](send/push.md)
    + [Mensajería LINE](send/line.md)
    + [Correo directo](send/direct-mail.md)
+   + [Marketing social](send/twitter.md)
    + [Mensajes transaccionales](send/transactional.md)
-   + Administración de ofertas con la interacción de Campaign{#interaction}
-      + [Introducción a la interacción en tiempo real](send/interaction.md)
-      + [Entornos y arquitectura](send/interaction-architecture.md)
-      + [Prácticas recomendadas](send/interaction-best-practices.md)
-      + Definir la configuración de {#interaction}
-         + [Creación de operadores](send/interaction-operators.md)
-         + [Creación de entornos](send/interaction-env.md)
-         + [Creación de filtros predefinidos](send/interaction-predefined-filters.md)
-         + [Creación de espacios de oferta](send/interaction-offer-spaces.md)
-      + [Creación de un catálogo de ofertas](send/interaction-offer-catalog.md)
-      + [Creación de una oferta](send/interaction-offer.md)
-      + [Enviar una oferta (saliente)](send/interaction-send-offers.md)
-      + Presentación de una oferta (entrante){#inbound}
-         + [Contexto](send/interaction-present-offers.md)
-         + [Invocación de una oferta en una página web](send/interaction-integration.md)
-         + [Administración de interacciones anónimas](send/anonymous-interactions.md)
-      + [Informes e historial](send/interaction-tracking.md)
-      + [Casos de uso](send/interaction-use-cases.md)
++ Interacción en tiempo real{#interaction}
+   + [Introducción a la interacción en tiempo real](interaction/interaction.md)
+   + [Entornos y arquitectura](interaction/interaction-architecture.md)
+   + [Prácticas recomendadas](interaction/interaction-best-practices.md)
+   + Definir la configuración de {#interaction-settings}
+      + [Creación de operadores](interaction/interaction-operators.md)
+      + [Creación de entornos](interaction/interaction-env.md)
+      + [Creación de filtros predefinidos](interaction/interaction-predefined-filters.md)
+      + [Creación de espacios de oferta](interaction/interaction-offer-spaces.md)
+   + [Creación de un catálogo de ofertas](interaction/interaction-offer-catalog.md)
+   + [Creación de una oferta](interaction/interaction-offer.md)
+   + [Enviar una oferta (saliente)](interaction/interaction-send-offers.md)
+   + Presentación de una oferta (entrante){#inbound}
+      + [Contexto](interaction/interaction-present-offers.md)
+      + [Invocación de una oferta en una página web](interaction/interaction-integration.md)
+      + [Administración de interacciones anónimas](interaction/anonymous-interactions.md)
+   + [Informes e historial](interaction/interaction-tracking.md)
+   + [Casos de uso](interaction/interaction-use-cases.md)
 + Configurar {#config}
    + [Automatización con flujos de trabajo](config/workflows.md)
    + [Administración de datos](config/replication.md)

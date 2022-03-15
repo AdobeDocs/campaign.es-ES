@@ -5,7 +5,7 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: d21dc1adc46121e5c015deed7ddb84ec6a4ec76f
+source-git-commit: 8417b1b4b7370e2a2eed76e9f1ac395eccf0ac66
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 22%
@@ -92,7 +92,7 @@ Para utilizar la actividad **[!UICONTROL Change Data Source]**:
 
 Después de crear el flujo de trabajo, puede acceder a opciones adicionales con la variable **[!UICONTROL Properties]** para obtener más información sobre la configuración.
 
-![](../assets/do-not-localize/book.png) Más información sobre **Propiedades del flujo de trabajo** en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=en){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Más información sobre **Propiedades del flujo de trabajo** en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=es){target=&quot;_blank&quot;}
 
 En el **[!UICONTROL Execution]** del flujo de trabajo **[!UICONTROL Properties]**, puede elegir vincular el flujo de trabajo a diferentes almacenes y optimizar la administración de la carga de trabajo. Para obtener más información, consulte **Almacenes**, consulte [documentación del Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html).
 
