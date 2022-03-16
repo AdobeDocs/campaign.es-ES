@@ -5,8 +5,8 @@ description: Obtenga información sobre cómo presentar la mejor oferta mediante
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
 source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '200'
+ht-degree: 25%
 
 ---
 

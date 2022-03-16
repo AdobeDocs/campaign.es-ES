@@ -1,14 +1,14 @@
 ---
-title: Operadores de interacción de Campaign
-description: Creación de operadores de administración de ofertas
+title: Entornos de interacción de Campaign
+description: Aprenda a crear entornos para la interacción de Campaign
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 31f38870-1781-4185-9022-d4fd6a31c94a
-source-git-commit: c19ac91fe7b4b825f75ec096320efabc3e78328c
+source-git-commit: 213a10fea36b3b08c1dd8525084d212e191b2fc7
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 58%
+source-wordcount: '397'
+ht-degree: 57%
 
 ---
 
