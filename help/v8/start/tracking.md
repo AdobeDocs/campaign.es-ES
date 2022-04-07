@@ -12,7 +12,7 @@ ht-degree: 50%
 
 ---
 
-# Mensajes de seguimiento y monitorización{#gs-ac-reports}
+# Seguimiento y monitorización de mensajes{#gs-ac-reports}
 
 ## Capacidades de seguimiento en Campaign
 

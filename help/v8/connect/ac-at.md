@@ -1,5 +1,5 @@
 ---
-title: Trabajo con Campaign y Adobe Target
+title: Uso de Campaign y Adobe Target
 description: Aprenda a trabajar con Campaign y Adobe Target
 feature: Overview
 role: Data Engineer
@@ -8,11 +8,11 @@ exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
 source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
 workflow-type: tm+mt
 source-wordcount: '988'
-ht-degree: 53%
+ht-degree: 57%
 
 ---
 
-# Trabajo con Campaign y Adobe Target
+# Uso de Campaign y Adobe Target
 
 Conecte Campaign y Target para incluir una oferta de Adobe Target en un envío de correo electrónico de Adobe Campaign.
 
@@ -45,13 +45,13 @@ En este correo electrónico, queremos que una de las imágenes cambie de manera 
 
 Es necesario realizar los siguientes pasos en Adobe Campaign y Adobe Target:
 
-1. [Inserción de la oferta dinámica en un mensaje de correo electrónico](#inserting-dynamic-offer)
-1. [Crear ofertas de redireccionamiento](#create-redirect-offers)
-1. [Crear audiencias](#audiences-target)
-1. [Crear una actividad de segmentación de experiencias](#creating-targeting-activity)
+1. [Inserción de la oferta dinámica en un correo electrónico](#inserting-dynamic-offer)
+1. [Creación de ofertas de redireccionamiento](#create-redirect-offers)
+1. [Creación de audiencias](#audiences-target)
+1. [Creación de una actividad de segmentación de experiencias ](#creating-targeting-activity)
 1. [Vista previa y envío del mensaje](#preview-send-email)
 
-### Inserción de la oferta dinámica en un mensaje de correo electrónico {#inserting-dynamic-offer}
+### Inserción de la oferta dinámica en un correo electrónico {#inserting-dynamic-offer}
 
 En Adobe Campaign, defina el destinatario y el contenido del correo electrónico. Puede insertar una imagen dinámica desde Adobe Target.
 
@@ -78,7 +78,7 @@ Si utiliza permisos de empresa en la configuración de Adobe Target, añada la p
 
 ![](assets/target_13.png)
 
-### Crear ofertas de redireccionamiento {#create-redirect-offers}
+### Creación de ofertas de redireccionamiento {#create-redirect-offers}
 
 En Adobe Target, puede crear distintas versiones de la oferta. Según cada experiencia de usuario, se puede crear una oferta de redireccionamiento y puede especificar la imagen que desee mostrar.
 
@@ -96,7 +96,7 @@ En este caso, necesitamos dos ofertas de redirección, la tercera (la predetermi
 
 1. Siga el mismo procedimiento para la oferta de redirección restante. Para obtener más información, consulte [esta página](https://experienceleague.adobe.com/docs/target/using/experiences/offers/offer-redirect.html?lang=en#experiences).
 
-### Crear audiencias {#audiences-target}
+### Creación de audiencias {#audiences-target}
 
 En Adobe Target, debe crear las dos audiencias en las que se clasifican las personas que visitan la oferta para enviarles los diferentes contenidos. Para cada audiencia, añada una regla para definir quién puede ver la oferta.
 
@@ -112,7 +112,7 @@ En Adobe Target, debe crear las dos audiencias en las que se clasifican las pers
 
 1. Siga el mismo procedimiento para las audiencias restantes.
 
-### Crear una actividad de segmentación de experiencias {#creating-targeting-activity}
+### Creación de una actividad de segmentación de experiencias  {#creating-targeting-activity}
 
 En Adobe Target, es necesario crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
 

@@ -14,12 +14,12 @@ ht-degree: 41%
 
 # Creación y envío de notificaciones push
 
-Los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android.
+Los envíos de aplicaciones de Mobile le permiten enviar notificaciones a sistemas iOS y Android.
 
 Para enviar notificaciones push en Adobe Campaign, debe:
 
 1. Configuración del entorno de Campaign
-1. Cree un servicio de información de tipo aplicación móvil para su aplicación móvil.
+1. Cree un servicio de información de tipo aplicación de Mobile para su aplicación móvil.
 1. Añada a este servicio las versiones de iOS y Android de la aplicación.
 1. Cree un envío tanto para iOS como para Android.
 

@@ -8,7 +8,7 @@ exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
 workflow-type: tm+mt
 source-wordcount: '604'
-ht-degree: 21%
+ht-degree: 23%
 
 ---
 
@@ -98,7 +98,7 @@ Campaign ofrece varias formas de probar y validar los correos electrónicos ante
 Puede hacer lo siguiente:
 
 * Comprobar registros de análisis de envío
-* Envíe pruebas
+* Envío de pruebas
 * Adición de direcciones semilla
 * Uso de grupos de control
 * Compruebe la renderización del correo electrónico

@@ -5,16 +5,18 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 85%
 
 ---
 
 # ¿Qué novedades hay en Adobe Campaign v8?  {#ac-gs-what-is-new}
 
 Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, capacidad de envío y supervisión. Al aprovechar [[!DNL Snowflake]](https://www.snowflake.com/), una tecnología de base de datos en la nube, Adobe Campaign mejora considerablemente su escala y velocidad, con la capacidad de administrar una cantidad más significativa de perfiles de clientes, así como tasas de entrega y transacciones por hora mucho más altas.
+
+## Funcionalidades clave{#key-capabilities}
 
 Las funciones clave incluyen:
 
@@ -34,7 +36,7 @@ Las funciones clave incluyen:
 
 ![](assets/home-page.png)
 
-## Escala
+## Escala{#scale}
 
 Campaign v8 ofrece una escala de extremo a extremo en cualquier paso del proceso, desde direccionamiento hasta la creación de informes final:
 
@@ -42,7 +44,23 @@ Campaign v8 ofrece una escala de extremo a extremo en cualquier paso del proceso
 * Escalar el rendimiento de las consultas para segmentación y direccionamiento, pero también el consumo y la salida de datos
 * Escalar la preparación del envío (de horas a minutos)
 
-## Simplificación y aumento del rendimiento
+## Interfaz de administración de autoservicio{#self-service-admin}
+
+Como administrador de productos, puede administrar la configuración y rastrear los usos de cada una de las instancias de Campaign v8 con **Panel de control de Campaign de campaña**.
+
+A través de una interfaz de usuario intuitiva, los administradores pueden supervisar el uso de los activos clave, realizar tareas avanzadas como la lista de direcciones IP permitidas, la supervisión de almacenamiento SFTP, la administración de claves, etc. Esta interfaz de autoservicio le ofrece más flexibilidad y le ayuda a:
+
+* Realice rápidamente cambios en la configuración por su cuenta sin ponerse en contacto con el Soporte de Adobe
+* Configure las opciones en función de las diferentes necesidades comerciales en distintos momentos
+* Mejore la seguridad controlando la configuración de acceso según sus necesidades
+
+![](assets/subdomain1.png)
+
+![](../assets/do-not-localize/glass.png) [Obtenga más información sobre el Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target=&quot;_blank&quot;}
+
+
+
+## Simplificación y aumento del rendimiento{#simplification-and-perf-increase}
 
 Campaign v8 incorpora el concepto de **Acceso de datos federado completo** (FDA): todos los datos ahora son remotos en la base de datos de Cloud.
 

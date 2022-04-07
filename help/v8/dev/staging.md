@@ -31,7 +31,6 @@ Las API de Campaign Classic v7 siguen disponibles, pero no pueden beneficiarse d
 >* Con este nuevo mecanismo, la sincronización de datos para la exclusión de canales, las suscripciones, las bajas de suscripción o el registro móvil ya está **asincrónico**.
 >
 >* El ensayo solo se aplica a esquemas almacenados en la base de datos de Cloud. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema de ensayo
-
 >
 
 

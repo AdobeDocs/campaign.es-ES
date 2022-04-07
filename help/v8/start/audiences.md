@@ -1,60 +1,36 @@
 ---
-title: Introducción a las audiencias
-description: Introducción a las audiencias
+title: Trabajar con audiencias en Campaign
+description: Trabajar con audiencias en Campaign
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 889400a238f32968464f1425bb7d6c2dc3ff3cd0
+source-git-commit: b5fb8825734bce2ec62485208b468757b461005f
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 35%
+source-wordcount: '509'
+ht-degree: 27%
 
 ---
 
-# Introducción a las audiencias{#gs-ac-audiences}
+# Trabajar con audiencias en Campaign{#gs-ac-audiences}
 
-## Trabajar con perfiles{#gs-ac-profiles}
-
-Los perfiles son contactos almacenados en la base de datos de Campaign, incluidos clientes, suscriptores y posibles clientes. Existen muchos mecanismos para adquirir perfiles y crear esta base de datos: recopilación en línea a través de formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de fabricantes, u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia. Los perfiles contienen toda la información necesaria para la segmentación, calificación y seguimiento de personas.
-
-Un perfil es un registro de la variable **nmsRecipient** o una tabla externa que almacena todos los atributos de perfil, como el nombre, los apellidos, la dirección de correo electrónico, un ID de cookie, el ID de cliente, el identificador móvil u otra información relacionada con un canal determinado. Otras tablas vinculadas a la tabla de destinatarios contienen datos relacionados con el perfil, por ejemplo, la tabla de registros de envío que contiene registros de todas las entregas realizadas a los destinatarios. Obtenga más información sobre los perfiles integrados y las tablas de destinatarios en [esta sección](../dev/datamodel.md#ootb-profiles).
+Los perfiles son contactos almacenados en la base de datos de Campaign.
 
 En Adobe Campaign, **recipients** son los perfiles predeterminados dirigidos a los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier entrega dada y añadir datos de personalización en el contenido de la entrega. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo, se crean perfiles semilla para probar el contenido antes de enviarlo al público objetivo final.
 
-Los perfiles se pueden agrupar en listas o recopilar consultando la base de datos.
+Obtenga información sobre cómo importar, actualizar y administrar perfiles y audiencias [en esta sección](../audiences/gs-audiences.md).
 
-Para rellenar Campaign con datos de perfil, puede:
+## Crear listas{#create-lists}
 
-* [importar archivos de datos](import.md) desde una fuente de datos externa como un sistema CRM
-* [crear formularios web](../dev/webapps.md) para permitir a los clientes introducir su propia información y crear su propio perfil
-* [asignar a una base de datos externa](../connect/fda.md) donde se almacenan los perfiles
-* introduzca perfiles manualmente mediante la consola de cliente, como se muestra a continuación:
+Una lista es un conjunto estático de contactos que se puede definir como objetivo en acciones de envío o actualizar durante una importación u otra acción de flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta se puede almacenar como una lista.
 
-![](assets/create-profile.png)
+![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo crear y administrar listas en [esta página](../audiences/create-audiences.md).
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo administrar perfiles en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html){target=&quot;_blank&quot;}.
+## Filtrar la base de datos{#filter-the-database}
 
+La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**: cuando se modifican los datos, se actualizan los datos filtrados. Puede crear sus propios filtros o utilizar los filtros integrados para definir una audiencia de destino.
 
-## Privacidad y consentimiento
-
-Adobe Campaign es una potente herramienta para recopilar y procesar un gran volumen de datos, que incluye información personal y datos confidenciales. Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
-
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo administrar la privacidad y el consentimiento en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html){target=&quot;_blank&quot;}.
-
-## Crear listas
-
-Una lista es un conjunto estático de perfiles que puede centrarse en acciones de envío o actualizarse durante operaciones de importación o durante la ejecución del flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta puede proporcionar una lista.
-
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo crear y administrar listas en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/creating-and-managing-lists.html){target=&quot;_blank&quot;}.
-
-## Consultar la base de datos
-
-Utilice la variable **Consulta** actividad en un flujo de trabajo para consultar la base de datos, segmentar los datos y crear audiencias complejas.
-
-![](../assets/do-not-localize/book.png) Obtenga más información sobre las consultas de Campaign en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/targeting-data.html){target=&quot;_blank&quot;}.
-
-![](../assets/do-not-localize/book.png) Todas las actividades de segmentación se enumeran en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/about-targeting-activities.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo crear y administrar filtros en [esta página](../audiences/create-filters.md).
 
 ## Creación de una audiencia en un flujo de trabajo
 
@@ -65,7 +41,7 @@ El objetivo se puede crear mediante una combinación de consultas en una secuenc
 
 ## Perfiles activos{#active-profiles}
 
-Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos.
+Según el contrato, cada una de las instancias de Campaign se aprovisiona con un número específico de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos.
 
 **Perfil** un registro de información (por ejemplo: un registro de la variable [Tabla de destinatarios](../dev/datamodel.md) o una tabla externa que contenga un ID de cookie, ID de cliente, ID móvil u otra información relevante para un canal en particular) que represente a un cliente final, a un cliente potencial o a un posible cliente. Los perfiles se consideran activos si se han identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
@@ -74,6 +50,13 @@ You can monitor the number of active profiles used on your instances directly fr
 
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
+
+
+## Privacidad y consentimiento
+
+Adobe Campaign es una potente herramienta para recopilar y procesar un gran volumen de datos, que incluye información personal y datos confidenciales. Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
+
+![](../assets/do-not-localize/book.png) Obtenga información sobre cómo administrar la privacidad y el consentimiento en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es){target=&quot;_blank&quot;}.
 
 
 **Temas relacionados** en la documentación de Campaign Classic v7:

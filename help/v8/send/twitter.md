@@ -3,10 +3,10 @@ title: Publicar mensajes en Twitter con Adobe Campaign
 description: Aprenda a utilizar el módulo Adobe Campaign Social Marketing para publicar mensajes en Twitter y recopilar datos de contacto
 role: Data Engineer
 level: Beginner
-hidefromtoc: true
 hide: true
+hidefromtoc: true
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: da6e585a789749ae0302f048940d104a36e2b477
+source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
 workflow-type: tm+mt
 source-wordcount: '898'
 ht-degree: 48%
@@ -22,7 +22,6 @@ Una vez configurada la integración, puede:
 
 * Enviar mensajes en Twitter: Adobe Campaign permite anunciar mensajes directamente en la cuenta de twitter. También puede enviar mensajes directos a todos sus seguidores de 
 * Recopile nuevos contactos: Adobe Campaign puede recuperar automáticamente los datos de perfil, lo que le permite llevar a cabo campañas de objetivos y, cuando sea posible, implementar estrategias multicanal. Esta acción requiere el consentimiento del usuario.
-
 
 Los pasos de configuración para integrar su cuenta de Twitter con Adobe Campaign se describen en [esta página](../connect/ac-tw.md).
 

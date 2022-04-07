@@ -1,14 +1,14 @@
 ---
 title: Conexión a Campaign v8
-description: Obtenga información sobre cómo conectarse a Campaign v8
+description: Aprenda a conectarse a la versión 8 de Campaign
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: f071fc227dac6d72873744ba56eb0b4b676de5dd
+source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '684'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ Antes de empezar, debe:
 * Obtener la URL del servidor de Campaign
 * Cree su Adobe ID u obtenga sus credenciales de usuario de su empresa
 
-## Descargar e instalar la consola de cliente
+## Descargar e instalar la consola de cliente{#download-ac-console}
 
 Al utilizar Campaign por primera vez, o si necesita actualizar a una versión más reciente, debe descargar la consola de cliente e instalarla.
 
@@ -36,7 +36,7 @@ Hay dos opciones disponibles:
 >
 >Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** no está seleccionado para asegurarse de que todos los usuarios reciben una alerta cuando hay una nueva versión de la Consola disponible.  Si se selecciona esta opción, no se informará al usuario de las nuevas versiones disponibles.
 
-## Crear la conexión
+## Crear la conexión{#create-your-connection}
 
 Una vez que la consola de cliente se haya instalado, siga los pasos a continuación para crear la conexión con el servidor de aplicaciones:
 
@@ -60,7 +60,7 @@ Puede agregar tantas conexiones como sea necesario para conectarse a los entorno
 >
 >El botón **[!UICONTROL Add]** permite crear **[!UICONTROL folders]** para organizar todas las conexiones. Basta con arrastrar y colocar cada conexión en una carpeta.
 
-## Iniciar sesión en Adobe Campaign
+## Iniciar sesión en Adobe Campaign {#logon-to-ac}
 
 Para iniciar sesión en una instancia existente, siga los pasos a continuación:
 
@@ -78,7 +78,7 @@ Para iniciar sesión en una instancia existente, siga los pasos a continuación:
 
    ![](assets/adobeID.png)
 
-## Conceder acceso a los usuarios
+## Conceder acceso a los usuarios{#grant-access}
 
 Adobe Campaign le permite definir y administrar los derechos asignados a los distintos operadores. Se trata de un conjunto de derechos y restricciones que autorizan o niegan:
 
