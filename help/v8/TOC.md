@@ -7,7 +7,7 @@ title: Documentos de Campaign v8
 source-git-commit: c3beb735f54606537bcc977f2f0539767d15b2d9
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ ht-degree: 81%
 + Inicio {#start}
    + [Introducción](start/get-started.md)
    + [Componentes y procesos](start/ac-components.md)
-   + Interfaz de usuario de Campaign {#ac-ui}
-      + [Descubra la interfaz de Campaign](start/campaign-ui.md)
+   + IU de Campaign {#ac-ui}
+      + [Descubrimiento de la interfaz de Campaign](start/campaign-ui.md)
       + [Personalización de la interfaz de Campaign](start/customize-ui.md)
-   + [Trabajar con audiencias](start/audiences.md)
+   + [Trabajo con audiencias](start/audiences.md)
    + [Importación de datos](start/import.md)
    + [Creación de campañas](start/campaigns.md)
    + [Envío de mensajes](start/create-message.md)
@@ -47,16 +47,16 @@ ht-degree: 81%
    + [Panel de control de Campaign](config/self-service.md)
 + Perfiles y audiencias {#profiles-and-audiences}
    + [Introducción](audiences/gs-audiences.md)
-   + [Perfiles de acceso](audiences/view-profiles.md)
+   + [Acceso a perfiles](audiences/view-profiles.md)
    + Adición de perfiles {#add-profiles}
-      + [Crear perfiles manualmente](audiences/create-profiles.md)
-      + [Importar perfiles de un archivo](audiences/import-profiles.md)
-      + [Trabajar con perfiles externos](audiences/external-profiles.md)
+      + [Creación de perfiles manual](audiences/create-profiles.md)
+      + [Importación de perfiles de un archivo](audiences/import-profiles.md)
+      + [Trabajo con perfiles externos](audiences/external-profiles.md)
       + [Recopilación de datos de perfil en formularios web](audiences/collect-profiles.md)
    + Creación de audiencias {#create-audiences}
-      + [Crear una lista de contactos](audiences/create-audiences.md)
-      + [Crear y administrar filtros](audiences/create-filters.md)
-   + [Administrar carpetas y vistas](audiences/folders-and-views.md)
+      + [Creación de una lista de contactos](audiences/create-audiences.md)
+      + [Creación y administración de filtros](audiences/create-filters.md)
+   + [Administración de carpetas y vistas](audiences/folders-and-views.md)
    + [Prácticas recomendadas](audiences/audiences-best-practices.md)
 + Envío de mensajes{#send}
    + [Correos electrónicos](send/email.md)

@@ -29,7 +29,7 @@ Vea este vídeo para obtener más información sobre la administración de lista
 >[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
 
 
-## Crear una lista de contactos {#create-a-list-of-contacts}
+## Creación de una lista de contactos {#create-a-list-of-contacts}
 
 Para crear una lista de contactos, siga los pasos a continuación:
 

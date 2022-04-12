@@ -8,13 +8,13 @@ exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
 source-git-commit: c316da3c431e42860c46b5a23c73a7c129abf3ac
 workflow-type: tm+mt
 source-wordcount: '323'
-ht-degree: 26%
+ht-degree: 36%
 
 ---
 
 # Introducción a perfiles y audiencias en Campaign{#gs-profiles-and-audiences}
 
-Los perfiles son contactos almacenados en la base de datos de Campaign, como clientes, suscriptores a un servicio o posibles clientes. Existen muchos mecanismos posibles para adquirir perfiles y crear esta base de datos: recopilación en línea mediante formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de la empresa u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia. Los perfiles contienen toda la información necesaria para la segmentación, calificación y seguimiento de personas.
+Los perfiles son contactos almacenados en la base de datos de Campaign, como clientes, suscriptores a un servicio o posibles clientes. Existen muchos mecanismos para adquirir perfiles y desarrollar esta base de datos: recopilación en línea a través de formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de compañías u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia. Los perfiles contienen toda la información necesaria para la segmentación, calificación y seguimiento de personas.
 
 Un perfil es un registro de la variable **nmsRecipient** o una tabla externa que almacena todos los atributos de perfil, como el nombre, los apellidos, la dirección de correo electrónico, un ID de cookie, el ID de cliente, el identificador móvil u otra información relacionada con un canal determinado. Otras tablas vinculadas a la tabla de destinatarios contienen datos relacionados con el perfil, por ejemplo, la tabla de registros de envío que contiene registros de todas las entregas realizadas a los destinatarios. Obtenga más información sobre los perfiles integrados y las tablas de destinatarios en [esta sección](../dev/datamodel.md#ootb-profiles).
 

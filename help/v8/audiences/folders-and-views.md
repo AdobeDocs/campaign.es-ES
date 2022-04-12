@@ -8,11 +8,11 @@ exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 source-git-commit: 67d08660431f02d2a18f39b3270cc7c7b62ed40e
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
-# Administrar carpetas y vistas {#folders-and-views}
+# Administración de carpetas y vistas {#folders-and-views}
 
 Las carpetas de campaña son nodos del árbol del explorador. En función de su tipo, contienen ciertos tipos de datos.
 

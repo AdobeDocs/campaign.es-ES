@@ -12,7 +12,7 @@ ht-degree: 33%
 
 ---
 
-# Crear y administrar filtros{#create-filters}
+# Creación y administración de filtros{#create-filters}
 
 El filtrado de datos es el proceso por el que se selecciona una parte menor del conjunto de datos, solo aquellos registros que coinciden con determinados criterios y se utiliza ese subconjunto para acciones específicas (actualizaciones, creación de audiencias) o análisis.
 

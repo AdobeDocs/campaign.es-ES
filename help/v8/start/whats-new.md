@@ -8,7 +8,7 @@ exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: def9714448ef5fdde39cee070088615e8f50e522
 workflow-type: tm+mt
 source-wordcount: '568'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -46,17 +46,17 @@ Campaign v8 ofrece una escala de extremo a extremo en cualquier paso del proceso
 
 ## Interfaz de administración de autoservicio{#self-service-admin}
 
-Como administrador de productos, puede administrar la configuración y rastrear los usos de cada una de las instancias de Campaign v8 con **Panel de control de Campaign de campaña**.
+Como administrador de productos, puede administrar la configuración y rastrear los usos de cada una de las instancias de Campaign versión 8 con el **Panel de control de Campaign**.
 
-A través de una interfaz de usuario intuitiva, los administradores pueden supervisar el uso de los activos clave, realizar tareas avanzadas como la lista de direcciones IP permitidas, la supervisión de almacenamiento SFTP, la administración de claves, etc. Esta interfaz de autoservicio le ofrece más flexibilidad y le ayuda a:
+A través de una interfaz de usuario intuitiva, los administradores pueden monitorizar el uso de los recursos clave, realizar tareas avanzadas como incluir direcciones IP en la lista de permitidos, supervisar el almacenamiento SFTP, administrar claves, etc. Esta interfaz de autoservicio le ofrece más flexibilidad y le ayuda a lo siguiente:
 
-* Realice rápidamente cambios en la configuración por su cuenta sin ponerse en contacto con el Soporte de Adobe
+* Cambiar la configuración rápidamente por su cuenta, sin ponerse en contacto con el Soporte de Adobe
 * Configure las opciones en función de las diferentes necesidades comerciales en distintos momentos
 * Mejore la seguridad controlando la configuración de acceso según sus necesidades
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [Obtenga más información sobre el Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/glass.png) [Obtenga más información acerca del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target=&quot;_blank&quot;}
 
 
 
