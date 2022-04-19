@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
+source-git-commit: 9ad8623b48021eab7b53c7fbc69f3baa165afd3f
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 29%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,9 @@ Los beneficios principales son:
 
 Los CRM y versiones compatibles se detallan en la [matriz de compatibilidad de Campaign](../start/compatibility-matrix.md).
 
-![](../assets/do-not-localize/speech.png)  Los conectores CRM solo funcionan con una URL segura (https).
+>[!CAUTION]
+>
+> Los conectores CRM de Campaign solo funcionan con una URL segura (https).
 
 ## Pasos de implementación {#crm-implementation-steps}
 
@@ -43,6 +45,4 @@ Obtenga información sobre el procedimiento paso a paso para conectar Campaign y
 
 Obtenga información sobre el procedimiento paso a paso para conectar Campaign y Salesforce.com en [esta página](ac-sfdc.md).
 
-La sincronización de datos entre Adobe Campaign y CRM se realiza mediante una actividad de flujo de trabajo dedicada. Cree sus flujos de trabajo para automatizar la sincronización entre Campaign y su CRM. Puede crear un flujo de trabajo que importe los contactos a través de Microsoft Dynamics, los sincronice con los datos de Adobe Campaign existentes, elimine los contactos duplicados y, a continuación, actualice la base de datos de Adobe Campaign.
-
-![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-data-sync.html?lang=en#getting-started)
+La sincronización de datos entre Adobe Campaign y CRM se realiza mediante una actividad de flujo de trabajo dedicada. Cree sus flujos de trabajo para automatizar la sincronización entre Campaign y su CRM. Puede crear un flujo de trabajo que importe los contactos a través de Microsoft Dynamics, los sincronice con los datos de Adobe Campaign existentes, elimine los contactos duplicados y, a continuación, actualice la base de datos de Adobe Campaign. Obtenga más información en [esta página](crm-data-sync.md).
