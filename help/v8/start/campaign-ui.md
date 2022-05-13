@@ -1,82 +1,82 @@
 ---
-title: Descubra el espacio de trabajo de Campaign
-description: Descubra cómo examinar y utilizar el espacio de trabajo de Campaign
+title: Discover Campaign worspace
+description: Learn how to browse and use Campaign workspace
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: b54a39ee6d106d68446878815c068571e310aaa3
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 32%
 
 ---
 
-# Descubra la interfaz de usuario de Campaign
+# Discover Campaign user interface
 
-## Acceso a la interfaz de usuario de Campaign
+## Access Campaign UI
 
-El espacio de trabajo de Campaign está disponible a través de la [consola del cliente](../dev/general-architecture.md).
+El espacio de trabajo de Campaign está disponible a través de la [consola del cliente](../architecture/general-architecture.md).
 
-Obtenga información sobre cómo instalar y configurar la consola del cliente de Campaign en [esta sección](../start/connect.md).
+[](../start/connect.md)
 
 ![](assets/home-page.png)
 
-También puede utilizar un explorador web para acceder a Campaign. En este contexto, solo está disponible un subconjunto de funciones de Campaign. [Más información](#web-browser)
+You can also use a web browser to access Campaign. In this context, only a sub-set of Campaign capabilities are available. [Más información](#web-browser)
 
-## Examinar la interfaz de usuario
+## Browse the UI
 
-Una vez que esté conectado a Campaign, acceda a la página principal. Examine los vínculos para acceder a las funciones. El conjunto de funciones disponibles en la interfaz de usuario depende de las opciones y los permisos.
+Once you are connected to Campaign, you access the home page. Browse the links to access capabilities. The set of capabilities available in the UI depend on your options and permissions.
 
-Desde la sección central de la página principal, utilice vínculos para acceder a los materiales de ayuda de Campaign, la comunidad y el sitio web de asistencia.
+From the central section of the home page, use links to access Campaign help materials, community and the support website.
 
-Utilice las pestañas de la sección superior para examinar las funciones de las claves de Campaign:
+Use the tabs in the upper section to browse Campaign key capabilities:
 
 ![](assets/overview-home.png)
 
 >[!NOTE]
 >
->La lista de funcionalidades principales a las que puede acceder depende de sus permisos y de su implementación.
+>The list of core capabilities you can access depends on your permissions, and on your implementation.
 
-Para cada capacidad, puede acceder al conjunto de funciones clave en la **[!UICONTROL Browsing]** para obtener más información. La variable **[!UICONTROL More]** link permite acceder a todos los demás componentes.
+**[!UICONTROL Browsing]** **[!UICONTROL More]**
 
-Por ejemplo, al navegar hasta el **[!UICONTROL Profiles and targets]** , puede acceder a las listas de destinatarios, los servicios de suscripción, los flujos de trabajo de objetivos existentes y los accesos directos para crear todos estos componentes.
+**[!UICONTROL Profiles and targets]**
 
 ![](assets/overview-list.png)
 
-Cuando selecciona un elemento en la pantalla, se carga en una nueva pestaña para que pueda examinar el contenido fácilmente.
+When you select an element in the screen, it is loaded in a new tab so that you can easily browse content.
 
 ![](assets/new-tab.png)
 
 ## Creación de un elemento {#create-an-element}
 
-Utilizar los accesos directos en la variable **[!UICONTROL Create]** a la izquierda de la pantalla para añadir nuevos elementos. También puede usar la variable **[!UICONTROL Create]** situado encima de la lista para añadir nuevos elementos a la lista actual.
+**[!UICONTROL Create]** **[!UICONTROL Create]**
 
 Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]** para crear una nueva entrega.
 
 ![](assets/new-recipient.png)
 
-## Usar un explorador web {#web-browser}
+## Use a web browser {#web-browser}
 
-También puede acceder a un subconjunto de funciones de Campaign a través de un explorador web.
+You can also access a subset of Campaign capabilities through the a web browser.
 
 La interfaz de acceso web es similar a la interfaz de la consola. Desde un explorador, puede utilizar las mismas funciones de navegación y visualización que en la consola, pero solo puede realizar un conjunto reducido de acciones en las campañas. Por ejemplo, puede ver y cancelar campañas, pero no puede modificarlas.
 
-![](../assets/do-not-localize/glass.png) [Obtenga más información sobre el acceso a la web de Campaign](../start/connect.md#web-access).
+![](../assets/do-not-localize/glass.png)[](../start/connect.md#web-access)
 
-## Acceso al explorador de Campaign {#ac-explorer-ui}
+## Access Campaign Explorer {#ac-explorer-ui}
 
-Vaya al explorador de Campaign para acceder a todas las funcionalidades y configuraciones de Adobe Campaign.
+Browse Campaign Explorer to access all the Adobe Campaign capabilities and settings.
 
 ![](assets/explorer.png)
 
-Este espacio de trabajo le permite acceder al árbol del Explorador para examinar todas las funciones y opciones.
+This workspace lets you access the Explorer tree to browse all features and options.
 
-La sección izquierda muestra el árbol del explorador de Campaign y le permite examinar todos los componentes y la configuración de su instancia en función de sus permisos.
+The left section shows Campaign Explorer tree and lets you browse all components and settings of your instance - based on your permissions.
 
-La sección superior muestra la lista de registros de la carpeta actual. Estas listas son totalmente personalizables. [Más información](customize-ui.md)
+The upper section shows the list of records in the current folder. These lists are fully customizable. [Más información](customize-ui.md)
 
-La sección inferior muestra los detalles del registro seleccionado.
+The lower section shows the details of the selected record.
 
 
 ## Idiomas
@@ -95,7 +95,7 @@ El idioma se selecciona durante el proceso de instalación.
 >
 >No se puede cambiar el idioma después de la creación de la instancia.
 
-El idioma afecta a los formatos de fecha y hora.
+Language affects dates and time formats.
 
 
 Las principales diferencias entre el inglés de EE. UU. y el inglés de Reino Unido son:

@@ -1,64 +1,64 @@
 ---
-title: Comprender la arquitectura de interacción de Campaign
-description: Conceptos básicos de la arquitectura de interacción de Campaign
+title: Understand Campaign Interaction architecture
+description: Campaign Interaction Architecture basics
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: dafdf471fcaf2b6c6e3e8d5028cd65e35e7df3eb
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
 source-wordcount: '1314'
 ht-degree: 66%
 
 ---
 
-# Entender los entornos y la arquitectura de interacción de Campaign
+# Understand Campaign Interaction environments and architecture
 
-## Entornos {#environments}
+## Environments {#environments}
 
 Para cada dimensión de segmentación existen dos entornos utilizados al gestionar las ofertas:
 
-* A **diseño** entorno en el que el gestor de ofertas se encarga de crear y categorizar ofertas, editarlas e iniciar el proceso de aprobación para que se puedan utilizar. Las reglas para cada categoría, los espacios de oferta en los que se pueden presentar las ofertas y los filtros predefinidos utilizados para definir la idoneidad de una oferta también se definen en este entorno.
+* **** The rules for each category, the offer spaces on which offers can be presented, and the pre-defined filters used to define an offer&#39;s eligibility are also defined in this environment.
 
    Las categorías también se pueden publicar manualmente en el entorno en línea.
 
-   El proceso de aprobación de las ofertas es detallado [en esta sección](interaction-offer.md#approve-offers).
+   [](interaction-offer.md#approve-offers)
 
-* A **live** entorno en el que se pueden encontrar ofertas aprobadas del entorno de diseño, así como los distintos espacios de ofertas, filtros, categorías y reglas configuradas en el entorno de diseño. Durante una llamada al motor de oferta, este siempre utilizará ofertas del entorno en directo.
+* **** During a call to the Offer engine, the engine will always use offers from the live environment.
 
 Una oferta solo se implementa en los espacios de oferta seleccionados durante el proceso de aprobación. Por lo tanto, una oferta puede estar activa pero no puede utilizarse en un espacio de oferta que también esté activo.
 
-## Interacciones entrantes y salientes {#interaction-types}
+## Inbound and outbound interactions {#interaction-types}
 
-El módulo Adobe Campaign Interaction propone dos tipos de interacciones:
+The Adobe Campaign Interaction module proposes two types of interactions:
 
-* **entrante** interacciones, iniciadas por un contacto. [Más información](interaction-present-offers.md)
-* **saliente** interacciones, iniciadas por un administrador de envíos de Campaign. [Más información](interaction-send-offers.md)
+* **** [Más información](interaction-present-offers.md)
+* **** [Más información](interaction-send-offers.md)
 
-Estos dos tipos de interacciones se pueden realizar en **modo unitario** (la oferta se calcula para un solo contacto), o **modo por lotes** (la oferta se calcula para un conjunto de contactos). Por lo general, las interacciones entrantes se realizan en modo unitario y las interacciones salientes se llevan a cabo en modo agrupado. Sin embargo, puede haber ciertas excepciones, ya que [mensajes transaccionales](../send/transactional.md) por ejemplo, mediante el cual la interacción saliente se realiza en modo unitario.
+******** Por lo general, las interacciones entrantes se realizan en modo unitario y las interacciones salientes se llevan a cabo en modo agrupado. [](../send/transactional.md)
 
-Tan pronto como se puede o se debe presentar una oferta (según las configuraciones llevadas a cabo), el motor de oferta desempeña la función de intermediario: calcula automáticamente la mejor oferta posible para un contacto entre las disponibles combinando los datos recibidos sobre el contacto y las diferentes reglas que se pueden aplicar según se especifica en la aplicación.
+As soon as an offer can or must be presented (according to the configurations carried out), the Offer engine plays the intermediary role: it automatically calculates the best possible offer for a contact among those available by combining data received about the contact and the different rules that can be applied as specified in the application.
 
 ![](assets/architecture_interaction2.png)
 
 ## Arquitectura distribuida
 
-Para poder admitir la escalabilidad y proporcionar servicio las 24 horas del día en el canal entrante, el **Interacción** se implementa en una arquitectura distribuida. Este tipo de arquitectura ya se utiliza con [Centro de mensajes](../dev/architecture.md#transac-msg-archi) y se compone de varias instancias:
+**** [](../architecture/architecture.md#transac-msg-archi)
 
 * una o varias instancias de control dedicadas al canal saliente y que contienen la base de diseño de entorno y mercadotecnia.
 * una o varias instancias de ejecución dedicadas al canal entrante
 
 ![](assets/interaction_powerbooster_schema.png)
 
-Las instancias de control están dedicadas al canal entrante y contienen la versión en línea del catálogo. Cada instancia de ejecución es independiente y está dedicada a un segmento de contacto (por ejemplo, una instancia de ejecución por país). Las llamadas al motor de oferta deben realizarse directamente en la ejecución (una URL específica por instancia de ejecución). Como la sincronización entre instancias no es automática, las interacciones del mismo contacto deben enviarse a través de la misma instancia.
+Las instancias de control están dedicadas al canal entrante y contienen la versión en línea del catálogo. Cada instancia de ejecución es independiente y está dedicada a un segmento de contacto (por ejemplo, una instancia de ejecución por país). Calls to the Offer engine must be directly performed on the execution (one specific URL per execution instance). Como la sincronización entre instancias no es automática, las interacciones del mismo contacto deben enviarse a través de la misma instancia.
 
-### Sincronización {#synchronization}
+### Synchronization {#synchronization}
 
 La sincronización de ofertas se lleva a cabo mediante paquetes. En instancias de ejecución, todos los objetos de catálogo están prefijados con el nombre de cuenta externo. Esto significa que se pueden admitir varias instancias de control (instancias de desarrollo y producción por ejemplo) en una misma instancia de ejecución.
 
 >[!CAUTION]
 >
->Utilice nombres internos cortos y explícitos.
+>Use short and explicit internal names.
 
 Las ofertas se implementan automáticamente y se publican en instancias de ejecución y control.
 
@@ -68,7 +68,7 @@ Las ofertas eliminadas en el entorno de diseño se desactivan en todas las insta
 
 Se crea un flujo de trabajo para cada entorno y cuenta externa para la sincronización de propuestas. La frecuencia de sincronización se puede ajustar para cada entorno y cuenta externa.
 
-Debe tener en cuenta los siguientes mecanismos de sincronización:
+You must be aware of the following synchronization mechanisms:
 
 * Si se utiliza la función de reserva de un entorno anónimo a un entorno identificado, estos dos entornos deben estar en la misma instancia de ejecución.
 * La sincronización entre varias instancias de ejecución no se realiza en tiempo real. Las interacciones del mismo contacto deben enviarse a la misma instancia. La instancia de control debe estar dedicada al canal saliente (sin tiempo real).
@@ -80,17 +80,17 @@ Debe tener en cuenta los siguientes mecanismos de sincronización:
 
 Las extensiones de esquema directamente vinculadas a **interaction** (ofertas, propuestas, destinatarios, etc.) deben implementarse en las instancias de ejecución.
 
-La variable **Interacción** está instalado en todas las instancias (control y ejecución). Hay dos paquetes adicionales disponibles: un paquete para las instancias de control y otro para cada instancia de ejecución.
+**** Two additional packages are available: one package for the control instances, and the other for each execution instance.
 
 >[!NOTE]
 >
->Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el ID de la propuesta, se convierten en campos de tipo **int64.** Este tipo de datos se detalla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=en#mapping-the-types-of-adobe-campaign-dbms-data){target=&quot;_blank&quot;}.
+>Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el ID de la propuesta, se convierten en campos de tipo **int64.** [](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=en#mapping-the-types-of-adobe-campaign-dbms-data)
 
-La duración de la retención de datos se configura en cada instancia (a través del **[!UICONTROL Data purge]** en el asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de idoneidad que se van a calcular.
+**[!UICONTROL Data purge]** En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de idoneidad que se van a calcular.
 
 En las instancias de control:
 
-1. Cree una cuenta externa por cada instancia de ejecución:
+1. Create one external account per execution instance:
 
    ![](assets/interaction_powerbooster1.png)
 
@@ -143,7 +143,7 @@ La siguiente opción está disponible en instancias de ejecución:
 
 ### Instalación de paquetes {#packages-installation}
 
-Si la instancia no ha tenido anteriormente la variable **Interacción** , no es necesario realizar ninguna migración. De forma predeterminada, la tabla de propuestas se encuentra en 64 bits después de instalar los paquetes.
+**** De forma predeterminada, la tabla de propuestas se encuentra en 64 bits después de instalar los paquetes.
 
 >[!CAUTION]
 >
@@ -157,9 +157,9 @@ Si la instancia no ha tenido anteriormente la variable **Interacción** , no es 
 >Si se ha realizado configuraciones específicas en la tabla de propuestas, adapte las consultas según corresponda.
 
 
-Existen dos métodos:
+There are two methods:
 
-**Tabla de trabajo** (recomendado)
+****
 
 ```
 CREATE TABLE NmsPropositionRcp_tmp AS SELECT * FROM nmspropositionrcp WHERE 0=1;

@@ -1,51 +1,51 @@
 ---
-title: Trabajo con esquemas de Campaign
-description: Introducción a los esquemas
+title: Work with Campaign schemas
+description: Get started with schemas
 exl-id: 87af72fe-6c84-4d9a-afed-015900890cce
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 355b9219ffd9d481d15d2d0982d49923842cc27b
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1266'
 ht-degree: 7%
 
 ---
 
 # Usar esquemas{#gs-ac-schemas}
 
-La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. Obedece a una gramática específica de Adobe Campaign, denominada **esquema**.
+La estructura física y lógica de los datos que se llevan en la aplicación se describe en XML. ****
 
-Un esquema es un documento XML asociado a una tabla de base de datos. Define la estructura de datos y describe la definición SQL de la tabla:
+A schema is an XML document associated with a database table. It defines data structure and describes the SQL definition of the table:
 
-* Nombre de la tabla
+* The name of the table
 * Campos
-* Vínculos con otras tablas
+* Links with other tables
 
-También describe la estructura XML utilizada para almacenar datos:
+It also describes the XML structure used to store data:
 
 * Elementos y atributos
-* Jerarquía de elementos
-* Tipos de elementos y atributos
+* Hierarchy of elements
+* Element and attribute types
 * Valores predeterminados
-* Etiquetas, descripciones y otras propiedades.
+* Labels, descriptions, and other properties.
 
-Los esquemas permiten definir una entidad en la base de datos. Hay un esquema para cada entidad.
+Schemas enable you to define an entity in the database. There is a schema for each entity.
 
-Adobe Campaign emplea esquemas de datos para:
+Adobe Campaign employs Data Schemas to:
 
-* Defina cómo los objetos de datos de la aplicación están vinculados a las tablas de base de datos subyacentes.
+* Define how data object within the application are tied to underlying database tables.
 * Definir vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign.
 * Definir y describir los campos individuales incluidos en cada objeto.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](datamodel.md).
+[](datamodel.md)
 
 >[!CAUTION]
 >
->Algunos esquemas de Campaign integrados tienen un esquema asociado en la base de datos de Cloud. Estos esquemas se identifican mediante la variable **Xxl** y no deben modificarse ni ampliarse.
+>Some built-in Campaign schemas have an associated schema on the Cloud database. ****
 
-## Sintaxis de esquemas {#syntax-of-schemas}
+## Syntax of schemas {#syntax-of-schemas}
 
-El elemento raíz del esquema es **`<srcschema>`**. Contiene el **`<element>`** y **`<attribute>`** subelementos.
+**`<srcschema>`** **`<element>`****`<attribute>`**
 
-La primera **`<element>`** subelemento coincide con la raíz de la entidad.
+**`<element>`**
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -61,56 +61,56 @@ La primera **`<element>`** subelemento coincide con la raíz de la entidad.
 
 >[!NOTE]
 >
->El elemento raíz de la entidad tiene el mismo nombre que el esquema.
+>The root element of the entity has the same name as the schema.
 
 ![](assets/schema_and_entity.png)
 
-La variable **`<element>`** las etiquetas definen los nombres de los elementos de entidad. **`<attribute>`** las etiquetas del esquema definen los nombres de los atributos en la variable **`<element>`** etiquetas a las que se han vinculado.
+**`<element>`** **`<attribute>`****`<element>`**
 
-## Identificación de un esquema {#identification-of-a-schema}
+## Identification of a schema {#identification-of-a-schema}
 
-Un esquema de datos se identifica con su nombre y área de nombres.
+A data schema is identified by its name and its namespace.
 
-Un área de nombres permite agrupar un conjunto de esquemas por área de interés. Por ejemplo, la variable **cus** El espacio de nombres se utiliza para la configuración específica del cliente (**clientes**).
+A namespace lets you group a set of schemas by area of interest. ********
 
 >[!CAUTION]
 >
->Como estándar, el nombre del área de nombres debe ser conciso y contener únicamente caracteres autorizados de acuerdo con las reglas de nomenclatura XML.
+>As a standard, the name of the namespace must be concise and must contain only authorized characters in accordance with XML naming rules.
 >
->Los identificadores no deben comenzar con caracteres numéricos.
+>Identifiers must not begin with numeric characters.
 
-## Espacios de nombres reservados {#reserved-namespaces}
+## Reserved namespaces {#reserved-namespaces}
 
-Algunas áreas de nombres están reservadas para descripciones de las entidades del sistema necesarias para el funcionamiento de la aplicación Adobe Campaign. El siguiente espacio de nombres **no debe usarse** para identificar un nuevo esquema, en cualquier combinación de mayúsculas y minúsculas:
+Certain namespaces are reserved for descriptions of the system entities required for the operation of the Adobe Campaign application. ****
 
-* **xxl**: reservado a esquemas de base de datos de Cloud
-* **xtk**: reservado para datos del sistema de plataforma
-* **nl**: reservado para el uso general de la aplicación
-* **nms**: reservado para entregas (destinatario, entrega, seguimiento, etc.)
-* **ncm**: reservado para la gestión de contenido
-* **temp**: reservado a esquemas temporales
-* **crm**: reservado para la integración de conectores CRM
+* ****
+* ****
+* ****
+* ****
+* ****
+* ****
+* ****
 
-La clave de identificación de un esquema es una cadena creada con el área de nombres y el nombre separado por dos puntos; por ejemplo: **nms:recipient**.
+****
 
-## Creación o ampliación de esquemas de Campaign {#create-or-extend-schemas}
+## Create or extend Campaign schemas {#create-or-extend-schemas}
 
-Para añadir un campo u otro elemento a uno de los esquemas de datos principales de Campaign, como la tabla de destinatarios (nms:recipient), debe ampliar ese esquema.
+To add a field or other element to one of the core data schemas in Campaign, such as the recipient table (nms:recipient), you have to extend that schema.
 
-![](../assets/do-not-localize/glass.png) Para obtener más información, consulte [Ampliación de un esquema](extend-schema.md).
+![](../assets/do-not-localize/glass.png)[](extend-schema.md)
 
-Para añadir un tipo de datos completamente nuevo que no exista en Adobe Campaign (por ejemplo, una tabla de contratos), puede crear un esquema personalizado directamente.
+To add an entirely new type of data that does not exist in Adobe Campaign (a table of contracts for example) you can create a custom schema directly.
 
-![](../assets/do-not-localize/glass.png) Para obtener más información, consulte [Crear un nuevo esquema](create-schema.md).
+![](../assets/do-not-localize/glass.png)[](create-schema.md)
 
 ![](assets/schemaextension_1.png)
 
 
-Una vez que haya creado o ampliado un esquema para que funcione, la práctica recomendada es definir sus elementos de contenido XML en el mismo orden en que aparecen a continuación.
+Once you have created or extended a schema to work in, the best practice is to define its XML content elements in the same order they appear in below.
 
 ## Enumeraciones {#enumerations}
 
-Las enumeraciones se definen primero, antes del elemento principal del esquema. Permiten mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
+Enumerations are defined first, before the main element of the schema. They allow you to display values in a list in order to restrict the choices that the user has for a given field.
 
 Ejemplo:
 
@@ -122,7 +122,7 @@ Ejemplo:
 </enumeration>
 ```
 
-Al definir campos, puede utilizar esta enumeración de la siguiente manera:
+When defining fields, you can then use this enumeration like so:
 
 ```
 <attribute desc="Type of Transaction" label="Transaction Type" name="transactionType" 
@@ -131,13 +131,47 @@ type="string" enum="exTransactionTypeEnum"/>
 
 >[!NOTE]
 >
->También puede utilizar enumeraciones administradas por el usuario (normalmente en **[!UICONTROL Administration]** > **[!UICONTROL Platform]** ) para especificar los valores de un campo determinado. Se trata de enumeraciones globales eficaces y una mejor opción si la enumeración puede utilizarse fuera del esquema específico en el que está trabajando.
+>**[!UICONTROL Administration]****[!UICONTROL Platform]** These are effectively global enumerations, and a better choice if your enumeration may be used outside of the specific schema you are working in.
 
-## Claves {#keys}
+<!--
+## Index {#index} 
 
-Cada tabla debe tener al menos una clave y, a menudo, se establece automáticamente en el elemento principal del esquema mediante la variable **@autouuid** y **autopk** atributos definidos en **true**.
+In the context of a [FDA Snowflake deployment](../architecture/fda-deployment.md), you need to declare indexes. Indexes are the first elements declared in the main element of the schema. 
 
-La clave principal también se puede definir utilizando la variable **internal** atributo.
+They can be unique or not, and reference one or more fields.
+
+Examples:
+
+```
+<dbindex name="email" unique="true">
+  <keyfield xpath="@email"/>
+</dbindex>
+```
+
+```
+<dbindex name="lastNameAndZip">
+  <keyfield xpath="@lastName"/>
+  <keyfield xpath="location/@zipCode"/>
+</dbindex>
+```
+
+The **xpath** attribute points to the field in your schema that you wish to index.
+
+>[!IMPORTANT]
+>
+>It is important to remember that the SQL query read performance gains provided by indexes also come with a performance hit on writing records. The indexes should therefore be used with precaution.
+
+For more on indexes, refer to the [Indexed fields](database-mapping.md#indexed-fields) section.
+
+-->
+
+## Keys {#keys}
+
+********
+
+[](../architecture/enterprise-deployment.md)********
+
+****
 
 Ejemplo:
 
@@ -147,45 +181,45 @@ Ejemplo:
 </key>
 ```
 
-En este ejemplo, en lugar de dejar que la variable **@autouuid** cree un atributo de clave principal predeterminado con el nombre &quot;id&quot;, especificaremos nuestra propia clave principal &quot;householdId&quot;.
+********
 
 >[!CAUTION]
 >
 >Al crear un nuevo esquema o durante una ampliación de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
 
-![](../assets/do-not-localize/glass.png) Obtenga más información sobre las claves en [esta sección](database-mapping.md#management-of-keys).
+![](../assets/do-not-localize/glass.png)[](database-mapping.md#management-of-keys)
 
-## Atributos (campos) {#attributes--fields-}
+## Attributes (Fields) {#attributes--fields-}
 
-Los atributos permiten definir los campos que conforman el objeto de datos. Puede usar la variable **[!UICONTROL Insert]** en la barra de herramientas de edición de esquema para soltar plantillas de atributos vacías en el XML donde se encuentra el cursor. Obtenga más información en [esta sección](create-schema.md).
+Attributes allow you to define the fields which make up your data object. **[!UICONTROL Insert]** Obtenga más información en [esta sección](create-schema.md).
 
 ![](assets/schemaextension_2.png)
 
-La lista completa de atributos está disponible en la `<attribute>` sección de elementos de [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model). Estos son algunos de los atributos más utilizados: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
+`<attribute>`[](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=en#content-model) ********************************************************
 
-![](../assets/do-not-localize/book.png) Para obtener más información sobre cada atributo, consulte la descripción del atributo en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic).
+![](../assets/do-not-localize/book.png)[](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=en#configuring-campaign-classic)
 
 ### Ejemplos {#examples}
 
-Ejemplo de definición de un valor predeterminado:
+Example of defining a default value:
 
 ```
 <attribute name="transactionDate" label="Transaction Date" type="datetime" default="GetDate()"/>
 ```
 
-Ejemplo de uso de un atributo común como plantilla para un campo también marcado como obligatorio:
+Example of using a common attribute as a template for a field also marked as mandatory:
 
 ```
 <attribute name="mobile" label="Mobile" template="nms:common:phone" required="true" />
 ```
 
-Ejemplo de un campo calculado que está oculto mediante la variable **@advanced** atributo:
+****
 
 ```
 <attribute name="domain" label="Email domain" desc="Domain of recipient email address" expr="GetEmailDomain([@email])" advanced="true" />
 ```
 
-Ejemplo de un campo XML también almacenado en un campo SQL y que tiene un **@dataPolicy** atributo.
+****
 
 ```
 <attribute name="secondaryEmail" label="Secondary email address" length="100" xml="true" sql="true" dataPolicy="email" />
@@ -193,33 +227,33 @@ Ejemplo de un campo XML también almacenado en un campo SQL y que tiene un **@da
 
 >[!CAUTION]
 >
->Aunque la mayoría de los atributos están vinculados según una cardinalidad 1-1 a un campo físico de la base de datos, este no es el caso de los campos XML o los campos calculados.\
->Un campo XML se almacena en un campo memo (&quot;mData&quot;) de la tabla.\
->Sin embargo, un campo calculado se crea dinámicamente cada vez que se inicia una consulta, por lo que solo existe en la capa aplicativa.
+>Although most attributes are linked according to a 1-1 cardinality to a physical field of the database, this is not the case for the XML fields or the computed fields.\
+>An XML field is stored in a memo field (&quot;mData&quot;) of the table.\
+>A computed field however is created dynamically each time a query is started, it therefore only exists in the applicative layer.
 
 ## Vínculos {#links}
 
-Los vínculos son algunos de los últimos elementos del elemento principal del esquema. Definen cómo se relacionan todos los distintos esquemas de la instancia entre sí.
+Links are some of the last elements in the main element of your schema. They define how all of the different schemas in your instance relate to one another.
 
-Los vínculos se declaran en el esquema que contiene la variable **clave externa** de la tabla a la que está vinculado.
+****
 
-Hay tres tipos de cardinalidad: 1-1, 1-N y N-N. Es el tipo 1-N que se utiliza de forma predeterminada.
+There are three types of cardinality: 1-1, 1-N, and N-N. It is the 1-N type that is used by default.
 
 ### Ejemplos {#examples-1}
 
-Ejemplo de un vínculo 1-N entre la tabla de destinatarios (esquema predeterminado) y una tabla de transacciones personalizadas:
+An example of a 1-N link between the recipient table (out-of-the-box schema) and a table of custom transactions:
 
 ```
 <element label="Recipient" name="lnkRecipient" revLink="lnkTransactions" target="nms:recipient" type="link"/>
 ```
 
-Ejemplo de un vínculo 1-1 entre un esquema personalizado &quot;Car&quot; (en el espacio de nombres &quot;cus&quot;) y la tabla de destinatarios:
+An example of a 1-1 link between a custom schema &quot;Car&quot; (in the &quot;cus&quot; namespace) and the recipient table:
 
 ```
 <element label="Car" name="lnkCar" revCardinality="single" revLink="recipient" target="cus:car" type="link"/>
 ```
 
-Ejemplo de un vínculo externo entre la tabla de destinatarios y una tabla de direcciones basada en la dirección de correo electrónico y no en una clave principal:
+Example of an external join between the recipient table and a table of addresses based on the email address and not a primary key:
 
 ```
 <element name="emailInfo" label="Email Info" revLink="recipient" target="nms:address" type="link" externalJoin="true">
@@ -227,13 +261,13 @@ Ejemplo de un vínculo externo entre la tabla de destinatarios y una tabla de di
 </element>
 ```
 
-Aquí &quot;xpath-dst&quot; corresponde a la clave principal en el esquema de destino y &quot;xpath-src&quot; corresponde a la clave externa en el esquema de origen.
+Here &quot;xpath-dst&quot; corresponds to the primary key in the target schema and &quot;xpath-src&quot; corresponds to the foreign key in the source schema.
 
 ## Pista de auditoría {#audit-trail}
 
-Un elemento útil que puede querer incluir en la parte inferior del esquema es un elemento de seguimiento (pista de auditoría).
+One useful element you may want to include at the bottom of your schema is a tracking element (Audit trail).
 
-Utilice el ejemplo siguiente para incluir campos relacionados con la fecha de creación, el usuario que creó los datos, la fecha y el autor de la última modificación para todos los datos de la tabla:
+Use the example below to include fields relating to the creation date, the user that created the data, the date, and the author of the last modification for all data in your table:
 
 ```
 <element aggregate="xtk:common:auditTrail" name="auditTrail"/>
@@ -241,7 +275,7 @@ Utilice el ejemplo siguiente para incluir campos relacionados con la fecha de cr
 
 ## Actualización de la estructura de la base de datos {#updating-the-database-structure}
 
-Una vez completados y guardados los cambios, cualquier cambio que pueda afectar a la estructura SQL debe aplicarse a la base de datos. Para ello, utilice el asistente de actualización de la base de datos.
+Once your changes are completed and saved, any changes that may impact the SQL structure need to be applied to the database. To do this, use the database update assistant.
 
 ![](assets/schemaextension_3.png)
 
@@ -249,4 +283,4 @@ Para obtener más información, consulte [esta sección](update-database-structu
 
 >[!NOTE]
 >
->Cuando las modificaciones no afectan a la estructura de la base de datos, solo es necesario volver a generar los esquemas. Para ello, seleccione los esquemas que desea actualizar, haga clic con el botón derecho del ratón y elija **[!UICONTROL Actions > Regenerate selected schemas...]** .
+>When modifications do not impact the database structure, you just need to regenerate schemas. **[!UICONTROL Actions > Regenerate selected schemas...]**

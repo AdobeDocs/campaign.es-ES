@@ -1,17 +1,17 @@
 ---
-title: Asignación de base de datos de campaña
-description: Asignación de base de datos de campaña
+title: Campaign Database mapping
+description: Campaign Database mapping
 exl-id: a804d164-58bf-4b15-a48e-8cf75d793668
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1485'
 ht-degree: 0%
 
 ---
 
 # Asignación de base de datos{#database-mapping}
 
-La asignación SQL de nuestro esquema de ejemplo proporciona el siguiente documento XML:
+The SQL mapping of our example schema gives the following XML document:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">
@@ -34,25 +34,25 @@ La asignación SQL de nuestro esquema de ejemplo proporciona el siguiente docume
 
 ## Descripción {#description}
 
-El elemento raíz del esquema ya no es **`<srcschema>`**, pero **`<schema>`**.
+**`<srcschema>`****`<schema>`**
 
-Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, denominado simplemente esquema. La aplicación Adobe Campaign utilizará este esquema.
+This takes us to another type of document, which is generated automatically from the source schema, simply referred to as the schema. This schema will be used by the Adobe Campaign application.
 
-Los nombres SQL se determinan automáticamente en función del nombre y tipo del elemento.
+The SQL names are determined automatically based on element name and type.
 
-Las reglas de nomenclatura SQL son las siguientes:
+The SQL naming rules are as follows:
 
-* tabla: concatenación del área de nombres y nombre del esquema
+* table: concatenation of the schema namespace and name
 
-   En nuestro ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en la variable **sqltable** atributo:
+   ****
 
    ```
    <element name="recipient" sqltable="CusRecipient">
    ```
 
-* campo: nombre del elemento precedido por un prefijo definido según el tipo (&quot;i&quot; para integer, &quot;d&quot; para double, &quot;s&quot; para string, &quot;ts&quot; para dates, etc.)
+* field: name of the element preceded by a prefix defined according to type (&#39;i&#39; for integer, &#39;d&#39; for double, &#39;s&#39; for string, &#39;ts&#39; for dates, etc.)
 
-   El nombre del campo se introduce mediante la variable **sqlname** atributo para cada tipo **`<attribute>`** y **`<element>`**:
+   ******`<attribute>`****`<element>`**
 
    ```
    <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -60,9 +60,9 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 >[!NOTE]
 >
->Los nombres SQL se pueden sobrecargar desde el esquema de origen. Para ello, rellene los atributos &quot;sqltable&quot; o &quot;sqlname&quot; en el elemento correspondiente.
+>SQL names can be overloaded from the source schema. To do this, populate the &quot;sqltable&quot; or &quot;sqlname&quot; attributes on the element concerned.
 
-La secuencia de comandos SQL para crear la tabla generada a partir del esquema ampliado es la siguiente:
+The SQL script to create the table generated from the extended schema is as follows:
 
 ```
 CREATE TABLE CusRecipient(
@@ -72,40 +72,40 @@ CREATE TABLE CusRecipient(
   tsCreated TIMESTAMP Default NULL);
 ```
 
-Las restricciones de campo SQL son las siguientes:
+The SQL field constraints are as follows:
 
-* no hay valores nulos en los campos numérico y de fecha,
-* los campos numéricos se inicializan en 0.
+* no null values in numeric and date fields,
+* numeric fields are initialized to 0.
 
-## Campos XML {#xml-fields}
+## XML fields {#xml-fields}
 
-De forma predeterminada, cualquier tipo escrito **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
+**`<attribute>`****`<element>`** You can, however, reference this field in XML instead of SQL, which means that the data is stored in a memo field (&quot;mData&quot;) of the table containing the values of all XML fields. The storage of these data is an XML document that observes the schema structure.
 
-Para rellenar un campo en XML, debe agregar la variable **xml** con el valor &quot;true&quot; al elemento correspondiente.
+****
 
-**Ejemplo**: aquí hay dos ejemplos de uso de campos XML.
+****
 
-* Campo de comentarios multilínea:
+* Multi-line comment field:
 
    ```
    <element name="comment" xml="true" type="memo" label="Comment"/>
    ```
 
-* Descripción de los datos en formato de HTML:
+* Description of data in HTML format:
 
    ```
    <element name="description" xml="true" type="html" label="Description"/>
    ```
 
-   El tipo &quot;html&quot; permite almacenar el contenido del HTML en una etiqueta CDATA y mostrar una comprobación de edición especial del HTML en la interfaz del cliente de Adobe Campaign.
+   The &quot;html&quot; type lets you store the HTML content in a CDATA tag and display a special HTML edit check in the Adobe Campaign client interface.
 
-El uso de campos XML permite añadir campos sin necesidad de modificar la estructura física de la base de datos. Otra ventaja es que se utilizan menos recursos (tamaño asignado a campos SQL, límite en el número de campos por tabla, etc.).
+The use of XML fields lets you add fields without needing to modify the physical structure of the database. Another advantage is that you use less resources (size allocated to SQL fields, limit on the number of fields per table, etc.).
 
 ## Administración de claves {#management-of-keys}
 
-Una tabla debe tener al menos una clave para identificar un registro de la tabla.
+A table must have at least one key for identifying a record in the table.
 
-Se declara una clave a partir del elemento principal del esquema de datos.
+A key is declared from the main element of the data schema.
 
 ```
 <key name="name_of_key">
@@ -115,14 +115,14 @@ Se declara una clave a partir del elemento principal del esquema de datos.
 </key>
 ```
 
-Las claves obedecen las siguientes reglas:
+Keys obey the following rules:
 
-* Una clave puede hacer referencia a uno o varios campos de la tabla.
-* Una clave se conoce como &#39;primary&#39; (o &#39;priority&#39;) cuando es la primera del esquema que se rellena o si contiene la variable **internal** con el valor &quot;true&quot;.
+* A key can reference one or more fields in the table.
+* ****
 
 **Ejemplo**:
 
-* Adición de una clave a la dirección de correo electrónico y a la ciudad:
+* Adding a key to the e-mail address and city:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -140,7 +140,7 @@ Las claves obedecen las siguientes reglas:
    </srcSchema>
    ```
 
-   El esquema generado:
+   The schema generated:
 
    ```
    <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -158,7 +158,7 @@ Las claves obedecen las siguientes reglas:
    </schema>
    ```
 
-* Adición de una clave principal o interna en el campo de nombre &quot;id&quot;:
+* Adding a primary or internal key on the &quot;id&quot; name field:
 
    ```
    <srcSchema name="recipient" namespace="cus">
@@ -177,7 +177,7 @@ Las claves obedecen las siguientes reglas:
    </srcSchema>
    ```
 
-   El esquema generado:
+   The schema generated:
 
    ```
    <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -196,13 +196,13 @@ Las claves obedecen las siguientes reglas:
    </schema>
    ```
 
-### Clave principal: identificador
+### Primary key - Identifier{#primary-key}
 
-La clave principal de las tablas de Adobe Campaign es un **ID único universal (UUID)** generado automáticamente por el motor de base de datos. El valor clave es único en toda la base de datos. El contenido de la clave se genera automáticamente al insertar el registro.
+[](../architecture/enterprise-deployment.md)**** The key value is unique in the entire database. The content of the key is automatically generated on insertion of the record.
 
 **Ejemplo**
 
-Declaración de una clave incremental en el esquema de origen:
+Declaring an incremental key in the source schema:
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -212,7 +212,7 @@ Declaración de una clave incremental en el esquema de origen:
 </srcSchema>
 ```
 
-El esquema generado:
+The schema generated:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -227,38 +227,38 @@ El esquema generado:
 </schema>
 ```
 
-Además de la definición de la clave, se ha añadido un campo numérico denominado &quot;id&quot; al esquema ampliado para contener la clave principal generada automáticamente.
+In addition to the definition of the key, a numeric field called &quot;id&quot; has been added to the extended schema in order to contain the auto-generated primary key.
 
 >[!CAUTION]
 >
->Un registro con una clave principal establecida en 0 se inserta automáticamente al crear la tabla. Este registro se utiliza para evitar las uniones externas, que no son efectivas en las tablas de volumen. De forma predeterminada, todas las claves externas se inicializan con el valor 0, de modo que siempre se pueda devolver un resultado en la unión cuando el elemento de datos no se rellena.
+>A record with a primary key set to 0 is automatically inserted on creation of the table. This record is used to avoid outer joins, which are not effective on volume tables. By default, all foreign keys are initialized with value 0 so that a result can always be returned on the join when the data item is not populated.
 
-## Vínculos: relación entre tablas {#links--relation-between-tables}
+## Links: relation between tables {#links--relation-between-tables}
 
-Un vínculo describe la asociación entre una tabla y otra.
+A link describes the association between one table and another.
 
-Los distintos tipos de asociaciones (conocidas como &quot;cardinalidades&quot;) son los siguientes:
+The various types of associations (known as &quot;cardinalities&quot;) are as follows:
 
-* Cardinalidad 1-1: una incidencia de la tabla de origen puede tener como máximo una incidencia correspondiente de la tabla de destino.
-* Cardinalidad 1-N: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destino, pero una incidencia de la tabla de destino puede tener como máximo una incidencia correspondiente de la tabla de origen.
-* Cardinalidad N-N: una incidencia de la tabla de origen puede tener varias incidencias correspondientes de la tabla de destino y viceversa.
+* Cardinality 1-1: one occurrence of the source table can have at most one corresponding occurrence of the target table.
+* Cardinality 1-N: one occurrence of the source table can have several corresponding occurrences of the target table, but one occurrence of the target table can have at most one corresponding occurrence of the source table.
+* Cardinality N-N: one occurrence of the source table can have several corresponding occurrences of the target table, and vice-versa.
 
-En la interfaz, puede distinguir fácilmente los diferentes tipos de relaciones gracias a sus iconos.
+In the interface, you can distinguish the different types of relations easily thanks to their icons.
 
-Para unir relaciones con una tabla o base de datos de campaña:
+For join relations with a campaign table/database:
 
-* ![](assets/do-not-localize/join_with_campaign11.png) : Cardinalidad 1-1. Por ejemplo, entre un destinatario y un pedido actual. Un destinatario solo puede estar relacionado con una incidencia de la tabla de pedidos actual a la vez.
-* ![](assets/do-not-localize/externaljoin11.png) : Cardinalidad 1-1, unión externa. Por ejemplo, entre un destinatario y su país. Un destinatario puede estar relacionado con una sola aparición del país de la tabla. El contenido de la tabla de país no se guardará.
-* ![](assets/do-not-localize/join_with_campaign1n.png) : Cardinalidad 1-N. Por ejemplo, entre un destinatario y la tabla de suscripciones. Un destinatario puede estar relacionado con varias apariciones en la tabla de suscripciones.
+* ![](assets/do-not-localize/join_with_campaign11.png) For example, between a recipient and a current order. A recipient can be related to only one occurrence of the current order table at a time.
+* ![](assets/do-not-localize/externaljoin11.png) For example, between a recipient and their country. A recipient can be related to only one occurrence of the table country. The content of the country table will not be saved.
+* ![](assets/do-not-localize/join_with_campaign1n.png) A recipient can be related to several occurences on the subscriptions table.
 
-Para relaciones de unión mediante Federated Database Access:
+For join relations using Federated Database Access:
 
-* ![](assets/do-not-localize/join_fda_11.png) : Cardinalidad 1-1
-* ![](assets/do-not-localize/join_fda_1m.png) : Cardinalidad 1-N
+* ![](assets/do-not-localize/join_fda_11.png)
+* ![](assets/do-not-localize/join_fda_1m.png)
 
-![](../assets/do-not-localize/glass.png) Para obtener más información sobre las tablas FDA, consulte [Acceso de datos federado](../connect/fda.md).
+![](../assets/do-not-localize/glass.png)[](../connect/fda.md)
 
-Se debe declarar un vínculo en el esquema que contenga la clave externa de la tabla vinculada a través del elemento principal:
+A link must be declared in the schema containing the foreign key of the table linked via the main element:
 
 ```
 <element name="name_of_link" type="link" target="key_of_destination_schema">
@@ -268,38 +268,38 @@ Se debe declarar un vínculo en el esquema que contenga la clave externa de la t
 </element>
 ```
 
-Los vínculos obedecen a las siguientes reglas:
+Links obey the following rules:
 
-* La definición de un vínculo se introduce en una **vínculo**-type **`<element>`** con los siguientes atributos:
+* ******`<element>`**
 
-   * **name**: nombre del vínculo de la tabla de origen,
-   * **target**: nombre del esquema de destino,
-   * **label**: etiqueta del vínculo,
-   * **revLink** (opcional): nombre del vínculo inverso del esquema de destino (deducido automáticamente de forma predeterminada),
-   * **integridad** (opcional): integridad referencial de la aparición de la tabla de origen a la aparición de la tabla de destino. Los valores posibles son los siguientes:
+   * ****
+   * ****
+   * ****
+   * ****
+   * **** Possible values are as follows:
 
-      * **define**: es posible eliminar la incidencia de origen si ya no se hace referencia a ella en una incidencia de destino,
-      * **normal**: al eliminar la ocurrencia de origen, se inicializan las claves del vínculo a la ocurrencia de destino (modo predeterminado), este tipo de integridad inicializa todas las claves externas,
-      * **own**: la eliminación de la ocurrencia de origen conduce a la eliminación de la ocurrencia de destino,
-      * **Descargar**: el mismo **own** (en caso de eliminación) o duplica los sucesos (en caso de duplicación),
-      * **neutral**: no hace nada.
-   * **revIntegrity** (opcional): integridad en el esquema de destino (opcional, &quot;normal&quot; de forma predeterminada),
-   * **revCardinality** (opcional): con el valor &quot;simple&quot; rellena la cardinalidad con el tipo 1-1 (1-N de forma predeterminada).
-   * **externalJoin** (opcional): fuerza la unión exterior
-   * **revExternalJoin** (opcional): fuerza la unión exterior en el enlace inverso
+      * ****
+      * ****
+      * ****
+      * ********
+      * ****
+   * ****
+   * ****
+   * ****
+   * ****
 
 
-* Un vínculo hace referencia a uno o varios campos de la tabla de origen a la tabla de destino. Los campos que componen la unión ( `<join>`  element) no es necesario rellenarlos porque se deducen automáticamente de forma predeterminada mediante la clave interna del esquema de destino.
-* Un vínculo consta de dos vínculos intermedios, donde el primero se declara desde el esquema de origen y el segundo se crea automáticamente en el esquema ampliado del esquema de destino.
-* Una unión puede ser una unión externa si la variable **externalJoin** se agrega, con el valor &quot;true&quot; (compatible con PostgreSQL).
+* A link references one or more fields from the source table to the destination table. `<join>`
+* A link consists of two half-links, where the first is declared from the source schema and the second is created automatically in the extended schema of the target schema.
+* ****
 
 >[!NOTE]
 >
->Los vínculos son los elementos declarados al final del esquema.
+>Links are the elements declared at the end of the schema.
 
-### Ejemplo 1 {#example-1}
+### Example 1 {#example-1}
 
-Relación 1-N con la tabla de esquema &quot;cus:company&quot;:
+1-N relation to the &quot;cus:company&quot; schema table:
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -310,7 +310,7 @@ Relación 1-N con la tabla de esquema &quot;cus:company&quot;:
 </srcSchema>
 ```
 
-El esquema generado:
+The schema generated:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -324,11 +324,11 @@ El esquema generado:
 </schema>
 ```
 
-La definición del vínculo se completa con los campos que componen la unión, es decir, la clave principal con su XPath (&quot;@id&quot;) en el esquema de destino y la clave externa con su XPath (&quot;@company-id&quot;) en el esquema.
+The link definition is supplemented by the fields making up the join, i.e. the primary key with its XPath (&quot;@id&quot;) in the destination schema, and the foreign key with its XPath (&quot;@company-id&quot;) in the schema.
 
-La clave externa se agrega automáticamente en un elemento que utiliza las mismas características que el campo asociado en la tabla de destino, con la siguiente convención de nombres: nombre del esquema de target seguido del nombre del campo asociado (&quot;company-id&quot; en nuestro ejemplo).
+The foreign key is added automatically in an element that uses the same characteristics as the associated field in the destination table, with the following naming convention: name of target schema followed by name of associated field (&quot;company-id&quot; in our example).
 
-Esquema ampliado del objetivo (&quot;cus:company&quot;):
+Extended schema of the target (&quot;cus:company&quot;):
 
 ```
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -346,17 +346,19 @@ Esquema ampliado del objetivo (&quot;cus:company&quot;):
 </schema>
 ```
 
-Se ha añadido un vínculo inverso a la tabla &quot;cus:recipient&quot; con los siguientes parámetros:
+A reverse link to the &quot;cus:recipient&quot; table was added with the following parameters:
 
-* **name**: deducido automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
-* **revLink**: nombre del vínculo inverso
-* **target**: clave del esquema vinculado (&quot;cus:recipient&quot; schema)
-* **unbound**: el vínculo se declara como un elemento de recopilación para una cardinalidad 1-N (de forma predeterminada)
-* **integridad**: &quot;define&quot; de forma predeterminada (se puede forzar con el atributo &quot;revIntegrity&quot; en la definición del vínculo en el esquema de origen).
+* ****
+* ****
+* ****
+* ****
+* ****
 
-### Ejemplo 2 {#example-2}
+`autouuid="true"`[](../architecture/enterprise-deployment.md)
 
-En este ejemplo, declararemos un vínculo hacia la tabla de esquema &quot;nms:address&quot;. La unión es una unión externa y se rellena explícitamente con la dirección de correo electrónico del destinatario y el campo &quot;@address&quot; de la tabla vinculada (&quot;nms:address&quot;).
+### Example 2 {#example-2}
+
+In this example, we will declare a link towards the &quot;nms:address&quot; schema table. The join is an outer join and is populated explicitly with the recipient&#39;s e-mail address and the &quot;@address&quot; field of the linked table (&quot;nms:address&quot;).
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -369,27 +371,27 @@ En este ejemplo, declararemos un vínculo hacia la tabla de esquema &quot;nms:ad
 </srcSchema>
 ```
 
-### Ejemplo 3 {#example-3}
+### Example 3 {#example-3}
 
-Relación 1-1 con la tabla de esquema &quot;cus:extension&quot;:
+1-1 relation to the &quot;cus:extension&quot; schema table:
 
 ```
 <element integrity="own" label="Extension" name="extension" revCardinality="single" revLink="recipient" target="cus:extension" type="link"/>
 ```
 
-### Ejemplo 4 {#example-4}
+### Example 4 {#example-4}
 
-Enlace a una carpeta (esquema &quot;xtk:folder&quot;):
+Link to a folder (&quot;xtk:folder&quot; schema):
 
 ```
 <element default="DefaultFolder('nmsFolder')" label="Folder" name="folder" revDesc="Recipients in the folder" revIntegrity="own" revLabel="Recipients" target="xtk:folder" type="link"/>
 ```
 
-El valor predeterminado devuelve el identificador del primer archivo de tipo de parámetro apto introducido en la función &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot;.
+The default value returns the identifier of the first eligible parameter type file entered in the &quot;DefaultFolder(&#39;nmsFolder&#39;)&quot; function.
 
-### Ejemplo 5 {#example-5}
+### Example 5 {#example-5}
 
-En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; a esquema &quot;cus:empresa&quot;) con la variable **xlink** y un campo de la tabla (&quot;correo electrónico&quot;):
+****
 
 ```
 <srcSchema name="recipient" namespace="cus">
@@ -405,7 +407,7 @@ En este ejemplo, deseamos crear una clave en un vínculo (&quot;empresa&quot; a 
 </srcSchema>
 ```
 
-El esquema generado:
+The schema generated:
 
 ```
 <schema mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:schema">  
@@ -424,4 +426,4 @@ El esquema generado:
 </schema>
 ```
 
-La definición de la clave de nombre &quot;companyEmail&quot; se amplió con la clave externa del vínculo &quot;company&quot;.
+The definition of the &quot;companyEmail&quot; name key was extended with the foreign key of the &quot;company&quot; link.

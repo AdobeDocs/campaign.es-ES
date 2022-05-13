@@ -1,49 +1,49 @@
 ---
-title: Trabajar con audiencias en Campaign
-description: Trabajar con audiencias en Campaign
+title: Work with audiences in Campaign
+description: Work with audiences in Campaign
 feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: b5fb8825734bce2ec62485208b468757b461005f
+source-git-commit: d7e0635c6fccd70ed012a5b8148258383a1f6766
 workflow-type: tm+mt
 source-wordcount: '509'
 ht-degree: 27%
 
 ---
 
-# Trabajar con audiencias en Campaign{#gs-ac-audiences}
+# Work with audiences in Campaign{#gs-ac-audiences}
 
-Los perfiles son contactos almacenados en la base de datos de Campaign.
+Profiles are contacts stored in Campaign database.
 
-En Adobe Campaign, **recipients** son los perfiles predeterminados dirigidos a los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier entrega dada y añadir datos de personalización en el contenido de la entrega. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo, se crean perfiles semilla para probar el contenido antes de enviarlo al público objetivo final.
+**** Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier entrega dada y añadir datos de personalización en el contenido de la entrega. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo, se crean perfiles semilla para probar el contenido antes de enviarlo al público objetivo final.
 
-Obtenga información sobre cómo importar, actualizar y administrar perfiles y audiencias [en esta sección](../audiences/gs-audiences.md).
+[](../audiences/gs-audiences.md)
 
-## Crear listas{#create-lists}
+## Create lists{#create-lists}
 
-Una lista es un conjunto estático de contactos que se puede definir como objetivo en acciones de envío o actualizar durante una importación u otra acción de flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta se puede almacenar como una lista.
+A list is a static set of contacts which can be targeted in delivery actions or updated during an import or another workflow action. For example, a population extracted from the database via a query can be stored as a list.
 
-![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo crear y administrar listas en [esta página](../audiences/create-audiences.md).
+![](../assets/do-not-localize/glass.png)[](../audiences/create-audiences.md)
 
-## Filtrar la base de datos{#filter-the-database}
+## Filter the database{#filter-the-database}
 
-La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**: cuando se modifican los datos, se actualizan los datos filtrados. Puede crear sus propios filtros o utilizar los filtros integrados para definir una audiencia de destino.
+**[!UICONTROL dynamically]** You can create your own filters or use the built-in filters to define a target audience.
 
-![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo crear y administrar filtros en [esta página](../audiences/create-filters.md).
+![](../assets/do-not-localize/glass.png)[](../audiences/create-filters.md)
 
-## Creación de una audiencia en un flujo de trabajo
+## Create an audience in a workflow
 
-El objetivo se puede crear mediante una combinación de consultas en una secuencia gráfica de un flujo de trabajo. Puede crear audiencias segmentadas según sus necesidades. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de campañas.
+Targeting can be created via a combination of queries in a graphical sequence in a workflow. You can create audiences which will be targeted according to your requirements. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de campañas.
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo crear una audiencia en un flujo de trabajo de campaña en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png)[](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html?lang=en#building-the-main-target-in-a-workflow)
 
 
 ## Perfiles activos{#active-profiles}
 
-Según el contrato, cada una de las instancias de Campaign se aprovisiona con un número específico de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos.
+According to your contract, each of your Campaign instances is provisioned with a specific number of active profiles that are counted for billing purposes. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos.
 
-**Perfil** un registro de información (por ejemplo: un registro de la variable [Tabla de destinatarios](../dev/datamodel.md) o una tabla externa que contenga un ID de cookie, ID de cliente, ID móvil u otra información relevante para un canal en particular) que represente a un cliente final, a un cliente potencial o a un posible cliente. Los perfiles se consideran activos si se han identificado o comunicado en los últimos 12 meses a través de cualquier canal.
+****[](../dev/datamodel.md) Profiles are considered active if they have been targeted or communicated within the past 12 months via any channel.
 
 <!--
 You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
@@ -51,18 +51,16 @@ You can monitor the number of active profiles used on your instances directly fr
 ![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
 -->
 
+## Privacidad y consentimiento{#privacy-and-consent}
 
-## Privacidad y consentimiento
+Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
 
-Adobe Campaign es una potente herramienta para recopilar y procesar un gran volumen de datos, que incluye información personal y datos confidenciales. Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
-
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo administrar la privacidad y el consentimiento en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es){target=&quot;_blank&quot;}.
-
+![](../assets/do-not-localize/book.png)[](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es)
 
 **Temas relacionados** en la documentación de Campaign Classic v7:
 
-* [Diseñar y ejecutar un flujo de trabajo específico de una campaña](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html){target=&quot;_blank&quot;}
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/building-a-workflow.html)
 
-* [Obtenga información sobre cómo seleccionar la audiencia de una campaña](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html){target=&quot;_blank&quot;}
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-target.html)
 
-* [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html){target=&quot;_blank&quot;}
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/about-workflows.html)

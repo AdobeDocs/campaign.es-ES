@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentación de Campaign v8
 breadcrumb-title: Campaign v8
 title: Documentos de Campaign v8
-source-git-commit: 79a9d60175b06a11cf27b44275a8ba3fe11e4d3e
+source-git-commit: d7e0635c6fccd70ed012a5b8148258383a1f6766
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 96%
+source-wordcount: '352'
+ht-degree: 90%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 96%
       + [Descubrimiento de la interfaz de Campaign](start/campaign-ui.md)
       + [Personalización de la interfaz de Campaign](start/customize-ui.md)
    + [Trabajo con audiencias](start/audiences.md)
+   + [Administración de solicitudes de privacidad](start/privacy.md)
    + [Importación de datos](start/import.md)
    + [Creación de campañas](start/campaigns.md)
    + [Envío de mensajes](start/create-message.md)
@@ -34,6 +35,18 @@ ht-degree: 96%
    + [Seguimiento y monitorización](start/tracking.md)
    + [Métricas e informes](start/reporting.md)
    + [Preguntas frecuentes](start/campaign-faq.md)
++ Arquitectura {#architecture}
+   + [Principios globales](architecture/general-architecture.md)
+   + [Arquitectura](architecture/architecture.md)
+   + {#fda}
+      + [What is FDA-Snowflake?](architecture/fda-deployment.md)
+   + {#ffda}
+      + [What is Campaign FFDA?](architecture/enterprise-deployment.md)
+      + {#ffda-characteristics}
+         + [Administración de claves y unicidad](architecture/keys.md)
+         + [Nuevas API](architecture/new-apis.md)
+         + [Mecanismo de ensayo de API](architecture/staging.md)
+         + [Replication mechanism](architecture/replication.md)
 + Implementar {#implement}
    + [Pasos de implementación](start/implement.md)
    + [Personalizar la instancia](dev/customize.md)
@@ -59,7 +72,9 @@ ht-degree: 96%
    + [Administración de carpetas y vistas](audiences/folders-and-views.md)
    + [Prácticas recomendadas](audiences/audiences-best-practices.md)
 + Envío de mensajes{#send}
-   + [Correos electrónicos](send/email.md)
+   + Correos electrónicos {#emails}
+      + [Design and send emails](send/email.md)
+      + [Envío con el servidor de correo mejorado](send/enhanced-mta.md)
    + [SMS](send/sms.md)
    + [Notificaciones push](send/push.md)
    + [Mensajería LINE](send/line.md)
@@ -89,7 +104,6 @@ ht-degree: 96%
    + [Casos de uso](interaction/interaction-use-cases.md)
 + Configurar {#config}
    + [Automatización con flujos de trabajo](config/workflows.md)
-   + [Administración de datos](config/replication.md)
    + [Configuración de correo electrónico](config/email-settings.md)
    + [Configuración de mensajería transaccional](config/transactional-msg-settings.md)
    + [Integración de los SDK de Campaign con la aplicación](config/push-config.md)
@@ -105,16 +119,13 @@ ht-degree: 96%
    + [Campaign + Base de datos externa](connect/fda.md)
    + Campaign + su CRM {#ac-crm}
       + [Introducción a los conectores CRM](connect/crm.md)
-      + [Trabajar con Campaign y SFDC](connect/ac-sfdc.md)
-      + [Trabajo con Campaign y Microsoft Dynamics](connect/ac-ms-dyn.md)
-      + [Sincronizar datos](connect/crm-data-sync.md)
-+ Recursos para desarrolladores {#architecture}
-   + [Principios globales](dev/general-architecture.md)
-   + [Arquitectura](dev/architecture.md)
-   + [Modelo de datos](dev/datamodel.md)
+      + [Work with Campaign and SFDC](connect/ac-sfdc.md)
+      + [Work with Campaign and Microsoft Dynamics](connect/ac-ms-dyn.md)
+      + [Synchronize data](connect/crm-data-sync.md)
++ Recursos para desarrolladores {#developer}
+   + [Campaign datamodel](dev/datamodel.md)
    + Esquemas y formularios {#shemas-forms}
       + [Usar esquemas](dev/schemas.md)
-      + [Administración de claves y unicidad](dev/keys.md)
       + [Crear esquemas](dev/create-schema.md)
       + [Ampliar esquemas](dev/extend-schema.md)
       + [Filtrar esquemas](dev/filter-schema.md)
@@ -124,8 +135,6 @@ ht-degree: 96%
       + [Usar una tabla de destinatarios personalizada](dev/custom-recipient.md)
       + [Actualizar la base de datos](dev/update-database-structure.md)
       + [Formularios de entrada](dev/forms.md)
-   + API {#api}
-      + [Introducción](dev/api.md)
-      + [Nuevas API](dev/new-apis.md)
-      + [Mecanismo de ensayo de API](dev/staging.md)
+   + [API de Campaign](dev/api.md)
 + [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
+

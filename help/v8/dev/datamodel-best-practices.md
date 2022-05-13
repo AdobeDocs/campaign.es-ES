@@ -1,153 +1,151 @@
 ---
 title: Prácticas recomendadas del modelo de datos
-description: Conozca las prácticas recomendadas de extensión del modelo de datos de Campaign
+description: Learn Campaign data model extension best practices
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: fbec41a722f71ad91260f1571f6a48383e99b782
 workflow-type: tm+mt
-source-wordcount: '2683'
+source-wordcount: '2717'
 ht-degree: 4%
 
 ---
 
 # Prácticas recomendadas del modelo de datos{#data-model-best-practices}
 
-Este documento describe las recomendaciones clave al diseñar el modelo de datos de Adobe Campaign.
+This document outlines key recommendations while designing your Adobe Campaign data model.
 
-El sistema Adobe Campaign es muy flexible y se puede ampliar más allá de la implementación inicial. Sin embargo, aunque las posibilidades son infinitas, es fundamental tomar decisiones sabias y construir bases sólidas para empezar a diseñar su modelo de datos.
+Adobe Campaign system is very flexible and can be extended beyond the initial implementation. However, while possibilities are infinite, it is critical to make wise decisions and build strong foundations to start designing your data model.
 
-Para comprender mejor las tablas integradas de Campaign y cómo se relacionan entre sí, consulte [esta sección](datamodel.md) .
+[](datamodel.md)
 
-![](../assets/do-not-localize/glass.png) Leer [esta sección](schemas.md) para empezar a utilizar los esquemas de Campaign.
+![](../assets/do-not-localize/glass.png)[](schemas.md)
 
-![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en [esta página](extend-schema.md).
+![](../assets/do-not-localize/glass.png)[](extend-schema.md)
 
-## Arquitectura del modelo de datos {#data-model-architecture}
+## Data model architecture {#data-model-architecture}
 
-Adobe Campaign es un potente sistema de administración de campañas en canales múltiples que puede ayudarle a alinear sus estrategias en línea y sin conexión para crear experiencias personalizadas con los clientes.
+Adobe Campaign is a powerful cross-channel campaign management system that can help you align your online and offline strategies to create personalized customer experiences.
 
-### Enfoque centrado en el cliente {#customer-centric-approach}
+### Customer-centric approach {#customer-centric-approach}
 
-Aunque la mayoría de los proveedores de servicios de correo electrónico se comunican a los clientes mediante un enfoque centrado en la lista, Adobe Campaign depende de una base de datos relacional para aprovechar una vista más amplia de los clientes y sus atributos.
+While most email service providers are communicating to customers via a list-centric approach, Adobe Campaign relies on a relational database in order to leverage a broader view of the customers and their attributes.
 
-Para acceder a la descripción de cada tabla, vaya a **[!UICONTROL Admin > Configuration > Data schemas]**, seleccione un recurso de la lista y haga clic en el botón **[!UICONTROL Documentation]** pestaña .
+**[!UICONTROL Admin > Configuration > Data schemas]****[!UICONTROL Documentation]**
 
-
->[!NOTE]
->
->Adobe Campaign permite crear un [tabla de destinatarios personalizada](custom-recipient.md). Sin embargo, en la mayoría de los casos, se recomienda aprovechar el complemento [Tabla de destinatarios](datamodel.md#ootb-profiles) que ya tiene tablas y funciones adicionales prediseñadas.
-
-### Datos para Adobe Campaign {#data-for-campaign}
-
-¿Qué datos se deben enviar a Adobe Campaign? Es fundamental determinar los datos necesarios para sus actividades de marketing.
 
 >[!NOTE]
 >
->Adobe Campaign no es ni un almacén de datos ni una herramienta de creación de informes. Por lo tanto, no intente importar todos los clientes posibles y su información asociada en Adobe Campaign ni importe los datos que solo se utilizarán para generar informes.
+>[](custom-recipient.md) [](datamodel.md#ootb-profiles)
 
-Para tomar la decisión de si un atributo sería necesario o no en Adobe Campaign, pregúntese si correspondería a una de estas categorías:
+### Data for Adobe Campaign {#data-for-campaign}
 
-* Atributo utilizado para **segmentación**
-* Atributo utilizado para **procesos de administración de datos** (cálculo acumulado, por ejemplo)
-* Atributo utilizado para **personalización**
+What data should be sent to Adobe Campaign? It is critical to determine the data required for your marketing activities.
 
-Si no se incluye en ninguno de estos parámetros, lo más probable es que no necesite este atributo en Adobe Campaign.
+>[!NOTE]
+>
+>Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, do not try to import all possible customers and their associated information into Adobe Campaign, or import data which will only be used to build reports.
 
-### Elección de tipos de datos {#data-types}
+To make the decision whether an attribute would be needed or not in Adobe Campaign, ask yourself if it would fall under one of these categories:
 
-Para garantizar una buena arquitectura y un buen rendimiento de su sistema, siga las prácticas recomendadas a continuación para configurar los datos en Adobe Campaign.
+* ****
+* ****
+* ****
 
-* En una tabla grande, puede insertar campos numéricos o de cadena y agregar vínculos a tablas de referencia (al trabajar con la lista de valores).
-* La variable **expr** permite definir un atributo de esquema como campo calculado en lugar de como valor establecido físico en una tabla. Esto puede permitir el acceso a la información en un formato diferente (por ejemplo, en cuanto a la edad y la fecha de nacimiento) sin necesidad de almacenar ambos valores. Esta es una buena forma de evitar la duplicación de campos. Por ejemplo, la tabla de destinatarios utiliza una expresión para el dominio , que ya está presente en el campo de correo electrónico.
-* Sin embargo, cuando el cálculo de la expresión es complejo, no se recomienda utilizar la variable **expr** como cálculo sobre la marcha puede afectar al rendimiento de las consultas.
-* La variable **XML** es una buena forma de evitar la creación de demasiados campos. Pero también ocupa espacio en disco, ya que utiliza una columna CLOB en la base de datos. También puede generar consultas SQL complejas y afectar al rendimiento.
-* La longitud de un **string** siempre se debe definir con la columna . De forma predeterminada, la longitud máxima en Adobe Campaign es de 16 000, pero Adobe recomienda mantener el campo más corto si ya sabe que el tamaño no superará una longitud más corta.
-* Es aceptable tener un campo más corto en Adobe Campaign que en el sistema de origen si está seguro de que el tamaño del sistema de origen se sobreestimó y no se alcanzaría. Esto podría significar una cadena más corta o un número entero menor en Adobe Campaign.
+If not falling into any of these, you are most likely not going to need this attribute in Adobe Campaign.
 
-### Elección de campos {#choice-of-fields}
+### Choice of data types {#data-types}
 
-Un campo debe almacenarse en una tabla si tiene un propósito de objetivo o personalización. En otras palabras, si un campo no se utiliza para enviar un correo electrónico personalizado o se utiliza como criterio en una consulta, ocupará innecesariamente espacio en disco.
+To ensure good architecture and performance of your system, follow the best practices below to set up data in Adobe Campaign.
 
-### Elección de claves {#choice-of-keys}
+* Within large tabl, you could insert string or numeric fields and add links to reference tables (when working with list of values).
+* **** This can enable access to the information in a different format (as for age and birth date for example) without the need to store both values. This is a good way to avoid duplicating fields. For instance, the Recipient table uses an expression for the domain, which is already present in the email field.
+* ****
+* **** But it also takes up disk space as it uses a CLOB column in the database. It also can lead to complex SQL queries and may impact performance.
+* **** By default, the maximum length in Adobe Campaign is 16K, but Adobe recommends keeping the field shorter if you already know that the size will not exceed a shorter length.
+* It is acceptable to have a field shorter in Adobe Campaign than it is in the source system if you are certain that the size in the source system was overestimated and would not be reached. This could mean a shorter string or smaller integer in Adobe Campaign.
 
-Además del **autouuid** y **autopk** definido de forma predeterminada en la mayoría de las tablas, debe considerar la posibilidad de agregar algunas claves lógicas o empresariales (número de cuenta, número de cliente, etc.). Se puede utilizar más adelante para importar/reconciliación o paquetes de datos. Para obtener más información, consulte [Identificadores](#identifiers).
+### Choice of fields {#choice-of-fields}
 
-Las claves eficientes son esenciales para el rendimiento. Con Snowflake, puede insertar tipos de datos numéricos o basados en cadenas como claves para las tablas.
+A field is required to be stored in a table if it has a targeting or personalization purpose. In other words, if a field is not used to send a personalized email or used as a criterion in a query, it will unnecessarily take up disk space.
 
-<!-- ### Dedicated tablespaces {#dedicated-tablespaces}
+### Choice of keys {#choice-of-keys}
 
-The tablespace attribute in the schema allows you to specify a dedicated tablespace for a table.
+******** It can be used later for imports/reconciliation or data packages. [](#identifiers)
 
-The installation wizard allows you to store objects by type (data, temporary).
+Efficient keys are essential for performance. With Snowflake, you can insert nnumeric or string-based data types as keys for tables.
 
-Dedicated tablespaces are better for partitioning, security rules, and allow fluid and flexible administration, better optimization, and performance. -->
+>[!NOTE]
+>
+>****[](../architecture/enterprise-deployment.md)
 
-## Identificadores {#identifiers}
+## Identifiers {#identifiers}
 
-Los recursos de Adobe Campaign tienen tres identificadores y es posible añadir un identificador adicional.
+Adobe Campaign resources have three identifiers, and it is possible to add an additional identifier.
 
-En la tabla siguiente se describen estos identificadores y su finalidad.
+The following table describe these identifiers and their purpose.
 
 | Identifier | Descripción | Prácticas recomendadas |
 |--- |--- |--- |
-| ID | <ul><li>El id es la clave principal física de una tabla de Adobe Campaign. Para las tablas integradas, se trata de un ID único universal (UUID)</li><li>Este identificador debe ser único. </li><li>Un UUID puede ser visible en una definición de esquema.</li></ul> | <ul><li>Los identificadores generados automáticamente no deben utilizarse como referencia en un flujo de trabajo o en una definición de paquete.</li><li>El ID de una tabla es un UUID y este tipo no debe cambiarse.</li></ul> |
-| Nombre (o nombre interno) | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar manualmente, normalmente con un nombre generado.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign y no debe estar vacío.</li></ul> | <ul><li>Cambie el nombre del registro generado por Adobe Campaign si el objeto está diseñado para implementarse de un entorno a otro.</li><li>Cuando un objeto tiene un atributo de espacio de nombres (*esquema* por ejemplo), este área de nombres común se utilizará en todos los objetos personalizados creados. Algunas áreas de nombres reservadas no deben usarse: *nms*, *xtk*, etc.  Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces).</li><li>Cuando un objeto no tiene ningún espacio de nombres (*flujo de trabajo* o *entrega* por ejemplo), esta noción de área de nombres se agregaría como prefijo de un objeto de nombre interno: *namespaceMyObjectName*.</li><li>No utilice caracteres especiales como espacio &quot;&quot;, semicolumna &quot;:&quot; o guión &quot;-&quot;. Todos estos caracteres se sustituirían por un guión bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían entre sí.</li></ul> |
-| Etiqueta | <ul><li>La etiqueta es el identificador comercial de un objeto o registro en Adobe Campaign.</li><li>Este objeto permite espacios y caracteres especiales.</li><li>No garantiza la exclusividad de un registro.</li></ul> | <ul><li>Se recomienda determinar una estructura para las etiquetas de objeto.</li><li>Esta es la solución más fácil de usar para identificar un registro u objeto para un usuario de Adobe Campaign.</li></ul> |
+| ID | <ul><li>The id is the physical primary key of an Adobe Campaign table. For built-in tables, it is a Universally Unique ID (UUID)</li><li>This identifier must be unique. </li><li>An UUID can be visible in a schema definition.</li></ul> | <ul><li>Auto-generated identifiers should not be used as a reference in a workflow or in a package definition.</li><li>The id in a table is a UUID and this type should not be changed.</li></ul> |
+| Name (or internal name) | <ul><li>This information is a unique identifier of a record in a table. This value can be manually updated, usually with a generated name.</li><li>This identifier keeps its value when deployed in a different instance of Adobe Campaign and it should not be empty.</li></ul> | <ul><li>Rename the record name generated by Adobe Campaign if the object is meant to be deploy from an environment to another.</li><li>** ****  Note that some namespaces are internal only. [Más información](schemas.md#reserved-namespaces).</li><li>******</li><li>Do not use special characters such as space “ “, semi-column “:” or hyphen “-“. All these characters would be replaced by an underscore “_” (allowed character). For example, “abc-def” and “abc:def” would be stored as “abc_def” and overwrite each other.</li></ul> |
+| Etiqueta | <ul><li>The label is the business identifier of an object or record in Adobe Campaign.</li><li>This object allows spaces and special characters.</li><li>It does not guarantee the uniqueness of a record.</li></ul> | <ul><li>It is recommended to determine a structure for your object labels.</li><li>This is the most user-friendly solution to identify a record or object for an Adobe Campaign user.</li></ul> |
 
-La clave principal de Adobe Campaign es un UUID generado automáticamente para todas las tablas integradas. También se puede utilizar un UUID para tablas personalizadas. [Más información](keys.md)
+[](../architecture/enterprise-deployment.md) A UUID can also be used for custom tables. [Más información](../architecture/keys.md)
 
-Aunque el número de ID sea infinito, debe cuidar el tamaño de la base de datos para garantizar un rendimiento óptimo. Para evitar cualquier problema, asegúrese de ajustar la configuración de depuración de la instancia. Para obtener más información, consulte [esta sección](#data-retention).
+Even if the number of IDs is infinite, you should take care of the size of your database to ensure optimal performances. To prevent any issue, make sure to adjust your instance purge settings. Para obtener más información, consulte [esta sección](#data-retention).
 
 
-## Claves internas personalizadas {#custom-internal-keys}
+## Custom internal keys {#custom-internal-keys}
 
-Se requieren claves principales para cada tabla creada en Adobe Campaign.
+Primary keys are required for every table created in Adobe Campaign.
 
-La mayoría de las organizaciones están importando registros de sistemas externos. Aunque la clave física de la tabla de destinatarios es el atributo &quot;id&quot;, también es posible determinar una clave personalizada.
+Most organizations are importing records from external systems. While the physical key of the Recipient table is the &quot;id&quot; attribute, it is possible to determine a custom key in addition.
 
-Esta clave personalizada es la clave principal del registro real en el sistema externo que alimenta a Adobe Campaign.
+This custom key is the actual record primary key in the external system feeding Adobe Campaign.
 
-Al crear una tabla personalizada, tiene dos opciones:
-* Una combinación de clave generada automáticamente (id) y clave interna (custom). Esta opción es interesante si la clave del sistema es una clave compuesta o no un número entero. Con Snowflake, enteros o claves basadas en cadenas proporcionarán un mayor rendimiento en tablas grandes y se unirán con otras tablas.
-* Uso de la clave principal como clave principal del sistema externo. Esta solución suele ser preferible, ya que simplifica el enfoque para importar y exportar datos, con una clave coherente entre los distintos sistemas. **Autouuid** debe deshabilitarse si la clave se denomina &quot;id&quot; y se espera que se rellene con valores externos (no generados automáticamente).
+When creating a custom table, you have two options:
+* A combination of auto-generated key (id) and internal key (custom). This option is interesting if your system key is a composite key or not an integer. With Snowflake, integers or string-based keys will provide higher performances in big tables and joining with other tables.
+* Using the primary key as the external system primary key. This solution is usually preferred as it simplifies the approach to import and export data, with a consistent key between different systems. ****
 
 >[!CAUTION]
 >
->Un autouuid no debe utilizarse como referencia en flujos de trabajo.
+>* An autouuid should not be used as a reference in workflows.
+> * ****[](../architecture/enterprise-deployment.md)
+>
 
 
-## Enlaces y cardinalidad {#links-and-cardinality}
+## Links and cardinality {#links-and-cardinality}
 
 ### Vínculos {#links}
 
-Tenga cuidado con la integridad &quot;propia&quot; de las tablas grandes. La eliminación de registros que tienen tablas grandes con integridad &quot;propia&quot; puede detener la instancia. La tabla está bloqueada y las eliminaciones se realizan una por una. Así que es mejor usar integridad &quot;neutral&quot; en tablas secundarias que tienen grandes volúmenes.
+Beware of the &quot;own&quot; integrity on large tables. Deleting records that have large tables in &quot;own&quot; integrity can potentially stop the instance. The table is locked, and the deletions are made one by one. So it&#39;s best to use &quot;neutral&quot; integrity on child tables that have large volumes.
 
-Declarar un vínculo como una unión externa no es bueno para el rendimiento. El registro de id cero emula la funcionalidad de unión externa. No es necesario declarar las uniones externas si el vínculo utiliza la variable **autouuid**.
+Declaring a link as an external join is not good for performance. The zero-id record emulates the external join functionality. [](../architecture/enterprise-deployment.md)****
 
-Aunque es posible unir cualquier tabla en un flujo de trabajo, Adobe recomienda definir vínculos comunes entre los recursos directamente en la definición de la estructura de datos.
+While it is possible to join any table in a workflow, Adobe recommends defining common links between resources directly in the data structure definition.
 
-El vínculo se debe definir en alineación con los datos reales de las tablas. Una definición incorrecta podría afectar a los datos recuperados mediante vínculos, por ejemplo, duplicando registros de forma inesperada.
+Link should be defined in alignment with the actual data in your tables. A wrong definition could impact data retrieved via links, for example unexpectedly duplicating records.
 
-Asigne un nombre al vínculo de forma coherente con el nombre de la tabla: el nombre del vínculo debería ayudar a comprender cuál es la tabla distante.
+Name your link consistently with the table name: the link name should help understand what the distant table is.
 
-No asigne a un vínculo el nombre &quot;id&quot; como sufijo. Por ejemplo, asígnele el nombre &quot;transaction&quot; en lugar de &quot;transactionId&quot;.
+Do not name a link with “id” as a suffix. For example, name it “transaction” rather than “transactionId”.
 
-De forma predeterminada, Adobe Campaign crea un vínculo utilizando la clave principal de la tabla externa. Para una mayor claridad, es preferible definir explícitamente la unión en la definición del vínculo.
+By default, Adobe Campaign will create a link using the primary key of the external table. For more clarity, it is preferable to explicitly define the join in the link definition.
 
-### Cardinalidad {#cardinality}
+### Cardinality {#cardinality}
 
-Al diseñar un vínculo, asegúrese de que el registro de destino sea único cuando se haya declarado una relación 1-1. De lo contrario, la unión puede devolver varios registros cuando solo se espera uno. Esto da como resultado errores durante la preparación del envío cuando &quot;la consulta devuelve más filas de las esperadas&quot;. Establezca el nombre del vínculo en el mismo nombre que el esquema de destino.
+When you design a link, make sure that the target record is unique when a 1-1 relationship has been declared. Otherwise the join may return multiple records when only one is expected. This results in errors during delivery preparation when &quot;the query returns more rows than expected&quot;. Set the link name to the same name as the target schema.
 
-Defina un vínculo con una cardinalidad (1-N) en el esquema del lado (1). Por ejemplo, la relación Recipient (1) - (N) Transaction debe definirse en el esquema de transacción.
+Define a link with a cardinality (1-N) in the schema on the (1) side. For example, the relation Recipient (1) – (N) Transaction should be defined in the transaction schema.
 
-Tenga en cuenta que la cardinalidad inversa de un vínculo es (N) de forma predeterminada. Es posible definir un vínculo (1-1) añadiendo el atributo revCardinality=&#39;single&#39; a la definición del vínculo.
+Note that a reverse cardinality of a link is (N) by default. It is possible to define a link (1-1) by adding the attribute revCardinality=&#39;single&#39; to the link definition.
 
-Si el vínculo inverso no debería ser visible para el usuario, puede ocultarlo con la definición del vínculo revLink=&#39;_NINGUNO_&#39;. Un buen caso de uso para esto es definir un vínculo del destinatario a la última transacción completada, por ejemplo. Solo es necesario ver el vínculo del destinatario a la última transacción y no es necesario que el vínculo inverso esté visible desde la tabla de transacciones.
+__ A good use case for this is to define a link from recipient to the last transaction completed for example. You only need to see the link from recipient to the last transaction and no reverse link is required to be visible from the transaction table.
 
-Los vínculos que realizan una unión externa (1-0.0.1) deben utilizarse con cuidado, ya que afectarán al rendimiento del sistema.
+Links performing an external join (1-0..1) should be used with care as it will impact the system performance.
 
 ## Retención de datos {#data-retention}
 
-Adobe Campaign no es ni un almacén de datos ni una herramienta de creación de informes. Por lo tanto, para garantizar un buen rendimiento de la solución Adobe Campaign, el crecimiento de las bases de datos debe mantenerse bajo control. Para lograrlo, puede ser útil seguir algunas de las prácticas recomendadas a continuación.
+Adobe Campaign is neither a data warehouse nor a reporting tool. Therefore, to ensure good performance of the Adobe Campaign solution, database growth should stay under control. To achieve this, following some of the best practices below may help.
 
 Independientemente de la retención, las tablas de registro predeterminadas de Campaign tienen períodos de retención predefinidos, que generalmente limitan el almacenamiento de datos a seis meses o menos.
 
@@ -167,64 +165,64 @@ A continuación se muestran los valores de retención predeterminados para las t
 
 >[!CAUTION]
 >
->Las tablas personalizadas no se depuran con el proceso de limpieza estándar. Aunque esto puede no ser necesario en el primer día, no olvide crear un proceso de depuración para las tablas personalizadas, ya que esto podría provocar problemas de rendimiento.
+>Custom tables are not purged with the standard cleanup process. While this might not be required on day one, do not forget to build a purge process for your custom tables as this could lead to performance challenges.
 
-Existen varias soluciones para minimizar la necesidad de registros en Adobe Campaign:
-* Exporte los datos en un almacén de datos fuera de Adobe Campaign.
-* Genere valores agregados que utilicen menos espacio mientras sean suficientes para sus prácticas de marketing. Por ejemplo, no necesita el historial completo de transacciones con el cliente en Adobe Campaign para realizar un seguimiento de las últimas compras.
+There are a few solutions to minimize the need of records in Adobe Campaign:
+* Export the data in a data warehouse outside of Adobe Campaign.
+* Generate aggregated values that will use less space while being sufficient for your marketing practices. For example, you do not need the full customer transaction history in Adobe Campaign to keep track of the last purchases.
 
-Puede declarar el atributo &quot;deleteStatus&quot; en un esquema. Es más eficaz marcar el registro como eliminado y posponer la eliminación en la tarea de limpieza.
+You can declare the &quot;deleteStatus&quot; attribute in a schema. It is more efficient to mark the record as deleted, then postpone the deletion in the cleanup task.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, póngase en contacto con los consultores de Adobe o administradores técnicos para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
+![](../assets/do-not-localize/speech.png)
 
-## Rendimiento {#performance}
+## Performance {#performance}
 
-Para garantizar un mejor rendimiento en cualquier momento, siga las prácticas recomendadas a continuación.
+In order to ensure better performance at any time, follow the best practices below.
 
 ### Recomendaciones generales {#general-recommendations}
 
-* Evite utilizar operaciones como &quot;CONTIENE&quot; en consultas. Si sabe para qué se espera y desea que se filtre, aplique la misma condición con un &quot;EQUAL TO&quot; u otros operadores de filtro específicos.
-* Intente asegurarse de que los procesos como la importación y exportación se producen fuera del horario laboral.
-* Asegúrese de que haya una programación para todas las actividades diarias y cumpla con la programación.
-* Si uno o varios de los procesos diarios fallan y si es obligatorio ejecutarlo ese mismo día, asegúrese de que no haya procesos conflictivos en ejecución cuando se inicie el proceso manual, ya que esto podría afectar al rendimiento del sistema.
-* Asegúrese de que ninguna de las campañas diarias se ejecuta durante el proceso de importación o cuando se ejecuta cualquier proceso manual.
-* Utilice una o varias tablas de referencia en lugar de duplicar un campo en cada fila. Al utilizar pares clave/valor, se prefiere elegir una clave numérica.
-* Una cadena corta sigue siendo aceptable. En caso de que las tablas de referencias ya estén implementadas en un sistema externo, reutilizar la misma facilitará la integración de datos con Adobe Campaign.
+* Avoid using operations like “CONTAINS” in queries. If you know what is expected and want to be filtered for, apply the same condition with an “EQUAL TO” or other specific filter operators.
+* Try and make sure the processes like import and export happen off business hours.
+* Make sure there is a schedule for all the daily activities and stick to the schedule.
+* If one or few of the daily processes fail and if it is mandatory to run it on that same day, make sure there are no conflicting processes running when the manual process is kicked off as this could affect the system performance.
+* Make sure none of the daily campaign is run during the import process or when any manual process is executed.
+* Use one or several reference tables rather than duplicating a field in every row. When using key/value pairs, it is preferred to choose a numerical key.
+* A short string remains acceptable. In case references tables are already in place in an external system, reusing the same will facilitate the data integration with Adobe Campaign.
 
-### Relaciones &quot;uno a varios&quot; {#one-to-many-relationships}
+### One-to-many relationships {#one-to-many-relationships}
 
-* El diseño de datos afecta a la capacidad de uso y la funcionalidad. Si diseña su modelo de datos con muchas relaciones de uno a varios, a los usuarios les resultará más difícil construir una lógica significativa en la aplicación. La lógica de filtro &quot;uno a varios&quot; puede resultar difícil para los especialistas en marketing que no son técnicos construir y comprender correctamente.
-* Es bueno tener todos los campos esenciales en una tabla porque facilita a los usuarios la creación de consultas. A veces también es bueno para el rendimiento duplicar algunos campos entre tablas si puede evitar una unión.
-* Algunas funcionalidades integradas no podrán hacer referencia a relaciones &quot;uno a varios&quot;, por ejemplo, la fórmula de Ponderación de ofertas y los Envíos.
+* Data design impacts usability and functionality. If you design your data model with lots of one-to-many relationships, it makes it more difficult for users to construct meaningful logic in the application. One-to-many filter logic can be difficult for non-technical marketers to correctly construct and understand.
+* It is good to have all the essential fields in one table because it makes it easier for users to build queries. Sometimes it is also good for performance to duplicate some fields across tables if it can avoid a join.
+* Certain built-in functionalities will not be able to reference one-to-many relationships, for example, Offer Weighting formula and Deliveries.
 
-## Tablas grandes {#large-tables}
+## Large tables {#large-tables}
 
-Adobe Campaign se basa en motores de base de datos de terceros. Según el proveedor, la optimización del rendimiento para tablas más grandes puede requerir un diseño específico.
+Adobe Campaign relies on third-party database engines. Depending on the provider, optimizing performance for larger tables may require a specific design.
 
-A continuación se describen algunas prácticas recomendadas comunes que deben seguirse al diseñar el modelo de datos con tablas grandes y uniones complejas.
+Below are a few common best practices that should be followed when designing your data model using large tables and complex joins.
 
-* Cuando utilice tablas de destinatarios personalizadas adicionales, asegúrese de que tiene una tabla de registro dedicada para cada asignación de envío.
-* Reduzca el número de columnas, especialmente identificando aquellas que no se utilizan.
-* Optimice las relaciones del modelo de datos evitando las uniones complejas, como las uniones en varias condiciones o varias columnas.
-* Para las claves de unión, puede utilizar valores numéricos o basados en cadenas.
-* Reduzca al máximo la profundidad de la retención de registros. Si necesita un historial más profundo, puede acumular cálculos y/o administrar tablas de registro personalizadas para almacenar un historial más grande.
+* When using additional custom recipient tables, make sure you have a dedicated log table for each delivery mapping.
+* Reduce the number of columns, particularly by identifying those that are unused.
+* Optimize the data model relations by avoiding complex joins, such as joins on several conditions and/or several columns.
+* For join keys, you can use numeric or string-based values.
+* Reduce as much as you can the depth of log retention. If your need deeper history, you can aggregate computation and/or handle custom log tables to store larger history.
 
-### Tamaño de las tablas {#size-of-tables}
+### Size of tables {#size-of-tables}
 
-El tamaño de la tabla es una combinación del número de registros y el número de columnas por registro. Ambos pueden afectar al rendimiento de las consultas.
+The table size is a combination of the number of records and the number of columns per record. Both can impact the performance of queries.
 
-* A **tamaño pequeño** es similar a la tabla Delivery .
-* A **tamaño medio** es el mismo que el tamaño de la tabla de destinatarios. Tiene un registro por cliente.
-* A **de gran tamaño** es similar a la tabla Registro amplio . Tiene muchos registros por cliente.
-Por ejemplo, si la base de datos contiene 10 millones de destinatarios, la tabla Registro amplio contiene entre 100 y 200 millones de mensajes y la tabla Entrega contiene unos pocos miles de registros.
+* ****
+* **** It has one record per customer.
+* **** It has many records per customer.
+For example, if your database contains 10 million recipients, the Broad log table contains about 100 to 200 million messages, and the Delivery table contains a few thousand records.
 
-El número de filas también afecta al rendimiento. La base de datos de Adobe Campaign no está diseñada para almacenar datos históricos que no se utilizan activamente con fines de segmentación o personalización; se trata de una base de datos operativa.
+The number of rows impacts performance as well. The Adobe Campaign database is not designed to store historical data that are not actively used for targeting or personalization purpose - this is an operational database.
 
-Para evitar cualquier problema de rendimiento relacionado con el alto número de filas, mantenga los registros necesarios en la base de datos. Cualquier otro registro debe exportarse a un almacén de datos de terceros y eliminarse de la base de datos operativa de Adobe Campaign.
+To prevent any performance issue related to the high number of rows, only keep the necessary records in the database. Any other record should be exported to a third-party data warehouse and removed from the Adobe Campaign operational database.
 
-Estas son algunas prácticas recomendadas con respecto al tamaño de las tablas:
+Here are a few best practices regarding the size of tables:
 
-* Diseñe tablas grandes con menos campos y datos numéricos.
-* No utilice un gran tipo de columna para almacenar números pequeños como valores booleanos.
-* Elimine las columnas no utilizadas de la definición de tabla.
-* No mantenga los datos históricos o inactivos en la base de datos de Adobe Campaign (exportación y limpieza).
+* Design large tables with fewer fields and more numeric data.
+* Do not use large number type of column to store small numbers like boolean values.
+* Remove unsused columns from the table definition.
+* Do not keep historical or inactive data in your Adobe Campaign database (export and cleanup).

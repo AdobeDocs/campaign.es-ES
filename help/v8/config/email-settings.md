@@ -1,54 +1,80 @@
 ---
-title: Configuración del canal de correo electrónico de Campaign
-description: Configuración del canal de correo electrónico de Campaign
+title: Campaign email channel settings
+description: Campaign email channel settings
 feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: 63b53fb6a7c6ecbfc981c93a723b6758b5736acf
+source-git-commit: 9457652f62810eb401c4010acd9b5da42d88d796
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 8%
+source-wordcount: '466'
+ht-degree: 13%
 
 ---
 
-# Configuración del canal de correo electrónico de Campaign
+# Campaign email channel settings
 
-## CCO del correo electrónico
-
-Puede configurar Adobe Campaign para que mantenga una copia de los correos electrónicos enviados desde la plataforma.
+## CCO del correo electrónico {#email-bcc}
 
 >[!NOTE]
->La capacidad de correo electrónico CCO es opcional. Compruebe el acuerdo de licencia.
+>
+>[](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-Adobe Campaign no administra los archivos archivados. Permite enviar los mensajes que elija a una dirección específica, desde la que se pueden procesar y archivar mediante un sistema externo.
+You can configure Adobe Campaign to keep a copy of emails sent from your platform.
 
-Para ello, los archivos .eml correspondientes a los correos electrónicos enviados se transfieren a un servidor remoto, como un servidor de correo electrónico SMTP. El destino de archivado es una dirección de correo electrónico CCO (invisible para los destinatarios de envío) que debe especificar.
+Adobe Campaign itself does not manage archived files. It does enable you to send the messages of your choice to a dedicated BCC (blind carbon copy) email address, from where they can be processed and archived using an external system. The .eml files corresponding to the sent emails can then be transferred to a remote server, such as an SMTP email server.
 
-Tenga en cuenta que:
+>[!CAUTION]
+>
+>For privacy reasons, BCC emails must be processed by an archiving system capable of storing securely personally identifiable information (PII).
 
-* Solo puede usar **one** Dirección de correo electrónico CCO.
+The archiving destination is the BCC email address of your choice, which will remain invisible to the delivery recipients.
 
-* Solo se tienen en cuenta los correos electrónicos enviados correctamente, no los rechazos.
+![](../assets/do-not-localize/speech.png)[](../start/campaign-faq.md#support)
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para activar el correo electrónico CCO en Campaign. La dirección de correo electrónico CCO que elija debe proporcionarse al equipo de Adobe que la configurará por usted.
+Once the BCC email address is defined, you must enable the dedicated option at the delivery level.
 
-Una vez configurado el CCO de correo electrónico, asegúrese de que la función esté habilitada en la plantilla de envío o en la entrega a través del **Email BCC** .
-
-![](assets/email-bcc.png)
-
-
-**Temas relacionados** en la documentación de Campaign Classic v7:
+>[!CAUTION]
+>
+>**[!UICONTROL Email BCC]** You need to enable it manually in the email delivery or delivery template.
 
 
-* [Generar la página espejo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page){target=&quot;_blank&quot;}
+Para realizar esto, siga los pasos a continuación:
 
-* [Seleccionar formato de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target=&quot;_blank&quot;}
+1. **[!UICONTROL Campaign Management]****[!UICONTROL Deliveries]****[!UICONTROL Resources]****[!UICONTROL Templates]****[!UICONTROL Delivery templates]**
+1. **[!UICONTROL Email delivery]**
+1. Haga clic en el botón **[!UICONTROL Properties]**.
+1. Seleccione la pestaña **[!UICONTROL Delivery]** .
+1. Marque la opción **[!UICONTROL Email BCC]**.
 
-* [Seleccionar codificación de caracteres](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding){target=&quot;_blank&quot;}
+   ![](assets/email-bcc.png)
 
-* [Establecer la dirección de correo electrónico de rechazo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target=&quot;_blank&quot;}
+1. Seleccione **[!UICONTROL Ok]**.
 
-* [Uso de plantillas de envíos de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
+A copy of all sent messages for each delivery based on this template will be sent to the email BCC address which has been configured.
 
-* [Comprensión de los errores de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target=&quot;_blank&quot;}
+Note the following specificities and recommendations:
+
+* You can only use one BCC email address.
+
+* Make sure the BCC address has enough reception capacity to archive all the emails that are sent.
+
+* <!--with Enhanced MTA--> [](../send/delivery-failures.md)
+
+* Si se abren y se hace clic en los correos electrónicos enviados a la dirección de CCO, esto se tiene en cuenta en el cálculo de **[!UICONTROL Total opens]** y **[!UICONTROL Clicks]** en el análisis de envío, lo cual podría provocar algunos cálculos erróneos.
+
+<!--Only successfully sent emails are taken in account, bounces are not.-->
+
+**Obtenga más información en la documentación de Campaign Classic v7**
+
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#generating-mirror-page)
+
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats)
+
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#character-encoding)
+
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails)
+
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es)
+
+* [](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html)

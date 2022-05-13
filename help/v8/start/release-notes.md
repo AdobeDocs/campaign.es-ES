@@ -6,16 +6,108 @@ role: Data Engineer
 level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 0f15112f0eec1d7cba26523adc1e88fc5d26997c
+source-git-commit: d3137e75bfc4986e1d6badf32f21fda4c4353c8b
 workflow-type: tm+mt
-source-wordcount: '1714'
-ht-degree: 100%
+source-wordcount: '2240'
+ht-degree: 81%
 
 ---
 
 # Última versión{#latest-release}
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign v8**.
+
+## Versión 8.3.7 {#release-8-3-7}
+
+__
+
+**Novedades**
+
+<table>
+<thead>
+<tr>
+<th><strong>Gestor de respuestas</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Campaign Response Management lets you measure the success and ROI of your marketing campaigns or offer propositions across all channels: email, mobile, direct mail, etc.</p>
+<p>Para obtener más información, consulte la <a href="../start/campaigns.md#response-manager-add-on">documentación detallada</a>.</p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Distributed Marketing</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign Distributed Marketing lets you implement collaborative campaigns between central entities (headquarters, marketing departments, etc.) and local entities (sales points, regional agencies, etc.). Through a shared workspace (campaign packages), you can create campaign templates and propose them to your local entities.</p>
+<p>Para obtener más información, consulte la <a href="../start/campaigns.md#distributed-marketing-add-on">documentación detallada</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong></strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>With iOS 15, Apple added a notion of sensitive notification that gives control to the app developer to bypass Focus mode when a notification is considered as sensitive and then needs to reach the user in real-time.</p>
+<p>Para obtener más información, consulte la <a href="../send/push.md#send-notifications-on-ios">documentación detallada</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+<table> 
+<thead>
+<tr> 
+<th> <strong></strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td> <p>Campaign v8 now integrates with Adobe Privacy Core Service. A través de la integración del Servicio principal de privacidad: Las solicitudes de privacidad enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado.</p>
+<p>Para obtener más información, consulte la <a href="privacy.md">documentación detallada</a>.</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Actualizaciones de compatibilidad**
+
+* Campaign v8 SDK now supports Android 12 and iOS 15 for Push Notifications.
+* Campaign v8 is now compatible with Windows 11.
+
+Consulte la [Matriz de compatibilidades de Campaign](capability-matrix.md).
+
+**Mejoras**
+
+* Microsoft Exchange Online OAuth 2.0 authentication for POP3 is now supported in Campaign. [Más información](../config/external-accounts.md#bounce-mails-external-account)
+* Se han aplicado correcciones críticas con respecto a la API web del conector de Microsoft Dynamics.
+* The new Operator and group schema write (operatorWrite) named right has been added to allow users to insert, update and delete Operators (xtk:operator) and Operator groups (xtk:group) schemas.
+* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Más información](../config/email-settings.md#email-bcc)
+* To ensure better performances, a new &quot;Split&quot; option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients. LINK
+* For LINE deliveries on mid-sourcing setups, multiple active accounts of the same type can now exist on a mid instance.
+* The number of default connections for the web process has been increased from 50 to 150.
+* Campaign comes with a set of new guardrails to prevent insertion of duplicated keys in Snowflake database. [Más información](../architecture/keys.md)
+
+**Parches**
+
+* Fixed an issue which occurred when using seeds and control groups in the same recurring delivery. (NEO-41197)
+* `' & < > "` These characters are now supported in personalization blocks (example: firstname=&quot;Brian O&#39;Neil&quot;). (NEO-43184)
+* Fixed an issue which could lead the tracking workflow to fail when using a custom schema as a target mapping. We now ensure that the type of the foreign link to a custom targeting schema is correct when generating broadLog schema via the target mapping wizard. (NEO-43506)
+* Fixed an issue which could lead the FFDA deployment workflows to fail for languages other than English. (NEO-44561)
 
 ## Versión 8.2.10 {#release-8-2-10}
 
@@ -76,7 +168,9 @@ _28 de octubre de 2021_
 <tr> 
 <td> <p>El Servicio de unicidad es un nuevo componente del administrador de bases de datos de Cloud. Ayuda a los usuarios a preservar y controlar la integridad de las restricciones clave únicas dentro de las tablas de la base de datos de la nube. Esto le permite reducir el riesgo de insertar claves duplicadas.
 <p>Como la base de datos de Cloud no impone restricciones de unicidad, el servicio de unicidad introduce en el nivel de aplicación, <b>un conjunto de nuevas barreras</b> que reduce el riesgo de insertar duplicados al administrar los datos con Adobe Campaign.</p> 
-<p>El Servicio de unicidad inicia un nuevo flujo de trabajo integrado denominado <b>ffdaUnicity</b> para monitorizar las restricciones de unicidad y avisar cuando se detecten duplicados.</p></td> </tr> 
+<p>El Servicio de unicidad inicia un nuevo flujo de trabajo integrado denominado <b>ffdaUnicity</b> para monitorizar las restricciones de unicidad y avisar cuando se detecten duplicados.</p>
+<p>Para obtener más información, consulte la <a href="../architecture/keys.md">documentación detallada</a>.</p>
+</td> </tr> 
 </tbody> 
 </table>
 

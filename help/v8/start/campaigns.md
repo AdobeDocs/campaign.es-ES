@@ -5,10 +5,10 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 9e07353859e63b71abb61526f40675f18837bc59
+source-git-commit: 36b7a7be766febca4448c6114f5acac35e30873a
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 100%
+source-wordcount: '905'
+ht-degree: 82%
 
 ---
 
@@ -18,13 +18,13 @@ Adobe Campaign ofrece un conjunto de soluciones que le ayudan a personalizar y e
 
 Las campañas incluyen acciones (envíos) y procesos (importación o extracción de archivos), así como recursos (documentos de marketing, descripciones de envíos). Todos ellos se utilizan en las campañas de marketing. Las campañas son parte de un programa y los programas se incluyen en un plan de campaña.
 
-## Organización de campañas en canales múltiples
+## Organización de campañas en canales múltiples{#cross-channel-orchestration}
 
 Adobe Campaign le permite diseñar y organizar campañas dirigidas y personalizadas en varios canales: correo electrónico, correo directo, SMS, notificaciones push. Una sola interfaz proporciona todas las funcionalidades necesarias para programar, organizar, configurar, personalizar, automatizar, ejecutar y medir todas las campañas y comunicaciones.
 
 ![](assets/campaign-tab.png)
 
-### Conceptos básicos
+### Conceptos básicos{#ac-core-concepts}
 
 Antes de comenzar a implementar campañas de marketing, debe estar familiarizado con los siguientes conceptos:
 
@@ -40,7 +40,7 @@ Antes de comenzar a implementar campañas de marketing, debe estar familiarizado
 
 * **Campaña periódica**: una campaña periódica es una campaña creada automáticamente según la programación de ejecución de su plantilla.
 
-## Espacio de trabajo de campañas de marketing
+## Espacio de trabajo de campañas de marketing{#ac-workspace}
 
 Adobe Campaign permite crear, configurar, ejecutar y analizar todas las campañas de marketing desde un centro de control unificado.
 
@@ -49,7 +49,7 @@ Adobe Campaign permite crear, configurar, ejecutar y analizar todas las campaña
 ![](../assets/do-not-localize/book.png) Descubra cómo acceder e implementar campañas de marketing en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/about-marketing-campaigns/accessing-marketing-campaigns.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 
-## Pasos clave para comenzar
+## Pasos clave para comenzar{#gs-ac-start}
 
 Los pasos clave para crear una campaña de marketing multicanal son estos:
 
@@ -90,4 +90,25 @@ Los pasos clave para crear una campaña de marketing multicanal son estos:
    Adobe Campaign permite configurar los procesos de aprobación de las etapas principales de la campaña de marketing en modo de colaboración. Para cada campaña, puede aprobar el objetivo de entrega, los contenidos y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola o de una conexión web.
 
    ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y administrar aprobaciones en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
+
+
+## Distributed Marketing add-on{#distributed-marketing-add-on}
+
+**** and local entities (stores, regional agencies, etc.). **[!UICONTROL List of campaign packages]**
+
+>[!NOTE]
+>
+>[](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png)[](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html)
+
+## Distributed Marketing add-on{#response-manager-add-on}
+
+****
+
+>[!NOTE]
+>
+>[](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+
+[](../assets/do-not-localize/book.png)[](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html)
 
