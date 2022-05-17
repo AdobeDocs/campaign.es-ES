@@ -1,17 +1,18 @@
 ---
-title: Trabajar con Campaign y SFDC
+title: Trabajo con Campaign y SFDC
 description: Aprenda a trabajar con Campaign y Salesforce.com
 feature: Overview
 role: Data Engineer
 level: Beginner
-source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
+exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
+source-git-commit: e55a60ae1628e534e32e86d347457b6c208db75b
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 32%
+ht-degree: 35%
 
 ---
 
-# Trabajar con Campaign y SFDC{#crm-sfdc}
+# Trabajo con Campaign y SFDC{#crm-sfdc}
 
 Obtenga información sobre cómo configurar el conector CRM de Campaign para conectar Campaign v8 a **Salesforce.com**.
 

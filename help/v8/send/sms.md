@@ -20,7 +20,7 @@ Utilice Adobe Campaign para enviar mensajes SMS personalizados.
 
 >[!NOTE]
 >
->Adobe Campaign también permite enviar notificaciones push a móviles mediante sus **Canal de aplicaciones móviles de Adobe Campaign (NMAC)** . Obtenga más información en [esta sección](push.md).
+>Adobe Campaign también permite enviar notificaciones push a móviles mediante sus **Adobe Campaign Mobile App Channel (NMAC)** . Obtenga más información en [esta sección](push.md).
 
 ## Configuración del canal de SMS
 

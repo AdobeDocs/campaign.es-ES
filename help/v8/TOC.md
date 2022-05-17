@@ -7,7 +7,7 @@ title: Documentos de Campaign v8
 source-git-commit: d2f4e54b0c37cc019061dd3a7b7048cd80876ac0
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 96%
    + [Campaign + Base de datos externa](connect/fda.md)
    + Campaign + su CRM {#ac-crm}
       + [Introducción a los conectores CRM](connect/crm.md)
-      + [Trabajar con Campaign y SFDC](connect/ac-sfdc.md)
+      + [Trabajo con Campaign y SFDC](connect/ac-sfdc.md)
       + [Trabajo con Campaign y Microsoft Dynamics](connect/ac-ms-dyn.md)
       + [Sincronizar datos](connect/crm-data-sync.md)
 + Recursos para desarrolladores {#architecture}
