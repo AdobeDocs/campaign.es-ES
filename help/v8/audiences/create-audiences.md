@@ -1,0 +1,139 @@
+---
+title: Creación de audiencias de perfil en Campaign
+description: Obtenga información sobre cómo crear listas y crear una audiencia
+feature: Audiences, Profiles
+role: Data Engineer
+level: Beginner
+exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
+source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+workflow-type: tm+mt
+source-wordcount: '795'
+ht-degree: 33%
+
+---
+
+# Crear una audiencia en una lista{#create-segments}
+
+Utilice listas de campañas para crear y organizar sus audiencias.
+
+Una lista es un conjunto estático de contactos que se puede definir como objetivo en acciones de envío o actualizar durante una importación u otra acción de flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta se puede almacenar como una lista.
+
+Las listas se crean y administran mediante el vínculo **[!UICONTROL Lists]** en la ficha **[!UICONTROL Profiles and targets]**. Esta lista se basa en la tabla de perfil de Adobe Campaign predeterminada (nms:recipient). [Más información](../dev/datamodel.md#ootb-profiles.md)
+
+![](assets/list-dashboard.png)
+
+Puede crear una lista utilizando la variable **Actualizar lista** actividad en un flujo de trabajo. Esta actividad almacena la población resultante en una lista. Utilícelo para crear una lista nueva o actualizar una lista existente. Para crear listas que contengan otros tipos de datos que no sean la tabla de perfil integrada, debe ejecutar un flujo de trabajo. Por ejemplo: si utiliza una consulta en la tabla del visitante y luego actualiza la lista, puede crear una lista de visitantes. [Más información](#create-a-list-wf).
+
+Vea este vídeo para obtener más información sobre la administración de listas en Adobe Campaign.
+
+>[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
+
+
+## Creación de una lista de contactos {#create-a-list-of-contacts}
+
+Para crear una lista de contactos, siga los pasos a continuación:
+
+1. Haga clic en el botón **[!UICONTROL Create]** y seleccione **[!UICONTROL New list]**.
+
+   ![](assets/new-list.png)
+
+1. Introduzca la información en la ficha **[!UICONTROL Edit]**, en la ventana de creación de lista.
+
+   ![](assets/list-details.png)
+
+   * Introduzca el nombre de la lista en el campo **[!UICONTROL Label]** y, si es necesario, cambie el nombre interno.
+   * Añada una descripción para esta lista.
+   * Puede especificar una fecha de caducidad: cuando se llegue a esta fecha, la lista se depura y se elimina automáticamente.
+
+
+1. En la ficha **[!UICONTROL Content]**, haga clic en **[!UICONTROL Add]** para seleccionar los perfiles pertenecientes a la lista.
+
+   ![](assets/add-profiles-to-a-list.png)
+
+   Puede crear un nuevo perfil y añadirlo a la lista directamente desde esta ventana utilizando la variable **[!UICONTROL Create]** icono. El perfil se añadirá a la base de datos.
+
+1. Haga clic en **[!UICONTROL Save]** para guardar la lista. A continuación, se añade a la descripción general de las listas.
+
+
+## Convertir contactos filtrados en una lista {#convert-data-to-a-list}
+
+Puede seleccionar perfiles y añadirlos a una lista. Para ello, siga los pasos a continuación:
+
+1. En el explorador de Campaign, seleccione perfiles y haga clic con el botón derecho.
+
+   Estos perfiles se pueden filtrar para que cumplan criterios específicos.
+
+1. Seleccione **[!UICONTROL Actions > Associate selection with a list...]**.
+
+   ![](assets/add-selection-to-a-list.png)
+
+1. Seleccione una lista existente o cree una lista nueva y haga clic en **[!UICONTROL Next]**.
+
+   ![](assets/select-the-list.png)
+
+1. Haga clic en el botón **[!UICONTROL Start]**.
+
+   ![](assets/record-a-list.png)
+
+Seleccione el **[!UICONTROL Recreate the list]** para eliminar el contenido existente de la lista y optimizar la creación de la lista (no se necesita ninguna consulta para verificar si los perfiles ya están vinculados a la lista).
+
+Si desactiva la opción **[!UICONTROL No trace of this job is saved in the database]**, puede seleccionar (o crear) la carpeta de ejecución en la que se almacenará la información vinculada a este proceso.
+
+La sección superior de la ventana permite controlar la ejecución. El botón **[!UICONTROL Stop]** permite detener el proceso. Los contactos que ya se han procesado se vincularán a la lista.
+
+Una vez finalizada la ejecución, acceda al **[!UICONTROL Profiles and Targets > Lists]** y seleccione la lista: el **[!UICONTROL Content]** muestra los perfiles vinculados a esta lista.
+
+
+## Creación de una lista con un flujo de trabajo  {#create-a-list-wf}
+
+Puede usar la variable **[!UICONTROL List update]** actividad para crear una lista o añadir una población a una lista de destinatarios.
+
+En el siguiente ejemplo, se crea una lista de todos los destinatarios entre 25 y 40.
+
+1. Select **[!UICONTROL Profiles and targets]** y **[!UICONTROL Targeting workflows]** y, a continuación, cree un nuevo flujo de trabajo a partir de **[!UICONTROL Create]** botón.
+1. Introduzca una etiqueta para este flujo de trabajo, por ejemplo &quot;25-40 contactos&quot;, añada una descripción y haga clic en **[!UICONTROL Next]**.
+
+   ![](assets/targeting-wf-sample.png)
+
+1. Insertar un **[!UICONTROL Query]** actividad para definir la población objetivo y editar la consulta.
+
+   ![](assets/targeting-wf-edit-query.png)
+
+1. Defina las condiciones de filtro como se muestra a continuación:
+
+   ![](assets/targeting-wf-age-filter.png)
+
+   Obtenga información sobre cómo crear una consulta en un flujo de trabajo en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target=&quot;_blank&quot;}
+
+1. Añada una etiqueta para esta consulta y guarde los cambios.
+1. Agregue un **[!UICONTROL List update]** y edítela.
+
+   ![](assets/list-update-activity.png)
+
+1. Introduzca una etiqueta para la actividad.
+1. Seleccione la opción **[!UICONTROL Create the list if necessary (Computed name)]** para mostrar que la lista se cree una vez que se haya ejecutado el primer flujo de trabajo y se haya actualizado con las siguientes ejecuciones.
+1. Seleccione una carpeta e introduzca una etiqueta para la lista.
+1. Seleccione el **[!UICONTROL Database of the targeting dimension]** para almacenar la tabla.
+1. Deje el **[!UICONTROL Purge the list if it exists (otherwise add to the list)]** activada para eliminar destinatarios que no coincidan con los criterios de segmentación y para insertar los nuevos en la lista.
+1. También deje la opción **[!UICONTROL Create or use a list with its own table]** marcada.
+1. Deje la opción **[!UICONTROL Generate an outbound transition]** sin marcar.
+1. Haga clic en **[!UICONTROL Ok]** y guarde el flujo de trabajo.
+1. Inicie el flujo de trabajo.
+
+   A continuación, se crea la lista de destinatarios coincidentes. Puede acceder a esta lista desde la **[!UICONTROL Lists]** de la página principal.
+
+   ![](assets/access-new-list.png)
+
+   Puede hacer que este flujo de trabajo sea recurrente añadiendo un planificador al flujo de trabajo. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target=&quot;_blank&quot;}.
+
+## Eliminación de perfiles de una lista {#remove-a-profile-from-a-list}
+
+Para quitar un perfil de una lista, edite la lista, seleccione el perfil en la **[!UICONTROL Content]** y, a continuación, haga clic en la pestaña **[!UICONTROL Delete]** icono.
+
+## Eliminación de una lista de perfiles {#delete-a-list-of-profiles}
+
+Para eliminar una lista, navegue hasta ella desde el explorador de Campaign, selecciónela y haga clic con el botón derecho del ratón. Elija **[!UICONTROL Delete]**. Un mensaje de advertencia le pedirá que confirme la eliminación.
+
+>[!NOTE]
+>
+>Cuando se elimina una lista, los perfiles de la lista no se ven afectados; no obstante, los datos del perfil se actualizan.
