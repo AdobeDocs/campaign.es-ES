@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -29,11 +29,11 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 ### Sistemas operativos
 
 * **Microsoft Windows Server** 2019, 2016, 2012
-* **Microsoft Windows** 11 (a partir de Campaign v8.3), 10, 8,
+* **Microsoft Windows** 11 (a partir de la versión 8.3 de Campaign), 10, 8,
 
 >[!NOTE]
 >
->Se recomienda Microsoft Windows 10 para instancias japonesas.
+>Microsoft Windows 10 es recomendado para instancias japonesas.
 
 ### Explorador
 
@@ -59,8 +59,8 @@ A continuación, se enumeran las bases de datos externas compatibles con el mód
 
 Puede utilizar Campaign para enviar [notificaciones push](../send/push.md) a los sistemas operativos que se enumeran a continuación mediante el SDK móvil asociado.
 
-* **Android** 12 (a partir de Campaign v8.3), 9.0, 8.x, 7.x, con la versión 1.1.1 del SDK para Android de Campaign.
-* **Apple iOS** 9 - 15 con la compilación 1.0.26 de Campaign iOS SDK, compatible con las versiones de 32 y 64 bits. iOS 15 es compatible a partir de Campaign v8.
+* **Android** 12 (a partir de la versión 8.3 de Campaign), 9.0, 8.x, 7.x, con la compilación 1.1.1 del SDK de Android de Campaign.
+* **iOS de Apple** 9 - 15 con la compilación 1.0.26 del iOS SDK de Campaign, compatible con las versiones de 32 y 64 bits. iOS 15 es compatible a partir de la versión 8 de Campaign.
 
 ## Acceso web
 
@@ -68,7 +68,7 @@ Los siguientes exploradores son compatibles con Campaign para [Web Access](conne
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versiones más recientes)
 
-## Cómo comprobar la versión de Campaign y crear{#version}
+## Comprobación de la versión y compilación de Campaign{#version}
 
 Utilice el menú **Ayuda > Acerca de...** para comprobar su versión.
 
