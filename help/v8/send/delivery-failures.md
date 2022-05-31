@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '2849'
-ht-degree: 68%
+source-wordcount: '3009'
+ht-degree: 65%
 
 ---
 
@@ -48,7 +48,7 @@ Un envío de mensajes puede fallar inmediatamente, en ese caso se clasifica como
 
 Estos tipos de errores se administran de la siguiente manera:
 
-* **Error sincrónico**: el servidor remoto contactado por el servidor de entrega de Adobe Campaign devuelve inmediatamente un mensaje de error. No se permite que la entrega se envíe al servidor del perfil. El MTA mejorado determina el tipo de rechazo y clasifica el error, y envía esa información a Campaign para determinar si las direcciones de correo electrónico correspondientes deben ponerse en cuarentena. Consulte [Cualificación de correo rechazado](#bounce-mail-qualification).
+* **Error sincrónico**: el servidor remoto contactado por el servidor de entrega de Adobe Campaign devuelve inmediatamente un mensaje de error. No se permite que la entrega se envíe al servidor del perfil. El Agente de transferencia de correo (MTA) determina el tipo de rechazo y clasifica el error, y envía esa información a Campaign para determinar si las direcciones de correo electrónico correspondientes deben ponerse en cuarentena. Consulte [Cualificación de correo rechazado](#bounce-mail-qualification).
 
 * **Error asíncrono**: el servidor receptor reenvía más tarde un correo electrónico devuelto o una SR. Este error se clasifica con una etiqueta relacionada con el error. Pueden producirse errores asíncronos hasta una semana después de mandar la entrega.
 
@@ -64,7 +64,7 @@ Estos tipos de errores se administran de la siguiente manera:
 
 Actualmente, la forma en que se gestiona la calificación de correo rechazado en Adobe Campaign depende del tipo de error:
 
-* **Errores sincrónicos**: El MTA mejorado determina el tipo de rechazo y la calificación, y envía esa información a Campaign. Las cualificaciones de devolución en la variable **[!UICONTROL Delivery log qualification]** no se usa para **sincrónica** mensajes de error de error de envío.
+* **Errores sincrónicos**: El MTA determina el tipo de rechazo y la calificación, y envía esa información a Campaign. Las cualificaciones de devolución en la variable **[!UICONTROL Delivery log qualification]** no se usa para **sincrónica** mensajes de error de error de envío.
 
 * **Errores asincrónicos**: Las reglas que utiliza Campaign para clasificar los errores de entrega asincrónicos se enumeran en la **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo . Las devoluciones asincrónicas se clasifican mediante el proceso inMail a través del **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
 
@@ -97,9 +97,22 @@ Bounce mails can have the following qualification status:
 
 Si la entrega de mensajes falla tras un error temporal (**Leve** o **Ignorado**), Campaign reintenta enviar. Estos reintentos se pueden realizar hasta el final de la duración de la entrega.
 
-El MTA mejorado configura el número y la frecuencia de los reintentos en función del tipo y la gravedad de las respuestas de rechazo que regresan del ISP del mensaje.
+Los reintentos de devoluciones en blanco y el periodo entre ellos están determinados por el MTA en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
 
-<!--NO LONGER WITH MOMENTUM - The default configuration defines five retries at one-hour intervals, followed by one retry per day for four days. The number of retries can be changed globally or for each delivery or delivery template. If you need to adapt delivery duration and retries, contact Adobe Support.-->
+>[!NOTE]
+>
+>Campaign no utiliza la configuración de reintentos de las propiedades de entrega.
+
+## Período de validez
+
+La configuración del periodo de validez de las entregas de Campaign se limita a **3,5 días o menos**. Para una entrega, si define un valor superior a 3,5 días en Campaign, no se tiene en cuenta.
+
+Por ejemplo, si el periodo de validez se establece en el valor predeterminado de 5 días en Campaign, los mensajes de devolución en blanco entrarán en la cola de reintentos del MTA y se volverán a intentar durante solo 3,5 días a partir del momento en que el mensaje llegue al MTA. En ese caso, no se utilizará el valor establecido en Campaign.
+
+Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado desde **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
+
+Para obtener más información sobre el periodo de validez, consulte la [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}.
+
 
 ## Tipos de error de correo electrónico {#email-error-types}
 

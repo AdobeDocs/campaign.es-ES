@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 description: Documentación de Campaign v8
 breadcrumb-title: Campaign v8
 title: Documentos de Campaign v8
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 92%
@@ -73,8 +73,8 @@ ht-degree: 92%
    + [Prácticas recomendadas](audiences/audiences-best-practices.md)
 + Envío de mensajes{#send}
    + Correos electrónicos {#emails}
-      + [Diseño y envío de correos electrónicos](send/email.md)
-      + [Acerca del MTA mejorado](send/enhanced-mta.md)
+      + [Diseño y validación de correos electrónicos](send/email.md)
+      + [Envío y monitorización de correos electrónicos](send/send.md)
    + [SMS](send/sms.md)
    + [Notificaciones push](send/push.md)
    + [Mensajería LINE](send/line.md)
