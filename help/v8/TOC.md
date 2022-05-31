@@ -6,8 +6,8 @@ breadcrumb-title: Campaign v8
 title: Documentos de Campaign v8
 source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -38,8 +38,8 @@ ht-degree: 92%
 + Arquitectura {#architecture}
    + [Principios globales](architecture/general-architecture.md)
    + [Arquitectura](architecture/architecture.md)
-   + Implementación del Snowflake de FDA {#fda}
-      + [¿Qué es FDA-Snowflake?](architecture/fda-deployment.md)
+   + Implementación de Snowflake en FDA {#fda}
+      + [¿Qué es Snowflake en FDA?](architecture/fda-deployment.md)
    + Implementación empresarial (FFDA) {#ffda}
       + [¿Qué es el FFDA de Campaign?](architecture/enterprise-deployment.md)
       + Características {#ffda-characteristics}
