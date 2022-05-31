@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1188'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -35,9 +35,9 @@ Esta sección contiene información esencial acerca de la privacidad y seguridad
 
 Adobe Campaign incluye procesos y configuraciones que permiten utilizar Campaign de conformidad con las leyes aplicables sobre privacidad de datos y las preferencias de los destinatarios. Puede administrar:
 
-* **Adquisición de datos**: Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y administre el consentimiento de sus destinatarios. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#data-acquisition){target=&quot;_blank&quot;}
+* **Adquisición de datos**: Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y administre el consentimiento de sus destinatarios. Obtenga más información en la [documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#data-acquisition){target=&quot;_blank&quot;}
 
-* **Consentimiento de usuario y retención de datos**: Obtenga información sobre cómo obtener el consentimiento del usuario, configurar mecanismos de suscripción de inclusión doble, facilitar la exclusión y configurar la retención de datos en [documentación de privacidad del Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#consent){target=&quot;_blank&quot;}
+* **Consentimiento de usuario y retención de datos**: obtenga información sobre cómo obtener el consentimiento del usuario, configurar mecanismos de suscripción de doble inclusión, facilitar la exclusión y configurar la retención de datos en la [documentación de privacidad de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#consent){target=&quot;_blank&quot;}
 
 * **Reglamentos de protección de datos y privacidad**: consulte [esta sección](privacy.md) para obtener información sobre los requisitos de privacidad y cómo afectan estas regulaciones a su organización y a Adobe Campaign.
 
