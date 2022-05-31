@@ -7,9 +7,9 @@ level: Beginner
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2161'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ _18 de mayo de 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Con iOS 15, Apple ha agregado una noción de notificación confidencial que permite al desarrollador de la aplicación controlar el modo de evitar el enfoque cuando una notificación se considera sensible y luego necesita llegar al usuario en tiempo real.</p>
+<td> <p>Con iOS 15, Apple ha agregado una noción de notificación confidencial que permite al desarrollador de la aplicación controlar el modo de evitar el enfoque cuando una notificación se considera confidencial y necesita llegar al usuario en tiempo real.</p>
 <p>Para obtener más información, consulte la <a href="../send/push.md#send-notifications-on-ios">documentación detallada</a>.</p>
 </td> 
 </tr> 
@@ -42,12 +42,12 @@ _18 de mayo de 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Integración del Privacy Service principal</strong><br /> </th> 
+<th> <strong>Integración de Privacy Service Core</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>Campaign v8 ahora se integra con el servicio principal de privacidad de Adobe. A través de la integración del Servicio principal de privacidad: Las solicitudes de privacidad enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado.</p>
+<td> <p>La versión 8 de Campaign ahora se integra con el servicio principal de privacidad de Adobe. A través de la integración del Servicio principal de privacidad: las solicitudes de privacidad enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado.</p>
 <p>Para obtener más información, consulte la <a href="privacy.md">documentación detallada</a>.</p>
 </td> 
 </tr> 
@@ -64,7 +64,7 @@ _18 de mayo de 2022_
 <tbody>
 <tr>
 <td>
-<p>La gestión de respuestas de campañas permite medir el éxito y el ROI de las campañas de marketing u ofrecer propuestas en todos los canales: correo electrónico, móvil, correo postal, etc.</p>
+<p>La gestión de respuestas de campañas permite medir el éxito y el ROI de las campañas de marketing u ofrecer propuestas en todos los canales: correo electrónico, móvil, correo directo, etc.</p>
 <p>Para obtener más información, consulte la <a href="../start/campaigns.md#response-manager-add-on">documentación detallada</a>.</p>
 </td>
 </tr>
@@ -74,7 +74,7 @@ _18 de mayo de 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Distributed Marketing</strong><br /> </th> 
+<th> <strong>Marketing distribuido</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
@@ -88,8 +88,8 @@ _18 de mayo de 2022_
 
 **Actualizaciones de compatibilidad**
 
-* El SDK de Campaign v8 ahora es compatible con Android 12 y iOS 15 para notificaciones push.
-* Campaign v8 ahora es compatible con Windows 11.
+* El SDK de la versión 8 de Campaign ahora es compatible con Android 12 y iOS 15 para las notificaciones push.
+* La versión 8 de Campaign ahora es compatible con Windows 11.
 
 Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
@@ -107,10 +107,10 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
 **Parches**
 
-* Se ha corregido un problema que se producía al usar semillas y grupos de control en el mismo envío recurrente. (NEO-41197)
-* Se ha corregido un problema en FFDA que provocaba que el envío de correo electrónico se bloqueara para todos los destinatarios que pertenecen a la misma deliveryPart durante el proceso de envío (hasta 256) cuando los bloques de personalización contenían uno de los siguientes caracteres: `' & < > "`. Estos caracteres ahora se admiten en bloques de personalización (ejemplo: firstname=&quot;Brian O&#39;Neil&quot;). (NEO-43184)
-* Se ha corregido un problema que podría provocar un error en el flujo de trabajo de seguimiento al usar un esquema personalizado como asignación de destino. Ahora nos aseguramos de que el tipo del vínculo externo a un esquema de objetivo personalizado es correcto al generar el esquema broadLog mediante el asistente de asignación de destino. (NEO-43506)
-* Se ha corregido un problema que podía provocar que los flujos de trabajo de implementación de FFDA fallaran en idiomas distintos del inglés. (NEO-44561)
+* Se ha corregido un problema que se producía al usar semillas y grupos de control en la misma entrega recurrente. (NEO-41197)
+* Se ha corregido un problema en FDAC que provocaba que el envío de correo electrónico se bloqueara para todos los destinatarios que pertenecen a la misma deliveryPart durante el proceso de envío (hasta 256) cuando los bloques de personalización contenían uno de los siguientes caracteres: `' & < > "`. Estos caracteres ahora se admiten en bloques de personalización (ejemplo: firstname=&quot;Brian O&#39;Neil&quot;). (NEO-43184)
+* Se ha corregido un problema que podría provocar un error en el flujo de trabajo de seguimiento al usar un esquema personalizado como asignación de destino. Ahora nos aseguramos de que el tipo del vínculo externo a un esquema de direccionamiento personalizado es correcto al generar el esquema broadLog mediante el asistente de asignación de destino. (NEO-43506)
+* Se ha corregido un problema que podía provocar que los flujos de trabajo de implementación de FDAC fallaran en idiomas distintos del inglés. (NEO-44561)
 
 ## Versión 8.2.10 {#release-8-2-10}
 
