@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: fc0be5fe82ba11e54851a8f612ece0b310447cdd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '905'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -92,23 +92,23 @@ Los pasos clave para crear una campaña de marketing multicanal son estos:
    ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y administrar aprobaciones en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval.html?lang=es#orchestrating-campaigns){target=&quot;_blank&quot;}
 
 
-## Complemento Distributed Marketing{#distributed-marketing-add-on}
+## Complemento de marketing distribuido{#distributed-marketing-add-on}
 
-Adobe Campaign ofrece un **Distributed Marketing** complemento para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (tiendas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL List of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campaña diseñadas por entidades centrales.
+Adobe Campaign ofrece un complemento de **Marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (tiendas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL List of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas diseñadas por entidades centrales.
 
 >[!NOTE]
 >
->Esta capacidad está disponible a partir de Campaign v8.3. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y utilizar las funcionalidades de marketing distribuido de Campaign en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html){target=&quot;_blank&quot;}
+[](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y utilizar las funcionalidades de marketing distribuido de Campaign en [Documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/distributed-marketing/about-distributed-marketing.html?lang=es){target=&quot;_blank&quot;}
 
 ## Complemento de gestión de respuestas{#response-manager-add-on}
 
-Adobe Campaign ofrece un **Gestión de respuestas** complemento que le permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas a través de los canales de comunicación: correo electrónico, móvil, correo postal, etc.
+Adobe Campaign ofrece un complemento de **gestión de respuestas** que le permite medir el éxito y la rentabilidad de las campañas de marketing u ofrecer propuestas para todos los canales de comunicación: correo electrónico, móvil, correo directo, etc.
 
 >[!NOTE]
 >
->Esta capacidad está disponible a partir de Campaign v8.3. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y utilizar el Gestor de respuestas de Campaign en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html){target=&quot;_blank&quot;}
+[](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y utilizar el Gestor de respuestas de Campaign en la [Documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target=&quot;_blank&quot;}
 
