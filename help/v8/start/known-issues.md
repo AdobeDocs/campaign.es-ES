@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 1b88ca57858efbfec6467452677620d59e9c9e32
+source-git-commit: fe425f9309af31a13b52695b103d530a6b89e3b1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 2%
+source-wordcount: '433'
+ht-degree: 3%
 
 ---
 
@@ -22,7 +22,7 @@ Esta página enumera los problemas conocidos identificados en el **última versi
 >
 >Adobe publica esta lista de problemas conocidos a su propia discreción. Se basa en la cantidad de informes de clientes, la gravedad y la disponibilidad de la solución alternativa. Si un problema que encuentra no aparece en la lista, es posible que no se ajuste a los criterios de publicación de esta página.
 
-## Cambiar el problema de la actividad de la fuente de datos {#issue-1}
+## Cambio del problema de actividad de la fuente de datos n.º 1 {#issue-1}
 
 ### Descripción{#issue-1-desc}
 
@@ -57,7 +57,7 @@ Referencia: NEO-45549
 
 
 
-## Error en la actividad Cambiar fuente de datos debido a una barra invertida {#issue-2}
+## Cambio del problema de actividad de la fuente de datos n.º 2 {#issue-2}
 
 ### Descripción{#issue-2-desc}
 
