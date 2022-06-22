@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: fe425f9309af31a13b52695b103d530a6b89e3b1
+source-git-commit: 0d1d20f9692ffa7b7ea7a8fb1161ebd19f533bab
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 3%
+source-wordcount: '449'
+ht-degree: 2%
 
 ---
 
@@ -113,7 +113,7 @@ El proceso nunca termina.
 
 ### Solución alternativa{#issue-3-workaround}
 
-Ninguno
+Debe utilizar una consola de cliente antigua para poder cargar el archivo en el servidor.
 
 ### Referencia interna{#issue-3-ref}
 
