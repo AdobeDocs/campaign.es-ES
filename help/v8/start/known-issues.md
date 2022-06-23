@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 2c9455a09d6b557d525b1af5da9374a1d59201d7
+source-git-commit: 5fe921e83f36675837b72ca282315692151dcf67
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '401'
 ht-degree: 3%
 
 ---
@@ -120,9 +120,9 @@ El proceso nunca termina.
 
 La solución es utilizar una consola de cliente más antigua. A continuación, podrá cargar el archivo en el servidor.
 
-Como administrador, puede descargar la consola del cliente de Campaign v8.3.1 en [Servicio de distribución de Adobe](https://experience.adobe.com/downloads).
+Como administrador de Campaign, puede descargar la consola del cliente de Campaign v8.3.1 en [Servicio de distribución de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Campaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
 
-Obtenga información sobre cómo acceder al servicio de distribución de Adobe [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es)
+Obtenga información sobre cómo acceder al servicio de distribución de Adobe [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target=&quot;_blank&quot;}.
 
 Obtenga información sobre cómo actualizar la consola del cliente [en esta página](connect.md)
 
