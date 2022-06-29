@@ -1,14 +1,14 @@
 ---
 title: Envío de correos electrónicos con Adobe Campaign
 description: Introducción a los correos electrónicos en Campaign
-feature: Overview
+feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 23%
+ht-degree: 26%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 23%
 
 Los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo.
 
-![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html){target=&quot;_blank&quot;}
 
 ## Creación de la primera entrega de correo electrónico
 
@@ -103,4 +103,4 @@ Puede hacer lo siguiente:
 * Uso de grupos de control
 * Compruebe la renderización del correo electrónico
 
-![](../assets/do-not-localize/book.png) [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) [Obtenga más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}

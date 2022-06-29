@@ -1,11 +1,11 @@
 ---
 title: Personalizar la instancia
 description: Obtenga información sobre cómo personalizar la instancia
-feature: Overview
+feature: Application Settings
 role: Data Engineer
 level: Beginner
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
+source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 21%
@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # Personalizar la instancia{#gs-ac-custom}
 
-Obtenga información sobre cómo **Personalización de la instancia de Campaign**
+Obtenga información sobre cómo **Personalización de la instancia de Campaign**.
 
 >[!CAUTION]
 >

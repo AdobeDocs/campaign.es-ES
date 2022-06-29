@@ -1,11 +1,11 @@
 ---
 title: Configuración de mensajería transaccional de Campaign
 description: Configuración de mensajería transaccional de Campaign
-feature: Overview
+feature: Transactional Messaging
 role: Data Engineer
 level: Beginner
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 22%
@@ -34,7 +34,7 @@ Todas las extensiones de esquema realizadas en los esquemas utilizados por **Flu
 
 Cuando se combina con el módulo de canal de aplicaciones móviles, la mensajería transaccional permite enviar mensajes transaccionales mediante notificaciones en dispositivos móviles.
 
-![](../assets/do-not-localize/book.png) El canal de aplicaciones de Mobile se detalla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) El canal de aplicaciones móviles se detalla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
 
 Para enviar notificaciones push transaccionales, debe realizar las siguientes configuraciones:
 
