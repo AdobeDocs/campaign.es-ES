@@ -5,8 +5,8 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
-workflow-type: ht
+source-git-commit: 40f13fd93ff620a743fd8c826b0b914a9e89ee7a
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 
@@ -84,7 +84,7 @@ Puede combinar las funcionalidades de envío y las funcionalidades avanzadas de 
 
 Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: [Descripción del producto de Adobe Campaign Classic v8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-![](../assets/do-not-localize/glass.png) ¿Ya está familiarizado con Campaign Classic? Aprenda las diferencias clave entre Campaign Classic y Campaign versión 8 en [esta página](capability-matrix.md).
+![](../assets/do-not-localize/glass.png) ¿Ya está familiarizado con Campaign Classic? Aprenda las diferencias clave entre Campaign Classic y Campaign versión 8 en [esta página](v7-to-v8.md).
 
 **Consulte también**
 
