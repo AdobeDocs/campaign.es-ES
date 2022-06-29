@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
+source-git-commit: 110cf2ff705ecbc0b3a1690e9dfc2791f5744b97
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 13%
+source-wordcount: '698'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Campaign está disponible como instancias individuales y cada instancia representa un entorno de Campaign completo.
 
-Dos tipos de entornos disponibles con el Cloud Service de Campaign:
+Hay dos tipos de entornos disponibles:
 
 * **Entorno de producción**: aloja las aplicaciones para los profesionales del negocio.
 
@@ -26,25 +26,22 @@ Dos tipos de entornos disponibles con el Cloud Service de Campaign:
 
 Puede exportar e importar paquetes de un entorno a otro.
 
-![](../assets/do-not-localize/book.png) Obtenga más información sobre los paquetes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html)
+![](../assets/do-not-localize/book.png) Obtenga más información sobre los paquetes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target=&quot;_blank&quot;}
 
-## Modelo de implementación{#ac-deployment}
+## Modelos de implementación{#ac-deployment}
 
-En su [Implementación empresarial (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: un local [!DNL Campaign] base de datos para la interfaz de usuario mensajería en tiempo real y consultas unitarias, así como escritura a través de API y una nube [!DNL Snowflake] base de datos para ejecución de campañas, consultas por lotes y ejecución del flujo de trabajo.
+Hay dos modelos de implementación disponibles:
 
-Campaign v8 Enterprise ofrece el concepto de **Acceso a datos federados completo** (FFDA): todos los datos ahora son remotos en la base de datos de Cloud. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FFDA) simplifica la administración de datos: no se requiere ningún índice en la base de datos de Cloud. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere un mantenimiento específico para garantizar el nivel de rendimiento.
+* **FDA de campaña [!DNL Snowflake] implementación**
 
+   En su [[!DNL Snowflake] Implementación de FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 está conectado a [!DNL Snowflake] para acceder a los datos a través de la función Federated Data Access: puede acceder a los datos y la información externos almacenados en su [!DNL Snowflake] base de datos sin cambiar la estructura de los datos de Adobe Campaign. PostgreSQL es la base de datos principal y Snowflake es la base de datos secundaria. Puede ampliar el modelo de datos y almacenar los datos en el Snowflake. Posteriormente, puede ejecutar ETL, segmentación e informes sobre un gran conjunto de datos con un rendimiento excepcional.
 
+* **Implementación de Campaign Enterprise (FFDA)**
 
-<!--Two deployment models are available:
+   En el contexto de un [Implementación empresarial (FFDA)](enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: un local [!DNL Campaign] base de datos para la interfaz de usuario mensajería en tiempo real y consultas unitarias, así como escritura a través de API y una nube [!DNL Snowflake] base de datos para ejecución de campañas, consultas por lotes y ejecución del flujo de trabajo.
 
-* **Campaign FDA [!DNL Snowflake] deployment**
+   La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos de Cloud. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FFDA) simplifica la administración de datos: no se requiere ningún índice en la base de datos de Cloud. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere un mantenimiento específico para garantizar el nivel de rendimiento.
 
-In its [[!DNL Snowflake] FDA deployment](fda-deployment.md), [!DNL Adobe Campaign] v8 is connected to [!DNL Snowflake] to access data through Federated Data Access capability: you can access and process external data and information stored in your [!DNL Snowflake] database without changing the structure of Adobe Campaign data. PostgreSQL is the primary database, and Snowflake is the secondary database. You can extend your data model and store your data on Snowflake. Subsequently, you can run ETL, segmentation and reports on a large data set with outstanding performances.
-
-* **Campaign Enterprise (FFDA) deployment**
-
--->
 
 ## Arquitectura del centro de mensajes{#transac-msg-archi}
 
@@ -77,4 +74,4 @@ A continuación, con el sessionToken proporcionado por la instancia de ejecució
 
 * Varias instancias de ejecución En una arquitectura de ejecución de varias celdas con varias instancias de ejecución detrás de un equilibrador de carga, el método de inicio de sesión invocado por la aplicación externa pasa por el equilibrador de carga: por este motivo, no se puede utilizar una autenticación basada en tokens. Se requiere autenticación de usuario/contraseña.
 
-![](../assets/do-not-localize/book.png) Obtenga más información sobre los eventos de mensajería transaccional en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel)
+![](../assets/do-not-localize/book.png) Obtenga más información sobre los eventos de mensajería transaccional en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html#about-transactional-messaging-datamodel){target=&quot;_blank&quot;}

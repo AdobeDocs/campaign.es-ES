@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 15%
+source-wordcount: '245'
+ht-degree: 16%
 
 ---
 
@@ -21,10 +21,10 @@ ht-degree: 15%
 
 Puede utilizar las API de JavaScript para escribir en la base de datos de Campaign cloud o leer desde la base de datos:
 
-* API específicas del negocio que le permiten actuar en cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html).
-* API de acceso a datos genéricas para consultar los datos del modelo de datos. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html).
+* API específicas del negocio que le permiten actuar en cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target=&quot;_blank&quot;}.
+* API de acceso a datos genéricas para consultar los datos del modelo de datos. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target=&quot;_blank&quot;}.
 
-Campaign v8 funciona con dos bases de datos: una base de datos local para la interfaz de usuario mensajería en tiempo real y consultas unitarias y escritura a través de API, y una base de datos de Cloud para ejecución de campañas, informes, ingesta de datos, consultas por lotes y ejecución del flujo de trabajo.
+Tenga en cuenta que [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), Campaign funciona con dos bases de datos: una base de datos local para la interfaz de usuario mensajería en tiempo real y consultas unitarias y escritura a través de API, y una base de datos de Cloud para ejecución de campañas, informes, ingesta de datos, consultas por lotes y ejecución del flujo de trabajo.
 
 >[!CAUTION]
 >

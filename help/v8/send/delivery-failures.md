@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3008'
 ht-degree: 65%
 
 ---
@@ -62,7 +62,7 @@ Estos tipos de errores se administran de la siguiente manera:
 
 ![](assets/delivery-log-qualification.png)-->
 
-Actualmente, la forma en que se gestiona la calificación de correo rechazado en Adobe Campaign depende del tipo de error:
+La forma en que se gestiona la calificación de correo rechazado en Adobe Campaign depende del tipo de error:
 
 * **Errores sincrónicos**: El MTA determina el tipo de rechazo y la calificación, y envía esa información a Campaign. Las cualificaciones de devolución en la variable **[!UICONTROL Delivery log qualification]** no se usa para **sincrónica** mensajes de error de error de envío.
 

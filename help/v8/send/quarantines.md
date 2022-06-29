@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 5c1ced7972295e79418ac7ff14a6f0888e5ed39a
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 38%
+source-wordcount: '1097'
+ht-degree: 37%
 
 ---
 
@@ -42,7 +42,7 @@ Se pueden capturar dos tipos o errores:
 En la lista de direcciones en cuarentena, el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se envía a cuarentena. [Más información](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón técnico administrado por el Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no se incluye en la lista de bloqueados para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información sobre los bucles Comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops).
+Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón técnico administrado por el Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no se incluye en la lista de bloqueados para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información sobre los bucles Comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target=&quot;_blank&quot;}.
 
 >[!NOTE]
 >
@@ -77,7 +77,7 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 
 Además, la variable **[!UICONTROL Non-deliverables and bounces]** informe integrado, disponible en el **Informes** de esta página principal, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de un envío específico o personalizar este informe según sea necesario.
 
-Obtenga más información sobre las direcciones de devolución en la [Guía de prácticas recomendadas sobre la capacidad de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es)
+Obtenga más información sobre las direcciones de devolución en la [Guía de prácticas recomendadas sobre la capacidad de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es){target=&quot;_blank&quot;}.
 
 ### Dirección de correo en cuarentena {#quarantined-recipient}
 

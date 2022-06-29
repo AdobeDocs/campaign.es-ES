@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 110cf2ff705ecbc0b3a1690e9dfc2791f5744b97
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 29%
+source-wordcount: '1093'
+ht-degree: 31%
 
 ---
 
@@ -19,7 +19,7 @@ Los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas i
 Para enviar notificaciones push en Adobe Campaign, debe:
 
 1. Configuración del entorno de Campaign
-1. Cree un servicio de información de tipo aplicación de Mobile para su aplicación móvil.
+1. Cree un servicio de información de tipo aplicación móvil para su aplicación móvil.
 1. Añada a este servicio las versiones de iOS y Android de la aplicación.
 1. Cree un envío tanto para iOS como para Android.
 
@@ -68,7 +68,7 @@ Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en 
 
 >[!NOTE]
 >
->Esta capacidad está disponible a partir de Campaign v8.3. Para comprobar su versión, consulte [esta sección](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 1. Seleccione la plantilla de envíos **[!UICONTROL Deliver on iOS]**.
 
@@ -114,12 +114,12 @@ Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en 
       > 
       >Los sonidos deben incluirse en la aplicación y definirse cuando se cree el servicio.
       >
-      >Las directrices de configuración para iOS se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en).
+      >Las directrices de configuración para iOS se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}.
    ![](assets/push_ios_5.png)
 
 1. En el **[!UICONTROL Application variables]** , la pestaña **[!UICONTROL Application variables]** se añaden automáticamente. Permiten definir el comportamiento de las notificaciones, por ejemplo, puede configurar una pantalla específica de la aplicación para que se muestre cuando el usuario active la notificación.
 
-   Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=en).
+   Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}.
 
 1. En el **[!UICONTROL Advanced]** , puede editar las siguientes opciones generales:
 
@@ -185,15 +185,15 @@ Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en 
 Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que en las entregas por correo electrónico. Obtenga más información en la documentación de Campaign Classic v7:
 
 * Validación de una entrega y envío de pruebas
-   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
 
 * Confirmar y realizar la entrega
-   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para realizar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para realizar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html){target=&quot;_blank&quot;}
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Obtenga más información en la documentación de Campaign Classic v7:
 
 * Cuarentenas de notificaciones push
-   ![](../assets/do-not-localize/book.png) [Obtenga más información sobre la cuarentena de notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html?lang=en#push-notification-quarantines){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Obtenga más información sobre la cuarentena de notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#push-notification-quarantines){target=&quot;_blank&quot;}
 
 * Resolución de problemas
-   ![](../assets/do-not-localize/book.png) [Obtenga información sobre cómo solucionar problemas de las notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html?lang=en){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Obtenga información sobre cómo solucionar problemas de las notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html){target=&quot;_blank&quot;}
