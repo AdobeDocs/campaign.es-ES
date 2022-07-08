@@ -5,9 +5,9 @@ description: Documentación de Campaign v8
 breadcrumb-title: Campaign v8
 title: Documentos de Campaign v8
 source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '352'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 + Novedades {#new}
    + [Funcionalidades clave](start/whats-new.md)
    + [Notas de la versión](start/release-notes.md)
-   + [Seguridad](start/ac-guardrails.md)
+   + [Protecciones](start/ac-guardrails.md)
    + [Problemas conocidos](start/known-issues.md)
    + [Classic v7 a v8](start/v7-to-v8.md)
 + Inicio {#start}
@@ -96,7 +96,7 @@ ht-degree: 99%
       + [Creación de espacios de oferta](interaction/interaction-offer-spaces.md)
    + [Creación de un catálogo de ofertas](interaction/interaction-offer-catalog.md)
    + [Creación de una oferta](interaction/interaction-offer.md)
-   + [Enviar una oferta (saliente)](interaction/interaction-send-offers.md)
+   + [Enviar una oferta  (saliente)](interaction/interaction-send-offers.md)
    + Presentación de una oferta (entrante){#inbound}
       + [Contexto](interaction/interaction-present-offers.md)
       + [Invocación de una oferta en una página web](interaction/interaction-integration.md)
@@ -118,7 +118,7 @@ ht-degree: 99%
    + [Campaign + RTCDP](connect/ac-rtcdp.md)
    + [Campaign + Twitter](connect/ac-tw.md)
    + [Campaign + Base de datos externa](connect/fda.md)
-   + Campaign + su CRM {#ac-crm}
+   + Campaign + su CRM  {#ac-crm}
       + [Introducción a los conectores CRM](connect/crm.md)
       + [Trabajo con Campaign y SFDC](connect/ac-sfdc.md)
       + [Trabajo con Campaign y Microsoft Dynamics](connect/ac-ms-dyn.md)
