@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
 source-git-commit: 39edd6c60c220118f34cd476b887194e1e7763e4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -43,8 +43,8 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 
 A continuación, se enumeran los sistemas de administración de la relación con los clientes (CRM) compatibles con Adobe Campaign. [Más información](../connect/crm.md).
 
-* **** Versión 49 de la API de conector Salesforce
-* **Microsoft Dynamics** conector, API web: Dynamics 365 on-premise y en línea
+* **** Versión 49 de la API de conector de Salesforce
+* Conector de **Microsoft Dynamics**, API web: Dynamics 365 local y en línea
 
 ## Acceso de datos federado (FDA){#FederatedDataAccessFDA}
 
