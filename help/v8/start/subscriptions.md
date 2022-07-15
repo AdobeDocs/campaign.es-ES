@@ -1,6 +1,6 @@
 ---
 title: Administración de suscripciones y bajas de suscripción en Campaign
-description: Obtenga información sobre cómo administrar suscripciones y bajas de suscripción en Campaign v8
+description: Obtenga información sobre cómo administrar suscripciones y bajas en Campaign v8
 feature: Subscriptions
 role: Data Engineer
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
 source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
