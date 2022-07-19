@@ -5,10 +5,10 @@ feature: Monitoring
 role: Data Engineer
 level: Beginner
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: c6a234f6c43531be032354d134e4745ad77cbcc7
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '898'
+ht-degree: 50%
 
 ---
 
@@ -123,7 +123,7 @@ Obtenga más información sobre la información que puede monitorizar después d
 
 ### Monitorización de los flujos de trabajo
 
-Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo en  [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=en#automating-with-workflows){target=&quot;_blank&quot;}
+Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
 ### Supervisión de la instancia
 

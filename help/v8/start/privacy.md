@@ -5,36 +5,36 @@ feature: Audiences
 role: Data Engineer
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
-workflow-type: ht
-source-wordcount: '1050'
-ht-degree: 100%
+source-git-commit: 41a213eea434b3fc6ee8b3ea3c29d4364f9c9761
+workflow-type: tm+mt
+source-wordcount: '1080'
+ht-degree: 73%
 
 ---
 
 # Administrar solicitudes de privacidad en Campaign {#privacy}
 
-<!--Adobe Campaign is a powerful tool for collecting and processing large volume of data, including personal information and sensitive data. It is therefore essential that you receive and monitor consent from your recipients.-->
+Dependiendo de la naturaleza de su negocio y de las jurisdicciones bajo las que opera, sus operaciones de datos pueden estar sujetas a regulaciones legales de privacidad. Estas regulaciones a menudo otorgan a sus clientes el derecho de solicitar acceso a los datos que recopila de ellos, y el derecho de solicitar la eliminación de esos datos almacenados. Estas solicitudes de datos personales de los clientes se denominan &quot;solicitudes de privacidad&quot; en toda la documentación.
+
+Adobe ofrece las herramientas de los controladores de datos para crear y procesar solicitudes de privacidad de datos almacenados en Campaign. Por ello, es responsabilidad del controlador de datos verificar la identidad del sujeto de datos que realiza la solicitud y confirmar que la información devuelta al solicitante sea sobre el sujeto de datos. Obtenga más información sobre los datos personales y las distintas entidades que administran los datos en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#personal-data){target=&quot;_blank&quot;}.
+
+
+Para administrar la solicitud de privacidad en Campaign, primero debe [definir un área de nombres](#namespaces). A continuación, puede crear y administrar solicitudes de privacidad. Para realizar solicitudes de privacidad, utilice la variable **Privacy Service de Adobe** integración. Campaign gestiona automáticamente las solicitudes de privacidad enviadas desde el Privacy Service a todas las soluciones de Adobe Experience Cloud a través de un flujo de trabajo dedicado. [Más información](#create-privacy-request)
+
+![](../assets/do-not-localize/speech.png) Obtenga información sobre el **Derecho de acceso** y el **Derecho al olvido** (eliminar solicitud) en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target=&quot;_blank&quot;}.
+
 
 >[!NOTE]
 >
 >Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-Para ayudarle a facilitar su preparación para la privacidad, Adobe Campaign le permite gestionar solicitudes de acceso y eliminación.
-
-Para realizar estas solicitudes, debe utilizar la integración de **Privacy Core Service**. A través de la integración del Servicio principal de privacidad: las solicitudes de privacidad enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado. [Más información](#create-privacy-request)
-
-Adobe ofrece las herramientas de los controladores de datos para crear y procesar solicitudes de privacidad de datos almacenados en Campaign. Por ello, es responsabilidad del controlador de datos verificar la identidad del sujeto de datos que realiza la solicitud y confirmar que la información devuelta al solicitante sea sobre el sujeto de datos. Obtenga más información sobre los datos personales y las distintas entidades que administran los datos en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#personal-data){target=&quot;_blank&quot;}.
-
-![](../assets/do-not-localize/speech.png) Obtenga información sobre el **Derecho de acceso** y el **Derecho al olvido** (eliminar solicitud) en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target=&quot;_blank&quot;}.
-
 ## Definir un área de nombres {#namespaces}
 
-Antes de crear una solicitud de privacidad, debe **definir el área de nombres** que utilizará. El área de nombres es la clave que se utiliza para identificar el sujeto de datos en la base de datos de Adobe Campaign.
+Antes de crear una solicitud de privacidad, debe **definir el área de nombres** para usar. El área de nombres es la clave que se utiliza para identificar el sujeto de datos en la base de datos.
 
 >[!NOTE]
 >
->Para obtener más información acerca las áreas de nombres de identidad, consulte la [documentación de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target=&quot;_blank&quot;}
+>Obtenga más información sobre las áreas de nombres de identidad en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target=&quot;_blank&quot;}.
 
 Actualmente, Adobe Campaign no admite la importación de áreas de nombres desde el servicio de área de nombres de identidad de Experience Platform. Por lo tanto, una vez que haya creado un área de nombres en el servicio Área de nombres de identidad, debe crear manualmente el área de nombres correspondiente en la interfaz de Adobe Campaign. Para realizar esto, siga los pasos a continuación.
 
@@ -48,7 +48,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Cree un área de nombres en el [Servicio de área de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target=&quot;_blank&quot;}.
 
-1. Al [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target=&quot;_blank&quot;} disponible para su organización, obtendrá el área de nombres siguiente, por ejemplo:
+1. When [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target=&quot;_blank&quot;} disponible para su organización, obtendrá el espacio de nombres siguiente, por ejemplo:
 
    ```
    {
@@ -73,9 +73,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Complete los nuevos detalles del área de nombres para que coincidan con el área de nombres que ha creado en el servicio Área de nombres de identidad:
 
-   * el **[!UICONTROL AEC Namespace ID]** debe coincidir con el atributo &quot;id&quot;;
-   * el **[!UICONTROL Internal name]** debe coincidir con el atributo &quot;code&quot;;
-   * el **[!UICONTROL Reconciliation key]** debe coincidir con el atributo &quot;idType&quot;.
+   * el **[!UICONTROL AEC Namespace ID]** debe coincidir con el atributo &quot;id&quot;
+   * el **[!UICONTROL Internal name]** debe coincidir con el atributo &quot;code&quot;
+   * el **[!UICONTROL Reconciliation key]** debe coincidir con el atributo &quot;idType&quot;
 
    ![](assets/privacy-namespaces-details.png)
 
@@ -85,7 +85,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
    >[!NOTE]
    >
-   >    Si desea utilizar varias asignaciones de destino, cree un área de nombres por asignación de destino.
+   >Si necesita utilizar varias asignaciones de destino, cree un área de nombres por asignación de destino.
 
 1. Guarde los cambios.
 
@@ -93,15 +93,11 @@ Ahora puede crear solicitudes de privacidad basadas en su nueva Área de nombres
 
 ## Creación de una solicitud de privacidad {#create-privacy-request}
 
-La integración de **Privacy Core Service** le permite automatizar sus solicitudes de privacidad en un contexto de varias soluciones a través de una sola llamada de API JSON. Adobe Campaign gestiona automáticamente las solicitudes insertadas desde el Servicio principal de privacidad mediante un flujo de trabajo dedicado.
-
->[!CAUTION]
->
->Para que se procesen las solicitudes de privacidad, debe crear en la instancia de Adobe Campaign un área de nombres que coincida con el área de nombres que ha creado en el servicio de área de nombres de identidad de Experience Platform.
+La integración de **[!DNL Adobe Experience Platform Privacy Service]** le permite automatizar sus solicitudes de privacidad en un contexto de varias soluciones a través de una sola llamada de API JSON. Adobe Campaign gestiona automáticamente las solicitudes insertadas desde el Privacy Service a través de un flujo de trabajo dedicado.
 
 Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target=&quot;_blank&quot;} para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.
 
-Cada trabajo del servicio principal de privacidad se divide en varias solicitudes de privacidad en Campaign, en función de cuántas áreas de nombres se estén utilizando, una solicitud que corresponde a un área de nombres.
+Cada **[!DNL Privacy Service]**  el trabajo se divide en varias solicitudes de privacidad en Adobe Campaign en función de cuántas áreas de nombres se están utilizando, una solicitud corresponde a un área de nombres.
 
 Además, un trabajo se puede ejecutar en varias instancias. Por lo tanto, se crean varios archivos para un trabajo. Por ejemplo, si una solicitud tiene dos Áreas de nombres y se está ejecutando en tres instancias, se envía un total de seis archivos. Un archivo por Área de nombres e instancia.
 
@@ -121,7 +117,7 @@ El patrón para un nombre de archivo es: `<InstanceName>-<NamespaceId>-<Reconcil
 
 Al realizar una solicitud de privacidad de eliminación o acceso, Adobe Campaign busca todos los datos del sujeto de datos en función de los datos **[!UICONTROL Reconciliation value]** en todas las tablas que tienen un vínculo a la tabla de destinatario (tipo propio).
 
-Esta es la lista de tablas integradas que se tienen en cuenta al realizar solicitudes de privacidad:
+La lista de tablas integradas que se tienen en cuenta al realizar solicitudes de privacidad es la siguiente:
 
 * Destinatarios (destinatario)
 * Registro de envíos de destinatario (broadLogRcp)
@@ -145,7 +141,7 @@ Si ha creado tablas personalizadas que tienen un vínculo a la tabla de destinat
 
 ### Estados de solicitud de privacidad {#privacy-request-statuses}
 
-Estos son los diferentes estados de las solicitudes de privacidad en Adobe Campaign:
+A continuación se encuentran los distintos estados de las solicitudes de privacidad en Adobe Campaign y cómo interpretarlas:
 
 * **[!UICONTROL New]** / **[!UICONTROL Retry pending]**: en curso, el flujo de trabajo aún no ha procesado la solicitud.
 * **[!UICONTROL Processing]**/**[!UICONTROL Retry in progress]**: el flujo de trabajo está procesando la solicitud.

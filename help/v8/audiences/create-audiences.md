@@ -5,9 +5,9 @@ feature: Audiences, Profiles
 role: Data Engineer
 level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
 workflow-type: tm+mt
-source-wordcount: '795'
+source-wordcount: '785'
 ht-degree: 33%
 
 ---
@@ -103,7 +103,7 @@ En el siguiente ejemplo, se crea una lista de todos los destinatarios entre 25 y
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Obtenga información sobre cómo crear una consulta en un flujo de trabajo en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/targeting-activities/query.html#creating-a-query){target=&quot;_blank&quot;}
+   Obtenga información sobre cómo crear una consulta en un flujo de trabajo en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html).
 
 1. Añada una etiqueta para esta consulta y guarde los cambios.
 1. Agregue un **[!UICONTROL List update]** y edítela.
@@ -124,7 +124,7 @@ En el siguiente ejemplo, se crea una lista de todos los destinatarios entre 25 y
 
    ![](assets/access-new-list.png)
 
-   Puede hacer que este flujo de trabajo sea recurrente añadiendo un planificador al flujo de trabajo. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target=&quot;_blank&quot;}.
+   Puede hacer que este flujo de trabajo sea recurrente añadiendo un planificador al flujo de trabajo. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html).
 
 ## Eliminación de perfiles de una lista {#remove-a-profile-from-a-list}
 

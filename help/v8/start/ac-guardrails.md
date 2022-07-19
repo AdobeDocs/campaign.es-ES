@@ -5,10 +5,10 @@ feature: Overview
 role: Data Engineer
 level: Beginner
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: cda523168525c24ec1c976850bc336f273276ac9
-workflow-type: ht
-source-wordcount: '257'
-ht-degree: 100%
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+workflow-type: tm+mt
+source-wordcount: '249'
+ht-degree: 97%
 
 ---
 
@@ -28,4 +28,4 @@ Las protecciones y limitaciones identifican funcionalidades, arquitectura o proc
 * En el contexto de una [implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), los mecanismos de suscripción (inclusión) y baja (exclusión) y el registro móvil son procesos asincrónicos. Las solicitudes se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](../architecture/replication.md#tech-wf)
 * Los usuarios finales deben gestionar manualmente los duplicados. [Más información](../architecture/keys.md)
 * Adobe Campaign v8 no admite rendimiento ampliado en aplicaciones web y API: en caso de necesidades específicas, póngase en contacto con Adobe para obtener ayuda
-* El módulo Optimización de la campaña de Adobe Campaign no tiene en cuenta los envíos programados en las reglas de tipología de presión. Obtenga más información en la [documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/orchestrating-campaigns/campaign-optimization/pressure-rules.html?lang=es#setting-the-period){target=&quot;_blank&quot;}
+* El módulo Optimización de la campaña de Adobe Campaign no tiene en cuenta los envíos programados en las reglas de tipología de presión. Obtenga más información en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/pressure-rules.html).

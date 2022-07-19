@@ -5,10 +5,10 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
+source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 26%
+source-wordcount: '576'
+ht-degree: 27%
 
 ---
 
@@ -75,12 +75,12 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
    Una vez que el contenido esté listo, haga clic en **Guardar**: ahora se muestra en la lista de envíos, en la variable **[!UICONTROL Campaigns > Deliveries]** pestaña . Su primer envío de correo electrónico está listo. Ahora debe definir la audiencia, validar la entrega y enviarlo.
 
 
-Obtenga más información en estas secciones de la documentación de Campaign Classic v7:
+Obtenga información sobre cómo importar contenido de correo electrónico en [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
+
+Obtenga más información en estas secciones de **Documentación de Campaign Classic v7**:
 
 * Diseño de un correo electrónico en Campaign
    ![](../assets/do-not-localize/book.png) [Aprenda a diseñar un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target=&quot;_blank&quot;}
-* Importación de contenido de correo electrónico
-   ![](../assets/do-not-localize/book.png) [Caso de uso: Creación de un flujo de trabajo para cargar un contenido de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/use-cases/deliveries/loading-delivery-content.html){target=&quot;_blank&quot;}
 * Creación y uso de una plantilla de correo electrónico
    ![](../assets/do-not-localize/book.png) [Obtenga más información acerca de las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
 * Seleccione la audiencia del correo electrónico
