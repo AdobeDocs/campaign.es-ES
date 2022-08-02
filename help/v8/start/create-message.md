@@ -6,9 +6,9 @@ role: Data Engineer
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '633'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 92%
 
 Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push y correo postal, y medir su eficacia mediante varios informes dedicados. Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario.
 
-Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de entrega. Este punto de acceso lleva a varias funciones incluidas en Adobe Campaign.
+Las funciones principales incluyen direccionamiento, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de entrega. Este punto de acceso lleva a varias funciones incluidas en Adobe Campaign.
 
 Conozca los pasos clave para crear una entrega en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=es).
 
@@ -48,13 +48,13 @@ Una vez creado el mensaje y diseñado y probado su contenido, puede elegir cómo
 
    ![](assets/deliveries-in-a-campaign.png)
 
-   Obtenga información sobre cómo enviar mensajes en el contexto de una campaña en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html)
+   Obtenga información sobre cómo enviar mensajes en el contexto de una campaña en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=es)
 
 * Enviar mensajes a través de un [flujo de trabajo](../config/workflows.md)
 
    ![](assets/send-in-a-wf.png)
 
-   ![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo automatizar los envíos de correo electrónico en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html)
+   ![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo automatizar las entregas de correo electrónico en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html?lang=es)
 
 * [Mensajes de activación ](../send/transactional.md) de un evento
    ![](../assets/do-not-localize/book.png) [Caso de uso: obtenga información sobre cómo enviar un correo electrónico transaccional con un archivo adjunto](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=es){target=&quot;_blank&quot;}
@@ -63,7 +63,7 @@ Una vez creado el mensaje y diseñado y probado su contenido, puede elegir cómo
 
    ![](assets/schedule-send.png)
 
-   ![](../assets/do-not-localize/glass.png) [Caso de uso: obtenga información sobre cómo programar y enviar un correo electrónico de cumpleaños](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+   ![](../assets/do-not-localize/glass.png) [Caso de uso: obtenga información sobre cómo programar y enviar un correo electrónico de cumpleaños](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=es)
 
 
 ## Adición de personalización{#personalization}
@@ -100,6 +100,6 @@ La monitorización de las entregas una vez enviadas es un paso clave para garant
 
 * [Prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=es){target=&quot;_blank&quot;}
 
-* [Prueba y envío de un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
+* [Prueba y envío de un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=es){target=&quot;_blank&quot;}
 
 * [Envío de pruebas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
