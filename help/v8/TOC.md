@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-description: Documentación de Campaign v8
+description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
-title: Documentos de Campaign v8
+title: Documentos de la versión 8 de Campaign
 source-git-commit: ca52da16933f57181a0c4228bda9a2d33ebcedef
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '361'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -138,4 +138,4 @@ ht-degree: 96%
       + [Formularios de entrada](dev/forms.md)
    + [API de Campaign](dev/api.md)
 + [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es)
-+ [Guía de automatización de campañas](https://experienceleague.adobe.com/docs/campaign/automation/home.html)
++ [Guía de automatización de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=es)
