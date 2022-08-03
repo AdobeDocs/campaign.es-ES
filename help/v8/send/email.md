@@ -82,7 +82,7 @@ Obtenga más información en estas secciones de **Documentación de Campaign Cla
 * Diseño de un correo electrónico en Campaign
    ![](../assets/do-not-localize/book.png) [Aprenda a diseñar un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html){target=&quot;_blank&quot;}
 * Creación y uso de una plantilla de correo electrónico
-   ![](../assets/do-not-localize/book.png) [Obtenga más información acerca de las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Obtenga más información acerca de las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html){target=&quot;_blank&quot;}
 * Seleccione la audiencia del correo electrónico
    ![](../assets/do-not-localize/book.png) [Obtenga información sobre cómo definir la población objetivo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target=&quot;_blank&quot;}
 * Validación de una entrega y envío de pruebas

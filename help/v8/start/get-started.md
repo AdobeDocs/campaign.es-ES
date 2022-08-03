@@ -42,7 +42,7 @@ La funcionalidad avanzada de administración de datos amplía las característic
 
 ![](../assets/do-not-localize/glass.png) Obtenga más información acerca de la segmentación, creación de audiencias y personalización en [esta sección](audiences.md).
 
-## Organización de campañas en canales múltiples {#cross-channel-campaign-orchestration}
+## Orquestación de campañas en canales múltiples {#cross-channel-campaign-orchestration}
 
 Adobe Campaign le permite diseñar y organizar campañas dirigidas y personalizadas en varios canales: correo electrónico, correo directo, SMS, notificaciones push. Una sola interfaz proporciona todas las funcionalidades necesarias para programar, organizar, configurar, personalizar, automatizar, ejecutar y medir todas las campañas y comunicaciones.
 
