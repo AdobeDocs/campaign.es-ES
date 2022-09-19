@@ -5,10 +5,10 @@ feature: Federated Data Access
 role: Data Engineer
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: bb03c804c1c65322d275d0a2ca1db0bfe974636d
+source-git-commit: ca9275017e36dae2f0152e0ff365541d7cab96de
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '727'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Utilice el conector FDA (Acceso de Datos Federados) para conectar Campaign a uno o varios **bases de datos externas** y procesar la información almacenada en ellas sin afectar a los datos de la base de datos de Campaign Cloud. A continuación, puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.
 
-![](../assets/do-not-localize/speech.png)   Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para implementar déclencheur de Experience Cloud con Campaign.
+![](../assets/do-not-localize/speech.png)   Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para conectar las bases de datos externas con Campaign.
 
 
 >[!NOTE]
