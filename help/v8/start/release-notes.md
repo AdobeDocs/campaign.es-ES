@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 5a516e278fc48f3a78292be6a1edd8d9c3d6bd5d
+source-git-commit: d0cabf4d5b8d177f1ff0a1be6163e9abe65c57d6
 workflow-type: tm+mt
-source-wordcount: '2758'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ _30 de septiembre de 2022_
 <ul><li>Utilice el conector de fuentes de nube administradas de Adobe Campaign para enviar segmentos de Experience Platform a Adobe Campaign para su activación.</li>
 <li>Utilice el conector de destino de Adobe Campaign Managed Cloud para enviar los registros de envío y seguimiento de Adobe Campaign a Adobe Experience Platform.</li>
 </ul>
-<p>Para obtener más información, consulte la <a href="privacy.md">documentación detallada</a>.</p>
+<p>Para obtener más información, consulte la <a href="../connect/ac-aep.md">documentación detallada</a>.</p>
 </td> 
 </tr> 
 </tbody> 
