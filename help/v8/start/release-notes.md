@@ -6,7 +6,7 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 5a516e278fc48f3a78292be6a1edd8d9c3d6bd5d
 workflow-type: tm+mt
 source-wordcount: '2758'
 ht-degree: 80%
@@ -17,9 +17,9 @@ ht-degree: 80%
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign v8**.
 
-## Versión 8.4.0 {#release-8-4-0}
+## Versión 8.4.1 {#release-8-4-1}
 
-_28 de septiembre de 2022_
+_30 de septiembre de 2022_
 
 **Novedades**
 
