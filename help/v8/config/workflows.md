@@ -2,13 +2,13 @@
 title: Administrar y automatizar procesos con flujos de trabajo de Adobe Campaign
 description: Introducción a los flujos de trabajo
 feature: Workflows
-role: Data Engineer
+role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 59046a11c3e057cf41c322f190a9d8aef310c356
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 19%
+ht-degree: 21%
 
 ---
 
@@ -41,7 +41,7 @@ Obtenga más información sobre los flujos de trabajo, la interfaz de usuario y 
 
 * [Monitorización de la ejecución de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
-* [Crear una audiencia en un flujo de trabajo de campaña de marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+* [Crear una audiencia en un flujo de trabajo de campaña de marketing](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es)
 
 ## Actividades de flujo de trabajo {#wf-activities}
 
@@ -114,7 +114,7 @@ Según el propósito del flujo de trabajo, puede elegir entre los tres almacenes
 
 Diseñe un flujo de trabajo recurrente y cree una nueva instancia de envío cada vez que se ejecute el flujo de trabajo. Por ejemplo, si el flujo de trabajo está diseñado para ejecutarse una vez a la semana, el resultado sería 52 envíos después de un año. Esto también significa que los registros se separarán por cada instancia de envío.
 
-Obtenga información sobre cómo crear una campaña recurrente en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html)
+Obtenga información sobre cómo crear una campaña recurrente en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=es)
 
 
 ## Aprovechar los eventos de déclencheur
@@ -137,7 +137,7 @@ En esta sección, encontrará varios casos de uso que aprovechan las capacidades
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [Envío de un correo electrónico de cumpleaños](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html)
+* [Envío de un correo electrónico de cumpleaños](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=es)
 
    Este caso de uso detalla cómo planificar la entrega de un correo electrónico recurrente a una lista de destinatarios en el día de su cumpleaños.
 

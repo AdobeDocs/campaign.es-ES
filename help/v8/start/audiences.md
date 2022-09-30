@@ -2,13 +2,13 @@
 title: Trabajar con audiencias en Campaign
 description: Trabajar con audiencias en Campaign
 feature: Audiences
-role: Data Engineer
+role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 0a55d947a7646aab64ab2f9d0d09a6f930db576e
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 26%
+ht-degree: 29%
 
 ---
 
@@ -36,7 +36,7 @@ La configuración del filtro permite seleccionar datos de una lista **[!UICONTRO
 
 El objetivo se puede crear mediante una combinación de consultas en una secuencia gráfica de un flujo de trabajo. Puede crear audiencias segmentadas según sus necesidades. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de campañas.
 
-Obtenga información sobre cómo crear una audiencia en un flujo de trabajo de campaña en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html)
+Obtenga información sobre cómo crear una audiencia en un flujo de trabajo de campaña en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es)
 
 
 ## Perfiles activos{#active-profiles}

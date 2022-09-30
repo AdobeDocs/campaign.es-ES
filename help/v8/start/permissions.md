@@ -1,11 +1,11 @@
 ---
 title: Concesión de permisos para Campaign v8
 description: Obtenga información sobre cómo conceder permisos a Campaign v8
-feature: Audiences
-role: Data Engineer
+feature: Permissions
+role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 6de5c93453ffa7761cf185dcbb9f1210abd26a0c
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 13%
@@ -26,7 +26,7 @@ Derechos asignados conceden permisos a:
 
 * Realizar operaciones Por ejemplo, la variable **Analizar** en el editor de entregas está activado para los miembros del **Operador de envío** grupo que tenga la variable **Preparación de la entrega** Derecho asignado
 
-* El acceso a las carpetas La pertenencia a grupos de operadores puede conceder o restringir derechos de acceso a las carpetas cambiando la configuración de seguridad de las carpetas. [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}. Por ejemplo, puede afectar a: **Acceso de escritura** para crear nuevas entidades (como entregas, perfiles, etc.), **Acceso de lectura** para utilizar entidades, **Eliminar acceso** para eliminar entidades.
+* El acceso a las carpetas La pertenencia a grupos de operadores puede conceder o restringir derechos de acceso a las carpetas cambiando la configuración de seguridad de las carpetas. [Obtenga más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management-folders.html?lang=en#permissions-on-a-folder){target=&quot;_blank&quot;}. Por ejemplo, puede afectar a: **Acceso de escritura** para crear nuevas entidades (como entregas, perfiles, etc.), **Acceso de lectura** para utilizar entidades, **Eliminar acceso** para eliminar entidades.
 
 ## Zonas de seguridad
 

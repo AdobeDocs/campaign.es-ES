@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 3d84bb9493251afa7b7e89a07469d299ff412c24
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 3%
+source-wordcount: '84'
+ht-degree: 2%
 
 ---
 
@@ -56,28 +56,28 @@ To have the data transfered from Snowflake cloud database to Campaign local data
 ### Internal reference{#issue-1-ref}
 
 Reference: NEO-45549 
--->
 
 
-## Cambiar el problema de la actividad de la fuente de datos {#issue-2}
 
-### Descripción{#issue-2-desc}
+## Change Data Source activity issue {#issue-2}
 
-Al introducir datos en la base de datos de la nube de Snowflake con una campaña **Consulta** y **Cambiar fuente de datos** , el proceso falla cuando hay un carácter de barra invertida presente en los datos. La cadena de origen no se escapa y los datos no se procesan correctamente en el Snowflake.
+### Description{#issue-2-desc}
 
-Este problema solo ocurre si el carácter de barra invertida se encuentra al final de la cadena, por ejemplo: `Barker\`.
+When injecting data into Snowflake cloud database with a Campaign **Query** and a **Change Data Source** activity, the process fails when a backslash character is present in the data. The source string is not escaped, and data is not processed correctly on Snowflake.
 
-
-### Pasos de reproducción{#issue-2-repro}
-
-1. Conéctese a la consola del cliente y cree un flujo de trabajo.
-1. Agregue un **Consulta** y configúrela.
-1. Seleccionar datos con las características descritas anteriormente.
-1. Agregue un **Cambiar fuente de datos** y configúrela para seleccionar la base de datos de nube de Snowflake.
-1. Ejecute el flujo de trabajo y compruebe los registros del flujo de trabajo para ver el error.
+This issue only happens if the backslash character is at the end of string, for example: `Barker\`.
 
 
-### Mensaje de error{#issue-2-error}
+### Reproduction steps{#issue-2-repro}
+
+1. Connect to the client console and create a workflow.
+1. Add a **Query** activity and configure it.
+1. Select data with the characteristics described above.
+1. Add a **Change Data Source** activity and configure it to select Snowflake cloud database.
+1. Run the workflow and check the workflow logs to see the error.
+
+
+### Error message{#issue-2-error}
 
 ```sql
 Error:
@@ -85,48 +85,46 @@ Error:
 04/21/2022 4:01:58 PM    ODB-240000 ODBC error: String '100110668547' is too long and would be truncated   File 'wkf1656797_21_1_3057430574#458516uploadPart0.chunk.gz', line 1, character 0   Row 90058, column "WKF1656797_21_1"["SCARRIER_ROUTE":13]   If you would like to continue
 ```
 
-### Solución alternativa{#issue-2-workaround}
+### Workaround{#issue-2-workaround}
 
-La solución consiste en excluir los datos que contienen caracteres de barra invertida al final de la cadena o eliminarlos del archivo de origen.
+Workaround is to exclude data containing backslash character at the end of string, or remove it from the source file.
 
-<!--
-As a workaround, export the files with double quotes around the problematic values (like `Barker\`) and include a file format option `FIELD_OPTIONALLY_ENCLOSED_BY = '"'`.
+
+### Internal reference{#issue-2-ref}
+
+Reference: NEO-45549
+
+
+## Data loading (file) activity failed to Upload file on server {#issue-3}
+
+### Description{#issue-3-desc}
+
+When uploading a file on Campaign server with a **Data loading (file)** activity, the process stops at 100% but never ends.
+
+### Reproduction steps{#issue-3-repro}
+
+1. Connect to the client console and create a workflow.
+1. Add a **Data loading (file)** activity and configure it.
+1. Select the **Upload on server** option.
+1. Select the file on your local machine,
+1. Click **Upload**
+
+
+### Error message{#issue-3-error}
+
+The process never ends.
+
+### Workaround{#issue-3-workaround}
+
+The workaround is to use an older client console. You will then be able to upload the file on the server.
+
+As a Campaign administrator, you can download Campaign v8.3.1 client console in [Adobe Software Distribution](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&1_group.propertyvalues.operation=equals&1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&orderby.sort=desc&layout=list&p.offset=0&p.limit=4){target="_blank"}.
+
+Learn how to access Adobe Software Distribution [in this page](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html){target="_blank"}.
+
+Learn how to upgrade your client console [in this page](connect.md)
+
+### Internal reference{#issue-3-ref}
+
+Reference: NEO-47269
 -->
-
-### Referencia interna{#issue-2-ref}
-
-Referencia: NEO-45549
-
-
-## La actividad de carga de datos (archivos) no pudo Cargar archivo en el servidor {#issue-3}
-
-### Descripción{#issue-3-desc}
-
-Al cargar un archivo en el servidor de Campaign con un **Carga de datos (archivos)** actividad, el proceso se detiene al 100 % pero nunca finaliza.
-
-### Pasos de reproducción{#issue-3-repro}
-
-1. Conéctese a la consola del cliente y cree un flujo de trabajo.
-1. Agregue un **Carga de datos (archivos)** y configúrela.
-1. Seleccione el **Cargar en el servidor** .
-1. Seleccione el archivo en el equipo local,
-1. Haga clic en **Cargar**
-
-
-### Mensaje de error{#issue-3-error}
-
-El proceso nunca termina.
-
-### Solución alternativa{#issue-3-workaround}
-
-La solución es utilizar una consola de cliente más antigua. A continuación, podrá cargar el archivo en el servidor.
-
-Como administrador de Campaign, puede descargar la consola del cliente de Campaign v8.3.1 en [Distribución del software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Campaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target=&quot;_blank&quot;}.
-
-Obtenga información sobre cómo acceder a la distribución de software de Adobe [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target=&quot;_blank&quot;}.
-
-Obtenga información sobre cómo actualizar la consola del cliente [en esta página](connect.md)
-
-### Referencia interna{#issue-3-ref}
-
-Referencia: NEO-47269

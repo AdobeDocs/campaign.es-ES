@@ -1,14 +1,14 @@
 ---
 title: Introducción a la implementación de FFDA de Campaign
 description: Introducción a la implementación de FFDA de Campaign
-feature: Overview
-role: Data Engineer
-level: Beginner
+feature: Architecture, FFDA
+role: Admin, Developer, User
+level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 0fa0db62f45097755bebcbf434614c4c835d886a
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '1019'
-ht-degree: 53%
+ht-degree: 55%
 
 ---
 
@@ -38,7 +38,7 @@ Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de 
 
 En un [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: un local [!DNL Campaign] base de datos para la interfaz de usuario mensajería en tiempo real y consultas unitarias, así como escritura a través de API y una nube [!DNL Snowflake] base de datos para ejecución de campañas, consultas por lotes y ejecución del flujo de trabajo.
 
-Campaign v8 Enterprise ofrece el concepto de **Acceso a datos federados completo** (FFDA): todos los datos ahora son remotos en la base de datos de Cloud.
+La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube.
 
 Hay API específicas disponibles para administrar los datos entre la base de datos local y la base de datos en la nube. Descubra cómo funcionan estas nuevas API y cómo utilizarlas en [esta página](new-apis.md).
 

@@ -3,8 +3,8 @@ title: Funciones de participación predictiva del usuario
 description: Aprenda a utilizar la puntuación de tiempo de envío y de participación predictiva
 feature: Send Time Optimization
 role: User
-level: Intermediate
-source-git-commit: fdaf107fd22f439a728f32ceb8cfc13a8c5bc1ad
+level: Beginner
+source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 67%
