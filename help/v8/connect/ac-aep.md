@@ -4,9 +4,9 @@ description: Aprenda a trabajar con Campaign y Adobe Experience Platform
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 27705fc85794611d1207fe7f3eac3010601b0dc5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 Los conectores de origen y destino del Cloud Service administrado de Adobe Campaign permiten una integración perfecta entre Adobe Campaign y Adobe Experience Platform:
 
-* Uso **Conector de fuentes de nube gestionada de Adobe Campaign** para enviar segmentos de Experience Platform a Adobe Campaign para su activación,
+* Uso **Adobe Campaign Managed Cloud Services** conexión de destino para enviar segmentos de Experience Platform a Adobe Campaign para su activación,
 
    ![](assets/aep-destination.png)
 
-* Uso **Conector de destino de Adobe Campaign Managed Cloud** para enviar los registros de envío y seguimiento de Adobe Campaign a Adobe Experience Platform.
+* Uso **Adobe Campaign Managed Cloud Services** conexión de origen para enviar los registros de envío y seguimiento de Adobe Campaign a Adobe Experience Platform.
 
    ![](assets/aep-logs.png)
 
