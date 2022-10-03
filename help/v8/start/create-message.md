@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: tm+mt
-source-wordcount: '633'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -100,6 +100,6 @@ La monitorización de las entregas una vez enviadas es un paso clave para garant
 
 * [Prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=es){target=&quot;_blank&quot;}
 
-* [Prueba y envío de un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html){target=&quot;_blank&quot;}
+* [Prueba y envío de un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=es){target=&quot;_blank&quot;}
 
 * [Envío de pruebas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
