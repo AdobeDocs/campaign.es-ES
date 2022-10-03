@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c1a5dd3fcad5d377acb2f9df3a090897ed3b533e
+source-git-commit: dfe675ca0f15050a9159172be3d8d8de7e8bf848
 workflow-type: tm+mt
-source-wordcount: '2754'
-ht-degree: 80%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,6 +62,18 @@ _30 de septiembre de 2022_
 </tr> 
 </tbody> 
 </table>
+
+**Mejora de la seguridad**
+
+Para optimizar la seguridad, los tokens de seguridad se han eliminado de las direcciones URL generadas por Campaign:
+
+* Este cambio solo se aplica a las direcciones URL de GET. Otros tipos, incluidas las direcciones URL de los POST, no se ven afectados.
+* Si utiliza código personalizado, los tokens de seguridad ya no se recuperan del parámetro de token de seguridad de URL de GET. Debe generar un nuevo token de seguridad utilizando el siguiente código JSSP:
+
+   ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+
+   También puede utilizar la API de inicio de sesión para recuperar tokens de seguridad.
+* No hay cambios en la administración de tokens de sesión.
 
 **Mejoras**
 
