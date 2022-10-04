@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 96e9f5fe5f07ea0c476395d33efa4d6bcf10cf60
+source-git-commit: b9dd9e76be14067740426b6cddfa2c5fcddf3158
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '403'
 ht-degree: 4%
 
 ---
@@ -24,41 +24,6 @@ Esta página enumera los problemas conocidos identificados en el **últimas vers
 >Adobe publica esta lista de problemas conocidos a su propia discreción. Se basa en la cantidad de informes de clientes, la gravedad y la disponibilidad de la solución alternativa. Si un problema que encuentra no aparece en la lista, es posible que no se ajuste a los criterios de publicación de esta página.
 
 ## Versión 8.3.8 de Campaign{#8.3-issues}
-
-### Cambio del problema de actividad de la fuente de datos n.º 1 {#issue-1}
-
-#### Descripción{#issue-1-desc}
-
-La variable **Cambiar fuente de datos** la actividad de falla al transferir datos de la base de datos local de Campaign a la base de datos de nube de Snowflake. Al cambiar de dirección, la actividad puede generar problemas.
-
-#### Pasos de reproducción{#issue-1-repro}
-
-1. Conéctese a la consola del cliente y cree un flujo de trabajo.
-1. Agregue un **Consulta** actividad y **Cambiar fuente de datos** actividad.
-1. Defina una consulta en la variable **email**, que es una cadena.
-1. Ejecute el flujo de trabajo y haga clic con el botón derecho en la transición para ver la población: los registros de correo electrónico se muestran reemplazados por `****`.
-1. Compruebe los registros de flujo de trabajo: el **Cambiar fuente de datos** activity interpreta estos registros como valores numéricos.
-
-#### Mensaje de error{#issue-1-error}
-
-```sql
-04/13/2022 10:00:18 AM              Executing change data source 'Ok' (step 'Change Data Source')
-04/13/2022 10:00:18 AM              Starting 1 connection(s) on pool 'nms:extAccount:ffda tractorsupply_mkt_stage8' (Snowflake, server='adobe-acc_tractorsupply_us_west_2_aws.snowflakecomputing.com', login='tractorsupply_stage8_MKT:tractorsupply_stage8')
-04/13/2022 10:00:26 AM              ODB-240000 ODBC error: {*}Numeric value '{*}******{*}{{*}}' is not recognized\{*}   File 'wkf1285541_13_1_0_47504750#458318uploadPart0.chunk.gz', line 1, character 10140   Row 279, column "WKF1285541_13_1_0"["BICUST_ID":1]   If you would like to continue loading when a
-04/13/2022 10:00:26 AM              n error is encountered, use other values such as 'SKIP_FILE' or 'CONTINUE' for the ON_ERROR option. For more information on loading options, please run 'info loading_data' in a SQL client. SQLState: 22018
-04/13/2022 10:00:26 AM              WDB-200001 SQL statement 'COPY INTO wkf1285541_13_1_0 (SACTIVE, SADDRESS1, SADDRESS2, BICUST_ID, SEMAIL) FROM ( SELECT $1, $2, $3, $4, $5 FROM $$@BULK_wkf1285541_13_1_0$$) FILE_FORMAT = ( TYPE = CSV RECORD_DELIMITER = '\x02' FIELD_DELIMITER = '\x01' FIEL
-04/13/2022 10:00:26 AM              D_OPTIONALLY_ENCLOSED_BY = 'NONE') ON_ERROR = ABORT_STATEMENT PURGE = TRUE' could not be executed.
-```
-
-#### Solución alternativa{#issue-1-workaround}
-
-Para que los datos se transfieran de la base de datos de nube de Snowflake a la base de datos local de Campaign y se devuelvan al Snowflake, debe utilizar dos **Cambiar fuente de datos** actividades.
-
-#### Referencia interna{#issue-1-ref}
-
-Referencia: NEO-45549
-
-
 
 ### Cambiar el problema de la actividad de la fuente de datos {#issue-2}
 
