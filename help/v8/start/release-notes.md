@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c9a4110b8ea2d7ad3571da6f7e506c639dfaaf50
+source-git-commit: eb134a16e5289d6410ef9b0eae33a31839365f82
 workflow-type: tm+mt
-source-wordcount: '2835'
-ht-degree: 77%
+source-wordcount: '2818'
+ht-degree: 78%
 
 ---
 
@@ -98,12 +98,10 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 * Se ha corregido un problema que provocaba problemas de personalización al enviar mensajes SMS mediante un modo de envío externo. (NEO-46415)
 * Se ha corregido un problema que podía generar duplicados en los registros de seguimiento. (NEO-46409)
 * Se ha corregido un problema que impedía que la variable **[!UICONTROL Replicate Staging data]** El flujo de trabajo técnico (ffdaReplicateStagingData) no se detiene aunque se produzca un error durante su ejecución. (NEO-46280)
-* Se ha corregido un problema que se podía producir si una entrega alcanzaba un tamaño preciso durante el proceso de MTA. (NEO-46097)
 * Para evitar la lentitud al enviar la prueba a las direcciones semilla, todas las réplicas consecutivas de los miembros semilla ahora se agrupan en una solicitud de replicación. (NEO-44844)
 * Se ha corregido un problema que mostraba un error al intentar previsualizar un envío en cualquier evento archivado del Centro de mensajes. (NEO-43620)
 * Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una campaña **Consulta** actividad y **Cambiar fuente de datos** actividad: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de origen no se escapó y los datos no se procesaron correctamente en el Snowflake. (NEO-45549)
 * Se ha corregido un problema que se producía al usar la variable **Consulta** actividad y filtrado de una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizadas&quot;. (NEO-46485)
-
 
 ## Versión 8.3.8 {#release-8-3-8}
 
