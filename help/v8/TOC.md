@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-description: Documentación de la versión 8 de Campaign
+description: Documentación de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
 source-git-commit: e7772364ab46673695f498911e2246056a04790e
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,8 +42,8 @@ ht-degree: 97%
    + [Arquitectura](architecture/architecture.md)
    + Implementación de Snowflake en FDA {#fda}
       + [¿Qué es Snowflake en FDA?](architecture/fda-deployment.md)
-   + Implementación empresarial (FFDA) {#ffda}
-      + [¿Qué es el FFDA de Campaign?](architecture/enterprise-deployment.md)
+   + Implementación empresarial (FDAC) {#ffda}
+      + [¿Qué es el FDAC de Campaign?](architecture/enterprise-deployment.md)
       + Características {#ffda-characteristics}
          + [Administración de claves y unicidad](architecture/keys.md)
          + [Nuevas API](architecture/new-apis.md)

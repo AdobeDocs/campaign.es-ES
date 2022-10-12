@@ -9,7 +9,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 6986f4eb017602632d11ce6e9ca9e156d94380ff
 workflow-type: tm+mt
 source-wordcount: '3368'
-ht-degree: 66%
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ _30 de septiembre de 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td><p>Los nuevos conectores de origen y destino ya están disponibles para permitir una integración perfecta entre Adobe Campaign y Adobe Experience Platform:</p>
+<td><p>Los nuevos conectores de origen y destino ya están disponibles para una integración optimizada entre Adobe Campaign y Adobe Experience Platform:</p>
 <ul><li>Utilice el conector de destino de Adobe Campaign Managed Cloud Services para enviar segmentos de Experience Platform a Adobe Campaign para su activación.</li>
 <li>Utilice el conector de origen del Cloud Service administrado de Adobe Campaign para enviar los registros de envío y seguimiento de Adobe Campaign a Adobe Experience Platform.</li>
 </ul>
@@ -44,20 +44,20 @@ _30 de septiembre de 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Disponibilidad del canal twitter</strong><br /> </th> 
+<th> <strong>Disponibilidad del canal Twitter</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>La variable <a href="../send/twitter.md">Canal social de twitter</a> ya está disponible con Campaign v8. Puede hacer lo siguiente:</p>
+<td> <p>El <a href="../send/twitter.md">Canal social de Twitter</a> ya está disponible con Campaign v8. Puede hacer lo siguiente:</p>
 <ul> 
-<li><p>Enviar mensajes en Twitter: Adobe Campaign permite anunciar mensajes directamente en la cuenta de twitter. También puede enviar mensajes directos a todos sus seguidores de 
+<li><p>Enviar mensajes en Twitter: Adobe Campaign permite publicar mensajes directamente en la cuenta de Twitter. También puede enviar mensajes directos a todos sus seguidores. 
 </p></li>
 <li><p>Recopile nuevos contactos: Adobe Campaign puede recuperar automáticamente los datos de perfil, lo que le permite llevar a cabo campañas de objetivos e implementar estrategias multicanal.
 </p></li>
 </ul>
 <p>Obtenga información sobre cómo conectar Campaign y Twitter en la <a href="../connect/ac-tw.md">documentación detallada</a>.</p>
-<p>Aprenda a publicar tweets y enviar mensajes directos con Campaign en <a href="../connect/ac-tw.md">esta página</a>.</p>
+<p>Aprenda a publicar tweets y a enviar mensajes directos con Campaign en <a href="../connect/ac-tw.md">esta página</a>.</p>
 </td> 
 </tr> 
 </tbody> 
@@ -67,8 +67,8 @@ _30 de septiembre de 2022_
 
 Para optimizar la seguridad, los tokens de seguridad se han eliminado de las direcciones URL generadas por Campaign:
 
-* Este cambio solo se aplica a las direcciones URL de GET. Otros tipos, incluidas las direcciones URL de los POST, no se ven afectados.
-* Si utiliza código personalizado, los tokens de seguridad ya no se recuperan del parámetro de token de seguridad de URL de GET. Debe generar un nuevo token de seguridad utilizando el siguiente código JSSP:
+* Este cambio solo se aplica a las direcciones URL de GET. Otros tipos, incluidas las direcciones URL de POST, no se ven afectados.
+* Si utiliza un código personalizado, los tokens de seguridad ya no se recuperan del parámetro del token de seguridad de URL de GET. Debe generar un nuevo token de seguridad utilizando el siguiente código JSSP:
 
    ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
 
@@ -77,31 +77,31 @@ Para optimizar la seguridad, los tokens de seguridad se han eliminado de las dir
 
 **Mejoras**
 
-* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización del HTML de la consola ahora está utilizando **Microsoft Edge Chromium**. Además, la instalación de **Microsoft Edge WebView 2** el tiempo de ejecución ahora es necesario para cualquier instalación de la consola del cliente.
-* Se ha mejorado la ejecución del flujo de trabajo con alta disponibilidad del flujo de trabajo, lo que permite ejecutar flujos de trabajo simultáneos en diferentes contenedores para evitar la pérdida del servicio del flujo de trabajo y los errores de ejecución relacionados. **Nota**: Esta nueva funcionalidad se presenta en Disponibilidad limitada a un conjunto de clientes solamente.
-* Las solicitudes de privacidad ahora se realizan en lote para un área de nombres de privacidad determinada. Esta mejora aumenta el tiempo de ejecución de las solicitudes de eliminación de RGPD/privacidad.
+* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML en la consola utiliza ahora **Microsoft Edge Chromium**. Además, la instalación del tiempo de ejecución de **Microsoft Edge WebView 2** es ahora necesaria para cualquier instalación de la consola del cliente.
+* Se ha mejorado la ejecución del flujo de trabajo con alta disponibilidad, lo que permite ejecutar flujos de trabajo simultáneos en diferentes contenedores para evitar la pérdida del servicio del flujo de trabajo y los errores de ejecución relacionados. **Nota**: esta nueva funcionalidad se lanza con disponibilidad limitada solo para un conjunto de clientes.
+* Las solicitudes de privacidad se realizan ahora en lote para un área de nombres de privacidad determinada. Esta mejora aumenta el tiempo de ejecución de las solicitudes de eliminación de RGPD/privacidad.
 
 **Actualizaciones de compatibilidad**
 
-* El SDK de Campaign v8 ahora es compatible con iOS 16 para notificaciones push.
+* El SDK de Campaign v8 ya es compatible con iOS 16 para las notificaciones push.
 
 Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
 **Parches**
 
-* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de entrega en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
-* Se ha corregido un problema que podía hacer que los envíos permanecieran en **Pendiente** incluso si se ha alcanzado la fecha de contacto. (NEO-48079)
-* Se ha corregido un problema en los flujos de trabajo que podía impedir que los archivos se actualizaran en el servidor al usar la variable **Carga de datos (archivos)** actividad. El proceso se detuvo al 100% pero nunca terminó. (NEO-47269)
+* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
+* Se ha corregido un problema que podía hacer que los envíos permanecieran en el estado **Pendiente** incluso si se había llegado a la fecha de contacto. (NEO-48079)
+* Se ha corregido un problema en los flujos de trabajo que podía impedir que los archivos se actualizaran en el servidor al usar la actividad **Carga de datos (archivo)**. El proceso se detuvo al 100 % pero nunca se finalizó. (NEO-47269)
 * Se ha corregido un problema durante la posactualización en entornos japoneses. (NEO-46640)
-* Se ha corregido un problema que se podía producir si una entrega alcanzaba un tamaño preciso durante el proceso de MTA. (NEO-46097)
+* Se ha corregido un problema que se podía producir si una envío alcanzaba un tamaño específico durante el proceso de MTA. (NEO-46097)
 * Se ha corregido un problema que impedía que los registros de seguimiento devolvieran datos relacionados con el explorador del destinatario. (NEO-46612)
 * Se ha corregido un problema que provocaba problemas de personalización al enviar mensajes SMS mediante un modo de envío externo. (NEO-46415)
 * Se ha corregido un problema que podía generar duplicados en los registros de seguimiento. (NEO-46409)
-* Se ha corregido un problema que impedía que la variable **[!UICONTROL Replicate Staging data]** El flujo de trabajo técnico (ffdaReplicateStagingData) no se detiene aunque se produzca un error durante su ejecución. (NEO-46280)
-* Para evitar la lentitud al enviar la prueba a las direcciones semilla, todas las réplicas consecutivas de los miembros semilla ahora se agrupan en una solicitud de replicación. (NEO-44844)
-* Se ha corregido un problema que mostraba un error al intentar previsualizar un envío en cualquier evento archivado del Centro de mensajes. (NEO-43620)
-* Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una campaña **Consulta** actividad y **Cambiar fuente de datos** actividad: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de origen no se escapó y los datos no se procesaron correctamente en el Snowflake. (NEO-45549)
-* Se ha corregido un problema que se producía al usar la variable **Consulta** actividad y filtrado de una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizadas&quot;. (NEO-46485)
+* Se ha corregido un problema que impedía que el flujo de trabajo técnico **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) no se detuviera aunque se produjese un error durante su ejecución. (NEO-46280)
+* Para evitar una lentitud al enviar la prueba a las direcciones semilla, todas las réplicas consecutivas de los miembros semilla ahora se agrupan en una solicitud de replicación. (NEO-44844)
+* Se ha corregido un problema que mostraba un error al intentar previsualizar una entrega en cualquier evento archivado del Centro de mensajes. (NEO-43620)
+* Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una actividad de **Consulta de Campaign** y una actividad de **Cambiar fuente de datos**: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de fuente no se escapó y los datos no se procesaron correctamente en Snowflake. (NEO-45549)
+* Se ha corregido un problema que se producía al usar la actividad **Consulta** y filtrar una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizado&quot;. (NEO-46485)
 * La variable **Database cleanup** el flujo de trabajo técnico ahora también gestiona los esquemas de ensayo personalizados. (NEO-48974)
 * Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al dirigirse a grandes volúmenes de destinatarios. (NEO-48019)
 * Se ha mejorado la estabilidad al gestionar cadenas XML no válidas durante las llamadas SOAP. (NEO-48027)
@@ -120,25 +120,25 @@ _7 de octubre de 2022_
 
 **Mejoras**
 
-* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de entrega en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
+* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
 * La variable **Database cleanup** el flujo de trabajo técnico ahora también gestiona los esquemas de ensayo personalizados. (NEO-48974)
 * Se ha corregido un problema que podía hacer que los envíos permanecieran en **Pendiente** aunque se alcance la fecha de contacto. (NEO-48079, NEO-48251)
 * Se ha mejorado la estabilidad al gestionar cadenas XML no válidas durante las llamadas SOAP. (NEO-48027)
 * Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al dirigirse a grandes volúmenes de destinatarios. (NEO-48019)
 * Para evitar la lentitud al enviar la prueba a las direcciones semilla, todas las réplicas consecutivas de los miembros semilla ahora se agrupan en una solicitud de replicación. (NEO-44844)
 * Se ha corregido un problema que provocaba problemas de personalización al enviar mensajes SMS mediante un modo de envío externo. (NEO-46415)
-* Se ha corregido un problema que mostraba un error al intentar previsualizar un envío en cualquier evento archivado del Centro de mensajes. (NEO-43620)
-* Se ha corregido un problema en los flujos de trabajo que podía impedir que los archivos se actualizaran en el servidor al usar la variable **Carga de datos (archivos)** actividad. El proceso se detuvo al 100% pero nunca terminó. (NEO-47269)
+* Se ha corregido un problema que mostraba un error al intentar previsualizar una entrega en cualquier evento archivado del Centro de mensajes. (NEO-43620)
+* Se ha corregido un problema en los flujos de trabajo que podía impedir que los archivos se actualizaran en el servidor al usar la actividad **Carga de datos (archivo)**. El proceso se detuvo al 100 % pero nunca se finalizó. (NEO-47269)
 * Se ha corregido un problema que provocaba la creación de elementos DeliveryParts innecesarios cuando el envío utilizaba modos de calendario y división. (NEO-48634)
 * Se ha corregido un problema de rendimiento al usar olas basadas en calendario. (NEO-48451)
 * Se ha corregido un problema que podría provocar un mensaje de error en la pantalla de la lista de envíos después de crear una nueva asignación de destino en un esquema personalizado. (NEO-49237)
 * Se ha corregido un problema que se podía producir si un envío alcanzaba un tamaño específico durante el proceso de MTA. (NEO-46097)
 * Se ha corregido un problema que impedía que los registros de seguimiento devolvieran datos relacionados con el explorador del destinatario. (NEO-46612)
 * Se ha corregido un problema durante la posactualización en entornos japoneses. (NEO-46640)
-* Se ha corregido un problema que se producía al usar la variable **Consulta** actividad y filtrado de una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizadas&quot;. (NEO-46485)
-* Se ha corregido un problema que impedía que la variable **[!UICONTROL Replicate Staging data]** El flujo de trabajo técnico (ffdaReplicateStagingData) no se detiene aunque se produzca un error durante su ejecución. (NEO-46280)
+* Se ha corregido un problema que se producía al usar la actividad **Consulta** y filtrar una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizadas&quot;. (NEO-46485)
+* Se ha corregido un problema que impedía que el flujo de trabajo técnico **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) no se detuviera aunque se produjese un error durante su ejecución. (NEO-46280)
 * Se ha corregido un problema que podía causar pérdida de datos si el flujo de trabajo de ensayo estaba en error y el período de retención había pasado completamente. (NEO-48975)
-* Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una campaña **Consulta** actividad y **Cambiar fuente de datos** actividad: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de origen no se escapó y los datos no se procesaron correctamente en el Snowflake. (NEO-45549)
+* Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una actividad de **Consulta de Campaign** y una actividad de **Cambiar fuente de datos**: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de fuente no se escapó y los datos no se procesaron correctamente en Snowflake. (NEO-45549)
 
 ## Versión 8.3.8 {#release-8-3-8}
 
@@ -302,7 +302,7 @@ _28 de octubre de 2021_
 **Mejoras**
 
 * El conector de Snowflake se ha mejorado en términos de rendimiento.
-* A efectos de monitorización y pruebas, los registros de auditoría del flujo de trabajo **[!UICONTROL Replicate Staging data]** ahora incluyen el número de registros que se han enviado a la base de datos de FFDA (acceso de datos federado completo).
+* A efectos de monitorización y pruebas, los registros de auditoría del flujo de trabajo **[!UICONTROL Replicate Staging data]** ahora incluyen el número de registros que se han enviado a la base de datos de FDAC (acceso de datos federado completo).
 * La actividad de código SQL ahora le permite elegir en qué base de datos se almacenará el script SQL: la fuente de datos predeterminada o una cuenta externa de FDA activa seleccionada.
 * Ya está disponible un conjunto de almacenes predefinidos que pueden utilizarse para ejecutar varias consultas en paralelo, como segmentación, ETL o picos. [Más información](../config/workflows.md)
 
@@ -315,7 +315,7 @@ _28 de octubre de 2021_
 **Parches**
 
 * Después de que un usuario eliminara, en un esquema de datos, la variable `<autoStg>` de un elemento de definición de tabla, o cambiara su valor de `true` a `false`, no se eliminaba la tabla de ensayo relacionada. Este problema se ha corregido.
-* Se ha corregido un problema que provocaba un error al crear registros con un formulario dedicado debido a la administración de ID con un origen de datos de FFDA.
+* Se ha corregido un problema que provocaba un error al crear registros con un formulario dedicado debido a la administración de ID con un origen de datos de FDAC.
 * Se ha corregido un problema que podía impedir que las ofertas se insertaran en una entrega si se gestionaban mediante una actividad de enriquecimiento en un flujo de trabajo.
 * Se ha corregido un problema que podía ralentizar la importación de paquetes.
 * Se ha corregido un problema que podía impedir que se enviaran entregas de correo electrónico con direcciones semilla.
@@ -328,7 +328,7 @@ _28 de octubre de 2021_
 * Se ha corregido un problema que hacía que el sistema se bloqueara al regenerar la configuración en caso de archivos de configuración incorrectos.
 * Se ha corregido un problema que impedía que las instancias de marketing y control se actualizaran correctamente.
 * Se ha corregido un problema que podía provocar que el flujo de trabajo de facturación se bloqueara en las instancias de marketing.
-* Se ha corregido un problema que podía provocar la duplicación de claves en tablas predeterminadas de Snowflake de FFDA. (NEO-38583)
+* Se ha corregido un problema que podía provocar la duplicación de claves en tablas predeterminadas de Snowflake de FDAC. (NEO-38583)
 * Se ha corregido un problema que podía provocar la pérdida de esquemas temporales de flujo de trabajo al editar dos actividades de anulación de duplicación una tras otra. (NEO-34063)
 * Se ha corregido un problema que devolvía resultados incorrectos al ejecutar las funciones Amazon Redshift HoursDiff y MinutesDiff al intentar extraer el componente de tiempo.(NEO-31673)
 * Se ha corregido un problema que podía impedir que los usuarios iniciaran sesión en la consola debido a un problema de configuración de proxy. (NEO-38388)
