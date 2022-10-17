@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 description: Documentación de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
-source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
+source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 87%
@@ -21,7 +21,7 @@ ht-degree: 87%
    + [Protecciones](start/ac-guardrails.md)
    + [Problemas conocidos](start/known-issues.md)
    + [Matriz de compatibilidad](start/compatibility-matrix.md)
-+ Introducción {#start}
++ Introducción {#new}
    + [Introducción a Adobe Campaign](start/get-started.md)
    + [Funcionalidades clave](start/whats-new.md)
    + [Componentes y procesos](start/ac-components.md)
