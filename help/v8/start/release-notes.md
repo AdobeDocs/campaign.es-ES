@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 6986f4eb017602632d11ce6e9ca9e156d94380ff
+source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 88%
+source-wordcount: '2835'
+ht-degree: 98%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 88%
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign v8**.
 
+
 ## Versión 8.4.1 {#release-8-4-1}
 
 _30 de septiembre de 2022_
+
 
 **Novedades**
 
@@ -98,47 +100,13 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 * Se ha corregido un problema que provocaba problemas de personalización al enviar mensajes SMS mediante un modo de envío externo. (NEO-46415)
 * Se ha corregido un problema que podía generar duplicados en los registros de seguimiento. (NEO-46409)
 * Se ha corregido un problema que impedía que el flujo de trabajo técnico **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) no se detuviera aunque se produjese un error durante su ejecución. (NEO-46280)
+* Se ha corregido un problema que se podía producir si una entrega alcanzaba un tamaño específico durante el proceso de MTA. (NEO-46097)
 * Para evitar una lentitud al enviar la prueba a las direcciones semilla, todas las réplicas consecutivas de los miembros semilla ahora se agrupan en una solicitud de replicación. (NEO-44844)
 * Se ha corregido un problema que mostraba un error al intentar previsualizar una entrega en cualquier evento archivado del Centro de mensajes. (NEO-43620)
 * Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una actividad de **Consulta de Campaign** y una actividad de **Cambiar fuente de datos**: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de fuente no se escapó y los datos no se procesaron correctamente en Snowflake. (NEO-45549)
 * Se ha corregido un problema que se producía al usar la actividad **Consulta** y filtrar una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizado&quot;. (NEO-46485)
-* La variable **Database cleanup** el flujo de trabajo técnico ahora también gestiona los esquemas de ensayo personalizados. (NEO-48974)
-* Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al dirigirse a grandes volúmenes de destinatarios. (NEO-48019)
-* Se ha mejorado la estabilidad al gestionar cadenas XML no válidas durante las llamadas SOAP. (NEO-48027)
-* Se ha corregido un problema que provocaba la creación de elementos DeliveryParts innecesarios cuando el envío utilizaba modos de calendario y división. (NEO-48634)
-* Se ha corregido un problema de rendimiento al usar olas basadas en calendario. (NEO-48451)
-* Se ha corregido un problema que podría provocar un mensaje de error en la pantalla de la lista de envíos después de crear una nueva asignación de destino en un esquema personalizado. (NEO-49237)
-* Se ha corregido un problema que podía causar pérdida de datos si el flujo de trabajo de ensayo estaba en error y el período de retención había pasado completamente. (NEO-48975)
 
-## Versión 8.3.9 {#release-8-3-9}
 
->[!CAUTION]
->
-> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
-
-_7 de octubre de 2022_
-
-**Mejoras**
-
-* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
-* La variable **Database cleanup** el flujo de trabajo técnico ahora también gestiona los esquemas de ensayo personalizados. (NEO-48974)
-* Se ha corregido un problema que podía hacer que los envíos permanecieran en **Pendiente** aunque se alcance la fecha de contacto. (NEO-48079, NEO-48251)
-* Se ha mejorado la estabilidad al gestionar cadenas XML no válidas durante las llamadas SOAP. (NEO-48027)
-* Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al dirigirse a grandes volúmenes de destinatarios. (NEO-48019)
-* Para evitar la lentitud al enviar la prueba a las direcciones semilla, todas las réplicas consecutivas de los miembros semilla ahora se agrupan en una solicitud de replicación. (NEO-44844)
-* Se ha corregido un problema que provocaba problemas de personalización al enviar mensajes SMS mediante un modo de envío externo. (NEO-46415)
-* Se ha corregido un problema que mostraba un error al intentar previsualizar una entrega en cualquier evento archivado del Centro de mensajes. (NEO-43620)
-* Se ha corregido un problema en los flujos de trabajo que podía impedir que los archivos se actualizaran en el servidor al usar la actividad **Carga de datos (archivo)**. El proceso se detuvo al 100 % pero nunca se finalizó. (NEO-47269)
-* Se ha corregido un problema que provocaba la creación de elementos DeliveryParts innecesarios cuando el envío utilizaba modos de calendario y división. (NEO-48634)
-* Se ha corregido un problema de rendimiento al usar olas basadas en calendario. (NEO-48451)
-* Se ha corregido un problema que podría provocar un mensaje de error en la pantalla de la lista de envíos después de crear una nueva asignación de destino en un esquema personalizado. (NEO-49237)
-* Se ha corregido un problema que se podía producir si un envío alcanzaba un tamaño específico durante el proceso de MTA. (NEO-46097)
-* Se ha corregido un problema que impedía que los registros de seguimiento devolvieran datos relacionados con el explorador del destinatario. (NEO-46612)
-* Se ha corregido un problema durante la posactualización en entornos japoneses. (NEO-46640)
-* Se ha corregido un problema que se producía al usar la actividad **Consulta** y filtrar una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizadas&quot;. (NEO-46485)
-* Se ha corregido un problema que impedía que el flujo de trabajo técnico **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) no se detuviera aunque se produjese un error durante su ejecución. (NEO-46280)
-* Se ha corregido un problema que podía causar pérdida de datos si el flujo de trabajo de ensayo estaba en error y el período de retención había pasado completamente. (NEO-48975)
-* Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una actividad de **Consulta de Campaign** y una actividad de **Cambiar fuente de datos**: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de fuente no se escapó y los datos no se procesaron correctamente en Snowflake. (NEO-45549)
 
 ## Versión 8.3.8 {#release-8-3-8}
 

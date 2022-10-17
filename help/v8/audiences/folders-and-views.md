@@ -5,7 +5,7 @@ feature: Audiences, Profiles, Application Settings
 role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 7%
@@ -24,7 +24,7 @@ Una vista es una carpeta específica que no contiene datos, pero que muestra dat
 
 Tenga en cuenta que puede asignar permisos a las carpetas para restringir el acceso a ciertos datos. [Más información](#restrict-access-to-a-folder)
 
-## Prácticas recomendadas al trabajar con carpetas
+## Prácticas recomendadas al trabajar con carpetas{#best-practices-folders}
 
 * **Usar carpetas integradas** para facilitar a todas las personas involucradas en el proyecto el uso, mantenimiento y resolución de problemas de la aplicación. Evite crear estructuras de carpetas personalizadas para destinatarios, listas, envíos, etc., pero utilice las carpetas estándar como **Administración**, **Profiles &amp; Targets**, **Administración de campañas**.
 

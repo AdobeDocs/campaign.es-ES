@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '710'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ La fiabilidad de la base de datos es de suma importancia, ya que la mayoría de 
 
 La capa de aplicación lógica de campaña es fácilmente configurable para satisfacer complejas necesidades comerciales. Puede utilizar Campaign como plataforma única con diferentes aplicaciones que se combinan para crear una arquitectura abierta y escalable. Cada instancia de Campaign es una colección de procesos en la capa de la aplicación, algunos de los cuales se comparten y otros están dedicados.
 
-## Managed Services de campaña{#ac-managed-services}
+## Cloud Services administrados de Campaign{#ac-managed-services}
 
 Adobe Campaign v8 está implementado as a Managed Service: todos los componentes de Adobe Campaign, incluida la interfaz de usuario, el motor de administración de ejecución y las bases de datos de Campaign, están totalmente alojados por Adobe, incluida la ejecución de correo electrónico, las páginas espejo, el servidor de seguimiento y los componentes web externos, como la cancelación de la suscripción al centro de páginas/preferencias y las páginas de aterrizaje.
 

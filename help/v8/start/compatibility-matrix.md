@@ -5,8 +5,8 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 0fd798fd21d781f7c0bf75ecb1838f891350bff6
-workflow-type: ht
+source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+workflow-type: tm+mt
 source-wordcount: '374'
 ht-degree: 100%
 
@@ -80,6 +80,7 @@ Puede utilizar Campaign para enviar [notificaciones push](../send/push.md) a los
 
 * **Android** 12 (a partir de la versión 8.3 de Campaign), 9.0, 8.x, 7.x, con la compilación 1.1.1 del SDK de Android de Campaign.
 * **iOS de Apple** 9 - 16 con la compilación 1.0.26 del iOS SDK de Campaign, compatible con las versiones de 32 y 64 bits. iOS 16 es compatible a partir de la versión 8.4 de Campaign.
+
 
 ## Acceso web
 

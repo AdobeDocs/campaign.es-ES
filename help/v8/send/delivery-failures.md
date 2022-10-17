@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '3008'
+source-wordcount: '3009'
 ht-degree: 65%
 
 ---
@@ -54,7 +54,7 @@ Estos tipos de errores se administran de la siguiente manera:
 
 >[!NOTE]
 >
->Como usuario de Managed Services, la configuración del buzón de rechazos la realiza el Adobe.
+>Como usuario de Cloud Services administrados, la configuración del buzón de rechazos la realiza el Adobe.
 
 ## Clasificación del correo rechazado {#bounce-mail-qualification}
 

@@ -5,10 +5,10 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 20%
+source-wordcount: '664'
+ht-degree: 19%
 
 ---
 
@@ -28,6 +28,30 @@ La configuración y el endurecimiento de la privacidad son elementos clave de la
 * Proteja las páginas que puedan contener información personal, como páginas espejo, aplicaciones web, etc.
 
 ![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, Adobe trabajará con usted para implementar estas configuraciones en su entorno.
+
+
+## Gestión de acceso
+
+La gestión del acceso es una parte importante del refuerzo de la seguridad. Estas son algunas de las prácticas recomendadas principales:
+
+* Crear suficientes grupos de seguridad
+* Compruebe que cada operador tenga los derechos de acceso adecuados
+* Evite utilizar el operador de administrador y evite tener demasiados operadores en el grupo de administración
+
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+
+## Directrices de codificación
+
+Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.), siga siempre estas directrices:
+
+* **Secuencias de comandos**: Intente evitar las declaraciones SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para usar en la lista de permitidos.
+
+* **Asegurar el modelo de datos**: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
+
+* **Añadir captchas en aplicaciones web**: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
+
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+
 
 ## Personalización
 
