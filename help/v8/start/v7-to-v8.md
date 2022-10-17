@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 94%
+source-wordcount: '638'
+ht-degree: 86%
 
 ---
 
@@ -66,27 +66,28 @@ Los usuarios de Campaign solo se conectan mediante su Adobe ID. El mismo Adobe I
 
 Utilice el módulo Marketing Analytics para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Además, cree informes y genere poblaciones objetivo: una vez identificados, se almacenan en listas que se pueden utilizar en Adobe Campaign (direccionamiento, segmentación, etc.).
 
-Los informes de Adobe Campaign están optimizados y traen mejores prestaciones de escalado que la versión 7 de Campaign Classic. Las limitaciones anteriores de Cubes no se aplican a la versión 8 de Campaign.
+con [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), los informes de cubo de Adobe Campaign están optimizados y ofrecen mejores capacidades de escala que Campaign Classic v7. En ese modelo de implementación específico, las anteriores limitaciones de los cubos no se aplican en Campaign v8.
 
 ## Funciones no disponibles{#gs-unavailable-features}
 
 Tenga en cuenta que algunas funciones aún no están disponibles en esta versión de Campaign, por ejemplo:
 
 * Administración de recursos de marketing
-* Modelos de implementación híbridos/locales
+* Cupones
+* Seguimiento web
+* Encuestas
 
 
 ## Funciones no admitidas{#gs-removed}
 
-Para alinearse con la nueva arquitectura y el modelo de implementación de Campaign v8, algunas funciones históricas de Campaign Classic v7 ya no están disponibles en Campaign v8. Por ejemplo:
+Algunas funciones históricas del Campaign Classic v7 ya no son compatibles con Campaign v8, como:
 
-* Cupones
-* Seguimiento web
-* Encuestas
-* Marketing social
+* Marketing social con Facebook
 * Conector ACS (oferta principal)
 * Integración con LDAP
 * Inicio de sesión con usuario/contraseña
+* Modelos de implementación híbridos/locales
+
 
 >[!NOTE]
 >
