@@ -6,8 +6,8 @@ breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
 source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '433'
+ht-degree: 87%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 + [Documentación de Campaign v8](campaign-home.md)
 + Versiones y actualizaciones más recientes {#releases}
-   + [Notas de las versiones anteriores](start/e-release-notes.md)
+   + [Notas de la versión preliminar](start/e-release-notes.md)
    + [Notas de la versión ](start/release-notes.md)
    + [Protecciones](start/ac-guardrails.md)
    + [Problemas conocidos](start/known-issues.md)
