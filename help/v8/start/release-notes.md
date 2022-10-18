@@ -7,9 +7,9 @@ level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2835'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ _30 de septiembre de 2022_
 <tbody> 
 <tr> 
 <td><p>Los nuevos conectores de origen y destino ya están disponibles para una integración optimizada entre Adobe Campaign y Adobe Experience Platform:</p>
-<ul><li>Utilice el conector de destino de Adobe Campaign Managed Cloud Services para enviar segmentos de Experience Platform a Adobe Campaign para su activación.</li>
-<li>Utilice el conector de origen del Cloud Service administrado de Adobe Campaign para enviar los registros de envío y seguimiento de Adobe Campaign a Adobe Experience Platform.</li>
+<ul><li>Utilice el conector de destino de Adobe Campaign Managed Cloud Services para enviar segmentos de Experience Platform a Adobe Campaign para su activación,</li>
+<li>Utilice el conector de destino de Adobe Campaign Managed Cloud Services para enviar los registros de envío y seguimiento de Adobe Campaign a Adobe Experience Platform.</li>
 </ul>
 <p>Para obtener más información, consulte la <a href="../connect/ac-aep.md">documentación detallada</a>.</p>
 </td> 
