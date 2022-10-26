@@ -1,5 +1,5 @@
 ---
-title: Uso compartido con soluciones de Adobe Experience Cloud
+title: Comparta audiencias con soluciones de Adobe Experience Cloud
 description: Descubra cómo compartir audiencias con soluciones de Adobe Experience Cloud
 feature: Subscriptions
 role: User
@@ -7,13 +7,13 @@ level: Beginner
 hide: true
 hidefromtoc: true
 source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '272'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
-# Uso compartido con soluciones de Adobe Experience Cloud{#shared-audiences}
+# Comparta audiencias con soluciones de Adobe Experience Cloud{#shared-audiences}
 
 
 Opción 1: Fuentes y destinos de AEP
@@ -26,7 +26,7 @@ Puede integrar **Adobe Campaign** con **Servicio principal Personas** o Adobe Au
 
 * Exportación de listas en la forma de audiencias compartidas de Adobe Experience Cloud. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Las audiencias se pueden exportar después de la segmentación en un flujo de trabajo con la actividad específica **[!UICONTROL Update shared audience]**.
 
-Esta integración es compatible con dos tipos de Adobe ID Experience Cloud:
+Esta integración es compatible con dos tipos de ID de Adobe Experience Cloud:
 
 * **ID de visitante**: este tipo de identificador concilia los visitantes de Adobe Experience Cloud con los destinatarios de Adobe Campaign.
 * **ID declarada**: este tipo de identificador concilia todo tipo de datos con los elementos de la base de datos de Adobe Campaign. Se representa en Adobe Campaign como una clave de reconciliación predefinida.
@@ -39,6 +39,6 @@ Esta integración es compatible con dos tipos de Adobe ID Experience Cloud:
 
 Consulte:
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en)
+[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es)
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=en)
+[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=es](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=es)
