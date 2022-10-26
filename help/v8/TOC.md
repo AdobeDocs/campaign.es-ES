@@ -1,20 +1,20 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-description: Documentación de Campaign v8
+description: Documentación de la versión 8 de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
 source-git-commit: f3090d1da1aaec1a50452bcfbf89e65e2669fc5c
 workflow-type: tm+mt
 source-wordcount: '433'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 
 # Documentación de Adobe Campaign v8 {#campaign-v8}
 
-+ [Documentación de Campaign v8](campaign-home.md)
++ [Documentación de la versión 8 de Campaign](campaign-home.md)
 + Versiones y actualizaciones más recientes {#releases}
    + [Notas de la versión preliminar](start/e-release-notes.md)
    + [Notas de la versión ](start/release-notes.md)
@@ -25,16 +25,16 @@ ht-degree: 87%
    + [Introducción a Adobe Campaign](start/get-started.md)
    + [Funcionalidades clave](start/whats-new.md)
    + [Componentes y procesos](start/ac-components.md)
-   + [Conexión a Campaign](start/connect.md)
+   + [Conéctese a Campaign](start/connect.md)
    + IU de Campaign {#ac-ui}
       + [Descubrimiento de la interfaz de Campaign](start/campaign-ui.md)
       + [Personalización de la interfaz de Campaign](start/customize-ui.md)
-      + [Administración de carpetas y vistas](audiences/folders-and-views.md)
-   + [De Classic v7 a v8](start/v7-to-v8.md)
+      + [Administrar carpetas y vistas](audiences/folders-and-views.md)
+   + [De la versión 7 a la 8 de Classic](start/v7-to-v8.md)
    + [Preguntas frecuentes](start/campaign-faq.md)
 + Campaign Management {#campaigns}
    + [Introducción a las campañas](start/campaigns.md)
-   + [Documentación de organización de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es)
+   + [Documentación sobre la orquestación de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es)
    + Envío de mensajes{#send}
       + [Introducción a los mensajes](start/create-message.md)
       + Correos electrónicos {#emails}
@@ -48,10 +48,10 @@ ht-degree: 87%
       + [Mensajes transaccionales](send/transactional.md)
       + Errores, rechazos y cuarentenas{#failures}
          + [Cuarentenas](send/quarantines.md)
-         + [Errores de entrega](send/delivery-failures.md)
+         + [Errores de envío](send/delivery-failures.md)
       + [Optimización del tiempo de envío](send/predictive.md)
       + [Administración de suscripciones](start/subscriptions.md)
-+ Administración de perfiles y audiencias {#audience}
++ Gestión de perfiles y audiencias {#audience}
    + [Introducción a perfiles y audiencias](audiences/gs-audiences.md)
    + [Trabajo con audiencias](start/audiences.md)
    + [Acceso a perfiles](audiences/view-profiles.md)
@@ -64,14 +64,14 @@ ht-degree: 87%
    + Creación de audiencias {#create-audiences}
       + [Creación de una lista de contactos](audiences/create-audiences.md)
       + [Creación y administración de filtros](audiences/create-filters.md)
-   + [Uso compartido con soluciones de Adobe](start/shared-audiences.md)
+   + [Compartir audiencias con soluciones de Adobe](start/shared-audiences.md)
    + [Prácticas recomendadas](audiences/audiences-best-practices.md)
-+ Gestión de contenido {#content}
++ Gestión de contenidos {#content}
    + [Diseño de aplicaciones y formularios web](dev/webapps.md)
 + Administración de seguridad y privacidad {#privacy}
    + [Administración de solicitudes de privacidad](start/privacy.md)
    + [Directrices de seguridad](config/security.md)
-+ Administración de decisiones {#offers}
++ Gestión de decisiones {#offers}
    + [Introducción a la interacción en tiempo real](interaction/interaction.md)
    + [Entornos y arquitectura](interaction/interaction-architecture.md)
    + [Prácticas recomendadas](interaction/interaction-best-practices.md)
@@ -89,16 +89,16 @@ ht-degree: 87%
       + [Administración de interacciones anónimas](interaction/anonymous-interactions.md)
    + [Informes e historial](interaction/interaction-tracking.md)
    + [Casos de uso](interaction/interaction-use-cases.md)
-+ Informes y análisis {#analytics}
++ Creación de informes y análisis {#analytics}
    + [Seguimiento y monitorización](start/tracking.md)
    + [Métricas e informes](start/reporting.md)
 + Administración de datos {#data}
    + [Introducción a los flujos de trabajo](config/workflows.md)
    + [Importación de datos](start/import.md)
-   + [Documentación del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+   + [Documentación del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
 + Integraciones {#connect}
    + [Conectar Campaign con otras soluciones](connect/integration.md)
-   + [Campaña + Experience Platform](connect/ac-aep.md)
+   + [Campaign + Experience Platform](connect/ac-aep.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)

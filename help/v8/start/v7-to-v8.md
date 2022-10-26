@@ -8,7 +8,7 @@ exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: 1e84fdd61bb2591bf69f5efaf8f8fc01a0d3d93f
 workflow-type: tm+mt
 source-wordcount: '638'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Como antiguo usuario de la versión 7 de [!DNL Campaign Classic], no debería su
 
 La versión 8 de Adobe Campaign está disponible como **servicio en la nube administrado**.
 
-Adobe Campaign Managed Cloud Services proporciona una plataforma de Cloud Services administrados para diseñar experiencias de clientes en varios canales y proporciona un entorno para la organización de campañas visuales, la administración de interacciones en tiempo real y la ejecución en varios canales. Obtenga más información acerca de Campaign Managed Cloud Services en la [página de descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
+Adobe Campaign Managed Cloud Services ofrece una plataforma de servicios administrados para diseñar experiencias multicanal para los clientes y proporciona un entorno para la organización visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal. Obtenga más información acerca de Campaign Managed Cloud Services en la [página de descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target=&quot;_blank&quot;}.
 
 La nueva oferta combina los mejores servicios con supervisión proactiva y alertas oportunas, centrándose en tres áreas:
 
@@ -40,7 +40,7 @@ Como antiguo usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría
 
 >[!NOTE]
 >
-> La versión 8 de Campaign se basa en una arquitectura híbrida. Si está realizando la transición desde la versión 7 de Campaign Classic, tenga en cuenta que todas las entregas pasan al servidor intermediario. [Más información](../architecture/architecture.md)
+> La versión 8 de Campaign se basa en una arquitectura híbrida. Si está realizando la transición desde la versión 7 de Campaign Classic, tenga en cuenta que todos los envíos pasan al servidor intermediario. [Más información](../architecture/architecture.md)
 >
 > Como consecuencia, el enrutamiento interno **no es posible** en la versión 8 de Campaign, y la cuenta externa se ha deshabilitado en consecuencia.
 
@@ -66,7 +66,7 @@ Los usuarios de Campaign solo se conectan mediante su Adobe ID. El mismo Adobe I
 
 Utilice el módulo Marketing Analytics para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Además, cree informes y genere poblaciones objetivo: una vez identificados, se almacenan en listas que se pueden utilizar en Adobe Campaign (direccionamiento, segmentación, etc.).
 
-con [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), los informes de cubo de Adobe Campaign están optimizados y ofrecen mejores capacidades de escala que Campaign Classic v7. En ese modelo de implementación específico, las anteriores limitaciones de los cubos no se aplican en Campaign v8.
+Con la [implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), los informes sobre cubos de Adobe Campaign están optimizados y traen mejores prestaciones de escalado que la versión 7 de Campaign Classic. En ese modelo de implementación específico, las anteriores limitaciones de los cubos no se aplican en la versión 8 de Campaign.
 
 ## Funciones no disponibles{#gs-unavailable-features}
 
@@ -80,7 +80,7 @@ Tenga en cuenta que algunas funciones aún no están disponibles en esta versió
 
 ## Funciones no admitidas{#gs-removed}
 
-Algunas funciones históricas del Campaign Classic v7 ya no son compatibles con Campaign v8, como:
+Algunas funciones históricas de la versión 7 de Campaign Classic ya no son compatibles con la versión 8 de Campaign, como:
 
 * Marketing social con Facebook
 * Conector ACS (oferta principal)
