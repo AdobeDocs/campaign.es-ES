@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 0d9acc431efddc500701996996f846132eeafcdb
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '877'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ Las funciones clave incluyen las siguientes:
 >
 >* La versión 8 de Campaign **solo** está disponible as a Managed Cloud Service y no se puede implementar en entornos locales o híbridos.
 >
->* La migración desde el entorno de la versión 7 de Campaign Classic existente aún no está disponible.
+>* La migración automatizada desde un entorno de Campaign Classic v7 existente aún no está disponible.
 
 
 
