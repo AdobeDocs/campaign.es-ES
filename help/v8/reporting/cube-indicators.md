@@ -4,7 +4,7 @@ description: Aprenda a crear cubos
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 38%
@@ -58,7 +58,7 @@ Para crear un cubo, siga los siguientes pasos:
 1. Seleccione la tabla de trabajo. [Más información](#select-the-work-table).
 1. Defina las dimensiones. [Más información](#define-dimensions).
 1. Defina las medidas. [Más información](#build-indicators).
-1. Cree acumulados (opcional). [Más información](cube-best-practices.md#calculate-and-use-aggregates).
+1. Cree acumulados (opcional). [Más información](customize-cubes.md#calculate-and-use-aggregates).
 
 En el siguiente ejemplo, aprenda a crear rápidamente un cubo simple en un informe para exportar sus medidas.
 
@@ -90,7 +90,7 @@ Para crear dimensiones, siga los pasos a continuación:
 
 1. En este ejemplo, se selecciona el destinatario **Edad**. Para este campo, se puede definir el agrupamiento para reunir las edades y facilitar la lectura de la información. Se recomienda utilizar un agrupamiento cuando exista la probabilidad de que haya varios valores separados.
 
-Para ello, marque la opción **[!UICONTROL Enable binning]**. [Más información](cube-best-practices.md#data-binning).
+Para ello, marque la opción **[!UICONTROL Enable binning]**. [Más información](customize-cubes.md#data-binning).
 
 1. Añada una dimensión de tipo **Fecha.** Aquí nos interesa mostrar las fechas de creación del perfil de destinatario.. Para ello, haga clic en **[!UICONTROL Add]** y seleccione el campo **[!UICONTROL Creation date]** en la tabla de destinatarios.
 Puede personalizar el modo de visualización de la fecha. Para ello, seleccione la jerarquía que se va a utilizar y los niveles que se van a generar:
@@ -109,7 +109,7 @@ Seleccione la enumeración en la lista desplegable.. Tenga en cuenta que esta en
 
 Solo se muestran los valores de la enumeración. Los demás se agrupan con la etiqueta definida en el campo **[!UICONTROL Label of the other values]**.
 
-Para obtener más información, consulte [esta sección](cube-best-practices.md#dynamically-manage-bins).
+Para obtener más información, consulte [esta sección](customize-cubes.md#dynamically-manage-bins).
 
 ### Genere los indicadores {#build-indicators}
 
@@ -124,7 +124,7 @@ Para generar indicadores, siga los pasos a continuación:
 
    ![](assets/cube-new-measure.png)
 
-   Utilice la variable **[!UICONTROL Filter the measure data...]** para seleccionar solo mujeres. [Más información](cube-best-practices.md#define-measures).
+   Utilice la variable **[!UICONTROL Filter the measure data...]** para seleccionar solo mujeres. [Más información](customize-cubes.md#define-measures).
 
    ![](assets/cube-filter-measure-data.png)
 

@@ -3,7 +3,7 @@ product: campaign
 title: Uso de cubos para crear informes sobre datos
 description: Aprenda a utilizar cubos para crear informes
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+source-git-commit: 7fc3e5b9f12ca48ef0921e27844ef9fef71ac06b
 workflow-type: tm+mt
 source-wordcount: '941'
 ht-degree: 70%
@@ -60,7 +60,7 @@ Los botones **[!UICONTROL Add]** en cada eje permiten añadir dimensiones.
 
    Estos parámetros dependen del tipo de datos de la dimensión seleccionada.
 
-   Por ejemplo, en el caso de las fechas, puede haber disponibles varios niveles. Para más información, consulte [Visualización de medidas](cube-best-practices.md#display-measures).
+   Por ejemplo, en el caso de las fechas, puede haber disponibles varios niveles. Para más información, consulte [Visualización de medidas](customize-cubes.md#display-measures).
 
    En ese caso, están disponibles las siguientes opciones:
 
@@ -102,7 +102,7 @@ Para agregar y configurar medidas, siga los pasos a continuación:
 
    ![](assets/cube-pivot-table-config.png)
 
-   A continuación puede elegir si desea mostrar o no las etiquetas de medida. [Más información](cube-best-practices.md#configure-the-display).
+   A continuación puede elegir si desea mostrar o no las etiquetas de medida. [Más información](customize-cubes.md#configure-the-display).
 
 1. Puede crear nuevas medidas basadas en las existentes. Para ello, haga clic en **[!UICONTROL Create a measure]** y configúrelo.
 
