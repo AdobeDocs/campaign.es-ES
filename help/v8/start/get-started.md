@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -72,7 +72,7 @@ Además de las potentes plantillas de creación de informes disponibles de forma
 La función de creación de informes de campaña facilita la elaboración de informes dinámicos. Puede usar variables de arrastrar y soltar para personalizarlos y analizar el éxito de las campañas. Según la complejidad de las consultas y los cálculos, se pueden agregar los datos a una vista de lista o acceder a ellos en un formato que facilite la generación de informes de análisis de marketing.
 
 
-![](../assets/do-not-localize/glass.png) Obtenga más información acerca de las capacidades de informes y seguimiento en [esta sección](reporting.md).
+![](../assets/do-not-localize/glass.png) Obtenga más información acerca de las capacidades de informes y seguimiento en [esta sección](../reporting/gs-reporting.md).
 
 ## Integraciones con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 

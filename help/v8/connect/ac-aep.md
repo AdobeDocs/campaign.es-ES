@@ -4,7 +4,7 @@ description: Aprenda a trabajar con Campaign y Adobe Experience Platform
 feature: Platform Integration
 role: Data Engineer
 level: Beginner
-source-git-commit: 27705fc85794611d1207fe7f3eac3010601b0dc5
+source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 0%
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # Trabajo con Campaign y Adobe Experience Platform
 
-Los conectores de origen y destino del Cloud Service administrado de Adobe Campaign permiten una integración perfecta entre Adobe Campaign y Adobe Experience Platform:
+Los conectores Origen y destino de Cloud Service administrado de Adobe Campaign permiten una integración perfecta entre Adobe Campaign y Adobe Experience Platform.
 
-* Uso **Adobe Campaign Managed Cloud Services** conexión de destino para enviar segmentos de Experience Platform a Adobe Campaign para su activación,
+* Uso **Adobe Campaign Managed Cloud Services** Conexión de destino para enviar segmentos de Experience Platform a Adobe Campaign para su activación,
 
    ![](assets/aep-destination.png)
 
-* Uso **Adobe Campaign Managed Cloud Services** conexión de origen para enviar los registros de envío y seguimiento de Adobe Campaign a Adobe Experience Platform.
+* Uso **Adobe Campaign Managed Cloud Services** Conexión de origen para enviar los registros de envío y seguimiento de Adobe Campaign a Adobe Experience Platform.
 
    ![](assets/aep-logs.png)
 
@@ -31,7 +31,7 @@ Los pasos para configurar esta integración en Adobe Experience Platform son los
 
    [Obtenga información sobre cómo crear una conexión de destino de Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en)
 
-1. Configure una nueva conexión de origen de Adobe Campaign Managed Cloud Services para introducir eventos de Campaign en Adobe Experience Platform.
+1. Configure una nueva conexión de origen de Adobe Campaign Managed Cloud Services para la ingesta de eventos de campaña en Adobe Experience Platform.
 
    Proporcione detalles sobre la instancia de Campaign y el esquema que se va a utilizar, seleccione un conjunto de datos en el que se deben introducir los datos y, a continuación, configure los campos que se van a recuperar.
 
