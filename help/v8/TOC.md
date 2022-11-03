@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentación de la versión 8 de Campaign v8
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
-source-git-commit: 863793e11b29f8f522e47d5158b64eacc0d2acb5
+source-git-commit: b9928cc3bda0c0a1a0d5a43b2604615d7472b419
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '470'
 ht-degree: 93%
 
 ---
@@ -97,7 +97,7 @@ ht-degree: 93%
          + [Introducción a los cubos](reporting/gs-cubes.md)
          + [Creación de un cubo](reporting/cube-indicators.md)
          + [Uso de cubos para crear informes](reporting/cube-tables.md)
-         + [Prácticas recomendadas con cubos](reporting/cube-best-practices.md)
+         + [Personalización de los cubos](reporting/cube-best-practices.md)
       + Informes integrados{#ac-reports}
          + [Lista de informes integrados](reporting/built-in-reports.md)
          + [Informes globales](reporting/global-reports.md)

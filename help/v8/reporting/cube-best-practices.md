@@ -1,16 +1,16 @@
 ---
 product: campaign
-title: Implementación y prácticas recomendadas con cubos
+title: Personalización de los cubos
 description: Conozca las prácticas recomendadas al implementar cubos en Adobe Campaign
 feature: Reporting
-source-git-commit: 80e5efc5998c67ce576e9f8208fab9543fc70d29
+source-git-commit: b9928cc3bda0c0a1a0d5a43b2604615d7472b419
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1453'
 ht-degree: 93%
 
 ---
 
-# Implementación y prácticas recomendadas con cubos{#cube-best-practices}
+# Personalización de los cubos{#cube-custom}
 
 ## Agrupamiento de datos {#data-binning}
 
