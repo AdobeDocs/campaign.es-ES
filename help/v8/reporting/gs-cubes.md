@@ -4,10 +4,10 @@ description: Aprenda a crear cubos
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: cc7195e90c38489f8e3946d6abd190effd41941a
+source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 80%
+source-wordcount: '545'
+ht-degree: 75%
 
 ---
 
@@ -18,6 +18,13 @@ Adobe Campaign incorpora una intuitiva herramienta de exploración de datos para
 Utilice las capacidades de marketing analytics para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Puede crear informes y crear poblaciones de destinatarios y almacenarlas en listas que se puedan usar en Adobe Campaign para tareas de segmentación o segmentación.
 
 Puede ampliar las capacidades de análisis y exploración de base de datos al mismo tiempo que facilita a los usuarios finales la configuración de informes y tablas: estos últimos solo necesitan seleccionar un cubo existente (completamente configurado) al crear su informe o tabla para procesar cálculos, medidas y estadísticas.
+
+Los cubos se utilizan para generar ciertos informes integrados, como [informes de envío](delivery-reports.md) (seguimiento de envíos, clics, aperturas, etc.).
+
+>[!CAUTION]
+>
+>En un [[!DNL Snowflake] Implementación de FDA (predeterminada)](../architecture/fda-deployment.md), los informes basados en cubos solo se pueden utilizar para volúmenes de datos con menos de 5 millones de líneas de hechos.
+
 
 Una vez que se han creado y configurado, los cubos se utilizan en las casillas de consulta de los informes y en las aplicaciones web. Se pueden utilizar y manipular dentro de las tablas dinámicas.
 
