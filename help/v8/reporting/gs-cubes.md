@@ -4,10 +4,10 @@ description: Aprenda a crear cubos
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: bd39a18178edec2730707f0323a19c9d1c80cd76
+source-git-commit: bead34ec59f6f3dca0fbec8460d58ec7da2ed76f
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 75%
+source-wordcount: '525'
+ht-degree: 77%
 
 ---
 
@@ -20,11 +20,6 @@ Utilice las capacidades de marketing analytics para analizar y medir datos, calc
 Puede ampliar las capacidades de análisis y exploración de base de datos al mismo tiempo que facilita a los usuarios finales la configuración de informes y tablas: estos últimos solo necesitan seleccionar un cubo existente (completamente configurado) al crear su informe o tabla para procesar cálculos, medidas y estadísticas.
 
 Los cubos se utilizan para generar ciertos informes integrados, como [informes de envío](delivery-reports.md) (seguimiento de envíos, clics, aperturas, etc.).
-
->[!CAUTION]
->
->En un [[!DNL Snowflake] Implementación de FDA (predeterminada)](../architecture/fda-deployment.md), los informes basados en cubos solo se pueden utilizar para volúmenes de datos con menos de 5 millones de líneas de hechos.
-
 
 Una vez que se han creado y configurado, los cubos se utilizan en las casillas de consulta de los informes y en las aplicaciones web. Se pueden utilizar y manipular dentro de las tablas dinámicas.
 
