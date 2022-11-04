@@ -4,7 +4,7 @@ description: Mida el éxito de sus campañas y analice el comportamiento del usu
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: d8dd91453c035703b4ffd5c8b9816f27392874d6
+source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 21%
@@ -15,7 +15,6 @@ ht-degree: 21%
 # Introducción a la creación de informes{#gs-ac-reports}
 
 Adobe Campaign proporciona un conjunto de herramientas de creación de informes que se enumeran en esta página.
-
 
 * **Cubos**
 
