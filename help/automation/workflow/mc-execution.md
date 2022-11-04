@@ -3,9 +3,9 @@ product: campaign
 title: Message Center (Execution)
 description: Message Center (Execution)
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
@@ -13,15 +13,7 @@ ht-degree: 100%
 
 # Message Center (Execution){#message-center-execution}
 
-
-
 Los flujos de trabajo detallados a continuación se instalan con el complemento **Message Center - Execution** de forma predeterminada.
-
-Para obtener más información, consulte estas secciones en función de la versión de Campaign:
-
-!
-
-![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/transactional.html?lang=es)
 
 <table> 
  <tbody> 

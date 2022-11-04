@@ -3,26 +3,29 @@ product: campaign
 title: Actualización del agregado
 description: Descubra más información acerca de la actividad del flujo de trabajo Actualización de agregado
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+role: Data Engineer
+level: Beginner
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 47%
+source-wordcount: '108'
+ht-degree: 11%
 
 ---
 
-# Actualización de agregado{#update-aggregate}
+# Actualización del agregado{#update-aggregate}
 
-Los agregados se especifican en el nivel de cubo para fines de creación de informes. Una pestaña **[!UICONTROL Workflow]** está disponible al configurar un acumulado.
+Agregados definidos en [cubos](../../v8/reporting/gs-cubes.md) a efectos de creación de informes, se puede actualizar con una actividad específica. A **[!UICONTROL Workflow]** está disponible al configurar el acumulado.
 
-Para obtener más información sobre los cubos y el uso de los acumulados en Adobe Campaign, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/designing-reports-with-cubes/about-cubes.html){target=&quot;_blank&quot;}.
-
+Obtenga más información sobre cubos y agregados en [esta sección](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
 
 Para actualizar un agregado, edite la variable **[!UICONTROL Update aggregate]** y seleccione el cubo y el agregado que desea actualizar.
 
-Puede realizar una **Actualización completa** o **Actualización parcial**.
+Puede configurar un **Actualización completa** o **Actualización parcial**.
 
-De forma predeterminada, se ejecuta una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
+![](assets/update-aggregate-details.png)
 
-**Good practice**: se puede utilizar una actividad **[!UICONTROL Scheduler]** para especificar la frecuencia de las actualizaciones de cálculo.
+De forma predeterminada, se ejecuta una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción y defina las condiciones de actualización.
 
-![](assets/scheduler-and-cube-aggregate.png)
+![](assets/update-aggregate-partial.png)
+
+Se recomienda añadir una **[!UICONTROL Scheduler]** actividad para configurar la frecuencia de las actualizaciones del cálculo.

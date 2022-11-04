@@ -3,16 +3,14 @@ product: campaign
 title: Gestión de datos SQL
 description: Descubra más información sobre la actividad del flujo de trabajo Gestión de datos SQL
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 97%
+source-wordcount: '366'
+ht-degree: 100%
 
 ---
 
 # Administración de datos SQL{#sql-data-management}
-
-
 
 La actividad de **SQL Data Management** permite escribir sus propios scripts SQL para crear y rellenar tablas de trabajo.
 
@@ -20,16 +18,9 @@ La actividad de **SQL Data Management** permite escribir sus propios scripts SQL
 
 Antes de configurar la actividad, asegúrese de que se cumplan los siguientes requisitos previos:
 
-* La actividad solo está disponible para fuentes de datos remotos. La ** .
-
-   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html)
-
+* La actividad solo está disponible para fuentes de datos remotos.
 * El esquema de salida debe existir en la base de datos y estar vinculado a una base de datos de FDA.
-* El operador que ejecute el flujo de trabajo debe tener el ** .
+
 
 ## Configuración de la actividad de gestión de datos SQL {#configuring-the-sql-data-management-activity}
 

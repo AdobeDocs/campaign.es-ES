@@ -3,9 +3,9 @@ product: campaign
 title: Consulta
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
 workflow-type: tm+mt
-source-wordcount: '1592'
+source-wordcount: '1568'
 ht-degree: 98%
 
 ---
@@ -176,12 +176,6 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
    Un error común es: `iBlacklist='3'` donde `iBlacklist` es un campo numérico y `3` significa un valor de texto.
 
    Asegúrese de saber cuál va a ser el plan de ejecución de la consulta. Evite los análisis de tabla completos, especialmente para consultas en tiempo real o consultas casi en tiempo real que se ejecuten a cada minuto.
-
-   Para obtener más información, consulte estas secciones en función de la versión de Campaign:
-
-   !
-
-   ![](assets/do-not-localize/v8.png)[  Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/shemas-forms/database-mapping.html?lang=es)
 
 ### Funciones {#functions}
 
