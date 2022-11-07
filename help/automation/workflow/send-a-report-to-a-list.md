@@ -3,7 +3,7 @@ product: campaign
 title: Envío de un informe a una lista
 description: Descubra más información sobre cómo enviar un informe a una lista con un flujo de trabajo
 feature: Workflows
-source-git-commit: e211c0f01a4813ad29f47652fffac2b44bc0f867
+source-git-commit: 4c3caa8e31c2076d32a03a8778a28edce50cde63
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 40%
@@ -67,7 +67,7 @@ Para crear la plantilla de envío, siga los pasos a continuación:
 
    * Seleccione la pestaña **[!UICONTROL Advanced]** y marque **[!UICONTROL Script the name of the file name displayed in the mails sent]**. En la zona de texto, introduzca el nombre del archivo adjunto en la entrega final.
 
-      ![](assets/use_case_report_6bis.png)
+      ![](assets/use_case_report_6b.png)
 
 ## Paso 3: Creación del flujo de trabajo {#step-3--creating-the-workflow}
 
