@@ -5,14 +5,14 @@ description: Aprenda a crear y utilizar plantillas de entrega en Campaign
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 822d1bee472330b6195ad9527a7e23e90c7650b4
+source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '699'
 ht-degree: 50%
 
 ---
 
-# Trabajar con plantilla de envíos{#creating-a-delivery-template}
+# Trabajar con plantilla de envíos{#work-with-delivery-template}
 
 Utilice plantillas de envío para estandarizar el aspecto creativo y así ejecutar y iniciar las campañas con mayor rapidez.
 
@@ -27,9 +27,12 @@ Una plantilla puede incluir sistemáticamente:
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#delivery-template-video)
 
+
+## Creación de una plantilla{#create-a-delivery-template}
+
 Para crear una plantilla de envío, puede duplicar una plantilla integrada, convertir una entrega existente en una plantilla o crear una plantilla de envío desde cero.
 
-## Copiar una plantilla existente{#copy-an-existing-template}
+### Duplicación de una plantilla existente{#copy-an-existing-template}
 
 Campaign incluye un conjunto de plantillas integradas para cada canal: correo electrónico, push, SMS, correo postal, etc.
 
@@ -51,7 +54,7 @@ La plantilla se añade a la lista de plantillas de envío. Ahora puede seleccion
 
 ![](assets/select-the-new-template.png)
 
-## Conversión de una entrega existente en una plantilla {#convert-an-existing-delivery}
+### Conversión de una entrega existente en una plantilla {#convert-an-existing-delivery}
 
 Puede convertir una entrega en una plantilla y usarla con las nuevas acciones de envío repetidas.
 
@@ -67,7 +70,7 @@ Para convertir una entrega en una plantilla, siga los pasos a continuación:
 
    ![](assets/template-select-folders.png)
 
-## Crear una plantilla nueva {#create-a-new-template}
+### Crear una plantilla nueva {#create-a-new-template}
 
 >[!NOTE]
 >
@@ -87,7 +90,9 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
 1. Haga clic en **Save**. La plantilla ya está lista para utilizarse en una entrega.
 
 
-## Creación de una entrega a partir de una plantilla{#create-a-delivery-from-a-template}
+## Uso de plantillas{#use-a-delivery-template}
+
+### Creación de una entrega a partir de una plantilla{#create-a-delivery-from-a-template}
 
 Para crear una entrega basada en una plantilla existente, seleccione la plantilla de la lista de plantillas de entrega disponibles.
 
