@@ -3,16 +3,15 @@ product: campaign
 title: Flujo de trabajo de entrega por canales cruzados
 description: Descubra más información sobre los flujos de trabajo de entrega por canales cruzados
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: fb498233-4df8-4c9e-a082-3e657c6756c9
+source-git-commit: 5b4d569a6e96c93828f63fb8376eb81301829854
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 93%
+source-wordcount: '626'
+ht-degree: 90%
 
 ---
 
 # Flujo de trabajo de entrega por canales cruzados{#cross-channel-delivery-workflow}
-
-
 
 Este caso de uso presenta un ejemplo que implica un flujo de trabajo de envío por canales cruzados. En [esta sección](cross-channel-deliveries.md) se presenta el concepto general de envíos por canales cruzados.
 
@@ -30,7 +29,7 @@ Los pasos de implementación principales para este caso de uso son los siguiente
 
 ![](assets/wkf_cross-channel_7.png)
 
-## Paso 1: Segmentación de la audiencia {#step-1--targeting-the-audience}
+## Paso 1: Crear la audiencia {#step-1--build-the-audience}
 
 Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
@@ -43,9 +42,9 @@ Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
 1. Guarde los cambios.
 
-## Paso 2: Creación de un correo electrónico que incluya una oferta {#step-2--creating-an-email-including-an-offer}
+## Paso 2: Creación de un correo electrónico que incluya una oferta {#step-2--create-an-email-including-an-offer}
 
-1. Cree un ** .
+1. Creación de una entrega de correo electrónico.
 1. Diseñe el mensaje e inserte un vínculo que incluya una oferta en el contenido.
 
    ![](assets/wkf_cross-channel_1.png)
@@ -64,7 +63,7 @@ Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
    ![](assets/wkf_cross-channel_4.png)
 
-## Paso 3: Segmentación de la audiencia resultante {#step-3--segmenting-the-resulting-audience}
+## Paso 3: Segmentar la audiencia resultante {#step-3--segment-the-resulting-audience}
 
 Una vez identificado el objetivo y que se haya creado el primer envío, se debe segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
 
@@ -100,7 +99,7 @@ Una vez identificado el objetivo y que se haya creado el primer envío, se debe 
 
 1. Haga clic en **[!UICONTROL Finish]** para guardar los cambios.
 
-## Paso 4: Finalización del flujo de trabajo {#step-4--finalizing-the-workflow}
+## Paso 4: Finalización del flujo de trabajo {#step-4--finalize-the-workflow}
 
 1. Agregue las actividades relevantes al flujo de trabajo después de los tres subconjuntos resultantes de la actividad **[!UICONTROL Split]**:
 

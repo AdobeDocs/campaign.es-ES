@@ -3,16 +3,15 @@ product: campaign
 title: Carga de contenido de entrega
 description: Carga de contenido de entrega
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 08febcbc-1703-4d36-89e1-32c903618084
+source-git-commit: 9dfb1acd97e529a8b60119154b3728c883dd9c97
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 96%
+source-wordcount: '304'
+ht-degree: 100%
 
 ---
 
 # Carga de contenido de entrega{#loading-delivery-content}
-
-
 
 Si el contenido de la entrega está disponible en un archivo HTML ubicado en los servidores Amazon S3, FTP o SFTP, se puede cargar fácilmente este contenido en las entregas de Adobe Campaign.
 
@@ -51,6 +50,3 @@ Para ello:
 
 1. Guarde y ejecute el flujo de trabajo. Se crea un nuevo envío con el contenido cargado en **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]**.
 
->[!NOTE]
->
->Se detallan las prácticas recomendadas y la solución de problemas en el uso del servidor SFTP .
