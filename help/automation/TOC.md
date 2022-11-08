@@ -1,18 +1,18 @@
 ---
 audience: user
-user-guide-title: Guía de automatización de campañas
-user-guide-description: Guía de automatización de campañas
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+user-guide-title: Guía de automatización de Campaign
+user-guide-description: Guía de automatización de Campaign
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 85%
+ht-degree: 87%
 
 ---
 
 
 # Guías de automatización de campañas {#automation}
 
-+ [Guía de automatización de campañas](home.md)
++ [Guía de automatización de Campaign](home.md)
 + Automatización con flujos de trabajo {#workflows}
    + Introducción a los flujos de trabajo {#introduction}
       + [Acerca de los flujos de trabajo](workflow/about-workflows.md)
@@ -33,7 +33,7 @@ ht-degree: 85%
       + [Mapa de calor del flujo de trabajo](workflow/heatmap.md)
    + Actividades de flujo de trabajo {#wf-activities}
       + [Introducción a las actividades](workflow/activities.md)
-      + Actividades de direccionamiento {#targeting-activities}
+      + Actividades de segmentación {#targeting-activities}
          + [Lista de actividades de segmentación](workflow/targeting-activities.md)
          + [Celdas](workflow/cells.md)
          + [Cambio de la fuente de datos](workflow/change-data-source.md)
@@ -41,7 +41,7 @@ ht-degree: 85%
          + [Conector CRM](workflow/crm-connector.md)
          + [Anulación de duplicación](workflow/deduplication.md)
          + [Descripción del envío](workflow/delivery-outline.md)
-         + [Edición del esquema](workflow/edit-schema.md)
+         + [Editar esquema](workflow/edit-schema.md)
          + [Enriquecimiento](workflow/enrichment.md)
          + [Exclusión](workflow/exclusion.md)
          + [Consulta incremental](workflow/incremental-query.md)
@@ -145,10 +145,10 @@ ht-degree: 85%
    + [Proveedores, stock y presupuestos](campaigns/providers--stocks-and-budgets.md)
 + Optimización de campañas (complemento){#campaign-optimization}
    + [Introducción a las tipologías de campaña](campaign-opt/campaign-typologies.md)
+   + [Reglas de filtrado](campaign-opt/filtering-rules.md)
+   + [Reglas de control](campaign-opt/control-rules.md)
    + [Reglas de presión](campaign-opt/pressure-rules.md)
    + [Reglas de coherencia](campaign-opt/consistency-rules.md)
-   + [Reglas de control](campaign-opt/control-rules.md)
-   + [Reglas de filtrado](campaign-opt/filtering-rules.md)
    + [Aplicación de reglas](campaign-opt/apply-rules.md)
    + [Simulaciones en Campaign](campaign-opt/campaign-simulations.md)
 + Marketing distribuido (complemento) {#distributed-marketing}

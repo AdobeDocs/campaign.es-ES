@@ -3,16 +3,17 @@ product: campaign
 title: Configuración de reglas de filtrado
 description: Obtenga información sobre cómo configurar las reglas de filtrado
 feature: Typology Rules
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 98%
+source-wordcount: '523'
+ht-degree: 77%
 
 ---
 
 # Reglas de filtrado{#filtering-rules}
 
-Las reglas de filtrado permiten definir los mensajes que deben excluirse según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión objetivo.
+Utilice reglas de filtrado para seleccionar mensajes que desea excluir según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión objetivo.
 
 Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.) en tipologías o agrupadas en una tipología dedicada de **filtrado.** [Más información](#create-and-use-a-filtering-typology).
 
@@ -22,11 +23,12 @@ Por ejemplo, puede filtrar los suscriptores del boletín informativo para evitar
 
 Para definir este filtro, aplique los siguientes pasos:
 
-1. Cree una regla de tipología de **[!UICONTROL Filtering]** aplicable a todos los canales de comunicación.
+1. Vaya a la **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** carpeta de Campaign Explorer y haga clic en la **Nuevo** para crear una regla de tipología.
+1. Cree un **[!UICONTROL Filtering]** regla de tipología aplicable a todos los canales.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. Cambie la dimensión de segmentación predeterminada y seleccione las suscripciones (**nms:subscription**).
+1. En el **Filtro** pestaña cambiar la dimensión de segmentación predeterminada a **Suscripciones** (**nms:subscription**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
@@ -34,11 +36,15 @@ Para definir este filtro, aplique los siguientes pasos:
 
    ![](assets/campaign_opt_create_filter_03.png)
 
-1. Vincule esta regla a una tipología de campaña y guárdela.
+1. Filtre en la página del destinatario y guarde la condición de filtrado.
+
+   ![](assets/campaign_opt_create_filter_03b.png)
+
+1. En el **Tipologías** , vincule esta regla a una tipología de campaña y guárdela.
 
    ![](assets/campaign_opt_create_filter_04.png)
 
-Cuando se utiliza esta regla en una entrega, se excluye automáticamente a los suscriptores menores de edad. Un mensaje específico indica la aplicación de la regla:
+Cuando se utiliza esta regla en una entrega, se excluye automáticamente a los suscriptores menores de edad. Un mensaje específico indica cuándo se aplica la regla:
 
 ![](assets/campaign_opt_create_filter_05.png)
 
@@ -46,9 +52,11 @@ Cuando se utiliza esta regla en una entrega, se excluye automáticamente a los s
 
 Puede restringir el campo de aplicación de la regla de filtrado en función de la entrega relacionado o la descripción de la entrega.
 
-Para ello, vaya a la pestaña **[!UICONTROL General]** en la regla de tipología, seleccione el tipo de restricción que desea aplicar y cree el filtro, como se muestra a continuación:
-
+Para ello, vaya a la **[!UICONTROL General]** en la regla de tipología, seleccione el tipo de restricción que desea aplicar y cree el filtro.
+<!--
 ![](assets/campaign_opt_create_filter_06.png)
+-->
+
 
 En este caso, incluso si la regla está vinculada a todas las entregas, solo se aplica a los que coincidan con los del filtro definido.
 

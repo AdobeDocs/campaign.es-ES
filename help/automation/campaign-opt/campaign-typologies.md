@@ -3,16 +3,17 @@ product: campaign
 title: Introducción a las tipologías de campaña
 description: Obtenga información sobre cómo configurar e implementar tipologías de campaña
 feature: Typology Rules
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
+source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 69%
+source-wordcount: '477'
+ht-degree: 55%
 
 ---
 
 # Introducción a las tipologías de campaña{#about-campaign-typologies}
 
-Campaign Optimization (optimización de la campaña) es el módulo de Adobe Campaign que permite controlar, filtrar y monitorizar las entregas. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
+**Campaign Optimization (optimización de la campaña) es el módulo de Adobe Campaign que permite controlar, filtrar y monitorizar las entregas.** Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#typologies-video)
 
@@ -22,14 +23,9 @@ Campaign Optimization (optimización de la campaña) es el módulo de Adobe Camp
 
 ## Reglas de tipología y tipologías {#typology-rules}
 
-Con Adobe Campaign puede diseñar y aplicar cuatro tipos **reglas de tipología**:
+De forma predeterminada, Campaign viene con tipologías y reglas de tipología integradas.
 
-* Reglas de **filtrado**, que permiten excluir parte del objetivo según los criterios. [Más información](filtering-rules.md).
-* Reglas de **presión**, que permiten controlar la fatiga de marketing. [Más información](pressure-rules.md).
-* Reglas de **capacidad** que permiten limitar las cargas para garantizar condiciones de procesamiento óptimas. [Más información](consistency-rules.md#controlling-capacity).
-* Reglas de **control** que permiten comprobar la validez de los mensajes antes de enviarlos. [Más información](control-rules.md).
-
-Una vez creadas, las reglas de tipología se agrupan en campañas **tipologías** a los que se hace referencia en los envíos. [Más información](#apply-typologies).
+Una tipología es un conjunto de reglas de verificación aplicadas a todos los mensajes durante el análisis de envío.
 
 Una tipología de campaña puede contener varias reglas de tipología, pero una entrega solo puede hacer referencia a una tipología.
 
@@ -39,16 +35,36 @@ Para cada tipología, la variable **[!UICONTROL Rules]** permite añadir, elimin
 
 ![](assets/campaign_opt_rules_tab.png)
 
-## Pasos clave para aplicar tipologías {#apply-typologies}
+Una vez creadas, las reglas de tipología se agrupan en campañas **tipologías** a los que se hace referencia en los envíos. [Más información](#apply-typologies).
 
-A continuación se enumeran los pasos clave para crear y aplicar una tipología a las entregas:
+
+Campaign viene con un conjunto de valores predeterminados **Filtrado** y **Control** reglas:
+
+* **Filtrado** para excluir parte del objetivo según ciertos criterios. [Más información](filtering-rules.md).
+* **Control** las reglas permiten comprobar la validez de los mensajes antes de enviarlos. [Más información](control-rules.md).
+
+El complemento Campaign Optimization proporciona dos tipos adicionales de **reglas de tipología**:
+
+* Reglas de **presión**, que permiten controlar la fatiga de marketing. [Más información](pressure-rules.md).
+* Reglas de **capacidad** que permiten limitar las cargas para garantizar condiciones de procesamiento óptimas. [Más información](consistency-rules.md#controlling-capacity).
+
+
+>[!NOTE]
+>
+>Si está utilizando la variable **Interacción** para administrar ofertas, también puede crear **Presentación de la oferta** reglas de tipología para controlar el flujo de propuestas de ofertas mediante reglas de presentación. [Más información](../../v8/interaction/interaction-offer.md#offer-presentation).
+
+
+## Pasos clave para crear y utilizar tipologías {#apply-typologies}
+
+Para crear y utilizar una tipología para los envíos, siga los pasos a continuación:
 
 1. Cree reglas de tipología y una tipología para hacer referencia a ellas.
 Los pasos detallados se enumeran en la siguiente sección:
-   * [Reglas de presión](pressure-rules.md)
+
    * [Reglas de filtrado](filtering-rules.md)
-   * [Reglas de capacidad](consistency-rules.md)
    * [Reglas de control](control-rules.md)
+   * [Reglas de presión](pressure-rules.md)
+   * [Reglas de capacidad](consistency-rules.md)
 
 1. Configure su envío para utilizar la tipología creada. [Más información](apply-rules.md#apply-a-typology-to-a-delivery).
 1. Pruebe y controle el comportamiento a través de simulaciones de campañas. [Más información](campaign-simulations.md).
@@ -63,13 +79,11 @@ En [esta página](pressure-rules.md#use-cases-on-pressure-rules) se encuentran d
 
 En este vídeo se explica cómo implementar la administración de la fatiga en Adobe Campaign mediante reglas de tipología.
 
->[!VIDEO](https://video.tv.adobe.com/v/25090?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
 
 ### Configuración de la gestión de la fatiga mediante filtros predefinidos
 
 La administración de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de la campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población de destinatarios por el número de mensajes recibidos.
 En este vídeo se explica cómo implementar la administración de fatiga en Adobe Campaign mediante filtros.
 
->[!VIDEO](https://video.tv.adobe.com/v/25091?quality=12)
-
-
+>[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)
