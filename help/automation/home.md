@@ -5,7 +5,7 @@ title: Página principal de automatización de Adobe Campaign
 feature: Overview
 description: Información general
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
-source-git-commit: 612b3a4287a5ab880b7fd251cc2727586977fbde
+source-git-commit: d6ea8bef9c62d4afbc919110775ee99052eeed7a
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 38%
@@ -75,7 +75,6 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     <div>
     <a href="campaign-opt/campaign-typologies.md">Optimización de la campaña</a>
     </div>
-    <br>
     <br>
     <div>
     <a href="mrm/about-marketing-resource-management.md">Gestión de recursos de marketing (MRM)</a>
