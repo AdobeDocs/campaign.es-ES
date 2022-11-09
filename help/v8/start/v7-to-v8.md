@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+source-git-commit: c267bf2db7dfd524bf2b56c9ae48b42da37c0376
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 96%
+source-wordcount: '648'
+ht-degree: 93%
 
 ---
 
@@ -70,13 +70,12 @@ Con Adobe Campaign v8, los informes de cubo están optimizados y ofrecen mejores
 
 ## Funciones no disponibles{#gs-unavailable-features}
 
-Tenga en cuenta que algunas funciones aún no están disponibles en esta versión de Campaign, por ejemplo:
+Tenga en cuenta que algunas funciones no están disponibles en el contexto de un [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md) de Campaign, como:
 
 * Administración de recursos de marketing
 * Cupones
 * Seguimiento web
 * Encuestas
-
 
 ## Funciones no admitidas{#gs-removed}
 
