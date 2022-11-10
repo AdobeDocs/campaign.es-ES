@@ -2,7 +2,7 @@
 audience: user
 user-guide-title: Guía de automatización de Campaign
 user-guide-description: Guía de automatización de Campaign
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 86%
@@ -72,17 +72,17 @@ ht-degree: 86%
       + Actividades de acción {#action-activities}
          + [Lista de actividades de acción](workflow/action-activities.md)
          + [Administración de contenido](workflow/content-management.md)
-         + [Entrega continua](workflow/continuous-delivery.md)
-         + [Entregas multicanal](workflow/cross-channel-deliveries.md)
+         + [Envío continuo](workflow/continuous-delivery.md)
+         + [Envíos en canales múltiples](workflow/cross-channel-deliveries.md)
          + [Extracción de datos (archivo)](workflow/extraction--file-.md)
          + [Carga de datos (archivo)](workflow/data-loading--file-.md)
          + [Carga de datos (RDBMS)](workflow/data-loading--rdbms-.md)
-         + [Entrega](workflow/delivery.md)
-         + [Control de entregas](workflow/delivery-control.md)
+         + [Envío](workflow/delivery.md)
+         + [Control de envíos](workflow/delivery-control.md)
          + [Aprobación local](workflow/local-approval.md)
          + [Carga (SOAP)](workflow/loading-soap.md)
          + [Módulo Nlserver](workflow/nlserver-module.md)
-         + [Entrega recurrente](workflow/recurring-delivery.md)
+         + [Envío recurrente](workflow/recurring-delivery.md)
          + [Código SQL y código JavaScript](workflow/sql-code-and-javascript-code.md)
          + [Administración de datos SQL](workflow/sql-data-management.md)
          + [Actualización de agregado](workflow/update-aggregate.md)
@@ -95,11 +95,11 @@ ht-degree: 86%
          + [Descarga web](workflow/web-download.md)
    + Casos de uso {#use-cases}
       + [Acerca de los casos de uso de flujos de trabajo](workflow/workflow-use-cases.md)
-      + Entregas {#deliveries}
+      + Envíos {#deliveries}
          + [Uso de la actividad de aprobación local](workflow/local-approval-activity.md)
          + [Envío de un correo electrónico de cumpleaños](workflow/send-a-birthday-email.md)
-         + [Carga de contenido de entrega](workflow/load-delivery-content.md)
-         + [Flujo de trabajo de entrega en canales múltiples](workflow/cross-channel-delivery-workflow.md)
+         + [Carga de contenido de envíos](workflow/load-delivery-content.md)
+         + [Flujo de trabajo de envíos en canales múltiples](workflow/cross-channel-delivery-workflow.md)
          + [Enriquecimiento de correo electrónico con campos de datos personalizados](workflow/email-enrichment-with-custom-date-fields.md)
       + Monitorización {#monitoring}
          + [Envío de un informe a una lista](workflow/send-a-report-to-a-list.md)
@@ -116,7 +116,7 @@ ht-degree: 86%
          + [Actualización de lista trimestral con una consulta incremental](workflow/quarterly-list-update.md)
       + Consulta y filtro {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/querying-recipient-table.md)
-         + [Información de entrega de la consulta](workflow/query-delivery-info.md)
+         + [Consulta de la información de envío](workflow/query-delivery-info.md)
          + [Calcular agregados](workflow/compute-aggregates.md)
          + [Realización de consultas mediante la administración de agrupación](workflow/query-grouping-management.md)
          + [Realización de consultas con una relación de varios a varios](workflow/query-many-to-many-relationship.md)
@@ -136,7 +136,7 @@ ht-degree: 86%
    + [Introducción a las campañas de marketing](campaigns/set-up-campaigns.md)
    + [Creación de programas y campañas](campaigns/marketing-campaign-create.md)
    + [Creación y configuración de plantillas](campaigns/marketing-campaign-templates.md)
-   + [Adición de entregas](campaigns/marketing-campaign-deliveries.md)
+   + [Agregar envíos](campaigns/marketing-campaign-deliveries.md)
    + [Selección de la audiencia](campaigns/marketing-campaign-target.md)
    + [Administración de documentos y recursos](campaigns/marketing-campaign-assets.md)
    + [Configuración y administración de aprobaciones](campaigns/marketing-campaign-approval.md)
@@ -151,8 +151,8 @@ ht-degree: 86%
    + [Reglas de coherencia](campaign-opt/consistency-rules.md)
    + [Aplicación de reglas](campaign-opt/apply-rules.md)
    + [Simulaciones en Campaign](campaign-opt/campaign-simulations.md)
-+ Gestión de recursos de marketing {#mrm}
-   + [Introducción a la administración de recursos de marketing (MRM)](mrm/about-marketing-resource-management.md)
++ Administración de recursos de marketing (complemento){#mrm}
+   + [Introducción a la administración de recursos de marketing](mrm/about-marketing-resource-management.md)
    + [Creación y administración de tareas](mrm/creating-and-managing-tasks.md)
    + [Costes de control](mrm/controlling-costs.md)
    + [Administración de recursos de marketing](mrm/managing-marketing-resources.md)
