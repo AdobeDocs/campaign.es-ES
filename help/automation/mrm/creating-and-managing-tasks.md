@@ -2,10 +2,11 @@
 product: campaign
 title: Creación y administración de tareas
 description: Creación y administración de tareas
-source-git-commit: c835a96b315d2c68b64869082fc626243dd006e9
+exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
+source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
 workflow-type: tm+mt
-source-wordcount: '3703'
-ht-degree: 99%
+source-wordcount: '3740'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +22,7 @@ Todas las tareas se agrupan en una lista accesible a través de la pestaña **Ca
 
 Pueden mostrarse en la programación del programa al que pertenecen.
 
-![](assets/d_ncs_user_tasks_in_planning.png)
+![](assets/campaign-calendar.png)
 
 ## Tareas de acceso {#accessing-tasks}
 
@@ -29,113 +30,123 @@ Pueden mostrarse en la programación del programa al que pertenecen.
 
 Las tareas se muestran en la lista de tareas a la que se puede acceder mediante la pestaña **[!UICONTROL Campaigns]**.
 
-![](assets/s_ncs_user_task_edit_view.png)
+![](assets/campaign-task-dashboard.png)
 
-Puede ver todas las tareas del operador conectado.
+Puede ver todas las tareas del operador actual.
 
 Para obtener más información sobre esto, consulte [Ejecución del estado de una tarea](#execution-status-of-a-task) y [Progreso del estado de una tarea](#progress-status-of-a-task).
 
 ### Filtrar tareas {#filtering-tasks}
 
-Al mostrar esta vista, se filtra automáticamente para mostrar solo **[!UICONTROL operator tasks]**. También puede filtrar las tareas utilizando los campos de la parte superior de la ventana.
-
-![](assets/s_ncs_user_task_filter_from_view.png)
+Al mostrar esta vista, se filtra automáticamente para mostrar solo la variable **tareas del operador actual**. También puede filtrar las tareas utilizando los campos de la parte superior de la ventana.
 
 ### Editar tareas {#editing-tasks}
 
 Haga clic en una tarea para editarla.
 
-![](assets/s_ncs_user_task_edit_from_view.png)
+![](assets/edit-a-task.png)
 
 ## Creación de una tarea nueva {#creating-a-new-task}
 
-Para crear una tarea, haga clic en el vínculo **[!UICONTROL Tasks]** en la pestaña **[!UICONTROL Campaigns]** y seleccione **[!UICONTROL Create]**.
+Para crear una tarea, siga los pasos a continuación:
 
-![](assets/s_ncs_user_task_create_new.png)
+1. Vaya a la **[!UICONTROL Tasks]** en el **[!UICONTROL Campaigns]** y haga clic en **[!UICONTROL Create]**.
 
-Introduzca al menos el nombre de la tarea y seleccione la campaña a la que está vinculada. También debe especificar las fechas de inicio y finalización. Estos tres datos son obligatorios.
+   ![](assets/create-a-task-from-dashboard.png)
 
-Haga clic en **[!UICONTROL Save]** para crear la tarea.
+1. Introduzca el nombre de la tarea y seleccione la campaña a la que está vinculada.
+1. Establezca las fechas de inicio y finalización.
+1. Haga clic en **[!UICONTROL Save]** para crear la tarea.
 
-![](assets/s_ncs_user_task_create_simple.png)
+   ![](assets/new-task-edit.png)
 
 También puede crear una tarea a través del panel de una campaña: en este caso, se vincula automáticamente a la campaña a partir de la cual se creó.
 
-![](assets/s_ncs_user_task_create_new_from_op.png)
+![](assets/add-a-task-in-a-campaign.png)
 
-Después de crear una tarea, esta se agrega a la programación de campañas y a la lista de tareas. Para editar una tarea, selecciónela en la programación o haga clic en su nombre en la descripción general de la tarea y haga clic en el enlace **[!UICONTROL Open]**.
+Después de crear una tarea, esta se agrega a la programación de campañas, al panel de campañas y a la lista de tareas. Para editar una tarea, haga clic en su nombre en la lista de tareas o selecciónelo en la programación o en el panel de campañas y haga clic en **[!UICONTROL Open]**.
 
-![](assets/s_ncs_user_task_edit_simple.png)
+Una vez creada, puede configurar la tarea definiendo:
 
-Para configurarlo, debe indicar:
+* El administrador y los participantes. [Más información](#manager-and-participants)
+* La programación de creación. [Más información](#execution-schedule)
+* Los costes comprometidos. [Más información](#expenses-and-revenues)
 
-* El administrador y los participantes: consulte [Administrador y participantes](#manager-and-participants).
-* La programación de creación: consulte [Programación de ejecución](#execution-schedule).
-* Costes comprometidos: consulte [Gastos e ingresos](#expenses-and-revenues).
+También puede agregar [revisores](#reviewers) y [documentos de referencia](#documents-referenced).
 
-También es posible añadir revisores (consulte [Revisores](#reviewers)) y documentos de referencia (consulte [Documentos de referencia](#documents-referenced)).
-
-El ciclo de vida de la tarea se presenta en [Ciclo de vida](#life-cycle).
+El ciclo de vida de la tarea se presenta en [esta sección](#life-cycle).
 
 ### Administrador y participantes {#manager-and-participants}
 
-Solo el operador de cargo de una tarea está autorizado para cerrarla.
+De forma predeterminada, la tarea se asigna al operador que la creó. Se notifica a este operador cuando se requiere una acción para esa tarea.
 
-De forma predeterminada, cuando un operador de Adobe Campaign crea una tarea, se le asigna automáticamente. Para seleccionar un operador diferente, utilice el campo **[!UICONTROL Assigned to]**.
+Puede seleccionar un operador diferente del operador **[!UICONTROL Assigned to]** lista desplegable.
 
-![](assets/s_ncs_user_task_edit_simple_general_tab.png)
+![](assets/task-assigned-to.png)
 
 >[!NOTE]
 >
 >La administración del operador se detalla en [esta sección](../../v8/start/permissions.md).
+>
+>Solo el operador a cargo de una tarea puede cerrarla.
 
-Puede especificar los operadores implicados en la realización de la tarea. Estos operadores no están autorizados a cerrar la tarea. Solo pueden aprobar la tarea asignada.
+Puede especificar más operadores implicados en la realización de la tarea. No se permite que estos operadores cierren la tarea: solo pueden aprobar la tarea asignada.
 
-Se seleccionan utilizando el icono **[!UICONTROL Resources]** en la barra de herramientas de tareas. Haga clic en **[!UICONTROL Add]** y seleccione los operadores que le interesen.
+Para agregar operadores de tareas, siga los pasos a continuación:
 
-![](assets/s_ncs_user_task_add_resources.png)
+1. Haga clic en el **[!UICONTROL Resources]** en la barra de herramientas de tareas.
 
-Haga clic en **[!UICONTROL Ok]** y, a continuación, introduzca la tasa de uso: esto representa la carga asignada al operador durante la ejecución de la tarea. Esta tasa es solo indicativa y se expresa como un porcentaje.
+   ![](assets/add-task-resources.png)
 
-Por ejemplo, para una tarea cuya programación de ejecución esté configurada a 10 días, un operador cuya tasa de uso es del 50 % se moviliza en relación con esta tarea para la mitad de su jornada de trabajo durante los 10 días.
+1. Haga clic en **[!UICONTROL Add]** y seleccione los operadores que le interesen.
+1. Introduzca la tasa de uso: esto representa la carga de trabajo asignada al operador durante la ejecución de la tarea. Esta tasa es solo indicativa y se expresa como un porcentaje.
 
-Para cada operador, puede introducir una carga de trabajo programada y una carga de trabajo real. Estas duraciones también son únicamente para fines informativos.
+   ![](assets/define-operator-task-workload.png)
 
-Se puede configurar un recordatorio, que se envía automáticamente a todos los operadores implicados en la tarea antes de su fecha de finalización.
+   Por ejemplo, para una tarea cuya programación de ejecución esté configurada a 10 días, un operador cuya tasa de uso es del 50 % se moviliza en relación con esta tarea para la mitad de su jornada de trabajo durante los 10 días.
 
-Puede ver el perfil del operador de Adobe Campaign a través del icono **[!UICONTROL Edit link]**.
+   Para cada operador, puede introducir una carga de trabajo programada y una carga de trabajo real. Estas duraciones también son únicamente para fines informativos.
 
-![](assets/s_ncs_user_task_edit_resource_profile.png)
+1. Puede configurar un recordatorio desde el **[!UICONTROL Add a reminder...]** vínculo. Se enviará una notificación por correo electrónico a todos los operadores implicados en la tarea antes de su fecha de finalización.
+
+   ![](assets/task-op-add-a-reminder.png)
+
+1. También puede enviar una notificación antes de que se inicie la tarea. Para configurarlo, seleccione la fecha en la **[!UICONTROL Initial notification]** campo .
+1. Cuando se llega a la fecha de finalización y la tarea no se cierra, se puede enviar una notificación al usuario asignado o al grupo de destinatarios seleccionados en la **[!UICONTROL Assignee]** lista desplegable.
+
 
 El tablero del operador permite comprobar la carga de trabajo (otras tareas en curso).
 
-![](assets/s_ncs_user_task_edit_resource_planning.png)
+![](assets/operator-dashboard.png)
 
-### Revisores {#reviewers}
+### Aprobación de tareas {#reviewers}
 
-Además de los participantes, puede definir operadores que revisan la tarea una vez que la persona responsable la haya cerrado. Para ello, haga clic en la opción **[!UICONTROL Enable task approval]** de la sección inferior izquierda de la ventana **[!UICONTROL Resources]**. Puede ser un operador individual, un grupo de operadores o una lista de operadores.
+Además de los participantes, puede definir operadores que revisan la tarea una vez que se haya cerrado.
 
-![](assets/s_ncs_user_task_edit_resource_validation.png)
+Para ello, haga clic en el botón **[!UICONTROL Enable task approval]** en la sección inferior del **[!UICONTROL Resources]** ventana. Puede ser un operador individual, un grupo de operadores o una lista de operadores.
 
 Para especificar una lista de operadores, haga clic en el enlace **[!UICONTROL Edit...]** a la derecha del primer revisor y añada tantos operadores como sea necesario, como se muestra a continuación:
 
-![](assets/s_ncs_user_task_edit_resource_operators.png)
+![](assets/enable-task-approval.png)
 
-Puede definir una programación de aprobación para la tarea en la sección inferior de la ventana de configuración del revisor. De forma predeterminada, los revisores tienen tres días a partir de la fecha de envío para aprobar la tarea. Se puede configurar un recordatorio, que se envía a los operadores correspondientes automáticamente antes de la fecha límite de aprobación.
-
-![](assets/s_ncs_user_edit_op_valid_calendar.png)
+Puede definir una programación de aprobación para la tarea en la sección inferior de la ventana de configuración. De forma predeterminada, los revisores tienen tres días a partir de la fecha de envío para aprobar la tarea. También puede añadir un recordatorio, que se envía a los operadores correspondientes automáticamente antes de la fecha límite de aprobación.
 
 La persona responsable de la tarea puede asignarse la tarea de aprobarla, incluso si ya se han asignado otros operadores para hacerlo. Si no se ha definido ningún revisor, las notificaciones se envían a la persona responsable de la tarea. Todos los demás operadores de Adobe Campaign con derechos de **[!UICONTROL Administrator]** también pueden aprobar la tarea. Sin embargo, no reciben notificaciones.
 
 ### Documentos de referencia {#documents-referenced}
 
-Puede añadir [documentos y recursos de marketing](managing-marketing-resources.md) a una tarea. Para ello, abra la tarea y haga clic en el icono **[!UICONTROL Documents]** en la barra de herramientas de tareas.
+Puede añadir [documentos y recursos de marketing](managing-marketing-resources.md) a una tarea.
 
-Haga clic en **[!UICONTROL Add]** y seleccione el documento que desea añadir a la tarea. Aplique el mismo proceso para los recursos de marketing.
+Para realizar esto:
 
-![](assets/s_ncs_user_task_edit_documents.png)
+1. Abra la tarea y haga clic en el botón **[!UICONTROL Documents]** en la barra de herramientas de tareas.
 
-Los documentos de referencia aparecen en las notificaciones enviadas a los operadores implicados en la tarea, así como en el panel de tareas.
+   ![](assets/add-documents-to-a-task.png)
+
+1. Haga clic en **[!UICONTROL Add]** y seleccione el documento que desea añadir a la tarea. Aplique el mismo proceso para los recursos de marketing.
+
+
+Los documentos de referencia se añaden a las notificaciones enviadas a los operadores implicados en la tarea. También se añaden en el panel de tareas.
 
 ![](assets/s_ncs_user_task_notification_documents.png)
 
