@@ -7,9 +7,9 @@ level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: ad5444284a3886f02c97e94952898e1836c6b7c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3391'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ _28 de octubre de 2022_
 
 **Mejoras**
 
-* Se ha corregido un problema que impedía que el indicador de entrega de éxito se actualizara correctamente al usar el MTA mejorado de Adobe Campaign. (NEO-50462)
+* Se ha corregido un problema que impedía que el indicador de envío de éxito se actualizara correctamente al usar el MTA mejorado de Adobe Campaign. (NEO-50462)
 
 ## Versión 8.4.1 {#release-8-4-1}
 
