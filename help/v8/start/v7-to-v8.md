@@ -8,7 +8,7 @@ exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
 source-git-commit: c267bf2db7dfd524bf2b56c9ae48b42da37c0376
 workflow-type: tm+mt
 source-wordcount: '648'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ Como antiguo usuario de la versión 7 de [!DNL Campaign Classic], no debería su
 >
 >* Por ahora, Campaign v8 **solo** está disponible como servicio en la nube administrado y no se puede implementar en entornos locales o híbridos. [Más información](#cloud-services)
 >
->* La migración automatizada desde un entorno de Campaign Classic v7 existente aún no está disponible.
+>* La migración automatizada desde el entorno de la versión 7 de Campaign Classic existente aún no está disponible.
 
 
 
@@ -66,7 +66,7 @@ Los usuarios de Campaign solo se conectan mediante su Adobe ID. El mismo Adobe I
 
 Utilice el módulo Marketing Analytics para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Además, cree informes y genere poblaciones objetivo: una vez identificados, se almacenan en listas que se pueden utilizar en Adobe Campaign (direccionamiento, segmentación, etc.).
 
-Con Adobe Campaign v8, los informes de cubo están optimizados y ofrecen mejores prestaciones de escala que el Campaign Classic v7. En ese modelo de implementación específico, las anteriores limitaciones de los cubos no se aplican en la versión 8 de Campaign. Obtenga más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md).
+Los informes cubo de Adobe Campaign versión 8 están optimizados y disponen de mejores prestaciones de escalado que la versión 7 de Campaign Classic. En ese modelo de implementación específico, las anteriores limitaciones de los cubos no se aplican en la versión 8 de Campaign. Puede obtener más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md).
 
 ## Funciones no disponibles{#gs-unavailable-features}
 
