@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-description: Documentación de la versión 8 de Campaign v8
+description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
 source-git-commit: 43e515339a2483e82910603daf6009cad63eeeae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '474'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
    + [Documentación sobre la orquestación de Campaign](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es)
    + Envío de mensajes{#send}
       + [Introducción a los mensajes](start/create-message.md)
-      + [Trabajo con plantillas de entrega](send/create-templates.md)
+      + [Trabajo con plantillas de envío](send/create-templates.md)
       + Correos electrónicos {#emails}
          + [Diseño y validación de correos electrónicos](send/email.md)
          + [Envío y monitorización de correos electrónicos](send/send.md)
@@ -92,13 +92,13 @@ ht-degree: 93%
    + [Casos de uso](interaction/interaction-use-cases.md)
 + Creación de informes y análisis {#analytics}
    + [Seguimiento y monitorización](start/tracking.md)
-   + Trabajar con informes{#reports}
+   + Trabajo con informes{#reports}
       + [Introducción a los informes](reporting/gs-reporting.md)
       + Crear cubos{#cubes}
          + [Introducción a los cubos](reporting/gs-cubes.md)
-         + [Creación de un cubo](reporting/cube-indicators.md)
+         + [Crear un cubo](reporting/cube-indicators.md)
          + [Uso de cubos para crear informes](reporting/cube-tables.md)
-         + [Personalización de los cubos](reporting/customize-cubes.md)
+         + [Personalizar sus cubos](reporting/customize-cubes.md)
       + Informes integrados{#ac-reports}
          + [Lista de informes integrados](reporting/built-in-reports.md)
          + [Informes globales](reporting/global-reports.md)
