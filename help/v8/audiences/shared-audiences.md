@@ -7,9 +7,9 @@ level: Beginner
 hide: true
 hidefromtoc: true
 source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ Puede integrar **Adobe Campaign** con **Servicio principal Personas** o Adobe Au
 
 Esta integración es compatible con dos tipos de ID de Adobe Experience Cloud:
 
-* **ID de visitante**: este identificador concilia los visitantes de Adobe Experience Cloud con los destinatarios de Adobe Campaign.
-* **ID declarado**: este identificador concilia todos los tipos de datos con los elementos de la base de datos de Adobe Campaign. Constituye la clave de reconciliación predefinida en Adobe Campaign.
+* **ID de visitante**: este tipo de identificador concilia los visitantes de Adobe Experience Cloud con los destinatarios de Adobe Campaign.
+* **ID declarado**: este tipo de identificador concilia todo tipo de datos con los elementos de la base de datos de Adobe Campaign. Constituye la clave de reconciliación predefinida en Adobe Campaign.
 
    >[!NOTE]
    >
-   > La fuente de datos de ID declarada también se puede utilizar con la integración del servicio principal Personas.
+   > Ahora, la fuente de datos de ID declarado también se puede utilizar con la integración del servicio principal Personas.
    >
-   >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición al uso de esta fuente de datos de ID declarados en un contexto de Adobe Audience Manager.
+   >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición a la fuente de datos de ID declarado en un contexto de Adobe Audience Manager.
 
 Consulte:
 
