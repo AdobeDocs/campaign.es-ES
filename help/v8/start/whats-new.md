@@ -1,14 +1,14 @@
 ---
 title: Novedades de Campaign v8
-description: Descubra las funcionalidades clave en Campaign v8
+description: Descubra las funcionalidades clave en Adobe Campaign v8, las novedades y lo que puede esperar de la última versión.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 0d9acc431efddc500701996996f846132eeafcdb
-workflow-type: ht
-source-wordcount: '877'
-ht-degree: 100%
+source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+workflow-type: tm+mt
+source-wordcount: '889'
+ht-degree: 93%
 
 ---
 
