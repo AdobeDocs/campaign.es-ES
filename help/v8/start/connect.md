@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 12%
+source-wordcount: '823'
+ht-degree: 10%
 
 ---
 
@@ -27,7 +27,7 @@ Antes de empezar, debe:
 
 A partir de la versión de compilación de Campaign Classic 8.4, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de consola.
 
-La vista web se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el instalador de la consola de Campaign le pedirá que lo descargue de [Sitio web del desarrollador de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es). Tenga en cuenta que el vínculo de descarga no funciona en el explorador Internet Explorer 11, ya que Microsoft ha dejado de ofrecer soporte técnico. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
+La vista web se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el instalador de la consola de Campaign le pedirá que lo descargue de [Sitio web del desarrollador de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target=&quot;_blank&quot;}. Tenga en cuenta que el vínculo de descarga no funciona en el explorador Internet Explorer 11, ya que Microsoft ha dejado de ofrecer soporte técnico. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
 
 ## Descargar e instalar la consola de cliente{#download-ac-console}
 
@@ -35,7 +35,7 @@ Al utilizar Campaign por primera vez, o si necesita actualizar a una versión m�
 
 Hay dos opciones disponibles:
 
-1. Como administrador de Campaign, conéctese a Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) y descargue el programa de instalación de la consola de cliente. A continuación, puede instalarlo en el equipo local.
+1. Como administrador de Campaign, conéctese a Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target=&quot;_blank&quot;} y descargue el programa de instalación de la consola de cliente. A continuación, puede instalarlo en el equipo local.
 
 1. Como usuario final, Adobe puede implementar la consola: una vez que se actualice la consola, se le pedirá que descargue la última versión de la consola de cliente en una ventana emergente.
 
@@ -91,21 +91,18 @@ Para iniciar sesión en una instancia existente, siga los pasos a continuación:
 
 ## Conceder acceso a los usuarios{#grant-access}
 
-Adobe Campaign le permite definir y administrar los derechos asignados a los distintos operadores. Se trata de un conjunto de derechos y restricciones que autorizan o niegan:
-
-* Acceso a determinadas funciones (a través de los derechos asignados),
-* Acceso a ciertos elementos,
-* Cree, modifique o elimine elementos (envío, contactos, campañas, grupos, etc.).
-
-Obtenga más información sobre los usuarios y cómo definir sus permisos en [esta sección](permissions.md).
+Adobe Campaign le permite definir y administrar los derechos asignados a los distintos operadores.
 
 Como administrador de Campaign, usted es el responsable de crear los operadores y compartir sus credenciales con los usuarios.
+
+Obtenga más información sobre los usuarios y cómo definir sus permisos en [esta sección](gs-permissions.md).
+
 
 ## Conectarse a Campaign con su Adobe ID{#connect-ims}
 
 Los usuarios de Campaign se conectan a la consola de Adobe Campaign mediante su Adobe ID, a través del sistema Identity Management de Adobe (IMS). Pueden usar el mismo ID en todas las soluciones de Adobe. La conexión se guarda al usar Adobe Campaign con otras soluciones.
 
-Obtenga más información sobre Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html).
+Obtenga más información sobre Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html){target=&quot;_blank&quot;}.
 
 ## Acceso web{#web-access}
 

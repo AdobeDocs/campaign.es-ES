@@ -5,9 +5,9 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1091'
 ht-degree: 24%
 
 ---
@@ -26,7 +26,8 @@ Puede acceder a cuentas externas desde Adobe Campaign **[!UICONTROL Explorer]**:
 >[!CAUTION]
 >
 >En el contexto de un [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), un **[!UICONTROL Full FDA]** (ffda) la cuenta externa administra la conexión entre la base de datos local de Campaign y la base de datos de Cloud ([!DNL Snowflake]).
-></br>Como usuario de Cloud Services administrados, esta cuenta externa se configura para su instancia por Adobe. No debe modificarse.
+>
+>Como usuario de Cloud Services administrados, las cuentas externas se configuran para su instancia mediante Adobe y no se deben modificar.
 
 ## Cuentas externas específicas de la campaña
 
@@ -117,34 +118,37 @@ En el contexto de los mensajes transaccionales, las instancias de ejecución est
 
 * **Base de datos externa (FDA)**
 
-   Utilice la variable **Base de datos externa** escriba cuenta externa para conectarse a una base de datos externa a través de FDA.
+   La variable **Base de datos externa** La cuenta externa de tipo se utiliza para conectarse a una base de datos externa a través de Federated Data Access (FDA).
 
    Las bases de datos externas compatibles con Adobe Campaign v8 se enumeran en la sección [Matriz de compatibilidad](../start/compatibility-matrix.md)
 
    ![](../assets/do-not-localize/glass.png) Obtenga más información sobre la opción Acceso de datos federado (FDA) en [esta sección](../connect/fda.md).
 
+* **Twitter**
+
+   La variable **Twitter** La cuenta externa de tipo se utiliza para conectar Campaign a su cuenta de twitter y para publicar mensajes en su nombre.
+
+   ![](../assets/do-not-localize/glass.png) Obtenga más información sobre la integración de Twitter en [esta sección](../connect/ac-tw.md).
+
 ## Adobe Solución Integración Cuentas externas
 
 * **Adobe Experience Cloud**
 
-   La variable **[!UICONTROL Adobe Experience Cloud]** se utiliza la cuenta externa de implementación de Adobe IMS para conectarse a la consola de Adobe Campaign mediante un Adobe ID.
+   La variable **[!UICONTROL Adobe Experience Cloud]** la cuenta externa se utiliza para implementar el servicio Identity Management de Adobe (IMS) para conectarse a Adobe Campaign.
 
    ![](../assets/do-not-localize/glass.png) Obtenga más información sobre el servicio Identity Management de Adobe (IMS) en [esta sección](../start/connect.md#connect-ims).
 
 * **Web Analytics**
 
-   Utilice la variable **[!UICONTROL Web Analytics (Adobe Analytics)]** cuenta externa para configurar la transferencia de datos de Adobe Analytics a Adobe Campaign.
+   La variable **[!UICONTROL Web Analytics (Adobe Analytics)]** la cuenta externa se utiliza para configurar la transferencia de datos de Adobe Analytics a Adobe Campaign.
 
    ![](../assets/do-not-localize/glass.png) Obtenga más información sobre la integración de Adobe Campaign con Adobe Analytics en [esta página](../connect/ac-aa.md).
 
-   ![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para integrar Adobe Analytics con Campaign.
+* **Adobe Experience Manager**
 
-   * **Adobe Experience Manager**
    La cuenta externa **[!UICONTROL AEM]** permite administrar el contenido de los envíos de correos electrónicos y los formularios directamente en Adobe Experience Manager.
 
    ![](../assets/do-not-localize/glass.png) Obtenga más información sobre la integración de Adobe Campaign con Adobe Analytics en [esta página](../connect/ac-aem.md).
-
-   ![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para integrar Adobe Experience Manager con Adobe Campaign.
 
 
 ## Cuentas externas del conector CRM
