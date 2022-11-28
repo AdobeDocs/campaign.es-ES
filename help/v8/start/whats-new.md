@@ -1,20 +1,20 @@
 ---
-title: Novedades de Campaign v8
-description: Descubra las funcionalidades clave en Adobe Campaign v8, las novedades y lo que puede esperar de la última versión.
+title: Novedades de la versión 8 de Campaign
+description: Descubra las funcionalidades clave de la versión 8 de Adobe Campaign, sus novedades y lo que puede esperar de la última versión.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # ¿Qué novedades hay en la versión 8 de Adobe Campaign?  {#ac-gs-what-is-new}
 
-La versión 8 de Adobe Campaign está diseñada para especialistas en marketing en canales múltiples que necesitan la mejor solución de nube para la administración de campañas en canales múltiples a escala empresarial. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva de cualquier sistema de TI para cosas como restablecimiento de contraseña, confirmación de pedido, recepción electrónica y mucho más.
+La versión 8 de Adobe Campaign está diseñada para especialistas en marketing en canales múltiples que necesitan la mejor solución de nube para la administración de campañas en canales múltiples a escala empresarial. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva desde cualquier sistema de TI para tareas como restablecimiento de contraseñas, confirmación de pedidos, recibos electrónicos y mucho más.
 
 La versión 8 de Adobe Campaign ofrece mejoras significativas en infraestructura, seguridad, capacidad de envío y supervisión.
 
@@ -26,7 +26,7 @@ Las funciones clave incluyen las siguientes:
 
 * **Administración central del flujo de trabajo**. Mejora de la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta la entrega.
 
-   Adobe Campaign le permite sincronizar sus canales fácilmente con una interfaz única y fácil de usar para la organización de campañas. Así que sus canales en línea, como correo electrónico, web, móvil y social, coinciden con sus canales sin conexión, incluidos el correo directo, el centro de llamadas, las tiendas, etc. Le permite ofrecer a sus clientes una experiencia coherente y contextual tanto en los canales digitales como en los tradicionales. Adobe Campaign facilita la entrega de contenido a todas las rutas que puedan seguir sus clientes en cualquier canal.
+   Adobe Campaign le permite sincronizar sus canales fácilmente con una interfaz única y fácil de usar para la orquestación de campañas. Así que sus canales en línea, como correo electrónico, web, móvil y social, coinciden con sus canales sin conexión, incluidos el correo directo, el centro de llamadas, las tiendas, etc. Le permite ofrecer a sus clientes una experiencia coherente y contextual tanto en los canales digitales como en los tradicionales. Adobe Campaign facilita la entrega de contenido a todas las rutas que puedan seguir sus clientes en cualquier canal.
 
    ![](../assets/do-not-localize/glass.png)[Obtenga más información acerca de los flujos de trabajo de Campaign](../config/workflows.md)
 
