@@ -1,20 +1,20 @@
 ---
-title: Introducción a Campaign v8
-description: ¿Es nuevo en Adobe Campaign? Busque documentación sobre cómo poner en marcha el software y dónde comenzar con la interfaz.
+title: Introducción a la versión 8 de Campaign
+description: ¿Es nuevo en Adobe Campaign? Encuentre la documentación sobre cómo poner en marcha el software y dónde comenzar con la interfaz.
 feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
 source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '867'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Introducción a Adobe Campaign{#gs-ac-v8}
 
-Adobe Campaign ofrece una plataforma para diseñar experiencias multicanal para clientes, y proporciona un entorno para la organización visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
+Adobe Campaign ofrece una plataforma para diseñar experiencias multicanal para clientes, y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal.
 
 Utilice Campaign para lo siguiente:
 
