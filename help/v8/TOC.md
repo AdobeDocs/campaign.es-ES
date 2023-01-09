@@ -5,9 +5,9 @@ description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
 source-git-commit: a9f7bf9a976a7f3b5415c090c042f83a1bb64c24
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '487'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -128,8 +128,8 @@ ht-degree: 97%
    + Usuarios y permisos {#permissions}
       + [Introducción a los permisos](start/gs-permissions.md)
       + [Administrar permisos de usuario](start/manage-permissions.md)
-      + [Añadir permisos en carpetas](start/folder-permissions.md)
-   + [Panel de control de Campaign](config/self-service.md)
+      + [Agregar permisos en carpetas](start/folder-permissions.md)
+   + [Panel de control](config/self-service.md)
 + Arquitectura y configuración {#config}
    + Arquitectura {#architecture}
       + [Principios globales](architecture/general-architecture.md)
