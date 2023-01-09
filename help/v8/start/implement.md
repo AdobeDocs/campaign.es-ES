@@ -5,9 +5,9 @@ feature: Overview
 role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 9bea7904ea4507083d2cf45193877e7a2539d0c7
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 504b67ef9f20466e0d426b6a96f1dc4c6748d303
+workflow-type: tm+mt
+source-wordcount: '1157'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Conozca las directrices y los principios de seguridad con Adobe Campaign en la [
 
 Puede añadir usuarios manualmente a Campaign y asociarlos a grupos, alineados con la jerarquía de funciones. Los usuarios podrán entonces iniciar sesión y acceder a los datos y permisos adecuados para ellos.
 
-![](../assets/do-not-localize/book.png) Aprenda a añadir usuarios a [esta sección](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/permissions/access-management.html?lang=es#getting-started){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/glass.png) Aprenda a añadir usuarios a Adobe Campaign en [esta sección](../start/gs-permissions.md).
 
 ### Instalación de la consola del cliente de Campaign
 
