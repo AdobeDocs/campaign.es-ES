@@ -1,6 +1,6 @@
 ---
 title: Administración de suscripciones y bajas de suscripción en Campaign
-description: Obtenga información sobre cómo administrar suscripciones y bajas en Campaign v8.
+description: Obtenga información sobre cómo administrar suscripciones y bajas en la versión 8 de Campaign.
 feature: Subscriptions
 role: User
 level: Beginner

@@ -1,6 +1,6 @@
 ---
 title: Conexión a Campaign v8
-description: Obtenga información sobre cómo conectarse a Adobe Campaign v8 e instalar la consola en el equipo para facilitar el acceso.
+description: Aprenda a conectarse a Adobe Campaign versión 8 y a instalar la consola en su equipo para disfrutar de un acceso más sencillo.
 feature: Client Console
 role: User
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
 source-wordcount: '823'
-ht-degree: 10%
+ht-degree: 12%
 
 ---
 
