@@ -3,10 +3,11 @@ product: campaign
 title: Configuración de reglas de presión
 description: Aprenda a configurar las reglas de presión
 feature: Fatigue Management, Typology Rules
-source-git-commit: 86c37772eca9e3fffbeaa0e1d4d7de5590d8d277
+exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
+source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
 workflow-type: tm+mt
-source-wordcount: '3040'
-ht-degree: 94%
+source-wordcount: '3027'
+ht-degree: 95%
 
 ---
 
@@ -106,7 +107,7 @@ Puede indexar el número de mensajes autorizados según el segmento al que perte
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de segmentación: por ejemplo, para incluir mensajes enviados a los perfiles de destinatario almacenados en la tabla de visitantes (para obtener más información sobre la tabla de visitantes, consulte (esta sección)(survey/using/use-case—creating-a-reference-a-friend-form.md)) o para evitar que se envíe más de un mensaje por semana a la misma familia (que puede hacer referencia a varias direcciones de correo electrónico) identificada en una dimensión vinculada a los destinatarios.
+Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de segmentación: por ejemplo, para incluir mensajes entregados a los perfiles de destinatario almacenados en la variable [tabla de visitantes](../../v8/audiences/target-mappings.md) o para evitar enviar más de un mensaje por semana a la misma familia (que puede hacer referencia a varias direcciones de correo electrónico) identificada en una dimensión vinculada a la de los destinatarios.
 
 Para ello, seleccione la opción **[!UICONTROL Count messages on a linked dimension]** y luego seleccione al visitante o la tabla de contacto.
 
