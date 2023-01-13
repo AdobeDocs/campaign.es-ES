@@ -3,7 +3,8 @@ product: campaign
 title: Creación de campañas de marketing
 description: Obtenga información sobre cómo crear y ejecutar campañas de marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
+source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
 workflow-type: tm+mt
 source-wordcount: '1297'
 ht-degree: 58%
@@ -86,7 +87,7 @@ Todas estas acciones lo llevan al panel de campañas.
 
 Acceda a las secciones siguientes para aprender a configurar la campaña:
 
-* [Adición de entregas](marketing-campaign-deliveries.md)
+* [Agregar envíos](marketing-campaign-deliveries.md)
 * [Administrar recursos y documentos](marketing-campaign-assets.md)
 * [Crear la audiencia de destino](marketing-campaign-target.md)
 * [Configuración del proceso de aprobación](marketing-campaign-approval.md)
@@ -102,7 +103,7 @@ Para cada campaña, están disponibles las siguientes capacidades:
 * Documentos de referencia y recursos: puede asociar documentos con la campaña (resumen, informe, imágenes, etc.). Se admiten todos los formatos de documento. [Más información](marketing-campaign-deliveries.md#manage-associated-documents).
 * Defina los costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers--stocks-and-budgets.md#defining-cost-categories).
 * Definir objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza más adelante en los informes de campaña.
-* Administrar direcciones semilla y grupos de control. [Más información](marketing-campaign-deliveries.md#defining-a-control-group)).
+* Administrar direcciones semilla y grupos de control. [Más información](marketing-campaign-deliveries.md#defining-a-control-group).
 * Administrar aprobaciones: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
@@ -206,4 +207,3 @@ También puede utilizar el vínculo incluido en los mensajes de notificación. P
 Este vídeo muestra cómo crear planes, programas y campañas de marketing.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
-
