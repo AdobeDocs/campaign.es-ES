@@ -6,15 +6,15 @@ role: User, Admin, Developer
 level: Beginner, Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: a2c30979be786ce8374857eb270ba71ec0e1b2a3
-workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '1191'
+ht-degree: 100%
 
 ---
 
 # Directrices de implementación de Campaign{#gs-implementation}
 
-En esta sección, aprenda a ajustar Adobe Campaign a los requisitos de su empresa. Siga estas directrices para estructurar y organizar la implementación.
+En esta sección, aprenderá a ajustar Adobe Campaign a los requisitos de su compañía. Siga estas directrices para estructurar y organizar la implementación.
 
 1. **Definir configuración**: conceder acceso, compartir la consola del cliente, configurar canales (correo electrónico, push, sms). [Más información](#implementation-ac-settings)
 1. **Prepare su entorno**: importar perfiles, crear audiencias, diseñar plantillas de flujo de trabajo y campaña, crear reglas de tipología. [Más información](#implementation-prepare-your-env)
@@ -24,7 +24,7 @@ En esta sección, aprenda a ajustar Adobe Campaign a los requisitos de su empres
 
 >[!CAUTION]
 >
->con **Cloud Services administrados de Campaign**, el entorno y la configuración inicial se establecen por Adobe, según los términos del contrato de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
+>Con **Campaign Managed Cloud Services**, su entorno y la configuración inicial los establece Adobe, según los términos del acuerdo de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
 >
 >Si necesita utilizar un complemento de Campaign o una funcionalidad específica que no se haya aprovisionado por usted, debe ponerse en contacto con el **Servicio de atención al cliente de Adobe**.
 
@@ -38,11 +38,11 @@ Adobe Campaign incluye procesos y configuraciones que permiten utilizar Campaign
 
 * **Adquisición de datos**: Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y administre el consentimiento de sus destinatarios.
 
-   Obtenga más información en la [documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#data-acquisition){target=&quot;_blank&quot;}
+   Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#data-acquisition){target="_blank"}
 
 * **Consentimiento de usuario y retención de datos**: debe obtener el consentimiento del usuario, configurar mecanismos de suscripción de inclusión doble, facilitar la exclusión y configurar la retención de datos.
 
-   Obtenga más información en [Documentación de privacidad de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#consent){target=&quot;_blank&quot;}
+   Obtenga más información en la [documentación de privacidad de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#consent){target="_blank"}
 
 * **Reglamentos de protección de datos y privacidad**: consulte [esta sección](privacy.md) para obtener información sobre los requisitos de privacidad y cómo afectan estas regulaciones a su organización y a Adobe Campaign.
 
@@ -87,7 +87,7 @@ Antes de empezar a enviar mensajes y crear campañas de marketing, debe realizar
 
    ![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo configurar una plantilla de flujo de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es)
 
-   ![](../assets/do-not-localize/book.png) Obtenga más información acerca de las plantillas de correo electrónico en la [Documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Obtenga más información acerca de las plantillas de correo electrónico en la [Documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target="_blank"}
 
 
 1. **Configuración de reglas de tipología**
@@ -137,11 +137,11 @@ Puede personalizar muchas áreas y capacidades de Campaign diferentes. La mayor�
 
 Para organizar campañas de marketing complejas para distintas audiencias en varios canales, aproveche las capacidades de automatización de Campaign.
 
-* Uso **flujos de trabajo** para administrar procesos y datos. Obtenga más información en [esta documentación](../../automation/workflow/about-workflows.md)
+* Use **flujos de trabajo** para administrar procesos y datos. Obtenga más información en [esta documentación](../../automation/workflow/about-workflows.md)
 
-* Configuración **suscripción** procesos y **páginas de aterrizaje**.  Obtenga más información en [esta página](../start/subscriptions.md)
+* Configure procesos de **suscripción** y **páginas de aterrizaje**.  Obtenga más información en [esta página](../start/subscriptions.md)
 
-* Configurar **reglas de tipología** para definir la fatiga y la gestión de control.  Obtenga más información en [esta documentación](../../automation/campaign-opt/campaign-typologies.md)
+* Configure **reglas de tipología** para definir la fatiga y la gestión de control.  Obtenga más información en [esta documentación](../../automation/campaign-opt/campaign-typologies.md)
 
 
 ## Ampliación de la implementación{#implementation-extend}
