@@ -5,7 +5,7 @@ description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
 source-git-commit: 38c300555b847c9d1fd210d2fe60e4ffa1e314d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
    + [Preguntas frecuentes](start/campaign-faq.md)
 + Campaign Management {#campaigns}
    + [Introducción a las campañas](start/campaigns.md)
-   + [Organización de campañas >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es)
+   + [Orquestación de campañas >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es)
    + Envío de mensajes{#send}
       + [Introducción a los mensajes](start/create-message.md)
       + [Trabajo con plantillas de envío](send/create-templates.md)
