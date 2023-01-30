@@ -3,10 +3,11 @@ product: campaign
 title: Creación de una lista de resumen
 description: Creación de una lista de resumen
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 98%
+source-wordcount: '971'
+ht-degree: 99%
 
 ---
 
@@ -54,15 +55,13 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    La actividad **Recolección de archivos** permite recopilar y enviar archivos desde y hacia el servidor de Adobe Campaign.
 
-   La actividad **Carga de datos (archivo)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados.
+   La actividad **Carga de datos (archivo)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información sobre esta actividad, consulte [esta página](data-loading--file-.md).
 
-   Para obtener más información sobre esta actividad, consulte  .
-
-1. Configure las variables **Agrupamiento de archivos** actividad para recopilar texto (&#42;.txt) escriba archivos del directorio seleccionado.
+1. Configure la actividad **Recolector de ficheros** para recopilar archivos de texto (*.txt) &#42; del directorio seleccionado.
 
    ![](assets/uc2_enrich_collecteur.png)
 
-   La actividad **Recolección de archivos** permite administrar la ausencia de un archivo en el directorio de origen. Para ello, marque la opción **[!UICONTROL Process file nonexistence]**. En este flujo de trabajo se ha agregado una actividad de **Espera** para probar otra recopilación de archivos si no se encuentra en el directorio en el momento de la recopilación.
+   La actividad **Recolector de ficheros** permite administrar la ausencia de un archivo en el directorio fuente. Para ello, marque la opción **[!UICONTROL Process file nonexistence]**. En este flujo de trabajo se ha agregado una actividad de **Espera** para probar otra recopilación de archivos si no se encuentra en el directorio en el momento de la recopilación.
 
 1. Configure la actividad **Data loading (file)** con un archivo de muestra con el mismo formato que los datos que se desean importar.
 
