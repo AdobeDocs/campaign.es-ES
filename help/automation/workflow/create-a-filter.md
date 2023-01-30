@@ -3,22 +3,17 @@ product: campaign
 title: Creación de un filtro
 description: Aprenda a crear un filtro al realizar consultas
 feature: Query Editor, Workflows
-source-git-commit: 5cd75f18ac2f4e02f656fa016f61ba0c7c72670a
+exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 96%
+source-wordcount: '201'
+ht-degree: 100%
 
 ---
 
 # Creación de un filtro {#creating-a-filter}
 
-
-
 Los filtros disponibles en Adobe Campaign se definen mediante condiciones de filtrado que se crean con el mismo modo de funcionamiento que las consultas.
-
->[!NOTE]
->
->Para obtener más información sobre la creación de filtros, consulte .
 
 El nodo **[!UICONTROL Administration > Configuration > Predefined filters]** contiene todos los filtros utilizados en las listas y vistas generales.
 
