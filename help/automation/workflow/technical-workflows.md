@@ -4,10 +4,10 @@ title: Flujos de trabajo técnicos
 description: Obtenga más información sobre los flujos de trabajo técnicos disponibles con Campaign
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 92%
+source-wordcount: '1639'
+ht-degree: 93%
 
 ---
 
@@ -32,7 +32,7 @@ Puede crear otros flujos de trabajo técnicos en el nodo **[!UICONTROL Administr
 
 Las actividades ofrecidas son las mismas que para los flujos de trabajo de objetivos. [Más información](targeting-workflows.md)
 
-Los flujos de trabajo detallados en esta sección se instalan con los distintos paquetes integrados de Adobe Campaign. Estos paquetes, y los flujos de trabajo técnicos relacionados, dependen del acuerdo de licencia. Los paquetes integrados se detallan en .
+Los flujos de trabajo detallados en esta sección se instalan con los distintos paquetes integrados de Adobe Campaign. Estos paquetes, y los flujos de trabajo técnicos relacionados, dependen del acuerdo de licencia.
 
 De forma predeterminada, los flujos de trabajo técnicos están disponibles en una subcarpeta del siguiente nodo: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
@@ -55,7 +55,7 @@ Obtenga información sobre cómo monitorizar los flujos de trabajo técnicos en 
 | **Recopilación de datos para el servicio HeatMap** (collectDataHeatMapService) | Instalado de forma predeterminada | Este flujo de trabajo recupera los datos requeridos por el servicio HeatMap. |
 | **Recopilar solicitudes de privacidad** (collectPrivacyRequests) | Reglamento de protección de datos de privacidad | Este flujo de trabajo genera los datos del destinatario almacenados en Adobe Campaign y los hace disponibles para su descarga en la pantalla de la solicitud de privacidad. |
 | **Cálculo de costes** (budgetMgt) | Instalado de forma predeterminada | Este flujo de trabajo inicia el cálculo de las líneas de gastos y de costes sobre presupuestos, planes, programas, campañas, envíos y tareas. |
-| **Limpieza de base de datos** (cleanup) | Instalado de forma predeterminada | Este flujo de trabajo es el del mantenimiento de la base de datos: realiza diferentes cálculos en las estadísticas y procesos y elimina los datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada. Para obtener más información, consulte  . |
+| **Limpieza de base de datos** (cleanup) | Instalado de forma predeterminada | Este flujo de trabajo es el del mantenimiento de la base de datos: realiza diferentes cálculos en las estadísticas y procesos y elimina los datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada. |
 | **Eliminar usuarios de LINE bloqueados** (deleteBlockedLineUsersV2) | Canal LINE | Este flujo de trabajo garantiza que los datos de los usuarios de LINE V2 se eliminen después de haber bloqueado la cuenta oficial de LINE durante 180 días. |
 | **Eliminar datos de solicitudes de privacidad** (deletePrivacyRequestsData) | Reglamento de protección de datos de privacidad | Este flujo de trabajo elimina los datos del destinatario almacenados en Adobe Campaign. |
 | **Indicadores de envío** (deliveryIndicators) | Plataforma intermediaria | Este flujo de trabajo actualiza los indicadores de seguimiento de un envío para un envío. De forma predeterminada, este flujo de trabajo se activa cada hora. |
@@ -63,7 +63,7 @@ Obtenga información sobre cómo monitorizar los flujos de trabajo técnicos en 
 | **Depuración de eventos** (webAnalyticsPurgeWebEvents) | Conectores de análisis web | Este flujo de trabajo permite eliminar todos los eventos del campo de base de datos según el periodo configurado en el campo Lifespan. |
 | **Exportar audiencias a Adobe Experience Cloud** (exportSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo exporta audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. |
 | **Previsión**(previsión) | Entrega | Este flujo de trabajo analiza las entregadas guardadas en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada. |
-| **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Obtenga más información sobre los cubos en  [esta sección](../../v8/reporting/gs-cubes.md). |
+| **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Puede obtener más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md). |
 | **Identificación de contactos convertidos** (webAnalyticsFindConverted) | Conectores de análisis web | Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en el reporte de eficiencia de remarketing (consulte esta página). |
 | **Importar audiencias desde Adobe Experience Cloud** (importSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo permite importar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. |
 | **Trabajos en envíos en campañas** (deliveryMgt) | Instalado de forma predeterminada | Este flujo de trabajo activa los envíos aprobados e inicia el posprocesado del proveedor de servicios para un envío externo. También envía notificaciones de aprobación y recordatorios. |
@@ -73,7 +73,7 @@ Obtenga información sobre cómo monitorizar los flujos de trabajo técnicos en 
 | **Cálculo acumulado completo de MessageCenter** (agg_messageCenter_full) | Control de mensajes transaccionales (Centro de mensajes - Control) | Este flujo de trabajo actualiza el acumulado completo para el cubo Centro de mensajes. Se activa cada día a las 3 de la mañana de forma predeterminada. Este acumulado captura las siguientes dimensiones: canal, fecha, estado y tipo de evento. Luego se utiliza el cubo Centro de mensajes para generar informes basados en eventos. Puede obtener más información sobre los cubos en  |
 | **Intermediario (contadores de envíos)** (defaultMidSourcingDlv) | Transferir a Intermediario | Este flujo de trabajo recopila información de recuento para los envíos en el servidor intermediario. La información de recuento incluye indicadores de envío generales como el número de envíos realizados, etc. No se incluye la información de seguimiento como las aperturas. De forma predeterminada, se activa cada diez minutos. |
 | **Intermediario (registros de envío)** (defaultMidSourcingLog) | Transferir a Intermediario | Este flujo de trabajo recopila los registros de envío en el servidor intermediario. Se activa cada hora de forma predeterminada. |
-| **Administración de exclusión de NMAC** (mobileAppOptOutMgt) | Canal de aplicaciones móviles (Push) | Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. Para obtener más información, consulte . |
+| **Administración de exclusión de NMAC** (mobileAppOptOutMgt) | Canal de aplicaciones móviles (Push) | Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. |
 | **Notificación de ofertas** (offerMgt) | Instalado de forma predeterminada | Este flujo de trabajo implementa las ofertas aprobadas en el entorno en línea, así como todas las categorías incluidas en el catálogo de ofertas. |
 | **Limpieza de flujos de trabajo en pausa** (cleanupPausedWorkflows) | Instalado de forma predeterminada | Este flujo de trabajo analiza los flujos de trabajo en pausa con opción de gravedad definida en normal y activa las advertencias y notificaciones cuando dichos flujos llevan demasiado tiempo en pausa. Tras un mes, los flujos de trabajo técnicos en pausa se detienen de manera incondicional. De forma predeterminada, se activa todos los lunes a las 5 a. m. Para obtener más información, consulte [Gestión de flujos de trabajo en pausa](monitor-workflow-execution.md#handling-of-paused-workflows). |
 | **Limpieza de solicitud de privacidad** (cleanupPrivacyRequests) | Reglamento de protección de datos de privacidad | Este flujo de trabajo borra los archivos de solicitud de acceso anteriores a 90 días. |
