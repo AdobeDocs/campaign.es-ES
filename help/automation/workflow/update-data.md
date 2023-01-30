@@ -3,9 +3,10 @@ product: campaign
 title: Actualización de datos
 description: Descubra más información sobre la actividad del flujo de trabajo Actualización de datos
 feature: Workflows, Targeting Activity, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '841'
 ht-degree: 100%
 
 ---
@@ -99,7 +100,7 @@ La actualización de datos y la combinación de colecciones le permite actualiza
 
 1. Seleccione las colecciones que se van a mover al registro principal y los campos que se van a actualizar.
 
-   Introduzca las reglas que se aplican a estas una vez que se identifiquen uno o varios registros secundarios. Para ello, puede utilizar el generador de expresiones. Para obtener más información, consulte  . Por ejemplo, si especifica que es el valor actualizado más recientemente de todos los registros que se deben conservar.
+   Introduzca las reglas que se aplican a estas una vez que se identifiquen uno o varios registros secundarios. Para ello, puede utilizar el generador de expresiones. Por ejemplo, si especifica que es el valor actualizado más recientemente de todos los registros que se deben conservar.
 
    A continuación introduzca las condiciones para tener en cuenta la regla.
 
