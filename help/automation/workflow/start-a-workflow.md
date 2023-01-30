@@ -3,10 +3,11 @@ product: campaign
 title: Inicio de un flujo de trabajo
 description: Obtenga información sobre cómo iniciar un flujo de trabajo y descubra acciones de flujos de trabajo en la barra de herramientas y el menú que aparece al hacer clic con el botón derecho
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 98%
+source-wordcount: '742'
+ht-degree: 97%
 
 ---
 
@@ -26,7 +27,7 @@ A continuación se detalla la lista de opciones disponibles en el menú **[!UICO
 
 ## Barra de herramientas de acciones {#actions-toolbar}
 
-Los botones de la barra de herramientas se detallan en esta . El botón **[!UICONTROL Actions]** le permite acceder a opciones de ejecución adicionales para actuar sobre los flujos de trabajo seleccionados. También puede utilizar el menú **[!UICONTROL File > Actions]** o hacer clic con el botón derecho del ratón en un flujo de trabajo y seleccionar **[!UICONTROL Actions]**.
+La variable **[!UICONTROL Actions]** de la barra de herramientas permite acceder a opciones de ejecución adicionales en los flujos de trabajo seleccionados. También puede utilizar el menú **[!UICONTROL File > Actions]** o hacer clic con el botón derecho del ratón en un flujo de trabajo y seleccionar **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 
@@ -52,8 +53,6 @@ Los botones de la barra de herramientas se detallan en esta . El botón **[!UICO
 
    Esta acción detiene y reinicia el flujo de trabajo. En la mayoría de los casos, es posible reiniciarlo más rápido. También resulta útil automatizar el reinicio cuando la detención lleva una determinada cantidad de tiempo: esto sucede porque el comando “Detener” no está disponible cuando el flujo de trabajo se detiene.
 
-   La ** .
-
 * **[!UICONTROL Purge history]**
 
    Esta acción permite depurar el historial del flujo de trabajo. Para obtener más información, consulte [Depuración de “logs”](monitor-workflow-execution.md#purging-the-logs).
@@ -77,8 +76,6 @@ Los botones de la barra de herramientas se detallan en esta . El botón **[!UICO
 * **[!UICONTROL Save as template]**
 
    Esta acción crea una nueva plantilla de flujo de trabajo basada en el flujo de trabajo seleccionado. Debe especificar la carpeta donde desea que se guarde (en el campo **[!UICONTROL Folder]**).
-
-   La ** .
 
 ## Menú del botón derecho {#right-click-menu}
 
@@ -108,4 +105,3 @@ Las siguientes opciones están disponibles en el menú del botón derecho:
 >
 >Puede seleccionar un grupo de actividades y aplicar uno de estos comandos.
 
-El menú contextual del botón derecho también se detalla en esta sección .
