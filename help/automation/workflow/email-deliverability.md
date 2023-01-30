@@ -3,20 +3,17 @@ product: campaign
 title: Capacidad de entrega de correos electrónicos
 description: Descubra más información sobre el paquete Capacidad de entrega por correo electrónico
 feature: Workflows, Deliverability
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 92%
+source-wordcount: '92'
+ht-degree: 100%
 
 ---
 
 
 # Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico){#email-deliverability}
 
-
-
-El flujo de trabajo detallado a continuación se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Una vez que se haya instalado el paquete **Deliverability monitoring (Email Deliverability)**, este flujo de trabajo se ejecuta todas las noches. Para obtener más información sobre la monitorización de capacidad de envío, consulte esta sección .
-
+El flujo de trabajo detallado a continuación se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Una vez que se haya instalado el paquete **Deliverability monitoring (Email Deliverability)**, este flujo de trabajo se ejecuta todas las noches.
 <table> 
  <tbody> 
   <tr> 
