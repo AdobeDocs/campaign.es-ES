@@ -3,10 +3,10 @@ product: campaign
 title: Distributed Marketing
 description: Descubra más información sobre el paquete Distributed Marketing
 feature: Workflows, Data Management, Distributed Marketing
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '68'
-ht-degree: 88%
+source-wordcount: '69'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 
 
-El flujo de trabajo detallado a continuación se instala con el módulo **Distributed Marketing** de forma predeterminada. Para obtener más información sobre este módulo, consulte .
+El flujo de trabajo detallado a continuación se instala con el módulo **Distributed Marketing** de forma predeterminada. Para obtener más información sobre este módulo, consulte [esta sección](../distributed-marketing/about-distributed-marketing.md).
 
 <table> 
  <tbody> 
