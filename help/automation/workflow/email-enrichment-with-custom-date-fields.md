@@ -3,7 +3,8 @@ product: campaign
 title: Enriquecimiento de correo electrónico con campos de datos personalizados
 description: Descubra cómo enriquecer correos electrónicos con campos de datos personalizados
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 100%
@@ -106,7 +107,7 @@ Ahora puede empezar a diseñar su envío por correo electrónico con los campos 
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. Haga clic ![](assets/uc_enrichment_16.png) . Seleccione **[!UICONTROL Target extension]** y luego las fechas de validez personalizadas creadas anteriormente con la actividad **[!UICONTROL Enrichment]** para agregar la extensión a la expresión formatDate.
+1. Haga clic en ![](assets/uc_enrichment_16.png). Seleccione **[!UICONTROL Target extension]** y luego las fechas de validez personalizadas creadas anteriormente con la actividad **[!UICONTROL Enrichment]** para agregar la extensión a la expresión formatDate.
 
    ![](assets/uc_enrichment_19.png)
 
