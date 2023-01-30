@@ -3,9 +3,10 @@ product: campaign
 title: Entrega recurrente
 description: Descubra más información sobre la actividad del flujo de trabajo Entrega recurrente
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
@@ -28,7 +29,7 @@ Para ello:
 
 1. Configure la plantilla de envío.
 
-El proceso de configuración de esta actividad es similar a la creación de una plantilla de envío en términos de las opciones disponibles. Para obtener más información, consulte  .
+El proceso de configuración de esta actividad es similar a la creación de una plantilla de envío en términos de las opciones disponibles.
 
 Para ver un ejemplo de la actividad utilizada, consulte esta [sección](send-a-birthday-email.md#creating-a-recurring-delivery-in-a-targeting-workflow).
 
