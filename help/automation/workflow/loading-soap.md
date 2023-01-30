@@ -3,10 +3,11 @@ product: campaign
 title: Carga (SOAP)
 description: Carga (SOAP)
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 21c42a36-9a50-49b8-8a07-b041ba8b2026
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 95%
+source-wordcount: '229'
+ht-degree: 100%
 
 ---
 
@@ -39,8 +40,6 @@ La operación es la siguiente:
    ![](assets/soap_load_001.png)
 
    Si desea actualizar el ejemplo, seleccione **[!UICONTROL Re-analyze the example]**.
-
-   También puede personalizar el formato de los datos de la columna a través de ** .
 
 1. Puede utilizar el número de línea como identificador o especificar que la llamada SOAP devuelva varios elementos.
 1. Introduzca los siguientes scripts de pestañas según su función:
