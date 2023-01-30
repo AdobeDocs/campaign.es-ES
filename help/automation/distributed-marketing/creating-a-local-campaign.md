@@ -3,9 +3,10 @@ product: campaign
 title: Creación de una campaña local
 description: Creación de una campaña local
 feature: Distributed Marketing
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: b46530b5-cb81-40d7-b596-c7685359782a
+source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1554'
 ht-degree: 99%
 
 ---
@@ -68,7 +69,7 @@ Hay cuatro tipos de interfaces web disponibles:
 
    >[!NOTE]
    >
-   >La aplicación web utilizada es un ejemplo. Debe crear una aplicación web específica para poder utilizar un formulario. Consulte  .
+   >La aplicación web utilizada es un ejemplo. Debe crear una aplicación web específica para poder utilizar un formulario.
 
    ![](assets/mkt_distr_7.png)
 
@@ -155,7 +156,7 @@ Guarde la plantilla de campaña. Ahora puede usarlo desde la vista **[!UICONTROL
 
 >[!NOTE]
 >
->Las plantillas de campaña y la configuración general se describen en  .
+>Las plantillas de campaña y su configuración general se detallan en [esta página](../campaigns/marketing-campaign-templates.md).
 
 ## Creación del paquete de campaña {#creating-the-campaign-package}
 
@@ -235,10 +236,6 @@ Para solicitar una campaña:
 1. En el mensaje de notificación, haga clic en **[!UICONTROL Order campaign]** o en el botón correspondiente de Adobe Campaign.
 
    Introduzca su ID y contraseña para solicitar la campaña. La interfaz está formada por un conjunto de páginas definidas en una aplicación web.
-
-   >[!NOTE]
-   >
-   >Las aplicaciones web se detallan en .
 
 1. Introduzca la información necesaria en la primera página (etiqueta de orden y comentario) y haga clic en **[!UICONTROL Next]**.
 
