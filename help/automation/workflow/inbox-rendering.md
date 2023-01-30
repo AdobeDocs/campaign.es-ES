@@ -3,10 +3,10 @@ product: campaign
 title: Flujo de trabajo técnico de renderización de la bandeja de entrada
 description: En esta sección se describe el flujo de trabajo técnico instalado con el paquete de renderización de la bandeja de entrada
 feature: Workflows, Inbox Rendering
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 88%
+source-wordcount: '64'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 
 
-El flujo de trabajo detallado a continuación se instala con el módulo **Renderización de la bandeja de entrada (IR)** de forma predeterminada. Para obtener más información sobre la renderización de la bandeja de entrada, consulte esta sección .
+El flujo de trabajo detallado a continuación se instala con el módulo **Renderización de la bandeja de entrada (IR)** de forma predeterminada.
 
 <table> 
  <tbody> 
