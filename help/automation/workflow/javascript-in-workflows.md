@@ -4,9 +4,9 @@ title: Ejemplos de código JavaScript en flujos de trabajo
 description: Estos ejemplos muestran cómo se puede utilizar código JavaScript en un flujo de trabajo
 feature: Workflows
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1752'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Para escribir en la base de datos, puede utilizar el método estático `Write` e
    1. Llame al método `Write` en el esquema `xtk:session`.
 
       >[!IMPORTANT]
-      > Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=es){target=&quot;_blank&quot;}.
+      > Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=es){target="_blank"}.
 
    1. Pase el código XML como argumento para la solicitud de escritura.
 
@@ -78,7 +78,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Actualización de un registro
 
-Utilice la operación `_update`.  .
+Utilice la operación `_update`. 
 
 Especifique esta información como atributos XML:
 
@@ -560,7 +560,7 @@ Puede insertar, actualizar y eliminar registros. Puede usar el método `Write` e
 * La operación `delete`
 
 >[!IMPORTANT]
-> Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html){target=&quot;_blank&quot;}.
+> Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/docs/campaign/campaign-v8/architecture/api/new-apis.html?lang=es){target="_blank"}.
 
 #### Ejemplo 1: insertar o actualizar un registro
 
@@ -610,11 +610,11 @@ Este vídeo muestra un ejemplo del uso de un método de API no estático en un f
 
 ### Documentación de API
 
-* [Ejemplos de llamadas SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html)
+* [Ejemplos de llamadas SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es)
 * Métodos:
-   * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html)
-   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html)
-   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html)
-   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html)
+   * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=es)
+   * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=es)
+   * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=es)
+   * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=es)
    * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=es)
-* [función logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html)
+* [función logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=es)
