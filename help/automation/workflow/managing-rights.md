@@ -3,9 +3,10 @@ product: campaign
 title: Administración de permisos de flujo de trabajo
 description: Obtenga información sobre cómo administrar los permisos de flujo de trabajo
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3cb8aeec-e758-4b71-adef-67942cf9ded7
+source-git-commit: bff7d1d51b9847c515670e5594eed513fefbe816
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '321'
 ht-degree: 96%
 
 ---
@@ -20,7 +21,7 @@ En términos generales, los operadores que intervienen en los flujos de trabajo 
 
 También se deben asignar a los derechos con un nombre que coincida con las acciones realizadas por los flujos de trabajo a los que afectan (importación de destinatarios, acceso a archivos, fusión, ejecución de secuencias de comandos SQL, etc.).
 
-Para obtener más información sobre la administración de operadores y permisos, consulte esta sección .
+Para obtener más información sobre la administración de operadores y permisos, consulte [esta sección](../../v8/start/gs-permissions.md).
 
 ## Grupos de operadores {#operator-groups-wf}
 
