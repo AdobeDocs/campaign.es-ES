@@ -3,10 +3,11 @@ product: campaign
 title: Definición de aprobaciones
 description: Las aprobaciones permiten a los operadores tomar las decisiones que rigen los flujos de trabajo o confirmar su ejecución continuada
 feature: Approvals
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 8ac159c1-fd2e-4fb9-8275-18154f6f210c
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 100%
 
 ---
 
@@ -26,8 +27,6 @@ En las operaciones, todas las etapas que requieren aprobación se basan en el mi
 
 ![](assets/validation-1-in-op.png)
 
-Se pueden encontrar ejemplos de aprobación en .
-
 Un operador puede responder de una de estas dos maneras: validar mediante la página web vinculada en el mensaje de correo electrónico o a través de la consola.
 
 >[!NOTE]
@@ -36,9 +35,7 @@ Un operador puede responder de una de estas dos maneras: validar mediante la pá
 
 ## Aprobaciones por correo electrónico {#sending-emails}
 
-Es posible recibir un mensaje de aprobación que contenga un vínculo a una página web a través de la cual se puede responder. Para que el operador de destino reciba un correo electrónico de aprobación, se debe haber rellenado la dirección de correo electrónico del operador. Si no es así, el operador debe utilizar la consola para responder
-
-La administración del operador se detalla en esta sección .
+Es posible recibir un mensaje de aprobación que contenga un vínculo a una página web a través de la cual se puede responder. Para que el operador de destino reciba un correo electrónico de aprobación, se debe haber rellenado la dirección de correo electrónico del operador. Si no es así, el operador debe utilizar la consola para responder.
 
 Los correos electrónicos de aprobación se envían de forma continua. La plantilla de entrega predeterminada es **[!UICONTROL notifyAssignee]**: se guarda en la carpeta **[!UICONTROL Administration > Campaign management > Technical delivery templates]**. Este escenario se puede personalizar, y se recomienda realizar una copia y cambiar las plantillas para cada actividad.
 
