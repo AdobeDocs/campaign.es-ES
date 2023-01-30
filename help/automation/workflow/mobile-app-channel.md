@@ -3,19 +3,17 @@ product: campaign
 title: Canal de aplicaciones móviles
 description: Canal de aplicaciones móviles
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '63'
-ht-degree: 87%
+source-wordcount: '64'
+ht-degree: 85%
 
 ---
 
 
 # Canal de aplicaciones móviles{#mobile-app-channel}
 
-
-
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Mobile App Channel** de forma predeterminada. Para obtener más información sobre este módulo, consulte .
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Mobile App Channel** de forma predeterminada. Para obtener más información sobre este módulo, consulte [esta sección](../../v8/send/push.md).
 
 <table> 
  <tbody> 
