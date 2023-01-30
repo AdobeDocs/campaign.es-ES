@@ -3,20 +3,17 @@ product: campaign
 title: Administración de zonas horarias
 description: Administración de zonas horarias
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 04b7638d-55dd-4317-b605-5d618ef014ba
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 96%
+source-wordcount: '266'
+ht-degree: 100%
 
 ---
 
 # Administración de zonas horarias{#managing-time-zones}
 
-
-
 Adobe Campaign le permite administrar desfases temporales entre los distintos países de la misma instancia. La configuración aplicada se configura durante la creación de instancias.
-
-Para obtener más información sobre la configuración de zonas horarias en Adobe Campaign, consulte .
 
 En un flujo de trabajo, puede adaptar las programaciones de ejecución de una actividad y vincular una zona horaria específica a una actividad o a todo el flujo de trabajo. Esta configuración puede resultar útil al importar el archivo o en el contexto de la programación de envíos.
 
