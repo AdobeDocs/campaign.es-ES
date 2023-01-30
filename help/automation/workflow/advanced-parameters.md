@@ -3,10 +3,11 @@ product: campaign
 title: Parámetros avanzados
 description: Parámetros avanzados
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: aafd977e-c8af-426b-904c-8388c9d8e595
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 98%
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
@@ -47,8 +48,6 @@ Generalmente, estas opciones se seleccionan en el carro haciendo clic con el bot
 ## Afinidad {#affinity}
 
 Puede optar por forzar la ejecución de un flujo de trabajo o actividad de flujo de trabajo en un equipo concreto. Para ello, debe definir una o más tendencias al nivel del flujo de trabajo o la actividad pertinente.
-
-La configuración del flujo de trabajo de alta disponibilidad se detalla en esta sección .
 
 
 ## Máx. periodo de ejecución {#max--execution-period}
