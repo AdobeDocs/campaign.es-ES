@@ -3,20 +3,17 @@ product: campaign
 title: Mapa de calor del flujo de trabajo de Campaign
 description: Monitorice los flujos de trabajo con el mapa de calor del flujo de trabajo
 feature: Workflows, Heatmap
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 97%
+source-wordcount: '1094'
+ht-degree: 99%
 
 ---
 
 # Mapa de calor del flujo de trabajo {#workflow-heatmap}
 
-
-
 El mapa de calor del flujo de trabajo de Campaign consiste en una representación gráfica con códigos de color de todos los flujos de trabajo que se están ejecutando actualmente. Solo está disponible para **Administradores de Campaign**.
-
-Descubra formas adicionales de monitorizar los procesos de Campaign en .
 
 ## Introducción al mapa de calor del flujo de trabajo {#about-the-workflow-heatmap}
 
@@ -52,8 +49,7 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
    De forma predeterminada, la página muestra la actividad de flujo de trabajo del día actual. Puede cambiarlo y seleccionar cualquier día del pasado.
 
    >[!NOTE]
-   >
-   >Solo los flujos de trabajo que no han sido eliminados por el ** .\
+   > 
    >De forma predeterminada, la zona horaria de mapa de calor del flujo de trabajo es la definida para el usuario administrador actual. Por ejemplo: puede que desee cambiarlo si no se encuentra en el mismo área que los usuarios de mercadotecnia con los que está trabajando.
 
 1. Haga clic en el botón **[!UICONTROL Filters]**.
