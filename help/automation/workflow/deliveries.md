@@ -3,10 +3,10 @@ product: campaign
 title: Entregas
 description: Descubra más información sobre los flujos de trabajo Entregas
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 98%
+source-wordcount: '316'
+ht-degree: 100%
 
 ---
 
@@ -47,22 +47,22 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **En
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 
    <td> <span class="uicontrol">cleanup</span> <br /> </td> 
-   <td> <p>Este flujo de trabajo es el del mantenimiento de la base de datos: realiza diferentes cálculos en las estadísticas y procesos y elimina los datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada.</p> <p>Para obtener más información, consulte .</p> </td> 
+   <td> <p>Este flujo de trabajo es el del mantenimiento de la base de datos: realiza diferentes cálculos en las estadísticas y procesos y elimina los datos obsoletos de la base de datos según la configuración definida en el asistente de implementación. Se activa cada día a las 4 a. m. de manera predeterminada.</p></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Paused workflows cleanup</span> <br /> </td> 
+   <td> <span class="uicontrol">Limpieza de flujos de trabajo en pausa</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
    <td> <p>Este flujo de trabajo analiza los flujos de trabajo en pausa con opción de gravedad definida en normal y activa las advertencias y notificaciones cuando dichos flujos llevan demasiado tiempo en pausa. Tras un mes, los flujos de trabajo técnicos en pausa se detienen de manera incondicional. De forma predeterminada, se activa todos los lunes a las 5 a. m.</p> <p>Para obtener más información, consulte Gestión de flujos de trabajo en pausa</a>.</p></td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Offer notification</span> <br /> </td> 
+   <td> <span class="uicontrol">Notificación de oferta</span> <br /> </td> 
    <td> <span class="uicontrol">offerMgt</span> <br /> </td> 
    <td> Este flujo de trabajo implementa las ofertas aprobadas en el entorno en línea, así como todas las categorías incluidas en el catálogo de ofertas.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Previsión</span> <br /> </td> 
    <td> <span class="uicontrol">previsión</span> <br /> </td> 
-   <td> Este flujo de trabajo analiza las entregas guardados en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada.<br /> </td> 
+   <td> Este flujo de trabajo analiza las entregadas guardadas en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Seguimiento</span> <br /> </td> 
