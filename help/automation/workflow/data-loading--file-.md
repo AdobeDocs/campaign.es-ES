@@ -3,9 +3,10 @@ product: campaign
 title: Carga de datos (archivos)
 description: Descubra más información sobre la actividad del flujo de trabajo Carga de datos (archivos)
 feature: Workflows, Data Management Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1029'
 ht-degree: 100%
 
 ---
@@ -31,8 +32,6 @@ La sección superior de la ventana de configuración de esta actividad permite d
 Puede definir un proceso previo para que se ejecute durante la importación de archivos, por ejemplo, para que no tenga que descomprimir el archivo en el servidor (y, por lo tanto, ahorrar espacio para el archivo descomprimido), y para incluir la descompresión en el procesamiento de archivos. Seleccione la opción **[!UICONTROL Pre-process the file]** y elija una de las 3 opciones: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) o **[!UICONTROL Decrypt]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
-
-Para obtener más información, consulte esta sección:  .
 
 ## Definición del formato del archivo {#defining-the-file-format}
 
@@ -110,7 +109,7 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
    * la primera columna contiene un código que coincide con el evento: compra (más o menos que 3000 euros), sin compras ni reembolsos en una o más compras.
    * Las cuatro columnas siguientes contienen el nombre, apellido, correo electrónico y número de cuenta del cliente.
 
-   La configuración del formato del archivo que se va a cargar coincide con el definido durante una importación de datos en Adobe Campaign. Para obtener más información, consulte  .
+   La configuración del formato del archivo que se va a cargar coincide con el definido durante una importación de datos en Adobe Campaign.
 
 1. En la actividad dividida, especifique los subconjuntos que desea crear, según el valor de la columna **Event**.
 
