@@ -3,10 +3,11 @@ product: campaign
 title: Consulta
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta
 feature: Workflows, Targeting Activity, Query Editor
-source-git-commit: 8d9b8d3e31362c2d69ec0fc6f16ab375538d7f10
+exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1568'
-ht-degree: 98%
+source-wordcount: '1545'
+ht-degree: 100%
 
 ---
 
@@ -41,15 +42,13 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
 1. Defina las poblaciones mediante el asistente. Los campos que se van a introducir pueden variar según el tipo de destino. Puede obtener una vista previa de la población objetivo con los criterios actuales en la pestaña **[!UICONTROL Preview]**.
 
-   Para obtener más información sobre la creación y el uso de filtros o consultas, consulte esta sección .
-
    ![](assets/query-sample.png)
 
 1. Si ha seleccionado **[!UICONTROL Filtering conditions]** en el paso 1 o si utiliza la opción **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]**, debe añadir manualmente los criterios de filtrado.
 
    También puede agregar condiciones de agrupación de datos marcando el cuadro correspondiente. Para ello, la dimensión del filtro debe ser diferente a la dimensión de objetivos de la consulta. Para obtener más información sobre la agrupación, consulte esta [sección](query-grouping-management.md).
 
-   También puede agregar más criterios utilizando el generador de expresiones y combinándolo con las opciones lógicas AND, OR y EXCEPT. A continuación, puede obtener una vista previa del ** .
+   También puede agregar más criterios utilizando el generador de expresiones y combinándolo con las opciones lógicas AND, OR y EXCEPT.
 
    Guarde el filtro si desea volver a utilizarlo más tarde.
 
@@ -181,8 +180,6 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 
 * Tenga cuidado con funciones como `Lower(...)`. Cuando se utiliza la función Lower, no se utiliza Index.
 * Compruebe las consultas utilizando la instrucción “like” o las instrucciones “upper” o “lower” cuidadosamente. Aplique “Upper” en la entrada del usuario, no en el campo de la base de datos.
-
-   Para obtener más información sobre las funciones, consulte .
 
 ### Filtrado de dimensiones {#filtering-dimensions}
 
