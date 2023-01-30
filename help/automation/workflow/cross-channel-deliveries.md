@@ -3,10 +3,11 @@ product: campaign
 title: Entregas multicanal
 description: Descubra más información sobre las entregas multicanal
 feature: Workflows, Channels Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 76%
+source-wordcount: '249'
+ht-degree: 78%
 
 ---
 
@@ -37,14 +38,14 @@ En el siguiente ejemplo, aprenda a crear un flujo de trabajo para enviar un corr
 1. Añada una actividad **[!UICONTROL Split]** al flujo de trabajo para dividir los destinatarios que tienen número de móvil y aquellos que tienen dirección de correo electrónico.
 1. En la pestaña **[!UICONTROL Delivery]**, seleccione una entrega para cada uno de sus destinatarios.
 
-   Cree su envío de la misma manera que con el asistente de envíos clásico haciendo doble clic en la actividad de envío del flujo de trabajo. Para obtener más información, consulte  .
+   Cree su envío de la misma manera que con el asistente de envíos clásico haciendo doble clic en la actividad de envío del flujo de trabajo.
 
    ![](assets/cross_channel_delivery_3.png)
 
 1. Añada y configure una actividad **[!UICONTROL Wait]** para que los destinatarios no reciban demasiados envíos a la vez.
 1. Añada una actividad **[!UICONTROL Split]** para dividir los suscriptores de aplicaciones móviles iOS o Android.
 
-   Seleccione un servicio para cada uno de los sistemas operativos. Para obtener más información sobre la creación de servicios, consulte esta sección .
+   Seleccione un servicio para cada uno de los sistemas operativos.
 
    ![](assets/cross_channel_delivery_4.png)
 
