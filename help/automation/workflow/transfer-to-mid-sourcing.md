@@ -3,19 +3,17 @@ product: campaign
 title: Transfer to Mid-sourcing
 description: Descubra más información sobre los flujos de trabajo Transfer to Mid-sourcing
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 93%
+source-wordcount: '95'
+ht-degree: 100%
 
 ---
 
 
 # Transferir a intermediario{#transfer-to-mid-sourcing}
 
-
-
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Transferir a intermediario** de forma predeterminada. Para obtener más información sobre este módulo, consulte .
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Transferir a intermediario** de forma predeterminada.
 
 <table> 
  <tbody> 
