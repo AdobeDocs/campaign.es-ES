@@ -3,20 +3,17 @@ product: campaign
 title: Descripción de la entrega
 description: Descubra más información sobre la actividad del flujo de trabajo Descripción de la entrega
 feature: Workflows, Targeting Activity
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 3c06b329-b2d8-4ac8-ab9b-3ab3e525d109
+source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 91%
+source-wordcount: '243'
+ht-degree: 100%
 
 ---
 
 # Descripción del envío{#delivery-outline}
 
-
-
 La **descripción de la entrega** permite utilizar una descripción en un flujo de trabajo de la campaña. El esquema debe haberse creado con anterioridad en la campaña.
-
-Para obtener más información sobre los esquemas de entrega en Adobe Campaign, consulte esta sección .
 
 Para configurar la actividad, simplemente se debe seleccionar el esquema que desee y la fecha de contacto planificada. Se pueden agregar reglas de filtrado añadiendo tipologías o reglas tipológicas.
 
@@ -30,9 +27,6 @@ La actividad **Descripción de entrega**, disponible en los flujos de trabajo de
 
 1. En un flujo de trabajo, añada una actividad de descripción de la entrega antes de añadir una de entrega.
 1. En la actividad del esquema de entrega, especifique el que desee utilizar.
-
-   Para obtener más información sobre esquemas de entrega específicos, consulte esta sección .
-
 1. Rellene los campos disponibles en función de la entrega.
 1. Hay dos casos posibles:
 
