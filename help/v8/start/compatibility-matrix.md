@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: 00d95425ca9438cd03b27bbec171aa7c57d25d6f
+source-git-commit: 90dde8bb3bde4893971a2f364aa636ade6fff10f
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 93%
+source-wordcount: '367'
+ht-degree: 89%
 
 ---
 
@@ -37,9 +37,9 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 
 ### Explorador web{#web-browsers}
 
-* Microsoft Edge
+* **Microsoft Edge**
 
-* Tiempo de ejecución de Microsoft Edge WebView2, versión más reciente. Descárguelo desde [Sitio para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}.
+* **Microsoft Edge WebView2**, la última versión. Descárguelo desde [Sitio para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}.
 
 ## Conectores CRM{#CRMconnectors}
 
@@ -61,8 +61,8 @@ A continuación, se enumeran las bases de datos externas compatibles con el mód
 
 Puede utilizar Campaign para enviar [notificaciones push](../send/push.md) a los sistemas operativos que se enumeran a continuación mediante el SDK móvil asociado.
 
-* **Android** 12 (a partir de la versión 8.3 de Campaign), 9.0, 8.x, 7.x, con la compilación 1.1.1 del SDK de Android de Campaign.
-* **iOS de Apple** 9 - 16 con la compilación 1.0.26 del iOS SDK de Campaign, compatible con las versiones de 32 y 64 bits. iOS 16 es compatible a partir de la versión 8.4 de Campaign.
+* **Android** 12, 9.0, 8.x, 7.x, con la versión 1.1.1 del SDK para Android de Campaign.
+* **iOS de Apple** 9 - 16 con la compilación 1.0.26 del iOS SDK de Campaign, compatible con las versiones de 32 y 64 bits. Apple iOS 16 es compatible a partir de Campaign v8.4.
 
 
 ## Acceso web{#web-access}
