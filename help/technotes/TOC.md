@@ -7,8 +7,8 @@ breadcrumb-title: Notas técnicas de Campaign
 title: Notas técnicas de campaña
 source-git-commit: 99b8b36deba39323f59755a3ed1f935a831f93d9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '33'
+ht-degree: 39%
 
 ---
 

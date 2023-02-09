@@ -3,7 +3,8 @@ product: campaign
 title: Acerca de las actividades de segmentación
 description: Acerca de las actividades de segmentación
 feature: Workflows, Audiences, Targeting Activity
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: e89c9f20-fc10-421f-9c14-2e33be562a8d
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 81%
@@ -34,4 +35,3 @@ Estas actividades permiten crear uno o más objetivos definiendo conjuntos y div
 * **[Servicios de suscripción](subscription-services.md)**: permite administrar las suscripciones de destino y las bajas de suscripción a un servicio informativo.
 * **[Union](union.md)**: permite agrupar el resultado de varias actividades en un solo destino.
 * **[Update data](update-data.md)**: permite actualizar los datos en la base de datos.
-

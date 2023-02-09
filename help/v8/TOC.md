@@ -21,7 +21,7 @@ ht-degree: 99%
    + Notas de la versión anterior {#previous-rn}
       + [2022](start/release-notes-2022.md)
       + [2021](start/release-notes-2021.md)
-   + [Protecciones](start/ac-guardrails.md)
+   + [Mecanismos de protección](start/ac-guardrails.md)
    + [Problemas conocidos](start/known-issues.md)
    + [Matriz de compatibilidad](start/compatibility-matrix.md)
 + Introducción {#new}

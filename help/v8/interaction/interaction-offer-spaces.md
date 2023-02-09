@@ -7,7 +7,7 @@ level: Beginner
 exl-id: c116d86a-d3e2-47e3-a641-e2d7c8cc575c
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 47%
 
 ---
@@ -156,4 +156,4 @@ Si un destinatario no es elegible para ninguna oferta, esto se muestra en la vis
 
 La vista previa puede omitir los contextos cuando están restringidos a un espacio. Este es el caso cuando el esquema de interacción se ha ampliado para añadir campos a los que se hace referencia en un espacio mediante un canal entrante.
 
-![](../assets/do-not-localize/book.png)  Para obtener más información, consulte esta muestra en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png)  Para obtener más información, consulte esta muestra en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

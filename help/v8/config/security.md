@@ -7,8 +7,8 @@ level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 source-git-commit: 864f2179384d3e3cfcf310fcd04fe02240bfbefa
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 19%
+source-wordcount: '656'
+ht-degree: 20%
 
 ---
 
@@ -38,7 +38,7 @@ La gestión del acceso es una parte importante del refuerzo de la seguridad. Est
 * Compruebe que cada operador tenga los derechos de acceso adecuados
 * Evite utilizar el operador de administrador y evite tener demasiados operadores en el grupo de administración
 
-![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
 
 ## Directrices de codificación
 
@@ -50,7 +50,7 @@ Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.),
 
 * **Añadir captchas en aplicaciones web**: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
 
-![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
 
 
 ## Personalización
@@ -134,7 +134,7 @@ La gestión del acceso es una parte importante del refuerzo de la seguridad. Est
 * Compruebe que cada operador tenga los derechos de acceso adecuados
 * Evite utilizar el operador de administrador y evite tener demasiados operadores en el grupo de administración
 
-![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management.html?lang=en#webapp-operator){target="_blank"}
 
 ## Directrices de codificación
 
@@ -146,4 +146,4 @@ Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.),
 
 * **Añadir captchas en aplicaciones web**: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
 
-![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}

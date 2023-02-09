@@ -59,7 +59,7 @@ _28 de octubre de 2021_
 <tbody> 
 <tr> 
 <td> <p>El Servicio de unicidad es un nuevo componente del administrador de bases de datos de Cloud. Ayuda a los usuarios a preservar y controlar la integridad de las restricciones clave únicas dentro de las tablas de la base de datos de la nube. Esto le permite reducir el riesgo de insertar claves duplicadas.
-<p>Como la base de datos de Cloud no impone restricciones de unicidad, el servicio de unicidad introduce en el nivel de aplicación, <b>un conjunto de nuevas barreras</b> que reduce el riesgo de insertar duplicados al administrar los datos con Adobe Campaign.</p> 
+<p>Como la base de datos de Cloud no impone restricciones de unicidad, el servicio de unicidad introduce en el nivel de aplicación <b>un conjunto de nuevos mecanismos de protección</b> que reduce el riesgo de insertar duplicados al administrar los datos con Adobe Campaign.</p> 
 <p>El Servicio de unicidad inicia un nuevo flujo de trabajo integrado denominado <b>ffdaUnicity</b> para monitorizar las restricciones de unicidad y avisar cuando se detecten duplicados.</p>
 <p>Para obtener más información, consulte la <a href="../architecture/keys.md">documentación detallada</a>.</p>
 </td> </tr> 

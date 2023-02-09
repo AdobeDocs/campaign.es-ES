@@ -1,24 +1,24 @@
 ---
-title: Protecciones de Campaign v8
-description: Protecciones de Campaign v8
+title: Mecanismos de protección de Campaign v8
+description: Mecanismos de protección de Campaign v8
 feature: Overview
 role: User
 level: Beginner, Intermediate, Experienced
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
 source-git-commit: 58fff46ba12f5c6221bbcd88a40fa0806a6c98b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 100%
 
 ---
 
-# Protecciones del producto{#guardrails}
+# Mecanismos de protección del producto{#guardrails}
 
-Los derechos, limitaciones de productos y protecciones de rendimiento se enumeran en la [página de descripción del producto de Adobe Campaign Managed Cloud Services](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Los derechos, limitaciones de productos y protecciones del rendimiento se enumeran en la [página de descripción del producto de Adobe Campaign Managed Cloud Services](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-A continuación, encontrará limitaciones y protecciones adicionales al utilizar [!DNL Adobe Campaign].
+A continuación, encontrará limitaciones y mecanismos de protección adicionales al utilizar [!DNL Adobe Campaign].
 
-Las protecciones y limitaciones identifican funcionalidades, arquitectura o procesos que no son compatibles con esta versión del producto o que no interactúan correctamente con él. Revise detenidamente estas limitaciones.
+Los mecanismos de protección y las limitaciones identifican funcionalidades, arquitectura o procesos que no son compatibles con esta versión del producto o que no interactúan correctamente con él. Revise detenidamente estas limitaciones.
 
 * Adobe Campaign v8 no está disponible para implementaciones locales o híbridas; solo se presenta como servicio en la nube administrado por Adobe
 * No hay ninguna migración automática a Adobe Campaign v8 disponible para los clientes existentes

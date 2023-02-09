@@ -2,13 +2,13 @@
 title: Informes de envío integrados de Adobe Campaign
 description: Informes de envío integrados de Adobe Campaign
 feature: Reporting
-source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
+exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1031'
 ht-degree: 92%
 
 ---
-
 
 # Informes de envío {#delivery-reports}
 
@@ -83,7 +83,7 @@ Esta tabla de valores muestra el desglose de envíos, aperturas, clics y reaccio
 >
 >Los nombres de dominio mostrados en este informe se definen en la lista desglosada utilizada al nivel de cubo. Para cambiar, añadir o quitar dominios predeterminados, edite la lista desglosada **[!UICONTROL Domains]** y modifique los valores y alias. La categoría **[!UICONTROL Others]** incluye nombres de dominio que no pertenecen a ningún valor de la lista desglosada.
 >
->Obtenga información sobre cómo acceder y configurar las enumeraciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+>Obtenga información sobre cómo acceder y configurar las enumeraciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -203,5 +203,3 @@ Se pueden mostrar informes acumulados sobre las entregas. Para ello, seleccione 
 Para seleccionar entregas no adyacentes de la lista, mantenga pulsada la tecla CTRL mientras realiza la selección.
 
 Para seleccionar entregas guardadas en una carpeta diferente, haga clic en el **[!UICONTROL Display sub-levels]** , accesible en la barra de herramientas. A continuación, se muestran en la misma lista.
-
-

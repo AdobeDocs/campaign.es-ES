@@ -7,8 +7,8 @@ level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 6dee08f0f8673e5264f3cb111fe14493980a62fc
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 24%
+source-wordcount: '1081'
+ht-degree: 25%
 
 ---
 
@@ -182,13 +182,13 @@ Para ello, especifique en esta cuenta externa la dirección y las credenciales u
 
    * **[!UICONTROL AWS S3 Account Server]**: URL del servidor, rellenada de la siguiente manera:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
 
-   * **[!UICONTROL AWS access key ID]**: Obtenga información sobre cómo encontrar su ID de clave de acceso de AWS en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}.
+   * **[!UICONTROL AWS access key ID]**: Obtenga información sobre cómo encontrar su ID de clave de acceso de AWS en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-   * **[!UICONTROL Secret access key to AWS]**: Obtenga información sobre cómo encontrar la clave de acceso secreta a AWS en [Documentación de Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target=&quot;_blank&quot;}.
+   * **[!UICONTROL Secret access key to AWS]**: Obtenga información sobre cómo encontrar la clave de acceso secreta a AWS en [Documentación de Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
 
-   * **[!UICONTROL AWS Region]**: Obtenga más información sobre las regiones de AWS en [Documentación de Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target=&quot;_blank&quot;}.
+   * **[!UICONTROL AWS Region]**: Obtenga más información sobre las regiones de AWS en [Documentación de Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
 
-   * La casilla de verificación **[!UICONTROL Use server side encryption]** permite almacenar el archivo en modo codificado S3. Obtenga información sobre cómo encontrar el ID de clave de acceso y la clave de acceso secreta en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target=&quot;_blank&quot;}.
+   * La casilla de verificación **[!UICONTROL Use server side encryption]** permite almacenar el archivo en modo codificado S3. Obtenga información sobre cómo encontrar el ID de clave de acceso y la clave de acceso secreta en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
 * **Azure Blob Storage**
 
@@ -198,4 +198,4 @@ Para ello, especifique en esta cuenta externa la dirección y las credenciales u
 
    * **[!UICONTROL Encryption]**: Tipo de cifrado entre **[!UICONTROL None]** o **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: Aprenda a encontrar su **[!UICONTROL Access key]** en [Documentación de Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target=&quot;_blank&quot;}.
+   * **[!UICONTROL Access key]**: Aprenda a encontrar su **[!UICONTROL Access key]** en [Documentación de Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.

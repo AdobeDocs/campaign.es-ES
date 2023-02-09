@@ -4,10 +4,11 @@ description: Aprenda a utilizar y crear asignaciones de destino
 feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '344'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -65,4 +66,3 @@ El asistente de creación de asignación de destino de Adobe Campaign le ayuda a
    ![](assets/wf_new_mapping_define_extensions.png)
 
    Haga clic en el botón **[!UICONTROL Save]** para iniciar la creación de la asignación de entrega: todas las tablas vinculadas se crean automáticamente en función de los parámetros seleccionados.
-

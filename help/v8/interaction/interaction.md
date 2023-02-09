@@ -108,21 +108,21 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
 
 * **Reglas de elegibilidad**: restricciones aplicadas a un entorno, categoría u oferta sobre el periodo de validez, el objetivo y el peso. Permiten garantizar que una oferta está en línea con el contacto de destino.
 
-   En los entornos, las reglas de idoneidad incluyen reglas de presentación aplicadas a las ofertas y a las personas objetivo.
+   En los entornos, las reglas de idoneidad incluyen reglas de presentación aplicadas a las ofertas y a los destinatarios.
 
    En las categorías, las reglas de idoneidad le permiten: limitar la validez de la categoría en el tiempo, definir los temas de la aplicación y determinar las personas objetivo. También pueden recibir un peso multiplicador durante un tiempo determinado. Esto le permite compartir las reglas para las ofertas en otras categorías y simplificar así la administración.
 
-   En las ofertas, las reglas de idoneidad permiten limitar la validez de las ofertas en el tiempo y determinar las personas objetivo.
+   En las ofertas, las reglas de idoneidad permiten limitar la validez de las ofertas en el tiempo y determinar los destinatarios.
 
 * **Arbitraje**: seleccionar ofertas para mostrar en un entorno (ofertas aptas). El principio de arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
-* **Contact**: un contacto de una interacción entrante. Durante el procesamiento de visualización del motor, el contacto se asocia a una dimensión objetivo. Hay dos tipos de contactos:
+* **Contact**: un contacto de una interacción entrante. Durante el procesamiento de visualización del motor, el contacto se asocia a una dimensión de segmentación. Hay dos tipos de contactos:
 
    * **[!UICONTROL Identified contact]** : un contacto que se ha identificado voluntariamente en el canal. En las interacciones de salida, el contacto se identifica automáticamente.
    * **[!UICONTROL Anonymous contact]** : contacto que no se ha suscrito oficialmente a través del canal, pero que puede identificarse implícitamente mediante una cookie. Esta terminología solo se utiliza para interacciones entrantes.
 
       >[!NOTE]
       >
-      >Los contactos no identificados y anónimos se atribuyen a la dimensión objetivo del visitante.
+      >Los contactos no identificados y anónimos se atribuyen a la dimensión de segmentación del visitante.
 
 * **Interacción saliente**: acceso al motor de oferta desde una lista de contactos (utilizada para enviar correos electrónicos, correo postal, etc.). Se aplican las mismas reglas y procesos a cada contacto. Este tipo de interacción se procesa generalmente en modo por lotes.
 * **Inbound interaction**: interacción después de una llamada entrante generada por la acción de un contacto en el canal. Este tipo de interacción se procesa generalmente en modo unitario.
@@ -134,9 +134,9 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
    * **[!UICONTROL implicit]** : los contactos se identifican mediante una cookie (permanente o por sesión). Puede procesarse como contacto anónimo o identificado.
    * **[!UICONTROL anonymous]** : no se pueden identificar los contactos.
 
-* **Eligible offer**: ofrece a las reuniones las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un objetivo.
+* **Oferta elegible**: ofrece a las reuniones las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un objetivo.
 * **Presentation rules**: reglas de tipología a las que se hace referencia en el entorno de la oferta, que le permiten excluir algunas ofertas tomando en cuenta el historial de propuestas.
-* **Grosor**: fórmulas que permiten calcular con precisión la importancia de una oferta, para seleccionar la oferta más relevante. Los pesos se definen en las ofertas. Las ofertas elegibles se tienen en cuenta en orden de peso reducido.
+* **Grosor**: fórmulas que permiten calcular con precisión la importancia de una oferta, para seleccionar la oferta más relevante. Los pesos se definen en las ofertas. Las ofertas elegibles se tienen en cuenta en orden de peso descendiente.
 * **Función de renderización**: definida en el espacio de oferta para crear su representación de oferta basada en los atributos definidos en la oferta. Hay tres modos de función de renderización diferentes: HTML, XML y texto.
 * **Offer proposition**: resultado de la acción que consiste en presentar una o varias ofertas a un contacto en un espacio determinado (titular de un sitio web, correo electrónico o SMS, por ejemplo). Este resultado se almacena en la tabla de ofertas propuestas. No obstante, no es obligatorio guardar las propuestas.
 * **Simulation**: módulo que permite probar la presentación de las ofertas en los destinatarios objetivo antes de enviar las ofertas.

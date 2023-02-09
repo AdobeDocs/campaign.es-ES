@@ -3,7 +3,8 @@ product: campaign
 title: Acerca de los flujos de trabajo
 description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más.
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '639'
 ht-degree: 90%

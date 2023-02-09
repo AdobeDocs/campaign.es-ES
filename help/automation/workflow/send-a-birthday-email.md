@@ -3,7 +3,8 @@ product: campaign
 title: Envío de un correo electrónico de cumpleaños
 description: Descubra más información sobre cómo enviar un correo electrónico de cumpleaños con un flujo de trabajo
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: c3a80871-e045-454c-b1ca-8f484d2e14e1
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 95%

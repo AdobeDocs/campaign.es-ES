@@ -27,7 +27,7 @@ De forma predeterminada, Campaign viene con tipologías y reglas de tipología i
 
 Una tipología es un conjunto de reglas de verificación aplicadas a todos los mensajes durante el análisis de envío.
 
-Una tipología de campaña puede contener varias reglas de tipología, pero una entrega solo puede hacer referencia a una tipología.
+Una tipología de campaña puede contener varias reglas de tipología, pero un envío solo puede hacer referencia a una tipología.
 
 Las reglas y tipologías de tipología integradas están disponibles en la **[!UICONTROL Administration > Campaign management > Typology management]** del explorador de Campaign.
 

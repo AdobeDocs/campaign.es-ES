@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 62%
+source-wordcount: '1519'
+ht-degree: 63%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 62%
 
 La mensajería transaccional (Centro de Mensajes) es un módulo de Campaign diseñado para gestionar mensajes de activación. Estas notificaciones se generan a partir de eventos activados desde sistemas de información y pueden ser: factura, confirmación de pedido, confirmación de envío, cambio de contraseña, notificación de no disponibilidad del producto, extracto de cuenta, creación de cuenta de sitio web, etc.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support){target=&quot;_blank&quot;} para configurar la mensajería transaccional de Campaign en su entorno.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para configurar la mensajería transaccional de Campaign en su entorno.
 
 Los mensajes transaccionales se utilizan para enviar:
 
@@ -43,7 +43,7 @@ A continuación se detallan los pasos principales para ponerlo en práctica:
 1. [Pruebe el mensaje](#test-message-template).
 1. [Publique la plantilla de mensaje](#publish-message-template).
 
-Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si se activa un evento correspondiente, los datos relevantes se envían a Campaign mediante PushEvent y PushEvents [Métodos SOAP](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target=&quot;_blank&quot;} y la entrega se envía a los destinatarios objetivo.
+Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si se activa un evento correspondiente, los datos relevantes se envían a Campaign mediante PushEvent y PushEvents [Métodos SOAP](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}, y la entrega se envía a los destinatarios objetivo.
 
 ## Creación de tipos de eventos {#create-event-types}
 
@@ -73,7 +73,7 @@ Para crear tipos de eventos que Adobe Campaign procesará, siga los pasos a cont
 
 >[!NOTE]
 >
->Obtenga más información sobre listas desglosadas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+>Obtenga más información sobre listas desglosadas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 ## Definir una plantilla de mensaje transaccional {#create-message-template}
 
@@ -199,7 +199,7 @@ Puede probar la entrega de mensajes enviando una prueba a una dirección semilla
 
 El envío de una prueba implica realizar el mismo proceso que para cualquier entrega.
 
-![](../assets/do-not-localize/book.png) Obtenga más información sobre las pruebas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga más información sobre las pruebas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
 
 Sin embargo, para enviar una prueba de un mensaje transaccional, debe realizar las siguientes operaciones:
 

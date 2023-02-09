@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '837'
+workflow-type: tm+mt
+source-wordcount: '835'
 ht-degree: 100%
 
 ---
@@ -109,5 +109,5 @@ Adobe Campaign ofrece un complemento de **gestión de respuestas** que le permit
 >
 >Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y utilizar el Gestor de respuestas de Campaign en la [Documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target=&quot;_blank&quot;}
+[](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y utilizar el Gestor de respuestas de Campaign en la [Documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target="_blank"}
 

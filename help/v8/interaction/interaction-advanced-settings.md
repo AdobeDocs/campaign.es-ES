@@ -5,7 +5,7 @@ role: Data Engineer
 level: Beginner
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '122'
+source-wordcount: '114'
 ht-degree: 0%
 
 ---
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 La configuración del módulo de interacción de Campaign está reservada para usuarios expertos. La configuración avanzada se detalla en **Documentación de Campaign Classic v7**:
 
-![](../assets/do-not-localize/book.png) Aprenda a utilizar datos contextuales adicionales en ofertas [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Aprenda a utilizar datos contextuales adicionales en ofertas [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html){target="_blank"}.
 
-![](../assets/do-not-localize/book.png) Aprenda a enriquecer los criterios de idoneidad de las ofertas [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Aprenda a enriquecer los criterios de idoneidad de las ofertas [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.
 
-![](../assets/do-not-localize/book.png) Conozca los pasos para crear un entorno de prueba  [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Conozca los pasos para crear un entorno de prueba  [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html){target="_blank"}.
 
-![](../assets/do-not-localize/book.png) Aprenda a utilizar los enlaces para modificar el comportamiento estándar del motor de oferta [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/book.png) Aprenda a utilizar los enlaces para modificar el comportamiento estándar del motor de oferta [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html){target="_blank"}.
 

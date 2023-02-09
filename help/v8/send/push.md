@@ -7,8 +7,8 @@ level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
 source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 31%
+source-wordcount: '1073'
+ht-degree: 66%
 
 ---
 
@@ -23,7 +23,7 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 1. Añada a este servicio las versiones de iOS y Android de la aplicación.
 1. Cree un envío tanto para iOS como para Android.
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo empezar a usar la aplicación móvil en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Obtenga información sobre cómo empezar a usar la aplicación móvil en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target="_blank"}
 
 ## Integración del SDK de Campaign
 
@@ -46,9 +46,9 @@ You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveragi
 
 Debe definir la configuración de las aplicaciones de iOS y Android en Adobe Campaign.
 
-![](../assets/do-not-localize/book.png) Las directrices de configuración para iOS se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=es#sending-messages){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Las directrices de configuración para iOS se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html?lang=es#sending-messages){target="_blank"}
 
-![](../assets/do-not-localize/book.png) Las directrices de configuración para Android se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Las directrices de configuración para Android se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target="_blank"}
 
 ## Creación de la primera notificación push
 
@@ -62,7 +62,7 @@ Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en 
 
 ![](assets/delivery_step_1.png)
 
-![](../assets/do-not-localize/book.png) Para obtener información global sobre cómo crear una entrega, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target=&quot;_blank&quot;}
+![](../assets/do-not-localize/book.png) Para obtener información global sobre cómo crear una entrega, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-about-delivery-creation-steps.html?lang=en#sending-messages){target="_blank"}
 
 ### Envío de notificaciones en iOS {#send-notifications-on-ios}
 
@@ -90,21 +90,21 @@ Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en 
    >
    >El modo **Push silenciosa** permite enviar una notificación “silenciosa” a una aplicación móvil. No se avisa al usuario de la llegada de la notificación. Esta se transfiere directamente a la aplicación.
 
-1. En el **[!UICONTROL Title]** , introduzca la etiqueta del título que desea que aparezca en la lista de notificaciones disponibles en el centro de notificaciones.
+1. En el campo **[!UICONTROL Title]**, introduzca la etiqueta del título que desea que aparezca en la lista de notificaciones disponibles en el centro de notificaciones.
 
    Este campo permite definir el valor del parámetro **title** de la carga útil de notificación de iOS.
 
-1. Puede añadir un **[!UICONTROL Subtitle]**, valor de la variable **subtítulo** del parámetro de la carga útil de notificación de iOS.
+1. Puede añadir un **[!UICONTROL Subtitle]**, valor del parámetro subtítulo de la carga útil de notificación de iOS.****
 
 1. Introduzca el contenido del mensaje en la sección **[!UICONTROL Message content]** del asistente.
 
-1. En el **[!UICONTROL Sound and Badge]** , puede editar las siguientes opciones:
+1. En la pestaña **[!UICONTROL Sound and Badge]**, puede editar las siguientes opciones:
 
    * **[!UICONTROL Clean Badge]**: active estas opciones para actualizar el valor del distintivo.
 
-   * **[!UICONTROL Value]**: configure un número que se utilizará para mostrar directamente en el icono de la aplicación la cantidad de información nueva no leída.
+   * **[!UICONTROL Value]**: establezca un número que se utilizará para mostrar directamente en el icono de la aplicación la cantidad de información nueva no leída.
 
-   * **[!UICONTROL Critical alert mode]**: habilite esta opción para añadir sonido a la notificación, incluso si el teléfono del usuario está activado o si el iPhone está silenciado.
+   * **[!UICONTROL Critical alert mode]**: habilite esta opción para agregar sonido a la notificación, incluso si el teléfono del usuario está activado o si el iPhone está silenciado.
 
    * **[!UICONTROL Name]**: seleccione el sonido que el terminal móvil debe reproducir cuando reciba la notificación.
 
@@ -114,14 +114,14 @@ Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en 
       > 
       >Los sonidos deben incluirse en la aplicación y definirse cuando se cree el servicio.
       >
-      >Las directrices de configuración para iOS se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}.
+      >Las directrices de configuración para iOS se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"}.
    ![](assets/push_ios_5.png)
 
-1. En el **[!UICONTROL Application variables]** , la pestaña **[!UICONTROL Application variables]** se añaden automáticamente. Permiten definir el comportamiento de las notificaciones, por ejemplo, puede configurar una pantalla específica de la aplicación para que se muestre cuando el usuario active la notificación.
+1. En la pestaña **[!UICONTROL Application variables]**, **[!UICONTROL Application variables]** se añaden automáticamente. Permiten definir el comportamiento de las notificaciones: por ejemplo, se puede configurar una pantalla específica de la aplicación que aparece cuando el usuario activa la notificación.
 
-   Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target=&quot;_blank&quot;}.
+   Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application.html){target="_blank"}.
 
-1. En el **[!UICONTROL Advanced]** , puede editar las siguientes opciones generales:
+1. En la pestaña **[!UICONTROL Advanced]**, puede editar las siguientes opciones generales:
 
    * **[!UICONTROL Mutable content]**: active esta opción para permitir que la aplicación móvil descargue contenido multimedia.
 
@@ -133,19 +133,19 @@ Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en 
 
 1. Para las notificaciones con distinción de tiempo, puede especificar las siguientes opciones:
 
-   * **[!UICONTROL Target content ID]**: identificador utilizado para identificar la ventana de aplicación que se reenvía cuando se abre la notificación.
+   * **[!UICONTROL Target content ID]**: identificador utilizado para destinar la ventana de aplicación que se reenvía cuando se abre la notificación.
 
    * **[!UICONTROL Launch image]**: nombre del archivo de imagen de lanzamiento que se va a mostrar. Si el usuario decide iniciar la aplicación, se mostrará la imagen seleccionada en lugar de la pantalla de inicio de la aplicación.
 
    * **[!UICONTROL Interruption level]**:
 
-      * **[!UICONTROL Active]**: De forma predeterminada, el sistema presenta la notificación inmediatamente, ilumina la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
+      * **[!UICONTROL Active]**: de forma predeterminada, el sistema presenta la notificación inmediatamente, ilumina la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
 
-      * **[!UICONTROL Passive]**: El sistema agrega la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
+      * **[!UICONTROL Passive]**: el sistema agrega la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
 
-      * **[!UICONTROL Time sensitive]** El sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.
+      * **[!UICONTROL Time sensitive]** el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.
 
-      * **[!UICONTROL Critical]** El sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.
+      * **[!UICONTROL Critical]** el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.
    * **[!UICONTROL Relevance score]**: establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones.
 
    ![](assets/push_ios_7.png)
@@ -185,15 +185,15 @@ Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en 
 Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que en las entregas por correo electrónico. Obtenga más información en la documentación de Campaign Classic v7:
 
 * Validación de una entrega y envío de pruebas
-   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target="_blank"}
 
 * Confirmar y realizar la entrega
-   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para realizar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para realizar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html){target="_blank"}
 
 Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Obtenga más información en la documentación de Campaign Classic v7:
 
 * Cuarentenas de notificaciones push
-   ![](../assets/do-not-localize/book.png) [Obtenga más información sobre la cuarentena de notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#push-notification-quarantines){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Obtenga más información sobre la cuarentena de notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-quarantine-management.html#push-notification-quarantines){target="_blank"}
 
 * Resolución de problemas
-   ![](../assets/do-not-localize/book.png) [Obtenga información sobre cómo solucionar problemas de las notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Obtenga información sobre cómo solucionar problemas de las notificaciones push](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/troubleshooting.html){target="_blank"}

@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: f381a2ec91b7179a51d91f9b7414ea39db03cd71
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '817'
 ht-degree: 12%
 
 ---
@@ -27,7 +27,7 @@ Antes de empezar, debe:
 
 A partir de la versión de compilación de Campaign Classic 8.4, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de consola.
 
-La vista web se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el instalador de la consola de Campaign le pedirá que lo descargue de [Sitio web del desarrollador de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target=&quot;_blank&quot;}. Tenga en cuenta que el vínculo de descarga no funciona en el explorador Internet Explorer 11, ya que Microsoft ha dejado de ofrecer soporte técnico. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
+La vista web se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el instalador de la consola de Campaign le pedirá que lo descargue de [Sitio web del desarrollador de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}. Tenga en cuenta que el vínculo de descarga no funciona en el explorador Internet Explorer 11, ya que Microsoft ha dejado de ofrecer soporte técnico. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
 
 ## Descargar e instalar la consola de cliente{#download-ac-console}
 
@@ -35,7 +35,7 @@ Al utilizar Campaign por primera vez, o si necesita actualizar a una versión m�
 
 Hay dos opciones disponibles:
 
-1. Como administrador de Campaign, conéctese a Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target=&quot;_blank&quot;} y descargue el programa de instalación de la consola de cliente. A continuación, puede instalarlo en el equipo local.
+1. Como administrador de Campaign, conéctese a Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target="_blank"} y descargue el programa de instalación de la consola de cliente. A continuación, puede instalarlo en el equipo local.
 
 1. Como usuario final, Adobe puede implementar la consola: una vez que se actualice la consola, se le pedirá que descargue la última versión de la consola de cliente en una ventana emergente.
 
@@ -102,7 +102,7 @@ Obtenga más información sobre los usuarios y cómo definir sus permisos en [es
 
 Los usuarios de Campaign se conectan a la consola de Adobe Campaign mediante su Adobe ID, a través del sistema Identity Management de Adobe (IMS). Pueden usar el mismo ID en todas las soluciones de Adobe. La conexión se guarda al usar Adobe Campaign con otras soluciones.
 
-Obtenga más información sobre Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html){target=&quot;_blank&quot;}.
+Obtenga más información sobre Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 
 ## Acceso web{#web-access}
 

@@ -3,10 +3,11 @@ product: campaign
 title: Agrupamiento de archivos
 description: Descubra más información sobre la actividad del flujo de trabajo Recolector de ficheros
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 614becf7-4cbf-40f9-a1b1-06efa054bfd9
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +35,7 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
    * **[!UICONTROL Filter]**
 
-      Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: **&#42;.zip**, **import-&#42;.txt**.
+      Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: **&#42;zip**, **import-&#42;.txt**.
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 

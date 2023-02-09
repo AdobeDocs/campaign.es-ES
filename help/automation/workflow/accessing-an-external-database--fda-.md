@@ -3,10 +3,11 @@ product: campaign
 title: Acceso a una base de datos externa (FDA)
 description: Acceso a una base de datos externa (FDA)
 feature: Workflows, Data Management, Federated Data Access
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: ddafca28-1db4-42f2-9bfb-73da1240235c
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 79%
+source-wordcount: '104'
+ht-degree: 80%
 
 ---
 
@@ -21,4 +22,4 @@ Múltiples actividades permiten interactuar con datos de una base de datos exter
 * Enriquecimiento
 * Carga de datos
 
-El uso de la opción FDA depende de la licencia de Adobe Campaign. Se detalla la configuración de esta opción, así como las prácticas recomendadas y limitaciones vinculadas a ella [en esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target=&quot;_blank&quot;}.
+El uso de la opción FDA depende de la licencia de Adobe Campaign. Se detalla la configuración de esta opción, así como las prácticas recomendadas y limitaciones vinculadas a ella [en esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}.

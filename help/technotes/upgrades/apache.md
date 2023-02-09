@@ -2,9 +2,10 @@
 product: campaign
 title: Nota técnica - Adobe Campaign - Actualización de seguridad de la versión Apache
 description: 'Adobe Campaign: actualización de seguridad de la versión de Apache'
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 3%
 
 Adobe Campaign funciona con herramientas de terceros, y la compatibilidad se actualiza de forma regular para implementar únicamente versiones compatibles y beneficiarse de las últimas correcciones y mejoras.
 
-Adobe Campaign incluye Apache Tomcat que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP y está integrado con el servidor web Apache. La Apache Software Foundation ha lanzado Apache HTTP Server 2.4.53. Esta versión aborda vulnerabilidades que pueden permitir que un atacante remoto tome el control de un sistema afectado. Obtenga más información en [Anuncio de Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target=&quot;_blank&quot;}.
+Adobe Campaign incluye Apache Tomcat que actúa como punto de entrada en el servidor de aplicaciones a través de HTTP y está integrado con el servidor web Apache. La Apache Software Foundation ha lanzado Apache HTTP Server 2.4.53. Esta versión aborda vulnerabilidades que pueden permitir que un atacante remoto tome el control de un sistema afectado. Obtenga más información en [Anuncio de Apache 2.4.53](https://downloads.apache.org/httpd/Announcement2.4.html){target="_blank"}.
 
 El equipo de Adobe Campaign dirigirá la actividad de actualización de seguridad de la versión de Apache de **15 de junio de 2022** para mitigar esta vulnerabilidad de Apache y hacer que su entorno de instancia sea más seguro. Esta actualización se aplica a todos los clientes de Campaign Classic v7 Managed Cloud Services, Campaign v8 y los clientes de Campaign Standard que ejecutan en una versión vulnerable de Apache HTTP Server. Si se ve afectado, Adobe ya se ha puesto en contacto con usted para informarle sobre esta actualización.
 

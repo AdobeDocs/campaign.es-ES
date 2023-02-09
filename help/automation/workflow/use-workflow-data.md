@@ -2,9 +2,10 @@
 title: Uso de datos de flujo de trabajo
 description: Descubra cómo utilizar los datos de flujo de trabajo
 feature: Workflows, Data Management
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '707'
 ht-degree: 75%
 
 ---
@@ -43,7 +44,7 @@ Para ello, seleccione el menú correspondiente:
 
    Este menú permite acceder al asistente de análisis descriptivo que permite producir las estadísticas y los informes sobre los datos de transición.
 
-   Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}.
+   Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}.
 
 Los datos del público objetivo se depuran mientras se ejecuta el flujo de trabajo. Solo se puede acceder a la última tabla de trabajo. Puede configurar el flujo de trabajo para que todas las tablas de trabajo permanezcan accesibles: marque la opción **[!UICONTROL Keep the result of interim populations between two executions]** en las propiedades del flujo de trabajo.
 
@@ -138,6 +139,3 @@ Los datos de la base de datos de Adobe Campaign y de las listas existentes puede
 ### Administración de suscripciones {#subscription-management}
 
 Para obtener información sobre las suscripciones y las bajas de un servicio informativo para los destinatarios a través de un flujo de trabajo, consulte [Servicios de suscripción](subscription-services.md).
-
-
-

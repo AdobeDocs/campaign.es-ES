@@ -3,10 +3,11 @@ product: campaign
 title: Recursos de campañas de marketing, documentos y descripciones del envío
 description: Obtenga más información sobre los documentos de campañas de marketing y las descripciones del envío
 feature: Campaigns
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '686'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
 
@@ -56,7 +57,7 @@ También pueden editarse y modificarse desde esta vista.
 
 ## Uso de las descripciones del envío {#delivery-outlines}
 
-Un esquema de entrega es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular. Se utiliza en el contexto de las entregas de correo postal.
+Un esquema de entrega es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
 
 Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a un envío; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una unidad y a los folletos de marketing que utiliza.
 

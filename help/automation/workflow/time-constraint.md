@@ -3,7 +3,8 @@ product: campaign
 title: Restricción de tiempo
 description: Descubra más información sobre la actividad del flujo de trabajo de la restricción de tiempo
 feature: Workflows
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 0a922827-456d-425c-be04-d9efbb152c92
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '80'
 ht-degree: 100%

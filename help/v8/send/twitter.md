@@ -6,7 +6,7 @@ level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '806'
 ht-degree: 37%
 
 ---
@@ -140,7 +140,7 @@ Para enviar mensajes directos a sus seguidores, siga los pasos a continuación:
 
    Antes de enviar el mensaje, asegúrese de validarlo enviando una prueba a una cuenta de prueba: a continuación, puede obtener una renderización exacta del mensaje en una cuenta privada de Twitter y comprobar el contenido y la personalización.
 
-   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target="_blank"}
 
 1. Enviar el mensaje directo
 
@@ -151,7 +151,7 @@ Para enviar mensajes directos a sus seguidores, siga los pasos a continuación:
 
 >[!CAUTION]
 >
->No puede enviar más de 250 mensajes directos al día. Para evitar superar este umbral, puede realizar envíos en olas. Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target=&quot;_blank&quot;}.
+>No puede enviar más de 250 mensajes directos al día. Para evitar superar este umbral, puede realizar envíos en olas. Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=en#sending-using-multiple-waves){target="_blank"}.
 
 
 ## Acceso a los datos de seguimiento {#tw-tracking}
@@ -160,5 +160,5 @@ En la **[!UICONTROL Tweet]** plantilla de envío, el seguimiento está habilitad
 
 Los datos de seguimiento se pueden ver en los informes de envío y en la **[!UICONTROL Edit > Tracking]** de la entrega y el servicio.
 
-La configuración de seguimiento es la misma que para una entrega de correo electrónico. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target=&quot;_blank&quot;}.
+La configuración de seguimiento es la misma que para una entrega de correo electrónico. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"}.
 

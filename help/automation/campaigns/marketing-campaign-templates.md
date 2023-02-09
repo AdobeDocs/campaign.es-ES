@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: 60db4c2e8cd280845ddd0176bd10dc1b7edbb767
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '997'
 ht-degree: 54%
 
 ---
@@ -129,7 +129,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
    ![](assets/template-activate-3.png)
 
-* **Descripción de la entrega**
+* **Descripción del envío**
 
    Cuando se selecciona este módulo, se añade una subpestaña **[!UICONTROL Delivery outlines]** a la pestaña **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](marketing-campaign-assets.md#delivery-outlines).
 
@@ -167,7 +167,7 @@ Cuando crea una plantilla de campaña, debe introducir la siguiente información
 * Introduzca la variable **label** de la plantilla: la etiqueta es obligatoria y es la etiqueta predeterminada para todas las campañas basadas en esta plantilla.
 * Seleccione la **naturaleza** de la campaña en la lista desplegable. Los valores disponibles en esta lista son los guardados en la enumeración **[!UICONTROL natureOp]**.
 
-Obtenga información sobre cómo acceder y configurar las enumeraciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target=&quot;_blank&quot;}.
+Obtenga información sobre cómo acceder y configurar las enumeraciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
 
 
 * Seleccione el **tipo de campaña**: única, recurrente o periódica. De manera predeterminada, las plantillas de campaña se aplican a las campañas únicas. Las campañas recurrentes y periódicas se detallan en [esta sección](recurring-periodic-campaigns.md).

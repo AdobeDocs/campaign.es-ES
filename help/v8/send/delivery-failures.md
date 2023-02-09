@@ -7,12 +7,12 @@ level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
 workflow-type: tm+mt
-source-wordcount: '3009'
+source-wordcount: '3005'
 ht-degree: 65%
 
 ---
 
-# Comprensión de los errores de entrega {#delivery-failures}
+# Comprender los errores de envío {#delivery-failures}
 
 Las devoluciones son el resultado de un intento de envío y un error en el que el ISP proporciona avisos de error de devolución. El procesamiento de la manipulación de devoluciones es una parte fundamental de la higiene de la lista. Una vez que un correo electrónico determinado ha rebotado varias veces seguidas, este proceso lo marca para su supresión.
 
@@ -66,7 +66,7 @@ La forma en que se gestiona la calificación de correo rechazado en Adobe Campai
 
 * **Errores sincrónicos**: El MTA determina el tipo de rechazo y la calificación, y envía esa información a Campaign. Las cualificaciones de devolución en la variable **[!UICONTROL Delivery log qualification]** no se usa para **sincrónica** mensajes de error de error de envío.
 
-* **Errores asincrónicos**: Las reglas que utiliza Campaign para clasificar los errores de entrega asincrónicos se enumeran en la **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo . Las devoluciones asincrónicas se clasifican mediante el proceso inMail a través del **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target=&quot;_blank&quot;}.
+* **Errores asincrónicos**: Las reglas que utiliza Campaign para clasificar los errores de entrega asincrónicos se enumeran en la **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo . Las devoluciones asincrónicas se clasifican mediante el proceso inMail a través del **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Por ejemplo, si el periodo de validez se establece en el valor predeterminado de
 
 Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado desde **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
 
-Para obtener más información sobre el periodo de validez, consulte la [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target=&quot;_blank&quot;}.
+Para obtener más información sobre el periodo de validez, consulte la [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
 
 ## Tipos de error de correo electrónico {#email-error-types}
@@ -523,7 +523,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: el cliente no tiene autorización para recuperar los token de acceso mediante este método o no está autorizado para ninguno de los ámbitos solicitados.<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client </td> 
+   <td> unauthorized_client </td> 
    <td> Ignorado</td>
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -563,7 +563,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
     <tr> 
    <td> Autenticación: audiencia de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> authorized_client</td> 
+   <td> unauthorized_client</td> 
    <td> Ignorado</td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 

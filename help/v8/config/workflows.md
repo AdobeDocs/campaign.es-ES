@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
 source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1570'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ Aprenda a diseñar flujos de trabajo en estos [casos de uso end-to-end](#end-to-
 
 Obtenga más información sobre los flujos de trabajo, la interfaz de usuario y la ejecución en estas páginas:
 
-* [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
 
 * [Prácticas recomendadas de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html)
 
@@ -152,9 +152,11 @@ Aprenda a enviar un correo electrónico con campos de datos personalizados a per
 
 Y estas páginas en la documentación de Campaign v7:
 
-* [Automatizar la creación, edición y publicación de contenido](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target=&quot;_blank&quot;} Obtenga información sobre cómo automatizar la creación y el envío de un bloque de contenido con el complemento Gestión de contenido de Campaign.
+* [Automatizar la creación, edición y publicación de contenido](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/content-management/automating-via-workflows.html){target="_blank"}
+Obtenga información sobre cómo automatizar la creación y el envío de un bloque de contenido con el complemento Gestión de contenido de Campaign.
 
-* [Pruebas A/B](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target=&quot;_blank&quot;} Obtenga información sobre cómo comparar dos contenidos de envíos de correo electrónico a través de un flujo de trabajo de objetivos. El mensaje y el texto son idénticos en ambos envíos: solo cambia el diseño. La población objetivo se divide en tres: dos grupos de prueba y la población restante. Se envía una versión diferente a cada grupo de prueba.
+* [Pruebas A/B](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/a-b-testing/use-case/a-b-testing-use-case.html){target="_blank"}
+Obtenga información sobre cómo comparar dos contenidos de entrega de correo electrónico a través de un flujo de trabajo de objetivo. El mensaje y el texto son idénticos en ambos envíos: solo cambia el diseño. La población objetivo se divide en tres: dos grupos de prueba y la población restante. Se envía una versión diferente a cada grupo de prueba.
 
 ### Monitorización {#monitoring}
 
@@ -179,7 +181,7 @@ Obtenga información sobre cómo comprobar que el proceso de actualización ha f
 * [Crear una lista de resumen](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/create-a-summary-list.html)
 Aprenda a crear un flujo de trabajo que, después de recopilar archivos y de seguir varios enriquecimientos, le permita crear una lista de resumen. El ejemplo se basa en una lista de contactos que realizaron compras en una tienda.
 
-* [Enriquecimiento de datos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html)
+* [Enriquecimiento de datos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/enrich-data.html?lang=es)
 Aprenda a enviar envíos personalizados a perfiles que participaron en la competición más reciente en función de su puntuación.
 
 * [Usar agregados](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/data-management/using-aggregates.html)

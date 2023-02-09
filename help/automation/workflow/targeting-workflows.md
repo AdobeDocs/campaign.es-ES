@@ -2,14 +2,15 @@
 title: Creación de flujos de trabajo de objetivos
 description: Aprenda a crear audiencias de destino en un flujo de trabajo
 feature: Query Editor, Data Management
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '2248'
 ht-degree: 94%
 
 ---
 
-# Creación de un flujo de trabajo de segmentación{#target-data}
+# Crear un flujo de trabajo de segmentación{#target-data}
 
 El flujo de trabajo se puede utilizar para consultar la base de datos y segmentar los datos. El módulo de flujo de trabajo de Campaign es una potente herramienta para realizar actividades de administración de datos, extraer, enriquecer y transformar datos, administrar audiencias y refinar poblaciones.
 

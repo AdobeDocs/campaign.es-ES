@@ -6,9 +6,9 @@ role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
-workflow-type: ht
-source-wordcount: '1080'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 93%
 
 ---
 
@@ -16,12 +16,12 @@ ht-degree: 100%
 
 Según la naturaleza de su negocio y las jurisdicciones bajo las que actúa, sus operaciones de datos pueden estar sujetas a regulaciones legales de privacidad. Estas regulaciones, a menudo, otorgan a sus clientes el derecho de solicitar acceso a los datos que se recopilan de ellos, así como de solicitar la eliminación de esos datos almacenados. Estas solicitudes de datos personales de los clientes se denominan “solicitudes de privacidad” en toda la documentación.
 
-Adobe ofrece las herramientas de los controladores de datos para crear y procesar solicitudes de privacidad de datos almacenados en Campaign. Por ello, es responsabilidad del controlador de datos verificar la identidad del sujeto de datos que realiza la solicitud y confirmar que la información devuelta al solicitante sea sobre el sujeto de datos. Obtenga más información sobre los datos personales y las distintas entidades que administran los datos en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#personal-data){target=&quot;_blank&quot;}.
+Adobe ofrece las herramientas de los controladores de datos para crear y procesar solicitudes de privacidad de datos almacenados en Campaign. Por ello, es responsabilidad del controlador de datos verificar la identidad del sujeto de datos que realiza la solicitud y confirmar que la información devuelta al solicitante sea sobre el sujeto de datos. Obtenga más información sobre los datos personales y las distintas entidades que administran los datos en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#personal-data){target="_blank"}.
 
 
 Para administrar la solicitud de privacidad en Campaign, primero debe [definir un área de nombres](#namespaces). A continuación, puede crear y administrar solicitudes de privacidad. Para ejecutar solicitudes de privacidad, utilice la integración **Privacy Service de Adobe**. Las solicitudes de privacidad enviadas desde Privacy Service a todas las soluciones de Adobe Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado. [Más información](#create-privacy-request)
 
-![](../assets/do-not-localize/speech.png) Obtenga información sobre el **Derecho de acceso** y el **Derecho al olvido** (eliminar solicitud) en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target=&quot;_blank&quot;}.
+![](../assets/do-not-localize/speech.png) Obtenga información sobre el **Derecho de acceso** y el **Derecho al olvido** (eliminar solicitud) en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target="_blank"}.
 
 
 >[!NOTE]
@@ -34,7 +34,7 @@ Antes de crear una solicitud de privacidad, debe **definir el área de nombres**
 
 >[!NOTE]
 >
->Obtenga más información acerca de las áreas de nombres de identidad en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target=&quot;_blank&quot;}.
+>Obtenga más información acerca de las áreas de nombres de identidad en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/identity/namespaces.html?lang=es){target="_blank"}.
 
 Actualmente, Adobe Campaign no admite la importación de áreas de nombres desde el servicio de área de nombres de identidad de Experience Platform. Por lo tanto, una vez que haya creado un área de nombres en el servicio Área de nombres de identidad, debe crear manualmente el área de nombres correspondiente en la interfaz de Adobe Campaign. Para realizar esto, siga los pasos a continuación.
 
@@ -46,9 +46,9 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 >For optimal performance, it is recommended to use out-of-the-box namespaces.
 -->
 
-1. Cree un área de nombres en el [Servicio de área de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target=&quot;_blank&quot;}.
+1. Cree un área de nombres en el [Servicio de área de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}.
 
-1. Al [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target=&quot;_blank&quot;} disponibles para su organización, obtiene los detalles siguientes del área de nombres, por ejemplo:
+1. When [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} está disponible para su organización y obtiene el espacio de nombres siguiente, por ejemplo:
 
    ```
    {
@@ -95,7 +95,7 @@ Ahora puede crear solicitudes de privacidad basadas en su nueva Área de nombres
 
 La integración de **[!DNL Adobe Experience Platform Privacy Service]** le permite automatizar sus solicitudes de privacidad en un contexto de varias soluciones a través de una sola llamada de API JSON. Adobe Campaign gestiona automáticamente las solicitudes enviadas desde Privacy Service mediante un flujo de trabajo dedicado.
 
-Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es){target=&quot;_blank&quot;} para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.
+Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.{target="_blank"}
 
 Cada trabajo de **[!DNL Privacy Service]** se divide en varias solicitudes de privacidad en Adobe Campaign, en función de cuántas áreas de nombres se estén usando; una solicitud que corresponde a un área de nombres.
 
@@ -109,9 +109,9 @@ El patrón para un nombre de archivo es: `<InstanceName>-<NamespaceId>-<Reconcil
 
 >[!CAUTION]
 >
->Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target=&quot;_blank&quot;} y añada el namespaceId a la solicitud, o use la [llamada a la API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target=&quot;_blank&quot;} para realizar la solicitud.
+>Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche la variable [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target="_blank"} para realizar la solicitud.
 >
->Utilice únicamente la [interfaz de usuario de Privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target=&quot;_blank&quot;} para enviar solicitudes con el tipo de área de nombres estándar.
+>Utilice únicamente la variable [Interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target="_blank"} para enviar solicitudes utilizando el tipo de área de nombres estándar.
 
 ### Tablas buscadas al procesar solicitudes {#list-of-tables}
 
@@ -152,10 +152,10 @@ A continuación, se encuentran los distintos estados de las solicitudes de priva
 
 **Temas relacionados en la documentación de la versión 7 de Campaign Classic:**
 
-* [Privacidad y consentimiento](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es){target=&quot;_blank&quot;}
+* [Privacidad y consentimiento](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es){target="_blank"}
 
-* [Introducción a Administración de privacidad](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es){target=&quot;_blank&quot;}
+* [Introducción a Administración de privacidad](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es){target="_blank"}
 
-* [Regulaciones sobre administración de la privacidad](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#privacy-management-regulations){target=&quot;_blank&quot;} (RGPD, CCPA, PDPA y LGPD)
+* [Regulaciones sobre administración de la privacidad](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#privacy-management-regulations){target="_blank"} (RGPD, CCPA, PDPA y LGPD)
 
-* [Exclusión para la venta de información personal](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=es){target=&quot;_blank&quot;} (específico de la CCPA)
+* [Exclusión para la venta de información personal](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-requests/privacy-requests-ccpa.html?lang=es){target="_blank"} (específico de la CCPA)

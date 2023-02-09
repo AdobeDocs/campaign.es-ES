@@ -3,7 +3,8 @@ product: campaign
 title: Casos de uso del flujo de trabajo
 description: Obtenga más información sobre los casos de uso que puede realizar mediante flujos de trabajo de Campaign
 feature: Workflows, Data Management
-source-git-commit: 2b1dec4b9c456df4dfcebfe10d18e0ab01599275
+exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
+source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 59%
@@ -20,8 +21,8 @@ Conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y c
 
 * [Uso de la actividad de aprobación local](local-approval-activity.md)
 * [Envío de un correo electrónico de cumpleaños](send-a-birthday-email.md)
-* [Carga de contenido de entrega](load-delivery-content.md)
-* [Flujo de trabajo de entrega en canales múltiples](cross-channel-delivery-workflow.md)
+* [Carga de contenido de envíos](load-delivery-content.md)
+* [Flujo de trabajo de envíos en canales múltiples](cross-channel-delivery-workflow.md)
 * [Enriquecimiento de correo electrónico con campos de datos personalizados](email-enrichment-with-custom-date-fields.md)
 
 ## Monitorización {#monitoring}
@@ -51,7 +52,7 @@ Conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y c
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Consulta de la tabla de destinatarios](querying-recipient-table.md)
-* [Información de entrega de la consulta](query-delivery-info.md)
+* [Consulta de la información de envío](query-delivery-info.md)
 * [Realizar cálculo agregado](compute-aggregates.md)
 * [Realización de consultas mediante la administración de agrupación](query-grouping-management.md)
 * [Realización de consultas con una relación de varios a varios](query-many-to-many-relationship.md)

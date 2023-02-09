@@ -4,13 +4,13 @@ description: Mida el éxito de sus campañas y analice el comportamiento del usu
 feature: Reporting
 role: Data Engineer
 level: Beginner
-source-git-commit: 8fb1f57b82ce3b99dabf584a6434d9111dc8b5af
+exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 21%
+source-wordcount: '322'
+ht-degree: 23%
 
 ---
-
 
 # Introducción a la creación de informes{#gs-ac-reports}
 
@@ -46,10 +46,10 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
    ![](assets/desc-analysis-report.png)
 
-   ![](../assets/do-not-localize/book.png) Los informes de análisis descriptivo de la campaña se presentan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target=&quot;_blank&quot;}
+   ![](../assets/do-not-localize/book.png) Los informes de análisis descriptivo de la campaña se presentan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html){target="_blank"}
 
 * **Informes personalizados**
 
    Utilice Adobe Campaign para crear informes sobre los datos de la base de datos. Una vez creadas, haga que sean accesibles en los contextos correspondientes.
 
-   ![](../assets/do-not-localize/book.png) Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target=&quot;_blank&quot;}. La creación de informes personalizados está reservada para usuarios avanzados.
+   ![](../assets/do-not-localize/book.png) Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creación de informes personalizados está reservada para usuarios avanzados.

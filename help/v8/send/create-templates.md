@@ -1,14 +1,15 @@
 ---
 product: campaign
-title: Trabajo con plantillas de entrega
+title: Trabajo con plantillas de envío
 description: Aprenda a crear y utilizar plantillas de entrega en Campaign
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 1c0015a02ff950d9bf9d33aacebf899db9e580fa
+exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
@@ -92,7 +93,7 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
 
 ## Uso de plantillas{#use-a-delivery-template}
 
-### Creación de una entrega a partir de una plantilla{#create-a-delivery-from-a-template}
+### Crear un envío a partir de una plantilla{#create-a-delivery-from-a-template}
 
 Para crear una entrega basada en una plantilla existente, seleccione la plantilla de la lista de plantillas de entrega disponibles.
 

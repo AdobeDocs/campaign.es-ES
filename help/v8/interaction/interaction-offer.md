@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
 source-git-commit: 8eb92dd1cacc321fc79ac4480a791690fc18511c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '920'
+ht-degree: 66%
 
 ---
 
@@ -178,7 +178,7 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 -->
 
-## Aprobación y activación de una oferta{#approve-offers}
+## Aprobar y activar una oferta{#approve-offers}
 
 Ahora puede aprobar y activar la oferta para que esté disponible en la **Activo** entorno.
 

@@ -8,7 +8,7 @@ exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
 source-wordcount: '382'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -74,6 +74,6 @@ nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
 
 **Temas relacionados**
 
-* [Obtenga información sobre cómo empezar a utilizar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html)
+* [Obtenga información sobre cómo empezar a utilizar flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
 
 * [Periodos de retención de datos](../dev/datamodel-best-practices.md#data-retention)

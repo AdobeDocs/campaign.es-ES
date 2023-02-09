@@ -6,8 +6,9 @@ role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: ec46a6f41d640b11306a88d6a966f81f8c2e43e0
-workflow-type: ht
+exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
+source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+workflow-type: tm+mt
 source-wordcount: '272'
 ht-degree: 100%
 
@@ -35,7 +36,7 @@ Esta integración es compatible con dos tipos de ID de Adobe Experience Cloud:
    >
    > Ahora, la fuente de datos de ID declarado también se puede utilizar con la integración del servicio principal Personas.
    >
-   >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición al uso de esta fuente de datos de ID declarados en un contexto de Adobe Audience Manager.
+   >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición a la fuente de datos de ID declarado en un contexto de Adobe Audience Manager.
 
 Consulte:
 

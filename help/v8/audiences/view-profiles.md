@@ -29,7 +29,7 @@ Para realizar manipulaciones de perfiles más avanzadas, acceda al árbol de cam
 >
 >La pantalla Recipient integrada se define mediante un esquema XML y su formulario asociado. El esquema XML se almacena en la variable **[!UICONTROL Administration > Configuration > Data schemas]** del árbol del explorador de Adobe Campaign. Solo los usuarios expertos pueden realizar cambios en estos esquemas.
 
-## Edición de un perfil{#edit-a-profiles}
+## Editar un perfil{#edit-a-profiles}
 
 Seleccione un perfil para mostrar los detalles en una pestaña nueva.
 
@@ -86,7 +86,7 @@ Los perfiles activos son los perfiles que se toman en cuenta con fines de factur
 
 La facturación solo abarca los perfiles que están **activos**. Un perfil se considera activo si este se ha identificado o comunicado en los últimos 12 meses a través de cualquier canal.
 
-Un perfil al que se destinan varias entregas se cuenta solo una vez.
+Un perfil al que se destinan varios envíos se cuenta solo una vez.
 
 Tenga en cuenta que el recuento de perfiles principales solo está disponible para las **instancias de marketing**. No está disponible para Instancias de ejecución; es decir, instancias de MID (fuentes intermedias) y RT (mensajería en tiempo real/centro de mensajes).
 
