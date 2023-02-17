@@ -1,19 +1,19 @@
 ---
-title: Notas de la versión de Campaign v8 2021
+title: Notas de la versión de Campaign v8 de 2021
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2021
 feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1585'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Notas de la versión de 2021{#2021-release}
 
-Esta página enumera las nuevas funciones, mejoras y correcciones que se incluyen en **Versiones de Campaign v8 de 2021**.
+En esta página se indican las nuevas funcionalidades, mejoras y correcciones que se proporcionan con las **versiones de Campaign v8 de 2021**.
 
 ## Versión 8.2.8 {#release-8-2-8}
 
