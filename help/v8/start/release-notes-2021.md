@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1585'
 ht-degree: 100%
 
@@ -122,7 +122,7 @@ _7 de septiembre de 2021_
 
 * Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-connectors/crm-ms-dynamics.html?lang=es#configure-acc-for-microsoft)
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
-* Se ha agregado una protección para permitir que el [flujo de trabajo técnico de facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=es#billing-report) se ejecute en la instancia de marketing.
+* Se ha añadido un mecanismo de protección para permitir que el [flujo de trabajo técnico de facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=es#billing-report) se ejecute en la instancia de marketing.
 * La identificación de la fuente de datos se ha mejorado en las pestañas de datos y esquema de la ventana **Ver población** de las transiciones de flujo de trabajo.
 * Los índices de base de datos que faltaban se agregaron a los siguientes esquemas para evitar problemas de actualización de la base de datos: xtk:rights, nms:dlvExclusion, nms:seedMember, nms:trackingUrl
 

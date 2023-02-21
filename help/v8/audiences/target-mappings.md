@@ -22,7 +22,7 @@ Puede utilizar otras asignaciones de destino para las entregas o crear una nueva
 
 Adobe Campaign incluye las siguientes asignaciones de destino integradas:
 
-| Name | Uso a | Esquema |
+| Name | Uso para | Esquema |
 |---|---|---|
 | Recipients | Envío a destinatarios (tabla de destinatarios integrada) | nms:recipient |
 | Visitantes | Envío a visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) por ejemplo. | mns:visitor |

@@ -8,7 +8,7 @@ exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 source-git-commit: b783b1444457b3204fea35b613582642499acf65
 workflow-type: tm+mt
 source-wordcount: '1181'
-ht-degree: 35%
+ht-degree: 41%
 
 ---
 
@@ -71,9 +71,9 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 >
 >El número de cuarentenas aumenta con el tiempo. Por ejemplo, si se considera que la duración de una dirección de correo electrónico es de tres años y la lista de distribución aumenta en un 50 % cada año, el aumento de la cuarentena se puede calcular de la siguiente manera:
 >
->Fin de año 1: (1)&#42;0,33)/(1+0,5) = 22 %.
+>Fin de año 1: (1&#42;0,33)/(1+0,5) = 22 %.
 >
->Fin de año 2: (1.22)&#42;0,33)+0,33)/(1,5+0,75) = 32,5%.
+>Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 Además, la variable **[!UICONTROL Non-deliverables and bounces]** informe integrado, disponible en el **Informes** de esta página principal, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de un envío específico o personalizar este informe según sea necesario.
 
@@ -119,9 +119,9 @@ Para ello, cree un flujo de trabajo y añada una consulta en la tabla de cuarent
 A continuación se muestran las directrices recomendadas para esta consulta:
 
 * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
-* **Dominio de correo electrónico (@domain)** igual a domain1.com OR **Dominio de correo electrónico (@domain)** igual a domain2.com OR **Dominio de correo electrónico (@domain)** igual a domain3.com
-* **Actualizar estado (@lastModified)** en o después de MM/DD/AAAA HH:MM:SS AM
-* **Actualizar estado (@lastModified)** en MM/DD/AAAA HH:MM:SS PM
+* **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
+* **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
+* **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado en **[!UICONTROL Valid]** de modo que el **[!UICONTROL Database cleanup]** flujo de trabajo, También puede eliminarlos de la tabla de cuarentena.
 
