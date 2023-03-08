@@ -6,16 +6,33 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e7f4982a9b13fe5413b6cce0a1cc58e2b3a6afa4
+source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 100%
+source-wordcount: '519'
+ht-degree: 91%
 
 ---
 
 # Última versión{#latest-release}
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con la **última versión de Campaign v8**.
+
+## Versión 8.4.4 {#release-8-4-4}
+
+>[!CAUTION]
+>
+> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
+
+_8 de marzo de 2023_
+
+**Mejora de la seguridad**
+
+* Para mejorar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a la 8.5.85. (NEO-50530)
+
+**Parches**
+
+* Se ha corregido un problema que podía impedir que se desplazara en el **Editar** del Editor de contenido digital (DCE). (NEO-54474)
+* Se ha corregido un problema durante la replicación que podría provocar el bloqueo de un servidor web. (NEO-53670)
 
 ## Versión 8.4.3 {#release-8-4-3}
 
@@ -40,7 +57,7 @@ _27 de enero de 2023_
 * Se ha corregido un problema con la importación de archivos HTML cuando los nodos de imagen (img) contenían direcciones URL con campos de personalización. (NEO-48396)
 * Se ha corregido un problema con Snowflake (todas las implantaciones) al utilizar el parámetro de ordenación en una actividad **Dividir** del flujo de trabajo. (NEO-45899) <!--OKKKK-->
 * Se ha corregido un problema que provocaba un error cuando un usuario con derechos de acceso de lectura en la carpeta nmsDeliveryMapping intentaba ejecutar una campaña o un flujo de trabajo. (NEO-48230)
-* Se ha corregido un problema de rendimiento en la pestaña HTML de una entrega que se podía producir en código HTML extenso. (NEO-47440)
+* Se ha corregido un problema de rendimiento en la pestaña HTML de un envío que se podía producir en código HTML extenso. (NEO-47440)
 <!-- * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
 * Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)-->
 * Se ha corregido un problema que impedía usar la opción de flujo de trabajo **Combinar líneas seleccionadas**. (NEO-48488)
