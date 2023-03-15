@@ -5,16 +5,16 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
+source-git-commit: 445e62c290466003886f2dc49386d0c1edb80eeb
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 10%
+source-wordcount: '905'
+ht-degree: 11%
 
 ---
 
 # Conexión a Adobe Campaign v8{#gs-ac-connect}
 
-Debe instalar la consola del cliente de Campaign para conectarse a los servidores de aplicaciones de Campaign.
+Para comenzar a trabajar con Campaign, debe instalar y configurar la consola de cliente.
 
 La consola de cliente es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las capacidades y configuraciones, y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para una implementación sencilla, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).
 
@@ -22,7 +22,7 @@ Antes de empezar, debe:
 
 * Compruebe la compatibilidad del sistema y las herramientas con Adobe Campaign en la [Matriz de compatibilidad](compatibility-matrix.md)
 * Obtener la URL del servidor de Campaign
-* Cree su Adobe ID u obtenga sus credenciales de usuario de su empresa
+* Cree su Adobe ID o obtenga sus credenciales de usuario de su empresa
 * Instale el tiempo de ejecución de Microsoft Edge Webview2 en su sistema. [Más información](#webview)
 
 ## Instalación de la consola de cliente{#download-ac-console}
@@ -31,7 +31,7 @@ Antes de empezar, debe:
 
 A partir de la versión de Campaign Classic 8.4, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de Client Console.
 
-La vista web se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el instalador de la consola de Campaign le pedirá que lo descargue de [Sitio web del desarrollador de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}. Tenga en cuenta que el vínculo de descarga no funciona en el explorador Internet Explorer 11, ya que Microsoft ha dejado de ofrecer soporte técnico. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
+La vista web se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el programa de instalación de la consola del cliente de Campaign le pedirá que lo descargue de [Sitio web del desarrollador de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}. Tenga en cuenta que el vínculo de descarga no funciona en el explorador Internet Explorer 11, ya que Microsoft ha dejado de ofrecer soporte técnico. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
 
 ### Descargar la consola{#install-ac-console}
 
@@ -49,11 +49,9 @@ Tenga en cuenta que no puede cambiar el idioma de la consola de cliente una vez 
 
 ## Crear la conexión{#create-your-connection}
 
-Una vez que la consola de cliente se haya instalado, siga los pasos a continuación para crear la conexión con el servidor de aplicaciones:
+Una vez instalada la consola de cliente, siga los pasos a continuación para crear la conexión con el servidor de aplicaciones:
 
-1. Iniciar la consola desde Windows **[!UICONTROL Start]** en el **Adobe Campaign** grupo de programas.
-
-1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de conexión.
+1. Inicie la consola y busque el vínculo en la esquina derecha para acceder a la pantalla de configuración de conexión.
 
 1. Haga clic en **[!UICONTROL Add > Connection]** e introduzca la etiqueta y la URL del servidor de aplicaciones de Adobe Campaign.
 
@@ -77,9 +75,7 @@ Los usuarios de Campaign se conectan a la consola de Adobe Campaign mediante su 
 
 Para iniciar sesión en una instancia, siga los pasos a continuación:
 
-1. Iniciar la consola desde Windows **[!UICONTROL Start]** en el **Adobe Campaign** grupo de programas.
-
-1. Haga clic en el vínculo en la esquina superior derecha de los campos de credenciales para acceder a la ventana de configuración de conexión.
+1. Inicie la consola y busque el vínculo en la esquina derecha para acceder a la pantalla de configuración de conexión.
 
    ![](assets/connectToCampaign.png)
 
@@ -87,13 +83,13 @@ Para iniciar sesión en una instancia, siga los pasos a continuación:
 
 1. Haga clic en **[!UICONTROL Ok]**.
 
-1. A continuación, puede iniciar sesión en Campaign con [su Adobe ID](#connect-ims).
+A continuación, puede iniciar sesión en Campaign con [su Adobe ID](#connect-ims).
 
-   ![](assets/adobeID.png)
+![](assets/adobeID.png)
 
 >[!NOTE]
 >
->Para las versiones de compilación 8.4 de campaign classic, la consola del cliente de Adobe Campaign puede solicitar credenciales de proxy dos veces durante la autenticación de proxy. Esto se debe a que Microsoft Edge Webview2 no guarda las credenciales de proxy en el almacén de caché/contraseña a diferencia de Internet Explorer.
+>Como Microsoft Edge Webview2 no guarda las credenciales del proxy, la consola puede pedirle que se autentique dos veces en la primera conexión.
 
 ## Actualizar la consola del cliente{#upgrade-ac-console}
 
@@ -103,7 +99,7 @@ Como usuario de Cloud Services administrados, Adobe implementa Client Console po
 
 >[!CAUTION]
 >
->Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** no está seleccionado para asegurarse de que todos los usuarios reciben una alerta cuando hay una nueva versión de la Consola disponible. Si se selecciona esta opción, no se informará al usuario de las nuevas versiones disponibles.
+>Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** no seleccionado para asegurarse de que recibe un aviso cuando hay una nueva versión de la consola disponible. Si se selecciona esta opción, no se informa al usuario de que se requiere una actualización de la consola.
 
 
 ## Conceder acceso a los usuarios{#grant-access}
