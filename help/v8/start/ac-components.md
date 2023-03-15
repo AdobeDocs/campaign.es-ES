@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '660'
 ht-degree: 1%
 
 ---
@@ -30,23 +30,15 @@ Puede acceder a Adobe Campaign a través de un cliente enriquecido, un cliente l
 
 * Cliente enriquecido
 
-   El cliente enriquecido de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP.
-
-   La consola del cliente de Campaign centraliza todas las capacidades y configuraciones, y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para una implementación sencilla, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, se puede actualizar automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).
-
-   ![](../assets/do-not-localize/glass.png) [Obtenga más información sobre la consola del cliente de Campaign](../start/connect.md).
+   El cliente enriquecido de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. [Obtenga más información sobre la consola del cliente de Campaign](../start/connect.md).
 
 * Cliente ligero
 
-   Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante la interfaz de usuario del HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a tableros de monitorización y mucho más.
-
-   ![](../assets/do-not-localize/glass.png) [Obtenga más información acerca de Campaign Web Access](../start/connect.md).
+   Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante la interfaz de usuario del HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a tableros de monitorización y mucho más.  [Obtenga más información acerca de Campaign Web Access](../start/connect.md).
 
 * Aplicaciones externas con API
 
-   En algunos casos, se puede llamar al sistema desde aplicaciones externas mediante las API de servicios web expuestas mediante el protocolo SOAP.
-
-   ![](../assets/do-not-localize/glass.png) [Obtenga más información sobre las API de Campaign](../dev/api.md).
+   En algunos casos, se puede llamar al sistema desde aplicaciones externas mediante las API de servicios web expuestas mediante el protocolo SOAP. [Obtenga más información sobre las API de Campaign](../dev/api.md).
 
 ### Capa de persistencia{#persistance-layer}
 

@@ -6,10 +6,10 @@ role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 55711ea42b9cc0be70e875e1544780b6983af98b
+source-git-commit: 2ec240b139394ce8f54a5835a4fa7bd377d226eb
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 91%
+source-wordcount: '522'
+ht-degree: 88%
 
 ---
 
@@ -19,26 +19,25 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 ## Versión 8.4.4 {#release-8-4-4}
 
->[!CAUTION]
->
-> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
-
 _8 de marzo de 2023_
 
 **Mejora de la seguridad**
 
-* Para mejorar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a la 8.5.85. (NEO-50530)
+* Para mejorar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a la versión 8.5.85. (NEO-50530)
 
 **Parches**
 
-* Se ha corregido un problema que podía impedir que se desplazara en el **Editar** del Editor de contenido digital (DCE). (NEO-54474)
-* Se ha corregido un problema durante la replicación que podría provocar el bloqueo de un servidor web. (NEO-53670)
+* Se ha corregido un problema que podía impedir que se desplazara por el **Editar** del Editor de contenido digital (DCE). (NEO-54474)
+* Se ha corregido un problema durante la replicación que podía provocar un bloqueo del servidor web. (NEO-53670)
 
-## Versión 8.4.3 {#release-8-4-3}
 
 >[!CAUTION]
 >
-> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
+> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#upgrade-ac-console).
+
+
+## Versión 8.4.3 {#release-8-4-3}
+
 
 _27 de enero de 2023_
 
@@ -67,3 +66,6 @@ _27 de enero de 2023_
 * La administración de las direcciones URL de seguimiento se ha mejorado en los flujos de trabajo con varios envíos para mejorar el rendimiento. (NEO-50894) <!--OKKKK-->
 * Se ha corregido un problema que podría provocar errores en la replicación de esquemas que utilizan Xtkfolder. (NEO-46787) <!--OKKKK-->
 * Se ha corregido un problema que podría provocar que la columna personalizada “lastModified” se suelte en la tabla NmsSubscription. (NEO-48402)
+
+
+**La actualización de la consola del cliente es obligatoria para esta versión** - Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#upgrade-ac-console).
