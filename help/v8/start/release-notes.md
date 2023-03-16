@@ -9,7 +9,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 814f7c81aa4f154fdf289effc82b8d02bdd9b4c6
 workflow-type: tm+mt
 source-wordcount: '519'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,12 +23,12 @@ _8 de marzo de 2023_
 
 **Mejora de la seguridad**
 
-* Para mejorar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a la versión 8.5.85. (NEO-50530)
+* Para mejorar la seguridad, Tomcat se ha actualizado de la versión 8.5.81 a la 8.5.85. (NEO-50530)
 
 **Parches**
 
-* Se ha corregido un problema que podía impedir que se desplazara por el **Editar** del Editor de contenido digital (DCE). (NEO-54474)
-* Se ha corregido un problema durante la replicación que podía provocar un bloqueo del servidor web. (NEO-53670)
+* Se ha corregido un problema que podía impedir que se desplazara en la pestaña **Editar** del Editor de contenido digital (DCE). (NEO-54474)
+* Se ha corregido un problema durante la replicación que podría provocar el bloqueo de un servidor web. (NEO-53670)
 
 
 >[!CAUTION]
