@@ -1,17 +1,19 @@
 ---
 title: Añadir un vínculo a la página espejo
-description: Obtenga información sobre cómo un vínculo a la página espejo
+description: Aprenda a añadir y administrar el vínculo a la página espejo
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2c35b169725b5300940260124a4b559eb44ffe43
+source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
 
-# Acerca de la página espejo del correo electrónico{#mirror-page}
+# Vínculo a la página espejo{#mirror-page}
+
+## Acerca de la página espejo{#about-mirror-page}
 
 La página espejo es una versión en línea de su correo electrónico.
 
@@ -24,11 +26,9 @@ La página espejo generada por Adobe Campaign contiene todos los datos de person
 
 ## Añadir un vínculo a la página espejo{#link-to-mirror-page}
 
-Se recomienda insertar un vínculo a la página espejo. Este vínculo puede ser, por ejemplo, &quot;Ver este correo electrónico en el navegador&quot; y a menudo se encuentra en el encabezado o pie de página de un correo electrónico.
+Se recomienda insertar un vínculo a la página espejo. Este enlace puede ser, por ejemplo, &quot;Ver este correo electrónico en tu navegador&quot; o &quot;Leer esto en línea&quot;. A menudo se encuentra en el encabezado o pie de página del correo electrónico.
 
-En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante la variable **bloque personalizado**. De forma predeterminada, la página espejo solo se genera si el vínculo se inserta en el contenido del mensaje.
-
-El **Vínculo a página espejo** el bloque personalizado inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
+En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante la variable **bloque personalizado**. El **Vínculo a página espejo** el bloque personalizado inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 

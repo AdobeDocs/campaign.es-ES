@@ -5,14 +5,14 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: c44fb2de4ed0e1661801313ae0430ba9d19542f0
+source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 66%
+source-wordcount: '1168'
+ht-degree: 63%
 
 ---
 
-# Creación y envío de notificaciones push
+# Creación y envío de notificaciones push{#push-notifications-create}
 
 Los envíos de aplicaciones móviles permiten enviar notificaciones a sistemas iOS y Android.
 
@@ -25,24 +25,17 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 
 ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo empezar a usar la aplicación móvil en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html){target="_blank"}
 
-## Integración del SDK de Campaign
+## Integración del SDK {#push-sdk}
 
-El SDK de Campaign facilita la integración de la aplicación móvil en la plataforma Adobe Campaign.
+Puede utilizar el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. El SDK de Adobe Experience Platform Mobile ayuda a impulsar las soluciones y los servicios Experience Cloud de los Adobes en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. [Obtenga más información en la documentación de Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
-Las versiones compatibles del SDK se enumeran en [Matriz de compatibilidad de Campaign](../start/compatibility-matrix.md#MobileSDK).
+Obtenga información acerca de cómo configurar e instalar el SDK móvil de Adobe Experience Platform [en este vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/sending-messages/push-channel/configure-push-using-aep-mobile-sdk.html?lang=es){target="_blank"}.
 
-![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo integrar los SDK de iOS y Android de Campaign con su aplicación en [esta sección](../config/push-config.md)
+También puede integrar el SDK de Campaign para facilitar la integración de la aplicación móvil en la plataforma Adobe Campaign. Las versiones compatibles del SDK se enumeran en [Matriz de compatibilidad de Campaign](../start/compatibility-matrix.md#MobileSDK).
 
-<!--
-### Configure Campaign Extension in Launch
+Obtenga información sobre cómo integrar los SDK de iOS y Android de Campaign con su aplicación en [esta página](../config/push-config.md)
 
-You can integrate Adobe Experience Platorm Launch SDK with Campaign, by leveraging Campaign Classic extension.
-
-![](../assets/do-not-localize/book.png) Learn more in [Adobe Mobile SDK documentation](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-campaignclassic){target="_blank"}
-
--->
-
-## Configuración de la aplicación en Campaign
+## Configuración de la aplicación en Campaign{#push-config}
 
 Debe definir la configuración de las aplicaciones de iOS y Android en Adobe Campaign.
 
@@ -50,7 +43,7 @@ Debe definir la configuración de las aplicaciones de iOS y Android en Adobe Cam
 
 ![](../assets/do-not-localize/book.png) Las directrices de configuración para Android se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android.html?lang=en#sending-messages){target="_blank"}
 
-## Creación de la primera notificación push
+## Creación de la primera notificación push{#push-create}
 
 En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS y Android.
 
