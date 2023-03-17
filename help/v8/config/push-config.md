@@ -6,23 +6,25 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 4a017eabf1330b04939aa4bd0602c371a0ee3208
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 44%
+source-wordcount: '1311'
+ht-degree: 43%
 
 ---
 
 # Integración de los SDK de Campaign con la aplicación {#integrate-campaign-sdk}
 
-Utilice los SDK de Campaign para iOS y Android para facilitar la integración de la aplicación móvil en la plataforma Adobe Campaign.
+Puede utilizar los SDK de Campaign para iOS y Android para facilitar la integración de la aplicación móvil en la plataforma Adobe Campaign.
 
 Las versiones compatibles con Android y iOS, y las versiones compatibles con Campaign SDK para Campaign v8 se enumeran en el [Matriz de compatibilidad](../start/compatibility-matrix.md#MobileSDK).
 
+Como administrador de Campaign, puede descargar los SDK de Campaign desde el [Distribución de software de Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+
+
 >[!NOTE]
 >
->Como administrador de Campaign, puede descargar los SDK de Campaign desde el [Distribución de software de Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
-
+>También puede utilizar el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. [Más información en Documentación para desarrolladores](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
 ## Declarar configuraciones de integración {#declaring-integration-settings}
 
@@ -651,7 +653,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
    | ACCRegisterDeviceStatusFailureUnknownUUID | Se desconoce la UUID (clave de integración) proporcionada. | VACÍO |
    | ACCRegisterDeviceStatusFailureUnexpectedError | Error inesperado devuelto al servidor ACC. | El mensaje de error devuelto a ACC. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
    El protocolo **Neolane_SDKDelegate** y la definición delegada **registerDeviceStatus** son las siguientes:
 
