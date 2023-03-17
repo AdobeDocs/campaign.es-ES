@@ -4,10 +4,10 @@ title: Entrega continua
 description: Entrega continua
 feature: Workflows, Channels Activity
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -60,8 +60,8 @@ Un envío continuo creará un envío ÚNICO y registros de envío (broadLog) y r
 
 ## Tutorial en vídeo {#continuous-delivery-video}
 
-Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
+Este vídeo muestra cómo configurar una entrega continua con una consulta incremental.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

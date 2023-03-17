@@ -3,7 +3,7 @@ title: Informes de envío integrados de Adobe Campaign
 description: Informes de envío integrados de Adobe Campaign
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 92%
@@ -62,7 +62,7 @@ Este informe combina los indicadores clave para realizar un seguimiento del comp
 * **[!UICONTROL Distinct opens for the population reached]** : Estimación del número de destinatarios objetivo que han abierto un mensaje al menos una vez. Se tienen en cuenta los clics en direcciones URL rastreadas, ya que es necesario abrir los correos electrónicos para hacer clic en un vínculo.
 * **[!UICONTROL Sum of opens for the population reached]** : Estimación del número total de aperturas de los destinatarios objetivo.
 * **[!UICONTROL Clicks on opt-out link]** : Número de clics en el vínculo de baja de suscripción.
-* **[!UICONTROL Clicks on the mirror page link]** : Número de clics en el vínculo de página espejo. Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envíos (direcciones URL rastreadas). <!--Refer to this [page](../../delivery/using/about-delivery-monitoring.md).-->
+* **[!UICONTROL Clicks on the mirror page link]**[ : Número de clics en el vínculo de página espejo](../send/mirror-page.md). Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envíos (direcciones URL rastreadas).
 * **[!UICONTROL Estimation of forwards]** : Estimación del número de correos electrónicos reenviados por los destinatarios objetivo. Este valor se calcula restando el número de personas diferentes y el número de destinatarios diferentes que hicieron clic en el correo electrónico.
 
    >[!NOTE]

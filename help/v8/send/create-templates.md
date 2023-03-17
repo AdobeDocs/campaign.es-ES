@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 51%
+ht-degree: 49%
 
 ---
 
@@ -22,7 +22,7 @@ Una plantilla puede incluir sistemáticamente:
 * Tipologías
 * Direcciones de remitente y respuesta
 * Bloques de personalización básicos
-* Vínculos a páginas espejo y baja vínculos
+* Vínculos a [páginas espejo](../send/mirror-page.md) y vínculos de baja
 * Contenido, logotipo de la empresa o firma
 * Otras propiedades de envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
@@ -86,7 +86,7 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
 1. En el **Propiedades** , adapte la configuración.
 1. En la pestaña **General**, confirme o cambie las ubicaciones seleccionadas en los menús desplegables **Carpeta de ejecución**, **Carpeta** y **Enrutamiento**.
 1. Rellene la categoría **parámetros de correo electrónico** con el asunto del correo electrónico y la población objetivo.
-1. Añada el **contenido HTML** para personalizar la plantilla. Puede mostrar un vínculo a una página espejo y un vínculo para darse de baja.
+1. Añada el **contenido HTML** para personalizar la plantilla. Puede mostrar un vínculo a una página espejo y un vínculo para darse de baja.[](../send/mirror-page.md)
 1. Seleccione la pestaña **Preview.** En el menú desplegable **Personalización de prueba**, seleccione **Destinatario** para previsualizar la plantilla como el perfil elegido.
 1. Haga clic en **Save**. La plantilla ya está lista para utilizarse en una entrega.
 
@@ -142,4 +142,4 @@ En este vídeo se explica cómo implementar una plantilla de envíos de correo e
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
