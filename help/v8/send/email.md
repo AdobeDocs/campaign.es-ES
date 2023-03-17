@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
 workflow-type: tm+mt
 source-wordcount: '568'
 ht-degree: 29%
@@ -69,7 +69,7 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
 
    * Adición de una página espejo
 
-      Para permitir a los destinatarios ver el contenido de la entrega en un navegador web, añada un vínculo a la página espejo del mensaje.
+      Para permitir a los destinatarios ver el contenido de su envío en un navegador web, añada un vínculo a la [página espejo](../send/mirror-page.md) del mensaje.
 
       Sitúe el cursor donde desee insertar este vínculo, haga clic en el último icono de la barra de herramientas y, a continuación, haga clic en **[!UICONTROL Include]** y seleccione **[!UICONTROL link to mirror page]**.
    Una vez que el contenido esté listo, haga clic en **Guardar**: ahora se muestra en la lista de envíos, en la variable **[!UICONTROL Campaigns > Deliveries]** pestaña . Su primer envío de correo electrónico está listo. Ahora debe definir la audiencia, validar la entrega y enviarlo.
