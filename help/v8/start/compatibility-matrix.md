@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6ef,bebdd930-c7f6-4629-a489-3c704b33f058,d493e613-eb61-43b1-9c6d-1bd881af0734
-source-git-commit: c68218951f721dc31e70619c97b90452b72f9563
+source-git-commit: b4593dd9fbb3e4742183719281ff0e5a78b9e6c8
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '375'
+ht-degree: 90%
 
 ---
 
@@ -55,11 +55,7 @@ A continuación, se enumeran las bases de datos externas compatibles con el mód
 
 ## SDK móvil{#MobileSDK}
 
-Puede utilizar Campaign para enviar [notificaciones push](../send/push.md) a los sistemas operativos que se enumeran a continuación mediante el SDK móvil asociado.
-
-También puede utilizar el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos.
-
-También puede utilizar los SDK de Campaign enumerados a continuación:
+Para enviar [notificaciones push](../send/push.md) con Campaign, puede utilizar el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. También puede utilizar los SDK de Campaign enumerados a continuación:
 
 * **Android** 12, 9.0, 8.x, 7.x con la versión 1.1.1. de Campaign Android SDK.
 * **iOS de Apple** 9 - 16 con la compilación 1.0.26 del iOS SDK de Campaign, compatible con las versiones de 32 y 64 bits. Apple iOS 16 es compatible a partir de la versión 8.4 de Campaign.
