@@ -4,9 +4,9 @@ description: Aprenda a añadir y administrar el vínculo a la página espejo
 feature: Email
 role: User
 level: Beginner
-source-git-commit: d8ceefe1dd56aecb810878d99395ac900f889c2e
+source-git-commit: 9ebcfee199a2ba355b7b504c7f24732d30542a36
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -23,12 +23,14 @@ La página espejo generada por Adobe Campaign contiene todos los datos de person
 
 ![](assets/mirror-page-link.png)
 
-
 ## Añadir un vínculo a la página espejo{#link-to-mirror-page}
 
 Se recomienda insertar un vínculo a la página espejo. Este enlace puede ser, por ejemplo, &quot;Ver este correo electrónico en tu navegador&quot; o &quot;Leer esto en línea&quot;. A menudo se encuentra en el encabezado o pie de página del correo electrónico.
 
 En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante la variable **bloque personalizado**. El **Vínculo a página espejo** el bloque personalizado inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
+
+![](assets/mirror-page-insert.png)
+
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
 
@@ -47,5 +49,19 @@ Además del modo predeterminado, están disponibles las siguientes opciones:
 
 * **[!UICONTROL Force the generation of the mirror page]**: utilice este modo para generar la página espejo aunque no haya ningún vínculo a la página espejo insertado en la entrega.
 * **[!UICONTROL Do not generate the mirror page]**: utilice este modo para evitar generar una página espejo, incluso si el vínculo está presente en la entrega.
-* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: utilice esta opción para habilitar el acceso al contenido de la página espejo, con datos de personalización, en la ventana del &quot;log&quot; de envío. Para acceder a esta página espejo: una vez realizado el envío, ábralo y busque su **[!UICONTROL Delivery]** pestaña . Seleccione un destinatario y haga clic en el botón **[!UICONTROL Display the mirror page for this message...]** vínculo. La página espejo se muestra en una nueva pestaña.
+* **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: cuando el vínculo de página espejo no esté presente en el contenido del correo electrónico, utilice esta opción para habilitar el acceso al contenido de la página espejo, en la ventana del registro de envío, como se detalla a continuación.
+
+## Comprobar la página espejo de un destinatario{#mirror-page-access}
+
+Puede acceder al contenido de la página espejo de un destinatario específico de una entrega, con datos de personalización.
+
+Para acceder a esta página espejo:
+
+1. Una vez realizado el envío, ábralo y navegue hasta su **[!UICONTROL Delivery]** pestaña .
+
+1. Seleccione un destinatario y haga clic en el botón **[!UICONTROL Display the mirror page for this message...]** vínculo.
+
+   ![](assets/mirror-page-display.png)
+
+   La página espejo se muestra en una pantalla dedicada, con datos de personalización para el destinatario seleccionado.
 
