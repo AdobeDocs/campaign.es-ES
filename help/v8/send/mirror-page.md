@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo un vínculo a la página espejo
 feature: Email
 role: User
 level: Beginner
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 58cf4739c27dfed63cfbb0ca6c85121fe5336e8d
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 0%
@@ -18,6 +18,11 @@ La página espejo es una versión en línea de su correo electrónico.
 Aunque la mayoría de los clientes de correo electrónico procesan imágenes sin problemas, algunos ajustes preestablecidos pueden evitar mostrar imágenes por motivos de seguridad. Los usuarios pueden navegar a la página espejo de un correo electrónico, por ejemplo, si están experimentando problemas de renderización o imágenes rotas al intentar verlo en su bandeja de entrada. También se recomienda proporcionar una versión en línea por motivos de accesibilidad o para fomentar el uso compartido en redes sociales.
 
 La página espejo generada por Adobe Campaign contiene todos los datos de personalización.
+
+
+![](assets/mirror-page-link.png)
+
+
 
 ## Añadir un vínculo a la página espejo{#link-to-mirror-page}
 
