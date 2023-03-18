@@ -4,9 +4,9 @@ description: Aprenda a añadir y administrar el vínculo a la página espejo
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 9ebcfee199a2ba355b7b504c7f24732d30542a36
+source-git-commit: 903224da4ab15bf4221d8769bfb19933f4cbf2b0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Aunque la mayoría de los clientes de correo electrónico procesan imágenes sin
 
 La página espejo generada por Adobe Campaign contiene todos los datos de personalización.
 
-![](assets/mirror-page-link.png)
+![ejemplo de vínculo espejo](assets/mirror-page-link.png){width="300" align="center"}
 
 ## Añadir un vínculo a la página espejo{#link-to-mirror-page}
 
