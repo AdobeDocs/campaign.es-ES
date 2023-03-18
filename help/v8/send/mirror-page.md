@@ -4,9 +4,9 @@ description: Aprenda a añadir y administrar el vínculo a la página espejo
 feature: Email
 role: User
 level: Beginner
-source-git-commit: e2aaf80a5a0d74161152fabe8ea157d31923ee19
+source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Aunque la mayoría de los clientes de correo electrónico procesan imágenes sin
 
 La página espejo generada por Adobe Campaign contiene todos los datos de personalización.
 
-![ejemplo de vínculo espejo](assets/mirror-page-link.png){width="500" align="left"}
+![ejemplo de vínculo espejo](assets/mirror-page-link.png){width="600" align="left"}
 
 ## Añadir un vínculo a la página espejo{#link-to-mirror-page}
 
@@ -29,7 +29,7 @@ Se recomienda insertar un vínculo a la página espejo. Este enlace puede ser, p
 
 En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante la variable **bloque personalizado**. El **Vínculo a página espejo** el bloque personalizado inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="500" align="left"}
+![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
 <!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
@@ -43,7 +43,7 @@ Puede controlar el modo de generación de la página espejo del correo electrón
 1. Vaya a la **[!UICONTROL Validity]** de las propiedades de correo electrónico.
 1. En el **Administración de páginas espejo** , marque **[!UICONTROL Mode]** lista desplegable.
 
-![](assets/mirror-page-generation.png){width="500" align="left"}
+![](assets/mirror-page-generation.png){width="800" align="left"}
 
 Además del modo predeterminado, están disponibles las siguientes opciones:
 
@@ -61,7 +61,7 @@ Para acceder a esta página espejo:
 
 1. Seleccione un destinatario y haga clic en el botón **[!UICONTROL Display the mirror page for this message...]** vínculo.
 
-   ![](assets/mirror-page-display.png){width="500" align="left"}
+   ![](assets/mirror-page-display.png){width="800" align="left"}
 
    La página espejo se muestra en una pantalla dedicada, con datos de personalización para el destinatario seleccionado.
 
