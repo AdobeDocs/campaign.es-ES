@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 49%
+source-wordcount: '698'
+ht-degree: 48%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 49%
 
 Utilice plantillas de envío para estandarizar el aspecto creativo y así ejecutar y iniciar las campañas con mayor rapidez.
 
-Una plantilla puede incluir sistemáticamente:
+Una plantilla puede incluir:
 
 * Tipologías
 * Direcciones de remitente y respuesta
-* Bloques de personalización básicos
+* Básico [bloques personalizados](../send/personalization-blocks.md)
 * Vínculos a [páginas espejo](../send/mirror-page.md) y vínculos de baja
 * Contenido, logotipo de la empresa o firma
 * Otras propiedades de envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.

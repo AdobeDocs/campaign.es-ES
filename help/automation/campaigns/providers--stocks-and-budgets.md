@@ -4,10 +4,10 @@ title: Proveedores, stock y presupuestos
 description: Proveedores, stock y presupuestos
 feature: Budget Management, Campaigns
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '1816'
-ht-degree: 82%
+ht-degree: 81%
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Campaign permite definir proveedores de servicios que participan en los tr
 
 Cada proveedor de servicios se guarda en un archivo con detalles de contacto, plantillas de servicio y trabajos relacionados.
 
-Los proveedores de servicios se configuran en el nodo **[!UICONTROL Administration > Campaign management]** del árbol.
+Los proveedores de servicios se configuran en la variable **[!UICONTROL Administration > Campaign management]** carpeta del explorador de Campaign.
 
 Los trabajos realizados durante las entregas se realizan mediante proveedores de servicios, especialmente en el caso del correo directo y los canales móviles. Estos proveedores de servicios pueden, por ejemplo, participar en la impresión o distribución de mensajes. Estos trabajos implican configuraciones y costes específicos de cada proveedor de servicios. La configuración de proveedores de servicios consta de cuatro etapas:
 
@@ -129,7 +129,7 @@ Puede asociar información sobre los procesos asociados con el proveedor de serv
 
 * La sección **[!UICONTROL Notification email]** permite especificar la plantilla para enviar una notificación a los proveedores de servicios después de enviar los archivos. Seleccione la plantilla utilizada para crear el mensaje de alerta y el grupo de destinatarios.
 
-   De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en el nodo **[!UICONTROL Administration > Campaign management > Technical delivery templates]**, al que se puede acceder desde la vista general.
+   De forma predeterminada, las plantillas de envío de los mensajes de notificación se guardan en la **[!UICONTROL Administration > Campaign management > Technical delivery templates]** carpeta , a la que se puede acceder desde la vista general.
 
 * La sección **[!UICONTROL Post-processing]** permite seleccionar el flujo de trabajo que se inicia después de aprobar la entrega. Si se introduce una plantilla de flujo de trabajo, se crea automáticamente una instancia de flujo de trabajo y, a continuación, se inicia en cuanto surta efecto la aprobación. Este flujo de trabajo puede enviar el archivo de extracción a un proveedor de servicios externos para su procesamiento, por ejemplo.
 

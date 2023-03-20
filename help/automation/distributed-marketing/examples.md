@@ -4,10 +4,10 @@ title: Ejemplos de marketing distribuido
 description: Ejemplos de marketing distribuido
 feature: Distributed Marketing
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 100%
+source-wordcount: '1290'
+ht-degree: 98%
 
 ---
 
@@ -115,7 +115,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 #### Creación de una actividad de distribución de datos {#creating-a-data-distribution-activity}
 
-1. Para configurar una campaña de colaboración (por aprobación de objetivo) debe crear primero una **[!UICONTROL Data distribution activity]**. Haga clic en el **[!UICONTROL New]** icono del **[!UICONTROL Resources > Campaign management > Data distribution]** nodo.
+1. Para configurar una campaña de colaboración (por aprobación de objetivo) debe crear primero una **[!UICONTROL Data distribution activity]**. Haga clic en el **[!UICONTROL New]** en el **[!UICONTROL Resources > Campaign management > Data distribution]** carpeta del explorador de Campaign.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
@@ -139,7 +139,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 #### Creación de una campaña colaborativa {#creating-a-collaborative-campaign}
 
-1. Desde el nodo **[!UICONTROL Campaign management > Campaign]**, cree un nuevo **[!UICONTROL collaborative campaign (by target approval)]**.
+1. En el **[!UICONTROL Campaign management > Campaign]** carpeta del explorador de Campaign, cree un **[!UICONTROL collaborative campaign (by target approval)]**.
 1. En la pestaña **[!UICONTROL Targeting and workflows]**, cree un flujo de trabajo para la campaña. Debe contener una actividad **Split** en la que **[!UICONTROL Record count limitation]** se define mediante la actividad **[!UICONTROL Data distribution]**.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)

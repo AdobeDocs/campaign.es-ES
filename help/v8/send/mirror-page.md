@@ -4,9 +4,9 @@ description: Aprenda a añadir y administrar el vínculo a la página espejo
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 2a2887fcd476566d2105edd9824feba4c1caca8a
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenid
 ![](assets/mirror-page-insert.png){width="800" align="left"}
 
 
-<!--For more on personalization blocks insertion, refer to [Personalization blocks](personalization-blocks.md).-->
+Para obtener más información sobre la inserción de bloques de contenido personalizado, consulte [Bloques personalizados](personalization-blocks.md).
 
 ## Generación de páginas espejo{#mirror-page-generation}
 

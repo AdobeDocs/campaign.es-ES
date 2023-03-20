@@ -4,10 +4,10 @@ title: Enriquecimiento de datos
 description: Descubra más información acerca de la actividad del flujo de trabajo Enriquecimiento
 feature: Workflows, Enrichment Activity
 exl-id: 3b3fa15f-b16e-42c8-a2e6-03350aee1903
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 100%
+source-wordcount: '744'
+ht-degree: 83%
 
 ---
 
@@ -42,17 +42,17 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 Para crear el flujo de trabajo, siga los siguientes pasos:
 
 1. Se agregan dos actividades **[!UICONTROL Query]** y una actividad **[!UICONTROL Intersection]** para dirigirse a los nuevos suscriptores que acaban de ingresar en la competición.
-1. La actividad **[!UICONTROL Enrichment]** permite agregar datos almacenados en la tabla **[!UICONTROL Competition results]**. El campo **[!UICONTROL Score]** en el que se desea realizar la personalización de la entrega se agrega a la tabla de trabajo del flujo de trabajo.
-1. La actividad **[!UICONTROL Split]** permite crear subconjuntos de destinatarios en función de puntuaciones.
-1. Para cada subconjunto, se agrega una actividad **[!UICONTROL Delivery]**.
+1. La variable **[!UICONTROL Enrichment]** se utiliza para añadir datos almacenados en la variable **[!UICONTROL Competition results]** tabla. La variable **[!UICONTROL Score]** El campo en el que se desea realizar la personalización de la entrega se agrega a la tabla de trabajo del flujo de trabajo.
+1. La variable **[!UICONTROL Split]** La actividad de tipo se utiliza para crear subconjuntos de destinatarios en función de puntuaciones.
+1. Para cada subconjunto, una **[!UICONTROL Delivery]** actividad .
 
 ## Paso 1: Direccionamiento {#step-1--targeting}
 
-La primera consulta permite dirigirse a los destinatarios que se agregaron a la base de datos en los últimos seis meses.
+La primera consulta se utiliza para dirigirse a los destinatarios que se agregaron a la base de datos en los últimos seis meses.
 
 ![](assets/uc1_enrich_4.png)
 
-La segunda consulta permite dirigirse a los destinatarios que participaron en la última competición.
+La segunda consulta se utiliza para dirigirse a los destinatarios que participaron en la última competición.
 
 ![](assets/uc1_enrich_5.png)
 
@@ -60,7 +60,7 @@ A continuación, se agrega una actividad **[!UICONTROL Intersection]** para diri
 
 ## Paso 2: Enriquecimiento {#step-2--enrichment}
 
-En este ejemplo, se desea personalizar las entregas según el campo **[!UICONTROL Score]** almacenado en la tabla **[!UICONTROL Competition results]**. Esta tabla tiene una relación de tipo 1-n con la tabla de destinatarios. La actividad **[!UICONTROL Enrichment]** permite agregar datos de una tabla vinculada al entorno de filtrado con la tabla de trabajo del flujo de trabajo.
+En este ejemplo, aprenda a personalizar los envíos según la variable **[!UICONTROL Score]** campo almacenado en la variable **[!UICONTROL Competition results]** tabla. Esta tabla tiene una relación de tipo 1-n con la tabla de destinatarios. La variable **[!UICONTROL Enrichment]** actividad se utiliza para añadir datos de una tabla vinculada al entorno de filtrado con la tabla de trabajo del flujo de trabajo.
 
 1. En la pantalla de edición de la actividad de enriquecimiento, seleccione **[!UICONTROL Add data]**, luego **[!UICONTROL Data linked to the filtering dimension]**, y haga clic en **[!UICONTROL Next]**.
 

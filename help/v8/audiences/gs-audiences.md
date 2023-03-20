@@ -5,7 +5,7 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 7f9a95f3748b8322933137aa780897611de91678
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 36%
@@ -22,7 +22,9 @@ Un perfil es un registro de la variable **nmsRecipient** o una tabla externa que
 
 ![](assets/recipients-in-explorer.png)
 
-En Adobe Campaign, **recipients** son los perfiles predeterminados dirigidos a los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier envío dado y añadir datos de personalización en el contenido de los envíos. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo se crean perfiles semilla para probar los envíos antes de enviarlos al público objetivo final.
+En Adobe Campaign, **recipients** son los perfiles predeterminados dirigidos a los envíos (correos electrónicos, SMS, etc.).
+
+Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier envío dado y añadir datos de personalización en el contenido de los envíos. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo se crean perfiles semilla para probar los envíos antes de enviarlos al público objetivo final.
 
 Para rellenar Adobe Campaign con datos de perfil, puede:
 

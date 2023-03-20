@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: bd109f9d320b3009ab0d9414291d397b331373de
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 29%
+source-wordcount: '576'
+ht-degree: 28%
 
 ---
 
@@ -48,7 +48,6 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
 
 1. **Personalización del mensaje**
 
-
    * Añadir el nombre y los apellidos de los destinatarios
 
       Para insertar el nombre y los apellidos de los perfiles de destino en el contenido del mensaje, coloque el cursor donde desee insertarlos y haga clic en el último icono de la barra de herramientas y, a continuación, haga clic en **[!UICONTROL Include]** y seleccione **[!UICONTROL Greetings]**.
@@ -58,6 +57,8 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
       Vaya a la pestaña Preview para comprobar la personalización seleccionando un destinatario.
 
       ![](assets/perso-check.png)
+
+      Obtenga más información sobre las opciones de personalización en [esta sección](personalize.md).
 
    * Inserción de un vínculo rastreado
 

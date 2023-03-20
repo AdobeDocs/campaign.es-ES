@@ -3,7 +3,7 @@ title: Uso de datos de flujo de trabajo
 description: Descubra cómo utilizar los datos de flujo de trabajo
 feature: Workflows, Data Management
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 75%
@@ -57,7 +57,7 @@ Los datos del público objetivo se depuran mientras se ejecuta el flujo de traba
 
 ### Aprovechar los datos de destino {#target-data}
 
-Los datos almacenados en la tabla de trabajo temporal del flujo de trabajo están disponibles para las tareas de personalización. Los datos se pueden utilizar en los campos personalizados.
+Los datos almacenados en la tabla de trabajo temporal del flujo de trabajo están disponibles para las tareas de personalización. Los datos se pueden usar en la variable [campos personalizados](../../v8/send/personalization-fields.md).
 
 Esto permite utilizar datos recopilados mediante una lista en una entrega, por ejemplo. Para ello, utilice la siguiente sintaxis:
 

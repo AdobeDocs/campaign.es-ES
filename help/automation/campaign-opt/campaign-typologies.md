@@ -4,7 +4,7 @@ title: Introducción a las tipologías de campaña
 description: Obtenga información sobre cómo configurar e implementar tipologías de campaña
 feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
-source-git-commit: 7fe079c5473fa164405753c2be6cc8be16329f58
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 55%
@@ -29,7 +29,7 @@ Una tipología es un conjunto de reglas de verificación aplicadas a todos los m
 
 Una tipología de campaña puede contener varias reglas de tipología, pero un envío solo puede hacer referencia a una tipología.
 
-Las reglas y tipologías de tipología integradas están disponibles en la **[!UICONTROL Administration > Campaign management > Typology management]** del explorador de Campaign.
+Las reglas y tipologías de tipología integradas están disponibles en la **[!UICONTROL Administration > Campaign management > Typology management]** carpeta del explorador de Campaign.
 
 Para cada tipología, la variable **[!UICONTROL Rules]** permite añadir, eliminar o ver las reglas de tipología que se pueden aplicar.
 

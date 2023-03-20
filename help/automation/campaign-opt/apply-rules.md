@@ -4,9 +4,9 @@ title: Aplicación de reglas de tipología
 description: Aprenda a aplicar reglas de tipología
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '956'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ Para aplicar las reglas de tipología creadas, debe asociarlas a una tipología 
 
 1. Cree una tipología de campaña.
 
-   Se puede acceder a las tipologías a través del nodo **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]**.
+   Se puede acceder a las tipologías a través de la **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** carpeta del explorador de Campaign.
 
 1. Vaya a la pestaña **[!UICONTROL Rules]**, haga clic en el botón **[!UICONTROL Add]** y seleccione las reglas que desea aplicar con esta tipología.
 

@@ -4,10 +4,10 @@ title: Introducción a las simulaciones de campañas
 description: Aprenda a configurar simulaciones de campaña
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 93%
+source-wordcount: '1210'
+ht-degree: 92%
 
 ---
 
@@ -197,7 +197,7 @@ La pestaña **[!UICONTROL Calculations]** permite definir los ejes de creación 
 >[!NOTE]
 >
 >Se recomienda definir los ejes de cálculo en las plantillas de simulación en lugar de individualmente para cada simulación.\
->Las plantillas de simulación se guardan en el nodo de Adobe Campaign **[!UICONTROL Resources > Templates > Simulation templates]**.
+>Las plantillas de simulación se guardan en la variable **[!UICONTROL Resources > Templates > Simulation templates]** carpeta del explorador de Campaign.
 
 **Ejemplo:**
 

@@ -3,7 +3,7 @@ product: campaign
 title: Control de los costes
 description: Aprenda a gestionar los costes de control
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: e6b1790832be6331f4b27cc50b5d034ad738a822
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '2409'
 ht-degree: 93%
@@ -34,7 +34,7 @@ Se deben aplicar los pasos siguientes para implementar la administración del pr
 
 Para crear un presupuesto, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Campaign management > Budgets]** nodo del explorador de Campaign.
+1. Vaya a la **[!UICONTROL Campaign management > Budgets]** carpeta del explorador de Campaign.
 1. Haga clic en el icono **[!UICONTROL New]**, cambie el nombre del presupuesto y guárdelo.
 1. Introduzca la cantidad inicial: indique la cantidad asignada en el campo correspondiente. Las demás cantidades se introducen automáticamente. [Más información](#calculating-amounts).
 1. Defina el periodo de validez introduciendo las fechas de inicio y finalización. Esta información es meramente ilustrativa.

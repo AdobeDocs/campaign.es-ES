@@ -4,7 +4,7 @@ description: Aprenda a utilizar el módulo Adobe Campaign Social Marketing para 
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 9ae93ce4e2b0424bb3b3862b2c7d016309bd630e
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 37%
@@ -124,7 +124,7 @@ Para enviar mensajes directos a sus seguidores, siga los pasos a continuación:
 
    ![](assets/tw-dm-content.png)
 
-   Los campos de personalización se pueden usar del mismo modo que para los envíos por correo electrónico, por ejemplo, para agregar el nombre del seguidor en el cuerpo del mensaje. Obtenga más información en [esta sección](../start/create-message.md#personalization).
+   Los campos de personalización se pueden usar del mismo modo que para los envíos por correo electrónico, por ejemplo, para agregar el nombre del seguidor en el cuerpo del mensaje. Obtenga más información en [esta sección](../send/personalize.md).
 
 1. Previsualice el mensaje
 

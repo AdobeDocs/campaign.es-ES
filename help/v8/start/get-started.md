@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d,e3e9b514-a69d-4650-b1b1-1b76b4f3d63f
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 100%
+source-wordcount: '866'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign tiene funcionalidades de segmentación y direccionamiento potente
 
 La funcionalidad avanzada de administración de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de direccionamiento incluyendo información que no se encuentra en la base de datos.
 
-![](../assets/do-not-localize/glass.png) Obtenga más información acerca de la segmentación, creación de audiencias y personalización en [esta sección](audiences.md).
+![](../assets/do-not-localize/glass.png) Obtenga más información sobre la segmentación y la creación de audiencias en [esta sección](audiences.md).
 
 ## Orquestación de campañas en canales múltiples {#cross-channel-campaign-orchestration}
 

@@ -4,10 +4,10 @@ title: Entregas de campañas de marketing
 description: Más información sobre las entregas de campañas de marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 48%
+source-wordcount: '706'
+ht-degree: 46%
 
 ---
 
@@ -57,7 +57,7 @@ La confirmación de la entrega está restringida a Administradores y al operador
 
 ![](assets/select-delivery-reviewers.png)
 
-Sin embargo, también puede permitir que el propietario de la campaña confirme el envío, incluso si se han definido revisores específicos en las propiedades de la entrega o de la campaña. Para ello, como administrador, cree la variable **NmsCampaign_Activate_OwnerConfirmation** y configúrela en **1**. Las opciones se administran desde el nodo **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** en el explorador de Adobe Campaign.
+Sin embargo, también puede permitir que el propietario de la campaña confirme el envío, incluso si se han definido revisores específicos en las propiedades de la entrega o de la campaña. Para ello, como administrador, cree la variable **NmsCampaign_Activate_OwnerConfirmation** y configúrela en **1**. Las opciones se administran desde la **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** carpeta del explorador de Campaign.
 
 
 ### Inicio de una entrega de correo postal {#start-an-offline-delivery}

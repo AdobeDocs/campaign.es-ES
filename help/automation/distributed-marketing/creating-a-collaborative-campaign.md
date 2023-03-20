@@ -4,10 +4,10 @@ title: Creación de una campaña colaborativa
 description: Aprenda a crear una campaña colaborativa
 feature: Distributed Marketing
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ La entidad central crea campañas de colaboración a partir de plantillas de cam
 
 ## Creación de una campaña colaborativa {#creating-a-collaborative-campaign}
 
-Para configurar una campaña de colaboración, haga clic en el nodo **[!UICONTROL Campaign management > Campaigns]** y luego en el icono **[!UICONTROL New]**.
+Para configurar una campaña de colaboración, haga clic en el botón **[!UICONTROL Campaign management > Campaigns]** carpeta y luego la **[!UICONTROL New]** icono.
 
 >[!NOTE]
 >
