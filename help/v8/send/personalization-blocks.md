@@ -1,18 +1,18 @@
 ---
-title: Bloques de personalización
+title: Uso de bloques personalizados
 description: Aprenda a utilizar bloques de personalización integrados en el contenido del mensaje
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: badcbb83c4bd0cf509c156557f5ea6f7cf7ae771
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 30%
+source-wordcount: '554'
+ht-degree: 29%
 
 ---
 
 
-# Bloques de personalización{#personalization-blocks}
+# Uso de bloques personalizados{#personalization-blocks}
 
 Los bloques personalizados son contenido dinámico que contiene una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo.
 
