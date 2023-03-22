@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 97%
+source-wordcount: '520'
+ht-degree: 96%
 
 ---
 
@@ -62,6 +62,9 @@ ht-degree: 97%
       + [Añadir campos personalizados](send/personalization-fields.md)
       + [Uso de bloques personalizados](send/personalization-blocks.md)
       + [Crear condiciones](send/conditions.md)
+   + Validación de la entrega {#validate}
+      + [Vista previa y pruebas](send/preview-and-proof.md)
+      + [Análisis de envíos](send/delivery-analysis.md)
 + Gestión de perfiles y audiencias {#audience}
    + [Introducción a perfiles y audiencias](audiences/gs-audiences.md)
    + [Trabajo con audiencias](start/audiences.md)

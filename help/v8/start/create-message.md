@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 100%
+source-wordcount: '469'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ Una vez creado el mensaje y diseñado y probado su contenido, puede elegir cómo
 
    ![](assets/send-email.png)
 
-   ![](../assets/do-not-localize/book.png) Aprenda a enviar mensajes en la [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=es){target="_blank"}
+   Obtenga información sobre cómo enviar mensajes en [esta sección](../send/send.md)
 
 * Enviar mensajes asociados a una [campaña de marketing](campaigns.md)
 
@@ -54,30 +54,26 @@ Una vez creado el mensaje y diseñado y probado su contenido, puede elegir cómo
 
    ![](assets/send-in-a-wf.png)
 
-   ![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo automatizar las entregas de correo electrónico en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/delivery.html?lang=es)
+   Obtenga información sobre cómo automatizar las entregas de correo electrónico en [esta página](../../automation/workflow/delivery.md)
 
 * [Mensajes de activación ](../send/transactional.md) de un evento
-   ![](../assets/do-not-localize/book.png) [Caso de uso: obtenga información sobre cómo enviar un correo electrónico transaccional con un archivo adjunto](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/transactional-email-with-attachments.html?lang=es){target="_blank"}
 
 * Programación de mensajes
 
    ![](assets/schedule-send.png)
 
-   ![](../assets/do-not-localize/glass.png) [Caso de uso: obtenga información sobre cómo programar y enviar un correo electrónico de cumpleaños](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=es)
+[Caso de uso: obtenga información sobre cómo programar y enviar un correo electrónico de cumpleaños](../../automation/workflow/send-a-birthday-email.md)
 
 
 ## Adición de personalización{#personalization}
 
-Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas.
+Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas. [Obtenga más información acerca las funcionalidades de personalización](../send/personalize.md)
 
 Puede hacer lo siguiente:
 
-* Inserte campos de personalización dinámicos.
-   ![](../assets/do-not-localize/book.png) Aprenda a utilizar los campos de personalización en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-fields.html?lang=es){target="_blank"}
-* Inserte bloques de personalización predefinidos.
-   ![](../assets/do-not-localize/book.png) Descubra qué es un bloque de personalización y cómo utilizarlo en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/personalization-blocks.html?lang=es){target="_blank"}
-* Cree contenido condicional.
-   ![](../assets/do-not-localize/book.png) Aprenda a insertar contenido condicional en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/conditional-content.html?lang=es){target="_blank"}
+* Insertar campos personalizados dinámicos. [Más información](../send/personalization-fields.md)
+* Inserte bloques de personalización predefinidos. [Más información](../send/personalization-blocks.md)
+* Cree contenido condicional. [Más información](../send/conditions.md)
 
 ## Enviar mensajes transaccionales{#gs-transac-messages}
 
@@ -95,11 +91,3 @@ La monitorización de las entregas una vez enviadas es un paso clave para garant
 
 ![](../assets/do-not-localize/book.png) Aprenda a monitorizar los envíos en la [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"}
 
-
-**Temas relacionados** en la documentación de Campaign Classic v7:
-
-* [Prácticas recomendadas relacionadas con los envíos](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=es){target="_blank"}
-
-* [ : Prueba y envío de un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/sending-messages.html?lang=es){target="_blank"}
-
-* [Envío de pruebas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target="_blank"}

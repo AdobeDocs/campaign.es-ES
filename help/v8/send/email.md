@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 28%
+source-wordcount: '567'
+ht-degree: 29%
 
 ---
 
@@ -92,9 +92,7 @@ Obtenga más información en estas secciones de **Documentación de Campaign Cla
 
 ## Comprobación y validación de los correos electrónicos
 
-Campaign ofrece varias formas de probar y validar los correos electrónicos antes de enviarlos a las audiencias.
-
-![](../assets/do-not-localize/book.png) [Aplique las prácticas recomendadas enumeradas en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/check-before-sending.html){target="_blank"}
+Campaign ofrece varias formas de probar y validar los correos electrónicos antes de enviarlos a las audiencias. Obtenga información sobre cómo previsualizar y probar el contenido de su correo electrónico en [esta página](../send/preview-and-proof.md).
 
 Puede hacer lo siguiente:
 
@@ -102,6 +100,5 @@ Puede hacer lo siguiente:
 * Envío de pruebas
 * Adición de direcciones semilla
 * Uso de grupos de control
-* Compruebe la renderización del correo electrónico
 
 ![](../assets/do-not-localize/book.png) [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target="_blank"}

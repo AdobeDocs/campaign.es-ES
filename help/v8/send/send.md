@@ -5,26 +5,19 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 9fa6666532a6943c438268d7ea832f0908588208
+source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 32%
+source-wordcount: '795'
+ht-degree: 34%
 
 ---
 
 
 # Envío y monitorización de los correos electrónicos
 
-Una vez configurada la entrega y lista para enviarla, asegúrese de haber ejecutado el análisis de entrega.
-
-![](../assets/do-not-localize/book.png) [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#confirming-delivery){target="_blank"}
+Una vez configurada la entrega y lista para enviarla, asegúrese de haber ejecutado el análisis de entrega. [Más información](delivery-analysis.md)
 
 Una vez finalizado, confirme la entrega para iniciar la entrega de mensajes.
-
-También puede realizar lo siguiente:
-
-* programar el envío a más adelante mediante [la opción pospone the delivery](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#scheduling-the-delivery-sending){target="_blank"},
-* enviar a varios lotes utilizando [múltiples olas](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 Rastree la ejecución del envío desde el **Entrega** , a la que se puede acceder mediante el detalle de este envío o a través de la lista de envíos.
 
@@ -59,7 +52,7 @@ El MTA clasifica el rechazo SMTP y envía esa calificación a Campaign en forma 
 
 >[!NOTE]
 >
->Actualmente **asincrónico** las devoluciones se clasifican mediante el proceso inMail a través del **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}. <!--Refer to [bounce mail qualification](delivery-failures.md#bounce-mail-qualification)-->
+>Actualmente **asincrónico** las devoluciones se clasifican mediante el proceso inMail a través del **[!UICONTROL Inbound email]** reglas.
 
 Obtenga más información sobre los errores de entrega en [esta sección](delivery-failures.md).
 
