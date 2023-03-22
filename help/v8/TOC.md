@@ -4,9 +4,9 @@ user-guide-title: Campaign v8
 description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 23f30dee861250532490da8598e6e0e18f72c1b0
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '521'
 ht-degree: 96%
 
 ---
@@ -56,15 +56,15 @@ ht-degree: 96%
          + [Errores de envío](send/delivery-failures.md)
       + [Optimización del tiempo de envío](send/predictive.md)
       + [Administración de suscripciones](start/subscriptions.md)
-   + Personalización del contenido {#personalize}
-      + [Introducción a la personalización](send/personalize.md)
-      + [Datos de personalización](send/personalization-data.md)
-      + [Añadir campos personalizados](send/personalization-fields.md)
-      + [Uso de bloques personalizados](send/personalization-blocks.md)
-      + [Crear condiciones](send/conditions.md)
-   + Validación de la entrega {#validate}
-      + [Vista previa y pruebas](send/preview-and-proof.md)
-      + [Análisis de envíos](send/delivery-analysis.md)
+      + Personalización del contenido {#personalize}
+         + [Introducción a la personalización](send/personalize.md)
+         + [Datos de personalización](send/personalization-data.md)
+         + [Añadir campos personalizados](send/personalization-fields.md)
+         + [Uso de bloques personalizados](send/personalization-blocks.md)
+         + [Crear condiciones](send/conditions.md)
+      + Validación de la entrega {#validate}
+         + [Pruebas de vista previa y correo electrónico](send/preview-and-proof.md)
+         + [Análisis de envíos](send/delivery-analysis.md)
 + Gestión de perfiles y audiencias {#audience}
    + [Introducción a perfiles y audiencias](audiences/gs-audiences.md)
    + [Trabajo con audiencias](start/audiences.md)
