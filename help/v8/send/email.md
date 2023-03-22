@@ -5,18 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 29%
+source-wordcount: '466'
+ht-degree: 23%
 
 ---
 
 # Diseño y envío de correos electrónicos
 
-Los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo.
-
-![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/about-email-channel.html){target="_blank"}
+Los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo. [Más información](../send/send.md).
 
 ## Creación de la primera entrega de correo electrónico
 
@@ -78,17 +76,12 @@ En el siguiente ejemplo, aprenderá los pasos para diseñar una entrega por corr
 
 Obtenga información sobre cómo importar contenido de correo electrónico en [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html).
 
-Obtenga más información en estas secciones de **Documentación de Campaign Classic v7**:
+Obtenga más información en las siguientes secciones:
 
-* Diseño de un correo electrónico en Campaign
-   ![](../assets/do-not-localize/book.png) [Aprenda a diseñar un correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/defining-the-email-content.html?lang=es){target="_blank"}
-* Creación y uso de una plantilla de correo electrónico
-   ![](../assets/do-not-localize/book.png) [Más información acerca de las plantillas de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target="_blank"}
-* Seleccione la audiencia del correo electrónico
-   ![](../assets/do-not-localize/book.png) [Obtenga información sobre cómo definir la población objetivo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-defining-the-target-population.html){target="_blank"}
-* Validación de una entrega y envío de pruebas
-   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target="_blank"}
-* Agregar [direcciones semilla](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}
+* [Diseño de un correo electrónico en Campaign](../send/email.md)
+* [Creación y uso de una plantilla de correo electrónico](../send/create-templates.md)
+* [Seleccione la audiencia del correo electrónico](../audiences/gs-audiences.md)
+* [Validación de una entrega y envío de pruebas](../send/preview-and-proof.md)
 
 ## Comprobación y validación de los correos electrónicos
 
@@ -99,6 +92,5 @@ Puede hacer lo siguiente:
 * Comprobar registros de análisis de envío
 * Envío de pruebas
 * Adición de direcciones semilla
-* Uso de grupos de control
 
-![](../assets/do-not-localize/book.png) [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target="_blank"}
+[Más información](../send/delivery-analysis.md)

@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Intermediate, Experienced
 exl-id: e4e3fb49-9942-4e2d-a020-557d1ac5dcdc
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 16%
+source-wordcount: '411'
+ht-degree: 13%
 
 ---
 
@@ -66,7 +66,16 @@ Tenga en cuenta las siguientes características específicas y recomendaciones:
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->
 
-**Obtenga más información en la documentación de Campaign Classic v7**
+**Más información**
+
+En estas secciones:
+
+* [Uso de plantillas de envíos de correo electrónico](../send/create-templates.md)
+
+* [Comprender los errores de envío](../send/delivery-failures.md)
+
+
+Y en la documentación de Campaign Classic v7:
 
 * [Seleccionar formato de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#selecting-message-formats){target="_blank"}
 
@@ -74,6 +83,3 @@ Tenga en cuenta las siguientes características específicas y recomendaciones:
 
 * [Establecer la dirección de correo electrónico de rechazo](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-emails/sending-an-email/email-parameters.html#managing-bounce-emails){target="_blank"}
 
-* [Uso de plantillas de envíos de correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target="_blank"}
-
-* [Comprender los errores de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html){target="_blank"}

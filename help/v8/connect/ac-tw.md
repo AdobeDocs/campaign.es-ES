@@ -4,9 +4,9 @@ description: Aprenda a integrar el entorno de Campaign con Twitter
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1061'
 ht-degree: 18%
 
 ---
@@ -111,7 +111,7 @@ Se detienen de forma predeterminada: debe iniciarlos manualmente cuando comience
 
 La variable **[!UICONTROL Synchronization of Twitter accounts]** el flujo de trabajo técnico sincroniza las cuentas de Twitter en Adobe Campaign. Este flujo de trabajo recupera la lista de seguidores de Twitter para que pueda enviarles mensajes directos. [Más información](../send/twitter.md#direct-tw-messages)
 
-De forma predeterminada, este flujo de trabajo se activa todos los jueves a las 7:30 a. m. Puede usar la variable **[!UICONTROL Execute pending task(s) now]** para iniciar el flujo de trabajo en cualquier momento mientras implementa esta integración.  También puede editar el planificador para cambiar la frecuencia de activación del flujo de trabajo. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/flow-control-activities/scheduler.html){target="_blank"}.
+De forma predeterminada, este flujo de trabajo se activa todos los jueves a las 7:30 a. m. Puede usar la variable **[!UICONTROL Execute pending task(s) now]** para iniciar el flujo de trabajo en cualquier momento mientras implementa esta integración.  También puede editar el planificador para cambiar la frecuencia de activación del flujo de trabajo. Obtenga más información en [esta página](../../automation/workflow/scheduler.md).
 
 >[!CAUTION]
 >
