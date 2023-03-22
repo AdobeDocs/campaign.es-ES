@@ -4,10 +4,10 @@ description: Descubra cómo preparar y comprobar su envío
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 8f04981e38da79e69afc890311c559f9ffa136f4
+source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 62%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,11 +47,11 @@ Para preparar la entrega, asegúrese de que el contenido de la entrega y el dest
    >
    >Al ejecutarse, el análisis detiene el envío (o prueba). Cualquier modificación al envío (o la prueba) debe ir seguida de otro análisis antes de ser válida.
 
-Cuando termina el análisis, la sección superior de la ventana indica si la preparación del envío ha finalizado o si se ha producido algún error. Se muestran todos los pasos, advertencias y errores de validación. Los iconos de color muestran el tipo de mensaje:
+   Cuando termina el análisis, la sección superior de la ventana indica si la preparación del envío ha finalizado o si se ha producido algún error. Se muestran todos los pasos, advertencias y errores de validación. Los iconos de color muestran el tipo de mensaje:
 
-* Un icono azul indica un mensaje informativo.
-* El icono amarillo indica un error de procesamiento no crítico.
-* El icono rojo indica un error crítico que impide realizar la entrega.
+   * Un icono azul indica un mensaje informativo.
+   * El icono amarillo indica un error de procesamiento no crítico.
+   * El icono rojo indica un error crítico que impide realizar la entrega.
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
