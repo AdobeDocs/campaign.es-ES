@@ -48,7 +48,7 @@ Obtenga información sobre cómo monitorizar los subdominios y sus certificados.
 
 ## Monitorización del rendimiento
 
-El Panel de control de Campaign proporciona varias funcionalidades que le ayudan a monitorizar las instancias y garantizar un rendimiento óptimo. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target="_blank"}
+El Panel de control proporciona varias funcionalidades que le ayudan a monitorizar las instancias y garantizar un rendimiento óptimo. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target="_blank"}
 
 
 ## Configuración de instancias

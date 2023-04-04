@@ -131,7 +131,7 @@ ht-degree: 86%
       + [Acceso a una base de datos externa](workflow/accessing-an-external-database--fda-.md)
       + [Administración de permisos](workflow/managing-rights.md)
       + [Cambio de imágenes de actividad](workflow/change-activity-images.md)
-      + [Administración de zonas horarias](workflow/managing-time-zones.md)
+      + [Administrar zonas horarias](workflow/managing-time-zones.md)
 + Orquestación de campañas {#campaign-orchestration}
    + [Introducción a las campañas de marketing](campaigns/set-up-campaigns.md)
    + [Creación de programas y campañas](campaigns/marketing-campaign-create.md)

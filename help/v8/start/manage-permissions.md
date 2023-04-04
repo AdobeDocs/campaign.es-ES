@@ -104,7 +104,7 @@ Estos perfiles de producto coinciden con Campaign **grupos de operadores**. Los 
 
    * **[!UICONTROL ADMINISTRATION]**: derecho a ejecutar, crear, editar o eliminar cualquier objeto, como flujo de trabajo, envío, secuencias de comandos, etc.
 
-1. **[!UICONTROL Delivery operators]** (entrega)
+1. **[!UICONTROL Delivery operators]** (envío)
 
    Los operadores de este grupo están a cargo de la administración de las entregas: permiten el acceso a los recursos principales necesarios para crear y preparar entregas (tipologías de campaña, asignaciones de entregas, plantillas predeterminadas, bloques de personalización, etc.).
 
