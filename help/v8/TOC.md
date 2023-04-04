@@ -5,9 +5,9 @@ description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
 title: Documentos de la versión 8 de Campaign
 source-git-commit: 464898df7a362c137d20ebaf2b96bfef71131ae6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '520'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,11 +59,11 @@ ht-degree: 96%
       + Personalización del contenido {#personalize}
          + [Introducción a la personalización](send/personalize.md)
          + [Datos de personalización](send/personalization-data.md)
-         + [Añadir campos personalizados](send/personalization-fields.md)
-         + [Uso de bloques personalizados](send/personalization-blocks.md)
+         + [Añadir campos de personalización](send/personalization-fields.md)
+         + [Utilizar bloques de personalización](send/personalization-blocks.md)
          + [Crear condiciones](send/conditions.md)
-      + Validación de la entrega {#validate}
-         + [Vista previa y pruebas](send/preview-and-proof.md)
+      + Validación del envío {#validate}
+         + [Previsualización y pruebas](send/preview-and-proof.md)
          + [Análisis de envíos](send/delivery-analysis.md)
 + Gestión de perfiles y audiencias {#audience}
    + [Introducción a perfiles y audiencias](audiences/gs-audiences.md)
