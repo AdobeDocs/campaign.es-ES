@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '469'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Una vez creado el mensaje y diseñado y probado su contenido, puede elegir cómo
 
    ![](assets/send-in-a-wf.png)
 
-   Obtenga información sobre cómo automatizar las entregas de correo electrónico en [esta página](../../automation/workflow/delivery.md)
+   Obtenga información sobre cómo automatizar los envíos de correo electrónico en [esta página](../../automation/workflow/delivery.md)
 
 * [Mensajes de activación ](../send/transactional.md) de un evento
 
@@ -71,7 +71,7 @@ Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas
 
 Puede hacer lo siguiente:
 
-* Insertar campos personalizados dinámicos. [Más información](../send/personalization-fields.md)
+* Insertar campos de personalización dinámicos. [Más información](../send/personalization-fields.md)
 * Inserte bloques de personalización predefinidos. [Más información](../send/personalization-blocks.md)
 * Cree contenido condicional. [Más información](../send/conditions.md)
 
