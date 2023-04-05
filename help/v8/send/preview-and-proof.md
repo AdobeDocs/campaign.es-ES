@@ -4,9 +4,9 @@ description: Obtenga información sobre cómo validar la entrega antes de enviar
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: e0129524a051827a52de478c3fdc45b963d6c4bb
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '713'
 ht-degree: 12%
 
 ---
@@ -34,7 +34,7 @@ Para obtener una vista previa del contenido del mensaje, siga los pasos a contin
 
 ## Envío de pruebas {#send-proofs}
 
-El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
+En el caso de los envíos de correo electrónico, puede enviar pruebas para validar el contenido del mensaje. El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo a la audiencia principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: renderización, contenido, configuración de personalización, configuración.
 
