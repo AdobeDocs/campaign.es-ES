@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo validar la entrega antes de enviar
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: e0129524a051827a52de478c3fdc45b963d6c4bb
+source-git-commit: a6d2cb72968fe489a73f92f00f6a50be8ed3e997
 workflow-type: tm+mt
 source-wordcount: '713'
 ht-degree: 12%
@@ -63,7 +63,7 @@ De forma predeterminada, la sustitución se realiza de forma aleatoria, pero pue
    >
    >Las direcciones semilla no pertenecen a la tabla de destinatarios predeterminada (nms:recipient), sino que se crean en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos.
 
-   Obtenga más información sobre las direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.htmll){target="_blank"}.
+   Obtenga más información sobre las direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
 
 * Utilice la variable **[!UICONTROL Specific target and Seed addresses]** para combinar direcciones semilla y direcciones de correo electrónico específicas. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
