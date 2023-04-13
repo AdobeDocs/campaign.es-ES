@@ -7,9 +7,9 @@ level: Beginner, Intermediate, Experienced
 hidefromtoc: false
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: 44743e585119e8cd81a8fcc9b4d667c25c0d438e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '678'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -23,10 +23,10 @@ _3 de abril de 2023_
 
 **Parches**
 
-* Se ha corregido un problema que podía provocar un error de restricción de clave duplicada si se establecían varios flujos de trabajo de aprobación en la misma programación. (NEO-48968)
-* Se ha corregido un problema de regresión introducido por NEO-54474 (8.4.4) que provocaba que el atributo de estilo de la etiqueta de cuerpo cambiara al cargar una imagen en el Editor de contenido digital (DCE). (NEO-57697)
+* Se ha corregido un problema que podía provocar un error de restricción de clave duplicada si se establecían varios flujos de trabajo de aprobación en el mismo programa. (NEO-48968)
+* Se ha corregido un problema de regresión introducido por NEO-54474 (8.4.4) que provocaba que el atributo de estilo de la etiqueta de cuerpo cambiara al cargar una imagen en el editor de contenido digital (DCE). (NEO-57697)
 * Se ha corregido un problema que podía provocar un error al exportar datos mediante un conector CRM si la tabla temporal tenía una clave principal definida como long en lugar de uuid. (NEO-54153)
-* Se ha corregido un problema de regresión introducido en la versión 8.4.1 que podía provocar errores en la exportación de paquetes, FDA sobre HTTP e informes. (NEO-57731)
+* Se ha corregido un problema de regresión introducido en la versión 8.4.1 que podía provocar errores en la exportación de paquetes, FDA sobre HTTP y creación de informes. (NEO-57731)
 * Se ha corregido un problema de regresión introducido en la versión 8.3.8 que podía impedir que el estado de entrega se actualizara correctamente para los envíos con ID negativos. (NEO-54675)
 * Se ha corregido un problema con los campos booleanos al importar datos mediante el conector Big Query (NEO-49181)
 
@@ -71,7 +71,7 @@ _27 de enero de 2023_
 * Se ha corregido un problema de operadores lógicos en las consultas de flujo de trabajo al usar un `enableIf` en una condición de operador lógico. Se ha sobrescrito la condición lógica anterior. (NEO-45815)  <!--OKKKK-->
 * La generación de perfiles activos se ha optimizado en el flujo de trabajo de facturación para mejorar el rendimiento. (NEO-47658) <!--OKKKK-->
 * Se ha corregido un problema con la importación de archivos HTML cuando los nodos de imagen (img) contenían direcciones URL con campos de personalización. (NEO-48396)
-* Se ha corregido un problema con Snowflake (todas las implantaciones) al utilizar el parámetro de ordenación en una actividad **Dividir** del flujo de trabajo. (NEO-45899) <!--OKKKK-->
+* Se ha corregido un problema con Snowflake (todas las implantaciones) al utilizar el parámetro de ordenación en una actividad de **División** del flujo de trabajo. (NEO-45899) <!--OKKKK-->
 * Se ha corregido un problema que provocaba un error cuando un usuario con derechos de acceso de lectura en la carpeta nmsDeliveryMapping intentaba ejecutar una campaña o un flujo de trabajo. (NEO-48230)
 * Se ha corregido un problema de rendimiento en la pestaña HTML de un envío que se podía producir en código HTML extenso. (NEO-47440)
 <!-- * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
