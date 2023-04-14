@@ -5,20 +5,20 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 22%
+source-wordcount: '682'
+ht-degree: 42%
 
 ---
 
 # Configuración de mensajería transaccional
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+![](../assets/do-not-localize/speech.png) Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
 ![](../assets/do-not-localize/glass.png) Las capacidades de mensajería transaccional se detallan en [esta sección](../send/transactional.md).
 
-![](../assets/do-not-localize/glass.png) Comprenda la arquitectura de mensajería transaccional en [esta página](../architecture/architecture.md).
+![](../assets/do-not-localize/glass.png) Comprenda la arquitectura de mensajería transaccional en [esta página](../architecture/architecture.md#transac-msg-archi).
 
 ## Definir permisos
 
@@ -34,7 +34,7 @@ Todas las extensiones de esquema realizadas en los esquemas utilizados por **Flu
 
 Cuando se combina con el módulo de canal de aplicaciones móviles, la mensajería transaccional permite enviar mensajes transaccionales mediante notificaciones en dispositivos móviles.
 
-![](../assets/do-not-localize/book.png) El canal de aplicaciones móviles se detalla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-push-notifications/about-mobile-app-channel.html?lang=en#sending-messages).
+![](../assets/do-not-localize/book.png) El canal de aplicaciones móviles se detalla en [esta sección](../send/push.md).
 
 Para enviar notificaciones push transaccionales, debe realizar las siguientes configuraciones:
 
@@ -75,3 +75,49 @@ A continuación se muestra un ejemplo de un evento que contiene esta informació
    </SOAP-ENV:Body>
 </SOAP-ENV:Envelope>
 ```
+
+## Umbrales de monitorización {#monitor-thresholds}
+
+Puede configurar los umbrales de advertencia (naranja) y los umbrales de alerta (rojo) de los indicadores que aparecen en la variable **Nivel del servicio del centro de mensajes** y **Tiempo de procesamiento del centro de mensajes** informes.
+
+Para realizar esto, siga los pasos a continuación:
+
+1. Abra el asistente de implementación en la sección **instancia de ejecución** y vaya a la **[!UICONTROL Message Center]** página.
+1. Utilice las flechas para modificar los umbrales.
+
+
+## Purga de eventos {#purge-events}
+
+Puede adaptar la configuración del asistente de implementación para configurar cuánto tiempo se guardan los datos en la base de datos.
+
+La depuración de eventos se realiza automáticamente mediante la función **Database cleanup** flujo de trabajo técnico . Este flujo de trabajo depura los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
+
+Utilice las flechas según corresponda para cambiar la configuración de depuración de la variable **Eventos** (en una instancia de ejecución) y **Eventos archivados** (en una instancia de control).
+
+
+## Flujos de trabajo técnicos {#technical-workflows}
+
+Debe asegurarse de que los flujos de trabajo técnicos de las instancias de control y ejecución se hayan iniciado antes de implementar cualquier plantilla de mensaje transaccional.
+
+A continuación, se puede acceder a estos flujos de trabajo de archivado desde la carpeta **Administration > Production > Message Center.**
+
+### Flujos de trabajo de instancias de control {#control-instance-workflows}
+
+En la instancia de control, debe crear un flujo de trabajo de archivado para cada **[!UICONTROL Message Center execution instance]** cuenta externa. Haga clic en el botón **[!UICONTROL Create the archiving workflow]** para crear e iniciar el flujo de trabajo.
+
+### Flujos de trabajo de instancias de ejecución {#execution-instance-workflows}
+
+En las instancias de ejecución, debe iniciar los siguientes flujos de trabajo técnicos:
+
+* **[!UICONTROL Processing batch events]** (internal name: **[!UICONTROL batchEventsProcessing]**): este flujo de trabajo permite desglosar eventos por lote en cola antes de relacionarlos con una plantilla de mensaje.
+* **[!UICONTROL Processing real time events]** (internal name: **[!UICONTROL rtEventsProcessing]**): este flujo de trabajo permite desglosar eventos en tiempo real en cola antes de relacionarlos con una plantilla de mensaje.
+* **[!UICONTROL Update event status]** (internal name: **[!UICONTROL updateEventStatus]**): este flujo de trabajo le permite atribuir un estado al evento.
+
+   Los posibles estados de eventos son:
+
+   * **[!UICONTROL Pending]**: el evento está en cola. Aún no se le ha asignado ninguna plantilla de mensaje.
+   * **[!UICONTROL Pending delivery]**: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.
+   * **[!UICONTROL Sent]** : este estado se copia desde los registros de envío. Significa que el envío se realizó.
+   * **[!UICONTROL Ignored by the delivery]** : este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.
+   * **[!UICONTROL Delivery failed]** : este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
+   * **[!UICONTROL Event not taken into account]**: el evento no se ha podido relacionar con una plantilla de mensaje. El evento no se va a procesar.
