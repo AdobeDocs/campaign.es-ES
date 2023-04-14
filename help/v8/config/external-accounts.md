@@ -5,12 +5,13 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 2d10a8f4349b9e2405847fc6a3db1ed568c60387
+source-git-commit: 7b8a9a323afc3154e250b4c70c4339d6c6c265c0
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1067'
 ht-degree: 19%
 
 ---
+
 
 # Configuración de las cuentas externas
 
@@ -35,70 +36,49 @@ Puede acceder a cuentas externas desde Adobe Campaign **[!UICONTROL Explorer]**:
 
 Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecutar procesos específicos.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, Adobe configura todas las cuentas externas específicas de Campaign para usted.
-
 ### Correos devueltos {#bounce-mails-external-account}
 
 >[!NOTE]
-La autenticación de Microsoft Exchange Online OAuth 2.0 para la funcionalidad POP3 está disponible a partir de Campaign v8.3. Para comprobar su versión, consulte [esta sección](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+La autenticación de Microsoft Exchange Online OAuth 2.0 para la funcionalidad POP3 está disponible a partir de Campaign v8.3. Para comprobar su versión, consulte [esta sección](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
 
 La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-Obtenga más información sobre los correos electrónicos entrantes en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html)
+Obtenga más información sobre los correos electrónicos entrantes en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html).
 
 ![](assets/bounce_external_1.png)
 
 Para configurar la cuenta externa **[!UICONTROL Bounce mails (defaultPopAccount)]**:
 
-* **[!UICONTROL Server]**
+* **[!UICONTROL Server]** - URL del servidor POP3.
 
-   URL del servidor POP3.
+* **[!UICONTROL Port]** - Número de puerto de conexión POP3. El puerto predeterminado es 110.
 
-* **[!UICONTROL Port]**
+* **[!UICONTROL Account]** -  Nombre del usuario.
 
-   Número de puerto de conexión POP3. El puerto predeterminado es 110.
+* **[!UICONTROL Password]** - Contraseña de la cuenta de usuario.
 
-* **[!UICONTROL Account]**
+* **[!UICONTROL Encryption]** - Tipo de cifrado elegido entre **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** o **[!UICONTROL POP3S]**.
 
-   Nombre del usuario.
+   La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-* **[!UICONTROL Password]**
-
-   Contraseña de la cuenta de usuario.
-
-* **[!UICONTROL Encryption]**
-
-   Tipo de cifrado elegido entre **[!UICONTROL By default]**, **[!UICONTROL POP3 + STARTTLS]**, **[!UICONTROL POP3]** o **[!UICONTROL POP3S]**.
-La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
-
-* **[!UICONTROL Function]**
-
-   Correo electrónico entrante o enrutador SOAP
+* **[!UICONTROL Function]** - Correo electrónico entrante o enrutador SOAP
 
 ![](assets/bounce_external_2.png)
 
->[!IMPORTANT]
+>[!CAUTION]
 Antes de configurar la cuenta externa POP3 usando Microsoft OAuth 2.0, primero debe registrar la aplicación en el portal de Azure. Para obtener más información, consulte esta [página](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 Para configurar una externa POP3 utilizando Microsoft OAuth 2.0, marque la casilla **[!UICONTROL Microsoft OAuth 2.0]** y rellene los campos siguientes:
 
-* **[!UICONTROL Azure tenant]**
+* **[!UICONTROL Azure tenant]** - Azure ID (o ID de directorio (inquilino) se pueden encontrar en la variable **Elementos esenciales** lista desplegable de la información general de su aplicación en el portal de Azure.
 
-   El ID de Azure (o el ID de directorio (inquilino) se pueden encontrar en el **Elementos esenciales** lista desplegable de la información general de su aplicación en el portal de Azure.
+* **[!UICONTROL Azure Client ID]** - El ID de cliente (o el ID de aplicación (cliente) se pueden encontrar en la variable **Elementos esenciales** lista desplegable de la información general de su aplicación en el portal de Azure.
 
-* **[!UICONTROL Azure Client ID]**
+* **[!UICONTROL Azure Client secret]** - El ID secreto del cliente se puede encontrar en la variable **Secretos del cliente** de **Certificados y secretos** de su aplicación en el portal de Azure.
 
-   El ID de cliente (o el ID de aplicación (cliente) se pueden encontrar en la variable **Elementos esenciales** lista desplegable de la información general de su aplicación en el portal de Azure.
+* **[!UICONTROL Azure Redirect URL]** - La dirección URL de redireccionamiento se puede encontrar en la **Autenticación** de su aplicación en el portal de Azure. Debe terminar con la siguiente sintaxis `nl/jsp/oauth.jsp`, p. ej. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
 
-* **[!UICONTROL Azure Client secret]**:
-
-   El ID de secreto de cliente se puede encontrar en la variable **Secretos del cliente** de **Certificados y secretos** de su aplicación en el portal de Azure.
-
-* **[!UICONTROL Azure Redirect URL]**:
-
-   La dirección URL de redireccionamiento se encuentra en el **Autenticación** de su aplicación en el portal de Azure. Debe terminar con la siguiente sintaxis `nl/jsp/oauth.jsp`, p. ej. `https://redirect.adobe.net/nl/jsp/oauth.jsp`.
-
-Después de introducir las diferentes credenciales, puede hacer clic en **[!UICONTROL Setup the connection]** para finalizar la configuración de la cuenta externa.
+   Después de introducir las diferentes credenciales, puede hacer clic en **[!UICONTROL Setup the connection]** para finalizar la configuración de la cuenta externa.
 
 ### Enrutamiento {#routing}
 
@@ -109,9 +89,7 @@ La variable **[!UICONTROL Internal email delivery routing]** Cuenta externa (def
 
 ### Instancia de ejecución {#execution-instance}
 
-En el contexto de los mensajes transaccionales, las instancias de ejecución están vinculadas a la instancia de control y las conectan. Las plantillas de mensajes transaccionales se implementan en la instancia de ejecución.
-
-![](../assets/do-not-localize/glass.png) Obtenga más información sobre la arquitectura del Centro de mensajes en [esta página](../architecture/architecture.md#transac-msg-archi).
+En el contexto de los mensajes transaccionales, las instancias de ejecución están vinculadas a la instancia de control y las conectan. Las plantillas de mensajes transaccionales se implementan en la instancia de ejecución. Obtenga más información sobre la arquitectura del Centro de mensajes en [esta página](../architecture/architecture.md#transac-msg-archi).
 
 ## Acceso a cuentas externas de sistemas externos
 
@@ -138,18 +116,15 @@ En el contexto de los mensajes transaccionales, las instancias de ejecución est
 
 ## Transferir cuentas externas de datos
 
-Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Campaign mediante un **[!UICONTROL Transfer file]** actividad de flujo de trabajo. Obtenga más información sobre la transferencia de archivos en flujos de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html)
+Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Campaign mediante un **[!UICONTROL Transfer file]** actividad de flujo de trabajo. Más información sobre **Transferencia de archivos** en flujos de trabajo [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html).
 
-* **FTP y SFTP**
+* **FTP y SFTP** - El **FTP** cuenta externa permite configurar y probar el acceso a un servidor fuera de Adobe Campaign. Para configurar conexiones con sistemas externos como SFTP o servidores FTP 898 utilizados para transferencias de archivos, puede crear sus propias cuentas externas.
 
-   La variable **FTP** cuenta externa permite configurar y probar el acceso a un servidor fuera de Adobe Campaign. Para configurar conexiones con sistemas externos como SFTP o servidores FTP 898 utilizados para transferencias de archivos, puede crear sus propias cuentas externas.
-Para ello, especifique en esta cuenta externa la dirección y las credenciales utilizadas para establecer la conexión con el servidor SFTP o FTP.
+   Para ello, especifique en esta cuenta externa la dirección y las credenciales utilizadas para establecer la conexión con el servidor SFTP o FTP.
 
-* **Amazon Simple Storage Service (S3)**
+* **Amazon Simple Storage Service (S3)** - El **AWS S3** El conector se puede utilizar para importar o exportar datos a Adobe Campaign mediante un **[!UICONTROL Transfer file]** actividad de flujo de trabajo. Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detalles:
 
-   La variable **AWS S3** El conector se puede utilizar para importar o exportar datos a Adobe Campaign mediante un **[!UICONTROL Transfer file]** actividad de flujo de trabajo. Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detalles:
-
-   * **[!UICONTROL AWS S3 Account Server]**: URL del servidor, rellenada de la siguiente manera:   ```<S3bucket name>.s3.amazonaws.com/<s3object path>```
+   * **[!UICONTROL AWS S3 Account Server]**: URL del servidor, rellenada de la siguiente manera:   `<S3bucket name>.s3.amazonaws.com/<s3object path>`
 
    * **[!UICONTROL AWS access key ID]**: Obtenga información sobre cómo encontrar su ID de clave de acceso de AWS en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
@@ -159,9 +134,7 @@ Para ello, especifique en esta cuenta externa la dirección y las credenciales u
 
    * La casilla de verificación **[!UICONTROL Use server side encryption]** permite almacenar el archivo en modo codificado S3. Obtenga información sobre cómo encontrar el ID de clave de acceso y la clave de acceso secreta en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-* **Azure Blob Storage**
-
-   La variable **Azure** la cuenta externa se puede utilizar para importar o exportar datos a Adobe Campaign mediante un **[!UICONTROL Transfer file]** actividad de flujo de trabajo. Para configurar la variable **Azure** cuenta externa para trabajar con Adobe Campaign, debe proporcionar los siguientes detalles:
+* **Almacenamiento de Azure Blob** - El **Azure** la cuenta externa se puede utilizar para importar o exportar datos a Adobe Campaign mediante un **[!UICONTROL Transfer file]** actividad de flujo de trabajo. Para configurar la variable **Azure** cuenta externa para trabajar con Adobe Campaign, debe proporcionar los siguientes detalles:
 
    * **[!UICONTROL Server]**: URL del servidor de almacenamiento del blob de Azure.
 
