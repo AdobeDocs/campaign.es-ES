@@ -5,10 +5,10 @@ feature: Push
 role: Data Engineer
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 1bcb1b3d1e6062a8b5c0368725248edfc7e3d1b4
+source-git-commit: e7c255d30e38c4e17779ef820e8984668ac5d48b
 workflow-type: tm+mt
-source-wordcount: '1748'
-ht-degree: 55%
+source-wordcount: '1671'
+ht-degree: 57%
 
 ---
 
@@ -24,11 +24,12 @@ Para enviar notificaciones push en Adobe Campaign, debe:
 
 ## Integración del SDK {#push-sdk}
 
-Puede utilizar el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas. [Obtenga más información en la documentación de Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+Para enviar notificaciones push con Adobe Campaign, debe configurar la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos del SDK de Adobe Experience Platform Mobile.
 
-También puede integrar el SDK de Campaign para facilitar la integración de la aplicación móvil en la plataforma Adobe Campaign. Las versiones compatibles del SDK se enumeran en [Matriz de compatibilidad de Campaign](../start/compatibility-matrix.md#MobileSDK).
+El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas.
 
-Obtenga información sobre cómo integrar los SDK de iOS y Android de Campaign con su aplicación en [esta página](../config/push-config.md)
+[Obtenga más información en la documentación de Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+
 
 ## Configuración de la aplicación en Campaign{#push-config}
 
@@ -77,10 +78,7 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
    Asegúrese de que la misma **[!UICONTROL Integration key]** se define en Adobe Campaign y en el código de la aplicación a través del SDK.
 
-   Si utiliza el SDK de Campaign, obtenga más información en[esta página](../config/push-config.md).
-
-
-   Si utiliza el SDK de Adobe Experience Platform (recopilación de datos), obtenga más información en [esta página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   Obtenga más información en [la documentación para desarrolladores](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]
@@ -119,9 +117,7 @@ Para crear una aplicación para dispositivos Android, siga estos pasos:
 
    Asegúrese de que la misma **[!UICONTROL Integration key]** se define en Adobe Campaign y en el código de la aplicación a través del SDK.
 
-   Si utiliza el SDK de Campaign, obtenga más información en [esta página](../config/push-config.md).
-
-   Si utiliza el SDK de Adobe Experience Platform (recopilación de datos), obtenga más información en [esta página](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
+   Obtenga más información en [la documentación para desarrolladores](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
 
    >[!NOTE]

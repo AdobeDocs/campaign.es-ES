@@ -4,13 +4,13 @@ description: Aprenda a crear contenido condicional
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 56%
 
 ---
-
 
 # Cree contenido condicional{#conditional-content}
 
@@ -87,4 +87,3 @@ En el siguiente ejemplo, aprenda a crear un correo electrónico multilingüe. El
 Aprenda a añadir contenido condicional a un envío con el ejemplo de una newsletter multilingüe.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)
-

@@ -4,13 +4,13 @@ description: Descubra qué fuentes se pueden utilizar para la personalización
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+exl-id: 711256e2-ab77-404a-b052-6793a85da193
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 46%
 
 ---
-
 
 # Fuentes de datos personalizadas{#personalization-data}
 
@@ -71,7 +71,3 @@ Una vez completado el análisis, vaya al flujo de trabajo **[!UICONTROL Properti
 Cuando se crea una entrega en el contexto de un flujo de trabajo, se pueden utilizar los datos de la tabla de flujo de trabajo temporal. Los datos almacenados en la tabla de trabajo temporal del flujo de trabajo están disponibles para las tareas de personalización. Los datos se pueden utilizar en los campos personalizados.
 
 Estos datos se agrupan en el menú **[!UICONTROL Target extension]**. Para obtener más información, consulte [esta sección](../../automation/workflow/use-workflow-data.md#target-data).
-
-
-
-

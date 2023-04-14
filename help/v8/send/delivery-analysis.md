@@ -4,7 +4,8 @@ description: Descubra cómo preparar y comprobar su envío
 feature: Personalization
 role: User
 level: Beginner
-source-git-commit: 51b333492ad50849751208c7549dc00f66140b82
+exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
+source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 62%
@@ -89,5 +90,3 @@ Esta pestaña proporciona acceso a las siguientes opciones:
 * **[!UICONTROL Start job in a detached process]**: esta opción permite iniciar el análisis de envío en un proceso independiente. La función de análisis utiliza el proceso del servidor de aplicaciones de Adobe Campaign (web nlserver) de forma predeterminada. Al seleccionar esta opción, se asegura de que el análisis se complete incluso en caso de que falle el servidor de aplicaciones.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: esta opción añade los registros de consulta SQL al diario de entrega durante la fase de análisis.
 * **[!UICONTROL Ignore personalization scripts during sending]**: esta opción permite evitar la interpretación de las directrices de JavaScript que se encuentran en el contenido HTML. Se visualizan tal y como están en los contenidos enviados. Estas directivas se introducen con `<%=` etiqueta.
-
-
