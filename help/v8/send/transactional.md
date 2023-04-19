@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 2a85ffc2fe3a839c14a5c844deaa7a09687743eb
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1510'
+ht-degree: 62%
 
 ---
 
@@ -57,10 +57,8 @@ Al [crear una plantilla de mensaje](#create-message-template), debe seleccionar 
 
 Para crear tipos de eventos que Adobe Campaign procesará, siga los pasos a continuación:
 
-1. Vaya a la carpeta **[!UICONTROL Administration > Platform > Enumerations]** del árbol.
-
-1. Seleccione **[!UICONTROL Event type]** en la lista.
-
+1. Vaya a la **[!UICONTROL Administration > Platform > Enumerations]** carpeta del explorador de Campaign.
+1. Seleccione el **[!UICONTROL Event type]** de la lista.
 1. Haga clic en **[!UICONTROL Add]** para crear un valor de lista desglosada. Puede ser una confirmación de pedido, cambio de contraseña o de envío de pedido, etc.
 
    ![](assets/messagecenter_eventtype_enum_001.png)
@@ -73,7 +71,8 @@ Para crear tipos de eventos que Adobe Campaign procesará, siga los pasos a cont
 
 >[!NOTE]
 >
->Obtenga más información sobre listas desglosadas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Obtenga más información sobre las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
+
 
 ## Definir una plantilla de mensaje transaccional {#create-message-template}
 
