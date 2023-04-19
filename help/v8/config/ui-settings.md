@@ -5,7 +5,7 @@ version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 0b4483e0f16f14582a1a4bc28b0e1ff719823ef3
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 33%
@@ -89,7 +89,7 @@ También puede convertir un valor de enumeración existente en un alias. Para re
    ![Crear un nuevo alias](assets/define-new-alias.png)
 
 
->[!CAUTION]
+>[!NOTE]
 >
 >Puede realizar un seguimiento de las ocurrencias de un alias en la variable **[!UICONTROL Hits]** en la columna **[!UICONTROL Alias]** subpestaña . Puede mostrar el número de veces que se introdujo este valor.  [Más información](#calculate-entry-occurrences).
 
