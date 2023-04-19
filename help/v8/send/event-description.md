@@ -4,13 +4,13 @@ description: Descubra cómo se administran los eventos de mensajería transaccio
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 95%
 
 ---
-
 
 # Explicación de la descripción del evento {#about-event-desc}
 
@@ -225,4 +225,3 @@ Sin embargo, si no se puede procesar el evento, el método devuelve un mensaje d
       </SOAP-ENV:Body>
    </SOAP-ENV:Envelope>
    ```
-
