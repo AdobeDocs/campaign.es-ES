@@ -4,13 +4,13 @@ description: Descubra cómo la mensajería transaccional de Campaign recopila y 
 feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
-source-git-commit: c61f03252c7cae72ba0426d6edcb839950267c0a
+exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
+source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 55%
 
 ---
-
 
 # Procesamiento de eventos {#event-processing}
 
@@ -102,6 +102,3 @@ Para ello, es necesario configurar un flujo de trabajo que vuelva a crear todos 
 >[!CAUTION]
 >
 >Este paso solo se puede llevar a cabo con un flujo de trabajo y, por lo tanto, se reserva para usuarios expertos. Para obtener más información, póngase en contacto con su administrador de cuentas de Adobe.
-
-
-
