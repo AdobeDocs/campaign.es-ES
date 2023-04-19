@@ -3,10 +3,10 @@ title: Informes de envío integrados de Adobe Campaign
 description: Informes de envío integrados de Adobe Campaign
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: edb099b3e882d857752af76798012ccd1c5a99be
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1031'
-ht-degree: 92%
+source-wordcount: '1021'
+ht-degree: 93%
 
 ---
 
@@ -83,7 +83,7 @@ Esta tabla de valores muestra el desglose de envíos, aperturas, clics y reaccio
 >
 >Los nombres de dominio mostrados en este informe se definen en la lista desglosada utilizada al nivel de cubo. Para cambiar, añadir o quitar dominios predeterminados, edite la lista desglosada **[!UICONTROL Domains]** y modifique los valores y alias. La categoría **[!UICONTROL Others]** incluye nombres de dominio que no pertenecen a ningún valor de la lista desglosada.
 >
->Obtenga información sobre cómo acceder y configurar las enumeraciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
+>Obtenga información sobre cómo acceder y configurar las enumeraciones en [esta página](../config/ui-settings.md).
 
 
 **[!UICONTROL 4. Generated click streams]**
