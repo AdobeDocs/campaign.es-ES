@@ -5,10 +5,10 @@ feature: Application Settings
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: a11d3895-00f1-43d0-b0f7-330fce9fd56b
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 19%
+source-wordcount: '200'
+ht-degree: 20%
 
 ---
 
@@ -37,8 +37,7 @@ Para cada enumeración, los valores se muestran en una lista desplegable desde l
 
 Para **Apertura** , el usuario también puede introducir los primeros caracteres del valor y se muestran los posibles valores.
 
-Obtenga información sobre cómo acceder y configurar las enumeraciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/managing-enumerations.html){target="_blank"}.
-
+Obtenga más información sobre las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
 
 ## Unidades predeterminadas {#default-units}
 
