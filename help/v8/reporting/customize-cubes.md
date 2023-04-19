@@ -6,10 +6,10 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 94%
+source-wordcount: '1431'
+ht-degree: 93%
 
 ---
 
@@ -64,6 +64,8 @@ Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 
    Siempre que se actualizan los valores de la lista desglosada, los grupos coincidentes se adaptan automáticamente.
 
+Obtenga más información sobre las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
+
 ### Creación de rangos de valores {#create-value-ranges}
 
 Puede agrupar los valores en rangos basados en un intervalo deseado.
@@ -111,6 +113,8 @@ Solo se debe modificar la enumeración para actualizar el informe relacionado. P
 La enumeración **[!UICONTROL Domains]** se utiliza para generar informes integrados que muestran la lista de dominios. Para adaptar el contenido de estos informes, se puede editar esta lista.
 
 Puede crear otras enumeraciones reservadas para agrupamiento y utilizarlas en otros cubos: todos los valores de alias se reagrupan en las bandejas especificadas en la primera pestaña de enumeración.
+
+Obtenga más información sobre las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
 
 ## Acumulados en cubos {#calculate-and-use-aggregates}
 
