@@ -4,9 +4,9 @@ title: Desuso de la consola de cliente de 32 bits
 description: Desuso de la consola de cliente de 32 bits
 hide: true
 hidefromtoc: true
-source-git-commit: dd3490f43016cb7f6e0ccc5c171d78b8ee3ca234
+source-git-commit: 87e8ef65a2fea2f0d019babc69ed8a8a74017aa6
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '359'
 ht-degree: 1%
 
 ---
@@ -53,11 +53,11 @@ Asegúrese de que el procesador del equipo admita la instalación de un sistema 
 
 **WINDOWS 10 Y WINDOWS 8.1**
 
-1. Seleccione el botón Inicio y, a continuación, seleccione **Configuración** > **Sistema** > **Acerca de**.
-1. A la derecha, debajo de **Especificaciones del dispositivo**, consulte **Tipo de sistema**.
+1. Haga clic en el **Inicio** y, a continuación, seleccione **Configuración** > **Sistema** > **Acerca de**.
+1. En **Especificaciones del dispositivo**, consulte **Tipo de sistema**.
 
 **WINDOWS 7**
-1. Seleccione el **Inicio** botón, clic con el botón derecho **Equipo** y, a continuación, seleccione **Propiedades**.
+1. Seleccione el **Inicio** botón, clic con el botón derecho **Equipo** y seleccione **Propiedades**.
 1. En **Sistema**, consulte el tipo de sistema.
 
 Para obtener más información, consulte [Windows de 32 y 64 bits: Preguntas frecuentes](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
