@@ -7,7 +7,7 @@ title: Documentos de la versión 8 de Campaign
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -53,10 +53,10 @@ ht-degree: 94%
       + Mensajes transaccionales {#real-time}
          + [Introducción a los mensajes transaccionales](send/transactional.md)
          + [Creación y publicación de una plantilla](send/transactional-template.md)
-         + Gestión de eventos {#event}
-         + [Recopilar y procesar eventos](send/event-processing.md)
-         + [Explicación de la descripción del evento](send/event-description.md)
-         + [Envío y monitorización de mensajes](send/delivery-execution.md)
+         + Administración de eventos {#event}
+         + [Recopilación y procesamiento de eventos](send/event-processing.md)
+         + [Comprensión de la descripción del evento](send/event-description.md)
+         + [Mensajes de envío y monitorización](send/delivery-execution.md)
       + Errores, rechazos y cuarentenas{#failures}
          + [Cuarentenas](send/quarantines.md)
          + [Errores de envío](send/delivery-failures.md)

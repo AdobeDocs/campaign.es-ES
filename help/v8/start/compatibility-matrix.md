@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9,870a336f-94ac-4171-891b-67614feef6e
 source-git-commit: dcb12339d891c61f308cf7b7e518784f3ba1ff31
 workflow-type: tm+mt
 source-wordcount: '385'
-ht-degree: 81%
+ht-degree: 88%
 
 ---
 
@@ -59,7 +59,7 @@ A continuación, se enumeran las bases de datos externas compatibles con el mód
 
 ## SDK móvil{#MobileSDK}
 
-Para enviar [notificaciones push](../send/push.md) con Campaign, utilice el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign Classic en la interfaz de usuario de recopilación de datos.
+Para enviar [notificaciones push](../send/push.md) con Campaign, utilice el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign Classic en la interfaz de usuario de recopilación de datos.
 
 
 ## Acceso web{#web-access}
