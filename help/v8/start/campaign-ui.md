@@ -5,7 +5,7 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: eed3396584940f99a865eef2358887b6bf5c4936
+source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 32%
@@ -74,10 +74,9 @@ Este espacio de trabajo le permite acceder al árbol del Explorador para examina
 
 La sección izquierda muestra el árbol del explorador de Campaign y le permite examinar todos los componentes y la configuración de su instancia en función de sus permisos.
 
-La sección superior muestra la lista de registros de la carpeta actual. Estas listas son totalmente personalizables. [Más información](customize-ui.md)
+La sección superior muestra la lista de registros de la carpeta actual. Estas listas son totalmente personalizables. [Más información](../config/ui-settings.md)
 
 La sección inferior muestra los detalles del registro seleccionado.
-
 
 ## Idiomas{#languages}
 
@@ -96,7 +95,6 @@ El idioma se selecciona durante el proceso de instalación.
 >No se puede cambiar el idioma después de la creación de la instancia.
 
 El idioma afecta a los formatos de fecha y hora.
-
 
 Las principales diferencias entre el inglés de EE. UU. y el inglés de Reino Unido son:
 
