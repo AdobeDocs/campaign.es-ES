@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2aa5dd736b93990317f842bcbe1f87374279f538
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '524'
 ht-degree: 32%
 
 ---
@@ -72,11 +72,11 @@ Vaya al explorador de Campaign para acceder a todas las funcionalidades y config
 
 Este espacio de trabajo le permite acceder al árbol del Explorador para examinar todas las funciones y opciones.
 
-La sección izquierda muestra el árbol del explorador de Campaign y le permite examinar todos los componentes y la configuración de su instancia en función de sus permisos.
+* La sección izquierda muestra el árbol del explorador de Campaign y le permite examinar todos los componentes y la configuración de su instancia en función de sus permisos. Puede añadir y personalizar carpetas, tal como se explica en [esta página](../audiences/folders-and-views.md).
 
-La sección superior muestra la lista de registros de la carpeta actual. Estas listas son totalmente personalizables. [Más información](../config/ui-settings.md)
+* La sección superior muestra la lista de registros de la carpeta actual. Estas listas son totalmente personalizables. [Más información](../config/ui-settings.md)
 
-La sección inferior muestra los detalles del registro seleccionado.
+* La sección inferior muestra los detalles del registro seleccionado.
 
 ## Idiomas{#languages}
 

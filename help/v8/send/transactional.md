@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 62%
+source-wordcount: '1491'
+ht-degree: 63%
 
 ---
 
@@ -43,7 +43,7 @@ A continuación se detallan los pasos principales para ponerlo en práctica:
 1. [Pruebe el mensaje](#test-message-template).
 1. [Publique la plantilla de mensaje](#publish-message-template).
 
-Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si se activa un evento correspondiente, los datos relevantes se envían a Campaign mediante PushEvent y PushEvents [Métodos SOAP](https://experienceleague.adobe.com/docs/campaign-classic/using/transactional-messaging/processing/event-description.html){target="_blank"}, y la entrega se envía a los destinatarios objetivo.
+Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si se activa un evento correspondiente, los datos relevantes se envían a Campaign mediante PushEvent y PushEvents [Métodos SOAP](../send/event-description.md), y la entrega se envía a los destinatarios objetivo.
 
 ## Creación de tipos de eventos {#create-event-types}
 
@@ -196,9 +196,7 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
 Puede probar la entrega de mensajes enviando una prueba a una dirección semilla creada anteriormente.
 
-El envío de una prueba implica realizar el mismo proceso que para cualquier entrega.
-
-![](../assets/do-not-localize/book.png) Obtenga más información sobre las pruebas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html#sending-a-proof){target="_blank"}
+El envío de una prueba implica realizar el mismo proceso que para cualquier entrega. Obtenga más información sobre las pruebas en [esta sección](../send/preview-and-proof.md).
 
 Sin embargo, para enviar una prueba de un mensaje transaccional, debe realizar las siguientes operaciones:
 

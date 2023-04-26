@@ -5,10 +5,10 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 35%
+source-wordcount: '348'
+ht-degree: 34%
 
 ---
 
@@ -21,7 +21,6 @@ Una vez completada la configuración, la sincronización de datos entre sistemas
 >[!NOTE]
 >
 >Las versiones de SFDC compatibles se detallan en Campaign [Matriz de compatibilidad](../start/compatibility-matrix.md).
-
 
 Siga los pasos a continuación para configurar una cuenta externa dedicada para importar y exportar datos de Salesforce a Adobe Campaign.
 
@@ -73,8 +72,7 @@ Puede reemplazar todos los valores de una enumeración de Adobe Campaign con los
 
 1. Haga clic en **[!UICONTROL Next]** y luego **[!UICONTROL Start]** para comenzar a importar las enumeraciones.
 
-1. Examine la **[!UICONTROL Administration > Platform > Enumerations]** para comprobar los valores importados.
-
+1. Examine la **[!UICONTROL Administration > Platform > Enumerations]** para comprobar los valores importados. Obtenga más información sobre las enumeraciones en [esta página](../config/ui-settings.md#enumerations).
 
 Adobe Campaign y Salesforce.com ya están conectados. Puede configurar la sincronización de datos entre los dos sistemas.
 

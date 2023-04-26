@@ -4,9 +4,9 @@ description: Aprenda a utilizar el módulo Adobe Campaign Social Marketing para 
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
+source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '791'
 ht-degree: 37%
 
 ---
@@ -138,9 +138,7 @@ Para enviar mensajes directos a sus seguidores, siga los pasos a continuación:
 
 1. Envío de una prueba
 
-   Antes de enviar el mensaje, asegúrese de validarlo enviando una prueba a una cuenta de prueba: a continuación, puede obtener una renderización exacta del mensaje en una cuenta privada de Twitter y comprobar el contenido y la personalización.
-
-   ![](../assets/do-not-localize/book.png) [Conozca los pasos clave para validar una entrega](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-validating-the-delivery.html?lang=es){target="_blank"}
+   Antes de enviar el mensaje, asegúrese de validarlo mediante [envío de una prueba a una cuenta de prueba](../send/preview-and-proof.md): a continuación, puede obtener una renderización exacta del mensaje en una cuenta privada de Twitter y comprobar el contenido y la personalización.
 
 1. Enviar el mensaje directo
 
