@@ -5,7 +5,7 @@ feature: Application Settings
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 7f27dbdd0ff53cd7437f956ccfef3d792020893b
+source-git-commit: c46eaa73deed643a4e92928b6ce2b1beb1596d73
 workflow-type: tm+mt
 source-wordcount: '1067'
 ht-degree: 19%
@@ -25,10 +25,10 @@ Puede acceder a cuentas externas desde Adobe Campaign **[!UICONTROL Explorer]**:
 
 
 >[!CAUTION]
->* Como usuario de Cloud Services administrados, las cuentas externas se configuran para su instancia mediante Adobe y no se deben modificar.
-
 >
->* >En el contexto de un [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), un **[!UICONTROL Full FDA]** (ffda) la cuenta externa administra la conexión entre la base de datos local de Campaign y la base de datos de Cloud ([!DNL Snowflake]).
+>* Como usuario de Cloud Services administrados, las cuentas externas se configuran para su instancia mediante Adobe y no se deben modificar.
+>
+>* En el contexto de un [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), un **[!UICONTROL Full FDA]** (ffda) la cuenta externa administra la conexión entre la base de datos local de Campaign y la base de datos de Cloud ([!DNL Snowflake]).
 >
 
 
@@ -39,7 +39,8 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 ### Correos devueltos {#bounce-mails-external-account}
 
 >[!NOTE]
-La autenticación de Microsoft Exchange Online OAuth 2.0 para la funcionalidad POP3 está disponible a partir de Campaign v8.3. Para comprobar su versión, consulte [esta sección](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
+>
+>La autenticación de Microsoft Exchange Online OAuth 2.0 para la funcionalidad POP3 está disponible a partir de Campaign v8.3. Para comprobar su versión, consulte [esta sección](../start/compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion).
 
 La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
@@ -66,7 +67,8 @@ Para configurar la cuenta externa **[!UICONTROL Bounce mails (defaultPopAccount)
 ![](assets/bounce_external_2.png)
 
 >[!CAUTION]
-Antes de configurar la cuenta externa POP3 usando Microsoft OAuth 2.0, primero debe registrar la aplicación en el portal de Azure. Para obtener más información, consulte esta [página](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
+>
+>Antes de configurar la cuenta externa POP3 usando Microsoft OAuth 2.0, primero debe registrar la aplicación en el portal de Azure. Para obtener más información, consulte esta [página](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-register-app){target="_blank"}.
 
 Para configurar una externa POP3 utilizando Microsoft OAuth 2.0, marque la casilla **[!UICONTROL Microsoft OAuth 2.0]** y rellene los campos siguientes:
 
@@ -85,7 +87,8 @@ Para configurar una externa POP3 utilizando Microsoft OAuth 2.0, marque la casil
 La cuenta externa **[!UICONTROL Routing]** permite configurar cada canal disponible en Adobe Campaign según los paquetes instalados.
 
 >[!CAUTION]
-La variable **[!UICONTROL Internal email delivery routing]** Cuenta externa (defaultEmailBulk) **no debe** estar habilitado en Adobe Campaign v8.
+>
+>La variable **[!UICONTROL Internal email delivery routing]** Cuenta externa (defaultEmailBulk) **no debe** estar habilitado en Adobe Campaign v8.
 
 ### Instancia de ejecución {#execution-instance}
 
