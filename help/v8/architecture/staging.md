@@ -1,6 +1,6 @@
 ---
-title: Mecanismo de ensayo de la API de Campaign
-description: Mecanismo de ensayo de la API de Campaign
+title: Mecanismo de ensayo de API de Campaign
+description: Mecanismo de ensayo de API de Campaign
 feature: API, FFDA
 role: Developer
 level: Beginner, Intermediate, Experienced
@@ -12,25 +12,25 @@ ht-degree: 2%
 
 ---
 
-# Mecanismo de ensayo de la API de Campaign
+# Mecanismo de ensayo de API de Campaign
 
-En el contexto de un [Implementación empresarial (FFDA)](enterprise-deployment.md), no se recomiendan las llamadas unitarias de explosión con respecto al rendimiento (latencia y concurrencia). Siempre se prefiere la operación de agrupamiento. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
+En el contexto de un [Implementación empresarial (FDAC)](enterprise-deployment.md)Por lo tanto, no se recomienda la limpieza de llamadas unitarias con respecto a los rendimientos (latencia y concurrencia). Siempre se prefiere la operación por lotes. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
 
-La capacidad de ensayo de Campaign está habilitada de forma predeterminada en algunos esquemas integrados. También podemos activarlo en cualquier esquema personalizado. Mecanismo de ensayo en pocas palabras:
+La capacidad de ensayo de Campaign está habilitada de forma predeterminada en algunos esquemas integrados. También podemos habilitarlo en cualquier esquema personalizado. Mecanismo de ensayo en pocas palabras:
 
-* La estructura del esquema de datos se duplica en la tabla de ensayo local
+* La estructura del esquema de datos está duplicada en la tabla de ensayo local
 * Las nuevas API dedicadas a la ingesta de datos fluyen directamente a la tabla de ensayo local. [Más información](new-apis.md)
-* Un flujo de trabajo programado déclencheur cada hora y sincroniza los datos con la base de datos de Cloud. [Más información](replication.md)
+* Un flujo de trabajo programado déclencheur cada hora y sincroniza los datos con la base de datos en la nube. [Más información](replication.md)
 
-Algunos esquemas integrados están Ensayados de forma predeterminada, como nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
+Algunos esquemas integrados están clasificados de forma predeterminada, como nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
-Las API de Campaign Classic v7 siguen disponibles, pero no pueden beneficiarse de este nuevo mecanismo de ensayo: Las llamadas a API fluyen directamente a la base de datos de Cloud. Adobe recomienda utilizar el nuevo mecanismo de ensayo en la medida de lo posible para reducir la presión general y la latencia en la base de datos de Campaign Cloud.
+Las API de Campaign Classic v7 siguen estando disponibles, pero no pueden beneficiarse de este nuevo mecanismo de ensayo: las llamadas de API fluyen directamente a la base de datos en la nube. El Adobe recomienda utilizar el nuevo mecanismo de ensayo lo más posible para reducir la presión general y la latencia en la base de datos de Campaign Cloud.
 
 >[!CAUTION]
 >
->* Con este nuevo mecanismo, la sincronización de datos para la exclusión de canales, las suscripciones, las bajas de suscripción o el registro móvil ya está **asincrónico**.
+>* Con este nuevo mecanismo, ahora se puede sincronizar los datos para la exclusión del canal, las suscripciones, las bajas de suscripción o el registro móvil **asíncrono**.
 >
->* El ensayo solo se aplica a esquemas almacenados en la base de datos de Cloud. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema de ensayo
+>* El ensayo solo se aplica a los esquemas almacenados en la base de datos en la nube. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema Ensayado
 >
 
 
@@ -38,7 +38,7 @@ Las API de Campaign Classic v7 siguen disponibles, pero no pueden beneficiarse d
 
 Para implementar el mecanismo de ensayo de Campaign en una tabla específica, siga los pasos a continuación:
 
-1. Cree un esquema personalizado de ejemplo en la base de datos de Campaign Cloud. No se ha habilitado el ensayo en este paso.
+1. Cree un esquema personalizado de ejemplo en la base de datos de Campaign Cloud. No hay ningún ensayo habilitado en este paso.
 
    ```
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
@@ -53,7 +53,7 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
    </srcSchema>
    ```
 
-   ![](../assets/do-not-localize/glass.png) Obtenga más información sobre la creación de esquemas personalizados en [esta página](../dev/create-schema.md).
+   ![](../assets/do-not-localize/glass.png) Obtenga más información acerca de la creación de esquemas personalizados en [esta página](../dev/create-schema.md).
 
 1. Guarde y actualice la estructura de la base de datos.  [Más información](../dev/update-database-structure.md)
 
@@ -76,4 +76,4 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
 
    ![](assets/staging-mechanism.png)
 
-1. Actualice la estructura de la base de datos. La tabla de ensayo se creará en la base de datos local de Campaign.
+1. Actualizar la estructura de la base de datos. La tabla de ensayo se creará en la base de datos local de Campaign.

@@ -10,7 +10,7 @@ ht-degree: 86%
 ---
 
 
-# Guías de automatización de campañas {#automation}
+# Guías de automatización de Campaign {#automation}
 
 + [Guía de automatización de Campaign](home.md)
 + Automatización con flujos de trabajo {#workflows}
@@ -87,7 +87,7 @@ ht-degree: 86%
          + [Administración de datos SQL](workflow/sql-data-management.md)
          + [Actualización de agregado](workflow/update-aggregate.md)
       + Actividades de evento {#event-activities}
-         + [Lista de actividades de eventos](workflow/event-activities.md)
+         + [Lista de actividades de evento](workflow/event-activities.md)
          + [Recolector de ficheros](workflow/file-collector.md)
          + [Transferencia de archivos](workflow/file-transfer.md)
          + [Correos electrónicos entrantes](workflow/inbound-emails.md)
@@ -143,7 +143,7 @@ ht-degree: 86%
    + [Campañas recurrentes y periódicas](campaigns/recurring-periodic-campaigns.md)
    + [Monitorización de campañas](campaigns/marketing-campaign-monitoring.md)
    + [Proveedores, stock y presupuestos](campaigns/providers--stocks-and-budgets.md)
-+ Optimización de campañas (complemento){#campaign-optimization}
++ Optimización de la campaña (complemento){#campaign-optimization}
    + [Introducción a las tipologías de campaña](campaign-opt/campaign-typologies.md)
    + [Reglas de filtrado](campaign-opt/filtering-rules.md)
    + [Reglas de control](campaign-opt/control-rules.md)

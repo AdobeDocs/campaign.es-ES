@@ -167,7 +167,7 @@ ht-degree: 99%
       + [Configuración de la interfaz de usuario](config/ui-settings.md)
       + [Administrar carpetas y vistas](audiences/folders-and-views.md)
       + [Configuración de correo electrónico](config/email-settings.md)
-      + [Configuración push](config/push-settings.md)
+      + [Configuración de push](config/push-settings.md)
       + [Configuración de mensajería transaccional](config/transactional-msg-settings.md)
       + [Integración de los SDK de Campaign con la aplicación - PÁGINA OBSOLETA](config/push-config.md)
       + [Cuentas externas](config/external-accounts.md)

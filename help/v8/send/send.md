@@ -1,6 +1,6 @@
 ---
-title: Envío y monitorización de los correos electrónicos
-description: Obtenga información sobre el ámbito y las características específicas del envío de correos electrónicos con Adobe Campaign
+title: Envío y monitorización de correos electrónicos
+description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con Adobe Campaign
 feature: Email
 role: Data Engineer
 level: Beginner
@@ -13,46 +13,46 @@ ht-degree: 34%
 ---
 
 
-# Envío y monitorización de los correos electrónicos
+# Envío y monitorización de correos electrónicos
 
 Una vez configurada la entrega y lista para enviarla, asegúrese de haber ejecutado el análisis de entrega. [Más información](delivery-analysis.md)
 
 Una vez finalizado, confirme la entrega para iniciar la entrega de mensajes.
 
-Rastree la ejecución del envío desde el **Entrega** , a la que se puede acceder mediante el detalle de este envío o a través de la lista de envíos.
+Rastree la ejecución del envío desde el **Envío** , a la que se puede acceder mediante el detalle de esta entrega o a través de la lista de envíos.
 
-## Supervisión de los correos electrónicos
+## Monitorización de correos electrónicos
 
-Una vez enviado, compruebe su estado de entrega en el panel de entregas y acceda a los registros de envío y a los informes para confirmar que los mensajes se han enviado correctamente.
+Una vez enviado, compruebe el estado de envío en el panel de envío y acceda a los registros de envío e informes para confirmar que los mensajes se han enviado correctamente.
 
 ![](../assets/do-not-localize/book.png) [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 
-## MTA de campaña {#mta}
+## MTA de Campaign {#mta}
 
-El Agente de transferencia de correo (MTA) de Campaign v8 proporciona una infraestructura de envío de primer nivel que permite una capacidad de envío óptima, reputación, rendimiento, sistema de informes, gestión de devoluciones, ampliación de IP y administración de la configuración de conexión.
+El Agente de transferencia de correo (MTA) de Campaign v8 proporciona la mejor infraestructura de envío de su clase, lo que permite una capacidad de entrega, reputación, rendimiento, informes, gestión de devoluciones, ampliación de IP y administración de la configuración de conexión óptimas.
 
 Disponible para todos los clientes de Campaign v8, garantiza la escalabilidad, un alto rendimiento de entrega y ayuda a enviar más correos electrónicos más rápido. Esto se logra con las nuevas técnicas de envío adaptable que modifican la configuración del envío de correo electrónico en tiempo real en función de los comentarios de los proveedores de servicio de Internet.
 
 ### Ventajas
 
-Adobe Campaign utiliza un agente de transferencia de correo (MTA) que ejecuta el MTA de correo electrónico comercial de SparkPost llamado **Momentum**.
+Adobe Campaign utiliza un Agente de transferencia de correo (MTA) que ejecuta un MTA de correo electrónico comercial de SparkPost denominado **Momentum**.
 
 Momentum representa una tecnología de MTA innovadora y de alto rendimiento que incluye gestión de devoluciones más inteligente y capacidad de optimización de envíos automatizados, lo que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas.
 
-* El MTA permite un aumento masivo de la velocidad de rendimiento general y una reducción significativa de los rechazos leves.
-* Utiliza la última tecnología MTA para proporcionarle las velocidades de rendimiento óptimas para su envío de correo electrónico.
+* El MTA permite un aumento masivo en la velocidad de rendimiento general y una reducción significativa de las devoluciones suaves.
+* Utiliza la tecnología de MTA más reciente para proporcionarle las velocidades de rendimiento óptimas para su envío de correo electrónico.
 * Al adaptarse instantánea y automáticamente a los comentarios que recibe, también garantiza envíos de correos electrónicos más precisos e inteligentes con los datos de envío en tiempo real.
 
 ### Calificación de rechazo
 
-Para **sincrónica** mensajes de error de error de entrega, el MTA determina el tipo de rechazo y la calificación, y envía esa información a Campaign.
+Para **sincrónico** Mensajes de error de fallo de entrega, el MTA determina el tipo de devolución y calificación, y envía esa información a Campaign.
 
-El MTA clasifica el rechazo SMTP y envía esa calificación a Campaign en forma de código de rechazo asignado a un motivo y calificación de devolución de Campaign.
+El MTA califica el rebote SMTP y devuelve esa calificación a Campaign en forma de código de rechazo asignado a un motivo y una calificación de Campaign.
 
 >[!NOTE]
 >
->Actualmente **asincrónico** las devoluciones se clasifican mediante el proceso inMail a través del **[!UICONTROL Inbound email]** reglas.
+>Actualmente **asíncrono** Las devoluciones son calificadas por el proceso de inMail a través de la variable **[!UICONTROL Inbound email]** reglas.
 
 Obtenga más información sobre los errores de entrega en [esta sección](delivery-failures.md).
 
@@ -65,25 +65,25 @@ El MTA tiene sus propias reglas MX que le permiten personalizar el rendimiento p
 
 ### Firma DKIM
 
-Correo identificado de claves de dominio (DKIM) es un método de autenticación que se utiliza para detectar direcciones de remitente falsificadas (comúnmente denominadas suplantación de identidad).
+El correo identificado por claves de dominio (DKIM) es un método de autenticación que se utiliza para detectar direcciones de remitentes falsificadas (comúnmente denominado suplantación de identidad).
 
-En Adobe Campaign, la firma de autenticación de correo electrónico DKIM la realiza el MTA.
+En Adobe Campaign, la firma de autenticación por correo electrónico DKIM la realiza el MTA.
 
 Obtenga más información sobre DKIM en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication){target="_blank"}.
 
 ## Servicio de comentarios de correo electrónico {#email-feedback-service}
 
-Con la capacidad Servicio de comentarios de correo electrónico (EFS) , el estado de cada correo electrónico se informa con precisión, ya que los comentarios se capturan directamente desde el MTA.
+Con el servicio de comentarios de correo electrónico (EFS), se informa del estado de cada correo electrónico con precisión, ya que los comentarios se capturan directamente desde el MTA.
 
-Una vez iniciado el envío, no hay ningún cambio en la variable **[!UICONTROL Success]** porcentaje cuando el mensaje se transmite correctamente de Campaign al MTA.
+Una vez iniciada la entrega, no se producen cambios en la **[!UICONTROL Success]** porcentaje de cuando el mensaje se retransmite correctamente desde Campaign al servidor de correo.
 
 Los registros de envío muestran el estado **[!UICONTROL Taken into account by the service provider]** de cada dirección de destino.
 
-Cuando el mensaje se envía realmente a los perfiles de destino y una vez que esta información se devuelve en tiempo real desde el MTA, los registros de envío muestran la variable **[!UICONTROL Sent]** para cada dirección que recibió el mensaje correctamente. El porcentaje de **[!UICONTROL Success]** se incrementa en consecuencia con cada envío correcto.
+Cuando el mensaje se envía realmente a los perfiles objetivo y una vez que se transmite esta información en tiempo real desde el servidor de correo, los registros de envío muestran el **[!UICONTROL Sent]** estado de cada dirección que recibió correctamente el mensaje. El porcentaje de **[!UICONTROL Success]** se incrementa en consecuencia con cada envío correcto.
 
-Cuando los mensajes rechazados en el disco duro se devuelven desde el MTA, su estado de registro cambia de **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
+Cuando el servidor de correo devuelve mensajes de rebote duro, su estado de registro cambia de **[!UICONTROL Taken into account by the service provider]** hasta **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Cuando los mensajes de devolución en blanco se devuelven desde el MTA, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo la variable [motivo del error](delivery-failures.md#delivery-failure-reasons) se actualiza<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
+Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo el [motivo del error](delivery-failures.md#delivery-failure-reasons) se ha actualizado<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** sube en consecuencia.
 
@@ -99,8 +99,8 @@ La tabla siguiente muestra cómo se actualizan los KPI y los estados de registro
 
 | Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
 |--- |--- |--- |
-| El mensaje se retransmite correctamente de Campaign al MTA | **[!UICONTROL Success]** no se muestra el porcentaje (comienza en 0 %) | El proveedor de servicios lo tiene en cuenta |
-| Los mensajes rechazados se informan desde el MTA | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Error |
-| Los mensajes de devolución en blanco se informan desde el MTA | No hay cambios en el porcentaje de **[!UICONTROL Success]** | El proveedor de servicios lo tiene en cuenta |
+| El mensaje se retransmite correctamente desde Campaign al servidor de correo | **[!UICONTROL Success]** no se muestra el porcentaje (comienza en 0 %) | El proveedor de servicios lo tiene en cuenta |
+| Los mensajes de devolución dura se informan desde el servidor de correo | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Error |
+| Los mensajes de devolución suave se informan desde el servidor de correo | No hay cambios en el porcentaje de **[!UICONTROL Success]** | El proveedor de servicios lo tiene en cuenta |
 | Los reintentos de mensajes de devolución suave se realizan correctamente | El porcentaje de **[!UICONTROL Success]** sube en consecuencia | Enviado |
 | Error en los reintentos de mensajes de devolución suave | No hay cambios en el porcentaje de **[!UICONTROL Success]** | Error |

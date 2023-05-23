@@ -41,7 +41,7 @@ Los pasos principales del proceso de aprobación local son:
 
 1. Después de unos días, la segunda actividad **[!UICONTROL Local approval]** envía un correo electrónico de notificación a cada supervisor local con un resumen de las acciones de sus contactos (clics, aperturas, etc.).
 
-## Paso 1: Creación de la plantilla de distribución de datos {#step-1--creating-the-data-distribution-template-}
+## Paso 1: Crear la plantilla de distribución de datos {#step-1--creating-the-data-distribution-template-}
 
 La plantilla de distribución de datos permite limitar la población resultante de la segmentación en función de la agrupación de datos, así como asignar cada valor a un supervisor local. En este ejemplo, se ha definido el campo **[!UICONTROL Email address domain]** como campo de distribución y se ha asignado un dominio a cada supervisor local.
 
@@ -79,7 +79,7 @@ Para obtener más información sobre la creación de una plantilla de distribuci
       >
       >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
 
-## Paso 2: Creación del flujo de trabajo de objetivos {#step-2--creating-the-targeting-workflow}
+## Paso 2: Creación de un flujo de trabajo de objetivos {#step-2--creating-the-targeting-workflow}
 
 Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de objetivo:
 
@@ -142,7 +142,7 @@ Se deben introducir los campos siguientes:
 1. En la sección **[!UICONTROL Notification]**, seleccione la plantilla de entrega y el asunto a utilizar para el correo electrónico de notificación. Aquí, se ha elegido la plantilla predeterminada: **[!UICONTROL Local approval notification]**.
 1. En la sección **[!UICONTROL Approval schedule]**, se ha guardado el plazo de aprobación predeterminado (3 días) y se ha agregado un recordatorio. La entrega se realiza 3 días después del inicio de la aprobación. Una vez que se ha alcanzado el plazo de aprobación, la segmentación no tiene en cuenta los destinatarios no aprobados.
 
-El mensaje de correo electrónico de notificación se envía mediante la función **[!UICONTROL Local approval]** a los supervisores locales.
+El envía un correo electrónico de notificación **[!UICONTROL Local approval]** actividad a supervisores locales.
 
 ### Espera {#wait}
 

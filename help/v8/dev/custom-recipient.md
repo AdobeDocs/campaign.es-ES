@@ -14,8 +14,8 @@ ht-degree: 3%
 
 # Usar una tabla de destinatarios personalizada{#gs-ac-custom-recipient}
 
-Adobe Campaign incluye una tabla de perfiles integrada: **nmsRecipient**. Esta tabla tiene una serie de campos predefinidos y tablas que se pueden ampliar fácilmente. Obtenga más información sobre esta tabla en [esta página](datamodel.md#ootb-profiles).
+Adobe Campaign incluye una tabla de perfil integrada: **nmsRecipient**. Esta tabla tiene una serie de campos predefinidos y tablas que se pueden ampliar fácilmente. Obtenga más información acerca de esta tabla en [esta página](datamodel.md#ootb-profiles).
 
-La extensión de tabla integrada ofrece flexibilidad, pero no permite eliminar algunos campos o vínculos que no se utilizan. Como consecuencia, el uso de una tabla de destinatarios personalizada puede ser una buena opción cuando el modelo de datos difiere drásticamente de la estructura de la tabla de destinatarios integrada en Campaign o si tiene un gran número de perfiles.  Sin embargo, este método requiere ciertas precauciones al implementarlo.
+La extensión de tabla integrada ofrece flexibilidad, pero no permite eliminar algunos campos o vínculos que no se utilicen. Como consecuencia, el uso de una tabla de destinatarios personalizada puede ser una buena opción cuando el modelo de datos difiere drásticamente de la estructura de tablas de destinatarios integrada de Campaign o si tiene un gran número de perfiles.  Sin embargo, este método requiere ciertas precauciones a la hora de implementarlo.
 
 ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar la instancia para que utilice una tabla de destinatarios personalizada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/use-a-custom-recipient-table/about-custom-recipient-table.html){target="_blank"}.

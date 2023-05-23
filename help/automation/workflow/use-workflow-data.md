@@ -6,13 +6,13 @@ exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '707'
-ht-degree: 75%
+ht-degree: 76%
 
 ---
 
 # Uso de datos de flujo de trabajo{#how-to-use-workflow-data}
 
-Puede utilizar las actividades de flujo de trabajo para realizar varias tareas. A continuación, encontrará ejemplos de uso para actualizar la base de datos creando listas, administrando suscripciones, enviando mensajes a través de un flujo de trabajo o enriqueciendo los envíos y sus audiencias.
+Puede utilizar las actividades de flujo de trabajo para realizar varias tareas. A continuación, encontrará ejemplos de uso para actualizar la base de datos creando listas, administrando suscripciones, enviando mensajes a través de un flujo de trabajo o enriqueciendo las entregas y sus audiencias.
 
 Hay un conjunto de casos de uso de flujo de trabajo disponibles en [esta sección](workflow-use-cases.md).
 
@@ -30,11 +30,11 @@ Para ello, seleccione el menú correspondiente:
 
 * **[!UICONTROL Display the target...]**
 
-   Este menú muestra los datos disponibles de la población objetivo.
+   Este menú muestra los datos disponibles sobre la población objetivo.
 
    ![](assets/wf-right-click-display.png)
 
-   Puede acceder a la estructura de la tabla de trabajo en la **[!UICONTROL Schema]** pestaña .
+   Puede acceder a la estructura de la tabla de trabajo en el **[!UICONTROL Schema]** pestaña.
 
    ![](assets/wf-right-click-schema.png)
 
@@ -52,12 +52,12 @@ Los datos del público objetivo se depuran mientras se ejecuta el flujo de traba
 
 >[!CAUTION]
 >
->Esta opción debe **never** esté marcado en un **producción** flujo de trabajo. Esta opción se utiliza para analizar los resultados y está diseñada únicamente para fines de prueba y, por lo tanto, solo debe usarse en entornos de ensayo o desarrollo.
+>Esta opción **nunca** se debe marcar en un flujo de trabajo de **producción**. Esta opción se utiliza para analizar los resultados y está diseñada únicamente para fines de prueba y, por lo tanto, solo debe usarse en entornos de ensayo o desarrollo.
 
 
-### Aprovechar los datos de destino {#target-data}
+### Aprovechamiento de los datos de destino {#target-data}
 
-Los datos almacenados en la tabla de trabajo temporal del flujo de trabajo están disponibles para las tareas de personalización. Los datos se pueden usar en la variable [campos personalizados](../../v8/send/personalization-fields.md).
+Los datos almacenados en la tabla de trabajo temporal del flujo de trabajo están disponibles para tareas de personalización. Los datos se pueden utilizar en la variable [campos de personalización](../../v8/send/personalization-fields.md).
 
 Esto permite utilizar datos recopilados mediante una lista en una entrega, por ejemplo. Para ello, utilice la siguiente sintaxis:
 
@@ -67,7 +67,7 @@ Esto permite utilizar datos recopilados mediante una lista en una entrega, por e
 
 Los elementos personalizados de tipo **[!UICONTROL Target extension]** (targetData) no están disponibles para flujos de trabajo de objetivos. El objetivo de la entrega debe generarse en el flujo de trabajo y especificarse en la transición entrante de la entrega.
 
-En el siguiente ejemplo, está recopilando una lista de información sobre los clientes para utilizarla en un correo electrónico personalizado. Siga estos pasos:
+En el ejemplo siguiente, se recopila una lista de información sobre los clientes para utilizarla en un correo electrónico personalizado. Siga estos pasos:
 
 1. Cree un flujo de trabajo para recopilar información, reconciliarla con los datos que ya se encuentran en la base de datos y, a continuación, iniciar una entrega.
 
@@ -85,7 +85,7 @@ En el siguiente ejemplo, está recopilando una lista de información sobre los c
    [...]
    ```
 
-   Para cargar el archivo, configure la variable **[!UICONTROL Data loading (file)]** actividad como se muestra a continuación:
+   Para cargar el archivo, configure las **[!UICONTROL Data loading (file)]** la siguiente actividad:
 
    ![](assets/wf-targetdata-sample-2.png)
 

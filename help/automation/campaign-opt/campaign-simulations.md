@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Introducción a las simulaciones de campañas
-description: Aprenda a configurar simulaciones de campaña
+description: Obtenga información sobre cómo configurar simulaciones de campañas
 feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
@@ -22,9 +22,9 @@ La simulación permite controlar y comparar el impacto de los envíos.
 ### Precaución
 
 
-Envíos preparados en **Prueba** no se afectan entre sí, por ejemplo al evaluar una campaña en marketing distribuido o siempre y cuando las entregas no estén programadas en el calendario provisional.
+Envíos preparados en **Prueba** Los modos de no se afectan entre sí, por ejemplo al evaluar una campaña en marketing distribuido o siempre que las entregas no estén programados en el calendario provisional.
 
-Esto significa que las reglas de presión y capacidad solo se aplican a los envíos en modo **[!UICONTROL Target estimation and message personalization]**. Envíos en **[!UICONTROL Estimation and approval of the provisional target]** en **[!UICONTROL Target evaluation]** no se tienen en cuenta.
+Esto significa que las reglas de presión y capacidad solo se aplican a los envíos en modo **[!UICONTROL Target estimation and message personalization]**. Envíos en **[!UICONTROL Estimation and approval of the provisional target]** modo y en **[!UICONTROL Target evaluation]** no se tienen en cuenta los modos de.
 
 El modo de entrega se elige en la subpestaña **[!UICONTROL Typology]** en las propiedades de la entrega.
 
@@ -192,12 +192,12 @@ Para comparar los resultados, debe utilizar los informes. De hecho, Adobe Campai
 
 ### Ejes de notificación {#reporting-axes}
 
-La pestaña **[!UICONTROL Calculations]** permite definir los ejes de creación de informes en el objetivo. Estos ejes se utilizan durante [análisis de resultados](#explore-results).
+La pestaña **[!UICONTROL Calculations]** permite definir los ejes de creación de informes en el objetivo. Estos ejes se utilizarán durante [análisis de resultados](#explore-results).
 
 >[!NOTE]
 >
 >Se recomienda definir los ejes de cálculo en las plantillas de simulación en lugar de individualmente para cada simulación.\
->Las plantillas de simulación se guardan en la variable **[!UICONTROL Resources > Templates > Simulation templates]** carpeta del explorador de Campaign.
+>Las plantillas de simulación se guardan en **[!UICONTROL Resources > Templates > Simulation templates]** del explorador de Campaign.
 
 **Ejemplo:**
 

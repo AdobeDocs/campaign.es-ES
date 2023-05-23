@@ -51,7 +51,7 @@ Puede utilizar una máscara SQL para combinar varios valores en un filtro. Para 
 
 <!--In the example below, all email domains that start with **yahoo** (yahoo.fr, yahoo.com, yahoo.be, etc.), or with **ymail** (ymail.com, ymail.eu, etc.) will be grouped under the label **YAHOO!**, as well as addresses with the **rocketmail.com** domain.-->
 
-### Administrar grupos de forma dinámica {#dynamically-manage-bins}
+### Administración dinámica de grupos {#dynamically-manage-bins}
 
 Los valores se pueden administrar dinámicamente mediante enumeraciones. Esto significa que solo se muestran los valores contenidos en la enumeración. Cuando cambian los valores de la enumeración, el contenido del cubo se adapta automáticamente.
 
@@ -82,7 +82,7 @@ Puede:
 
 * **[!UICONTROL Recover the most frequently used values]**
 
-   Si genera 4 grupos, se mostrarán los 4 valores utilizados con más frecuencia, mientras que los demás se contarán y agruparán en la categoría &quot;Otros&quot;.
+   Si genera 4 grupos, se muestran los 4 valores utilizados con más frecuencia, mientras que los demás se cuentan y se agrupan en la categoría &quot;Otros&quot;.
 
 * **[!UICONTROL Generate bins in the form of slots]**
 
@@ -116,7 +116,7 @@ Puede crear otras enumeraciones reservadas para agrupamiento y utilizarlas en ot
 
 Obtenga más información sobre las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
 
-## Acumulados en cubos {#calculate-and-use-aggregates}
+## Agregados en cubos {#calculate-and-use-aggregates}
 
 Los volúmenes de datos más grandes se pueden calcular en acumulados.
 
@@ -169,7 +169,7 @@ Para definir una nueva medida, siga los siguientes pasos:
 Se puede configurar la visualización de las medidas en la tabla según sus necesidades:
 
 * la secuencia de visualización de las medidas. [Más información](#display-sequence)
-* la información que se va a mostrar u ocultar en el informe. [Más información](#configuring-the-display)
+* la información que se desea mostrar u ocultar en el informe. [Más información](#configuring-the-display)
 * qué medidas mostrar: porcentaje, total, número de decimales, etc. [Más información](#changing-the-type-of-measure-displayed)
 
 ### Secuencia de visualización {#display-sequence}

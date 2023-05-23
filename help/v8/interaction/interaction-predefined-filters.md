@@ -1,6 +1,6 @@
 ---
-title: Filtros predefinidos de ofertas de interacción de campaña
-description: Aprenda a crear filtros predefinidos
+title: Filtros predefinidos de oferta de interacción de campaña
+description: Obtenga información sobre cómo crear filtros predefinidos
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
@@ -14,7 +14,7 @@ ht-degree: 55%
 
 # Creación de filtros predefinidos{#creating-pre-defined-filters}
 
-Cree filtros predefinidos para definir reglas de idoneidad para la población objetivo que se puedan reutilizar fácilmente durante la creación de la oferta. Son específicos a cada entorno y toman en cuenta los parámetros de oferta.
+Cree filtros predefinidos para definir reglas de idoneidad para la población de destino que se pueda reutilizar fácilmente durante la creación de la oferta. Son específicos a cada entorno y toman en cuenta los parámetros de oferta.
 
 Para crear un filtro predefinido, siga el siguiente proceso:
 

@@ -26,7 +26,7 @@ Un conjunto de reglas predeterminadas permite realizar comprobaciones habituales
 * **[!UICONTROL Wave scheduling check]** (correo electrónico): comprueba que la última tanda de envíos está programada para iniciarse antes del final del periodo de validez, si la entrega se divide en varias tandas.
 * **[!UICONTROL Unsubscription link approval]** (correo electrónico): comprueba la presencia de al menos una URL de baja (exclusión) en cada contenido (HTML y texto).
 
-## Crear una regla de control {#create-a-control-rule}
+## Creación de una regla de control {#create-a-control-rule}
 
 Es posible crear nuevas reglas de control para adaptarlas a sus necesidades. Para ello, cree una regla de tipología de **[!UICONTROL Control]** e introduzca la fórmula de control en SQL en la pestaña **[!UICONTROL Code]**.
 

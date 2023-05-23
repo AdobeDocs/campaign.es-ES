@@ -12,7 +12,7 @@ ht-degree: 57%
 
 ---
 
-# Trabajar con entornos{#work-with-environments}
+# Trabajo con entornos{#work-with-environments}
 
 ## Entornos en directo y de diseño{#live-design-environments}
 
@@ -25,15 +25,15 @@ La interacción funciona con dos tipos de entornos de oferta:
 
 Cada entorno **[!UICONTROL Design]** está relacionado con un entorno **[!UICONTROL Live]**. Cuando se completa una oferta, sus reglas de contenido y de idoneidad están sujetas a un ciclo de aprobación. Una vez completado este ciclo, la oferta correspondiente se implementa automáticamente en el entorno **[!UICONTROL Live]**. A partir de este momento, estará disponible para su envío.
 
-De forma predeterminada, Campaign viene con un **[!UICONTROL Design]** entorno y **[!UICONTROL Live]** entorno vinculado a él. Ambos entornos están preconfigurados para dirigirse al [tabla de destinatarios integrada](../dev/datamodel.md#ootb-profiles).
+De forma predeterminada, Campaign incluye una **[!UICONTROL Design]** entorno y una **[!UICONTROL Live]** entorno vinculado a él. Ambos entornos están preconfigurados para segmentar el [tabla de destinatarios integrada](../dev/datamodel.md#ootb-profiles).
 
 >[!NOTE]
 >
->Para la tabla de destinatarios de destino, debe utilizar el asistente de asignación de destino para crear los entornos. [Más información](#creating-an-offer-environment).
+>Para dirigirse a la tabla de destinatarios, debe utilizar el asistente de asignación de destino para crear los entornos. [Más información](#creating-an-offer-environment).
 
 ![](assets/offer_environments_overview_002.png)
 
-Los administradores de envío solo pueden ver la **[!UICONTROL Live]** entorno y aproveche las ofertas para ofrecerlas. Los administradores de ofertas pueden ver y utilizar la variable **[!UICONTROL Design]** y vea la **[!UICONTROL Live]** entorno. [Más información](interaction-operators.md)
+Los administradores de envío solo pueden ver la **[!UICONTROL Live]** y aproveche las ofertas para ofrecerlas. Los administradores de ofertas pueden ver y utilizar **[!UICONTROL Design]** entorno y vea el **[!UICONTROL Live]** entorno. [Más información](interaction-operators.md)
 
 ## Creación de un entorno para interacciones anónimas{#create-an-offer-environment}
 
@@ -41,19 +41,19 @@ De forma predeterminada, Campaign viene con un entorno integrado para dirigirse 
 
 Siga estos pasos:
 
-1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**, haga clic con el botón derecho en la asignación de destino que desee utilizar y seleccione **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
+1. Navegar a **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**, haga clic con el botón derecho en la asignación de destino que desee utilizar y seleccione **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
 
    ![](assets/offer_env_anonymous_001.png)
 
-1. Haga clic en **[!UICONTROL Next]**, seleccione **[!UICONTROL Generate a storage schema for propositions]** y haga clic en **[!UICONTROL Save]**.
+1. Clic **[!UICONTROL Next]**, seleccione la **[!UICONTROL Generate a storage schema for propositions]** y haga clic en **[!UICONTROL Save]**.
 
    ![](assets/offer_env_anonymous_002.png)
 
    >[!NOTE]
    >
-   >Si la opción ya está marcada, desmarque y vuelva a seleccionarla.
+   >Si la opción ya está marcada, anule la selección y vuelva a seleccionarla.
 
-1. Adobe Campaign crea dos entornos: **[!UICONTROL Design]** y **[!UICONTROL Live]** - con información de objetivo de la asignación de destino habilitada anteriormente. El entorno está preconfigurado con la información de objetivo.
+1. Adobe Campaign crea dos entornos: **[!UICONTROL Design]** y **[!UICONTROL Live]** : con información de objetivo de la asignación de destino habilitada anteriormente. El entorno está preconfigurado con la información de objetivo.
 
 Si ha activado la asignación **[!UICONTROL Visitor]**, la casilla **[!UICONTROL Environment dedicated to incoming anonymous interactions]** se marca automáticamente en la pestaña **[!UICONTROL General]** del entorno.
 

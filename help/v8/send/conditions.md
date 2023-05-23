@@ -19,21 +19,21 @@ Al configurar los campos de contenido condicionados, puede crear una personaliza
 
 ## Uso de condiciones en un correo electrónico {#conditions-in-an-email}
 
-En el siguiente ejemplo, aprenda a crear un mensaje personalizado dinámicamente en la ciudad y los intereses del destinatario.
+En el siguiente ejemplo, aprenda a crear un mensaje personalizado de forma dinámica según la ciudad y los intereses del destinatario.
 
-* Cambie el mensaje según la ciudad del destinatario,
+* Cambiar el mensaje según la ciudad del destinatario,
 * Personalice el contenido de la oferta según los intereses del destinatario.
 
 Para crear contenido condicional según el valor de un campo, aplique los pasos siguientes:
 
-1. Abra una entrega existente o cree una nueva entrega de correo electrónico.
+1. Abra una entrega existente o cree un nuevo envío de correo electrónico.
 1. En el editor de contenido de correo electrónico, haga clic en el icono de personalización y seleccione **[!UICONTROL Conditional content > If]**.
 
-   ![Inserción de una condición](assets/condition-insert.png)
+   ![Insertar una condición](assets/condition-insert.png)
 
    Los elementos de personalización se insertan en el cuerpo del mensaje. Ahora debe configurarlos.
 
-1. Complete los parámetros de la variable **if** expresión.
+1. Rellene los parámetros del **if** expresión.
 
    * Seleccione el primer elemento de la expresión, **`<FIELD>`** y haga clic en el icono de personalización para reemplazarlo por el campo de prueba.
    * Reemplace **`<VALUE>`** por el valor del campo para el que se debe cumplir la condición. Este valor debe estar entre comillas.
@@ -41,20 +41,20 @@ Para crear contenido condicional según el valor de un campo, aplique los pasos 
 
    ![Condición en un correo electrónico](assets/condition-in-email.png)
 
-1. Haga clic en la pestaña **[!UICONTROL Preview]** para ver el contenido del mensaje según el destinatario de la entrega. Seleccione un destinatario para el que la condición sea verdadera para comprobar el contenido. A continuación, seleccione otro destinatario para el que sea falso y vuelva a comprobarlo.
+1. Haga clic en la pestaña **[!UICONTROL Preview]** para ver el contenido del mensaje según el destinatario de la entrega. Seleccione un destinatario para el cual la condición sea verdadera para comprobar el contenido. A continuación, seleccione otro destinatario para el cual sea falso y vuelva a comprobarlo.
 
 Se pueden añadir otros casos y definir contenido diferente según los valores de uno o varios campos. Para ello, utilice **[!UICONTROL Conditional content > Else]** y **[!UICONTROL Conditional content > Else if]**. Estas expresiones se configuran del mismo modo que la expresión **if**.
 
 >[!CAUTION]
 >
->La variable **%> &lt;%** los caracteres deben eliminarse después de agregar **Else** y **Else si** condiciones.
+>El **%> &lt;%** Los caracteres deben eliminarse después de agregar **Else** y **Else if** condiciones.
 
 
-## Caso de uso: crear un correo electrónico multilingüe {#creating-multilingual-email}
+## Caso de uso: Creación de un correo electrónico multilingüe {#creating-multilingual-email}
 
 En el siguiente ejemplo, aprenda a crear un correo electrónico multilingüe. El contenido se muestra en un idioma o en otro según el idioma preferido del destinatario.
 
-1. Cree un correo electrónico y seleccione la población objetivo. En este ejemplo, la condición para mostrar una versión o la otra se basa en el valor **Language** del perfil del destinatario. Estos valores se establecen en **ES**, **FR**, **ES**.
+1. Cree un correo electrónico y seleccione la población objetivo. En este ejemplo, la condición para mostrar una versión o la otra se basa en el valor **Language** del perfil del destinatario. Estos valores se establecen en **EN**, **FR**, **ES**.
 1. En el contenido HTML del correo electrónico, haga clic en la pestaña **[!UICONTROL Source]** y pegue el código siguiente:
 
    ```

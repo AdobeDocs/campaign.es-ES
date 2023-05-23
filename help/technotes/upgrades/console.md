@@ -1,10 +1,11 @@
 ---
 product: campaign
-title: Desuso de la consola de cliente de 32 bits
-description: Desuso de la consola de cliente de 32 bits
+title: Desaprobación de 32 bits de la consola del cliente
+description: Desaprobación de 32 bits de la consola del cliente
 hide: true
 hidefromtoc: true
-source-git-commit: 87e8ef65a2fea2f0d019babc69ed8a8a74017aa6
+exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
+source-git-commit: 6e820dd55e3c834d1416eefdee925576b3e9090d
 workflow-type: tm+mt
 source-wordcount: '359'
 ht-degree: 1%
@@ -13,19 +14,19 @@ ht-degree: 1%
 
 # Fin de la compatibilidad con sistemas operativos de 32 bits | Adobe Campaign v8 {#console-eol}
 
-La versión de 32 bits de la consola de cliente quedará obsoleta en la versión 8.5. A partir de la versión 8.6, Campaign v8 dejará de ser compatible con sistemas operativos de 32 bits, incluidas las actualizaciones de producto y seguridad. Adobe recomienda que mantenga actualizadas las actualizaciones de seguridad.
+La versión de 32 bits de la consola del cliente quedará obsoleta en la versión 8.5. A partir de la versión 8.6, Campaign v8 dejará de ser compatible con sistemas operativos de 32 bits, incluidas las actualizaciones de productos y de seguridad. El Adobe recomienda encarecidamente que mantenga las actualizaciones de seguridad actualizadas.
 
-## Fin de la asistencia
+## Fin del soporte técnico
 
-El fin de la asistencia significa que el Adobe ya no proporciona asistencia técnica, incluidas actualizaciones de productos o de seguridad, para todos los derivados de una versión de producto o producto (versiones localizadas, actualizaciones menores, sistemas operativos, versiones de puntos y puntos dobles y productos de conector).
+El fin de la compatibilidad significa que Adobe ya no proporciona asistencia técnica, incluidas actualizaciones de producto o seguridad, para todos los derivados de una versión de producto (versiones localizadas, actualizaciones menores, sistemas operativos, versiones con punto y doble punto y productos de conector).
 
 ## Recomendaciones
 
-Para aprovechar las últimas funciones y la mejora de la seguridad, Adobe recomienda actualizar el equipo a un sistema operativo de 64 bits.
+Para aprovechar las últimas funciones y la seguridad mejorada, Adobe recomienda actualizar el equipo a un sistema operativo de 64 bits.
 
 ## Preguntas frecuentes
 
-+++La versión de 64 bits de la consola de cliente de Campaign v8 es compatible con los equipos de 32 bits?
++++¿La versión de 64 bits de la consola del cliente de Campaign v8 es compatible con los equipos de 32 bits?
 
 No. La versión de 64 bits de la consola del cliente de Campaign v8 solo admite equipos de 64 bits.
 
@@ -33,19 +34,19 @@ No. La versión de 64 bits de la consola del cliente de Campaign v8 solo admite 
 
 +++¿Hay algún plan para detener las nuevas instalaciones de la consola de cliente de 32 bits de Campaign v8?
 
-Sí. A partir de la versión 8.6, la consola del cliente de Campaign v8 dejará de estar disponible en 32 bits. Solo estará disponible la versión de 64 bits.
+Sí. A partir de la versión 8.6, la consola de cliente de Campaign v8 dejará de estar disponible en 32 bits. Solo estará disponible la versión de 64 bits.
 
 +++
 
-+++¿Qué versiones de Campaign v8 dejarán de ser compatibles con los sistemas operativos de 32 bits?
++++¿Qué versiones de Campaign v8 ya no admitirán sistemas operativos de 32 bits?
 
-A partir de la versión 8.6, todas las versiones de Campaign v8 dejarán de ser compatibles con los sistemas operativos de 32 bits.
+A partir de la versión 8.6, todas las versiones de Campaign v8 dejarán de ser compatibles con sistemas operativos de 32 bits.
 
 +++
 
-+++¿Cómo actualizo del sistema operativo Windows (32 bits) a Windows (64 bits)?
++++¿Cómo actualizo del sistema operativo Windows (32 bits) al Windows (64 bits)?
 
-Asegúrese de que el procesador del equipo admita la instalación de un sistema operativo de 64 bits. La actualización de la versión de 32 bits a la versión de 64 bits de Windows requiere que cambie el formato del disco duro, instale la versión de 64 bits de Windows y, a continuación, vuelva a instalar todo lo que tenga en el dispositivo. Para obtener más información, consulte [Windows de 32 y 64 bits: Preguntas frecuentes](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
+Asegúrese de que el procesador del equipo admite la instalación de un sistema operativo de 64 bits. La actualización de la versión de 32 bits a la versión de 64 bits de Windows requiere que vuelva a formatear el disco duro, instale la versión de 64 bits de Windows y, a continuación, vuelva a instalar todo lo demás que tenía en el dispositivo. Para obtener más información, consulte [Windows de 32 y 64 bits: preguntas más frecuentes](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
 
 +++
 
@@ -53,13 +54,13 @@ Asegúrese de que el procesador del equipo admita la instalación de un sistema 
 
 **WINDOWS 10 Y WINDOWS 8.1**
 
-1. Haga clic en el **Inicio** y, a continuación, seleccione **Configuración** > **Sistema** > **Acerca de**.
+1. Haga clic en **Inicio** botón, luego seleccione **Configuración** > **Sistema** > **Acerca de**.
 1. En **Especificaciones del dispositivo**, consulte **Tipo de sistema**.
 
 **WINDOWS 7**
-1. Seleccione el **Inicio** botón, clic con el botón derecho **Equipo** y seleccione **Propiedades**.
+1. Seleccione el **Inicio** botón, haga clic con el botón derecho **Ordenador** y seleccione **Propiedades**.
 1. En **Sistema**, consulte el tipo de sistema.
 
-Para obtener más información, consulte [Windows de 32 y 64 bits: Preguntas frecuentes](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
+Para obtener más información, consulte [Windows de 32 y 64 bits: preguntas más frecuentes](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d).
 
 +++

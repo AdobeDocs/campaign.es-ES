@@ -16,18 +16,18 @@ ht-degree: 67%
 
 Con la tecnología de IA y aprendizaje automático, la optimización del tiempo de envío y la puntuación de participación predictiva de Adobe Campaign pueden analizar y predecir las tasas abiertas, los tiempos de envío óptimos y la probable reproducción basada en las métricas de participación históricas.
 
-Adobe Campaign ofrece dos nuevos modelos de aprendizaje automático: [Optimización del tiempo de envío predictivo](#predictive-send) y [Puntuación de participación predictiva](#predictive-scoring). Estos dos modelos son modelos de aprendizaje automático específicos para diseñar y ofrecer mejores recorridos para los clientes.
+Adobe Campaign ofrece dos nuevos modelos de aprendizaje automático: [Optimización del tiempo de envío predictivo](#predictive-send) y [Puntuación de participación predictiva](#predictive-scoring). Estos dos modelos son modelos de aprendizaje automático específicos para diseñar y ofrecer mejores recorridos de cliente.
 
 >[!CAUTION]
 >
->Esta capacidad no está disponible de forma predeterminada como parte del producto. Solo está disponible para los clientes de Adobe Campaign Managed Cloud Services que ejecutan Adobe Campaign Classic v7 o Adobe Campaign v8.
+>Esta capacidad no está disponible de forma predeterminada como parte del producto. Solo está disponible para clientes de Adobe Campaign Managed Cloud Services que ejecuten Adobe Campaign Classic v7 o Adobe Campaign v8.
 >
->La implementación requiere la participación de Adobe Consulting. Para obtener más información, póngase en contacto con su representante del Adobe.
+>La implementación requiere la participación de Adobe Consulting. Para obtener más información, póngase en contacto con el representante del Adobe.
 
 
 ## Optimización del tiempo de envío predictivo{#predictive-send}
 
-Predictive Send-Time Optimization predice cuál es el mejor tiempo de envío para cada perfil de destinatario para aperturas de correo electrónico o clics y para aperturas de mensajes push. Para cada perfil de destinatario, las puntuaciones indican la mejor hora de envío para cada día de la semana y qué día es mejor para enviar y obtener los mejores resultados.
+La optimización del tiempo de envío predictivo predice cuál es la mejor hora de envío para cada perfil de destinatario para las aperturas de correos electrónicos o clics, y para las aperturas de mensajes push. Para cada perfil de destinatario, las puntuaciones indican la mejor hora de envío para cada día de la semana y qué día es mejor para enviar y obtener los mejores resultados.
 
 Dentro del modelo de optimización del tiempo de envío predictivo, hay dos submodelos:
 
@@ -38,7 +38,7 @@ Dentro del modelo de optimización del tiempo de envío predictivo, hay dos subm
 
 **Entrada de modelo**: Registros de envío, registros de seguimiento y atributos de perfil (no PII)
 
-**Salida de modelo**: El mejor momento para enviar un mensaje (para aperturas y clics)
+**Salida de modelo**: el mejor momento para enviar un mensaje (para aperturas y clics)
 
 Detalles de la salida:
 
@@ -68,7 +68,7 @@ La optimización del tiempo de envío predictivo se almacena en el nivel de perf
 
 ## Puntuación de participación predictiva {#predictive-scoring}
 
-La puntuación de participación predictiva predice la probabilidad de que un destinatario se involucre con un mensaje, así como la probabilidad de exclusión (cancelar la suscripción) en los próximos 7 días después del siguiente envío de correo electrónico. Las probabilidades se dividen aún más en bloques según el nivel de participación predicho con el contenido: alto, medio o bajo. Estos modelos también proporcionan la clasificación del percentil de riesgo de cancelación de suscripción para que los clientes entiendan dónde está la clasificación de un determinado cliente en relación con otros.
+La puntuación de participación predictiva predice la probabilidad de que un destinatario se involucre con un mensaje, así como la probabilidad de exclusión (cancelar la suscripción) en los próximos 7 días después del siguiente envío de correo electrónico. Las probabilidades se dividen además en bloques según el nivel de participación previsto con el contenido: alto, medio o bajo. Estos modelos también proporcionan la clasificación del percentil de riesgo de cancelación de suscripción para que los clientes entiendan dónde está la clasificación de un determinado cliente en relación con otros.
 
 La puntuación de participación predictiva le permite lo siguiente:
 

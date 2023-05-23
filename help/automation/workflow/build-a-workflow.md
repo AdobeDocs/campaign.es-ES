@@ -15,15 +15,15 @@ ht-degree: 84%
 
 ## Cree un nuevo flujo de trabajo {#create-a-new-workflow}
 
-El flujo de creación del flujo de trabajo depende del tipo de flujos de trabajo. Puede hacer lo siguiente:
+El flujo de trabajo de creación depende del tipo de flujos de trabajo. Puede hacer lo siguiente:
 
-* Crear [Flujos de trabajo de objetivos](#targeting-workflows) de la variable **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** del Explorador o del **[!UICONTROL Profiles and Targets]** de la página principal, a través de la pestaña **[!UICONTROL Targeting workflows]** subpestaña .
+* Crear [Flujos de trabajo de objetivos](#targeting-workflows) desde el **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** del Explorador o desde el **[!UICONTROL Profiles and Targets]** de la página principal, a través de la pestaña **[!UICONTROL Targeting workflows]** subpestaña.
 
    ![](assets/create-targeting-wf.png)
 
-* Crear [Flujos de trabajo de la campaña](#campaign-workflows) de la variable **[!UICONTROL Targeting and workflows]** pestaña de una campaña
+* Crear [Flujos de trabajo Campaign](#campaign-workflows) desde el **[!UICONTROL Targeting and workflows]** pestaña de una campaña
 
-* Crear [Flujos de trabajo técnicos](#technical-workflows) de la variable **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** del explorador. Una práctica recomendada es crear una carpeta de flujo de trabajo específica para guardar los flujos de trabajo técnicos.
+* Crear [Flujos de trabajo técnicos](#technical-workflows) desde el **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** del explorador. La práctica recomendada es crear una carpeta de flujo de trabajo específica para guardar los flujos de trabajo técnicos.
 
 Haga clic en el botón **[!UICONTROL New]** situado sobre la lista de flujos de trabajo.
 
@@ -41,7 +41,7 @@ A continuación debe definir las distintas actividades y vincularlas todas en el
 >
 >Si no se muestra la paleta, haga clic en el primer botón de la barra de herramientas del flujo de trabajo para mostrarla.
 
-Las actividades se agrupan por categorías en las distintas pestañas de la paleta. Las pestañas y actividades disponibles pueden variar según el tipo de flujo de trabajo (técnico, de objetivos o flujo de trabajo de la campaña).
+Las actividades se agrupan por categorías en las diferentes pestañas de la paleta. Las pestañas y actividades disponibles pueden variar según el tipo de flujo de trabajo (técnico, de objetivos o flujo de trabajo de la campaña).
 
 * La primera pestaña contiene actividades de establecimiento de objetivos y de manipulación de datos. Estas actividades se detallan en [Actividades de establecimiento de objetivos](targeting-activities.md).
 * La segunda pestaña contiene las actividades de planificación, que se utilizan principalmente para coordinar otras actividades. Estas actividades se detallan en [Actividades de control de flujos](flow-control-activities.md).
@@ -85,7 +85,7 @@ Puede cambiar la visualización y el diseño del gráfico mediante los siguiente
    Los iconos relacionados con el progreso y la visualización de registros se describen en estas secciones:
 
    * [Mostrar progreso](monitor-workflow-execution.md#displaying-progress)
-   * [Registros de visualización](monitor-workflow-execution.md#displaying-logs)
+   * [Mostrar registros](monitor-workflow-execution.md#displaying-logs)
 
 * **Alineación de objetos**
 
@@ -107,7 +107,7 @@ Haga doble clic en una actividad para configurarla o haga clic con el botón der
 
 La primera pestaña contiene la configuración básica. La pestaña **[!UICONTROL Advanced]** contiene los parámetros adicionales, que se utilizan principalmente para definir el comportamiento cuando se encuentra un error para especificar la duración de la ejecución de una actividad y para introducir una secuencia de comandos de inicialización.
 
-Para comprender mejor las actividades y mejorar la legibilidad del flujo de trabajo, puede introducir comentarios en las actividades .
+Para comprender mejor las actividades y mejorar la legibilidad del flujo de trabajo, se pueden introducir comentarios en las actividades.
 
 ![](assets/example1-comment.png)
 
@@ -122,7 +122,7 @@ Las plantillas de flujo de trabajo contienen la configuración general de las pr
 
 Puede crear nuevas plantillas de flujo de trabajo basadas en plantillas existentes o cambiar un flujo de trabajo en una plantilla directamente.
 
-Las plantillas de flujo de trabajo se almacenan en la variable **[!UICONTROL Resources > Templates > Workflow templates]** del explorador.
+Las plantillas de flujo de trabajo se almacenan en **[!UICONTROL Resources > Templates > Workflow templates]** del explorador.
 
 Además de las propiedades habituales del flujo de trabajo, las propiedades de la plantilla permiten especificar el archivo de ejecución para los flujos de trabajo creados en función de esta plantilla.
 
@@ -158,7 +158,7 @@ Sin embargo, puede crear una vista para mostrar todos los flujos de trabajo de l
 Se crea la nueva carpeta **Workflows**.
 
 1. Haga clic con el botón derecho y seleccione **Properties**.
-1. En el **Restricción** , habilite **Esta carpeta es una vista** y haga clic en **Guardar**.
+1. En el **Restricción** , active la pestaña **Esta carpeta es una vista** y haga clic en **Guardar**.
 
    ![](assets/folder-is-a-view.png)
 

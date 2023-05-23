@@ -8,7 +8,7 @@ exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
 source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 72%
 
 ## Envío de mensajes{#send-transactional-msg}
 
-Una vez completado el enriquecimiento y vinculada una plantilla de envío al evento, la entrega se envía desde la instancia de ejecución.
+Una vez completado el enriquecimiento y vinculada una plantilla de envío al evento, la entrega se realiza desde la instancia de ejecución.
 
 >[!NOTE]
 >
@@ -49,7 +49,7 @@ Se puede acceder a estos informes del centro de mensajería desde la pestaña **
 
 ### Historial de eventos del centro de mensajes {#history-events}
 
-La variable **[!UICONTROL Message Center event history]** el informe muestra una descripción general de la actividad del módulo Centro de mensajes, es decir, el número de eventos procesados y enviados como mensajes transaccionales.
+El **[!UICONTROL Message Center event history]** Este informe muestra una descripción general de la actividad del módulo Message Center, es decir, el número de eventos procesados y enviados como mensajes transaccionales.
 
 Cuando se abre el informe, la información que se muestra por defecto coincide con la velocidad de los mensajes transaccionales enviados correctamente. Para ver más niveles, puede abrir los distintos nodos y colocar el cursor en el nivel adecuado para seleccionarlo.
 
@@ -58,7 +58,7 @@ Puede ver los datos específicos para cada tipo de evento por periodo. La column
 
 ### Tiempo de procesamiento del Centro de mensajería {#processing-time}
 
-La variable **[!UICONTROL Message Center processing time]** muestra los indicadores principales relacionados con la cola en tiempo real. También se puede acceder a este informe a través de la **[!UICONTROL Monitoring]** en la instancia de control.
+El **[!UICONTROL Message Center processing time]** muestra los indicadores principales relacionados con la cola de tiempo real. También se puede acceder a este informe a través de la **[!UICONTROL Monitoring]** en la instancia de control.
 
 ![](assets/mc-processing-time-report.png)
 
@@ -81,7 +81,7 @@ Los indicadores que se muestran en la sección **[!UICONTROL Indicators over the
 
 ### Nivel de servicio del Centro de mensajería {#service-level}
 
-La variable **[!UICONTROL Message Center service level]** muestra las estadísticas de envío relacionadas con los mensajes transaccionales, así como el desglose de errores. Puede hacer clic en un tipo de error para mostrar sus detalles.
+El **[!UICONTROL Message Center service level]** Este informe muestra las estadísticas de envío relacionadas con los mensajes transaccionales y el desglose de errores. Puede hacer clic en un tipo de error para mostrar sus detalles.
 
 También se puede acceder a este informe a través de la **[!UICONTROL Monitoring]** en la instancia de control.
 
@@ -102,11 +102,11 @@ Los indicadores que se muestran en la sección **[!UICONTROL Indicators over the
 
 ### Umbrales de monitorización {#thresholds}
 
-Puede configurar los umbrales de advertencia (naranja) y alerta (rojo) de los indicadores que aparecen en la variable **Nivel del servicio del centro de mensajes** y **Tiempo de procesamiento del centro de mensajes** informes.
+Puede configurar los umbrales de advertencia (naranja) y alerta (rojo) de los indicadores que aparecen en la **Nivel de servicio del Centro de mensajes** y **Tiempo de procesamiento del centro de mensajes** informes.
 
 Para realizar esto, siga los pasos a continuación:
 
-1. Abra el asistente de implementación en la sección **instancia de ejecución** y vaya a la **[!UICONTROL Message Center]** página.
+1. Abra el asistente de implementación en la **instancia de ejecución** y vaya a la **[!UICONTROL Message Center]** página.
 1. Utilice las flechas para modificar los umbrales.
 
    ![](assets/mc-thresholds.png)

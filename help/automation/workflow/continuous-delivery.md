@@ -60,7 +60,7 @@ Un envío continuo creará un envío ÚNICO y registros de envío (broadLog) y r
 
 ## Tutorial en vídeo {#continuous-delivery-video}
 
-Este vídeo muestra cómo configurar una entrega continua con una consulta incremental.
+Este vídeo muestra cómo configurar un envío continua con una consulta incremental.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 

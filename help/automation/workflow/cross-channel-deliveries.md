@@ -22,8 +22,8 @@ Puede especificar un público objetivo para la entrega ascendente del flujo de t
 En el siguiente ejemplo, aprenda a crear un flujo de trabajo para enviar un correo electrónico o un SMS a los suscriptores de las notificaciones push una semana después. Para ello:
 
 1. Cree una campaña.
-1. En el **[!UICONTROL Targeting and workflows]** de la campaña, agregue una **[!UICONTROL Query]** actividad.
-1. Configure la consulta: seleccione los destinatarios suscritos a las notificaciones push como dimensión objetivo.
+1. En el **[!UICONTROL Targeting and workflows]** de la campaña, añada una **[!UICONTROL Query]** actividad.
+1. Configure your query: seleccione los destinatarios suscritos a las notificaciones push como dimensión objetivo.
 
    >[!NOTE]
    >

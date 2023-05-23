@@ -7,7 +7,7 @@ exl-id: 297aa4e3-b672-46b5-9016-5accee8568b8
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 90%
+ht-degree: 96%
 
 ---
 
@@ -25,17 +25,17 @@ Los flujos de trabajo se producen en varios contextos y etapas del proceso de ad
 
 Adobe Campaign utiliza flujos de trabajo para:
 
-* Diseño de flujos de trabajo de objetivos. [Más información](#targeting-workflows)
-* Orqueste campañas en canales múltiples. [Más información](#campaign-workflows)
+* Diseñar flujos de trabajo de segmentación. [Más información](#targeting-workflows)
+* Organización de campañas en canales múltiples. [Más información](#campaign-workflows)
 * Realice procesos técnicos, como limpieza, recopilación de seguimiento de datos, cálculos, etc. [Más información](#technical-workflows)
 
-Un flujo de trabajo es una definición de proceso: el diagrama de flujo de trabajo, que es una representación de lo que se supone que debe suceder. Un flujo de trabajo también es una instancia de este proceso: una instancia de flujo de trabajo, que es una representación de lo que realmente está ocurriendo.
+El flujo de trabajo es una definición de proceso: el diagrama de flujo de trabajo, que es una representación de lo que se supone que debe suceder. Un flujo de trabajo también es una instancia de este proceso: una instancia de flujo de trabajo, que es una representación de lo que realmente está ocurriendo.
 
 La plantilla de flujo de trabajo describe las diversas tareas que se realizan y cómo se relacionan entre sí. Las plantillas de tareas se denominan actividades y se representan mediante iconos. Se vinculan entre sí mediante transiciones.
 
 ![](assets/example1.png)
 
-## Principales principios
+## Principios clave
 
 Cada flujo de trabajo contiene:
 

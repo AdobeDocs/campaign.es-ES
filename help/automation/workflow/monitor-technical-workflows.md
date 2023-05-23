@@ -37,7 +37,7 @@ Para comprender mejor qué debe hacer cada flujo de trabajo técnico, consulte e
 
 En el caso de **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
 
-Compruebe el historial para comprobar que el tiempo transcurrido es relativamente constante a lo largo del tiempo y no interfiere con otros flujos de trabajo.
+Compruebe el historial para comprobar que el tiempo transcurrido es relativamente constante en el tiempo y no interfiere con otros flujos de trabajo.
 
 En el caso de **[!UICONTROL Tracking workflow (‘tracking’)]**:
 

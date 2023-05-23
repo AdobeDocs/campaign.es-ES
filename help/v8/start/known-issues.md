@@ -16,31 +16,31 @@ ht-degree: 4%
 
 # Problemas conocidos{#known-issues}
 
-Esta página enumera los problemas conocidos identificados en el **últimas versiones de Campaign v8**. Además, se enumeran las limitaciones que acompañan a Campaign v8 [en esta página](ac-guardrails.md).
+Esta página lista los problemas conocidos identificados en la **últimas versiones de Campaign v8**. Además, se enumeran las limitaciones que vienen con Campaign v8 [en esta página](ac-guardrails.md).
 
 
 >[!NOTE]
 >
->Adobe publica esta lista de problemas conocidos a su propia discreción. Se basa en la cantidad de informes de clientes, la gravedad y la disponibilidad de la solución alternativa. Si un problema que encuentra no aparece en la lista, es posible que no se ajuste a los criterios de publicación de esta página.
+>El Adobe publica esta lista de problemas conocidos a su discreción. Se basa en el número de informes de clientes, la gravedad y la disponibilidad de la solución. Si un problema que encuentra no aparece en la lista, es posible que no cumpla los criterios de publicación de esta página.
 
 ## Versión 8.3.8 de Campaign{#8.3-issues}
 
-### Cambiar el problema de la actividad de la fuente de datos {#issue-2}
+### Problema de actividad de cambio de fuente de datos {#issue-2}
 
 #### Descripción{#issue-2-desc}
 
-Al introducir datos en la base de datos de la nube de Snowflake con una campaña **Consulta** y **Cambiar fuente de datos** , el proceso falla cuando hay un carácter de barra invertida presente en los datos. La cadena de origen no se escapa y los datos no se procesan correctamente en el Snowflake.
+Al insertar datos en la base de datos de la nube de Snowflake con una campaña de **Consulta** y una **Cambiar fuente de datos** actividad, el proceso falla cuando hay un carácter de barra invertida en los datos. La cadena de origen no se escapa y los datos no se procesan correctamente en el Snowflake.
 
-Este problema solo ocurre si el carácter de barra invertida se encuentra al final de la cadena, por ejemplo: `Barker\`.
+Este problema solo ocurre si la barra invertida está al final de la cadena, por ejemplo: `Barker\`.
 
 
 #### Pasos de reproducción{#issue-2-repro}
 
 1. Conéctese a la consola del cliente y cree un flujo de trabajo.
-1. Agregue un **Consulta** y configúrela.
-1. Seleccionar datos con las características descritas anteriormente.
-1. Agregue un **Cambiar fuente de datos** y configúrela para seleccionar la base de datos de nube de Snowflake.
-1. Ejecute el flujo de trabajo y compruebe los registros del flujo de trabajo para ver el error.
+1. Añadir un **Consulta** actividad y configúrela.
+1. Seleccione datos con las características descritas anteriormente.
+1. Añadir un **Cambiar fuente de datos** y configúrela para seleccionar la base de datos de nube de Snowflake.
+1. Ejecute el flujo de trabajo y compruebe los registros de flujo de trabajo para ver el error.
 
 
 #### Mensaje de error{#issue-2-error}
@@ -61,19 +61,19 @@ La solución consiste en excluir los datos que contienen caracteres de barra inv
 Referencia: NEO-45549
 
 
-### La actividad de carga de datos (archivos) no pudo Cargar archivo en el servidor {#issue-3}
+### La actividad Data loading (file) no se pudo cargar el archivo en el servidor {#issue-3}
 
 #### Descripción{#issue-3-desc}
 
-Al cargar un archivo en el servidor de Campaign con un **Carga de datos (archivos)** actividad, el proceso se detiene al 100 % pero nunca finaliza.
+Al cargar un archivo en el servidor de Campaign con una **Carga de datos (archivo)** actividad, el proceso se detiene al 100 % pero nunca termina.
 
 #### Pasos de reproducción{#issue-3-repro}
 
 1. Conéctese a la consola del cliente y cree un flujo de trabajo.
-1. Agregue un **Carga de datos (archivos)** y configúrela.
-1. Seleccione el **Cargar en el servidor** .
+1. Añadir un **Carga de datos (archivo)** actividad y configúrela.
+1. Seleccione el **Cargar en el servidor** opción.
 1. Seleccione el archivo en el equipo local,
-1. Haga clic en **Cargar**
+1. Clic **Cargar**
 
 
 #### Mensaje de error{#issue-3-error}
@@ -82,13 +82,13 @@ El proceso nunca termina.
 
 #### Solución alternativa{#issue-3-workaround}
 
-La solución es utilizar una consola de cliente más antigua. A continuación, podrá cargar el archivo en el servidor.
+La solución consiste en utilizar una consola de cliente anterior. A continuación, podrá cargar el archivo en el servidor.
 
-Como administrador de Campaign, puede descargar la consola del cliente de Campaign v8.3.1 en [Distribución del software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Campaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
+Como administrador de Campaign, puede descargar la consola de cliente de Campaign v8.3.1 en [Distribución de software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
 
-Obtenga información sobre cómo acceder a la distribución de software de Adobe [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target="_blank"}.
+Obtenga información sobre cómo acceder a Distribución de software de Adobe [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target="_blank"}.
 
-Obtenga información sobre cómo actualizar la consola del cliente [en esta página](connect.md)
+Obtenga información sobre cómo actualizar la consola de cliente [en esta página](connect.md)
 
 #### Referencia interna{#issue-3-ref}
 

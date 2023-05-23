@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Casos de uso del flujo de trabajo
-description: Obtenga más información sobre los casos de uso que puede realizar mediante flujos de trabajo de Campaign
+description: Obtenga más información sobre los casos de uso que puede realizar con los flujos de trabajo de Campaign
 feature: Workflows, Data Management
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -13,9 +13,9 @@ ht-degree: 59%
 
 # Casos de uso del flujo de trabajo {#about-workflow-use-cases}
 
-Conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y cómo implementarlos mediante casos de uso de extremo a extremo.
+Conozca los diferentes contextos en los que se pueden utilizar los flujos de trabajo y cómo implementarlos a través de casos de uso de extremo a extremo.
 
-## Entregas {#deliveries}
+## Envíos {#deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
@@ -32,7 +32,7 @@ Conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y c
 * [Envío de un informe a una lista](send-a-report-to-a-list.md)
 * [Supervisión de los flujos de trabajo](workflow-supervision.md)
 * [Envío de alertas personalizadas a operadores](send-alerts-to-operators.md)
-* [Configurar un proceso de aprobación de destinatarios antes de realizar una entrega](local-approval-activity.md)
+* [Configuración de un proceso de aprobación de destinatarios antes de enviar una entrega](local-approval-activity.md)
 
 ## Administración de datos {#management}
 
@@ -42,7 +42,7 @@ Conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y c
 * [Creación de una lista de resumen](create-a-summary-list.md)
 * [Enriquecimiento de datos](enrich-data.md)
 * [Uso de acumulados](using-aggregates.md)
-* [Codificar y exportar datos con una clave instalada en el Panel de control de Campaign](use-workflow-data.md#use-case-gpg-encrypt)
+* [Cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](use-workflow-data.md#use-case-gpg-encrypt)
 * [Actualización de lista trimestral con una consulta incremental](quarterly-list-update.md)
 * [Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](deduplication-merge.md)
 * [Configuración de un flujo de trabajo de importación recurrente](recurring-import-workflow.md)
@@ -59,5 +59,5 @@ Conozca diferentes contextos en los que se pueden utilizar flujos de trabajo y c
 * [Adición de un campo calculado de tipo de lista desglosada](adding-enumeration-type-calculated-field.md)
 * [Creación de un filtro](create-a-filter.md)
 * [Filtro de destinatarios duplicados](filter-duplicated-recipients.md)
-* [Llame a una variable de instancia en una consulta](javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
-* [Aplicar un porcentaje dividido a una población](javascript-scripts-and-templates.md#example)
+* [Llamar a una variable de instancia en una consulta](javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)
+* [Aplicación de un porcentaje dividido a una población](javascript-scripts-and-templates.md#example)

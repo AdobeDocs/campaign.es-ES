@@ -1,5 +1,5 @@
 ---
-title: Recopilar y actualizar perfiles con formularios web
+title: Recopilación y actualización de perfiles con formularios web
 description: Obtenga información sobre cómo recopilar y actualizar perfiles con formularios web
 feature: Audiences, Profiles, Web Forms
 role: Data Engineer
@@ -12,7 +12,7 @@ ht-degree: 43%
 
 ---
 
-# Recopilar y actualizar perfiles con formularios web
+# Recopilación y actualización de perfiles con formularios web
 
 Utilice Campaign para crear formularios web y recopilar y administrar datos de perfil de forma fácil y eficaz. Puede compartir estos formularios en su sitio web, lo que facilita que sus contactos proporcionen su información. Los datos se envían a Campaign para crear o actualizar su perfil.
 

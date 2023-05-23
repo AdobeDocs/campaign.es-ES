@@ -1,6 +1,6 @@
 ---
 product: campaign
-title: Recursos de campañas de marketing, documentos y descripciones del envío
+title: Recursos, documentos y descripciones de la entrega de la campaña de marketing
 description: Obtenga más información sobre los documentos de campañas de marketing y las descripciones del envío
 feature: Campaigns
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
@@ -11,7 +11,7 @@ ht-degree: 72%
 
 ---
 
-# Administrar recursos y documentos {#manage-assets-documents}
+# Administración de recursos y documentos {#manage-assets-documents}
 
 Puede asociar varios documentos a una campaña: informes, fotos, páginas web, diagramas, etc. Estos documentos pueden tener cualquier formato.
 
@@ -32,7 +32,7 @@ En una campaña también se puede hacer referencia a otros elementos, como cupon
 
 Los documentos se pueden asociar en el nivel de campaña (documentos contextuales) o en el de programa (documentos generales).
 
-Para una campaña, la variable **[!UICONTROL Documents]** contiene:
+Para una campaña, la variable **[!UICONTROL Documents]** La pestaña contiene:
 
 * Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que Adobe Campaign puede descargar localmente con los derechos adecuados,
 * Documentos que contienen información para el enrutador, si los hay.
@@ -41,7 +41,7 @@ Los documentos están vinculados al programa o a la campaña a través de la pes
 
 ![](assets/op_add_document.png)
 
-También puede agregar un documento a una campaña desde el vínculo dedicado en el panel.
+También puede añadir un documento a una campaña desde el vínculo dedicado del panel.
 
 ![](assets/add_a_document_in_op.png)
 
@@ -55,28 +55,28 @@ En el panel, los documentos asociados a la campaña se agrupan en la sección **
 
 También pueden editarse y modificarse desde esta vista.
 
-## Uso de las descripciones del envío {#delivery-outlines}
+## Uso de descripciones del envío {#delivery-outlines}
 
-Un esquema de entrega es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
+Una descripción de la entrega es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
 
-Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a un envío; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de envío que haga referencia a una unidad y a los folletos de marketing que utiliza.
+Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a un envío; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de la entrega que haga referencia a una unidad y a los folletos de marketing que utiliza.
 
-Para una campaña, las descripciones de envío permiten estructurar los elementos externos que se van a asociar a la entrega según determinados criterios: unidad relacionada, oferta promocional concedida, invitación a un evento local, etc.
+Para una campaña, las descripciones de envío permiten estructurar los elementos externos que deben asociarse al envío según determinados criterios: unidad relacionada, oferta promocional concedida, invitación a un evento local, etc.
 
 >[!CAUTION]
 >
->Las descripciones de envío están restringidas a las campañas de correo postal.
+>Las descripciones de envío están restringidas a campañas de correo directo.
 
-### Creación de un esquema de entrega {#create-an-outline}
+### Creación de una descripción del envío {#create-an-outline}
 
-Para crear una descripción de la entrega, haga clic en el botón **[!UICONTROL Delivery outlines]** en la subpestaña **[!UICONTROL Edit > Documents]** de la campaña correspondiente.
+Para crear una descripción de la entrega, haga clic en **[!UICONTROL Delivery outlines]** subpestaña en la **[!UICONTROL Edit > Documents]** de la campaña correspondiente.
 
 ![](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
 >
->Si no puede ver esta pestaña, esta capacidad no está disponible para esta campaña o la entrega de correo directo no está habilitada en su instancia. Consulte la [configuración de plantilla de campaña](marketing-campaign-templates.md#campaign-templates) o a su contrato de licencia.
+>Si no puede ver esta pestaña, significa que esta capacidad no está disponible para esta campaña o que la entrega de correo directo no está habilitada en su instancia. Consulte la [configuración de plantilla de campaña](marketing-campaign-templates.md#campaign-templates) o al contrato de licencia.
 
 Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía de descripciones para la campaña:
 

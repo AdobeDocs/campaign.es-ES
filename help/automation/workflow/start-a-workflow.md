@@ -27,7 +27,7 @@ A continuación se detalla la lista de opciones disponibles en el menú **[!UICO
 
 ## Barra de herramientas de acciones {#actions-toolbar}
 
-La variable **[!UICONTROL Actions]** de la barra de herramientas permite acceder a opciones de ejecución adicionales en los flujos de trabajo seleccionados. También puede utilizar el menú **[!UICONTROL File > Actions]** o hacer clic con el botón derecho del ratón en un flujo de trabajo y seleccionar **[!UICONTROL Actions]**.
+El **[!UICONTROL Actions]** de la barra de herramientas permite acceder a opciones de ejecución adicionales en los flujos de trabajo seleccionados. También puede utilizar el menú **[!UICONTROL File > Actions]** o hacer clic con el botón derecho del ratón en un flujo de trabajo y seleccionar **[!UICONTROL Actions]**.
 
 ![](assets/purge_historique.png)
 

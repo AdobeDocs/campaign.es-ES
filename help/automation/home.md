@@ -1,14 +1,14 @@
 ---
-keywords: Automatización de la campaña;inicio;temas populares
+keywords: Automatización de Campaign;inicio;temas populares
 product: campaign
-title: Página principal de automatización de Adobe Campaign
+title: Inicio de automatización de Adobe Campaign
 feature: Overview
 description: Información general
 exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
 source-git-commit: 143e90ef63fac4058008bc6864daf950c11ab2d1
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 41%
+ht-degree: 46%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 41%
 
 La comunicación con sus clientes a través de varios canales de marketing puede funcionar para usted o en su contra. Cuando los diferentes canales no funcionan juntos, solo hay ruido y confusión. Cuando se sincronizan, se combinan para ofrecer a sus clientes una experiencia potente y complementaria con su marca.
 
-Adobe Campaign le permite sincronizar sus canales fácilmente con una interfaz única y fácil de usar para la orquestación de campañas. Así que sus canales en línea, como correo electrónico, web, móvil y social, coinciden con sus canales sin conexión, incluidos el correo directo, el centro de llamadas, las tiendas, etc. Le permite ofrecer a sus clientes una experiencia coherente y contextual tanto en los canales digitales como en los tradicionales. En resumen, Adobe Campaign facilita la entrega de contenido a todas las rutas que puedan tomar sus clientes, en cualquier canal.
+Adobe Campaign le permite sincronizar sus canales fácilmente con una interfaz única y fácil de usar para la orquestación de campañas. Así que sus canales en línea, como correo electrónico, web, móvil y social, coinciden con sus canales sin conexión, incluidos el correo directo, el centro de llamadas, las tiendas, etc. Le permite ofrecer a sus clientes una experiencia coherente y contextual tanto en los canales digitales como en los tradicionales. En resumen, Adobe Campaign facilita la entrega de contenido a todas las rutas que puedan seguir sus clientes en cualquier canal.
 
 
 Visite las guías siguientes y aprenda a crear automatización con Adobe Campaign.
 
 >[!NOTE]
 >
->Algunas pantallas pueden diferir de su entorno.
+>Algunas pantallas pueden diferir del entorno.
 
 <table>
 <tr style="border: 0;">
@@ -37,7 +37,7 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     </div>
     <br>     
     <div>
-    <a href="workflow/build-a-workflow.md">Creación del primer flujo de trabajo</a>
+    <a href="workflow/build-a-workflow.md">Cree su primer flujo de trabajo</a>
     </div>
     <br>
     <div>
@@ -55,11 +55,11 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-create.md">Crear la primera campaña</a>
+    <a href="campaigns/marketing-campaign-create.md">Cree su primera campaña</a>
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-deliveries.md">Enviar mensajes en una campaña</a>
+    <a href="campaigns/marketing-campaign-deliveries.md">Envío de mensajes en una campaña</a>
     </div>
     <br>
   </td>

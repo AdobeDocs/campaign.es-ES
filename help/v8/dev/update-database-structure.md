@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # Actualizar la estructura de la base de datos{#updating-the-database-structure}
 
-Para aplicar las modificaciones realizadas en los esquemas, inicie el asistente de actualización de la base de datos. Se puede acceder a este asistente mediante **[!UICONTROL Tools > Advanced > Update database structure]**. Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta las secuencias de comandos de actualización SQL.
+Para aplicar las modificaciones realizadas en los esquemas, inicie el asistente de actualización de la base de datos. Se puede acceder a este asistente mediante **[!UICONTROL Tools > Advanced > Update database structure]**. Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta los scripts de actualización de SQL.
 
 ![](assets/schema_update.png)
 
@@ -27,7 +27,7 @@ Siga los pasos y vea el script SQL de actualización de la base de datos:
 
 >[!NOTE]
 >
->Esto se encuentra en un campo de edición y se puede modificar para eliminar o agregar código SQL.
+>Se encuentra en un campo de edición y se puede modificar para eliminar o agregar código SQL.
 
 A continuación, inicie la actualización de la base de datos:
 

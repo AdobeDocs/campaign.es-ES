@@ -13,7 +13,7 @@ ht-degree: 90%
 
 # Canal LINE{#line-channel}
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **canal LINE** de forma predeterminada. Para obtener más información sobre este módulo, consulte [esta página](../../v8/send/line.md).
+Los flujos de trabajo detallados a continuación se instalan con el módulo **canal LINE** de forma predeterminada. Para obtener más información, consulte [esta página](../../v8/send/line.md).
 
 <table> 
  <tbody> 

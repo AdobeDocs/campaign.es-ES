@@ -16,25 +16,25 @@ ht-degree: 38%
 
 ## Espacio de trabajo de cubos {#cube-workspace}
 
-Para acceder a los cubos, vaya a **[!UICONTROL Administration > Configuration > Cubes]** del explorador de Campaign.
+Para acceder a los cubos, vaya a **[!UICONTROL Administration > Configuration > Cubes]** desde el explorador de Campaign.
 
 ![](assets/cube-node.png)
 
 Con los cubos puede:
 
-* Exportar datos directamente en un informe diseñado en la variable **[!UICONTROL Reports]** de la plataforma de Adobe Campaign.
+* Exporte los datos directamente en un informe, diseñado en **[!UICONTROL Reports]** de la plataforma Adobe Campaign.
 
    Para ello, cree un nuevo informe y seleccione el cubo que desee utilizar.
 
    ![](assets/create-new-cube.png)
 
-   Los cubos aparecen como plantillas basadas en los informes creados. Una vez que haya elegido una plantilla, haga clic en **[!UICONTROL Create]** para configurar y ver el nuevo informe.
+   Los cubos aparecen como plantillas basadas en los informes creados. Una vez seleccionada una plantilla, haga clic en **[!UICONTROL Create]** para configurar y ver el nuevo informe.
 
    Puede adaptar las medidas, cambiar el modo de visualización o configurar la tabla y, a continuación, mostrar el informe usando el botón principal.
 
    ![](assets/display-cube-table.png)
 
-* Haga referencia a un cubo en la variable **[!UICONTROL Query]** de un informe para utilizar sus indicadores, como se muestra a continuación:
+* Hacer referencia a un cubo en la **[!UICONTROL Query]** de un informe para utilizar sus indicadores, como se muestra a continuación:
 
    ![](assets/cube-report-query.png)
 
@@ -47,9 +47,9 @@ Con los cubos puede:
 
 >[!CAUTION]
 >
->Se necesitan permisos de administrador para crear cubos.
+>Se requieren permisos de administrador para crear cubos.
 
-## Creación de un cubo{#cube-create}
+## Crear un cubo{#cube-create}
 
 Antes de empezar a crear un informe de cubo, identifique las dimensiones y medidas relevantes y créelas en el cubo.
 
@@ -66,14 +66,14 @@ En el siguiente ejemplo, aprenda a crear rápidamente un cubo simple en un infor
 
 Para crear un cubo, siga los pasos a continuación:
 
-1. Haga clic en el **[!UICONTROL New]** situado encima de la lista de cubos.
+1. Haga clic en **[!UICONTROL New]** botón situado sobre la lista de cubos.
 
    ![](assets/create-a-cube.png)
 
 1. Seleccione el esquema que contiene los elementos que desea explorar (también conocido como &quot;esquema de hechos&quot;). En este ejemplo, seleccione la opción predeterminada **Destinatario** tabla.
-1. Haga clic en **[!UICONTROL Save]** para crear el cubo: se añade a la lista de cubos. Ahora puede utilizar las pestañas para configurarlas.
+1. Clic **[!UICONTROL Save]** para crear el cubo: se añade a la lista de cubos. Ahora puede utilizar las pestañas para configurarlo.
 
-1. Haga clic en el **[!UICONTROL Filter the source data...]** para aplicar los cálculos de este cubo a los datos de la base de datos.
+1. Haga clic en **[!UICONTROL Filter the source data...]** vínculo para aplicar los cálculos de este cubo a los datos de la base de datos.
 
    ![](assets/cube-filter-source.png)
 
@@ -99,7 +99,7 @@ Puede personalizar el modo de visualización de la fecha. Para ello, seleccione 
 
 En nuestro ejemplo, solo queremos mostrar años, meses y días. Tenga en cuenta que no puede trabajar con semanas y semestres/meses al mismo tiempo: estos niveles no son compatibles.
 
-1. Cree otra dimensión para analizar los datos relativos a la ciudad del destinatario. Para ello, añada una nueva dimensión y seleccione la ciudad en el nodo **[!UICONTROL Location]** del esquema de destinatarios.
+1. Cree otra dimensión para analizar los datos relacionados con la ciudad del destinatario. Para ello, añada una nueva dimensión y seleccione la ciudad en el nodo **[!UICONTROL Location]** del esquema de destinatarios.
 
 Puede activar el agrupamiento para facilitar la lectura de la información y vincular los valores a una enumeración.
 
@@ -113,18 +113,18 @@ Para obtener más información, consulte [esta sección](customize-cubes.md#dyna
 
 ### Genere los indicadores {#build-indicators}
 
-Una vez definidas las dimensiones, especifique un modo de cálculo para los valores que se mostrarán en las celdas.
+Una vez definidas las dimensiones, especifique un modo de cálculo para los valores que se van a mostrar en las celdas.
 
-Para ello, cree los indicadores en la sección **[!UICONTROL Measures]** pestaña . Cree tantas medidas como columnas que se deben mostrar en los informes basados en este cubo.
+Para ello, cree los indicadores en la **[!UICONTROL Measures]** pestaña. Cree tantas medidas como columnas que desee mostrar en los informes basados en este cubo.
 
-Para generar indicadores, siga los pasos a continuación:
+Para crear indicadores, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Measures]** y haga clic en **[!UICONTROL Add]** botón.
+1. Vaya a la **[!UICONTROL Measures]** y haga clic en la pestaña **[!UICONTROL Add]** botón.
 1. Seleccione el tipo de medida y la fórmula que desea aplicar. En este ejemplo, se cuenta el número de mujeres entre los destinatarios. La medición se basa en el esquema de hechos y utiliza el operador **[!UICONTROL Count]**.
 
    ![](assets/cube-new-measure.png)
 
-   Utilice la variable **[!UICONTROL Filter the measure data...]** para seleccionar solo mujeres. [Más información](customize-cubes.md#define-measures).
+   Utilice el **[!UICONTROL Filter the measure data...]** vínculo para seleccionar solo mujeres. [Más información](customize-cubes.md#define-measures).
 
    ![](assets/cube-filter-measure-data.png)
 

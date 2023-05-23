@@ -25,7 +25,7 @@ Por último, la capacidad de gestión del presupuesto se amplía a la administra
 
 >[!AVAILABILITY]
 >
->La administración de recursos de marketing (MRM) no está disponible en el contexto de una [Implementación empresarial (FFDA)](../../v8/architecture/enterprise-deployment.md) de Campaign.
+>La gestión de recursos de marketing (MRM) no está disponible en el contexto de un [Implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md) de Campaign.
 
 ## Conceptos y terminología {#core-concepts}
 

@@ -13,19 +13,19 @@ ht-degree: 58%
 
 # Creación de programas y campañas{#create-programs-and-campaigns}
 
-Los componentes de organización de campañas se encuentran en el **[!UICONTROL Campaigns]** pestaña: aquí puede ver una descripción general de los programas y campañas de marketing, y sus elementos asociados.
+Los componentes de orquestación de Campaign se encuentran en **[!UICONTROL Campaigns]** pestaña: aquí puede ver una descripción general de los programas y campañas de marketing, y sus elementos asociados.
 
-Un programa de marketing consta de campañas, que están formadas por envíos, recursos, etc. Toda la información sobre los envíos, los presupuestos, los revisores y los documentos vinculados se agrupan en la campaña.
+Un programa de marketing consta de campañas, que están formadas por envíos, recursos, etc. Toda la información sobre las entregas, los presupuestos, los revisores y los documentos vinculados se agrupa en la campaña.
 
 ![](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [Descubra programas y campañas en vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra programas y campañas con este vídeo](#video)
 
 ## Trabajar con programas y planes{#work-with-plan-and-program}
 
-### Crear la jerarquía de planes y programas {#create-plan-and-program}
+### Creación de la jerarquía de planes y programas {#create-plan-and-program}
 
-Cada campaña pertenece a un programa que pertenece a un plan. Todos los planes, programas y campañas están disponibles a través de la **[!UICONTROL Campaign calendar]** en el **Campañas** pestaña .
+Cada campaña pertenece a un programa que pertenece a un plan. Todos los planes, programas y campañas están disponibles a través de la **[!UICONTROL Campaign calendar]** en el menú **Campañas** pestaña.
 
 Antes de empezar a crear campañas y envíos, configure la jerarquía de carpetas para planes y programas de marketing.
 
@@ -53,17 +53,17 @@ Antes de empezar a crear campañas y envíos, configure la jerarquía de carpeta
 
 Al editar un programa, utilice las pestañas que se describen a continuación para explorarlo y configurarlo.
 
-* La pestaña **Programación** muestra el calendario de programas de un mes, una semana o un día según la pestaña en la que haga clic en el encabezado del calendario. Desde esta página puede crear una campaña, un programa o una tarea. [Más información](#campaign-calendar)
+* La pestaña **Programación** muestra el calendario de programas de un mes, una semana o un día según la pestaña en la que haga clic en el encabezado del calendario. Puede crear una campaña, un programa o una tarea desde esta página. [Más información](#campaign-calendar)
 
 * La pestaña **Editar** permite personalizar el programa: nombre, fechas de inicio y finalización, presupuesto, documentos vinculados, etc.
 
    ![](assets/new-program-edit-tab.png)
 
-## Trabajar con campañas{#work-with-campaigns}
+## Trabajo con campañas{#work-with-campaigns}
 
 ### Creación de una campaña {#create-a-campaign}
 
-Puede crear una campaña a través de la lista de campañas. Para mostrar esta vista, seleccione la opción **[!UICONTROL Campaigns]** en el **[!UICONTROL Campaigns]** tablero y haga clic en **[!UICONTROL Create]**.
+Puede crear una campaña a través de la lista de campañas. Para mostrar esta vista, seleccione **[!UICONTROL Campaigns]** en el menú **[!UICONTROL Campaigns]** panel y haga clic en **[!UICONTROL Create]**.
 
 El campo **[!UICONTROL Program]** permite seleccionar el programa al que se asocia la campaña. Esta información es obligatoria.
 
@@ -77,21 +77,21 @@ Haga clic en **[!UICONTROL OK]** para crear la campaña. Se añade a la programa
 
 Luego puede editar la campaña que acaba de crear y definir sus parámetros. Para abrir y configurar esta campaña, puede:
 
-1. Examine el calendario de campañas, seleccione la campaña que desee visualizar y luego haga clic en el botón **[!UICONTROL Open]** vínculo.
+1. Examine el calendario de campañas y seleccione la campaña que desee visualizar y luego haga clic en **[!UICONTROL Open]** vínculo.
 1. Examine la **[!UICONTROL Schedule]** del programa, seleccione la campaña y ábrala.
 1. Examine la lista de campañas y haga clic en el nombre de la campaña que desea editar.
 
-Todas estas acciones lo llevan al panel de campañas.
+Todas estas acciones le llevan al panel de campañas.
 
 ![](assets/campaigns-dashboard-approve.png)
 
-Acceda a las secciones siguientes para aprender a configurar la campaña:
+Acceda a las siguientes secciones para aprender a configurar la campaña:
 
 * [Agregar envíos](marketing-campaign-deliveries.md)
-* [Administrar recursos y documentos](marketing-campaign-assets.md)
-* [Crear la audiencia de destino](marketing-campaign-target.md)
+* [Administración de recursos y documentos](marketing-campaign-assets.md)
+* [Creación de la audiencia objetivo](marketing-campaign-target.md)
 * [Configuración del proceso de aprobación](marketing-campaign-approval.md)
-* [Administrar saldos y presupuestos](providers--stocks-and-budgets.md)
+* [Administración de saldos y presupuestos](providers--stocks-and-budgets.md)
 
 
 ### Editar configuración de campaña {#campaign-settings}
@@ -100,21 +100,21 @@ Las campañas se crean mediante plantillas de campaña. Puede configurar plantil
 
 Para cada campaña, están disponibles las siguientes capacidades:
 
-* Documentos de referencia y recursos: puede asociar documentos con la campaña (resumen, informe, imágenes, etc.). Se admiten todos los formatos de documento. [Más información](marketing-campaign-deliveries.md#manage-associated-documents).
-* Defina los costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers--stocks-and-budgets.md#defining-cost-categories).
-* Definir objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza más adelante en los informes de campaña.
+* Documentos y recursos de referencia: puede asociar documentos a la campaña (resumen, informe, imágenes, etc.). Se admiten todos los formatos de documento. [Más información](marketing-campaign-deliveries.md#manage-associated-documents).
+* Definir costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers--stocks-and-budgets.md#defining-cost-categories).
+* Definir objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza posteriormente en los informes de campaña.
 * Administrar direcciones semilla y grupos de control. [Más información](marketing-campaign-deliveries.md#defining-a-control-group).
-* Administrar aprobaciones: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](marketing-campaign-approval.md#checking-and-approving-deliveries).
+* Manage approvals: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](marketing-campaign-approval.md#checking-and-approving-deliveries).
 
 >[!NOTE]
 >
->Para acceder y actualizar la configuración de la campaña, vaya a la **[!UICONTROL Advanced campaign parameters...]** en el **[!UICONTROL Edit]** pestaña .
+>Para acceder y actualizar la configuración de la campaña, vaya a **[!UICONTROL Advanced campaign parameters...]** vínculo en el **[!UICONTROL Edit]** pestaña.
 
-### Monitorización de una campaña {#monitor-a-campaign}
+### Supervisión de una campaña {#monitor-a-campaign}
 
-Para cada campaña, los trabajos, recursos y envíos están centralizados en un panel. Esta interfaz le permite administrar y orquestar acciones de marketing.
+Para cada campaña, los trabajos, recursos y envíos están centralizados en un panel. Esta interfaz le permite administrar y organizar acciones de marketing.
 
-Con Adobe Campaign, puede configurar procesos de colaboración para la creación y aprobación de los distintos pasos de las campañas: aprobación del presupuesto, objetivo, contenido, etc. Esta organización se detalla en [esta sección](marketing-campaign-approval.md).
+Con Adobe Campaign, puede configurar procesos de colaboración para la creación y aprobación de los distintos pasos de las campañas: aprobación del presupuesto, objetivo, contenido, etc. Esta orquestación se detalla en [esta sección](marketing-campaign-approval.md).
 
 ![](assets/campaigns-dashboard-approval-tab.png)
 
@@ -122,7 +122,7 @@ Con Adobe Campaign, puede configurar procesos de colaboración para la creación
 >
 >Los componentes disponibles en una campaña dependen de su plantilla. La configuración de la plantilla de campaña se presenta en [esta sección](marketing-campaign-templates.md#campaign-templates).
 
-Una vez que se alcance la campaña, use la variable **[!UICONTROL Reports]** para acceder a los informes de campaña.
+Una vez completada la campaña, utilice el **[!UICONTROL Reports]** para acceder a los informes de campaña.
 
 ![](assets/campaigns-reports-dashboard.png)
 
@@ -130,7 +130,7 @@ Una vez que se alcance la campaña, use la variable **[!UICONTROL Reports]** par
 
 El calendario de campañas muestra todos los programas, planes, campañas y envíos.
 
-Para editar un plan, programa, campaña o entrega, busque su nombre en el calendario y utilice el **[!UICONTROL Open]** vínculo. A continuación se muestra en una nueva pestaña, como se muestra a continuación:
+Para editar un plan, programa, campaña o entrega, busque su nombre en el calendario y luego utilice el **[!UICONTROL Open]** vínculo. A continuación se muestra en una nueva pestaña, como se muestra a continuación:
 
 ![](assets/campaign-calendar.png)
 
@@ -150,7 +150,7 @@ Para filtrar las campañas que desea mostrar, haga clic en el vínculo **[!UICON
 
 ![](assets/calendar-filter-options.png)
 
-Al explorar el calendario, también puede crear un programa o una campaña.
+A medida que navega por el calendario, también puede crear un programa o una campaña.
 
 ![](assets/campaign-create-from-calendar.png)
 
@@ -195,7 +195,7 @@ Esta tabla resume las acciones que se pueden realizar en las campañas desde un 
 
 ### Administración de aprobaciones
 
-Las aprobaciones de un destino o de un contenido de entrega se pueden realizar mediante el acceso a la web.
+Las aprobaciones de un destinatario o de un contenido de envío se pueden llevar a cabo mediante el acceso a la web.
 
 ![](assets/web-access-approval.png)
 

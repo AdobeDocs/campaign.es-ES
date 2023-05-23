@@ -29,7 +29,7 @@ Los pasos de implementación principales para este caso de uso son los siguiente
 
 ![](assets/wkf_cross-channel_7.png)
 
-## Paso 1: Crear la audiencia {#step-1--build-the-audience}
+## Paso 1: Creación de la audiencia {#step-1--build-the-audience}
 
 Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
@@ -42,7 +42,7 @@ Para definir el objetivo, cree una consulta para identificar los destinatarios.
 
 1. Guarde los cambios.
 
-## Paso 2: Creación de un correo electrónico que incluya una oferta {#step-2--create-an-email-including-an-offer}
+## Paso 2: Crear un correo electrónico que incluya una oferta {#step-2--create-an-email-including-an-offer}
 
 1. Creación de una entrega de correo electrónico.
 1. Diseñe el mensaje e inserte un vínculo que incluya una oferta en el contenido.
@@ -99,7 +99,7 @@ Una vez identificado el objetivo y que se haya creado el primer envío, se debe 
 
 1. Haga clic en **[!UICONTROL Finish]** para guardar los cambios.
 
-## Paso 4: Finalización del flujo de trabajo {#step-4--finalize-the-workflow}
+## Paso 4: Finalizar del flujo de trabajo {#step-4--finalize-the-workflow}
 
 1. Agregue las actividades relevantes al flujo de trabajo después de los tres subconjuntos resultantes de la actividad **[!UICONTROL Split]**:
 

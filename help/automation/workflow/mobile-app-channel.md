@@ -13,7 +13,7 @@ ht-degree: 85%
 
 # Canal de aplicaciones móviles{#mobile-app-channel}
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Mobile App Channel** de forma predeterminada. Para obtener más información sobre este módulo, consulte [esta sección](../../v8/send/push.md).
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Mobile App Channel** de forma predeterminada. Para obtener más información, consulte [esta sección](../../v8/send/push.md).
 
 <table> 
  <tbody> 

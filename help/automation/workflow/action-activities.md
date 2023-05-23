@@ -15,7 +15,7 @@ ht-degree: 81%
 
 * **[Gestión de contenido](content-management.md)**: permite crear o personalizar contenido.
 * **[Continuous delivery](continuous-delivery.md)**: permite iniciar una entrega desde el escenario especificado en la actividad.
-* **[Envíos multicanal](cross-channel-deliveries.md)** (solo flujos de trabajo de campaña): permite configurar una entrega en el canal correspondiente: Correo electrónico, push, móvil, correo postal.
+* **[Entregas en canales múltiples](cross-channel-deliveries.md)** (solo flujos de trabajo de campaña): permite configurar una entrega en el canal correspondiente: correo electrónico, push, móvil, correo directo.
 * **[Data loading (file)](data-loading--rdbms-.md)**: permite acceder a un origen de datos externo para utilizar sus datos.
 * **[Data loading (RDBMS)](data-loading--rdbms-.md)**: permite acceder a una base de datos externa para obtener datos.
 * **[Delivery](delivery.md)**: permite configurar una acción de envío.

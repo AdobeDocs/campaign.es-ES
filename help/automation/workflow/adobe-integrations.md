@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # Integraciones con las soluciones de Adobe Experience Cloud{#integrations-with-adobe-experience-cloud-solutions}
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Integración con Adobe Experience Cloud** de forma predeterminada. Para obtener más información sobre este módulo, consulte [esta página](../../v8/connect/integration.md).
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Integración con Adobe Experience Cloud** de forma predeterminada. Para obtener más información, consulte [esta página](../../v8/connect/integration.md).
 
 <table> 
  <tbody> 

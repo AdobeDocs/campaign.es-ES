@@ -14,7 +14,7 @@ ht-degree: 45%
 
 # Importación de perfiles de un archivo{#create-profiles}
 
-Para rellenar la base de datos de Campaign, puede [añadir perfiles manualmente](create-profiles.md) o importar perfiles como se detalla a continuación. También puede utilizar archivos importados para actualizar los datos de contacto.
+Para rellenar la base de datos de Campaign, puede [adición manual de perfiles](create-profiles.md) o importar perfiles como se detalla a continuación. También puede utilizar archivos importados para actualizar los datos de contacto.
 
 ## Importación de perfiles con un flujo de trabajo {#import-profiles-with-a-wf}
 
@@ -22,7 +22,7 @@ Los flujos de trabajo pueden ser una forma útil de automatizar algunos de los p
 
 ### Uso de datos de una lista: Leer lista {#data-from-read-list}
 
-Prepare y estructure los datos en un archivo para importarlos con un flujo de trabajo. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html).
+Prepare y estructurar los datos en un archivo para importarlos con un flujo de trabajo. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/read-list.html).
 
 ### Carga de datos desde un archivo {#data-from-a-file}
 
@@ -30,11 +30,11 @@ Los datos procesados en un flujo de trabajo se pueden extraer de un archivo estr
 
 Una vez recopilados los datos, puede utilizarlos en sus flujos de trabajo, por ejemplo para enriquecer una entrega o actualizar la base de datos. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html).
 
-## Importaciones únicas{#import-jobs}
+## Importaciones de una sola vez{#import-jobs}
 
-Adobe Campaign proporciona una capacidad de importación genérica que le permite, por ejemplo, extraer una lista de clientes o posibles clientes que luego formarán parte de una población objetivo o suministrar datos de archivos externos a la base de datos.
+Adobe Campaign proporciona una capacidad de importación genérica que le permite, por ejemplo, extraer una lista de clientes o clientes potenciales que luego formarán parte de una población de destinatarios o suministrar datos de archivos externos a su base de datos.
 
-Las importaciones genéricas se administran desde la variable **[!UICONTROL Profiles and Targets > Jobs]** de la página principal de Adobe Campaign.
+Las importaciones genéricas se administran desde **[!UICONTROL Profiles and Targets > Jobs]** de la página de inicio de Adobe Campaign.
 
 ![](assets/new-import-job.png)
 

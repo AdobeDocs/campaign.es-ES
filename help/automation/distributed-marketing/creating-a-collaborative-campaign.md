@@ -19,7 +19,7 @@ La entidad central crea campañas de colaboración a partir de plantillas de cam
 
 ## Creación de una campaña colaborativa {#creating-a-collaborative-campaign}
 
-Para configurar una campaña de colaboración, haga clic en el botón **[!UICONTROL Campaign management > Campaigns]** carpeta y luego la **[!UICONTROL New]** icono.
+Para configurar una campaña de colaboración, haga clic en **[!UICONTROL Campaign management > Campaigns]** y, a continuación, la **[!UICONTROL New]** icono.
 
 >[!NOTE]
 >

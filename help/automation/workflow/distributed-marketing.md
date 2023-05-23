@@ -15,7 +15,7 @@ ht-degree: 86%
 
 
 
-El flujo de trabajo detallado a continuación se instala con el módulo **Distributed Marketing** de forma predeterminada. Para obtener más información sobre este módulo, consulte [esta sección](../distributed-marketing/about-distributed-marketing.md).
+El flujo de trabajo detallado a continuación se instala con el módulo **Distributed Marketing** de forma predeterminada. Para obtener más información, consulte [esta sección](../distributed-marketing/about-distributed-marketing.md).
 
 <table> 
  <tbody> 

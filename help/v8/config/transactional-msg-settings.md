@@ -14,23 +14,23 @@ ht-degree: 42%
 
 # Configuración de mensajería transaccional
 
-La mensajería transaccional (Centro de Mensajes) es un módulo de Campaign diseñado para administrar los mensajes activados. Obtenga más información sobre la mensajería transaccional en [esta sección](../send/transactional.md).
+La mensajería transaccional (Centro de mensajes) es un módulo de Campaign diseñado para gestionar mensajes activados. Más información sobre la Mensajería transaccional en [esta sección](../send/transactional.md).
 
-Comprenda la arquitectura de mensajería transaccional en [esta página](../architecture/architecture.md#transac-msg-archi).
+Comprensión de la arquitectura de mensajería transaccional en [esta página](../architecture/architecture.md#transac-msg-archi).
 
-![](../assets/do-not-localize/speech.png) Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+![](../assets/do-not-localize/speech.png) Como usuario de Managed Cloud Services, [Adobe de contacto](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
-## Definir permisos
+## Definición de permisos
 
-Para crear nuevos usuarios para las instancias de ejecución del Centro de Mensajes alojadas en Adobe Cloud, debe ponerse en contacto con el servicio de atención al cliente de Adobe. Los usuarios del Centro de mensajes son operadores específicos que requieren permisos específicos para acceder a las carpetas &quot;Eventos en tiempo real&quot; (nmsRtEvent).
+Para crear nuevos usuarios para las instancias de ejecución del Centro de Mensajes alojadas en Adobe Cloud, debe ponerse en contacto con el servicio de atención al cliente de Adobe. Los usuarios del Centro de Mensajes son operadores específicos que requieren permisos especiales para acceder a las carpetas &quot;Eventos en tiempo real&quot; (nmsRtEvent).
 
 ## Extensiones de esquema
 
-Todas las extensiones de esquema realizadas en los esquemas utilizados por [Flujos de trabajo técnicos del centro de mensajes](#technical-workflows) en las instancias de control o ejecución deben duplicarse en las demás instancias utilizadas por el módulo de mensajería transaccional de Adobe Campaign.
+Todas las extensiones de esquema realizadas en los esquemas utilizados por [Flujos de trabajo técnicos del Centro de mensajes](#technical-workflows) en cualquiera de las instancias de control o de ejecución debe duplicarse en las demás instancias que utiliza el módulo de mensajería transaccional de Adobe Campaign.
 
-## Enviar notificaciones push transaccionales
+## Envío de notificaciones push transaccionales
 
-Cuando se combina con [Módulo de canal de aplicaciones móviles](../send/push.md), la mensajería transaccional permite enviar mensajes transaccionales mediante notificaciones en dispositivos móviles.
+Cuando se combina con [Módulo de canal de aplicaciones móviles](../send/push.md), la mensajería transaccional le permite insertar mensajes transaccionales mediante notificaciones en dispositivos móviles.
 
 Para enviar notificaciones push transaccionales, debe realizar las siguientes configuraciones:
 
@@ -40,11 +40,11 @@ Para enviar notificaciones push transaccionales, debe realizar las siguientes co
    >
    >Compruebe el acuerdo de licencia antes de instalar un nuevo paquete integrado de Campaign.
 
-1. Repita el **Aplicación móvil** y las aplicaciones móviles asociadas en las instancias de ejecución.
+1. Replicar el **aplicación móvil** y las aplicaciones móviles asociadas en las instancias de ejecución.
 
 Además, el evento debe contener los siguientes elementos:
 
-* El ID del dispositivo móvil: **registrationId** para Android y **deviceToken** para iOS. Este ID representa la &quot;dirección&quot; a la que se envía la notificación.
+* ID del dispositivo móvil: **registrationId** para Android y **deviceToken** para iOS. Este ID representa la &quot;dirección&quot; a la que se envía la notificación.
 * El vínculo a la aplicación móvil o clave de integración (**uuid**), que permite recuperar información de conexión específica de la aplicación.
 * El canal al que se enviará la notificación (**wishedChannel**): 41 para iOS y 42 para Android.
 * Cualquier otro dato de personalización.
@@ -78,9 +78,9 @@ A continuación se muestra un ejemplo de configuración de evento para enviar no
 
 Puede adaptar la configuración del asistente de implementación para configurar cuánto tiempo se guardan los datos en la base de datos.
 
-La depuración de eventos se realiza automáticamente mediante la función **Database cleanup** flujo de trabajo técnico . Este flujo de trabajo depura los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
+La depuración de eventos la realiza automáticamente **Database cleanup** flujo de trabajo técnico. Este flujo de trabajo depura los eventos recibidos y almacenados en las instancias de ejecución y los eventos archivados en una instancia de control.
 
-Utilice las flechas según corresponda para cambiar la configuración de depuración de la variable **Eventos** (en una instancia de ejecución) y **Eventos archivados** (en una instancia de control).
+Utilice las flechas según corresponda para cambiar la configuración de depuración del **Eventos** (en una instancia de ejecución) y **Eventos archivados** (en una instancia de control)
 
 
 ## Flujos de trabajo técnicos {#technical-workflows}
@@ -91,7 +91,7 @@ A continuación, se puede acceder a estos flujos de trabajo de archivado desde l
 
 ### Flujos de trabajo de instancias de control {#control-instance-workflows}
 
-En la instancia de control, debe crear un flujo de trabajo de archivado para cada **[!UICONTROL Message Center execution instance]** cuenta externa. Haga clic en el botón **[!UICONTROL Create the archiving workflow]** para crear e iniciar el flujo de trabajo.
+En la instancia de control, se debe crear un flujo de trabajo de archivado para cada uno **[!UICONTROL Message Center execution instance]** cuenta externa. Haga clic en el botón **[!UICONTROL Create the archiving workflow]** para crear e iniciar el flujo de trabajo.
 
 ### Flujos de trabajo de instancias de ejecución {#execution-instance-workflows}
 
@@ -101,7 +101,7 @@ En las instancias de ejecución, debe iniciar los siguientes flujos de trabajo t
 * **[!UICONTROL Processing real time events]** (internal name: **[!UICONTROL rtEventsProcessing]**): este flujo de trabajo permite desglosar eventos en tiempo real en cola antes de relacionarlos con una plantilla de mensaje.
 * **[!UICONTROL Update event status]** (internal name: **[!UICONTROL updateEventStatus]**): este flujo de trabajo le permite atribuir un estado al evento.
 
-   Los posibles estados de eventos son:
+   Los estados de eventos posibles son:
 
    * **[!UICONTROL Pending]**: el evento está en cola. Aún no se le ha asignado ninguna plantilla de mensaje.
    * **[!UICONTROL Pending delivery]**: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.

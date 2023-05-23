@@ -19,11 +19,11 @@ Están disponibles los siguientes tipos de informe:
 * Informes sobre toda la plataforma. [Más información](global-reports.md).
 * Informes de envío. [Más información](delivery-reports.md).
 
-Puede acceder a los informes integrados desde la página de inicio de la campaña, el panel de informes dedicado o la lista de envíos. La forma en que se muestra el informe en la interfaz de usuario depende de su contexto.
+Puede acceder a los informes integrados desde la página de inicio de Campaign, el panel de informes dedicado o la lista de envío. La forma en que se muestra el informe en la interfaz de usuario depende de su contexto.
 
-En la página principal hay disponible una lista de informes clave que le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. También puede aprender a añadir sus propios informes a la pestaña **[!UICONTROL Reports]**.
+Hay disponible una lista de informes clave en la página principal que le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. También puede aprender a añadir sus propios informes a la pestaña **[!UICONTROL Reports]**.
 
-Para obtener más información sobre estas configuraciones personalizadas, consulte esta [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+Para obtener más información sobre estas configuraciones personalizadas, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
 
 
 ## Acceso a informes integrados {#access-ootb-reports}

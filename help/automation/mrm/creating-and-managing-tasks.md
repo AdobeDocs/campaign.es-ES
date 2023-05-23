@@ -38,7 +38,7 @@ Para obtener más información sobre esto, consulte [Ejecución del estado de un
 
 ### Filtrar tareas {#filtering-tasks}
 
-Al mostrar esta vista, se filtra automáticamente para mostrar solo la variable **tareas del operador actual**. También puede filtrar las tareas utilizando los campos de la parte superior de la ventana.
+Al mostrar esta vista, se filtra automáticamente para mostrar solo la vista **tareas actuales del operador**. También puede filtrar las tareas utilizando los campos de la parte superior de la ventana.
 
 ### Editar tareas {#editing-tasks}
 
@@ -50,12 +50,12 @@ Haga clic en una tarea para editarla.
 
 Para crear una tarea, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Tasks]** en el **[!UICONTROL Campaigns]** y haga clic en **[!UICONTROL Create]**.
+1. Vaya a la **[!UICONTROL Tasks]** vínculo en el **[!UICONTROL Campaigns]** y haga clic en **[!UICONTROL Create]**.
 
    ![](assets/create-a-task-from-dashboard.png)
 
 1. Introduzca el nombre de la tarea y seleccione la campaña a la que está vinculada.
-1. Establezca las fechas de inicio y finalización.
+1. Establecer las fechas de inicio y finalización.
 1. Haga clic en **[!UICONTROL Save]** para crear la tarea.
 
    ![](assets/new-task-edit.png)
@@ -64,15 +64,15 @@ También puede crear una tarea a través del panel de una campaña: en este caso
 
 ![](assets/add-a-task-in-a-campaign.png)
 
-Después de crear una tarea, esta se agrega a la programación de campañas, al panel de campañas y a la lista de tareas. Para editar una tarea, haga clic en su nombre en la lista de tareas o selecciónelo en la programación o en el panel de campañas y haga clic en **[!UICONTROL Open]**.
+Después de crear una tarea, esta se agrega a la programación de campañas, al panel de campañas y a la lista de tareas. Para editar una tarea, haga clic en su nombre en la lista de tareas o selecciónela en la programación o en el panel de campañas y haga clic en **[!UICONTROL Open]**.
 
 Una vez creada, puede configurar la tarea definiendo:
 
-* El administrador y los participantes. [Más información](#manager-and-participants)
+* El gerente y los participantes. [Más información](#manager-and-participants)
 * La programación de creación. [Más información](#execution-schedule)
 * Los costes comprometidos. [Más información](#expenses-and-revenues)
 
-También puede agregar [revisores](#reviewers) y [documentos de referencia](#documents-referenced).
+También puede añadir [revisores](#reviewers) y [documentos de referencia](#documents-referenced).
 
 El ciclo de vida de la tarea se presenta en [esta sección](#life-cycle).
 
@@ -80,7 +80,7 @@ El ciclo de vida de la tarea se presenta en [esta sección](#life-cycle).
 
 De forma predeterminada, la tarea se asigna al operador que la creó. Se notifica a este operador cuando se requiere una acción para esa tarea.
 
-Puede seleccionar un operador diferente del operador **[!UICONTROL Assigned to]** lista desplegable.
+Puede seleccionar un operador diferente de la variable **[!UICONTROL Assigned to]** lista desplegable.
 
 ![](assets/task-assigned-to.png)
 
@@ -88,13 +88,13 @@ Puede seleccionar un operador diferente del operador **[!UICONTROL Assigned to]*
 >
 >La administración del operador se detalla en [esta sección](../../v8/start/gs-permissions.md).
 >
->Solo el operador a cargo de una tarea puede cerrarla.
+>Solo el operador de cargo de una tarea puede cerrarla.
 
-Puede especificar más operadores implicados en la realización de la tarea. No se permite que estos operadores cierren la tarea: solo pueden aprobar la tarea asignada.
+Puede especificar más operadores implicados en la realización de la tarea. Estos operadores no pueden cerrar la tarea: solo pueden aprobar la tarea que se les ha asignado.
 
 Para agregar operadores de tareas, siga los pasos a continuación:
 
-1. Haga clic en el **[!UICONTROL Resources]** en la barra de herramientas de tareas.
+1. Haga clic en **[!UICONTROL Resources]** en la barra de herramientas de tareas.
 
    ![](assets/add-task-resources.png)
 
@@ -107,12 +107,12 @@ Para agregar operadores de tareas, siga los pasos a continuación:
 
    Para cada operador, puede introducir una carga de trabajo programada y una carga de trabajo real. Estas duraciones también son únicamente para fines informativos.
 
-1. Puede configurar un recordatorio desde el **[!UICONTROL Add a reminder...]** vínculo. Se enviará una notificación por correo electrónico a todos los operadores implicados en la tarea antes de su fecha de finalización.
+1. Puede configurar un recordatorio desde el **[!UICONTROL Add a reminder...]** vínculo. Se envía una notificación por correo electrónico a todos los operadores implicados en la tarea antes de su fecha de finalización.
 
    ![](assets/task-op-add-a-reminder.png)
 
-1. También puede enviar una notificación antes de que se inicie la tarea. Para configurarlo, seleccione la fecha en la **[!UICONTROL Initial notification]** campo .
-1. Cuando se llega a la fecha de finalización y la tarea no se cierra, se puede enviar una notificación al usuario asignado o al grupo de destinatarios seleccionados en la **[!UICONTROL Assignee]** lista desplegable.
+1. También puede enviar una notificación antes de que se inicie la tarea. Para configurarlo, seleccione la fecha en la **[!UICONTROL Initial notification]** field.
+1. Cuando se llega a la fecha de finalización y la tarea no está cerrada, se puede enviar una notificación al usuario o grupo de usuarios asignados seleccionados en la **[!UICONTROL Assignee]** lista desplegable.
 
 
 El tablero del operador permite comprobar la carga de trabajo (otras tareas en curso).
@@ -121,9 +121,9 @@ El tablero del operador permite comprobar la carga de trabajo (otras tareas en c
 
 ### Aprobación de tareas {#reviewers}
 
-Además de los participantes, puede definir operadores que revisan la tarea una vez que se haya cerrado.
+Además de los participantes, puede definir operadores que revisen la tarea una vez que se haya cerrado.
 
-Para ello, haga clic en el botón **[!UICONTROL Enable task approval]** en la sección inferior del **[!UICONTROL Resources]** ventana. Puede ser un operador individual, un grupo de operadores o una lista de operadores.
+Para ello, haga clic en el **[!UICONTROL Enable task approval]** en la sección inferior de la **[!UICONTROL Resources]** ventana. Puede ser un operador individual, un grupo de operadores o una lista de operadores.
 
 Para especificar una lista de operadores, haga clic en el enlace **[!UICONTROL Edit...]** a la derecha del primer revisor y añada tantos operadores como sea necesario, como se muestra a continuación:
 
@@ -139,14 +139,14 @@ Puede añadir [documentos y recursos de marketing](managing-marketing-resources.
 
 Para realizar esto:
 
-1. Abra la tarea y haga clic en el botón **[!UICONTROL Documents]** en la barra de herramientas de tareas.
+1. Abra la tarea y haga clic en **[!UICONTROL Documents]** en la barra de herramientas de tareas.
 
    ![](assets/add-documents-to-a-task.png)
 
 1. Haga clic en **[!UICONTROL Add]** y seleccione el documento que desea añadir a la tarea. Aplique el mismo proceso para los recursos de marketing.
 
 
-Los documentos de referencia se añaden a las notificaciones enviadas a los operadores implicados en la tarea. También se añaden en el panel de tareas.
+Los documentos de referencia se añaden a las notificaciones enviadas a los operadores implicados en la tarea. También se agregan en el panel de tareas.
 
 ![](assets/s_ncs_user_task_notification_documents.png)
 

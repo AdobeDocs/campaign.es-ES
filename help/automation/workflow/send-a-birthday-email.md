@@ -21,11 +21,11 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 
 Este flujo de trabajo (de ejecución diaria) selecciona todos los destinatarios que tienen su cumpleaños en la fecha actual.
 
-Para ello, cree una campaña y añada una [flujo de trabajo de la campaña](campaign-workflows.md).
+Para ello, cree una campaña y añada una [flujo de trabajo de campaña](campaign-workflows.md).
 
 A continuación, siga los pasos detallados a continuación.
 
-## Identificar destinatarios que cumplen años {#identifying-recipients-whose-birthday-it-is}
+## Identificación de destinatarios que cumplen años {#identifying-recipients-whose-birthday-it-is}
 
 Después de configurar la actividad **[!UICONTROL Scheduler]** para que el flujo de trabajo se inicie cada día, identifique todos los destinatarios cuya fecha de nacimiento sea igual a la fecha actual.
 
@@ -99,7 +99,7 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 
 Si el año actual **no es un año bisiesto** y el flujo de trabajo se ejecuta el 1 de marzo, se necesita seleccionar todos los destinatarios que hubieran tenido su cumpleaños el día anterior (29 de febrero) y añadirlos a la lista de destinatarios. En cualquier otro caso no se requiere ninguna acción adicional.
 
-### Paso 1: Seleccione los destinatarios {#step-1--selecting-the-recipients}
+### Paso 1: Selección de los destinatarios {#step-1--selecting-the-recipients}
 
 Después de configurar la actividad **[!UICONTROL Scheduler]** para que el flujo de trabajo se inicie cada día, identifique todos los destinatarios cuyo cumpleaños sea el día actual.
 
@@ -183,7 +183,7 @@ Combine los resultados con una actividad **[!UICONTROL Union]**.
 
 Vincule los resultados de las dos ramas de actividad **[!UICONTROL Test]** a una actividad **[!UICONTROL Email delivery]** para enviar un correo electrónico a la lista de todos los destinatarios en su cumpleaños, incluso a aquellos nacidos el 29 de febrero durante un año no bisiesto.
 
-## Creación de un envío recurrente {#creating-a-recurring-delivery-in-a-targeting-workflow}
+## Creación de una entrega recurrente {#creating-a-recurring-delivery-in-a-targeting-workflow}
 
 Añada una actividad de **Entrega recurrente** basada en la plantilla de correo electrónico de cumpleaños que desee enviar.
 

@@ -36,5 +36,5 @@ Los flujos de trabajo detallados a continuación se instalan con el complemento 
  </tbody> 
 </table>
 
-Obtenga más información sobre cubos y agregados en [esta sección](../../v8/reporting/gs-cubes.md).
+Obtenga más información sobre los cubos y los acumulados en [esta sección](../../v8/reporting/gs-cubes.md).
 

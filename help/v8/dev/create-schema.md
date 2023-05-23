@@ -12,17 +12,17 @@ ht-degree: 2%
 
 ---
 
-# Crear un nuevo esquema{#create-new-schema}
+# Creación de un nuevo esquema{#create-new-schema}
 
-Para editar, crear y configurar los esquemas, haga clic en el botón **[!UICONTROL Administration > Configuration > Data schemas]** de la consola del cliente de Adobe Campaign.
+Para editar, crear y configurar los esquemas, haga clic en **[!UICONTROL Administration > Configuration > Data schemas]** de la consola del cliente de Adobe Campaign.
 
 >[!NOTE]
 >
->Los esquemas de datos integrados solo se pueden eliminar mediante un administrador de la consola de Adobe Campaign.
+>Solo un administrador de la consola de Adobe Campaign puede eliminar esquemas de datos integrados.
 
 ![](assets/schema_navtree.png)
 
-La variable **[!UICONTROL Edit]** La pestaña muestra el contenido XML de un esquema:
+El **[!UICONTROL Edit]** La pestaña muestra el contenido XML de un esquema:
 
 ![](assets/schema_edition.png)
 
@@ -30,7 +30,7 @@ La variable **[!UICONTROL Edit]** La pestaña muestra el contenido XML de un esq
 >
 >El control de edición &quot;Name&quot; permite introducir la clave de esquema formada por el nombre y el área de nombres. Los atributos &quot;name&quot; y &quot;namespace&quot; del elemento raíz del esquema se actualizan automáticamente en la zona de edición XML del esquema. Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces)
 
-La variable **[!UICONTROL Preview]** genera automáticamente el esquema extendido:
+El **[!UICONTROL Preview]** genera automáticamente el esquema ampliado:
 
 ![](assets/schema_edition2.png)
 
@@ -38,13 +38,13 @@ La variable **[!UICONTROL Preview]** genera automáticamente el esquema extendid
 >
 >Cuando se guarda el esquema de origen, se inicia automáticamente la generación del esquema ampliado.
 
-Si necesita comprobar la estructura completa de un esquema, puede utilizar la variable **[!UICONTROL Preview]** pestaña . Si el esquema se ha ampliado, podrá visualizar todas sus extensiones. Como complemento, la variable **[!UICONTROL Documentation]** muestra todos los atributos y elementos del esquema, así como sus propiedades (campo SQL, tipo/longitud, etiqueta, descripción). La variable **[!UICONTROL Documentation]** solo se aplica a esquemas generados.
+Si necesita comprobar la estructura completa de un esquema, puede utilizar el **[!UICONTROL Preview]** pestaña. Si el esquema se ha ampliado, podrá visualizar todas sus extensiones. Como complemento, la variable **[!UICONTROL Documentation]** Esta pestaña muestra todos los atributos y elementos de esquema y sus propiedades (Campo SQL, tipo/longitud, etiqueta, descripción). El **[!UICONTROL Documentation]** La pestaña solo se aplica a los esquemas generados.
 
-## Caso de uso: crear una tabla de contrato {#example--creating-a-contract-table}
+## Caso de uso: Creación de una tabla de contrato {#example--creating-a-contract-table}
 
-En el siguiente ejemplo, se crea una nueva tabla para **contratos** en la base de datos. Esta tabla permite almacenar los nombres y apellidos y las direcciones de correo electrónico de los titulares y cotitulares de cada contrato.
+En el ejemplo siguiente, se crea una nueva tabla para **contratos** en la base de datos. Esta tabla permite almacenar el nombre y los apellidos y las direcciones de correo electrónico de los titulares y cotitulares de cada contrato.
 
-Para ello, debe crear el esquema de la tabla y actualizar la estructura de la base de datos para generar la tabla correspondiente. A continuación se enumeran los pasos detallados.
+Para ello, debe crear el esquema de la tabla y actualizar la estructura de la base de datos para generar la tabla correspondiente. A continuación se detallan los pasos que debe seguir.
 
 1. Edite el **[!UICONTROL Administration > Configuration > Data schemas]** del árbol de Adobe Campaign y haga clic en **[!UICONTROL New]**.
 1. Elija la **[!UICONTROL Create a new table in the data template]** y haga clic en **[!UICONTROL Next]** .
@@ -57,15 +57,15 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
 
    >[!NOTE]
    >
-   >De forma predeterminada, los esquemas creados por los usuarios se almacenan en el espacio de nombres &quot;cus&quot;. Para obtener más información, consulte [Identificación de un esquema](extend-schema.md#identification-of-a-schema).
+   >De forma predeterminada, los esquemas creados por los usuarios se almacenan en el área de nombres &quot;cus&quot;. Para obtener más información, consulte [Identificación de un esquema](extend-schema.md#identification-of-a-schema).
 
-1. Cree el contenido de la tabla. Se recomienda utilizar el asistente dedicado para asegurarse de que no falte ninguna configuración. Para ello, haga clic en el botón **[!UICONTROL Insert]** y elija el tipo de configuración que desea añadir.
+1. Cree el contenido de la tabla. Se recomienda utilizar el asistente dedicado para asegurarse de que no falta ninguna configuración. Para ello, haga clic en el **[!UICONTROL Insert]** y elija el tipo de configuración que desea añadir.
 
    ![](assets/create_new_content.png)
 
 1. Defina la configuración de la tabla de contratos.
 
-   Como práctica recomendada, cree la tabla en la base de datos de Cloud añadiendo la variable `dataSource="nms:extAccount:ffda"` atributo. Este atributo se añade de forma predeterminada al crear una tabla nueva.
+   Como práctica recomendada, cree la tabla en la base de datos en la nube agregando el `dataSource="nms:extAccount:ffda"` atributo. Este atributo se agrega de forma predeterminada al crear una tabla nueva.
 
    ```
    <srcSchema created="YYYY-MM-DD HH:MM:SS.TZ" desc="Active contracts" img="crm:crm/mscrm/mscrm_account_16x16.png"
@@ -109,7 +109,7 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
    </srcSchema>
    ```
 
-1. Guarde el esquema y haga clic en el **[!UICONTROL Structure]** para generar la estructura:
+1. Guarde el esquema y haga clic en **[!UICONTROL Structure]** para generar la estructura:
 
    ![](assets/configuration_structure.png)
 

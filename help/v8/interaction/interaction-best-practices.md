@@ -14,21 +14,21 @@ ht-degree: 70%
 
 ## Recomendaciones generales {#general-recommendations}
 
-La gestión de ofertas en Adobe Campaign requiere una gestión cuidadosa para funcionar de forma eficaz. Para evitar problemas, debe encontrar un equilibrio entre el número de contactos y el número de categorías de ofertas y ofertas.
+La administración de ofertas en Adobe Campaign requiere una administración cuidadosa para funcionar de forma eficaz. Para evitar problemas, debe encontrar un equilibrio entre el número de contactos y el número de categorías de ofertas y ofertas.
 
-Esta sección presenta las prácticas recomendadas para administrar el **Interacción** en Adobe Campaign, incluidas las reglas de idoneidad, los filtros predefinidos, las actividades de flujo de trabajo y las opciones de la base de datos.
+Esta sección presenta las prácticas recomendadas para administrar el **Interacción** en Adobe Campaign, incluidas las reglas de idoneidad, los filtros predefinidos, las actividades de flujo de trabajo y las opciones de base de datos.
 
-* When **implementación y configuración de interacciones**, debe tener en cuenta las siguientes recomendaciones:
+* Cuándo **implementación y configuración de interacciones**, debe tener en cuenta las siguientes recomendaciones:
 
    * Para el motor por lotes (generalmente utilizado en comunicaciones salientes como el correo electrónico), el rendimiento es la preocupación principal, ya que se pueden manejar varios contactos al mismo tiempo. El típico obstáculo es el rendimiento de la base de datos.
    * La restricción principal del motor unitario (que generalmente se utiliza en comunicaciones entrantes como un banner en un sitio web) es la latencia, ya que alguien está esperando una respuesta. El típico obstáculo es el rendimiento de la CPU.
    * El diseño del catálogo de ofertas tiene un gran impacto en el rendimiento de Adobe Campaign 
-   * Al trabajar con muchas ofertas, se recomienda dividirlas en varios catálogos de ofertas.
+   * Al trabajar con muchas ofertas, la práctica recomendada es dividirlas en varios catálogos de ofertas.
 
 * A continuación se enumeran algunas prácticas recomendadas al trabajar con **reglas de elegibilidad**:
 
    * Simplificar las reglas. La complejidad de las reglas afecta al rendimiento a medida que amplía la búsqueda. Una regla compleja es cualquier regla que tenga más de cinco condiciones.
-   * Para aumentar el rendimiento, las reglas se pueden dividir en distintos filtros predefinidos que se comparten en varias ofertas.
+   * Para aumentar el rendimiento, las reglas se pueden dividir en diferentes filtros predefinidos que se comparten en varias ofertas.
    * Coloque las reglas de la categoría de oferta más restrictivas en la posición más alta posible del árbol. En este caso, ponga en primer lugar el filtro para la mayoría de contactos, reduciendo el número de objetivo y evitará que se procesen más reglas.
    * Coloque las reglas más pesadas en términos de tiempo o procesamiento en la parte inferior del árbol. De este modo, estas reglas sólo se ejecutarán para los destinatarios restantes.
    * Comience en una categoría específica para evitar el escaneo del árbol completo.
@@ -51,7 +51,7 @@ Esta sección contiene consejos más detallados sobre la administración de ofer
 
 ### Varios espacios de oferta en un correo electrónico {#multiple-offer-spaces}
 
-Cuando se incluyen ofertas en los envíos, las ofertas generalmente se seleccionan de forma ascendente en el flujo de trabajo de Campaign a través de un **Enriquecimiento** actividad de flujo de trabajo (u otra actividad similar).
+Cuando se incluyen ofertas en las entregas, las ofertas generalmente se seleccionan de forma ascendente en el flujo de trabajo de Campaign a través de una **Enriquecimiento** actividad de flujo de trabajo (u otra actividad similar).
 
 Al seleccionar ofertas en una **Enriquecimiento** actividad, puede elegir qué espacio de oferta utilizar. Sin embargo, independientemente del espacio de oferta seleccionado, el menú de personalización de la entrega depende del espacio de oferta configurado en la entrega.
 
@@ -59,7 +59,7 @@ En el ejemplo siguiente, el espacio de oferta seleccionado en la entrega es **[!
 
 ![](assets/Interaction-best-practices-offer-space-selected.png)
 
-Si el espacio de oferta seleccionado en la entrega no tiene una función de renderización HTML configurada, no la va a ver en el menú de entrega y no va a estar disponible para su selección. Es independiente del espacio de oferta seleccionado en la variable **Enriquecimiento** actividad.
+Si el espacio de oferta seleccionado en la entrega no tiene una función de renderización HTML configurada, no la va a ver en el menú de entrega y no va a estar disponible para su selección. Esto es independiente del espacio de oferta seleccionado en la **Enriquecimiento** actividad.
 
 En el ejemplo siguiente, la función de renderización HTML está disponible en la lista desplegable porque el espacio de oferta seleccionado en la entrega tiene una función de renderización:
 
@@ -75,7 +75,7 @@ Cuando se incluyen varios espacios de oferta en una entrega por correo electrón
 
 Por lo tanto, para evitar cualquier problema, se recomienda que todos los espacios de oferta tengan una función de renderización HTML definida, aunque el espacio de oferta solo requiera contenido HTML.
 
-### Establezca la clasificación en la tabla del registro de propuestas {#rank-proposition-log-table}
+### Establecer la clasificación en la tabla del registro de propuestas {#rank-proposition-log-table}
 
 Los espacios de oferta tienen la capacidad de almacenar datos en la tabla de propuesta cuando se generan o aceptan propuestas:
 
@@ -91,7 +91,7 @@ Por ejemplo, al seleccionar una oferta manualmente (sin interacción) en una **E
 
 ![](assets/Interaction-best-practices-manual-offer-std-fields.png)
 
-Se pueden agregar campos adicionales, como un `@rank` campo:
+Se pueden añadir campos adicionales, como un `@rank` campo:
 
 ![](assets/Interaction-best-practices-manual-offer-add-fields.png)
 
@@ -103,9 +103,9 @@ En el caso de las ofertas salientes con interacción, esto resulta útil cuando 
 
 También puede almacenar metadatos adicionales directamente en la tabla de propuestas, como el nivel de gasto actual, para mantener registros históricos sobre el gasto en el momento en que se generaron las ofertas.
 
-Cuando se utiliza la interacción saliente, la variable `@rank` se puede agregar, como en el ejemplo anterior, pero su valor se establece automáticamente en función del orden devuelto por la interacción. Por ejemplo, si utiliza la interacción para seleccionar tres ofertas, la variable `@rank` tendrá los valores 1, 2 y 3 devueltos.
+Cuando se utiliza la interacción saliente, la variable `@rank` se puede añadir un campo de, como en el ejemplo anterior, pero su valor se establece automáticamente en función del orden devuelto por Interaction. Por ejemplo, si utiliza Interacción para seleccionar tres ofertas, la variable `@rank` tendrá los valores 1, 2 y 3 devueltos.
 
-Al utilizar la interacción y seleccionar ofertas manualmente, el usuario puede combinar ambos métodos. Por ejemplo, el usuario puede configurar manualmente la variable `@rank` que será 1 para la oferta seleccionada manualmente y utilice una expresión como `"1 + @rank"` para las ofertas devueltas por interacción. Si damos por supuesto que la interacción selecciona tres ofertas, las ofertas devueltas por ambos métodos se van a clasificar de 1 a 4:
+Al utilizar la interacción y seleccionar ofertas manualmente, el usuario puede combinar ambos métodos. Por ejemplo, el usuario puede configurar manualmente la variable `@rank` el campo debe ser 1 para la oferta seleccionada manualmente y utilizar una expresión como `"1 + @rank"` para las ofertas devueltas por interacción. Si damos por supuesto que la interacción selecciona tres ofertas, las ofertas devueltas por ambos métodos se van a clasificar de 1 a 4:
 
 ![](assets/Interaction-best-practices-manual-offer-combined.png)
 

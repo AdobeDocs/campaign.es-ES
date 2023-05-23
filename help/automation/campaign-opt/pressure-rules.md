@@ -57,7 +57,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    >[!NOTE]
    >
-   >Los envíos programados no se tienen en cuenta.
+   >No se tienen en cuenta las entregas programadas.
 
 1. Defina el método para calcular el número más alto de mensajes.
 
@@ -107,7 +107,7 @@ Puede indexar el número de mensajes autorizados según el segmento al que perte
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de segmentación: por ejemplo, para incluir mensajes entregados a los perfiles de destinatario almacenados en la variable [tabla de visitantes](../../v8/audiences/target-mappings.md) o para evitar enviar más de un mensaje por semana a la misma familia (que puede hacer referencia a varias direcciones de correo electrónico) identificada en una dimensión vinculada a la de los destinatarios.
+Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de segmentación: por ejemplo, para incluir mensajes enviados a los perfiles de destinatario almacenados en la variable [tabla de visitantes](../../v8/audiences/target-mappings.md) o para evitar enviar más de un mensaje por semana a un mismo hogar (que puede hacer referencia a varias direcciones de correo electrónico) identificado en una dimensión vinculada a la de los destinatarios.
 
 Para ello, seleccione la opción **[!UICONTROL Count messages on a linked dimension]** y luego seleccione al visitante o la tabla de contacto.
 
@@ -115,7 +115,7 @@ Para ello, seleccione la opción **[!UICONTROL Count messages on a linked dimens
 
 Cada envío tiene un peso que representa su nivel de prioridad. De forma predeterminada, el peso de una entrega se establece en 5. Las reglas de presión permiten definir el peso de las entregas a los que se aplican.
 
-El peso puede ser fijo o calcularse mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de una entrega en función de los intereses del destinatario.
+El peso puede ser fijo o calcularse mediante una fórmula para adaptarse a los destinatarios. Por ejemplo, puede definir el peso de un envío en función de los intereses del destinatario.
 
 >[!CAUTION]
 >
@@ -147,7 +147,7 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 >
 >Al calcular el umbral, solo se tienen en cuenta las entregas que ya se han enviado.
 
-Para restringir las entregas tomadas en cuenta a un periodo de 2 semanas, introduzca **15d** en el **[!UICONTROL Concerned period]** campo: en el cálculo se tienen en cuenta las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la regla
+Para restringir las entregas tomadas en cuenta a un periodo de 2 semanas, introduzca **15d** en el **[!UICONTROL Concerned period]** field: en el cálculo se tienen en cuenta las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la regla
 
 La fecha de inicio depende de cómo se haya configurado la base de datos.
 

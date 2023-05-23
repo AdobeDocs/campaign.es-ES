@@ -1,5 +1,5 @@
 ---
-title: Envío de notificaciones push con Adobe Campaign
+title: Envío de una notificación push con Adobe Campaign
 description: Introducción a las notificaciones push en Campaign
 feature: Push
 role: Data Engineer
@@ -14,12 +14,12 @@ ht-degree: 57%
 
 # Creación y envío de notificaciones push{#push-notifications-create}
 
-Los envíos de aplicaciones móviles permiten enviar notificaciones a dispositivos iOS y Android.
+Las entregas de aplicaciones móviles permiten enviar notificaciones a dispositivos iOS y Android.
 
 Para enviar notificaciones push en Adobe Campaign, debe:
 
-1. Integre el SDK con la aplicación. [Más información](#push-sdk)
-1. Cree un servicio de información de tipo Mobile application para su aplicación móvil y añada las versiones iOS y Android de la aplicación a ese servicio. [Más información](#push-config)
+1. Integre el SDK con su aplicación. [Más información](#push-sdk)
+1. Cree un servicio informativo de tipo Mobile application para su aplicación móvil y añada las versiones de la aplicación para iOS y Android a ese servicio. [Más información](#push-config)
 1. Cree un envío tanto para iOS como para Android. [Más información](#push-create)
 
 ## Integración del SDK {#push-sdk}
@@ -35,21 +35,21 @@ El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicio
 
 Antes de enviar notificaciones push, debe definir la configuración de las aplicaciones de iOS y Android en Adobe Campaign.
 
-Las notificaciones push se envían a los usuarios de la aplicación a través de un servicio dedicado. Cuando los usuarios instalan la aplicación, se suscriben a este servicio: Adobe Campaign se basa en este servicio para dirigirse solo a los suscriptores de su aplicación. En este servicio, debe añadir sus aplicaciones de iOS y Android para enviar en dispositivos iOS y Android.
+Las notificaciones push se envían a los usuarios de la aplicación a través de un servicio dedicado. Cuando los usuarios instalan la aplicación, se suscriben a este servicio: Adobe Campaign depende de este servicio para dirigirse únicamente a los suscriptores de la aplicación. En este servicio, debe agregar sus aplicaciones de iOS y Android para enviarlas en dispositivos iOS y Android.
 
 Para crear un servicio para enviar notificaciones push, siga los pasos a continuación:
 
-1. Vaya a **[!UICONTROL Profiles and Targets > Services and Subscriptions]** y haga clic en **[!UICONTROL Create]**.
+1. Navegar a **[!UICONTROL Profiles and Targets > Services and Subscriptions]** y haga clic en **[!UICONTROL Create]**.
 
    ![](assets/new-service-push.png){width="800" align="left"}
 
-1. Escriba un **[!UICONTROL Label]** y **[!UICONTROL Internal name]** y seleccione un **[!UICONTROL Mobile application]** tipo .
+1. Introduzca una **[!UICONTROL Label]** y un **[!UICONTROL Internal name]** y seleccione una **[!UICONTROL Mobile application]** escriba.
 
    >[!NOTE]
    >
    >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destinatario diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Obtenga más información sobre las asignaciones de destino en [esta página](../audiences/target-mappings.md).
 
-1. A continuación, utilice el **[!UICONTROL Add]** a la derecha para definir las aplicaciones móviles que utilizan este servicio.
+1. A continuación, utilice el **[!UICONTROL Add]** en la parte derecha para definir las aplicaciones móviles que utilizan este servicio.
 
 >[!BEGINTABS]
 
@@ -61,22 +61,22 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
    ![](assets/new-ios-app.png){width="600" align="left"}
 
-1. Introduzca el nombre de su aplicación en la **[!UICONTROL Label]** campo .
-1. (opcional) Puede enriquecer el contenido de un mensaje push con algunas **[!UICONTROL Application variables]**. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
+1. Introduzca el nombre de su aplicación en la **[!UICONTROL Label]** field.
+1. (opcional) Puede enriquecer el contenido de un mensaje push con **[!UICONTROL Application variables]**. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
 
-   En el ejemplo siguiente, la variable **mediaURl** y **mediaExt** se añaden para crear notificaciones push enriquecidas y, a continuación, proporcionan a la aplicación la imagen que se muestra en la notificación.
+   En el ejemplo siguiente, la variable **mediaURl** y **mediaExt** Las variables de se agregan para crear notificaciones push enriquecidas y, a continuación, proporcionan a la aplicación la imagen que se mostrará en la notificación.
 
    ![](assets/ios-app-parameters.png){width="600" align="left"}
 
-1. Vaya a la **[!UICONTROL Subscription parameters]** para definir la asignación con una extensión de la pestaña **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** esquema.
+1. Vaya a la **[!UICONTROL Subscription parameters]** para definir la asignación con una extensión del **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]** esquema.
 
-1. Vaya a la **[!UICONTROL Sounds]** para definir un sonido que reproducir. Haga clic en **[!UICONTROL Add]** y rellene el campo **[!UICONTROL Internal name]** que debe contener el nombre del archivo incrustado en la aplicación o el nombre del sonido del sistema.
+1. Vaya a la **[!UICONTROL Sounds]** para definir un sonido para reproducir. Haga clic en **[!UICONTROL Add]** y rellene el campo **[!UICONTROL Internal name]** que debe contener el nombre del archivo incrustado en la aplicación o el nombre del sonido del sistema.
 
 1. Haga clic en **[!UICONTROL Next]** para comenzar a configurar la aplicación de desarrollo.
 
-1. La clave de integración es específica para cada aplicación. Vincula la aplicación móvil con Adobe Campaign.
+1. La clave de integración es específica para cada aplicación. Vincula la aplicación móvil a Adobe Campaign.
 
-   Asegúrese de que la misma **[!UICONTROL Integration key]** se define en Adobe Campaign y en el código de la aplicación a través del SDK.
+   Asegúrese de que es el mismo **[!UICONTROL Integration key]** se define en Adobe Campaign y en el código de la aplicación a través del SDK.
 
    Obtenga más información en [la documentación para desarrolladores](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
@@ -85,18 +85,18 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
    >
    > **[!UICONTROL Integration key]** es totalmente personalizable con un valor de cadena, pero debe ser exactamente igual al especificado en el SDK.
    >
-   > No se puede usar el mismo certificado para la versión de desarrollo (entorno limitado) y la versión de producción de la aplicación.
+   > No puede utilizar el mismo certificado para la versión de desarrollo (entorno limitado) y la versión de producción de la aplicación.
 
-1. Seleccione el icono de la lista **[!UICONTROL Application icon]** para personalizar la aplicación móvil en el servicio.
+1. Seleccione el icono de la **[!UICONTROL Application icon]** para personalizar la aplicación móvil en el servicio.
 
 1. Seleccione el **[!UICONTROL Authentication mode]**. Hay dos modos disponibles:
 
-   * (Recomendado) **[!UICONTROL Token-based authentication]**: Complete la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** a continuación, seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para más información sobre **[!UICONTROL Token-based authentication]**, consulte la [documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+   * (Recomendado) **[!UICONTROL Token-based authentication]**: complete la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** a continuación, seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para más información sobre **[!UICONTROL Token-based authentication]**, consulte la [documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
    * **[!UICONTROL Certificate-based authentication]**: haga clic en **[!UICONTROL Enter the certificate...]**, seleccione la clave p12 e introduzca la contraseña proporcionada por el desarrollador de aplicaciones móviles.
-   Puede cambiar el modo de autenticación más adelante en la sección **[!UICONTROL Certificate]** de la aplicación móvil.
+   Puede cambiar el modo de autenticación más adelante en la **[!UICONTROL Certificate]** de la aplicación móvil.
 
-1. Utilice la variable **[!UICONTROL Test the connection]** para validar la configuración.
+1. Utilice el **[!UICONTROL Test the connection]** para validar la configuración.
 
 1. Haga clic en **[!UICONTROL Next]** para configurar la aplicación de producción y siga los mismos pasos detallados anteriormente.
 
@@ -112,10 +112,10 @@ Para crear una aplicación para dispositivos Android, siga estos pasos:
 
    ![](assets/new-android-app.png){width="600" align="left"}
 
-1. Introduzca el nombre de su aplicación en la **[!UICONTROL Label]** campo .
-1. La clave de integración es específica para cada aplicación. Vincula la aplicación móvil con Adobe Campaign.
+1. Introduzca el nombre de su aplicación en la **[!UICONTROL Label]** field.
+1. La clave de integración es específica para cada aplicación. Vincula la aplicación móvil a Adobe Campaign.
 
-   Asegúrese de que la misma **[!UICONTROL Integration key]** se define en Adobe Campaign y en el código de la aplicación a través del SDK.
+   Asegúrese de que es el mismo **[!UICONTROL Integration key]** se define en Adobe Campaign y en el código de la aplicación a través del SDK.
 
    Obtenga más información en [la documentación para desarrolladores](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
@@ -124,22 +124,22 @@ Para crear una aplicación para dispositivos Android, siga estos pasos:
    >
    > **[!UICONTROL Integration key]** es totalmente personalizable con un valor de cadena, pero debe ser exactamente igual al especificado en el SDK.
 
-1. Seleccione el icono de la lista **[!UICONTROL Application icon]** para personalizar la aplicación móvil en el servicio.
-1. Select **HTTP v1** en  **[!UICONTROL API version]** lista desplegable.
-1. Haga clic en **[!UICONTROL Load project json file to extract project details...]** enlace para cargar el archivo de clave JSON. Para obtener más información sobre cómo extraer el archivo JSON, consulte [Documentación de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+1. Seleccione el icono de la **[!UICONTROL Application icon]** para personalizar la aplicación móvil en el servicio.
+1. Seleccionar **HTTP v1** in  **[!UICONTROL API version]** lista desplegable.
+1. Clic **[!UICONTROL Load project json file to extract project details...]** para cargar el archivo con clave JSON. Para obtener más información sobre cómo extraer el archivo JSON, consulte [Documentación de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
    También puede introducir manualmente los siguientes detalles:
    * **[!UICONTROL Project Id]**
    * **[!UICONTROL Private Key]**
    * **[!UICONTROL Client Email]**
 
-1. Utilice la variable **[!UICONTROL Test the connection]** para validar la configuración.
+1. Utilice el **[!UICONTROL Test the connection]** para validar la configuración.
 
    >[!CAUTION]
    >
-   >La variable **[!UICONTROL Test connection]** no comprueba si el servidor MID tiene acceso al servidor FCM.
+   >El **[!UICONTROL Test connection]** no comprueba si el servidor MID tiene acceso al servidor FCM.
 
-1. (opcional) Puede enriquecer el contenido de un mensaje push con algunas **[!UICONTROL Application variables]** si es necesario. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
+1. (opcional) Puede enriquecer el contenido de un mensaje push con **[!UICONTROL Application variables]** si es necesario. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
 
 1. Haga clic en **[!UICONTROL Finish]**, luego en **[!UICONTROL Save]**. La aplicación de Android ya está lista para su uso en Campaign.
 
@@ -160,9 +160,9 @@ En esta sección se detallan los elementos específicos para la entrega de notif
 
 >[!CAUTION]
 >
->En el contexto de un [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), el registro móvil está ahora **asincrónico**. [Más información](../architecture/staging.md)
+>En el contexto de un [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), el registro móvil es ahora **asíncrono**. [Más información](../architecture/staging.md)
 
-Para crear un nuevo envío, vaya a la **[!UICONTROL Campaigns]** , haga clic en **[!UICONTROL Deliveries]** y haga clic en el botón **[!UICONTROL Create]** situado encima de la lista de envíos existentes.
+Para crear un nuevo envío, vaya a **[!UICONTROL Campaigns]** pestaña, haga clic en **[!UICONTROL Deliveries]** y haga clic en **[!UICONTROL Create]** botón situado sobre la lista de envíos existentes.
 
 ![](assets/delivery_step_1.png)
 
@@ -180,7 +180,7 @@ Para enviar notificaciones en dispositivos iOS, siga estos pasos:
 
    ![](assets/push_ios_2.png)
 
-1. Select **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, seleccione el servicio correspondiente a su aplicación móvil y, a continuación, seleccione la versión de iOS de la aplicación.
+1. Seleccionar **[!UICONTROL Subscribers of an iOS mobile application (iPhone, iPad)]**, seleccione el servicio correspondiente a su aplicación móvil y, a continuación, seleccione la versión de iOS de la aplicación.
 
    ![](assets/push_ios_3.png)
 
@@ -286,11 +286,11 @@ Para enviar notificaciones en dispositivos Android, siga estos pasos:
 
 ## Prueba, envío y monitorización de las notificaciones push
 
-Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que para otros envíos.
+Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que para los demás envíos.
 
-Obtenga información sobre cómo validar una entrega en [esta página](preview-and-proof.md).
+Obtenga información sobre cómo validar un envío en [esta página](preview-and-proof.md).
 
-Obtenga información sobre cómo confirmar y realizar la entrega en [esta página](send.md)
+Obtenga información sobre cómo confirmar y realizar el envío en [esta página](send.md)
 
-Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Obtenga más información sobre los motivos de error de entrega de notificaciones push en [esta página](delivery-failures.md#push-error-types).
+Después de enviar mensajes, puede monitorizar y realizar un seguimiento de las entregas. Obtenga más información acerca de las razones de error de entrega de notificaciones push en [esta página](delivery-failures.md#push-error-types).
 

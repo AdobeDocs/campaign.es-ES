@@ -103,7 +103,7 @@ Los operadores locales deben pertenecer al grupo de operadores **[!UICONTROL Loc
 
 ### Entidades organizativas {#organizational-entities}
 
-Para crear una entidad organizativa, haga clic en el botón **[!UICONTROL Administration > Access management > Organizational entities]** y haga clic en **[!UICONTROL New]** sobre la lista de entidades.
+Para crear una entidad organizativa, haga clic en **[!UICONTROL Administration > Access management > Organizational entities]** y haga clic en la **[!UICONTROL New]** sobre la lista de entidades.
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 

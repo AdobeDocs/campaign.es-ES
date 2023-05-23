@@ -90,6 +90,6 @@ A través de una interfaz de usuario intuitiva, los administradores pueden monit
 
 ![](assets/subdomain1.png)
 
-![](../assets/do-not-localize/glass.png) [Obtenga más información sobre el Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}
+![](../assets/do-not-localize/glass.png) [Más información sobre el Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}
 
 

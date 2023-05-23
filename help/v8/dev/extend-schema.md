@@ -1,6 +1,6 @@
 ---
 title: Ampliación de esquemas de Campaign
-description: Descubra cómo ampliar los esquemas de Campaign
+description: Obtenga información sobre cómo ampliar los esquemas de Campaign
 feature: Schema Extension
 role: Developer
 level: Intermediate, Experienced
@@ -14,39 +14,39 @@ ht-degree: 2%
 
 # Ampliación de un esquema{#extend-schemas}
 
-Como usuario técnico, puede personalizar el modelo de datos de Campaign para satisfacer las necesidades de su implementación: añadir elementos a un esquema existente, modificar un elemento de un esquema o eliminar elementos.
+Como usuario técnico, puede personalizar el modelo de datos de Campaign para satisfacer las necesidades de la implementación: añadir elementos a un esquema existente, modificar un elemento de un esquema o eliminar elementos.
 
 Los pasos clave para personalizar el modelo de datos de Campaign son:
 
-1. Crear un esquema de extensión
-1. Actualización de la base de datos de Campaign
+1. Creación de un esquema de extensión
+1. Actualizar base de datos de Campaign
 1. Adaptación del formulario de entrada
 
 >[!CAUTION]
 >El esquema integrado no debe modificarse directamente. Si necesita adaptar un esquema integrado, debe ampliarlo.
 
-![](../assets/do-not-localize/glass.png) Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta página](datamodel.md). Consulte también las recomendaciones al crear un nuevo esquema en [esta página](create-schema.md).
+![](../assets/do-not-localize/glass.png) Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta página](datamodel.md). Consulte también recomendaciones al crear un nuevo esquema en [esta página](create-schema.md).
 
 Para ampliar un esquema, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Administration > Configuration > Data schemas]** en el Explorador.
-1. Haga clic en el **Nuevo** y seleccione **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. Vaya a **[!UICONTROL Administration > Configuration > Data schemas]** en el Explorador.
+1. Haga clic en **Nuevo** y seleccione **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
-1. Identifique el esquema integrado que desea ampliar y selecciónelo.
+1. Identifique el esquema integrado para ampliarlo y seleccionarlo.
 
    ![](assets/extend-schema-select.png)
 
-   Por convención, asigne el mismo nombre al esquema de extensión que al esquema integrado y utilice un espacio de nombres personalizado.  Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces)
+   De forma predeterminada, asigne al esquema de extensión el mismo nombre que al esquema integrado y utilice un área de nombres personalizada.  Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces)
 
    ![](assets/extend-schema-validate.png)
 
-1. Una vez en el editor de esquemas, añada los elementos que necesite utilizando el menú contextual y guarde.
+1. Una vez en el editor de esquemas, añada los elementos que necesite mediante el menú contextual y guarde.
 
    ![](assets/extend-schema-edit.png)
 
-   En el ejemplo siguiente, agregamos la variable **MembershipYear** , establezca un límite de longitud para los apellidos (este límite sobrescribirá el predeterminado) y elimine la fecha de nacimiento del esquema integrado.
+   En el siguiente ejemplo, agregamos el **MembershipYear** , establezca un límite de longitud para el apellido (este límite sobrescribirá el predeterminado) y elimine la fecha de nacimiento del esquema integrado.
 
    ![](assets/extend-schema-sample.png)
 
@@ -62,10 +62,10 @@ Para ampliar un esquema, siga los pasos a continuación:
    </srcSchema>
    ```
 
-1. Desconecte y vuelva a conectarse a Campaign para comprobar la actualización de la estructura del esquema en la **[!UICONTROL Structure]** pestaña .
+1. Desconéctese y vuelva a conectarse a Campaign para comprobar la actualización de la estructura de esquema en **[!UICONTROL Structure]** pestaña.
 
    ![](assets/extend-schema-structure.png)
 
 1. Actualice la estructura de la base de datos para aplicar los cambios. [Más información](update-database-structure.md)
 
-1. Una vez implementados los cambios en la base de datos, se puede adaptar el formulario de entrada de destinatarios para que los cambios sean visibles. [Más información](forms.md)
+1. Una vez implementados los cambios en la base de datos, se puede adaptar el formulario de entrada de destinatario para que los cambios sean visibles. [Más información](forms.md)

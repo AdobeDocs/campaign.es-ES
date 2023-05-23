@@ -23,7 +23,7 @@ Utilice los cubos para crear informes e identificar y seleccionar datos de la ba
 
 ### Paso 1: Creación de un informe basado en un cubo {#step-1---create-a-report-based-on-a-cube}
 
-Una vez que la variable [el cubo está configurado](cube-indicators.md), se puede utilizar como plantilla para crear un nuevo informe.
+Una vez que [cubo configurado](cube-indicators.md), se puede utilizar como plantilla para crear un nuevo informe.
 
 Para crear un informe basado en un cubo existente, siga los pasos a continuación:
 
@@ -83,15 +83,15 @@ Los botones **[!UICONTROL Add]** en cada eje permiten añadir dimensiones.
 
 ### Paso 3: Configuración de las medidas que desea mostrar {#step-3---configure-the-measures-to-display}
 
-Una vez definidas las líneas y las columnas, seleccione qué medidas desea mostrar. De forma predeterminada, solo se muestra una medida.
+Una vez definidas las líneas y las columnas, seleccione las medidas que desee mostrar. De forma predeterminada, solo se muestra una medida.
 
-Para agregar y configurar medidas, siga los pasos a continuación:
+Para añadir y configurar medidas, siga los pasos a continuación:
 
 1. Haga clic en el botón **[!UICONTROL Measures]**.
 
    ![](assets/cube-measure-button.png)
 
-1. Con el **[!UICONTROL Use a measure]** seleccione una de las medidas existentes.
+1. Con el **[!UICONTROL Use a measure]** , seleccione una de las medidas existentes.
 
    ![](assets/cube-add-measure.png)
 
@@ -105,7 +105,7 @@ Para agregar y configurar medidas, siga los pasos a continuación:
 
    A continuación puede elegir si desea mostrar o no las etiquetas de medida. [Más información](customize-cubes.md#configure-the-display).
 
-1. Puede crear nuevas medidas basadas en las existentes. Para ello, haga clic en **[!UICONTROL Create a measure]** y configúrelo.
+1. Puede generar nuevas medidas basadas en las existentes. Para ello, haga clic en **[!UICONTROL Create a measure]** y configúrelo.
 
    ![](assets/cube-create-new-measure.png)
 
@@ -119,11 +119,11 @@ Para agregar y configurar medidas, siga los pasos a continuación:
    * Variación: esta medida permite calcular la variación en valores de un nivel.
    * Desviación estándar: este tipo de medida permite calcular las desviaciones dentro de cada grupo de celdas en comparación con la media de los valores. Por ejemplo, se puede comparar el volumen de compra de todos los segmentos existentes.
 
-   Una vez creada, la medida se agrega al informe.
+   Una vez creada, la medida se añade al informe.
 
    ![](assets/cube-display-new-measure.png)
 
-   Una vez creada una medida, puede editarla y cambiar su configuración. Para ello, haga clic en el botón **[!UICONTROL Measures]** y luego vaya a la pestaña de la medida que desea editar.
+   Una vez creada una medida, puede editarla y cambiar su configuración. Para ello, haga clic en el **[!UICONTROL Measures]** y, a continuación, vaya a la pestaña de la medida que desea editar.
 
    A continuación, haga clic en **[!UICONTROL Edit the dynamic measure]** para acceder al menú de configuración.
 
@@ -143,7 +143,7 @@ Para agrupar una población en una lista, siga los pasos a continuación:
 
    ![](assets/cube-show-cart.png)
 
-1. Utilice la variable **[!UICONTROL Export]** para agrupar los elementos del carro en una lista.
+1. Utilice el **[!UICONTROL Export]** para agrupar los elementos del carro en una lista.
 
    Introduzca el nombre de la lista y seleccione el tipo de exportación que desea realizar.
 
@@ -157,7 +157,7 @@ Para agrupar una población en una lista, siga los pasos a continuación:
 
    Puede guardar el contenido del carro o vaciarlo.
 
-   La nueva lista está disponible a través del **[!UICONTROL Profiles and targets]** pestaña .
+   La nueva lista está disponible a través de **[!UICONTROL Profiles and targets]** pestaña.
 
    ![](assets/cube-list-available.png)
 

@@ -12,7 +12,7 @@ ht-degree: 93%
 
 # Costes de control{#controlling-costs}
 
-Adobe Campaign permite controlar los costes de marketing programados, comprometidos y facturados, así como desglosarlos por categoría, mediante el módulo Gestión de recursos de marketing .
+Adobe Campaign permite controlar los costes de marketing programados, comprometidos y facturados y desglosarlos por categoría mediante el módulo Gestión de recursos de marketing.
 
 Los costes comprometidos para los distintos procesos de una campaña se cobran a un presupuesto establecido de antemano por el departamento de marketing. Las cantidades se pueden desglosar en varias categorías para facilitar la comprensión de la información y proporcionar informes más detallados sobre las inversiones de marketing.
 
@@ -24,17 +24,17 @@ Se deben aplicar los pasos siguientes para implementar la administración del pr
 
 1. Defina el presupuesto. [Más información](#creating-a-budget).
 
-1. Defina el método de cálculo de costes: las estructuras de coste se definen para los proveedores de servicios. [Más información](../campaigns/providers--stocks-and-budgets.md).
+1. Defina el método de cálculo de costes: las estructuras de costes se definen para los proveedores de servicios. [Más información](../campaigns/providers--stocks-and-budgets.md).
 
-1. Defina los costes de campaña (envíos/tareas) : los costes incurridos por las entregas y las tareas se introducen de forma individual o global para la plantilla de campaña. [Más información](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
+1. Defina los costes de campaña (entregas/tareas) : los costes incurridos por las entregas y las tareas se introducen de forma individual o global para la plantilla de campaña. [Más información](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
 
-1. Consolidar: según el estado de progreso de las tareas, los envíos y la campaña, los costes se calculan y se transfieren al presupuesto correspondiente. Cuando la creación de la campaña avanza lo suficiente, el estado del progreso del presupuesto de la campaña se puede cambiar a **[!UICONTROL Specified]**. El coste calculado del programa se introduce automáticamente con el coste calculado de la campaña. [Más información](#cost-commitment--calculation-and-charging).
+1. Consolidar: según el estado de progreso de las tareas, las entregas y la campaña, los costes se calculan y se transfieren al presupuesto correspondiente. Cuando la creación de la campaña avanza lo suficiente, el estado del progreso del presupuesto de la campaña se puede cambiar a **[!UICONTROL Specified]**. El coste calculado del programa se introduce automáticamente con el coste calculado de la campaña. [Más información](#cost-commitment--calculation-and-charging).
 
 ## Creación de un presupuesto {#creating-a-budget}
 
 Para crear un presupuesto, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Campaign management > Budgets]** carpeta del explorador de Campaign.
+1. Vaya a la **[!UICONTROL Campaign management > Budgets]** del explorador de Campaign.
 1. Haga clic en el icono **[!UICONTROL New]**, cambie el nombre del presupuesto y guárdelo.
 1. Introduzca la cantidad inicial: indique la cantidad asignada en el campo correspondiente. Las demás cantidades se introducen automáticamente. [Más información](#calculating-amounts).
 1. Defina el periodo de validez introduciendo las fechas de inicio y finalización. Esta información es meramente ilustrativa.
@@ -274,7 +274,7 @@ Al editar el coste calculado, puede comprobar el desglose del coste y el estado 
 
 #### Paso 5: Creación de tareas {#step-5---creating-tasks}
 
-A esta campaña, agregaremos las dos tareas para las que se establecieron las estructuras de coste [creado anteriormente](#step-2---configuring-the-service-provider-and-defining-the-cost-structures).
+A esta campaña, agregaremos las dos tareas para las que se mostraron las estructuras de coste [creado anteriormente](#step-2---configuring-the-service-provider-and-defining-the-cost-structures).
 
 Para ello, en el panel de campañas, haga clic en el botón **[!UICONTROL Add a task]**. Asigne un nombre a la tarea y haga clic en **[!UICONTROL Save]**.
 

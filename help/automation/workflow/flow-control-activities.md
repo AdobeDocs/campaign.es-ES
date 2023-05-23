@@ -16,7 +16,7 @@ ht-degree: 63%
 Las siguientes actividades son actividades de base de datos: se utilizan para coordinar las actividades de flujo de trabajo.
 
 * **[Alert](alert.md)**: permite enviar una advertencia a un operador o a un grupo de operadores.
-* **[AND-join](and-join.md)**: permite esperar a que se finalicen varias tareas a la vez antes de continuar.
+* **[AND-join](and-join.md)**: le permite esperar a que se completen varias tareas a la vez antes de continuar.
 * **[Approval](approval.md)**: permite enviar un correo electrónico a un operador o a un grupo de operadores y esperar a que la aprobación continúe con la ejecución.
 * **[External signal](external-signal.md)**: permite activar la transición saliente después de recibir una señal externa.
 * **[Fork](fork.md)**: permite activar todas las transiciones salientes.

@@ -1,6 +1,6 @@
 ---
 title: Creación de flujos de trabajo de objetivos
-description: Aprenda a crear audiencias de destino en un flujo de trabajo
+description: Obtenga información sobre cómo crear audiencias de destino en un flujo de trabajo
 feature: Query Editor, Data Management
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
@@ -60,13 +60,13 @@ Mientras que para **Visitantes**, la lista contendrá las siguientes dimensiones
 
 ## Creación de consultas {#create-queries}
 
-### Trabajar con datos adicionales {#select-data}
+### Trabajo con datos adicionales {#select-data}
 
 Una actividad **[!UICONTROL Query]** permite seleccionar datos básicos para crear la población objetivo. Para obtener más información, consulte [esta sección](query.md#create-a-query).
 
 También puede utilizar las siguientes actividades para consultar y acotar los datos de la base de datos: [Incremental query](incremental-query.md), [Read list](read-list.md).
 
-Se pueden recopilar datos adicionales que reenviar y procesar a lo largo del ciclo de vida del flujo de trabajo. Para obtener más información, consulte [Añadir datos](query.md#add-data) y [Editar datos adicionales](#edit-additional-data).
+Se pueden recopilar datos adicionales que reenviar y procesar a lo largo del ciclo de vida del flujo de trabajo. Para obtener más información, consulte [Añadir datos](query.md#add-data) y [Edición de datos adicionales](#edit-additional-data).
 
 ### Edición de datos adicionales {#edit-additional-data}
 
@@ -80,7 +80,7 @@ Para añadir datos a las columnas de salida definidas anteriormente, seleccióne
 
 ![](assets/query_add_an_output_column.png)
 
-Haga clic en el **Selección avanzada** botón.
+Haga clic en **Selección avanzada** botón.
 
 ![](assets/query_add_an_output_column_formula.png)
 
@@ -94,7 +94,7 @@ Los subelementos se representan en el subárbol de la colección a la que se asi
 
 Las colecciones se muestran en la subpestaña **[!UICONTROL Collections]**. Puede filtrar los elementos recopilados haciendo clic en el icono **[!UICONTROL Detail]** de la colección seleccionada. El asistente de filtro permite seleccionar los datos recopilados y especificar las condiciones de filtrado que se deben aplicar a los datos de la colección.
 
-### Definición de un objetivo mediante datos adicionales {#refine-the-target-using-additional-data}
+### Acotamiento de un objetivo mediante el uso de datos adicionales {#refine-the-target-using-additional-data}
 
 Los datos adicionales recopilados pueden permitirle acotar el filtrado de datos de la base de datos. Para ello, haga clic en el enlace **[!UICONTROL Refine the target using additional data...]**: esto permite volver a filtrar los datos añadidos.
 
@@ -106,7 +106,7 @@ En las actividades de tipo **[!UICONTROL Union]** o **[!UICONTROL Intersection]*
 
 ![](assets/use-common-add-data-only.png)
 
-### Reconciliación con datos adicionales {#reconciliation-with-additional-data}
+### Reconciliación con los datos adicionales {#reconciliation-with-additional-data}
 
 Durante las fases de conciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. actividades), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
 

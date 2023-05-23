@@ -1,7 +1,7 @@
 ---
 product: campaign
-title: Cambiar dimensión en un flujo de trabajo
-description: Descubra cómo utilizar la actividad Change dimension
+title: Cambiar la dimensión en un flujo de trabajo
+description: Aprenda a utilizar la actividad de la dimensión Cambiar
 feature: Workflows, Targeting Activity
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
@@ -13,11 +13,11 @@ ht-degree: 75%
 
 # Cambio de dimensión{#change-dimension}
 
-Utilice la variable **[!UICONTROL Change dimension]** actividad para cambiar la dimensión de segmentación mientras crea una audiencia. Esta actividad cambia el eje en función de la plantilla de datos y la dimensión de entrada. Por ejemplo, cambia de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
+Utilice el **[!UICONTROL Change dimension]** actividad para cambiar la dimensión de segmentación mientras crea una audiencia. Esta actividad desplaza el eje según la plantilla de datos y la dimensión de entrada. Por ejemplo, cambia de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
 
-También puede utilizar esta actividad para definir las columnas adicionales del nuevo destino y los criterios de deduplicación de datos.
+También puede utilizar esta actividad para definir las columnas adicionales del nuevo destinatario y los criterios de anulación de duplicación de datos.
 
-Para configurar la variable **[!UICONTROL Change dimension]** , siga los siguientes pasos:
+Para configurar la variable **[!UICONTROL Change dimension]** actividad, siga los siguientes pasos:
 
 1. Seleccione la nueva dimensión de destino mediante el campo **[!UICONTROL Change dimension]**.
 

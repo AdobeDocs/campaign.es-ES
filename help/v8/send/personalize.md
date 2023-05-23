@@ -1,6 +1,6 @@
 ---
 title: Introducción a la personalización
-description: Obtenga información sobre cómo personalizar el contenido del mensaje
+description: Aprenda a personalizar el contenido del mensaje
 feature: Personalization
 role: User
 level: Beginner
@@ -8,36 +8,36 @@ exl-id: 1da45746-4d69-415b-a793-9a08ce80091d
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '471'
-ht-degree: 30%
+ht-degree: 59%
 
 ---
 
 # Introducción a la personalización {#personalize-content}
 
-Para sacar el máximo partido a cada campaña de marketing, Adobe Campaign le ofrece una forma de ofrecer contenido personalizado que hable con los clientes a su nivel. En función de los datos de perfil, las capacidades de personalización para crear una experiencia personalizada para diferentes grupos e individuos: puede adaptar los mensajes a cada destinatario específico aprovechando los datos y la información que tiene sobre ellos. Puede ser su nombre, intereses, dónde viven, qué compraron y mucho más.
+Para sacar el máximo partido a cada campaña de marketing, Adobe Campaign le ofrece una forma de ofrecer contenido personalizado que hable con los clientes de su nivel. En función de los datos de perfil, las capacidades de personalización permiten crear una experiencia personalizada para diferentes grupos e individuos: puede adaptar los mensajes a cada destinatario específico aprovechando los datos y la información que tiene sobre ellos. Puede ser su nombre, intereses, dónde viven, qué compraron y mucho más.
 
-Adobe Campaign simplifica la personalización: puede mostrar diferentes tipos de contenido personalizados para cada destinatario con un solo [plantilla de correo electrónico](create-templates.md). En los mensajes transaccionales, como los correos electrónicos de confirmación de compra o abandono del carro de compras, incluya información de listas de productos para cada individuo dentro de una sola plantilla de correo electrónico.
+Adobe Campaign simplifica la personalización: puede mostrar diferentes tipos de contenido personalizado para cada destinatario con un solo [plantilla de correo electrónico](create-templates.md). En los mensajes transaccionales, como los correos electrónicos de confirmación de compra o de abandono del carro de compras, incluya información de listados de productos para cada individuo dentro de una sola plantilla de correo electrónico.
 
 
 ## Estrategias de personalización {#personalization-strategy}
 
 Utilice Campaign para crear contenido dinámico y enviar mensajes personalizados. Las funcionalidades de personalización se pueden combinar para mejorar sus mensajes y crear una experiencia de usuario personalizada.
 
-Puede personalizar el contenido del mensaje:
+Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
-* Inserción dinámica **campos personalizados**
+* Inserción dinámica de **campos de personalización**
 
-   Los campos personalizados se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para una entrega, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o la entrega. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. [Más información](personalization-fields.md).
+   Los campos de personalización se utilizan para la personalización de primer nivel de los mensajes. Puede seleccionar cualquier campo disponible en la base de datos desde el editor de personalización. Para un envío, se puede seleccionar cualquier campo relacionado con el destinatario, el mensaje o el envío. Estos atributos de personalización se pueden insertar en la línea de asunto o en el cuerpo de los mensajes. [Más información](personalization-fields.md).
 
    La siguiente sintaxis inserta la ciudad del destinatario en el contenido: &lt;%= recipient.location.city %>.
 
-* Inserción predefinida **bloques de contenido**
+* Inserción predefinida de los **bloques de contenido**
 
-   Campaign viene con un conjunto de bloques personalizados que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a la página espejo del mensaje. Los bloques de contenido están disponibles desde una entrada dedicada en el editor de personalización. [Más información](personalization-blocks.md).
+   Campaign incluye un conjunto de bloques de personalización que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a la página espejo del mensaje. Los bloques de contenido están disponibles en la entrada del editor de personalización. [Más información](personalization-blocks.md).
 
 * Crear **contenido condicional**
 
-   Configure contenido condicional para añadir personalización dinámica en función del perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando una condición concreta es verdadera. [Más información](conditions.md).
+   Configure el contenido condicional para añadir personalización dinámica basada en el perfil del destinatario, por ejemplo. Los bloques de texto o las imágenes se insertan cuando una condición en particular es verdadera. [Más información](conditions.md).
 
 <!--* Add **personalized offers**
     
@@ -45,7 +45,7 @@ Puede personalizar el contenido del mensaje:
 -->
 
 
-## Seguridad y recomendaciones{#perso-guardrails}
+## Protecciones y recomendaciones{#perso-guardrails}
 
 ### Tiempo de espera de personalización{#perso-timeout}
 

@@ -1,5 +1,5 @@
 ---
-title: Concesión de permisos para Campaign v8
+title: Concesión de permisos a Campaign v8
 description: Obtenga información sobre cómo conceder permisos a Campaign v8
 feature: Permissions
 role: User, Admin

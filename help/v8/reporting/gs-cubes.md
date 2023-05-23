@@ -14,9 +14,9 @@ ht-degree: 77%
 
 # Introducción a los informes de análisis de Campaign {#gs-cube}
 
-Adobe Campaign incorpora una intuitiva herramienta de exploración de datos para crear informes dinámicos.
+Adobe Campaign incluye una herramienta de exploración de datos intuitiva para crear informes dinámicos.
 
-Utilice las capacidades de marketing analytics para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Puede crear informes y crear poblaciones de destinatarios y almacenarlas en listas que se puedan usar en Adobe Campaign para tareas de segmentación o segmentación.
+Utilice las capacidades de análisis de marketing para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Puede crear informes y generar poblaciones de público objetivo y almacenarlas en listas que se pueden utilizar en Adobe Campaign para tareas de segmentación o segmentación.
 
 Puede ampliar las capacidades de análisis y exploración de base de datos al mismo tiempo que facilita a los usuarios finales la configuración de informes y tablas: estos últimos solo necesitan seleccionar un cubo existente (completamente configurado) al crear su informe o tabla para procesar cálculos, medidas y estadísticas.
 
@@ -34,7 +34,7 @@ Utilice el módulo Campaign Marketing Analytics para lo siguiente:
 
    Para obtener más información sobre esto, consulte [Creación de indicadores](cube-indicators.md).
 
-1. Crear tablas dinámicas explorar datos
+1. Crear tablas dinámicas y explorar datos
 
    * explorar datos calculados y medidas configuradas,
    * seleccionar los datos que se van a mostrar y su modo de visualización,
@@ -52,7 +52,7 @@ A continuación se enumeran términos específicos al trabajar con cubos.
 
 * **Cubo**: un cubo es una representación de información multidimensional; proporciona a los usuarios finales estructuras diseñadas para el análisis interactivo de los datos.
 
-* **Tabla o esquema de hechos** - La tabla de hechos (o esquema de hechos) contiene los datos sin procesar o básicos en los que se basarán los análisis. Principalmente, se trata de tablas de gran volumen (posiblemente con tablas enlazadas) con cálculos que pueden ser largos. Por ejemplo, una tabla de datos puede ser: la tabla de broadlog, la tabla de compras, etc.
+* **Tabla de hechos/esquema** : la tabla de hechos (o esquema de hechos) contiene los datos sin procesar o básicos sobre los que se basan los análisis. Principalmente, se trata de tablas de gran volumen (posiblemente con tablas enlazadas) con cálculos que pueden ser largos. Por ejemplo, una tabla de datos puede ser: la tabla de broadlog, la tabla de compras, etc.
 
 * **Dimensión**: las dimensiones permiten segmentar los datos en grupos: una vez creadas, las dimensiones actúan como ejes de análisis. En la mayoría de los casos se definen varios niveles para una dimensión determinada. Por ejemplo, para una dimensión temporal, los niveles son meses, días, horas, minutos, etc. Este conjunto de niveles representa la jerarquía de dimensiones y permite varios niveles de análisis de datos.
 

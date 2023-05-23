@@ -16,7 +16,7 @@ ht-degree: 82%
 
 ## Novedades
 
-* **[[!DNL Adobe Campaign] guía de automatización](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=es){target="_blank"}** - Aprenda a crear flujos de trabajo y campañas
+* **[[!DNL Adobe Campaign] guía de automatización](https://experienceleague.adobe.com/docs/campaign/automation/home.html?lang=es){target="_blank"}** : Aprenda a crear flujos de trabajo y campañas
 
 * **[Qué es [!DNL Adobe Campaign]](start/get-started.md)**: funciones clave y casos de uso
 
@@ -26,7 +26,7 @@ ht-degree: 82%
 
 * **[De la versión 7 a la versión 8](start/v7-to-v8.md)**: ¿Se está realizando la transición de Campaign Classic v7 a v8? Descubra las principales diferencias
 
-* **[Panel de control de Campaign para Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}** : realice tareas de administrador clave por su cuenta con Campaign Panel de control de Campaign
+* **[Panel de control de Campaign para Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=es){target="_blank"}** : realice tareas de administrador clave por su cuenta con el Panel de control de Campaign de Campaign
 
 * **[Notas de la versión](start/release-notes.md)**: descubra las últimas funciones y mejoras
 

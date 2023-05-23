@@ -20,7 +20,7 @@ Estas actividades permiten crear uno o más objetivos definiendo conjuntos y div
 * **[Cambiar fuente de datos](change-data-source.md)**: permite cambiar la fuente de datos de un flujo de trabajo **[!UICONTROL Working table]**. Esto proporciona más flexibilidad para administrar los datos en diferentes fuentes de datos, como FDA, FFDA y bases de datos locales.
 * **[Change dimension](change-dimension.md)**: permite cambiar la dimensión de destino durante el ciclo de la construcción del flujo de trabajo.
 * **[Deduplication](deduplication.md)**: permite eliminar duplicados de las actividades entrantes.
-* **[Descripción de la entrega](delivery-outline.md)** (solo en flujos de trabajo de campaña): permite añadir un esquema de entrega.
+* **[Descripción del envío](delivery-outline.md)** (solo en flujos de trabajo de campaña): permite añadir una descripción de la entrega.
 * **[Edit schema](edit-schema.md)**: permite transformar, estandarizar y, si es necesario, enriquecer los datos.
 * **[Enrichment](enrichment.md)**: permite agregar columnas a una tabla o a un flujo de trabajo.
 * **[Exclusion](exclusion.md)**: permite crear un objetivo basado en un objetivo principal del que se extraen uno o más objetivos.

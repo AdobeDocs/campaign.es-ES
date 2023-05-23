@@ -7,7 +7,7 @@ exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
 source-wordcount: '1664'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -92,7 +92,7 @@ Para simplificar la identificación del flujo de trabajo, se recomienda utilizar
 
 La mayor parte del tiempo no sabrá desde dónde se llama a la señal. Para evitar este problema, utilice el campo **[!UICONTROL Comment]** dentro de la pestaña **[!UICONTROL Advanced]** de la actividad de señal para documentar el origen esperado de una señal para esta actividad.
 
-## Actualizaciones del flujo de trabajo {#workflow-update}
+## Actualizaciones de flujo de trabajo {#workflow-update}
 
 Un flujo de trabajo de producción no se debe actualizar directamente. A menos que el proceso consista en crear una campaña con flujos de trabajo de plantilla, los procesos deben probarse primero en un entorno de desarrollo. Después de esta validación, el flujo de trabajo se puede implementar e iniciar en la producción.
 
@@ -108,7 +108,7 @@ El método JavaScript **[!UICONTROL logInfo()]** es una solución para depurar u
 
 ### Mantener poblaciones provisionales
 
-La variable **Mantener el resultado de las poblaciones provisionales entre dos ejecuciones** mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo.
+El **Mantener el resultado de poblaciones provisionales entre dos ejecuciones** mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo.
 
 Está disponible en la pestaña **[!UICONTROL General]** de las propiedades del flujo de trabajo y se puede utilizar para fines de desarrollo y prueba para controlar los datos y comprobar los resultados. Puede utilizar esta opción en entornos de desarrollo, pero nunca en entornos de producción. Si mantiene las tablas temporales, el tamaño de la base de datos puede aumentar significativamente y finalmente alcanzar el límite de tamaño. Además, ralentiza la copia de seguridad.
 
@@ -116,29 +116,29 @@ Solo se conservan las tablas de trabajo de la última ejecución del flujo de tr
 
 >[!CAUTION]
 >
->Esta opción debe **never** esté marcado en un **producción** flujo de trabajo. Esta opción se utiliza para analizar los resultados y está diseñada únicamente para fines de prueba y, por lo tanto, solo debe usarse en entornos de ensayo o desarrollo.
+>Esta opción **nunca** se debe marcar en un flujo de trabajo de **producción**. Esta opción se utiliza para analizar los resultados y está diseñada únicamente para fines de prueba y, por lo tanto, solo debe usarse en entornos de ensayo o desarrollo.
 
 
 ### Registrar consultas SQL
 
-La variable **Registrar consultas SQL en el historial** está disponible en la **[!UICONTROL Execution]** de las propiedades del flujo de trabajo. Esta opción registra todas las consultas SQL de las diferentes actividades y proporciona una forma de ver qué es lo que realmente ejecuta la plataforma. Sin embargo, esta opción solo debe utilizarse **temporal** durante el desarrollo y **no activado en producción**.
+El **Registrar consultas SQL en el historial** está disponible en la **[!UICONTROL Execution]** de las propiedades del flujo de trabajo. Esta opción registra todas las consultas SQL de las diferentes actividades y proporciona una forma de ver qué ejecuta realmente la plataforma. Sin embargo, esta opción solo debe utilizarse **temporalmente** durante el desarrollo y **no activado en producción**.
 
-Una práctica recomendada es depurar los registros cuando ya no se necesitan. El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Actions ubicado en la barra de herramientas situada encima de la lista. Seleccione Purge history.
+La práctica recomendada es purgar los registros cuando ya no los necesite. El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Actions ubicado en la barra de herramientas situada encima de la lista. Seleccione Purge history.
 Para aprender a purgar los registros, consulte esta [documentación](start-a-workflow.md).
 
 ### Planificación de flujo de trabajo {#workflow-planning}
 
-Se deben aplicar prácticas recomendadas adicionales en la planificación de la ejecución de flujos de trabajo para evitar problemas:
+Se deben aplicar prácticas recomendadas adicionales en la planificación de la ejecución de los flujos de trabajo para evitar problemas:
 
-* Mantenga un nivel estable de actividad a lo largo del día y evite picos para evitar que la instancia se sobrecargue. Para ello, distribuya los tiempos de inicio del flujo de trabajo de forma uniforme a lo largo del día.
+* Mantenga un nivel estable de actividad a lo largo del día y evite los picos para evitar que la instancia se sobrecargue. Para ello, distribuya los tiempos de inicio del flujo de trabajo de forma uniforme a lo largo del día.
 * Programe la carga de datos durante la noche para reducir la contención de recursos.
 * Los flujos de trabajo largos pueden tener un impacto en los recursos de servidor y de base de datos. Divida los flujos de trabajo más largos para reducir el tiempo de procesamiento.
 * Para reducir los tiempos de ejecución generales, reemplace las actividades largas con actividades simplificadas y más rápidas.
-* Evite ejecutar más de 20 flujos de trabajo simultáneamente. Cuando se ejecutan demasiados flujos de trabajo al mismo tiempo, la plataforma se puede sobrecargar y volverse inestable.
+* Evite ejecutar más de 20 flujos de trabajo simultáneamente. Cuando se ejecutan demasiados flujos de trabajo al mismo tiempo, la plataforma puede sobrecargarse y volverse inestable.
 
 ### Ejecución del flujo de trabajo {#workflow-execution}
 
-Mejore la estabilidad de su instancia implementando las siguientes prácticas recomendadas:
+Mejore la estabilidad de las instancias mediante la implementación de las siguientes prácticas recomendadas:
 
 * **No programe un flujo de trabajo para que se ejecute con una frecuencia superior a 15 minutos**, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
 
@@ -158,6 +158,6 @@ Mejore la estabilidad de su instancia implementando las siguientes prácticas re
 
 ### Ejecutar en la opción de motor {#execute-in-the-engine-option}
 
-En un entorno de producción, evite ejecutar flujos de trabajo en el motor. Cuando la variable **[!UICONTROL Execute in the engine]** está marcada en la **[!UICONTROL Workflow properties]**, el flujo de trabajo tiene prioridad y el motor de flujo de trabajo detiene todos los demás flujos de trabajo hasta que este haya terminado.
+En un entorno de producción, evite ejecutar flujos de trabajo en el motor. Si la variable **[!UICONTROL Execute in the engine]** está marcada en la **[!UICONTROL Workflow properties]** Sin embargo, el flujo de trabajo tiene prioridad y el motor de flujos de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
 
 ![](assets/wf-execute-in-engine.png)

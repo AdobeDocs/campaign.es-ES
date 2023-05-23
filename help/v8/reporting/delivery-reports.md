@@ -16,8 +16,8 @@ Se puede realizar un seguimiento de la ejecución de los envíos a través de di
 
 Para acceder a los informes, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Campaigns]** y haga clic en **[!UICONTROL Delivery]** para mostrar la lista de envíos.
-1. Haga clic en el nombre de la entrega a la que desea acceder a los informes.
+1. Vaya a la **[!UICONTROL Campaigns]** y haga clic en la pestaña **[!UICONTROL Delivery]** para mostrar la lista de envíos.
+1. Haga clic en el nombre de la entrega al que desee acceder.
 1. Seleccione la pestaña **[!UICONTROL Summary]** y haga clic en el vínculo **[!UICONTROL Reports]** para acceder a los informes específicos de la entrega.
 
    ![](assets/detailed-report-2.png)
@@ -202,4 +202,4 @@ Se pueden mostrar informes acumulados sobre las entregas. Para ello, seleccione 
 
 Para seleccionar entregas no adyacentes de la lista, mantenga pulsada la tecla CTRL mientras realiza la selección.
 
-Para seleccionar entregas guardadas en una carpeta diferente, haga clic en el **[!UICONTROL Display sub-levels]** , accesible en la barra de herramientas. A continuación, se muestran en la misma lista.
+Para seleccionar entregas guardadas en una carpeta diferente, haga clic en **[!UICONTROL Display sub-levels]** , accesible en la barra de herramientas. A continuación, se muestran en la misma lista.

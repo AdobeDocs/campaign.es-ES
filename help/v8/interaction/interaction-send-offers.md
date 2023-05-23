@@ -1,5 +1,5 @@
 ---
-title: Envío de una oferta con Campaign Interaction
+title: Envío de una oferta con interacción de Campaign
 description: Obtenga información sobre cómo enviar una oferta
 feature: Interaction, Offers
 role: Data Engineer
@@ -14,15 +14,15 @@ ht-degree: 63%
 
 # Enviar una oferta {#send}
 
-Para que el motor de oferta pueda seleccionar una oferta, esta se ha aprobado y está disponible en un **Activo** entorno. [Más información](interaction-offer.md#approve-offers)
+Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un **Activo** entorno. [Más información](interaction-offer.md#approve-offers)
 
-La presentación de ofertas a través de un canal de comunicación saliente se realiza mediante correo postal, correo electrónico o envíos móviles. También puede utilizar el modo unitario con mensajes transaccionales (Centro de mensajes).
+La presentación de ofertas mediante un canal de comunicación saliente se realiza mediante envíos directos por correo postal, correo electrónico o móviles. También puede utilizar el modo unitario con mensajes transaccionales (Centro de mensajes).
 
 ## Inserción de una oferta en una entrega {#offer-into-a-delivery}
 
 Para insertar propuestas de oferta en una entrega, siga los pasos a continuación:
 
-1. En la ventana de envío, haga clic en el botón **Ofertas** icono.
+1. En la ventana de envío, haga clic en **Ofertas** icono.
 
    ![](assets/offer_delivery_001.png)
 
@@ -44,7 +44,7 @@ Para insertar propuestas de oferta en una entrega, siga los pasos a continuació
 
    ![](assets/offer_delivery_006.png)
 
-1. Si es necesario, seleccione la **[!UICONTROL Do not display anything if no offers are selected]** . [Más información](#parameters-for-calling-offer-engine)
+1. Si es necesario, seleccione la **[!UICONTROL Do not display anything if no offers are selected]** opción. [Más información](#parameters-for-calling-offer-engine)
 
    ![](assets/offer_delivery_007.png)
 
@@ -66,7 +66,7 @@ Para insertar propuestas de oferta en una entrega, siga los pasos a continuació
 * **[!UICONTROL Exclude non-eligible recipients]** : esta opción permite activar o desactivar la exclusión de destinatarios para los que no haya suficientes ofertas aptas. El número de propuestas puede ser inferior al número solicitado de propuestas. Si se selecciona este cuadro, los destinatarios que no tengan suficientes propuestas se excluirán de la entrega. Si no selecciona esta opción, estos destinatarios no se excluirán, pero no tendrán el número solicitado de propuestas.
 * **[!UICONTROL Do not display anything if no offer is selected]** : esta opción le permite elegir cómo se procesará el mensaje en caso de que una de las propuestas no exista. Cuando se activa esta casilla, no se muestra la representación de la propuesta que falta y no aparecerá ningún contenido en el mensaje para esta propuesta. Si el cuadro no está activado, el mensaje en sí se cancela durante la entrega y los destinatarios ya no recibirán ningún mensaje.
 
-## Enviar ofertas en flujos de trabajo{#offer-via-wf}
+## Envío de ofertas en flujos de trabajo{#offer-via-wf}
 
 Varias actividades de flujo de trabajo permiten definir la forma en que se presentan las ofertas:
 
@@ -76,7 +76,7 @@ Varias actividades de flujo de trabajo permiten definir la forma en que se prese
 
 ### Enriquecimiento {#enrichment}
 
-La variable **Enriquecimiento** activity permite añadir ofertas o vínculos a ofertas para los destinatarios de la entrega.[Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
+El **Enriquecimiento** La actividad permite agregar ofertas o vínculos a ofertas para los destinatarios de la entrega.[Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
 
 Por ejemplo, puede ampliar los datos de una consulta al destinatario antes de una entrega.
 
@@ -87,9 +87,9 @@ Existen dos métodos para especificar propuestas de oferta.
 * Especificación de una oferta o acceso al motor de oferta.
 * Referencia al vínculo de una oferta.
 
-#### Especificación de una oferta o acceso al motor de oferta {#specifying-an-offer-or-a-call-to-the-offer-engine}
+#### Especificación de una oferta o acceso al motor de ofertas {#specifying-an-offer-or-a-call-to-the-offer-engine}
 
-Después de configurar el **Consulta** actividad:
+Después de configurar su **Consulta** actividad:
 
 1. Añada y abra un **Enriquecimiento** actividad.
 1. En la pestaña **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]**.
@@ -114,9 +114,9 @@ Después de configurar el **Consulta** actividad:
    >
    >El número de propuestas disponibles para la vista previa depende de la configuración realizada en la actividad de enriquecimiento y no de cualquier configuración realizada directamente en la entrega.
 
-#### Referencia a un vínculo de una oferta {#referencing-a-link-to-an-offer}
+#### Referencia al vínculo de una oferta {#referencing-a-link-to-an-offer}
 
-También puede hacer referencia a un vínculo de una oferta en una **Enriquecimiento** actividad.
+También puede hacer referencia a un vínculo de oferta en una **Enriquecimiento** actividad.
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -136,9 +136,9 @@ Para realizar esto, siga los pasos a continuación:
    >
    >El número de propuestas disponibles para la vista previa depende de la configuración realizada en la entrega.
 
-#### Almacenar calificaciones y consideraciones de ofertas {#storing-offer-rankings-and-weights}
+#### Puntuaciones y consideraciones de ofertas de tienda {#storing-offer-rankings-and-weights}
 
-De forma predeterminada, cuando **Enriquecimiento** actividad se utiliza para entregar ofertas, sus clasificaciones y sus consideraciones no se almacenan en la tabla de propuestas.
+De forma predeterminada, cuando una **Enriquecimiento** La actividad se utiliza para entregar ofertas, sus calificaciones y sus consideraciones no se almacenan en la tabla de propuestas.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ De forma predeterminada, cuando **Enriquecimiento** actividad se utiliza para en
 
 Sin embargo, se puede almacenar esta información de la siguiente manera:
 
-1. Cree una llamada al motor de oferta en una actividad de enriquecimiento colocada después de una consulta y antes de una actividad de envío. [Más información](#specifying-an-offer-or-a-call-to-the-offer-engine)
+1. Cree una llamada al motor de oferta en una actividad ampliada colocada después de una consulta y antes de una actividad de entrega. [Más información](#specifying-an-offer-or-a-call-to-the-offer-engine)
 1. En la ventana principal de la actividad, seleccione **[!UICONTROL Edit additional data...]**
 
    ![](assets/ita_enrichment_rankweight_1.png)
@@ -161,18 +161,18 @@ La entrega almacena automáticamente la clasificación y las consideraciones de 
 
 ### Motor de oferta {#offer-engine}
 
-La variable **[!UICONTROL Offer engine]** activity también permite especificar una llamada al motor de oferta antes de la entrega.
+El **[!UICONTROL Offer engine]** La actividad también permite especificar una llamada al motor de oferta antes de la entrega.
 
-Para obtener más información, consulte **Motor de oferta** actividad, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
+Para obtener más información sobre **Motor de oferta** actividad, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
 
-Esta actividad funciona con el mismo principio que la variable **Enriquecimiento** actividad con acceso al motor, enriqueciendo los datos de población entrantes con una oferta calculada por el motor antes de una entrega.
+Esta actividad funciona con el mismo principio que **Enriquecimiento** actividad con visualización del motor, enriqueciendo los datos de población entrantes con una oferta calculada por el motor antes de una entrega.
 
 ![](assets/int_offerengine_activity2.png)
 
-Después de configurar el **Consulta** actividad:
+Después de configurar su **Consulta** actividad:
 
 1. Añada y abra una actividad **[!UICONTROL Offer engine]**.
-1. Complete los distintos campos disponibles para especificar la llamada a los parámetros del motor de oferta (espacio de oferta, categoría o tema(s), fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar.
+1. Complete los distintos campos disponibles para especificar el uso de los parámetros del motor de oferta (ofrecer espacio, categoría o tema, fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar.
 
    >[!CAUTION]
    >
@@ -186,7 +186,7 @@ Después de configurar el **Consulta** actividad:
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-Para obtener más información, consulte **Oferta por celda** actividad, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
+Para obtener más información sobre **Oferta por celda** actividad, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
 
 Para ello, utilice el proceso siguiente:
 

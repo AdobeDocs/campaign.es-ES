@@ -1,6 +1,6 @@
 ---
-title: Perfiles de operador
-description: Creación de operadores de administración de ofertas
+title: Perfiles de operadores
+description: Creación de operadores de Administración de ofertas
 feature: Interaction, Offers
 role: Data Engineer
 level: Beginner
@@ -12,34 +12,34 @@ ht-degree: 37%
 
 ---
 
-# Perfiles de operador {#operator-profiles}
+# Perfiles de operadores {#operator-profiles}
 
-Dos tipos de operadores pueden utilizar Campaign Interaction: **Administradores de ofertas** y **Administradores de envío**. Cada uno de ellos tiene permisos y restricciones específicos. Obtenga más información sobre los operadores y permisos de Campaign en [esta página](../start/gs-permissions.md).
+Dos tipos de operadores pueden utilizar la interacción de campaña: **Administradores de ofertas** y **Administradores de envío**. Cada uno de ellos tiene permisos y restricciones específicos. Obtenga más información acerca de los operadores y permisos de Campaign en [esta página](../start/gs-permissions.md).
 
-* La variable **[!UICONTROL Offer manager]** crea y mantiene ofertas.
-* La variable **[!UICONTROL Delivery manager]** aprueba y utiliza ofertas
+* El **[!UICONTROL Offer manager]** crea y mantiene ofertas.
+* El **[!UICONTROL Delivery manager]** aprueba y utiliza ofertas
 
-## Creación de un operador de gestor de ofertas{#offer-manager}
-
-1. Creación de un operador. [Más información](../start/manage-permissions.md#add-users)
-1. Vaya a la **[!UICONTROL Groups and named rights]** ventana, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Offer manager]** grupo.
-
-Se describen los permisos asociados a los administradores de ofertas [here](../start/manage-permissions.md#ootb-productprofiles)
-
-## Creación de un operador Delivery manager {#delivery-manager}
+## Creación de un operador de Offer manager{#offer-manager}
 
 1. Creación de un operador. [Más información](../start/manage-permissions.md#add-users)
-1. Vaya a la **[!UICONTROL Groups and named rights]** , haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Delivery manager]** grupo.
+1. Vaya a la **[!UICONTROL Groups and named rights]** , haga clic en **[!UICONTROL Add]** y seleccione la **[!UICONTROL Offer manager]** grupo.
 
-Los derechos asignados a los gestores de envío les permiten llevar a cabo las siguientes tareas:
+Se describen los permisos asociados a los administradores de ofertas [aquí](../start/manage-permissions.md#ootb-productprofiles)
+
+## Creación de un operador de Delivery manager {#delivery-manager}
+
+1. Creación de un operador. [Más información](../start/manage-permissions.md#add-users)
+1. Vaya a la **[!UICONTROL Groups and named rights]** pestaña, haga clic en **[!UICONTROL Add]** y seleccione la **[!UICONTROL Delivery manager]** grupo.
+
+Los derechos asignados al administrador de entregas permiten realizar las siguientes tareas:
 
 * Mostrar entornos **[!UICONTROL Live]**.
 * Mostrar y modificar las categorías de oferta.
-* Apruebe ofertas si son sus revisores.
+* Aprobar ofertas si son sus revisores.
 
    >[!NOTE]
    >
-   >**Administradores de envío** solo puede aprobar una oferta si se han declarado como revisores en la configuración de la oferta.
+   >**Administradores de envío** solo puede aprobar una oferta si se ha declarado como revisores en la configuración de la oferta.
 
 ## Matriz de permisos por operador de interacción {#recap-of-rights-according-to-operator}
 
@@ -47,7 +47,7 @@ Los derechos asignados a los gestores de envío les permiten llevar a cabo las s
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Gestor de ofertas (entorno Design)</strong><br /> </td> 
+   <td> <strong>Gestor de ofertas (entorno de diseño)</strong><br /> </td> 
    <td> <strong>Gestor de ofertas (entorno en directo)</strong><br /> </td> 
   </tr> 
   <tr> 
@@ -107,8 +107,8 @@ Los derechos asignados a los gestores de envío les permiten llevar a cabo las s
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Gestor de envíos (con diseño)</strong><br /> </td> 
-   <td> <strong>Gestor de envíos (Live Env.)</strong><br /> </td> 
+   <td> <strong>Gestor de envíos (Design env.)</strong><br /> </td> 
+   <td> <strong>Gestor de envíos (versión activa)</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Nivel de estructura de árbol</strong><br /> </td> 

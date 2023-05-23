@@ -1,5 +1,5 @@
 ---
-title: Casos de uso de interacción con Campaign
+title: Casos de uso de interacción de Campaign
 description: Casos de uso de interacción
 feature: Interaction, Offers
 role: Data Engineer
@@ -14,12 +14,12 @@ ht-degree: 7%
 
 # Casos de uso
 
-Aproveche las funcionalidades de interacción de Campaign mediante estos casos de uso paso a paso disponibles en la documentación de Campaign Classic v7:
+Aproveche las funcionalidades de Campaign Interaction mediante estos casos de uso paso a paso disponibles en la documentación de Campaign Classic v7:
 
-![](../assets/do-not-localize/book.png) [Creación y aplicación de una regla de presentación](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Crear y aplicar una regla de presentación](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Envío de una oferta por correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Envío de una entrega de oferta por correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
 
-![](../assets/do-not-localize/book.png) [Presentar una oferta a un visitante anónimo](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+![](../assets/do-not-localize/book.png) [Presentación de una oferta a un visitante anónimo](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
 
 ![](../assets/do-not-localize/book.png) [Realizar una simulación de oferta](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}

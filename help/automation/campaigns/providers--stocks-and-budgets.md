@@ -19,7 +19,7 @@ Adobe Campaign permite definir proveedores de servicios que participan en los tr
 
 Cada proveedor de servicios se guarda en un archivo con detalles de contacto, plantillas de servicio y trabajos relacionados.
 
-Los proveedores de servicios se configuran en la variable **[!UICONTROL Administration > Campaign management]** carpeta del explorador de Campaign.
+Los proveedores de servicios se configuran en **[!UICONTROL Administration > Campaign management]** del explorador de Campaign.
 
 Los trabajos realizados durante las entregas se realizan mediante proveedores de servicios, especialmente en el caso del correo directo y los canales móviles. Estos proveedores de servicios pueden, por ejemplo, participar en la impresión o distribución de mensajes. Estos trabajos implican configuraciones y costes específicos de cada proveedor de servicios. La configuración de proveedores de servicios consta de cuatro etapas:
 
@@ -33,26 +33,26 @@ Los trabajos realizados durante las entregas se realizan mediante proveedores de
 
 ### Creación de un proveedor de servicios y sus categorías de costes {#create-a-service-provider-and-its-cost-categories}
 
-#### Añadir un proveedor de servicios {#add-a-service-provider}
+#### Adición de un proveedor de servicios {#add-a-service-provider}
 
 Puede crear tantos proveedores de servicios como sea necesario para las entregas. El procedimiento para añadir un proveedor de servicios es el siguiente:
 
-1. Haga clic en el **[!UICONTROL New]** situado encima de la lista de proveedores de servicios.
+1. Haga clic en **[!UICONTROL New]** botón situado sobre la lista de proveedores de servicios.
 1. En la sección inferior de la ventana, especifique el nombre y los detalles de contacto del proveedor de servicios.
 
    ![](assets/add-a-supplier.png)
 
 1. Haga clic en el botón **[!UICONTROL Save]** para añadir al proveedor de servicios a la lista.
 
-#### Definir categorías de coste {#define-cost-categories}
+#### Definición de categorías de coste {#define-cost-categories}
 
-Ahora puede asociar plantillas de servicio con cada proveedor de servicios. En estas plantillas, primero debe identificar las categorías de coste y, si es necesario, el stock. A continuación, puede crear las reglas de cálculo de coste para cada categoría a través de las estructuras de coste. [Más información](#define-the-cost-structure).
+Ahora puede asociar plantillas de servicio con cada proveedor de servicios. En estas plantillas, primero debe identificar las categorías de coste y, si es necesario, el stock. A continuación, puede crear las reglas de cálculo de costes para cada categoría a través de las estructuras de coste. [Más información](#define-the-cost-structure).
 
-Una categoría de coste es una entidad que contiene un conjunto de costes apto para un tipo de envío (correo electrónico, correo postal, SMS, etc.). Las categorías de coste se agrupan en las plantillas de servicios asociadas a los proveedores de servicios. Cada proveedor de servicios puede hacer referencia a una o más plantillas de servicio.
+Una categoría de coste es una entidad que contiene un conjunto de costes apto para un tipo de entrega (correo electrónico, correo postal, SMS, etc.). Las categorías de coste se agrupan en las plantillas de servicios asociadas a los proveedores de servicios. Cada proveedor de servicios puede hacer referencia a una o más plantillas de servicio.
 
 Para crear una plantilla de servicio y definir su contenido, siga los pasos a continuación:
 
-1. En el **[!UICONTROL Services]** del proveedor de servicios, haga clic en la pestaña **[!UICONTROL Add]** e introduzca el nombre de la plantilla de servicio.
+1. En el **[!UICONTROL Services]** del proveedor de servicios, haga clic en **[!UICONTROL Add]** y escriba el nombre de la plantilla de servicio.
 
    ![](assets/supplier-new-template.png)
 
@@ -60,7 +60,7 @@ Para crear una plantilla de servicio y definir su contenido, siga los pasos a co
 
    ![](assets/add-cost-categories.png)
 
-   * Introduzca una etiqueta para esta categoría de coste y seleccione el tipo de proceso en cuestión: **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, etc.
+   * Introduzca una etiqueta para esta categoría de coste y seleccione el tipo de proceso correspondiente: **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, etc.
    * Haga clic en el botón **[!UICONTROL Add]** para definir los tipos de coste asociados a esta categoría.
    * Si es necesario, asocie una línea de stock con cada tipo de coste para que las cantidades utilizadas se relacionen automáticamente con el stock disponible.
 
@@ -68,7 +68,7 @@ Para crear una plantilla de servicio y definir su contenido, siga los pasos a co
       >
       >Las líneas de stock se definen en el nodo **[!UICONTROL Stock management]**. [Más información](#stock-and-order-management).
 
-1. Puede preseleccionar un valor para esta categoría de coste, que es el predeterminado en las categorías de coste del proveedor de servicios (en lugar de uno vacío). Para ello, habilite la **Sí** en la **[!UICONTROL Selected]** para el tipo de categoría correspondiente:
+1. Puede preseleccionar un valor para esta categoría de coste, que es la predeterminada en las categorías de coste del proveedor de servicios (en lugar de una vacía). Para ello, habilite la variable **Sí** en la opción **[!UICONTROL Selected]** para el tipo de categoría:
 
    ![](assets/default-cost-type.png)
 
@@ -121,7 +121,7 @@ Finalmente, puede configurar un cálculo de coste en función del número total 
 
 ### Configuración de trabajos asociados a un servicio {#configure-processes-associated-with-a-service}
 
-Puede asociar información sobre los procesos asociados con el proveedor de servicios a través del **[!UICONTROL Jobs]** pestaña . Esta sección le permite configurar el envío de información al enrutador.
+Puede asociar información sobre los procesos asociados con el proveedor de servicios a través del **[!UICONTROL Jobs]** pestaña. Esta sección permite configurar la entrega de información al enrutador.
 
 ![](assets/cost-supplier-jobs.png)
 
@@ -129,13 +129,13 @@ Puede asociar información sobre los procesos asociados con el proveedor de serv
 
 * La sección **[!UICONTROL Notification email]** permite especificar la plantilla para enviar una notificación a los proveedores de servicios después de enviar los archivos. Seleccione la plantilla utilizada para crear el mensaje de alerta y el grupo de destinatarios.
 
-   De forma predeterminada, las plantillas de envío de los mensajes de notificación se guardan en la **[!UICONTROL Administration > Campaign management > Technical delivery templates]** carpeta , a la que se puede acceder desde la vista general.
+   De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en la variable **[!UICONTROL Administration > Campaign management > Technical delivery templates]** , a la que se puede acceder desde la vista general.
 
 * La sección **[!UICONTROL Post-processing]** permite seleccionar el flujo de trabajo que se inicia después de aprobar la entrega. Si se introduce una plantilla de flujo de trabajo, se crea automáticamente una instancia de flujo de trabajo y, a continuación, se inicia en cuanto surta efecto la aprobación. Este flujo de trabajo puede enviar el archivo de extracción a un proveedor de servicios externos para su procesamiento, por ejemplo.
 
 ### Asociación de un servicio a una campaña {#associate-a-service-with-a-campaign}
 
-Los proveedores de servicios están asociados con los envíos de campañas. Se hace referencia a ellas en plantillas de envío para ofrecer sus servicios en los envíos creados mediante esta plantilla.
+Los proveedores de servicios están asociados a envíos de campañas. Se hace referencia a ellos en las plantillas de envío para ofrecer sus servicios en las entregas creados mediante esta plantilla.
 
 Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo electrónico, correo directo, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
 
@@ -178,14 +178,14 @@ Adobe Campaign puede alertar a un grupo de operadores si el stock se ha agotado 
 
 ![](assets/stock-dashboard.png)
 
-#### Crear un inventario de stock {#creating-a-stock}
+#### Creación de stock {#creating-a-stock}
 
 Siga los siguientes pasos para crear un nuevo stock:
 
 1. Haga clic en el botón **[!UICONTROL Create]** situado encima de la lista de stock.
 1. Introduzca la etiqueta del inventario de stock y seleccione el proveedor de servicios con el que está asociado en la lista desplegable. [Más información](#create-service-providers-and-their-cost-structures).
 
-#### Agregar líneas de stock {#add-stock-lines}
+#### Añadir líneas de stock {#add-stock-lines}
 
 Un inventario consta de varias líneas de stock. Una línea de stock contiene una cantidad inicial de recursos destinados a las entregas. Cada línea de stock indica la cantidad consumida, la cantidad en inventario y la cantidad pedida.
 
@@ -193,9 +193,9 @@ Cuando cree una existencia, haga clic en la pestaña **[!UICONTROL Stock lines]*
 
 ![](assets/stock-new-lines.png)
 
-Una vez creado el inventario, utilice su panel para crear y monitorizar las líneas de stock.
+Una vez creado el inventario, utilice su panel para crear y supervisar líneas de stock.
 
-Haga clic en el **[!UICONTROL Create]** para añadir nuevas líneas de stock.
+Haga clic en **[!UICONTROL Create]** para añadir nuevas líneas de stock.
 
 ![](assets/add-stock-lines.png)
 
@@ -205,7 +205,7 @@ Haga clic en el **[!UICONTROL Create]** para añadir nuevas líneas de stock.
 
 * Indique el umbral desde el cual se debe avisar a los operadores para que soliciten la existencia en el campo **[!UICONTROL Alert level]**. Cuando se alcanza el nivel de alerta, aparece un mensaje de advertencia en la ventana de aprobación de entregas con este stock.
 
-#### Asociación de un inventario con las categorías de coste {#associate-a-stock-with-cost-categories}
+#### Asociar un inventario con las categorías de coste {#associate-a-stock-with-cost-categories}
 
 Para un proveedor de servicios determinado, en un servicio, se puede hacer referencia a una línea de stock mediante una de las categorías de coste de la manera siguiente:
 
@@ -233,7 +233,7 @@ Para guardar una solicitud, edite la línea de stock de destino, haga clic en el
 
 La pestaña **[!UICONTROL Consumptions]** contiene el volumen consumido por campaña. La información de esta pestaña se introduce automáticamente según las entregas realizadas. Haga clic en el botón **[!UICONTROL Edit]** para abrir la campaña correspondiente.
 
-## Calcular presupuestos {#calculate-budgets}
+## Cálculo de presupuestos {#calculate-budgets}
 
 ### Principio {#principle}
 

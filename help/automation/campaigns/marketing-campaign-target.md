@@ -16,7 +16,7 @@ ht-degree: 82%
 En una campaña de marketing, puede definir lo siguiente por envío:
 
 * La audiencia de destino. Puede enviar mensajes a un [lista de destinatarios](#send-to-a-group) o cree un [audiencia en un flujo de trabajo](#build-the-main-target-in-a-workflow)
-* Un grupo de control. Puede [agregar un grupo de control](#add-a-control-group) para monitorizar el comportamiento de los destinatarios después de la entrega del mensaje
+* Un grupo de control. Puede [adición de un grupo de control](#add-a-control-group) para monitorizar el comportamiento de los destinatarios después de enviar el mensaje
 <!--
 * Seed addresses - Learn more in [this section](../../delivery/using/about-seed-addresses.md).-->
 
@@ -30,7 +30,7 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 Puede importar una población a una lista y luego establecer como objetivo esta lista en las entregas. Para realizar esto, siga los pasos a continuación:
 
-1. Edite la entrega y haga clic en el botón **[!UICONTROL To]** para cambiar la población de destino.
+1. Edite la entrega y haga clic en **[!UICONTROL To]** para cambiar la población de destino.
 1. En la pestaña **[!UICONTROL Main target]**, seleccione la opción **[!UICONTROL Defined via the database]** y haga clic en **[!UICONTROL Add]** para seleccionar destinatarios.
 
    ![](assets/select-main-target.png)
@@ -40,13 +40,13 @@ Puede importar una población a una lista y luego establecer como objetivo esta 
    ![](assets/target-a-list.png)
 
 
-1. Haga clic en **[!UICONTROL Next]** para seleccionar la lista.
+1. Clic **[!UICONTROL Next]** para seleccionar la lista.
 
    ![](assets/select-the-list.png)
 
    Puede refinar el objetivo añadiendo nuevos criterios de filtrado.
 
-1. Haga clic en **[!UICONTROL Finish]** una vez definidos todos los criterios y guarde el objetivo principal.
+1. Clic **[!UICONTROL Finish]** una vez definidos todos los criterios, y guarde el destinatario principal.
 
 ## Creación de la audiencia en un flujo de trabajo de campaña {#build-the-main-target-in-a-workflow}
 
@@ -84,7 +84,7 @@ Es posible acceder a las funciones de formato y ejecución del flujo de trabajo 
 
 >[!NOTE]
 >
->Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y diseño, se detallan en [esta sección](../workflow/about-workflows.md).
+>Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y presentación, se detallan en [esta sección](../workflow/about-workflows.md).
 
 Puede crear varios flujos de trabajo de objetivos para una sola campaña. Para agregar un flujo de trabajo:
 
@@ -197,7 +197,7 @@ De manera predeterminada, la configuración del grupo de control definida al niv
 >
 >Si ha definido un grupo de control para una campaña y lo configura para una entrega relacionada con esta campaña, solo se aplica el grupo de control definido para la entrega.
 
-1. Edite la entrega en cuestión y, a continuación, haga clic en el botón **[!UICONTROL To]** vínculo.
+1. Edite la entrega en cuestión y haga clic en **[!UICONTROL To]** vínculo.
 1. Haga clic en la pestaña **[!UICONTROL Control group]** y seleccione **[!UICONTROL Enable and edit control group configuration]**.
 
    ![](assets/enable-control-group-for-a-delivery.png)
@@ -226,19 +226,19 @@ También puede extraer destinatarios del objetivo principal de la entrega. En es
 
 Para extraer un grupo de control, habilite el grupo de control para la campaña o entrega y seleccione una de las siguientes opciones: **[!UICONTROL Activate random sampling]** o **[!UICONTROL Keep only the first records after sorting]**.
 
-* Utilice la variable **[!UICONTROL Activate random sampling]** para aplicar muestreo aleatorio a los destinatarios en la población principal. Si establece el umbral en 100, el grupo de control se compone de 100 destinatarios seleccionados aleatoriamente desde la población de destino. El muestreo aleatorio depende del motor de la base de datos.
-* Utilice la variable **[!UICONTROL Keep only the first records after sorting]** para definir una limitación basada en uno o varios órdenes de clasificación. Si selecciona el campo **[!UICONTROL Age]** como criterio de clasificación y, a continuación, define 100 como umbral, el grupo de control se compone de los 100 destinatarios más jóvenes. Por ejemplo, podría resultar interesante definir un grupo de control que incluya destinatarios que realizan pocas compras o destinatarios que realizan compras frecuentes y comparar su comportamiento con el de los destinatarios contactados.
+* Utilice el **[!UICONTROL Activate random sampling]** para aplicar muestras aleatorias a los destinatarios en la población principal. Si establece el umbral en 100, el grupo de control se compone de 100 destinatarios seleccionados aleatoriamente desde la población de destino. El muestreo aleatorio depende del motor de la base de datos.
+* Utilice el **[!UICONTROL Keep only the first records after sorting]** para definir una limitación basada en uno o más órdenes de clasificación. Si selecciona el campo **[!UICONTROL Age]** como criterio de clasificación y, a continuación, define 100 como umbral, el grupo de control se compone de los 100 destinatarios más jóvenes. Por ejemplo, podría resultar interesante definir un grupo de control que incluya destinatarios que realizan pocas compras o destinatarios que realizan compras frecuentes y comparar su comportamiento con el de los destinatarios contactados.
 
 Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si es necesario) y seleccione el modo de limitación de destinatarios.
 
 ![](assets/limit-control-group.png)
 
-Esta configuración equivale a un **[!UICONTROL Split]** actividad en el flujo de trabajo, que permite dividir el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos.
+Esta configuración equivale a un **[!UICONTROL Split]** en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos.
 
 
 ### Tutorial en vídeo {#create-email-video}
 
-En este vídeo se explica cómo agregar un grupo de control a una campaña.
+En este vídeo se explica cómo añadir un grupo de control a una campaña.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 

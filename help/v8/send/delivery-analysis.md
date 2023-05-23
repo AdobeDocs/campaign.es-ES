@@ -1,6 +1,6 @@
 ---
 title: Análisis de envíos
-description: Descubra cómo preparar y comprobar su envío
+description: Aprenda a preparar y comprobar su envío
 feature: Personalization
 role: User
 level: Beginner
@@ -14,20 +14,20 @@ ht-degree: 62%
 
 # Análisis de envíos {#analyze-delivery}
 
-El análisis es el paso de preparación de la entrega. Se puede iniciar una vez que la audiencia de destino esté definida y el contenido del mensaje esté listo y probado. Durante el análisis de la entrega, se calcula la población objetivo y se prepara el contenido de la entrega. Una vez finalizada, la entrega está listo para realizarse.
+El análisis es el paso de preparación del envío. Se puede iniciar una vez que la audiencia de destino esté definida y el contenido del mensaje esté listo y probado. Durante el análisis de la entrega, la población objetivo se calcula y se prepara el contenido de la entrega. Una vez finalizada, la entrega está listo para realizarse.
 
-## Inicie el análisis {#start-the-analysis}
+## Inicio del análisis {#start-the-analysis}
 
-Para preparar la entrega, asegúrese de que el contenido de la entrega y el destinatario se hayan definido y siga los pasos a continuación:
+Para preparar la entrega, asegúrese de que se han definido el contenido y el objetivo de la entrega y siga los pasos a continuación:
 
-1. En las ventanas de envío, haga clic en el **[!UICONTROL Send]** botón.
-1. Select **[!UICONTROL Deliver as soon as possible]** para realizar el cálculo de audiencia y la preparación de contenido para un envío inmediato. También puede posponer la entrega a una fecha posterior, u obtener una estimación de la población sin preparar el contenido.
+1. En las ventanas de envío, haga clic en **[!UICONTROL Send]** botón.
+1. Seleccionar **[!UICONTROL Deliver as soon as possible]** para realizar el cálculo de audiencia y la preparación de contenido para un envío inmediato. También puede posponer la entrega a una fecha posterior u obtener una estimación de la población sin preparar el contenido.
 
    ![](assets/delivery-analysis-start.png)
 
 1. Haga clic en **[!UICONTROL Analyze]** para iniciar el análisis manualmente. La barra de progreso muestra el progreso del análisis.
 
-   Se aplica un conjunto de reglas de comprobación durante el análisis de envío. Estas reglas se definen en una **tipología**, que se selecciona en la variable **[!UICONTROL Typology]** en las propiedades de entrega. Obtenga más información sobre las tipologías en [esta sección](../../automation/campaign-opt/campaign-typologies.md).
+   Se aplica un conjunto de reglas de comprobación durante el análisis de envío. Estas reglas se definen en una **tipología**, que se selecciona en la variable **[!UICONTROL Typology]** en las propiedades de entrega. Obtenga más información acerca de tipologías en [esta sección](../../automation/campaign-opt/campaign-typologies.md).
 
    De forma predeterminada, en el caso de los correos electrónicos, el análisis cubre los siguientes puntos:
 
@@ -40,7 +40,7 @@ Para preparar la entrega, asegúrese de que el contenido de la entrega y el dest
    * Comprobación de la programación de las olas
 
 
-1. Puede detener el análisis en cualquier momento haciendo clic en el botón **[!UICONTROL Stop]** botón.
+1. Puede detener el análisis en cualquier momento haciendo clic en **[!UICONTROL Stop]** botón.
 
    No se envían mensajes durante la fase de preparación. Por lo tanto, puede iniciar o cancelar el análisis sin riesgos.
 
@@ -52,7 +52,7 @@ Para preparar la entrega, asegúrese de que el contenido de la entrega y el dest
 
    * Un icono azul indica un mensaje informativo.
    * El icono amarillo indica un error de procesamiento no crítico.
-   * El icono rojo indica un error crítico que impide realizar la entrega.
+   * Un icono rojo indica un error crítico que impide realizar el envío.
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
@@ -60,7 +60,7 @@ Para preparar la entrega, asegúrese de que el contenido de la entrega y el dest
 
    >[!NOTE]
    >
-   >Haga clic en el **[!UICONTROL Change the main delivery target]** vínculo si el número de mensajes que desea enviar no coincide con sus expectativas. Esta opción permite cambiar la definición de la población objetivo y reiniciar el análisis.
+   >Haga clic en **[!UICONTROL Change the main delivery target]** vínculo si el número de mensajes que se van a enviar no coincide con las expectativas. Esta opción permite cambiar la definición de la población objetivo y reiniciar el análisis.
 
 1. Después de comprobar el resultado del análisis, haga clic en **[!UICONTROL Confirm delivery]** para enviar el mensaje al destinatario principal.
 
@@ -89,4 +89,4 @@ Esta pestaña proporciona acceso a las siguientes opciones:
 
 * **[!UICONTROL Start job in a detached process]**: esta opción permite iniciar el análisis de envío en un proceso independiente. La función de análisis utiliza el proceso del servidor de aplicaciones de Adobe Campaign (web nlserver) de forma predeterminada. Al seleccionar esta opción, se asegura de que el análisis se complete incluso en caso de que falle el servidor de aplicaciones.
 * **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: esta opción añade los registros de consulta SQL al diario de entrega durante la fase de análisis.
-* **[!UICONTROL Ignore personalization scripts during sending]**: esta opción permite evitar la interpretación de las directrices de JavaScript que se encuentran en el contenido HTML. Se visualizan tal y como están en los contenidos enviados. Estas directivas se introducen con `<%=` etiqueta.
+* **[!UICONTROL Ignore personalization scripts during sending]**: esta opción permite evitar la interpretación de las directrices de JavaScript que se encuentran en el contenido HTML. Se visualizan tal y como están en los contenidos enviados. Estas directivas se introducen con el `<%=` etiqueta.

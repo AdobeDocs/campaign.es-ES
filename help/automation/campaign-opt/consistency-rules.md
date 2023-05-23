@@ -51,7 +51,7 @@ Para diseñar una regla de capacidad nueva, siga los pasos a continuación:
 
 ## Definición de la carga máxima {#define-the-maximum-load}
 
-Para definir la carga máxima, debe definir las líneas de disponibilidad. Para ello, hay dos opciones disponibles: puede [crear una o más líneas de disponibilidad](#add-availability-lines-one-by-one) o crear intervalos de disponibilidad. La frecuencia de estos periodos de tiempo se puede automatizar. [Más información](#add-a-set-of-availability-lines).
+Para definir la carga máxima, debe definir las líneas de disponibilidad. Para ello, hay dos opciones disponibles: puede [crear una o varias líneas de disponibilidad](#add-availability-lines-one-by-one) o cree intervalos de disponibilidad. La frecuencia de estos periodos se puede automatizar. [Más información](#add-a-set-of-availability-lines).
 
 ### Adición de líneas de disponibilidad una por una {#add-availability-lines-one-by-one}
 

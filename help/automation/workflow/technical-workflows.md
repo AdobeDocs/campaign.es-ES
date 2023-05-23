@@ -13,7 +13,7 @@ ht-degree: 93%
 
 # Flujos de trabajo técnicos{#about-technical-workflows}
 
-Adobe Campaign incluye un conjunto de flujos de trabajo técnicos integrados. Administran operaciones y trabajos programados para su ejecución periódica en el servidor. Permiten realizar el mantenimiento de la base de datos, reenviar información de seguimiento sobre los envíos o configurar procesos provisionales sobre los envíos. Los flujos de trabajo técnicos se configuran mediante el nodo **[!UICONTROL Administration > Production > Technical workflows]**.
+Adobe Campaign incluye un conjunto de flujos de trabajo técnicos integrados. Administran operaciones y trabajos programados para su ejecución periódica en el servidor. Permiten realizar el mantenimiento de la base de datos, reenviar la información de seguimiento de los envíos o configurar procesos provisionales relacionados con los envíos. Los flujos de trabajo técnicos se configuran mediante el nodo **[!UICONTROL Administration > Production > Technical workflows]**.
 
 ![](assets/navtree.png)
 
@@ -36,13 +36,13 @@ Los flujos de trabajo detallados en esta sección se instalan con los distintos 
 
 De forma predeterminada, los flujos de trabajo técnicos están disponibles en una subcarpeta del siguiente nodo: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
-Tenga en cuenta que los flujos de trabajo técnicos solo se pueden iniciar y modificar mediante operadores con permisos de administración.
+Tenga en cuenta que solo los operadores con permisos de administración pueden iniciar y modificar los flujos de trabajo técnicos.
 
 >[!NOTE]
 >
->Los flujos de trabajo técnicos relacionados con el complemento Centro de mensajes están disponibles de forma predeterminada en la **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** nodo .
+>Los flujos de trabajo técnicos relacionados con el complemento Centro de mensajes están disponibles de forma predeterminada en la **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** nodo.
 
-Obtenga información sobre cómo monitorizar los flujos de trabajo técnicos en esta [sección dedicada](monitor-technical-workflows.md).
+Obtenga información sobre cómo monitorizar flujos de trabajo técnicos en esta [sección dedicada](monitor-technical-workflows.md).
 
 
 ## Lista de flujos de trabajo técnicos {#list-technical-workflows}

@@ -1,5 +1,5 @@
 ---
-title: Historial de interacción en tiempo real e informes
+title: Historial de interacciones en tiempo real e informes
 description: Obtenga información sobre cómo rastrear y medir sus ofertas con la interacción de Campaign
 feature: Interaction, Offers
 role: Data Engineer
@@ -12,11 +12,11 @@ ht-degree: 75%
 
 ---
 
-# Historial de interacción en tiempo real e informes
+# Historial de interacciones en tiempo real e informes
 
 >[!NOTE]
 >
->Estas funcionalidades solo son visibles en línea y solo para el **Administradores de envío**.
+>Estas funcionalidades solo son visibles en línea y solo para **Administradores de envío**.
 
 ## Historial de propuesta de oferta{#offer-proposition-history}
 

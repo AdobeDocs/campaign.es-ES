@@ -1,6 +1,6 @@
 ---
 title: Integración de los SDK de Campaign con la aplicación
-description: Obtenga información sobre cómo integrar los SDK de iOS y Android de Campaign con su aplicación
+description: Obtenga información sobre cómo integrar los SDK de iOS y Android de Campaign con la aplicación
 version: v8
 feature: Push
 role: Admin, Developer
@@ -17,18 +17,18 @@ ht-degree: 47%
 
 # Integración de los SDK de Campaign con la aplicación {#integrate-campaign-sdk}
 
-Puede utilizar los SDK de Campaign para iOS y Android para facilitar la integración de la aplicación móvil en la plataforma Adobe Campaign.
+Puede utilizar los SDK de Campaign para iOS y Android para facilitar la integración de la aplicación móvil en la plataforma de Adobe Campaign.
 
-Las versiones compatibles con Android y iOS, y las versiones compatibles con Campaign SDK para Campaign v8 se enumeran en el [Matriz de compatibilidad](../start/compatibility-matrix.md#MobileSDK).
+Las versiones compatibles con Android y iOS, y las versiones compatibles con Campaign SDK para Campaign v8 se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md#MobileSDK).
 
-Como administrador de Campaign, puede descargar los SDK de Campaign desde el [Distribución de software de Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Para obtener más información, póngase en contacto con [Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
+Como administrador de Campaign, puede descargar los SDK de Campaign desde el [Distribución de software de Experience Cloud](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html). Para obtener más información, póngase en contacto con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
 
 
 >[!NOTE]
 >
 >También puede utilizar el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. [Obtenga más información en la documentación de Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 
-## Declarar configuraciones de integración {#declaring-integration-settings}
+## Declarar configuración de integración {#declaring-integration-settings}
 
 Para integrar el SDK de Campaign en la aplicación móvil, el administrador funcional debe proporcionar la siguiente información al desarrollador:
 
@@ -58,17 +58,17 @@ Para integrar el SDK de Campaign en la aplicación móvil, el administrador func
    [nl setIntegrationKey:strIntegrationKey];
    ```
 
-## Integración del SDK para Android
+## Integración del SDK de Android
 
-Android SDK es una biblioteca jar escrita en JAVA. Permite a los desarrolladores de Android integrarse con Adobe Campaign: registre un dispositivo nuevo, vincule el dispositivo con un usuario, realice un seguimiento del comportamiento y mucho más.
+Android SDK es una biblioteca jar escrita en JAVA. Permite a los desarrolladores de Android integrarse con Adobe Campaign: registrar un nuevo dispositivo, vincular el dispositivo a un usuario, rastrear el comportamiento y mucho más.
 
-En esta sección, aprenda a utilizar el SDK para Android en una aplicación de Android que implementa [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/).
+En esta sección, aprenderá a utilizar el SDK para Android en una aplicación de Android que implemente [Google Firebase Cloud Messaging (FCM)](https://firebase.google.com/docs/cloud-messaging/).
 
 >[!CAUTION]
 >
-> Para Campaign v8, utilice Campaign Android SDK v1.1.1.
+> Para la versión 8 de Campaign, utilice Campaign Android SDK v1.1.1.
 
-### Configurar FCM
+### Configuración de FCM
 
 Para utilizar la notificación push en Android, debe tener una cuenta de FCM, configurar la aplicación de Android para recibir la notificación y vincular la aplicación a la cuenta de FCM. Obtenga más información en [Documentación de Google](https://firebase.google.com/docs/cloud-messaging/).
 
@@ -80,14 +80,14 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 >
 > * No olvide descargar y agregar google-services.json a su proyecto.
 >
-> * La variable `apiKey` debe coincidir con la variable `projectKey` se establece en la aplicación móvil de Adobe Campaign vinculada a esta aplicación Android.
+> * El `apiKey` debe coincidir con el `projectKey` se configura en la aplicación móvil de Adobe Campaign vinculada a esta aplicación de Android.
 
 
 ### Configuración del SDK para Android
 
 1. **Inicialización del SDK**
 
-   Antes de utilizar el SDK para Android, debe inicializarlo. La inicialización del SDK se puede realizar en el `onCreate` de una actividad.
+   Antes de usar el SDK para Android, debe inicializarlo. La inicialización del SDK se puede realizar en la variable `onCreate` función de una actividad.
 
    ```sql
    /** Called when the activity is first created. */
@@ -106,16 +106,16 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
    }
    ```
 
-   La variable `IntegrationKey` debe coincidir con el conjunto IntegrationKey en la aplicación móvil de Adobe Campaign vinculada a esta aplicación Android.
+   El `IntegrationKey` debe coincidir con la &quot;IntegrationKey&quot; establecida en la aplicación móvil de Adobe Campaign vinculada a esta aplicación de Android.
 
-1. **Registro del dispositivo móvil en el servidor de Adobe Campaign**
+1. **Registre el dispositivo móvil en el servidor de Adobe Campaign**
 
    La función de registro le permite:
 
    * Enviar la ID de notificación o ID remota a Adobe Campaign (token de dispositivo en iOS e ID de registro en Android).
    * Recuperación de la clave de reconciliación o clave de usuario userKey (por ejemplo, correo electrónico o número de cuenta).
 
-   Debe registrar el dispositivo en Adobe Campaign, en la inicialización de la aplicación o en la acción del usuario. Puede hacerse fácilmente utilizando la variable `registerDevice` método.
+   Debe registrar el dispositivo en Adobe Campaign durante la inicialización de la aplicación o tras la acción del usuario. Se puede realizar fácilmente con el `registerDevice` método.
 
    ```sql
    public void onClick(View v)
@@ -185,9 +185,9 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
    }
    ```
 
-1. **Notificar a Campaign cuando cambie el token de dispositivo móvil del usuario**
+1. **Notificar a Campaign cuando cambie el token del dispositivo móvil del usuario**
 
-   Le recomendamos que utilice el `registerDevice` cuando se llama a la función `onTokenRefresh` para notificar a Adobe Campaign del cambio en el token del dispositivo móvil del usuario.
+   Le recomendamos que utilice el `registerDevice` al llamar a la función `onTokenRefresh` para notificar a Adobe Campaign del cambio en el token del dispositivo móvil del usuario.
 
    Por ejemplo:
 
@@ -226,7 +226,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
 1. **Configurar el servicio de Firebase Messaging**
 
-   Amplíe el `FirebaseMessagingService` en el `onMessageReceived` llamada de retorno para recibir mensajes. Le recomendamos que llame a la función `notifyReceive` cuando la función `onMessageReceived` se llama a callback para habilitar el seguimiento de la recepción de notificaciones en el dispositivo móvil. En Adobe Campaign, este nombre se denomina **print** notificación: se debe llamar a esta función justo antes de solicitar al sistema operativo que muestre la notificación.
+   Ampliación de la `FirebaseMessagingService` en el `onMessageReceived` devolución de llamada para recibir mensajes. Le recomendamos que llame al `notifyReceive` cuando la función `onMessageReceived` la llamada de retorno se llama para habilitar el seguimiento de la recepción de notificaciones en el dispositivo móvil. En Adobe Campaign, este nombre **imprimir** notification: esta función debe invocarse justo antes de solicitar al sistema operativo que muestre la notificación.
 
    YourApplicationMessagingService.java
 
@@ -330,7 +330,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
 1. **Seguimiento de aperturas de mensajes de datos**
 
-   En el caso de los mensajes de datos, puede realizar un seguimiento de cuándo un usuario hace clic en una notificación para abrirla mediante la variable `notifyOpening` función. La actividad de notificación se creará cuando el usuario haga clic en la notificación (creada durante `onMessageReceived`llamada a la función)
+   En el caso de los mensajes de datos, puede realizar un seguimiento cuando un usuario haga clic en una notificación para abrirla mediante `notifyOpening` función. La actividad de notificación se creará cuando el usuario haga clic en la notificación (creada durante `onMessageReceived`llamada de función)
 
    ```sql
    public class NotificationActivity extends Activity {
@@ -365,7 +365,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
 1. **Seguimiento de aperturas y clics en mensajes de notificación**
 
-   Para los mensajes de notificación, el seguimiento de aperturas/clics debe realizarse con la variable `notifyOpening` dentro de la actividad de inicio de la aplicación, como se muestra a continuación:
+   Para los mensajes de notificación, el rastreo de aperturas y clics debe realizarse con la variable `notifyOpening` dentro de la actividad de inicio de aplicación, como se muestra a continuación:
 
    ```sql
    /** Called when the activity is first created. */
@@ -423,12 +423,12 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
    >[!NOTE]
    >
-   > Es necesario realizar una administración similar si el usuario está utilizando `click_action` dentro de la actividad de destino.
+   > Se debe realizar una administración similar si el usuario utiliza `click_action` dentro de la actividad segmentada.
 
 
-1. **Recibir seguimiento de mensajes de datos**
+1. **Seguimiento de recepción para mensajes de datos**
 
-   Para los mensajes de datos, el seguimiento se recibe en la variable `onMessageReceived` nivel de llamada. Se debe llamar a la función &quot;notifyReceive&quot;.
+   Para los mensajes de datos, el seguimiento se recibe en `onMessageReceived` nivel de llamada. Es necesario llamar a la función &#39;notifyReceive&#39;.
 
    YourApplicationMessagingService.java
 
@@ -494,12 +494,12 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
    }
    ```
 
-1. **Recibir seguimiento de mensajes de notificación**
+1. **Seguimiento de recepción para mensajes de notificación**
 
-   Para los mensajes de notificación, la recepción del seguimiento debe configurarse en dos niveles:
+   Para los mensajes de notificación, la recepción de seguimiento debe configurarse en dos niveles:
 
-   * `onMessageReceived` (la aplicación no está en segundo plano): la implementación se ha realizado en la sección anterior
-   * `onCreate` de la actividad de lanzamiento (o de la actividad de destino si `click_action`). (La aplicación no está en segundo plano).
+   * `onMessageReceived` (aplicación no en segundo plano): la implementación se ha realizado en la sección anterior
+   * `onCreate` de la actividad de lanzamiento (o la actividad de destino si `click_action`se utiliza la función ). (Aplicación no en segundo plano).
 
    Debe realizarse en el mismo momento que el seguimiento de aperturas/clics.
 
@@ -560,7 +560,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
 ## Integración del SDK de iOS
 
-1. **Registro del dispositivo móvil en el servidor de Adobe Campaign**
+1. **Registre el dispositivo móvil en el servidor de Adobe Campaign**
 
    La función de registro le permite:
 
@@ -577,7 +577,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
    }
    ```
 
-1. **Habilitar la función de seguimiento**
+1. **Habilitar función de seguimiento**
 
    La función de seguimiento permite rastrear cuándo se activan las notificaciones (aperturas).
 
@@ -634,7 +634,7 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
 1. **Configuración del estado de registro**
 
-   El protocolo delegado permite obtener el resultado del **registerDevice** y se puede utilizar para saber si se ha producido un error durante el registro.
+   El protocolo delegado permite obtener el resultado del **registerDevice** llame a y se puedan usar para saber si se ha producido un error durante el registro.
 
    El prototipo de **registerDeviceStatus** es:
 
@@ -796,10 +796,10 @@ Obtenga información sobre cómo implementar FCM en la aplicación en [Documenta
 
 ## Variables {#variables}
 
-Las variables permiten definir el comportamiento de la aplicación móvil después de recibir una notificación. Estas variables deben definirse en el código de la aplicación móvil y en la consola de Adobe Campaign, en la variable **[!UICONTROL Variables]** en el servicio dedicado de aplicaciones móviles.
+Las variables permiten definir el comportamiento de la aplicación móvil después de recibir una notificación. Estas variables deben definirse en el código de la aplicación móvil y en la consola de Adobe Campaign, en **[!UICONTROL Variables]** en el servicio dedicado de la aplicación móvil.
 
 
-A continuación, se muestra un ejemplo de código que permite a una aplicación móvil recopilar variables añadidas en una notificación. En este ejemplo, se utiliza la variable “VAR”.
+A continuación se muestra un ejemplo de código que permite a una aplicación móvil recopilar variables añadidas en una notificación. En este ejemplo, se utiliza la variable “VAR”.
 
 * **En Android**:
 

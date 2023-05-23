@@ -13,9 +13,9 @@ ht-degree: 55%
 
 # Creación y configuración de plantillas de campaña {#campaign-templates}
 
-Todas las campañas de marketing se basan en una plantilla que almacena las características y capacidades principales. Campaign viene con una plantilla integrada para crear campañas. Esta plantilla tiene todas las funcionalidades activadas: Documentos, direcciones semilla, aprobaciones, descripciones de envío, etc.
+Todas las campañas de marketing se basan en una plantilla que almacena las características y capacidades principales. Campaign viene con una plantilla integrada para crear campañas. Esta plantilla tiene todas las funcionalidades habilitadas: Documentos, Direcciones semilla, Aprobaciones, Contornos de entrega, etc.
 
-Las funcionalidades disponibles dependen de los permisos, complementos y la configuración de la plataforma de Adobe Campaign.
+Las funcionalidades disponibles dependen de los permisos, los complementos y la configuración de la plataforma de Adobe Campaign.
 
 
 >[!NOTE]
@@ -28,8 +28,8 @@ Se proporciona una plantilla para crear una campaña sin ninguna configuración 
 
 Para crear una plantilla de campaña, siga estos pasos:
 
-1. Abrir campaña **Explorer** y busque **Recursos > Plantillas > Plantillas de campaña**.
-1. Haga clic en **Nuevo** en la barra de herramientas situada encima de la lista de plantillas.
+1. Abrir campaña **Explorer** y vaya a **Recursos > Plantillas > Plantillas de campaña**.
+1. Clic **Nuevo** en la barra de herramientas situada encima de la lista de plantillas.
 
 ![](assets/campaign-template-node.png)
 
@@ -37,14 +37,14 @@ También puede **duplicado** la plantilla integrada para reutilizar y adaptar su
 
 1. Introduzca la etiqueta de la nueva plantilla de campaña.
 1. Haga clic en **Save** y vuelva a abrir la plantilla.
-1. En el **Editar** , defina las propiedades de la plantilla.
-1. Select **Parámetros de campaña avanzados...** vínculo para añadir un flujo de trabajo a la plantilla de campaña.
+1. En el **Editar** pestaña, defina las propiedades de la plantilla.
+1. Seleccionar **Parámetros de campaña avanzados...** para añadir un flujo de trabajo a la plantilla de campaña.
 
    ![](assets/campaign-template-parameters.png)
 
-1. Cambie el **Establecimiento de objetivos y flujos de trabajo** valor **Sí** y confirme. Aprenda a añadir funcionalidades en [esta sección](#typology-of-enabled-modules).
-1. La variable **Establecimiento de objetivos y flujos de trabajo** se añade a la plantilla. Haga clic en **Agregar un flujo de trabajo...**, introduzca un **Etiqueta** y haga clic en **Ok**.
-1. Cree el flujo de trabajo según sus necesidades.
+1. Cambie el **Segmentación y flujos de trabajo** valor hasta **Sí**. y confirme. Obtenga información sobre cómo añadir funcionalidades en [esta sección](#typology-of-enabled-modules).
+1. El **Segmentación y flujos de trabajo** se añade a la plantilla. Clic **Añadir un flujo de trabajo...**, introduzca un **Etiqueta** y haga clic en **Ok**.
+1. Cree su flujo de trabajo según sus necesidades.
 
    ![](assets/campaign-template-create-wf.png)
 
@@ -58,11 +58,11 @@ El vínculo **[!UICONTROL Advanced campaign parameters...]** permite habilitar y
 
 ![](assets/campaign-template-select-modules.png)
 
-Si no se selecciona una funcionalidad, los elementos correspondientes al proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña y las pestañas disponibles coinciden con las funcionalidades seleccionadas en la plantilla. Por ejemplo, la variable **Gastos y objetivos** no está habilitada, la funcionalidad correspondiente **[!UICONTROL Budget]** no se muestran en las campañas basadas en esta plantilla.
+Si no se selecciona una funcionalidad, los elementos correspondientes del proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña y las pestañas disponibles coinciden con las funcionalidades seleccionadas en la plantilla. Por ejemplo, la variable **Gastos y objetivos** no está activada, la función correspondiente **[!UICONTROL Budget]** no se muestran en las campañas basadas en esta plantilla.
 
 Además, los accesos directos a las ventanas de configuración se añaden al panel de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de campañas.
 
-### Ejemplos de configuración
+### Muestras de configuración
 
 * Por ejemplo, con la siguiente configuración:
 
@@ -72,19 +72,19 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
    ![](assets/campaign-template-dashboard-sample-1.png)
 
-   Tenga en cuenta que **[!UICONTROL Targeting and workflows]** falta la pestaña .
+   Tenga en cuenta que la variable **[!UICONTROL Targeting and workflows]** falta la pestaña.
 
-   Las siguientes funcionalidades están disponibles:
+   Estas son las funcionalidades disponibles:
 
    ![](assets/campaign-template-edit-sample-1.png)
 
-   Tenga en cuenta que **[!UICONTROL Budget]** falta la pestaña .
+   Tenga en cuenta que la variable **[!UICONTROL Budget]** falta la pestaña.
 
    La configuración avanzada de la campaña también refleja esta configuración.
 
    ![](assets/campaign-template-parameters-sample-1.png)
 
-   Tenga en cuenta que **[!UICONTROL Approvals]** no está disponible.
+   Tenga en cuenta que la variable **[!UICONTROL Approvals]** La pestaña no está disponible.
 
 * Con esta configuración:
    ![](assets/campaign-template-dashboard-sample-2.png)
@@ -93,19 +93,19 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
    ![](assets/campaign-template-select-functionalities-2.png)
 
-   Tenga en cuenta que **[!UICONTROL Targeting and workflows]** está disponible pero la pestaña **Agregar un documento** falta el vínculo .
+   Tenga en cuenta que la variable **[!UICONTROL Targeting and workflows]** está disponible, pero la pestaña **Agregar un documento** falta el vínculo.
 
-   Las siguientes funcionalidades están disponibles:
+   Estas son las funcionalidades disponibles:
 
    ![](assets/campaign-template-edit-sample-2.png)
 
-   Tenga en cuenta que **[!UICONTROL Budget]** está disponible.
+   Tenga en cuenta que la variable **[!UICONTROL Budget]** está disponible.
 
    La configuración avanzada de la campaña también refleja esta configuración.
 
    ![](assets/campaign-template-parameters-sample-2.png)
 
-   Tenga en cuenta que **[!UICONTROL Approvals]** está disponible pero la pestaña **[!UICONTROL Control population]** y **[!UICONTROL Seed addresses]** no están activadas.
+   Tenga en cuenta que la variable **[!UICONTROL Approvals]** está disponible, pero la pestaña **[!UICONTROL Control population]** y **[!UICONTROL Seed addresses]** Las pestañas no están activadas.
 
 
 ## Tipología de módulos {#typology-of-enabled-modules}
@@ -141,7 +141,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
    ![](assets/template-activate-5.png)
 
-   Cuando este módulo está habilitado, una **[!UICONTROL Jobs]** se añade a la configuración avanzada de la campaña para definir la secuencia de ejecución del proceso.
+   Cuando este módulo está habilitado, se crea un **[!UICONTROL Jobs]** se añade a la configuración avanzada de la campaña para definir la secuencia de ejecución del proceso.
 
 * **Aprobaciones**
 
@@ -149,7 +149,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
    ![](assets/template-activate-6.png)
 
-   Puede elegir si desea habilitar o no la aprobación del proceso mediante la variable **[!UICONTROL Approvals]** de la sección configuración avanzada de plantillas.
+   Puede elegir si desea habilitar o no la aprobación del proceso mediante el **[!UICONTROL Approvals]** de la sección configuración avanzada de plantillas.
 
 * **Gastos y objetivos**
 
@@ -164,7 +164,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
 Cuando crea una plantilla de campaña, debe introducir la siguiente información:
 
-* Introduzca la variable **label** de la plantilla: la etiqueta es obligatoria y es la etiqueta predeterminada para todas las campañas basadas en esta plantilla.
+* Introduzca el **etiqueta** de la plantilla: la etiqueta es obligatoria y es la etiqueta predeterminada para todas las campañas basadas en esta plantilla.
 * Seleccione la **naturaleza** de la campaña en la lista desplegable. Los valores disponibles en esta lista son los guardados en la enumeración **[!UICONTROL natureOp]**.
 
 Obtenga información sobre cómo acceder y configurar las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
@@ -175,7 +175,7 @@ Obtenga información sobre cómo acceder y configurar las enumeraciones en [esta
 
    Si la campaña es recurrente, debe especificar las fechas de inicio y finalización de la campaña directamente en la plantilla.
 
-* Especifique la variable **programa relacionado** de la plantilla: las campañas basadas en esta plantilla están vinculadas al programa seleccionado.
+* Especifique el **programa relacionado** de la plantilla: las campañas basadas en esta plantilla están vinculadas al programa seleccionado.
 
 <!--
 ## Track campaign execution{#campaign-reverse-scheduling}

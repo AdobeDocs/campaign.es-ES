@@ -13,7 +13,7 @@ ht-degree: 77%
 
 # Reglas de filtrado{#filtering-rules}
 
-Utilice reglas de filtrado para seleccionar mensajes que desea excluir según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión objetivo.
+Utilice reglas de filtrado para seleccionar los mensajes que desea excluir según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión objetivo.
 
 Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.) en tipologías o agrupadas en una tipología dedicada de **filtrado.** [Más información](#create-and-use-a-filtering-typology).
 
@@ -23,12 +23,12 @@ Por ejemplo, puede filtrar los suscriptores del boletín informativo para evitar
 
 Para definir este filtro, aplique los siguientes pasos:
 
-1. Vaya a la **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** carpeta de Campaign Explorer y haga clic en la **Nuevo** para crear una regla de tipología.
-1. Cree un **[!UICONTROL Filtering]** regla de tipología aplicable a todos los canales.
+1. Vaya a la **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** del explorador de Campaign y haga clic en la **Nuevo** para crear una regla de tipología.
+1. Crear un **[!UICONTROL Filtering]** regla de tipología aplicable a todos los canales.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. En el **Filtro** pestaña cambiar la dimensión de segmentación predeterminada a **Suscripciones** (**nms:subscription**).
+1. Desde el **Filtrar** pestaña cambie la dimensión de segmentación predeterminada a **Suscripciones** (**nms:subscription**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
@@ -36,11 +36,11 @@ Para definir este filtro, aplique los siguientes pasos:
 
    ![](assets/campaign_opt_create_filter_03.png)
 
-1. Filtre en la página del destinatario y guarde la condición de filtrado.
+1. Filtre por la edad del destinatario y guarde la condición de filtrado.
 
    ![](assets/campaign_opt_create_filter_03b.png)
 
-1. En el **Tipologías** , vincule esta regla a una tipología de campaña y guárdela.
+1. Desde el **Tipologías** , vincule esta regla a una tipología de campaña y guárdela.
 
    ![](assets/campaign_opt_create_filter_04.png)
 
@@ -52,7 +52,7 @@ Cuando se utiliza esta regla en una entrega, se excluye automáticamente a los s
 
 Puede restringir el campo de aplicación de la regla de filtrado en función de la entrega relacionado o la descripción de la entrega.
 
-Para ello, vaya a la **[!UICONTROL General]** en la regla de tipología, seleccione el tipo de restricción que desea aplicar y cree el filtro.
+Para ello, vaya a la **[!UICONTROL General]** de la regla de tipología, seleccione el tipo de restricción que desea aplicar y cree el filtro.
 <!--
 ![](assets/campaign_opt_create_filter_06.png)
 -->
