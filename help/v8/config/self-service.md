@@ -5,10 +5,10 @@ feature: Control Panel
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 96%
+source-wordcount: '380'
+ht-degree: 92%
 
 ---
 
@@ -32,11 +32,11 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 ## Preguntas frecuentes sobre el Panel de control
 
-[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es#control-panel){target="_blank"} para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ## Administración de SFTP
 
-En el Panel de control, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. Puede monitorizar su capacidad de almacenamiento, y administrar las direcciones IP en la lista de permitidos y las claves SSH públicas. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html?lang=es#sftp-management){target="_blank"} para obtener más información.
+En el Panel de control, puede interactuar con todos los servidores SFTP conectados a instancias de Campaign a las que tiene acceso. Puede monitorizar su capacidad de almacenamiento, y administrar las direcciones IP en la lista de permitidos y las claves SSH públicas. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/about-sftp-management.html#sftp-management){target="_blank"} para obtener más información.
 
 ## Subdominios y certificados
 

@@ -4,9 +4,9 @@ title: Monitorización de la ejecución del flujo de trabajo
 description: Monitorización de la ejecución del flujo de trabajo
 feature: Workflows
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1936'
+source-wordcount: '1934'
 ht-degree: 95%
 
 ---
@@ -17,7 +17,7 @@ Esta sección presenta información sobre cómo monitorizar la ejecución de los
 
 En [esta sección](workflow-supervision.md#supervising-workflows) está disponible un caso de uso que detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
 
-Además, los administradores de la instancia pueden utilizar la **pista de auditoría** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo y el estado de los mismos. Obtenga más información sobre la pista de auditoría en  [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html?lang=en#accessing-audit-trail){target="_blank"}.
+Además, los administradores de la instancia pueden utilizar la **pista de auditoría** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo y el estado de los mismos. Obtenga más información sobre la pista de auditoría en  [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}.
 
 ## Visualización del progreso {#displaying-progress}
 
@@ -51,7 +51,7 @@ El “log” contiene el historial o la pista de auditoría del flujo de trabajo
 
    ![](assets/new-workflow-display-tasks-activity.png)
 
-   El botón **[!UICONTROL Details...]** permite mostrar toda la información adicional sobre la ejecución de la actividad. Por ejemplo, se puede ver el operador de validación y, cuando corresponda, el comentario que ha introducido durante la aprobación.
+   El botón **[!UICONTROL Details...]** permite mostrar toda la información adicional sobre la ejecución de la actividad. Por ejemplo, puede ver el operador de validación y, cuando corresponda, el comentario que ha introducido durante la aprobación.
 
 >[!NOTE]
 >
@@ -228,7 +228,7 @@ Los flujos de trabajo utilizan muchas tablas de trabajo que consumen espacio y t
 
 El flujo de trabajo **Limpieza de la base de datos**, accesible a través del nodo **Administración, Producción, Flujos de trabajo técnicos**, permite eliminar datos obsoletos para evitar el crecimiento exponencial de la base de datos. El flujo de trabajo se activa automáticamente sin intervención del usuario.
 
-También puede crear flujos de trabajo técnicos específicos para depurar los datos innecesarios que consumen espacio. Consulte [sección](#purging-the-logs).
+También puede crear flujos de trabajo técnicos específicos para depurar los datos innecesarios que consumen espacio. Consulte y esto [sección](#purging-the-logs).
 
 ## Gestión de los flujos de trabajo en pausa {#handling-of-paused-workflows}
 
@@ -261,7 +261,7 @@ Para ello:
 
 1. Haga clic derecho en la carpeta donde desee añadir la vista.
 1. En **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, seleccione la vista que desee añadir.
-1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar las vistas, consulte [esta página](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
+1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar vistas, consulte [esta página](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 Además de estas vistas, puede configurar carpetas de filtros que le permitan filtrar la lista de flujos de trabajo según su estado de ejecución. Para ello:
 

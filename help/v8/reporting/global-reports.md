@@ -3,9 +3,9 @@ title: Informes globales de Adobe Campaign
 description: Obtenga información sobre cómo acceder y utilizar informes globales
 feature: Reporting, Monitoring
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1765'
+source-wordcount: '1763'
 ht-degree: 96%
 
 ---
@@ -48,7 +48,7 @@ Se pueden configurar los valores que se muestran cambiando la escala temporal: v
 
 >[!NOTE]
 >
->También puede monitorizar el número de envíos enviados por hora mediante el uso de la variable [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es).
+>También puede monitorizar el número de envíos por hora utilizando [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es).
 >
 >Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
 
@@ -96,7 +96,7 @@ Se utilizan los siguientes indicadores:
 
    >[!NOTE]
    >
-   >Este indicador se refiere a las entregas en [canales móviles](../send/send.md) solo.
+   >Este indicador se refiere a las entregas de [canales móviles](../send/send.md) solo.
 
    Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo `[+]`. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
 
@@ -286,7 +286,7 @@ Se utilizan los siguientes indicadores:
 
    >[!NOTE]
    >
-   >Para obtener más información sobre los rechazos graves y leves, consulte [esta página](../send/quarantines.md).
+   >Para obtener más información sobre las devoluciones suaves y duras, consulte [esta página](../send/quarantines.md).
 
 * **[!UICONTROL Opens]** : porcentaje del número de destinatarios objetivo que abrieron un mensaje al menos una vez comparado con el número de mensajes procesados correctamente.
 * **[!UICONTROL Clicks]** : porcentaje del número de personas que hizo clic en un envío al menos una vez comparado con el número de mensajes procesados correctamente.

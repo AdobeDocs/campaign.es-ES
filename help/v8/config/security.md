@@ -5,25 +5,25 @@ feature: Privacy, PI
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: cfe559b83a7db36ab8d9223d04d348f3afd74730
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 21%
+source-wordcount: '599'
+ht-degree: 22%
 
 ---
 
 # Prácticas recomendadas de seguridad de Campaign {#ac-security}
 
-En el Adobe, nos tomamos muy en serio la seguridad de su experiencia digital. Las prácticas de seguridad están profundamente arraigadas en nuestros procesos y herramientas internos de desarrollo de software y operaciones, y nuestros equipos interfuncionales las siguen rigurosamente para prevenir, detectar y responder a incidentes de manera expedita.
+En Adobe, nos tomamos muy en serio la seguridad de su experiencia digital. Las prácticas de seguridad están profundamente arraigadas en nuestros procesos y herramientas de desarrollo interno de software y operaciones, y son seguidas rigurosamente por nuestros equipos interfuncionales para prevenir, detectar y responder a los incidentes de manera oportuna.
 
-Además, nuestro trabajo colaborativo con socios, investigadores destacados, instituciones de investigación en seguridad y otras organizaciones del sector nos ayuda a estar al día con las últimas amenazas y vulnerabilidades, y regularmente incorporamos técnicas de seguridad avanzadas en los productos y servicios que ofrecemos.
+Además, nuestro trabajo colaborativo con socios, investigadores líderes, instituciones de investigación de seguridad y otras organizaciones del sector nos ayuda a mantenernos al día con las últimas amenazas y vulnerabilidades e incorporamos regularmente técnicas de seguridad avanzadas en los productos y servicios que ofrecemos.
 
 ## Privacidad
 
-La configuración y el endurecimiento de la privacidad son elementos clave de la optimización de la seguridad. Estas son algunas prácticas recomendadas a seguir con respecto a la privacidad:
+La configuración y protección de la privacidad es un elemento clave de la optimización de la seguridad. Estas son algunas prácticas recomendadas seguir con respecto a la privacidad:
 
-* Protect su información personal de cliente (PI) utilizando HTTPS en lugar de HTTP
-* Uso [restricción de vista IP](../dev/restrict-pi-view.md) para proteger la privacidad e impedir que los datos se utilicen indebidamente
+* Protect proporciona su información personal (PI) al cliente utilizando HTTPS en lugar de HTTP
+* Uso [Restricción de vista PI](../dev/restrict-pi-view.md) para proteger la privacidad y evitar que se utilicen los datos de forma indebida
 * Asegúrese de que las contraseñas cifradas estén restringidas
 * Proteja las páginas que puedan contener información personal, como páginas espejo, aplicaciones web, etc.
 
@@ -32,24 +32,24 @@ La configuración y el endurecimiento de la privacidad son elementos clave de la
 
 ## Gestión de acceso
 
-La gestión del acceso es una parte importante del refuerzo de la seguridad. Estas son algunas de las prácticas recomendadas principales:
+La administración del acceso es una parte importante del refuerzo de la seguridad. Estas son algunas de las prácticas recomendadas principales:
 
 * Crear suficientes grupos de seguridad
-* Compruebe que cada operador tenga los derechos de acceso adecuados
+* Compruebe que cada operador tiene los derechos de acceso adecuados
 
-Obtenga más información sobre los permisos en [esta sección](../start/gs-permissions.md)
+Más información sobre los permisos en [esta sección](../start/gs-permissions.md)
 
 ## Directrices de codificación
 
-Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.), siga siempre estas directrices:
+Al desarrollar en Adobe Campaign (flujos de trabajo, Javascript, JSSP, etc.), siga siempre estas directrices:
 
 * **Secuencias de comandos**: Intente evitar las declaraciones SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para usar en la lista de permitidos.
 
-* **Asegurar el modelo de datos**: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
+* **Proteger el modelo de datos**: utilice derechos asignados para limitar las acciones de los operadores y añada filtros del sistema (sysFilter)
 
-* **Añadir captchas en aplicaciones web**: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
+* **Añadir captchas en aplicaciones web**: agregue captchas en las páginas de aterrizaje públicas y en las páginas de suscripción.
 
-![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}
 
 
 ## Personalización
@@ -64,19 +64,19 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 ## Restricción de datos
 
-Debe asegurarse de que los usuarios autenticados con privilegios bajos no puedan acceder a las contraseñas cifradas. Para ello, hay dos maneras principales: restringir el acceso solo a campos de contraseña o a toda la entidad.
+Debe asegurarse de que los usuarios autenticados con privilegios bajos no puedan acceder a las contraseñas cifradas. Para ello, hay dos formas principales: restringir el acceso solo a campos de contraseña o a toda la entidad.
 
-Esta restricción permite eliminar los campos de contraseñas, pero deja la cuenta externa accesible desde la interfaz para todos los usuarios. Obtenga más información en [esta página](../dev/restrict-pi-view.md).
+Esta restricción permite eliminar los campos con contraseñas, pero deja la cuenta externa accesible desde la interfaz para todos los usuarios. Obtenga más información en [esta página](../dev/restrict-pi-view.md).
 
-1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
+1. Entrar **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
-1. Cree una nueva **[!UICONTROL Extension of a schema]**.
+1. Crear un nuevo **[!UICONTROL Extension of a schema]**.
 
-1. Choose **[!UICONTROL External Account]** (extAccount).
+1. Elegir **[!UICONTROL External Account]** (extAccount).
 
 1. En la última pantalla, puede editar el nuevo srcSchema para restringir el acceso a todos los campos de contraseña:
 
-   Puede reemplazar el elemento principal (`<element name="extAccount" ... >`) de:
+   Puede reemplazar el elemento principal (`<element name="extAccount" ... >`) por:
 
    ```
    <element name="extAccount">
@@ -122,26 +122,26 @@ Esta restricción permite eliminar los campos de contraseñas, pero deja la cuen
 
    >[!NOTE]
    >
-   >Puede reemplazar `$(loginId) = 0 or $(login) = 'admin'` por `hasNamedRight('admin')` para permitir que todos los usuarios con derechos de administrador vean estas contraseñas.
+   >Puede reemplazar `$(loginId) = 0 or $(login) = 'admin'` por `hasNamedRight('admin')` para permitir que todos los usuarios con derechos de administrador puedan ver estas contraseñas.
 
 
 ## Gestión de acceso
 
-La gestión del acceso es una parte importante del refuerzo de la seguridad. Estas son algunas de las prácticas recomendadas principales:
+La administración del acceso es una parte importante del refuerzo de la seguridad. Estas son algunas de las prácticas recomendadas principales:
 
 * Crear suficientes grupos de seguridad
-* Compruebe que cada operador tenga los derechos de acceso adecuados
+* Compruebe que cada operador tiene los derechos de acceso adecuados
 
-Obtenga más información sobre los permisos en [en esta sección](../start/gs-permissions.md).
+Más información sobre los permisos en [en esta sección](../start/gs-permissions.md).
 
 ## Directrices de codificación
 
-Cuando desarrolle en Adobe Campaign (flujos de trabajo, JavaScript, JSSP, etc.), siga siempre estas directrices:
+Al desarrollar en Adobe Campaign (flujos de trabajo, Javascript, JSSP, etc.), siga siempre estas directrices:
 
 * **Secuencias de comandos**: Intente evitar las declaraciones SQL, utilice funciones parametrizadas en lugar de concatenaciones de cadenas, evite la inyección de SQL al añadir funciones SQL para usar en la lista de permitidos.
 
-* **Asegurar el modelo de datos**: usar derechos asignados para limitar las acciones de operadores, agregar filtros de sistema (sysFilter)
+* **Proteger el modelo de datos**: utilice derechos asignados para limitar las acciones de los operadores y añada filtros del sistema (sysFilter)
 
-* **Añadir captchas en aplicaciones web**: agregue captchas en las páginas de aterrizaje públicas y páginas de suscripción.
+* **Añadir captchas en aplicaciones web**: agregue captchas en las páginas de aterrizaje públicas y en las páginas de suscripción.
 
-![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=en#installing-campaign-classic){target="_blank"}
+![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}

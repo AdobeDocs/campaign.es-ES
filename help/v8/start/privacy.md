@@ -5,10 +5,10 @@ feature: Audiences
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 93%
+source-wordcount: '1034'
+ht-degree: 90%
 
 ---
 
@@ -48,7 +48,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Cree un área de nombres en el [Servicio de área de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}.
 
-1. When [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} está disponible para su organización y obtiene el espacio de nombres siguiente, por ejemplo:
+1. Cuándo [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} disponible para su organización, obtiene el área de nombres siguiente, por ejemplo:
 
    ```
    {
@@ -95,7 +95,7 @@ Ahora puede crear solicitudes de privacidad basadas en su nueva Área de nombres
 
 La integración de **[!DNL Adobe Experience Platform Privacy Service]** le permite automatizar sus solicitudes de privacidad en un contexto de varias soluciones a través de una sola llamada de API JSON. Adobe Campaign gestiona automáticamente las solicitudes enviadas desde Privacy Service mediante un flujo de trabajo dedicado.
 
-Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=es) para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.{target="_blank"}
+Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.{target="_blank"}
 
 Cada trabajo de **[!DNL Privacy Service]** se divide en varias solicitudes de privacidad en Adobe Campaign, en función de cuántas áreas de nombres se estén usando; una solicitud que corresponde a un área de nombres.
 
@@ -109,9 +109,9 @@ El patrón para un nombre de archivo es: `<InstanceName>-<NamespaceId>-<Reconcil
 
 >[!CAUTION]
 >
->Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche la variable [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target="_blank"} para realizar la solicitud.
+>Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html#access-delete){target="_blank"} para realizar la solicitud.
 >
->Utilice únicamente la variable [Interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target="_blank"} para enviar solicitudes utilizando el tipo de área de nombres estándar.
+>Utilice solo la variable [Interfaz de usuario de privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html#request-builder){target="_blank"} para enviar solicitudes utilizando el tipo de área de nombres estándar.
 
 ### Tablas buscadas al procesar solicitudes {#list-of-tables}
 

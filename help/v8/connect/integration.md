@@ -1,67 +1,67 @@
 ---
-title: Conecte Campaign con sus soluciones
+title: Conexión de Campaign con las soluciones
 description: Obtenga información acerca de cómo conectar su instancia de Adobe Campaign con soluciones de Experience Cloud.
 feature: Overview
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '390'
 ht-degree: 11%
 
 ---
 
-# Conecte Campaign con sus soluciones{#gs-ac-connectors}
+# Conexión de Campaign con las soluciones{#gs-ac-connectors}
 
 Puede conectar la instancia de Campaign con las soluciones de Adobe Experience Cloud para combinar funciones.
 
-Adobe Campaign incluye varios conectores que le permiten comunicarse con aplicaciones externas, conectarse con motores de base de datos, compartir y sincronizar datos.
+Adobe Campaign incluye varios conectores que le permiten comunicarse con aplicaciones externas, conectarse a motores de base de datos, compartir y sincronizar datos.
 
-## Combinación de las soluciones de Adobe {#gs-ac-integration}
+## Combine sus soluciones de Adobe {#gs-ac-integration}
 
-Combine las soluciones de Adobe Experience Cloud para modernizar su implementación.
+Combine soluciones de Adobe Experience Cloud para modernizar su implementación.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, [Adobe de contacto](../start/campaign-faq.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud.
+![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Services, [Adobe de contacto](../start/campaign-faq.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud.
 
-Campaign v8 puede conectarse con:
+La versión 8 de Campaign puede conectarse con:
 
 * [Adobe Experience Platform](../connect/ac-aep.md)
 * [Adobe Journey Optimizer](../connect/ac-ajo.md)
 * [Adobe Analytics](../connect/ac-aa.md)
 * [Adobe Experience Manager](../connect/ac-aem.md)
-* [déclencheur de Adobe Experience Cloud](../connect/ac-triggers.md)
+* [Adobe Experience Cloud déclencheur](../connect/ac-triggers.md)
 * [Adobe Target](../connect/ac-at.md)
 
-También puede combinar su **audiencias** y **activos** entre soluciones de Experience Cloud con funciones de uso compartido de recursos y uso compartido de audiencias.
+También puede combinar sus **audiencias** y **activos** soluciones de varios Experience Cloud con funciones de uso compartido de recursos y audiencias.
 
-![](../assets/do-not-localize/book.png) Más información sobre **Uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Más información sobre **Uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
-![](../assets/do-not-localize/book.png) Más información sobre **Uso compartido de activos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=en#integrating-with-adobe-experience-cloud)
+![](../assets/do-not-localize/book.png) Más información sobre **Uso compartido de recursos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud)
 
-## Integración con su conector CRM{#gs-crm-connectors}
+## Integración con el conector CRM{#gs-crm-connectors}
 
-Puede conectar su plataforma de Adobe Campaign a su **Sistemas de terceros de CRM** y sincronizar datos: contactos, cuentas, compras, etc.
+Puede conectar su plataforma de Adobe Campaign a su **Sistemas de terceros CRM** y sincronizar datos: contactos, cuentas, compras, etc.
 
-Active sus datos CRM en la comunicación entre canales: obtenga información sobre cómo pasar contactos de su sistema CRM a Adobe Campaign y compartir datos de campaña de Adobe Campaign a su sistema CRM.
+Active los datos de CRM en la comunicación entre canales: Aprenda a pasar contactos de su sistema CRM a Adobe Campaign y a compartir los datos de campaña de Adobe Campaign con su sistema CRM.
 Los conectores CRM permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para garantizar que los datos estén actualizados en todo momento a lo largo de los sistemas.
 
-Aprenda a integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en [esta página](crm.md)
+Obtenga información sobre cómo integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en [esta página](crm.md)
 
 ## Conexión de terceros con acceso de datos federado{#gs-fda}
 
-Utilice el conector FDA (Acceso de Datos Federados) para conectar Campaign a uno o varios **bases de datos externas** y procesar la información almacenada en ellas sin afectar a los datos de la base de datos de Campaign Cloud.
+Utilice el conector FDA (Acceso de datos federado) para conectar Campaign a uno o más **bases de datos externas** y procesar la información almacenada en ellos sin afectar a los datos de la base de datos de Campaign Cloud.
 
 ![](../assets/do-not-localize/glass.png) Obtenga más información en [esta página](fda.md)
 
-## Trabajar con redes sociales{#gs-social}
+## Uso de medios sociales{#gs-social}
 
-Utilice Adobe Campaign para interactuar con clientes y clientes potenciales mediante Twitter.
+Utilice Adobe Campaign para interactuar con clientes y clientes potenciales a través de Twitter.
 
 Puede hacer lo siguiente:
 
-* Enviar mensajes directos a sus seguidores
-* Publicar tweets en la cuenta de Twitter
+* Envíe mensajes directos a sus seguidores
+* Publicación de tweets en su cuenta de Twitter
 * Recopilar nuevos contactos
 
 Obtenga información sobre cómo configurar y utilizar la integración de Twitter en [esta página](../connect/ac-tw.md).

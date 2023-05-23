@@ -1,32 +1,32 @@
 ---
-title: Administración de suscripciones y bajas de suscripción en Campaign
+title: Administración de suscripciones y bajas en Campaign
 description: Obtenga información sobre cómo administrar suscripciones y bajas en la versión 8 de Campaign.
 feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 507f30d16eecf5400ee88a4d29913e4cdaca9cba
+source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 33%
+source-wordcount: '452'
+ht-degree: 34%
 
 ---
 
-# Administrar suscripciones y bajas{#optin-optout}
+# Administración de suscripciones y bajas{#optin-optout}
 
-Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como boletines informativos, y para administrar las suscripciones/bajas de suscripción a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real. Consulte Administración de suscripciones.
+Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como los boletines informativos, y para gestionar las suscripciones o bajas de suscripción a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real. Consulte Administración de suscripciones.
 
-![](../assets/do-not-localize/book.png) Aprenda a crear un servicio informativo, enviar boletín y administrar la inclusión y la exclusión en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
+![](../assets/do-not-localize/book.png) Obtenga información sobre cómo crear un servicio informativo, enviar una newsletter y administrar la inclusión y la exclusión en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
 
-Para suscribirse (activar) un perfil a un servicio, las opciones disponibles son:
+Para suscribir (opt-in) un perfil a un servicio, las opciones disponibles son:
 
-* Añada manualmente el servicio al perfil de destinatario: para ello, en la sección **[!UICONTROL Subscriptions]** de su perfil, haga clic en **[!UICONTROL Add]** y seleccione el servicio informativo que corresponda.
+* Añada manualmente el servicio al perfil de destinatario: para ello, desde el **[!UICONTROL Subscriptions]** de su perfil, haga clic en **[!UICONTROL Add]** y seleccione el servicio informativo que desee.
 
    ![](assets/subscribe-to-a-service.png)
 
-   ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
 
-* Suscribir automáticamente un conjunto de destinatarios al servicio. La lista de destinatarios puede proceder de una operación de filtrado, un grupo, una carpeta, una importación o una selección manual directa. Para suscribir a estos destinatarios, haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions > Subscribe selection to a service...]**.
+* Suscribir automáticamente a un conjunto de destinatarios al servicio. La lista de destinatarios puede proceder de una operación de filtrado, un grupo, una carpeta, una importación o una selección manual directa. Para suscribir a estos destinatarios, haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions > Subscribe selection to a service...]**.
 
    ![](assets/subscribe-selection.png)
 
@@ -34,12 +34,12 @@ Para suscribirse (activar) un perfil a un servicio, las opciones disponibles son
 
    ![](assets/subscribe-confirm.png)
 
-   ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html?lang=en#deliveries-tab){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#deliveries-tab){target="_blank"}
 
 
 * Importación de destinatarios y subscripción automática a un servicio informativo. Para ello, seleccione el servicio correspondiente en el último paso del asistente para importar.
 
-   ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html?lang=en#step-5---additional-step-when-importing-recipients){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
 
 * Uso de un formulario web para que los destinatarios puedan suscribirse a un servicio.
 
@@ -49,10 +49,10 @@ Para suscribirse (activar) un perfil a un servicio, las opciones disponibles son
 
    ![](assets/web-app.png)
 
-   ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=en#create-a-subscription--form-with-double-opt-in){target="_blank"}
+   ![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
 
 
-* Creación de un flujo de trabajo de objetivos y uso de un **[!UICONTROL Subscription service]** actividad.
+* Cree un flujo de trabajo de objetivos y utilice un **[!UICONTROL Subscription service]** actividad.
 
    ![](assets/wf-subscription.png)
 
@@ -62,24 +62,24 @@ Para cancelar la suscripción (exclusión) de un perfil de un servicio, las opci
 
 **Baja manual**
 
-* Vínculo de baja personalizado o formulario web
-* Eliminación manual de un servicio de información
-* Eliminación manual de destinatarios de un servicio de suscripción en particular
+* Vínculo de baja de suscripción personalizado o formulario web
+* Eliminación manual de un servicio informativo
+* Eliminación manual de destinatarios de un servicio de suscripción concreto
 
 **Baja automática**
 
-* Especifique un límite de duración del servicio informativo: los destinatarios se cancelarán de forma automática cuando el periodo de validez haya caducado. El periodo se configura en la pestaña Edit de las propiedades del servicio. Se muestra en días.
+* Especifique un límite de duración para el servicio informativo: la suscripción de los destinatarios se cancela automáticamente cuando el periodo de validez haya caducado. El periodo se configura en la pestaña Edit de las propiedades del servicio. Se muestra en días.
 * Configure un flujo de trabajo para darse de baja de una población.
 
-![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html?lang=en#unsubscribing-a-recipient-from-a-service){target="_blank"}
+![](../assets/do-not-localize/book.png) Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}
 
 
 >[!CAUTION]
 >
->En el contexto de un [Implementación empresarial (FFDA)](../architecture/enterprise-deployment.md), las suscripciones y las bajas de suscripción son **asincrónico** procesos. Las solicitudes de inclusión y exclusión se procesan cada hora. [Más información](../architecture/new-apis.md#sub-apis)
+>En el contexto de un [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), las suscripciones y bajas de suscripción son **asíncrono** procesos. Las solicitudes de inclusión y exclusión se procesan cada hora. [Más información](../architecture/new-apis.md#sub-apis)
 
 <!--
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 
 
-![](../assets/do-not-localize/book.png) For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html?lang=en#viral-marketing--forward-to-a-friend){target="_blank"}
+![](../assets/do-not-localize/book.png) For more on this capability, refer to [Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/viral-and-social-marketing.html#viral-marketing--forward-to-a-friend){target="_blank"}
 -->
