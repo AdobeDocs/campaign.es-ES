@@ -4,11 +4,11 @@ description: Introducción a las campañas
 feature: Audiences
 role: User
 level: Beginner
-exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66,c4798c8f-619e-4a60-80d7-29b9e4c61168
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
-workflow-type: tm+mt
+exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
+source-git-commit: 2e597990aafb57631aa228464e4818782524e65e
+workflow-type: ht
 source-wordcount: '833'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ Los pasos clave para crear una campaña de marketing multicanal son estos:
 
    Adobe Campaign permite configurar los procesos de aprobación de las etapas principales de la campaña de marketing en modo de colaboración. Para cada campaña, puede aprobar el objetivo de entrega, los contenidos y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola o de una conexión web.
 
-   Obtenga información sobre cómo configurar y administrar aprobaciones en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html#campaign-orchestration).
+   Obtenga información sobre cómo configurar y administrar aprobaciones en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=es#campaign-orchestration).
 
 
 ## Complemento de marketing distribuido{#distributed-marketing-add-on}
@@ -110,4 +110,3 @@ Adobe Campaign ofrece un complemento de **gestión de respuestas** que le permit
 >Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 [](../assets/do-not-localize/book.png) Obtenga información sobre cómo configurar y utilizar el Gestor de respuestas de Campaign en la [Documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target="_blank"}
-
