@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1839'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ Para optimizar la seguridad, los tokens de seguridad se han eliminado de las dir
 
 **Mejoras**
 
-* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML en la consola utiliza ahora **Microsoft Edge Chromium**. Además, la instalación del tiempo de ejecución de **Microsoft Edge WebView 2** es ahora necesaria para cualquier instalación de la consola del cliente.
+* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML en la consola utiliza ahora **Microsoft Edge Chromium**. Además, la instalación de **Microsoft Edge WebView 2** ahora, el tiempo de ejecución es necesario para cualquier instalación de la consola del cliente.
 * Se ha mejorado la ejecución del flujo de trabajo con alta disponibilidad, lo que permite ejecutar flujos de trabajo simultáneos en diferentes contenedores para evitar la pérdida del servicio del flujo de trabajo y los errores de ejecución relacionados. **Nota**: esta nueva funcionalidad se lanza con disponibilidad limitada solo para un conjunto de clientes.
 * Las solicitudes de privacidad se realizan ahora en lote para un área de nombres de privacidad determinada. Esta mejora aumenta el tiempo de ejecución de las solicitudes de eliminación de RGPD/privacidad.
 

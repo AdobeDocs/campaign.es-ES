@@ -3,7 +3,7 @@ title: Migración de usuarios tecnológicos a una cuenta técnica en la consola 
 description: Migración de usuarios tecnológicos a una cuenta técnica en la consola de desarrollador
 hide: true
 hidefromtoc: true
-source-git-commit: 1f9efc0744792c1173e77965ff81eaee0ed2c618
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 1%

@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: b63dc1616bc7ce1387a7bd0590c289b59f11b33f
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 15%
@@ -29,7 +29,7 @@ En Adobe Campaign, los usuarios son **operadores** y **grupos de operadores** re
 
 ## Pasos clave para conceder permisos{#key-steps-permissions}
 
-Como administrador de productos, puede conceder permisos a los usuarios de su organización. Los permisos se conceden a través de la consola del cliente de Adobe Admin Console y Campaign. Los usuarios inician sesión en Adobe Campaign con su Adobe ID. Obtenga información sobre cómo conectarse a Adobe Campaign en [esta página](connect.md).
+Como administrador de productos, puede conceder permisos a los usuarios de su organización. Los permisos se conceden mediante Adobe Admin Console y la consola del cliente de Campaign. Los usuarios inician sesión en Adobe Campaign con su Adobe ID. Obtenga información sobre cómo conectarse a Adobe Campaign en [esta página](connect.md).
 
 Los pasos clave son los siguientes:
 

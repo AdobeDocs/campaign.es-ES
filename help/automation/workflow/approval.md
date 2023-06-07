@@ -4,10 +4,10 @@ title: Aprobación
 description: Aprobación
 feature: Workflows, Approvals
 exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ En caso de varias aprobaciones, se activan las transiciones correspondientes a l
 
 Esta actividad no bloquea el procesamiento y el flujo de trabajo puede realizar otras tareas mientras espera una respuesta.
 
-Un operador puede aprobar las tareas asignadas a dicho operador desde la consola. Un operador con derechos de administrador puede ver y eliminar las tareas asignadas a cualquier operador, pero no puede responder a ellas.
+Un operador puede aprobar las tareas asignadas a ese operador desde la consola del cliente. Un operador con derechos de administrador puede ver y eliminar las tareas asignadas a cualquier operador, pero no puede responder a ellas.
 
 Modificar el título o el cuerpo del mensaje de la actividad no afecta a las tareas actuales, sino que modifica las posibles elecciones que directamente afectan a las tareas actuales, que heredan automáticamente la nueva lista de opciones.
 

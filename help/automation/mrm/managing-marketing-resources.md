@@ -3,10 +3,10 @@ product: campaign
 title: Administración de recursos de marketing
 description: Obtenga información sobre cómo administrar los recursos de marketing
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: 399c81276d29622a2161c8c90395df1a38954763
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 49%
+source-wordcount: '1111'
+ht-degree: 46%
 
 ---
 
@@ -99,7 +99,7 @@ Para aprobar un recurso, haga clic en **[!UICONTROL Approve the resource]** en s
 
 ![](assets/mkt-resouce-approve.png)
 
-Los operadores autorizados pueden aceptar o rechazar la aprobación. Esta acción se puede realizar a través del mensaje de correo electrónico enviado (haciendo clic en el vínculo en el mensaje de notificación) o a través de la consola (haciendo clic en el botón **[!UICONTROL Approve]**).
+Los operadores autorizados pueden aceptar o rechazar la aprobación. Esta acción se puede realizar a través del mensaje de correo electrónico enviado (haciendo clic en el vínculo en el mensaje de notificación) o a través de la consola del cliente (haciendo clic en el botón **[!UICONTROL Approve]** ) botón.
 
 La ventana de aprobación permite introducir un comentario.
 

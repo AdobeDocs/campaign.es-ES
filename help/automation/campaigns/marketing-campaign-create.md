@@ -4,10 +4,10 @@ title: Creación de campañas de marketing
 description: Obtenga información sobre cómo crear y ejecutar campañas de marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: ad286059a9f4b63d7de4fa5130760f36d0976431
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1297'
-ht-degree: 58%
+source-wordcount: '1298'
+ht-degree: 56%
 
 ---
 
@@ -159,7 +159,7 @@ Cuando crea una campaña a través de la pestaña **[!UICONTROL Schedule]** de u
 
 ## Uso de la interfaz web {#use-the-web-interface-}
 
-Puede acceder a las pantallas de la consola de Adobe Campaign a través de un explorador de internet para ver todas las campañas y envíos, así como informes e información sobre los perfiles de la base de datos. Este acceso no permite la creación de registros. Según los derechos de los operadores, puede ver o actuar en los datos de la base de datos. Por ejemplo: puede aprobar el contenido de las campañas y su segmentación, reiniciar o detener una entrega, etc.
+Puede acceder a las pantallas de la consola del cliente de Adobe Campaign a través de un explorador de Internet para ver todas las campañas y envíos, así como informes e información sobre los perfiles de la base de datos. Este acceso no permite la creación de registros. Según los derechos de los operadores, puede ver o actuar en los datos de la base de datos. Por ejemplo: puede aprobar el contenido de las campañas y su segmentación, reiniciar o detener una entrega, etc.
 
 1. Inicie sesión a través de https://`<your instance>:<port>/view/home`.
 1. Utilice los menús para acceder a las descripciones generales.

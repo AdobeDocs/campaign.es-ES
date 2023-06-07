@@ -4,10 +4,10 @@ description: Aprenda a integrar su entorno de Campaign con Twitter
 role: User, Admin
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 1baeb8827a0eab4f9487bb5e5afe4d779e00efe4
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 18%
+source-wordcount: '1062'
+ht-degree: 17%
 
 ---
 
@@ -71,7 +71,7 @@ Para vincular la instancia de Campaign con la cuenta de Twitter, cree una **Twit
 >
 >Cada **Twitter** El servicio también debe crearse mediante el Adobe en la instancia de MID. Póngase en contacto con el representante del Adobe para configurar su entorno.
 
-Para introducir la configuración, debe acceder tanto a la consola de Adobe Campaign como a los permisos de la aplicación de Twitter.
+Para especificar la configuración, debe acceder tanto a la consola del cliente de Adobe Campaign como a los permisos de la aplicación de Twitter.
 
 1. Entrada **Adobe Campaign**, vaya a **[!UICONTROL Profiles and targets]** y seleccione la pestaña **[!UICONTROL Services and Subscriptions]** vincular
 1. Cree un nuevo servicio.

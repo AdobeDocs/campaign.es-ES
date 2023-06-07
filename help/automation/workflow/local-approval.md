@@ -4,10 +4,10 @@ title: Aprobación local
 description: Aprobación local
 feature: Workflows
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 100%
+source-wordcount: '645'
+ht-degree: 92%
 
 ---
 
@@ -81,13 +81,13 @@ En caso de un informe de comentarios de la entrega, se deben ingresar los siguie
 
 Este ejemplo muestra la configuración de un proceso de aprobación para una entrega de flujo de trabajo. Para obtener más información sobre la creación de los flujos de trabajo de la entrega, consulte la sección [Ejemplo: flujo de trabajo de envíos](delivery.md#example--delivery-workflow).
 
-Un operador puede aprobar una entrega de una de las dos maneras siguientes: con la página web enlazada en el mensaje de correo electrónico o a través de la consola.
+Un operador puede aprobar una entrega de una de las dos maneras siguientes: mediante la página web vinculada en el mensaje de correo electrónico o a través de la consola del cliente.
 
 * Aprobación en la web
 
    El correo electrónico enviado a los operadores del grupo Administrador permite aprobar el objetivo de la entrega. El mensaje utiliza el texto definido y la expresión JavaScript se sustituye por el valor calculado (en este caso, “574”).
 
-   Para aprobar la entrega, haga clic en el vínculo correspondiente e inicie sesión en la consola de Adobe Campaign.
+   Para aprobar la entrega, haga clic en el vínculo correspondiente e inicie sesión en la consola del cliente de Adobe Campaign.
 
    ![](assets/new-workflow-valid-webaccess.png)
 
@@ -95,7 +95,7 @@ Un operador puede aprobar una entrega de una de las dos maneras siguientes: con 
 
    ![](assets/new-workflow-valid-webaccess-confirm.png)
 
-* Aprobación mediante la consola
+* Aprobación mediante la consola de cliente
 
    En la estructura de árbol, el nodo **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** contiene la lista de tareas que debe aprobar el operador conectado actualmente. La lista debe mostrar una línea. Haga doble clic en esta línea para responder. Se muestra la siguiente ventana:
 

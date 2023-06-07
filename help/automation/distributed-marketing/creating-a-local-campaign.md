@@ -4,10 +4,10 @@ title: Creación de una campaña local
 description: Creación de una campaña local
 feature: Distributed Marketing
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 7e5ffbec959785971280c394c416cebe83590897
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 99%
+source-wordcount: '1555'
+ht-degree: 96%
 
 ---
 
@@ -295,9 +295,9 @@ Cuando una entidad local solicita una campaña, sus revisores reciben notificaci
 
 ![](assets/mkg_dist_command_valid_web.png)
 
-#### Aprobación a través de la consola de Adobe Campaign {#approving-via-the-adobe-campaign-console}
+#### Aprobación mediante la consola de cliente {#approving-via-the-adobe-campaign-console}
 
-Las solicitudes también se pueden aprobar a través de la consola, en la información general de la solicitud de la campaña. Para aprobar una solicitud, selecciónela y haga clic en **[!UICONTROL Approve the order]**.
+Las solicitudes también se pueden aprobar a través de la consola del cliente, en la descripción general de la solicitud de la campaña. Para aprobar una solicitud, selecciónela y haga clic en **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 
@@ -321,7 +321,7 @@ El operador de aprobación puede rechazar una solicitud o un paquete de campaña
 
 Si el revisor rechaza una solicitud, se envía la notificación correspondiente automáticamente a las respectivas entidades locales: muestra el comentario introducido por el operador que rechazó la aprobación.
 
-La información se muestra en la lista de página de paquetes de campañas o en la página de solicitud de campañas. Si tienen acceso a la consola de Adobe Campaign, se notificará a las entidades locales sobre este rechazo.
+La información se muestra en la lista de página de paquetes de campañas o en la página de solicitud de campañas. Si tienen acceso a la consola del cliente de Adobe Campaign, se informa a las entidades locales de este rechazo.
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 

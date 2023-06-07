@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: b96ac3bd2365c548d071e626721d606dd33200b5
+source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
 workflow-type: tm+mt
 source-wordcount: '1632'
 ht-degree: 41%
@@ -61,7 +61,7 @@ Puede utilizar perfiles de producto predeterminados o crear nuevos.
 
 ### Creación de un perfil de producto{#create-product-profile}
 
-Para añadir un nuevo perfil de producto al Adobe, primero debe crearlo en la consola del cliente de Campaign y, a continuación, agregarlo en el Admin Console.
+Para añadir un nuevo perfil de producto al Adobe, primero debe crearlo en la consola del cliente de Campaign y, a continuación, añadirlo en el Admin Console.
 
 Por ejemplo, para crear un perfil de producto &quot;revisores&quot;, siga los pasos a continuación.
 
