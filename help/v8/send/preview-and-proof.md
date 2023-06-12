@@ -5,10 +5,10 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 17%
+source-wordcount: '703'
+ht-degree: 18%
 
 ---
 
@@ -51,20 +51,20 @@ El tipo de destinatario de prueba se selecciona en **[!UICONTROL Targeting mode]
 * Utilice el **[!UICONTROL Substitution of the address]** para introducir direcciones de correo electrónico y utilizar los datos del destinatario objetivo para validar el contenido. Las direcciones de sustitución se pueden introducir manualmente o seleccionar en la lista desplegable. La enumeración asociada es Substitution address (rcpAddress).
 De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se puede seleccionar un destinatario específico del objetivo principal mediante el  **[!UICONTROL Detail]** icono.
 
-   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-   Elija la **[!UICONTROL Select a profile (must be included in the target)]** y seleccione un destinatario.
+  Elija la **[!UICONTROL Select a profile (must be included in the target)]** y seleccione un destinatario.
 
-   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
 * Utilice el **[!UICONTROL Seed addresses]**  para utilizar las direcciones semilla como destinatario de prueba. Estas direcciones pueden importarse desde un archivo o introducirse manualmente.
 
-   >[!NOTE]
-   >
-   >Las direcciones semilla no pertenecen a la tabla de destinatarios predeterminada (nms:recipient), sino que se crean en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos.
+  >[!NOTE]
+  >
+  >Las direcciones semilla no pertenecen a la tabla de destinatarios predeterminada (nms:recipient), sino que se crean en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos.
 
-   Obtenga más información sobre las direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses.html){target="_blank"}.
+  Obtenga más información sobre las direcciones semilla en [esta sección](../audiences/test-profiles.md).
 
 * Utilice el **[!UICONTROL Specific target and Seed addresses]** para combinar direcciones semilla y direcciones de correo electrónico específicas. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
