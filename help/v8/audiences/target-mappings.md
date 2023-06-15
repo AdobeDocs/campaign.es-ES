@@ -5,16 +5,18 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 43%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Trabajar con asignaciones de destino{#gs-target-mappings}
 
-De forma predeterminada, las plantillas de envío tienen como destino **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.**
+De forma predeterminada, las plantillas de envío de correo electrónico y SMS están segmentadas **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.**
+
+Para las notificaciones push, la asignación de destino predeterminada es **Aplicaciones del suscriptor (nms:appSubscriptionRcp)**, que está vinculado a la tabla de destinatarios.
 
 Puede utilizar otras asignaciones de destino para los envíos o crear una nueva asignación de destino.
 
