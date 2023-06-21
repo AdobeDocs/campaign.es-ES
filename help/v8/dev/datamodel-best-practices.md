@@ -5,9 +5,9 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: df08cdb90271f4d18fd37b8ae528ebd872d0ea63
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2718'
 ht-degree: 4%
 
 ---
@@ -115,7 +115,6 @@ Al crear una tabla personalizada, tiene dos opciones:
 > * El **autouuid** el atributo solo se aplica a [Implementaciones empresariales (FDAC)](../architecture/enterprise-deployment.md).
 >
 
-
 ## Vínculos y cardinalidad {#links-and-cardinality}
 
 ### Vínculos {#links}
@@ -138,7 +137,7 @@ De forma predeterminada, Adobe Campaign crea un vínculo con la clave principal 
 
 Cuando diseñe un vínculo, asegúrese de que el registro de destino sea único cuando se haya declarado una relación 1-1. De lo contrario, la unión puede devolver varios registros cuando solo se espera uno. Esto provoca errores durante la preparación del envío cuando &quot;la consulta devuelve más filas de lo esperado&quot;. Establezca el nombre del vínculo con el mismo nombre que el esquema de destino.
 
-Defina un vínculo con una cardinalidad (1-N) en el esquema del lado (1). Por ejemplo, la relación Destinatario (1) - (N) Transacción debe definirse en el esquema de transacción.
+Defina un vínculo con una cardinalidad (1-N) en el esquema del lado (N). Por ejemplo, la relación Destinatario (1) - (N) Transacción debe definirse en el esquema de transacción.
 
 Tenga en cuenta que una cardinalidad inversa de un vínculo es (N) de forma predeterminada. Es posible definir un vínculo (1-1) añadiendo el atributo revCardinality=&#39;single&#39; a la definición del vínculo.
 
