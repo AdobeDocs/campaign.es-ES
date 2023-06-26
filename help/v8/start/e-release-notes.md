@@ -7,10 +7,10 @@ level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 100%
+source-wordcount: '586'
+ht-degree: 20%
 
 ---
 
@@ -18,32 +18,55 @@ ht-degree: 100%
 
 Esta página describe las mejoras y correcciones incluidas en la próxima versión de Campaign v8. Este contenido está sujeto a cambios sin previo aviso hasta la fecha de lanzamiento. Las notas de la versión oficiales están disponibles en esta [página](../start/release-notes.md).
 
-## Versión 8.3.9 {#release-8-3-9}
+## Versión 8.5 {#release-8-5}
 
->[!CAUTION]
->
-> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
+_30 de junio de 2023_
 
-_7 de octubre de 2022_
+**Novedades**
+
+<table> 
+<thead>
+<tr> 
+<th> <strong>Servicio de notificaciones push mejorado</strong><br /> </th> 
+</tr> 
+</thead> 
+<tbody> 
+<tr> 
+<td><p>Campaign 8.5 presenta nuestro último servicio de notificaciones push en la versión 8, con una sólida estructura basada en una moderna tecnología de vanguardia. Este servicio está diseñado para desbloquear nuevos niveles de escalabilidad, lo que garantiza que las notificaciones puedan llegar a una audiencia más grande con una eficiencia perfecta. Con nuestra infraestructura mejorada y los procesos optimizados, puede esperar una mayor escala y fiabilidad, lo que le permite interactuar y conectarse con los usuarios de sus aplicaciones móviles como nunca antes. Esta capacidad solo está disponible para un grupo seleccionado de clientes (disponibilidad limitada).</p>
+</td> 
+</tr> 
+</tbody> 
+</table>
+
+**Actualizaciones de compatibilidad**
+
+* La versión de 32 bits de la consola del cliente ya no se utiliza. A partir de la versión 8.6, la consola de cliente solo estará disponible en 64 bits. La actualización a la versión de 64 bits de la consola del cliente se realiza sin problemas. Para obtener más información sobre cómo actualizar el sistema operativo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=es).
+* Ahora puede conectar la instancia de Campaign v8 a la base de datos externa de Azure synapse. Esta conexión se administra mediante una nueva cuenta externa.
 
 **Mejoras**
 
-* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
-* El flujo de trabajo técnico para la **Limpieza de base de datos** ahora también gestiona los esquemas de ensayo personalizados. (NEO-48974)
-* Se ha corregido un problema que podía ocasionar que los envíos permanecieran en el estado **Pendiente** aunque se hubiera alcanzado la fecha de contacto. (NEO-48079, NEO-48251)
-* Se ha mejorado la estabilidad al gestionar cadenas XML no válidas durante las llamadas SOAP. (NEO-48027)
-* Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al dirigirse a grandes volúmenes de destinatarios. (NEO-48019)
-* Para evitar la lentitud al enviar la prueba a las direcciones semilla, todas las réplicas consecutivas de los miembros semilla ahora se agrupan en una solicitud de réplica. (NEO-44844)
-* Se ha corregido un problema que provocaba problemas de personalización al enviar mensajes SMS mediante un modo de envío externo. (NEO-46415)
-* Se ha corregido un problema que mostraba un error al intentar previsualizar una entrega en cualquier evento archivado del Centro de mensajes. (NEO-43620)
-* Se ha corregido un problema en los flujos de trabajo que podía impedir que los archivos se actualizaran en el servidor al usar la actividad **Carga de datos (archivo)**. El proceso se detuvo al 100 % pero nunca se finalizó. (NEO-47269)
-* Se ha corregido un problema que provocaba la creación de elementos DeliveryParts innecesarios cuando el envío utilizaba modos de calendario y división. (NEO-48634)
-* Se ha corregido un problema de rendimiento al usar olas basadas en calendario. (NEO-48451)
-* Se ha corregido un problema que podría provocar un mensaje de error en la pantalla de la lista de envíos después de crear una nueva asignación de destino en un esquema personalizado. (NEO-49237)
-* Se ha corregido un problema que se podía producir si una envío alcanzaba un tamaño específico durante el proceso de MTA. (NEO-46097)
-* Se ha corregido un problema que impedía que los registros de seguimiento devolvieran datos relacionados con el explorador del destinatario. (NEO-46612)
-* Se ha corregido un problema durante la posactualización en entornos japoneses. (NEO-46640)
-* Se ha corregido un problema que se producía al usar la actividad **Consulta** y filtrar una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizado&quot;. (NEO-46485)
-* Se ha corregido un problema que impedía que el flujo de trabajo técnico **[!UICONTROL Replicate Staging data]** (ffdaReplicateStagingData) no se detuviera aunque se produjese un error durante su ejecución. (NEO-46280)
-* Se ha corregido un problema que podía causar pérdida de datos si el flujo de trabajo de preparación era erróneo y el periodo de retención había transcurrido por completo. (NEO-48975)
-* Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una actividad de **Consulta de Campaign** y una actividad de **Cambiar fuente de datos**: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de fuente no se escapó y los datos no se procesaron correctamente en Snowflake. (NEO-45549)
+* El rendimiento de los SMS se ha mejorado significativamente mediante la implementación de una serie de optimizaciones, lo que resulta en una velocidad y eficiencia mejoradas para la comunicación SMS.
+* A partir de la versión 8.5 de Campaign, se ha mejorado el proceso de autenticación en la versión 8 de Campaign. Los operadores técnicos deben utilizar Adobe Identity Management System (IMS) para conectarse a Campaign.
+* Ahora puede aprovechar las conexiones de destino y origen para sincronizar atributos de perfil como los datos de exclusión entre Adobe Experience Platform y la base de datos de Campaign v8
+* Se ha optimizado la preparación del envío.
+* Se ha añadido una nueva opción de autenticación basada en claves para la cuenta externa SFTP, junto con el método de autenticación de usuario/contraseña existente. Los usuarios ahora pueden autenticarse de forma segura con una clave privada, lo que mejora la seguridad y proporciona un mecanismo de autenticación alternativo para el acceso SFTP.
+
+**Mejoras de seguridad**
+
+* Ya no puede crear operadores desde la consola de cliente. Ahora debe utilizar el Admin Console. [Más información](../start/gs-permissions.md).
+* Se han actualizado varias herramientas de terceros para optimizar la seguridad.
+
+**Parches**
+
+* Se ha corregido un problema que podía provocar que los caracteres especiales del contenido del HTML de una entrega se codificaran incorrectamente en varios exploradores. (NEO-60081)
+* Se ha corregido un problema que podía impedir que guardara un informe en una implementación de Campaign v8 Enterprise (FDAC). (NEO-56836)
+* Se ha corregido un problema que se producía al insertar o actualizar datos en un esquema de FDAC personalizado mediante una actividad de flujo de trabajo Actualizar datos. (NEO-54708)
+* Se ha corregido un problema que impedía que el flujo de trabajo de limpieza de la base de datos eliminara direcciones en la tabla nms:address de FDAC. (NEO-54460)
+* Se ha corregido un problema con el flujo de trabajo de facturación que podía fallar con un error de &quot;Memoria de compilación agotada&quot;. (NEO-51137)
+* Se ha corregido un problema que podía impedir que el descifrado GPG funcionara correctamente en la actividad de flujo de trabajo Carga de datos (archivo). (NEO-50257)
+* Se ha corregido un problema que impedía el funcionamiento de la función `JSPContext.sqlExecWithOneParam`. (NEO-50066)
+* Se ha corregido un problema que provocaba errores de entrega al utilizar caracteres no imprimibles en campos de personalización. (NEO-48588)
+* Se ha corregido un problema que podría provocar errores de entrega al insertar imágenes dinámicas de Adobe Target. (NEO-62689)
+* Se ha corregido un problema para evitar que los exploradores agregaran espacios adicionales al utilizar contenido condicional en una entrega. (NEO-62132)
+* Se ha corregido un problema que provocaba que se abriera una ventana emergente al hacer clic en una imagen en el editor de contenido de correo electrónico. (NEO-60752)
+* Se ha corregido un problema que podría provocar un error e impedir que se desplace al editar el contenido de una entrega. (NEO-61364)

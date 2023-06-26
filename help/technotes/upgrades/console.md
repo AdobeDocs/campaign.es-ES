@@ -5,9 +5,9 @@ description: Desaprobación de 32 bits de la consola del cliente
 hide: true
 hidefromtoc: true
 exl-id: eaa20b88-4ba2-4146-b6bd-1eada34ecc53
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: ac356acdbbc8072ce8263b1c62804a4703781ca9
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,12 @@ El fin de la compatibilidad significa que Adobe ya no proporciona asistencia té
 Para aprovechar las últimas funciones y la seguridad mejorada, Adobe recomienda actualizar el equipo a un sistema operativo de 64 bits.
 
 ## Preguntas frecuentes
+
++++¿Cómo actualizo de Campaign v8 de 32 bits a Campaign v8 de 64 bits?
+
+La actualización es perfecta. Solo necesita instalar su nueva versión a través de la instalación como una actualización regular.
+
++++
 
 +++¿La versión de 64 bits de la consola del cliente de Campaign v8 es compatible con los equipos de 32 bits?
 
