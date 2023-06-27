@@ -4,7 +4,7 @@ user-guide-title: Campaign v8
 title: Documentación de Adobe Campaign v8
 description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
-source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
+source-git-commit: cd8ce8e16622010c1498bfaa244dda7095d9adc1
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 97%
@@ -47,7 +47,7 @@ ht-degree: 97%
       + [SMS](send/sms.md)
       + Notificaciones push {#push}
          + [Creación y envío de notificaciones push](send/push.md)
-         + [Configuración del canal de notificaciones push](config/push-settings.md)
+         + [Configuración del canal de notificaciones push](send/push-settings.md)
       + [Mensajería LINE](send/line.md)
       + [Correo directo](send/direct-mail.md)
       + [Twitter](send/twitter.md)
