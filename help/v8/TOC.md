@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Documentación de Adobe Campaign v8
 description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 97%
 
 ---
 
@@ -45,7 +45,9 @@ ht-degree: 98%
          + [Vínculo a la página espejo](send/mirror-page.md)
          + [Envío y monitorización de correos electrónicos](send/send.md)
       + [SMS](send/sms.md)
-      + [Notificaciones push](send/push.md)
+      + Notificaciones push {#push}
+         + [Creación y envío de notificaciones push](send/push.md)
+         + [Configuración del canal de notificaciones push](config/push-settings.md)
       + [Mensajería LINE](send/line.md)
       + [Correo directo](send/direct-mail.md)
       + [Twitter](send/twitter.md)
@@ -170,7 +172,6 @@ ht-degree: 98%
       + [Configuración de la interfaz de usuario](config/ui-settings.md)
       + [Administrar carpetas y vistas](audiences/folders-and-views.md)
       + [Configuración de correo electrónico](config/email-settings.md)
-      + [Configuración de push](config/push-settings.md)
       + [Configuración de mensajería transaccional](config/transactional-msg-settings.md)
       + [Integración de los SDK de Campaign con la aplicación - PÁGINA OBSOLETA](config/push-config.md)
       + [Cuentas externas](config/external-accounts.md)
