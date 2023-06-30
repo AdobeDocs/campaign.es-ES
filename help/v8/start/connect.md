@@ -5,7 +5,7 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 11%
@@ -100,6 +100,8 @@ Como usuario de Cloud Services administrados, Adobe implementa la consola de cli
 >[!CAUTION]
 >
 >El Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** no seleccionada para asegurarse de que se le avisa cuando hay una nueva versión de la consola disponible. Si se selecciona esta opción, no se informa al usuario de que se requiere una actualización de la consola.
+>
+
 
 
 ## Concesión de acceso a los usuarios{#grant-access}

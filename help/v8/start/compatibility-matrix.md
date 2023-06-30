@@ -5,10 +5,10 @@ feature: Overview
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 93%
+source-wordcount: '378'
+ht-degree: 89%
 
 ---
 
@@ -26,14 +26,14 @@ Cuando las versiones específicas de estos sistemas y herramientas de terceros l
 
 Se requieren los siguientes sistemas operativos y exploradores para utilizar la consola del cliente de Campaign. [Más información](connect.md).
 
->[!NOTE]
->
->Tenga en cuenta que la versión de 32 bits de la consola de cliente quedará obsoleta en la versión 8.5. A partir de la versión 8.6, la consola de cliente solo estará disponible en 64 bits. Para obtener más información sobre cómo actualizar el sistema operativo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/console.html?lang=es).
-
 ### Sistemas operativos{#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016, 2012
 * **Microsoft Windows** 11, 10, 8
+
+>[!NOTE]
+>
+>Tenga en cuenta que la versión de 32 bits de la consola del cliente está en desuso a partir de la versión 8.5. A partir de la versión 8.6, la consola de cliente solo estará disponible en 64 bits. Para obtener más información sobre cómo actualizar el sistema operativo, consulte esta [nota técnica](../../technotes/upgrades/console.md).
 
 ### Explorador web{#web-browsers}
 
@@ -52,7 +52,8 @@ A continuación, se enumeran los sistemas de administración de la relación con
 
 A continuación, se enumeran las bases de datos externas compatibles con el módulo de acceso de datos federado (FDA) de Adobe Campaign. [Más información](../connect/fda.md).
 
-* **Amazon Redshift**
+* **[!DNL Amazon Redshift]**
+* **[!DNL Azure Synapse]**, a partir de la versión 8.5 de Campaign
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

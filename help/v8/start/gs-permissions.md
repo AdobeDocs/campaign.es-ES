@@ -5,7 +5,7 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 15%
@@ -35,9 +35,9 @@ Los pasos clave son los siguientes:
 
 * **Paso 1**: Defina los grupos de operadores y asígneles permisos en la consola del cliente de Campaign. [Más información](manage-permissions.md#create-product-profile).
 Tenga en cuenta que también puede utilizar grupos de operadores integrados para empezar con. Estos grupos predeterminados y sus permisos se enumeran en [esta sección](manage-permissions.md#ootb-productprofiles).
-* **Paso 2**: Cree perfiles de producto en el Admin Console que coincidan con esos grupos. [Más información](manage-permissions.md#create-product-profile).
+* **Paso 2**: Cree perfiles de producto en Adobe Admin Console que coincidan con esos grupos. [Más información](manage-permissions.md#create-product-profile).
 Puede utilizar perfiles de producto integrados para empezar con. [Más información](manage-permissions.md#ootb-productprofiles).
-* **Paso 3**: Cree usuarios en el Admin Console y asígnelos a un perfil de producto. [Más información](manage-permissions.md#add-users).
+* **Paso 3**: Cree usuarios en Adobe Admin Console y asígnelos a un perfil de producto. [Más información](manage-permissions.md#add-users).
 * **Paso 4** (opcional): Asigne permisos a las carpetas. [Más información](manage-permissions.md#ootb-productprofiles).
 
 ## Acerca del Admin Console{#gs-admin-console}

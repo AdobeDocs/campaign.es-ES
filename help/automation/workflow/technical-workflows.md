@@ -4,10 +4,10 @@ title: Flujos de trabajo técnicos
 description: Obtenga más información sobre los flujos de trabajo técnicos disponibles con Campaign
 feature: Workflows
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 93%
+source-wordcount: '1667'
+ht-degree: 92%
 
 ---
 
@@ -84,6 +84,7 @@ Obtenga información sobre cómo monitorizar flujos de trabajo técnicos en esta
 | **Sistema de informes de acumulados** (reportingAggregates) | Entrega | Este flujo de trabajo actualiza los agregados que se utilizan en los informes. Se activa cada día a la 2 de la mañana de forma predeterminada. |
 | **Envío de indicadores y atributos de campañas** (webAnalyticsSendMetrics) | Conectores de análisis web | Este flujo de trabajo permite enviar indicadores de campaña de correo electrónico desde Adobe Campaign a Adobe Experience Cloud Suite a través del conector de Adobe® Analytics. Los indicadores correspondientes son los siguientes: Enviado (iSent), Número total de aperturas (iTotalRecipientOpen), Número total de destinatarios que hicieron clic (iTotalRecipientClick), Errores (iError), Exclusión (opt-out) (iOptOut). |
 | **Stock: pedidos y alertas** (stockMgt) | Instalado de forma predeterminada | Este flujo de trabajo inicia el cálculo de stock en las líneas de pedido y administra los umbrales de alertas de advertencia. |
+| **Sincronizar aplicaciones móviles de la recopilación de datos de Adobe Experience Platform** (syncWithLaunch) | Se instala de forma predeterminada a partir de la versión 8.5 | Este flujo de trabajo sincroniza automáticamente las propiedades móviles de la recopilación de datos con Adobe Campaign. |
 | **Seguimiento** (seguimiento) | Instalado de forma predeterminada | Este flujo de trabajo realiza la recuperación y la consolidación de la información de seguimiento. También garantiza que se recalculen las estadísticas de seguimiento y envío, especialmente las utilizadas por los flujos de trabajo de archivado del Centro de mensajes. De forma predeterminada, se activa una vez cada hora. |
 | **Actualizar estado del evento** (updateEventsStatus) | Ejecución de mensaje transaccional (Centro de mensajes - Ejecución) | Este flujo de trabajo permite asignar un estado a un evento. Los estados de eventos son los siguientes:<ul><li>Pendiente: el evento está en cola. Aún no se le ha asociado ninguna plantilla de mensaje.</li><li>Envío pendiente: el evento está en cola, se le ha asociado una plantilla de mensaje y el envío lo está procesando en ese momento.</li><li>Enviado: este estado se copia desde los registros de envío. Significa que el envío se realizó.</li><li>Envío ignorado: este estado se copia desde los registros de envío. Significa que el envío se ha ignorado.</li><li>Error de envío: este estado se copia desde los registros de envío. Significa que el envío ha fallado.</li><li>Evento no cubierto: el evento no se ha podido asociar con una plantilla de mensaje. El evento no se vuelve a procesar.</li></ul> |
 | **Actualización para el envío** (deliverabilityUpdate) | Instalado de forma predeterminada | Una vez instalado el paquete de monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico), este flujo de trabajo se ejecuta todas las noches y gestiona las reglas de calificación de correos electrónicos de devolución, así como la lista de dominios y MX. Esto requiere que el puerto HTTPS se abra en la plataforma. |
