@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 7bf3937c-484d-4404-8a9b-de7a10f5455a
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: b333db04dd10cc28956959a446f6567e2a89b2d4
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 57%
+source-wordcount: '434'
+ht-degree: 56%
 
 ---
 
-# Vínculo a la página espejo{#mirror-page}
+# Vínculo a la página espejo {#mirror-page}
 
-## Acerca de la página espejo{#about-mirror-page}
+## Acerca de la página espejo {#about-mirror-page}
 
 La página espejo es una versión en línea de su correo electrónico.
 
@@ -24,7 +24,7 @@ La página espejo generada por Adobe Campaign contiene todos los datos de person
 
 ![ejemplo de vínculo espejo](assets/mirror-page-link.png){width="600" align="left"}
 
-## Añadir un vínculo a la página espejo{#link-to-mirror-page}
+## Añadir un vínculo a la página espejo {#link-to-mirror-page}
 
 Se recomienda insertar un vínculo a la página espejo. Este vínculo puede ser, por ejemplo, “Ver este correo electrónico en su navegador” o “Leer esto en línea”. A menudo se encuentra en el encabezado o pie de página del correo electrónico.
 
@@ -35,7 +35,7 @@ En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenid
 
 Para obtener más información sobre la inserción de bloques de contenido personalizado, consulte [Bloques de personalización](personalization-blocks.md).
 
-## Generación de páginas espejo{#mirror-page-generation}
+## Administrar la generación de páginas espejo {#mirror-page-generation}
 
 De forma predeterminada, Adobe Campaign genera automáticamente la página espejo si el contenido del correo electrónico no está vacío y si contiene un vínculo a la página espejo (también conocido como vínculo espejo).
 
@@ -52,7 +52,7 @@ Además del modo predeterminado, están disponibles las siguientes opciones:
 * **[!UICONTROL Do not generate the mirror page]**: utilice este modo para evitar generar una página espejo, incluso si el vínculo está presente en el envío.
 * **[!UICONTROL Generates a mirror page accessible using only the message identifier]**: cuando el vínculo de la página espejo no está presente en el contenido del correo electrónico, utilice esta opción para habilitar el acceso al contenido de la página espejo en la ventana del registro de envíos, como se detalla a continuación.
 
-## Buscar un destinatario en la página espejo{#mirror-page-access}
+## Buscar un destinatario en la página espejo {#mirror-page-access}
 
 Puede acceder al contenido de la página espejo de un destinatario específico de una entrega, con datos de personalización.
 

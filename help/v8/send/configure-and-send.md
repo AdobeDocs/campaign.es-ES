@@ -1,0 +1,200 @@
+---
+title: Configuración de correos electrónicos con Adobe Campaign
+description: Obtenga información sobre cómo configurar correos electrónicos en Adobe Campaign.
+feature: Email
+role: User
+level: Beginner
+source-git-commit: 44f30f753e3ed75b7e56caf7bd8cdfa7cbee5c35
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 89%
+
+---
+
+# Configuración y envío de la entrega {#configure-delivery}
+
+## Definición de parámetros adicionales {#delivery-additional-parameters}
+
+Antes de realizar el envío, se pueden definir los parámetros de envío en las propiedades de envío a través de la pestaña **[!UICONTROL Delivery]**.
+
+![](assets/delivery-properties-delivery.png)
+
+* **[!UICONTROL Delivery priority]**: utilice esta opción para cambiar el orden de envío de los envíos estableciendo su nivel de prioridad, de **[!UICONTROL Very low]** hasta **[!UICONTROL Very high]** (el valor predeterminado es **[!UICONTROL Normal]**).
+
+* **[!UICONTROL Message batch quantity]**: utilice esta opción para definir el número de mensajes agrupados dentro del mismo paquete de entrega XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
+
+  >[!IMPORTANT]
+  >
+  >Cuando se crea la entrega duplicando una existente, este parámetro se restablece.
+
+* **[!UICONTROL Send using multiple waves]**: utilice esta opción para enviar los mensajes en lotes, en lugar de a toda la audiencia a la vez. [Más información](#sending-using-multiple-waves).
+
+* **[!UICONTROL Test SMTP delivery]**: utilice esta opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
+
+  >[!NOTE]
+  >
+  >* Esta opción no debe configurarse en intermediario.
+  >
+  >* Obtenga más información acerca de la configuración del servidor SMTP en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
+
+* **[!UICONTROL Email BCC]**: utilice esta opción para almacenar correos electrónicos en un sistema externo como CCO simplemente añadiendo una dirección de correo electrónico a copia oculta (CCO) al destinatario del mensaje. [Más información](email-parameters.md).
+
+## Envío mediante múltiples olas {#sending-using-multiple-waves}
+
+Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configure el número de lotes y su proporción con respecto a todo la entrega.
+
+>[!NOTE]
+>
+>Solo se puede definir el tamaño y el retraso entre dos olas consecutivas. No se pueden configurar los criterios de selección de destinatarios para cada ola.
+
+1. Abra la ventana de propiedades de entrega y haga clic en la pestaña **[!UICONTROL Delivery]**.
+1. Seleccione la opción **[!UICONTROL Send using multiple waves]** y haga clic en el enlace **[!UICONTROL Define waves...]**.
+
+   ![](assets/delivery-define-waves.png)
+
+1. Para configurar las olas, se puede:
+
+   * Definir el tamaño de cada ola. Por ejemplo, si se introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en el envío, excepto el último, que representa el 10 % de los mensajes.
+
+     En el campo **[!UICONTROL Period]** especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si se introduce **[!UICONTROL 2d]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
+
+     ![](assets/delivery-waves-size.png)
+
+   * Defina un calendario para enviar cada ola.
+
+     En la columna **[!UICONTROL Start]** especifique el retardo entre el inicio de dos olas consecutivas. En la columna **[!UICONTROL Size]**, introduzca un número fijo o un porcentaje.
+
+     En el siguiente ejemplo, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
+
+     ![](assets/delivery-waves-calendar.png)
+
+   Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Tipologías de campaña y sus reglas, configuradas en la variable **[!UICONTROL Typology]** de las propiedades de entrega, se presentan en [esta sección](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+
+   >[!IMPORTANT]
+   >
+   >Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. En caso contrario, es posible que algunos mensajes no se envíen.
+   >
+   >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. <!--See [this section]().-->
+
+1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](send.md)<!--ref TBC-->.
+
+   Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
+
+Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
+
+* **Durante el proceso de aceleración**
+
+  Cuando se envían correos electrónicos utilizando una plataforma nueva, los proveedores de servicios de Internet (ISP) sospechan de las direcciones IP desconocidas. Si se envían, de repente, grandes volúmenes de correos electrónicos, los ISP suelen marcarlos como correo no deseado.
+
+  Para evitar que se lo considere correo no deseado, puede aumentar progresivamente el volumen enviado mediante el uso de olas. Esto debería garantizar un desarrollo uniforme de la fase de inicio y permitir reducir la velocidad total de direcciones no válidas.
+
+  Para ello, marque la opción **[!UICONTROL Schedule waves according to a calendar]**. Por ejemplo, defina la primera ola en 10 %, la segunda en 15 % y así sucesivamente.
+
+  ![](assets/delivery-waves-ex-ramp-up.png)
+
+* **Campañas que implican un centro de llamadas**
+
+  Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar la cantidad de llamadas a los suscriptores.
+
+  Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas.
+
+  Para ello, seleccione la opción **[!UICONTROL Schedule multiple waves of the same size]**. Introduzca **[!UICONTROL 20]** como tamaño de la ola y **[!UICONTROL 1d]** en el campo **[!UICONTROL Period]**.
+
+  ![](assets/delivery-waves-ex-call-center.png)
+
+<!--
+## Adjust delivery failure management {#delivery-failure-management}
+
+### Configure retries {#configure-retries}
+
+Temporarily undelivered messages due to a **Soft** or **Ignored** error are subject to an automatic retry. The delivery failure types and reasons are presented in this [section](../../delivery/using/understanding-delivery-failures.md#delivery-failure-types-and-reasons).
+
+>[!IMPORTANT]
+>
+>For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the retry settings in the delivery are no longer used by Campaign. Soft bounce retries and the length of time between them are determined by the Enhanced MTA based on the type and severity of the bounce responses coming back from the message's email domain.
+
+For on-premise installations and hosted/hybrid installations using the legacy Campaign MTA, the central section of the **[!UICONTROL Delivery]** tab for delivery parameters indicates how many retries should be performed the day after the delivery and the minimum delay between retries.
+
+![](assets/s_ncs_user_wizard_retry_param.png)
+
+By default, five retries are scheduled for the first day of the delivery with a minimum interval of one hour spread out over the 24 hours of the day. One retry per day is programmed after that and until the delivery deadline, which is defined in the **[!UICONTROL Validity]** tab (see [Defining validity period](#defining-validity-period)).
+
+### Define the validity period {#define-validity-period}
+
+When the delivery has been launched, the messages (and any retries) can be sent until the delivery deadline. This is indicated in the delivery properties, via the **[!UICONTROL Validity]** tab.
+
+![](assets/s_ncs_user_email_del_valid_period.png)
+
+* The **[!UICONTROL Delivery duration]** field lets you enter the limit for global delivery retries. This means that Adobe Campaign sends the messages beginning on the start date, and then, for messages returning an error only, regular, configurable retries are performed until the validity limit is reached.
+
+  You can also choose to specify dates. To do this, select **[!UICONTROL Explicitly set validity dates]**. In this case, the delivery and validity limit dates also let you specify the time. The current time is used by default, but you can modify this directly in the input field.
+
+  >[!IMPORTANT]
+  >
+  >For hosted or hybrid installations, if you have upgraded to the [Enhanced MTA](../../delivery/using/sending-with-enhanced-mta.md), the **[!UICONTROL Delivery duration]** setting in your Campaign email deliveries will be used only if set to **3.5 days or less**. If you define a value higher than 3.5 days, it will not be taken into account.
+
+* **Validity limit of resources**: The **[!UICONTROL Validity limit]** field is used for uploaded resources, mainly for the mirror page and images. The resources on this page are valid for a limited time (to save disk space).
+
+  The values in this field can be expressed in the units listed in [this section](../../platform/using/adobe-campaign-workspace.md#default-units).
+
+## Confirm the delivery {#confirm-delivery}
+
+When the delivery is configured and ready to be sent, make sure you have run the delivery analysis.
+
+To do this, click **[!UICONTROL Send]**, select the desired action and click **[!UICONTROL Analyze]**. For more on this, see [Launching the analysis](../../delivery/using/steps-validating-the-delivery.md#analyzing-the-delivery).
+
+![](assets/s_ncs_user_email_del_send.png)
+
+Once done, click **[!UICONTROL Confirm delivery]** to launch the delivery of messages.
+
+You can then close the delivery wizard and track the execution of the delivery from the **[!UICONTROL Delivery]** tab, accessible via the detail of this delivery or via the list of deliveries.
+
+After sending messages, you can monitor and track your deliveries. For more on this, refer to these sections:
+
+* [Monitoring a delivery](send.md)
+* [Understanding delivery failures](delivery-failures.md)
+* [About message tracking]
+
+## Schedule the delivery sending {#schedule-delivery-sending}
+
+You can defer the delivery of messages in order to schedule the delivery or to manage sales pressure and avoid over-soliciting a population.
+
+1. Click the **[!UICONTROL Send]** button and select the **[!UICONTROL Postpone delivery]** option.
+
+1. Specify a start date in the **[!UICONTROL Contact date]** field.
+
+  ![](assets/)
+
+1. You can then start the delivery analysis, then confirm the delivery sending. However, the delivery sending will not start until the date given in the **[!UICONTROL Contact date]** field.
+
+  >[!IMPORTANT]
+  >
+  >Once you have started the analysis, the contact date that you defined is fixed. If you modify this date, you will have to restart the analysis so that your modifications are taken into account.
+
+  ![](assets/)
+
+In the delivery list, the delivery will appear with **[!UICONTROL Pending]** status.
+
+![](assets/send-schedule-pending-status.png)
+
+Scheduling can also be configured upstream via the **[!UICONTROL Scheduling]** button of the delivery.
+
+![](assets/send-scheduling-button.png)
+
+It lets you defer the delivery to a later date or save the delivery in the provisional calendar.
+
+* The **[!UICONTROL Schedule delivery (no automatic execution)]** option lets you schedule a provisional analysis of the delivery.
+
+  When this configuration is saved, the delivery changes to **[!UICONTROL Targeting pending]** status. The analysis will be launched on the specified date.
+
+* The **[!UICONTROL Schedule delivery (automatic execution on planned date)]** option lets you specify the delivery date.
+
+  Click **[!UICONTROL Send]** and select **[!UICONTROL Postpone delivery]** then launch the analysis and confirm delivery. When the analysis is complete, the delivery target is ready and messages will automatically be sent on the specified date.
+
+Dates and times are expressed in the time zone of the current operator. The **[!UICONTROL Time zone]** drop-down list located below the contact date input field lets you automatically convert the entered date and time into the selected time zone.
+
+For instance, if you schedule a delivery to be executed automatically at 8 o'clock London time, the time is automatically converted into the selected time zone:
+
+![](assets/send-schedule-time-zone.png)
+
+-->
