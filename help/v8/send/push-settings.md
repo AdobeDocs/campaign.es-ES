@@ -6,14 +6,14 @@ feature: Push
 role: Admin, Developer
 level: Intermediate, Experienced
 exl-id: b5a0fe46-f7b4-4be1-abf0-162fc1412886
-source-git-commit: d941d9a364ffb2df77ba6726e655ca2916448f89
+source-git-commit: 441310dc1cdcb96296c0cbe5bf3fb7cd1502709f
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1659'
 ht-degree: 19%
 
 ---
 
-# SDK de AEP + Campaign: configurar el canal de notificaciones push {#push-notification-configuration}
+# Configuración del canal de notificaciones push {#push-notification-configuration}
 
 Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurarse de que las configuraciones y integraciones estén implementadas en la aplicación móvil y para las etiquetas en Adobe Experience Platform.
 
