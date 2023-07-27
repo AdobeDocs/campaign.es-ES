@@ -4,10 +4,10 @@ title: Configuración de reglas de presión
 description: Aprenda a configurar las reglas de presión
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 6a1e2e0a872ce5886e7374d266c71975941e87b8
+source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '3027'
-ht-degree: 95%
+source-wordcount: '3037'
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    >[!NOTE]
    >
-   >No se tienen en cuenta las entregas programadas.
+   >En el contexto de un [Implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md) En Campaign, no se tienen en cuenta las entregas programadas.
 
 1. Defina el método para calcular el número más alto de mensajes.
 
@@ -82,7 +82,8 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
    * La sección superior de esta pestaña le permite restringir los destinatarios que le interesen.
    * La sección inferior de esta pestaña le permite filtrar los mensajes que se van a contar.
 
-      En el siguiente ejemplo, solo se tienen en cuenta los destinatarios guardados en la carpeta **NewContacts** y las entregas que comienzan con **Newsletter**.
+     En el siguiente ejemplo, solo se tienen en cuenta los destinatarios guardados en la carpeta **NewContacts** y las entregas que comienzan con **Newsletter**.
+
    ![](assets/campaign_opt_create_a_rule_05.png)
 
 1. La pestaña **[!UICONTROL Typologies]** permite ver las tipologías de campaña que aplican esta regla o relaciona la regla con una o más tipologías existentes. [Más información](campaign-typologies.md#apply-typologies).
@@ -264,15 +265,15 @@ Durante el análisis de la entrega, los destinatarios de la entrega se excluyen 
 
 * Consultar el resultado del análisis:
 
-   ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![](assets/campaign_opt_pressure_sample_1_8.png)
 
 * Edite la entrega y haga clic en la pestaña **[!UICONTROL Delivery]** y en la subpestaña **[!UICONTROL Exclusions]**:
 
-   ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![](assets/campaign_opt_pressure_sample_1_9.png)
 
 * Haga clic en la pestaña **[!UICONTROL Audit]** y luego en la subpestaña **[!UICONTROL Causes of exclusions]** para mostrar el número de exclusiones y las reglas de tipología aplicadas:
 
-   ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### Cálculo del peso de la entrega según el comportamiento {#calculate-the-delivery-weight-based-on-behavior}
 
