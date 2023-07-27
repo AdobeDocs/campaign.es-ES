@@ -5,10 +5,10 @@ feature: Overview
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 5d307e0fcafdc4d25402c62c6869ecc07c1a47e4
+source-git-commit: 1297d5a602d125cb80ca6efb490b12174bcea8d6
 workflow-type: tm+mt
 source-wordcount: '682'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
@@ -37,13 +37,11 @@ La nueva oferta combina los mejores servicios con supervisión proactiva y alert
 
 Como antiguo usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría de las funciones de la versión 7 de [!DNL Campaign Classic] están disponibles en la versión 8 de [!DNL Campaign], excepto un pequeño conjunto de ellas, que se enumeran en [esta sección](#gs-removed).
 
+La versión 8 de Campaign se basa en una **arquitectura híbrida**. Si está realizando la transición desde la versión 7 de Campaign Classic, tenga en cuenta que todos los envíos pasan al servidor intermediario. [Más información](../architecture/architecture.md). Como consecuencia, el enrutamiento interno **no es posible** en la versión 8 de Campaign, y la cuenta externa se ha deshabilitado en consecuencia.
+
 >[!NOTE]
 >
-> La versión 8 de Campaign se basa en una arquitectura híbrida. Si está realizando la transición desde la versión 7 de Campaign Classic, tenga en cuenta que todos los envíos pasan al servidor intermediario. [Más información](../architecture/architecture.md)
->
-> Como consecuencia, el enrutamiento interno **no es posible** en la versión 8 de Campaign, y la cuenta externa se ha deshabilitado en consecuencia.
-
-La nueva arquitectura de la nube permite a Campaign optimizar los procesos, reducir los costes, administrar los riesgos y mejorar la seguridad de los datos. El entorno de Campaign v8 viene con una nube privada virtual (VPC) dedicada preconfigurada para usted.
+>La nueva arquitectura de la nube permite a Campaign optimizar los procesos, reducir los costes, administrar los riesgos y mejorar la seguridad de los datos. El entorno de Campaign v8 viene con una nube privada virtual (VPC) dedicada preconfigurada para usted.
 
 ## [!DNL Campaign] y [!DNL Snowflake] {#ac-gs-snowflake}
 
