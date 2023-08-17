@@ -110,7 +110,7 @@ También puede eliminar manualmente una dirección de la lista de cuarentena. Pa
 
 * Cambie su estado a **[!UICONTROL Valid]** desde el **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** nodo.
 
-   ![](assets/tech-quarantine-status.png)
+  ![](assets/tech-quarantine-status.png)
 
 Es posible que deba realizar actualizaciones masivas en la lista de cuarentena, por ejemplo, en caso de una interrupción del ISP durante la cual los correos electrónicos se marcan erróneamente como rechazos porque no se pueden enviar correctamente a su destinatario.
 

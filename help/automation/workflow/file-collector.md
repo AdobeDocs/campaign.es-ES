@@ -31,21 +31,21 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
    * **[!UICONTROL Directory]**
 
-      Directorio que contiene los archivos que se van a descargar. Este directorio debe crearse previamente en el servidor: si no existe, se generará un error.
+     Directorio que contiene los archivos que se van a descargar. Este directorio debe crearse previamente en el servidor: si no existe, se generará un error.
 
    * **[!UICONTROL Filter]**
 
-      Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: **&#42;zip**, **import-&#42;.txt**.
+     Solo se tienen en cuenta los archivos que coinciden con este filtro. Los demás archivos del directorio se omiten. Si el filtro está vacío, se tendrán en cuenta todos los archivos del directorio. Ejemplos de filtros: **&#42;zip**, **import-&#42;.txt**.
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 
-      Si esta opción está activada, la tarea finaliza después de la recepción del primer archivo. Si hay varios archivos correspondientes al filtro en el directorio, solo se tendrá en cuenta uno. Esta opción garantiza que solo se envíe un evento. El archivo tenido en cuenta es la primero en la lista en orden alfabético.
+     Si esta opción está activada, la tarea finaliza después de la recepción del primer archivo. Si hay varios archivos correspondientes al filtro en el directorio, solo se tendrá en cuenta uno. Esta opción garantiza que solo se envíe un evento. El archivo tenido en cuenta es la primero en la lista en orden alfabético.
 
-      Para una actividad no programada, si no se encuentra ningún archivo que coincida con el filtro en el directorio especificado y si la opción **[!UICONTROL Process file nonexistence]** no está activada, se generará un error.
+     Para una actividad no programada, si no se encuentra ningún archivo que coincida con el filtro en el directorio especificado y si la opción **[!UICONTROL Process file nonexistence]** no está activada, se generará un error.
 
    * **[!UICONTROL Execution schedule]**
 
-      Determina la frecuencia de la comprobación de presencia de archivos mediante los parámetros de la pestaña **[!UICONTROL Schedule]**.
+     Determina la frecuencia de la comprobación de presencia de archivos mediante los parámetros de la pestaña **[!UICONTROL Schedule]**.
 
 1. **Error handling**
 
@@ -53,17 +53,17 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
    * **[!UICONTROL Process file nonexistence]**
 
-      Esta opción inicia una transición especial cada vez que no se encuentra ningún archivo que coincida con el filtro en el directorio especificado.
+     Esta opción inicia una transición especial cada vez que no se encuentra ningún archivo que coincida con el filtro en el directorio especificado.
 
-      Si la tarea no está programada, esta transición se activará solo una vez.
+     Si la tarea no está programada, esta transición se activará solo una vez.
 
    * **[!UICONTROL Processing errors]**
 
-      Esta opción hace que aparezca una transición especial, que se activará si se genera un error. En este caso, el flujo de trabajo no cambia a estado de error y continúa la ejecución
+     Esta opción hace que aparezca una transición especial, que se activará si se genera un error. En este caso, el flujo de trabajo no cambia a estado de error y continúa la ejecución
 
-      Los errores que se tienen en cuenta son los errores del sistema de archivos (el archivo no se puede mover, no se puede acceder a un directorio, etc.).
+     Los errores que se tienen en cuenta son los errores del sistema de archivos (el archivo no se puede mover, no se puede acceder a un directorio, etc.).
 
-      Esta opción no procesa los errores relacionados con la configuración de la actividad, es decir, valores no válidos.
+     Esta opción no procesa los errores relacionados con la configuración de la actividad, es decir, valores no válidos.
 
 1. **Historization**
 

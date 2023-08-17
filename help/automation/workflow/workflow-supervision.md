@@ -134,17 +134,17 @@ Esta plantilla debe incluir:
 * **la dirección de correo electrónico del supervisor**.
 * **Contenido HTML** para insertar texto personalizado.
 
-   ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
 
-   Las tres variables declaradas (WF_Stop, WF_Paused, WF_Error) coinciden con las tres variables de evento de flujo de trabajo.
+  Las tres variables declaradas (WF_Stop, WF_Paused, WF_Error) coinciden con las tres variables de evento de flujo de trabajo.
 
-   Estas variables deben declararse en la pestaña **Variables** de las propiedades de la plantilla de envío.
+  Estas variables deben declararse en la pestaña **Variables** de las propiedades de la plantilla de envío.
 
-   Para recuperar **el contenido de las variables de evento de flujo de trabajo**, se debe declarar las variables específicas para la entrega que se desea inicializar con los valores que devuelve el código JavaScript.
+  Para recuperar **el contenido de las variables de evento de flujo de trabajo**, se debe declarar las variables específicas para la entrega que se desea inicializar con los valores que devuelve el código JavaScript.
 
-   La plantilla de envío tiene el siguiente contenido:
+  La plantilla de envío tiene el siguiente contenido:
 
-   ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![](assets/uc_monitoring_workflow_model_diffusion.png)
 
 Una vez creada y aprobada la plantilla, se debe configurar la actividad **Envío** para:
 
@@ -158,20 +158,20 @@ Haga doble clic en la actividad de **Envío** y seleccione las siguientes opcion
 * Acción que quiere ejecutar: seleccione **Preparación e inicio**.
 * Anule la selección de la opción **Procesamiento de errores**.
 
-   ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![](assets/uc_monitoring_workflow_optionmodel.png)
 
 * Vaya a la pestaña **Script** de la actividad **Envío**, añada tres variables de **cadena de caracteres** a través del menú del campo de personalización.
 
-   ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-   ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![](assets/uc_monitoring_workflow_linkvariables.png)
 
-   Las tres variables declaradas son:
+  Las tres variables declaradas son:
 
-   ```
-   delivery.variables._var[0].stringValue = vars.strWorkflowError;
-   delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
-   delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
-   ```
+  ```
+  delivery.variables._var[0].stringValue = vars.strWorkflowError;
+  delivery.variables._var[1].stringValue = vars.strWorkflowPaused;
+  delivery.variables._var[2].stringValue = vars.strWorkflowStop; 
+  ```
 
 Una vez iniciado este flujo de trabajo de monitorización, envía un resumen a los destinatarios.

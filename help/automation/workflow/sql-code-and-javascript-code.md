@@ -23,11 +23,11 @@ Una actividad de **[!UICONTROL SQL code]** ejecuta una secuencia de comandos SQL
 
 * **[!UICONTROL Script]**
 
-   El área central del editor contiene la secuencia de comandos que se va a ejecutar. Esta secuencia de comandos es una plantilla JST y, por lo tanto, se puede configurar según el contexto del flujo de trabajo.
+  El área central del editor contiene la secuencia de comandos que se va a ejecutar. Esta secuencia de comandos es una plantilla JST y, por lo tanto, se puede configurar según el contexto del flujo de trabajo.
 
 * **[!UICONTROL Processing errors]**
 
-   Consulte [Errores de procesamiento](monitor-workflow-execution.md#processing-errors).
+  Consulte [Errores de procesamiento](monitor-workflow-execution.md#processing-errors).
 
 ## Código JavaScript y código JavaScript avanzado {#javascript-code}
 

@@ -49,9 +49,9 @@ Antes de configurar la actividad, asegúrese de que se cumplan los siguientes re
    * **activity.tableName**: Nombre SQL de la tabla de trabajo saliente.
    * **task.incomingTransitionByName(‘name’).tableName**: Utilice el nombre SQL de la tabla de trabajo realizada por la transición entrante (la transición se identifica con su nombre).
 
-      >[!NOTE]
-      >
-      >El valor (“”) corresponde al campo **[!UICONTROL Name]** Name de las propiedades de transición.
+     >[!NOTE]
+     >
+     >El valor (“”) corresponde al campo **[!UICONTROL Name]** Name de las propiedades de transición.
 
 1. Si la secuencia de comandos SQL ya contiene comandos para crear una tabla de trabajo saliente, anule la selección de la opción **[!UICONTROL Automatically create work table]**. De lo contrario, se crea una tabla de trabajo una vez que se ejecute el flujo de trabajo.
 1. Haga clic en **[!UICONTROL Ok]** para confirmar esta configuración.

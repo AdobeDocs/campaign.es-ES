@@ -31,7 +31,7 @@ Adobe Campaign no administra los archivos archivados. Esto le permite enviar los
 
 El destino de archivado es la dirección de correo electrónico CCO que elija, que permanece invisible para los destinatarios de la entrega.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Services, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para comunicar la dirección de correo electrónico CCO que se utilizará para el archivado.
+![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para comunicar la dirección de correo electrónico CCO que se utilizará para el archivado.
 
 Una vez definida la dirección de correo electrónico de CCO, debe habilitar la opción dedicada en el nivel de entrega.
 

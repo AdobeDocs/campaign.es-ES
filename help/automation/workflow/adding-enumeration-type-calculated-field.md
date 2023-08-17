@@ -20,15 +20,15 @@ Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL E
 
 * ¿Qué tabla se debe seleccionar?
 
-   La tabla de destinatario (nms:recipient).
+  La tabla de destinatario (nms:recipient).
 
 * ¿Campos que se desea seleccionar en la columna de salida?
 
-   Apellidos, Nombre, Sexo
+  Apellidos, Nombre, Sexo
 
 * ¿Con qué criterios se va a filtrar la información?
 
-   El lenguaje del destinatario.
+  El lenguaje del destinatario.
 
 Siga estos pasos:
 

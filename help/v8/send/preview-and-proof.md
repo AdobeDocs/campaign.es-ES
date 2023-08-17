@@ -93,7 +93,7 @@ Se recomienda enviar pruebas después de cada modificación al contenido del men
 Las propiedades de prueba se establecen en la variable **[!UICONTROL Advanced]** de las ventanas de propiedades de entrega. Vaya a la **[!UICONTROL Proof properties...]** para definir los parámetros y la etiqueta de las pruebas. Puede optar por mantener:
 
 * Duplicar direcciones en la prueba
-* Incluida en la lista de bloqueados Direcciones en la prueba
+* Incluir en la lista de bloqueados Direcciones en la prueba
 * Direcciones en cuarentena en la prueba
 
 De forma predeterminada, los mensajes de prueba se identifican mediante `Proof #N` mencione en el asunto, donde `N` es el número de prueba. Este número se incrementa con cada análisis de entrega de prueba. Puede cambiar el `proof` prefijo, según sea necesario.

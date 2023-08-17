@@ -65,9 +65,9 @@ Este informe combina los indicadores clave para realizar un seguimiento del comp
 * **[!UICONTROL Clicks on the mirror page link]**[ : Número de clics en el vínculo de página espejo](../send/mirror-page.md). Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envíos (direcciones URL rastreadas).
 * **[!UICONTROL Estimation of forwards]** : Estimación del número de correos electrónicos reenviados por los destinatarios objetivo. Este valor se calcula restando el número de personas diferentes y el número de destinatarios diferentes que hicieron clic en el correo electrónico.
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre la diferencia entre personas diferentes y destinatarios objetivo, consulte [Personas / destinatarios objetivo](metrics-calculation.md#targeted-persons---recipients).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre la diferencia entre personas diferentes y destinatarios objetivo, consulte [Personas / destinatarios objetivo](metrics-calculation.md#targeted-persons---recipients).
 
 **[!UICONTROL 3. Open and click-through rate]**
 

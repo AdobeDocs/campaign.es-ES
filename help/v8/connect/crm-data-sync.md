@@ -104,9 +104,9 @@ La activación de la opción **[!UICONTROL Automatic index]** genera tres variab
 * **vars.crmStartImport**: fecha de inicio (incluida) de la última importación de datos.
 * **vars.crmEndDate**: fecha de finalización (excluida) de la última importación de datos.
 
-   >[!NOTE]
-   >
-   >Estas fechas se muestran en el siguiente formato: **yyyy/MM/dd hh:mm:ss**.
+  >[!NOTE]
+  >
+  >Estas fechas se muestran en el siguiente formato: **yyyy/MM/dd hh:mm:ss**.
 
 ### Filtrado de datos {#filtering-data}
 

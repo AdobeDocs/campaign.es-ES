@@ -1,6 +1,6 @@
 ---
 title: Migración de usuarios técnicos a la consola de Adobe Developer
-description: Obtenga información sobre cómo migrar operadores técnicos de Campaign a cuentas técnicas en la consola de Adobe Developer
+description: Obtenga información sobre cómo migrar los operadores técnicos de Campaign a la cuenta técnica en la consola de Adobe Developer
 source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
 workflow-type: tm+mt
 source-wordcount: '779'

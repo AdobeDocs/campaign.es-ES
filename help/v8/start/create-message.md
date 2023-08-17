@@ -18,7 +18,7 @@ Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos corr
 
 Las funciones principales incluyen direccionamiento, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados. El punto de acceso funcional principal es el asistente de entrega. Este punto de acceso lleva a varias funciones incluidas en Adobe Campaign.
 
-Adobe Campaign v8 incluye los siguientes canales de entrega:
+Adobe Campaign v8 incluye los siguientes canales de envío:
 
 * **Canal de correo electrónico**: las entregas de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo. Obtenga más información en [esta página](../send/email.md).
 
@@ -38,27 +38,27 @@ Una vez creado el mensaje y diseñado y probado su contenido, puede elegir cómo
 
 * Enviar mensajes manualmente al destinatario principal
 
-   ![](assets/send-email.png)
+  ![](assets/send-email.png)
 
-   Obtenga información sobre cómo enviar mensajes en [esta sección](../send/send.md)
+  Obtenga información sobre cómo enviar mensajes en [esta sección](../send/send.md)
 
 * Enviar mensajes asociados a una [campaña de marketing](campaigns.md)
 
-   ![](assets/deliveries-in-a-campaign.png)
+  ![](assets/deliveries-in-a-campaign.png)
 
-   Obtenga información sobre cómo enviar mensajes en el contexto de una campaña en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=es)
+  Obtenga información sobre cómo enviar mensajes en el contexto de una campaña en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=es)
 
 * Enviar mensajes a través de un [flujo de trabajo](../config/workflows.md)
 
-   ![](assets/send-in-a-wf.png)
+  ![](assets/send-in-a-wf.png)
 
-   Obtenga información sobre cómo automatizar los envíos de correo electrónico en [esta página](../../automation/workflow/delivery.md)
+  Obtenga información sobre cómo automatizar los envíos de correo electrónico en [esta página](../../automation/workflow/delivery.md)
 
 * [Mensajes de activación ](../send/transactional.md) de un evento
 
 * Programación de mensajes
 
-   ![](assets/schedule-send.png)
+  ![](assets/schedule-send.png)
 
 [Caso de uso: obtenga información sobre cómo programar y enviar un correo electrónico de cumpleaños](../../automation/workflow/send-a-birthday-email.md)
 
@@ -82,9 +82,9 @@ Obtenga más información acerca de la capacidad de los mensajes transaccionales
 Los pasos para configurar y enviar mensajes transaccionales se detallan en [esta página](../send/transactional.md)
 
 
-## Registros de seguimiento y entrega{#gs-tracking-logs}
+## Registros de seguimiento y envío{#gs-tracking-logs}
 
-La monitorización de las entregas una vez enviadas es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes. Puede monitorizarlas después de enviar una entrega, así como comprender cómo se administran los errores y las cuarentenas.
+La monitorización de los envíos una vez enviados es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes. Puede monitorizarlas después de enviar un envío, así como comprender cómo se administran los errores y las cuarentenas.
 
 ![](../assets/do-not-localize/book.png) Aprenda a monitorizar los envíos en la [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages){target="_blank"}
 

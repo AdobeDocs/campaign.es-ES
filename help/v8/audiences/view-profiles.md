@@ -28,6 +28,7 @@ Para realizar manipulaciones de perfiles más avanzadas, acceda al árbol de Cam
 >[!CAUTION]
 >
 >La pantalla integrada de Destinatario se define a través de un esquema XML y su formulario asociado. El esquema XML se almacena en el **[!UICONTROL Administration > Configuration > Data schemas]** del árbol del explorador de Adobe Campaign. Solo los usuarios expertos pueden realizar cambios en estos esquemas.
+>
 
 ## Editar un perfil{#edit-a-profiles}
 
@@ -41,43 +42,44 @@ Para un destinatario integrado típico, puede acceder a las siguientes pestañas
 
 * **[!UICONTROL General]**, para todos los datos de perfil generales. En particular, contiene los apellidos, el nombre, la dirección de correo electrónico, el formato de correo electrónico, etc.
 
-   Esta pestaña también almacena las variables **exclusión** indicador para el perfil: cuando la variable **[!UICONTROL No longer contact (by any channel)]** Una vez seleccionada la opción, el perfil se encuentra en la lista de bloqueados de la. Esta información se añade a los datos de contacto si el destinatario hace clic, por ejemplo, en un vínculo de baja en un boletín informativo. Este destinatario ya no se puede dirigir a ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../send/quarantines.md).
+  Esta pestaña también almacena las variables **exclusión** indicador para el perfil: cuando la variable **[!UICONTROL No longer contact (by any channel)]** Una vez seleccionada la opción, el perfil se encuentra en la lista de bloqueados de la. Esta información se añade a los datos de contacto si el destinatario hace clic, por ejemplo, en un vínculo de baja en un boletín informativo. Este destinatario ya no se puede dirigir a ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../send/quarantines.md).
 
 * **Información de contacto**, que contiene la dirección de correo postal del perfil seleccionado.
 
-   Puede comprobar en esta pantalla el índice de calidad de la dirección y cuántos errores contiene la dirección. Esta información la utiliza directamente el proveedor de correo postal, según el número de errores encontrados durante las entregas anteriores y no se puede cambiar manualmente.
+  Puede comprobar en esta pantalla el índice de calidad de la dirección y cuántos errores contiene la dirección. Esta información la utiliza directamente el proveedor de correo postal, según el número de errores encontrados durante las entregas anteriores y no se puede cambiar manualmente.
 
 * **Otros**, para campos específicos que se pueden personalizar y rellenar según sus necesidades.
 
-   Utilice el **[!UICONTROL Field properties…]** menú contextual para cambiar los nombres de los campos y definir su formato.
+  Utilice el **[!UICONTROL Field properties…]** menú contextual para cambiar los nombres de los campos y definir su formato.
 
-   ![](assets/other-tab-field-properties.png)
+  ![](assets/other-tab-field-properties.png)
 
-   Introduzca la nueva configuración como se muestra a continuación:
+  Introduzca la nueva configuración como se muestra a continuación:
 
-   ![](assets/change-field-properties.png)
+  ![](assets/change-field-properties.png)
 
-   Compruebe la actualización en la interfaz de usuario:
+  Compruebe la actualización en la interfaz de usuario:
 
-   ![](assets/other-tab-updated.png)
-
-
-   >[!CAUTION]
-   >Los cambios se aplican a todos los destinatarios.
+  ![](assets/other-tab-updated.png)
 
 
-* **Suscripciones**, para todas las suscripciones activas a los servicios. Utilice el **Historial** para acceder a los detalles de las suscripciones y las bajas de suscripción de este contacto.
+  >[!CAUTION]
+  >Los cambios se aplican a todos los destinatarios.
+  >
 
-   ![](assets/subscription-tab.png)
 
-   Más información sobre las Suscripciones [en esta sección](../start/subscriptions.md).
+* **Suscripciones**, para todas las suscripciones activas a servicios. Utilice el **Historial** para acceder a los detalles de las suscripciones y las bajas de suscripción de este contacto.
+
+  ![](assets/subscription-tab.png)
+
+  Más información sobre las Suscripciones [en esta sección](../start/subscriptions.md).
 
 * **Envíos**, para todos los registros de envío del perfil seleccionado. Utilice esta pestaña para acceder al historial de marketing del contacto: etiquetas, fechas y estado de todas las acciones de entrega dirigidas al perfil a través de todos los canales.
 
 
 * **Seguimiento**, para todos los registros de seguimiento del perfil seleccionado. Esta información se utiliza para rastrear el comportamiento del perfil que sigue a las entregas. Esta ficha muestra el total acumulado de todas las direcciones URL rastreadas en las entregas. La lista se puede configurar y normalmente contiene la dirección URL, la fecha y la hora en que se hizo clic, y el documento que contiene la dirección URL
 
-   Más información sobre el Seguimiento [en esta sección](../start/tracking.md).
+  Más información sobre el Seguimiento [en esta sección](../start/tracking.md).
 
 
 ## Perfiles activos {#active-profiles}

@@ -258,7 +258,7 @@ Ejemplos de sintaxis de condición:
 
 ### Visualización condicional (enabledGroup) {#enabling-container}
 
-Este contenedor permite habilitar o deshabilitar un conjunto de datos de una condición dinámica. Al deshabilitar un control se impide su edición. El siguiente ejemplo ilustra la activación de controles desde el valor del campo &quot;Gender&quot;:
+Este contenedor permite habilitar o deshabilitar un conjunto de datos de una condición dinámica. Al deshabilitar un control se impide su edición. El ejemplo siguiente ilustra la activación de controles a partir del valor del campo &quot;Gender&quot;:
 
 ```
 <container type="enabledGroup" enabledIf="@gender=1">
@@ -293,7 +293,7 @@ Se utiliza una lista desplegable para seleccionar un elemento de destino de la l
 
 El **[!UICONTROL Modify the link]** El icono (carpeta) inicia un formulario de selección con la lista de elementos de destino y una zona de filtro.
 
-El **[!UICONTROL Edit link]** El icono (lupa) inicia el formulario de edición del elemento vinculado. El formulario utilizado se deduce de forma predeterminada en la clave del esquema de destino. El **formulario** el atributo permite forzar el nombre del formulario de edición (por ejemplo, &quot;cus:company2&quot;).
+El **[!UICONTROL Edit link]** El icono (lupa) inicia el formulario de edición del elemento vinculado. El formulario utilizado se deduce de forma predeterminada en la clave del esquema de destino. El **formulario** El atributo permite forzar el nombre del formulario de edición (por ejemplo &quot;cus:company2&quot;).
 
 Puede restringir la selección de elementos de destino añadiendo **`<sysfilter>`** de la definición del vínculo en el formulario de entrada:
 

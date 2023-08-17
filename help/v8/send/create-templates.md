@@ -9,11 +9,11 @@ exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 48%
+ht-degree: 76%
 
 ---
 
-# Trabajo con plantilla de envíos{#work-with-delivery-template}
+# Trabajar con plantillas de envío{#work-with-delivery-template}
 
 Utilice plantillas de envío para estandarizar la apariencia creativa y así ejecutar y lanzar las campañas con mayor rapidez.
 
@@ -23,8 +23,8 @@ Una plantilla puede incluir:
 * Direcciones de remitente y respuesta
 * Básico [bloques de personalización](../send/personalization-blocks.md)
 * Vínculos a [páginas espejo](../send/mirror-page.md) y vínculos de baja
-* Contenido, logotipo de la empresa o firma
-* Otras propiedades de entrega, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
+* Contenido, logotipo de una compañía o firma
+* Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#delivery-template-video)
 
@@ -39,7 +39,7 @@ Campaign viene con un conjunto de plantillas integradas para cada canal: correo 
 
 La forma más sencilla de crear una plantilla de envíos es duplicar y personalizar una plantilla integrada.
 
-Para duplicar una plantilla de envíos, siga los pasos a continuación:
+Para duplicar una plantilla de envíos, siga estos pasos:
 
 1. Navegar a **[!UICONTROL Resources > Templates > Delivery templates]** en el explorador de Adobe Campaign.
 1. Seleccione una plantilla de envíos integrada. Las plantillas integradas aparecen en negrita en la lista.
@@ -51,15 +51,15 @@ Para duplicar una plantilla de envíos, siga los pasos a continuación:
 
    ![](assets/delivery-template-new.png)
 
-La plantilla se añade a la lista de plantillas de envío. Ahora puede seleccionarlo al crear una nueva entrega.
+La plantilla se añade a la lista de plantillas de envío. Ahora puede seleccionarlo al crear un nuevo envío.
 
 ![](assets/select-the-new-template.png)
 
-### Conversión de una entrega existente en una plantilla {#convert-an-existing-delivery}
+### Conversión de un envío existente en una plantilla {#convert-an-existing-delivery}
 
 Puede convertir una entrega en una plantilla y usarla con las nuevas acciones de envío repetidas.
 
-Para convertir una entrega en una plantilla, siga los pasos a continuación:
+Para convertir un envío en una plantilla, siga los pasos a continuación:
 
 1. Seleccione la entrega en la lista de entrega, a la que se puede acceder mediante las **[!UICONTROL Campaign management]** del explorador de Campaign.
 
@@ -71,13 +71,13 @@ Para convertir una entrega en una plantilla, siga los pasos a continuación:
 
    ![](assets/template-select-folders.png)
 
-### Crear una plantilla nueva {#create-a-new-template}
+### Creación de una nueva plantilla {#create-a-new-template}
 
 >[!NOTE]
 >
->Para evitar errores de configuración, Adobe recomienda que [duplicar una plantilla integrada](#copy-an-existing-template) y personalizar sus propiedades en lugar de crear una nueva plantilla.
+>Para evitar errores de configuración, Adobe recomienda [duplicar una plantilla integrada](#copy-an-existing-template) y modificar sus propiedades en lugar de crear una nueva plantilla.
 
-Para configurar una plantilla de envío desde cero, siga los pasos a continuación:
+Para configurar una plantilla de envíos desde cero, siga los pasos a continuación:
 
 1. Vaya a la **Recursos** en el explorador de Campaign y seleccione **Plantillas** entonces **Plantillas de envío**.
 1. Haga clic en **Nueva** en la barra de herramientas para crear una nueva plantilla de envío.

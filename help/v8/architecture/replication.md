@@ -29,7 +29,7 @@ Este flujo de trabajo realiza la replicación automática de las tablas integrad
 * **[!UICONTROL Replicate Staging data]**
 Este flujo de trabajo duplica los datos de ensayo para las llamadas unitarias. Está programado para ejecutarse cada hora, a diario.
 * **[!UICONTROL Deploy FFDA immediately]**\
-   Este flujo de trabajo realiza una implementación inmediata en la base de datos en la nube.
+  Este flujo de trabajo realiza una implementación inmediata en la base de datos en la nube.
 * **[!UICONTROL Replicate FFDA data immediately]**
 Este flujo de trabajo duplica los datos XS de una cuenta externa determinada.
 

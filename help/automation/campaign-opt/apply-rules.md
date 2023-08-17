@@ -105,21 +105,21 @@ Los valores posibles son:
 
 * **[!UICONTROL At the start of targeting]**
 
-   Para evitar que el paso de personalización se ejecute en caso de errores, puede aplicar la regla de control aquí.
+  Para evitar que el paso de personalización se ejecute en caso de errores, puede aplicar la regla de control aquí.
 
 * **[!UICONTROL After targeting]**
 
-   Si necesita conocer el volumen del destino para aplicar la regla de control, seleccione esta fase.
+  Si necesita conocer el volumen del destino para aplicar la regla de control, seleccione esta fase.
 
-   Por ejemplo, la regla de control **[!UICONTROL Check proof size]** se aplica después de cada fase de objetivos: esta regla evita la personalización de los mensajes si hay demasiados destinatarios de prueba.
+  Por ejemplo, la regla de control **[!UICONTROL Check proof size]** se aplica después de cada fase de objetivos: esta regla evita la personalización de los mensajes si hay demasiados destinatarios de prueba.
 
 * **[!UICONTROL At the start of personalization]**
 
-   Esta fase debe estar seleccionada si el control afecta a la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
+  Esta fase debe estar seleccionada si el control afecta a la aprobación de la personalización de mensajes. La personalización del mensaje se lleva a cabo durante la fase de análisis.
 
 * **[!UICONTROL At the end of the analysis]**
 
-   Cuando una comprobación requiera que se complete la personalización de mensajes, seleccione esta fase.
+  Cuando una comprobación requiera que se complete la personalización de mensajes, seleccione esta fase.
 
 ## Configuraciones adicionales {#additional-configurations}
 

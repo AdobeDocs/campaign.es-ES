@@ -58,7 +58,7 @@ A continuación, se muestra una lista de funciones acumuladas disponibles:
 
 * **[!UICONTROL Count]** para contar todos los valores no nulos del campo que se van a acumular, incluidos los valores duplicados (del campo acumulado).
 
-   **[!UICONTROL Distinct]** para contar el número total de valores diferentes y no nulos del campo acumulado (los valores duplicados se excluyen antes del cálculo).
+  **[!UICONTROL Distinct]** para contar el número total de valores diferentes y no nulos del campo acumulado (los valores duplicados se excluyen antes del cálculo).
 
 * **[!UICONTROL Sum]** para calcular la suma de los valores de un campo numérico.
 * **[!UICONTROL Minimum value]** para calcular los valores mínimos de un campo (numérico o de otro tipo),

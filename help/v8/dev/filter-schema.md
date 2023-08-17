@@ -24,7 +24,7 @@ Puede filtrar el acceso a esquemas a usuarios específicos, según sus permisos.
 
 * **readAccess**: proporciona acceso de solo lectura a los datos del esquema.
 
-   **Advertencia** : todas las tablas vinculadas deben configurarse con la misma restricción. Esta configuración puede afectar al rendimiento.
+  **Advertencia** : todas las tablas vinculadas deben configurarse con la misma restricción. Esta configuración puede afectar al rendimiento.
 
 * **writeAccess**: proporciona acceso de escritura a los datos de esquema.
 
@@ -32,29 +32,29 @@ Estos filtros se introducen en la **elemento** nivel de los esquemas y, como se 
 
 * Restringir permisos de ESCRITURA
 
-   En este caso, el filtro se utiliza para impedir los permisos de ESCRITURA en el esquema a los operadores sin el permiso ADMINISTRACIÓN. Esto significa que solo los administradores tendrán permisos de escritura en las entidades descritas en este esquema.
+  En este caso, el filtro se utiliza para impedir los permisos de ESCRITURA en el esquema a los operadores sin el permiso ADMINISTRACIÓN. Esto significa que solo los administradores tendrán permisos de escritura en las entidades descritas en este esquema.
 
-   ```
-   <sysFilter name="writeAccess">      
-    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="writeAccess">      
+   <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
+  </sysFilter>
+  ```
 
 * Restrinja los permisos de LECTURA y ESCRITURA:
 
-   En este caso, el filtro se utiliza para impedir los permisos de LECTURA y ESCRITURA en el esquema para todos los operadores. Solo el **interno** cuenta, representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
+  En este caso, el filtro se utiliza para impedir los permisos de LECTURA y ESCRITURA en el esquema para todos los operadores. Solo el **interno** cuenta, representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
 
-   ```
-   <sysFilter name="readAccess"> 
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   
-   <sysFilter name="writeAccess">  
-    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
-   </sysFilter>
-   ```
+  ```
+  <sysFilter name="readAccess"> 
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  
+  <sysFilter name="writeAccess">  
+   <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
+  </sysFilter>
+  ```
 
-   Posible **expr** Los valores de atributo utilizados para definir la condición son TRUE o FALSE.
+  Posible **expr** Los valores de atributo utilizados para definir la condición son TRUE o FALSE.
 
 >[!NOTE]
 >

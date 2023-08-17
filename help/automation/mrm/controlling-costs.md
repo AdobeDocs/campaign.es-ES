@@ -45,6 +45,7 @@ Para crear un presupuesto, siga los pasos a continuación:
 >[!NOTE]
 >
 >Puede seleccionar un presupuesto relacionado. Para obtener más información, consulte [esta sección](#linking-a-budget-to-another).
+>
 
 ### Calcular cantidades {#calculating-amounts}
 

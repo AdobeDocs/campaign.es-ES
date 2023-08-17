@@ -21,11 +21,11 @@ Desde esta pestaña puede acceder a la siguiente información:
 
 * El **[!UICONTROL Audit]** la subpestaña muestra el diario de actividad. Contiene los trabajos ejecutados en la campaña: creación o inicio del flujo de trabajo, aprobación, extracción, administración de existencias, etc.
 
-   ![](assets/campaign-audit-tab.png)
+  ![](assets/campaign-audit-tab.png)
 
 * El **[!UICONTROL Deliveries]** la subpestaña contiene todas las entregas de la campaña. Se pueden editar desde esta vista. Para ello, seleccione la entrega y haga clic en el icono **[!UICONTROL Detail]**.
 
-   ![](assets/campaign-delivery-tab.png)
+  ![](assets/campaign-delivery-tab.png)
 
 * El **[!UICONTROL Approvals]** la subpestaña contiene todo el proceso de aprobación de la campaña. Puede comprobar los detalles y los comentarios
 

@@ -200,7 +200,7 @@ Este informe se basa en la tabla **[!UICONTROL Internet Browser Statistics]** (n
  </tbody> 
 </table>
 
-## Uso compartido en redes sociales {#sharing-to-social-networks-1}
+## Difusión en redes sociales {#sharing-to-social-networks-1}
 
 Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) y **[!UICONTROL Web tracking]** (nms:webTrackingLog).
 
@@ -337,7 +337,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
  </tbody> 
 </table>
 
-## Estadísticas de actividades de uso compartido {#statistics-on-sharing-activities-1}
+## Estadísticas de actividades de difusión {#statistics-on-sharing-activities-1}
 
 Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[!UICONTROL Consolidated tracking]** (nms:trackingStats) y **[!UICONTROL Web tracking]** (nms:webTrackingLog).
 

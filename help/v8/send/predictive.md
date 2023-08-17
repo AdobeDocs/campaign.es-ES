@@ -23,6 +23,7 @@ Adobe Campaign ofrece dos nuevos modelos de aprendizaje automático: [Optimizaci
 >Esta capacidad no está disponible de forma predeterminada como parte del producto. Solo está disponible para clientes de Adobe Campaign Managed Cloud Services que ejecuten Adobe Campaign Classic v7 o Adobe Campaign v8.
 >
 >La implementación requiere la participación de Adobe Consulting. Para obtener más información, póngase en contacto con el representante del Adobe.
+>
 
 
 ## Optimización del tiempo de envío predictivo{#predictive-send}
@@ -64,6 +65,7 @@ La optimización del tiempo de envío predictivo se almacena en el nivel de perf
 >[!NOTE]
 >
 >El modelo necesita al menos un mes de datos para producir resultados significativos. Estas funciones predictivas solo se aplican a los canales de correo electrónico y push.
+>
 
 
 ## Puntuación de participación predictiva {#predictive-scoring}

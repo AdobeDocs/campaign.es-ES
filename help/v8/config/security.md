@@ -27,7 +27,7 @@ La configuración y protección de la privacidad es un elemento clave de la opti
 * Asegúrese de que las contraseñas cifradas estén restringidas
 * Proteja las páginas que puedan contener información personal, como páginas espejo, aplicaciones web, etc.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, Adobe trabajará con usted para implementar estas configuraciones en su entorno.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Service administrados, Adobe trabajará con usted para implementar estas configuraciones en su entorno.
 
 
 ## Gestión de acceso

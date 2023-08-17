@@ -25,8 +25,8 @@ En el campo **[!UICONTROL Duration]**, el valor se puede expresar en la unidad q
 
 * Si no se especifica la configuración regional: **s** para segundos, **m** para minutos, **h** para horas, **d** para días, **y** para años. En el momento de la aprobación, el valor se convierte automáticamente en la unidad más legible.
 
-   La unidad predeterminada es el día (**d**).
+  La unidad predeterminada es el día (**d**).
 
 * Mientras que si, por ejemplo, la configuración regional se establece en &quot;Francés&quot;: **s** para segundos, **mn** para minutos, **h** para horas, **j** para días, **m** para meses, **a** para años. En el momento de la aprobación, el valor se convierte automáticamente a la unidad más legible, como en el ejemplo anterior **90s** se convirtió a **1mn 30s**.
 
-   La unidad predeterminada es el día (**d**).
+  La unidad predeterminada es el día (**d**).

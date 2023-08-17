@@ -175,7 +175,7 @@ Hay algunas soluciones para minimizar la necesidad de registros en Adobe Campaig
 
 Puede declarar el atributo &quot;deleteStatus&quot; en un esquema. Es más eficaz marcar el registro como eliminado y posponer la eliminación en la tarea de limpieza.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita establecer la retención de tablas personalizadas.
+![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Service administrados, póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita establecer la retención de tablas personalizadas.
 
 ## Rendimiento {#performance}
 

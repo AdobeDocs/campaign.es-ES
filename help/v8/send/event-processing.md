@@ -31,7 +31,7 @@ Para procesar los eventos de mensajería transaccional, se aplican los siguiente
 1. [Recopilación de eventos](#event-collection)
 1. [Transferencia de eventos a una plantilla de mensajes](#routing-towards-a-template)
 1. Enriquecimiento de eventos con datos de personalización
-1. [Ejecución de entrega](delivery-execution.md)
+1. [Ejecución de envíos](delivery-execution.md)
 1. [Reciclaje de eventos](#event-recycling) cuya entrega vinculada ha dado error (a través de un flujo de trabajo de Adobe Campaign)
 
 Una vez completados todos los pasos, cada destinatario objetivo recibe un mensaje personalizado.
@@ -60,11 +60,11 @@ El paso de enrutamiento consiste en vincular un evento a la plantilla de mensaje
 
 * El tipo de evento especificado en las propiedades del propio evento:
 
-   ![](assets/event-type-sample.png)
+  ![](assets/event-type-sample.png)
 
 * El tipo de evento especificado en las propiedades de la plantilla de mensaje:
 
-   ![](assets/event-type-select.png)
+  ![](assets/event-type-select.png)
 
 De forma predeterminada, el enrutamiento se basa en la siguiente información:
 
@@ -86,8 +86,7 @@ Los estados posibles son:
 * **Envío pendiente**
 El evento se procesó y la plantilla de envíos está vinculada. El correo electrónico está pendiente de envío y se aplica el proceso de entrega clásico. Abra la entrega para obtener más información.
 * **Enviado**, **Ignorado** y **Error de envío**
-Estos estados de envío se recuperan mediante la variable 
-**updateEventsStatus** flujo de trabajo. Para obtener más información, se puede abrir la entrega correspondiente.
+Estos estados de envío se recuperan mediante la variable **updateEventsStatus** flujo de trabajo. Para obtener más información, se puede abrir la entrega correspondiente.
 * **Evento no cubierto**
 Error en la fase de enrutamiento de la mensajería transaccional. Por ejemplo, Adobe Campaign no encontró el correo electrónico que actúa como plantilla para el evento.
 * **Evento caducado**

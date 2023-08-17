@@ -48,7 +48,7 @@ Para crear una categoría nueva, siga los pasos a continuación:
 
    * asignar las fechas de idoneidad en la pestaña **[!UICONTROL Eligibility]**.
 
-      ![](assets/offer_cat_create_004.png)
+     ![](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]** para aplicar filtros al objetivo de la oferta.
 
@@ -58,7 +58,7 @@ Para crear una categoría nueva, siga los pasos a continuación:
 
 Para asegurarse de que todos los destinatarios reciban una propuesta de oferta, es posible añadir de forma sistemática una o varias categorías de ofertas en las recomendaciones.
 
-Estas ofertas de reserva deben tener una ponderación baja (pero no nula), de modo que solo se tengan en cuenta si ninguna oferta de ponderación superior es elegible.
+Estas ofertas de reserva deben tener una ponderación baja (pero no nula), de modo que solo se tengan en cuenta si ninguna oferta de ponderación mayor es elegible.
 
 Además, no debe haber ninguna regla de presentación aplicada a estas ofertas para asegurarse de que se incluyen siempre en las recomendaciones. Esto significa que, durante una propuesta, si no hay una oferta de mayor peso disponible, el destinatario recibe como mínimo una oferta de esta categoría.
 

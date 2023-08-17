@@ -73,7 +73,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
 Una vez importados los datos, se lleva a cabo el enriquecimiento creando un vínculo a una tabla de referencia que coincida con el esquema “Stores”.
 
-Agregue la actividad Enrichment y configúrela como se indica a continuación:
+Añada la actividad de enriquecimiento y configúrela como se indica a continuación:
 
 1. Seleccione el conjunto principal compuesto de los datos en la actividad **Data loading(file)**.
 

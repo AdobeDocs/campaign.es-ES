@@ -27,4 +27,4 @@ Las siguientes actividades son actividades de base de datos: se utilizan para co
 * **[Test](test.md)**: permite una transición basada en un resultado de prueba.
 * **[Time constraint](time-constraint.md)**: permite pausar una tarea durante un periodo determinado.
 * **[Wait](wait.md)**: activa la transición saliente después de un límite de tiempo determinado.
-   <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->
+  <!--* **Task**: lets you configure task execution. Refer to the [Task](task.md) section.-->

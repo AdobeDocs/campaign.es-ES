@@ -24,7 +24,7 @@ Las secuencias de comandos son ubicuas en los diagramas de flujo de trabajo:
 * La actividad “Test” evalúa las expresiones JavaScript para activar la transición apropiada.
 * La mayoría de los campos de texto son plantillas JavaScript: Las expresiones de JavaScript se pueden incluir entre &lt;%= and %>. Estos campos presentan un botón que abre una lista desplegable para ayudarle a introducir expresiones.
 
-   ![](assets/script-button.png)
+  ![](assets/script-button.png)
 
 ## Objetos expuestos {#objects-exposed}
 

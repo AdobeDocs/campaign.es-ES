@@ -30,15 +30,15 @@ Puede acceder a Adobe Campaign a través de un cliente enriquecido, un cliente l
 
 * Cliente enriquecido
 
-   El cliente enriquecido de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. [Obtenga más información sobre la consola del cliente de Campaign](../start/connect.md).
+  El cliente enriquecido de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. [Obtenga más información sobre la consola del cliente de Campaign](../start/connect.md).
 
 * Cliente ligero
 
-   Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  [Obtenga más información acerca de Campaign Web Access](../start/connect.md).
+  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  [Obtenga más información acerca de Campaign Web Access](../start/connect.md).
 
 * Aplicaciones externas con API
 
-   En determinados casos, se puede llamar al sistema desde aplicaciones externas mediante las API de servicios web expuestas mediante el protocolo SOAP. [Más información sobre las API de Campaign](../dev/api.md).
+  En determinados casos, se puede llamar al sistema desde aplicaciones externas mediante las API de servicios web expuestas mediante el protocolo SOAP. [Más información sobre las API de Campaign](../dev/api.md).
 
 ### Capa de persistencia{#persistance-layer}
 
@@ -50,7 +50,7 @@ La fiabilidad de la base de datos es de suma importancia porque la mayoría de l
 
 La capa de aplicación lógica de Campaign se puede configurar fácilmente para satisfacer necesidades comerciales complejas. Puede utilizar Campaign como plataforma única con diferentes aplicaciones que se combinan para crear una arquitectura abierta y escalable. Cada instancia de Campaign es una colección de procesos en la capa de aplicación, algunos de los cuales se comparten y otros están dedicados.
 
-## Cloud Services administrados de Campaign{#ac-managed-services}
+## Cloud Service administrados de Campaign{#ac-managed-services}
 
 La versión 8 de Adobe Campaign se implementa as a Managed Service: todos los componentes de Adobe Campaign, incluida la interfaz de usuario, el motor de administración de la ejecución y las bases de datos de Campaign, están totalmente alojados por el Adobe, incluida la ejecución de correo electrónico, las páginas espejo, el servidor de seguimiento y los componentes web externos, como la cancelación de la suscripción de la página/centro de preferencias y páginas de aterrizaje.
 

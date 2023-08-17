@@ -57,7 +57,7 @@ Al editar un programa, utilice las pestañas que se describen a continuación pa
 
 * La pestaña **Editar** permite personalizar el programa: nombre, fechas de inicio y finalización, presupuesto, documentos vinculados, etc.
 
-   ![](assets/new-program-edit-tab.png)
+  ![](assets/new-program-edit-tab.png)
 
 ## Trabajo con campañas{#work-with-campaigns}
 

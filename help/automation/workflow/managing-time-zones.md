@@ -29,19 +29,19 @@ Los valores posibles son:
 
 * Zona horaria del servidor
 
-   Utiliza la zona horaria del servidor de aplicaciones de Adobe Campaign.
+  Utiliza la zona horaria del servidor de aplicaciones de Adobe Campaign.
 
 * Zona horaria del usuario
 
-   Utiliza la zona horaria del operador de Adobe Campaign que ejecuta el flujo de trabajo.
+  Utiliza la zona horaria del operador de Adobe Campaign que ejecuta el flujo de trabajo.
 
 * Zona horaria de la base de datos
 
-   Utiliza la zona horaria del servidor de la base de datos utilizado.
+  Utiliza la zona horaria del servidor de la base de datos utilizado.
 
 * Zonas horarias específicas
 
-   Utiliza la zona horaria seleccionada.
+  Utiliza la zona horaria seleccionada.
 
 Si se selecciona el valor **[!UICONTROL By default]**, se aplica la zona horaria del flujo de trabajo o, en caso contrario, la del servidor de aplicaciones.
 

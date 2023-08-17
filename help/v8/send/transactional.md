@@ -16,7 +16,7 @@ ht-degree: 63%
 
 La mensajería transaccional (Centro de Mensajes) es un módulo de Campaign diseñado para gestionar mensajes de activación. Estas notificaciones se generan a partir de eventos activados desde sistemas de información y pueden ser: factura, confirmación de pedido, confirmación de envío, cambio de contraseña, notificación de no disponibilidad del producto, extracto de cuenta, creación de cuenta en el sitio web, etc.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Services, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para configurar la mensajería transaccional de Campaign en su entorno.
+![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para configurar la mensajería transaccional de Campaign en su entorno.
 
 Los mensajes transaccionales se utilizan para enviar:
 
@@ -198,7 +198,7 @@ Puede probar la entrega de mensajes enviando una prueba a una dirección semilla
 
 El envío de una prueba implica realizar el mismo proceso que para cualquier entrega. Obtenga más información acerca de las pruebas en [esta sección](../send/preview-and-proof.md).
 
-Sin embargo, para enviar una prueba de un mensaje transaccional, debe llevar a cabo las siguientes operaciones:
+Sin embargo, para enviar una prueba de un mensaje transaccional, debe realizar las siguientes operaciones:
 
 * Cree una o más [direcciones semilla](#add-seeds) con datos de prueba de personalización
 * Creación del contenido del mensaje
@@ -259,7 +259,7 @@ Una vez publicada una plantilla de mensaje <!--on the execution instances-->, se
 
 * De hecho, se puede seguir llamando a una plantilla publicada si se activa el evento correspondiente: si ya no utiliza una plantilla de mensaje, se recomienda cancelar la publicación. Esto es para evitar enviar un mensaje transaccional no deseado por error.
 
-   Por ejemplo, ha publicado una plantilla de mensaje que solo utiliza para campañas de Navidad. Tal vez quiera cancelar la publicación después de que termine el período de Navidad y publicarla nuevamente el año que viene.
+  Por ejemplo, ha publicado una plantilla de mensaje que solo utiliza para campañas de Navidad. Tal vez quiera cancelar la publicación después de que termine el período de Navidad y publicarla nuevamente el año que viene.
 
 * Tampoco puede eliminar una plantilla de mensaje transaccional que tenga el estado **[!UICONTROL Published]**. Primero debe cancelar la publicación.
 
@@ -278,8 +278,8 @@ Una vez finalizada la cancelación de la publicación:
 
 * Se eliminan ambas plantillas de mensaje (aplicadas a eventos de tipo por lotes y en tiempo real)<!-- from each execution instance-->.
 
-   Ya no aparecen en la carpeta **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]**.
+  Ya no aparecen en la carpeta **[!UICONTROL Administration > Production > Message Center Execution > Default > Transactional message templates]**.
 
 * Una vez cancelada la publicación de una plantilla, puede eliminarla<!-- from the control instance-->.
 
-   Para ello, selecciónela en la lista y haga clic en el botón **[!UICONTROL Delete]** situado en la parte superior derecha de la pantalla.
+  Para ello, selecciónela en la lista y haga clic en el botón **[!UICONTROL Delete]** situado en la parte superior derecha de la pantalla.

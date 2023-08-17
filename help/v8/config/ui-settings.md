@@ -53,6 +53,7 @@ Para cargar todos los registros, haga clic con el botón derecho en la lista y s
 >[!CAUTION]
 >
 >Cuando una lista contiene un gran volumen de registros, la carga completa puede tardar algún tiempo.
+>
 
 ### Adición y eliminación de columnas {#add-columns}
 
@@ -79,6 +80,7 @@ También puede utilizar la pantalla de configuración de la lista para añadir y
    >De forma predeterminada, no se muestran los campos avanzados. Para mostrarlos, haga clic en el **Mostrar campos avanzados** , en la sección inferior derecha de la lista de campos disponibles.
    >
    >Los campos se identifican mediante iconos específicos: Campos SQL, tablas vinculadas, campos calculados, etc. La descripción de cada campo seleccionado se muestra en la lista de campos disponibles.
+   >
 
 1. Utilice las flechas arriba/abajo para modificar el **orden de visualización**.
 
@@ -254,6 +256,7 @@ El **[!UICONTROL Alias]** la subpestaña de una enumeración puede mostrar el n�
 >[!CAUTION]
 >
 >El cálculo de las apariciones de las entradas de un alias puede llevar mucho tiempo.
+>
 
 Se puede ejecutar el cálculo de visitas manualmente mediante el vínculo **[!UICONTROL Cleanse values...]**. Para ello, haga clic en el **[!UICONTROL Advanced parameters...]** vínculo y seleccione las opciones.
 

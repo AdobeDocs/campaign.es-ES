@@ -75,9 +75,9 @@ Para obtener más información sobre la creación de una plantilla de distribuci
    * **[!UICONTROL Label]**: introduzca la etiqueta del dominio a mostrar en las notificaciones de aprobación y comentarios.
    * **[!UICONTROL Group or operator]**: seleccione el operador o el grupo de operadores asignados al dominio.
 
-      >[!CAUTION]
-      >
-      >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
+     >[!CAUTION]
+     >
+     >Asegúrese de que se hayan asignado los derechos adecuados a los operadores.
 
 ## Paso 2: Creación de un flujo de trabajo de objetivos {#step-2--creating-the-targeting-workflow}
 

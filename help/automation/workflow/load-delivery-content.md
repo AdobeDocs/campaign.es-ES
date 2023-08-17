@@ -36,7 +36,7 @@ Para ello:
    * Delivery: Según las necesidades, puede ser una entrega específica que ya se ha creado en el sistema o uno nuevo en función de una plantilla existente.
    * Recipients: En este ejemplo, se considera que el objetivo está especificado en el propio envío.
    * Content: Incluso si el contenido se importa en la actividad anterior, seleccione **[!UICONTROL Specified in the delivery]**. Ya que el contenido se importa directamente desde un archivo ubicado en un servidor remoto, no tiene identificador cuando el flujo de trabajo lo procesa y no se puede identificar como procedente del evento entrante.
-   * Action to perform: Seleccione **[!UICONTROL Save]** para guardar la entrega y poder acceder a ella desde **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** cuando se ejecute el flujo de trabajo.
+   * Acción a realizar: seleccione **[!UICONTROL Save]** para guardar la entrega y poder acceder a ella desde **[!UICONTROL Campaign management]** > **[!UICONTROL Deliveries]** cuando se ejecute el flujo de trabajo.
 
    ![](assets/delivery_loadcontent_activityexample.png)
 

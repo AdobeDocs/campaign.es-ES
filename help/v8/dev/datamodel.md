@@ -20,13 +20,13 @@ La estructura básica del modelo de datos de Adobe Campaign se puede describir d
 
 * **Tabla de destinatarios**: el modelo de datos se basa en una tabla principal que es de forma predeterminada la tabla de destinatario (nmsRecipient). Esta tabla almacena todos los perfiles de marketing.
 
-   ![](../assets/do-not-localize/glass.png) Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](#ootb-profiles).
+  ![](../assets/do-not-localize/glass.png) Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](#ootb-profiles).
 
 * **Tabla de envío**: el modelo de datos también incluye una parte dedicada a almacenar todas las actividades de marketing. Normalmente es la tabla Delivery (NmsDelivery). Cada registro de esta tabla representa una acción de envío o una plantilla de envío. Contiene todos los parámetros necesarios para realizar envíos como destinatario, contenido, etc.
 
 * **Tablas de registros**: Estas tablas almacenan todos los registros asociados con la ejecución de las campañas.
 
-   Los &quot;logs&quot; de entrega son todos los mensajes enviados a los destinatarios o dispositivos a través de todos los canales. La tabla principal de registros de entregas (NmsBroadLogRcp) contiene los registros de entregas de todos los destinatarios.
+  Los &quot;logs&quot; de entrega son todos los mensajes enviados a los destinatarios o dispositivos a través de todos los canales. La tabla principal de registros de entregas (NmsBroadLogRcp) contiene los registros de entregas de todos los destinatarios.
 La tabla principal de registros de seguimiento (NmsTrackingLogRcp) almacena los registros de seguimiento de todos los destinatarios. Los registros de seguimiento hacen referencia a reacciones de los destinatarios, como aperturas de correos electrónicos y clics. Cada reacción corresponde a un registro de seguimiento.
 Los registros de envío y los registros de seguimiento se eliminan después de un período determinado, que se especifica en Adobe Campaign y se puede modificar. Por lo tanto, es muy recomendable exportar los registros de forma regular.
 

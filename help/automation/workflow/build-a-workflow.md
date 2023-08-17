@@ -19,9 +19,9 @@ El flujo de trabajo de creación depende del tipo de flujos de trabajo. Puede ha
 
 * Crear [Flujos de trabajo de objetivos](#targeting-workflows) desde el **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** del Explorador o desde el **[!UICONTROL Profiles and Targets]** de la página principal, a través de la pestaña **[!UICONTROL Targeting workflows]** subpestaña.
 
-   ![](assets/create-targeting-wf.png)
+  ![](assets/create-targeting-wf.png)
 
-* Crear [Flujos de trabajo Campaign](#campaign-workflows) desde el **[!UICONTROL Targeting and workflows]** pestaña de una campaña
+* Crear [Flujos de trabajo de campaña](#campaign-workflows) desde el **[!UICONTROL Targeting and workflows]** pestaña de una campaña
 
 * Crear [Flujos de trabajo técnicos](#technical-workflows) desde el **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** del explorador. La práctica recomendada es crear una carpeta de flujo de trabajo específica para guardar los flujos de trabajo técnicos.
 
@@ -74,28 +74,28 @@ Puede cambiar la visualización y el diseño del gráfico mediante los siguiente
 
 * **Uso de la barra de herramientas**
 
-   La barra de herramientas de edición del diagrama le permite acceder a las funciones de diseño y ejecución del flujo de trabajo.
+  La barra de herramientas de edición del diagrama le permite acceder a las funciones de diseño y ejecución del flujo de trabajo.
 
-   ![](assets/wf-toolbar.png)
+  ![](assets/wf-toolbar.png)
 
-   Esto le permite adaptar el diseño de la herramienta de edición: visualización de la paleta y descripción general, tamaño y alineación de los objetos gráficos.
+  Esto le permite adaptar el diseño de la herramienta de edición: visualización de la paleta y descripción general, tamaño y alineación de los objetos gráficos.
 
-   ![](assets/s_user_segmentation_toolbar.png)
+  ![](assets/s_user_segmentation_toolbar.png)
 
-   Los iconos relacionados con el progreso y la visualización de registros se describen en estas secciones:
+  Los iconos relacionados con el progreso y la visualización de registros se describen en estas secciones:
 
    * [Mostrar progreso](monitor-workflow-execution.md#displaying-progress)
    * [Mostrar registros](monitor-workflow-execution.md#displaying-logs)
 
 * **Alineación de objetos**
 
-   Para alinear los iconos, selecciónelos y haga clic en el icono **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]**.
+  Para alinear los iconos, selecciónelos y haga clic en el icono **[!UICONTROL Align vertically]** o **[!UICONTROL Align horizontally]**.
 
-   Utilice la tecla **Ctrl** para seleccionar varias actividades separadas o para anular la selección de una o varias actividades. Haga clic en el fondo del diagrama para anular la selección de todo.
+  Utilice la tecla **Ctrl** para seleccionar varias actividades separadas o para anular la selección de una o varias actividades. Haga clic en el fondo del diagrama para anular la selección de todo.
 
 * **Gestión de imágenes**
 
-   Puede personalizar la imagen de fondo del diagrama, así como las relacionadas con las distintas actividades. Consulte [Cambio de imágenes de actividad](change-activity-images.md).
+  Puede personalizar la imagen de fondo del diagrama, así como las relacionadas con las distintas actividades. Consulte [Cambio de imágenes de actividad](change-activity-images.md).
 
 ## Configuración de actividades {#configure-activities}
 

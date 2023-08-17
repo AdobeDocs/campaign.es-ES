@@ -18,11 +18,11 @@ En el contexto de un [Implementación empresarial (FDAC)](enterprise-deployment.
 
 * API de ingesta: **xtk.session.ingest**
 
-   Esta API está dedicada únicamente a la inserción de datos. [Más información](#data-insert-api)
+  Esta API está dedicada únicamente a la inserción de datos. [Más información](#data-insert-api)
 
 * API de actualización/eliminación de datos: **xtk.session.ingestExt**
 
-   Esta API se utiliza para actualizar o eliminar datos. [Más información](#data-update-api)
+  Esta API se utiliza para actualizar o eliminar datos. [Más información](#data-update-api)
 
 Un flujo de trabajo integrado dedicado sincronizará los datos en la base de datos en la nube.
 

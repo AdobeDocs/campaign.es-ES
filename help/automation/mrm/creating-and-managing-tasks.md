@@ -310,9 +310,9 @@ La tarea de creación de recursos de marketing interactúa con el recurso vincul
 * Los operadores pueden trabajar en el recurso con normalidad (descarga o carga, bloqueo y desbloqueo): esto no afecta a la tarea.
 * La aprobación y la publicación de recursos se pueden realizar mediante la tarea: si la opción **[!UICONTROL Publish the marketing resource]** está habilitada, el recurso se aprueba y se publica automáticamente una vez finalizada la tarea. Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
 
-   Puede utilizar una serie de tareas vinculadas para definir un ciclo de aprobación completo. Compruebe la opción **[!UICONTROL Publish the marketing resource]** solo para la última tarea: todas las tareas deben haber terminado para que se publique el recurso. Además, al crear una tarea secundaria de recursos de marketing, el recurso se selecciona automáticamente en la tarea secundaria.
+  Puede utilizar una serie de tareas vinculadas para definir un ciclo de aprobación completo. Compruebe la opción **[!UICONTROL Publish the marketing resource]** solo para la última tarea: todas las tareas deben haber terminado para que se publique el recurso. Además, al crear una tarea secundaria de recursos de marketing, el recurso se selecciona automáticamente en la tarea secundaria.
 
-   * **Mediante el recurso**: si envía el recurso para su aprobación o lo aprueba, eso no afecta a la tarea.
+   * **Mediante el recurso**: si envía el recurso para su aprobación o lo aprueba, estas acciones no afectan a la tarea.
    * **Via the task**: si la opción **[!UICONTROL Publish the marketing resource]** está activada, el recurso se aprueba y se publica automáticamente una vez se haya finalizado la tarea (consulte más arriba). Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
 
 #### Configuración de una tarea de creación de recursos de marketing {#configuring-a-marketing-resource-creation-task}
@@ -377,7 +377,7 @@ Durante la creación, se deben introducir los siguientes elementos en la tarea:
 * **Task end date**: fecha en la que el estado de la tarea cambia a **[!UICONTROL Finished]**. De forma predeterminada, la fecha de finalización es idéntica a la fecha de inicio. Sin embargo, la asignación de una duración a la tarea permite simbolizar la cantidad de tiempo que el operador debe invertir en la programación, si fuera necesario.
 * **[!UICONTROL Description]**: el texto introducido aquí aparece en el cuerpo del mensaje de correo electrónico de notificación.
 
-   ![](assets/mrm_task_notif_dashboard_msg.png)
+  ![](assets/mrm_task_notif_dashboard_msg.png)
 
 Puede agregar un archivo adjunto a la tarea y al correo electrónico de notificación. Para ello, haga clic en el icono **[!UICONTROL Documents]** de la barra de herramientas en la esquina superior derecha.
 
@@ -439,7 +439,6 @@ Una tarea puede ser: **[!UICONTROL Scheduled]**, **[!UICONTROL In progress]**, *
 >* Incluso si el periodo de validez ha terminado, las tareas que no se hayan cerrado aparecen en la lista de tareas en curso. Una advertencia notifica a los operadores de que la tarea está atrasada.
 >
 
-
 ### Estado de progreso de una tarea {#progress-status-of-a-task}
 
 Además del estado de ejecución, una tarea puede asociarse con un estado de progreso: **[!UICONTROL Late]**, **[!UICONTROL To approve]**, **[!UICONTROL To do today]** o **[!UICONTROL To do this week]**. Esta información se introduce automáticamente según la programación de tareas.
@@ -468,7 +467,7 @@ A continuación, se muestran las fases del ciclo de vida completo de una tarea p
    * mediante el correo electrónico de notificación.
    * a través de la consola del cliente o de la interfaz web, en el panel de tareas.
 
-      ![](assets/s_ncs_user_task_start_rea.png)
+     ![](assets/s_ncs_user_task_start_rea.png)
 
 1. Cada vez que un participante aprueba un trabajo, se actualiza el estado de progreso de la tarea.
 

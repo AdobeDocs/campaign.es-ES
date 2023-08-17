@@ -82,11 +82,11 @@ Puede:
 
 * **[!UICONTROL Recover the most frequently used values]**
 
-   Si genera 4 grupos, se muestran los 4 valores utilizados con más frecuencia, mientras que los demás se cuentan y se agrupan en la categoría &quot;Otros&quot;.
+  Si genera 4 grupos, se muestran los 4 valores utilizados con más frecuencia, mientras que los demás se cuentan y se agrupan en la categoría &quot;Otros&quot;.
 
 * **[!UICONTROL Generate bins in the form of slots]**
 
-   Para el mismo ejemplo, Adobe Campaign crea automáticamente 4 ranuras de valor del mismo tamaño para mostrar los valores en la base de datos.
+  Para el mismo ejemplo, Adobe Campaign crea automáticamente 4 ranuras de valor del mismo tamaño para mostrar los valores en la base de datos.
 
 En este caso, el filtro seleccionado en el esquema de hechos se omite.
 
@@ -140,7 +140,7 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
    * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](../../automation/workflow/scheduler.md).
    * La actividad **[!UICONTROL Aggregate update]** permite seleccionar el modo de actualización que desea aplicar: completo o parcial.
 
-      De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
+     De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
 
 ## Definición de medidas {#define-measures}
 
@@ -186,7 +186,7 @@ La configuración de las medidas, líneas y columnas se puede realizar individua
 
 * Haga clic en el icono **[!UICONTROL Edit the configuration of the pivot table]** para acceder a la ventana de configuración.
 
-   Puede elegir si desea mostrar o no las etiquetas de las medidas, así como configurar su diseño (líneas o columnas).
+  Puede elegir si desea mostrar o no las etiquetas de las medidas, así como configurar su diseño (líneas o columnas).
 
 ![](assets/cube-pivot-table-config-details.png)
 

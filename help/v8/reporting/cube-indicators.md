@@ -24,30 +24,31 @@ Con los cubos puede:
 
 * Exporte los datos directamente en un informe, diseñado en **[!UICONTROL Reports]** de la plataforma Adobe Campaign.
 
-   Para ello, cree un nuevo informe y seleccione el cubo que desee utilizar.
+  Para ello, cree un nuevo informe y seleccione el cubo que desee utilizar.
 
-   ![](assets/create-new-cube.png)
+  ![](assets/create-new-cube.png)
 
-   Los cubos aparecen como plantillas basadas en los informes creados. Una vez seleccionada una plantilla, haga clic en **[!UICONTROL Create]** para configurar y ver el nuevo informe.
+  Los cubos aparecen como plantillas basadas en los informes creados. Una vez seleccionada una plantilla, haga clic en **[!UICONTROL Create]** para configurar y ver el nuevo informe.
 
-   Puede adaptar las medidas, cambiar el modo de visualización o configurar la tabla y, a continuación, mostrar el informe usando el botón principal.
+  Puede adaptar las medidas, cambiar el modo de visualización o configurar la tabla y, a continuación, mostrar el informe usando el botón principal.
 
-   ![](assets/display-cube-table.png)
+  ![](assets/display-cube-table.png)
 
 * Hacer referencia a un cubo en la **[!UICONTROL Query]** de un informe para utilizar sus indicadores, como se muestra a continuación:
 
-   ![](assets/cube-report-query.png)
+  ![](assets/cube-report-query.png)
 
 * Inserte una tabla dinámica basada en un cubo en cualquier página de un informe. Para ello, haga referencia al cubo que desee utilizar en la pestaña **[!UICONTROL Data]** de la tabla dinámica de la página correspondiente.
 
-   ![](assets/cube-in-a-report.png)
+  ![](assets/cube-in-a-report.png)
 
-   Para obtener más información sobre esto, consulte [Exploración de los datos en un informe](cube-tables.md#explore-the-data-in-a-report).
+  Para obtener más información sobre esto, consulte [Exploración de los datos en un informe](cube-tables.md#explore-the-data-in-a-report).
 
 
 >[!CAUTION]
 >
 >Se requieren permisos de administrador para crear cubos.
+>
 
 ## Crear un cubo{#cube-create}
 

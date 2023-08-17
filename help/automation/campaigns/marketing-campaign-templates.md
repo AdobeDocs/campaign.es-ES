@@ -66,96 +66,96 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
 * Por ejemplo, con la siguiente configuración:
 
-   ![](assets/campaign-template-select-functionalities.png)
+  ![](assets/campaign-template-select-functionalities.png)
 
-   El panel de campañas muestra:
+  El panel de campañas muestra:
 
-   ![](assets/campaign-template-dashboard-sample-1.png)
+  ![](assets/campaign-template-dashboard-sample-1.png)
 
-   Tenga en cuenta que la variable **[!UICONTROL Targeting and workflows]** falta la pestaña.
+  Tenga en cuenta que la variable **[!UICONTROL Targeting and workflows]** falta la pestaña.
 
-   Estas son las funcionalidades disponibles:
+  Estas son las funcionalidades disponibles:
 
-   ![](assets/campaign-template-edit-sample-1.png)
+  ![](assets/campaign-template-edit-sample-1.png)
 
-   Tenga en cuenta que la variable **[!UICONTROL Budget]** falta la pestaña.
+  Tenga en cuenta que la variable **[!UICONTROL Budget]** falta la pestaña.
 
-   La configuración avanzada de la campaña también refleja esta configuración.
+  La configuración avanzada de la campaña también refleja esta configuración.
 
-   ![](assets/campaign-template-parameters-sample-1.png)
+  ![](assets/campaign-template-parameters-sample-1.png)
 
-   Tenga en cuenta que la variable **[!UICONTROL Approvals]** La pestaña no está disponible.
+  Tenga en cuenta que la variable **[!UICONTROL Approvals]** La pestaña no está disponible.
 
 * Con esta configuración:
-   ![](assets/campaign-template-dashboard-sample-2.png)
+  ![](assets/campaign-template-dashboard-sample-2.png)
 
-   El panel de campañas muestra:
+  El panel de campañas muestra:
 
-   ![](assets/campaign-template-select-functionalities-2.png)
+  ![](assets/campaign-template-select-functionalities-2.png)
 
-   Tenga en cuenta que la variable **[!UICONTROL Targeting and workflows]** está disponible, pero la pestaña **Agregar un documento** falta el vínculo.
+  Tenga en cuenta que la variable **[!UICONTROL Targeting and workflows]** está disponible, pero la pestaña **Agregar un documento** falta el vínculo.
 
-   Estas son las funcionalidades disponibles:
+  Estas son las funcionalidades disponibles:
 
-   ![](assets/campaign-template-edit-sample-2.png)
+  ![](assets/campaign-template-edit-sample-2.png)
 
-   Tenga en cuenta que la variable **[!UICONTROL Budget]** está disponible.
+  Tenga en cuenta que la variable **[!UICONTROL Budget]** está disponible.
 
-   La configuración avanzada de la campaña también refleja esta configuración.
+  La configuración avanzada de la campaña también refleja esta configuración.
 
-   ![](assets/campaign-template-parameters-sample-2.png)
+  ![](assets/campaign-template-parameters-sample-2.png)
 
-   Tenga en cuenta que la variable **[!UICONTROL Approvals]** está disponible, pero la pestaña **[!UICONTROL Control population]** y **[!UICONTROL Seed addresses]** Las pestañas no están activadas.
+  Tenga en cuenta que la variable **[!UICONTROL Approvals]** está disponible, pero la pestaña **[!UICONTROL Control population]** y **[!UICONTROL Seed addresses]** Las pestañas no están activadas.
 
 
 ## Tipología de módulos {#typology-of-enabled-modules}
 
 * **Grupo de control**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](marketing-campaign-deliveries.md#defining-a-control-group).
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](marketing-campaign-deliveries.md#defining-a-control-group).
 
-   ![](assets/template-activate-1.png)
+  ![](assets/template-activate-1.png)
 
 
 * **Direcciones semilla**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña.
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña.
 
-   ![](assets/template-activate-2.png)
+  ![](assets/template-activate-2.png)
 
 * **Documentos**
 
-   Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edit]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o bien por separado para cada campaña. Obtenga más información sobre los documentos en [esta sección](marketing-campaign-deliveries.md#manage-associated-documents).
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edit]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o bien por separado para cada campaña. Obtenga más información sobre los documentos en [esta sección](marketing-campaign-deliveries.md#manage-associated-documents).
 
-   ![](assets/template-activate-3.png)
+  ![](assets/template-activate-3.png)
 
 * **Descripción del envío**
 
-   Cuando se selecciona este módulo, se añade una subpestaña **[!UICONTROL Delivery outlines]** a la pestaña **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](marketing-campaign-assets.md#delivery-outlines).
+  Cuando se selecciona este módulo, se añade una subpestaña **[!UICONTROL Delivery outlines]** a la pestaña **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](marketing-campaign-assets.md#delivery-outlines).
 
-   ![](assets/template-activate-4.png)
+  ![](assets/template-activate-4.png)
 
 * **Establecimiento de objetivos y flujos de trabajo**
 
-   Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar por separado para cada campaña basada en esta plantilla. Obtenga más información sobre los flujos de trabajo de campañas en [esta sección](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
+  Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar por separado para cada campaña basada en esta plantilla. Obtenga más información sobre los flujos de trabajo de campañas en [esta sección](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
 
-   ![](assets/template-activate-5.png)
+  ![](assets/template-activate-5.png)
 
-   Cuando este módulo está habilitado, se crea un **[!UICONTROL Jobs]** se añade a la configuración avanzada de la campaña para definir la secuencia de ejecución del proceso.
+  Cuando este módulo está habilitado, se crea un **[!UICONTROL Jobs]** se añade a la configuración avanzada de la campaña para definir la secuencia de ejecución del proceso.
 
 * **Aprobaciones**
 
-   Si activa la variable **[!UICONTROL Approvals]**, puede seleccionar los procesos de aprobación y los operadores asignados al proceso de aprobación. Obtenga más información sobre aprobaciones en [esta sección](marketing-campaign-approval.md#select-reviewers).
+  Si activa la variable **[!UICONTROL Approvals]**, puede seleccionar los procesos de aprobación y los operadores asignados al proceso de aprobación. Obtenga más información sobre aprobaciones en [esta sección](marketing-campaign-approval.md#select-reviewers).
 
-   ![](assets/template-activate-6.png)
+  ![](assets/template-activate-6.png)
 
-   Puede elegir si desea habilitar o no la aprobación del proceso mediante el **[!UICONTROL Approvals]** de la sección configuración avanzada de plantillas.
+  Puede elegir si desea habilitar o no la aprobación del proceso mediante el **[!UICONTROL Approvals]** de la sección configuración avanzada de plantillas.
 
 * **Gastos y objetivos**
 
-   Cuando se selecciona este módulo, se añade una pestaña **[!UICONTROL Budget]** a los detalles de la plantilla y las campañas basadas en esta plantilla, de modo que se pueda seleccionar el presupuesto asociado.
+  Cuando se selecciona este módulo, se añade una pestaña **[!UICONTROL Budget]** a los detalles de la plantilla y las campañas basadas en esta plantilla, de modo que se pueda seleccionar el presupuesto asociado.
 
-   ![](assets/template-activate-7.png)
+  ![](assets/template-activate-7.png)
 
 
 ## Propiedades de plantilla {#template-properties}
@@ -173,7 +173,7 @@ Obtenga información sobre cómo acceder y configurar las enumeraciones en [esta
 * Seleccione el **tipo de campaña**: única, recurrente o periódica. De manera predeterminada, las plantillas de campaña se aplican a las campañas únicas. Las campañas recurrentes y periódicas se detallan en [esta sección](recurring-periodic-campaigns.md).
 * Especifique la duración de la campaña, es decir, el número de días durante los que se desarrolla la campaña. Al crear una campaña basada en esta plantilla, las fechas de inicio y finalización de la campaña se rellenan automáticamente.
 
-   Si la campaña es recurrente, debe especificar las fechas de inicio y finalización de la campaña directamente en la plantilla.
+  Si la campaña es recurrente, debe especificar las fechas de inicio y finalización de la campaña directamente en la plantilla.
 
 * Especifique el **programa relacionado** de la plantilla: las campañas basadas en esta plantilla están vinculadas al programa seleccionado.
 

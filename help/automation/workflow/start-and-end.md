@@ -19,16 +19,16 @@ Las actividades **[!UICONTROL Start]** y **[!UICONTROL End]** permiten marcar de
 
 * **[!UICONTROL Start]**
 
-   La ejecución de un flujo de trabajo comienza con actividades sin una transición entrante y actividades del tipo inicial.
+  La ejecución de un flujo de trabajo comienza con actividades sin una transición entrante y actividades del tipo inicial.
 
-   ![](assets/s_user_segmentation_start_stop.png)
+  ![](assets/s_user_segmentation_start_stop.png)
 
 * **[!UICONTROL End]**
 
-   Puede configurar la actividad **[!UICONTROL End]** para interrumpir todas las tareas que estén en curso. Para ello, haga doble clic en la actividad para mostrar sus propiedades y marque la opción apropiada.
+  Puede configurar la actividad **[!UICONTROL End]** para interrumpir todas las tareas que estén en curso. Para ello, haga doble clic en la actividad para mostrar sus propiedades y marque la opción apropiada.
 
-   ![](assets/s_user_segmentation_end.png)
+  ![](assets/s_user_segmentation_end.png)
 
-   Los datos de la tabla de trabajo se eliminan automáticamente cuando se activa la actividad final. Si no es necesario y para evitar cargas innecesarias, puede optar por deshabilitar la transición en la última salida de actividad. Por ejemplo, en una salida de envío, si no hay ningún proceso programado, anule la selección de la opción correspondiente como se muestra a continuación:
+  Los datos de la tabla de trabajo se eliminan automáticamente cuando se activa la actividad final. Si no es necesario y para evitar cargas innecesarias, puede optar por deshabilitar la transición en la última salida de actividad. Por ejemplo, en una salida de envío, si no hay ningún proceso programado, anule la selección de la opción correspondiente como se muestra a continuación:
 
-   ![](assets/s_advuser_delivery_option_no_output.png)
+  ![](assets/s_advuser_delivery_option_no_output.png)

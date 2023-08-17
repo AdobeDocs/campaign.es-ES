@@ -33,7 +33,6 @@ Las API de Campaign Classic v7 siguen estando disponibles, pero no pueden benefi
 >* El ensayo solo se aplica a los esquemas almacenados en la base de datos en la nube. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema Ensayado
 >
 
-
 ## Pasos de implementación{#implement-staging}
 
 Para implementar el mecanismo de ensayo de Campaign en una tabla específica, siga los pasos a continuación:

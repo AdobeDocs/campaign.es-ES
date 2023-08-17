@@ -339,7 +339,7 @@ Los parámetros avanzados están disponibles para filtros predefinidos. Para acc
 
 * Para mostrar el filtro de forma predeterminada para todas las listas basadas en este tipo de documento, seleccione la opción **[!UICONTROL Default filter for the associated document type]** opción.
 
-   Por ejemplo, la variable **[!UICONTROL By name or login]** filter is applied to operators Esta opción está seleccionada, por lo que el filtro se muestra siempre en todas las listas de operadores.
+  Por ejemplo, la variable **[!UICONTROL By name or login]** filter is applied to operators Esta opción está seleccionada, por lo que el filtro se muestra siempre en todas las listas de operadores.
 
 * Para que un filtro esté disponible para todos los operadores de Campaign, seleccione  **[!UICONTROL Filter shared with other operators]** opción.
 

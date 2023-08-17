@@ -23,13 +23,13 @@ Los mensajes de notificación se envían a los operadores de Adobe Campaign, des
 Los operadores pueden realizar la aprobación de varias formas:
 
 * Desde el mensaje de notificación. El vínculo del correo electrónico lleva al operador a Campaign a través de un explorador web. Después de conectar, el revisor puede optar por aprobar el contenido o no.
-   ![](assets/approval-content-email.png)
+  ![](assets/approval-content-email.png)
 
 * En el panel de campañas.
-   ![](assets/approval-from-dashboard.png)
+  ![](assets/approval-from-dashboard.png)
 
 * En el panel de envío.
-   ![](assets/approval-from-delivery-dashboard.png)
+  ![](assets/approval-from-delivery-dashboard.png)
 
 Los operadores pueden acceder a la campaña y a la entrega desde la ventana de aprobación. También pueden introducir un comentario.
 
@@ -98,6 +98,7 @@ Cuando se hayan completado estas fases de validación, se puede iniciar el enví
 >[!NOTE]
 >
 >Los procesos que requieren una aprobación están seleccionados en la plantilla de campaña. [Más información](marketing-campaign-templates.md).
+>
 
 ### Pasos para aprobar un envío {#approving-processes}
 
@@ -109,33 +110,33 @@ En cada entrega de la campaña, puede aprobar los siguientes procesos:
 
 * **Objetivos, contenido y presupuesto**
 
-   Si la variable **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** o **[!UICONTROL Enable budget approval]** Las opciones de están seleccionadas en la ventana de configuración de aprobación. Los vínculos relacionados se muestran en los paneles de campaña y entrega.
+  Si la variable **[!UICONTROL Enable target approval]**, **[!UICONTROL Enable content approval]** o **[!UICONTROL Enable budget approval]** Las opciones de están seleccionadas en la ventana de configuración de aprobación. Los vínculos relacionados se muestran en los paneles de campaña y entrega.
 
-   ![](assets/template-activate-6.png)
+  ![](assets/template-activate-6.png)
 
-   >[!NOTE]
-   >
-   >La aprobación del presupuesto solo está disponible si la aprobación del objetivo está habilitada en la ventana de configuración de aprobación. El vínculo para la aprobación del presupuesto solo se muestra una vez analizado el objetivo.
+  >[!NOTE]
+  >
+  >La aprobación del presupuesto solo está disponible si la aprobación del objetivo está habilitada en la ventana de configuración de aprobación. El vínculo para la aprobación del presupuesto solo se muestra una vez analizado el objetivo.
 
-   Si las opciones **[!UICONTROL Assign content editing]** o **[!UICONTROL External content approval]** están seleccionadas en la ventana de configuración de aprobación, el panel muestra los vínculos **[!UICONTROL Available content]** y **[!UICONTROL External content approval]**.
+  Si las opciones **[!UICONTROL Assign content editing]** o **[!UICONTROL External content approval]** están seleccionadas en la ventana de configuración de aprobación, el panel muestra los vínculos **[!UICONTROL Available content]** y **[!UICONTROL External content approval]**.
 
-   La aprobación de contenido permite acceder a las pruebas enviadas.
+  La aprobación de contenido permite acceder a las pruebas enviadas.
 
 * **Aprobación de extracción (entrega de correo directo)**
 
-   Cuando se selecciona **[!UICONTROL Enable extraction approval]** en la ventana de configuración de aprobación, el archivo extraído debe aprobarse antes de que se pueda notificar al enrutador.
+  Cuando se selecciona **[!UICONTROL Enable extraction approval]** en la ventana de configuración de aprobación, el archivo extraído debe aprobarse antes de que se pueda notificar al enrutador.
 
-   El **[!UICONTROL Approve file]** está disponible en los paneles de campañas y envíos.
+  El **[!UICONTROL Approve file]** está disponible en los paneles de campañas y envíos.
 
-   ![](assets/approve-file-preview.png)
+  ![](assets/approve-file-preview.png)
 
-   Puede obtener una vista previa del archivo de salida antes de la validación. La vista previa del archivo de extracción solo muestra una muestra de datos. No se carga todo el archivo.
+  Puede obtener una vista previa del archivo de salida antes de la validación. La vista previa del archivo de extracción solo muestra una muestra de datos. No se carga todo el archivo.
 
 * **Aprobación de entregas asociados**
 
-   El **[!UICONTROL Enable individual approval of each associated delivery]** se utiliza para una entrega principal asociado con entregas secundarios. De forma predeterminada, esta opción no está seleccionada para que se pueda realizar una aprobación general de la entrega principal. Si se selecciona esta opción, cada entrega debe aprobarse de forma individual.
+  El **[!UICONTROL Enable individual approval of each associated delivery]** se utiliza para una entrega principal asociado con entregas secundarios. De forma predeterminada, esta opción no está seleccionada para que se pueda realizar una aprobación general de la entrega principal. Si se selecciona esta opción, cada entrega debe aprobarse de forma individual.
 
-   ![](assets/enable-ind-approval.png)
+  ![](assets/enable-ind-approval.png)
 
 
 >[!NOTE]
@@ -259,19 +260,19 @@ Los registros de aprobación están disponibles en la interfaz de usuario:
 
 * En el registro de aprobación de la campaña, en la subpestaña **[!UICONTROL Approvals]** dentro de la pestaña **[!UICONTROL Edit > Audit]**:
 
-   ![](assets/approval-tracking-from-campaign.png)
+  ![](assets/approval-tracking-from-campaign.png)
 
 * En el registro de entrega de la campaña, en la subpestaña **[!UICONTROL Deliveries]** dentro de la pestaña **[!UICONTROL Edit > Audit]**:
 
-   ![](assets/approval-tracking-from-campaign-deliveries.png)
+  ![](assets/approval-tracking-from-campaign-deliveries.png)
 
 * Para ver el estado de aprobación de cada entrega, haga clic en la opción **[!UICONTROL Hide/display logs]** en la pestaña **[!UICONTROL Summary]**.
 
-   ![](assets/approval-tracking-delivery-dashboard.png)
+  ![](assets/approval-tracking-delivery-dashboard.png)
 
 * También se puede acceder a esta información a través de la pestaña **[!UICONTROL Audit > Approvals]** de cada entrega:
 
-   ![](assets/approval-tracking-delivery-tab.png)
+  ![](assets/approval-tracking-delivery-tab.png)
 
 >[!NOTE]
 >

@@ -61,6 +61,7 @@ Para preparar la entrega, asegúrese de que se han definido el contenido y el ob
    >[!NOTE]
    >
    >Haga clic en **[!UICONTROL Change the main delivery target]** vínculo si el número de mensajes que se van a enviar no coincide con las expectativas. Esta opción permite cambiar la definición de la población objetivo y reiniciar el análisis.
+   >
 
 1. Después de comprobar el resultado del análisis, haga clic en **[!UICONTROL Confirm delivery]** para enviar el mensaje al destinatario principal.
 
@@ -77,11 +78,11 @@ Esta pestaña proporciona acceso a las siguientes opciones:
 
 * **[!UICONTROL Approval mode]**: este campo permite definir el envío manual o automático una vez finalizado el análisis. 
 
-   Si se generan advertencias durante el análisis (por ejemplo, si se acentúan ciertos caracteres en el asunto de la entrega, etc.), puede configurar la entrega para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar la entrega de los mensajes al final de la fase de análisis: esta es la validación **manual**.
+  Si se generan advertencias durante el análisis (por ejemplo, si se acentúan ciertos caracteres en el asunto de la entrega, etc.), puede configurar la entrega para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar la entrega de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 
-   Seleccione otro modo de aprobación en la lista desplegable del campo apropiado.
+  Seleccione otro modo de aprobación en la lista desplegable del campo apropiado.
 
-   Están disponibles los siguientes modos de aprobación:
+  Están disponibles los siguientes modos de aprobación:
 
    * **[!UICONTROL Manual]**: al final de la fase de análisis, el usuario debe confirmar la entrega para iniciarlo. Para ello, haga clic en el botón **[!UICONTROL Start]** para iniciar la entrega.
    * **[!UICONTROL Semi-automatic]**: la entrega comienza automáticamente si la fase de análisis no genera mensajes de advertencia.

@@ -64,9 +64,9 @@ Para crear una plantilla de servicio y definir su contenido, siga los pasos a co
    * Haga clic en el botón **[!UICONTROL Add]** para definir los tipos de coste asociados a esta categoría.
    * Si es necesario, asocie una línea de stock con cada tipo de coste para que las cantidades utilizadas se relacionen automáticamente con el stock disponible.
 
-      >[!NOTE]
-      >
-      >Las líneas de stock se definen en el nodo **[!UICONTROL Stock management]**. [Más información](#stock-and-order-management).
+     >[!NOTE]
+     >
+     >Las líneas de stock se definen en el nodo **[!UICONTROL Stock management]**. [Más información](#stock-and-order-management).
 
 1. Puede preseleccionar un valor para esta categoría de coste, que es la predeterminada en las categorías de coste del proveedor de servicios (en lugar de una vacía). Para ello, habilite la variable **Sí** en la opción **[!UICONTROL Selected]** para el tipo de categoría:
 
@@ -84,15 +84,15 @@ Haga clic en la pestaña **[!UICONTROL Cost structure]** para configurar el cál
 
 * Para crear la estructura de coste, seleccione el tipo de mensaje y la categoría de coste que le interesen en las listas desplegables, así como el tipo de coste que se aplica a la regla de cálculo. El contenido de estas listas desplegables proviene de la información introducida a través de la pestaña **[!UICONTROL Cost categories]**.
 
-   Debe asignar una etiqueta a la estructura de coste. De forma predeterminada, tiene el siguiente esquema de entrega: **Cost category, Type of cost**.
+  Debe asignar una etiqueta a la estructura de coste. De forma predeterminada, tiene el siguiente esquema de entrega: **Cost category, Type of cost**.
 
-   Sin embargo, puede cambiarle el nombre: introduzca el valor deseado directamente en el campo **[!UICONTROL Label]**.
+  Sin embargo, puede cambiarle el nombre: introduzca el valor deseado directamente en el campo **[!UICONTROL Label]**.
 
 * La fórmula de cálculo de coste se define en la sección inferior de la ventana.
 
-   Esta fórmula puede ser fija (para cualquier número de mensajes) o calculada según el número de mensajes.
+  Esta fórmula puede ser fija (para cualquier número de mensajes) o calculada según el número de mensajes.
 
-   Cuando depende del número de mensajes, la estructura de cálculo de costes puede ser **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]** o **[!UICONTROL Constant by threshold]**.
+  Cuando depende del número de mensajes, la estructura de cálculo de costes puede ser **[!UICONTROL Linear]**, **[!UICONTROL Linear by threshold]** o **[!UICONTROL Constant by threshold]**.
 
 #### Estructura lineal {#linear-structure}
 
@@ -129,7 +129,7 @@ Puede asociar información sobre los procesos asociados con el proveedor de serv
 
 * La sección **[!UICONTROL Notification email]** permite especificar la plantilla para enviar una notificación a los proveedores de servicios después de enviar los archivos. Seleccione la plantilla utilizada para crear el mensaje de alerta y el grupo de destinatarios.
 
-   De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en la variable **[!UICONTROL Administration > Campaign management > Technical delivery templates]** , a la que se puede acceder desde la vista general.
+  De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en la variable **[!UICONTROL Administration > Campaign management > Technical delivery templates]** , a la que se puede acceder desde la vista general.
 
 * La sección **[!UICONTROL Post-processing]** permite seleccionar el flujo de trabajo que se inicia después de aprobar la entrega. Si se introduce una plantilla de flujo de trabajo, se crea automáticamente una instancia de flujo de trabajo y, a continuación, se inicia en cuanto surta efecto la aprobación. Este flujo de trabajo puede enviar el archivo de extracción a un proveedor de servicios externos para su procesamiento, por ejemplo.
 
@@ -145,12 +145,12 @@ Cuando se selecciona un servicio, las categorías de coste correspondientes al t
 
 * Para una entrega por correo directo, se puede seleccionar el servicio en la ventana de configuración.
 
-   ![](assets/supplier-mail-delivery-select.png)
+  ![](assets/supplier-mail-delivery-select.png)
 
 * Para el envío mediante canales móviles o por teléfono, se aplica el mismo modo de selección.
 * Para una entrega por correo electrónico, el servicio se selecciona en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega, como en el siguiente ejemplo:
 
-   ![](assets/supplier-email-delivery-select.png)
+  ![](assets/supplier-email-delivery-select.png)
 
 La columna **[!UICONTROL Amount to surcharge]** permite añadir un coste para esta categoría en el contexto de la entrega o de la tarea correspondiente.
 
@@ -201,7 +201,7 @@ Haga clic en **[!UICONTROL Create]** para añadir nuevas líneas de stock.
 
 * Indique la cantidad inicialmente disponible en el campo **[!UICONTROL Initial stock]**. Los campos **[!UICONTROL Consumed]** e **[!UICONTROL In stock]** se calculan automáticamente y se actualizan mientras las campañas progresan.
 
-   ![](assets/create-new-stock-line.png)
+  ![](assets/create-new-stock-line.png)
 
 * Indique el umbral desde el cual se debe avisar a los operadores para que soliciten la existencia en el campo **[!UICONTROL Alert level]**. Cuando se alcanza el nivel de alerta, aparece un mensaje de advertencia en la ventana de aprobación de entregas con este stock.
 

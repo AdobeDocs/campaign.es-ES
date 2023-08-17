@@ -17,15 +17,15 @@ En este ejemplo, se desea contar el número de destinatarios que residen en Lond
 
 * ¿Qué tabla se debe seleccionar?
 
-   La tabla de destinatario (**nms:recipient**).
+  La tabla de destinatario (**nms:recipient**).
 
 * ¿Qué campos se deben seleccionar en la columna de salida?
 
-   Clave principal (con recuento) y Género.
+  Clave principal (con recuento) y Género.
 
 * ¿En qué condiciones se basa la información?
 
-   Se basa en los destinatarios que residen en Londres.
+  Se basa en los destinatarios que residen en Londres.
 
 Para crear este ejemplo, aplique los pasos siguientes:
 

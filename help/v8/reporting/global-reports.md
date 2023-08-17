@@ -26,7 +26,7 @@ Para mostrar los informes, haga clic en el nombre de cada uno. Los siguientes in
 
 * **[!UICONTROL Delivery throughput]**: consulte [Rendimiento de entrega](#delivery-throughput).
 * **[!UICONTROL Browsers]**: consulte [Navegadores](#browsers).
-* **[!UICONTROL Sharing to social networks]**: consulte [Uso compartido en redes sociales](#sharing-to-social-networks).
+* **[!UICONTROL Sharing to social networks]**: consulte [Difusión en redes sociales](#sharing-to-social-networks).
 * **[!UICONTROL Statistics on sharing activities]**: consulte [Estadísticas sobre actividades de uso compartido](#statistics-on-sharing-activities).
 * **[!UICONTROL Operating systems]**: consulte [Sistemas operativos](#operating-systems).
 * **[!UICONTROL URLs and click streams]**: consulte [Direcciones URL y flujos de clics](delivery-reports.md#urls-and-click-streams).
@@ -51,6 +51,7 @@ Se pueden configurar los valores que se muestran cambiando la escala temporal: v
 >También puede monitorizar el número de envíos por hora utilizando [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es).
 >
 >Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+>
 
 ## Actividades del usuario {#user-activities}
 
@@ -94,11 +95,11 @@ Se utilizan los siguientes indicadores:
 * **[!UICONTROL Unreachable]** : Tipo de error que se produce en la cadena de distribución de mensajes: incidente en la retransmisión SMTP, dominio temporalmente inaccesible, etc.
 * **[!UICONTROL Not connected]** : Tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento del envío.
 
-   >[!NOTE]
-   >
-   >Este indicador se refiere a las entregas de [canales móviles](../send/send.md) solo.
+  >[!NOTE]
+  >
+  >Este indicador se refiere a las entregas de [canales móviles](../send/send.md) solo.
 
-   Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo `[+]`. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
+  Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo `[+]`. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
 
 **[!UICONTROL Breakdown of errors per domain]**
 
@@ -284,9 +285,9 @@ Se utilizan los siguientes indicadores:
 * **[!UICONTROL Hard bounces]** : porcentaje del número de rechazos “graves” comparado con el número total de mensajes procesados.
 * **[!UICONTROL Soft bounces]** : porcentaje del número de rechazos “leves” comparado con el número total de mensajes procesados.
 
-   >[!NOTE]
-   >
-   >Para obtener más información sobre las devoluciones suaves y duras, consulte [esta página](../send/quarantines.md).
+  >[!NOTE]
+  >
+  >Para obtener más información sobre las devoluciones suaves y duras, consulte [esta página](../send/quarantines.md).
 
 * **[!UICONTROL Opens]** : porcentaje del número de destinatarios objetivo que abrieron un mensaje al menos una vez comparado con el número de mensajes procesados correctamente.
 * **[!UICONTROL Clicks]** : porcentaje del número de personas que hizo clic en un envío al menos una vez comparado con el número de mensajes procesados correctamente.

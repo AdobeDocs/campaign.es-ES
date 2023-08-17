@@ -33,6 +33,7 @@ Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de 
 >[!CAUTION]
 >
 > Los datos del cliente no se almacenan en la base de datos local [!DNL Campaign]. Como consecuencia, cualquier tabla personalizada debe crearse en la base de datos en la nube.
+>
 
 ## Arquitectura de Campaign Enterprise (FDAC){#ffda-archi}
 
@@ -64,7 +65,7 @@ La base de datos PostgreSQL de la instancia de marketing se utiliza para lo sigu
 * Almacene todos los datos de Campaign, incluida la configuración de entrega y campaña, el flujo de trabajo y las definiciones de servicio.
 * Almacena todas las tablas de referencia integradas (enumeraciones, países, etc.) que se replican en [!DNL Snowflake].
 
-   Sin embargo, no puede:
+  Sin embargo, no puede:
    * crear personalizaciones para los datos del cliente; por ejemplo, no cree una tabla doméstica en PostgreSQL, sino solo en Snowflake
    * almacene cualquier registro de envío, registro de seguimiento, etc. en la dimensión de segmentación de FDAC.
    * almacene un gran volumen de datos.
@@ -100,6 +101,7 @@ Un flujo de trabajo técnico específico gestiona la replicación de tablas que 
 >
 > Se han creado varias políticas de replicación en función del tamaño de la tabla (XS, XL, etc.).
 > Algunas tablas se duplican en tiempo real, mientras que otras lo hacen cada hora. Algunas tablas sufrirán actualizaciones incrementales, mientras que otras se actualizarán por completo.
+>
 
 [Más información acerca de la replicación de datos](replication.md)
 

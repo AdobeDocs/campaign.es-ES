@@ -19,15 +19,15 @@ En este ejemplo, se desea ejecutar una consulta para buscar todos los dominios d
 
 * ¿Qué tabla se debe seleccionar?
 
-   La tabla de destinatario (nms:recipient).
+  La tabla de destinatario (nms:recipient).
 
 * ¿Campos que se van a seleccionar en las columnas de salida?
 
-   Dominio de correo electrónico y clave principal (con recuento).
+  Dominio de correo electrónico y clave principal (con recuento).
 
 * ¿Agrupación de datos?
 
-   En función del dominio de correo electrónico con un recuento de claves principales por encima de 30. Esta operación se lleva a cabo con la opción **[!UICONTROL Group by + Having]**. **[!UICONTROL Group by + Having]** permite agrupar los datos (“Group by”) y realizar una selección de lo que se ha agrupado (“Having”).
+  En función del dominio de correo electrónico con un recuento de claves principales por encima de 30. Esta operación se lleva a cabo con la opción **[!UICONTROL Group by + Having]**. **[!UICONTROL Group by + Having]** permite agrupar los datos (“Group by”) y realizar una selección de lo que se ha agrupado (“Having”).
 
 Para crear este ejemplo, aplique los pasos siguientes:
 

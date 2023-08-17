@@ -49,15 +49,15 @@ Para ello:
 
    * **[!UICONTROL History in days]**
 
-      Los destinatarios ya seleccionados pueden registrarse un número máximo de días desde el día en que fueron seleccionados. Si este valor es cero, los destinatarios nunca se eliminan del registro.
+     Los destinatarios ya seleccionados pueden registrarse un número máximo de días desde el día en que fueron seleccionados. Si este valor es cero, los destinatarios nunca se eliminan del registro.
 
    * **[!UICONTROL Keep history when starting]**
 
-      Esta opción le permite no purgar el registro cuando la actividad está habilitada.
+     Esta opción le permite no purgar el registro cuando la actividad está habilitada.
 
    * **[!UICONTROL SQL table name]**
 
-      Este parámetro permite sobrecargar la tabla SQL predeterminada que contiene los datos del historial.
+     Este parámetro permite sobrecargar la tabla SQL predeterminada que contiene los datos del historial.
 
 ## Parámetros de salida {#output-parameters}
 

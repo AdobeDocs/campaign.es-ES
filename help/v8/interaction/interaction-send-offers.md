@@ -74,7 +74,7 @@ Varias actividades de flujo de trabajo permiten definir la forma en que se prese
 * Motor de oferta
 * Ofertas por celda
 
-### Enriquecimiento {#enrichment}
+### Enriquecimiento  {#enrichment}
 
 El **Enriquecimiento** La actividad permite agregar ofertas o vínculos a ofertas para los destinatarios de la entrega.[Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
 
@@ -102,11 +102,11 @@ Después de configurar su **Consulta** actividad:
 
    * **[!UICONTROL Search for the best offer in a category]** : marque esta opción y especifique los parámetros de recurso del motor de oferta (espacio de oferta, categoría o temas, fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar. Se recomienda completar el campo **[!UICONTROL Category]** o el campo **[!UICONTROL Theme]** en vez de ambos al mismo tiempo.
 
-      ![](assets/int_enrichment_offer3.png)
+     ![](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A pre-defined offer]** : marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee añadir, sin recurrir al motor de oferta.
 
-      ![](assets/int_enrichment_offer4.png)
+     ![](assets/int_enrichment_offer4.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
 
@@ -126,7 +126,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/int_enrichment_link1.png)
 
-1. Especifique el vínculo entre los datos de la lista entrante en la actividad de ampliación (lista de destinatarios) y la lista de oferta. Por ejemplo, se puede vincular un código de oferta a un destinatario.
+1. Especifique el vínculo entre los datos de la lista entrante en la actividad de enriquecimiento (lista de destinatarios) y la lista de oferta. Por ejemplo, se puede vincular un código de oferta a un destinatario.
 
    ![](assets/int_enrichment_link2.png)
 
@@ -197,7 +197,7 @@ Para ello, utilice el proceso siguiente:
    * Especifique la población del subconjunto utilizando las reglas de filtrado y limitación disponibles.
    * A continuación, seleccione la oferta que desea presentar al subconjunto. Las ofertas disponibles son las admitidas en el entorno de oferta seleccionado en el paso anterior.
 
-      ![](assets/int_offer_per_cell1.png)
+     ![](assets/int_offer_per_cell1.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido.
 

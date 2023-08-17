@@ -34,7 +34,7 @@ Cada operador debe estar vinculado a una zona para iniciar sesión en una instan
 
 Los operadores están vinculados a una zona de seguridad desde su perfil en la consola, a la que se puede acceder desde el **[!UICONTROL Administration > Access management > Operators]** nodo.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Services, el Adobe establece las zonas de seguridad automáticamente. Para obtener más información, [Adobe de contacto](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Service, el Adobe establece las zonas de seguridad automáticamente. Para obtener más información, [Adobe de contacto](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **Más información**
 

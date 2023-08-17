@@ -37,9 +37,9 @@ Los derechos asignados al administrador de entregas permiten realizar las siguie
 * Mostrar y modificar las categorías de oferta.
 * Aprobar ofertas si son sus revisores.
 
-   >[!NOTE]
-   >
-   >**Administradores de envío** solo puede aprobar una oferta si se ha declarado como revisores en la configuración de la oferta.
+  >[!NOTE]
+  >
+  >**Administradores de envío** solo puede aprobar una oferta si se ha declarado como revisores en la configuración de la oferta.
 
 ## Matriz de permisos por operador de interacción {#recap-of-rights-according-to-operator}
 

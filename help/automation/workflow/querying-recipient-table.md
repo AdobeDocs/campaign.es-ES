@@ -19,19 +19,19 @@ En este ejemplo, se desea recuperar los nombres y correos electrónicos de los d
 
 * ¿Qué tabla se debe seleccionar?
 
-   La tabla de destinatario (nms:recipient).
+  La tabla de destinatario (nms:recipient).
 
 * Campos que se desea seleccionar como columnas de salida
 
-   Correo electrónico, nombre, ciudad y número de cuenta
+  Correo electrónico, nombre, ciudad y número de cuenta
 
 * ¿Cuáles son las condiciones de filtrado de los destinatarios?
 
-   ciudad y dominio de correo electrónico
+  ciudad y dominio de correo electrónico
 
 * ¿Se ha configurado una clasificación?
 
-   Sí, en función de **[!UICONTROL Account number]** y **[!UICONTROL Last name]**.
+  Sí, en función de **[!UICONTROL Account number]** y **[!UICONTROL Last name]**.
 
 Para crear este ejemplo, aplique los pasos siguientes:
 

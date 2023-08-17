@@ -19,11 +19,11 @@ La pantalla de propiedades de una actividad tiene una pestaña **[!UICONTROL Adv
 
 * una versión simplificada (para las actividades **[!UICONTROL Start]** y **[!UICONTROL End]**, por ejemplo)
 
-   ![](assets/wf-advanced-basic.png)
+  ![](assets/wf-advanced-basic.png)
 
 * una versión más detallada (para la actividad **[!UICONTROL Query]**, por ejemplo)
 
-   ![](assets/wf-advanced-full.png)
+  ![](assets/wf-advanced-full.png)
 
 Los campos que se introducen en la pestaña **[!UICONTROL Advanced]** se describen en las siguientes secciones.
 

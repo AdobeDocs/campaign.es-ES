@@ -59,6 +59,7 @@ Si el espacio se define mediante un canal unitario en modo identificado, se debe
    >[!NOTE]
    >
    >Cuando se crea un espacio de oferta en el canal web entrante, se debe configurar el sitio web para que muestre esta oferta.
+   >
 
 ### Creación y publicación del catálogo de ofertas {#managing-the-offer-catalog-}
 
@@ -90,29 +91,29 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
    * crear el contenido de la oferta mediante funciones de renderización
    * especifique las ofertas que desea presentar
 
-   Un espacio es una interfaz entre el canal y el motor de oferta.
+  Un espacio es una interfaz entre el canal y el motor de oferta.
 
-   >[!CAUTION]
-   >
-   >Un espacio de oferta no es un canal de comunicación, coincide con una ubicación de presentación específica del canal. Por ejemplo, las ofertas expuestas en un sitio web pueden ocupar dos espacios en la misma página. En este caso, tiene dos espacios para el mismo canal.
-   >
-   >Los espacios deben definirse en las especificaciones y no deben modificarse durante el proyecto.
+  >[!CAUTION]
+  >
+  >Un espacio de oferta no es un canal de comunicación, coincide con una ubicación de presentación específica del canal. Por ejemplo, las ofertas expuestas en un sitio web pueden ocupar dos espacios en la misma página. En este caso, tiene dos espacios para el mismo canal.
+  >
+  >Los espacios deben definirse en las especificaciones y no deben modificarse durante el proyecto.
 
 * **Offer catalog**: conjunto de ofertas definidas en Adobe Campaign que se puede seleccionar durante una interacción. El catálogo se organiza de forma jerárquica con cada nodo correspondiente a una categoría.
 * **Category**: una carpeta relacionada con el catálogo de ofertas en un entorno, que organiza las ofertas según la naturaleza, la fecha de idoneidad y el tema de la aplicación. Una categoría puede contener subcategorías que heredan todas las características de la categoría principal. Las reglas de idoneidad se pueden definir para una categoría a fin de compartirlas en varias ofertas.
 * **Application themes**: las palabras clave definidas en la categoría permiten filtrar ofertas cuando se presentan en un canal entrante o saliente y restringen la selección de ofertas a una o dos categorías.
 
-   >[!NOTE]
-   >
-   >Las categorías secundarias heredan los temas identificados en la categoría principal.
+  >[!NOTE]
+  >
+  >Las categorías secundarias heredan los temas identificados en la categoría principal.
 
 * **Reglas de elegibilidad**: restricciones aplicadas a un entorno, categoría u oferta sobre el periodo de validez, el destinatario y el peso. Permiten garantizar que una oferta está en línea con el contacto de destino.
 
-   En los entornos, las reglas de idoneidad incluyen reglas de presentación aplicadas a las ofertas y a los destinatarios.
+  En los entornos, las reglas de idoneidad incluyen reglas de presentación aplicadas a las ofertas y a los destinatarios.
 
-   En las categorías, las reglas de idoneidad permiten: limitar la validez de la categoría en el tiempo, definir los temas de la aplicación y determinar las personas objetivo. También pueden recibir un peso multiplicador durante un tiempo determinado. Esto le permite compartir las reglas para las ofertas en otras categorías y simplificar así la administración.
+  En las categorías, las reglas de idoneidad permiten: limitar la validez de la categoría en el tiempo, definir los temas de la aplicación y determinar las personas objetivo. También pueden recibir un peso multiplicador durante un tiempo determinado. Esto le permite compartir las reglas para las ofertas en otras categorías y simplificar así la administración.
 
-   En las ofertas, las reglas de idoneidad permiten limitar la validez de las ofertas en el tiempo y determinar los destinatarios.
+  En las ofertas, las reglas de idoneidad permiten limitar la validez de las ofertas en el tiempo y determinar los destinatarios.
 
 * **Arbitraje**: selección de ofertas para mostrar en un entorno (ofertas aptas). El principio de arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
 * **Contact**: un contacto de una interacción entrante. Durante el procesamiento de visualización del motor, el contacto se asocia a una dimensión de segmentación. Hay dos tipos de contactos:
@@ -120,9 +121,9 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
    * **[!UICONTROL Identified contact]** : un contacto que se ha identificado voluntariamente en el canal. En las interacciones de salida, el contacto se identifica automáticamente.
    * **[!UICONTROL Anonymous contact]** : contacto que no se ha suscrito oficialmente a través del canal, pero que puede identificarse implícitamente mediante una cookie. Esta terminología solo se utiliza para interacciones entrantes.
 
-      >[!NOTE]
-      >
-      >Los contactos no identificados y anónimos se atribuyen a la dimensión de segmentación del visitante.
+     >[!NOTE]
+     >
+     >Los contactos no identificados y anónimos se atribuyen a la dimensión de segmentación del visitante.
 
 * **Interacción saliente**: invoque al motor de oferta desde una lista de contactos (utilizada para enviar correos electrónicos, correo directo, etc.). Se aplican las mismas reglas y procesos a cada contacto. Este tipo de interacción se procesa generalmente en modo por lotes.
 * **Inbound interaction**: interacción después de una llamada entrante generada por la acción de un contacto en el canal. Este tipo de interacción se procesa generalmente en modo unitario.

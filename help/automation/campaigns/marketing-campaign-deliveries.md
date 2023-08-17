@@ -29,9 +29,9 @@ Una vez guardada, la entrega se agrega al panel de campañas.
 
 * Desde un flujo de trabajo de campaña, en la variable **[!UICONTROL Targeting and workflows]** pestaña, añadiendo la entrega.
 
-   ![](assets/campaign-wf-delivery.png)
+  ![](assets/campaign-wf-delivery.png)
 
-   Una vez iniciado el flujo de trabajo, la entrega se agrega al panel de campañas.
+  Una vez iniciado el flujo de trabajo, la entrega se agrega al panel de campañas.
 
 Obtenga información sobre cómo configurar y ejecutar el flujo de aprobación de envíos [en esta página](marketing-campaign-approval.md).
 
@@ -94,21 +94,21 @@ La extracción de archivos inicia dos procesos: cálculo de presupuesto y cálcu
 
 * La pestaña **[!UICONTROL Budget]** le permite administrar los presupuestos de la campaña. El total de las entradas de costes se muestra en el campo **[!UICONTROL Calculated cost]** de la pestaña principal de la campaña y del programa al que pertenece. Las cantidades también se reflejan en el presupuesto de la campaña.
 
-   ![](assets/campaign-budget-tab.png)
+  ![](assets/campaign-budget-tab.png)
 
-   El coste real se calcula a partir de la información proporcionada por el enrutador. Solo se facturan los mensajes que se han enviado realmente.
+  El coste real se calcula a partir de la información proporcionada por el enrutador. Solo se facturan los mensajes que se han enviado realmente.
 
 * Las existencias se definen en la variable **[!UICONTROL Administration > Campaign management > Stocks]** nodo del árbol.
 
-   ![](assets/campaign-stocks.png)
+  ![](assets/campaign-stocks.png)
 
-   Estructuras de coste en **[!UICONTROL Administration > Campaign management > Service providers]** nodo.
+  Estructuras de coste en **[!UICONTROL Administration > Campaign management > Service providers]** nodo.
 
-   ![](assets/campaign-service-providers.png)
+  ![](assets/campaign-service-providers.png)
 
-   Las líneas de existencias se pueden ver en la sección existencias. Para definir las existencias iniciales, abra una línea de existencias. Las existencias se reducen cada vez que se produce una entrega. Puede definir un nivel de alerta y notificaciones.
+  Las líneas de existencias se pueden ver en la sección existencias. Para definir las existencias iniciales, abra una línea de existencias. Las existencias se reducen cada vez que se produce una entrega. Puede definir un nivel de alerta y notificaciones.
 
 
-   >[!NOTE]
-   >
-   >Más información sobre los presupuestos [en esta sección](providers--stocks-and-budgets.md).
+  >[!NOTE]
+  >
+  >Más información sobre los presupuestos [en esta sección](providers--stocks-and-budgets.md).

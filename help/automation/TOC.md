@@ -42,8 +42,8 @@ ht-degree: 86%
          + [Anulación de duplicación](workflow/deduplication.md)
          + [Descripción del envío](workflow/delivery-outline.md)
          + [Editar esquema](workflow/edit-schema.md)
-         + [Enriquecimiento](workflow/enrichment.md)
-         + [Exclusión](workflow/exclusion.md)
+         + [Enriquecimiento ](workflow/enrichment.md)
+         + [Exclusión ](workflow/exclusion.md)
          + [Consulta incremental](workflow/incremental-query.md)
          + [Intersección](workflow/intersection.md)
          + [Actualización de listas](workflow/list-update.md)
@@ -58,7 +58,7 @@ ht-degree: 86%
       + Actividades de control de flujo {#flow-control-activities}
          + [Lista de actividades de control de flujo](workflow/flow-control-activities.md)
          + [Alerta](workflow/alert.md)
-         + [AND-join](workflow/and-join.md)
+         + [Combinación-Y](workflow/and-join.md)
          + [Aprobación](workflow/approval.md)
          + [Señal externa](workflow/external-signal.md)
          + [Bifurcación](workflow/fork.md)
@@ -68,7 +68,7 @@ ht-degree: 86%
          + [Subflujo de trabajo](workflow/sub-workflow.md)
          + [Prueba](workflow/test.md)
          + [Restricción de tiempo](workflow/time-constraint.md)
-         + [Espera](workflow/wait.md)
+         + [Esperar](workflow/wait.md)
       + Actividades de acción {#action-activities}
          + [Lista de actividades de acción](workflow/action-activities.md)
          + [Administración de contenido](workflow/content-management.md)

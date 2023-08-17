@@ -21,6 +21,7 @@ Una vista es una carpeta específica que no contiene datos, pero muestra datos a
 
 >[!NOTE]
 >Para distinguir vistas de carpetas estándar, su nombre se muestra en azul claro en lugar de negro.
+>
 
 Tenga en cuenta que puede asignar permisos a las carpetas para restringir el acceso a determinados datos. [Más información](#restrict-access-to-a-folder)
 
@@ -32,7 +33,7 @@ Tenga en cuenta que puede asignar permisos a las carpetas para restringir el acc
 
 * **Definición y aplicación de una convención de nombres** Por ejemplo, puede asignar un nombre a los flujos de trabajo en orden alfabético, de modo que aparezcan ordenados en orden de ejecución, como:
 
-   A1 - importar destinatarios, comienza a las 10:00; A2 - importar tickets, comienza a las 11:00.
+  A1 - importar destinatarios, comienza a las 10:00; A2 - importar tickets, comienza a las 11:00.
 
 ## Crear una carpeta{#create-a-folder}
 
@@ -50,6 +51,7 @@ Para crear otro tipo de carpeta, haga clic con el botón derecho en una carpeta 
 
 >[!CAUTION]
 >Estos cambios se aplican a todos los usuarios de Campaign.
+>
 
 ## Convertir una carpeta en una vista{#turn-a-folder-to-a-view}
 

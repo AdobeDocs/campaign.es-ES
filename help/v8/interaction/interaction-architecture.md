@@ -20,9 +20,9 @@ Para cada dimensión de segmentación existen dos entornos utilizados al gestion
 
 * A **diseño** entorno en el que el gestor de ofertas se encarga de la creación y la clasificación de las ofertas, la edición y el inicio del proceso de aprobación para que se puedan utilizar. También se definen en este entorno las reglas para cada categoría, los espacios de oferta en los que se pueden presentar las mismas y los filtros predefinidos utilizados para definir la idoneidad de una oferta.
 
-   Las categorías también se pueden publicar manualmente en el entorno en línea.
+  Las categorías también se pueden publicar manualmente en el entorno en línea.
 
-   Se detalla el proceso de aprobación de ofertas [en esta sección](interaction-offer.md#approve-offers).
+  Se detalla el proceso de aprobación de ofertas [en esta sección](interaction-offer.md#approve-offers).
 
 * A **live** entorno en el que se pueden encontrar ofertas aprobadas del entorno de diseño, así como los distintos espacios de ofertas, filtros, categorías y reglas configuradas en el entorno de diseño. Durante el acceso al motor de oferta, este siempre utiliza las ofertas del entorno en directo.
 
@@ -102,10 +102,11 @@ En las instancias de control:
    * Compruebe el tipo de aplicación utilizada: **[!UICONTROL Message Center]**, **[!UICONTROL Interaction]** o ambas.
    * Introduzca la cuenta de FDA utilizada. Se debe crear un operador en las instancias de ejecución y debe tener los siguientes derechos de lectura y escritura en la base de datos de la instancia en cuestión:
 
-      ```
-      grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
-      grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
-      ```
+     ```
+     grant SELECT ON nmspropositionrcp, nmsoffer, nmsofferspace, xtkoption, xtkfolder TO user;
+     grant DELETE, INSERT, UPDATE ON nmspropositionrcp TO user;
+     ```
+
    >[!NOTE]
    >
    >La dirección IP de la instancia de control debe estar autorizada en las instancias de ejecución.
@@ -117,9 +118,9 @@ En las instancias de control:
    * Añada la lista de instancias de ejecución.
    * Para cada uno, especifique el periodo de sincronización y los criterios de filtro (por ejemplo, por país).
 
-      >[!NOTE]
-      >
-      >Si aparece un error, se puede consultar los flujos de trabajo de sincronización y ofrecer notificaciones. Se pueden encontrar en los flujos de trabajo técnicos de la aplicación.
+     >[!NOTE]
+     >
+     >Si aparece un error, se puede consultar los flujos de trabajo de sincronización y ofrecer notificaciones. Se pueden encontrar en los flujos de trabajo técnicos de la aplicación.
 
 Si, por razones de optimización, solo parte de la base de datos de mercadotecnia se duplica en las instancias de ejecución, se puede especificar un esquema restringido vinculado al entorno para permitir que los usuarios solo utilicen los datos disponibles en las instancias de ejecución. Se puede crear una oferta mediante datos que no estén disponibles en instancias de ejecución. Para ello, se debe desactivar la regla en los demás canales limitando esta regla en el canal saliente (campo **[!UICONTROL Taken into account if]**).
 

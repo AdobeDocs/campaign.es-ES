@@ -113,7 +113,7 @@ Para añadir y configurar medidas, siga los pasos a continuación:
 
    * Combinación de medidas: este tipo de medida permite crear la nueva medida utilizando las existentes:
 
-      Los operadores disponibles son: suma, diferencia, multiplicación y tasa.
+     Los operadores disponibles son: suma, diferencia, multiplicación y tasa.
 
    * Proporción: este tipo de medida permite calcular el número de registros medidos para una dimensión determinada. Se puede calcular la proporcionalidad en función de una dimensión o subdimensión.
    * Variación: esta medida permite calcular la variación en valores de un nivel.

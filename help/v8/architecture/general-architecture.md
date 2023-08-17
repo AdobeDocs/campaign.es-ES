@@ -18,15 +18,15 @@ La implementación típica de la solución de Adobe Campaign consta de los sigui
 
 * **Entorno de cliente personalizado**
 
-   Interfaz gráfica intuitiva en la que los usuarios pueden comunicarse y rastrear ofertas de marketing, crear campañas, revisar y administrar todas las actividades, programas y planes de marketing, incluidos correos electrónicos, flujos de trabajo y páginas de aterrizaje, crear y administrar perfiles de clientes, y crear audiencias.
+  Interfaz gráfica intuitiva en la que los usuarios pueden comunicarse y rastrear ofertas de marketing, crear campañas, revisar y administrar todas las actividades, programas y planes de marketing, incluidos correos electrónicos, flujos de trabajo y páginas de aterrizaje, crear y administrar perfiles de clientes, y crear audiencias.
 
 * **Entorno de desarrollo**
 
-   Software del lado del servidor que ejecuta las campañas de marketing a través de canales de comunicación seleccionados, incluidos correos electrónicos, SMS, notificaciones push, correo directo, web o social, en función de las reglas y flujos de trabajo definidos en la interfaz de usuario.
+  Software del lado del servidor que ejecuta las campañas de marketing a través de canales de comunicación seleccionados, incluidos correos electrónicos, SMS, notificaciones push, correo directo, web o social, en función de las reglas y flujos de trabajo definidos en la interfaz de usuario.
 
 * **Contenedores de base de datos**
 
-   Basada en la tecnología de bases de datos relacionales, la base de datos en la nube de Adobe Campaign almacena toda la información, los componentes de campaña, las ofertas, los flujos de trabajo y los resultados de campaña en contenedores de base de datos.
+  Basada en la tecnología de bases de datos relacionales, la base de datos en la nube de Adobe Campaign almacena toda la información, los componentes de campaña, las ofertas, los flujos de trabajo y los resultados de campaña en contenedores de base de datos.
 
 ## Entorno de cliente personalizado {#client-env}
 
@@ -60,7 +60,7 @@ Los procesos principales son:
 
 * **Servidor de redirección** (nlserver webmdl): para el correo electrónico, Adobe Campaign gestiona automáticamente el seguimiento de aperturas y clics (el seguimiento transaccional en el nivel de sitio web es una posibilidad adicional). Para conseguirlo, las URL incorporadas en los mensajes de correo electrónico se reescriben para que apunten a este módulo, que registra el paso del usuario de Internet antes de redirigirlo a la URL requerida.
 
-   Para garantizar la máxima disponibilidad, este proceso es totalmente independiente de la base de datos: los demás procesos del servidor se comunican con él utilizando llamadas SOAP (HTTP, HTTP(S) y XML) únicamente. Técnicamente, esta funcionalidad se implementa en un módulo de extensión de un servidor HTTP (extensión ISAPI en IIS, o módulo DSO Apache, etc.) y solo está disponible en Windows.
+  Para garantizar la máxima disponibilidad, este proceso es totalmente independiente de la base de datos: los demás procesos del servidor se comunican con él utilizando llamadas SOAP (HTTP, HTTP(S) y XML) únicamente. Técnicamente, esta funcionalidad se implementa en un módulo de extensión de un servidor HTTP (extensión ISAPI en IIS, o módulo DSO Apache, etc.) y solo está disponible en Windows.
 
 Otros procesos más técnicos también están disponibles:
 

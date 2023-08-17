@@ -22,4 +22,4 @@ Múltiples actividades permiten interactuar con datos de una base de datos exter
 * Enriquecimiento
 * Carga de datos
 
-El uso de la opción FDA depende de la licencia de Adobe Campaign. Se detalla la configuración de esta opción, así como las prácticas recomendadas y limitaciones vinculadas a ella [en esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html){target="_blank"}.
+El uso de la opción FDA depende de la licencia de Adobe Campaign. Se detalla la configuración de esta opción, así como las prácticas recomendadas y limitaciones vinculadas a ella [en esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/fda.html?lang=es){target="_blank"}.

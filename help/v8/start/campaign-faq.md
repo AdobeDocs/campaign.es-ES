@@ -46,7 +46,7 @@ ht-degree: 95%
 
    Adobe Campaign incluye un conjunto de paneles y herramientas para monitorizar los envíos de correo electrónico.
 
-   [Lea la documentación de Campaign Classic v7 para aprender](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"} a corroborar que sus mensajes se envían, monitorizar la ejecución y actuar en consecuencia si se produce un error.
+   [Lea la documentación de Campaign Classic v7 para aprender](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"} a corroborar que sus mensajes se envían, a monitorizar la ejecución y a actuar en consecuencia si se produce un error.
 
 1. **¿Se puede monitorizar la ejecución del flujo de trabajo?**
 

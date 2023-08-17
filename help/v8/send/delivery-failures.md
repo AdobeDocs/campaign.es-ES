@@ -31,16 +31,16 @@ Existen dos tipos de error cuando falla un mensaje. Cada tipo de error de entreg
 * **Rechazos graves**
 Las devoluciones duras son errores permanentes generados después de que un ISP determine que un intento de envío a una dirección de suscriptor no se puede entregar. En Adobe Campaign, las devoluciones graves de mensajes clasificados como no aptos para entrega se añaden a la lista de cuarentena, lo que significa que no se volverán a enviar. Hay algunos casos en los que se ignoran los mensajes devueltos no válidos si se desconoce la causa del error.
 
-   Estos son algunos ejemplos comunes de devoluciones graves: La dirección no existe, Cuenta deshabilitada, Sintaxis incorrecta, Dominio incorrecto
+  Estos son algunos ejemplos comunes de devoluciones graves: La dirección no existe, Cuenta deshabilitada, Sintaxis incorrecta, Dominio incorrecto
 
 * **Rechazos leves**
 Las devoluciones leves de mensajes son errores temporales que los ISP generan cuando tienen dificultades para enviar correos. Los errores leves [volver a intentar](#retries) varias veces (con variación según el uso de la configuración de envío personalizada o predeterminada) para intentar una entrega correcta. Las direcciones de mensajes devueltos no entregados que reboten de forma continua no se añadirán a la cuarentena hasta que se haya intentado el número máximo de reintentos (que varía en función de la configuración).
 
-   Algunas causas comunes de las devoluciones leves son las siguientes: Buzón lleno, Recepción del servidor de correo electrónico caído, Problemas de reputación del remitente
+  Algunas causas comunes de las devoluciones leves son las siguientes: Buzón lleno, Recepción del servidor de correo electrónico caído, Problemas de reputación del remitente
 
 El  **Ignorado** El tipo de error es temporal, como &quot;Fuera de la oficina&quot;, o un error técnico, por ejemplo, si el tipo de remitente es &quot;Administrador de correo&quot;.
 
-El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluida en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se añaden a (**NmsAddress**) tabla de cuarentena y no a (**NmsRecipient**) tabla de destinatarios con **[!UICONTROL Denylisted]** estado. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops).
+El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluir en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se añaden a (**NmsAddress**) tabla de cuarentena y no a (**NmsRecipient**) tabla de destinatarios con **[!UICONTROL Denylisted]** estado. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops).
 
 ## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
 
@@ -54,7 +54,7 @@ Estos tipos de errores se administran de la siguiente manera:
 
 >[!NOTE]
 >
->Como usuario de Managed Cloud Services, la configuración del buzón de rechazos se realiza mediante el Adobe.
+>Como usuario de Managed Cloud Service, la configuración del buzón de rechazos se realiza mediante el Adobe.
 
 ## Clasificación del correo rechazado {#bounce-mail-qualification}
 
@@ -659,18 +659,18 @@ SR Generic DELIVRD 000|#MESSAGE#
 * Todos los mensajes de error empiezan por **SR** para distinguir entre los códigos de error de los SMS y códigos de error de los correos electrónicos.
 * La segunda parte (**Generic** en este ejemplo) del mensaje de error hace referencia al nombre de la implementación de SMSC, como se define en el campo **[!UICONTROL SMSC implementation name]** de la cuenta externa de SMS.
 
-   Dado que el mismo código de error puede tener un significado diferente para cada proveedor, este campo permite saber qué proveedor genera el código de error. Después se puede buscar el error en la documentación del proveedor correspondiente.
+  Dado que el mismo código de error puede tener un significado diferente para cada proveedor, este campo permite saber qué proveedor genera el código de error. Después se puede buscar el error en la documentación del proveedor correspondiente.
 
 * La tercera parte (**DELIVRD** en este ejemplo) del mensaje de error corresponde al código de estado recuperado del SR mediante las regex de extracción de estado definidas en la cuenta externa de SMS.
 
-   Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa.
+  Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa.
 De manera predeterminada, la regex extrae el campo **stat:** como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 
 * La cuarta parte (**000** en este ejemplo) del mensaje de error corresponde al código de error extraído del SR mediante la regex de extracción de código de error definida en la cuenta externa de SMS.
 
-   Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa.
+  Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa.
 
-   De manera predeterminada, la regex extrae el campo **err:** tal y como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
+  De manera predeterminada, la regex extrae el campo **err:** tal y como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 
 * Todo lo que aparece después del símbolo de barra vertical (|) se muestra solo en la columna **[!UICONTROL First text]** de la tabla **[!UICONTROL Delivery log qualification]**. Este contenido siempre se sustituye por **#MESSAGE#** después de normalizar el mensaje. Este proceso evita tener varias entradas para errores similares y funciona igual que para los correos electrónicos.
 

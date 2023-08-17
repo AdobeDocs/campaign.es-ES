@@ -117,7 +117,7 @@ Adobe Campaign ofrece un conjunto de funcionalidades para monitorizar los proces
 
 ### Monitorización de entregas
 
-La monitorización de las entregas una vez enviadas es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
+La monitorización de los envíos una vez enviados es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
 
 Obtenga más información acerca de la información que puede monitorizar después de enviar una entrega, y comprenda cómo se administran los errores y las cuarentenas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages){target="_blank"}
 

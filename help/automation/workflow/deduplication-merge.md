@@ -25,8 +25,8 @@ La actividad **[!UICONTROL Deduplication]** se utiliza para eliminar filas de du
 | Fecha de la última modificación | Nombre | Apellidos | Correo electrónico | Teléfono móvil | Teléfono |
 |-----|------------|-----------|-------|--------------|------|
 | 19/5/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 22/7/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 3/10/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 22/7/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777 |
+| 3/10/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
 
 Con la funcionalidad **[!UICONTROL Merge]** de la actividad de anulación de duplicación, puede configurar un conjunto de reglas para la anulación de duplicación para definir un grupo de campos para combinar en un único registro de datos resultante. Por ejemplo, con un conjunto de registros de duplicado, puede elegir mantener el número de teléfono más antiguo o el nombre más reciente.
 
@@ -93,8 +93,8 @@ Después de configurar estas reglas, se reciben los siguientes datos al final de
 | Fecha de modificación | Nombre | Apellidos | Correo electrónico | Teléfono móvil | Teléfono |
 |-----|------------|-----------|-------|--------------|------|
 | 19/5/2020 | Robert | Tisner | bob@mycompany.com | 444-444-444 | 777-777-7777 |
-| 22/7/2020 | Bobby | Tisner | bob@mycompany.com |  | 777-777-7777 |
-| 3/10/2020 | Bob |  | bob@mycompany.com |  | 888-888-8888 |
+| 22/7/2020 | Bobby | Tisner | bob@mycompany.com | | 777-777-7777 |
+| 3/10/2020 | Bob |  | bob@mycompany.com | | 888-888-8888 |
 
 El resultado se combina de los tres registros según las reglas configuradas anteriormente. Tras la comparación, se concluye que se utilizan el nombre y el teléfono móvil más recientes, junto con el número de teléfono original.
 

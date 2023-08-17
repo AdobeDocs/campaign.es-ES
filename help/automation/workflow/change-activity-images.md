@@ -19,27 +19,27 @@ Las imágenes utilizadas en los diagramas de los distintos flujos de trabajo pue
 
 * Para cambiar la imagen de fondo, seleccione el flujo de trabajo de objetivos deseado y haga clic en la pestaña **[!UICONTROL Properties]**.
 
-   ![](assets/s_user_segmentation_properties_tab.png)
+  ![](assets/s_user_segmentation_properties_tab.png)
 
-   Para seleccionar la imagen que desea utilizar, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Background image]**.
+  Para seleccionar la imagen que desea utilizar, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Background image]**.
 
-   >[!NOTE]
-   >
-   >La anchura en píxeles de la imagen de fondo debe ser múltiplo de 4.
+  >[!NOTE]
+  >
+  >La anchura en píxeles de la imagen de fondo debe ser múltiplo de 4.
 
-   ![](assets/s_user_segmentation_background_select.png)
+  ![](assets/s_user_segmentation_background_select.png)
 
-   El icono **[!UICONTROL Edit link]** permite ver la imagen seleccionada.
+  El icono **[!UICONTROL Edit link]** permite ver la imagen seleccionada.
 
 * Para cambiar la imagen asociada a una actividad, haga doble clic en el objeto y, a continuación, haga clic en la pestaña **[!UICONTROL Advanced]**.
 
-   Para seleccionar la imagen que desea utilizar, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Image]**.
+  Para seleccionar la imagen que desea utilizar, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Image]**.
 
-   ![](assets/s_user_segmentation_activity_image.png)
+  ![](assets/s_user_segmentation_activity_image.png)
 
-   El icono **[!UICONTROL Edit link]** permite ver la imagen seleccionada.
+  El icono **[!UICONTROL Edit link]** permite ver la imagen seleccionada.
 
-   ![](assets/s_user_segmentation_activity_image_select.png)
+  ![](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

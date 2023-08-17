@@ -53,7 +53,7 @@ Una vez ejecutado, el flujo de trabajo llamado como subflujo de trabajo permanec
 * No se puede mostrar el recuento de poblaciones intermedias.
 * Los registros de subflujo de trabajo se muestran en el flujo de trabajo principal.
 
-   ![](assets/subworkflow_logs.png)
+  ![](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

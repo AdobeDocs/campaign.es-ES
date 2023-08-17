@@ -39,7 +39,7 @@ En este ejemplo, se envían distintos correos electrónicos a diferentes grupos 
 * Guardado del resultado de la consulta
 * Segmentación del resultado para enviar varias entregas
 
-   ![La actividad de bifurcación sigue la intersección de dos consultas y precede a una actividad de actualización de lista y una actividad de división.](assets/wkf_fork_example.png)
+  ![La actividad de bifurcación sigue la intersección de dos consultas y precede a una actividad de actualización de lista y una actividad de división.](assets/wkf_fork_example.png)
 
 El flujo de trabajo incluye estas actividades:
 

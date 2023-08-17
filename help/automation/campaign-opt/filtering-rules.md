@@ -23,7 +23,7 @@ Por ejemplo, puede filtrar los suscriptores del boletín informativo para evitar
 
 Para definir este filtro, aplique los siguientes pasos:
 
-1. Vaya a la **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** del explorador de Campaign y haga clic en la **Nuevo** para crear una regla de tipología.
+1. Vaya a la **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** del explorador de Campaign y haga clic en el botón **Nuevo** para crear una regla de tipología.
 1. Crear un **[!UICONTROL Filtering]** regla de tipología aplicable a todos los canales.
 
    ![](assets/campaign_opt_create_filter_01.png)
@@ -85,6 +85,7 @@ También puede vincular reglas de filtrado directamente mediante esta pestaña, 
 >En la ventana de selección solo están disponibles las reglas de filtrado y de tipologías.
 >
 >Estas configuraciones se pueden definir en la plantilla de envío para que se apliquen automáticamente a todas las entregas nuevas creadas con la plantilla.
+>
 
 ## Reglas de exclusión de envío predeterminadas {#default-deliverability-exclusion-rules}
 

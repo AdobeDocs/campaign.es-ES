@@ -137,33 +137,33 @@ Estas son las opciones de reconciliación de datos disponibles:
 
 * **[!UICONTROL Keys only]**
 
-   Puede usar esta opción si las poblaciones de entrada son homogéneas.
+  Puede usar esta opción si las poblaciones de entrada son homogéneas.
 
 * **[!UICONTROL All columns in common]**
 
-   Esta opción le permite reconciliar los datos en función de todas las columnas que sean comunes a las distintas poblaciones de destino.
+  Esta opción le permite reconciliar los datos en función de todas las columnas que sean comunes a las distintas poblaciones de destino.
 
-   Adobe Campaign identifica las columnas según su nombre. Se acepta un umbral de tolerancia: por ejemplo, se puede reconocer una columna “correo electrónico” como idéntica a una columna “@email”.
+  Adobe Campaign identifica las columnas según su nombre. Se acepta un umbral de tolerancia: por ejemplo, se puede reconocer una columna “correo electrónico” como idéntica a una columna “@email”.
 
 * **[!UICONTROL A selection of columns]**
 
-   Seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos.
+  Seleccione esta opción para definir la lista de columnas a las que desea aplicar la reconciliación de datos.
 
-   Para empezar, seleccione el conjunto principal (el que contiene los datos de origen) y las columnas que desea utilizar para el enlace.
+  Para empezar, seleccione el conjunto principal (el que contiene los datos de origen) y las columnas que desea utilizar para el enlace.
 
-   ![](assets/join-reconciliation-options.png)
+  ![](assets/join-reconciliation-options.png)
 
-   >[!CAUTION]
-   >
-   >Durante la reconciliación de datos, las poblaciones no se deduplican.
+  >[!CAUTION]
+  >
+  >Durante la reconciliación de datos, las poblaciones no se deduplican.
 
-   Se puede restringir el tamaño de la población a un número determinado de registros. Para ello, haga clic en la opción correspondiente y especifique el número de registros que desee conservar.
+  Se puede restringir el tamaño de la población a un número determinado de registros. Para ello, haga clic en la opción correspondiente y especifique el número de registros que desee conservar.
 
-   Especifique también la prioridad de las poblaciones entrantes: la sección inferior de la ventana muestra las transiciones entrantes de la actividad de unión y le permite ordenarlas utilizando las flechas azules a la derecha de la ventana.
+  Especifique también la prioridad de las poblaciones entrantes: la sección inferior de la ventana muestra las transiciones entrantes de la actividad de unión y le permite ordenarlas utilizando las flechas azules a la derecha de la ventana.
 
-   Los registros se toman primero de la población de la primera transición entrante en la lista, y después, si no se ha alcanzado el máximo, se toman de la población de la segunda transición entrante, etc.
+  Los registros se toman primero de la población de la primera transición entrante en la lista, y después, si no se ha alcanzado el máximo, se toman de la población de la segunda transición entrante, etc.
 
-   ![](assets/join_limit_nb_priority.png)
+  ![](assets/join_limit_nb_priority.png)
 
 ### Extracción de datos conjuntos (intersección) {#extract-joint-data--intersection-}
 
@@ -250,15 +250,15 @@ Una vez identificados y preparados los datos, se pueden utilizar en los siguient
 
 * Se pueden actualizar los datos en la base de datos después de la manipulación de los mismos en las distintas fases del flujo de trabajo.
 
-   Para obtener más información sobre esto, [Actualice los datos](update-data.md).
+  Para obtener más información sobre esto, [Actualice los datos](update-data.md).
 
 * También puede actualizar el contenido de listas existentes.
 
-   Para obtener más información, consulte [Actualizar lista](list-update.md).
+  Para obtener más información, consulte [Actualizar lista](list-update.md).
 
 * Se pueden preparar o iniciar entregas directamente en el flujo de trabajo.
 
-   Para obtener más información sobre esto, consulte [Entrega](delivery.md), [Control de entrega](delivery-control.md) y [Entrega continua](continuous-delivery.md).
+  Para obtener más información sobre esto, consulte [Entrega](delivery.md), [Control de entrega](delivery-control.md) y [Entrega continua](continuous-delivery.md).
 
 ## Administración de datos {#data-management}
 

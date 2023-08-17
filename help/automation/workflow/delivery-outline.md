@@ -32,7 +32,7 @@ La actividad **Descripción de entrega**, disponible en los flujos de trabajo de
 
    * Si desea acceder al motor de oferta, marque la casilla **[!UICONTROL Restrict the number of propositions selected]**. Especifique el espacio de oferta y el número de propuestas que se presentarán en la entrega.
 
-      El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
+     El motor de oferta tendrá en cuenta las normas de idoneidad y las consideraciones de oferta.
 
    * Si no selecciona la casilla, todas las ofertas del esquema de entrega se presentarán sin recurrir al motor de oferta.
 
