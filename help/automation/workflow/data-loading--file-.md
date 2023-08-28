@@ -4,10 +4,10 @@ title: Carga de datos (archivos)
 description: Descubra más información sobre la actividad del flujo de trabajo Carga de datos (archivos)
 feature: Workflows, Data Management Activity
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: cf88140d1e8b71203729732163f66060423965a0
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 100%
+source-wordcount: '1037'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +32,10 @@ La sección superior de la ventana de configuración de esta actividad permite d
 Puede definir un proceso previo para que se ejecute durante la importación de archivos, por ejemplo, para que no tenga que descomprimir el archivo en el servidor (y, por lo tanto, ahorrar espacio para el archivo descomprimido), y para incluir la descompresión en el procesamiento de archivos. Seleccione la opción **[!UICONTROL Pre-process the file]** y elija una de las 3 opciones: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) o **[!UICONTROL Decrypt]** (gpg).
 
 ![](assets/preprocessing-dataloading.png)
+
+>[!IMPORTANT]
+>
+>No puede descomprimir archivos comprimidos de más de 4 Gb.
 
 ## Definición del formato del archivo {#defining-the-file-format}
 
