@@ -5,16 +5,16 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: b0150b38b50b04c08b10ed73b3be3064a09d7b88
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 34%
+source-wordcount: '448'
+ht-degree: 33%
 
 ---
 
 # Administración de suscripciones y bajas{#optin-optout}
 
-Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como los boletines informativos, y para gestionar las suscripciones o bajas de suscripción a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real. Consulte Administración de suscripciones.
+Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como los boletines informativos, y para gestionar las suscripciones o bajas de suscripción a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real.
 
 ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo crear un servicio informativo, enviar una newsletter y administrar la inclusión y la exclusión en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
 
