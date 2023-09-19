@@ -3,9 +3,9 @@ title: Migración de la infraestructura de envío de Campaign a Amazon Web Servi
 description: Migración de la infraestructura de envío de Campaign a Amazon Web Service (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 3a8fd0a0c721d03f1818dce45b58a841284bbb00
+source-git-commit: f1b4002063c8b94eb7251a9bcde9fe11791d0be3
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '401'
 ht-degree: 5%
 
 ---
@@ -60,7 +60,7 @@ Este movimiento será transparente para los clientes:
 
 * **¿El cliente requiere alguna acción para la migración?**
 
-  No se requiere ninguna acción, ya que la migración se ejecutará automáticamente por Adobe.
+  No se requiere ninguna acción, ya que la migración se ejecutará automáticamente mediante Adobe.
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
