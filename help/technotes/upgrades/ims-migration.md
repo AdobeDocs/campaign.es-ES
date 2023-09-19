@@ -1,7 +1,7 @@
 ---
 title: Migración de usuarios técnicos a la consola de Adobe Developer
 description: Obtenga información sobre cómo migrar los operadores técnicos de Campaign a la cuenta técnica en la consola de Adobe Developer
-source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
+source-git-commit: 43a124dd64532ffe84ca2b300113cacc545a811a
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 1%
@@ -190,7 +190,7 @@ Después de la migración de toda la integración de API/código personalizado c
 
 Una vez completado y validado el proceso de migración, las llamadas Soap se actualizan de la siguiente manera:
 
-* Antes de la migración: no se admitía el token de acceso a la cuenta técnica.
+* Antes de la migración: no se admitía el token de acceso de la cuenta técnica.
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
