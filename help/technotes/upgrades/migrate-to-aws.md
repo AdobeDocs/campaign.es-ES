@@ -3,9 +3,9 @@ title: Migración de la infraestructura de envío de Campaign a Amazon Web Servi
 description: Migración de la infraestructura de envío de Campaign a Amazon Web Service (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 53080e3641e0070b0b6e47d1ec8b55b4c7aa2b1a
+source-git-commit: 557d61e0e015fa955b70858d614e476febd467cb
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '401'
 ht-degree: 5%
 
 ---
@@ -21,7 +21,11 @@ Este movimiento garantizará una alta disponibilidad, un rendimiento óptimo y l
 
 ## ¿Se ha visto afectado?{#aws-impact}
 
-Como cliente de la versión 8 o como cliente de la versión 7 alojado, híbrido o de Managed Services Campaign, se ve afectado.
+Este cambio afecta a:
+
+* Clientes alojados e híbridos de Campaign Classic v7
+* Clientes de Campaign Managed Services
+* Todos los clientes de la versión 8 de Campaign
 
 ## ¿Cuándo se producirá esta migración?{#aws-timeline}
 
@@ -29,21 +33,43 @@ La migración de los entornos de desarrollo y ensayo se producirá en **Octubre 
 
 La migración de los entornos de producción está programada para empezar en **Enero de 2024**. Se proporcionarán más detalles a medida que se aproxime la fecha.
 
-Como cliente de Campaign, recibirá una notificación adicional a medida que se programen las olas de migración. Las notificaciones se enviarán al menos siete días antes de la migración.
+Como cliente de Campaign, recibirá una notificación adicional a medida que se programen las olas de migración. Las notificaciones se enviarán al menos 7 días antes de la migración para los entornos de ensayo y al menos 30 días antes de la migración para los entornos de producción.
 
 ## ¿Cuáles son las consecuencias?{#impact}
 
 Este movimiento será transparente para los clientes:
 
-* El envío de direcciones IP y la versión de compilación de Campaign seguirán siendo los mismos que antes del movimiento.
+* Se espera que la migración tarde entre 30 y 60 minutos.
 
-* Durante la ventana de migración, las instancias de Campaign no podrán enviar correos electrónicos. Ninguna otra función de Campaign se verá afectada.
-
-* Cualquier correo en cola para su envío antes de la ventana de mantenimiento debe reenviarse.
-
->[!NOTE]
->
->Si tiene alguna pregunta acerca de esta migración, póngase en contacto con su representante de Adobe o contacte con [Adobe del Servicio de atención al cliente](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html).
->
+* Las instancias de Campaign no podrán enviar correos electrónicos durante la ventana de migración. Ninguna otra función de Campaign se verá afectada.
 
 
+## Preguntas frecuentes {#aws-faq}
+
+* **¿Por qué es una actualización obligatoria?**
+
+  La nueva infraestructura de envío de Campaign alojada en Adobe Web Services (AWS) ofrece mejor calidad y fiabilidad a nuestros clientes. También proporciona una infraestructura sólida y moderna para garantizar una mejor disponibilidad y un rendimiento óptimo.
+
+* **¿Qué clientes son los destinatarios de esta migración?**
+
+  Se migrarán todos los entornos de los clientes de Campaign v8 y de Campaign Classic v7 hybrid, alojados y Campaign Managed Services.
+
+* **¿Cuál es el tiempo de inactividad esperado?**
+
+  El tiempo de inactividad esperado es de entre 30 y 60 minutos.
+
+* **¿El cliente requiere alguna acción para la migración?**
+
+  No se requiere ninguna acción, ya que la migración se ejecutará automáticamente por Adobe.
+
+* **¿Qué validaciones deben ejecutar los clientes?**
+
+  No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, póngase en contacto con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+
+
+* **¿Puedo solicitar un cambio de fecha y hora en el intervalo de actualización de seguridad programado?**
+
+  Dado que se trata de una migración obligatoria, le recomendamos encarecidamente que se adapte a la programación existente.
+
+
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
