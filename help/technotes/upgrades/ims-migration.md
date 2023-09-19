@@ -1,9 +1,9 @@
 ---
 title: Migración de usuarios técnicos a la consola de Adobe Developer
 description: Obtenga información sobre cómo migrar los operadores técnicos de Campaign a la cuenta técnica en la consola de Adobe Developer
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 825e8147f6080e1d943184c97c4b64ac681f9411
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '919'
 ht-degree: 1%
 
 ---
@@ -26,6 +26,16 @@ Este cambio es aplicable a partir de la versión 8.5 de Campaign y será **oblig
 Si utiliza las API de Campaign, debe migrar los operadores técnicos a la consola de Adobe Developer como se detalla a continuación.
 
 ## ¿Cómo realizar la migración?{#ims-migration-procedure}
+
+Cada operador técnico debe tener al menos una cuenta técnica.
+
+Los pasos clave son los siguientes:
+
+1. En primer lugar, cree la cuenta técnica correspondiente al operador técnico. Por ejemplo, supongamos que la cuenta técnica recién creada (TA1) para el operador técnico (TO1).
+1. Ejecute los pasos detallados a continuación en la cuenta técnica TA1
+   [Paso 4](#ims-migration-step-4) es opcional y solo es necesario si el operador técnico tiene permisos de carpeta específicos.
+1. Migre toda la implementación de la integración de la API de Campaign a la cuenta técnica TA1 recién creada.
+1. Una vez que todos los clientes de API/integración empiecen a funcionar completamente en TA1, sustituya el operador técnico TO1 por la cuenta técnica TA1.
 
 ### Requisitos previos{#ims-migration-prerequisites}
 
@@ -61,7 +71,6 @@ Ahora puede añadir el perfil de producto de Campaign al proyecto, como se detal
 1. Vaya a la **Detalles de credenciales** del proyecto y copie la pestaña **Correo electrónico de cuenta técnica** valor.
 
 ### Paso 4: Actualización del operador técnico en la consola del cliente {#ims-migration-step-4}
-
 
 Este paso solo es necesario si se han definido permisos de carpeta específicos o derechos asignados para este operador (no a través del grupo del operador).
 
@@ -181,7 +190,7 @@ Después de la migración de toda la integración de API/código personalizado c
 
 Una vez completado y validado el proceso de migración, las llamadas Soap se actualizan de la siguiente manera:
 
-* Antes de la migración
+* Antes de la migración: no se admitía el token de acceso a la cuenta técnica.
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
@@ -204,7 +213,7 @@ Una vez completado y validado el proceso de migración, las llamadas Soap se act
   </soapenv:Envelope>
   ```
 
-* Después de la migración
+* Después de la migración: no se admite el token de acceso de la cuenta técnica. Se espera que el token de acceso se proporcione en `Authorization` encabezado como token de portador. El uso del token de sesión debe ignorarse aquí, como se muestra en el siguiente ejemplo de llamada soap.
 
   ```sql
   POST /nl/jsp/soaprouter.jsp HTTP/1.1
