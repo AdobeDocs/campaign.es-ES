@@ -3,10 +3,10 @@ title: Migración de la infraestructura de envío de Campaign a Amazon Web Servi
 description: Migración de la infraestructura de envío de Campaign a Amazon Web Service (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 15beb6e4aae7a00b245277bcb4c6c60c13b22884
+source-git-commit: 9401e3564b53b920dd6a640ca6d00531992a2f21
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 6%
+source-wordcount: '481'
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Como cliente de Campaign, recibirá una notificación adicional a medida que se 
 
 Este movimiento será transparente para los clientes:
 
-* Se espera que la migración tarde entre 30 y 60 minutos.
+* La longitud de cada ola de migración puede variar según el número de instancias de Campaign afectadas. Cuando se programa una ola de migración, la notificación incluirá la duración esperada.
 
 * Las instancias de Campaign no podrán enviar correos electrónicos durante la ventana de migración. Ninguna otra función de Campaign se verá afectada.
 
@@ -59,7 +59,7 @@ Este movimiento será transparente para los clientes:
 
 * **¿Cuál es el tiempo de inactividad esperado?**
 
-  El tiempo de inactividad esperado es de entre 30 y 60 minutos.
+  Se espera que la migración tarde entre 30 y 60 minutos, pero la longitud de cada ola de migración puede variar según el número de instancias de Campaign afectadas. Cuando se programa una ola de migración, la notificación incluirá la duración esperada.
 
 * **¿El cliente requiere alguna acción para la migración?**
 
@@ -72,7 +72,6 @@ Este movimiento será transparente para los clientes:
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo de actualización de seguridad programado?**
 
-  Dado que se trata de una migración obligatoria, le recomendamos encarecidamente que se adapte a la programación existente.
-
+  Dado que se trata de una migración obligatoria, no podemos admitir modificaciones en la programación existente.
 
 Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
