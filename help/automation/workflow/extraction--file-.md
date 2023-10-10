@@ -3,8 +3,9 @@ product: campaign
 title: Extracción de datos (archivo)
 description: Descubra más información sobre la actividad del flujo de trabajo Extracción de datos (archivo).
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 100%

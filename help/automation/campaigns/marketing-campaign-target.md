@@ -3,8 +3,9 @@ product: campaign
 title: Audiencia objetivo de la campaña de marketing
 description: Aprenda a definir la audiencia de las campañas de marketing
 feature: Campaigns, Audiences
+role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 82%
@@ -159,7 +160,7 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
 * Interrupción incondicional
 
-  En el explorador, seleccione **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** para acceder y utilizar cada flujo de trabajo de campaña.
+  En Explorer, seleccione **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** para acceder y utilizar cada flujo de trabajo de campaña.
 
   Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción finaliza el flujo de trabajo de la campaña.
 

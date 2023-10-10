@@ -3,8 +3,9 @@ product: campaign
 title: Descripción de la entrega
 description: Descubra más información sobre la actividad del flujo de trabajo Descripción de la entrega
 feature: Workflows, Targeting Activity
+role: User
 exl-id: 3c06b329-b2d8-4ac8-ab9b-3ab3e525d109
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
 ht-degree: 100%

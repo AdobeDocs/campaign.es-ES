@@ -2,8 +2,9 @@
 title: Cálculo de métricas de informes integradas
 description: Cálculo de métricas de informes integradas
 feature: Reporting
+role: Data Engineer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '2978'
 ht-degree: 99%
@@ -915,7 +916,7 @@ El indicador **Enviado** (@sent), al que se accede a través de **Envíos (nms:d
 
 ## Sincronización de indicadores {#indicator-synchronization}
 
-Si observa desincronizaciones o incoherencia en determinados indicadores, seleccione la entrega en el explorador de Adobe Campaign, haga clic con el botón derecho y elija **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Haga clic en **[!UICONTROL Next]**, luego en **[!UICONTROL Finish]**.
+Si observa desincronizaciones o incoherencia en determinados indicadores, seleccione la entrega en Adobe Campaign Explorer, haga clic con el botón derecho y elija **[!UICONTROL Action>Recompute delivery and tracking indicators]**. Haga clic en **[!UICONTROL Next]**, luego en **[!UICONTROL Finish]**.
 
 ## Aperturas de seguimiento {#tracking-opens-}
 

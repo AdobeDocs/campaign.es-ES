@@ -3,11 +3,12 @@ product: campaign
 title: Carga de datos (archivos)
 description: Descubra más información sobre la actividad del flujo de trabajo Carga de datos (archivos)
 feature: Workflows, Data Management Activity
+role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: cf88140d1e8b71203729732163f66060423965a0
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +36,7 @@ Puede definir un proceso previo para que se ejecute durante la importación de a
 
 >[!IMPORTANT]
 >
->No puede descomprimir archivos comprimidos de más de 4 Gb.
+>No puede descomprimir archivos comprimidos de más de 4 Gb.
 
 ## Definición del formato del archivo {#defining-the-file-format}
 

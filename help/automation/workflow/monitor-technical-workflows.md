@@ -3,11 +3,12 @@ product: campaign
 title: Monitorización de flujos de trabajo técnicos
 description: Monitorización de flujos de trabajo técnicos
 feature: Workflows
+role: Admin
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 95%
+ht-degree: 89%
 
 ---
 
@@ -35,15 +36,15 @@ Dependiendo del flujo de trabajo técnico, siga los pasos detallados a continuac
 
 Para comprender mejor qué debe hacer cada flujo de trabajo técnico, consulte esta [sección](technical-workflows.md).
 
-En el caso de **[!UICONTROL Database Cleanup workflow (‘cleanup’)]**:
+En el caso de **[!UICONTROL Database Cleanup workflow ('cleanup')]**:
 
 Compruebe el historial para comprobar que el tiempo transcurrido es relativamente constante en el tiempo y no interfiere con otros flujos de trabajo.
 
-En el caso de **[!UICONTROL Tracking workflow (‘tracking’)]**:
+En el caso de **[!UICONTROL Tracking workflow ('tracking')]**:
 
 Compruebe que el flujo de trabajo de seguimiento se ejecute como está planificado (cada hora de forma predeterminada) y que el historial no destaque errores recurrentes. Para obtener más información, consulte [esta sección](delivery.md).
 
-En el caso de **[!UICONTROL Deliverability update (‘deliverabilityUpdate’)]**:
+En el caso de **[!UICONTROL Deliverability update ('deliverabilityUpdate')]**:
 
 1. Compruebe que el flujo de trabajo **[!UICONTROL Deliverability update]** se ejecuta y finaliza correctamente todos los días.
 1. Compruebe en el historial que las reglas se actualizan regularmente.
@@ -63,7 +64,7 @@ Se debe generar una alerta y enviarla al grupo correcto en caso de problemas.
 
 Asegúrese de que cada operador tiene una dirección de correo electrónico válida.
 
-Cualquier flujo de trabajo que se ejecute para mantener la plataforma en funcionamiento, como las importaciones diarias de datos, debe declararse como “Producción” (casilla de verificación) y aparecer en negrita.
+Cualquier flujo de trabajo que se ejecute para mantener la plataforma en funcionamiento, como las importaciones diarias de datos, debe declararse como &quot;Producción&quot; (casilla de verificación) y aparecer en negrita.
 
 ## Lista de mantenimiento del flujo de trabajo {#workflow-maintenance-list}
 

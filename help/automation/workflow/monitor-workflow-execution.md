@@ -3,8 +3,9 @@ product: campaign
 title: Monitorización de la ejecución del flujo de trabajo
 description: Monitorización de la ejecución del flujo de trabajo
 feature: Workflows
+role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1935'
 ht-degree: 94%
@@ -107,7 +108,7 @@ Cuando se produce un error, el flujo de trabajo se detiene y la actividad que se
 
 ![](assets/wf-global-view_filter_only_errors.png)
 
-En el explorador de Adobe Campaign, la lista de flujos de trabajo muestra una columna **[!UICONTROL Failed]** de forma predeterminada.
+En Adobe Campaign Explorer, la lista de flujos de trabajo muestra una columna **[!UICONTROL Failed]** de forma predeterminada.
 
 ![](assets/wf-explorer_errors_col.png)
 

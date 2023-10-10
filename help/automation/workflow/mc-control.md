@@ -3,7 +3,8 @@ product: campaign
 title: Centro de mensajes (Control)
 description: Centro de mensajes (Control)
 feature: Workflows
-source-git-commit: 72467caf94e652ede70c00f1ea413012fc4c7e1f
+role: User
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '129'
 ht-degree: 100%

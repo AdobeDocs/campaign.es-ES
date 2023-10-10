@@ -2,8 +2,9 @@
 title: Informes globales de Adobe Campaign
 description: Obtenga información sobre cómo acceder y utilizar informes globales
 feature: Reporting, Monitoring
+role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1763'
 ht-degree: 96%
@@ -252,7 +253,7 @@ Este informe permite monitorizar las suscripciones a los servicios de informaci�
 
 ![](assets/service-report.png)
 
-Se puede visualizar para una suscripción haciendo clic en el nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** de la página principal o del explorador. Seleccione la suscripción deseada y, a continuación, haga clic en la pestaña **[!UICONTROL Reports]**. El informe **[!UICONTROL Subscriptions tracking]** está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de fidelidad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Haga clic en **[!UICONTROL Refresh]** para validar la configuración seleccionada.
+Se puede visualizar para una suscripción haciendo clic en el nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** de la página principal o de Explorer. Seleccione la suscripción deseada y, a continuación, haga clic en la pestaña **[!UICONTROL Reports]**. El informe **[!UICONTROL Subscriptions tracking]** está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de fidelidad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Haga clic en **[!UICONTROL Refresh]** para validar la configuración seleccionada.
 
 Para obtener más información, consulte [esta página](../start/subscriptions.md).
 

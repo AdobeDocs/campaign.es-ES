@@ -2,8 +2,9 @@
 product: campaign
 title: Flujos de trabajo Reglamento de protección de datos de privacidad
 description: Descubra más información sobre los flujos de trabajo Reglamento de protección de datos de privacidad
+role: User
 feature: Workflows, Privacy
-source-git-commit: ac4d0d0c16f429ca0948a3c3257558c46700baeb
+source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
