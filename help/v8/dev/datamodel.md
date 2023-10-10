@@ -5,10 +5,10 @@ feature: Data Model
 role: Data Engineer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 87e56e7c296884458a0c8fd704b82611f56e695d
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 6%
+source-wordcount: '713'
+ht-degree: 5%
 
 ---
 
@@ -18,19 +18,19 @@ Adobe Campaign viene con un modelo de datos predefinido. En esta sección se pro
 
 La estructura básica del modelo de datos de Adobe Campaign se puede describir de la siguiente manera:
 
-* **Tabla de destinatarios**: el modelo de datos se basa en una tabla principal que es de forma predeterminada la tabla de destinatario (nmsRecipient). Esta tabla almacena todos los perfiles de marketing.
+* **Tabla de destinatarios**: el modelo de datos se basa en una tabla principal que es de forma predeterminada la tabla de destinatarios (**nmsRecipient**). Esta tabla almacena todos los perfiles de marketing. Obtenga más información sobre la tabla de destinatarios en [esta sección](#ootb-profiles).
 
-  ![](../assets/do-not-localize/glass.png) Para obtener más información sobre la tabla de destinatarios, consulte [esta sección](#ootb-profiles).
-
-* **Tabla de envío**: el modelo de datos también incluye una parte dedicada a almacenar todas las actividades de marketing. Normalmente es la tabla Delivery (NmsDelivery). Cada registro de esta tabla representa una acción de envío o una plantilla de envío. Contiene todos los parámetros necesarios para realizar envíos como destinatario, contenido, etc.
+* **Tabla de envío**: Esta tabla almacena un registro por acción de envío. Normalmente es la tabla de envío (**NmsDelivery**). en esta tabla representa una acción de envío o una plantilla de envío. Contiene todos los parámetros necesarios para realizar envíos como destinatario, contenido, etc. Cada registro se actualiza varias veces para reflejar el progreso de la entrega
 
 * **Tablas de registros**: Estas tablas almacenan todos los registros asociados con la ejecución de las campañas.
 
-  Los &quot;logs&quot; de entrega son todos los mensajes enviados a los destinatarios o dispositivos a través de todos los canales. La tabla principal de registros de entregas (NmsBroadLogRcp) contiene los registros de entregas de todos los destinatarios.
-La tabla principal de registros de seguimiento (NmsTrackingLogRcp) almacena los registros de seguimiento de todos los destinatarios. Los registros de seguimiento hacen referencia a reacciones de los destinatarios, como aperturas de correos electrónicos y clics. Cada reacción corresponde a un registro de seguimiento.
-Los registros de envío y los registros de seguimiento se eliminan después de un período determinado, que se especifica en Adobe Campaign y se puede modificar. Por lo tanto, es muy recomendable exportar los registros de forma regular.
+   * Los &quot;logs&quot; de entrega son todos los mensajes enviados a los destinatarios o dispositivos a través de todos los canales. La tabla principal de registros de envío (**NmsBroadLogRcp**) contiene los registros de envío de todos los destinatarios.
+   * El **nmsBroadlog** es la tabla más grande del sistema. Almacena un registro por mensaje enviado y estos registros se insertan, actualizan para rastrear el estado de envío y se eliminan cuando se purga el historial.
+   * La tabla principal de registros de seguimiento (**NmsTrackingLogRcp**) almacena los registros de seguimiento de todos los destinatarios. Los registros de seguimiento hacen referencia a reacciones de los destinatarios, como aperturas de correos electrónicos y clics. Cada reacción corresponde a un registro de seguimiento.
 
-* **Tablas técnicas**: recopile datos técnicos utilizados para el proceso aplicativo, incluidos operadores y derechos de usuario (xtkGroup) y carpetas (XtkFolder).
+  Los registros de envío y los registros de seguimiento se eliminan después de un período determinado, que se especifica en Adobe Campaign y se puede modificar. Por lo tanto, es muy recomendable exportar los registros de forma regular.
+
+* **Tablas técnicas**: Recopilar datos técnicos utilizados para el proceso aplicativo, incluidos los operadores y los derechos de usuario (**xtkGroup**), sesiones de usuario (**xtkSessionInfo**), carpetas en el árbol del explorador (**XtkFolder**), flujos de trabajo (**xtkWorkflow**), y más.
 
 >[!NOTE]
 >
