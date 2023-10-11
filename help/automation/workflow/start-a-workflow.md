@@ -3,15 +3,16 @@ product: campaign
 title: Inicio de un flujo de trabajo
 description: Obtenga información sobre cómo iniciar un flujo de trabajo y descubra acciones de flujos de trabajo en la barra de herramientas y el menú que aparece al hacer clic con el botón derecho
 feature: Workflows
+role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 97%
+source-wordcount: '1065'
+ht-degree: 96%
 
 ---
 
-# Inicio de un flujo de trabajo {#starting-a-workflow}
+# Iniciar, pausar y detener un flujo de trabajo {#starting-a-workflow}
 
 Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](scheduler.md)) o una planificación de actividad.
 
@@ -49,6 +50,14 @@ El **[!UICONTROL Actions]** de la barra de herramientas permite acceder a opcion
   >
   >La detención de un flujo de trabajo es un proceso asíncrono: la solicitud se registra y, después, el servidor o los servidores de flujo de trabajo cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de detención y no realice varias solicitudes en el mismo flujo de trabajo.
 
+* **[!UICONTROL Unconditional stop]**
+
+  Esta opción cambia el estado del flujo de trabajo a **[!UICONTROL Finished]**. Esta acción debe utilizarse únicamente como último recurso si el proceso de detención normal falla tras varios minutos. Utilice únicamente la detención incondicional si está seguro de que no hay tareas de trabajos de flujo en curso.
+
+  >[!CAUTION]
+  >
+  >Esta opción se reserva para usuarios expertos.
+
 * **[!UICONTROL Restart]**
 
   Esta acción detiene y reinicia el flujo de trabajo. En la mayoría de los casos, es posible reiniciarlo más rápido. También resulta útil automatizar el reinicio cuando la detención lleva una determinada cantidad de tiempo: esto sucede porque el comando “Detener” no está disponible cuando el flujo de trabajo se detiene.
@@ -65,17 +74,31 @@ El **[!UICONTROL Actions]** de la barra de herramientas permite acceder a opcion
 
   Esta acción le permite iniciar todas las tareas pendientes lo antes posible. Para iniciar una tarea específica, haga clic con el botón derecho en su actividad y seleccione **[!UICONTROL Execute pending task(s) now]**.
 
-* **[!UICONTROL Unconditional stop]**
-
-  Esta opción cambia el estado del flujo de trabajo a **[!UICONTROL Finished]**. Esta acción debe utilizarse únicamente como último recurso si el proceso de detención normal falla tras varios minutos. Utilice únicamente la detención incondicional si está seguro de que no hay tareas de trabajos de flujo en curso.
-
-  >[!CAUTION]
-  >
-  >Esta opción se reserva para usuarios expertos.
 
 * **[!UICONTROL Save as template]**
 
   Esta acción crea una nueva plantilla de flujo de trabajo basada en el flujo de trabajo seleccionado. Debe especificar la carpeta donde desea que se guarde (en el campo **[!UICONTROL Folder]**).
+
+
+## Prácticas recomendadas de ejecución de flujo de trabajo {#workflow-execution-best-practices}
+
+Mejore la estabilidad de las instancias mediante la implementación de las siguientes prácticas recomendadas:
+
+* **No programe un flujo de trabajo para que se ejecute con una frecuencia superior a 15 minutos**, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
+
+* **Asimismo, evite dejar los flujos de trabajo en estado pausado**. Si crea un flujo de trabajo temporal, asegúrese de que este pueda terminar correctamente y no permanecer en estado **[!UICONTROL paused]**. Si está en pausa, eso implica que necesita mantener las tablas temporales y, por lo tanto, aumentar el tamaño de la base de datos. Asigne supervisores de flujo de trabajo en Workflow Properties para enviar una alerta cuando un flujo de trabajo falle o el sistema lo ponga en pausa.
+
+  Para evitar tener flujos de trabajo en estado pausado:
+
+   * Consulte los flujos de trabajo regularmente para garantizar que no hay errores inesperados.
+   * Mantenga los flujos de trabajo tan sencillos como sea posible, por ejemplo, dividiendo los flujos de trabajo grandes en distintos flujos de trabajo. Puede utilizar las actividades **[!UICONTROL External signal]** impulsando la ejecución en función de la ejecución de otros flujos de trabajo.
+   * Evite tener actividades desactivadas con flujos en los flujos de trabajo, dejando los subprocesos abiertos y generando que muchas tablas temporales puedan consumir mucho espacio. Evite mantener las actividades en estados **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** en los flujos de trabajo.
+
+* **Detenga los flujos de trabajo no utilizados**. Los flujos de trabajo que siguen ejecutándose mantienen conexiones con la base de datos.
+
+* **Solo se debe utilizar la detención incondicional en los casos más inusuales**. Evite utilizar esta acción de forma regular. El no realizar un cierre limpio de las conexiones generadas por los flujos de trabajo a la base de datos afecta al rendimiento.
+
+* **No realice varias solicitudes de detención en el mismo flujo de trabajo**. La detención de un flujo de trabajo es un proceso asíncrono: la solicitud se registra y, después, el servidor o los servidores de flujo de trabajo cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de parada y evite detener un flujo de trabajo varias veces.
 
 ## Menú del botón derecho {#right-click-menu}
 
