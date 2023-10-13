@@ -5,14 +5,14 @@ feature: API
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 9c7a4f7d4e84fde4b74bf6f8e0432681aa7e42d3
+source-git-commit: 4c2d3bba282f629a9f5cadcda9ab79a810ac9832
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 13%
 
 ---
 
-# Introducción a [!DNL Campaign] API{#gs-ac-api}
+# Introducción a [!DNL Campaign] API {#gs-ac-api}
 
 [!DNL Adobe Campaign] viene con un conjunto de funciones de Javascript que puede utilizar:
 
@@ -33,7 +33,7 @@ Tenga en cuenta que en [Implementación empresarial (FDAC)](../architecture/ente
 >* [!DNL Adobe Campaign] v8 viene con un límite en el rendimiento (TPS) de nuestra capa de API. Romper el límite provoca un error HTTP estándar (429). Como usuario de Cloud Service administrados, puede ponerse en contacto con el Adobe de para adaptar la limitación de cada API.
 > 
 
-## Requisitos previos
+## Requisitos previos {#ac-api-prerequisites}
 
 Antes de usar [!DNL Adobe Campaign] API, debe estar familiarizado con los siguientes temas:
 
