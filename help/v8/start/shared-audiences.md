@@ -1,16 +1,16 @@
 ---
 title: Comparta audiencias con soluciones de Adobe Experience Cloud
 description: Descubra cómo compartir audiencias con soluciones de Adobe Experience Cloud
-feature: Subscriptions
+feature: Audiences
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: c4d30771-db5e-40be-8af6-50f0fab9f9af
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '264'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
@@ -36,7 +36,7 @@ Esta integración es compatible con dos tipos de ID de Adobe Experience Cloud:
   >
   > Ahora, la fuente de datos de ID declarado también se puede utilizar con la integración del servicio principal Personas.
   >
-  >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición a la fuente de datos de ID declarado en un contexto de Adobe Audience Manager.
+  >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición al uso de esta fuente de datos de ID declarado en un contexto de Adobe Audience Manager.
 
 Consulte:
 

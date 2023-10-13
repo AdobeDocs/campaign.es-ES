@@ -1,16 +1,16 @@
 ---
 title: Notas de la versión preliminar de Campaign v8
 description: Versión preliminar de Campaign v8
-feature: Overview
+feature: Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 958d2e8acdb9edee74f55bc3ea808f5072bf8f4d
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 20%
+ht-degree: 33%
 
 ---
 
@@ -58,7 +58,7 @@ _30 de junio de 2023_
 
 **Parches**
 
-* Se ha corregido un problema que podía provocar que los caracteres especiales del contenido del HTML de una entrega se codificaran incorrectamente en varios exploradores. (NEO-60081)
+* Se ha corregido un problema que podía provocar que los caracteres especiales del contenido del HTML de un envío se codificaran incorrectamente en varios exploradores. (NEO-60081)
 * Se ha corregido un problema que podía impedir que guardara un informe en una implementación de Campaign v8 Enterprise (FDAC). (NEO-56836)
 * Se ha corregido un problema que se producía al insertar o actualizar datos en un esquema de FDAC personalizado mediante una actividad de flujo de trabajo Actualizar datos. (NEO-54708)
 * Se ha corregido un problema que impedía que el flujo de trabajo de limpieza de la base de datos eliminara direcciones en la tabla nms:address de FDAC. (NEO-54460)
@@ -67,6 +67,6 @@ _30 de junio de 2023_
 * Se ha corregido un problema que impedía el funcionamiento de la función `JSPContext.sqlExecWithOneParam`. (NEO-50066)
 * Se ha corregido un problema que provocaba errores de entrega al utilizar caracteres no imprimibles en campos de personalización. (NEO-48588)
 * Se ha corregido un problema que podría provocar errores de entrega al insertar imágenes dinámicas de Adobe Target. (NEO-62689)
-* Se ha corregido un problema para evitar que los exploradores agregaran espacios adicionales al utilizar contenido condicional en una entrega. (NEO-62132)
+* Se ha corregido un problema para evitar que los exploradores agregaran espacios adicionales al utilizar contenido condicional en un envío. (NEO-62132)
 * Se ha corregido un problema que provocaba que se abriera una ventana emergente al hacer clic en una imagen en el editor de contenido de correo electrónico. (NEO-60752)
-* Se ha corregido un problema que podría provocar un error e impedir que se desplace al editar el contenido de una entrega. (NEO-61364)
+* Se ha corregido un problema que podría provocar un error e impedir que usted se desplace al editar el contenido de un envío. (NEO-61364)

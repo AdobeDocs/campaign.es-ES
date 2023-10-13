@@ -1,14 +1,14 @@
 ---
 title: Notas de la versión de Campaign v8 de 2022
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2022
-feature: Overview
+feature: Release Notes
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
 workflow-type: tm+mt
 source-wordcount: '1839'
-ht-degree: 99%
+ht-degree: 94%
 
 ---
 
