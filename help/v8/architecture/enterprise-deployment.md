@@ -1,18 +1,18 @@
 ---
 title: Introducción a la implementación de FDAC de Campaign
 description: Introducción a la implementación de FDAC de Campaign
-feature: Architecture, FFDA
+feature: Architecture, FFDA, Deployment
 role: Admin, Developer, User
 level: Beginner, Intermediate, Experienced
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 51bba0a2b4be03577f508d352fc7c2b514ba28e5
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1045'
 ht-degree: 54%
 
 ---
 
-# [!DNL Campaign] Implementación de FDAC{#gs-ac-ffda}
+# [!DNL Campaign] Implementación de FDAC {#gs-ac-ffda}
 
 Mediante [[!DNL Snowflake]](https://www.snowflake.com/), una tecnología de base de datos en la nube, la implementación de Adobe Campaign Enterprise Full Federated Access (FDAC) mejora considerablemente su escala y velocidad, con la capacidad de administrar una cantidad más significativa de perfiles de clientes, así como tasas de entrega y transacciones por hora mucho más altas.
 

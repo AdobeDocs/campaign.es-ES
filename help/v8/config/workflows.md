@@ -5,7 +5,7 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: b323dbf9504e39cca78f7082089b864544ee1633
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1570'
 ht-degree: 22%
@@ -25,7 +25,7 @@ Puede configurar lo siguiente:
 * Envío automático de informes
 * Eventos activados
 
-## Diseñar y utilizar flujos de trabajo{#gs-ac-wf}
+## Diseñar y utilizar flujos de trabajo {#gs-ac-wf}
 
 Utilice flujos de trabajo de Adobe Campaign para mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta la entrega.
 

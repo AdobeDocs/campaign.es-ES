@@ -1,18 +1,18 @@
 ---
 title: Formularios de entrada de campaña
 description: Aprenda a personalizar los formularios de entrada
-feature: Web Forms
+feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate, Experienced
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 3%
 
 ---
 
-# Introducción a los formularios de entrada{#gs-ac-forms}
+# Introducción a los formularios de entrada {#gs-ac-forms}
 
 Al crear o ampliar un esquema, debe crear o modificar los formularios de entrada asociados para que los usuarios finales puedan ver esos cambios.
 

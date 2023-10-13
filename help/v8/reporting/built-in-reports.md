@@ -4,14 +4,14 @@ description: Informes integrados
 feature: Reporting
 role: User
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 89%
 
 ---
 
-# Informes integrados de Adobe Campaign{#ootb-reports}
+# Informes integrados de Adobe Campaign {#ootb-reports}
 
 Esta página proporciona la lista de informes integrados de Adobe Campaign, su contenido y su contexto. Adobe Campaign proporciona una serie de informes integrados, accesibles mediante la consola del cliente o un explorador de Internet.
 
