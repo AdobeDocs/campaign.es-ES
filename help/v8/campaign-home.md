@@ -3,16 +3,16 @@ keywords: Campaign Classic;inicio;temas populares
 description: Centro de ayuda de Campaign v8
 title: Documentación del producto de Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: c42dfe96f1f18f1d9eab0a8761c1ea65479962b2
+source-git-commit: 8b1f8fe7f78440f1db1b518f1cca24a898dabddb
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 81%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Documentación de Adobe Campaign v8 {#campaign-documentation}
 
-![](assets/banner-documentationv8.png)
+<!--![](assets/banner-documentationv8.png) -->
 
 ## Novedades
 
