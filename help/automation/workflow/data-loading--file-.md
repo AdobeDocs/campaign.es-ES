@@ -5,10 +5,10 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d946d4a50a4fc13e848b22ee87b02a10b7dfd2ad
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 100%
+source-wordcount: '1060'
+ht-degree: 97%
 
 ---
 
@@ -51,6 +51,10 @@ A continuación, puede modificar el formato general del archivo y el de cada col
 El formato del archivo general permite definir la forma en que se reconocerán las columnas (codificación de archivos, separadores utilizados, etc.).
 
 El formato de columna permite definir el valor de procesamiento de cada columna:
+
+>[!NOTE]
+>
+>Puede añadir tantas columnas como desee. La longitud máxima de los valores de cada columna viene determinada por el tipo de datos elegido.
 
 * **[!UICONTROL Ignore column]**: no se procesa esta columna durante la carga de datos.
 * **[!UICONTROL Data type]**: especifica el tipo de datos esperados para cada columna.
