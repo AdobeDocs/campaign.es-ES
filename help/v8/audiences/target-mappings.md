@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
-source-git-commit: db27abf860b0744a4120166c68e2cc2ae8a3d172
+source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 39%
+source-wordcount: '379'
+ht-degree: 38%
 
 ---
 
@@ -32,6 +32,8 @@ Adobe Campaign viene con las siguientes asignaciones de destino integradas:
 | Suscripciones de visitantes | Envío a los visitantes que están suscritos a un servicio de información | nms:visitorSub |
 | Operadores | Envío a los operadores de Adobe Campaign | nms:operator |
 | Archivo externo | Envío a través de un archivo que contiene toda la información necesaria para la entrega | No hay ningún esquema vinculado, no se ha introducido ningún destino |
+| Aplicaciones del suscriptor | Envío a destinatarios suscritos a una aplicación | nms:appSubscriptionRcp |
+
 
 ## Creación de una asignación de destino {#new-mapping}
 
