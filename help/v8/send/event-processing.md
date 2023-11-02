@@ -3,9 +3,9 @@ title: Recopilación y procesamiento de eventos
 description: Descubra cómo la mensajería transaccional de Campaign recopila y procesa eventos
 feature: Transactional Messaging
 role: User
-level: Beginner, Intermediate
+level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 56%

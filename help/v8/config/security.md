@@ -3,12 +3,12 @@ title: Prácticas recomendadas de seguridad de Campaign
 description: Introducción a las prácticas recomendadas de seguridad de Campaign
 feature: Privacy, PI
 role: Developer
-level: Beginner, Intermediate, Experienced
+level: Beginner
 exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -37,7 +37,7 @@ La administración del acceso es una parte importante del refuerzo de la segurid
 * Crear suficientes grupos de seguridad
 * Compruebe que cada operador tiene los derechos de acceso adecuados
 
-Más información sobre los permisos en [esta sección](../start/gs-permissions.md)
+Puede obtener más información sobre permisos en [esta sección](../start/gs-permissions.md)
 
 ## Directrices de codificación
 
