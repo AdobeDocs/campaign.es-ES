@@ -1,13 +1,13 @@
 ---
 title: Actualización de la infraestructura de envío de correo electrónico de Campaign
 description: Actualización de la infraestructura de envío de correo electrónico de Campaign
-source-git-commit: 4478c4b4b1eb3697ff03acfcd618ebfb1d875df9
+exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
+source-git-commit: 557a74dbfbd0af385cc5104801ce3ab91dd33a95
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 5%
 
 ---
-
 
 # Actualización de la infraestructura de envío de correo electrónico de Campaign {#migrate-infra-to-aws}
 
@@ -64,4 +64,4 @@ Como cliente de Campaign, recibirá una notificación adicional con respecto a l
 
   No. No podemos ajustar ninguna modificación solicitada a la programación existente, ya que esto probablemente interrumpa el evento de actualización asignado para otro cliente.
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}..
