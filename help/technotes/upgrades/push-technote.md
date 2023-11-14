@@ -4,10 +4,10 @@ title: Próximos cambios del canal de notificaciones push
 description: Próximos cambios del canal de notificaciones push
 hide: true
 hidefromtoc: true
-source-git-commit: 4072421cd8f0f3ab3b15c4a475428a59503aa955
+source-git-commit: 9ff84e523e7de6f1d6bb4e8cd193d19743fcf90c
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 22%
+source-wordcount: '772'
+ht-degree: 21%
 
 ---
 
@@ -69,7 +69,7 @@ Para migrar su entorno a HTTP v1, siga estos pasos en los servidores de Marketin
 
 1. Haga clic en **[!UICONTROL Finish]** y luego en **[!UICONTROL Save]**.
 
-A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push:
+A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push. Estas opciones están detalladas [aquí](#fcm-apps).
 
 | Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
 |:-:|:-:|:-:|
@@ -79,7 +79,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 >[!NOTE]
 >
->El cambio a la API HTTP v1 se aplica a todas las entregas nuevas. Los envíos en reintento, en curso y en uso siguen utilizando la API HTTP (heredada).
+>Una vez aplicados estos cambios en todos los servidores, todos los nuevos envíos de notificaciones push a dispositivos Android utilizan la API HTTP v1. Los envíos push existentes en reintento, en curso y en uso siguen utilizando la API HTTP (heredada).
 
 ### ¿Cuál es el impacto para mis aplicaciones de Android? {#fcm-apps}
 
@@ -89,6 +89,7 @@ Sin embargo, con HTTP v1, puede personalizar aún más la notificación push con
 
 ![](assets/android-push-additional-options.png)
 
+Puede hacer lo siguiente:
 
 * Utilice el **[!UICONTROL Ticker]** para establecer el texto del valor de la notificación.
 * Utilice el **[!UICONTROL Image]** para establecer la dirección URL de la imagen que se mostrará en la notificación.
