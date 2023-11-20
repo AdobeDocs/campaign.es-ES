@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 63%
+source-wordcount: '1170'
+ht-degree: 57%
 
 ---
 
@@ -158,6 +158,18 @@ Para enviar la prueba:
 Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UICONTROL Audit]**.
 
 ![](assets/messagecenter_send_proof_003.png)
+
+#### Transición desde [!DNL Campaign Classic] v7
+
+Si es usted [transición desde Campaign Classic v7](../start/v7-to-v8.md), todos los envíos pasan al servidor intermediario.
+
+Sin embargo, al crear una plantilla de mensaje transaccional, el enrutamiento necesario para que la plantilla se utilice correctamente es **envío de correo electrónico interno**. Este enrutamiento evita que envíe pruebas.
+
+Por lo tanto, para enviar una prueba para la plantilla de mensaje transaccional, debe cambiar el enrutamiento de envío de correo electrónico interno a **cuenta de enrutamiento intermediaria**.
+
+![](assets/messagecenter_send_proof_004.png)
+
+Una vez enviadas las pruebas, debe cambiar el enrutamiento de nuevo a envío de correo electrónico interno antes de publicar la plantilla de mensaje transaccional.
 
 ## Publicación de la plantilla {#publish-message-template}
 
