@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 93%
+source-wordcount: '694'
+ht-degree: 92%
 
 ---
 
@@ -37,7 +37,9 @@ La nueva oferta combina los mejores servicios con supervisión proactiva y alert
 
 Como antiguo usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría de las funciones de la versión 7 de [!DNL Campaign Classic] están disponibles en la versión 8 de [!DNL Campaign], excepto un pequeño conjunto de ellas, que se enumeran en [esta sección](#gs-removed).
 
-La versión 8 de Campaign se basa en una **arquitectura híbrida**. Si está realizando la transición desde la versión 7 de Campaign Classic, tenga en cuenta que todos los envíos pasan al servidor intermediario. Como consecuencia, el enrutamiento interno **no es posible** en la versión 8 de Campaign, y la cuenta externa se ha deshabilitado en consecuencia. [Más información](../architecture/architecture.md).
+La versión 8 de Campaign se basa en una **arquitectura híbrida**. Si está realizando la transición desde la versión 7 de Campaign Classic, tenga en cuenta que todos los envíos pasan al servidor intermediario. Como consecuencia, el enrutamiento interno **no es posible** en la versión 8 de Campaign, y la cuenta externa se ha deshabilitado en consecuencia.
+
+![](../assets/do-not-localize/glass.png) Obtenga más información acerca del envío de pruebas de mensajes transaccionales al realizar la transición de v7 en [esta página](../send/transactional-template.md#transition-from-v7).
 
 >[!NOTE]
 >

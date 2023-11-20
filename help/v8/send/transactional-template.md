@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 555e1d64ada12dc145fbba9124611e30d7746ba5
+source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
 workflow-type: tm+mt
 source-wordcount: '1170'
 ht-degree: 57%
@@ -130,7 +130,7 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
    ![](assets/messagecenter_create_seed_7.png)
 
-### Envío de una prueba
+### Envío de una prueba {#send-proof}
 
 Puede probar la entrega de mensajes enviando una prueba a una dirección semilla creada anteriormente.
 
@@ -159,7 +159,7 @@ Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UI
 
 ![](assets/messagecenter_send_proof_003.png)
 
-#### Transición desde [!DNL Campaign Classic] v7
+#### Transición desde [!DNL Campaign Classic] v7 {#transition-from-v7}
 
 Si es usted [transición desde Campaign Classic v7](../start/v7-to-v8.md), todos los envíos pasan al servidor intermediario.
 
