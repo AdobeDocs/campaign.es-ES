@@ -4,10 +4,10 @@ title: Reglas de coherencia
 description: Reglas de coherencia
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
-source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
+source-git-commit: 8247bed87deb3fb19a01447dab180ed9c97ea96c
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 95%
+source-wordcount: '736'
+ht-degree: 93%
 
 ---
 
@@ -97,7 +97,7 @@ Las líneas de disponibilidad solo tienen fines informativos. Para excluir mensa
 
 ![](assets/campaign_opt_create_capacity_04.png)
 
-El número de mensajes que se va a procesar se reparte de forma equitativa durante el intervalo de disponibilidad definido. Esto es especialmente relevante para los centros de llamadas, ya que el número máximo de llamadas al día es limitado. En el caso de las entregas por correo electrónico, la opción **[!UICONTROL Do not limit instantaneous delivery capacity]** permite ignorar este intervalo de disponibilidad y enviar los correos al mismo tiempo.
+El número máximo de mensajes que se pueden procesar se desglosa de forma uniforme en el intervalo de disponibilidad definido. Esto es especialmente relevante para los centros de llamadas, ya que el número máximo de llamadas al día es limitado. En el caso de las entregas por correo electrónico, la opción **[!UICONTROL Do not limit instantaneous delivery capacity]** permite ignorar este intervalo de disponibilidad y enviar los correos al mismo tiempo.
 
 ![](assets/campaign_opt_create_capacity_05.png)
 
