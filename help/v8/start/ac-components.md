@@ -1,18 +1,18 @@
 ---
-title: Comprender los procesos y componentes de Campaign
-description: Comprender los procesos y componentes de Campaign
+title: Comprender los componentes y procesos de Campaign
+description: Comprender los componentes y procesos de Campaign
 feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 1%
 
 ---
 
-# Comprender los procesos y componentes de Campaign {#components-and-processes}
+# Comprender los componentes y procesos de Campaign {#components-and-processes}
 
 Adobe Campaign es una solución de marketing entre canales que automatiza las campañas por correo electrónico, móviles, sociales y sin conexión. Adobe Campaign proporciona un lugar central para acceder a los datos y perfiles de los clientes. Utilice Adobe Campaign para orquestar experiencias coherentes para sus clientes, diseñar, ejecutar y personalizar su marketing a través de canales, a la vez que mejora las experiencias de los clientes en cada dispositivo y punto de contacto. Con Adobe Campaign, puede administrar varias fuentes de datos, definir los segmentos de audiencia y planificar y ejecutar campañas en canales múltiples de varios pasos a través de una interfaz de flujo de trabajo visual de arrastrar y soltar.
 
