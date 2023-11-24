@@ -1,18 +1,18 @@
 ---
 title: Novedades de la versión 8 de Campaign
-description: Descubra las funcionalidades clave de la versión 8 de Adobe Campaign, sus novedades y lo que puede esperar de la última versión.
-feature: Overview, Release Notes
+description: Descubra las funcionalidades clave en Adobe Campaign v8
+feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5c4bbbd06eb7bf6dc9ada1d08c3fc696e88ee760
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 94%
+source-wordcount: '911'
+ht-degree: 92%
 
 ---
 
-# ¿Qué novedades hay en la versión 8 de Adobe Campaign?  {#ac-gs-what-is-new}
+# Funciones clave de Adobe Campaign v8 {#ac-gs-what-is-new}
 
 La versión 8 de Adobe Campaign está diseñada para especialistas en marketing en canales múltiples que necesitan la mejor solución de nube para la administración de campañas en canales múltiples a escala empresarial. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva desde cualquier sistema de TI para tareas como restablecimiento de contraseñas, confirmación de pedidos, recibos electrónicos y mucho más.
 
@@ -52,7 +52,7 @@ Adobe Campaign le ayuda a generar perfiles de clientes a partir de datos recopil
 
 La versión 8 de Adobe Campaign proporciona a los especialistas en marketing las mejores funciones de su clase para planificar, iniciar y medir campañas en todos los canales.
 
-Las funciones incluyen un perfil integrado que proporciona una sola vista del cliente. Administración y segmentación de datos para la creación de audiencias de campaña a escala. Administración de flujos de trabajo multicanal para automatizar campañas de varios canales y de varias ondas. Correo electrónico integrado, reduce la dependencia de los costosos ESP. Creación de informes y análisis para comprender el comportamiento de los clientes y el rendimiento de las campañas.
+Las funciones incluyen un perfil integrado que proporciona una sola vista del cliente. Administración y segmentación de datos para la creación de públicos de campaña a escala. Administración de flujos de trabajo multicanal para automatizar campañas de varios canales y de varias ondas. Correo electrónico integrado, reduce la dependencia de los costosos ESP. Creación de informes y análisis para comprender el comportamiento de los clientes y el rendimiento de las campañas.
 
 ![](../assets/do-not-localize/glass.png)[Obtenga más información acerca de la administración de Campaign](campaigns.md)
 
