@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1089'
 ht-degree: 18%
 
 ---
@@ -97,7 +97,7 @@ En el contexto de los mensajes transaccionales, las instancias de ejecución se 
 
   Las bases de datos externas compatibles con Adobe Campaign v8 se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md)
 
-* **Twitter** - El **Twitter** El tipo de cuenta externa se utiliza para conectar Campaign a la cuenta de twitter y para publicar mensajes en su nombre. Obtenga más información sobre la integración de Twitteres en [esta sección](../connect/ac-tw.md).
+* **X (anteriormente conocido como Twitter)** - El **Twitter** El tipo de cuenta externa se utiliza para conectar Campaign a la cuenta X y publicar mensajes en su nombre. Obtenga más información sobre la integración de X en [esta sección](../connect/ac-tw.md).
 
 ## Adobe Integración de soluciones cuentas externas {#adobe-integration-external-accounts}
 

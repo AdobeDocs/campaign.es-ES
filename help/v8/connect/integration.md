@@ -5,9 +5,9 @@ feature: Overview
 role: Admin, User
 level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '393'
 ht-degree: 11%
 
 ---
@@ -56,14 +56,14 @@ Utilice el conector FDA (Acceso de datos federado) para conectar Campaign a uno 
 
 ## Uso de medios sociales{#gs-social}
 
-Utilice Adobe Campaign para interactuar con clientes y clientes potenciales mediante el Twitter.
+Utilice Adobe Campaign para interactuar con clientes y clientes potenciales mediante X (anteriormente conocido como Twitter).
 
 Puede hacer lo siguiente:
 
 * Envíe mensajes directos a sus seguidores
-* Publica tweets en tu cuenta de Twitter
+* Publica en tu cuenta X
 * Recopilar nuevos contactos
 
-Obtenga información sobre cómo configurar y utilizar la integración de Twitter en [esta página](../connect/ac-tw.md).
+Aprenda a configurar y utilizar la integración de X en [esta página](../connect/ac-tw.md).
 
-Aprenda a crear publicaciones de Twitter y enviar mensajes directos a sus seguidores en [esta página](../send/twitter.md).
+Aprenda a crear publicaciones X y enviar mensajes directos a sus seguidores en [esta página](../send/twitter.md).
