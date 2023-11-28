@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 5c4bbbd06eb7bf6dc9ada1d08c3fc696e88ee760
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 92%
+source-wordcount: '910'
+ht-degree: 90%
 
 ---
 
@@ -82,7 +82,7 @@ Adobe Managed Cloud Service proporciona a los especialistas en marketing una sol
 
 Adobe Campaign ahora puede aprovechar las tecnologías de bases de datos a escala de nube para mejorar considerablemente su escala y velocidad.
 
-[La versión 8 de Campaign Enterprise](../architecture/enterprise-deployment.md) incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos de Cloud. Con esta nueva oferta, la versión 8 de Campaign simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. [!DNL Snowflake] es la base de datos de Campaign Cloud que le proporcionará velocidad y solidez: no hay sobrecarga de los picos de actividad del sistema. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
+[La versión 8 de Campaign Enterprise](../architecture/enterprise-deployment.md) incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos de Cloud. Con esta nueva oferta, la versión 8 de Campaign simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. [!DNL Snowflake] es la base de datos de Campaign Cloud que le aporta velocidad y solidez: no hay sobrecarga de los picos de actividad del sistema. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 
 ![](../assets/do-not-localize/glass.png) [Obtenga más información acerca la implementación de Enterprise (FDAC)](../architecture/enterprise-deployment.md)
 

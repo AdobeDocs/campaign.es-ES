@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 973c799be51226510549290376f129aaeb86f6ab
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 92%
+source-wordcount: '690'
+ht-degree: 86%
 
 ---
 
@@ -47,9 +47,7 @@ La versión 8 de Campaign se basa en una **arquitectura híbrida**. Si está rea
 
 ## [!DNL Campaign] y [!DNL Snowflake] {#ac-gs-snowflake}
 
-La versión 8 de Campaign funciona con [!DNL Snowflake].
-
-En su [implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: una base de datos de [!DNL Campaign] local para la mensajería en tiempo real en la interfaz de usuario y consultas unitarias y escritura a través de API, y una base de datos de [!DNL Snowflake] en la nube para la ejecución de campañas, consultas por lotes y flujos de trabajo.
+En su [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: un local [!DNL Campaign] base de datos para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una nube de [!DNL Snowflake] base de datos para la ejecución de campañas, consultas por lotes y la ejecución del flujo de trabajo.
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FDAC) simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 

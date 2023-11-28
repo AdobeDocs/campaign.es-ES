@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1136'
 ht-degree: 7%
 
 ---
@@ -81,7 +81,7 @@ Otros procesos más técnicos también están disponibles:
 
 ## Contenedores de base de datos {#db-containers}
 
-La base de datos de Adobe Campaign Cloud se basa en [!DNL Snowflake] que contiene los datos funcionales (perfiles, suscripciones, contenido, etc.), los datos técnicos (trabajos de entrega y registros, registros de seguimiento, etc.) y los datos de trabajo (compras, posibles clientes) de la solución, y todos los componentes de Adobe Campaign se comunican con la base de datos para realizar sus tareas específicas.
+En su [Implementación empresarial (FDAC)](enterprise-deployment.md), la base de datos de Adobe Campaign Cloud se basa en [!DNL Snowflake] que contiene los datos funcionales (perfiles, suscripciones, contenido, etc.), los datos técnicos (trabajos de entrega y registros, registros de seguimiento, etc.) y los datos de trabajo (compras, posibles clientes) de la solución, y todos los componentes de Adobe Campaign se comunican con la base de datos para realizar sus tareas específicas.
 
 Puede implementar Adobe Campaign utilizando la base de datos y los esquemas predefinidos y, si es necesario, se puede ampliar este entorno predefinido. Adobe Campaign accede a todos los datos del data mart a través de llamadas SQL. Adobe Campaign también proporciona un complemento completo de herramientas de extracción, transformación y carga (ETL) para importar y exportar datos dentro y fuera del sistema.
 
@@ -96,6 +96,6 @@ Puede implementar Adobe Campaign utilizando la base de datos y los esquemas pred
 
 ## Almacenamiento de base de datos {#db-storage}
 
-La asignación de almacenamiento total se divide entre la base de datos principal y el almacén del Snowflake. El lugar donde se almacenan los datos debe determinarse en el momento de la implementación o la actualización, según los casos de uso específicos del cliente.
+La asignación de almacenamiento total se divide entre la base de datos principal y la base de datos secundaria del Snowflake (opcional). El lugar donde se almacenan los datos debe determinarse en el momento de la implementación o la actualización, según los casos de uso específicos del cliente.
 
 Obtenga información sobre cómo monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

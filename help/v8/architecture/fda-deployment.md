@@ -1,20 +1,20 @@
 ---
-title: Introducción a la implementación del Snowflake de FDA de Campaign
-description: Introducción a la implementación del Snowflake de FDA de Campaign
+title: Introducción a la implementación de FDA de Campaign
+description: Introducción a la implementación de FDA de Campaign
 feature: Architecture, Federated Data Access, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
 
-# [!DNL Campaign] FDA [!DNL Snowflake] implementación{#gs-fda-snowflake}
+# [!DNL Campaign] Implementación de FDA{#gs-fda}
 
-En un [!DNL Snowflake] Implementación de FDA (predeterminada), [!DNL Adobe Campaign] v8 está conectado a [!DNL Snowflake] para acceder a los datos mediante [Acceso de datos federado](../connect/fda.md) capacidad: puede acceder a datos e información externos almacenados en su [!DNL Snowflake] base de datos sin cambiar la estructura de los datos de Adobe Campaign.
+En su implementación FDA de Campaign (predeterminada), [!DNL Adobe Campaign] v8 se puede conectar a [!DNL Snowflake] para acceder a los datos mediante [Acceso de datos federado](../connect/fda.md) capacidad: a continuación, puede acceder a datos externos e información almacenada en su [!DNL Snowflake] base de datos sin cambiar la estructura de los datos de Adobe Campaign.
 
 ## Ventajas{#fda-benefits}
 
@@ -37,4 +37,4 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 
 ![](assets/fda-architecture.png)
 
-PostgreSQL es la base de datos principal y Snowflake es la base de datos secundaria. Puede ampliar el modelo de datos y almacenar los datos en Snowflake. Posteriormente, puede ejecutar ETL, segmentación e informes en un conjunto de datos grande con un rendimiento sobresaliente.
+PostgreSQL es la base de datos principal y Snowflake se puede utilizar como base de datos secundaria. Puede ampliar el modelo de datos y almacenar los datos en Snowflake. Posteriormente, puede ejecutar ETL, segmentación e informes en un conjunto de datos grande con un rendimiento sobresaliente.

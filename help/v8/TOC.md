@@ -4,10 +4,10 @@ user-guide-title: Campaign v8
 title: Documentación de Adobe Campaign v8
 description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Información general de Campaign
-source-git-commit: cb5bec3107872d4d6da83b4ddbc7cad3e9276b00
+source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
 source-wordcount: '578'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -72,9 +72,9 @@ ht-degree: 93%
          + [Recopilación y procesamiento de eventos](send/event-processing.md)
          + [Comprensión de la descripción del evento](send/event-description.md)
          + [Mensajes de envío y monitorización](send/delivery-execution.md)
-+ Gestión de perfiles y audiencias {#audience}
-   + [Introducción a perfiles y audiencias](audiences/gs-audiences.md)
-   + [Trabajo con audiencias](start/audiences.md)
++ Gestión de perfiles y públicos {#audience}
+   + [Introducción a perfiles y públicos](audiences/gs-audiences.md)
+   + [Trabajo con públicos](start/audiences.md)
    + [Acceso a perfiles](audiences/view-profiles.md)
    + Adición de perfiles {#add-profiles}
       + [Creación de perfiles manual](audiences/create-profiles.md)
@@ -83,7 +83,7 @@ ht-degree: 93%
       + [Recopilación de datos de perfil en formularios web](audiences/collect-profiles.md)
       + [Trabajar con asignaciones de destino](audiences/target-mappings.md)
       + [Crear perfiles de prueba](audiences/test-profiles.md)
-   + Creación de audiencias {#create-audiences}
+   + Creación de públicos {#create-audiences}
       + [Creación de una lista de contactos](audiences/create-audiences.md)
       + [Creación y administración de filtros](audiences/create-filters.md)
       + [Compartir audiencias con soluciones de Adobe](start/shared-audiences.md)
@@ -155,11 +155,10 @@ ht-degree: 93%
       + [Agregar permisos en carpetas](start/folder-permissions.md)
    + [Panel de control](config/self-service.md)
 + Arquitectura y configuración {#config}
-   + Arquitectura {#architecture}
+   + Arquitectura de Campaign v8 {#architecture}
       + [Principios globales](architecture/general-architecture.md)
-      + [Arquitectura](architecture/architecture.md)
-      + Implementación de Snowflake en FDA {#fda}
-         + [¿Qué es Snowflake en FDA?](architecture/fda-deployment.md)
+      + [Arquitectura modelos](architecture/architecture.md)
+      + [Implementación de FDA de Campaign](architecture/fda-deployment.md)
       + Implementación empresarial (FDAC) {#ffda}
          + [¿Qué es el FDAC de Campaign?](architecture/enterprise-deployment.md)
          + Características {#ffda-characteristics}

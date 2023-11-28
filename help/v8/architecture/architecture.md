@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1032'
 ht-degree: 14%
 
 ---
@@ -32,9 +32,14 @@ Puede exportar e importar paquetes de un entorno a otro.
 
 Hay dos modelos de implementación disponibles:
 
-* **FDA de Campaign [!DNL Snowflake] implementación**
+* **Implementación de FDA de Campaign**
 
-  En su [[!DNL Snowflake] Implementación de FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 está conectado a [!DNL Snowflake] para acceder a los datos a través de la capacidad Acceso de datos federado: puede acceder a datos externos y procesar la información almacenada en su [!DNL Snowflake] base de datos sin cambiar la estructura de los datos de Adobe Campaign. PostgreSQL es la base de datos principal y Snowflake es la base de datos secundaria. Puede ampliar el modelo de datos y almacenar los datos en Snowflake. Posteriormente, puede ejecutar ETL, segmentación e informes en un conjunto de datos grande con un rendimiento sobresaliente.
+  En su [Implementación de FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 se puede conectar a [!DNL Snowflake] para acceder a los datos a través de la capacidad Acceso de datos federado: puede acceder a datos externos y procesar la información almacenada en su [!DNL Snowflake] base de datos sin cambiar la estructura de los datos de Adobe Campaign. PostgreSQL es la base de datos principal y puede utilizar Snowflake como base de datos secundaria para ampliar el modelo de datos y almacenar los datos en Snowflake. Posteriormente, puede ejecutar ETL, segmentación e informes en un conjunto de datos grande con un rendimiento sobresaliente.
+
+  >[!NOTE]
+  >
+  >En este modelo de implementación, la variable [!DNL Snowflake] la base de datos secundaria solo está disponible bajo petición. Para actualizar la implementación con [!DNL Snowflake], póngase en contacto con el administrador de cuentas técnico de Adobe.
+  >
 
 * **Implementación de Campaign Enterprise (FDAC)**
 
