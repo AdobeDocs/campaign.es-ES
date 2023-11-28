@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 95%
+source-wordcount: '379'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo co
 
 Ventajas principales:
 
-* Cambie la configuración rápidamente por su cuenta, sin ponerse en contacto con el Servicio de atención al cliente.
+* Cambie la configuración rápidamente por su cuenta, sin ponerse en contacto con el Adobe.
 * Configure las opciones en función de las diferentes necesidades comerciales en distintos momentos.
 * Mejore la seguridad controlando la configuración de acceso según sus necesidades.
 
@@ -42,8 +42,8 @@ En el Panel de control, puede interactuar con todos los servidores SFTP conectad
 
 Obtenga información sobre cómo monitorizar los subdominios y sus certificados.
 
-* [Monitorización de subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=es){target="_blank"}
-* [ Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es){target="_blank"}
+* [Supervisión de subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=es){target="_blank"}
+* [Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es){target="_blank"}
 * [Supervisión de los certificados SSL de los subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es){target="_blank"}
 
 ## Monitorización del rendimiento

@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '1187'
-ht-degree: 100%
+source-wordcount: '1188'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 En esta sección, aprenderá a ajustar Adobe Campaign a los requisitos de su compañía. Siga estas directrices para estructurar y organizar la implementación.
 
 1. **Definir configuración**: conceder acceso, compartir la consola del cliente, configurar canales (correo electrónico, push, sms). [Más información](#implementation-ac-settings)
-1. **Prepare su entorno**: importar perfiles, crear audiencias, diseñar plantillas de flujo de trabajo y campaña, crear reglas de tipología. [Más información](#implementation-prepare-your-env)
+1. **Prepare su entorno**: importar perfiles, crear público, diseñar plantillas de flujo de trabajo y campaña, crear reglas de tipología. [Más información](#implementation-prepare-your-env)
 1. **Personalice la instancia**: crear nuevos campos de datos, añadir tablas/esquemas. [Más información](#implementation-custom-your-instance)
 1. **Automatice sus procesos**: configure las funcionalidades de automatización de Adobe Campaign. [Más información](#implementation-automation)
 1. **Amplíe la implementación**: conectar con soluciones de Adobe, otros productos y sistemas, conectores y configuración de varias soluciones. [Más información](#implementation-extend)
@@ -26,7 +26,7 @@ En esta sección, aprenderá a ajustar Adobe Campaign a los requisitos de su com
 >
 >Con **Campaign Managed Cloud Services**, su entorno y la configuración inicial los establece Adobe, según los términos del acuerdo de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
 >
->Si necesita utilizar un complemento de Campaign o una funcionalidad específica que no se haya aprovisionado por usted, debe ponerse en contacto con el **Servicio de atención al cliente de Adobe**.
+>Si necesita utilizar un complemento de Campaign o una funcionalidad específica que no se haya aprovisionado por usted, debe ponerse en contacto con su **Administrador de transición de Adobe**.
 
 ## Antes de empezar{#before-starting}
 
@@ -68,13 +68,13 @@ La interfaz de usuario principal de la aplicación es un cliente enriquecido; es
 
 Antes de empezar a enviar mensajes y crear campañas de marketing, debe realizar esto:
 
-1. **Importar perfiles y crear audiencias**
+1. **Importar perfiles y crear públicos**
 
    Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfil directamente en la tabla de destinatarios.
 
    ![](../assets/do-not-localize/glass.png) [Obtenga información sobre cómo importar perfiles](import.md).
 
-   Las audiencias se agrupan en listas y se pueden crear mediante flujos de trabajo. A continuación, se pueden definir como objetivo en los envíos multicanal.
+   Los públicos se agrupan en listas y se pueden crear mediante flujos de trabajo. A continuación, se pueden definir como objetivo en los envíos multicanal.
 
    ![](../assets/do-not-localize/glass.png) [Obtenga información sobre cómo definir audiencias](audiences.md).
 
@@ -135,7 +135,7 @@ Puede personalizar muchas áreas y capacidades de Campaign diferentes. La mayor�
 
 ## Configuración de la automatización de campañas{#implementation-automation}
 
-Para organizar campañas de marketing complejas para distintas audiencias en varios canales, aproveche las capacidades de automatización de Campaign.
+Para organizar campañas de marketing complejas para distintos públicos en varios canales, aproveche las capacidades de automatización de Campaign.
 
 * Use **flujos de trabajo** para administrar procesos y datos. Obtenga más información en [esta documentación](../../automation/workflow/about-workflows.md)
 

@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 16367814b53344e4cd68025dfe925cc17aac6bcf
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
 source-wordcount: '1032'
 ht-degree: 14%
@@ -38,7 +38,7 @@ Hay dos modelos de implementación disponibles:
 
   >[!NOTE]
   >
-  >En este modelo de implementación, la variable [!DNL Snowflake] la base de datos secundaria solo está disponible bajo petición. Para actualizar la implementación con [!DNL Snowflake], póngase en contacto con el administrador de cuentas técnico de Adobe.
+  >En este modelo de implementación, la variable [!DNL Snowflake] la base de datos secundaria solo está disponible bajo petición. Para actualizar la implementación con [!DNL Snowflake], póngase en contacto con el administrador de transición de Adobe.
   >
 
 * **Implementación de Campaign Enterprise (FDAC)**
@@ -70,7 +70,7 @@ Para ello, agregue cuentas externas adicionales con la variable **[!UICONTROL Sp
 
 >[!IMPORTANT]
 >
->El modo de enrutamiento dividido está habilitado de forma predeterminada para la cuenta &quot;Split Delivery - Email&quot;. Para todas las cuentas externas de los demás canales, póngase en contacto con el Servicio de atención al cliente para activar la opción.
+>El modo de enrutamiento dividido está habilitado de forma predeterminada para la cuenta &quot;Split Delivery - Email&quot;. Para el resto de cuentas externas de canales, póngase en contacto con el administrador de transición de Adobe para activar la opción.
 >
 >De forma predeterminada, el valor de tamaño del umbral para dividir una entrega entre varios medios es 100 000. Puede cambiar este valor en la opción &quot;NmsDelivery_MultiMidSplitThreshold&quot; en el **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]** menú.
 

@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 45%
+source-wordcount: '598'
+ht-degree: 41%
 
 ---
 
@@ -22,7 +22,7 @@ Comprensión de la arquitectura de mensajería transaccional en [esta página](.
 
 ## Definición de permisos {#mc-permissions}
 
-Para crear nuevos usuarios para las instancias de ejecución del Centro de Mensajes alojadas en Adobe Cloud, debe ponerse en contacto con el servicio de atención al cliente de Adobe. Los usuarios del Centro de Mensajes son operadores específicos que requieren permisos específicos para acceder a las carpetas “Eventos en tiempo real” (nmsRtEvent).
+Para crear nuevos usuarios para las instancias de ejecución del Centro de mensajes alojadas en Adobe Cloud, póngase en contacto con el administrador de transición de Adobe. Los usuarios del Centro de mensajes son operadores específicos que requieren permisos especiales para acceder a las carpetas “Eventos en tiempo real” (nmsRtEvent).
 
 ## Extensiones de esquema  {#mc-schema-ext}
 
