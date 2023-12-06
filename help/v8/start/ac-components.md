@@ -5,10 +5,10 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 7deb5e8f646b086adec2e0652538a187e68adbee
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ Obtenga más información acerca de las funcionalidades clave de Campaign en [es
 
 A continuación se describen los componentes de Adobe Campaign y la arquitectura global.
 
-![](assets/ac-components.png)
+![](assets/do-not-localize//ac-components.png)
 
 ### Capa de presentación{#presentation-layer}
 
@@ -34,7 +34,7 @@ Puede acceder a Adobe Campaign a través de un cliente enriquecido, un cliente l
 
 * Cliente ligero
 
-  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  [Obtenga más información acerca de Campaign Web Access](../start/connect.md).
+  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  [Obtenga más información sobre Campaign Web Access](../start/connect.md).
 
 * Aplicaciones externas con API
 
@@ -58,13 +58,13 @@ La versión 8 de Adobe Campaign se implementa as a Managed Service: todos los co
 
 El servidor web de Campaign controla el acceso a los procesos web de Campaign. Javascript es el lenguaje del lado del servidor que se utiliza para las funciones y personalizaciones principales del producto. Tomcat es el motor back-end y está integrado en el producto Campaign como parte del proceso web. Javascript se utiliza, por ejemplo, en páginas JSP o JSSP para procesar contenido dinámico.
 
-![](assets/ac-processes.png)
+![](assets/do-not-localize/ac-processes.png)
 
 La consola del cliente de Campaign se conecta al servidor web mediante XML SOAP a través de HTTP. El servidor web proporciona la capa de seguridad, pasa las solicitudes a la capa de aplicación mediante JavaScript y los procesos internos de Campaign acceden a la base de datos mediante SQL.
 
 La comunicación general entre los procesos de Campaign se describe en el siguiente diagrama de implementación independiente: todos los componentes de Campaign se instalan en el mismo equipo.
 
-![](assets/ac-standalone.png)
+![](assets/do-not-localize//ac-standalone.png)
 
 El usuario se conecta al servidor de aplicaciones de Campaign mediante el protocolo HTTP. Todos los datos y la información se administran en la base de datos de Campaign. Si un desarrollador de Campaign realiza cualquier cambio en la configuración, se captura en la base de datos. Si un especialista en marketing crea una nueva campaña, toda la información y los datos relacionados con esta nueva campaña también se administran en la base de datos. Cuando un experto en marketing ejecuta una campaña, las entregas de correo electrónico se envían a los perfiles desde el servidor de Campaign a través del servidor SMTP. A medida que los perfiles interactúan con las entregas de correo electrónico, como la apertura del correo electrónico, esos datos de seguimiento se devuelven al servidor de seguimiento.
 

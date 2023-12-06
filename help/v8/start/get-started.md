@@ -5,9 +5,9 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '862'
 ht-degree: 100%
 
 ---
@@ -22,7 +22,7 @@ Utilice Campaign para lo siguiente:
 * **Integración de canales de correo electrónico, móviles, en línea y sin conexión en el recorrido del cliente**
 * **Automatización de la entrega de mensajes y ofertas significativos y oportunos**
 
-![](assets/ac-capabilities.png)
+![](assets/do-not-localize/ac-capabilities.png)
 
 ## Perfil de cliente integrado {#integrated-customer-profile}
 
@@ -40,7 +40,7 @@ Adobe Campaign tiene funcionalidades de segmentación y direccionamiento potente
 
 La funcionalidad avanzada de administración de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de direccionamiento incluyendo información que no se encuentra en la base de datos.
 
-![](../assets/do-not-localize/glass.png) Obtenga más información acerca de la segmentación, creación de audiencias en [esta sección](audiences.md).
+![](../assets/do-not-localize/glass.png) Obtenga más información acerca de la segmentación, creación de públicos en [esta sección](audiences.md).
 
 ## Orquestación de campañas en canales múltiples {#cross-channel-campaign-orchestration}
 
@@ -56,7 +56,7 @@ Un flujo de trabajo también puede incluir usuarios asignándoles tareas o hacie
 
 Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemplo:
 
-* Direccionamiento para administrar audiencias o enviar mensajes.
+* Direccionamiento para administrar públicos o enviar mensajes.
 * Administración de datos (ETL) para manipular datos.
 * Importación de datos en la base de datos de Campaign.
 * Procesos técnicos, como limpieza de bases de datos, recuperación de información de seguimiento, etc.

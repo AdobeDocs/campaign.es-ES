@@ -5,10 +5,10 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 13%
+source-wordcount: '1065'
+ht-degree: 11%
 
 ---
 
@@ -86,7 +86,7 @@ Para introducir la configuración, debe acceder tanto a la consola del cliente d
    >El **[!UICONTROL Internal name]** El nombre del servicio debe ser exactamente el mismo nombre de su cuenta X.
    >
 
-1. De forma predeterminada, los seguidores se guardan en la carpeta **[!UICONTROL Visitors]**. Puede seleccionar otra ubicación en el **[!UICONTROL Visitor folder]** field. [Más información](../send/twitter.md#direct-tw-messages)
+1. De forma predeterminada, los seguidores se guardan en **[!UICONTROL Visitors]** carpeta. Puede seleccionar otra ubicación en el **[!UICONTROL Visitor folder]** field. [Más información](../send/twitter.md#direct-tw-messages)
 
    ![](assets/tw-service-in-ac.png)
 
@@ -114,7 +114,7 @@ Se detienen de forma predeterminada: debe iniciarlos manualmente al comenzar a u
 
 El **[!UICONTROL Synchronization of Twitter accounts]** El flujo de trabajo técnico sincroniza las cuentas X en Adobe Campaign. Este flujo de trabajo recupera la lista de X seguidores para que pueda enviarles mensajes directos. [Más información](../send/twitter.md#direct-tw-messages)
 
-De forma predeterminada, este flujo de trabajo se activa todos los jueves a las 7:30 a. m. Puede usar el complemento **[!UICONTROL Execute pending task(s) now]** para iniciar el flujo de trabajo en cualquier momento mientras implementa esta integración.  También puede editar el planificador para cambiar la frecuencia de activación del flujo de trabajo. Obtenga más información en [esta página](../../automation/workflow/scheduler.md).
+De forma predeterminada, este flujo de trabajo se activa todos los jueves a las 7:30 a.m. Puede usar el complemento **[!UICONTROL Execute pending task(s) now]** para iniciar el flujo de trabajo en cualquier momento mientras implementa esta integración.  También puede editar el planificador para cambiar la frecuencia de activación del flujo de trabajo. Obtenga más información en [esta página](../../automation/workflow/scheduler.md).
 
 >[!CAUTION]
 >
@@ -124,7 +124,7 @@ Los seguidores se almacenan en una tabla específica: la tabla de visitantes. Pa
 
 Para cada seguidor, Adobe Campaign almacena la siguiente información:
 
-* **[!UICONTROL Origin]**: Twitter
+* **[!UICONTROL Origin]**: TWITTER
 * **[!UICONTROL External ID]**: identificador de usuario
 * **[!UICONTROL Username]**: nombre de cuenta del usuario
 * **[!UICONTROL Full name]**: nombre del usuario
@@ -141,6 +141,6 @@ Además de la cuenta X, cree una cuenta X privada que se pueda utilizar para env
 1. Acceso a la cuenta  **Configuración**.
 1. Navegar a **Privacidad y seguridad** y **Audiencia y etiquetado** y compruebe la **Protect sus publicaciones** opción. Tus publicaciones y otra información de la cuenta solo son visibles para las personas que te siguen.
 
-![](assets/social_tw_test_page.png)
+![](assets/do-not-localize/social_tw_test_page.png)
 
 Configure la aplicación X y el servicio Campaign para que funcionen con esta cuenta de prueba, tal como se ha descrito anteriormente.
