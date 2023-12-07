@@ -1,13 +1,13 @@
 ---
 title: Novedades de la versión 8 de Campaign
-description: Descubra las funcionalidades clave en Adobe Campaign v8
+description: Descubra las funcionalidades clave de Adobe Campaign v8
 feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '904'
 ht-degree: 90%
 
 ---
@@ -24,7 +24,7 @@ La versión 8 de Adobe Campaign ofrece mejoras significativas en infraestructura
 
 A continuación se enumeran las funcionalidades clave.
 
-### Administración central del flujo de trabajo{#central-wf-mgt}
+### Administración central de flujos de trabajo{#central-wf-mgt}
 
 Mejora de la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta la entrega.
 
