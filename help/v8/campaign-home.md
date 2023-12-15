@@ -3,10 +3,10 @@ keywords: Campaign Classic;inicio;temas populares
 description: Centro de ayuda de Campaign v8
 title: Documentación del producto de Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 0f86b6303bd380f5079b38de88ee3d097e415695
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 5%
+source-wordcount: '348'
+ht-degree: 13%
 
 ---
 
@@ -18,28 +18,21 @@ Eche un vistazo a las mejoras más recientes del producto y la documentación de
 
 >[!BEGINTABS]
 
+>[!TAB Próximos cambios del canal push]
+
+Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones.
+
+[![imagen](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
+
 >[!TAB Servicio de notificaciones push mejorado]
 
 La versión 8.5.1 de Campaign presenta nuestro último servicio de notificaciones push, con una estructura sólida basada en una tecnología moderna de vanguardia. Este servicio está diseñado para desbloquear nuevos niveles de escalabilidad, lo que garantiza que las notificaciones puedan llegar a una audiencia más grande con una eficiencia perfecta. Con nuestra infraestructura mejorada y los procesos optimizados, puede esperar una mayor escala y fiabilidad, lo que le permite interactuar y conectarse con los usuarios de sus aplicaciones móviles como nunca antes. Esta capacidad solo está disponible para un grupo seleccionado de clientes (disponibilidad limitada).
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](send/push-data-collection.md)
 
->[!TAB Rendimiento aumentado del canal móvil]
-
-El recién introducido servicio de notificaciones push muestra mejoras significativas en el rendimiento tanto para Push Android como para Push iOS en comparación con nuestra versión anterior (v8.4). Los usuarios experimentarán un rendimiento notablemente mejorado con el servicio actualizado en la última versión (v8.5).
-
-* Notificaciones push (Android): hasta **5x** más rápido
-* Notificaciones push (iOS): hasta **2,2x** más rápido
-
-El rendimiento de los SMS ha experimentado mejoras sustanciales a través de una serie de optimizaciones, lo que resulta en mejoras notables en velocidad y eficiencia para la comunicación SMS. Estas actualizaciones han llevado a un mayor rendimiento desde la versión anterior (v8.4) a la última versión (v8.5), lo que incluye actualizaciones de envíos y comentarios. Los usuarios ahora pueden experimentar las ventajas de este servicio de SMS mejorado.
-
-* Rendimiento de SMS: hasta <strong>5x</strong> más rápido</li>
-
-Estos resultados máximos de rendimiento han sido medidos por equipos de prueba de Adobe, en condiciones de laboratorio.
-
 >[!ENDTABS]
 
-## Empiece con lo básico
+## Empieza con los conceptos básicos
 
 <table style="table-layout:fixed">
   <tr style="border: 0;">
@@ -57,7 +50,7 @@ Estos resultados máximos de rendimiento han sido medidos por equipos de prueba 
     </div></td>
     <td>
     <a href="audiences/create-profiles.md"><img src="assets/do-not-localize/start-profiles.png"></a>
-    <div><strong>Importación de perfiles</strong><br/>Explore la creación de perfiles en la base de datos de Adobe Campaign v8 con facilidad. Añada perfiles manualmente o mediante importaciones, refinando los datos de los clientes y personalizando las campañas sin esfuerzo.</div>
+    <div><strong>Importación de perfiles</strong><br/>Explore la creación de perfiles en la base de datos de Adobe Campaign v8 con facilidad. Añade perfiles manualmente o importándolos para refinar los datos de los clientes y personalizar las campañas sin complicaciones.</div>
     </td>
   </tr>
   <tr style="border: 0;">
@@ -68,7 +61,7 @@ Estos resultados máximos de rendimiento han sido medidos por equipos de prueba 
     </tr>
 </table>
 
-## Explorar la documentación
+## Explora la documentación
 
 <table style="table-layout:auto">
   <tr style="border: 0;">

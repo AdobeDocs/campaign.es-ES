@@ -6,18 +6,22 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '1659'
-ht-degree: 19%
+source-wordcount: '1631'
+ht-degree: 16%
 
 ---
 
 # Configuración del canal de notificaciones push {#push-notification-configuration}
 
-Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurarse de que las configuraciones y integraciones estén implementadas en la aplicación móvil y para las etiquetas en Adobe Experience Platform.
+Para enviar notificaciones push con Adobe Campaign, primero debe configurar el entorno y la aplicación como se detalla en esta página. En Adobe Campaign, el canal para enviar notificaciones push es el canal de aplicaciones móviles.
 
-El SDK de Adobe Experience Platform Mobile proporciona API de integración del lado del cliente para sus móviles a través de SDK compatibles con Android y iOS.
+>[!CAUTION]
+>
+>Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones. [Más información](../../technotes/upgrades/push-technote.md).
+
+Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurarse de que las configuraciones y integraciones estén implementadas en la aplicación móvil y para las etiquetas en Adobe Experience Platform. El SDK de Adobe Experience Platform Mobile proporciona API de integración del lado del cliente para sus móviles a través de SDK compatibles con Android y iOS.
 
 Para configurar la aplicación con los SDK para móviles de Adobe Experience Platform, siga estos pasos:
 
@@ -207,7 +211,7 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
 1. Seleccione el **[!UICONTROL Authentication mode]**. Hay dos modos disponibles:
 
-   * (Recomendado) **[!UICONTROL Token-based authentication]**: complete la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** a continuación, seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para más información sobre **[!UICONTROL Token-based authentication]**, consulte la [documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+   * (Recomendado) **[!UICONTROL Token-based authentication]**: complete la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** a continuación, seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para obtener más información sobre **[!UICONTROL Token-based authentication]**, consulte [Documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
    * **[!UICONTROL Certificate-based authentication]**: haga clic en **[!UICONTROL Enter the certificate...]**, seleccione la clave p12 e introduzca la contraseña proporcionada por el desarrollador de aplicaciones móviles.
 

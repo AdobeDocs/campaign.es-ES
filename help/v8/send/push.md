@@ -5,10 +5,10 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 73%
+source-wordcount: '866'
+ht-degree: 61%
 
 ---
 
@@ -18,9 +18,14 @@ Las entregas de aplicaciones móviles permiten enviar notificaciones a dispositi
 
 Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurarse de que las configuraciones y integraciones estén implementadas en la aplicación móvil y para las etiquetas en Adobe Experience Platform. [Más información sobre la configuración push.](push-settings.md)
 
+>[!CAUTION]
+>
+>Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones. [Más información](../../technotes/upgrades/push-technote.md).
+
+
 ## Creación de la primera notificación push{#push-create}
 
-En esta sección se detallan los elementos específicos para la entrega de notificaciones en iOS y Android.
+En esta sección se detallan los elementos específicos para el envío de notificaciones en iOS y Android.
 
 >[!CAUTION]
 >
@@ -60,9 +65,9 @@ Para enviar notificaciones en dispositivos iOS, siga estos pasos:
 
    Este campo permite definir el valor del parámetro **title** de la carga útil de notificación de iOS.
 
-1. Puede añadir un **[!UICONTROL Subtitle]**, valor del parámetro subtítulo de la carga útil de notificación de iOS.****
+1. Puede añadir un **[!UICONTROL Subtitle]**, valor del **subtítulo** parámetro de la carga útil de notificación de iOS.
 
-1. Introduzca el contenido del mensaje en la sección **[!UICONTROL Message content]** del asistente.
+1. Introduzca el contenido del mensaje en la **[!UICONTROL Message content]** del asistente.
 
 1. En la pestaña **[!UICONTROL Sound and Badge]**, puede editar las siguientes opciones:
 
@@ -107,9 +112,9 @@ Para enviar notificaciones en dispositivos iOS, siga estos pasos:
 
       * **[!UICONTROL Passive]**: el sistema agrega la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.
 
-      * **[!UICONTROL Time sensitive]** el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.
+      * **[!UICONTROL Time sensitive]** El sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.
 
-      * **[!UICONTROL Critical]** el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.
+      * **[!UICONTROL Critical]** El sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.
 
    * **[!UICONTROL Relevance score]**: establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones.
 
@@ -140,7 +145,7 @@ Para enviar notificaciones en dispositivos Android, siga estos pasos:
 
    ![](assets/push-android-content.png)
 
-1. Haga clic en el icono **[!UICONTROL Insert emoticon]** para insertar emoticonos en la notificación push.
+1. Haga clic en **[!UICONTROL Insert emoticon]** para insertar emoticonos en la notificación push.
 
 1. En el campo **[!UICONTROL Application variables]**, introduzca el valor de cada variable. Por ejemplo, puede configurar una pantalla de aplicación específica para que se muestre cuando el usuario active la notificación.
 
