@@ -3,11 +3,11 @@ audience: end-user
 user-guide-title: Campaign v8
 title: Documentación de Adobe Campaign v8
 description: Documentación de la versión 8 de Campaign
-breadcrumb-title: Información general de Campaign
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+breadcrumb-title: Documentación de Campaign v8
+source-git-commit: 24785675a2138e3ce9c806fb52ac29a6a18c6d31
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 91%
+source-wordcount: '557'
+ht-degree: 86%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 91%
       + [Creación de espacios de oferta](interaction/interaction-offer-spaces.md)
    + [Creación de un catálogo de ofertas](interaction/interaction-offer-catalog.md)
    + [Creación de una oferta](interaction/interaction-offer.md)
-   + [Enviar una oferta  (saliente)](interaction/interaction-send-offers.md)
+   + [Enviar una oferta (saliente)](interaction/interaction-send-offers.md)
    + Presentación de una oferta (entrante){#inbound}
       + [Contexto](interaction/interaction-present-offers.md)
       + [Invocación de una oferta en una página web](interaction/interaction-integration.md)
@@ -143,7 +143,7 @@ ht-degree: 91%
    + [Campaign + Activadores de Experience Cloud](connect/ac-triggers.md)
    + [Campaign + X (Twitter)](connect/ac-tw.md)
    + [Campaign + Base de datos externa](connect/fda.md)
-   + Campaign + su CRM  {#ac-crm}
+   + Campaign + su CRM {#ac-crm}
       + [Introducción a los conectores CRM](connect/crm.md)
       + [Trabajo con Campaign y SFDC](connect/ac-sfdc.md)
       + [Trabajo con Campaign y Microsoft Dynamics](connect/ac-ms-dyn.md)
@@ -157,7 +157,7 @@ ht-degree: 91%
 + Arquitectura y configuración {#config}
    + Arquitectura de Campaign v8 {#architecture}
       + [Principios globales](architecture/general-architecture.md)
-      + [Arquitectura modelos](architecture/architecture.md)
+      + [Modelos de arquitectura](architecture/architecture.md)
       + [Implementación de FDA de Campaign](architecture/fda-deployment.md)
       + Implementación empresarial (FDAC) {#ffda}
          + [¿Qué es el FDAC de Campaign?](architecture/enterprise-deployment.md)
@@ -174,7 +174,7 @@ ht-degree: 91%
       + [Administrar carpetas y vistas](audiences/folders-and-views.md)
       + [Configuración de correo electrónico](config/email-settings.md)
       + [Configuración de mensajería transaccional](config/transactional-msg-settings.md)
-      + [Integración de los SDK de Campaign con la aplicación - PÁGINA OBSOLETA](config/push-config.md)
+      + [Integración de los SDK de Campaign con la aplicación: PÁGINA OBSOLETA](config/push-config.md)
       + [Cuentas externas](config/external-accounts.md)
 + Recursos para desarrolladores {#developer}
    + [Modelo de datos de Campaign](dev/datamodel.md)
