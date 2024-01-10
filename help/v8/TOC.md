@@ -1,13 +1,13 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Descubra las mejoras más recientes en la documentación y el producto de Adobe Campaign v8.
+user-guide-description: Documentación del producto para Adobe Campaign v8.
 title: Documentación de Adobe Campaign v8
 description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Documentación de Campaign v8
-source-git-commit: 7ab4fd76abb18a9d3d5acac7f4f0639bc4f1f346
+source-git-commit: 7151325bfd80e9780a317dcfcde4df549c2a8cb0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '563'
 ht-degree: 85%
 
 ---
