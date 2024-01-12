@@ -6,10 +6,10 @@ role: Data Engineer
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
-source-wordcount: '1389'
-ht-degree: 21%
+source-wordcount: '1349'
+ht-degree: 17%
 
 ---
 
@@ -33,7 +33,7 @@ En el contexto de esta implementación actualizada, para enviar notificaciones p
 
 1. [Añadir un Campaign Classic a la aplicación móvil.](#campaign-mobile-ap)
 
-1. [Cree un envío tanto para iOS como para Android](##push-create)
+1. [Cree una entrega para iOS y Android](##push-create)
 
 >[!NOTE]
 >
@@ -158,7 +158,7 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
 1. Seleccione el icono de la **[!UICONTROL Application icon]** para personalizar la aplicación móvil en el servicio.
 
-1. Haga clic en **[!UICONTROL Next]** para configurar la aplicación de producción y siga los mismos pasos detallados anteriormente. Tenga en cuenta que no puede utilizar el mismo **[!UICONTROL Integration key]** para la versión de desarrollo (entorno limitado) y la versión de producción de la aplicación.
+1. Clic **[!UICONTROL Next]** para comenzar a configurar la aplicación de producción, siga los mismos pasos detallados anteriormente. Tenga en cuenta que no puede utilizar el mismo **[!UICONTROL Integration key]** para la versión de desarrollo (entorno limitado) y la versión de producción de la aplicación.
 
 1. Haga clic en **[!UICONTROL Finish]**.
 
@@ -246,7 +246,7 @@ La propiedad móvil ahora se sincronizará automáticamente con **[!UICONTROL Ad
 
 ## Añadir un Campaign Classic a la aplicación móvil. {#campaign-mobile-app}
 
-El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas.
+El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la IU de recopilación de datos para una configuración flexible e integraciones ampliables basadas en reglas.
 
 [Obtenga más información en la documentación de Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 
