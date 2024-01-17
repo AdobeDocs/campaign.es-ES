@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 06a505988579d38b4425643aaf85f5e4fa4d00b6
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 13%
@@ -37,7 +37,7 @@ Hay dos modelos de implementación disponibles: **Implementación de FDA de Camp
 En su [Implementación de FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 se puede conectar a [!DNL Snowflake] para acceder a los datos a través de la capacidad Acceso de datos federado: puede acceder a datos externos y procesar la información almacenada en su [!DNL Snowflake] base de datos sin cambiar la estructura de los datos de Adobe Campaign. PostgreSQL es la base de datos principal y puede utilizar Snowflake como base de datos secundaria para ampliar el modelo de datos y almacenar los datos en Snowflake. Posteriormente, puede ejecutar ETL, segmentación e informes en un conjunto de datos grande con un rendimiento sobresaliente.
 
 
-![](assets/P1-P3-architecture)
+![](assets/P1-P3-architecture.png)
 
 >[!NOTE]
 >
