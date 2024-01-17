@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 06a505988579d38b4425643aaf85f5e4fa4d00b6
+source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1039'
 ht-degree: 13%
 
 ---
@@ -37,7 +37,7 @@ Hay dos modelos de implementación disponibles: **Implementación de FDA de Camp
 En su [Implementación de FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 se puede conectar a [!DNL Snowflake] para acceder a los datos a través de la capacidad Acceso de datos federado: puede acceder a datos externos y procesar la información almacenada en su [!DNL Snowflake] base de datos sin cambiar la estructura de los datos de Adobe Campaign. PostgreSQL es la base de datos principal y puede utilizar Snowflake como base de datos secundaria para ampliar el modelo de datos y almacenar los datos en Snowflake. Posteriormente, puede ejecutar ETL, segmentación e informes en un conjunto de datos grande con un rendimiento sobresaliente.
 
 
-![](assets/P1-P3-architecture.png)
+![](assets/P1-P3-architecture.png){zoomable=&quot;yes&quot;}
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ En el contexto de un [Implementación empresarial (FDAC)](enterprise-deployment.
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FDAC) simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 
-![](assets/P4-architecture.png)
+![](assets/P4-architecture.png){zoomable=&quot;yes&quot;}
 
 
 ## Ejecución de envío dividido {#split}
