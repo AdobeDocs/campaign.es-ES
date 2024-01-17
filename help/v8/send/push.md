@@ -5,10 +5,10 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 61%
+ht-degree: 67%
 
 ---
 
@@ -20,14 +20,14 @@ Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurars
 
 >[!CAUTION]
 >
->Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones. [Más información](../../technotes/upgrades/push-technote.md).
+>Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a la implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de que admitan este cambio. Ya puede comprobar y realizar acciones. [Más información](../../technotes/upgrades/push-technote.md).
 
 
 ## Creación de la primera notificación push{#push-create}
 
 En esta sección se detallan los elementos específicos para el envío de notificaciones en iOS y Android.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >En el contexto de un [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), el registro móvil es ahora **asíncrono**. [Más información](../architecture/staging.md)
 
