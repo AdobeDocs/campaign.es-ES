@@ -3,10 +3,10 @@ keywords: Campaign Classic;inicio;temas populares
 description: Centro de ayuda de Campaign v8
 title: Documentación del producto de Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 9d0ddad6acf349a9498471af228640444565ed72
+source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 13%
+source-wordcount: '363'
+ht-degree: 30%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 13%
 
 ## Novedades
 
-Eche un vistazo a las mejoras más recientes del producto y la documentación de Adobe Campaign v8. Para obtener una lista completa de funciones, mejoras y correcciones, consulte la [Notas de versión](start/release-notes.md).
+Eche un vistazo a las mejoras más recientes del producto y la documentación de Adobe Campaign v8. Para obtener una lista completa de funciones, mejoras y correcciones, consulta las [Notas de la versión](start/release-notes.md) detalladas. Manténgase al tanto de los cambios más recientes en nuestra documentación. Para ello, visite el [actualizaciones de documentación](start/documentation-updates.md) página.
 
 >[!BEGINTABS]
 
 >[!TAB Próximos cambios del canal push]
 
-Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio. Ya puede comprobar y realizar acciones.
+Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a la implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de que admitan este cambio. Ya puede comprobar y realizar acciones.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](../technotes/upgrades/push-technote.md)
 
@@ -61,7 +61,7 @@ La versión 8.5.1 de Campaign presenta nuestro último servicio de notificacione
     </tr>
 </table>
 
-## Explora la documentación
+## Explore la documentación
 
 <table style="table-layout:auto">
   <tr style="border: 0;">
