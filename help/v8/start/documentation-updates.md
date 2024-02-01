@@ -7,7 +7,7 @@ level: Beginner
 source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 33%
+ht-degree: 89%
 
 ---
 
@@ -18,4 +18,4 @@ Esta página lista todas las actualizaciones de documentación de [!DNL Campaign
 
 ## Enero de 2024 {#jan-2024}
 
-* Se ha añadido información sobre cómo se define el campo postalAddress predeterminado para el correo postal y por qué es importante asegurarse de que las direcciones estén completas. [Más información](../send/direct-mail.md)
+* Se ha añadido información sobre cómo se define el campo Dirección postal predeterminado para el correo directo y por qué es importante asegurarse de que las direcciones estén completas. [Más información](../send/direct-mail.md)
