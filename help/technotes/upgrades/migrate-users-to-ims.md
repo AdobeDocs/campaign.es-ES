@@ -1,10 +1,11 @@
 ---
 title: Migración de los operadores de Campaign a Adobe Identity Management System (IMS)
 description: Obtenga información sobre cómo migrar operadores de Campaign a Adobe Identity Management System (IMS)
-source-git-commit: a85368a8cd34c9bcdfcea91b71fa4b519b6437a3
+exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
+source-git-commit: 1cdb21533138623fc603424503063cf3dbc2d94c
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 4%
+source-wordcount: '1116'
+ht-degree: 2%
 
 ---
 
@@ -79,7 +80,7 @@ Como administrador de Campaign, puede conceder permisos a los usuarios de su org
 
 ### ¿Cómo se agregan correos electrónicos para los usuarios nativos actuales? {#ims-migration-id}
 
-Como administrador de Campaign, debe agregar ID de correo electrónico a todos los usuarios nativos desde la consola del cliente. Para ello, siga los pasos a continuación:
+Como administrador de Campaign, debe agregar ID de correo electrónico a todos los usuarios nativos desde la consola del cliente. Para realizar esto, siga los pasos a continuación:
 
 1. Conéctese a la consola de cliente de y busque **Administración > Administración de acceso > Operadores**.
 1. Seleccione el operador que desea actualizar en la lista de operadores.
@@ -111,6 +112,24 @@ Si todos los usuarios (operadores de Campaign) están en IMS, no es necesario qu
 
 Una vez completada esta migración, debe ponerse en contacto con el administrador de transición de Adobe para que Adobe finalice la migración.
 
+### ¿Cómo se puede ver el tipo de autenticación de los operadores?
+
+Obtenga información sobre cómo ver el tipo de autenticación de los operadores en Campaign:
+
+1. Desde el **Explorer**, acceso **Administration** `>` **Administración de acceso** `>` **Operadores**.
+
+1. Haga clic con el botón derecho en la fila de encabezado y seleccione **Configurar lista** menú.
+
+   ![](assets/ims_2.png)
+
+1. Añadir **Cuenta deshabilitada** y **Tipo de autenticación** as **Columnas de salida**.
+
+   ![](assets/ims_1.png)
+
+Ahora puede ver la lista de sus **Operadores** y sus **Tipo de autenticación**.
+
+![](assets/ims_3.png)
+
 ## Vínculos útiles {#ims-useful-links}
 
 * [Migración de usuarios técnicos a la consola de Adobe Developer](ims-migration.md)
@@ -118,4 +137,3 @@ Una vez completada esta migración, debe ponerse en contacto con el administrado
 * [Acceso y permisos en Adobe Campaign v8](../../v8/start/gs-permissions.md)
 * [Notas de la versión de Adobe Campaign v8](../../v8/start/release-notes.md)
 * [¿Qué es Adobe Identity Management System (IMS)?](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}
-
