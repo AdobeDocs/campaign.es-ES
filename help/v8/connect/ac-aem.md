@@ -5,10 +5,10 @@ feature: Experience Manager Integration
 role: Admin, User
 level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
-source-git-commit: b267cb37a94bd389232ccfb9b8df69c9c2caa990
+source-git-commit: 92fe7c41047aafd26cca70a547025a3eff73e398
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 21%
+source-wordcount: '543'
+ht-degree: 16%
 
 ---
 
@@ -80,12 +80,30 @@ El boletín ya está listo y sincronizado en Adobe Campaign.
 
 1. AEM Seleccione el envío de la lista de distribución creado anteriormente en [!DNL Adobe Experience Manager] y confirme haciendo clic en **[!UICONTROL Ok]**.
 
-1. Puede insertar recursos directamente desde su [!DNL Adobe Experience Manager Assets] o [!DNL Adobe Experience Manager Assets Library] al editar un correo electrónico en Adobe Campaign. [Más información](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/overview.html).
-
-   Para usar su **Biblioteca de Adobe Experience Manager Assets**, acceda al **[!UICONTROL Properties]** AEM de la entrega y seleccione la opción **[!UICONTROL Advanced]** pestaña. Habilite la **[!UICONTROL Use above AEM instance as shared asset library]** opción.
-
-   ![](assets/aem_authoring_9.png)
-
 1. Asegúrese de hacer clic en **[!UICONTROL Refresh content]** AEM cada vez que se realicen modificaciones en el envío de la.
 
 El correo electrónico está listo para enviarlo a su audiencia.
+
+## Importar recursos desde la biblioteca de Adobe Experience Manager Assets {#assets-library}
+
+También puede insertar recursos directamente desde su [!DNL Adobe Experience Manager Assets Library] al editar un correo electrónico o una página de aterrizaje en Adobe Campaign. Esta funcionalidad se detalla en [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en).
+
+1. Cargue sus recursos en su **Biblioteca de Adobe Experience Manager Assets**. [Más información](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=en#uploading-assets)
+
+1. En Adobe Campaign, cree un nuevo envío navegando hasta **Campañas** pestaña, haga clic en **Envíos** y haga clic en **Crear** botón situado sobre la lista de envíos existentes.
+
+1. Seleccione una **Plantilla de envíos**, y asigne un nombre a la entrega.
+
+1. Defina y personalice el contenido del mensaje. [Más información](../send/email.md)
+
+1. Para usar su **Biblioteca de Adobe Experience Manager Assets**, acceda al **[!UICONTROL Properties]** AEM de la entrega y seleccione la opción **[!UICONTROL Advanced]** pestaña. Habilite la **[!UICONTROL Use above AEM instance as shared asset library]** opción.
+
+   ![](assets/aem_authoring_9.png)
+
+1. Desde el **Imagen** , acceda al **[!UICONTROL Select a shared asset]** menú.
+
+   ![](assets/aem_authoring_10.png)
+
+1. En la ventana de selección, seleccione una imagen de su **Biblioteca de Adobe Experience Manager Assets** y confirme.
+
+Su envío de correo electrónico está listo. Ahora puede especificar la audiencia de destino, confirmar la entrega y continuar enviándolo.
