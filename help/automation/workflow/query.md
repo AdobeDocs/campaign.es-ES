@@ -5,9 +5,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 0191ca8c29813c448040fc887f98550c74197578
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1553'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 100%
 Una consulta le permite seleccionar un objetivo según los criterios. Puede asociar un código de segmento al resultado de la consulta e insertar datos adicionales en él.
 Para obtener más información sobre las muestras de consultas, consulte [esta sección](querying-recipient-table.md).
 
-![](assets/query-activity.png)
+![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
 Para obtener más información sobre cómo utilizar y administrar datos adicionales, consulte [Adición de datos](#adding-data).
 
@@ -35,15 +35,15 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
    Para obtener más información sobre esto, consulte [Dimensiones de segmentación y filtrado](targeting-workflows.md#targeting-and-filtering-dimensions).
 
-   ![](assets/targeting-filtering-dimensions.png)
+   ![](assets/targeting-filtering-dimensions.png){width="70%" align="center" zoomable="yes"}
 
    Una consulta se puede basar en los datos de la transición entrante, si es necesario, seleccionando **[!UICONTROL Temporary schema]** al elegir las dimensiones de segmentación y filtrado.
 
-   ![](assets/query_temporary_table.png)
+   ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
 1. Defina las poblaciones mediante el asistente. Los campos que se van a introducir pueden variar según el tipo de destino. Puede obtener una vista previa de la población objetivo con los criterios actuales en la pestaña **[!UICONTROL Preview]**.
 
-   ![](assets/query-sample.png)
+   ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
 1. Si ha seleccionado **[!UICONTROL Filtering conditions]** en el paso 1 o si utiliza la opción **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]**, debe añadir manualmente los criterios de filtrado.
 
@@ -59,11 +59,11 @@ Las columnas adicionales permiten recopilar información adicional sobre la pobl
 
 El enlace **[!UICONTROL Add data...]** permite seleccionar los datos adicionales que desea recopilar.
 
-![](assets/wf_add_data_link.png)
+![](assets/wf_add_data_link.png){width="70%" align="center" zoomable="yes"}
 
 Para empezar, seleccione el tipo de datos que desea añadir:
 
-![](assets/wf_add_data_1st_option.png)
+![](assets/wf_add_data_1st_option.png){width="70%" align="center" zoomable="yes"}
 
 * Seleccione la opción **[!UICONTROL Data linked to the filtering dimension]** para seleccionar los datos de la base de datos de Adobe Campaign.
 * Seleccione la opción **[!UICONTROL External data]** para añadir datos desde una base de datos externa. Esta opción solo está disponible si ha comprado la opción **Acceso de datos federado**. Para obtener más información, consulte [Acceso a una base de datos externa (FDA)](accessing-an-external-database--fda-.md).
@@ -75,11 +75,11 @@ Para agregar datos de la base de datos de Adobe Campaign:
 
 1. Seleccione el tipo de datos que desea añadir. Pueden ser datos de la dimensión o datos almacenados en tablas enlazadas.
 
-   ![](assets/query_add_columns.png)
+   ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
 1. Si los datos pertenecen a la dimensión de filtrado de la consulta, simplemente selecciónelos en la lista de campos disponibles para mostrarlos en las columnas de salida.
 
-   ![](assets/wf_add_data_field_selection.png)
+   ![](assets/wf_add_data_field_selection.png){width="70%" align="center" zoomable="yes"}
 
    Puede añadir:
 
@@ -93,7 +93,7 @@ Para añadir una colección de información enlazada a una población de destino
 1. En el primer paso del asistente, seleccione la opción **[!UICONTROL Data linked to the filtering dimension]**:
 1. Seleccione la tabla que contiene la información que desea recopilar y haga clic en **[!UICONTROL Next]**.
 
-   ![](assets/wf_add_data_linked_table.png)
+   ![](assets/wf_add_data_linked_table.png){width="70%" align="center" zoomable="yes"}
 
 1. Si es necesario, especifique el número de elementos de la colección que desea conservar seleccionando uno de los valores en el campo **[!UICONTROL Data collected]**. De forma predeterminada, todas las líneas de la colección se recuperan y luego se filtran de acuerdo con las condiciones especificadas en el siguiente paso.
 
@@ -108,11 +108,11 @@ Para añadir una colección de información enlazada a una población de destino
    * Si elige recuperar varias líneas (**[!UICONTROL Limit the line count]**), puede especificar el número de líneas que desea recopilar.
    * Si las columnas recopiladas contienen agregados, por ejemplo, el número de errores declarados, el gasto promedio en un sitio, etc., puede utilizar el valor **[!UICONTROL Aggregates]**.
 
-   ![](assets/query_add_collection_param.png)
+   ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
 1. Especifique la selección de la colección.
 
-   ![](assets/query_add_columns_collection_filter.png)
+   ![](assets/query_add_columns_collection_filter.png){width="70%" align="center" zoomable="yes"}
 
 1. Si ha seleccionado la opción **[!UICONTROL Limit the line count]**, defina el orden en el que se de deban filtrar los datos recopilados. Una vez que el número de líneas recopiladas sea mayor que el número de líneas que especificó que deseaba conservar, el orden de filtrado le permite especificar qué líneas mantener.
 
@@ -133,20 +133,20 @@ En el siguiente ejemplo, la consulta busca identificar hombres de entre 18 y 30 
    * Destinatarios mayores de 18 años.
    * Destinatarios que viven en Francia.
 
-   ![](assets/query_example.png)
+   ![](assets/query_example.png){width="70%" align="center" zoomable="yes"}
 
    Puede ver el SQL que coincide con su combinación de criterios:
 
-   ![](assets/query_example_sql.png)
+   ![](assets/query_example_sql.png){width="70%" align="center" zoomable="yes"}
 
 1. Puede verificar que sus criterios son correctos si obtiene una vista previa de los destinatarios que coinciden con su consulta en la pestaña correspondiente:
 
-   ![](assets/query_example_preview.png)
+   ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
 
 1. Guarde los filtros de manera que pueda utilizarlos de nuevo en una fecha posterior haciendo clic en **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
 1. Siga editando el flujo de trabajo añadiendo otras actividades. Una vez que se haya iniciado y haya finalizado el paso anterior, se mostrará el número de destinatarios encontrados. Puede ver más detalles con el menú emergente del ratón (haga clic con el botón derecho en la transición > **[!UICONTROL Display the target...]**).
 
-   ![](assets/query_example_result.png)
+   ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 
 ## Parámetros de salida {#output-parameters}
 
@@ -186,7 +186,7 @@ La sección siguiente ofrece prácticas recomendadas para optimizar las consulta
 
 Utilice la dimensión de filtrado de la consulta en lugar del operador “exists such as”.
 
-![](assets/optimize-queries-filtering.png)
+![](assets/optimize-queries-filtering.png){width="70%" align="center" zoomable="yes"}
 
 En las consultas, las condiciones de “exists such as” en los filtros no son eficaces. Son el equivalente de una subconsulta en SQL:
 
@@ -194,7 +194,7 @@ En las consultas, las condiciones de “exists such as” en los filtros no son 
 
 Se recomienda utilizar la dimensión de filtrado de la consulta:
 
-![](assets/optimize-queries-filtering2.png)
+![](assets/optimize-queries-filtering2.png){width="70%" align="center" zoomable="yes"}
 
 El equivalente de la dimensión de filtrado en SQL es la unión interna:
 
