@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo migrar los operadores técnicos de
 feature: Technote
 role: Admin
 exl-id: 775c5dbb-ef73-48dd-b163-23cfadc3dab8
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 0%
@@ -204,7 +204,7 @@ Una vez completado y validado el proceso de migración, las llamadas Soap se act
 
 
 
-### Paso 9: (opcional) Actualización del operador de cuenta técnica en la consola del cliente de Campaign {#ims-migration-step-9}
+### Paso 9: (opcional) Actualización del operador de cuenta técnica dentro de la consola del cliente de Campaign {#ims-migration-step-9}
 
 Este paso es opcional y solo está disponible dentro de las instancias de Marketing, no dentro de ninguna instancia del Centro de mensajes. Si se han definido permisos de carpeta específicos o derechos asignados para el operador técnico, no a través de los grupos de operadores asignados. Ahora deberá actualizar el usuario de la cuenta técnica recién creada en el Admin Console para conceder los permisos de carpeta o los derechos asignados necesarios.
 

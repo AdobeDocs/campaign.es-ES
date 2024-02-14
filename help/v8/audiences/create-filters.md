@@ -5,10 +5,10 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 34%
+source-wordcount: '1607'
+ht-degree: 33%
 
 ---
 
@@ -168,7 +168,7 @@ Los campos situados encima de cada lista permiten utilizar la variable **filtro 
 
 >[!NOTE]
 >
->El carácter **%** sustituye cualquier cadena de caracteres. Por ejemplo, introduzca `%@gmail.com` en el campo Correo electrónico para mostrar todos los perfiles con una dirección de Gmail. Entrar `%@L` en el campo Apellidos para mostrar todos los perfiles con una L en sus apellidos.
+>El **%** reemplaza cualquier cadena de caracteres. Por ejemplo, introduzca `%@gmail.com` en el campo Correo electrónico para mostrar todos los perfiles con una dirección de Gmail. Entrar `%@L` en el campo Apellidos para mostrar todos los perfiles con una L en sus apellidos.
 
 Para cambiar el filtro predeterminado de una lista de destinatarios, vaya a **[!UICONTROL Profiles and Targets > Predefined filters]** nodo.
 
@@ -348,7 +348,7 @@ Los parámetros avanzados están disponibles para filtros predefinidos. Para acc
 ![](assets/predefined-filters-parameters.png)
 
 
-* El vínculo **[!UICONTROL Advanced parameters]** permite definir ajustes adicionales.
+* El **[!UICONTROL Advanced parameters]** Este vínculo permite definir ajustes adicionales.
 
    * Puede asociar una tabla SQL con el filtro para que sea común a todos los editores que compartan la tabla.
    * Para evitar que cualquier usuario anule el filtro, seleccione la opción **[!UICONTROL Do not restrict the filter]** opción. Por ejemplo, esta opción está activa para los filtros &quot;Destinatarios de una entrega&quot; y &quot;Destinatarios de entregas pertenecientes a una carpeta&quot;, que están disponibles en el asistente de entregas. Estos filtros no se pueden sobrecargar.

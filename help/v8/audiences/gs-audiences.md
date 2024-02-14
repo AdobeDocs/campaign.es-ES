@@ -5,14 +5,14 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 43483085-8aa6-47e6-89e7-9211e37beaa4
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 36%
+ht-degree: 28%
 
 ---
 
-# Introducción a perfiles y audiencias{#gs-profiles-and-audiences}
+# Introducción a perfiles y públicos{#gs-profiles-and-audiences}
 
 Los perfiles son contactos almacenados en la base de datos de Campaign, como clientes, suscriptores de un servicio o clientes potenciales. Existen muchos mecanismos para adquirir perfiles y desarrollar esta base de datos: recopilación en línea a través de formularios web, importación manual o automática de archivos de texto, replicación con bases de datos de compañías u otros sistemas de información. Con Adobe Campaign, puede incorporar el historial de marketing, la información de compra, las preferencias, los datos CRM y cualquier dato PI relevante en una vista consolidada para analizar y actuar en consecuencia. Los perfiles contienen toda la información necesaria para la segmentación, el cumplimiento y el seguimiento de personas.
 

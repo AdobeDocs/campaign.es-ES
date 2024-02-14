@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 86%
+source-wordcount: '714'
+ht-degree: 76%
 
 ---
 
@@ -27,7 +27,7 @@ Como antiguo usuario de la versión 7 de [!DNL Campaign Classic], no debería su
 
 La versión 8 de Adobe Campaign está disponible como **servicio en la nube administrado**.
 
-Adobe Campaign Managed Cloud Services ofrece una plataforma de servicios administrados para diseñar experiencias multicanal para los clientes y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal. Obtenga más información acerca de Campaign Managed Cloud Services en la [página de descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services ofrece una plataforma de servicios administrados para diseñar experiencias multicanal para los clientes y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal. Obtenga más información sobre los Cloud Service administrados de Campaign en la [página de descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 La nueva oferta combina los mejores servicios con supervisión proactiva y alertas oportunas, centrándose en tres áreas:
 
@@ -37,13 +37,21 @@ La nueva oferta combina los mejores servicios con supervisión proactiva y alert
 
 Como antiguo usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría de las funciones de la versión 7 de [!DNL Campaign Classic] están disponibles en la versión 8 de [!DNL Campaign], excepto un pequeño conjunto de ellas, que se enumeran en [esta sección](#gs-removed).
 
-La versión 8 de Campaign se basa en una **arquitectura híbrida**. Si está realizando la transición desde la versión 7 de Campaign Classic, tenga en cuenta que todos los envíos pasan al servidor intermediario. Como consecuencia, el enrutamiento interno **no es posible** en la versión 8 de Campaign, y la cuenta externa se ha deshabilitado en consecuencia.
+>La nueva arquitectura de la nube permite a Campaign optimizar los procesos, reducir los costes, administrar los riesgos y mejorar la seguridad de los datos. El entorno de Campaign v8 viene con una nube privada virtual (VPC) dedicada preconfigurada para usted.
+
+
+## Arquitectura híbrida {#hybrid-archi}
+
+La versión 8 de Campaign se basa en una **arquitectura híbrida**. Si está realizando la transición desde Campaign Classic v7, tenga en cuenta que todas las entregas pasan al servidor intermediario.
+
+Como consecuencia:
+
+* El enrutamiento interno es **no es posible** en Campaign v8, y la cuenta externa se ha deshabilitado en consecuencia,
+* El estado de los envíos no se actualiza instantáneamente: se ejecuta un proceso técnico en la instancia de Marketing que actualizará los estados de entrega de forma oportuna.
+
 
 ![](../assets/do-not-localize/glass.png) Obtenga más información acerca del envío de pruebas de mensajes transaccionales al realizar la transición de v7 en [esta página](../send/transactional-template.md#transition-from-v7).
 
->[!NOTE]
->
->La nueva arquitectura de la nube permite a Campaign optimizar los procesos, reducir los costes, administrar los riesgos y mejorar la seguridad de los datos. El entorno de Campaign v8 viene con una nube privada virtual (VPC) dedicada preconfigurada para usted.
 
 ## [!DNL Campaign] y [!DNL Snowflake] {#ac-gs-snowflake}
 

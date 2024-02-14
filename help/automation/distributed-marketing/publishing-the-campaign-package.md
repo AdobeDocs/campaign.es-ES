@@ -5,10 +5,10 @@ description: Publicación del paquete de campaña
 feature: Distributed Marketing
 role: User
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 97%
+source-wordcount: '456'
+ht-degree: 86%
 
 ---
 
@@ -48,7 +48,7 @@ De forma predeterminada, los revisores tienen tres días a partir de la fecha de
 
 En la ventana de edición de revisores, también puede definir recordatorios que envían uno o varios mensajes si no se ha aprobado un paquete de campañas. Para ello, haga clic en el vínculo **[!UICONTROL Add reminder]** y luego en el botón **[!UICONTROL Add]**.
 
-Los recordatorios pueden enviarse en una fecha determinada o **x** días después de la fecha de presentación. El tipo de recordatorio se puede configurar en la primera columna de la tabla de recordatorios. En el siguiente ejemplo, los revisores recibirán un mensaje recordatorio el 01/11/2023, es decir, dos días antes de la fecha seleccionada en la columna **[!UICONTROL Date]** y un segundo recordatorio un día antes del final del periodo de aprobación, por ejemplo, dos días después de la fecha de envío para la aprobación.
+Los recordatorios pueden enviarse en una fecha determinada o **x** días después de la fecha de presentación. El tipo de recordatorio se puede configurar en la primera columna de la tabla de recordatorios. En el siguiente ejemplo, los revisores recibirán un mensaje recordatorio el 11/01/2023, es decir, dos días antes de la fecha seleccionada en la **[!UICONTROL Date]** y un segundo recordatorio un día antes del final del periodo de aprobación, es decir, dos días después de la fecha de envío para la aprobación.
 
 ![](assets/s_advuser_mkg_dist_reminder_planning.png)
 

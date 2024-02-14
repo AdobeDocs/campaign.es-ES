@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
-source-wordcount: '951'
-ht-degree: 59%
+source-wordcount: '928'
+ht-degree: 54%
 
 ---
 
@@ -20,7 +20,7 @@ Los perfiles de prueba se crean como direcciones semilla. Se utilizan para dirig
 
 Las direcciones semilla tienen las siguientes ventajas:
 
-* Sustitución aleatoria de campos con datos tomados de perfiles de destinatarios: esto permite introducir únicamente la dirección de correo electrónico, por ejemplo, en la sección de la dirección semilla; además, permite que Campaign rellene automáticamente los demás campos de formulario del perfil. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=en){target="_blank"}.
+* Sustitución aleatoria de campos con datos tomados de perfiles de destinatarios: esto permite introducir únicamente la dirección de correo electrónico, por ejemplo, en la sección de la dirección semilla; además, permite que Campaign rellene automáticamente los demás campos de formulario del perfil. Obtenga más información en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
 * Al utilizar un flujo de trabajo con funciones de gestión de datos, los datos adicionales procesados en los envíos se pueden introducir en el ámbito de la dirección semilla para forzar los valores, esto evita la sustitución de valores aleatorios.
 * Las direcciones sembradas se excluyen automáticamente de los informes en las siguientes estadísticas de envío: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
@@ -71,7 +71,7 @@ En las entregas por correo postal, el formato del archivo de extracción debe cu
 
 * No se debe utilizar la opción **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
 
-* Si se extraen colecciones de datos, estos campos deben tener un valor vacío para las direcciones semilla, a menos que se seleccione la opción **[!UICONTROL Single row (expert user)]**.
+* Si se extraen colecciones de datos, estos campos deben tener un valor vacío para las direcciones semilla, a menos que la variable **[!UICONTROL Single row (expert user)]** La opción está seleccionada.
 
 ## Adición de direcciones semilla en una entrega{#seed-addresses-in-a-delivery}
 
@@ -81,7 +81,7 @@ Hay tres modos de inserción posibles:
 
 1. Introduzca direcciones semilla únicas.  Para ello, haga clic en el botón **[!UICONTROL Add]** y defina el contenido de los campos de dirección. Repita este proceso con cada dirección.
 
-1. Importar [plantillas de direcciones semilla](#creating-seed-address-template) y adaptarlos a sus necesidades. Para ello, haga clic en el enlace **[!UICONTROL Import seed templates...]** y seleccione la carpeta que contiene las plantillas de dirección.
+1. Importar [plantillas de direcciones semilla](#creating-seed-address-template) y adaptarlos a sus necesidades. Para ello, haga clic en el **[!UICONTROL Import seed templates...]** y seleccione la carpeta que contiene las plantillas de dirección.
 
    Si es necesario, una vez añadidas, se puede hacer doble clic en ellas o hacer clic en el botón **[!UICONTROL Detail...]** para adaptar el contenido de cada dirección.
 
@@ -101,6 +101,6 @@ Haga clic en **[!UICONTROL Advanced campaign settings...]** y luego el **[!UICON
 
 Si la lista de distribución es una tabla externa, debe realizar ajustes adicionales. Se debe ampliar el esquema **[!UICONTROL nms:seedmember]**. Se añade una pestaña a las direcciones semilla para definir los campos adecuados
 
-En este caso, para añadir direcciones sembradas al envío, introduzca los campos adecuados directamente en la pestaña correspondiente o importe las plantillas de dirección.
+En este caso, para añadir direcciones semilla al envío, introduzca los campos adecuados directamente en la pestaña correspondiente o importe las plantillas de dirección.
 
 <!--The **nms:seedMember** schema extension is [this section](../../configuration/using/seed-addresses.md).-->

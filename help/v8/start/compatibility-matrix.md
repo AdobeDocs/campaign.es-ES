@@ -5,24 +5,24 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 374c0df2cd95e656cfbaa1fb355bf1f48828dfee
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 89%
+source-wordcount: '360'
+ht-degree: 63%
 
 ---
 
-# Matriz de compatibilidad de Campaign v8
+# Matriz de compatibilidad de Campaign v8 {#compat-matrix}
 
-Este documento enumera todos los sistemas y componentes compatibles con la última versión de **Adobe Campaign v8**. A menos que se indique lo contrario, se admiten todas las versiones secundarias. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
+Este documento enumera todos los sistemas y componentes compatibles con la última versión de **Adobe Campaign v8** consola de cliente. A menos que se indique lo contrario, se admiten todas las versiones secundarias. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
 
 Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL), Adobe Campaign ya no es compatible con ellas y se eliminan de esta matriz de compatibilidad. Para evitar problemas, compruebe que tiene una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
 >[!NOTE]
 >
->Adobe Campaign Server y Client Console deben tener la misma versión. [Obtenga información sobre cómo comprobar su versión](#version).
+>El servidor de Adobe Campaign y la consola del cliente de Campaign deben tener la misma versión. [Obtenga información sobre cómo comprobar su versión](upgrades.md#version).
 
-## Consola del cliente{#ClientConsoleoperatingsystems}
+## Consola del cliente {#ClientConsoleoperatingsystems}
 
 Se requieren los siguientes sistemas operativos y exploradores para utilizar la consola del cliente de Campaign. [Más información](connect.md).
 
@@ -33,15 +33,15 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 
 >[!NOTE]
 >
->Tenga en cuenta que la versión de 32 bits de la consola del cliente está en desuso a partir de la versión 8.5. A partir de la versión 8.6, la consola de cliente solo estará disponible en 64 bits. Para obtener más información sobre cómo actualizar el sistema operativo, consulte esta [nota técnica](../../technotes/upgrades/console.md).
+>Tenga en cuenta que la versión de 32 bits de la consola del cliente ha quedado obsoleta desde la versión 8.5. A partir de la versión 8.6, la consola de cliente solo está disponible en 64 bits. Para obtener más información sobre cómo actualizar el sistema, consulte esta sección [nota técnica](../../technotes/upgrades/console.md).
 
-### Explorador web{#web-browsers}
+### Explorador web {#web-browsers}
 
 * **Microsoft Edge**
 
 * **Microsoft Edge WebView2**, última versión. Descárguelo desde el [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}.
 
-## Conectores CRM{#CRMconnectors}
+## Conectores CRM {#CRMconnectors}
 
 A continuación, se enumeran los sistemas de administración de la relación con los clientes (CRM) compatibles con Adobe Campaign. [Más información](../connect/crm.md).
 
@@ -58,26 +58,24 @@ A continuación, se enumeran las bases de datos externas compatibles con el mód
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**
 
-## SDK móvil{#MobileSDK}
+## SDK móvil {#MobileSDK}
 
 Para enviar [notificaciones push](../send/push.md) con Campaign, utilice el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign Classic en la interfaz de usuario de recopilación de datos.
 
+Las versiones compatibles con iOS y Android se detallan en la [Documentación de Adobe Developer](https://developer.adobe.com/client-sdks/home/)
 
-## Acceso web{#web-access}
+## Acceso web {#web-access}
 
 Los siguientes exploradores son compatibles con Campaign para [Web Access](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versiones más recientes)
 
-## Comprobación de la versión y compilación de Campaign{#version}
 
-Utilice el menú **Ayuda > Acerca de...** para comprobar su versión.
+## Recursos adicionales {#support}
 
-![](assets/ac-version.png)
+* [Actualizaciones de versión de Campaign](upgrades.md)
+* [Compruebe la versión de Campaign](upgrades.md#version)
+* [Instalación de la consola del cliente de Campaign](connect.md)
+* [Versiones de Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target="_blank"}.
 
-Puede acceder a la siguiente información:
-
-* El **version** número de la consola del cliente y del servidor de aplicaciones. En el ejemplo anterior, la versión es 8.1.5 tanto para la consola del cliente como para el servidor de aplicaciones.
-* El número SHA, entre paréntesis.
-* Un vínculo para ponerse en contacto con el Servicio de atención al cliente de Adobe.
-* Vínculos a la Política de privacidad de Adobe, a las Condiciones de uso y a la Política de cookies.
+Para recibir información sobre las nuevas versiones de la solución de Experience Cloud, suscríbase a [Adobe Actualización de producto prioritario](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.

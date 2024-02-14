@@ -5,9 +5,9 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1618'
 ht-degree: 41%
 
 ---
@@ -61,7 +61,7 @@ Puede utilizar perfiles de producto predeterminados o crear nuevos.
 
 ### Creación de un perfil de producto{#create-product-profile}
 
-Para añadir un nuevo perfil de producto al Adobe, primero debe crearlo en la consola del cliente de Campaign y, a continuación, añadirlo en el Admin Console.
+Para añadir un nuevo perfil de producto al Adobe, primero debe crearlo en la consola del cliente de Campaign y, a continuación, agregarlo en el Admin Console.
 
 Por ejemplo, para crear un perfil de producto &quot;revisores&quot;, siga los pasos a continuación.
 
@@ -126,7 +126,7 @@ Estos perfiles de producto coinciden con Campaign **grupos de operadores**. Los 
    >
    >Este grupo no permite a los operadores iniciar entregas.
 
-1. **[!UICONTROL Content contributors]** (content)
+1. **[!UICONTROL Content contributors]** (contenido)
 
    Los usuarios de este grupo pueden acceder a las carpetas de contenido en el contexto del **[!UICONTROL Content management]** complemento de. Este grupo no concede permisos adicionales.
 
@@ -199,7 +199,7 @@ Los derechos asignados predeterminados en Adobe Campaign son:
 
 * **[!UICONTROL CENTRAL]**: derecho para la administración central (Marketing distribuido).
 
-* **[!UICONTROL DELETE FOLDER]**: derecho para eliminar carpetas. Con este derecho, los usuarios pueden eliminar carpetas de la vista del explorador.
+* **[!UICONTROL DELETE FOLDER]**: derecho para eliminar carpetas. Con este derecho, los usuarios pueden eliminar carpetas de la vista de Explorer.
 
 * **[!UICONTROL EDIT FOLDERS]**: Derecho a modificar propiedades de carpeta como nombre interno, etiqueta, imagen asociada, orden de subcarpeta, etc.
 
@@ -209,7 +209,7 @@ Los derechos asignados predeterminados en Adobe Campaign son:
 
 * **[!UICONTROL IMPORT]**: derecho para importar datos genéricos. **[!UICONTROL IMPORT]** permite importar datos en cualquier otra tabla, mientras que el derecho de **[!UICONTROL RECIPIENT IMPORT]** permite importarlos únicamente en la tabla de destinatarios.
 
-* **[!UICONTROL INSERT FOLDERS]**: derecho para insertar carpetas. Los usuarios con el derecho de **[!UICONTROL INSERT FOLDERS]** pueden crear nuevas carpetas en el árbol de carpetas en la vista del explorador.
+* **[!UICONTROL INSERT FOLDERS]**: derecho para insertar carpetas. Los usuarios con el derecho de **[!UICONTROL INSERT FOLDERS]** pueden crear nuevas carpetas en el árbol de carpetas en la vista de Explorer.
 
 * **[!UICONTROL LOCAL]**: derecho para la administración local (Distributed Marketing).
 

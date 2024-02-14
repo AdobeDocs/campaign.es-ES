@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
 workflow-type: tm+mt
-source-wordcount: '1847'
+source-wordcount: '1919'
 ht-degree: 91%
 
 ---
@@ -20,9 +20,9 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 _28 de octubre de 2022_
 
-**Mejoras**
+**Correcciones**
 
-* Se ha corregido un problema que impedía que el indicador de envío de éxito se actualizara correctamente al usar el MTA mejorado de Adobe Campaign. (NEO-50462)
+* Se ha corregido un problema que impedía que el indicador de entrega de éxito se actualizara correctamente al usar el MTA mejorado de Adobe Campaign. (NEO-50462)
 
 ## Versión 8.4.1 {#release-8-4-1}
 
@@ -84,7 +84,7 @@ Para optimizar la seguridad, los tokens de seguridad se han eliminado de las dir
 
 **Mejoras**
 
-* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML en la consola utiliza ahora **Microsoft Edge Chromium**. Además, la instalación de **Microsoft Edge WebView 2** ahora, el tiempo de ejecución es necesario para cualquier instalación de la consola del cliente.
+* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML en la consola utiliza ahora **Microsoft Edge Chromium**. Además, la instalación del tiempo de ejecución de **Microsoft Edge WebView 2** es ahora necesaria para cualquier instalación de la consola del cliente.
 * Se ha mejorado la ejecución del flujo de trabajo con alta disponibilidad, lo que permite ejecutar flujos de trabajo simultáneos en diferentes contenedores para evitar la pérdida del servicio del flujo de trabajo y los errores de ejecución relacionados. **Nota**: esta nueva funcionalidad se lanza con disponibilidad limitada solo para un conjunto de clientes.
 * Las solicitudes de privacidad se realizan ahora en lote para un área de nombres de privacidad determinada. Esta mejora aumenta el tiempo de ejecución de las solicitudes de eliminación de RGPD/privacidad.
 
@@ -94,7 +94,7 @@ Para optimizar la seguridad, los tokens de seguridad se han eliminado de las dir
 
 Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
-**Parches**
+**Correcciones**
 
 * Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
 * Se ha corregido un problema que podía hacer que los envíos permanecieran en el estado **Pendiente** incluso si se había llegado a la fecha de contacto. (NEO-48079)
@@ -121,11 +121,11 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
 >[!CAUTION]
 >
-> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
+> la actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
 
 _7 de octubre de 2022_
 
-**Mejoras**
+**Correcciones**
 
 * Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
 * El flujo de trabajo técnico para la **Limpieza de base de datos** ahora también gestiona los esquemas de ensayo personalizados. (NEO-48974)
@@ -232,7 +232,7 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 * El número de conexiones predeterminadas para el proceso web ha aumentado de 50 a 150.
 * Campaign viene con un conjunto de nuevos mecanismos de protección para evitar la inserción de claves duplicadas en la base de datos de Snowflake. [Más información](../architecture/keys.md)
 
-**Parches**
+**Correcciones**
 
 * Se ha corregido un problema que se producía al usar semillas y grupos de control en la misma entrega recurrente. (NEO-41197)
 * Se ha corregido un problema en FDAC que provocaba que el envío de correo electrónico se bloqueara para todos los destinatarios que pertenecen a la misma deliveryPart durante el proceso de envío (hasta 256) cuando los bloques de personalización contenían uno de los siguientes caracteres: `' & < > "`. Estos caracteres ahora se admiten en bloques de personalización (ejemplo: firstname=&quot;Brian O&#39;Neil&quot;). (NEO-43184)
@@ -243,7 +243,7 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
 _2 de febrero de 2022_
 
-**Parches**
+**Correcciones**
 
 * Se ha corregido un problema que hacía que la preparación de la entrega fallara si se llegaba al número máximo de mensajes definido en las reglas de tipología.
 * Se ha corregido un problema durante la configuración del conector de Adobe Analytics cuando la dirección de correo electrónico contenía un carácter “s”.

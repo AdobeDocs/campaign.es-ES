@@ -1,36 +1,60 @@
 ---
-title: Discover Campaign Workspace
-description: Aprenda a examinar y utilizar el espacio de trabajo de Campaign
+title: Interfaz de usuario de Discover Campaign
+description: Aprenda a examinar y utilizar la interfaz de usuario de Campaign
 feature: Overview
 role: User
 level: Beginner
-exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 8666c04f0e98cd6444af831d47056c46019c6088
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 32%
+source-wordcount: '997'
+ht-degree: 11%
 
 ---
 
-# Interfaz de usuario de Discover Campaign
+# Descubra la interfaz de usuario {#ui-client-console}
 
-## Acceso a IU de Campaign{#ui-access}
+Puede acceder a Adobe Campaign a través de su consola de cliente o de su interfaz de usuario web. También puede utilizar las API para administrar datos y realizar tareas en la plataforma de Campaign.
 
-El espacio de trabajo de Campaign está disponible a través de la [consola del cliente](../architecture/general-architecture.md).
+>[!CAUTION]
+>
+>Esta documentación se centra en el uso de la consola del cliente de Campaign. Si está utilizando la interfaz de usuario de Campaign Web, consulte [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
 
-Obtenga información sobre cómo instalar y configurar la consola del cliente de Campaign en [esta sección](../start/connect.md).
+* **Consola de cliente** : La consola del cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S). [Más información](#ui-access)
+
+  Obtenga información sobre cómo instalar y configurar la consola del cliente de Campaign en [esta sección](../start/connect.md).
+
+<!--    ![](assets/home-page.png) -->
+
+* **Interfaz de usuario web** : Como usuario de Campaign v8, a partir de la versión 8.6.1, ahora tiene acceso a un entorno web, disponible a través de la interfaz de usuario central de Adobe Experience Cloud. A continuación, puede conectarse a Adobe Campaign desde un explorador web. Esta nueva interfaz le permite crear, administrar y ejecutar acciones de marketing clave. Sin embargo, no todas las funcionalidades de Campaign están disponibles. [Más información](#ac-web-ui).
+
+  La interfaz de usuario web de Campaign Campaign está disponible a través de la página principal de la consola del cliente.
+
+  ![](assets/web-ui.png)
+
+  >[!NOTE]
+  >
+  >Si no se muestra la nueva tarjeta de acceso, asegúrese de que los siguientes campos no queden vacíos en la cuenta externa de Adobe Experience Cloud: **Servidor**, **Inquilino**, **Callback server**, y **Marca de asociación**.
+
+* **Acceso web** : Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  Obtenga más información sobre Campaign Web Access [en esta sección](../start/connect.md#web-access).
+
+* **API** : Para tratar más casos de uso, se puede llamar al sistema desde aplicaciones externas utilizando las API de servicios web expuestas mediante el protocolo SOAP. Más información sobre las API de Campaign [en esta página](../dev/api.md).
+
+
+## Trabajar con la consola de cliente {#ui-access}
+
+La consola del cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).  [Obtenga más información acerca de la consola del cliente de Campaign](../start/connect.md).
 
 ![](assets/home-page.png)
 
 También puede utilizar un explorador web para acceder a Campaign. En este contexto, solo está disponible un subconjunto de las funcionalidades de Campaign. [Más información](#web-browser)
 
-## Exploración de la IU{#ui-browse}
+### Examen de la interfaz {#ui-browse}
 
-Una vez que esté conectado a Campaign, accede a la página principal. Examine los vínculos para acceder a las funcionalidades de. El conjunto de funcionalidades disponibles en la IU depende de las opciones y permisos.
+Una vez que esté conectado a la consola del cliente de Campaign, acceda a la página principal. Examine los vínculos para acceder a las funcionalidades de. El conjunto de funcionalidades disponibles en la interfaz depende de las opciones y permisos.
 
-Desde la sección central de la página principal, utilice vínculos para acceder a los materiales de ayuda de Campaign, a la comunidad y al sitio web de asistencia.
+Desde la sección central de la página principal, utilice vínculos para acceder a los materiales de ayuda de Campaign, a la comunidad y al sitio web de asistencia. Utilice las tarjetas centrales para examinar la nueva interfaz de usuario web de Campaign y el Panel de control de Campaign.
 
-Utilice las pestañas de la sección superior para examinar las funciones clave de Campaign:
+Examine las pestañas de la sección superior para acceder a las funciones clave de Campaign:
 
 ![](assets/overview-home.png)
 
@@ -48,7 +72,7 @@ Al seleccionar un elemento en la pantalla, se carga en una nueva pestaña para q
 
 ![](assets/new-tab.png)
 
-## Creación de un elemento {#create-an-element}
+### Creación de un elemento {#create-an-element}
 
 Utilice métodos abreviados en la **[!UICONTROL Create]** en la parte izquierda de la pantalla para añadir nuevos elementos. También puede utilizar la variable **[!UICONTROL Create]** situado sobre la lista para añadir nuevos elementos a la lista actual.
 
@@ -56,15 +80,16 @@ Por ejemplo, en la página de entrega, utilice el botón **[!UICONTROL Create]**
 
 ![](assets/new-recipient.png)
 
-## Uso de un explorador web {#web-browser}
+<!--
+## Use a web browser {#web-browser}
 
-También puede acceder a un subconjunto de las funcionalidades de Campaign a través de un explorador web.
+You can also access a subset of Campaign capabilities through the a web browser.
 
-La interfaz de acceso web es similar a la interfaz de la consola. Desde un explorador, puede utilizar las mismas funciones de navegación y visualización que en la consola, pero solo puede realizar un conjunto reducido de acciones en las campañas. Por ejemplo, puede ver y cancelar campañas, pero no puede modificarlas.
+The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns. 
 
-![](../assets/do-not-localize/glass.png) [Obtenga más información sobre el acceso web de Campaign](../start/connect.md#web-access).
+![](../assets/do-not-localize/glass.png) [Learn more about Campaign web access](../start/connect.md#web-access).-->
 
-## Acceso al explorador de Campaign {#ac-explorer-ui}
+### Acceso al explorador de Campaign {#ac-explorer-ui}
 
 Examine el explorador de Campaign para acceder a todas las funcionalidades y configuraciones de Adobe Campaign.
 
@@ -78,21 +103,37 @@ Esta área de trabajo permite acceder al árbol del Explorador para examinar tod
 
 * La sección inferior muestra los detalles del registro seleccionado.
 
-## Idiomas{#languages}
 
-La interfaz de usuario de Campaign v8 está disponible en los siguientes idiomas:
+## Interfaz de usuario web de Campaign {#ac-web-ui}
 
-* Inglés (RU)
-* Inglés (EE. UU.)
-* Francés
-* Alemán
-* Japonés
+Como usuario de la consola del cliente de Campaign v8, a partir de la versión v8.6.1, ahora tiene acceso a un entorno web, disponible a través de la interfaz de usuario central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
 
-El idioma se selecciona durante el proceso de instalación.
+![Página Inicial de la Interfaz de Usuario Web Adobe Campaign](assets/ac-web-home.png)
 
->[!CAUTION]
->
->No se puede cambiar el idioma después de la creación de la instancia.
+Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
+Las funciones, la configuración y los ajustes adicionales y avanzados solo están disponibles en la consola del cliente. Obtenga más información acerca de las funcionalidades disponibles en ambas interfaces de usuario [en la documentación de la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html){target="_blank"}.
+
+
+## Idiomas admitidos {#languages}
+
+Los idiomas admitidos dependen de la interfaz de usuario.
+
+* Para la interfaz de la consola del cliente de Campaign v8, los idiomas compatibles son:
+
+   * Inglés (RU)
+   * Inglés (EE. UU.)
+   * Francés
+   * Alemán
+   * Japonés
+
+
+  >[!CAUTION]
+  >
+  >El idioma se selecciona durante el proceso de instalación y no se puede cambiar posteriormente.
+
+* Para los idiomas compatibles con la interfaz de usuario web de Campaign, [consulte esta página](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
+
 
 El idioma afecta a los formatos de fecha y hora.
 

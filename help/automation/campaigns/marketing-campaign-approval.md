@@ -5,10 +5,10 @@ description: Descubra cómo administrar las aprobaciones de campañas de marketi
 feature: Approvals, Campaigns
 role: User
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 58%
+source-wordcount: '2281'
+ht-degree: 55%
 
 ---
 
@@ -68,7 +68,7 @@ El proceso de aprobación de las entregas se detalla en [esta sección](#review-
 
 ## Selección de revisores {#select-reviewers}
 
-Para cada tipo de aprobación, se seleccionan los operadores o grupos de operadores a cargo de la aprobación de la lista desplegable en la entrega. Se pueden agregar operadores adicionales mediante el vínculo **[!UICONTROL Edit...]**. Esta ventana también le permite editar la fecha límite de la aprobación. De forma predeterminada, los revisores tienen tres días a partir de la fecha de entrega para aprobar un proceso. Para añadir un recordatorio automático, utilice el **[!UICONTROL Add a reminder]** vínculo.
+Para cada tipo de aprobación, se seleccionan los operadores o grupos de operadores a cargo de la aprobación de la lista desplegable en la entrega. Se pueden agregar operadores adicionales mediante el vínculo **[!UICONTROL Edit...]**. Esta ventana también permite editar la fecha límite de la aprobación. De forma predeterminada, los revisores tienen tres días a partir de la fecha de entrega para aprobar un proceso. Para añadir un recordatorio automático, utilice el **[!UICONTROL Add a reminder]** vínculo.
 
 ![](assets/add-reviewers.png)
 
@@ -90,7 +90,7 @@ Si se define una lista de revisores, el trabajo se aprueba en cuanto un revisor 
 
 ## Revisión y aprobación de entregas {#review-and-approve-deliveries}
 
-Para cada campaña, puede aprobar el objetivo de la entrega, [contenido del envío](#approving-content) y costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola del cliente o de una conexión web. [Más información](#approving-processes).
+Para cada campaña, puede aprobar el objetivo de la entrega, [contenido del envío](#approving-content) y costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola del cliente o de un explorador web. [Más información](#approving-processes).
 
 Para las entregas de correo directo, los operadores de Adobe Campaign pueden ver el archivo de extracción antes de enviarlo al enrutador y, si es necesario, pueden cambiar el formato y volver a iniciar la extracción. [Más información](#approve-an-extraction-file).
 
@@ -103,7 +103,7 @@ Cuando se hayan completado estas fases de validación, se puede iniciar el enví
 
 ### Pasos para aprobar un envío {#approving-processes}
 
-Las etapas que requieren aprobación aparecen en el panel de campañas (a través de la consola del cliente o la interfaz web). También aparecen en la tabla de seguimiento de entregas y en el panel de entregas.
+Los pasos que requieren aprobación aparecen en el panel de campañas (a través de la consola del cliente o un explorador web). También aparecen en la tabla de seguimiento de entregas y en el panel de entregas.
 
 ![](assets/delivery-approval-actions.png)
 
@@ -117,7 +117,7 @@ En cada entrega de la campaña, puede aprobar los siguientes procesos:
 
   >[!NOTE]
   >
-  >La aprobación del presupuesto solo está disponible si la aprobación del objetivo está habilitada en la ventana de configuración de aprobación. El vínculo para la aprobación del presupuesto solo se muestra una vez analizado el objetivo.
+  >La aprobación del presupuesto solo está disponible si la aprobación del objetivo está habilitada en la ventana de configuración de aprobación. El enlace para la aprobación del presupuesto solo se muestra una vez analizado el objetivo.
 
   Si las opciones **[!UICONTROL Assign content editing]** o **[!UICONTROL External content approval]** están seleccionadas en la ventana de configuración de aprobación, el panel muestra los vínculos **[!UICONTROL Available content]** y **[!UICONTROL External content approval]**.
 
@@ -149,7 +149,7 @@ En cada entrega de la campaña, puede aprobar los siguientes procesos:
 
 >[!CAUTION]
 >
->Para aprobar un contenido, es obligatorio ejecutar un ciclo de prueba. Las pruebas permiten aprobar la visualización de información, personalizar los datos y comprobar que los vínculos funcionan.
+>Para aprobar un contenido, es obligatorio ejecutar un ciclo de prueba. Las pruebas permiten aprobar la visualización de información, personalizar los datos y comprobar que los enlaces funcionan.
 >
 >Las funcionalidades de aprobación de contenido detalladas a continuación están relacionadas con el envío de pruebas.
 
@@ -165,7 +165,7 @@ Se puede configurar un ciclo de aprobación de contenido. Para ello, seleccione 
 
    * a través del correo electrónico de notificación: el correo electrónico de notificación contiene un vínculo a las pruebas que ya se han enviado y posiblemente a una representación del mensaje para los distintos correos electrónicos si la variable **Entrega** El complemento está habilitado para esta instancia.
 
-   * a través de la consola del cliente o de la interfaz web, el seguimiento de entregas, el panel de entregas o el panel de campañas. Este panel de campaña le permite ver la lista de pruebas que se han enviado haciendo clic en el vínculo **[!UICONTROL Inbox rendering...]**. Para ver el contenido, haga clic en el icono **[!UICONTROL Detail]** a la derecha de la lista.
+   * a través de la consola del cliente o un explorador web, el seguimiento de entregas, el panel de entregas o el panel de campañas. Este panel de campaña le permite ver la lista de pruebas que se han enviado haciendo clic en el vínculo **[!UICONTROL Inbox rendering...]**. Para ver el contenido, haga clic en el icono **[!UICONTROL Detail]** a la derecha de la lista.
 
 1. Se envía un correo electrónico de notificación a la persona responsable de la campaña en el que se indica si el contenido se ha aprobado o no. La persona responsable de la campaña puede volver a iniciar el ciclo de aprobación de contenido en cualquier momento. Para ello, haga clic en el vínculo en la línea **[!UICONTROL Content status]** del panel de campañas (al nivel de entrega) y luego haga clic en **[!UICONTROL Reset content approval to submit it again]**.
 
@@ -199,7 +199,7 @@ Esta opción le permite definir un operador externo encargado de aprobar el proc
 1. El administrador de contenido externo recibe un mensaje de correo electrónico de notificación que indica que el contenido se ha aprobado y se solicita la aprobación externa.
 1. El correo electrónico de notificación contiene vínculos a las pruebas enviadas, lo que le permite ver el procesamiento de la entrega, y un botón para aprobar o rechazar el contenido de la entrega.
 
-Estos vínculos solo están disponibles si se han enviado una o más pruebas. De lo contrario, el procesamiento de la entrega solo está disponible a través de la consola del cliente o de la interfaz web.
+Estos vínculos solo están disponibles si se han enviado una o más pruebas. De lo contrario, el procesamiento de la entrega solo está disponible a través de la consola del cliente o de un explorador web.
 
 ### Aprobación de un archivo de extracción {#approve-an-extraction-file}
 
@@ -219,7 +219,7 @@ Los trabajos se pueden aprobar en el panel de campañas, en la pestaña de segui
 
 ### Aprobar en el panel {#approval-via-the-dashboard}
 
-Para aprobar un trabajo a través de la consola del cliente o la interfaz web, haga clic en el vínculo correspondiente en el panel de campañas.
+Para aprobar un trabajo a través de la consola del cliente o mediante un explorador web, haga clic en el vínculo correspondiente en el panel de campañas.
 
 Por ejemplo, una vez ejecutado el análisis de envío:
 
@@ -228,7 +228,7 @@ Por ejemplo, una vez ejecutado el análisis de envío:
 ![](assets/target-validation-from-console.png)
 
 1. En la ventana emergente, compruebe la información que desea aprobar.
-1. Seleccione **[!UICONTROL Accept]** o **[!UICONTROL Reject]** e introduzca un comentario si lo considera necesario. Este comentario se mostrará en los registros de validación.
+1. Seleccionar **[!UICONTROL Accept]** o **[!UICONTROL Reject]** e introduzca un comentario si lo considera necesario. Este comentario se mostrará en los registros de validación.
 1. Confirme su elección con el **[!UICONTROL Target approval]** botón.
 
 ![](assets/confirm-validation-from-console.png)
@@ -249,7 +249,7 @@ Para aprobar un trabajo desde [mensaje de notificación](#notifications):
 1. Inicie sesión en Adobe Campaign.
 1. Compruebe la información que desea aprobar
 1. Seleccione **[!UICONTROL Accept]** o **[!UICONTROL Reject]** e introduzca un comentario si lo considera necesario.
-1. Validación. Su elección y comentario se muestran en los registros de validación.
+1. Validar. Su elección y comentario se muestran en los registros de validación.
 
 >[!NOTE]
 >
@@ -283,7 +283,7 @@ Los registros de aprobación están disponibles en la interfaz de usuario:
 
 Al crear un flujo de trabajo de objetivo, si la aprobación es automática (modo predeterminado), Adobe Campaign muestra el vínculo de aprobación o envía una notificación en cuanto se requiere una aprobación.
 
-Para seleccionar el modo de aprobación (manual o automático), haga clic en la pestaña **[!UICONTROL Edit > Properties]** en la campaña o plantilla de campaña y luego haga clic en **[!UICONTROL Advanced campaign parameters...]** y finalmente en la pestaña **[!UICONTROL Approvals]**.
+Para elegir el modo de aprobación (manual o automático), haga clic en **[!UICONTROL Edit > Properties]** de la campaña o plantilla de campaña y haga clic en **[!UICONTROL Advanced campaign parameters...]** y finalmente el **[!UICONTROL Approvals]** pestaña.
 par
 ![](assets/approval-mode.png)
 

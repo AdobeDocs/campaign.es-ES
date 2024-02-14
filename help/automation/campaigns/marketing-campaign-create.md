@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo crear y ejecutar campañas de mark
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 56%
+source-wordcount: '1327'
+ht-degree: 48%
 
 ---
 
@@ -54,7 +54,7 @@ Antes de empezar a crear campañas y envíos, configure la jerarquía de carpeta
 
 Al editar un programa, utilice las pestañas que se describen a continuación para explorarlo y configurarlo.
 
-* La pestaña **Programación** muestra el calendario de programas de un mes, una semana o un día según la pestaña en la que haga clic en el encabezado del calendario. Puede crear una campaña, un programa o una tarea desde esta página. [Más información](#campaign-calendar)
+* El **Programación** La pestaña muestra el calendario de programas de un mes, una semana o un día según la pestaña en la que haga clic en el encabezado del calendario. Puede crear una campaña, un programa o una tarea desde esta página. [Más información](#campaign-calendar)
 
 * La pestaña **Editar** permite personalizar el programa: nombre, fechas de inicio y finalización, presupuesto, documentos vinculados, etc.
 
@@ -76,7 +76,7 @@ En la ventana de creación de campaña, seleccione la plantilla de campaña y a�
 
 Haga clic en **[!UICONTROL OK]** para crear la campaña. Se añade a la programación y a la lista de campañas.
 
-Luego puede editar la campaña que acaba de crear y definir sus parámetros. Para abrir y configurar esta campaña, puede:
+A continuación, puede editar la campaña que acaba de crear y definir sus parámetros. Para abrir y configurar esta campaña, puede:
 
 1. Examine el calendario de campañas y seleccione la campaña que desee visualizar y luego haga clic en **[!UICONTROL Open]** vínculo.
 1. Examine la **[!UICONTROL Schedule]** del programa, seleccione la campaña y ábrala.
@@ -158,9 +158,14 @@ A medida que navega por el calendario, también puede crear un programa o una ca
 Cuando crea una campaña a través de la pestaña **[!UICONTROL Schedule]** de un programa, la campaña se relaciona automáticamente con el programa correspondiente. El campo **[!UICONTROL Program]** está oculto en este caso.
 
 
-## Uso de la interfaz web {#use-the-web-interface-}
+## Acceso a Campaign con un explorador web {#use-the-web-interface}
 
-Puede acceder a las pantallas de la consola del cliente de Adobe Campaign a través de un explorador de Internet para ver todas las campañas y envíos, así como informes e información sobre los perfiles de la base de datos. Este acceso no permite la creación de registros. Según los derechos de los operadores, puede ver o actuar en los datos de la base de datos. Por ejemplo: puede aprobar el contenido de las campañas y su segmentación, reiniciar o detener una entrega, etc.
+
+>[!AVAILABILITY]
+>
+>A partir de la versión 8.6 de Campaign, Campaign está disponible en una interfaz de usuario web. La mayoría de las acciones de marketing se pueden realizar desde esta nueva interfaz. [Más información](../../v8/start/campaign-ui.md#discover-the-user-interface).
+
+Puede acceder a algunas de las pantallas de la consola del cliente de Adobe Campaign a través de un explorador de Internet para ver todas las campañas y envíos, así como informes e información sobre los perfiles de la base de datos. No puede crear componentes a partir de este acceso web, pero, según los derechos de acceso, puede ver los datos de la base de datos o actuar en ellos. Normalmente, puede aprobar el contenido de la campaña y su segmentación, reiniciar o detener una entrega, etc.
 
 1. Inicie sesión a través de https://`<your instance>:<port>/view/home`.
 1. Utilice los menús para acceder a las descripciones generales.
@@ -187,7 +192,7 @@ Esta tabla resume las acciones que se pueden realizar en las campañas desde un 
 | Tarea | Finalizar una tarea<br/>Cancelar una tarea |
 | Recursos de marketing | Aprobar un recurso<br/>Bloqueo y desbloqueo de un recurso |
 | Paquete de campañas | Enviar un paquete para su aprobación<br/>Aprobar o rechazar un paquete<br/>Cancelar un paquete |
-| Pedido de la campaña | Crear un pedido<br/>Aceptar o rechazar un pedido |
+| Pedido de la campaña | Creación de un pedido<br/>Aceptar o rechazar una solicitud |
 | Stock | Eliminar una línea de stock |
 | Simulación de oferta | Inicio y parada de una simulación |
 | Flujo de trabajo de direccionamiento | Iniciar, pausar y detener un flujo de trabajo |

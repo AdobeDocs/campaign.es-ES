@@ -5,9 +5,9 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1108'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,7 @@ Están disponibles los siguientes tipos de informe:
 
 Puede acceder a los informes integrados desde la página de inicio de Campaign, el panel de informes dedicado o la lista de envío. La forma en que se muestra el informe en la interfaz de usuario depende de su contexto.
 
-Hay disponible una lista de informes clave en la página principal que le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. También puede aprender a añadir sus propios informes a la pestaña **[!UICONTROL Reports]**.
+Hay disponible una lista de informes clave en la página principal que le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. También puede aprender a añadir sus propios informes a **[!UICONTROL Reports]** pestaña.
 
 Para obtener más información sobre estas configuraciones personalizadas, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
 
@@ -381,7 +381,7 @@ También se incluyen los siguientes informes. Para más información al respecto
   </tr> 
   <tr> 
    <td> Historial de posibles adquisiciones en redes sociales (socialVisitorStatistics)<br /> </td> 
-   <td> Historial de X (anteriormente conocido como Twitteres) y posibles adquisiciones de Facebook, depende del complemento de marketing social.<br /> </td> 
+   <td> El historial de las adquisiciones de clientes potenciales en Facebook y X (anteriormente conocido como Twitter) depende del complemento Social marketing.<br /> </td> 
    <td> nms:visitor<br /> </td> 
   </tr> 
   <tr> 

@@ -5,28 +5,34 @@ feature: Email
 role: Data Engineer
 level: Beginner
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 4c79078e32c77499f15906fc81f31ce2b26559d7
+source-git-commit: 84b90cbd150c81edc81f5cc653db6fbe96af80aa
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 34%
+source-wordcount: '808'
+ht-degree: 25%
 
 ---
 
 
-# Envío y monitorización de correos electrónicos
+# Envío y monitorización de correos electrónicos  {#send-and-monitor-emails}
 
-Una vez configurada la entrega y lista para enviarla, asegúrese de haber ejecutado el análisis de entrega. [Más información](delivery-analysis.md)
+Una vez configurada la entrega y lista para enviarla, asegúrese de ejecutar el análisis de entrega. [Más información](delivery-analysis.md)
 
 Una vez finalizado, confirme la entrega para iniciar la entrega de mensajes.
 
 Rastree la ejecución del envío desde el **Envío** , a la que se puede acceder mediante el detalle de esta entrega o a través de la lista de envíos.
 
-## Monitorización de correos electrónicos
+## Monitorización de correos electrónicos {#email-monitoring}
 
-Una vez enviado, compruebe el estado de envío en el panel de envío y acceda a los registros de envío e informes para confirmar que los mensajes se han enviado correctamente.
+Una vez enviado, compruebe el estado de envío en la **Tablero de envío** y acceder a los registros de envío e informes para confirmar que los mensajes se han enviado correctamente.
 
-![](../assets/do-not-localize/book.png) [Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
+Desde el panel de entregas, puede comprobar los mensajes procesados y los registros de auditoría de entregas. También puede controlar el estado de los mensajes en los registros de envío.
 
+>[!NOTE]
+>
+>Los estados de envío no se muestran en tiempo real. Más información sobre el Servicio de comentarios de correo electrónico [en esta sección](#email-feedback-service).
+
+
+![](../assets/do-not-localize/book.png) [Obtenga más información acerca de la monitorización de entregas en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html){target="_blank"}
 
 ## MTA de Campaign {#mta}
 
@@ -73,17 +79,15 @@ Obtenga más información sobre DKIM en la [Guía de prácticas recomendadas de 
 
 ## Servicio de comentarios de correo electrónico {#email-feedback-service}
 
-Con el servicio de comentarios de correo electrónico (EFS), se informa del estado de cada correo electrónico con precisión, ya que los comentarios se capturan directamente desde el MTA.
+El servicio de comentarios de correo electrónico de Campaign (EFS) informa del estado de cada envío de correo electrónico realizado con Adobe Campaign.
 
-Una vez iniciada la entrega, no se producen cambios en la **[!UICONTROL Success]** porcentaje de cuando el mensaje se retransmite correctamente desde Campaign al servidor de correo.
-
-Los registros de envío muestran el estado **[!UICONTROL Taken into account by the service provider]** de cada dirección de destino.
+Una vez iniciada la entrega, no se producen cambios en la **[!UICONTROL Success]** porcentaje de cuando el mensaje se retransmite correctamente desde Campaign al servidor de correo. Los registros de envío muestran el estado **[!UICONTROL Taken into account by the service provider]** de cada dirección de destino.
 
 Cuando el mensaje se envía realmente a los perfiles objetivo y una vez que se transmite esta información en tiempo real desde el servidor de correo, los registros de envío muestran el **[!UICONTROL Sent]** estado de cada dirección que recibió correctamente el mensaje. El porcentaje de **[!UICONTROL Success]** se incrementa en consecuencia con cada envío correcto.
 
 Cuando el servidor de correo devuelve mensajes de rebote duro, su estado de registro cambia de **[!UICONTROL Taken into account by the service provider]** hasta **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo el [motivo del error](delivery-failures.md#delivery-failure-reasons) se ha actualizado<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
+Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo el [motivo del error](delivery-failures.md#delivery-failure-reasons) se ha actualizado<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. Los mensajes de devolución suave se vuelven a intentar durante toda la entrega [período de validez](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}:
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** sube en consecuencia.
 
@@ -95,7 +99,7 @@ Cuando se generan informes de los mensajes de rebote suave desde el servidor de 
 >
 >Para obtener más información sobre reintentos después de un error temporal de envío, consulte [esta sección](delivery-failures.md#retries).
 
-La tabla siguiente muestra cómo se actualizan los KPI y los estados de registros de envío en cada paso del proceso de envío con la capacidad EFS.
+La tabla siguiente muestra cómo se actualizan los KPI y los estados de registros de envío en cada paso del proceso de envío.
 
 | Paso en el proceso de envío | Resumen de KPI | Estado de envío de registros |
 |--- |--- |--- |

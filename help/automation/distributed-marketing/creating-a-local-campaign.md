@@ -5,10 +5,10 @@ description: Creación de una campaña local
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 96%
+source-wordcount: '1553'
+ht-degree: 91%
 
 ---
 
@@ -46,17 +46,17 @@ En la ventana de la campaña, haga clic en la pestaña **[!UICONTROL Edit]** y l
 
 ![](assets/mkt_distr_4.png)
 
-### Interfaz web {#web-interface}
+### Tipo de interfaz {#web-interface}
 
-En la pestaña **Marketing distribuido**, puede elegir el tipo de interfaz web y especificar los valores y parámetros predeterminados que introducir cuando una entidad local realiza una solicitud.
+En el **Marketing distribuido** , puede elegir el tipo de interfaz y especificar los valores y parámetros predeterminados que se introducen cuando una entidad local realiza una solicitud.
 
-La interfaz web corresponde a un formulario que la entidad local rellena al solicitar la campaña.
+La interfaz corresponde a un formulario que la entidad local rellena al solicitar la campaña.
 
-Seleccione el tipo de interfaz web que se aplicará a las campañas creadas a partir de la plantilla:
+Seleccione el tipo de interfaz que se aplicará a las campañas creadas a partir de la plantilla:
 
 ![](assets/mkt_distr_1.png)
 
-Hay cuatro tipos de interfaces web disponibles:
+Hay cuatro tipos de interfaces disponibles:
 
 * **[!UICONTROL By brief]**: la entidad local debe proporcionar una descripción de las configuraciones de campaña. Una vez aprobada la solicitud, la entidad central se configura y ejecuta la campaña en su totalidad.
 
@@ -190,7 +190,7 @@ Esta información se encuentra en el mensaje de notificación enviado a las agen
 
 ![](assets/s_advuser_mkg_dist_local_notif.png)
 
-### Audiencia {#audience}
+### Público {#audience}
 
 Para una campaña local, la entidad central puede especificar las entidades locales involucradas en la comprobación de **[!UICONTROL Limit the package to a set of local entities]**.
 
@@ -298,7 +298,7 @@ Cuando una entidad local solicita una campaña, sus revisores reciben notificaci
 
 #### Aprobación mediante la consola de cliente {#approving-via-the-adobe-campaign-console}
 
-Las solicitudes también se pueden aprobar a través de la consola del cliente, en la descripción general de la solicitud de la campaña. Para aprobar una solicitud, selecciónela y haga clic en **[!UICONTROL Approve the order]**.
+Las solicitudes también se pueden aprobar a través de la consola del cliente, en la información general de la solicitud de la campaña. Para aprobar una solicitud, selecciónela y haga clic en **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 

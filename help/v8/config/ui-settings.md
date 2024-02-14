@@ -6,10 +6,10 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1846'
-ht-degree: 41%
+source-wordcount: '1848'
+ht-degree: 40%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 41%
 En Adobe Campaign, para los campos que expresan una duración (por ejemplo, un periodo de validez de los recursos, un plazo de aprobación para una tarea, etc.), los valores se pueden expresar de la siguiente manera **unidades**:
 
 * **[!UICONTROL s]** para segundos
-* **[!UICONTROL mn]** para minutos
+* **[!UICONTROL mn]** para los minutos
 * **[!UICONTROL h]** para horas
 * **[!UICONTROL d]** para días
 
@@ -188,7 +188,7 @@ Para **Abrir** y **Cerrado** enumeraciones, hay opciones específicas disponible
 * **Reservado para discretización** es una opción que permite vincular valores de cubo a esta enumeración. [Más información](../reporting/gs-cubes.md)
 
 
-### Alias cleansing {#alias-cleansing}
+### Limpieza de alias {#alias-cleansing}
 
 En los campos de enumeración, puede seleccionar un valor o introducir un valor personalizado que no esté disponible en la lista desplegable. Los valores personalizados se pueden añadir a los valores de enumeraciones existentes, como uno nuevo: en este caso, la variable **[!UICONTROL Open]** La opción debe estar seleccionada. Estos valores personalizados se pueden limpiar con las funciones de limpieza de alias. Por ejemplo, si un usuario introduce `Adob` en lugar de `Adobe`, el proceso de limpieza de alias puede reemplazarlo automáticamente por el término correcto.
 

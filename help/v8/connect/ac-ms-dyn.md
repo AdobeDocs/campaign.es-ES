@@ -5,10 +5,10 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 39%
+source-wordcount: '1376'
+ht-degree: 36%
 
 ---
 
@@ -34,7 +34,7 @@ Para cada sistema, estos pasos debe realizarlos un administrador.
 Para conectar Microsoft Dynamics 365 para trabajar con Adobe Campaign mediante **API web**, inicie sesión en [Microsoft Azure Directory](https://portal.azure.com) uso de un **Administrador global** y siga los pasos a continuación:
 
 1. Obtenga su ID de aplicación (cliente) de Dynamics 365. [Más información](#get-client-id-microsoft)
-1. Genere el identificador de clave de certificado de Microsoft Dynamics e ID de clave. [Más información](#config-certificate-key-id)
+1. Genere el identificador de clave de certificado de Microsoft Dynamics y el ID de clave. [Más información](#config-certificate-key-id)
 1. Configure los permisos. [Más información](#config-permissions-microsoft)
 1. Crear un usuario de aplicación. [Más información](#create-app-user-microsoft)
 1. Codifique la clave privada. [Más información](#configure-acc-for-microsoftt)

@@ -8,10 +8,10 @@ level: Intermediate
 hide: true
 hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 47%
+source-wordcount: '1231'
+ht-degree: 42%
 
 ---
 
@@ -26,7 +26,7 @@ Como administrador de Campaign, puede descargar los SDK de Campaign desde el [Di
 
 >[!NOTE]
 >
->También puede utilizar el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign en la interfaz de usuario de recopilación de datos. [Obtenga más información en la documentación de Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
+>También puede utilizar el SDK de Adobe Experience Platform Mobile configurando la extensión de Adobe Campaign en la interfaz de usuario de la recopilación de datos. [Obtenga más información en Documentación para desarrolladores](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic){target="_blank"}.
 >
 
 ## Declarar configuración de integración {#declaring-integration-settings}
@@ -37,7 +37,7 @@ Para integrar el SDK de Campaign en la aplicación móvil, el administrador func
 
   >[!NOTE]
   >
-  >Esta clave de integración se introduce en la consola de Adobe Campaign, en la pestaña **[!UICONTROL Information]** del servicio dedicado a la aplicación móvil.
+  >Esta clave de integración se introduce en la consola de Adobe Campaign, en **[!UICONTROL Information]** pestaña del servicio dedicado a la aplicación móvil.
 
 * **Una URL de seguimiento**: coincide con la dirección del servidor de rastreo de Adobe Campaign.
 * **Una URL de marketing**: para habilitar la recopilación de suscripciones.

@@ -5,10 +5,10 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '2552'
-ht-degree: 3%
+source-wordcount: '2551'
+ht-degree: 4%
 
 ---
 
@@ -502,7 +502,7 @@ Ejemplo en el campo &quot;Género&quot;:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## Añadir botón de opción {#radio-button}
+## Añadir botón de radio {#radio-button}
 
 Un botón de opción le permite elegir entre varias opciones. El **`<input>`** se utilizan para enumerar las posibles opciones y la variable **checkValue** especifica el valor asociado con la opción.
 

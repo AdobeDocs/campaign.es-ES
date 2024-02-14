@@ -1,22 +1,20 @@
 ---
-title: Conexión a Campaign v8
-description: Aprenda a conectarse a Adobe Campaign versión 8 y a instalar la consola en su equipo para disfrutar de un acceso más sencillo.
+title: Conexión a Campaign con la consola del cliente
+description: Obtenga información sobre cómo instalar la consola del cliente de Campaign en el equipo y conectarse a Adobe Campaign
 feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: b71197027d9521fd648a0c2657b6b76a1aa7fc9a
+source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 11%
+source-wordcount: '850'
+ht-degree: 7%
 
 ---
 
-# Conectar con Adobe Campaign v8{#gs-ac-connect}
+# Conexión a Campaign con la consola del cliente{#gs-ac-connect}
 
-Para comenzar a trabajar con Campaign, debe instalar y configurar la consola del cliente.
-
-La consola del cliente es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).
+Para conectarse a Campaign con la consola del cliente, primero debe instalarla y configurarla.
 
 Antes de empezar, debe hacer lo siguiente:
 
@@ -25,11 +23,17 @@ Antes de empezar, debe hacer lo siguiente:
 * Cree su Adobe ID o consiga sus credenciales de usuario en su empresa
 * Instale el tiempo de ejecución de Microsoft Edge Webview2 en su sistema. [Más información](#webview)
 
+
+>[!NOTE]
+>
+>También puede conectarse a la interfaz de usuario web de Campaign mediante un explorador web. Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+
+
 ## Instalación de la consola de cliente{#download-ac-console}
 
 ### Tiempo de ejecución de Microsoft Edge Webview2 {#webview}
 
-A partir de la versión de compilación de Campaign Classic 8.4, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente.
+A partir de la versión de compilación del Campaign Classic 8.4, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente.
 
 Web View se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el programa de instalación de la consola del cliente de Campaign le pedirá que lo descargue desde [Sitio web para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}. Tenga en cuenta que el vínculo de descarga no funciona en el navegador Internet Explorer 11, ya que Microsoft ha dejado de admitir. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
 
@@ -41,9 +45,9 @@ Hay dos opciones disponibles para descargar la consola del cliente:
 
 1. Como administrador de Campaign, conéctese al Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target="_blank"}.
 
-1. Como usuario final, el administrador de Campaign implementa Client Console por usted y la pone a disposición a través de una dirección URL dedicada.
+1. Como usuario final, el administrador de Campaign implementa la consola del cliente y la pone a disposición a través de una dirección URL dedicada.
 
-Una vez descargado el programa de instalación de Client Console, instálelo en el equipo local.
+Una vez descargado el programa de instalación de la consola del cliente, instálelo en el equipo local.
 
 Tenga en cuenta que no puede cambiar el idioma de la consola del cliente una vez que está instalada.
 
@@ -67,7 +71,7 @@ Puede añadir tantas conexiones como sea necesario para conectarse a los entorno
 
 >[!NOTE]
 >
->El botón **[!UICONTROL Add]** permite crear **[!UICONTROL folders]** para organizar todas las conexiones. Basta con arrastrar y colocar cada conexión en una carpeta.
+>El **[!UICONTROL Add]** El botón permite crear **[!UICONTROL folders]** para organizar todas las conexiones. Basta con arrastrar y colocar cada conexión en una carpeta.
 
 ## Iniciar sesión en Adobe Campaign {#logon-to-ac}
 
@@ -91,11 +95,11 @@ A continuación, puede iniciar sesión en Campaign con su Adobe ID.
 >
 >Como Microsoft Edge Webview2 no guarda las credenciales de proxy, la consola puede solicitarle que se autentique dos veces la primera vez que se conecte.
 
-## Actualización de la consola de cliente{#upgrade-ac-console}
+## Actualice la consola de cliente{#upgrade-ac-console}
 
 Cuando el sistema se actualice a una versión más reciente, deberá actualizar la consola de cliente a esa misma versión. Esta es una práctica recomendada y, para algunas versiones, esta actualización es obligatoria. En ese caso, se menciona en el [Notas de versión](release-notes.md).
 
-Como usuario de Cloud Service administrados, Adobe implementa la consola de cliente por usted. Cuando se conecte al entorno actualizado, se le pedirá que descargue la versión más reciente de la consola del cliente en una ventana emergente. Debe aceptar esta actualización y actualizar la consola de cliente según se le solicite.
+Como usuario de Cloud Service administrados, Adobe implementa la consola de cliente por usted. Cuando se conecte al entorno actualizado, se le pedirá que descargue la versión más reciente de la consola del cliente en una ventana emergente. Debe aceptar esta actualización y actualizar la consola de cliente como se solicita.
 
 >[!CAUTION]
 >

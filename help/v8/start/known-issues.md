@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: 89a4ab6c-de8e-4408-97d2-8b8e574227f9
-source-git-commit: 290f4e9a0d13ef49caacb7a128ccc266bafd5e69
+source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 4%
+source-wordcount: '375'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Esta página lista los problemas conocidos identificados en la **últimas versio
 >
 >El Adobe publica esta lista de problemas conocidos a su discreción. Se basa en el número de informes de clientes, la gravedad y la disponibilidad de la solución. Si un problema que encuentra no aparece en la lista, es posible que no cumpla los criterios de publicación de esta página.
 
-## Versión 8.3.8 de Campaign{#8.3-issues}
+## Campaign v8.3.8{#8.3-issues}
 
 ### Problema de actividad de cambio de fuente de datos {#issue-2}
 

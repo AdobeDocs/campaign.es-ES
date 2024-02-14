@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 8f58db2b00f2fc98afd737f20411f829dd24c78a
+source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
@@ -24,21 +24,7 @@ A continuación se describen los componentes de Adobe Campaign y la arquitectura
 
 ![](assets/do-not-localize//ac-components.png)
 
-### Capa de presentación{#presentation-layer}
 
-Puede acceder a Adobe Campaign a través de un cliente enriquecido, un cliente ligero o una integración de API.
-
-* Cliente enriquecido
-
-  El cliente enriquecido de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. [Obtenga más información sobre la consola del cliente de Campaign](../start/connect.md).
-
-* Cliente ligero
-
-  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  [Obtenga más información sobre Campaign Web Access](../start/connect.md).
-
-* Aplicaciones externas con API
-
-  En determinados casos, se puede llamar al sistema desde aplicaciones externas mediante las API de servicios web expuestas mediante el protocolo SOAP. [Más información sobre las API de Campaign](../dev/api.md).
 
 ### Capa de persistencia{#persistance-layer}
 
