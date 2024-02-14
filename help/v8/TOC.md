@@ -1,14 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Documentación del producto para Adobe Campaign versión 8.
+user-guide-description: Documentación del producto para Adobe Campaign v8 (consola de cliente).
 title: Documentación de Adobe Campaign v8
 description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Documentación de Campaign versión 8
-source-git-commit: f04db53bee75c935bc8737eef93fa05ec6868ebc
+source-git-commit: df0c05495788fc497af51092f482e879fe2dffa7
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 87%
+source-wordcount: '575'
+ht-degree: 84%
 
 ---
 
@@ -17,10 +17,12 @@ ht-degree: 87%
 
 + [Documentación de la versión 8 de Campaign](campaign-home.md)
 + Versiones y actualizaciones más recientes {#releases}
-   + [Actualizaciones de documentación](start/documentation-updates.md)
+   + [Actualizaciones de la documentación](start/documentation-updates.md)
    + [Notas de la versión preliminar](start/e-release-notes.md)
+   + [Versión y actualizaciones](start/upgrades.md)
    + [Notas de la versión ](start/release-notes.md)
    + Notas de la versión anterior {#previous-rn}
+      + [2023](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
       + [2021](start/release-notes-2021.md)
    + [Mecanismos de protección](start/ac-guardrails.md)
@@ -29,9 +31,9 @@ ht-degree: 87%
 + Introducción {#new}
    + [Introducción a Adobe Campaign](start/get-started.md)
    + [Funcionalidades clave](start/whats-new.md)
-   + [Componentes y procesos](start/ac-components.md)
+   + [Descubra la interfaz de usuario](start/campaign-ui.md)
    + [Conéctese a Campaign](start/connect.md)
-   + [Interfaz de campaña](start/campaign-ui.md)
+   + [Componentes y procesos](start/ac-components.md)
    + [De la versión 7 a la 8 de Classic](start/v7-to-v8.md)
    + [Preguntas frecuentes](start/campaign-faq.md)
 + Campaign Management {#campaigns}
@@ -42,6 +44,7 @@ ht-degree: 87%
    + Correos electrónicos {#emails}
       + [Diseño y validación de correos electrónicos](send/email.md)
       + [Vínculo a la página espejo](send/mirror-page.md)
+      + [Añadir una dirección de CCO](send/email-bcc.md)
       + [Definir parámetros de correo electrónico adicionales](send/email-parameters.md)
       + [Envío y monitorización de correos electrónicos](send/send.md)
    + [SMS](send/sms.md)
@@ -174,7 +177,6 @@ ht-degree: 87%
    + Configuración {#configuration}
       + [Configuración de la interfaz de usuario](config/ui-settings.md)
       + [Administrar carpetas y vistas](audiences/folders-and-views.md)
-      + [Configuración de correo electrónico](config/email-settings.md)
       + [Configuración de mensajería transaccional](config/transactional-msg-settings.md)
       + [Integración de los SDK de Campaign con la aplicación: PÁGINA OBSOLETA](config/push-config.md)
       + [Cuentas externas](config/external-accounts.md)
