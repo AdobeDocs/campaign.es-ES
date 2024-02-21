@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 35%
+source-wordcount: '453'
+ht-degree: 27%
 
 ---
 
@@ -39,17 +39,17 @@ El objetivo se puede crear mediante una combinación de consultas en una secuenc
 Obtenga información sobre cómo crear una audiencia en un flujo de trabajo de campaña en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es)
 
 
-## Perfiles activos{#active-profiles}
+## Perfiles activos {#active-profiles}
 
-Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos.
+Un perfil activo es un perfil con el que el cliente ha intentado comunicarse durante los últimos 12 meses a través de cualquier canal. Las métricas de licencia se basan en perfiles activos. Obtenga más información en [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-**Perfil** significa un registro de información (por ejemplo, un registro en el [Tabla de destinatarios](../dev/datamodel.md) o una tabla externa que contenga un ID de cookie, ID de cliente, identificador móvil u otra información relacionada con un canal determinado) que represente a un cliente final, a un cliente potencial o a un posible cliente. Los perfiles se consideran activos si se han identificado o comunicado en los últimos 12 meses a través de cualquier canal.
+Puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign de Campaign. Para obtener más información, consulte [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}.
 
-<!--
-You can monitor the number of active profiles used on your instances directly from Campaign Control Panel. 
-
-![](../assets/do-not-localize/book.png) For more on this, refer to the [Control Panel documentation](https://docs.adobe.com/content/help/en/control-panel/using/performance-monitoring/active-profiles-monitoring.html).
--->
+>[!CAUTION]
+>
+>* Un perfil al que se destinan varios envíos se cuenta solo una vez.
+>
+>* Los perfiles segmentados en el contexto del marketing social en X (Twitter) no se tienen en cuenta como perfiles activos.
 
 ## Privacidad y consentimiento{#privacy-and-consent}
 
