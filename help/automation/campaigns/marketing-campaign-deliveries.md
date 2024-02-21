@@ -5,10 +5,10 @@ description: Más información sobre las entregas de campañas de marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 46%
+source-wordcount: '705'
+ht-degree: 40%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 46%
 
 Orqueste sus envíos en canales múltiples en sus campañas: optimice sus comunicaciones con Adobe Campaign mediante correos electrónicos personalizados, SMS, notificaciones push y mensajes en la aplicación. Puede utilizar medios enriquecidos como vídeos, emojis o GIF e integrarlos directamente.
 
-Las entregas se pueden crear a través del tablero de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas. Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
+Las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas. Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
 ## Creación de entregas {#create-deliveries}
 
@@ -65,7 +65,7 @@ Sin embargo, también puede permitir que el propietario de la campaña confirme 
 
 Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UICONTROL Pending extraction]**. Los archivos de extracción se crean mediante un [flujo de trabajo técnico](../workflow/technical-workflows.md) que, en una configuración predeterminada, se inicia automáticamente cuando una entrega de correo directo está pendiente de extracción. Cuando un proceso está en curso, se muestra en el panel y se puede editar a través de su enlace.
 
-Una vez ejecutado correctamente el flujo de trabajo de extracción, debe aprobar el archivo de extracción (siempre que se haya seleccionado la aprobación del archivo de extracción en la configuración de envío). [Más información](marketing-campaign-approval.md#approving-an-extraction-file).
+Una vez ejecutado correctamente el flujo de trabajo de extracción, se debe aprobar el archivo de extracción (siempre que se haya seleccionado la aprobación del archivo de extracción en la configuración de envío). [Más información](marketing-campaign-approval.md#approving-an-extraction-file).
 
 Siga los pasos a continuación para validar el contenido y enviar el archivo al proveedor:
 
@@ -112,4 +112,4 @@ La extracción de archivos inicia dos procesos: cálculo de presupuesto y cálcu
 
   >[!NOTE]
   >
-  >Más información sobre los presupuestos [en esta sección](providers--stocks-and-budgets.md).
+  >Más información sobre los presupuestos [en esta sección](providers-stocks-and-budgets.md).

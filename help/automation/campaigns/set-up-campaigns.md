@@ -5,10 +5,10 @@ description: Descubra cómo empezar con campañas de marketing
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: eb1a0e52-14d9-4ad2-8bf2-ea955c6fd0f5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 26%
+ht-degree: 21%
 
 ---
 
@@ -44,11 +44,11 @@ Organice las entregas en canales múltiples en sus campañas. Optimice sus comun
 1. **Configuración del flujo de aprobación**
 Defina revisores y configure el flujo de aprobación para monitorizar y controlar los procesos de la campaña: direccionamiento, contenido, presupuesto, extracción y envío de prueba. Obtenga información sobre cómo configurar aprobaciones [en esta sección](marketing-campaign-approval.md).
 
-1. **Monitorización de las entregas**.
+1. **Monitorización de entregas**.
 Realice un seguimiento de sus campañas desde el panel, compruebe los estados de entrega y la ejecución desde la interfaz de usuario de Campaign. [Más información](marketing-campaign-monitoring.md).
 
 1. **Seguimiento de presupuestos, stock y costes asociados**.
-Utilice Adobe Campaign para controlar la asignación del presupuesto, administrar los proveedores, las existencias y los costes. [Más información](providers--stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
+Utilice Adobe Campaign para controlar la asignación del presupuesto, administrar los proveedores, las existencias y los costes. [Más información](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).
 
 Una vez completados estos pasos, puede [inicio de entregas](marketing-campaign-deliveries.md#start-a-delivery), comprobar los datos, los procesos y la información relativa a las entregas y, si es necesario, [administrar los documentos asociados](marketing-campaign-deliveries.md#manage-associated-documents). También puede [seguimiento y monitorización de la ejecución](marketing-campaign-monitoring.md) de sus campañas y envíos.
 

@@ -2,10 +2,10 @@
 audience: user
 user-guide-title: Guía de automatización de Campaign
 user-guide-description: Guía de automatización de Campaign
-source-git-commit: 75b65efce6b37e3d948f6af4a89ea3b0a5ac1a86
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 86%
+source-wordcount: '442'
+ht-degree: 83%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 86%
          + [Aprobación](workflow/approval.md)
          + [Señal externa](workflow/external-signal.md)
          + [Bifurcación](workflow/fork.md)
-         + [Saltos (puntos iniciales y finales)](workflow/jump--start-point-and-end-point-.md)
+         + [Saltos (puntos iniciales y finales)](workflow/jump-start-point-and-end-point.md)
          + [Inicio y final](workflow/start-and-end.md)
          + [Planificador](workflow/scheduler.md)
          + [Subflujo de trabajo](workflow/sub-workflow.md)
@@ -74,9 +74,9 @@ ht-degree: 86%
          + [Administración de contenido](workflow/content-management.md)
          + [Envío continuo](workflow/continuous-delivery.md)
          + [Envíos en canales múltiples](workflow/cross-channel-deliveries.md)
-         + [Extracción de datos (archivo)](workflow/extraction--file-.md)
-         + [Carga de datos (archivo)](workflow/data-loading--file-.md)
-         + [Carga de datos (RDBMS)](workflow/data-loading--rdbms-.md)
+         + [Extracción de datos (archivo)](workflow/extraction-file.md)
+         + [Carga de datos (archivo)](workflow/data-loading-file.md)
+         + [Carga de datos (RDBMS)](workflow/data-loading-rdbms.md)
          + [Envío](workflow/delivery.md)
          + [Control de envíos](workflow/delivery-control.md)
          + [Aprobación local](workflow/local-approval.md)
@@ -128,7 +128,7 @@ ht-degree: 86%
       + [Parámetros avanzados](workflow/advanced-parameters.md)
       + [Plantillas y scripts de JavaScript](workflow/javascript-scripts-and-templates.md)
       + [Ejemplos de código JavaScript en flujos de trabajo](workflow/javascript-in-workflows.md)
-      + [Acceso a una base de datos externa](workflow/accessing-an-external-database--fda-.md)
+      + [Acceso a una base de datos externa](workflow/accessing-an-external-database-fda.md)
       + [Administración de permisos](workflow/managing-rights.md)
       + [Cambio de imágenes de actividad](workflow/change-activity-images.md)
       + [Administrar zonas horarias](workflow/managing-time-zones.md)
@@ -142,7 +142,7 @@ ht-degree: 86%
    + [Configuración y administración de aprobaciones](campaigns/marketing-campaign-approval.md)
    + [Campañas recurrentes y periódicas](campaigns/recurring-periodic-campaigns.md)
    + [Monitorización de campañas](campaigns/marketing-campaign-monitoring.md)
-   + [Proveedores, stock y presupuestos](campaigns/providers--stocks-and-budgets.md)
+   + [Proveedores, stock y presupuestos](campaigns/providers-stocks-and-budgets.md)
 + Optimización de la campaña (complemento){#campaign-optimization}
    + [Introducción a las tipologías de campaña](campaign-opt/campaign-typologies.md)
    + [Reglas de filtrado](campaign-opt/filtering-rules.md)

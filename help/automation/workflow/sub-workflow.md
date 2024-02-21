@@ -4,9 +4,9 @@ title: Subflujo de trabajo
 description: Descubra más información sobre la actividad del subflujo de trabajo
 feature: Workflows
 exl-id: c530fb4e-d21e-4059-88e1-77a8d33a7832
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '419'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ La actividad **[!UICONTROL Sub-workflow]** permite activar la ejecución de otro
 
 Puede activar varios subflujos de trabajo en un solo flujo de trabajo. Los subflujos de trabajo se ejecutan de forma sincrónica.
 
-En el ejemplo siguiente, un flujo de trabajo principal llama a un subflujo de trabajo mediante saltos. Para obtener más información sobre los objetos gráficos de tipo salto, consulte [esta sección](jump--start-point-and-end-point-.md).
+En el ejemplo siguiente, un flujo de trabajo principal llama a un subflujo de trabajo mediante saltos. Para obtener más información sobre los objetos gráficos de tipo salto, consulte [esta sección](jump-start-point-and-end-point.md).
 
 1. Cree un flujo de trabajo que utilizará como subflujo de trabajo en otro flujo de trabajo.
 1. Inserte una actividad **[!UICONTROL Jump (end point)]** con una prioridad de 1 al principio del flujo de trabajo. Si tiene varios saltos del tipo &quot;llegada&quot;, Adobe Campaign utiliza el salto de &quot;llegada&quot; con el número más bajo.

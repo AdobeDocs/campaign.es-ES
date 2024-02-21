@@ -5,9 +5,9 @@ description: Aprenda a gestionar los costes de control
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2409'
+source-wordcount: '2428'
 ht-degree: 93%
 
 ---
@@ -26,7 +26,7 @@ Se deben aplicar los pasos siguientes para implementar la administración del pr
 
 1. Defina el presupuesto. [Más información](#creating-a-budget).
 
-1. Defina el método de cálculo de costes: las estructuras de costes se definen para los proveedores de servicios. [Más información](../campaigns/providers--stocks-and-budgets.md).
+1. Defina el método de cálculo de costes: las estructuras de costes se definen para los proveedores de servicios. [Más información](../campaigns/providers-stocks-and-budgets.md).
 
 1. Defina los costes de campaña (entregas/tareas) : los costes incurridos por las entregas y las tareas se introducen de forma individual o global para la plantilla de campaña. [Más información](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
 
@@ -144,7 +144,7 @@ Según las categorías de costes seleccionadas, se aplican las estructuras de co
 
 >[!NOTE]
 >
->Las categorías y estructuras de coste se presentan en [esta página](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>Las categorías y estructuras de coste se presentan en [esta página](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## Compromiso, cálculo y cobro de costes {#cost-commitment--calculation-and-charging}
 
@@ -207,7 +207,7 @@ Creemos una campaña con:
 
 #### Paso 2: Configuración del proveedor de servicios y definición de las estructuras de coste {#step-2---configuring-the-service-provider-and-defining-the-cost-structures}
 
-1. Cree un proveedor de servicios y una plantilla de servicio con su estructura de coste del nodo **[!UICONTROL Administration > Campaigns]**. Para obtener más información, consulte [esta sección](../campaigns/providers--stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories).
+1. Cree un proveedor de servicios y una plantilla de servicio con su estructura de coste del nodo **[!UICONTROL Administration > Campaigns]**. Para obtener más información, consulte [esta sección](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories).
 
    Para los envíos de correo postal, cree las categorías de coste **[!UICONTROL Envelopes]** (tipos 114 x 229 y 162 x 229), **[!UICONTROL Postage]** y **[!UICONTROL Print]** (tipos A3 y A4). A continuación, cree las siguientes estructuras de coste:
 

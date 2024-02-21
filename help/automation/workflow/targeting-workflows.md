@@ -3,10 +3,10 @@ title: Creación de flujos de trabajo de objetivos
 description: Obtenga información sobre cómo crear audiencias de destino en un flujo de trabajo
 feature: Query Editor, Data Management
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '2248'
-ht-degree: 94%
+source-wordcount: '2252'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,7 @@ Los pasos para crear un flujo de trabajo de segmentación se describen en las si
 1. **Preparar** datos para satisfacer las necesidades de entrega: consulte [Enriquecimiento y modificación de datos](#enrich-and-modify-data)
 1. **Usar** datos para realizar actualizaciones o dentro de una entrega: consulte [Actualización de la base de datos](use-workflow-data.md#update-the-database)
 
-Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatarios](use-workflow-data.md#target-data)..
+Los resultados de todos los enriquecimientos y todas las gestiones realizadas durante el establecimiento de objetivos se almacenan y están accesibles en los campos personalizados, en particular para utilizarlos al crear mensajes personalizados. Para obtener más información, consulte [Datos de destinatario](use-workflow-data.md#target-data).
 
 ## Establecimiento de objetivos y filtrado de dimensiones {#targeting-and-filtering-dimensions}
 
@@ -108,7 +108,7 @@ En las actividades de tipo **[!UICONTROL Union]** o **[!UICONTROL Intersection]*
 
 ### Reconciliación con los datos adicionales {#reconciliation-with-additional-data}
 
-Durante las fases de conciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. actividades), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
+Durante las fases de reconciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. actividades), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
 
 ![](assets/select-column-and-join.png)
 
@@ -270,8 +270,8 @@ En Adobe Campaign, la gestión de datos combina un conjunto de actividades para 
 
 Para implementar estas operaciones, Adobe Campaign ofrece:
 
-* Actividades de recopilación de datos: [File transfer](file-transfer.md), [Data loading (file)](data-loading--file-.md), [Data loading (RDBMS)](data-loading--rdbms-.md), [Update data](update-data.md). Este primer paso de recopilación de datos prepara los datos para permitir que se procesen en otras actividades. Es necesario monitorizar varios parámetros para garantizar que el flujo de trabajo se ejecuta correctamente y proporciona los resultados esperados. Por ejemplo, al importar datos, la clave principal (Pkey) de estos datos debe ser exclusiva para cada registro.
-* Actividades de establecimiento de objetivos enriquecidas con opciones de administración de datos: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). Esto permite configurar una unión o una intersección entre los datos de distintas dimensiones de destino, siempre y cuando sea posible la comparación de los mismos.
+* Actividades de recopilación de datos: [File transfer](file-transfer.md), [Data loading (file)](data-loading-file.md), [Data loading (RDBMS)](data-loading-rdbms.md), [Update data](update-data.md). Este primer paso de recopilación de datos prepara los datos para permitir que se procesen en otras actividades. Es necesario monitorizar varios parámetros para garantizar que el flujo de trabajo se ejecuta correctamente y proporciona los resultados esperados. Por ejemplo, al importar datos, la clave principal (Pkey) de estos datos debe ser exclusiva para cada registro.
+* Actividades de establecimiento de objetivos enriquecidas con opciones de administración de datos: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). Esto permite configurar una unión o una intersección entre los datos de distintas dimensiones de destino, siempre y cuando sea posible la reconciliación de los mismos.
 * Actividades de transformación de datos: [Enrichment](enrichment.md), [Change dimension](change-dimension.md).
 
 >[!CAUTION]

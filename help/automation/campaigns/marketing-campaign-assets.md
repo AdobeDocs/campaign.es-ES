@@ -5,7 +5,7 @@ description: Obtenga más información sobre los documentos de campañas de mark
 feature: Campaigns
 role: User
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 72%
@@ -120,4 +120,4 @@ En el siguiente ejemplo, la etiqueta, el coste estimado y la descripción asocia
 
 ![](assets/campaign-export-template.png)
 
-El modelo de exportación debe estar asociado al proveedor de servicios seleccionado para la entrega. Consulte [esta sección](providers--stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).
+El modelo de exportación debe estar asociado al proveedor de servicios seleccionado para la entrega. Consulte [esta sección](providers-stocks-and-budgets.md#creating-service-providers-and-their-cost-structures).

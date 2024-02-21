@@ -5,10 +5,10 @@ description: Creación de una lista de resumen
 feature: Workflows, Data Management
 role: User
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 99%
+source-wordcount: '975'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Se utiliza la siguiente estructura de datos:
 Su objetivo es:
 
 * Para utilizar las distintas opciones de la actividad de enriquecimiento
-* Para actualizar los datos de la base de datos después de una conciliación
+* Para actualizar los datos de la base de datos después de una reconciliación
 * Para crear una “vista” global de los datos enriquecidos
 
 Para crear una lista de resumen, se debe seguir estos pasos:
@@ -36,7 +36,7 @@ Para crear una lista de resumen, se debe seguir estos pasos:
 1. Enriquecimiento de los datos de “Contactos” con un cálculo agregado de la tabla “Compras”.
 1. Creación de la lista de resumen
 
-## Paso 1: Cargue el archivo y concilie los datos importados {#step-1--loading-the-file-and-reconciling-the-imported-data}
+## Paso 1: Cargue el archivo y reconcilie los datos importados {#step-1--loading-the-file-and-reconciling-the-imported-data}
 
 Los datos que se desean cargar son aquellos relacionados con las “Compras” con el siguiente formato:
 
@@ -56,7 +56,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    La actividad **Recolección de archivos** permite recopilar y enviar archivos desde y hacia el servidor de Adobe Campaign.
 
-   La actividad **Carga de datos (archivo)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información, consulte [esta página](data-loading--file-.md).
+   El **Carga de datos (archivo)** La actividad permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información, consulte [esta página](data-loading-file.md).
 
 1. Configure la actividad **Recolector de ficheros** para recopilar archivos de texto (*.txt) &#42; del directorio seleccionado.
 
@@ -91,7 +91,7 @@ Añada la actividad de enriquecimiento y configúrela como se indica a continuac
 
 Para obtener más información sobre los distintos tipos de vínculos, consulte [Enriquecimiento y modificación de datos](targeting-workflows.md#enrich-and-modify-data).
 
-En la siguiente ventana, se debe crear una condición de unión seleccionando el campo de origen (en el conjunto principal) y el campo de objetivo (perteneciente al esquema “Stores”) para configurar la conciliación de datos.
+En la siguiente ventana, se debe crear una condición de unión seleccionando el campo de origen (en el conjunto principal) y el campo de objetivo (perteneciente al esquema “Stores”) para configurar la reconciliación de datos.
 
 ![](assets/uc2_enrich_enrich4.png)
 
@@ -111,7 +111,7 @@ Los datos de la tabla de trabajo del flujo de trabajo después de este enriqueci
 
 Este paso detalla cómo escribir los datos importados y enriquecidos en la tabla “Purchases”. Para ello, se debe utilizar una actividad **Update data**.
 
-Se debe llevar a cabo una conciliación entre los datos de la tabla de trabajo del flujo de trabajo y del entorno de segmentación de **Purchases** antes de actualizar los datos en la tabla **Purchases**.
+Se debe llevar a cabo una reconciliación entre los datos de la tabla de trabajo del flujo de trabajo y del entorno de segmentación de **Purchases** antes de actualizar los datos en la tabla **Purchases**.
 
 1. En la actividad de enriquecimiento, haga clic en la pestaña **[!UICONTROL Reconciliation]**.
 1. Seleccione el entorno de segmentación, el esquema “Purchases” en este caso.

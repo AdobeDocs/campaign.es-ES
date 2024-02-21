@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo crear y ejecutar campañas de mark
 feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: d7750add8d71bb51ea1c099a45a7bce05da3b4d7
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1327'
 ht-degree: 48%
@@ -92,7 +92,7 @@ Acceda a las siguientes secciones para aprender a configurar la campaña:
 * [Administración de recursos y documentos](marketing-campaign-assets.md)
 * [Creación de la audiencia objetivo](marketing-campaign-target.md)
 * [Configuración del proceso de aprobación](marketing-campaign-approval.md)
-* [Administración de saldos y presupuestos](providers--stocks-and-budgets.md)
+* [Administración de saldos y presupuestos](providers-stocks-and-budgets.md)
 
 
 ### Editar configuración de campaña {#campaign-settings}
@@ -102,7 +102,7 @@ Las campañas se crean mediante plantillas de campaña. Puede configurar plantil
 Para cada campaña, están disponibles las siguientes capacidades:
 
 * Documentos y recursos de referencia: puede asociar documentos a la campaña (resumen, informe, imágenes, etc.). Se admiten todos los formatos de documento. [Más información](marketing-campaign-deliveries.md#manage-associated-documents).
-* Definir costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers--stocks-and-budgets.md#defining-cost-categories).
+* Definir costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers-stocks-and-budgets.md#defining-cost-categories).
 * Definir objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza posteriormente en los informes de campaña.
 * Administrar direcciones semilla y grupos de control. [Más información](marketing-campaign-deliveries.md#defining-a-control-group).
 * Manage approvals: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](marketing-campaign-approval.md#checking-and-approving-deliveries).

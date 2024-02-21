@@ -5,7 +5,7 @@ description: Acerca de las actividades de acción
 feature: Workflows, Data Management
 role: User
 exl-id: feed4cc1-d654-45e7-a3b2-2bc46418a90b
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 81%
@@ -15,13 +15,13 @@ ht-degree: 81%
 # Actividades de acción en flujos de trabajo{#about-action-activities}
 
 * **[Gestión de contenido](content-management.md)**: permite crear o personalizar contenido.
-* **[Continuous delivery](continuous-delivery.md)**: permite iniciar una entrega desde el escenario especificado en la actividad.
+* **[Continuous delivery](continuous-delivery.md)**: permite iniciar un envío desde el escenario especificado en la actividad.
 * **[Entregas en canales múltiples](cross-channel-deliveries.md)** (solo flujos de trabajo de campaña): permite configurar una entrega en el canal correspondiente: correo electrónico, push, móvil, correo directo.
-* **[Data loading (file)](data-loading--rdbms-.md)**: permite acceder a un origen de datos externo para utilizar sus datos.
-* **[Data loading (RDBMS)](data-loading--rdbms-.md)**: permite acceder a una base de datos externa para obtener datos.
+* **[Data loading (file)](data-loading-rdbms.md)**: permite acceder a un origen de datos externo para utilizar sus datos.
+* **[Data loading (RDBMS)](data-loading-rdbms.md)**: permite acceder a una base de datos externa para obtener datos.
 * **[Delivery](delivery.md)**: permite configurar una acción de envío.
-* **[Delivery control](delivery-control.md)**: permite iniciar, pausar o detener una entrega.
-* **[Extraction (file)](extraction--file-.md)**: permite extraer datos de una tabla en un archivo.
+* **[Delivery control](delivery-control.md)**: permite iniciar, pausar o detener un envío.
+* **[Extraction (file)](extraction-file.md)**: permite extraer datos de una tabla en un archivo.
 * **[Loading (SOAP)](loading-soap.md)**: permite recopilar datos mediante una llamada SOAP.
 * **[Local approval](local-approval.md)**: permite realizar aprobaciones y dirigir notificaciones en un contexto de marketing distribuido (módulo opcional).
 * **[Módulo Nlserver](nlserver-module.md)**: inicia un módulo nlserver con sus argumentos.
