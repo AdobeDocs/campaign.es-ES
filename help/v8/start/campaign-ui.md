@@ -4,9 +4,9 @@ description: Aprenda a examinar y utilizar la interfaz de usuario de Campaign
 feature: Overview
 role: User
 level: Beginner
-source-git-commit: 8666c04f0e98cd6444af831d47056c46019c6088
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '997'
+source-wordcount: '1003'
 ht-degree: 11%
 
 ---
@@ -23,17 +23,7 @@ Puede acceder a Adobe Campaign a través de su consola de cliente o de su interf
 
   Obtenga información sobre cómo instalar y configurar la consola del cliente de Campaign en [esta sección](../start/connect.md).
 
-<!--    ![](assets/home-page.png) -->
-
 * **Interfaz de usuario web** : Como usuario de Campaign v8, a partir de la versión 8.6.1, ahora tiene acceso a un entorno web, disponible a través de la interfaz de usuario central de Adobe Experience Cloud. A continuación, puede conectarse a Adobe Campaign desde un explorador web. Esta nueva interfaz le permite crear, administrar y ejecutar acciones de marketing clave. Sin embargo, no todas las funcionalidades de Campaign están disponibles. [Más información](#ac-web-ui).
-
-  La interfaz de usuario web de Campaign Campaign está disponible a través de la página principal de la consola del cliente.
-
-  ![](assets/web-ui.png)
-
-  >[!NOTE]
-  >
-  >Si no se muestra la nueva tarjeta de acceso, asegúrese de que los siguientes campos no queden vacíos en la cuenta externa de Adobe Experience Cloud: **Servidor**, **Inquilino**, **Callback server**, y **Marca de asociación**.
 
 * **Acceso web** : Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  Obtenga más información sobre Campaign Web Access [en esta sección](../start/connect.md#web-access).
 
@@ -42,9 +32,15 @@ Puede acceder a Adobe Campaign a través de su consola de cliente o de su interf
 
 ## Trabajar con la consola de cliente {#ui-access}
 
-La consola del cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).  [Obtenga más información acerca de la consola del cliente de Campaign](../start/connect.md).
+La consola del cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).  [Obtenga más información acerca de la consola del cliente de Campaign](../start/connect.md). Puede cambiar a la interfaz de usuario web de Campaign desde la tarjeta específica de la página principal de la consola del cliente.
 
-![](assets/home-page.png)
+![](assets/web-ui.png)
+
+
+>[!NOTE]
+>
+>Si no se muestra la nueva tarjeta de acceso, asegúrese de que los siguientes campos no queden vacíos en la cuenta externa de Adobe Experience Cloud: **Servidor**, **Inquilino**, **Callback server**, y **Marca de asociación**.
+
 
 También puede utilizar un explorador web para acceder a Campaign. En este contexto, solo está disponible un subconjunto de las funcionalidades de Campaign. [Más información](#web-browser)
 

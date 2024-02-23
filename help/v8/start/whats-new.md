@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 9ad8158f280acae2c2d10161f8ac6157398b9e3d
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 90%
+source-wordcount: '1029'
+ht-degree: 77%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 La versión 8 de Adobe Campaign está diseñada para especialistas en marketing en canales múltiples que necesitan la mejor solución de nube para la administración de campañas en canales múltiples a escala empresarial. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva desde cualquier sistema de TI para tareas como restablecimiento de contraseñas, confirmación de pedidos, recibos electrónicos y mucho más.
 
-La versión 8 de Adobe Campaign ofrece mejoras significativas en infraestructura, seguridad, capacidad de envío y supervisión.
+Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, capacidad de envío y supervisión. Está disponible como **Cloud Service administrado** que combina servicios con supervisión proactiva y modificación oportuna. Obtenga más información sobre los Cloud Service administrados de Campaign [en esta sección](#acms-desc).
 
 ![](assets/home-page.png)
 
@@ -70,9 +70,11 @@ También puede configurar la optimización del tiempo de envío predictivo y la 
 
 ### Managed Cloud Services {#acms-desc}
 
-La versión 8 de Adobe Campaign está disponible as a Managed Cloud Service, y proporciona supervisión proactiva, alertas oportunas y administración de servicios.
+Adobe Campaign v8 está disponible como Cloud Service administrado, y proporciona supervisión proactiva, alertas oportunas y administración de servicios. Adobe Managed Cloud Service proporciona a los especialistas en marketing una solución de administración de campañas en canales múltiples más ágil, segura y escalable con un bajo coste total de propiedad. La nueva oferta combina servicios con supervisión proactiva y alertas oportunas.
 
-Adobe Managed Cloud Service proporciona a los especialistas en marketing una solución de administración de campañas en canales múltiples más ágil, segura y escalable con un bajo coste total de propiedad. La nueva oferta combina servicios con supervisión proactiva y alertas oportunas.
+El enfoque de servicios administrados permite a los especialistas en marketing aprovechar la escala operativa y la economía de la infraestructura en la nube sin necesidad de una gran asistencia por parte de los recursos informáticos internos. Los equipos de consultoría e implementación de Adobes trabajan con usted para evaluar sus planes de marketing, prácticas existentes, requisitos de datos y volumen de mensajería, y luego recomiendan los paquetes de servicio, soporte y capacidad de entrega más adecuados. El equipo de Adobe Campaign Managed Cloud Services puede monitorizar el rendimiento de la campaña, la reputación de la marca, las métricas de experiencia del cliente, etc. e informar sobre ellos.
+
+[Descargar este documento técnico](assets/do-not-localize/IDC-Report-BusinessValueOfAdobeCampaign.pdf) para obtener más información sobre el valor comercial de Adobe Campaign Managed Cloud Services.
 
 >[!NOTE]
 >
