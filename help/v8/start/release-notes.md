@@ -5,9 +5,9 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 2f8cee4522efb59782a568334fc1300fc39d559f
+source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '478'
 ht-degree: 16%
 
 ---
@@ -21,10 +21,19 @@ Como usuario de Cloud Service administrados, la instancia se actualiza por Adobe
 Además, como cliente de, asegúrese de que está utilizando las últimas versiones compatibles de los sistemas que se enumeran en la [Matriz de compatibilidad](compatibility-matrix.md).
 
 
+## Versión 8.6.2 {#release-8-6-2}
+
+_23 de febrero de 2024_
+
+### Correcciones {#fixes-8-6-2}
+
+Esta versión corrige el siguiente problema:
+
+* Se ha corregido un problema de rendimiento que podría producirse en la instancia de intermediario (NEO-72595).
+
 ## Versión 8.6.1 {#release-8-6-1}
 
 _14 de febrero de 2024_
-
 
 ### Nuevas funciones {#new-8-6-1}
 
