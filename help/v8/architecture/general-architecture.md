@@ -1,6 +1,6 @@
 ---
 title: Arquitectura general
-description: Obtenga más información acerca de la arquitectura y los componentes de Adobe Campaign. Obtenga más información sobre cómo personalizar la consola de cliente y el entorno.
+description: Obtenga más información acerca de la arquitectura y los componentes de Adobe Campaign. Obtenga más información acerca de cómo personalizar la consola de cliente y el entorno.
 feature: Architecture, Deployment
 role: Admin, Developer
 level: Beginner
@@ -8,7 +8,7 @@ exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
 workflow-type: tm+mt
 source-wordcount: '1136'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
