@@ -5,16 +5,16 @@ feature: Profiles, Monitoring
 role: User, Data Engineer
 level: Beginner
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 41%
+source-wordcount: '1167'
+ht-degree: 34%
 
 ---
 
 # Cuarentena {#quarantine-management}
 
-Adobe Campaign administra una lista de direcciones en cuarentena para canales en línea (correo electrónico, SMS, notificación push). Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores. Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos.
+Adobe Campaign administra una lista de direcciones en cuarentena para canales en línea (correo electrónico, SMS, notificación push). Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser agregado a la lista de bloqueados de la por estos proveedores. Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos.
 
 Cuando su dirección o número de teléfono están en cuarentena, los destinatarios se excluyen del objetivo durante el análisis de la entrega: no podrá enviar mensajes de marketing, incluidos correos electrónicos de flujo de trabajo automatizado, a esos contactos. Si esas direcciones en cuarentena también están presentes en las listas, se excluirán al enviarlas a esas listas. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno, si la dirección no existe o si el servidor de correo electrónico no está disponible.
 
@@ -42,7 +42,7 @@ Se pueden capturar dos tipos de errores:
 En la lista de direcciones en cuarentena, el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se envía a cuarentena. [Más información](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón de correo técnico administrado por el Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no se incluye en la lista de bloqueados para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información sobre los bucles de comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
+Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón de correo técnico administrado por el Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no está en la lista de bloqueados de la para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información sobre los bucles de comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -73,11 +73,11 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 >
 >Fin de año 1: (1&#42;0,33)/(1+0,5) = 22 %.
 >
->Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
+Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 Además, la variable **[!UICONTROL Non-deliverables and bounces]** informe integrado, disponible en el **Informes** de esta página de inicio, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de una entrega específica o personalizar este informe según sea necesario.
 
-Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Dirección de correo en cuarentena {#quarantined-recipient}
 
@@ -104,7 +104,7 @@ A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!CAUTION]
 >
->Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se eliminarán, aunque reciban un correo electrónico.
+Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se eliminarán, aunque reciban un correo electrónico.
 
 También puede eliminar manualmente una dirección de la lista de cuarentena. Para eliminar una dirección de la cuarentena, puede:
 
@@ -120,8 +120,8 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 
 * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
 * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
-* **Actualizar estado (@lastModified)** en o después de DD/MM/AAAA HH:MM:SS AM
-* **Actualizar estado (@lastModified)** en DD/MM/AAAA HH:MM:SS PM
+* **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
+* **Actualizar estado (@lastModified)** el o antes `MM/DD/YYYY HH:MM:SS PM`
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado en **[!UICONTROL Valid]** por lo tanto, serán eliminados de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
 

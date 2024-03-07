@@ -3,10 +3,10 @@ product: campaign
 title: Social Marketing
 description: Descubra más información sobre los flujos de trabajo técnicos de Social Marketing
 feature: Workflows
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
 source-wordcount: '120'
-ht-degree: 77%
+ht-degree: 92%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 77%
 
 >[!AVAILABILITY]
 >
->:warning: Esta funcionalidad solo está disponible en Campaign Classic v7.
+>`:warning:` Esta funcionalidad solo está disponible en Campaign Classic v7.
 
 Los flujos de trabajo detallados a continuación se instalan con el módulo **Marketing social** de forma predeterminada.
 
@@ -35,23 +35,23 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Ma
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Sincronización de seguidores de Facebook</span> <br /> </td> 
-   <td> <span class="uicontrol">syncFacebookFans</span><br /> </td> 
+   <td> <span class="uicontrol">syncFacebookFans</span> <br /> </td> 
    <td> Este flujo de trabajo importa los seguidores de Facebook en Adobe Campaign todos los días a las 7 a. m.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Sincronización de páginas de Facebook</span> <br /> </td> 
-   <td> <span class="uicontrol">syncFacebook</span><br /> </td> 
+   <td> <span class="uicontrol">syncFacebook</span> <br /> </td> 
    <td> Este flujo de trabajo sincroniza las páginas de Facebook con Adobe Campaign todos los días a las 7 a. m.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Cálculo de las estadísticas de Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">statsTwitter</span> <br /> </td> 
-   <td> Este flujo de trabajo calcula las estadísticas vinculadas a los retweets y las visitas en X (anteriormente conocido como Twitter).<br /> </td> 
+   <td> Este flujo de trabajo calcula las estadísticas vinculadas a los retuits y las visitas en X (anteriormente conocido como Twitter).<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Sincronización de páginas de Twitter</span> <br /> </td> 
    <td> <span class="uicontrol">syncTwitter</span> <br /> </td> 
-   <td> Este flujo de trabajo importa X seguidores en Adobe Campaign todos los días a las 7 a. m.<br /> </td> 
+   <td> Este flujo de trabajo importa los seguidores de X a Adobe Campaign todos los días a las 07:00.<br /> </td> 
   </tr> 
  </tbody> 
 </table>
