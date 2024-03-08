@@ -1,18 +1,18 @@
 ---
-title: Audiencias y atributos de perfil
+title: Uso compartido y sincronización de audiencias y atributos de perfil con Adobe Experience Platform
 description: Obtenga información sobre cómo sincronizar audiencias de Adobe Experience Platform y atributos de perfil con Campaign
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 21cf5611-ccaa-4e83-8891-a1a2353515aa
-source-git-commit: 6ebbdf2ab57577594a4f964e2cfcba46fcb7b4ca
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
-# Trabajo con Campaign y Adobe Experience Platform
+# Uso compartido y sincronización de audiencias con Adobe Experience Platform {#gs-ac-aep}
 
 Los conectores Origen y Destino del Cloud Service administrado de Adobe Campaign permiten una integración perfecta entre Adobe Campaign y Adobe Experience Platform. Con esta integración, puede:
 

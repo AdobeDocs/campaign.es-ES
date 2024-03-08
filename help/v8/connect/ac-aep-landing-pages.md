@@ -1,20 +1,20 @@
 ---
-title: Páginas de aterrizaje de Campaign y atributos de perfil
+title: Actualización de perfiles de Adobe Experience Platform desde páginas de aterrizaje de Adobe Campaign
 description: Obtenga información sobre cómo sincronizar páginas de aterrizaje de Adobe Campaign y atributos de perfil de Adobe Experience Platform
 feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: a17c4325917ef1466bbb2c397aea55ebcf7fbcb5
+source-git-commit: ea37b72efd03afb212c060f809b6ba077b996701
 workflow-type: tm+mt
-source-wordcount: '1069'
+source-wordcount: '1031'
 ht-degree: 1%
 
 ---
 
-# Actualización de perfiles de Adobe Experience Platform desde páginas de aterrizaje de Adobe Campaign
+# Actualización de perfiles de Adobe Experience Platform desde páginas de aterrizaje de Adobe Campaign {#ac-aep-lp}
 
-La integración entre Adobe Campaign y Adobe Experience Platform le permite sincronizar datos sin problemas entre sus páginas de aterrizaje de Adobe Campaign y Adobe Experience Platform. Con esta integración, puede:
+La integración entre Adobe Campaign y Adobe Experience Platform le permite sincronizar fácilmente los datos de perfil entre sus páginas de aterrizaje de Adobe Campaign y Adobe Experience Platform. Con esta integración, puede:
 
 * Recupere atributos de perfil de Adobe Experience Platform para mostrar información actualizada en páginas de aterrizaje de Adobe Campaign.
 * Envíe atributos de perfil actualizados a Adobe Experience Platform para actualizar los atributos correspondientes en función de lo que se haya rellenado y enviado en las páginas de aterrizaje.
@@ -40,9 +40,9 @@ Para ello, siga estos pasos:
 1. Cree una nueva conexión API con el producto API de Adobe Experience Platform. Encontrará los pasos detallados para obtener un token de acceso OAuth 2.0 en la [Documentación de la consola Adobe Developer](https://developer.adobe.com/developer-console/docs/guides/authentication/Tools/OAuthPlayground/).
 1. Una vez creada la conexión, vaya a **[!UICONTROL OAuth Server-to-Server]** y copie los detalles siguientes, que son necesarios en Campaign para la autenticación:
 
-   * ID DE CLIENTE
-   * SECRETO DEL CLIENTE
-   * ID DE ORGANIZACIÓN
+   * `CLIENT ID`
+   * `CLIENT SECRET`
+   * `ID DE ORGANIZACIÓN
 
    ![](assets/ac-lp-oauth.png){width="70%"}
 
@@ -102,7 +102,7 @@ Para configurar estas opciones automáticamente al ejecutar el flujo de trabajo 
 
 En la ejecución del flujo de trabajo, las opciones se crean automáticamente en la consola de Campaign con los valores proporcionados.
 
-    &quot;
+    &quot;javascript
     loadLibrary(&quot;xtk:shared/nl.js&quot;);
     loadLibrary(&quot;xtk:shared/xtk.js&quot;);
     loadLibrary(&quot;xtk:shared/json2.js&quot;);
@@ -138,7 +138,7 @@ Para permitir la sincronización de datos entre páginas de aterrizaje y Adobe E
 
    Este código comprueba si el perfil existe en Adobe Experience Platform antes de cargar la página de aterrizaje. Recupera los atributos de perfil y los muestra en los campos correspondientes de la página de aterrizaje.
 
-   ```
+   ```javascript
    // API implementation to read profile from AEP
    function getProfileInfo(email)
    {
@@ -161,7 +161,7 @@ Para permitir la sincronización de datos entre páginas de aterrizaje y Adobe E
 
    Este código actualiza los atributos de perfil en Adobe Experience Platform con los valores enviados en la página de aterrizaje.
 
-   ```
+   ```javascript
    // API implementation to update profile in AEP
    loadLibrary("xtk:shared/nl.js");
    loadLibrary("xtk:shared/xtk.js");
@@ -215,7 +215,7 @@ Con los códigos JavaScript añadidos a Adobe Campaign, puede aprovecharlos en e
 
 +++ Script 1: Carga de atributos de perfil del Experience Platform
 
-  ```
+  ```javascript
   // Script code to read profile from AEP.
   
   logInfo("Loading profile from AEP");
@@ -255,7 +255,7 @@ Con los códigos JavaScript añadidos a Adobe Campaign, puede aprovecharlos en e
 
 +++ Script 2: Actualización de atributos de perfil del Experience Platform
 
-  ```
+  ```javascript
   // Script code to update profile in AEP and ACC.
   
   logInfo("Executing script to update AEP profile.");
