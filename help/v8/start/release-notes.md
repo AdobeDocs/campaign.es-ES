@@ -5,7 +5,7 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3b790305984436f1168f9c73aa09df509b2217f0
+source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
 workflow-type: tm+mt
 source-wordcount: '478'
 ht-degree: 16%
@@ -16,9 +16,9 @@ ht-degree: 16%
 
 Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. El Adobe recomienda encarecidamente a todos los clientes que actualicen a la versión más reciente. Obtenga más información sobre las versiones y recomendaciones de Campaign [en esta página](upgrades.md).
 
-Como usuario de Cloud Service administrados, la instancia se actualiza por Adobe con cada nueva versión. El Adobe se pondrá en contacto con usted y actualizará sus entornos. Consola del cliente de Campaign **debe actualizarse a la misma versión** como servidores de Campaign. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#upgrade-ac-console).
+Como usuario de Cloud Service administrados, la instancia se actualiza por Adobe con cada nueva versión. El Adobe se pondrá en contacto con usted y actualizará sus entornos. Consola del cliente de Campaign **debe actualizarse a la misma versión** como servidores de Campaign. Obtenga información sobre cómo actualizar la consola de cliente [en esta página](../start/connect.md#upgrade-ac-console).
 
-Además, como cliente de, asegúrese de que está utilizando las últimas versiones compatibles de los sistemas que se enumeran en la [Matriz de compatibilidad](compatibility-matrix.md).
+Además, como cliente de, asegúrese de que está utilizando la última versión compatible de los sistemas que se enumeran en la [Matriz de compatibilidad](compatibility-matrix.md).
 
 
 ## Versión 8.6.2 {#release-8-6-2}

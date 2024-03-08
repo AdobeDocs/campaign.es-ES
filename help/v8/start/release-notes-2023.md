@@ -4,7 +4,8 @@ description: Lista de funciones y mejoras incluidas en las versiones de Campaign
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
+source-git-commit: 3a63539bc6bb20fa79bdac76dd60efe7b232458b
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 57%
@@ -13,7 +14,7 @@ ht-degree: 57%
 
 # Notas de la versión de 2023 {#2023-rn}
 
-Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con las **versiones de Campaign v8 de 2022**.
+En esta página se indican las nuevas funcionalidades, mejoras y correcciones que se proporcionan con las **versiones de Campaign v8 de 2023**.
 
 ## Versión 8.5.2 {#release-8-5-2}
 
@@ -151,5 +152,3 @@ _27 de enero de 2023_
 * La administración de las direcciones URL de seguimiento se ha mejorado en los flujos de trabajo con varios envíos para mejorar el rendimiento. (NEO-50894) <!--OKKKK-->
 * Se ha corregido un problema que podría provocar errores en la replicación de esquemas que utilizan Xtkfolder. (NEO-46787) <!--OKKKK-->
 * Se ha corregido un problema que podría provocar que la columna personalizada “lastModified” se suelte en la tabla NmsSubscription. (NEO-48402)
-
-
