@@ -4,7 +4,8 @@ description: Obtenga más información sobre las versiones y actualizaciones de 
 feature: Release Notes
 role: User
 level: Beginner
-source-git-commit: 43994eb29af2b85272de0ce4dc34cc66aba2e04a
+exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 14%
@@ -21,7 +22,7 @@ Estas actualizaciones pueden ser:
 
 * **Principales actualizaciones**, de una versión principal a otra, por ejemplo, de la v7 a la v8. Estas actualizaciones aportan nuevas funciones, mejoras, actualizaciones de compatibilidad y seguridad, y correcciones.
 * **Actualizaciones menores**, de una versión menor a otra, por ejemplo, de la versión 8.5 a la 8.6. Estas actualizaciones traen mejoras, actualizaciones de compatibilidad y seguridad, y correcciones.
-* **Actualizaciones de parches**, de una versión de parche a otra, por ejemplo, de la versión 8.5.1 a la 8.5.2. Estas actualizaciones traen actualizaciones y correcciones de seguridad.
+* **Actualizaciones de parches**, de una versión de parche a otra, por ejemplo, de la v8.5.1 a la v8.5.2. Estas actualizaciones traen actualizaciones y correcciones de seguridad.
 
 Encontrará información detallada sobre cada nueva versión en la [Notas de versión](release-notes.md).
 
@@ -81,8 +82,3 @@ Normalmente, la actualización a la versión más reciente trae consigo:
 Como cliente de la versión 8, si se ha detectado que su cuenta debe actualizar a una nueva versión, Adobe le notificará directamente.
 
 El equipo de Adobe está aquí para acompañar y guiar a su organización en este recorrido. Un equipo de representantes del Servicio de atención al cliente, gerentes de productos, ingenieros, especialistas en TechOps y consultores de productos está preparado para ayudarle y garantizar que la experiencia sea fluida.
-
-
-
-
-

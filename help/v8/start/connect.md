@@ -5,10 +5,10 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 7%
+source-wordcount: '937'
+ht-degree: 9%
 
 ---
 
@@ -26,7 +26,7 @@ Antes de empezar, debe hacer lo siguiente:
 
 >[!NOTE]
 >
->También puede conectarse a la interfaz de usuario web de Campaign mediante un explorador web. Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"}.
+>También puede conectarse a la interfaz de usuario web de Campaign mediante un explorador web. Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}.
 
 
 ## Instalación de la consola de cliente{#download-ac-console}
@@ -117,7 +117,17 @@ Como administrador de Campaign, es responsable de crear los operadores y compart
 Obtenga más información sobre los usuarios y cómo definir sus permisos en [esta sección](gs-permissions.md).
 
 
-## Acceso web{#web-access}
+## Acceso a Campaign con un explorador web {#connect-web-ac}
+
+### Interfaz de usuario web {#connect-web-ui}
+
+A partir de la versión 8.6 de Campaign, tiene acceso a la nueva **Interfaz de usuario web de Campaign**, disponible a través del entorno central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
+
+Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz web de Adobe Campaign [en esta página](campaign-ui.md#ac-web-ui).
+
+Obtenga más información en la [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+
+### acceso web {#web-access}
 
 Se puede acceder a ciertas partes de la aplicación a través de un explorador web mediante una interfaz de usuario de HTML: creación de informes, aprobación de envíos, monitorización de instancias, etc.
 

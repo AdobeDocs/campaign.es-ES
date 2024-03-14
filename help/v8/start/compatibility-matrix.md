@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: 374c0df2cd95e656cfbaa1fb355bf1f48828dfee
+source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 63%
+source-wordcount: '406'
+ht-degree: 52%
 
 ---
 
@@ -26,14 +26,13 @@ Cuando las versiones específicas de estos sistemas y herramientas de terceros l
 
 Se requieren los siguientes sistemas operativos y exploradores para utilizar la consola del cliente de Campaign. [Más información](connect.md).
 
-### Sistemas operativos{#op-systems}
+### Sistemas operativos {#op-systems}
 
 * **Microsoft Windows Server** 2019, 2016
 * **Microsoft Windows** 11, 10
 
 >[!NOTE]
->
->Tenga en cuenta que la versión de 32 bits de la consola del cliente ha quedado obsoleta desde la versión 8.5. A partir de la versión 8.6, la consola de cliente solo está disponible en 64 bits. Para obtener más información sobre cómo actualizar el sistema, consulte esta sección [nota técnica](../../technotes/upgrades/console.md).
+>La versión de 32 bits de la consola del cliente ha quedado obsoleta desde la versión 8.5. A partir de la versión 8.6, la consola de cliente solo está disponible en 64 bits. Para obtener más información sobre cómo actualizar el sistema, consulte esta sección [nota técnica](../../technotes/upgrades/console.md).
 
 ### Explorador web {#web-browsers}
 
@@ -43,14 +42,14 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 
 ## Conectores CRM {#CRMconnectors}
 
-A continuación, se enumeran los sistemas de administración de la relación con los clientes (CRM) compatibles con Adobe Campaign. [Más información](../connect/crm.md).
+A continuación se enumeran los sistemas de gestión de relaciones con el cliente (CRM) compatibles con Adobe Campaign. Más información acerca de los conectores CRM [en esta página](../connect/crm.md).
 
 * **** Versión 49 de la API de conector de Salesforce
 * Conector de **Microsoft Dynamics**, API web: Dynamics 365 local y en línea
 
 ## Acceso de datos federado (FDA){#FederatedDataAccessFDA}
 
-A continuación, se enumeran las bases de datos externas compatibles con el módulo de acceso de datos federado (FDA) de Adobe Campaign. [Más información](../connect/fda.md).
+A continuación, se enumeran las bases de datos externas compatibles con el módulo de acceso de datos federado (FDA) de Adobe Campaign. Más información sobre FDA [en esta página](../connect/fda.md).
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]**, a partir de la versión 8.5 de Campaign
@@ -62,14 +61,19 @@ A continuación, se enumeran las bases de datos externas compatibles con el mód
 
 Para enviar [notificaciones push](../send/push.md) con Campaign, utilice el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign Classic en la interfaz de usuario de recopilación de datos.
 
-Las versiones compatibles con iOS y Android se detallan en la [Documentación de Adobe Developer](https://developer.adobe.com/client-sdks/home/)
+Las versiones compatibles con iOS y Android se detallan en la [Documentación de Adobe Developer](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+
+## Interfaz de usuario web {#web-ui}
+
+Los siguientes exploradores son compatibles con la interfaz de usuario web de Campaign. Más información sobre la IU web de Campaign [en esta página](campaign-ui.md#ac-web-ui).
+
+* **Microsoft Edge**, **Google Chrome**, **Safari** (versiones más recientes)
 
 ## Acceso web {#web-access}
 
-Los siguientes exploradores son compatibles con Campaign para [Web Access](connect.md#web-access).
+Los siguientes exploradores son compatibles con Campaign for Web Access. Obtenga más información sobre el acceso web de Campaign [en esta página](connect.md#web-access).
 
 * **Microsoft Edge**, **Mozilla Firefox**, **Google Chrome**, **Safari** (versiones más recientes)
-
 
 ## Recursos adicionales {#support}
 
