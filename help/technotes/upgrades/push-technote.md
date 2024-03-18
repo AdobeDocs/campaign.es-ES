@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="También se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Se aplica a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a494ac834b1febcafe04f4bb05eb74834df7b024
+source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1357'
 ht-degree: 11%
 
 ---
@@ -136,7 +136,7 @@ Para comprobar si se ha visto afectado, puede filtrar su **Servicios y suscripci
 ![](assets/filter-services-ios.png)
 
 
-* Si alguno de los servicios de notificaciones push activos utiliza **Autenticación basada en certificados** modo, las implementaciones actuales deben revisarse y moverse a un **Autenticación basada en tokens** modo como se describe a continuación.
+* Si alguno de los servicios de notificaciones push activos utiliza **Autenticación basada en certificados** modo (.p12), las implementaciones actuales deben revisarse y moverse a un **Autenticación basada en tokens** modo (.p8) como se describe a continuación.
 
 * Si su configuración utiliza exclusivamente **Autenticación basada en tokens** modo para notificaciones push de iOS, la implementación ya está actualizada y no es necesario que realice más acciones.
 
@@ -157,9 +157,9 @@ Para comprobar si se ha visto afectado, puede filtrar su **Servicios y suscripci
 Para mover las aplicaciones móviles de iOS al modo de autenticación basado en tokens, siga estos pasos:
 
 1. Vaya a la lista de **Servicios y suscripciones**.
-1. Enumerar todas las aplicaciones móviles mediante **Autenticación basada en certificados** modo.
+1. Enumerar todas las aplicaciones móviles mediante **Autenticación basada en certificados** modo (.p12).
 1. Edite cada una de estas aplicaciones móviles y vaya a la **Certificado/Clave privada** pestaña.
-1. Desde el **Modo de autenticación** menú desplegable, seleccione **Autenticación basada en tokens**.
+1. Desde el **Modo de autenticación** menú desplegable, seleccione **Autenticación basada en tokens** modo (.p8).
 1. Rellene la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** a continuación, seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**.
 
    ![](assets/token-based-certif.png)
