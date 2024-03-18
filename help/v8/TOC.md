@@ -1,14 +1,14 @@
 ---
 audience: end-user
 user-guide-title: Campaign v8
-user-guide-description: Documentación del producto para Adobe Campaign versión 8 (consola de cliente).
+user-guide-description: Documentación del producto para la versión 8 de Adobe Campaign (consola de cliente).
 title: Documentación de Adobe Campaign v8
 description: Documentación de la versión 8 de Campaign
-breadcrumb-title: Documentación de Campaign versión 8
+breadcrumb-title: Documentación de la versión 8 de Campaign
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 83%
+ht-degree: 99%
 
 ---
 
@@ -31,8 +31,8 @@ ht-degree: 83%
 + Introducción {#new}
    + [Introducción a Adobe Campaign](start/get-started.md)
    + [Funcionalidades clave](start/whats-new.md)
-   + [Descubra la interfaz de usuario](start/campaign-ui.md)
-   + [Conéctese a Campaign](start/connect.md)
+   + [Descubra la nueva interfaz de usuario](start/campaign-ui.md)
+   + [Conexión a Campaign](start/connect.md)
    + [Componentes y procesos](start/ac-components.md)
    + [De la versión 7 a la 8 de Classic](start/v7-to-v8.md)
    + [Preguntas frecuentes](start/campaign-faq.md)
@@ -44,14 +44,14 @@ ht-degree: 83%
    + Correos electrónicos {#emails}
       + [Diseño y validación de correos electrónicos](send/email.md)
       + [Vínculo a la página espejo](send/mirror-page.md)
-      + [Añadir una dirección de CCO](send/email-bcc.md)
-      + [Definir parámetros de correo electrónico adicionales](send/email-parameters.md)
+      + [Añadir una dirección CCO](send/email-bcc.md)
+      + [Definir los parámetros de correo electrónico adicionales](send/email-parameters.md)
       + [Envío y monitorización de correos electrónicos](send/send.md)
    + [SMS](send/sms.md)
    + Notificaciones push {#push}
       + [Creación y envío de notificaciones push](send/push.md)
-      + [Configuración del canal de notificaciones push](send/push-settings.md)
-      + [Configuración de las notificaciones push con la recopilación de datos](send/push-data-collection.md)
+      + [Configuración de canal de notificaciones push](send/push-settings.md)
+      + [Configuración de sus notificaciones push con la recopilación de datos](send/push-data-collection.md)
    + [Mensajería LINE](send/line.md)
    + [Correo directo](send/direct-mail.md)
    + [X (Twitter)](send/twitter.md)
@@ -61,7 +61,7 @@ ht-degree: 83%
       + [Añadir campos de personalización](send/personalization-fields.md)
       + [Utilizar bloques de personalización](send/personalization-blocks.md)
       + [Crear condiciones](send/conditions.md)
-   + Validación y envío de la entrega {#validate}
+   + Validación y envío de la entrega{#validate}
    + [Previsualización y pruebas](send/preview-and-proof.md)
    + [Análisis de envíos](send/delivery-analysis.md)
    + [Configuración y envío de la entrega](send/configure-and-send.md)
@@ -70,7 +70,7 @@ ht-degree: 83%
       + [Cuarentenas](send/quarantines.md)
       + [Errores de envío](send/delivery-failures.md)
    + [Trabajo con plantillas de envío](send/create-templates.md)
-   + Mensajes transaccionales {#real-time}
+   + Mensajes transaccionales{#real-time}
       + [Introducción a los mensajes transaccionales](send/transactional.md)
       + [Creación y publicación de una plantilla](send/transactional-template.md)
       + Administración de eventos {#event}
@@ -91,7 +91,7 @@ ht-degree: 83%
    + Creación de públicos {#create-audiences}
       + [Creación de una lista de contactos](audiences/create-audiences.md)
       + [Creación y administración de filtros](audiences/create-filters.md)
-      + [Compartir audiencias con soluciones de Adobe](start/shared-audiences.md)
+      + [Compartir públicos con soluciones de Adobe](start/shared-audiences.md)
    + [Prácticas recomendadas](audiences/audiences-best-practices.md)
    + [Administración de suscripciones](start/subscriptions.md)
 + Gestión de contenidos {#content}
@@ -110,7 +110,7 @@ ht-degree: 83%
       + [Creación de espacios de oferta](interaction/interaction-offer-spaces.md)
    + [Creación de un catálogo de ofertas](interaction/interaction-offer-catalog.md)
    + [Creación de una oferta](interaction/interaction-offer.md)
-   + [Enviar una oferta (saliente)](interaction/interaction-send-offers.md)
+   + [Enviar una oferta (de salida)](interaction/interaction-send-offers.md)
    + Presentación de una oferta (entrante){#inbound}
       + [Contexto](interaction/interaction-present-offers.md)
       + [Invocación de una oferta en una página web](interaction/interaction-integration.md)
@@ -138,8 +138,8 @@ ht-degree: 83%
    + [Documentación del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
 + Integraciones {#connect}
    + [Conectar Campaign con otras soluciones](connect/integration.md)
-   + Campaign + Experience Platform {#ac-aep}
-      + [Compartir y sincronizar audiencias y atributos de perfil](connect/ac-aep.md)
+   + Campaign + Experience Platform{#ac-aep}
+      + [Compartir y sincronizar públicos y atributos de perfil](connect/ac-aep.md)
       + [Actualización de perfiles de AEP desde las páginas de aterrizaje de Campaign](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
@@ -149,7 +149,7 @@ ht-degree: 83%
    + [Campaign + Workfront](connect/ac-workfront.md)
    + [Campaign + X (Twitter)](connect/ac-tw.md)
    + [Campaign + Base de datos externa](connect/fda.md)
-   + Campaign + su CRM {#ac-crm}
+   + Campaign + su CRM{#ac-crm}
       + [Introducción a los conectores CRM](connect/crm.md)
       + [Trabajo con Campaign y SFDC](connect/ac-sfdc.md)
       + [Trabajo con Campaign y Microsoft Dynamics](connect/ac-ms-dyn.md)
@@ -161,7 +161,7 @@ ht-degree: 83%
       + [Agregar permisos en carpetas](start/folder-permissions.md)
    + [Panel de control](config/self-service.md)
 + Arquitectura y configuración {#config}
-   + Arquitectura de Campaign v8 {#architecture}
+   + Arquitectura de la versión 8 de Campaign{#architecture}
       + [Principios globales](architecture/general-architecture.md)
       + [Modelos de arquitectura](architecture/architecture.md)
       + [Implementación de FDA de Campaign](architecture/fda-deployment.md)
@@ -179,7 +179,7 @@ ht-degree: 83%
       + [Configuración de la interfaz de usuario](config/ui-settings.md)
       + [Administrar carpetas y vistas](audiences/folders-and-views.md)
       + [Configuración de mensajería transaccional](config/transactional-msg-settings.md)
-      + [Integración de los SDK de Campaign con la aplicación: PÁGINA OBSOLETA](config/push-config.md)
+      + [Integración de los SDK de Campaign con la aplicación - PÁGINA OBSOLETA](config/push-config.md)
       + [Cuentas externas](config/external-accounts.md)
 + Recursos para desarrolladores {#developer}
    + [Modelo de datos de Campaign](dev/datamodel.md)
