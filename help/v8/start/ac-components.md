@@ -5,7 +5,7 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 79d916c4d65c0c55ec20f2f5850fec40fe4e99a3
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
@@ -54,4 +54,4 @@ La comunicación general entre los procesos de Campaign se describe en el siguie
 
 El usuario se conecta al servidor de aplicaciones de Campaign mediante el protocolo HTTP. Todos los datos y la información se administran en la base de datos de Campaign. Si un desarrollador de Campaign realiza cualquier cambio en la configuración, se captura en la base de datos. Si un especialista en marketing crea una nueva campaña, toda la información y los datos relacionados con esta nueva campaña también se administran en la base de datos. Cuando un experto en marketing ejecuta una campaña, las entregas de correo electrónico se envían a los perfiles desde el servidor de Campaign a través del servidor SMTP. A medida que los perfiles interactúan con las entregas de correo electrónico, como la apertura del correo electrónico, esos datos de seguimiento se devuelven al servidor de seguimiento.
 
-![](../assets/do-not-localize/glass.png) [Más información sobre los Procesos de Campaign](../architecture/general-architecture.md#dev-env).
+[Más información sobre los Procesos de Campaign](../architecture/general-architecture.md#dev-env).

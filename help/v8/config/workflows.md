@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: cfc1043e30bdd43e1acaeaf399fde01c6473f1b4
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 22%
+source-wordcount: '1307'
+ht-degree: 21%
 
 ---
 
@@ -45,7 +45,7 @@ Obtenga más información sobre los flujos de trabajo de la interfaz de usuario 
 
 ## Actividades de flujo de trabajo {#wf-activities}
 
-Obtenga más información sobre las actividades de flujo de trabajo disponibles en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html)
+Obtenga más información sobre las actividades de flujo de trabajo disponibles en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/activities.html?lang=es)
 
 Las actividades de flujo de trabajo se agrupan por categoría. Hay cuatro categorías de actividades disponibles:
 
@@ -58,7 +58,7 @@ Las actividades de flujo de trabajo se agrupan por categoría. Hay cuatro catego
 
 La actividad **[!UICONTROL Change data source]** permite cambiar la fuente de datos de un flujo de trabajo **[!UICONTROL Working table]**. Esto proporciona más flexibilidad para administrar los datos en diferentes fuentes de datos, como FDA, FFDA y bases de datos locales.
 
-La **[!UICONTROL Working table]** permite que el flujo de trabajo de Adobe Campaign gestione datos y los comparta con las actividades de flujo de trabajo.
+El **[!UICONTROL Working table]** permite que el flujo de trabajo de Adobe Campaign gestione datos y los comparta con las actividades de flujo de trabajo.
 De forma predeterminada, la **[!UICONTROL Working table]** se crea en la misma base de datos que el origen de los datos que consultamos.
 
 Por ejemplo, al consultar la tabla **[!UICONTROL Profiles]**, almacenada en la base de datos en la nube, creará un **[!UICONTROL Working table]** en la misma base de datos en la nube.
@@ -84,7 +84,7 @@ Para utilizar la actividad **[!UICONTROL Change Data Source]**:
 
 1. Añada otra actividad **[!UICONTROL Change data source]** para volver a la base de datos en la nube.
 
-   Haga doble clic en la actividad y seleccione **[!UICONTROL Active FDA external account]**, y luego escoja la cuenta externa  correspondiente.
+   Haga doble clic en la actividad y seleccione **[!UICONTROL Active FDA external account]** a continuación, la cuenta externa correspondiente.
 
 1. Ahora puede iniciar el flujo de trabajo.
 
@@ -121,11 +121,11 @@ Obtenga información sobre cómo crear una campaña recurrente en [esta página]
 
 Utilice la mensajería transaccional de Campaign para automatizar los mensajes generados a partir de eventos activados desde sistemas de información. Estos mensajes transaccionales pueden ser facturas, confirmaciones de pedidos, confirmaciones de envío, cambios de contraseña, notificaciones de no disponibilidad de productos, extractos de cuentas o creación de cuentas en sitios web, por ejemplo. Estos mensajes se pueden enviar por separado o en lote por correo electrónico, SMS o notificaciones push.
 
-![](../assets/do-not-localize/glass.png) Obtenga más información acerca de las funcionalidades de mensajería transaccional en en [esta sección](../send/transactional.md).
+Obtenga más información acerca de las funcionalidades de mensajería transaccional en en [esta sección](../send/transactional.md).
 
 Conecte Adobe Campaign y Adobe Analytics para recuperar las acciones del usuario y enviar mensajes personalizados casi en tiempo real.
 
-![](../assets/do-not-localize/glass.png) Aprenda a integrar Campaign con otras soluciones de en [esta sección](../start/connect.md)
+Aprenda a integrar Campaign con otras soluciones de en [esta sección](../start/connect.md)
 
 
 ## Casos de uso de extremo a extremo del flujo de trabajo{#end-to-end-uc}

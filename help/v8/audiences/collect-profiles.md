@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Web Forms
 role: Data Engineer
 level: Beginner
 exl-id: a228c0dc-80f5-4c51-b73b-ced0aa27a65a
-source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 43%
+source-wordcount: '81'
+ht-degree: 24%
 
 ---
 
@@ -18,4 +18,4 @@ Utilice Campaign para crear formularios web y recopilar y administrar datos de p
 
 ![](assets/web-form-page.png)
 
-![](../assets/do-not-localize/book.png) Aprenda a crear formularios web en la documentación de [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es){target="_blank"}.
+Obtenga información sobre cómo crear formularios web en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es){target="_blank"}.

@@ -5,7 +5,7 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 59d33983db930b3a7dc022693d72704bda99e3a1
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 27%
@@ -24,13 +24,13 @@ Obtenga información sobre cómo importar, actualizar y administrar perfiles y a
 
 Una lista es un conjunto estático de contactos que puede centrarse en acciones de envío o actualizarse durante una importación u otra acción de flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta se puede almacenar como una lista.
 
-![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo crear y administrar listas en [esta página](../audiences/create-audiences.md).
+Obtenga información sobre cómo crear y administrar listas en [esta página](../audiences/create-audiences.md).
 
 ## Filtrar la base de datos{#filter-the-database}
 
 La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**: cuando se modifican los datos, los datos filtrados se actualizan. Puede crear sus propios filtros o utilizar los filtros integrados para definir una audiencia objetivo.
 
-![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo crear y administrar filtros en [esta página](../audiences/create-filters.md).
+Obtenga información sobre cómo crear y administrar filtros en [esta página](../audiences/create-filters.md).
 
 ## Creación de una audiencia en un flujo de trabajo
 
@@ -55,7 +55,7 @@ Puede monitorizar el número de perfiles activos en su instancia directamente de
 
 Adobe Campaign es una potente herramienta para recopilar y procesar un gran volumen de datos, incluida información personal e información confidencial. Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo administrar la privacidad y el consentimiento en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es){target="_blank"}.
+Obtenga información sobre cómo administrar la privacidad y el consentimiento en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es){target="_blank"}.
 
 **Temas relacionados**
 

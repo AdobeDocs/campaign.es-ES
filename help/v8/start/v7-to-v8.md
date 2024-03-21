@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 55c177b6931ef2c427c8e9793b463274b8abb015
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 76%
@@ -37,7 +37,7 @@ La nueva oferta combina los mejores servicios con supervisión proactiva y alert
 
 Como antiguo usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría de las funciones de la versión 7 de [!DNL Campaign Classic] están disponibles en la versión 8 de [!DNL Campaign], excepto un pequeño conjunto de ellas, que se enumeran en [esta sección](#gs-removed).
 
->La nueva arquitectura de la nube permite a Campaign optimizar los procesos, reducir los costes, administrar los riesgos y mejorar la seguridad de los datos. El entorno de Campaign v8 viene con una nube privada virtual (VPC) dedicada preconfigurada para usted.
+>La nueva arquitectura de la nube permite a Campaign optimizar los procesos, reducir los costes, administrar los riesgos y mejorar la seguridad de los datos. Su entorno de Campaign v8 viene con una nube privada virtual (VPC) dedicada preconfigurada para usted.
 
 
 ## Arquitectura híbrida {#hybrid-archi}
@@ -50,7 +50,7 @@ Como consecuencia:
 * El estado de los envíos no se actualiza instantáneamente: se ejecuta un proceso técnico en la instancia de Marketing que actualizará los estados de entrega de forma oportuna.
 
 
-![](../assets/do-not-localize/glass.png) Obtenga más información acerca del envío de pruebas de mensajes transaccionales al realizar la transición de v7 en [esta página](../send/transactional-template.md#transition-from-v7).
+Obtenga más información acerca del envío de pruebas de mensajes transaccionales al realizar la transición de v7 en [esta página](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] y [!DNL Snowflake] {#ac-gs-snowflake}
@@ -59,14 +59,14 @@ En su [Implementación empresarial (FDAC)](../architecture/enterprise-deployment
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FDAC) simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 
-![](../assets/do-not-localize/glass.png) Obtenga más información acerca la arquitectura de la versión 8 de [!DNL Campaign] en [esta página](../architecture/architecture.md).
+Más información sobre [!DNL Campaign] Arquitectura de v8 en [esta página](../architecture/architecture.md).
 
 
 ## Utilice su Adobe ID para conectarse a Campaign{#adobe-id}
 
 Los usuarios de Campaign solo se conectan mediante su Adobe ID. El mismo Adobe ID se utiliza para mantener todos sus planes de Adobe y productos asociados a una sola cuenta, para todas las soluciones de Adobe Experience Cloud.
 
-![](../assets/do-not-localize/glass.png) Obtenga más información sobre cómo conectarse a [!DNL Campaign] en [esta página](connect.md).
+Obtenga información sobre cómo conectarse a [!DNL Campaign] in [esta página](connect.md).
 
 ## Analizar datos con cubos{#adobe-reporting}
 

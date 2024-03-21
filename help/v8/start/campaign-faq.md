@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 193d2459d5a4ba55822c20a7e376d18b3c6d8795
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 73%
@@ -28,7 +28,7 @@ ht-degree: 73%
 
    Debe descargar e instalar la consola del cliente de Campaign para conectarse a Adobe Campaign.
 
-   ![](../assets/do-not-localize/glass.png) [Haga clic aquí para obtener más información](connect.md).
+   [Haga clic aquí para obtener más información](connect.md).
 
    A partir de la versión 8.6 de Campaign, tiene acceso a la nueva **Interfaz de usuario web de Campaign**, disponible a través del entorno central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
 
@@ -43,9 +43,9 @@ ht-degree: 73%
 
    La capacidad de envío de correo electrónico, un componente esencial para el éxito del programa de marketing de cada remitente, se caracteriza por criterios y reglas que cambian constantemente. La navegación eficaz en este mundo digital requiere un ajuste regular de su estrategia de correo electrónico, teniendo en cuenta las tendencias clave de envío, para llegar mejor a su público.
 
-   ![](../assets/do-not-localize/book.png) Consulte esta guía para aprender [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}
+   Consulte esta guía para aprender [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}
 
-   ![](../assets/do-not-localize/book.png) Obtenga información sobre cómo implementar la capacidad de envío en Campaign [en esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es){target="_blank"}
+   Obtenga información sobre cómo implementar la capacidad de envío en Campaign [en esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es){target="_blank"}
 
 1. **¿Cómo puedo asegurarme de que mi entrega se envíe sin errores?**
 

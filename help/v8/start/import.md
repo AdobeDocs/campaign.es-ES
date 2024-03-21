@@ -5,10 +5,10 @@ feature: Profiles, Data Management
 role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
-source-git-commit: e0ec2940db3120dc8fbfd17dd2f5083bbf31232c
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 84%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfil directamente en la tabla de destinatarios.
 
-![](../assets/do-not-localize/glass.png) Introducción a las [audiencias](audiences.md)
+Introducción a [audiencias](audiences.md)
 
-![](../assets/do-not-localize/glass.png) Explicación del [modelo de datos](../dev/datamodel.md) de Campaign
+Comprender Campaign [modelo de datos](../dev/datamodel.md)
 
 ## Importación de perfiles en un flujo de trabajo
 
@@ -33,7 +33,7 @@ Cree y ejecute un trabajo de importación de datos genérico para cargar contact
 
 ![](assets/new-import.png)
 
-![](../assets/do-not-localize/book.png) Obtenga información sobre cómo ejecutar trabajos de importación unitarios para alimentar la base de datos en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=es){target="_blank"}.
+Obtenga información sobre cómo ejecutar trabajos de importación unitarios para alimentar la base de datos en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=es){target="_blank"}.
 
 ## Recopilación de perfiles mediante aplicaciones web
 
@@ -41,10 +41,10 @@ Utilice Campaign para crear formularios web y recopilar y administrar la informa
 
 ![](assets/web-form-page.png)
 
-![](../assets/do-not-localize/book.png) Aprenda a crear formularios web en la documentación de [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es){target="_blank"}.
+Obtenga información sobre cómo crear formularios web en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es){target="_blank"}.
 
 **Temas relacionados**
 
-* [Crear audiencias](audiences.md)
+* [Crear públicos](audiences.md)
 * [Deduplicación de perfiles](../../automation/workflow/deduplication-merge.md)
 * [Enriquecimiento de los datos de perfil](../../automation/workflow/enrich-data.md)

@@ -5,10 +5,10 @@ feature: Workflows, FFDA
 role: Developer
 level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
-source-git-commit: f807963a7640773ac18d49999b561f2f3b894d7f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 5%
+source-wordcount: '365'
+ht-degree: 2%
 
 ---
 
@@ -20,7 +20,7 @@ En el contexto de un [Implementación empresarial (FDAC)](enterprise-deployment.
 
 Estos flujos de trabajo realizan operaciones de mantenimiento en la base de datos, aprovechan la información de seguimiento en los registros de envío, crean campañas recurrentes y mucho más.
 
-![](../assets/do-not-localize/glass.png) La lista completa de flujos de trabajo técnicos se detalla en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
+La lista completa de flujos de trabajo técnicos se detalla en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html).
 
 Además de estos flujos de trabajo técnicos, Campaign v8 se basa en flujos de trabajo técnicos específicos para administrar [replicación de datos](#data-replication).
 
@@ -33,7 +33,7 @@ Este flujo de trabajo duplica los datos de ensayo para las llamadas unitarias. E
 * **[!UICONTROL Replicate FFDA data immediately]**
 Este flujo de trabajo duplica los datos XS de una cuenta externa determinada.
 
-Estos flujos de trabajo técnicos están disponibles en **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** del explorador de Campaign. **No deben modificarse.**
+Estos flujos de trabajo técnicos están disponibles en **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** del explorador de Campaign. **No se deben modificar.**
 
 Si es necesario, puede iniciar la sincronización de datos manualmente. Para ello, haga clic con el botón derecho en la **Planificador** actividad y seleccione **Ejecutar ahora las tareas pendientes**.
 

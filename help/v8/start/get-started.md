@@ -5,10 +5,10 @@ feature: Overview, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
-source-git-commit: 86a6979b8258bbe3136ed9e4de6ce44a8164d5d9
-workflow-type: ht
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+workflow-type: tm+mt
 source-wordcount: '994'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -34,9 +34,9 @@ Los perfiles están centralizados en una potente base de datos en la nube. Exist
 
 En Adobe Campaign, los destinatarios son los perfiles seleccionados por defecto para enviarles contenido (correos electrónicos, SMS, etc.). Gracias a los datos de los destinatarios almacenados en la base de datos, podrá filtrar quiénes reciben la entrega y añadir datos que personalicen los contenidos que quiere enviar. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo se crean perfiles semilla para probar los envíos antes de enviarlos al público objetivo final.
 
-![](../assets/do-not-localize/glass.png) Los conceptos básicos de administración de perfiles se explican en [esta sección](audiences.md).
+Los conceptos básicos de administración de perfiles se explican en [esta sección](audiences.md).
 
-![](../assets/do-not-localize/glass.png) Aprenda a añadir perfiles a Campaign en [esta sección](import.md).
+Obtenga información sobre cómo añadir perfiles a Campaign en [esta sección](import.md).
 
 ## Segmentación dirigida {#targeted-segmentation}
 
@@ -44,13 +44,13 @@ Adobe Campaign tiene funcionalidades de segmentación y direccionamiento potente
 
 La funcionalidad avanzada de administración de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de direccionamiento incluyendo información que no se encuentra en la base de datos.
 
-![](../assets/do-not-localize/glass.png) Obtenga más información acerca de la segmentación, creación de públicos en [esta sección](audiences.md).
+Obtenga más información acerca de la segmentación y la creación de audiencias en [esta sección](audiences.md).
 
 ## Orquestación de campañas en canales múltiples {#cross-channel-campaign-orchestration}
 
 Adobe Campaign le permite diseñar y organizar campañas dirigidas y personalizadas en varios canales: correo electrónico, correo directo, SMS, notificaciones push. Una sola interfaz proporciona todas las funcionalidades necesarias para programar, organizar, configurar, personalizar, automatizar, ejecutar y medir todas las campañas y comunicaciones.
 
-![](../assets/do-not-localize/glass.png) Aprenda a diseñar, programar y ejecutar una campaña en [esta sección](campaigns.md).
+Aprenda a diseñar, programar y ejecutar una campaña en [esta sección](campaigns.md).
 
 ## Flujos de trabajo {#wf-gsv8}
 
@@ -65,7 +65,7 @@ Los flujos de trabajo se pueden utilizar en diferentes contextos, como por ejemp
 * Importación de datos en la base de datos de Campaign.
 * Procesos técnicos, como limpieza de bases de datos, recuperación de información de seguimiento, etc.
 
-![](../assets/do-not-localize/glass.png) Aprenda a diseñar y ejecutar flujos de trabajo en [esta sección](../config/workflows.md).
+Aprenda a diseñar y ejecutar flujos de trabajo en [esta sección](../config/workflows.md).
 
 ## Creación de informes y análisis {#analysis-and-reporting}
 
@@ -76,19 +76,19 @@ Además de las potentes plantillas de creación de informes disponibles de forma
 La función de creación de informes de campaña facilita la elaboración de informes dinámicos. Puede usar variables de arrastrar y soltar para personalizarlos y analizar el éxito de las campañas. Según la complejidad de las consultas y los cálculos, se pueden agregar los datos a una vista de lista o acceder a ellos en un formato que facilite la generación de informes de análisis de marketing.
 
 
-![](../assets/do-not-localize/glass.png) Obtenga más información acerca de las capacidades de informes y seguimiento en [esta sección](../reporting/gs-reporting.md).
+Obtenga más información acerca de las funcionalidades de informes y seguimiento en [esta sección](../reporting/gs-reporting.md).
 
 ## Integraciones con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
 
 Puede combinar las funcionalidades de envío y las funcionalidades avanzadas de administración de campañas de Adobe Campaign con un conjunto de soluciones creadas para ayudarle a personalizar la experiencia de los usuarios: Adobe Experience Manager, Adobe Analytics, Adobe Target o Adobe Experience Cloud, por ejemplo.
 
-![](../assets/do-not-localize/glass.png) Aprenda a integrar con servicios y soluciones de Adobe en [esta sección](../connect/integration.md).
+Aprenda a integrar servicios y soluciones de Adobe en [esta sección](../connect/integration.md).
 
 ## Más información acerca de las funcionalidades de Campaign {#core-capabilities-and-add-ons}
 
 Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implementar y optimizar las capacidades de marketing conversacional según sus necesidades y su arquitectura. Algunas de ellas son funcionalidades básicas y algunas dependen de la instalación de un paquete y de la configuración. Aquí encontrará una descripción detallada del producto: [Descripción del producto de Adobe Campaign Classic v8](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html).
 
-![](../assets/do-not-localize/glass.png) ¿Ya está familiarizado con Campaign Classic? Aprenda las diferencias clave entre Campaign Classic y Campaign versión 8 en [esta página](v7-to-v8.md).
+¿Ya está familiarizado con el Campaign Classic? Aprenda las diferencias clave entre Campaign Classic y Campaign versión 8 en [esta página](v7-to-v8.md).
 
 **Consulte también**
 

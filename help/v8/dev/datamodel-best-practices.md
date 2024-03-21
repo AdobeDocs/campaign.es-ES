@@ -5,9 +5,9 @@ feature: Data Model
 role: User, Developer
 level: Beginner, Intermediate
 exl-id: bdd5e993-0ce9-49a8-a618-ab0ff3796d49
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '2718'
+source-wordcount: '2740'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,9 @@ El sistema Adobe Campaign es muy flexible y se puede ampliar más allá de la im
 
 Para comprender mejor las tablas integradas de Campaign y cómo se relacionan entre sí, consulte [esta sección](datamodel.md).
 
-![](../assets/do-not-localize/glass.png) Leer más [esta sección](schemas.md) para empezar a usar los esquemas de Campaign.
+Leer más [esta sección](schemas.md) para empezar a usar los esquemas de Campaign.
 
-![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en [esta página](extend-schema.md).
+Obtenga información sobre cómo configurar esquemas de extensión para ampliar el modelo de datos conceptuales de la base de datos de Adobe Campaign en [esta página](extend-schema.md).
 
 ## Arquitectura del modelo de datos {#data-model-architecture}
 
@@ -86,7 +86,7 @@ Los recursos de Adobe Campaign tienen tres identificadores y es posible añadir 
 
 En la tabla siguiente se describen estos identificadores y su propósito.
 
-| Identifier | Descripción | Prácticas recomendadas |
+| Identificador | Descripción | Prácticas recomendadas |
 |--- |--- |--- |
 | Identificación | <ul><li>El ID es la clave primaria física de una tabla de Adobe Campaign. Para tablas integradas, es un ID único universal (UUID)</li><li>Este identificador debe ser único. </li><li>Un UUID puede ser visible en una definición de esquema.</li></ul> | <ul><li>Los identificadores generados automáticamente no deben utilizarse como referencia en un flujo de trabajo o en una definición de paquete.</li><li>El ID de una tabla es un UUID y este tipo no debe cambiarse.</li></ul> |
 | Nombre (o nombre interno) | <ul><li>Esta información es un identificador único de un registro de una tabla. Este valor se puede actualizar de forma manual, normalmente con un nombre generado.</li><li>Este identificador mantiene su valor cuando se implementa en una instancia diferente de Adobe Campaign y no debe estar vacío.</li></ul> | <ul><li>Cambie el nombre del registro generado por Adobe Campaign si el objeto debe implementarse de un entorno a otro.</li><li>Cuando un objeto tiene un atributo namespace (*esquema* por ejemplo), este área de nombres común se aprovechará en todos los objetos personalizados creados. Algunas áreas de nombres reservadas no deben usarse: *nms*, *xtk*, etc.  Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces).</li><li>Cuando un objeto no tiene ningún área de nombres (*workflow* o *envío* por ejemplo), esta noción de área de nombres se agregaría como prefijo de un objeto de nombre interno: *namespaceMyObjectName*.</li><li>No utilice caracteres especiales como el espacio &quot;&quot;, el punto y coma &quot;:&quot; o el guión &quot;-&quot;. Todos estos caracteres se sustituirían por un guion bajo &quot;_&quot; (carácter permitido). Por ejemplo, &quot;abc-def&quot; y &quot;abc:def&quot; se almacenarían como &quot;abc_def&quot; y se sobrescribirían mutuamente.</li></ul> |

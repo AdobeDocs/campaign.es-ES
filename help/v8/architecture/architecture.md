@@ -5,10 +5,10 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 86fa52c445b89227cfabb65e74627c5da7d3db1f
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
 source-wordcount: '1039'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -26,7 +26,7 @@ Hay dos tipos de entornos disponibles:
 
 Puede exportar e importar paquetes de un entorno a otro.
 
-![](../assets/do-not-localize/book.png) Obtenga más información sobre los paquetes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
+Obtenga más información sobre los paquetes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Modelos de implementación {#ac-deployment}
 
@@ -100,7 +100,7 @@ Para que las cuentas externas divididas sean la cuenta predeterminada para reali
 
 La mensajería transaccional (Centro de mensajes) es el módulo de Campaign diseñado para gestionar mensajes de activación.
 
-![](../assets/do-not-localize/glass.png) Aprenda a enviar mensajes transaccionales en [esta sección](../send/transactional.md).
+Aprenda a enviar mensajes transaccionales en [esta sección](../send/transactional.md).
 
 En respuesta a una acción de un cliente en un sitio web, se envía un evento de Campaign a través de una API de REST, y la plantilla de mensaje se rellena con la información o los datos proporcionados a través de la llamada de API, y se envía un mensaje transaccional en tiempo real al cliente. Estos mensajes se pueden enviar por separado o en serie por correo electrónico, SMS o notificaciones push.
 
@@ -108,7 +108,7 @@ En esta arquitectura específica, la celda de ejecución se separa de la instanc
 
 * El **Instancia de control** (o instancia de Marketing) los utilizan los especialistas en marketing y los equipos de TI para crear, configurar y publicar plantillas de mensajes. Esta instancia también centraliza la monitorización y el historial de eventos.
 
-  ![](../assets/do-not-localize/glass.png) Obtenga información sobre cómo crear y publicar plantillas de mensajes en [esta sección](../send/transactional.md).
+  Obtenga información sobre cómo crear y publicar plantillas de mensajes en [esta sección](../send/transactional.md).
 
 * El **Instancia de ejecución** recupera los eventos entrantes (restablecimiento de contraseña o pedidos de un sitio web por ejemplo) y envía mensajes personalizados. Puede haber más de una instancia de ejecución para procesar mensajes a través del equilibrador de carga y escalar el número de eventos que se van a procesar para obtener la máxima disponibilidad.
 

@@ -5,10 +5,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 91%
+source-wordcount: '307'
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,7 @@ Ventajas principales:
 
 También puede utilizar el Panel de control de Campaign para configurar las instancias, como las listas de IP permitidas, los permisos de URL y recuperar información acerca de su instancia.
 
-![](../assets/do-not-localize/book.png) Obtenga más información en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"}.
+Obtenga más información en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"}.
 
 ## ¿Cómo acceder al Panel de control? {#ac-control-panel-access}
 
@@ -32,7 +32,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 ## Preguntas frecuentes sobre el Panel de control {#ac-control-faq}
 
-[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} para acceder a las preguntas frecuentes sobre Campaign Panel de control de Campaign.
 
 ## Administración de SFTP {#ac-control-sftp}
 
@@ -56,5 +56,5 @@ El Panel de control proporciona varias funcionalidades que le ayudan a monitoriz
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign en el Panel de control.
 * [IP en la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es){target="_blank"}
 * [Permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es){target="_blank"}
-* [Detalles de instancias](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es){target="_blank"}
+* [Detalles de instancia](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es){target="_blank"}
 * [Administración de claves GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es){target="_blank"}

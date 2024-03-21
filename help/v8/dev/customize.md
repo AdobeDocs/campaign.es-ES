@@ -5,10 +5,10 @@ feature: Configuration, Application Settings
 role: Developer
 level: Intermediate, Experienced
 exl-id: 18000763-5923-48bd-b62d-cccd3c11016d
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 22%
+source-wordcount: '451'
+ht-degree: 10%
 
 ---
 
@@ -25,7 +25,7 @@ Obtenga información sobre cómo **Personalizar la instancia de Campaign**.
 Adobe Campaign utiliza esquemas de datos para lo siguiente:
 
 * Definir el modo en que los objetos de datos de la aplicación están vinculados a las tablas de bases de datos subyacentes
-* Definir vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign
+* Defina vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign
 * Definir y describir los campos individuales incluidos en cada objeto
 
 Por ejemplo, para agregar un campo a una tabla existente, como la tabla de destinatarios (nms:recipient), debe ampliar ese esquema.
@@ -44,9 +44,9 @@ Para añadir un tipo de datos completamente nuevo que no existe de forma predete
 
 **Temas relacionados**
 
-![](../assets/do-not-localize/book.png) Ejemplo de edición de esquema en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
+Ejemplo de edición de esquema en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
 
-![](../assets/do-not-localize/book.png) Caso de uso: vincular un campo a una tabla de referencia existente en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
+Caso de uso: vincular un campo a una tabla de referencia existente en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
 
 
 ## Modificación de los formularios de entrada
@@ -57,7 +57,7 @@ Obtenga información sobre cómo modificar un formulario de entrada existente o 
 
 ## Personalizar paneles{#gs-custom-dashboards}
 
-La interfaz de Adobe Campaign utiliza muchas aplicaciones web para acceder, gestionar e interactuar con destinatarios, envíos, campañas, inventarios, etc. Se visualizan en la interfaz en forma de paneles con una sola página.
+La interfaz de Adobe Campaign utiliza muchas aplicaciones web para acceder, administrar e interactuar con destinatarios, envíos, campañas, inventarios, etc. Se visualizan en la interfaz en forma de paneles con una sola página.
 
 Las aplicaciones web integradas se almacenan en el **Administration > Configuration > Web applications** de Explorer.
 
