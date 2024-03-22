@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 06fdb279-3776-433f-8d27-33d016473dee
-source-git-commit: 3c7455f348468a8f00fb853a3269a1d63b81e7b8
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1491'
-ht-degree: 63%
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 63%
 
 La mensajería transaccional (Centro de Mensajes) es un módulo de Campaign diseñado para gestionar mensajes de activación. Estas notificaciones se generan a partir de eventos activados desde sistemas de información y pueden ser: factura, confirmación de pedido, confirmación de envío, cambio de contraseña, notificación de no disponibilidad del producto, extracto de cuenta, creación de cuenta en el sitio web, etc.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para configurar la mensajería transaccional de Campaign en su entorno.
+>[!NOTE]
+>
+>Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para configurar la mensajería transaccional de Campaign en su entorno.
 
 Los mensajes transaccionales se utilizan para enviar:
 
@@ -144,7 +146,7 @@ Una dirección semilla permite mostrar una previsualización del mensaje, enviar
 
 1. Asigne una etiqueta para facilitar la selección posterior e introduzca la dirección semilla (correo electrónico o teléfono móvil según el canal de comunicación).
 
-1. Introduzca el identificador externo: este campo opcional permite introducir una clave comercial (ID única, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y es utilizada para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede conciliar un evento con un perfil de la base de datos.
+1. Introduzca el identificador externo: este campo opcional permite introducir una clave comercial (ID única, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y es utilizada para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede reconciliar un evento con un perfil de la base de datos.
 
    ![](assets/messagecenter_create_seed_2.png)
 

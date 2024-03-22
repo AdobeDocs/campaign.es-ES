@@ -5,10 +5,10 @@ feature: Federated Data Access
 role: Admin
 level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 40%
+ht-degree: 36%
 
 ---
 
@@ -16,15 +16,13 @@ ht-degree: 40%
 
 Utilice el conector FDA (Acceso de datos federado) para conectar Campaign a uno o más **bases de datos externas** y procesar la información almacenada en ellos sin afectar a los datos de la base de datos de Campaign Cloud. A continuación, puede acceder a datos externos sin cambiar la estructura de los datos de Adobe Campaign.
 
-![](../assets/do-not-localize/speech.png) Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support) para conectar las bases de datos externas con Campaign.
-
-
 >[!NOTE]
 >
 >* Las bases de datos compatibles para el acceso de datos federado se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md).
 >
 >* En el contexto de un [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), hay una cuenta externa específica disponible para administrar la comunicación entre la base de datos local de Campaign y la base de datos en la nube de Snowflake. Esta cuenta externa está configurada por Adobe y **no debe** no se puede modificar.
 >
+>* Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support) para conectar las bases de datos externas con Campaign.
 
 
 ## Prácticas recomendadas y limitaciones
@@ -71,8 +69,8 @@ Por ejemplo, en la variable **[!UICONTROL Query]** actividad, puede definir una 
 1. Abra la actividad y haga clic en **[!UICONTROL Add data...]**
 1. Seleccione el **[!UICONTROL External data]** opciones
 1. Seleccione el **[!UICONTROL Locally defining the data source]** opción
-1. Seleccionar el motor de base de datos de objetivo en la lista desplegable. Introducir el nombre del servidor y especificar los parámetros de autenticación. Especificar también el nombre de la base de datos externa.
-1. Seleccionar la tabla en la que se almacenan los datos. Puede introducir el nombre de la tabla directamente en el campo correspondiente o hacer clic en el icono de edición para acceder a la lista de las tablas de la base de datos.
+1. Seleccionar el motor de base de datos de objetivo en la lista desplegable. Introduzca el nombre del servidor y proporcione los parámetros de autenticación. Especificar también el nombre de la base de datos externa.
+1. Seleccione la tabla donde se almacenan los datos. Puede introducir el nombre de la tabla directamente en el campo correspondiente o hacer clic en el icono de edición para acceder a la lista de las tablas de la base de datos.
 1. Hacer clic en el botón **[!UICONTROL Add]** para definir uno o varios campos de reconciliación entre los datos de la base de datos externa y los datos de la base de datos de Adobe Campaign. Los iconos **[!UICONTROL Edit expression]** del **[!UICONTROL Remote field]** y el **[!UICONTROL Local field]** le proporcionan acceso a la lista de campos de cada una de las tablas.
 1. Si es necesario, especifique una condición de filtrado y el modo de clasificación de datos.
 1. Seleccione los datos adicionales que se recopilarán en la base de datos externa. Para ello, haga doble clic en los campos que desea añadir para mostrarlos en las **[!UICONTROL Output columns]**.

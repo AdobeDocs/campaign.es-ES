@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 88%
@@ -25,7 +25,7 @@ Puede acceder a los informes integrados desde la página de inicio de Campaign, 
 
 Hay disponible una lista de informes clave en la página principal que le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. También puede aprender a añadir sus propios informes a **[!UICONTROL Reports]** pestaña.
 
-Para obtener más información sobre estas configuraciones personalizadas, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html).
+Para obtener más información sobre estas configuraciones personalizadas, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=es){target="_blank"}.
 
 
 ## Acceso a informes integrados {#access-ootb-reports}

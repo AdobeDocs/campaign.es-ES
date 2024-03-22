@@ -4,10 +4,10 @@ description: Obtenga información sobre cómo acceder y utilizar informes global
 feature: Reporting, Monitoring
 role: User, Data Engineer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1763'
-ht-degree: 96%
+source-wordcount: '1750'
+ht-degree: 95%
 
 ---
 
@@ -49,9 +49,9 @@ Se pueden configurar los valores que se muestran cambiando la escala temporal: v
 
 >[!NOTE]
 >
->También puede monitorizar el número de envíos por hora utilizando [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es).
+>También puede monitorizar el número de envíos por hora utilizando [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es){target="_blank"}.
 >
->Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel).
+>Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel){target="_blank"}.
 >
 
 ## Actividades del usuario {#user-activities}
@@ -273,7 +273,7 @@ La tabla de valores utiliza los indicadores siguientes:
 
 Este gráfico muestra la evolución de las suscripciones y las bajas de suscripción durante el periodo correspondiente.
 
-## Estadísticas de entrega {#delivery-statistics}
+## Estadísticas de envío {#delivery-statistics}
 
 Este informe muestra el desglose por dominio de Internet, de todos los mensajes procesados y enviados, de los rechazos graves o leves, aperturas, clics y bajas de suscripción.
 

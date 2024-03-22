@@ -4,13 +4,13 @@ description: Obtenga información sobre cómo activar el CCO del correo electró
 feature: Email
 role: User
 level: Beginner
-source-git-commit: 87c971ac6cf4abb6b04d52ce60ac2036055e1e02
+exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
 
 ---
-
 
 # Envíe una copia de sus mensajes a una dirección de CCO {#bcc}
 
@@ -26,7 +26,9 @@ Adobe Campaign no administra los archivos archivados. Los archivos .eml correspo
 
 El destino de archivado es la dirección de correo electrónico CCO que elija, que permanece invisible para los destinatarios de la entrega. Una vez definida la dirección de correo electrónico de CCO, debe activar la opción dedicada en [plantilla de envíos](create-templates.md) nivel.
 
-![](../assets/do-not-localize/speech.png)  Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para comunicar la dirección de correo electrónico CCO que se utilizará para el archivado.
+>[!NOTE]
+>
+>Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para comunicar la dirección de correo electrónico CCO que se utilizará para el archivado.
 
 >[!CAUTION]
 >

@@ -5,10 +5,10 @@ feature: Subscriptions
 role: User
 level: Beginner
 exl-id: d5933b12-8664-49b8-953c-ea98eb428cc2
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 34%
+ht-degree: 28%
 
 ---
 
@@ -39,7 +39,7 @@ Para suscribir (opt-in) un perfil a un servicio, las opciones disponibles son:
 
 * Importación de destinatarios y subscripción automática a un servicio informativo. Para ello, seleccione el servicio correspondiente en el último paso del asistente para importar.
 
-  Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}
+  Obtenga más información en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs.html#step-5---additional-step-when-importing-recipients){target="_blank"}.
 
 * Uso de un formulario web para que los destinatarios puedan suscribirse a un servicio.
 
@@ -49,14 +49,14 @@ Para suscribir (opt-in) un perfil a un servicio, las opciones disponibles son:
 
   ![](assets/web-app.png)
 
-  Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}
+  Obtenga más información en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * Cree un flujo de trabajo de objetivos y utilice un **[!UICONTROL Subscription service]** actividad.
 
   ![](assets/wf-subscription.png)
 
-  Obtenga más información en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html).
+  Obtenga más información en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/subscription-services.html){target="_blank"}.
 
 Para cancelar la suscripción (exclusión) de un perfil de un servicio, las opciones disponibles son:
 
@@ -71,7 +71,7 @@ Para cancelar la suscripción (exclusión) de un perfil de un servicio, las opci
 * Especifique un límite de duración para el servicio informativo: la suscripción de los destinatarios se cancela automáticamente cuando el periodo de validez haya caducado. Este periodo se especifica en la pestaña Edit de las propiedades del servicio. Se muestra en días.
 * Configure un flujo de trabajo para darse de baja de una población.
 
-Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}
+Obtenga más información en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html#unsubscribing-a-recipient-from-a-service){target="_blank"}.
 
 
 >[!CAUTION]

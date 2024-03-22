@@ -3,10 +3,10 @@ product: campaign
 title: Nota técnica - Adobe Campaign - Actualización de seguridad de la versión de Apache
 description: 'Adobe Campaign: Actualización de seguridad de la versión de Apache'
 exl-id: 68e42fe4-7fb6-4b53-9f39-e77374e3753d
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 3%
+source-wordcount: '466'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ El equipo de Adobe Campaign llevará a cabo la actividad de actualización de se
 
 Se espera que esta actualización se ejecute automáticamente fuera del horario laboral normal para que pueda seguir utilizando el servicio de Campaign sin interrupciones.
 
-Nuestros equipos actualizarán primero sus instancias que no sean de producción antes de actualizar las instancias de producción. Dado que se trata de un proceso de actualización automática propiedad de Adobe, no se requiere ninguna acción por su parte. Sin embargo, si tiene algún problema, póngase en contacto con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+Nuestros equipos actualizarán primero sus instancias que no sean de producción antes de actualizar las instancias de producción. Dado que se trata de un proceso de actualización automática propiedad de Adobe, no se requiere ninguna acción por su parte. Sin embargo, si tiene algún problema, póngase en contacto con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 >[!NOTE]
@@ -51,7 +51,7 @@ Nuestros equipos actualizarán primero sus instancias que no sean de producción
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
-  No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, póngase en contacto con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support)
+  No se necesitan pruebas específicas para esta actualización de seguridad. Si se observa algún problema, póngase en contacto con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo de actualización de seguridad programado?**
@@ -59,4 +59,4 @@ Nuestros equipos actualizarán primero sus instancias que no sean de producción
   Como se trata de una corrección de seguridad, le recomendamos encarecidamente que se adapte a la programación existente.
 
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support).
+Para cualquier otra pregunta, puede comunicarse con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

@@ -5,10 +5,10 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 46be0379610a6a4a3491d49ce096c64270ed8016
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '3005'
-ht-degree: 65%
+source-wordcount: '2990'
+ht-degree: 64%
 
 ---
 
@@ -18,7 +18,7 @@ Las devoluciones son el resultado de un intento de entrega y un error en el que 
 
 Este proceso evita que los sistemas continúen enviando direcciones de correo electrónico no válidas. Las devoluciones son uno de los datos clave que los ISP utilizan para determinar la reputación de la IP. Es importante estar atento a esta métrica. &quot;Entregado&quot; frente a &quot;devuelto&quot; es probablemente la forma más común de medir el envío de mensajes de marketing: cuanto mayor sea el porcentaje de entrega, mejor.
 
-Si un mensaje no se puede enviar a un perfil, el servidor remoto envía automáticamente un mensaje de error a Adobe Campaign. Este error sirve para determinar si la dirección de correo electrónico, el número de teléfono o el dispositivo deben ponerse en cuarentena. Consulte [Administración de correos rechazados](#bounce-mail-qualification).
+Si no es posible enviar un mensaje a un perfil, el servidor remoto envía automáticamente un mensaje de error a Adobe Campaign. Este error sirve para determinar si la dirección de correo electrónico, el número de teléfono o el dispositivo deben ponerse en cuarentena. Consulte [Administración de correos rechazados](#bounce-mail-qualification).
 
 Una vez enviado un mensaje, puede ver el estado de envío de cada perfil y el tipo y el motivo de error asociado en los registros de envío.
 
@@ -40,7 +40,7 @@ Las devoluciones leves de mensajes son errores temporales que los ISP generan cu
 
 El  **Ignorado** El tipo de error es temporal, como &quot;Fuera de la oficina&quot;, o un error técnico, por ejemplo, si el tipo de remitente es &quot;Administrador de correo&quot;.
 
-El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluir en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se añaden a (**NmsAddress**) tabla de cuarentena y no a (**NmsRecipient**) tabla de destinatarios con **[!UICONTROL Denylisted]** estado. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops).
+El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluir en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se añaden a (**NmsAddress**) tabla de cuarentena y no a (**NmsRecipient**) tabla de destinatarios con **[!UICONTROL Denylisted]** estado. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
 
 ## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
 
@@ -238,7 +238,7 @@ Para el canal de correo electrónico, a continuación se enumeran los posibles m
    <td> Inaccesible </td> 
    <td> Leve/Grave </td> 
    <td> 3 </td> 
-   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio al que no se puede acceder temporalmente, etc. Según el error, se vuelve a intentar enviar un correo a la dirección hasta que el contador de errores llegue a 5 o se envía directamente a cuarentena.<br /> </td> 
+   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio al que no se puede acceder temporalmente, etc. Según el error, se vuelve a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se envía directamente a cuarentena.<br /> </td> 
   </tr> 
   <tr> 
    <td> Usuario desconocido </td> 
@@ -312,7 +312,7 @@ Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problema de certificado (contraseña, corrupción, etc.) y conexión de prueba a un problema de APNS<br /> </td> 
+   <td> Problema de certificado (contraseña, datos dañados, etc.) y probar la conexión con un problema de APN<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> Varios mensajes de error según el error<br /> </td> 
    <td> Leve<br /> </td> 
@@ -657,18 +657,18 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * Todos los mensajes de error empiezan por **SR** para distinguir entre los códigos de error de los SMS y códigos de error de los correos electrónicos.
-* La segunda parte (**Generic** en este ejemplo) del mensaje de error hace referencia al nombre de la implementación de SMSC, como se define en el campo **[!UICONTROL SMSC implementation name]** de la cuenta externa de SMS.
+* La segunda parte (**Genérico** en este ejemplo) del mensaje de error hace referencia al nombre de la implementación de SMSC, como se define en la variable **[!UICONTROL SMSC implementation name]** del campo de la cuenta externa SMS.
 
   Dado que el mismo código de error puede tener un significado diferente para cada proveedor, este campo permite saber qué proveedor genera el código de error. Después se puede buscar el error en la documentación del proveedor correspondiente.
 
 * La tercera parte (**DELIVRD** en este ejemplo) del mensaje de error corresponde al código de estado recuperado del SR mediante las regex de extracción de estado definidas en la cuenta externa de SMS.
 
-  Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa.
+  Esta regex se especifica en **[!UICONTROL SMSC specificities]** de la cuenta externa.
 De manera predeterminada, la regex extrae el campo **stat:** como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 
 * La cuarta parte (**000** en este ejemplo) del mensaje de error corresponde al código de error extraído del SR mediante la regex de extracción de código de error definida en la cuenta externa de SMS.
 
-  Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa.
+  Esta regex se especifica en **[!UICONTROL SMSC specificities]** de la cuenta externa.
 
   De manera predeterminada, la regex extrae el campo **err:** tal y como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 

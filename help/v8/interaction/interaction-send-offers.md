@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 63%
+source-wordcount: '1241'
+ht-degree: 64%
 
 ---
 
@@ -76,7 +76,7 @@ Varias actividades de flujo de trabajo permiten definir la forma en que se prese
 
 ### Enriquecimiento  {#enrichment}
 
-El **Enriquecimiento** La actividad permite agregar ofertas o vínculos a ofertas para los destinatarios de la entrega.[Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html)
+El **Enriquecimiento** La actividad permite agregar ofertas o vínculos a ofertas para los destinatarios de la entrega.[Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 Por ejemplo, puede ampliar los datos de una consulta al destinatario antes de una entrega.
 
@@ -163,7 +163,7 @@ La entrega almacena automáticamente la clasificación y las consideraciones de 
 
 El **[!UICONTROL Offer engine]** La actividad también permite especificar una llamada al motor de oferta antes de la entrega.
 
-Para obtener más información sobre **Motor de oferta** actividad, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html)
+Para obtener más información sobre **Motor de oferta** actividad, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}.
 
 Esta actividad funciona con el mismo principio que **Enriquecimiento** actividad con visualización del motor, enriqueciendo los datos de población entrantes con una oferta calculada por el motor antes de una entrega.
 
@@ -186,7 +186,7 @@ Después de configurar su **Consulta** actividad:
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-Para obtener más información sobre **Oferta por celda** actividad, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html)
+Para obtener más información sobre **Oferta por celda** actividad, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}.
 
 Para ello, utilice el proceso siguiente:
 
@@ -199,7 +199,7 @@ Para ello, utilice el proceso siguiente:
 
      ![](assets/int_offer_per_cell1.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido.
+1. A continuación, configure una actividad de envío que corresponda al canal elegido.
 
 <!--
 

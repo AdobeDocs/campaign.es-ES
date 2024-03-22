@@ -5,7 +5,7 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1394'
 ht-degree: 12%
@@ -124,7 +124,7 @@ Se deben cumplir las siguientes reglas:
 
 El tipo de datos se introduce mediante la variable **type** en el **`<attribute>`** y **`<element>`** elementos.
 
-Encontrará una lista detallada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic).
+Encontrará una lista detallada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 Cuando este atributo no se rellena, **cadena** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se utiliza para estructurar los elementos jerárquicamente (**`<location>`** en nuestro ejemplo).
 

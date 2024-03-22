@@ -5,10 +5,10 @@ feature: Privacy
 role: Admin
 level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
-source-git-commit: 9df599ec0a898a1af16cb92d334d50375fde86ba
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '930'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe ofrece las herramientas de los controladores de datos para crear y procesa
 
 Para administrar la solicitud de privacidad en Campaign, primero debe [definir un área de nombres](#namespaces). A continuación, puede crear y administrar solicitudes de privacidad. Para ejecutar solicitudes de privacidad, utilice la integración **Privacy Service de Adobe**. Las solicitudes de privacidad enviadas desde Privacy Service a todas las soluciones de Adobe Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado. [Más información](#create-privacy-request)
 
-![](../assets/do-not-localize/speech.png) Obtenga información sobre el **Derecho de acceso** y el **Derecho al olvido** (petición DELETE) en la [Documentación de la versión 7 de Adobe Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target="_blank"}.
+Obtenga información acerca de **Derecho de acceso** y el **Derecho al olvido** (solicitud de eliminación) en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target="_blank"}.
 
 <!--
 >[!NOTE]

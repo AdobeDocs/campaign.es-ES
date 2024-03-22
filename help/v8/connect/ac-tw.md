@@ -5,7 +5,7 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 11%
@@ -20,7 +20,10 @@ El **Administración de redes sociales (Marketing social)** Este módulo le perm
 
 * Recopilar nuevos contactos: Adobe Campaign Social Marketing también facilita la adquisición de nuevos contactos: póngase en contacto con los usuarios y pídale que compartan la información de su perfil. Si lo aceptan, Adobe Campaign recupera automáticamente los datos, lo que le permite llevar a cabo campañas de objetivo y, cuando sea posible, implementar estrategias multicanal.
 
-![](../assets/do-not-localize/speech.png) Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support) para conectar Campaign con X. La variable  **Administración de redes sociales (Marketing social)** El complemento debe instalarse en su entorno, a través del paquete específico, y se debe configurar la cuenta externa de Twitter.
+
+>[!NOTE]
+>
+>Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support) para conectar Campaign con X. La variable  **Administración de redes sociales (Marketing social)** El complemento debe instalarse en su entorno, a través del paquete específico, y se debe configurar la cuenta externa de Twitter.
 
 
 Para configurar Adobe Campaign para que publique tweets en sus cuentas X, delegue el acceso de escritura a Adobe Campaign para estas cuentas. Para ello, debe:
@@ -42,7 +45,7 @@ Campaign utiliza la versión 1.1 de la API de X. Para utilizarlo, debe solicitar
 Una vez aprobado con acceso elevado, cree una aplicación X para permitir que Adobe Campaign cree publicaciones en su cuenta X. Para realizar esto, siga los pasos a continuación:
 
 1. Inicie sesión en su cuenta X.
-1. Conectar a [Portal para desarrolladores de X](https://developer.twitter.com/en/apps).
+1. Conectar a [Portal para desarrolladores de X](https://developer.twitter.com/en/apps){target="_blank"}.
 1. Seleccionar **Crear una aplicación**.
 1. Deje que el asistente X le guíe a través del proceso.
 1. Para permitir que Adobe Campaign cree publicaciones en su cuenta, edite en **Permisos de aplicación** en la sección Configuración de autenticación de usuario de la aplicación. Seleccionar **Leer, escribir y dirigir mensajes**.

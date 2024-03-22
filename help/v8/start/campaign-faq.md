@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 73%
+ht-degree: 70%
 
 ---
 
@@ -22,7 +22,9 @@ ht-degree: 73%
 
    Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Esta es la razón por la que creemos que es esencial que ejecute la versión más reciente de Adobe Campaign.
 
-   ![](../assets/do-not-localize/speech.png)  Como usuario de Cloud Services administrados, la instancia se actualiza en Adobe con cada nueva versión.
+   >[!NOTE]
+   >
+   >Como usuario de Managed Cloud Service, la instancia se actualiza por Adobe con cada nueva versión.
 
 1. **¿Cómo puedo conectarme a Campaign v8?**
 
@@ -65,7 +67,9 @@ ht-degree: 73%
 
    Un subdominio es una división de su dominio que puede utilizarse para aislar sus marcas o varios tipos de tráfico (mensajes transaccionales, información de marketing, etc.).
 
-   ![](../assets/do-not-localize/speech.png) Como usuario de Cloud Service administrados, póngase en contacto con el Adobe para delegar sus subdominios al Adobe.
+   >[!NOTE]
+   >
+   >Como usuario de Cloud Service administrados, póngase en contacto con el Adobe para delegar sus subdominios al Adobe.
 
 1. **Como usuario Campaign Classic v7, ¿puedo migrar a Campaign v8?**
 
@@ -73,7 +77,7 @@ ht-degree: 73%
 
    La versión 8 de Campaign **solo** está disponible as a Managed Cloud Service y no se puede implementar en entornos locales o híbridos.
 
-   ![](../assets/do-not-localize/speech.png) Para obtener más información sobre el proceso de migración, póngase en contacto con su representante de Adobe.
+   Para obtener más información sobre el proceso de migración, póngase en contacto con su representante de Adobe.
 
 1. **¿Cómo puedo descargar Campaign?**
 

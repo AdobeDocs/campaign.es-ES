@@ -5,7 +5,7 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 17%
@@ -46,7 +46,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   ![](assets/desc-analysis-report.png)
 
-  La creación de informes de análisis descriptivo de Campaign se presenta en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=es){target="_blank"}
+  La creación de informes de análisis descriptivo de Campaign se presenta en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=es){target="_blank"}.
 
 * **Informes personalizados**
 

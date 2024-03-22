@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 41%
+source-wordcount: '600'
+ht-degree: 26%
 
 ---
 
@@ -18,7 +18,10 @@ La mensajería transaccional (Centro de mensajes) es un módulo de Campaign dise
 
 Comprensión de la arquitectura de mensajería transaccional en [esta página](../architecture/architecture.md#transac-msg-archi).
 
-![](../assets/do-not-localize/speech.png) Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+
+>[!NOTE]
+>
+>Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
 ## Definición de permisos {#mc-permissions}
 
@@ -51,7 +54,7 @@ Además, el evento debe contener los siguientes elementos:
 
 A continuación se muestra un ejemplo de configuración de evento para enviar notificaciones push transaccionales:
 
-```
+```xml
 <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
      <urn:PushEvent>
@@ -85,7 +88,7 @@ Utilice las flechas según corresponda para cambiar la configuración de depurac
 
 Debe asegurarse de que los flujos de trabajo técnicos de las instancias de control y ejecución se hayan iniciado antes de implementar cualquier plantilla de mensaje transaccional.
 
-A continuación, se puede acceder a estos flujos de trabajo de archivado desde la carpeta **Administration > Production > Message Center.**
+A continuación, se puede acceder a estos flujos de trabajo desde el **Administration > Production > Message Center** carpeta.
 
 ### Flujos de trabajo de instancias de control {#control-instance-workflows}
 
@@ -103,7 +106,7 @@ En las instancias de ejecución, debe iniciar los siguientes flujos de trabajo t
 
    * **[!UICONTROL Pending]**: el evento está en cola. Aún no se le ha asignado ninguna plantilla de mensaje.
    * **[!UICONTROL Pending delivery]**: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.
-   * **[!UICONTROL Sent]** : este estado se copia desde los registros de envío. Significa que el envío se realizó.
-   * **[!UICONTROL Ignored by the delivery]** : este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.
-   * **[!UICONTROL Delivery failed]** : este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
+   * **[!UICONTROL Sent]**: este estado se copia desde los registros de envío. Significa que el envío se realizó.
+   * **[!UICONTROL Ignored by the delivery]**: este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.
+   * **[!UICONTROL Delivery failed]**: este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
    * **[!UICONTROL Event not taken into account]**: el evento no se ha podido relacionar con una plantilla de mensaje. El evento no se va a procesar.

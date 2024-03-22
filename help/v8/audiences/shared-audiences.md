@@ -1,19 +1,19 @@
 ---
-title: Comparta audiencias con soluciones de Adobe Experience Cloud
-description: Descubra cómo compartir audiencias con soluciones de Adobe Experience Cloud
+title: Comparta públicos con soluciones de Adobe Experience Cloud
+description: Descubra cómo compartir públicos con soluciones de Adobe Experience Cloud
 feature: Audiences, Profiles
 role: User
 level: Beginner
 hide: true
 hidefromtoc: true
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '242'
+ht-degree: 73%
 
 ---
 
-# Comparta audiencias con soluciones de Adobe Experience Cloud{#shared-audiences}
+# Comparta públicos con soluciones de Adobe Experience Cloud{#shared-audiences}
 
 Opción 1: Fuentes y destinos de AEP
 
@@ -27,17 +27,17 @@ Puede integrar **Adobe Campaign** con **Servicio principal Personas** o Adobe Au
 
 Esta integración es compatible con dos tipos de ID de Adobe Experience Cloud:
 
-* **ID de visitante**: este tipo de identificador concilia los visitantes de Adobe Experience Cloud con los destinatarios de Adobe Campaign.
-* **ID declarado**: este tipo de identificador concilia todo tipo de datos con los elementos de la base de datos de Adobe Campaign. Constituye la clave de reconciliación predefinida en Adobe Campaign.
+* **ID de visitante**: este tipo de identificador reconcilia los visitantes de Adobe Experience Cloud con los destinatarios de Adobe Campaign.
+* **ID declarado**: este tipo de identificador reconcilia todo tipo de datos con los elementos de la base de datos de Adobe Campaign. Constituye la clave de reconciliación predefinida en Adobe Campaign.
 
   >[!NOTE]
   >
   > Ahora, la fuente de datos de ID declarado también se puede utilizar con la integración del servicio principal Personas.
   >
-  >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición a la fuente de datos de ID declarado en un contexto de Adobe Audience Manager.
+  >Si utiliza la integración del servicio principal Personas y desea añadir la integración de Audience Manager, necesitará la ayuda de un consultor de Adobe Audience Manager para evitar perder todas las sincronizaciones de ID recopiladas al realizar la transición al uso de esta fuente de datos de ID declarado en un contexto de Adobe Audience Manager.
 
 Consulte:
 
-[https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es)
+[Base de conocimiento de Adobe Audience Manager](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=es){target="_blank"}.
 
-[https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=es](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=es)
+[Guía de componentes de la interfaz central de Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=es){target="_blank"}.
