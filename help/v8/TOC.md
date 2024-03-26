@@ -16,7 +16,7 @@ ht-degree: 98%
 # Documentación de Adobe Campaign v8 {#campaign-v8}
 
 + [Documentación de la versión 8 de Campaign](campaign-home.md)
-+ Notas de la versión {#releases}
++ Notas de la versión{#releases}
    + [Notas de la versión preliminar](start/e-release-notes.md)
    + [Versiones y actualizaciones](start/upgrades.md)
    + [Último lanzamiento](start/release-notes.md)
