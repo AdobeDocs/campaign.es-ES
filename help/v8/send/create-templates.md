@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 34af97ae01f7dba418fd0a8c950fc549dfbbd98b
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 76%
+source-wordcount: '692'
+ht-degree: 72%
 
 ---
 
@@ -26,7 +26,7 @@ Una plantilla puede incluir:
 * Contenido, logotipo de una compañía o firma
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#delivery-template-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#delivery-template-video)
 
 
 ## Creación de una plantilla{#create-a-delivery-template}
@@ -57,7 +57,7 @@ La plantilla se añade a la lista de plantillas de envío. Ahora puede seleccion
 
 ### Conversión de un envío existente en una plantilla {#convert-an-existing-delivery}
 
-Puede convertir una entrega en una plantilla y usarla con las nuevas acciones de envío repetidas.
+Puede convertir un envío en una plantilla y usarla con las nuevas acciones de envío repetidas.
 
 Para convertir un envío en una plantilla, siga los pasos a continuación:
 
@@ -86,7 +86,7 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
 1. Desde el **Propiedades** , adapte la configuración.
 1. En la pestaña **General**, confirme o cambie las ubicaciones seleccionadas en los menús desplegables **Carpeta de ejecución**, **Carpeta** y **Enrutamiento**.
 1. Rellene la categoría **parámetros de correo electrónico** con el asunto del correo electrónico y la población objetivo.
-1. Añada el **contenido HTML** para personalizar la plantilla. Puede mostrar un vínculo a una página espejo y un vínculo para darse de baja.[](../send/mirror-page.md)
+1. Añada su **contenido de HTML** para personalizar la plantilla, puede mostrar un [vínculo de página espejo](../send/mirror-page.md) y un vínculo para darse de baja.
 1. Seleccione la pestaña **Preview.** En el menú desplegable **Personalización de prueba**, seleccione **Destinatario** para previsualizar la plantilla como el perfil elegido.
 1. Haga clic en **Save**. La plantilla ya está lista para utilizarse en una entrega.
 
@@ -109,7 +109,7 @@ Seleccione la plantilla de envíos que va a utilizar y haga clic en **[!UICONTRO
 
 ### Ejecución de una plantilla {#execute-a-template}
 
-Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero una entrega.
+Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero un envío.
 
 Para ello, seleccione la plantilla que desea ejecutar y haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions>Execute the delivery template...]**.
 
@@ -142,4 +142,4 @@ En este vídeo se explica cómo implementar una plantilla de envíos de correo e
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Hay disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

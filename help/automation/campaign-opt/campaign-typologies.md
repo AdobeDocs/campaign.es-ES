@@ -7,13 +7,13 @@ exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 55%
+ht-degree: 41%
 
 ---
 
 # Introducción a las tipologías de campaña{#about-campaign-typologies}
 
-**Campaign Optimization (optimización de la campaña) es el módulo de Adobe Campaign que permite controlar, filtrar y monitorizar las entregas.** Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
+**Optimización de campaña** es el módulo de Adobe Campaign que permite controlar, filtrar y monitorizar la entrega de envíos. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#typologies-video)
 
@@ -21,7 +21,7 @@ ht-degree: 55%
 >
 >Según la oferta, Campaign Optimization puede estar incluido o ser un complemento. Compruebe el acuerdo de licencia.
 
-## Reglas de tipología y tipologías {#typology-rules}
+## Reglas y tipologías de tipología {#typology-rules}
 
 De forma predeterminada, Campaign incluye tipologías y reglas de tipología integradas.
 
@@ -83,7 +83,6 @@ En este vídeo se explica cómo implementar la administración de la fatiga en A
 
 ### Configuración de la administración de la fatiga mediante filtros predefinidos
 
-La administración de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de la campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población de destinatarios por el número de mensajes recibidos.
-En este vídeo se explica cómo implementar la administración de fatiga en Adobe Campaign mediante filtros.
+La administración de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de la campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población de destinatarios por el número de mensajes recibidos. En este vídeo se explica cómo implementar la administración de fatiga en Adobe Campaign mediante filtros.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)

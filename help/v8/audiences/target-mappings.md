@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # Trabajar con asignaciones de destino{#gs-target-mappings}
 
-De forma predeterminada, las plantillas de envío de correo electrónico y SMS están segmentadas **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient.**
+De forma predeterminada, las plantillas de envío de correo electrónico y SMS están segmentadas **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient**.
 
 Para las notificaciones push, la asignación de destino predeterminada es **Aplicaciones del suscriptor (nms:appSubscriptionRcp)**, que está vinculado a la tabla de destinatarios.
 
@@ -24,7 +24,7 @@ Puede utilizar otras asignaciones de destino para los envíos o crear una nueva 
 
 Adobe Campaign viene con las siguientes asignaciones de destino integradas:
 
-| Name | Uso para | Esquema |
+| Nombre | Usar para | Esquema |
 |---|---|---|
 | Destinatarios | Envío a destinatarios (tabla de destinatarios integrada) | nms:recipient |
 | Visitantes | Envío a los visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) por ejemplo. | mns:visitor |

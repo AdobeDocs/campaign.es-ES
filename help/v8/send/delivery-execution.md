@@ -8,7 +8,7 @@ exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
 source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
 workflow-type: tm+mt
 source-wordcount: '778'
-ht-degree: 73%
+ht-degree: 54%
 
 ---
 
@@ -90,10 +90,10 @@ Puede elegir mostrar las estadísticas globales o las relativas a una instancia 
 Los indicadores que se muestran en la sección **[!UICONTROL Indicators over the period]** se calculan en el periodo seleccionado:
 
 * **[!UICONTROL Incoming (throughput event/h)]**: número promedio de eventos introducidos por hora en la cola del Centro de mensajes.
-* **[!UICONTROL Incoming (event vol)]**: número de eventos introducidos en la cola del Centro de mensajería.
+* **[!UICONTROL Incoming (event vol)]**: número de eventos introducidos en la cola del Centro de mensajes.
 * **[!UICONTROL Outgoing (throughput msg/h)]**: número promedio por hora de eventos del Centro de mensajería salientes correctos (por envío).
-* **[!UICONTROL Outgoing (msg vol)]**: número de eventos de Centro de mensajería salientes correctos (por envío).
-* **[!UICONTROL Average sending time (seconds)]** : tiempo promedio empleado en el Centro de mensajería para los eventos procesados correctamente. El cálculo toma en cuenta el tiempo de procesamiento y el tiempo de envío de mta.
+* **[!UICONTROL Outgoing (msg vol)]**: número de eventos del Centro de mensajería salientes correctos (por envío).
+* **[!UICONTROL Average sending time (seconds)]**: tiempo promedio empleado en el Centro de mensajes para los eventos procesados correctamente. El cálculo toma en cuenta el tiempo de procesamiento y el tiempo de envío de mta.
 * **[!UICONTROL Error rate]**: número de eventos con errores comparados con el número de eventos que se han introducido en la cola del Centro de mensajes. Los siguientes errores se tienen en cuenta: error de enrutamiento, evento caducado (evento que ha estado en la cola demasiado tiempo), error de envío, omitido por la entrega (cuarentena, etc.).
 
 >[!NOTE]

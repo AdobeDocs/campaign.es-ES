@@ -58,7 +58,7 @@ Puede añadir usuarios manualmente a Campaign y asociarlos a grupos, alineados c
 
 Obtenga información sobre cómo añadir usuarios a Adobe Campaign en [esta sección](../start/gs-permissions.md).
 
-### Instalación de la consola del cliente de Campaign{#implementation-install-console}
+### Instalar la consola del cliente de Campaign{#implementation-install-console}
 
 La interfaz de usuario principal de la aplicación es un cliente enriquecido; es decir, es una aplicación nativa (Windows) que se comunica con el servidor de aplicaciones de Adobe Campaign únicamente con protocolos de Internet estándar (SOAP, HTTP, etc.). La consola del cliente de Adobe Campaign proporciona una gran facilidad de uso para la productividad, utiliza muy poco ancho de banda (mediante el uso de una caché local) y está diseñada para facilitar la implementación. Esta consola se puede implementar desde un explorador web, se puede actualizar automáticamente y no requiere ninguna configuración de red específica porque solo genera tráfico HTTP(S).
 

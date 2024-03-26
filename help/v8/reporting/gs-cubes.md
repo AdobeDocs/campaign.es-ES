@@ -8,7 +8,7 @@ exl-id: f57f3074-981f-4bcf-9274-7908cd00a4a2
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -26,7 +26,7 @@ Una vez que se han creado y configurado, los cubos se utilizan en las casillas d
 
 Utilice el módulo Campaign Marketing Analytics para lo siguiente:
 
-1. Crear cubos e indicadores
+1. Creación de cubos e indicadores
 
    * acumular datos y almacenarlos en una tabla de trabajo para precalcular los indicadores según las necesidades del usuario,
    * reducir el volumen de datos implicados en los distintos cálculos utilizados para los informes y las consultas, lo que optimiza de manera significativa los tiempos de cálculo del indicador,

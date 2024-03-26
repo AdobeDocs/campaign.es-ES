@@ -8,7 +8,7 @@ exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 38%
+ht-degree: 34%
 
 ---
 
@@ -93,7 +93,7 @@ Para crear dimensiones, siga los pasos a continuación:
 
 Para ello, marque la opción **[!UICONTROL Enable binning]**. [Más información](customize-cubes.md#data-binning).
 
-1. Añada una dimensión de tipo **Fecha.** Aquí nos interesa mostrar las fechas de creación del perfil de destinatario.. Para ello, haga clic en **[!UICONTROL Add]** y seleccione el campo **[!UICONTROL Creation date]** en la tabla de destinatarios.
+1. Añada una dimensión de tipo **Fecha.** Aquí nos interesa mostrar las fechas de creación del perfil de destinatario. Para ello, haga clic en **[!UICONTROL Add]** y seleccione la **[!UICONTROL Creation date]** en la tabla de destinatarios.
 Puede personalizar el modo de visualización de la fecha. Para ello, seleccione la jerarquía que se va a utilizar y los niveles que se van a generar:
 
 ![](assets/cube-date-dimension.png)
@@ -104,7 +104,7 @@ En nuestro ejemplo, solo queremos mostrar años, meses y días. Tenga en cuenta 
 
 Puede activar el agrupamiento para facilitar la lectura de la información y vincular los valores a una enumeración.
 
-Seleccione la enumeración en la lista desplegable.. Tenga en cuenta que esta enumeración debe definirse como **[!UICONTROL Reserved for binning]**.
+Seleccione la enumeración en la lista desplegable. Tenga en cuenta que esta enumeración debe definirse como **[!UICONTROL Reserved for binning]**.
 
 ![](assets/cube-dimension-with-enum.png)
 

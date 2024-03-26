@@ -8,14 +8,14 @@ hidefromtoc: true
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '83'
-ht-degree: 100%
+ht-degree: 83%
 
 ---
 
 
 # Recurso de Marketing (MRM){#marketing-resources-mrm}
 
-Los flujos de trabajo detallados a continuación se instalan dentro del módulo **Recursos de marketing (MRM)** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con **Recursos de marketing (MRM)** de forma predeterminada.
 
 <table> 
  <tbody> 

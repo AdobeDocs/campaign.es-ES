@@ -8,7 +8,7 @@ exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 62%
+ht-degree: 59%
 
 ---
 
@@ -25,7 +25,7 @@ Para preparar la entrega, asegúrese de que se han definido el contenido y el ob
 
    ![](assets/delivery-analysis-start.png)
 
-1. Haga clic en **[!UICONTROL Analyze]** para iniciar el análisis manualmente. La barra de progreso muestra el progreso del análisis.
+1. Clic **[!UICONTROL Analyze]** para iniciar el análisis manualmente. La barra de progreso muestra el progreso del análisis.
 
    Se aplica un conjunto de reglas de comprobación durante el análisis de envío. Estas reglas se definen en una **tipología**, que se selecciona en la variable **[!UICONTROL Typology]** en las propiedades de entrega. Obtenga más información acerca de tipologías en [esta sección](../../automation/campaign-opt/campaign-typologies.md).
 
@@ -56,7 +56,7 @@ Para preparar la entrega, asegúrese de que se han definido el contenido y el ob
 
    ![](assets/delivery-analysis-results.png){width="800" align="left"}
 
-1. Haga clic en **[!UICONTROL Close]** para corregir los errores. Después de realizar los cambios, reinicie el análisis haciendo clic en **[!UICONTROL Analyze]**.
+1. Clic **[!UICONTROL Close]** para corregir los errores, si los hay. Después de realizar los cambios, reinicie el análisis haciendo clic en **[!UICONTROL Analyze]**.
 
    >[!NOTE]
    >
@@ -76,7 +76,7 @@ Esta pestaña proporciona acceso a las siguientes opciones:
 
 * **[!UICONTROL Label and code of the delivery]**: las opciones de esta sección se utilizan para calcular los valores de estos campos durante la fase de análisis de envío. El campo **[!UICONTROL Compute the execution folder during the delivery analysis]** calcula el nombre de la carpeta que debe contener esta acción de entrega durante la fase de análisis.
 
-* **[!UICONTROL Approval mode]**: este campo permite definir el envío manual o automático una vez finalizado el análisis. 
+* **[!UICONTROL Approval mode]** : este campo permite definir el envío manual o automático una vez finalizado el análisis.
 
   Si se generan advertencias durante el análisis (por ejemplo, si se acentúan ciertos caracteres en el asunto de la entrega, etc.), puede configurar la entrega para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar la entrega de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 

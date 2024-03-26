@@ -6,8 +6,8 @@ feature: Workflows
 exl-id: c3a80871-e045-454c-b1ca-8f484d2e14e1
 source-git-commit: 190707b8b1ea5f90dc6385c13832fbb01378ca1d
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 95%
+source-wordcount: '808'
+ht-degree: 94%
 
 ---
 
@@ -191,6 +191,6 @@ Añada una actividad de **Entrega recurrente** basada en la plantilla de correo 
 >
 >Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de Campaign. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](technical-workflows.md).
 >
->Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información, consulte la sección .
+>Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información, consulte la sección.
 
 ![](assets/birthday-workflow_usecase_1.png)

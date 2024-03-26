@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 93%
+source-wordcount: '1438'
+ht-degree: 91%
 
 ---
 
@@ -208,7 +208,7 @@ Para ello, haga clic en el icono **[!UICONTROL Show the report properties]** y a
 
 ![](assets/cube_share_option.png)
 
-Especifique la categoría a la que pertenece el informe, así como su importancia. <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
+Especifique la categoría a la que pertenece el informe, así como su relevancia. <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
 Para confirmar estos cambios, debe guardar el informe.
 

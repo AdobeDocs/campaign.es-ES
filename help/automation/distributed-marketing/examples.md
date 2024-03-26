@@ -7,7 +7,7 @@ role: User
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1293'
 ht-degree: 98%
 
 ---
@@ -149,7 +149,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
    * el contenido del mensaje que se envía a las entidades locales en la notificación,
    * el recordatorio de aprobación,
-   * el procesamiento esperado para la campaña..
+   * el procesamiento esperado para la campaña.
 
    ![](assets/mkg_dist_use_case_target_valid7.png)
 

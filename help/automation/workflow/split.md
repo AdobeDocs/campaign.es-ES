@@ -6,8 +6,8 @@ feature: Workflows, Targeting Activity
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 91%
+source-wordcount: '1807'
+ht-degree: 92%
 
 ---
 

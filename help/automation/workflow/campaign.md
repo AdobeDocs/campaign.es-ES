@@ -8,14 +8,14 @@ topic-tags: technical-workflows
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
 
 # Campaña{#campaign}
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Campaign** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con **Campaign** de forma predeterminada.
 
 >[!CAUTION]
 >

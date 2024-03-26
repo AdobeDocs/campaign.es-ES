@@ -6,8 +6,8 @@ level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
 source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 25%
+source-wordcount: '785'
+ht-degree: 22%
 
 ---
 
@@ -149,7 +149,7 @@ Para enviar mensajes directos a sus seguidores, siga los pasos a continuación:
 
 >[!CAUTION]
 >
->No puede enviar más de 250 mensajes directos al día. Para evitar superar este umbral, puede realizar envíos en olas. Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
+>No puede enviar más de 250 mensajes directos al día. Para evitar superar este umbral, puede realizar envíos en olas. Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#sending-using-multiple-waves){target="_blank"}.
 
 
 ## Acceso a datos de seguimiento {#tw-tracking}
@@ -158,5 +158,5 @@ En el complemento integrado **[!UICONTROL Tweet]** plantilla de envío, el segui
 
 Los datos de seguimiento pueden verse en los informes de envío y en la **[!UICONTROL Edit > Tracking]** de la entrega y el servicio.
 
-La configuración de seguimiento es la misma que para una entrega de correo electrónico. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"}.
+La configuración de seguimiento es la misma que para una entrega de correo electrónico. Obtenga más información en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"}.
 

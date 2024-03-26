@@ -7,7 +7,7 @@ role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '43'
-ht-degree: 100%
+ht-degree: 69%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Plataforma de mid-sourcing** de forma predeterminada.
+El flujo de trabajo detallado a continuación se instala con el **Mid-Sourcing platform** de forma predeterminada.
 
 <table> 
  <tbody> 

@@ -6,7 +6,7 @@ feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
 workflow-type: tm+mt
-source-wordcount: '3037'
+source-wordcount: '3102'
 ht-degree: 94%
 
 ---
@@ -20,7 +20,7 @@ Las reglas de **presión** para administrar la fatiga de marketing pueden consis
 Las campañas se seleccionan según los umbrales definidos y el peso del mensaje.
 
 * Un umbral es la cantidad más alta de envíos autorizados para un destinatario determinado durante un periodo determinado. Puede ser fijo o variable. Se define o calcula en la configuración de reglas de tipología. [Más información](#maximum-number-of-messages).
-* El peso de la entrega le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso son prioritarios. [Más información](#message-weight).
+* El peso del envío le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso son prioritarios. [Más información](#message-weight).
 
 La mediación consiste en asegurarse de que las campañas programadas cuyo peso sea mayor que la campaña en curso no saturen los perfiles: si este es el caso, el perfil se excluye de la entrega.
 
@@ -33,7 +33,7 @@ La regla de mediación para definir los mensajes aptos se aplica durante la fase
 
 De lo contrario, el destinatario es **[!UICONTROL Excluded by arbitration]**. [Más información](#exclusion-after-arbitration).
 
-## Cree una regla de presión {#create-a-pressure-rule}
+## Creación de una regla de presión {#create-a-pressure-rule}
 
 Para configurar la mediación entre campañas utilizando Adobe Campaign, comience creando tipologías de campaña y definiendo reglas de tipología vinculadas (reglas de **presión**).
 
@@ -73,7 +73,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    Para obtener más información, consulte [Número máximo de mensajes](#maximum-number-of-messages).
 
-1. Especifique el método para calcular el peso de la entrega.
+1. Especifique el método para calcular el peso del envío.
 
    Cada entrega tiene un peso, es decir, un valor que representa su nivel de prioridad: esto permite la mediación entre las campañas. El peso se calcula mediante la fórmula definida en la regla de tipología o en sus propiedades. [Más información](#message-weight).
 
@@ -275,7 +275,7 @@ Durante el análisis de la entrega, los destinatarios de la entrega se excluyen 
 
   ![](assets/campaign_opt_pressure_sample_1_10.png)
 
-### Cálculo del peso de la entrega según el comportamiento {#calculate-the-delivery-weight-based-on-behavior}
+### Cálculo del peso del envío según el comportamiento {#calculate-the-delivery-weight-based-on-behavior}
 
 Puede definir reglas de presión basadas en el comportamiento del destinatario: por lo tanto, el peso de una entrega se puede adaptar a criterios que varían de un destinatario a otro. Por ejemplo: puede decidir enviar un mensaje dependiendo de si un destinatario visitó su sitio de Internet, hizo clic en una sección específica del último boletín, se suscribió a un servicio de información o incluso en función de las respuestas a un estudio, un juego en línea, etc.
 

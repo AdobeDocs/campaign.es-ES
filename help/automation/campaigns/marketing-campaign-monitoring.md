@@ -8,7 +8,7 @@ exl-id: 13a7432e-6216-4a5c-84fc-bc374b5af5ee
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 52%
+ht-degree: 46%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 52%
 
 ## Seguimiento de una campaña {#tracking-a-campaign}
 
-En cada campaña, la pestaña **[!UICONTROL Tracking]** permite ver todos los trabajos y sus estados.
+Para cada campaña, la variable **[!UICONTROL Tracking]** La pestaña permite ver todos los trabajos y sus estados.
 
 Desde esta pestaña puede acceder a la siguiente información:
 

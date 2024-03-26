@@ -6,14 +6,14 @@ feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
 
 # Transferir a intermediario{#transfer-to-mid-sourcing}
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Transferir a intermediario** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con **Transfer to Mid-Sourcing** de forma predeterminada.
 
 <table> 
  <tbody> 
@@ -25,7 +25,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Tr
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (delivery counters)</span> <br /> </td> 
    <td> <span class="uicontrol">defaultMidSourcingDlv</span> <br /> </td> 
-   <td> <p>Este flujo de trabajo recopila información de recuento para las entregas en el servidor de mid-sourcing. La información de recuento incluye indicadores de envío generales como el número de envíos realizados, etc.</p> <p>No se incluye la información de seguimiento como las aperturas.</p> <p>De forma predeterminada, se activa cada diez minutos.</p> </td> 
+   <td> <p>Este flujo de trabajo recopila información de recuento para las entregas en el servidor de mid-sourcing. La información de recuento incluye indicadores de entrega generales como el número de envíos realizados, etc.</p> <p>No se incluye la información de seguimiento como las aperturas.</p> <p>De forma predeterminada, se activa cada diez minutos.</p> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (delivery logs)</span> <br /> </td> 

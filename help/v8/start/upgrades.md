@@ -8,7 +8,7 @@ exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 source-git-commit: a779f243b0ba13dc3fcb7839377ca8766e5f7841
 workflow-type: tm+mt
 source-wordcount: '656'
-ht-degree: 14%
+ht-degree: 18%
 
 ---
 
@@ -26,7 +26,7 @@ Estas actualizaciones pueden ser:
 
 Encontrará información detallada sobre cada nueva versión en la [Notas de versión](release-notes.md).
 
-Para garantizar una configuración estable, Adobe recomienda instalar **exactamente la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en la [Notas de versión](release-notes.md), la consola de cliente debe estar activada **exactamente la misma versión** como instancia del servidor. Obtenga información sobre cómo actualizar la consola de cliente [en esta página](../start/connect.md#upgrade-ac-console).
+Para garantizar una configuración estable, Adobe recomienda instalar **exactamente la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en la [Notas de versión](release-notes.md), la consola de cliente debe estar activada **exactamente la misma versión** como instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
 
 Como cliente de Campaign Managed Services, cuando hay una nueva versión de Campaign disponible, la infraestructura se actualiza por Adobe sin tener que realizar más acciones.
 
@@ -52,7 +52,7 @@ Puede acceder a la siguiente información:
 
 Las nuevas versiones y los cambios que aportan se enumeran en la [Notas de versión](release-notes.md). Una vez que haya una nueva versión disponible, Adobe se pondrá en contacto con usted y actualizará sus entornos.
 
-Para recibir información sobre las nuevas versiones de la solución de Experience Cloud, suscríbase a [Adobe Actualización de producto prioritario](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
+Para recibir información sobre las nuevas versiones de la solución Experience Cloud, suscríbase para recibir la [actualización de producto prioritaria de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
 
 También puede visitar [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
 

@@ -4,13 +4,13 @@ description: Comprensión de la administración de claves en esquemas de Adobe C
 feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 673298a60927902bba71fd9167c5408e538f4929
+exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
+source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
 
 ---
-
 
 # Administración de claves {#management-of-keys}
 
@@ -142,4 +142,3 @@ Además de la definición de la clave, se ha añadido un campo numérico llamado
 >[!CAUTION]
 >
 >Al crear la tabla, se inserta automáticamente un registro con una clave principal establecida en 0. Este registro se utiliza para evitar las uniones externas, que no son efectivas en las tablas de volumen. De forma predeterminada, todas las claves externas se inicializan con el valor 0, de modo que siempre se pueda devolver un resultado en la unión cuando el elemento de datos no se rellena.
-

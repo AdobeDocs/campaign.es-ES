@@ -8,7 +8,7 @@ exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 48%
+ht-degree: 49%
 
 ---
 
@@ -26,7 +26,7 @@ Un programa de marketing consta de campañas, que están formadas por envíos, r
 
 ### Creación de la jerarquía de planes y programas {#create-plan-and-program}
 
-Cada campaña pertenece a un programa que pertenece a un plan. Todos los planes, programas y campañas están disponibles a través de la **[!UICONTROL Campaign calendar]** en el menú **Campañas** pestaña.
+Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Todos los planes, programas y campañas están disponibles a través de la **[!UICONTROL Campaign calendar]** en el menú **Campañas** pestaña.
 
 Antes de empezar a crear campañas y envíos, configure la jerarquía de carpetas para planes y programas de marketing.
 

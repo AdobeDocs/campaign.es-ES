@@ -8,7 +8,7 @@ exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 56%
+ht-degree: 52%
 
 ---
 
@@ -41,7 +41,7 @@ Para crear contenido condicional según el valor de un campo, aplique los pasos 
 
    ![Condición en un correo electrónico](assets/condition-in-email.png)
 
-1. Haga clic en la pestaña **[!UICONTROL Preview]** para ver el contenido del mensaje según el destinatario de la entrega. Seleccione un destinatario para el cual la condición sea verdadera para comprobar el contenido. A continuación, seleccione otro destinatario para el cual sea falso y vuelva a comprobarlo.
+1. Haga clic en **[!UICONTROL Preview]** para ver el contenido del mensaje según el destinatario de la entrega. Seleccione un destinatario para el cual la condición sea verdadera para comprobar el contenido. A continuación, seleccione otro destinatario para el cual sea falso y vuelva a comprobarlo.
 
 Se pueden añadir otros casos y definir contenido diferente según los valores de uno o varios campos. Para ello, utilice **[!UICONTROL Conditional content > Else]** y **[!UICONTROL Conditional content > Else if]**. Estas expresiones se configuran del mismo modo que la expresión **if**.
 

@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '326'
 ht-degree: 41%
 
 ---
@@ -30,7 +30,7 @@ Por ejemplo, para insertar el nombre del destinatario, almacenado en la tabla de
 >
 >El contenido de los campos de personalización no puede superar los 1024 caracteres.
 
-## Insertar un campo personalizado {#insert-a-personalization-field}
+## Insertar un campo de personalización {#insert-a-personalization-field}
 
 Para insertar campos personalizados, haga clic en el icono desplegable al que se puede acceder desde cualquier campo de encabezado, asunto o cuerpo del mensaje.
 

@@ -3,13 +3,13 @@ title: Migración de la infraestructura de envío de Campaign a Amazon Web Servi
 description: Migración de la infraestructura de envío de Campaign a Amazon Web Service (AWS)
 hide: true
 hidefromtoc: true
-source-git-commit: 9401e3564b53b920dd6a640ca6d00531992a2f21
+exl-id: 50279a2f-0296-43f5-8967-16cc6a0c88f6
+source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 5%
+source-wordcount: '474'
+ht-degree: 0%
 
 ---
-
 
 # Migración de la infraestructura de envío de Campaign a Amazon Web Service (AWS) {#migrate-infra-to-aws}
 
@@ -36,7 +36,7 @@ La migración de los entornos de producción está programada para empezar en **
 
 Como cliente de Campaign, recibirá una notificación adicional a medida que se programen las olas de migración. Las notificaciones se enviarán al menos 7 días antes de la migración para los entornos de ensayo y al menos 30 días antes de la migración para los entornos de producción.
 
-## ¿Cuáles son las consecuencias?{#impact}
+## ¿Cuál es el impacto?{#impact}
 
 Este movimiento será transparente para los clientes:
 
@@ -74,4 +74,4 @@ Este movimiento será transparente para los clientes:
 
   Dado que se trata de una migración obligatoria, no podemos admitir modificaciones en la programación existente.
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Para cualquier otra pregunta, puede comunicarse con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

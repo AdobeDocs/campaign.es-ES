@@ -6,7 +6,7 @@ role: Data Engineer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '2978'
+source-wordcount: '3048'
 ht-degree: 99%
 
 ---
@@ -828,7 +828,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery]** (nms:delivery).
  </tbody> 
 </table>
 
-## Estadísticas de entrega {#delivery-statistics-1}
+## Estadísticas de envío {#delivery-statistics-1}
 
 Este informe se basa en la tabla **[!UICONTROL Delivery and tracking statistics]** (nms:deliveryLogStats).
 

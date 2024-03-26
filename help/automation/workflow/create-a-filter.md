@@ -7,8 +7,8 @@ role: User
 exl-id: 8e6fd9b4-77c4-4af8-921b-c3fe104fa5bc
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 100%
+source-wordcount: '204'
+ht-degree: 93%
 
 ---
 
@@ -50,4 +50,4 @@ La columna **[!UICONTROL Taken into account if]** permite definir los criterios 
 
 Aquí, **$(/tmp/@text)=&#39;agency&#39;**
 
-La expresión **$(/tmp/@text)!=&#39;&#39;** aplica cada condición cuando el campo de entrada no está vacío.
+El **$(/tmp/@text)=&#39;&#39;** La expresión aplica cada condición cuando el campo de entrada no está vacío.

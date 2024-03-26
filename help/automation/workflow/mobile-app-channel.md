@@ -6,8 +6,8 @@ feature: Workflows
 role: User
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 85%
+source-wordcount: '65'
+ht-degree: 75%
 
 ---
 
@@ -26,7 +26,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Mo
   <tr> 
    <td> <span class="uicontrol">Administración de exclusión de NMAC</span> <br /> </td> 
    <td> <span class="uicontrol">mobileAppOptOutMgt</span> <br /> </td> 
-   <td> Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. Para obtener más detalles, consulte esta sección</a>.<br /> </td> 
+   <td> Este flujo de trabajo actualiza las bajas de las notificaciones en los dispositivos móviles. Se activa cada 6 horas entre la medianoche y la 1 a. m. Para obtener más información, consulte esta sección</a>.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 648fefcc-6476-4af8-9f0d-c9a87a7a3019
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 67%
+source-wordcount: '783'
+ht-degree: 64%
 
 ---
 
@@ -41,7 +41,7 @@ Dentro del modelo de optimización del tiempo de envío predictivo, hay dos subm
 
 **Salida de modelo**: el mejor momento para enviar un mensaje (para aperturas y clics)
 
-Detalles de la salida:
+Detalles de salida:
 
 * Calcular la mejor hora del día para enviar un correo electrónico durante los 7 días de la semana con intervalos de 1 hora (por ejemplo: 9:00, 10:00 y 11:00 de la mañana).
 * El modelo indicará el mejor día de la semana y la mejor hora de ese día.

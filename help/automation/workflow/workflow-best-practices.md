@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 8bcaf367-5b1f-4d31-80c9-c77df43c6ed1
 source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 81%
+source-wordcount: '1353'
+ht-degree: 82%
 
 ---
 
@@ -72,7 +72,7 @@ El HeatMap de flujo de trabajo permite a los administradores de la plataforma de
 
 Al desarrollar el flujo de trabajo, todas las actividades tienen un nombre, como todos los objetos de Adobe Campaign. Aunque la herramienta genera el nombre, le recomendamos que cambie el nombre por uno explícito al configurarlo. El riesgo de hacerlo más tarde es que puede interrumpir el flujo de trabajo con actividades al usar el nombre de otra actividad anterior. Por lo tanto, sería difícil actualizar los nombres más adelante.
 
-El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanced]**. No los dejes con nombre **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**, pero asígneles nombres explícitos como **[!UICONTROL querySubscribedRecipients]**. Este nombre se muestra en el historial y, si procede, en los registros SQL, lo que le ayuda a depurar el flujo de trabajo al configurarlo.
+El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanced]**. Evite poner nombres como **[!UICONTROL query]**, **[!UICONTROL query1]**, **[!UICONTROL query11]**; asígneles nombres explícitos como **[!UICONTROL querySubscribedRecipients]**. Este nombre se muestra en el historial y, si procede, en los registros SQL, lo que le ayuda a depurar el flujo de trabajo al configurarlo.
 
 ### Primeras y últimas actividades {#first-and-last-activities}
 

@@ -7,16 +7,16 @@ role: User
 exl-id: 68c5b903-5043-4e74-b3f6-90a7f2fb3b9a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 63%
+source-wordcount: '804'
+ht-degree: 57%
 
 ---
 
 # Campañas recurrentes y periódicas {#recurring-and-periodic-campaigns}
 
-A **campaña recurrente** es una campaña basada en una plantilla específica, cuyos flujos de trabajo están configurados para ejecutarse según una programación asociada. El objetivo se duplica en cada ejecución y se rastrean los distintos procesos y la ubicación de destino.  Una vez configurada, las campañas recurrentes crean automáticamente un nuevo flujo de trabajo (duplicando la plantilla de flujo de trabajo) y lo ejecutan. Por ejemplo, si necesita enviar un recordatorio mensual a un segmento de audiencia, configure una campaña recurrente para que, al principio de cada año, cree 12 flujos de trabajo, uno para cada mes. [Más información](#create-a-recurring-campaign)
+A **campaña recurrente** es una campaña basada en una plantilla específica, cuyos flujos de trabajo están configurados para ejecutarse según una programación asociada. El objetivo se duplica en cada ejecución y se rastrean los distintos procesos y las poblaciones de destino.  Una vez configurada, las campañas recurrentes crean automáticamente un nuevo flujo de trabajo (duplicando la plantilla de flujo de trabajo) y lo ejecutan. Por ejemplo, si necesita enviar un recordatorio mensual a un segmento de audiencia, configure una campaña recurrente para que, al principio de cada año, cree 12 flujos de trabajo, uno para cada mes. [Más información](#create-a-recurring-campaign)
 
-A **campaña periódica** es una campaña basada en una plantilla específica que permite crear instancias de campaña basadas en una programación de ejecución. Las instancias de campaña se crean automáticamente en función de una plantilla de campaña periódica, dependiendo de la frecuencia definida en la programación de plantillas. [Más información](#create-a-periodic-campaign)
+A **campaña periódica** es una campaña basada en una plantilla específica que permite crear instancias de campaña basadas en una programación de ejecución. Las instancias de campaña se crean automáticamente en función de una plantilla de campaña periódica, según la frecuencia definida en la programación de plantillas. [Más información](#create-a-periodic-campaign)
 
 ## Creación de una campaña recurrente {#create-a-recurring-campaign}
 
@@ -30,7 +30,7 @@ Para crear una plantilla para campañas recurrentes, siga los pasos a continuaci
 1. Duplique el complemento integrado **[!UICONTROL Recurring campaign]** plantilla.
    ![](assets/recurring-campaign-duplicate.png)
 1. Introduzca el nombre de la plantilla y la duración de la campaña.
-1. Para este tipo de campaña, se añade una pestaña **[!UICONTROL Schedule]** para crear la programación de ejecución de la plantilla. Utilice esta pestaña para definir las fechas de ejecución de las campañas basadas en esta plantilla.
+1. Para este tipo de campaña, una **[!UICONTROL Schedule]** se añade para crear la programación de ejecución de la plantilla. Utilice esta pestaña para definir las fechas de ejecución de las campañas basadas en esta plantilla.
    ![](assets/recurring-campaign-schedule.png)
 
    El modo de configuración de la programación de ejecución coincide con el objeto **[!UICONTROL Scheduler]** del flujo de trabajo. [Más información](../workflow/scheduler.md).

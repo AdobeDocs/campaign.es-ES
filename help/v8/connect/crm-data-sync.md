@@ -8,7 +8,7 @@ exl-id: 2a7ae88e-d47f-416b-84cd-986ab9be6aef
 source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
 source-wordcount: '1315'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
@@ -87,7 +87,7 @@ La fecha de la última sincronización se almacena de forma predeterminada en un
 >
 >Esta nota solo se aplica a la actividad genérica **[!UICONTROL CRM Connector]**. Para otras actividades CRM, el proceso es automático.
 >
->Esta opción debe crearse manualmente y rellenarse en **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Debe ser una opción de texto y su valor debe coincidir con el siguiente formato: **`yyyy/MM/dd hh:mm:ss`**.
+>Esta opción debe crearse manualmente y rellenarse en **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]**. Debe ser una opción de texto y su valor debe coincidir con el formato siguiente: **`yyyy/MM/dd hh:mm:ss`**
 > 
 >Debe actualizar manualmente esta opción para una importación posterior.
 

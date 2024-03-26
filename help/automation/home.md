@@ -8,7 +8,7 @@ exl-id: 9ed73e65-3626-46c6-bfeb-a9fe9c2d7f72
 source-git-commit: 143e90ef63fac4058008bc6864daf950c11ab2d1
 workflow-type: tm+mt
 source-wordcount: '191'
-ht-degree: 46%
+ht-degree: 38%
 
 ---
 
@@ -37,7 +37,7 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     </div>
     <br>     
     <div>
-    <a href="workflow/build-a-workflow.md">Cree su primer flujo de trabajo</a>
+    <a href="workflow/build-a-workflow.md">Creación de su primer flujo de trabajo</a>
     </div>
     <br>
     <div>
@@ -47,7 +47,7 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/campaign.jpeg">
-    <b>Orquestación de campañas</b>
+    <b>Orquestación de campaña</b>
     </div>
     <br>
     <div>
@@ -55,7 +55,7 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-create.md">Cree su primera campaña</a>
+    <a href="campaigns/marketing-campaign-create.md">Creación de la primera campaña</a>
     </div>
     <br>
     <div>
@@ -73,7 +73,7 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     </div>
     <br>
     <div>
-    <a href="campaign-opt/campaign-typologies.md">Optimización de la campaña</a>
+    <a href="campaign-opt/campaign-typologies.md">Optimización de campaña</a>
     </div>
     <br>
     <div>

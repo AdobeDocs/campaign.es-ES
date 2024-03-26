@@ -1,5 +1,5 @@
 ---
-title: Vista previa y prueba de sus correos electrónicos
+title: Previsualización y prueba del correo electrónico
 description: Obtenga información sobre cómo validar el envío antes de enviarlo
 feature: Personalization
 role: User
@@ -8,11 +8,11 @@ exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 18%
+ht-degree: 14%
 
 ---
 
-# Vista previa y prueba de sus correos electrónicos {#preview-test}
+# Previsualización y prueba del correo electrónico {#preview-test}
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](personalize.md), puede comprobar cómo se muestra este contenido en el mensaje mediante los datos de perfil de prueba. Además, para detectar posibles errores en el contenido del mensaje o en la configuración de personalización, envíe pruebas a los perfiles de prueba. Se debe enviar una prueba cada vez que se realiza un cambio para validar el contenido más reciente.
 
@@ -62,7 +62,7 @@ De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se 
 
   >[!NOTE]
   >
-  >Las direcciones semilla no pertenecen a la tabla de destinatarios predeterminada (nms:recipient), sino que se crean en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos.
+  >Las direcciones semilla no pertenecen a la tabla de destinatarios predeterminada (nms:recipient), sino que se crean en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones sembradas con los mismos datos.
 
   Obtenga más información sobre las direcciones semilla en [esta sección](../audiences/test-profiles.md).
 
@@ -101,7 +101,7 @@ De forma predeterminada, los mensajes de prueba se identifican mediante `Proof #
 ![](assets/proof-parameters.png){width="800" align="left"}
 
 
-## Vídeo explicativo {#video-proof}
+## Vídeos explicativos {#video-proof}
 
 Obtenga información sobre cómo enviar y validar una prueba para un envío de correo electrónico.
 

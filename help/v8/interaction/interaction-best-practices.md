@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '1160'
-ht-degree: 70%
+source-wordcount: '1166'
+ht-degree: 67%
 
 ---
 
@@ -24,7 +24,7 @@ Esta sección presenta las prácticas recomendadas para administrar el **Interac
 
    * Para el motor por lotes (generalmente utilizado en comunicaciones salientes como el correo electrónico), el rendimiento es la preocupación principal, ya que se pueden manejar varios contactos al mismo tiempo. El típico obstáculo es el rendimiento de la base de datos.
    * La restricción principal del motor unitario (que generalmente se utiliza en comunicaciones entrantes como un banner en un sitio web) es la latencia, ya que alguien está esperando una respuesta. El típico obstáculo es el rendimiento de la CPU.
-   * El diseño del catálogo de ofertas tiene un gran impacto en el rendimiento de Adobe Campaign 
+   * El diseño del catálogo de ofertas tiene un gran impacto en el rendimiento de Adobe Campaign.
    * Al trabajar con muchas ofertas, la práctica recomendada es dividirlas en varios catálogos de ofertas.
 
 * A continuación se enumeran algunas prácticas recomendadas al trabajar con **reglas de elegibilidad**:
@@ -49,7 +49,7 @@ Esta sección presenta las prácticas recomendadas para administrar el **Interac
 
 ## Sugerencias al administrar ofertas {#tips-managing-offers}
 
-Esta sección contiene consejos más detallados sobre la administración de ofertas y el uso del módulo de interacción en Adobe Campaign.
+Esta sección contiene consejos más detallados sobre la administración de ofertas y el uso del módulo Interacción en Adobe Campaign.
 
 ### Varios espacios de oferta en un correo electrónico {#multiple-offer-spaces}
 

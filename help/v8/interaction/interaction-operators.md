@@ -8,7 +8,7 @@ exl-id: 865ddb84-3373-45e0-849d-9d3c92455d22
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '243'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -21,14 +21,14 @@ Dos tipos de operadores pueden utilizar la interacción de campaña: **Administr
 
 ## Creación de un operador de Offer manager{#offer-manager}
 
-1. Creación de un operador. [Más información](../start/manage-permissions.md#add-users)
+1. Cree un operador. [Más información](../start/manage-permissions.md#add-users)
 1. Vaya a la **[!UICONTROL Groups and named rights]** , haga clic en **[!UICONTROL Add]** y seleccione la **[!UICONTROL Offer manager]** grupo.
 
 Se describen los permisos asociados a los administradores de ofertas [aquí](../start/manage-permissions.md#ootb-productprofiles)
 
 ## Creación de un operador de Delivery manager {#delivery-manager}
 
-1. Creación de un operador. [Más información](../start/manage-permissions.md#add-users)
+1. Cree un operador. [Más información](../start/manage-permissions.md#add-users)
 1. Vaya a la **[!UICONTROL Groups and named rights]** pestaña, haga clic en **[!UICONTROL Add]** y seleccione la **[!UICONTROL Delivery manager]** grupo.
 
 Los derechos asignados al administrador de entregas permiten realizar las siguientes tareas:

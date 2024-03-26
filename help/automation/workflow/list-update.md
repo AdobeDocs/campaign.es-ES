@@ -7,7 +7,7 @@ role: User
 exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '460'
 ht-degree: 98%
 
 ---
@@ -74,4 +74,4 @@ Este vídeo muestra cómo crear una lista de destinatarios desde Explorer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Hay disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

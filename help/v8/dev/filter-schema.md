@@ -7,8 +7,8 @@ level: Intermediate, Experienced
 exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 0%
+source-wordcount: '426'
+ht-degree: 2%
 
 ---
 
@@ -103,7 +103,7 @@ De forma predeterminada, solo se puede acceder a los esquemas integrados con per
 
 Los esquemas integrados están protegidos para evitar problemas de compatibilidad con versiones anteriores. El Adobe recomienda no modificar los parámetros de esquema predeterminados para garantizar una seguridad óptima.
 
-Sin embargo, en contextos específicos, es posible que tenga que modificar los filtros del sistema de los esquemas integrados. Para ello, siga los pasos a continuación:
+Sin embargo, en contextos específicos, es posible que tenga que modificar los filtros del sistema de los esquemas integrados. Para realizar esto, siga los pasos a continuación:
 
 1. Cree una extensión para el esquema integrado o abra una extensión existente.
 1. Añadir un elemento secundario **`<sysfilter name="<filter name>" _operation="delete"/>`** en el elemento principal para ignorar el filtro bajo el mismo en el esquema integrado.

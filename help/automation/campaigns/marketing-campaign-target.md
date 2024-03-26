@@ -7,8 +7,8 @@ role: User
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 82%
+source-wordcount: '1463'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ En una campaña de marketing, puede definir lo siguiente por envío:
 
 * La audiencia de destino. Puede enviar mensajes a un [lista de destinatarios](#send-to-a-group) o cree un [audiencia en un flujo de trabajo](#build-the-main-target-in-a-workflow)
 * Un grupo de control. Puede [adición de un grupo de control](#add-a-control-group) para monitorizar el comportamiento de los destinatarios después de enviar el mensaje
-* Direcciones semilla: obtenga más información en [esta sección](../../v8/audiences/test-profiles.md).-->
+* Direcciones semilla: obtenga más información en [esta sección](../../v8/audiences/test-profiles.md).—>
 
 Parte de esta información se hereda de la [plantilla de campaña](marketing-campaign-templates.md#campaign-templates).
 
@@ -35,7 +35,7 @@ Puede importar una población a una lista y luego establecer como objetivo esta 
 
    ![](assets/select-main-target.png)
 
-1. Elija **[!UICONTROL A list of recipients]**.
+1. Elegir **[!UICONTROL A list of recipients]**.
 
    ![](assets/target-a-list.png)
 
@@ -101,7 +101,7 @@ Los flujos de trabajo de destino se pueden iniciar manualmente mediante el botó
 
 Los objetivos se pueden programar para la ejecución automática según una programación (programador) o un evento (señal externa, importación de archivos, etc.).
 
-Las acciones relacionadas con la ejecución del flujo de trabajo de destino (inicio, parada, pausa, etc.) son procesos **asincrónicos**: el comando se guarda y se aplica en cuanto el servidor esté disponible para su aplicación.
+Las acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **asíncrono** processes: el comando se guarda y surte efecto en cuanto el servidor esté disponible para aplicarlo.
 
 Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la ejecución del flujo de trabajo de destino.
 
@@ -111,7 +111,7 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
      ![](assets/start.png)
 
-     El servidor tiene en cuenta la solicitud, tal como muestra su estado: **[!UICONTROL Start as soon as possible]**.
+     El servidor tiene en cuenta la solicitud, como muestra su estado: **[!UICONTROL Start as soon as possible]**.
 
    * Puede reiniciar el flujo de trabajo de destino mediante el icono correspondiente de la barra de herramientas. Este comando puede resultar útil si el icono **[!UICONTROL Start]** no está disponible, por ejemplo cuando el flujo de trabajo de destino está detenido. En este caso, haga clic en el icono **[!UICONTROL Restart]** para anticipar el reinicio. El servidor tiene en cuenta la solicitud, como se muestra en el estado siguiente: **[!UICONTROL Restart requested]**.
 
@@ -243,4 +243,4 @@ En este vídeo se explica cómo añadir un grupo de control a una campaña.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Hay disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

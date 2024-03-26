@@ -8,7 +8,7 @@ exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 source-git-commit: e45799f0f3849d53d2c5f593bc02954b3a55fc28
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -120,8 +120,8 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 
 * **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
 * **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
-* **Actualizar estado (@lastModified)** el o después `MM/DD/YYYY HH:MM:SS AM`
-* **Actualizar estado (@lastModified)** el o antes `MM/DD/YYYY HH:MM:SS PM`
+* **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
+* **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
 
 Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado en **[!UICONTROL Valid]** por lo tanto, serán eliminados de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
 

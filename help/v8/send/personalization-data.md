@@ -8,7 +8,7 @@ exl-id: 711256e2-ab77-404a-b052-6793a85da193
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '625'
-ht-degree: 46%
+ht-degree: 38%
 
 ---
 
@@ -34,7 +34,7 @@ Para seleccionar el archivo que se va a utilizar como origen de datos, vaya al v
 
 ## Fuente de datos FDA
 
-Los datos de personalización se pueden extraer de una tabla externa mediante [Acceso de datos federado](../connect/fda.md).  Si desea personalizar las entregas utilizando datos de la base de datos externa, recopile los datos para utilizarlos en un flujo de trabajo para que estén disponibles en una tabla temporal.
+Los datos de personalización se pueden extraer de una tabla externa mediante [Acceso de datos federado](../connect/fda.md).  Si desea personalizar los envíos utilizando datos de la base de datos externa, recopile los datos para utilizarlos en un flujo de trabajo para que estén disponibles en una tabla temporal.
 
 Para ello, añada un **Consulta** actividad en el flujo de trabajo de objetivos y utilice **Añadir datos...** vínculo para seleccionar la base de datos externa. El proceso detallado está disponible en [esta sección](../../automation/workflow/query.md#adding-data).
 
@@ -46,7 +46,7 @@ Al utilizar datos externos a los que se accede en FDA, se recomienda preprocesar
 
 ### Optimización de la personalización {#optimize-personalization}
 
-Puede optimizar la personalización mediante una opción dedicada: **[!UICONTROL Prepare the personalization data with a workflow]**, disponible en la pestaña **[!UICONTROL Analysis]** de las propiedades de envío.
+Puede optimizar la personalización mediante una opción dedicada: **[!UICONTROL Prepare the personalization data with a workflow]**, disponible en el **[!UICONTROL Analysis]** de las propiedades de entrega.
 
 Durante el análisis de envío, esta opción crea y ejecuta automáticamente un flujo de trabajo que almacena todos los datos vinculados con el objetivo en una tabla temporal, incluidos los datos de tablas vinculadas en FDA.
 
@@ -55,8 +55,8 @@ Marcar esta opción puede mejorar el rendimiento del análisis de envío cuando 
 Para utilizar esta opción, siga los pasos a continuación:
 
 1. Cree una campaña.
-1. En la pestaña **[!UICONTROL Targeting and workflows]** de la campaña, añada una actividad **Query** al flujo de trabajo.
-1. Añada una actividad de **[!UICONTROL Email delivery]** al flujo de trabajo y ábrala.
+1. En el **[!UICONTROL Targeting and workflows]** de la campaña, añada una **Consulta** a su flujo de trabajo.
+1. Añadir un **[!UICONTROL Email delivery]** al flujo de trabajo y ábralo.
 1. Vaya a la pestaña **[!UICONTROL Analysis]** de la **[!UICONTROL Delivery properties]** y seleccione la opción **[!UICONTROL Prepare the personalization data with a workflow]**.
 1. Configure la entrega e inicie el flujo de trabajo para iniciar el análisis.
 

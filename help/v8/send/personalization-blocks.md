@@ -8,13 +8,13 @@ exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 45%
+ht-degree: 34%
 
 ---
 
 # Utilizar bloques de personalización{#personalization-blocks}
 
-Los bloques personalizados son contenidos dinámicos que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un vínculo a una página espejo.
+Los bloques personalizados son contenidos dinámicos que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a una página espejo.
 
 Para acceder a bloques de contenido personalizados, vaya a **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador. Los bloques de personalización integrados se enumeran en [esta sección](#ootb-personalization-blocks).
 
@@ -39,7 +39,7 @@ Se puede incluir el código fuente de un bloque personalizado en el contenido de
 Los bloques de personalización integrados son:
 
 * **[!UICONTROL Enabled by Adobe Campaign]**: inserta el logotipo &quot;Habilitado por Adobe Campaign&quot;.
-* **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
+* **[!UICONTROL Formatting function for proper nouns]**: genera el **[!UICONTROL toSmartCase]** Función JavaScript, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Greetings]**: inserta los saludos con el nombre completo del destinatario, seguido de una coma. Ejemplo: “Hola, John Doe”.
 * **[!UICONTROL Insert logo]**: inserta un logotipo definido en la configuración de la instancia.
 * **[!UICONTROL Link to mirror page]**: inserta un vínculo al [página espejo](mirror-page.md). El formato predeterminado es: “Si no puede ver este mensaje correctamente, haga clic aquí”.
@@ -47,10 +47,10 @@ Los bloques de personalización integrados son:
 * **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta en **[!UICONTROL Accepted]**. (Este bloque está disponible si el módulo Interacción está habilitado)
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. Este vínculo se define en la configuración de la instancia. El contenido predeterminado es: “Para registrarse, haga clic aquí”.
-* **[!UICONTROL Registration link (with referrer)]** : inserta un enlace de suscripción que permite identificar el visitante y el envío. Este vínculo se define en la configuración de la instancia.
+* **[!UICONTROL Registration link (with referrer)]**: inserta un vínculo de suscripción que permite identificar el visitante y el envío. Este vínculo se define en la configuración de la instancia.
 * **[!UICONTROL Registration page URL]**: inserta una URL de suscripción
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genere un código que dé formato a un correo electrónico con estilos de HTML predefinidos.
-* **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados). El contenido asociado predeterminado es el siguiente: “Usted recibe este mensaje porque ha estado en contacto con ***nombre de la organización*** o un afiliado. Para dejar de recibir mensajes de ***nombre de la organización*** haga clic aquí”.
+* **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados de la). El contenido asociado predeterminado es el siguiente: “Usted recibe este mensaje porque ha estado en contacto con ***nombre de la organización*** o un afiliado. Para dejar de recibir mensajes de ***nombre de la organización*** haga clic aquí”.
 
 ## Creación de bloques de personalización personalizados {#create-custom-personalization-blocks}
 

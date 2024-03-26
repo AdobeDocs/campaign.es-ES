@@ -8,13 +8,13 @@ exl-id: fedcffcd-cf9b-4c3d-bd25-cb87dda30192
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '249'
-ht-degree: 78%
+ht-degree: 74%
 
 ---
 
 # Entregas multicanal{#cross-channel-deliveries}
 
-Las entregas multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de flujo de trabajo de la campaña.[](campaign-workflows.md)
+Los envíos multicanal están disponibles en la variable **[!UICONTROL Deliveries]** pestaña de [flujo de trabajo de campaña](campaign-workflows.md) actividades.
 
 Seleccione la plantilla en la que desea basar la entrega y defina su contenido.
 

@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '1455'
-ht-degree: 69%
+source-wordcount: '1458'
+ht-degree: 68%
 
 ---
 
@@ -40,8 +40,7 @@ Los siguientes casos de uso detallan las posibles opciones para integrar ofertas
 
 **Paso 2: Actualizar el contenido de la página del HTML**
 
-La página HTML debe incluir un elemento con un atributo @id con el valor del nombre interno del espacio de oferta creado (&quot;espacio de nombre i_internal&quot;). La oferta se insertará en este 
-elemento mediante interacción.
+La página HTML debe incluir un elemento con un atributo @id con el valor del nombre interno del espacio de oferta creado (&quot;espacio de nombre i_internal&quot;). La oferta se insertará en este elemento mediante interacción.
 
 En este ejemplo, el atributo @id recibe el valor “i_SPC12”, donde “SPC12” es el nombre interno del espacio de oferta creado anteriormente:
 

@@ -8,8 +8,8 @@ role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 96%
+source-wordcount: '1066'
+ht-degree: 90%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](scheduler.md)) o una planificación de actividad.
 
-Las acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, detención, pausa, etc.) son procesos **asíncronos**: el comando se guarda y se aplica en cuanto el servidor esté disponible para su aplicación.
+Acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **asíncrono** processes: el pedido se registra y entra en vigor en cuanto el servidor esté disponible para aplicarlo.
 
 La barra de herramientas permite iniciar y rastrear la ejecución del flujo de trabajo.
 
@@ -81,7 +81,7 @@ El **[!UICONTROL Actions]** de la barra de herramientas permite acceder a opcion
   Esta acción crea una nueva plantilla de flujo de trabajo basada en el flujo de trabajo seleccionado. Debe especificar la carpeta donde desea que se guarde (en el campo **[!UICONTROL Folder]**).
 
 
-## Prácticas recomendadas de ejecución de flujo de trabajo {#workflow-execution-best-practices}
+## Prácticas recomendadas para la ejecución de flujos de trabajo {#workflow-execution-best-practices}
 
 Mejore la estabilidad de las instancias mediante la implementación de las siguientes prácticas recomendadas:
 

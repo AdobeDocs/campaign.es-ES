@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
 source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 53%
+source-wordcount: '680'
+ht-degree: 31%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 53%
 
 Las funcionalidades de seguimiento de campañas hacen un seguimiento de los mensajes enviados y le ayudan a analizar el comportamiento de los destinatarios: abrir, hacer clic en vínculos, suscripciones/bajas, etc. Puede acceder a registros, informes y métricas dedicados, consultar la base de datos para revisar los datos recopilados y mucho más.
 
-Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}.
+Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/editing-a-profile.html#tracking-tab){target="_blank"}.
 
 El panel de entrega es una herramienta clave para monitorizar las entregas y los problemas potenciales durante la entrega de mensajes.
 
@@ -34,32 +34,32 @@ A continuación, se enumeran las funcionalidades de seguimiento clave disponible
 
 Puede realizar un seguimiento de la recepción de mensajes y de la activación de los vínculos insertados en el contenido del mensaje para comprender mejor el comportamiento de los destinatarios.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
 
 **Seguimiento de URL**
 
 Las opciones de seguimiento se pueden configurar activando o desactivando las direcciones URL rastreadas.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html#sending-messages){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/personalizing-url-tracking.html#sending-messages){target="_blank"}
 
 
 **Personalización de vínculos rastreados**
 
-Las funciones de seguimiento de Campaign le permiten añadir vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento.
+Las funciones de seguimiento de campañas le permiten añadir vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html#sending-messages){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/tracking-personalized-links/tracking-personalized-links.html#sending-messages){target="_blank"}
 
 **Registros de seguimiento**
 
 El **Seguimiento** technical workflow recupera los datos de seguimiento una vez que se ha enviado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages){target="_blank"}
 
 **Seguimiento de pruebas**
 
-Antes de enviar los mensajes con el seguimiento, puede probar el seguimiento en su página espejo, los registros de correo electrónico y los vínculos.
+Antes de enviar los mensajes con el seguimiento, puede probar el seguimiento en la página espejo, los registros de correo electrónico y los vínculos.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html#sending-messages){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/testing-tracking.html#sending-messages){target="_blank"}
 
 ### Seguimiento de aplicaciones web {#web-application-tracking}
 
@@ -69,13 +69,13 @@ Antes de enviar los mensajes con el seguimiento, puede probar el seguimiento en 
 
 También puede rastrear y medir visitas en páginas de aplicación web con etiquetas de seguimiento. Esta funcionalidad se puede utilizar para todos los tipos de aplicaciones web, como formularios y encuestas en línea.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html#designing-content){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/tracking-a-web-application.html#designing-content){target="_blank"}
 
 **Exclusión del seguimiento de aplicaciones web**
 
 La exclusión del seguimiento de aplicaciones web le permite detener el seguimiento de los comportamientos web de los usuarios finales que excluyen el seguimiento de comportamiento. Puede incluir la capacidad de mostrar un banner en aplicaciones web o páginas de destino para permitir que los usuarios puedan excluirse.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html#designing-content){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/web-application-tracking-opt-out.html#designing-content){target="_blank"}
 
 ### Seguimiento de informes {#tracking-reports}
 
@@ -85,25 +85,25 @@ La exclusión del seguimiento de aplicaciones web le permite detener el seguimie
 
 Este informe proporciona estadísticas sobre aperturas, clics y transacciones, y le permite rastrear el impacto del envío en marketing.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html#tracking-reports){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/about-message-tracking.html#tracking-reports){target="_blank"}
 
 **URL y flujos de clics**
 
 Este informe muestra la lista de páginas visitadas después de una entrega.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#urls-and-click-streams){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#urls-and-click-streams){target="_blank"}
 
 **Personas y destinatarios**
 
 Comprenda mejor la diferencia de seguimiento entre una persona o personas y un destinatario en Adobe Campaign con este ejemplo.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/person-people-recipients.html#reporting){target="_blank"}
 
 **Indicadores de seguimiento**
 
-Este informe combina los indicadores clave para rastrear el comportamiento de los destinatarios al recibir el envío, tales como las tasas de pulsaciones abiertas y los flujos de clics.
+Este informe combina los indicadores clave para rastrear el comportamiento de los destinatarios al recibir la entrega, como las tasas de pulsaciones abiertas y los flujos de clics.
 
-[Obtenga más información en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#reporting){target="_blank"}
+[Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/reports-on-deliveries/delivery-reports.html#reporting){target="_blank"}
 
 **Cálculo de indicador**
 

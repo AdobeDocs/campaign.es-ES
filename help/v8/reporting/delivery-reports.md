@@ -6,13 +6,13 @@ exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: 1c879c7803c346d4b602089a22c2639eb83e82be
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 93%
+ht-degree: 90%
 
 ---
 
 # Informes de envío {#delivery-reports}
 
-Se puede realizar un seguimiento de la ejecución de los envíos a través de diversos informes accesibles desde la información general de entrega.
+Se puede realizar un seguimiento de la ejecución de los envíos a través de diversos informes accesibles desde la información general de envío.
 
 Para acceder a los informes, siga los pasos a continuación:
 
@@ -62,7 +62,7 @@ Este informe combina los indicadores clave para realizar un seguimiento del comp
 * **[!UICONTROL Distinct opens for the population reached]** : Estimación del número de destinatarios objetivo que han abierto un mensaje al menos una vez. Se tienen en cuenta los clics en direcciones URL rastreadas, ya que es necesario abrir los correos electrónicos para hacer clic en un vínculo.
 * **[!UICONTROL Sum of opens for the population reached]** : Estimación del número total de aperturas de los destinatarios objetivo.
 * **[!UICONTROL Clicks on opt-out link]** : Número de clics en el vínculo de baja de suscripción.
-* **[!UICONTROL Clicks on the mirror page link]**[ : Número de clics en el vínculo de página espejo](../send/mirror-page.md). Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envíos (direcciones URL rastreadas).
+* **[!UICONTROL Clicks on the mirror page link]** : Número de clics en el vínculo al [página espejo](../send/mirror-page.md). Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envío (direcciones URL rastreadas).
 * **[!UICONTROL Estimation of forwards]** : Estimación del número de correos electrónicos reenviados por los destinatarios objetivo. Este valor se calcula restando el número de personas diferentes y el número de destinatarios diferentes que hicieron clic en el correo electrónico.
 
   >[!NOTE]
@@ -157,7 +157,7 @@ Este informe proporciona toda la información principal sobre la entrega.
 Esta sección tiene dos indicadores:
 
 * **[!UICONTROL Initial population]** : Número total de destinatarios a quienes se realizó la entrega.
-* **[!UICONTROL Messages rejected by the rule]** : número de direcciones ignoradas durante el análisis al aplicar las reglas de tipología: dirección no disponible, en cuarentena, en lista de bloqueados, etc. <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
+* **[!UICONTROL Messages rejected by the rule]** : número de direcciones ignoradas durante el análisis al aplicar las reglas de tipología: dirección no disponible, en cuarentena, en lista de bloqueados, etc., de la que se ha hecho un seguimiento. <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL Causes of exclusion]**
 

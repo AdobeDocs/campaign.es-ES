@@ -7,7 +7,7 @@ role: User, Admin
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 100%
+ht-degree: 78%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 
 
-El flujo de trabajo detallado a continuación se instala con el módulo **Renderización de la bandeja de entrada (IR)** de forma predeterminada.
+El flujo de trabajo detallado a continuación se instala con el **Renderización de la bandeja de entrada (IR)** de forma predeterminada.
 
 <table> 
  <tbody> 
