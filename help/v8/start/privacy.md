@@ -95,7 +95,7 @@ Ahora puede crear solicitudes de privacidad basadas en su nueva Área de nombres
 
 La integración de **[!DNL Adobe Experience Platform Privacy Service]** le permite automatizar sus solicitudes de privacidad en un contexto de varias soluciones a través de una sola llamada de API JSON. Adobe Campaign gestiona automáticamente las solicitudes enviadas desde Privacy Service mediante un flujo de trabajo dedicado.
 
-Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es) para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.{target="_blank"}
+Consulte la documentación del [Privacy Service de Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/destinations/home.html?lang=es){target="_blank"} para obtener información sobre cómo crear solicitudes de privacidad desde el Servicio principal de privacidad.
 
 Cada trabajo de **[!DNL Privacy Service]** se divide en varias solicitudes de privacidad en Adobe Campaign, en función de cuántas áreas de nombres se estén usando; una solicitud que corresponde a un área de nombres.
 
