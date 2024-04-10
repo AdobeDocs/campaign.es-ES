@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '406'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Los siguientes exploradores son compatibles con Campaign for Web Access. Obtenga
 
 * [Actualizaciones de la versión de Campaign](upgrades.md)
 * [Compruebe su versión de Campaign](upgrades.md#version)
-* [Instalar la consola del cliente de Campaign](connect.md)
-* [Versiones de Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target="_blank"}
+* [Instalación de la consola del cliente de Campaign](connect.md)
+* [Versiones del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target="_blank"}
 
 Para recibir información sobre las nuevas versiones de la solución Experience Cloud, suscríbase para recibir la [actualización de producto prioritaria de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.

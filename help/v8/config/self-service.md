@@ -6,9 +6,9 @@ role: Admin
 level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '307'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -18,13 +18,13 @@ El Panel de control de Campaign le ayuda a aumentar la eficacia de su trabajo co
 
 Ventajas principales:
 
-* Cambie la configuración rápidamente por su cuenta, sin ponerse en contacto con el Adobe.
+* Realice cambios rápidamente en la configuración por su cuenta, sin ponerse en contacto con Adobe
 * Configure las opciones en función de las diferentes necesidades comerciales en distintos momentos.
 * Mejore la seguridad controlando la configuración de acceso según sus necesidades.
 
 También puede utilizar el Panel de control de Campaign para configurar las instancias, como las listas de IP permitidas, los permisos de URL y recuperar información acerca de su instancia.
 
-Obtenga más información en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"}.
+Obtenga más información en la [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"}.
 
 ## ¿Cómo acceder al Panel de control? {#ac-control-panel-access}
 
@@ -32,7 +32,7 @@ El Panel de control está disponible directamente en Adobe Experience Cloud. Sol
 
 ## Preguntas frecuentes sobre el Panel de control {#ac-control-faq}
 
-[Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/faq.html#control-panel){target="_blank"} para acceder a las preguntas frecuentes sobre Campaign Panel de control de Campaign.
+[Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es#control-panel){target="_blank"} para acceder a las preguntas frecuentes del Panel de control de Campaign.
 
 ## Administración de SFTP {#ac-control-sftp}
 
@@ -42,9 +42,9 @@ En el Panel de control, puede interactuar con todos los servidores SFTP conectad
 
 Obtenga información sobre cómo monitorizar los subdominios y sus certificados.
 
-* [Supervisión de subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=es){target="_blank"}
+* [Monitorización de los subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-subdomains.html?lang=es){target="_blank"}
 * [Configuración de un nuevo subdominio](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=es){target="_blank"}
-* [Supervisión de los certificados SSL de los subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es){target="_blank"}
+* [Monitorización de los certificados SSL de los subdominios](https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=es){target="_blank"}
 
 ## Monitorización del rendimiento
 
@@ -56,5 +56,5 @@ El Panel de control proporciona varias funcionalidades que le ayudan a monitoriz
 Obtenga información sobre cómo administrar la configuración de las instancias de Campaign en el Panel de control.
 * [IP en la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es){target="_blank"}
 * [Permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es){target="_blank"}
-* [Detalles de instancia](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es){target="_blank"}
+* [Detalles de las instancias](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es){target="_blank"}
 * [Administración de claves GPG](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/gpg-keys-management.html?lang=es){target="_blank"}

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 70%
 
    >[!NOTE]
    >
-   >Como usuario de Managed Cloud Service, la instancia se actualiza por Adobe con cada nueva versión.
+   >Como usuario de Managed Cloud Services, la instancia se actualiza en Adobe con cada nueva versión.
 
 1. **¿Cómo puedo conectarme a Campaign v8?**
 
@@ -32,28 +32,28 @@ ht-degree: 70%
 
    [Haga clic aquí para obtener más información](connect.md).
 
-   A partir de la versión 8.6 de Campaign, tiene acceso a la nueva **Interfaz de usuario web de Campaign**, disponible a través del entorno central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
+   A partir de Campaign v8.6, tendrá acceso a la nueva **interfaz de usuario web de Campaign**, disponible a través del entorno central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
 
    Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz de Adobe Campaign Web [en esta página](campaign-ui.md#ac-web-ui).
 
-   Obtenga más información en la [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+   Obtenga más información en la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 1. **¿Se puede instalar Campaign v8 en un entorno local o híbrido?**
 
-   La versión 8 de Campaign solo está disponible en Cloud Service administrados, totalmente alojados por Adobe.
+   Por ahora, Campaign v8 solo está disponible en Managed Cloud Services, totalmente alojados por Adobe.
 
-1. **¿Cómo configuro el envío del correo electrónico?**
+1. **¿Cómo mejoro la entregabilidad del correo electrónico?**
 
    La capacidad de envío de correo electrónico, un componente esencial para el éxito del programa de marketing de cada remitente, se caracteriza por criterios y reglas que cambian constantemente. La navegación eficaz en este mundo digital requiere un ajuste regular de su estrategia de correo electrónico, teniendo en cuenta las tendencias clave de envío, para llegar mejor a su público.
 
-   Consulte esta guía para aprender [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}
+   Consulte esta guía para obtener más información sobre las [Prácticas recomendadas de entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}.
 
-   Obtenga información sobre cómo implementar la capacidad de envío en Campaign [en esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es){target="_blank"}
+   Aprenda a implementar la entregabilidad en Campaign [en esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es){target="_blank"}
 
 1. **¿Cómo puedo asegurarme de que mi entrega se envíe sin errores?**
 
    Adobe Campaign incluye un conjunto de paneles y herramientas para monitorizar los envíos de correo electrónico.
 
-   [Lea la documentación de Campaign Classic v7 para aprender](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"} cómo asegurarse de que sus mensajes se envían, monitorizar la ejecución y actuar en consecuencia si se produce un error.
+   [Lea la documentación de Campaign Classic v7 para obtener información](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"} sobre cómo cerciorarse de que sus mensajes se envían, cómo monitorizar la ejecución y actuar en consecuencia si se produce un error.
 
 1. **¿Se puede monitorizar la ejecución del flujo de trabajo?**
 
@@ -69,7 +69,7 @@ ht-degree: 70%
 
    >[!NOTE]
    >
-   >Como usuario de Cloud Service administrados, póngase en contacto con el Adobe para delegar sus subdominios al Adobe.
+   >Como usuario de Managed Cloud Services, póngase en contacto con Adobe para delegar sus subdominios a Adobe.
 
 1. **Como usuario Campaign Classic v7, ¿puedo migrar a Campaign v8?**
 
@@ -83,9 +83,9 @@ ht-degree: 70%
 
    Puede obtener el programa de instalación y la consola del cliente desde el Centro de descargas de Adobe.
 
-   Como usuario administrador, acceda al Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) {target="_blank"} para descargar Adobe Campaign.
+   Como usuario administrador, acceda a la [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) {target="_blank"} de Adobe para descargar Adobe Campaign.
 
-   Más información sobre el Centro de distribución [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target="_blank"}.
+   Obtenga más información sobre el Centro de distribución [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target="_blank"}.
 
 1. **¿Puedo conectar con expertos en Campaign?**
 
@@ -96,6 +96,6 @@ ht-degree: 70%
 
    La creación de un caso le permite ponerse en contacto con el equipo de Asistencia al cliente de Adobe en relación con cualquier problema que tenga con sus productos de Adobe. Para ayudarle a resolver sus problemas, Adobe Admin Console le permitirá hablar con Asistencia al cliente de Adobe.
 
-   Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}.
+   Para registrar un problema o iniciar una sesión de chat en el nuevo sistema, conéctese a [Adobe Admin Console](https://adminConsole.adobe.com/overview){target="_blank"}.
 
    Este nuevo sistema requiere nuevas cuentas individuales para cada usuario, con los permisos correctos. Si no puede iniciar sesión con su Adobe ID, solicite acceso a través de Experience League y el equipo de Servicio de atención al cliente le ayudará lo antes posible. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
