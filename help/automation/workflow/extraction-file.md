@@ -5,9 +5,9 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 014743172e09d46cb83b2fe2befaa8f3c54669b1
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '312'
 ht-degree: 100%
 
 ---
@@ -46,8 +46,6 @@ Para configurar la extracción de datos, siga estos pasos:
    ![](assets/s_advuser_extract_file_agregate_values.png)
 
 Puede definir un proceso posterior que se va a ejecutar durante la extracción de datos, permitiéndole comprimir o cifrar los archivos. Para ello, se debe agregar el comando deseado en la pestaña **[!UICONTROL Script]** de la actividad.
-
-Para obtener más información, consulte esta sección: [Descompresión o desencriptado de un archivo](use-workflow-data.md#zipping-or-encrypting-a-file).
 
 ![](assets/postprocessing_dataextraction.png)
 
