@@ -5,17 +5,19 @@ description: Aprenda a diseñar una entrega de notificaciones push enriquecidas 
 feature: Push
 role: User
 level: Beginner
-hide: true
-hidefromtoc: true
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 5f1ffd5d59791a0e6ff8a67feb08c8eed128cc1e
+source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1135'
 ht-degree: 13%
 
 ---
 
-# Diseño de una entrega push enriquecida para Android {#rich-push}
+# Diseño de un envío push enriquecido para Android {#rich-push}
+
+>[!AVAILABILITY]
+>
+>Esta función se encuentra en **Disponibilidad limitada** (LA).
 
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 

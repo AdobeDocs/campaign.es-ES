@@ -5,9 +5,9 @@ feature: Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: f3de901f-519f-42ae-846c-f20c7cb560df
-source-git-commit: 65f4da979f0c5884797af0c3a835d948672b4a7c
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '677'
 ht-degree: 31%
 
 ---
@@ -131,4 +131,4 @@ Las directrices de monitorización de instancias están disponibles en [Document
 
 Utilice la interfaz de autoservicio Pista de auditoría para monitorizar los cambios realizados en la instancia. La pista de auditoría captura, en tiempo real, una lista completa de las acciones y eventos que se producen dentro de una instancia de Adobe Campaign. Puede acceder a un historial de datos para responder preguntas como: qué ha pasado con sus flujos de trabajo y quién los actualizó por última vez o qué han hecho los usuarios en la instancia.
 
-Obtenga más información sobre la pista de auditoría en  [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}
+Obtenga más información sobre la pista de auditoría en esta sección [página](../reporting/audit-trail.md){target="_blank"}

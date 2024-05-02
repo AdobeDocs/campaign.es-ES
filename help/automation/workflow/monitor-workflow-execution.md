@@ -5,9 +5,9 @@ description: Monitorización de la ejecución del flujo de trabajo
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1926'
 ht-degree: 95%
 
 ---
@@ -18,7 +18,7 @@ Esta sección presenta información sobre cómo monitorizar la ejecución de los
 
 En [esta sección](workflow-supervision.md#supervising-workflows) está disponible un caso de uso que detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
 
-Además, los administradores de la instancia pueden utilizar la **pista de auditoría** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo y el estado de los mismos. Obtenga más información sobre la pista de auditoría en  [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/audit-trail.html#accessing-audit-trail){target="_blank"}.
+Además, los administradores de la instancia pueden utilizar la **pista de auditoría** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo y el estado de los mismos. Obtenga más información sobre la pista de auditoría en esta sección [página](../../v8/reporting/audit-trail.md){target="_blank"}.
 
 ## Visualización del progreso {#displaying-progress}
 

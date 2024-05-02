@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de la versión 8 de Campaign
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: 19593cd689609515264aa2995e33e53f3bc95c95
+source-git-commit: ca4c808571b66eb26d1dfaf608932128f42ce874
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '598'
 ht-degree: 99%
 
 ---
@@ -121,6 +121,7 @@ ht-degree: 99%
    + [Casos de uso](interaction/interaction-use-cases.md)
 + Creación de informes y análisis {#analytics}
    + [Seguimiento y monitorización](start/tracking.md)
+   + [Pista de auditoría](reporting/audit-trail.md)
    + Trabajo con informes{#reports}
       + [Introducción a los informes](reporting/gs-reporting.md)
       + Crear cubos{#cubes}
