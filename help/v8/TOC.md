@@ -3,19 +3,19 @@ audience: end-user
 user-guide-title: Campaign v8
 user-guide-description: Documentación del producto para la versión 8 de Adobe Campaign (consola de cliente).
 title: Documentación de Adobe Campaign v8
-description: Documentación de la versión 8 de Campaign
+description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
 source-git-commit: 5312045424d74f8aa1eb44b2f40347553d471a12
 workflow-type: tm+mt
 source-wordcount: '600'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
 
-# Documentación de Adobe Campaign v8 (consola) {#campaign-v8}
+# Documentación de Adobe Campaign versión 8 (consola) {#campaign-v8}
 
-+ [Documentación de la versión 8 de Campaign](campaign-home.md)
++ [Documentación de Campaign versión 8](campaign-home.md)
 + Notas de la versión{#releases}
    + [Notas de la versión preliminar](start/e-release-notes.md)
    + [Versiones y actualizaciones](start/upgrades.md)
