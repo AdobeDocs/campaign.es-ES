@@ -5,9 +5,9 @@ description: Descubra cómo generar un flujo de trabajo
 feature: Workflows
 role: User
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: b7fa3dfb1e596d2ea41674278cbe315199264611
 workflow-type: tm+mt
-source-wordcount: '969'
+source-wordcount: '838'
 ht-degree: 84%
 
 ---
@@ -145,31 +145,3 @@ Se pueden duplicar diferentes tipos de flujos de trabajo. Una vez duplicados, la
 1. En la ventana de flujo de trabajo, cambie la etiqueta de flujo de trabajo.
 1. Haga clic en **Save**.
 
-La función duplicar no está directamente disponible en la vista de una campaña.
-
-Sin embargo, puede crear una vista para mostrar todos los flujos de trabajo de la instancia. En esta vista, puede duplicar flujos de trabajo mediante **Duplicate to**.
-
-**Creación de una vista**
-
-1. En **Explorer**, vaya a la carpeta en la que debe crear la vista.
-1. Haga clic con el botón derecho y vaya a **Add a new folder** > **Process** y seleccione **Workflows**.
-
-   ![](assets/add-new-folder-workflows.png)
-
-Se crea la nueva carpeta **Workflows**.
-
-1. Haga clic con el botón derecho y seleccione **Properties**.
-1. En el **Restricción** , active la pestaña **Esta carpeta es una vista** y haga clic en **Guardar**.
-
-   ![](assets/folder-is-a-view.png)
-
-La carpeta ahora se rellena con todos los flujos de trabajo de la instancia.
-
-**Duplicación de un flujo de trabajo de campaña**
-
-1. Seleccione un flujo de trabajo de campaña en la vista de flujo de trabajo.
-1. Haga clic con el botón derecho en **Duplicate to**.
-1. Cambie su etiqueta.
-1. Haga clic en **Save**.
-
-Puede ver el flujo de trabajo duplicado en la vista de flujo de trabajo.
