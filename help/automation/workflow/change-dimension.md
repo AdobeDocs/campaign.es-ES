@@ -5,10 +5,10 @@ description: Aprenda a utilizar la actividad de la dimensión Cambiar
 feature: Workflows, Targeting Activity
 role: User
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 75%
+source-wordcount: '414'
+ht-degree: 67%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 75%
 Utilice el **[!UICONTROL Change dimension]** actividad para cambiar la dimensión de segmentación mientras crea una audiencia. Esta actividad desplaza el eje según la plantilla de datos y la dimensión de entrada. Por ejemplo, cambia de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
 
 También puede utilizar esta actividad para definir las columnas adicionales del nuevo destinatario y los criterios de anulación de duplicación de datos.
+
+>[!IMPORTANT]
+>
+>Tenga en cuenta que las **[!UICONTROL Change Dimension]** y **[!UICONTROL Change Data source]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROOL Enriquecimiento]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
 
 Para configurar la variable **[!UICONTROL Change dimension]** actividad, siga los siguientes pasos:
 
