@@ -4,9 +4,9 @@ description: Descubra más información acerca de la actividad Cambiar fuente de
 feature: Workflows, Data Management, Federated Data Access
 role: User
 exl-id: ca7eca9d-9112-4ea1-9a0c-a24cf6a978e6
-source-git-commit: 5af8753e9412c239ba40997abc5f8e61f405e999
+source-git-commit: b77c37ab9ba9556fdefc563deac6b55ab0d91dc8
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '278'
 ht-degree: 17%
 
 ---
@@ -26,7 +26,7 @@ Tenga en cuenta que al utilizar **[!UICONTROL Change Data Source]** actividad, d
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las **[!UICONTROL Change Dimension]** y **[!UICONTROL Change Data source]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROOL Enriquecimiento]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
+>Tenga en cuenta que las **[!UICONTROL Change Dimension]** y **[!UICONTROL Change Data source]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROL Enrichement]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
 
 Para usar la variable **[!UICONTROL Change Data Source]** actividad, debe:
 
