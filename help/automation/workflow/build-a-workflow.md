@@ -5,10 +5,10 @@ description: Descubra cómo generar un flujo de trabajo
 feature: Workflows
 role: User
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: b7fa3dfb1e596d2ea41674278cbe315199264611
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
 source-wordcount: '838'
-ht-degree: 84%
+ht-degree: 78%
 
 ---
 
@@ -133,9 +133,7 @@ Además de las propiedades habituales del flujo de trabajo, las propiedades de l
 
 Se pueden duplicar diferentes tipos de flujos de trabajo. Una vez duplicados, las modificaciones del flujo de trabajo no se transfieren a la copia del flujo de trabajo.
 
->[!CAUTION]
->
->La función de copiar y pegar está disponible en los flujos de trabajo, pero le recomendamos que utilice **Duplicate**. Una vez copiada una actividad, se conserva toda su configuración. Para las actividades de entrega (correo electrónico, SMS, notificaciones push...), el objeto de entrega adjunto a la actividad también se copia, lo que puede provocar un colapso.
+El Adobe recomienda duplicar un flujo de trabajo en lugar de realizar una copia o pegado de las actividades. Cuando se copia una actividad, se conserva toda su configuración. Para las actividades de canal, el objeto de envío asociado a la actividad también se copia, lo que puede dar lugar a problemas importantes.
 
 1. Haga clic con el botón derecho en un flujo de trabajo.
 1. Haga clic en **Duplicate**.

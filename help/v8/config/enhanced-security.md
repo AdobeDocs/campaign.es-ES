@@ -7,9 +7,9 @@ level: Experienced
 hide: true
 hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 042a1cc96b819a1a77442e274defbadeb393eafc
+source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
 workflow-type: tm+mt
-source-wordcount: '745'
+source-wordcount: '743'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Una vez implementadas estas funcionalidades, el Adobe supervisa:
 
 ## Integración segura de claves gestionadas por el cliente y seguras {#secure-cmk-integration}
 
-El **Integración segura de clave gestionada por el cliente (CMK)** permite cifrar la instancia y los datos utilizando su propia clave a través de la cuenta de Amazon Web Service (AWS).
+El **Integración segura de clave gestionada por el cliente (CMK)** le permite cifrar datos en reposo con su propia clave a través de su cuenta de Amazon Web Service (AWS).
 
 Las claves administradas por el cliente son claves del Servicio de administración de claves (KMS) de su cuenta de AWS que crea, posee y administra. Tiene control total sobre estas claves KMS y las utiliza para cifrar y descifrar datos. Al responsabilizarse de la generación y administración de claves de cifrado, esta capacidad le permite tener más control sobre ellas, incluida la revocación de una clave.
 
