@@ -9,7 +9,7 @@ exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](scheduler.md)) o una planificación de actividad.
 
-Acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **asíncrono** processes: el pedido se registra y entra en vigor en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, detención, pausa, etc.) son procesos **asíncronos**: el pedido se guarda y se aplica en cuanto el servidor esté disponible para su aplicación.
 
 La barra de herramientas permite iniciar y rastrear la ejecución del flujo de trabajo.
 

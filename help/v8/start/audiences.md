@@ -8,7 +8,7 @@ exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 source-git-commit: 99cb937a475997aae714a67b1f9f91c6bae932f4
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 28%
+ht-degree: 48%
 
 ---
 
@@ -42,18 +42,18 @@ Obtenga información sobre cómo crear una audiencia en un flujo de trabajo de c
 ## Perfiles activos {#active-profiles}
 
 
-Un perfil activo es un perfil con el que el cliente ha intentado comunicarse durante los últimos 12 meses a través de cualquier canal.
+Un perfil activo es un perfil con el que el cliente ha intentado comunicarse durante los últimos 12 meses a través de cualquier canal.
 
 Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos. Obtenga más información en [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-Puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign de Campaign. Para obtener más información, consulte [documentación del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}.
+Puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del panel de control](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}.
 
 
-Se aplican las siguientes limitaciones y protecciones:
+Son de aplicación las siguientes limitaciones y protecciones:
 
 * Un perfil al que se destinan varios envíos se cuenta solo una vez.
 * Los perfiles segmentados en el contexto del marketing social en X (Twitter) no se tienen en cuenta como perfiles activos.
-* El recuento se basa en la clave principal del destinatario. Como consecuencia, si un perfil está presente en dos tablas de destinatarios diferentes, se puede contabilizar dos veces como un perfil activo.
+* El recuento se basa en la clave principal del destinatario. Como consecuencia, si un perfil está presente en dos tablas de destinatarios diferentes, es posible que se contabilice dos veces como perfil activo.
 
 
 ## Privacidad y consentimiento{#privacy-and-consent}

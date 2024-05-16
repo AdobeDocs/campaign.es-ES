@@ -9,7 +9,7 @@ exl-id: 1a75f411-3f71-4114-b738-277820dc6138
 source-git-commit: 550e3cbd064ae7831855377f1d08d6acecd55c9e
 workflow-type: tm+mt
 source-wordcount: '1664'
-ht-degree: 17%
+ht-degree: 20%
 
 ---
 
@@ -211,11 +211,11 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
 1. Seleccione el **[!UICONTROL Authentication mode]**. Hay dos modos disponibles:
 
-   * (Recomendado) **[!UICONTROL Token-based authentication]**: complete la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** a continuación, seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para obtener más información sobre **[!UICONTROL Token-based authentication]**, consulte [Documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
+   * (Recomendado) **[!UICONTROL Token-based authentication]**: complete la configuración las conexiones APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** y luego seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para más información sobre **[!UICONTROL Token-based authentication]**, consulte la [documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
    * **[!UICONTROL Certificate-based authentication]**: haga clic en **[!UICONTROL Enter the certificate...]**  a continuación, seleccione la clave p12 e introduzca la contraseña proporcionada por el desarrollador de aplicaciones móviles. Tenga en cuenta que este certificado viene con una fecha de caducidad y debe renovarse anualmente. Para evitar interrupciones en el servicio para los usuarios, actualice los certificados antes de que caduquen. Los certificados son válidos durante un año y debe actualizarlos para seguir comunicándose con APNS.
 
-1. Utilice el **[!UICONTROL Test the connection]** para validar la configuración.
+1. Utilice el botón **[!UICONTROL Test the connection]** para validar la configuración.
 
 1. Haga clic en **[!UICONTROL Next]** para configurar la aplicación de producción y siga los mismos pasos detallados anteriormente.
 
@@ -253,7 +253,7 @@ Para crear una aplicación para dispositivos Android, siga estos pasos:
    * **[!UICONTROL Private Key]**
    * **[!UICONTROL Client Email]**
 
-1. Utilice el **[!UICONTROL Test the connection]** para validar la configuración.
+1. Utilice el botón **[!UICONTROL Test the connection]** para validar la configuración.
 
    >[!CAUTION]
    >
