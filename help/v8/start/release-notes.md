@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 1f113f63089395269c494a9328d633684977912a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 97%
+source-wordcount: '898'
+ht-degree: 90%
 
 ---
 
@@ -52,7 +52,7 @@ Databricks ahora se admite como base de datos externa con acceso de datos federa
 
 * Se han cambiado varios esquemas de 32 a 64 bits. Esto solo se aplica a los clientes que migran de Campaign Standard. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=es).
 
-* En las tablas de Campaign, un nuevo indicador le permite gestionar las modificaciones de los atributos lastModified, created y createdBy-id. Cuando el indicador está activado, se omiten los valores proporcionados por los usuarios a estos atributos. Solo se utilizan la hora del servidor y el ID del contexto de usuario. Cuando el indicador está desactivado, se utilizan los valores proporcionados por el usuario para estos atributos. El indicador ignoreTimestampsID se encuentra en serverConf.xml, en el nodo &quot;compartido&quot;.
+* En las tablas de Campaign, los siguientes atributos ahora se rellenan de forma predeterminada por la fecha y la hora del servidor: lastModified, created, createdBy-id. Los valores proporcionados por los usuarios en las llamadas a la API se ignoran. Esta configuración se puede cambiar en el archivo de configuración del servidor de Campaign. Como cliente de Cloud Service administrados, debe ponerse en contacto con el Adobe de para cambiar esta configuración predeterminada.
 
 ### Correcciones {#fixes-8-7-1}
 
