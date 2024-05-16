@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 1f113f63089395269c494a9328d633684977912a
+source-git-commit: bcb833fae75ee515ae210342756fab035a4e1c03
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 90%
+source-wordcount: '870'
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ Databricks ahora se admite como base de datos externa con acceso de datos federa
 
 * Se han cambiado varios esquemas de 32 a 64 bits. Esto solo se aplica a los clientes que migran de Campaign Standard. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=es).
 
-* En las tablas de Campaign, los siguientes atributos ahora se rellenan de forma predeterminada por la fecha y la hora del servidor: lastModified, created, createdBy-id. Los valores proporcionados por los usuarios en las llamadas a la API se ignoran. Esta configuración se puede cambiar en el archivo de configuración del servidor de Campaign. Como cliente de Cloud Service administrados, debe ponerse en contacto con el Adobe de para cambiar esta configuración predeterminada.
+* En las tablas de Campaign, los siguientes atributos ahora se rellenan de forma predeterminada por la fecha y la hora del servidor: lastModified, created, createdBy-id. Los valores proporcionados por los usuarios en las llamadas a la API se ignoran. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### Correcciones {#fixes-8-7-1}
 
