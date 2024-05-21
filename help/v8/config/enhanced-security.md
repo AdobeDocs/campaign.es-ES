@@ -4,12 +4,10 @@ description: Introducción al complemento de seguridad mejorada de Campaign
 feature: Configuration
 role: Developer
 level: Experienced
-hide: true
-hidefromtoc: true
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 55c16fe19125ea54035a8f97928484c7baea161b
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '753'
 ht-degree: 3%
 
 ---
@@ -90,7 +88,7 @@ Para garantizar la alta disponibilidad (HA), utiliza dos túneles para evitar cu
 
 Se admiten tres casos de uso:
 
-* Acceso de datos federado (FDA) a través de VPN<!--to access your on-premise database from the Campaign instance over VPN-->
+* Acceso de datos federado (FDA) a través de VPN, para acceder a su base de datos local desde la instancia de Campaign a través de VPN
 
 * Inicio de sesión de instancia a través de VPN desde un cliente grande
 
@@ -117,7 +115,7 @@ Para garantizar el uso correcto de esta función, siga las directrices a continu
 
 Las siguientes limitaciones y protecciones se aplican a la integración de túnel VPN con Adobe Campaign v8:
 
-* Actualmente, solo se admiten bases de datos locales, como<!--Richa to check the list with PM-->:
+* Solo se admiten bases de datos locales, como<!--Richa to check the list with PM-->:
 
    * MySQL
    * Netezza
