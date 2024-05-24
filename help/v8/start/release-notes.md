@@ -8,7 +8,7 @@ exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: b280be52621890c9bd840182d3ad0389912568d4
 workflow-type: tm+mt
 source-wordcount: '1035'
-ht-degree: 78%
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,7 @@ _2 de mayo de 2024_
 >
 >Esta versión está en **Disponibilidad limitada** (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 >
->Como usuario Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
+>Como usuario Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en la [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
 
 ### Nuevas características {#new-8-7-1}
 
@@ -56,7 +56,7 @@ _2 de mayo de 2024_
 
 * Se han cambiado varios esquemas de 32 a 64 bits. Esto solo se aplica a los clientes que migran de Campaign Standard. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=es){target="_blank"}
 
-* En las tablas de Campaign, los siguientes atributos ahora se rellenan de forma predeterminada por la fecha y la hora del servidor: `lastModified` y `created`. El `createdBy-id` El valor del atributo ahora se rellena con el ID de inicio de sesión actual de forma predeterminada. Los valores proporcionados por los usuarios en las llamadas a la API se ignoran. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
+* En las tablas de Campaign, los siguientes atributos ahora se rellenan de forma predeterminada por la fecha y la hora del servidor: `lastModified` y `created`. El `createdBy-id` El valor del atributo ahora se rellena con el ID de inicio de sesión actual de forma predeterminada. Los valores proporcionados por los usuarios en las llamadas de API se ignoran. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 ### Correcciones {#fixes-8-7-1}
 
