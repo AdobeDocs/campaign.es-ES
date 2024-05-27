@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 52863e9cb3b9ccf03c8e2b838827af862b30e3b9
+source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
 workflow-type: tm+mt
-source-wordcount: '1178'
-ht-degree: 55%
+source-wordcount: '1193'
+ht-degree: 62%
 
 ---
 
@@ -48,6 +48,8 @@ Utilice el  **[!UICONTROL Test SMTP delivery]** opción para probar el envío a 
 
 Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configure el número de lotes y su proporción con respecto a todo la entrega.
 
+### Activar olas {#enable-waves}
+
 Para definir las olas, siga estos pasos:
 
 1. Abra las propiedades de entrega y vaya a **[!UICONTROL Delivery]** pestaña.
@@ -55,26 +57,27 @@ Para definir las olas, siga estos pasos:
 
    ![](assets/delivery-define-waves.png)
 
+### Configuración de olas {#config-waves}
 
-1. Configure las olas como se detalla a continuación.
+>[!NOTE]
+>
+>Solo se puede definir el tamaño y el retraso entre dos olas consecutivas. No se pueden configurar los criterios de selección de destinatarios para cada ola.
 
-   >[!NOTE]
-   >
-   >Solo se puede definir el tamaño y el retraso entre dos olas consecutivas. No se pueden configurar los criterios de selección de destinatarios para cada ola.
+Puede definir el tamaño de cada ola o agregarlas a un calendario.
 
-Puede definir lo siguiente:
+* **Definir el tamaño de cada ola**. Por ejemplo, si se introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en el envío, excepto el último, que representa el 10 % de los mensajes.
 
-    * **El tamaño de cada ola**. Por ejemplo, si introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en la entrega, excepto el último, que representa el 10 % de los mensajes.
-    
-    En el **[!UICONTROL Period]** el campo, especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si introduce **[!UICONTROL 2d]**, la primera ola comenzará inmediatamente, la segunda ola comenzará en dos días, la tercera ola en cuatro días, y así sucesivamente.
-    
-    ![](assets/delivery-waves-size.png)
-    
-    * **Un calendario para enviar cada ola**.  Por ejemplo, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
-    
-    En el **[!UICONTROL Start]** columna, especifique el retardo entre el inicio de dos olas consecutivas. En el **[!UICONTROL Size]** columna, introduzca un número fijo o un porcentaje.
-    
-    ![](assets/delivery-waves-calendar.png)
+  En el campo **[!UICONTROL Period]** especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si se introduce **[!UICONTROL 2d]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
+
+  ![](assets/delivery-waves-size.png)
+
+* **Defina un calendario para enviar cada ola**.  Por ejemplo, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
+
+  En la columna **[!UICONTROL Start]** especifique el retardo entre el inicio de dos olas consecutivas. En la columna **[!UICONTROL Size]**, introduzca un número fijo o un porcentaje.
+
+  ![](assets/delivery-waves-calendar.png)
+
+### Comprobación de programación de olas {#check-waves}
 
 Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Tipologías de campaña y sus reglas, configuradas en la variable **[!UICONTROL Typology]** de las propiedades de entrega, se presentan en [esta sección](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
@@ -84,9 +87,14 @@ Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, gar
 >
 >También debe definir tiempo suficiente para los reintentos al configurar las últimas olas. Más información sobre los reintentos en [esta sección](delivery-failures.md#retries).
 
+### Monitorización de olas {#monitor-waves}
+
 Para supervisar sus envíos, vaya a los registros de envío. Consulte [esta página](send.md)
 
 Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
+
+
+### Muestras de olas {#samples-waves}
 
 Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
