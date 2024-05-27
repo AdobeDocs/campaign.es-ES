@@ -5,9 +5,9 @@ description: Proveedores, stock y presupuestos
 feature: Budget Management, Campaigns
 role: User
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1830'
 ht-degree: 76%
 
 ---
@@ -148,7 +148,7 @@ Cuando se selecciona un servicio, las categorías de coste correspondientes al t
 
   ![](assets/supplier-mail-delivery-select.png)
 
-* Para el envío mediante canales móviles o por teléfono, se aplica el mismo modo de selección.
+* Para la entrega en canales móviles, se aplica el mismo modo de selección.
 * Para una entrega por correo electrónico, el servicio se selecciona en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega, como en el siguiente ejemplo:
 
   ![](assets/supplier-email-delivery-select.png)

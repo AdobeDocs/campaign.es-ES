@@ -5,7 +5,7 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
 source-wordcount: '2990'
 ht-degree: 64%
@@ -103,7 +103,7 @@ Los reintentos de rebote suave y el periodo entre ellos están determinados por 
 >
 >Campaign no utiliza la configuración de reintentos en las propiedades de entrega.
 
-## Período de validez
+## Período de validez {#valid-period}
 
 La configuración del periodo de validez de los envíos de Campaign está limitada a **3,5 días o menos**. Para una entrega, si define un valor superior a 3,5 días en Campaign, no se tendrá en cuenta.
 

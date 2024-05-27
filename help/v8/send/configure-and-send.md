@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '1130'
-ht-degree: 83%
+source-wordcount: '1160'
+ht-degree: 61%
 
 ---
 
@@ -44,42 +44,45 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
 
 Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configure el número de lotes y su proporción con respecto a todo la entrega.
 
->[!NOTE]
->
->Solo se puede definir el tamaño y el retraso entre dos olas consecutivas. No se pueden configurar los criterios de selección de destinatarios para cada ola.
+Para definir las olas, siga estos pasos:
 
-1. Abra la ventana de propiedades de entrega y haga clic en la pestaña **[!UICONTROL Delivery]**.
-1. Seleccione la opción **[!UICONTROL Send using multiple waves]** y haga clic en el enlace **[!UICONTROL Define waves...]**.
+1. Abra las propiedades de entrega y vaya a **[!UICONTROL Delivery]** pestaña.
+1. Habilite la **[!UICONTROL Send using multiple waves]** y haga clic en la **[!UICONTROL Define waves...]** vínculo.
 
    ![](assets/delivery-define-waves.png)
 
-1. Para configurar las olas, se puede:
 
-   * Definir el tamaño de cada ola. Por ejemplo, si se introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en el envío, excepto el último, que representa el 10 % de los mensajes.
+1. Configure las olas como se detalla a continuación.
 
-     En el campo **[!UICONTROL Period]** especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si se introduce **[!UICONTROL 2d]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
-
-     ![](assets/delivery-waves-size.png)
-
-   * Defina un calendario para enviar cada ola.
-
-     En la columna **[!UICONTROL Start]** especifique el retardo entre el inicio de dos olas consecutivas. En la columna **[!UICONTROL Size]**, introduzca un número fijo o un porcentaje.
-
-     En el siguiente ejemplo, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
-
-     ![](assets/delivery-waves-calendar.png)
-
-   Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Tipologías de campaña y sus reglas, configuradas en la variable **[!UICONTROL Typology]** de las propiedades de entrega, se presentan en [esta sección](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
-
-   >[!IMPORTANT]
+   >[!NOTE]
    >
-   >Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. En caso contrario, es posible que algunos mensajes no se envíen.
-   >
-   >Al configurar las últimas olas, se debe dejar un margen suficiente para realizar reintentos. <!--See [this section]().-->
+   >Solo se puede definir el tamaño y el retraso entre dos olas consecutivas. No se pueden configurar los criterios de selección de destinatarios para cada ola.
 
-1. Para supervisar sus envíos, vaya a los “logs” de entrega. Consulte [esta página](send.md)<!--ref TBC-->.
+Puede definir lo siguiente:
 
-   Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
+    * **El tamaño de cada ola**. Por ejemplo, si introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en la entrega, excepto el último, que representa el 10 % de los mensajes.
+    
+    En el **[!UICONTROL Period]** el campo, especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si introduce **[!UICONTROL 2d]**, la primera ola comenzará inmediatamente, la segunda ola comenzará en dos días, la tercera ola en cuatro días, y así sucesivamente.
+    
+    ![](assets/delivery-waves-size.png)
+    
+    * **Un calendario para enviar cada ola**.  Por ejemplo, la primera ola representa el 25 % del número total de mensajes incluidos en la entrega y se inicia inmediatamente. Las dos olas siguientes completan la entrega y se establecen para comenzar a intervalos de seis horas.
+    
+    En el **[!UICONTROL Start]** columna, especifique el retardo entre el inicio de dos olas consecutivas. En el **[!UICONTROL Size]** columna, introduzca un número fijo o un porcentaje.
+    
+    ![](assets/delivery-waves-calendar.png)
+
+Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Tipologías de campaña y sus reglas, configuradas en la variable **[!UICONTROL Typology]** de las propiedades de entrega, se presentan en [esta sección](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+
+>[!IMPORTANT]
+>
+>Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. De lo contrario, es posible que algunos mensajes no se envíen. Obtenga más información acerca del periodo de validez de una entrega en [esta sección](delivery-failures.md#valid-period).
+>
+>También debe definir tiempo suficiente para los reintentos al configurar las últimas olas. Más información sobre los reintentos en [esta sección](delivery-failures.md#retries).
+
+Para supervisar sus envíos, vaya a los registros de envío. Consulte [esta página](send.md)
+
+Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
 
 Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
@@ -93,11 +96,11 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
   ![](assets/delivery-waves-ex-ramp-up.png)
 
-* **Campañas que implican un centro de llamadas**
+* **Campañas con un centro de llamadas**
 
   Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar la cantidad de llamadas a los suscriptores.
 
-  Al usar olas, restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas.
+  Con las olas, puede restringir el número de mensajes a 20 por día, por ejemplo, teniendo en cuenta la capacidad de procesamiento diaria de un centro de llamadas.
 
   Para ello, seleccione la opción **[!UICONTROL Schedule multiple waves of the same size]**. Introduzca **[!UICONTROL 20]** como tamaño de la ola y **[!UICONTROL 1d]** en el campo **[!UICONTROL Period]**.
 

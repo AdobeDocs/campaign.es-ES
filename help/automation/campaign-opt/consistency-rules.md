@@ -4,10 +4,10 @@ title: Reglas de coherencia
 description: Reglas de coherencia
 feature: Typology Rules
 exl-id: dcb4ffcf-71e5-48a2-b0f7-42915a599652
-source-git-commit: 8247bed87deb3fb19a01447dab180ed9c97ea96c
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 90%
+source-wordcount: '738'
+ht-degree: 81%
 
 ---
 
@@ -19,11 +19,11 @@ Las reglas de **capacidad**, por ejemplo, pueden evitar la sobrecarga en la plat
 
 ## Control de la capacidad {#control-capacity}
 
-Antes de enviar mensajes, debe asegurarse de que su organización tiene la capacidad de procesar la entrega (infraestructura física), las respuestas que puede generar la entrega (mensajes entrantes) y el número de llamadas que se realizan para ponerse en contacto con los suscriptores (capacidad de procesamiento del centro de llamadas), por ejemplo.
+Antes de enviar mensajes, debe asegurarse de que su organización tiene la capacidad (infraestructura física) para procesar la entrega, las respuestas que puede generar la entrega (mensajes entrantes) y el número de llamadas que se realizan para ponerse en contacto con los suscriptores (capacidad de procesamiento del centro de llamadas), por ejemplo.
 
-Para ello, debe crear reglas de tipología de **[!UICONTROL Capacity]**.
+Para ello, cree **[!UICONTROL Capacity]** reglas de tipología.
 
-En el siguiente ejemplo, creamos una regla de tipología para una campaña de fidelización telefónica. Restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas. Una vez aplicada la regla a dos envíos, podemos monitorizar el consumo mediante registros.
+En el siguiente ejemplo, creamos una regla de tipología para una campaña de lealtad por teléfono. Restringimos el número de mensajes a 20 por día, es decir, la capacidad de procesamiento diaria de un centro de llamadas. Una vez aplicada la regla a dos envíos, podemos monitorizar el consumo mediante registros.
 
 Para diseñar una regla de capacidad nueva, siga los pasos a continuación:
 

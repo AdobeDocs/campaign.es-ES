@@ -4,10 +4,10 @@ title: Ciclo de vida del flujo de trabajo
 description: Obtenga más información sobre el ciclo de vida de un flujo de trabajo
 feature: Workflows
 exl-id: 4356b90c-9d7c-49ef-88cd-716b2ccdb7f0
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '261'
+ht-degree: 93%
 
 ---
 
@@ -37,6 +37,6 @@ Esto significa que las dos primeras actividades se han ejecutado correctamente y
 
 Los caracteres **574 -Ok** que se muestran encima de la transición a continuación de la actividad **entrega** indican que la preparación de la entrega se ha dirigido a 574 destinatarios y que la operación se ha completado correctamente. Esta información, que se añade a las transiciones cuando se ejecutan, se calcula mediante las actividades que procesan datos.
 
-El flujo de trabajo se inicia y está esperando a que un operador que pertenezca al grupo especificado en la actividad **Aprobación** tome una decisión. Se notifica a los operadores que pertenecen al grupo y a los que tienen una dirección de correo electrónico o un número de teléfono móvil.
+El flujo de trabajo se inicia y está esperando a que un operador que pertenezca al grupo especificado en la actividad **Aprobación** tome una decisión. Se notifica a los operadores que pertenecen al grupo y a los que tienen una dirección de correo electrónico o un número de móvil.
 
 Para obtener más información sobre cómo monitorizar los flujos de trabajo, consulte [esta sección](monitor-workflow-execution.md).
