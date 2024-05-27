@@ -6,9 +6,9 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: d6160d927601f66f450553a6dd6f91d74b0b1104
+source-git-commit: 5f62addc95197ce5f4f80c026cc51ac14e61ff58
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '179'
 ht-degree: 24%
 
 ---
@@ -21,6 +21,7 @@ Esta página enumera todas las actualizaciones más recientes de [!DNL Campaign]
 ## Mayo de 2024 {#may-2024}
 
 * La lista de canales y tipos de envíos ahora se enumera en [esta página](create-message.md).
+* Se han reorganizado y mejorado las secciones de configuración de entrega y administración de olas. [Más información](../send/configure-and-send.md).
 * Se ha añadido una nota para especificar que **[!UICONTROL Change Dimension]** y **[!UICONTROL Change Data source]** Las actividades de no se deben añadir en una fila y deben tener un **[!UICONTROL Enrichement]** actividad entre ellos. Obtenga más información en la [Cambiar dimensión](../../automation/workflow/change-dimension.md) y [Cambiar fuente de datos](../../automation/workflow/change-data-source.md) secciones.
 
 ## Febrero de 2024 {#feb-2024}
