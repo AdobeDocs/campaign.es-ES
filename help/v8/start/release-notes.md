@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 306d827883a0c3a15fd52b8c9fb566d028f22360
+source-git-commit: 607ef2ab8f1f1c7400451019e188c70f8c7d6091
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 73%
+source-wordcount: '1178'
+ht-degree: 74%
 
 ---
 
@@ -24,7 +24,7 @@ Además, como cliente, asegúrese de que utiliza la última versión compatible 
 
 _miércoles, 28 de mayo de 2024_
 
-### Migración de la credencial de cuenta de servicio (JWT) a la credencial de servidor a servidor OAuth  {#change-8-5-3}
+### Migración a las credenciales de servidor a servidor OAuth {#change-8-5-3}
 
 * A partir de esta versión, con la credencial de cuenta de servicio (JWT) obsoleta por el Adobe, las integraciones salientes de Campaign con soluciones de Adobe y aplicaciones ahora dependen de la credencial de servidor a servidor OAuth. Adobe realizará la migración de JWT a OAuth para sus integraciones salientes, como la integración de Campaign-Analytics o la integración de Experience Cloud Déclencheur.
 
