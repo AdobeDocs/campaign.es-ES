@@ -4,10 +4,10 @@ description: Trabajo con paquetes de datos
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 8b537c723335ea98eb39bfbc3a4f1df09861aaea
+source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 51%
+source-wordcount: '1941'
+ht-degree: 50%
 
 ---
 
@@ -99,7 +99,7 @@ Para exportar un conjunto de objetos en un paquete de datos, siga estos pasos:
 
    >[!NOTE]
    >
-   >El editor de consultas se muestra en [esta sección](../../platform/using/about-queries-in-campaign.md).
+   >El editor de consultas se muestra en [esta sección](../../automation/workflow/query.md).
 
 1. Clic **[!UICONTROL Next]** y seleccione el orden de los datos exportados.
 
@@ -191,13 +191,6 @@ Por último, el `@pkgStatus` attribute permite definir las reglas de exportació
 ## Administración de definiciones de paquetes {#manage-package-definitions}
 
 Las definiciones de paquete permiten crear una estructura de paquetes en la que se añaden entidades que se exportan posteriormente en un solo paquete. Después puede importar este paquete y todas las entidades añadidas en otra instancia de Campaign.
-
-**Temas relacionados:**
-
-* [Creación de una definición de paquete](#create-a-package-definition)
-* [Adición de entidades a una definición de paquete](#add-entities-to-a-package-definition)
-* [Configuración de la generación de definiciones de paquetes](#configure-package-definitions-generation)
-* [Exportación de paquetes desde una definición de paquete](#export-packages-from-a-package-definition)
 
 ### Creación de una definición de paquete {#create-a-package-definition}
 
