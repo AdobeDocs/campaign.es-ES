@@ -4,7 +4,7 @@ description: Trabajo con paquetes de datos
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 933c266febdc293dccdf9b7383d94d7a5dce22bc
+source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
 workflow-type: tm+mt
 source-wordcount: '1941'
 ht-degree: 50%
@@ -93,7 +93,7 @@ Para exportar un conjunto de objetos en un paquete de datos, siga estos pasos:
    >
    >Si exporta una carpeta de tipo **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** o **[!UICONTROL Plan]**, evite seleccionar la carpeta **xtk:folder**, ya que puede perder algunos datos. Seleccione la entidad que corresponde a la carpeta: **nms:offerCategory** para categorías de ofertas, **nms:offerEnv** para entornos de ofertas, **nms:program** para programas y **nms:plan** para planes.
 
-   El mecanismo de dependencia controla la secuencia de exportación de entidades. Para obtener más información, consulte [Administración de dependencias](#managing-dependencies).
+   El mecanismo de dependencia controla la secuencia de exportación de entidades. Para obtener más información, consulte [Administración de dependencias](#manage-dependencies).
 
 1. Clic **[!UICONTROL Next]** y defina la consulta de filtro en el tipo de documento que se va a extraer. Debe configurar la cláusula de filtrado para la extracción de datos.
 
