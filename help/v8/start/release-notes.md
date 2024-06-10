@@ -3,10 +3,10 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 338432b41276317f1f07a92f0106e20177b5becd
-workflow-type: ht
-source-wordcount: '783'
-ht-degree: 100%
+source-git-commit: e119c415ce363a635f9f0318e3fd70f90f4bde06
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,14 @@ En esta versión se han solucionado los siguientes problemas:
 
 NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
 
+
+## Mayo de actualizaciones {#may-updates}
+
+El siguiente cambio se publicó en mayo y ahora está disponible para los usuarios de Campaign v8:
+
+* **Nuevo complemento de seguridad mejorada**: para hacer que la conexión de red sea más segura y proporcionar una seguridad mejorada para sus recursos, Adobe Campaign ofrece un nuevo complemento de seguridad mejorada, que incluye dos funciones: integración CMK segura y túnel VPN seguro. [Más información](../config/enhanced-security.md)
+
+
 ## Versión 8.7.1 {#release-8-7-1}
 
 _2 de mayo de 2024_
@@ -52,7 +60,7 @@ _2 de mayo de 2024_
 
 * **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos del perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}
 
-* **Nuevo complemento de seguridad mejorada**: para hacer que la conexión de red sea más segura y proporcionar una seguridad mejorada para sus recursos, Adobe Campaign ofrece un nuevo complemento de seguridad mejorada, que incluye dos funciones: integración CMK segura y túnel VPN seguro. [Más información](../config/enhanced-security.md)
+
 
 
 ### Actualizaciones de compatibilidad {#comp-8-7-1}
