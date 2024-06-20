@@ -6,10 +6,10 @@ feature: Workflows
 level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 93%
+source-wordcount: '1129'
+ht-degree: 88%
 
 ---
 
@@ -62,6 +62,16 @@ El **[!UICONTROL Actions]** de la barra de herramientas permite acceder a opcion
 * **[!UICONTROL Restart]**
 
   Esta acción detiene y reinicia el flujo de trabajo. En la mayoría de los casos, es posible reiniciarlo más rápido. También resulta útil automatizar el reinicio cuando la detención lleva una determinada cantidad de tiempo: esto sucede porque el comando “Detener” no está disponible cuando el flujo de trabajo se detiene.
+
+  Tenga en cuenta que la variable **Restart** La acción no borra las variables de instancia de flujo de trabajo en comparación con **Ejecución**, **Detener**, y **Inicio** (las variables de instancia se borran tras la acción Iniciar). Al reiniciar un flujo de trabajo, las variables de instancia siguen estando disponibles para su uso con valores conservados. Para borrarlos, puede hacer lo siguiente:
+   * Realizar **Detener** y **Inicio** acciones.
+   * Añada el siguiente código JavaScript al final de la ejecución del flujo de trabajo:
+
+     ```
+     var wkf = xtk.workflow.load(instance.id)
+     wkf.variables='<variables/>'
+     wkf.save()
+     ```
 
 * **[!UICONTROL Purge history]**
 
