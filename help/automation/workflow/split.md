@@ -4,10 +4,10 @@ title: División
 description: Descubra más información sobre la actividad del flujo de trabajo División
 feature: Workflows, Targeting Activity
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
-source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
+source-git-commit: a5d44321c3d68b9370cfb6e9b1df62435de0dbda
 workflow-type: tm+mt
-source-wordcount: '1807'
-ht-degree: 92%
+source-wordcount: '1832'
+ht-degree: 90%
 
 ---
 
@@ -17,11 +17,13 @@ La actividad del tipo **Split** permite dividir un segmento en varios subconjunt
 
 Esta actividad no desencadena una unión de poblaciones entrantes. Si varias transiciones se cruzan en una sola actividad, se recomienda que inserte una actividad **[!UICONTROL Union]** delante de ella.
 
-Para ver un ejemplo de la actividad dividida que se está utilizando, consulte [esta sección](targeting-workflows.md#create-subsets-using-the-split-activity).
+>[!NOTE]
+>
+>No se pueden realizar operaciones de división en tablas que tienen orígenes diferentes. Para este fin, debe añadir una **Enriquecimiento** actividad antes de **Split** actividad.
 
-En [esta sección](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
-
-Un ejemplo que muestra cómo usar una variable de instancia en una actividad de división está disponible en [Campaign Knowlegde Base](javascript-scripts-and-templates.md).
+* Para ver un ejemplo de la actividad dividida que se está utilizando, consulte [esta sección](targeting-workflows.md#create-subsets-using-the-split-activity).
+* En [esta sección](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
+* Un ejemplo que muestra cómo usar una variable de instancia en una actividad de división está disponible en [Campaign Knowlegde Base](javascript-scripts-and-templates.md).
 
 Para configurar esta actividad, defina el contenido del subconjunto y la etiqueta en la pestaña **[!UICONTROL Subsets]**, luego elija la dimensión de destino en la pestaña **[!UICONTROL General]**.
 
