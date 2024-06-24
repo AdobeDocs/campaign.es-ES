@@ -4,9 +4,9 @@ description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
 source-git-commit: e119c415ce363a635f9f0318e3fd70f90f4bde06
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '801'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ En esta versión se han solucionado los siguientes problemas:
 NEO-70263, NEO-64984, NEO-63657, NEO-63387, NEO-62964, NEO-62750, NEO-62686, NEO-59544, NEO-52542
 
 
-## Mayo de actualizaciones {#may-updates}
+## Actualizaciones de mayo {#may-updates}
 
 El siguiente cambio se publicó en mayo y ahora está disponible para los usuarios de Campaign v8:
 
