@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="También se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Se aplica a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a280e560a6e84f5afa214daaded9ac5331018d7c
+source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
 workflow-type: tm+mt
 source-wordcount: '1357'
-ht-degree: 11%
+ht-degree: 12%
 
 ---
 
@@ -27,7 +27,7 @@ Además, Adobe recomienda encarecidamente pasar a la conexión basada en tokens 
 
 ### ¿Qué ha cambiado? {#fcm-changes}
 
-Como parte del esfuerzo continuo de Google por mejorar sus servicios, las API de FCM existentes dejarán de usarse el **20 de junio de 2024**. Obtenga más información acerca del protocolo HTTP de Firebase Cloud Messaging en [Documentación de Google Firebase](https://firebase.google.com/docs/cloud-messaging/http-server-ref){target="_blank"}.
+Como parte del esfuerzo continuo de Google por mejorar sus servicios, las API de FCM existentes dejarán de usarse el **martes, 22 de julio de 2024**. Obtenga más información acerca del protocolo HTTP de Firebase Cloud Messaging en [Documentación de Google Firebase](https://firebase.google.com/docs/cloud-messaging/migrate-v1){target="_blank"}.
 
 Adobe Campaign Classic v7 y Adobe Campaign v8 ya admiten las últimas API para enviar mensajes de notificación push. Sin embargo, algunas implementaciones antiguas aún dependen de las API heredadas. Estas implementaciones deben actualizarse.
 
@@ -42,7 +42,7 @@ Para comprobar si se ha visto afectado, puede filtrar su **Servicios y suscripci
 
 * Si alguno de los servicios de notificaciones push activos utiliza **HTTP (heredado)** API, su configuración se verá directamente afectada por este cambio. Debe revisar las configuraciones actuales y pasar a las API más nuevas como se describe a continuación.
 
-* Si su configuración utiliza exclusivamente **HTTP v1** API para notificaciones push de Android, entonces ya cumple los requisitos y no se requiere ninguna acción por su parte.
+* Si su configuración utiliza exclusivamente **HTTP v1** API para notificaciones push de Android, por lo que ya cumple los requisitos y no es necesario que realice ninguna otra acción.
 
 ### ¿Cómo realizar la actualización? {#fcm-transition-procedure}
 
@@ -73,7 +73,7 @@ Para mover el entorno a HTTP v1, siga estos pasos:
 
    ![](assets/android-http-v1-config.png)
 
-1. Clic **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor de marketing tiene acceso a FCM. Tenga en cuenta que para las implementaciones intermediarias, la variable **[!UICONTROL Test connection]** El botón no puede comprobar si el servidor tiene acceso al servicio Firebase Cloud Messaging (FCM) de Android.
+1. Clic **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor de marketing tiene acceso a FCM. Tenga en cuenta que para las implementaciones intermediarias, la variable **[!UICONTROL Test connection]** no puede comprobar si el servidor tiene acceso al servicio Android Firebase Cloud Messaging (FCM).
 1. Como opción, puede enriquecer el contenido de un mensaje push con algunos **[!UICONTROL Application variables]** si es necesario. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
 1. Haga clic en **[!UICONTROL Finish]** y luego en **[!UICONTROL Save]**.
 
@@ -87,11 +87,11 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 >[!NOTE]
 >
->Una vez aplicados estos cambios en todos los servidores, todos los nuevos envíos de notificaciones push a dispositivos Android utilizan la API HTTP v1. Los envíos push existentes en reintento, en curso y en uso siguen utilizando la API HTTP (heredada).
+>Una vez aplicados estos cambios en todo el servidor, todos los nuevos envíos de notificaciones push a dispositivos Android utilizan la API HTTP v1. Los envíos push existentes en reintento, en curso y en uso siguen utilizando la API HTTP (heredada).
 
 ### ¿Cuál es el impacto para mis aplicaciones de Android? {#fcm-apps}
 
-No se requieren cambios específicos en el código de las aplicaciones móviles Android y el comportamiento de las notificaciones no debe cambiar.
+No se requieren cambios específicos en el código de las aplicaciones móviles de Android y el comportamiento de las notificaciones no debe cambiar.
 
 Sin embargo, con HTTP v1, puede personalizar aún más la notificación push con **[!UICONTROL HTTPV1 additional options]**.
 
