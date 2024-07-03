@@ -5,10 +5,10 @@ feature: Push
 role: User
 level: Beginner
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 6d54f072ad0e67b435cd6e03433fa9ddd0794dea
+source-git-commit: 48aba38f3dc8bb322e6d0b38c1b743e980671cd7
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 67%
+source-wordcount: '968'
+ht-degree: 61%
 
 ---
 
@@ -16,14 +16,14 @@ ht-degree: 67%
 
 Las entregas de aplicaciones móviles permiten enviar notificaciones a dispositivos iOS y Android.
 
-Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurarse de que las configuraciones y integraciones estén implementadas en la aplicación móvil y para las etiquetas en Adobe Experience Platform. [Más información sobre la configuración push.](push-settings.md)
+Antes de empezar a enviar notificaciones push con Adobe Campaign, debe asegurarse de que las configuraciones e integraciones estén implementadas en la aplicación móvil y para las etiquetas en Adobe Experience Platform. [Más información sobre la configuración push.](push-settings.md).
 
 >[!CAUTION]
 >
->Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a la implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de que admitan este cambio. Ya puede comprobar y realizar acciones. [Más información](../../technotes/upgrades/push-technote.md).
+>Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de que admitan este cambio. Ya puede comprobar y realizar acciones. [Más información](../../technotes/upgrades/push-technote.md).
 
 
-## Creación de la primera notificación push{#push-create}
+## Creación de la primera notificación push {#push-create}
 
 En esta sección se detallan los elementos específicos para el envío de notificaciones en iOS y Android.
 
@@ -31,9 +31,13 @@ En esta sección se detallan los elementos específicos para el envío de notifi
 >
 >En el contexto de un [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), el registro móvil es ahora **asíncrono**. [Más información](../architecture/staging.md)
 
+
 Para crear un nuevo envío, vaya a **[!UICONTROL Campaigns]** pestaña, haga clic en **[!UICONTROL Deliveries]** y haga clic en **[!UICONTROL Create]** botón situado sobre la lista de envíos existentes.
 
 ![](assets/delivery_step_1.png)
+
+
+De forma predeterminada, Adobe Campaign incluye dos plantillas de envío: una para iOS y otra para Android. Puede duplicarlas para definir su propia configuración. A continuación se detallan los pasos para configurar una entrega push basada en estas plantillas.
 
 >[!BEGINTABS]
 
@@ -133,6 +137,11 @@ Para enviar notificaciones en dispositivos Android, siga estos pasos:
 
    ![](assets/push-template-android.png)
 
+   >[!NOTE]
+   > 
+   >Con las últimas API de FCM (HTTP v1), debe actualizar su **plantillas de envío** para que las notificaciones push de Android aumenten el número de mensajes por lotes. Para ello, vaya a las propiedades de la plantilla de envíos de Android y, en **Envío** pestaña, configure el [Cantidad de lotes de mensajes](../../v8/send/configure-and-send.md#delivery-batch-quantity) hasta **256**. Aplique este cambio a todas las plantillas de envíos utilizadas para sus envíos de Android y a todas las entregas de Android existentes.
+
+
 1. Para definir el objetivo de la notificación, haga clic en el enlace **[!UICONTROL To]** y, luego, en **[!UICONTROL Add]**.
 
    ![](assets/push-android-select-target.png)
@@ -155,7 +164,8 @@ Para enviar notificaciones en dispositivos Android, siga estos pasos:
 
 >[!ENDTABS]
 
-## Prueba, envío y monitorización de las notificaciones push
+
+## Prueba, envío y monitorización de las notificaciones push {#push-test}
 
 Para enviar una prueba y realizar la entrega final, utilice el mismo proceso que para los demás envíos.
 
