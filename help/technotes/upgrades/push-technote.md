@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="También se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Se aplica a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 24d9adddbc983a600f99dab8bab1235585b48ceb
+source-git-commit: 9eb8521a1cc264d4d0137c68654ca45ccade81bd
 workflow-type: tm+mt
-source-wordcount: '1357'
-ht-degree: 12%
+source-wordcount: '1422'
+ht-degree: 11%
 
 ---
 
@@ -77,12 +77,14 @@ Para mover el entorno a HTTP v1, siga estos pasos:
 1. Como opción, puede enriquecer el contenido de un mensaje push con algunos **[!UICONTROL Application variables]** si es necesario. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
 1. Haga clic en **[!UICONTROL Finish]** y luego en **[!UICONTROL Save]**.
 
-A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push. Estas opciones están detalladas [aquí](#fcm-apps).
+   A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push. Estas opciones están detalladas [aquí](#fcm-apps).
 
-| Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
-|:-:|:-:|:-:|
-| mensaje de datos | N/A | validate_only |
-| mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+   | Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
+   |:-:|:-:|:-:|
+   | mensaje de datos | N/A | validate_only |
+   | mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
+
+1. Una vez completada la transición a HTTP v1, debe actualizar su **plantillas de envío** para que las notificaciones push de Android aumenten el número de mensajes por lotes. Para ello, vaya a las propiedades de la plantilla de envíos de Android y, en **Envío** pestaña, configure el **Cantidad de lotes de mensajes** hasta **256**. Aplique este cambio a todas las plantillas de envíos de Android utilizadas para sus envíos de Android y a todas las entregas de Android existentes.
 
 
 >[!NOTE]
@@ -107,7 +109,6 @@ Puede hacer lo siguiente:
 * Configure las variables **[!UICONTROL Visibility]** nivel de notificación a público, privado o secreto.
 
 Para obtener más información sobre **[!UICONTROL HTTP v1 additional options]** y cómo rellenar estos campos, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
-
 
 
 
