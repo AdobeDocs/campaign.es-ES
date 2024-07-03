@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
-source-git-commit: 070aa96187c5654e40665cb5b23329d3f7d508d6
+source-git-commit: 2e9c9f8e677233b2906f6ebb8f42dd86afe4e111
 workflow-type: tm+mt
 source-wordcount: '1193'
-ht-degree: 62%
+ht-degree: 66%
 
 ---
 
@@ -26,7 +26,7 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
 
 Utilice el **[!UICONTROL Delivery priority]** para cambiar el orden de envío de los envíos estableciendo su nivel de prioridad, desde **[!UICONTROL Very low]** hasta **[!UICONTROL Very high]** (el valor predeterminado es **[!UICONTROL Normal]**).
 
-### Cantidad de lotes
+### Cantidad de lotes {#delivery-batch-quantity}
 
 Utilice el  **[!UICONTROL Message batch quantity]** para definir el número de mensajes agrupados dentro del mismo paquete de envío XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
 
@@ -110,9 +110,9 @@ Los siguientes dos ejemplos son los casos más comunes para usar varias olas.
 
 * **Campañas con un centro de llamadas**
 
-  Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar la cantidad de llamadas a los suscriptores.
+  Al administrar una campaña de lealtad por teléfono, su organización tiene una capacidad limitada para procesar el número de llamadas que debe realizar para contactar con los suscriptores.
 
-  Con las olas, puede restringir el número de mensajes a 20 por día, por ejemplo, teniendo en cuenta la capacidad de procesamiento diaria de un centro de llamadas.
+  Mediante el uso de olas, es posible restringir el número de mensajes a 20 por día, por ejemplo, teniendo en cuenta la capacidad de procesamiento diaria de un centro de llamadas.
 
   Para ello, seleccione la opción **[!UICONTROL Schedule multiple waves of the same size]**. Introduzca **[!UICONTROL 20]** como tamaño de la ola y **[!UICONTROL 1d]** en el campo **[!UICONTROL Period]**.
 
