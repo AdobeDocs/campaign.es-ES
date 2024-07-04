@@ -2,9 +2,9 @@
 audience: user
 user-guide-title: Guía de automatización de Campaign
 user-guide-description: Guía de automatización de Campaign
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: c5e804db7deaa6b9511858d088eb6da5d16e8abf
 workflow-type: tm+mt
-source-wordcount: '442'
+source-wordcount: '444'
 ht-degree: 83%
 
 ---
@@ -165,4 +165,4 @@ ht-degree: 83%
    + [Acceso a campañas](distributed-marketing/accessing-campaigns.md)
    + [Seguimiento de una campaña](distributed-marketing/tracking-a-campaign.md)
    + [Casos de uso](distributed-marketing/examples.md)
-+ [Documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=es)
++ [&lt; Volver a la documentación de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/campaign-home)
