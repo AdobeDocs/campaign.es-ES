@@ -5,7 +5,7 @@ title: Artículos técnicos de Adobe Campaign
 role: Developer
 level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: 0844a4fcd34220d825ae30368b284cbcaf93d02b
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 39%
@@ -23,14 +23,14 @@ Busque las notas técnicas más recientes de Campaign en esta sección. Estas no
 Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio.
 
 
-[![imagen](../technotes/assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
+[![imagen](../v8//assets/do-not-localize/learn-more-button.svg)](upgrades/push-technote.md)
 
 
 >[!TAB Sistema Identity Management (IMS)]
 
 A partir de la versión 8.6 de Campaign, se está mejorando el proceso de autenticación en la versión 8 de Campaign. Todos los operadores utilizan Adobe Identity Management System (IMS) solo para conectarse a Campaign
 
-[![imagen](../technotes/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
+[![imagen](../v8/assets/do-not-localize/learn-more-button.svg)](upgrades/migrate-users-to-ims.md)
 
 >[!ENDTABS]
 
