@@ -1,14 +1,14 @@
 ---
 audience: end-user
 title: Diseño de una entrega de notificaciones push enriquecidas
-description: Aprenda a diseñar una entrega de notificaciones push enriquecidas para Android con Adobe Campaign Web
+description: Aprenda a diseñar una entrega de notificaciones push enriquecidas con Android con Adobe Campaign Web
 feature: Push
 role: User
 level: Beginner
 exl-id: 42e3623b-b401-4fcc-80a7-ea38347fddc6
-source-git-commit: 94dba45c59c699680675bdcd2b73da386d727435
+source-git-commit: 5236cc94e78db11b8975ad84c49594b282fdecf3
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1157'
 ht-degree: 13%
 
 ---
@@ -26,6 +26,10 @@ Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 * El **[!UICONTROL Notification message]**, gestionado automáticamente por el SDK de FCM. FCM muestra automáticamente el mensaje en los dispositivos de los usuarios en nombre de la aplicación del cliente. Los mensajes de notificación contienen un conjunto predefinido de parámetros y opciones, pero pueden personalizarse aún más con las variables de aplicación personalizadas.
 
 ## Definición del contenido de la notificación {#push-message}
+
+>[!IMPORTANT]
+>
+>Antes de diseñar una notificación push enriquecida, primero debe configurar el conector. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) para el procedimiento detallado.
 
 Una vez creado el envío push, puede definir su contenido. Hay tres plantillas disponibles:
 
@@ -92,7 +96,7 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 
    * **[!UICONTROL Open App]**: Las direcciones URL de aplicaciones abiertas le permiten conectarse directamente al contenido de una aplicación. Permite a la aplicación establecerse como controlador predeterminado para un tipo específico de vínculo, omitiendo el cuadro de diálogo de desambiguación.
 
-   Para obtener más información sobre cómo gestionar vínculos de aplicaciones Android, consulte [Documentación para desarrolladores de Android](https://developer.android.com/training/app-links).
+   Para obtener más información sobre cómo gestionar vínculos de aplicaciones de Android, consulte [Documentación para desarrolladores de Android](https://developer.android.com/training/app-links).
 
    ![](assets/rich_push_basic_3.png)
 
