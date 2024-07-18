@@ -5,9 +5,9 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: b6f7b8a6652034145602d9949fa196eae929fb95
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '434'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Si necesita que los usuarios de marketing puedan acceder a los registros de dato
 
 ## Implementación {#implementation}
 
-Se ha añadido a los esquemas un atributo específico que se puede aplicar a cualquier elemento o atributo, complementa el atributo existente **[!UICONTROL visibleIf]**. Este atributo es: **[!UICONTROL accessibleIf]**. Cuando contiene una expresión XTK relacionada con el contexto del usuario actual, puede aprovechar **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]**, por ejemplo.
+Se ha agregado un atributo específico que se puede aplicar a cualquier elemento o atributo a los esquemas, complementa el atributo existente **[!UICONTROL visibleIf]**. Este atributo es: **[!UICONTROL accessibleIf]**. Cuando contiene una expresión XTK relacionada con el contexto de usuario actual, puede aprovechar **[!UICONTROL HasNamedRight]** o **[!UICONTROL $(login)]**, por ejemplo.
 
 A continuación, puede encontrar un ejemplo de una extensión de esquema de destinatario que muestra este uso:
 
@@ -53,9 +53,13 @@ Estas son las consecuencias de utilizar este atributo en Campaign:
 * Al almacenar la población de destino en un grupo (lista), las características de los campos almacenados son las mismas que la fuente de los datos.
 * De forma predeterminada, el código JS no puede acceder a los datos.
 
+>[!IMPORTANT]
+>
+>El uso del atributo **accessibleIf** en parámetros esenciales (como los de las claves compuestas) puede provocar errores a los usuarios a los que no se les permite leer los datos debido a datos ocultos. Esto puede provocar errores de consulta o un comportamiento inesperado. Asegúrese de que los parámetros esenciales estén accesibles para evitar interrupciones.
+
 ## Recomendaciones {#recommendations}
 
-En cada entrega, las direcciones de correo electrónico se copian en la variable **[!UICONTROL broadLog]** y el **[!UICONTROL forecastLog]** tablas: como consecuencia, esos campos también deben protegerse.
+En cada entrega, las direcciones de correo electrónico se copian en las tablas **[!UICONTROL broadLog]** y **[!UICONTROL forecastLog]**: como consecuencia, esos campos también deben protegerse.
 
 A continuación se muestra un ejemplo de extensión de tabla de registro para implementar esto:
 
