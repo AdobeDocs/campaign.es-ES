@@ -16,7 +16,7 @@ ht-degree: 34%
 
 Los bloques personalizados son contenidos dinámicos que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a una página espejo.
 
-Para acceder a bloques de contenido personalizados, vaya a **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador. Los bloques de personalización integrados se enumeran en [esta sección](#ootb-personalization-blocks).
+Para acceder a bloques de contenido personalizados, vaya al nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador. Los bloques de personalización integrados se enumeran en [esta sección](#ootb-personalization-blocks).
 
 También puede definir nuevos bloques para optimizar la personalización de las entregas. [Más información](#create-custom-personalization-blocks).
 
@@ -24,13 +24,13 @@ También puede definir nuevos bloques para optimizar la personalización de las 
 
 Para insertar un bloque de personalización en un mensaje, siga los pasos a continuación:
 
-1. En el editor de contenido del asistente de envíos, haga clic en el icono de personalización y seleccione **[!UICONTROL Include]** menú.
-1. Seleccione un bloque personalizado de la lista o haga clic en **[!UICONTROL Other...]** para acceder a la lista completa.
+1. En el editor de contenido del asistente de envíos, haga clic en el icono de personalización y seleccione el menú **[!UICONTROL Include]**.
+1. Seleccione un bloque personalizado de la lista o haga clic en el menú **[!UICONTROL Other...]** para acceder a la lista completa.
 
    ![](assets/perso-content-block.png)
 
 1. A continuación, el bloque personalizado se inserta como una secuencia de comandos. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización.
-1. Vaya a la **[!UICONTROL Preview]** y seleccione un destinatario para ver el contenido de este bloque para un destinatario específico.
+1. Vaya a la pestaña **[!UICONTROL Preview]** y seleccione un destinatario para ver el contenido de este bloque para un destinatario específico.
 
 Se puede incluir el código fuente de un bloque personalizado en el contenido de envío. Para ello, escoja **[!UICONTROL Include the HTML source code of the block]** al seleccionarlo.
 
@@ -39,18 +39,18 @@ Se puede incluir el código fuente de un bloque personalizado en el contenido de
 Los bloques de personalización integrados son:
 
 * **[!UICONTROL Enabled by Adobe Campaign]**: inserta el logotipo &quot;Habilitado por Adobe Campaign&quot;.
-* **[!UICONTROL Formatting function for proper nouns]**: genera el **[!UICONTROL toSmartCase]** Función JavaScript, que cambia la primera letra de cada palabra a mayúscula.
+* **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
 * **[!UICONTROL Greetings]**: inserta los saludos con el nombre completo del destinatario, seguido de una coma. Ejemplo: “Hola, John Doe”.
 * **[!UICONTROL Insert logo]**: inserta un logotipo definido en la configuración de la instancia.
-* **[!UICONTROL Link to mirror page]**: inserta un vínculo al [página espejo](mirror-page.md). El formato predeterminado es: “Si no puede ver este mensaje correctamente, haga clic aquí”.
+* **[!UICONTROL Link to mirror page]**: inserta un vínculo a la [página espejo](mirror-page.md). El formato predeterminado es: “Si no puede ver este mensaje correctamente, haga clic aquí”.
 * **[!UICONTROL Mirror page URL]**: inserta la dirección URL de la página espejo, permitiendo que los diseñadores de envío comprueben el vínculo.
-* **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una URL que permite establecer una oferta en **[!UICONTROL Accepted]**. (Este bloque está disponible si el módulo Interacción está habilitado)
+* **[!UICONTROL Offer acceptance URL in unitary mode]**: inserta una dirección URL que permite establecer una oferta en **[!UICONTROL Accepted]**. (Este bloque está disponible si el módulo Interacción está habilitado)
 * **[!UICONTROL Registration confirmation]**: inserta un vínculo que permite confirmar la suscripción.
 * **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. Este vínculo se define en la configuración de la instancia. El contenido predeterminado es: “Para registrarse, haga clic aquí”.
-* **[!UICONTROL Registration link (with referrer)]**: inserta un vínculo de suscripción que permite identificar el visitante y el envío. Este vínculo se define en la configuración de la instancia.
+* **[!UICONTROL Registration link (with referrer)]**: inserta un vínculo de suscripción que permite identificar el visitante y la entrega. Este vínculo se define en la configuración de la instancia.
 * **[!UICONTROL Registration page URL]**: inserta una URL de suscripción
 * **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genere un código que dé formato a un correo electrónico con estilos de HTML predefinidos.
-* **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todas las entregas (lista de bloqueados de la). El contenido asociado predeterminado es el siguiente: “Usted recibe este mensaje porque ha estado en contacto con ***nombre de la organización*** o un afiliado. Para dejar de recibir mensajes de ***nombre de la organización*** haga clic aquí”.
+* **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todos los envíos (lista de bloqueados de la). El contenido asociado predeterminado es el siguiente: “Usted recibe este mensaje porque ha estado en contacto con ***nombre de la organización*** o un afiliado. Para dejar de recibir mensajes de ***nombre de la organización*** haga clic aquí”.
 
 ## Creación de bloques de personalización personalizados {#create-custom-personalization-blocks}
 
@@ -58,7 +58,7 @@ Puede definir nuevos bloques de contenido personalizado para insertarlos desde e
 
 Para crear un bloque personalizado, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador de Campaign.
+1. Vaya a la carpeta **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador de Campaign.
 1. Sobre la lista de bloques integrados, haga clic en **[!UICONTROL New]**.
 
    ![](assets/perso-new-block.png)
@@ -68,9 +68,9 @@ Para crear un bloque personalizado, siga los pasos a continuación:
    ![](assets/perso-custom-block.png)
 
    * Introduzca la etiqueta del bloque. Esta etiqueta se muestra en la ventana de inserción del campo personalizado.
-   * Seleccione una **Envío** tipo de contenido.
-   * Habilite la **[!UICONTROL Visible in the customization menus]** para que el bloque esté accesible desde el icono de inserción del campo personalizado.
-   * Si es necesario, habilite la opción **[!UICONTROL The content of the personalization block depends upon the format]** opción, para definir dos bloques diferentes para los correos electrónicos de HTML y texto.
+   * Seleccione un tipo de contenido de **Envío**.
+   * Habilite la opción **[!UICONTROL Visible in the customization menus]** para poder acceder a este bloque desde el icono de inserción del campo personalizado.
+   * Si es necesario, habilite la opción **[!UICONTROL The content of the personalization block depends upon the format]** para definir dos bloques diferentes para los correos electrónicos de HTML y texto.
    * Introduzca el contenido (en HTML, texto, JavaScript, etc.) del bloque personalizado y haga clic en **[!UICONTROL Save]**.
 
 Una vez guardado, el nuevo bloque personalizado está disponible en el editor de envíos.

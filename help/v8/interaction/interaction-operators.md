@@ -14,22 +14,22 @@ ht-degree: 35%
 
 # Perfiles de operadores {#operator-profiles}
 
-Dos tipos de operadores pueden utilizar la interacción de campaña: **Administradores de ofertas** y **Administradores de envío**. Cada uno de ellos tiene permisos y restricciones específicos. Obtenga más información acerca de los operadores y permisos de Campaign en [esta página](../start/gs-permissions.md).
+Dos tipos de operadores pueden usar la interacción de campaña: **Administradores de ofertas** y **Administradores de envíos**. Cada uno de ellos tiene permisos y restricciones específicos. Obtenga más información acerca de los operadores y permisos de Campaign en [esta página](../start/gs-permissions.md).
 
-* El **[!UICONTROL Offer manager]** crea y mantiene ofertas.
-* El **[!UICONTROL Delivery manager]** aprueba y utiliza ofertas
+* **[!UICONTROL Offer manager]** crea y mantiene ofertas.
+* **[!UICONTROL Delivery manager]** aprueba y utiliza ofertas
 
 ## Creación de un operador de Offer manager{#offer-manager}
 
 1. Cree un operador. [Más información](../start/manage-permissions.md#add-users)
-1. Vaya a la **[!UICONTROL Groups and named rights]** , haga clic en **[!UICONTROL Add]** y seleccione la **[!UICONTROL Offer manager]** grupo.
+1. Vaya a la ventana **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Offer manager]**.
 
-Se describen los permisos asociados a los administradores de ofertas [aquí](../start/manage-permissions.md#ootb-productprofiles)
+Los permisos asociados a los administradores de ofertas se describen [aquí](../start/manage-permissions.md#ootb-productprofiles)
 
 ## Creación de un operador de Delivery manager {#delivery-manager}
 
 1. Cree un operador. [Más información](../start/manage-permissions.md#add-users)
-1. Vaya a la **[!UICONTROL Groups and named rights]** pestaña, haga clic en **[!UICONTROL Add]** y seleccione la **[!UICONTROL Delivery manager]** grupo.
+1. Vaya a la ficha **[!UICONTROL Groups and named rights]**, haga clic en **[!UICONTROL Add]** y seleccione el grupo **[!UICONTROL Delivery manager]**.
 
 Los derechos asignados al administrador de entregas permiten realizar las siguientes tareas:
 
@@ -39,7 +39,7 @@ Los derechos asignados al administrador de entregas permiten realizar las siguie
 
   >[!NOTE]
   >
-  >**Administradores de envío** solo puede aprobar una oferta si se ha declarado como revisores en la configuración de la oferta.
+  >**Los administradores de envío** solo pueden aprobar una oferta si se han declarado como revisores en la configuración de la oferta.
 
 ## Matriz de permisos por operador de interacción {#recap-of-rights-according-to-operator}
 
@@ -47,8 +47,8 @@ Los derechos asignados al administrador de entregas permiten realizar las siguie
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Gestor de ofertas (entorno de diseño)</strong><br /> </td> 
-   <td> <strong>Gestor de ofertas (entorno en directo)</strong><br /> </td> 
+   <td> <strong>Administrador de ofertas (entorno de diseño)</strong><br /> </td> 
+   <td> <strong>Administrador de ofertas (entorno en vivo)</strong><br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Nivel de estructura de árbol</strong><br /> </td> 
@@ -107,7 +107,7 @@ Los derechos asignados al administrador de entregas permiten realizar las siguie
  <tbody> 
   <tr> 
    <td> </td> 
-   <td> <strong>Gestor de envíos (Design env.)</strong><br /> </td> 
+   <td> <strong>Gestor de envíos (versión de diseño)</strong><br /> </td> 
    <td> <strong>Gestor de envíos (versión activa)</strong><br /> </td> 
   </tr> 
   <tr> 

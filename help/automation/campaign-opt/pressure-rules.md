@@ -39,7 +39,7 @@ Para configurar la mediación entre campañas utilizando Adobe Campaign, comienc
 
 Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, siga los siguientes pasos:
 
-1. En la lista de reglas de tipología de campaña, seleccione la **[!UICONTROL New]** sobre la lista.
+1. En la lista de reglas de tipología de campaña, seleccione el icono **[!UICONTROL New]** situado encima de la lista.
 
    ![](assets/campaign_opt_create_a_rule_01.png)
 
@@ -57,7 +57,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    >[!NOTE]
    >
-   >En el contexto de un [Implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md) En Campaign, no se tienen en cuenta las entregas programadas.
+   >En el contexto de una [implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md) de Campaign, no se tienen en cuenta las entregas programadas.
 
 1. Defina el método para calcular el número más alto de mensajes.
 
@@ -108,7 +108,7 @@ Puede indexar el número de mensajes autorizados según el segmento al que perte
 
 ![](assets/campaign_opt_pressure_sample.png)
 
-Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de segmentación: por ejemplo, para incluir mensajes enviados a los perfiles de destinatario almacenados en la variable [tabla de visitantes](../../v8/audiences/target-mappings.md) o para evitar enviar más de un mensaje por semana a un mismo hogar (que puede hacer referencia a varias direcciones de correo electrónico) identificado en una dimensión vinculada a la de los destinatarios.
+Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de segmentación: por ejemplo, para incluir mensajes enviados a los perfiles de destinatario almacenados en la [tabla de visitantes](../../v8/audiences/target-mappings.md) o para evitar que se envíe más de un mensaje por semana a la misma familia (que puede hacer referencia a varias direcciones de correo electrónico) identificada en una dimensión vinculada a los destinatarios.
 
 Para ello, seleccione la opción **[!UICONTROL Count messages on a linked dimension]** y luego seleccione al visitante o la tabla de contacto.
 
@@ -148,7 +148,7 @@ Por ejemplo, una regla de presión que define un umbral de 2 mensajes por semana
 >
 >Al calcular el umbral, solo se tienen en cuenta las entregas que ya se han enviado.
 
-Para restringir las entregas tomadas en cuenta a un periodo de 2 semanas, introduzca **15d** en el **[!UICONTROL Concerned period]** field: en el cálculo se tienen en cuenta las entregas realizadas hasta dos semanas antes de la fecha de entrega a la que se aplica la regla
+Para restringir las entregas que se tienen en cuenta a un período de 2 semanas, escriba **15d** en el campo **[!UICONTROL Concerned period]**: las entregas que se realicen hasta dos semanas antes de la fecha de entrega a la que se aplica la regla se tendrán en cuenta en el cálculo
 
 La fecha de inicio depende de cómo se haya configurado la base de datos.
 

@@ -37,7 +37,7 @@ Dentro del modelo de optimización del tiempo de envío predictivo, hay dos subm
 * El tiempo de envío predictivo de los clics es el mejor momento para enviar una comunicación al cliente para maximizar los clics.
 
 
-**Entrada de modelo**: Registros de envío, registros de seguimiento y atributos de perfil (no PII)
+**Entrada de modelo**: registros de envío, registros de seguimiento y atributos de perfil (no PII)
 
 **Salida de modelo**: el mejor momento para enviar un mensaje (para aperturas y clics)
 

@@ -7,7 +7,7 @@ exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
 source-git-commit: a5d44321c3d68b9370cfb6e9b1df62435de0dbda
 workflow-type: tm+mt
 source-wordcount: '1832'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,9 @@ Esta actividad no desencadena una unión de poblaciones entrantes. Si varias tra
 
 >[!NOTE]
 >
->No se pueden realizar operaciones de división en tablas que tienen orígenes diferentes. Para este fin, debe añadir una **Enriquecimiento** actividad antes de **Split** actividad.
+>No se pueden realizar operaciones de división en tablas que tienen orígenes diferentes. Para ello, debe añadir una actividad **Enriquecimiento** antes que la actividad **División**.
 
-* Para ver un ejemplo de la actividad dividida que se está utilizando, consulte [esta sección](targeting-workflows.md#create-subsets-using-the-split-activity).
+* Para ver un ejemplo de la actividad dividida que se está usando, consulte [esta sección](targeting-workflows.md#create-subsets-using-the-split-activity).
 * En [esta sección](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
 * Un ejemplo que muestra cómo usar una variable de instancia en una actividad de división está disponible en [Campaign Knowlegde Base](javascript-scripts-and-templates.md).
 
@@ -123,15 +123,15 @@ Por ejemplo, si selecciona el campo **[!UICONTROL Language]** como valor de grup
 
 ## Limitar el número de registros de subconjunto por distribución de datos {#limit-the-number-of-subset-records-per-data-distribution}
 
-Si los campos de agrupación contienen un número demasiado elevado de valores o si desea evitar valores de restablecimiento para cada nueva actividad dividida, Adobe Campaign permite crear una limitación por cada distribución de datos. Al seleccionar [valores de limitación de datos](#create-subsets) ), seleccione la **[!UICONTROL By data distribution]** y seleccione una plantilla en el menú desplegable. A continuación se muestra la creación de una plantilla de distribución de datos.
+Si los campos de agrupación contienen un número demasiado elevado de valores o si desea evitar valores de restablecimiento para cada nueva actividad dividida, Adobe Campaign permite crear una limitación por cada distribución de datos. Al seleccionar [valores de limitación de datos](#create-subsets) (sección), seleccione la opción **[!UICONTROL By data distribution]** y seleccione una plantilla en el menú desplegable. A continuación se muestra la creación de una plantilla de distribución de datos.
 
-Para ver un ejemplo de **[!UICONTROL Local approval]** actividad con una plantilla de distribución, consulte [esta página](local-approval-activity.md).
+Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plantilla de distribución, consulte [esta página](local-approval-activity.md).
 
 ![](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
->Esta función solo está disponible con la variable [Complemento de marketing distribuido](../distributed-marketing/about-distributed-marketing.md). Compruebe el acuerdo de licencia.
+>Esta función solo está disponible con el [complemento de marketing distribuido](../distributed-marketing/about-distributed-marketing.md). Compruebe el acuerdo de licencia.
 
 La plantilla de distribución de datos permite limitar el número de registros usando una lista de valores de agrupación. Para crear una plantilla de distribución de datos, siga los siguientes pasos:
 
@@ -149,11 +149,11 @@ La plantilla de distribución de datos permite limitar el número de registros u
    * **[!UICONTROL Targeting dimension]**: introduzca la dimensión objetivo a la que se aplicará la distribución de datos, **[!UICONTROL Recipient]** por ejemplo. Este esquema siempre debe ser compatible con los datos utilizados en el flujo de trabajo de segmentación.
    * **[!UICONTROL Distribution field]**: seleccione un campo mediante la dimensión de segmentación. Por ejemplo, si selecciona el campo **[!UICONTROL Email domain]**, la lista de destinatarios se desglosará por dominio.
    * **[!UICONTROL Distribution type]**: seleccione la forma en que se desglosará el valor de limitación del objetivo en la ficha **[!UICONTROL Distribution]**: **[!UICONTROL Percentage]** o **[!UICONTROL Set]**.
-   * **[!UICONTROL Approval storage]**: si utiliza un [Aprobación local](local-approval.md) en el flujo de trabajo de objetivos, introduzca el esquema en el que se guardarán los resultados de aprobación. Debe especificar un esquema de almacenamiento por esquema de segmentación. Si utiliza el esquema de segmentación **[!UICONTROL Recipients]**, introduzca el esquema de almacenamiento predeterminado **[!UICONTROL Local approval of recipients]**.
+   * **[!UICONTROL Approval storage]**: si usa una actividad [Aprobación local](local-approval.md) en el flujo de trabajo de direccionamiento, introduzca el esquema en el que se almacenarán los resultados de aprobación. Debe especificar un esquema de almacenamiento por esquema de segmentación. Si utiliza el esquema de segmentación **[!UICONTROL Recipients]**, introduzca el esquema de almacenamiento predeterminado **[!UICONTROL Local approval of recipients]**.
 
      Si se trata de una simple limitación de la agrupación de datos sin aprobación local, no es necesario que introduzca el campo **[!UICONTROL Approvals storage]**.
 
-1. Si utiliza un [Aprobación local](local-approval.md) actividad, introduzca el **[!UICONTROL Advanced settings]** para la plantilla de distribución:
+1. Si está usando una actividad [Aprobación local](local-approval.md), ingrese **[!UICONTROL Advanced settings]** para la plantilla de distribución:
 
    ![](assets/local_validation_data_distribution_3.png)
 
@@ -187,7 +187,7 @@ La plantilla de distribución de datos permite limitar el número de registros u
      Esta columna se define mediante el campo **[!UICONTROL Distribution type]** dentro de la pestaña **[!UICONTROL General]**.
 
    * **[!UICONTROL Label]**: introduzca la etiqueta vinculada a cada valor.
-   * **[!UICONTROL Group or operator]**: si utiliza un[Aprobación local](local-approval.md) actividad, seleccione el operador o el grupo de operadores asignados a cada valor de distribución.
+   * **[!UICONTROL Group or operator]**: si utiliza una actividad [Aprobación local](local-approval.md), seleccione el operador o el grupo de operadores asignados a cada valor de distribución.
 
      Si se trata de una simple limitación de la agrupación de datos sin aprobación local, no es necesario que introduzca el campo **[!UICONTROL Group or operator]**.
 

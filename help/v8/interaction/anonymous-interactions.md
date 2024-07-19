@@ -16,7 +16,7 @@ ht-degree: 75%
 
 ## Entorno para interacciones anónimas {#environment-for-anonymous-interactions}
 
-De forma predeterminada, Campaign **Interacción** Este módulo viene con un entorno preconfigurado para dirigirse a la tabla de destinatarios integrada (ofertas identificadas). Si necesita dirigirse a otra tabla, a una tabla de visitante para ofertas anónimas o a una tabla de destinatarios personalizada, por ejemplo, debe utilizar el asistente de asignación de destino para crear el entorno. [Más información sobre los entornos](interaction-env.md).
+De manera predeterminada, el módulo **Interaction** de Campaign viene con un entorno preconfigurado para dirigirse a la tabla de destinatarios integrada (ofertas identificadas). Si necesita dirigirse a otra tabla, a una tabla de visitante para ofertas anónimas o a una tabla de destinatarios personalizada, por ejemplo, debe utilizar el asistente de asignación de destino para crear el entorno. [Más información sobre los entornos](interaction-env.md).
 
 Cuando se crea un entorno anónimo a través del asistente para la creación de asignaciones, la casilla **[!UICONTROL Environment dedicated to incoming anonymous interactions]** se marca automáticamente en la pestaña **[!UICONTROL General]** del entorno.
 
@@ -34,7 +34,7 @@ Aparece el campo **[!UICONTROL Visitor folder]**. Se completa automáticamente p
 
 Al igual que las interacciones de salida, las interacciones entrantes se organizan en un catálogo de ofertas que consta de categorías y ofertas.
 
-Para crear categorías y espacios, aplique el mismo proceso que para los visitantes identificados. Consulte [Creación de una categoría de oferta](interaction-offer-catalog.md#creating-offer-categories) y [Creación de un entorno de oferta](interaction-env.md#creating-an-offer-environment)).
+Para crear categorías y espacios, aplique el mismo proceso que para los visitantes identificados. Consulte [Crear una categoría de oferta](interaction-offer-catalog.md#creating-offer-categories) y [Crear un entorno de oferta](interaction-env.md#creating-an-offer-environment)).
 
 ## Visitantes anónimos {#anonymous-visitors}
 

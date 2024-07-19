@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # Mecanismo de ensayo de API de Campaign
 
-En el contexto de un [Implementación empresarial (FDAC)](enterprise-deployment.md)Por lo tanto, no se recomienda la limpieza de llamadas unitarias con respecto a los rendimientos (latencia y concurrencia). Siempre se prefiere la operación por lotes. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
+En el contexto de una implementación [empresarial (FDAC)](enterprise-deployment.md), no se recomienda la limpieza de llamadas unitarias con respecto al rendimiento (latencia y concurrencia). Siempre se prefiere la operación por lotes. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
 
 La capacidad de ensayo de Campaign está habilitada de forma predeterminada en algunos esquemas integrados. También podemos habilitarlo en cualquier esquema personalizado. Mecanismo de ensayo en pocas palabras:
 
@@ -28,7 +28,7 @@ Las API de Campaign Classic v7 siguen estando disponibles, pero no pueden benefi
 
 >[!CAUTION]
 >
->* Con este nuevo mecanismo, ahora se puede sincronizar los datos para la exclusión del canal, las suscripciones, las bajas de suscripción o el registro móvil **asíncrono**.
+>* Con este nuevo mecanismo, la sincronización de datos para la exclusión de canales, suscripciones, cancelaciones de suscripciones o registros móviles ahora es **asíncrona**.
 >
 >* El ensayo solo se aplica a los esquemas almacenados en la base de datos en la nube. No habilite el ensayo en esquemas duplicados. No habilite Ensayo en esquemas locales. No habilitar Ensayo en un esquema Ensayado
 >
@@ -56,7 +56,7 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
 
 1. Guarde y actualice la estructura de la base de datos.  [Más información](../dev/update-database-structure.md)
 
-1. Habilite el mecanismo de ensayo en la definición del esquema añadiendo la variable **autoStg=&quot;true&quot;** parámetro.
+1. Habilite el mecanismo de ensayo en la definición del esquema agregando el parámetro **autoStg=&quot;true&quot;**.
 
    ```
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"

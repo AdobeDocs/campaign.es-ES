@@ -18,13 +18,13 @@ ht-degree: 78%
 
 El flujo de trabajo de creación depende del tipo de flujos de trabajo. Puede hacer lo siguiente:
 
-* Crear [Flujos de trabajo de objetivos](#targeting-workflows) desde el **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** del Explorador o desde el **[!UICONTROL Profiles and Targets]** de la página principal, a través de la pestaña **[!UICONTROL Targeting workflows]** subpestaña.
+* Cree [flujos de trabajo de destino](#targeting-workflows) desde el nodo **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** del explorador o desde la pestaña **[!UICONTROL Profiles and Targets]** de la página principal, a través de la subpestaña **[!UICONTROL Targeting workflows]**.
 
   ![](assets/create-targeting-wf.png)
 
-* Crear [Flujos de trabajo de campaña](#campaign-workflows) desde el **[!UICONTROL Targeting and workflows]** pestaña de una campaña
+* Crear [flujos de trabajo de campaña](#campaign-workflows) desde la ficha **[!UICONTROL Targeting and workflows]** de una campaña
 
-* Crear [Flujos de trabajo técnicos](#technical-workflows) desde el **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** del explorador. La práctica recomendada es crear una carpeta de flujo de trabajo específica para guardar los flujos de trabajo técnicos.
+* Cree [flujos de trabajo técnicos](#technical-workflows) desde el nodo **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** del explorador. La práctica recomendada es crear una carpeta de flujo de trabajo específica para guardar los flujos de trabajo técnicos.
 
 Haga clic en el botón **[!UICONTROL New]** situado sobre la lista de flujos de trabajo.
 
@@ -123,7 +123,7 @@ Las plantillas de flujo de trabajo contienen la configuración general de las pr
 
 Puede crear nuevas plantillas de flujo de trabajo basadas en plantillas existentes o cambiar un flujo de trabajo en una plantilla directamente.
 
-Las plantillas de flujo de trabajo se almacenan en **[!UICONTROL Resources > Templates > Workflow templates]** del explorador.
+Las plantillas de flujo de trabajo se almacenan en el nodo **[!UICONTROL Resources > Templates > Workflow templates]** del Explorador.
 
 Además de las propiedades habituales del flujo de trabajo, las propiedades de la plantilla permiten especificar el archivo de ejecución para los flujos de trabajo creados en función de esta plantilla.
 

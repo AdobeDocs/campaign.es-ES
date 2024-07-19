@@ -20,7 +20,7 @@ Los pasos para generar el archivo son los siguientes:
 
 1. Creación de la entrega
 
-   Cree una entrega de correo directo basado en la plantilla. Puede duplicar y configurar el **[!UICONTROL Deliver by direct mail (paper)]** plantilla integrada.
+   Cree una entrega de correo directo basado en la plantilla. Puede duplicar y configurar la plantilla integrada **[!UICONTROL Deliver by direct mail (paper)]**.
 
    Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/sending-direct-mail/creating-a-direct-mail-delivery.html){target="_blank"}
 
@@ -50,7 +50,7 @@ Los pasos para generar el archivo son los siguientes:
 
 1. Inicio de la entrega
 
-   Una vez validado el archivo de extracción, haga clic en **Confirmar envío** un mensaje de confirmación le permite iniciar la entrega.
+   Una vez validado el archivo de extracción, haga clic en **Confirmar entrega**; un mensaje de confirmación le permite iniciar la entrega.
 
    La confirmación inicia la extracción de datos en el archivo especificado.
 

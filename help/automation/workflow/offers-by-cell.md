@@ -18,7 +18,7 @@ ht-degree: 94%
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-Esta actividad solo se puede utilizar con **Interaction**. Obtenga más información acerca de la Administración de ofertas en [esta sección](../../v8/interaction/interaction.md).
+Esta actividad solo se puede utilizar con **Interaction**. Obtenga más información acerca de la administración de ofertas en [esta sección](../../v8/interaction/interaction.md).
 
 Para ello, haga lo siguiente:
 

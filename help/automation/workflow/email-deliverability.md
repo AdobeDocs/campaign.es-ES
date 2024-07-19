@@ -14,7 +14,7 @@ ht-degree: 85%
 
 # Monitorización de la capacidad de entrega (capacidad de entrega por correo electrónico){#email-deliverability}
 
-El flujo de trabajo detallado a continuación se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Una vez que **Monitorización de la capacidad de entrega (capacidad de entrega de correo electrónico)** está instalado, este flujo de trabajo se ejecuta todas las noches.
+El flujo de trabajo detallado a continuación se instala de manera predeterminada en todas las instancias y le permite inicializar la lista de reglas de cualificación de correos rechazados, la lista de dominios y la lista de MX. Una vez instalado el paquete **Deliverability monitoring (Email Deliverability)** , este flujo de trabajo se ejecuta todas las noches.
 <table> 
  <tbody> 
   <tr> 

@@ -37,7 +37,7 @@ La asignación SQL del esquema de ejemplo proporciona el siguiente documento XML
 
 ## Descripción {#description}
 
-El elemento raíz del esquema ya no es **`<srcschema>`**, pero **`<schema>`**.
+El elemento raíz del esquema ya no es **`<srcschema>`**, sino **`<schema>`**.
 
 Esto nos lleva a otro tipo de documento, que se genera automáticamente a partir del esquema de origen, simplemente denominado esquema. La aplicación Adobe Campaign utilizará este esquema.
 
@@ -47,7 +47,7 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 * tabla: concatenación del área de nombres y el nombre del esquema.
 
-  En este ejemplo, el nombre de la tabla se introduce mediante el elemento principal del esquema en **sqltable** atributo:
+  En nuestro ejemplo, el nombre de la tabla se introduce a través del elemento principal del esquema en el atributo **sqltable**:
 
   ```sql
   <element name="recipient" sqltable="CusRecipient">
@@ -55,7 +55,7 @@ Las reglas de nomenclatura SQL son las siguientes:
 
 * field: nombre del elemento precedido por un prefijo definido según el tipo (&quot;i&quot; para entero, &quot;d&quot; para doble, &quot;s&quot; para cadena, &quot;ts&quot; para fechas, etc.)
 
-  El nombre del campo se introduce mediante la variable **sqlname** para cada uno de los **`<attribute>`** y **`<element>`**:
+  El nombre de campo se escribe mediante el atributo **sqlname** para cada **`<attribute>`** y **`<element>`** escrito:
 
   ```sql
   <attribute desc="E-mail address of recipient" label="Email" length="80" name="email" sqlname="sEmail" type="string"/> 
@@ -82,9 +82,9 @@ Las restricciones de campo SQL son las siguientes:
 
 ## Campos XML {#xml-fields}
 
-De forma predeterminada, cualquier **`<attribute>`** y **`<element>`** se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
+De forma predeterminada, cualquier elemento **`<attribute>`** y **`<element>`** escrito se asigna a un campo SQL de la tabla de esquema de datos. Sin embargo, puede hacer referencia a este campo en XML en lugar de en SQL, lo que significa que los datos se almacenan en un campo memo (&quot;mData&quot;) de la tabla que contiene los valores de todos los campos XML. El almacenamiento de estos datos es un documento XML que observa la estructura del esquema.
 
-Para rellenar un campo en XML, debe añadir la variable **xml** con el valor &quot;true&quot; al elemento correspondiente.
+Para rellenar un campo en XML, debe agregar el atributo **xml** con el valor &quot;true&quot; al elemento correspondiente.
 
 **Ejemplos**
 

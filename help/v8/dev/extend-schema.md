@@ -25,12 +25,12 @@ Los pasos clave para personalizar el modelo de datos de Campaign son:
 >[!CAUTION]
 >El esquema integrado no debe modificarse directamente. Si necesita adaptar un esquema integrado, debe ampliarlo.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta página](datamodel.md). Consulte también recomendaciones al crear un nuevo esquema en [esta página](create-schema.md).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta página](datamodel.md). Vea también recomendaciones al crear un nuevo esquema en [esta página](create-schema.md).
 
 Para ampliar un esquema, siga los pasos a continuación:
 
-1. Vaya a **[!UICONTROL Administration > Configuration > Data schemas]** en el Explorador.
-1. Haga clic en **Nuevo** y seleccione **[!UICONTROL Extend the data in a table using an extension schema]**.
+1. Vaya a la carpeta **[!UICONTROL Administration > Configuration > Data schemas]** en el Explorador.
+1. Haga clic en el botón **Nuevo** y seleccione **[!UICONTROL Extend the data in a table using an extension schema]**.
 
    ![](assets/extend-schema-option.png)
 
@@ -46,7 +46,7 @@ Para ampliar un esquema, siga los pasos a continuación:
 
    ![](assets/extend-schema-edit.png)
 
-   En el siguiente ejemplo, agregamos el **MembershipYear** , establezca un límite de longitud para el apellido (este límite sobrescribirá el predeterminado) y elimine la fecha de nacimiento del esquema integrado.
+   En el ejemplo siguiente, agregamos el atributo **MembershipYear**, establecemos un límite de longitud para el apellido (este límite sobrescribirá el predeterminado) y eliminamos la fecha de nacimiento del esquema integrado.
 
    ![](assets/extend-schema-sample.png)
 
@@ -62,7 +62,7 @@ Para ampliar un esquema, siga los pasos a continuación:
    </srcSchema>
    ```
 
-1. Desconéctese y vuelva a conectarse a Campaign para comprobar la actualización de la estructura de esquema en **[!UICONTROL Structure]** pestaña.
+1. Desconecte y vuelva a conectarse a Campaign para comprobar la actualización de la estructura de esquemas en la pestaña **[!UICONTROL Structure]**.
 
    ![](assets/extend-schema-structure.png)
 

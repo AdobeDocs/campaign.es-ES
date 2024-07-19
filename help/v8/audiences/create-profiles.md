@@ -14,11 +14,11 @@ ht-degree: 14%
 
 # Creación de perfiles manual{#create-profiles-manual}
 
-Para rellenar la base de datos de Campaign, puede [importar perfiles](import-profiles.md) o añádalos manualmente como se detalla a continuación.
+Para rellenar la base de datos de Campaign, puede [importar perfiles](import-profiles.md) o agregarlos manualmente como se detalla a continuación.
 
 Para crear un destinatario manualmente, siga los pasos a continuación:
 
-1. Navegar a **[!UICONTROL Profiles and targets]** y seleccione la pestaña **[!UICONTROL Recipients]** categoría.
+1. Vaya a la ficha **[!UICONTROL Profiles and targets]** y seleccione la categoría **[!UICONTROL Recipients]**.
 
    ![](assets/profiles-and-targets.png)
 
@@ -29,6 +29,6 @@ Para crear un destinatario manualmente, siga los pasos a continuación:
 
    ![](assets/new-recipient.png)
 
-   Obtenga más información sobre el formulario integrado de destinatario en [esta página](view-profiles.md#edit-a-profiles).
+   Obtenga más información acerca del formulario integrado de destinatario en [esta página](view-profiles.md#edit-a-profiles).
 
-1. Clic **[!UICONTROL Save]**: el perfil se añade a Campaign, en la carpeta de destinatarios predeterminada.
+1. Haga clic en **[!UICONTROL Save]**: el perfil se agrega a Campaign, en la carpeta de destinatarios predeterminada.

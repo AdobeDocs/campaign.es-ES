@@ -20,7 +20,7 @@ Adobe Campaign permite definir proveedores de servicios que participan en los tr
 
 Cada proveedor de servicios se guarda en un archivo con detalles de contacto, plantillas de servicio y trabajos relacionados.
 
-Los proveedores de servicios se configuran en **[!UICONTROL Administration > Campaign management]** del explorador de Campaign.
+Los proveedores de servicios están configurados en la carpeta **[!UICONTROL Administration > Campaign management]** del explorador de Campaign.
 
 Los trabajos realizados durante las entregas se realizan mediante proveedores de servicios, especialmente en el caso del correo directo y los canales móviles. Estos proveedores de servicios pueden, por ejemplo, participar en la impresión o distribución de mensajes. Estos trabajos implican configuraciones y costes específicos de cada proveedor de servicios. La configuración de proveedores de servicios consta de cuatro etapas:
 
@@ -38,7 +38,7 @@ Los trabajos realizados durante las entregas se realizan mediante proveedores de
 
 Puede crear tantos proveedores de servicios como sea necesario para las entregas. El procedimiento para añadir un proveedor de servicios es el siguiente:
 
-1. Haga clic en **[!UICONTROL New]** botón situado sobre la lista de proveedores de servicios.
+1. Haga clic en el botón **[!UICONTROL New]** situado sobre la lista de proveedores de servicios.
 1. En la sección inferior de la ventana, especifique el nombre y los detalles de contacto del proveedor de servicios.
 
    ![](assets/add-a-supplier.png)
@@ -53,7 +53,7 @@ Una categoría de coste es una entidad que contiene un conjunto de costes apto p
 
 Para crear una plantilla de servicio y definir su contenido, siga los pasos a continuación:
 
-1. En el **[!UICONTROL Services]** del proveedor de servicios, haga clic en **[!UICONTROL Add]** y escriba el nombre de la plantilla de servicio.
+1. En la ficha **[!UICONTROL Services]** del proveedor de servicios, haga clic en el botón **[!UICONTROL Add]** e introduzca el nombre de la plantilla de servicio.
 
    ![](assets/supplier-new-template.png)
 
@@ -61,15 +61,15 @@ Para crear una plantilla de servicio y definir su contenido, siga los pasos a co
 
    ![](assets/add-cost-categories.png)
 
-   * Introduzca una etiqueta para esta categoría de coste y seleccione el tipo de proceso correspondiente: **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, etc.
+   * Introduzca una etiqueta para esta categoría de coste y seleccione el tipo de proceso en cuestión: **[!UICONTROL Direct mail]**, **[!UICONTROL Email]**, **[!UICONTROL Mobile]**, etc.
    * Haga clic en el botón **[!UICONTROL Add]** para definir los tipos de coste asociados a esta categoría.
    * Si es necesario, asocie una línea de stock con cada tipo de coste para que las cantidades utilizadas se relacionen automáticamente con el stock disponible.
 
      >[!NOTE]
      >
-     >Las líneas de stock se definen en la variable **[!UICONTROL Stock management]** nodo. [Más información](#stock-and-order-management).
+     >Las líneas de stock se definen en el nodo **[!UICONTROL Stock management]**. [Más información](#stock-and-order-management).
 
-1. Puede preseleccionar un valor para esta categoría de coste, que es la predeterminada en las categorías de coste del proveedor de servicios (en lugar de una vacía). Para ello, habilite la variable **Sí** en la opción **[!UICONTROL Selected]** para el tipo de categoría:
+1. Puede preseleccionar un valor para esta categoría de coste, que es la predeterminada en las categorías de coste del proveedor de servicios (en lugar de una vacía). Para ello, habilite la opción **Yes** en la columna **[!UICONTROL Selected]** para el tipo de categoría correspondiente:
 
    ![](assets/default-cost-type.png)
 
@@ -122,7 +122,7 @@ Finalmente, puede configurar un cálculo de coste en función del número total 
 
 ### Configuración de trabajos asociados a un servicio {#configure-processes-associated-with-a-service}
 
-Puede asociar información sobre los procesos asociados con el proveedor de servicios a través del **[!UICONTROL Jobs]** pestaña. Esta sección permite configurar la entrega de información al enrutador.
+Puede asociar información sobre los procesos asociados con el proveedor de servicios a través de la ficha **[!UICONTROL Jobs]**. Esta sección permite configurar la entrega de información al enrutador.
 
 ![](assets/cost-supplier-jobs.png)
 
@@ -130,7 +130,7 @@ Puede asociar información sobre los procesos asociados con el proveedor de serv
 
 * La sección **[!UICONTROL Notification email]** permite especificar la plantilla para enviar una notificación a los proveedores de servicios después de enviar los archivos. Seleccione la plantilla utilizada para crear el mensaje de alerta y el grupo de destinatarios.
 
-  De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en la variable **[!UICONTROL Administration > Campaign management > Technical delivery templates]** , a la que se puede acceder desde la vista general.
+  De forma predeterminada, las plantillas de entrega de los mensajes de notificación se guardan en la carpeta **[!UICONTROL Administration > Campaign management > Technical delivery templates]**, a la que se puede acceder desde la vista general.
 
 * La sección **[!UICONTROL Post-processing]** permite seleccionar el flujo de trabajo que se inicia después de aprobar la entrega. Si se introduce una plantilla de flujo de trabajo, se crea automáticamente una instancia de flujo de trabajo y, a continuación, se inicia en cuanto surta efecto la aprobación. Este flujo de trabajo puede enviar el archivo de extracción a un proveedor de servicios externos para su procesamiento, por ejemplo.
 
@@ -196,7 +196,7 @@ Cuando cree una existencia, haga clic en la pestaña **[!UICONTROL Stock lines]*
 
 Una vez creado el inventario, utilice su panel para crear y supervisar líneas de stock.
 
-Haga clic en **[!UICONTROL Create]** para añadir nuevas líneas de stock.
+Haga clic en el botón **[!UICONTROL Create]** para agregar nuevas líneas de stock.
 
 ![](assets/add-stock-lines.png)
 

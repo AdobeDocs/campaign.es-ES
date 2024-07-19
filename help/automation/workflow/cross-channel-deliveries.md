@@ -14,7 +14,7 @@ ht-degree: 74%
 
 # Entregas multicanal{#cross-channel-deliveries}
 
-Los envíos multicanal están disponibles en la variable **[!UICONTROL Deliveries]** pestaña de [flujo de trabajo de campaña](campaign-workflows.md) actividades.
+Los envíos multicanal están disponibles en la pestaña **[!UICONTROL Deliveries]** de las actividades de [flujo de trabajo de la campaña](campaign-workflows.md).
 
 Seleccione la plantilla en la que desea basar la entrega y defina su contenido.
 
@@ -23,7 +23,7 @@ Puede especificar un público objetivo para la entrega ascendente del flujo de t
 En el siguiente ejemplo, aprenda a crear un flujo de trabajo para enviar un correo electrónico o un SMS a los suscriptores de las notificaciones push una semana después. Para ello:
 
 1. Cree una campaña.
-1. En el **[!UICONTROL Targeting and workflows]** de la campaña, añada una **[!UICONTROL Query]** actividad.
+1. En la ficha **[!UICONTROL Targeting and workflows]** de su campaña, agregue una actividad **[!UICONTROL Query]**.
 1. Configure your query: seleccione los destinatarios suscritos a las notificaciones push como dimensión objetivo.
 
    >[!NOTE]

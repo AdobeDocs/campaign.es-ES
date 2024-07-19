@@ -16,11 +16,11 @@ ht-degree: 28%
 
 Utilice Adobe Campaign para crear y supervisar sus servicios informativos, como los boletines informativos, y para gestionar las suscripciones o bajas de suscripción a estos servicios. Se pueden definir varios servicios en paralelo, como, por ejemplo: boletines de prueba para determinadas categorías de productos, temas o áreas de un sitio web, suscripciones a diversos tipos de mensajes de alerta y notificaciones en tiempo real.
 
-Obtenga información sobre cómo crear un servicio informativo, enviar una newsletter y administrar la inclusión y la exclusión en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
+Aprenda a crear un servicio informativo, enviar una newsletter y administrar la inclusión y la exclusión en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions.html){target="_blank"}
 
 Para suscribir (opt-in) un perfil a un servicio, las opciones disponibles son:
 
-* Añada manualmente el servicio al perfil de destinatario: para ello, desde el **[!UICONTROL Subscriptions]** de su perfil, haga clic en **[!UICONTROL Add]** y seleccione el servicio informativo que desee.
+* Agregue manualmente el servicio al perfil de destinatario: para ello, desde la pestaña **[!UICONTROL Subscriptions]** de su perfil, haga clic en **[!UICONTROL Add]** y seleccione el servicio informativo que corresponda.
 
   ![](assets/subscribe-to-a-service.png)
 
@@ -52,7 +52,7 @@ Para suscribir (opt-in) un perfil a un servicio, las opciones disponibles son:
   Obtenga más información en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
-* Cree un flujo de trabajo de objetivos y utilice un **[!UICONTROL Subscription service]** actividad.
+* Cree un flujo de trabajo de objetivos y use una actividad **[!UICONTROL Subscription service]**.
 
   ![](assets/wf-subscription.png)
 
@@ -76,7 +76,7 @@ Obtenga más información en [Documentación de Campaign Classic v7](https://exp
 
 >[!CAUTION]
 >
->En el contexto de un [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), las suscripciones y bajas de suscripción son **asíncrono** procesos. Las solicitudes de inclusión y exclusión se procesan cada hora. [Más información](../architecture/new-apis.md#sub-apis)
+>En el contexto de una implementación [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md), las suscripciones y las bajas de suscripción son **procesos asincrónicos**. Las solicitudes de inclusión y exclusión se procesan cada hora. [Más información](../architecture/new-apis.md#sub-apis)
 
 <!--
 You can also enable your delivery recipients to forward messages to a friend. To do this, insert the relevant links into your delivery. You may then track this sharing process as well as the number of visits to the concerned pages. 

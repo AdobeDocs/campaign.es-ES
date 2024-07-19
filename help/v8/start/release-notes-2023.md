@@ -14,7 +14,7 @@ ht-degree: 57%
 
 # Notas de la versión 2023 {#2023-rn}
 
-Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con **Versiones de Campaign v8 2023**.
+Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con las **versiones de Campaign v8 de 2023**.
 
 
 ## Versión 8.5.2 {#release-8-5-2}
@@ -28,7 +28,7 @@ Se ha corregido un problema de seguridad que se podía producir al actualizar a 
 _sábado, 30 de junio de 2023_
 
 
-**Servicio de notificaciones push mejorado**
+**Servicio mejorado de notificaciones push**
 
 La versión 8.5.1 de Campaign presenta nuestro último servicio de notificaciones push, con una estructura sólida basada en una tecnología moderna de vanguardia. Este servicio está diseñado para desbloquear nuevos niveles de escalabilidad, lo que garantiza que las notificaciones puedan llegar a una audiencia más grande con una eficiencia perfecta. Con nuestra infraestructura mejorada y los procesos optimizados, puede esperar una mayor escala y fiabilidad, lo que le permite interactuar y conectarse con los usuarios de sus aplicaciones móviles como nunca antes. Esta capacidad solo está disponible para un grupo seleccionado de clientes (disponibilidad limitada).
 
@@ -43,14 +43,14 @@ Para obtener más información, consulte la [documentación detallada](../send/p
 <td>
 <div>
 <p><strong>Rendimiento aumentado del canal móvil</strong></p>
-<p>El recién introducido servicio de notificaciones push muestra mejoras significativas en el rendimiento tanto para Push Android como para Push iOS en comparación con nuestra versión anterior (v8.4). Los usuarios experimentarán un rendimiento notablemente mejorado con el servicio actualizado en la última versión (v8.5). </p>
+<p>El servicio de notificaciones push recién introducido muestra mejoras significativas en el rendimiento tanto para Push Android como para Push iOS en comparación con nuestra versión anterior (v8.4). Los usuarios experimentarán un rendimiento notablemente mejorado con el servicio actualizado en la última versión (v8.5). </p>
 <ul>
-<li>Notificaciones push (Android): hasta <strong>5x</strong> más rápido </li>
+<li>Notificaciones push (Android): hasta <strong>5 veces </strong> más rápido </li>
 <li>Notificaciones push (iOS): hasta <strong>2,2x</strong> más rápido</li>
 </ul>
 <p>El rendimiento de los SMS ha experimentado mejoras sustanciales a través de una serie de optimizaciones, lo que resulta en mejoras notables en velocidad y eficiencia para la comunicación SMS. Estas actualizaciones han llevado a un mayor rendimiento desde la versión anterior (v8.4) a la última versión (v8.5), lo que incluye actualizaciones de envíos y comentarios. Los usuarios ahora pueden experimentar las ventajas de este servicio de SMS mejorado.</p>
 <ul>
-<li>Rendimiento de SMS: hasta <strong>5x</strong> más rápido</li>
+<li>Rendimiento de SMS: hasta <strong>5 veces</strong> más rápido</li>
 </ul>
 <p><em>Estos resultados máximos de rendimiento han sido medidos por equipos de prueba de Adobe, en condiciones de laboratorio.</em></p>
 </div>

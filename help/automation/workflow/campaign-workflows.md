@@ -26,4 +26,4 @@ Todos los flujos de trabajo de campaña están centralizados en el nodo **[!UICO
 
 ![](assets/campaigns_wf.png)
 
-Los flujos de trabajo de campaña y los ejemplos de implementación se detallan en [esta sección](../campaigns/marketing-campaign-target.md).
+Los flujos de trabajo de campañas y los ejemplos de implementación se detallan en [esta sección](../campaigns/marketing-campaign-target.md).

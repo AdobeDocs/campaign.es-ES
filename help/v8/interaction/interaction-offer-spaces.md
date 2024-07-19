@@ -16,7 +16,7 @@ ht-degree: 48%
 
 El contenido del catálogo de ofertas se configura en espacios de oferta. De forma predeterminada, el contenido puede incluir los campos siguientes: **[!UICONTROL Title]**, **[!UICONTROL Destination URL]**, **[!UICONTROL Image URL]**, **[!UICONTROL HTML content]** y **[!UICONTROL Text content]**. La secuencia de campos se configura en el espacio de oferta.
 
-As a **administrador técnico**, puede crear espacios de oferta en el entorno Design. Debe tener acceso a la subcarpeta del espacio de ofertas. Una vez creados, estos espacios de oferta se duplican automáticamente en el entorno Live durante la aprobación de la oferta.
+Como **administrador técnico**, puede crear espacios de ofertas en el entorno Design. Debe tener acceso a la subcarpeta del espacio de ofertas. Una vez creados, estos espacios de oferta se duplican automáticamente en el entorno Live durante la aprobación de la oferta.
 
 El procesamiento del HTML se crea mediante una función de procesamiento. La secuencia de los campos definidos en la función de renderización debe ser idéntica a la secuencia configurada en el contenido.
 
@@ -32,7 +32,7 @@ Para crear un nuevo espacio de oferta, siga los pasos a continuación:
 
    ![](assets/offer_space_create_002.png)
 
-1. Compruebe la **[!UICONTROL Enable unitary mode]** opción
+1. Marque la opción **[!UICONTROL Enable unitary mode]**
 
 1. Vaya a la ventana **[!UICONTROL Content field]** y haga clic en **[!UICONTROL Add]**.
 
@@ -42,7 +42,7 @@ Para crear un nuevo espacio de oferta, siga los pasos a continuación:
 
    ![](assets/offer_space_create_004.png)
 
-1. Compruebe la **[!UICONTROL Required]** para que cada campo sea obligatorio.
+1. Marque la opción **[!UICONTROL Required]** para que cada campo sea obligatorio.
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ Para crear un nuevo espacio de oferta, siga los pasos a continuación:
 
    Estas funciones se utilizan para generar representaciones de oferta en un espacio de oferta. Existen varios formatos posibles: HTML o texto.
 
-   **Nota** : el formato XML está restringido a interacciones entrantes que no están disponibles en esta versión del producto. [Más información](../start/v7-to-v8.md#gs-unavailable-features)
+   **Nota**: el formato XML está restringido a interacciones entrantes que no están disponibles en esta versión del producto. [Más información](../start/v7-to-v8.md#gs-unavailable-features)
 
    ![](assets/offer_space_create_006.png)_
 
@@ -69,7 +69,7 @@ El estado de la propuesta de oferta varía en función de las interacciones con 
 
 >[!NOTE]
 >
->La actualización de estado es un **asíncrono** proceso. Se lleva a cabo mediante el flujo de trabajo de seguimiento, que se activa cada hora.
+>La actualización de estado es un proceso **asincrónico**. Se lleva a cabo mediante el flujo de trabajo de seguimiento, que se activa cada hora.
 
 ### Lista de estado de oferta {#status-list}
 
@@ -90,9 +90,9 @@ Estos valores no se aplican de forma predeterminada: deben configurarse.
 
 ### Estado de la oferta cuando se crea la propuesta {#configuring-the-status-when-the-proposition-is-created}
 
-Cuando se selecciona una propuesta de oferta **created**, su estado se actualiza.
+Cuando se **crea** una propuesta de oferta, su estado se actualiza.
 
-En el **[!UICONTROL Design]** entorno, para cada espacio de oferta, configure el estado que se aplicará cuando se cree una propuesta, según la información que desee mostrar en los informes de oferta.
+En el entorno **[!UICONTROL Design]**, para cada espacio de oferta, configure el estado para que se aplique cuando se cree una propuesta, según la información que desee mostrar en los informes de oferta.
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -103,7 +103,7 @@ Para realizar esto, siga los pasos a continuación:
 
 ### Estado de la oferta cuando se acepta la propuesta {#configuring-the-status-when-the-proposition-is-accepted}
 
-Una vez que se ha seleccionado una propuesta de oferta **aceptado**, utilice uno de los valores proporcionados de forma predeterminada para configurar el nuevo estado de la propuesta. La actualización se aplica cuando un destinatario hace clic en un vínculo de la oferta.
+Una vez que se haya **aceptado** una propuesta de oferta, use uno de los valores proporcionados de forma predeterminada para configurar el nuevo estado de la propuesta. La actualización se aplica cuando un destinatario hace clic en un vínculo de la oferta.
 
 Para realizar esto, siga los pasos a continuación:
 
@@ -137,7 +137,7 @@ En cuanto un visitante hace clic en la oferta y, por lo tanto, en la dirección 
 
 **Interacción saliente**
 
-Puede aplicar automáticamente la variable **[!UICONTROL Interested]** estado de una propuesta de oferta cuando la entrega contiene un vínculo. Simplemente añada el valor **_urlType=&quot;11&quot;** al vínculo:
+Puede aplicar automáticamente el estado **[!UICONTROL Interested]** a una propuesta de oferta cuando la entrega contenga un vínculo. Simplemente añada el valor **_urlType=&quot;11&quot;** al vínculo:
 
 ```
 <a _urlType="11" href="<DEST_URL>">Link inserted into the delivery</a>
@@ -145,7 +145,7 @@ Puede aplicar automáticamente la variable **[!UICONTROL Interested]** estado de
 
 ## Vista previa de oferta por espacio {#offer-preview-per-space}
 
-En el **[!UICONTROL Preview]** , puede ver las ofertas para las que el destinatario es elegible mediante un método elegido. En el siguiente ejemplo, el destinatario es elegible para las tres propuestas de oferta por correo electrónico.
+En la pestaña **[!UICONTROL Preview]**, puede ver las ofertas para las que el destinatario es elegible mediante un método elegido. En el siguiente ejemplo, el destinatario es elegible para las tres propuestas de oferta por correo electrónico.
 
 ![](assets/offer_space_overview_002.png)
 

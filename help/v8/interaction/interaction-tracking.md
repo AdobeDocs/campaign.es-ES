@@ -16,7 +16,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->Estas funcionalidades solo son visibles en línea y solo para **Administradores de envío**.
+>Estas funcionalidades solo están visibles en línea y solo para **los administradores de envíos**.
 
 ## Historial de propuesta de oferta{#offer-proposition-history}
 

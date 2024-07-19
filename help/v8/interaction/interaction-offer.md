@@ -16,7 +16,7 @@ ht-degree: 64%
 
 Para crear una oferta, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Campaigns]** y haga clic en la pestaña **[!UICONTROL Offers]** vínculo.
+1. Vaya a la ficha **[!UICONTROL Campaigns]** y haga clic en el vínculo **[!UICONTROL Offers]**.
 
 1. Haga clic en el botón **[!UICONTROL Create]**.
 
@@ -28,7 +28,7 @@ Para crear una oferta, siga los pasos a continuación:
 
 ## Configuración de idoneidad
 
-Ahora puede utilizar la variable **[!UICONTROL Eligibility]** pestaña para definir:
+Ahora puede usar la ficha **[!UICONTROL Eligibility]** para definir:
 
 * El periodo de elegibilidad de la oferta. [Más información](#eligibility-period)
 * Filtros en la población de destinatarios de la oferta. [Más información](#filters-on-the-target)
@@ -36,7 +36,7 @@ Ahora puede utilizar la variable **[!UICONTROL Eligibility]** pestaña para defi
 
 ### Período de idoneidad de oferta{#eligibility-period}
 
-En el **[!UICONTROL Eligibility]** de la oferta, defina el periodo de elegibilidad de la oferta. utilice las listas desplegables para seleccionar una fecha de inicio y una de finalización en el calendario.
+En la pestaña **[!UICONTROL Eligibility]** de la oferta, defina el periodo de elegibilidad de la oferta. utilice las listas desplegables para seleccionar una fecha de inicio y una de finalización en el calendario.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -44,9 +44,9 @@ Fuera de este periodo, la oferta no se selecciona. Si también se han configurad
 
 ### Añadir filtros en el destinatario {#filters-on-the-target}
 
-En el **[!UICONTROL Eligibility]** de la oferta, aplique filtros al objetivo de la oferta.
+En la pestaña **[!UICONTROL Eligibility]** de la oferta, aplique filtros al destino de la oferta.
 
-Para ello, haga clic en el **[!UICONTROL Edit query]** y seleccione el filtro que desea aplicar.
+Para ello, haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione el filtro que desee aplicar.
 
 ![](assets/offer_eligibility_create_003.png)
 
@@ -68,7 +68,7 @@ Por ejemplo, una oferta puede tener una ponderación de A para los contactos de 
 
 Para crear una ponderación en una oferta, siga los siguientes pasos:
 
-1. En el **[!UICONTROL Eligibility]** de la oferta, haga clic en **[!UICONTROL Add]**.
+1. En la ficha **[!UICONTROL Eligibility]** de la oferta, haga clic en **[!UICONTROL Add]**.
 
    ![](assets/offer_weight_create_001.png)
 
@@ -110,7 +110,7 @@ Para visualizarlo, haga clic en el vínculo **[!UICONTROL Schedule and eligibili
 
 ## Creación del contenido de la oferta {#creating-the-offer-content}
 
-Utilice el **[!UICONTROL Content]** para definir el contenido de la oferta.
+Utilice la ficha **[!UICONTROL Content]** para definir el contenido de la oferta.
 
 ![](assets/offer_content_create_001.png)
 
@@ -136,7 +136,7 @@ Utilice el **[!UICONTROL Content]** para definir el contenido de la oferta.
       </div>
    ```
 
-   Obtenga información sobre cómo definir la URL de aceptación en [esta sección](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
+   Aprenda a definir la dirección URL de aceptación en [esta sección](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
    ![](assets/offer_content_create_002.png)
 
@@ -180,13 +180,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 ## Aprobar y activar una oferta{#approve-offers}
 
-Ahora puede aprobar y activar la oferta para que esté disponible en el **Activo** entorno.
+Ahora puede aprobar y activar la oferta para que esté disponible en el entorno **Live**.
 
 Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}.
 
 ## Administración de presentación de ofertas{#offer-presentation}
 
-Campaign permite controlar el flujo de propuestas de ofertas utilizando las reglas de presentación. Estas reglas, que son específicas de la interacción de campaña, son las siguientes **reglas de tipología**. Permiten excluir ofertas basadas en el historial de propuestas que ya se hayan hecho a un destinatario. Se las menciona en el entorno.
+Campaign permite controlar el flujo de propuestas de ofertas utilizando las reglas de presentación. Estas reglas, que son específicas de la interacción de Campaign, son **reglas de tipología**. Permiten excluir ofertas basadas en el historial de propuestas que ya se hayan hecho a un destinatario. Se las menciona en el entorno.
 
 Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}.
 
@@ -196,4 +196,4 @@ El módulo de **Simulation** permite probar la distribución de ofertas pertenec
 
 La simulación tiene en cuenta los contextos y las reglas de idoneidad aplicadas anteriormente a las ofertas y sus reglas de presentación. Esto permite probar y perfeccionar varias versiones de la propuesta de oferta sin utilizar realmente una por encima o por debajo del objetivo, ya que la simulación no tiene ningún impacto en los destinatarios a los que va dirigida.
 
-Para obtener más información sobre la simulación de oferta, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}.
+Para obtener más información sobre la simulación de ofertas, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}.

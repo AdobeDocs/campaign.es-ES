@@ -21,7 +21,7 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 
 Este flujo de trabajo (de ejecución diaria) selecciona todos los destinatarios que tienen su cumpleaños en la fecha actual.
 
-Para ello, cree una campaña y añada una [flujo de trabajo de campaña](campaign-workflows.md).
+Para ello, cree una campaña y agregue un [flujo de trabajo de campaña](campaign-workflows.md).
 
 A continuación, siga los pasos detallados a continuación.
 
@@ -191,6 +191,6 @@ Añada una actividad de **Entrega recurrente** basada en la plantilla de correo 
 >
 >Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de Campaign. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](technical-workflows.md).
 >
->Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información, consulte la sección.
+>Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información, consulte   sección.
 
 ![](assets/birthday-workflow_usecase_1.png)

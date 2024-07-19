@@ -14,9 +14,9 @@ ht-degree: 57%
 
 # Campañas recurrentes y periódicas {#recurring-and-periodic-campaigns}
 
-A **campaña recurrente** es una campaña basada en una plantilla específica, cuyos flujos de trabajo están configurados para ejecutarse según una programación asociada. El objetivo se duplica en cada ejecución y se rastrean los distintos procesos y las poblaciones de destino.  Una vez configurada, las campañas recurrentes crean automáticamente un nuevo flujo de trabajo (duplicando la plantilla de flujo de trabajo) y lo ejecutan. Por ejemplo, si necesita enviar un recordatorio mensual a un segmento de audiencia, configure una campaña recurrente para que, al principio de cada año, cree 12 flujos de trabajo, uno para cada mes. [Más información](#create-a-recurring-campaign)
+Una **campaña recurrente** es una campaña basada en una plantilla específica, cuyos flujos de trabajo están configurados para ejecutarse según una programación asociada. El objetivo se duplica en cada ejecución y se rastrean los distintos procesos y las poblaciones de destino.  Una vez configurada, las campañas recurrentes crean automáticamente un nuevo flujo de trabajo (duplicando la plantilla de flujo de trabajo) y lo ejecutan. Por ejemplo, si necesita enviar un recordatorio mensual a un segmento de audiencia, configure una campaña recurrente para que, al principio de cada año, cree 12 flujos de trabajo, uno para cada mes. [Más información](#create-a-recurring-campaign)
 
-A **campaña periódica** es una campaña basada en una plantilla específica que permite crear instancias de campaña basadas en una programación de ejecución. Las instancias de campaña se crean automáticamente en función de una plantilla de campaña periódica, según la frecuencia definida en la programación de plantillas. [Más información](#create-a-periodic-campaign)
+Una **campaña periódica** es una campaña basada en una plantilla específica que le permite crear instancias de campaña basadas en una programación de ejecución. Las instancias de campaña se crean automáticamente en función de una plantilla de campaña periódica, según la frecuencia definida en la programación de plantillas. [Más información](#create-a-periodic-campaign)
 
 ## Creación de una campaña recurrente {#create-a-recurring-campaign}
 
@@ -27,10 +27,10 @@ Las campañas recurrentes se crean a partir de una plantilla específica que def
 Para crear una plantilla para campañas recurrentes, siga los pasos a continuación:
 
 1. Abra el explorador de Campaign y vaya a **[!UICONTROL Resources > Templates > Campaign templates]**.
-1. Duplique el complemento integrado **[!UICONTROL Recurring campaign]** plantilla.
+1. Duplique la plantilla **[!UICONTROL Recurring campaign]** integrada.
    ![](assets/recurring-campaign-duplicate.png)
 1. Introduzca el nombre de la plantilla y la duración de la campaña.
-1. Para este tipo de campaña, una **[!UICONTROL Schedule]** se añade para crear la programación de ejecución de la plantilla. Utilice esta pestaña para definir las fechas de ejecución de las campañas basadas en esta plantilla.
+1. Para este tipo de campaña, se agrega una pestaña **[!UICONTROL Schedule]** para crear la programación de ejecución de la plantilla. Utilice esta pestaña para definir las fechas de ejecución de las campañas basadas en esta plantilla.
    ![](assets/recurring-campaign-schedule.png)
 
    El modo de configuración de la programación de ejecución coincide con el objeto **[!UICONTROL Scheduler]** del flujo de trabajo. [Más información](../workflow/scheduler.md).
@@ -40,7 +40,7 @@ Para crear una plantilla para campañas recurrentes, siga los pasos a continuaci
    >La configuración de la programación de ejecución debe realizarse cuidadosamente. Las campañas recurrentes duplican los flujos de trabajo de su plantilla en función de la programación especificada. Esta operación puede sobrecargar la base de datos.
 
 1. Especifique un valor en el campo **[!UICONTROL Create in advance for]** para crear los flujos de trabajo correspondientes durante el periodo indicado.
-1. En el **[!UICONTROL Targeting and workflows]** , diseñe la plantilla de flujo de trabajo que se utilizará en las campañas basadas en esta plantilla. Este flujo de trabajo suele contener los parámetros de objetivo y uno o más envíos.
+1. En la pestaña **[!UICONTROL Targeting and workflows]**, diseñe la plantilla de flujo de trabajo que se utilizará en las campañas basadas en esta plantilla. Este flujo de trabajo suele contener los parámetros de objetivo y uno o más envíos.
 
    >[!NOTE]
    >
@@ -53,12 +53,12 @@ Para crear una plantilla para campañas recurrentes, siga los pasos a continuaci
 Para crear la campaña recurrente y ejecutar sus flujos de trabajo según la programación definida en la plantilla, debe:
 
 1. Cree una nueva campaña basada en la plantilla de campaña recurrente.
-1. Complete la programación de ejecución del flujo de trabajo, en **[!UICONTROL Schedule]** pestaña. La programación de la campaña permite introducir una creación automática de flujo de trabajo o una fecha de inicio de la ejecución para cada línea.
+1. Complete la programación de ejecución del flujo de trabajo en la ficha **[!UICONTROL Schedule]**. La programación de la campaña permite introducir una creación automática de flujo de trabajo o una fecha de inicio de la ejecución para cada línea.
 
    Para cada línea, puede añadir las siguientes opciones adicionales:
 
-   * Habilite la **[!UICONTROL To be approved]** para forzar las solicitudes de aprobación de envíos en el flujo de trabajo.
-   * Habilite la **[!UICONTROL To be started]** para iniciar el flujo de trabajo cuando se llegue a la fecha de inicio.
+   * Habilite la opción **[!UICONTROL To be approved]** para forzar las solicitudes de aprobación de envíos en el flujo de trabajo.
+   * Habilite la opción **[!UICONTROL To be started]** para iniciar el flujo de trabajo cuando se llegue a la fecha de inicio.
 
    El campo **[!UICONTROL Create in advance for]** permite crear todos los flujos de trabajo que abarcan el periodo introducido.
 
@@ -88,7 +88,7 @@ Una campaña periódica es una campaña basada en una plantilla específica que 
 ### Creación de la plantilla de campaña {#create-the-campaign-template-1}
 
 1. Abra el explorador de Campaign y vaya a **[!UICONTROL Resources > Templates > Campaign templates]**.
-1. Duplique el complemento integrado **[!UICONTROL Periodic campaign]** plantilla.
+1. Duplique la plantilla **[!UICONTROL Periodic campaign]** integrada.
 1. Introduzca las propiedades de la plantilla.
 
    >[!NOTE]

@@ -14,7 +14,7 @@ ht-degree: 21%
 
 # Presentar la mejor oferta{#interaction-present-offers}
 
-Las ofertas se pueden presentar en varios espacios de ofertas utilizando [un canal entrante o saliente](interaction-architecture.md#interaction-types). En este capítulo se detallan algunas funciones específicas de los canales entrantes.
+Las ofertas se pueden presentar en varios espacios de ofertas usando [un canal entrante o saliente](interaction-architecture.md#interaction-types). En este capítulo se detallan algunas funciones específicas de los canales entrantes.
 
 ![](assets/inbound-interactions.png)
 

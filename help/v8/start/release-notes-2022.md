@@ -49,12 +49,12 @@ _30 de septiembre de 2022_
 <table> 
 <thead>
 <tr> 
-<th> <strong>Disponibilidad del canal X (anteriormente conocido como Twitter)</strong><br /> </th> 
+<th> Disponibilidad del canal <strong>X (anteriormente conocido como Twitter)</strong><br /> </th> 
 </tr> 
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>El <a href="../send/twitter.md">Canal social X</a> ya está disponible con Campaign v8. Puede hacer lo siguiente:</p>
+<td> <p>El <a href="../send/twitter.md">canal social X</a> ya está disponible con Campaign v8. Puede hacer lo siguiente:</p>
 <ul> 
 <li><p>Enviar mensajes en X (anteriormente conocido como Twitter): Adobe Campaign permite publicar mensajes directamente en la cuenta X. También puede enviar mensajes directos a todos sus seguidores. 
 </p></li>
@@ -62,7 +62,7 @@ _30 de septiembre de 2022_
 </p></li>
 </ul>
 <p>Aprenda a conectar Campaign y X en la <a href="../connect/ac-tw.md">documentación detallada</a>.</p>
-<p>Obtenga información sobre cómo crear publicaciones y enviar mensajes directos con Campaign en <a href="../connect/ac-tw.md">esta página</a>.</p>
+<p>Aprenda a crear publicaciones y enviar mensajes directos con Campaign en <a href="../connect/ac-tw.md">esta página</a>.</p>
 </td> 
 </tr> 
 </tbody> 

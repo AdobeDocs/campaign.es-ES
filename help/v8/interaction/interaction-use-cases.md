@@ -18,8 +18,8 @@ Aproveche las funcionalidades de Campaign Interaction mediante estos casos de us
 
 [Crear y aplicar una regla de presentación](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/presentation-rules.html){target="_blank"}
 
-[Envío de una entrega de oferta por correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Enviar una entrega de oferta por correo electrónico](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
 
-[Presentación de una oferta a un visitante anónimo](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
+[Presentar una oferta a un visitante anónimo](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}
 
 [Realizar una simulación de oferta](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/case-study/offers-on-an-outbound-channel.html){target="_blank"}

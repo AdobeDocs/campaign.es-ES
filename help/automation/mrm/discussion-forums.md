@@ -20,13 +20,13 @@ Los operadores pueden suscribirse a un foro para recibir un correo electrónico 
 
 ## Acceso a un foro {#accessing-a-forum}
 
-Para acceder a un foro, vaya a un panel y haga clic en **[!UICONTROL Forum]** en la esquina superior derecha.
+Para acceder a un foro, vaya a un panel y haga clic en el vínculo **[!UICONTROL Forum]** en la esquina superior derecha.
 
 ![](assets/mrm-forum-icon.png)
 
 Los mensajes y sus respuestas se muestran de más reciente a más antiguo.
 
-Para iniciar un nuevo subproceso, haga clic en **[!UICONTROL Add a discussion]** en la esquina superior derecha. De esta forma, aparece el cuadro **[!UICONTROL Discussion forum]** (consulte más abajo).
+Para iniciar un nuevo subproceso, haga clic en el botón **[!UICONTROL Add a discussion]** en la esquina superior derecha. De esta forma, aparece el cuadro **[!UICONTROL Discussion forum]** (consulte más abajo).
 
 ![](assets/mrm-forum-new-thread.png)
 
@@ -35,7 +35,7 @@ Introduzca el texto en el campo **[!UICONTROL Message]** y un título de convers
 
 De forma predeterminada, se notifica a los operadores que ya han publicado un mensaje en este foro. Puede seleccionar un operador adicional al que notificar. Para notificar a varios operadores, seleccione un grupo de operadores.
 
-Puede añadir un archivo adjunto al mensaje mediante el  **[!UICONTROL Browse...]** botón. El archivo adjunto también se incluye en el mensaje de correo electrónico de notificación. Los archivos adjuntos solo se pueden enviar individualmente: para enviar varios archivos, debe comprimirlos en un archivo .zip.
+Puede agregar datos adjuntos al mensaje con el botón **[!UICONTROL Browse...]**. El archivo adjunto también se incluye en el mensaje de correo electrónico de notificación. Los archivos adjuntos solo se pueden enviar individualmente: para enviar varios archivos, debe comprimirlos en un archivo .zip.
 
 >[!CAUTION]
 >
@@ -47,7 +47,7 @@ Puede enviar un mensaje al foro de un operador. Los foros personales son públic
 
 Para acceder al foro de un operador, puede:
 
-* Vaya a la **[!UICONTROL Administration > Access management > Operators]** del explorador de Campaign, seleccione el operador para abrir su panel y, a continuación, haga clic en el icono **[!UICONTROL Forum]** en la esquina superior derecha.
+* Vaya a la carpeta **[!UICONTROL Administration > Access management > Operators]** del explorador de Campaign, seleccione el operador para abrir su panel y, a continuación, haga clic en el vínculo **[!UICONTROL Forum]** en la esquina superior derecha.
 * Busque el nombre del operador en la interfaz de usuario de Adobe Campaign (a través de un mensaje publicado en el foro por este operador, correspondiente a una tarea asignada a él) y haga clic en él para acceder al panel del operador.
 
 ## Suscripción a un foro {#subscribing-to-a-forum}
@@ -72,10 +72,10 @@ Para responder a un mensaje, haga clic en el cuerpo del correo electrónico y lu
 Si los operadores suscritos a un foro no reciben notificaciones como se espera:
 
 * Compruebe que las direcciones de correo electrónico se han introducido correctamente en los perfiles del operador.
-* Vaya a la **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** del explorador de Campaign y marque **[!UICONTROL Jobs in discussion forums]** el flujo de trabajo se inicia sin errores.
+* Vaya a la carpeta **[!UICONTROL Administration > Production > Technical workflows > Campaign processes]** del explorador de Campaign y compruebe que el flujo de trabajo **[!UICONTROL Jobs in discussion forums]** se ha iniciado sin errores.
 * Compruebe los registros de envío:
 
-   * En la página de inicio de Adobe Campaign, vaya a **[!UICONTROL Campaigns > Navigation > Deliveries]**, luego abra el **[!UICONTROL Discussion forum notification]** envío.
-   * En el explorador de Campaign, vaya a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]**, luego haga clic en **[!UICONTROL Discussion forum notifications]**.
+   * En la página de inicio de Adobe Campaign, vaya a **[!UICONTROL Campaigns > Navigation > Deliveries]** y, a continuación, abra la entrega **[!UICONTROL Discussion forum notification]**.
+   * En el explorador de Campaign, vaya a **[!UICONTROL Administration > Production > Objects created automatically > Technical deliveries > Workflow notifications]** y, a continuación, haga clic en **[!UICONTROL Discussion forum notifications]**.
 
   En el cuadro **[!UICONTROL Discussion forum notifications]**, los registros de envío se encuentran en la pestaña **[!UICONTROL Edit > Delivery]**. También puede ver las pestañas **[!UICONTROL Tracking > Log]** y **[!UICONTROL Exclusion causes]**.

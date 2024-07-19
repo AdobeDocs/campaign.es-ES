@@ -48,7 +48,7 @@ En la ventana de la campaña, haga clic en la pestaña **[!UICONTROL Edit]** y l
 
 ### Tipo de interfaz {#web-interface}
 
-En el **Marketing distribuido** , puede elegir el tipo de interfaz y especificar los valores y parámetros predeterminados que se introducen cuando una entidad local realiza una solicitud.
+En la ficha **Marketing distribuido**, puede elegir el tipo de interfaz y especificar los valores y parámetros predeterminados que se especificarán cuando una entidad local realice una solicitud.
 
 La interfaz corresponde a un formulario que la entidad local rellena al solicitar la campaña.
 

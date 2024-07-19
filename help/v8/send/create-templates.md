@@ -21,7 +21,7 @@ Una plantilla puede incluir:
 
 * Tipologías
 * Direcciones de remitente y respuesta
-* Básico [bloques de personalización](../send/personalization-blocks.md)
+* [bloques de personalización](../send/personalization-blocks.md) básicos
 * Vínculos a [páginas espejo](../send/mirror-page.md) y vínculos de baja
 * Contenido, logotipo de una compañía o firma
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
@@ -41,7 +41,7 @@ La forma más sencilla de crear una plantilla de envíos es duplicar y personali
 
 Para duplicar una plantilla de envíos, siga estos pasos:
 
-1. Navegar a **[!UICONTROL Resources > Templates > Delivery templates]** en el explorador de Adobe Campaign.
+1. Vaya a **[!UICONTROL Resources > Templates > Delivery templates]** en el explorador de Adobe Campaign.
 1. Seleccione una plantilla de envíos integrada. Las plantillas integradas aparecen en negrita en la lista.
 1. Haga clic con el botón derecho y seleccione **[!UICONTROL Duplicate]**.
 
@@ -61,13 +61,13 @@ Puede convertir un envío en una plantilla y usarla con las nuevas acciones de e
 
 Para convertir un envío en una plantilla, siga los pasos a continuación:
 
-1. Seleccione la entrega en la lista de entrega, a la que se puede acceder mediante las **[!UICONTROL Campaign management]** del explorador de Campaign.
+1. Seleccione la entrega en la lista de entrega, a la que se puede acceder mediante el nodo **[!UICONTROL Campaign management]** del explorador de Campaign.
 
 1. Haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Save as template...]**.
 
    ![](assets/save-as-template.png)
 
-1. Edite las propiedades de la entrega y seleccione la carpeta donde debe guardarse la nueva plantilla (en el **[!UICONTROL Folder]** ) y la carpeta donde se deben crear los envíos basados en esta plantilla (en el campo **[!UICONTROL Execution folder]** field).
+1. Edite las propiedades de la entrega y seleccione la carpeta donde debe guardarse la nueva plantilla (en el campo **[!UICONTROL Folder]**) y la carpeta donde deben crearse las entregas basados en esta plantilla (en el campo **[!UICONTROL Execution folder]**).
 
    ![](assets/template-select-folders.png)
 
@@ -79,14 +79,14 @@ Para convertir un envío en una plantilla, siga los pasos a continuación:
 
 Para configurar una plantilla de envíos desde cero, siga los pasos a continuación:
 
-1. Vaya a la **Recursos** en el explorador de Campaign y seleccione **Plantillas** entonces **Plantillas de envío**.
+1. Vaya a la carpeta **Resources** en el explorador de Campaign, seleccione **Templates** y luego **Delivery templates**.
 1. Haga clic en **Nueva** en la barra de herramientas para crear una nueva plantilla de envío.
-1. Configure las variables **Etiqueta** y el **Nombre interno** de la carpeta.
+1. Establezca **Label** y **Internal name** de la carpeta.
 1. Guarde la plantilla y vuelva a abrirla.
-1. Desde el **Propiedades** , adapte la configuración.
+1. En el botón **Propiedades**, adapte la configuración.
 1. En la pestaña **General**, confirme o cambie las ubicaciones seleccionadas en los menús desplegables **Carpeta de ejecución**, **Carpeta** y **Enrutamiento**.
 1. Rellene la categoría **parámetros de correo electrónico** con el asunto del correo electrónico y la población objetivo.
-1. Añada su **contenido de HTML** para personalizar la plantilla, puede mostrar un [vínculo de página espejo](../send/mirror-page.md) y un vínculo para darse de baja.
+1. Añada su **contenido de HTML** para personalizar su plantilla. Puede mostrar un [vínculo de página espejo](../send/mirror-page.md) y un vínculo para darse de baja.
 1. Seleccione la pestaña **Preview.** En el menú desplegable **Personalización de prueba**, seleccione **Destinatario** para previsualizar la plantilla como el perfil elegido.
 1. Haga clic en **Save**. La plantilla ya está lista para utilizarse en una entrega.
 
@@ -99,7 +99,7 @@ Para crear una entrega basada en una plantilla existente, seleccione la plantill
 
 ![](assets/select-the-new-template.png)
 
-Si no puede ver la plantilla, haga clic en **[!UICONTROL Select link]** a la derecha del campo para examinar las carpetas de Campaign.
+Si no puede ver la plantilla, haga clic en la carpeta **[!UICONTROL Select link]** a la derecha del campo para examinar las carpetas de Campaign.
 
 ![](assets/browse-templates.png)
 
@@ -142,4 +142,4 @@ En este vídeo se explica cómo implementar una plantilla de envíos de correo e
 
 >[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Hay disponibles [más vídeos de procedimientos para Campaign aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

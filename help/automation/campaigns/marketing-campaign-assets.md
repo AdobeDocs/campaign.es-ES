@@ -33,7 +33,7 @@ En una campaña también se puede hacer referencia a otros elementos, como cupon
 
 Los documentos se pueden asociar en el nivel de campaña (documentos contextuales) o en el de programa (documentos generales).
 
-Para una campaña, la variable **[!UICONTROL Documents]** La pestaña contiene:
+Para una campaña, la ficha **[!UICONTROL Documents]** contiene:
 
 * Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que Adobe Campaign puede descargar localmente con los derechos adecuados,
 * Documentos que contienen información para el enrutador, si los hay.
@@ -70,14 +70,14 @@ Para una campaña, las descripciones de envío permiten estructurar los elemento
 
 ### Creación de una descripción del envío {#create-an-outline}
 
-Para crear una descripción de la entrega, haga clic en **[!UICONTROL Delivery outlines]** subpestaña en la **[!UICONTROL Edit > Documents]** de la campaña correspondiente.
+Para crear una descripción de la entrega, haga clic en la subpestaña **[!UICONTROL Delivery outlines]** en la pestaña **[!UICONTROL Edit > Documents]** de la campaña correspondiente.
 
 ![](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
 >
->Si no puede ver esta pestaña, significa que esta capacidad no está disponible para esta campaña o que la entrega de correo directo no está habilitada en su instancia. Consulte la [configuración de plantilla de campaña](marketing-campaign-templates.md#campaign-templates) o al contrato de licencia.
+>Si no puede ver esta pestaña, significa que esta capacidad no está disponible para esta campaña o que la entrega de correo directo no está habilitada en su instancia. Consulte la [configuración de la plantilla de campaña](marketing-campaign-templates.md#campaign-templates) o su contrato de licencia.
 
 Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía de descripciones para la campaña:
 

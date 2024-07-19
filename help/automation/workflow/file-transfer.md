@@ -15,7 +15,7 @@ ht-degree: 98%
 # Transferencia de archivos{#file-transfer}
 
 La actividad de **Transferencia de archivos** permite recibir o enviar archivos, probar la presencia de archivos o mostrar archivos en un servidor. El protocolo utilizado es Azure Blob Storage, Amazon Simple Storage Service (S3), FTP o SFTP.
-Con la conexión S3, Azure Blob Storage o SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte [documentación](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=es#catalog){target="_blank"}.
+Con la conexión S3, Azure Blob Storage o SFTP, también puede importar datos de segmentos a Adobe Campaign con la plataforma de datos del cliente en tiempo real de Adobe. Para obtener más información, consulte esta [documentación](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/email-marketing/adobe-campaign.html?lang=es#catalog){target="_blank"}.
 
 ## Propiedades {#properties}
 

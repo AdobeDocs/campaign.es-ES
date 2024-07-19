@@ -20,7 +20,7 @@ Utilice las capacidades de análisis de marketing para analizar y medir datos, c
 
 Puede ampliar las capacidades de análisis y exploración de base de datos al mismo tiempo que facilita a los usuarios finales la configuración de informes y tablas: estos últimos solo necesitan seleccionar un cubo existente (completamente configurado) al crear su informe o tabla para procesar cálculos, medidas y estadísticas.
 
-Los cubos se utilizan para generar ciertos informes integrados, como [informes de envío](delivery-reports.md) (seguimiento de envíos, clics, aperturas, etc.).
+Los cubos se utilizan para generar ciertos informes integrados, entre ellos [informes de envío](delivery-reports.md) (seguimiento de envío, clics, aperturas, etc.).
 
 Una vez que se han creado y configurado, los cubos se utilizan en las casillas de consulta de los informes y en las aplicaciones web. Se pueden utilizar y manipular dentro de las tablas dinámicas.
 
@@ -52,7 +52,7 @@ A continuación se enumeran términos específicos al trabajar con cubos.
 
 * **Cubo**: un cubo es una representación de información multidimensional; proporciona a los usuarios finales estructuras diseñadas para el análisis interactivo de los datos.
 
-* **Tabla de hechos/esquema** : la tabla de hechos (o esquema de hechos) contiene los datos sin procesar o básicos sobre los que se basan los análisis. Principalmente, se trata de tablas de gran volumen (posiblemente con tablas enlazadas) con cálculos que pueden ser largos. Por ejemplo, una tabla de datos puede ser: la tabla de broadlog, la tabla de compras, etc.
+* **Tabla/esquema de hechos**: la tabla de hechos (o esquema de hechos) contiene los datos sin procesar o básicos en los que se basarán los análisis. Principalmente, se trata de tablas de gran volumen (posiblemente con tablas enlazadas) con cálculos que pueden ser largos. Por ejemplo, una tabla de datos puede ser: la tabla de broadlog, la tabla de compras, etc.
 
 * **Dimensión**: las dimensiones permiten segmentar los datos en grupos: una vez creadas, las dimensiones actúan como ejes de análisis. En la mayoría de los casos se definen varios niveles para una dimensión determinada. Por ejemplo, para una dimensión temporal, los niveles son meses, días, horas, minutos, etc. Este conjunto de niveles representa la jerarquía de dimensiones y permite varios niveles de análisis de datos.
 

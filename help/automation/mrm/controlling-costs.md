@@ -36,7 +36,7 @@ Se deben aplicar los pasos siguientes para implementar la administración del pr
 
 Para crear un presupuesto, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Campaign management > Budgets]** del explorador de Campaign.
+1. Vaya a la carpeta **[!UICONTROL Campaign management > Budgets]** del explorador de Campaign.
 1. Haga clic en el icono **[!UICONTROL New]**, cambie el nombre del presupuesto y guárdelo.
 1. Introduzca la cantidad inicial: indique la cantidad asignada en el campo correspondiente. Las demás cantidades se introducen automáticamente. [Más información](#calculating-amounts).
 1. Defina el periodo de validez introduciendo las fechas de inicio y finalización. Esta información es meramente ilustrativa.
@@ -144,7 +144,7 @@ Según las categorías de costes seleccionadas, se aplican las estructuras de co
 
 >[!NOTE]
 >
->Las categorías y estructuras de coste se presentan en [esta página](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
+>Las categorías y estructuras de costo se presentan en [esta página](../campaigns/providers-stocks-and-budgets.md#create-a-service-provider-and-its-cost-categories)
 
 ## Compromiso, cálculo y cobro de costes {#cost-commitment--calculation-and-charging}
 
@@ -277,7 +277,7 @@ Al editar el coste calculado, puede comprobar el desglose del coste y el estado 
 
 #### Paso 5: Creación de tareas {#step-5---creating-tasks}
 
-A esta campaña, agregaremos las dos tareas para las que se mostraron las estructuras de coste [creado anteriormente](#step-2---configuring-the-service-provider-and-defining-the-cost-structures).
+A esta campaña, agregaremos las dos tareas para las cuales las estructuras de costo se [crearon anteriormente](#step-2---configuring-the-service-provider-and-defining-the-cost-structures).
 
 Para ello, en el panel de campañas, haga clic en el botón **[!UICONTROL Add a task]**. Asigne un nombre a la tarea y haga clic en **[!UICONTROL Save]**.
 

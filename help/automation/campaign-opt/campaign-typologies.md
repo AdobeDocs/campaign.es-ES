@@ -13,7 +13,7 @@ ht-degree: 41%
 
 # Introducción a las tipologías de campaña{#about-campaign-typologies}
 
-**Optimización de campaña** es el módulo de Adobe Campaign que permite controlar, filtrar y monitorizar la entrega de envíos. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
+**Campaign Optimization** es el módulo de Adobe Campaign que permite controlar, filtrar y monitorizar las entregas. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#typologies-video)
 
@@ -29,19 +29,19 @@ Una tipología es un conjunto de reglas de verificación aplicadas a todos los m
 
 Una tipología de campaña puede contener varias reglas de tipología, pero un envío solo puede hacer referencia a una tipología.
 
-Las reglas y tipologías de tipología integradas están disponibles en el **[!UICONTROL Administration > Campaign management > Typology management]** del explorador de Campaign.
+Las reglas y tipologías de tipología integradas están disponibles en la carpeta **[!UICONTROL Administration > Campaign management > Typology management]** del explorador de Campaign.
 
-Para cada tipología, las variables **[!UICONTROL Rules]** Esta pestaña permite añadir, eliminar o ver las reglas de tipología que se pueden aplicar.
+Para cada tipología, la pestaña **[!UICONTROL Rules]** le permite agregar, eliminar o ver las reglas de tipología que se pueden aplicar.
 
 ![](assets/campaign_opt_rules_tab.png)
 
-Una vez creadas, las reglas de tipología se agrupan en campaña **tipologías** a los que se hace referencia en las entregas. [Más información](#apply-typologies).
+Una vez creadas, las reglas de tipología se agrupan en las **tipologías** de la campaña a las que se hace referencia en las entregas. [Más información](#apply-typologies).
 
 
-Campaign viene con un conjunto de opciones predeterminadas **Filtrado** y **Control** reglas:
+Campaign viene con un conjunto de reglas predeterminadas **Filtering** y **Control**:
 
-* **Filtrado** Las reglas de se utilizan para excluir parte del destinatario según ciertos criterios. [Más información](filtering-rules.md).
-* **Control** Las reglas de permiten comprobar la validez de los mensajes antes de enviarlos. [Más información](control-rules.md).
+* Las reglas de **filtrado** se usan para excluir parte del destino según ciertos criterios. [Más información](filtering-rules.md).
+* Las reglas **Control** permiten comprobar la validez de los mensajes antes de enviarlos. [Más información](control-rules.md).
 
 El complemento Optimización de la campaña proporciona dos tipos adicionales de **reglas de tipología**:
 
@@ -51,7 +51,7 @@ El complemento Optimización de la campaña proporciona dos tipos adicionales de
 
 >[!NOTE]
 >
->Si utiliza el complemento **Interacción** módulo para administrar ofertas, también puede crear **Presentación de ofertas** reglas de tipología para controlar el flujo de propuestas de ofertas utilizando reglas de presentación. [Más información](../../v8/interaction/interaction-offer.md#offer-presentation).
+>Si usa el módulo **Interaction** para administrar ofertas, también puede crear reglas de tipología de **Offer presentation** para controlar el flujo de propuestas de ofertas usando reglas de presentación. [Más información](../../v8/interaction/interaction-offer.md#offer-presentation).
 
 
 ## Pasos clave para crear y utilizar tipologías {#apply-typologies}
@@ -83,6 +83,7 @@ En este vídeo se explica cómo implementar la administración de la fatiga en A
 
 ### Configuración de la administración de la fatiga mediante filtros predefinidos
 
-La administración de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de la campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población de destinatarios por el número de mensajes recibidos. En este vídeo se explica cómo implementar la administración de fatiga en Adobe Campaign mediante filtros.
+La administración de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de la campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población objetivo por el número de mensajes recibidos
+En este vídeo se explica cómo implementar la administración de la fatiga en Adobe Campaign mediante filtros.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)

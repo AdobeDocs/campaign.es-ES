@@ -51,7 +51,7 @@ Las funciones de seguimiento de campañas le permiten añadir vínculos en corre
 
 **Registros de seguimiento**
 
-El **Seguimiento** technical workflow recupera los datos de seguimiento una vez que se ha enviado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío.
+El flujo de trabajo técnico **Tracking** recupera los datos de seguimiento una vez que se ha enviado el envío y se ha activado el seguimiento. Estos datos se encuentran en la pestaña Seguimiento del envío.
 
 [Más información en la documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/accessing-the-tracking-logs.html#sending-messages){target="_blank"}
 
@@ -119,16 +119,16 @@ Adobe Campaign ofrece un conjunto de funcionalidades para monitorizar los proces
 
 La monitorización de los envíos una vez enviados es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes.
 
-Obtenga más información acerca de la información que puede monitorizar después de enviar una entrega, y comprenda cómo se administran los errores y las cuarentenas en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages){target="_blank"}
+Obtenga más información acerca de la información que puede supervisar después de enviar una entrega, comprenda cómo se administran los errores y las cuarentenas de entregas en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages){target="_blank"}
 
 ### Monitorización de flujos de trabajo
 
-Obtenga información sobre cómo monitorizar la ejecución del flujo de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
+Aprenda a supervisar la ejecución del flujo de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html)
 
 ### Monitorización de la instancia
 
-Las directrices de monitorización de instancias están disponibles en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}
+Las pautas de supervisión de instancias están disponibles en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/introduction/monitoring-guidelines.html#monitoring-campaign-classic){target="_blank"}
 
 Utilice la interfaz de autoservicio Pista de auditoría para monitorizar los cambios realizados en la instancia. La pista de auditoría captura, en tiempo real, una lista completa de las acciones y eventos que se producen dentro de una instancia de Adobe Campaign. Puede acceder a un historial de datos para responder preguntas como: qué ha pasado con sus flujos de trabajo y quién los actualizó por última vez o qué han hecho los usuarios en la instancia.
 
-Obtenga más información sobre la pista de auditoría en esta sección [página](../reporting/audit-trail.md){target="_blank"}
+Obtenga más información sobre la pista de auditoría en esta [página](../reporting/audit-trail.md){target="_blank"}

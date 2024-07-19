@@ -16,7 +16,7 @@ ht-degree: 69%
 
 
 
-El flujo de trabajo detallado a continuación se instala con el **Mid-Sourcing platform** de forma predeterminada.
+El flujo de trabajo detallado a continuación se instala con el módulo **Mid-Sourcing platform** de forma predeterminada.
 
 <table> 
  <tbody> 

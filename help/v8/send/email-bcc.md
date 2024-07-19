@@ -24,11 +24,11 @@ ht-degree: 1%
 Puede configurar Adobe Campaign para que conserve una copia de los correos electrónicos enviados desde su plataforma. Esta opción le permite enviar mensajes a una dirección de correo electrónico específica de CCO (copia oculta), desde la que se pueden procesar y archivar mediante un sistema externo.
 Adobe Campaign no administra los archivos archivados. Los archivos .eml correspondientes a los correos electrónicos enviados se pueden transferir a un servidor remoto, como un servidor de correo electrónico SMTP.
 
-El destino de archivado es la dirección de correo electrónico CCO que elija, que permanece invisible para los destinatarios de la entrega. Una vez definida la dirección de correo electrónico de CCO, debe activar la opción dedicada en [plantilla de envíos](create-templates.md) nivel.
+El destino de archivado es la dirección de correo electrónico CCO que elija, que permanece invisible para los destinatarios de la entrega. Una vez definida la dirección de correo electrónico CCO, debe habilitar la opción dedicada en el nivel de [plantilla de envíos](create-templates.md).
 
 >[!NOTE]
 >
->Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support){target="_blank"} para comunicar la dirección de correo electrónico CCO que se utilizará para el archivado.
+>Como usuario de Cloud Service administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support){target="_blank"} para comunicar la dirección de correo electrónico de CCO que se utilizará para el archivado.
 
 >[!CAUTION]
 >
@@ -37,12 +37,12 @@ El destino de archivado es la dirección de correo electrónico CCO que elija, q
 
 ## Activar CCO de correo electrónico {#enable-bcc}
 
-Para habilitar CCO para un elemento específico [plantilla de envíos](create-templates.md), siga los pasos a continuación:
+Para habilitar BCC para una [plantilla de envíos](create-templates.md) específica, siga los pasos a continuación:
 
-1. Desde el explorador de Campaign, vaya a la carpeta de plantillas de envío. De forma predeterminada, las plantillas de envío se almacenan en la variable **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** carpeta.
+1. Desde el explorador de Campaign, vaya a la carpeta de plantillas de envío. De manera predeterminada, las plantillas de envío se almacenan en la carpeta **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Edite la plantilla de envío para actualizarla con CCO.
 1. Haga clic en el botón **[!UICONTROL Properties]**.
-1. Desde el **[!UICONTROL Delivery]** pestaña, marque la **[!UICONTROL Email BCC]** opción.
+1. En la ficha **[!UICONTROL Delivery]**, marque la opción **[!UICONTROL Email BCC]**.
 
    ![](assets/email-bcc.png)
 
@@ -58,8 +58,8 @@ Al utilizar CCO del correo electrónico con Adobe Campaign, se aplican las sigui
 
 * Asegúrese de que la dirección de CCO tenga suficiente capacidad de recepción para archivar todos los correos electrónicos enviados.
 
-* Correo electrónico CCO <!--with Enhanced MTA--> envía a la dirección de correo electrónico CCO antes de enviar a los destinatarios, lo que puede dar como resultado que se envíen mensajes CCO aunque los envíos originales puedan haber rebotado. Para obtener más información sobre las devoluciones, consulte [Comprensión de errores de entrega](delivery-failures.md).
+* El correo electrónico CCO <!--with Enhanced MTA--> se envía a la dirección de correo electrónico CCO antes de enviarse a los destinatarios, lo que puede dar como resultado que se envíen mensajes CCO aunque los envíos originales puedan haber rebotado. Para obtener más información sobre las devoluciones, consulte [Comprender los errores de entrega](delivery-failures.md).
 
-* Los correos electrónicos enviados a la dirección de CCO no se deben abrir ni hacer clic en ellos, ya que estas actividades se tienen en cuenta en la **[!UICONTROL Total opens]** y **[!UICONTROL Clicks]** en el análisis de envío, puede provocar errores de cálculo.
+* No se deben abrir ni hacer clic en los mensajes de correo electrónico enviados a la dirección de CCO, ya que estas actividades se tienen en cuenta en **[!UICONTROL Total opens]** y **[!UICONTROL Clicks]** del análisis de envío. Esto puede provocar cálculos erróneos.
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->

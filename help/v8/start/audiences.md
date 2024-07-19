@@ -16,7 +16,7 @@ ht-degree: 48%
 
 Los perfiles son contactos almacenados en la base de datos de Campaign.
 
-En Adobe Campaign, **destinatarios** son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier envío dado y añadir datos de personalización en el contenido de los envíos. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo se crean perfiles semilla para probar los envíos antes de enviarlos al público objetivo final.
+En Adobe Campaign, **los destinatarios** son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier envío dado y añadir datos de personalización en el contenido de los envíos. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo se crean perfiles semilla para probar los envíos antes de enviarlos al público objetivo final.
 
 Obtenga información sobre cómo importar, actualizar y administrar perfiles y audiencias [en esta sección](../audiences/gs-audiences.md).
 
@@ -24,19 +24,19 @@ Obtenga información sobre cómo importar, actualizar y administrar perfiles y a
 
 Una lista es un conjunto estático de contactos que puede centrarse en acciones de envío o actualizarse durante una importación u otra acción de flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta se puede almacenar como una lista.
 
-Obtenga información sobre cómo crear y administrar listas en [esta página](../audiences/create-audiences.md).
+Aprenda a crear y administrar listas en [esta página](../audiences/create-audiences.md).
 
 ## Filtrar la base de datos{#filter-the-database}
 
 La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**: cuando se modifican los datos, los datos filtrados se actualizan. Puede crear sus propios filtros o utilizar los filtros integrados para definir una audiencia objetivo.
 
-Obtenga información sobre cómo crear y administrar filtros en [esta página](../audiences/create-filters.md).
+Aprenda a crear y administrar filtros en [esta página](../audiences/create-filters.md).
 
 ## Creación de una audiencia en un flujo de trabajo
 
 El objetivo se puede crear mediante una combinación de consultas en una secuencia gráfica de un flujo de trabajo. Puede crear audiencias que se segmentarán según sus necesidades. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de campañas.
 
-Obtenga información sobre cómo crear una audiencia en un flujo de trabajo de campaña en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es){target="_blank"}.
+Aprenda a crear una audiencia en un flujo de trabajo de campaña en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es){target="_blank"}.
 
 
 ## Perfiles activos {#active-profiles}
@@ -64,8 +64,8 @@ Obtenga información sobre cómo administrar la privacidad y el consentimiento e
 
 **Temas relacionados**
 
-* [Diseño y ejecución de un flujo de trabajo específico de la campaña](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html){target="_blank"}
+* [Diseñe y ejecute un flujo de trabajo específico de la campaña](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/campaign-workflows.html){target="_blank"}
 
-* [Obtenga información sobre cómo seleccionar la audiencia de una campaña](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es){target="_blank"}
+* [Aprenda a seleccionar la audiencia de una campaña](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es){target="_blank"}
 
 * [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target="_blank"}

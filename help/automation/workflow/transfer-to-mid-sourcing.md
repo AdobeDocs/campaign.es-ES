@@ -13,7 +13,7 @@ ht-degree: 85%
 
 # Transferir a intermediario{#transfer-to-mid-sourcing}
 
-Los flujos de trabajo detallados a continuación se instalan con **Transfer to Mid-Sourcing** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Transferir a intermediario** de forma predeterminada.
 
 <table> 
  <tbody> 

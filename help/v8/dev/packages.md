@@ -4,7 +4,8 @@ description: Trabajo con paquetes de datos
 feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
-source-git-commit: 202a0553f0c736086eca993b9647737732f57d07
+exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
+source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
 workflow-type: tm+mt
 source-wordcount: '1941'
 ht-degree: 50%
@@ -25,17 +26,17 @@ El principio de **paquetes de datos** es exportar una configuración de datos e 
 
 Puede trabajar con tres tipos de paquetes en Adobe Campaign: paquetes de usuario, paquetes de plataforma y paquetes de administrador.
 
-* A **paquete de usuario** permite seleccionar la lista de entidades a exportar. Este tipo de paquete administra dependencias y comprueba errores.
-* A **paquete de plataforma** incluye todos los recursos técnicos añadidos (no estándar): esquemas, código JavaScript, etc.
-* Un **paquete de administración** incluye todas las plantillas y objetos empresariales añadidos (no estándar): plantillas, bibliotecas, etc.
+* Un **paquete de usuario** le permite seleccionar la lista de entidades a exportar. Este tipo de paquete administra dependencias y comprueba errores.
+* Un **paquete de plataforma** incluye todos los recursos técnicos agregados (no estándar): esquemas, código JavaScript, etc.
+* Un **paquete de administración** incluye todas las plantillas y objetos empresariales agregados (no estándar): plantillas, bibliotecas, etc.
 
 >[!CAUTION]
 >
->El **plataforma** y **administrador** los paquetes contienen una lista predefinida de entidades a exportar. Cada entidad está vinculada a unas condiciones de filtrado que permiten eliminar los recursos utilizables del paquete creado.
+>Los paquetes **platform** y **admin** contienen una lista predefinida de entidades a exportar. Cada entidad está vinculada a unas condiciones de filtrado que permiten eliminar los recursos utilizables del paquete creado.
 
 ## Estructura de datos {#data-structure}
 
-La descripción de un paquete de datos es un documento XML estructurado que se ajusta a la gramática del **xrk:navtree** esquema de datos, como en el ejemplo siguiente:
+La descripción de un paquete de datos es un documento XML estructurado que se ajusta a la gramática del esquema de datos **xrk:navtree**, como en el ejemplo siguiente:
 
 ```xml
 <package>
@@ -53,9 +54,9 @@ La descripción de un paquete de datos es un documento XML estructurado que se a
 </package>
 ```
 
-El documento XML debe comenzar y terminar con el elemento `<package>`. Cualquiera `<entities>` elementos que siguen distribuyen los datos por tipo de documento. Un `<entities>` contiene los datos del paquete en el formato del esquema de datos introducido en la variable **esquema** atributo. Los datos de un paquete no deben contener claves internas que no sean compatibles con las bases, como las claves generadas automáticamente (opción **autopk**).
+El documento XML debe comenzar y terminar con el elemento `<package>`. Cualquier elemento `<entities>` que siga distribuye los datos por tipo de documento. Un elemento `<entities>` contiene los datos del paquete en el formato del esquema de datos especificado en el atributo **schema**. Los datos de un paquete no deben contener claves internas que no sean compatibles con las bases, como las claves generadas automáticamente (opción **autopk**).
 
-En nuestro ejemplo, las uniones en la variable `folder` y `company` Los vínculos de se han sustituido por teclas de &quot;alto nivel&quot; en las tablas de destino:
+En nuestro ejemplo, las uniones en los vínculos `folder` y `company` se han reemplazado con teclas de &quot;alto nivel&quot; en las tablas de destino:
 
 ```xml
 <recipient>
@@ -64,17 +65,17 @@ En nuestro ejemplo, las uniones en la variable `folder` y `company` Los vínculo
 </recipient>
 ```
 
-El `operation` atributo con el valor `none` define un vínculo de reconciliación.
+El atributo `operation` con el valor `none` define un vínculo de reconciliación.
 
-Un paquete de datos se puede crear manualmente desde cualquier editor de texto. Debe asegurarse de que la estructura del documento XML cumple con el `xtk:navtree` esquema de datos. La consola del cliente tiene un módulo de exportación e importación de paquete de datos.
+Un paquete de datos se puede crear manualmente desde cualquier editor de texto. Debe asegurarse de que la estructura del documento XML cumple con el esquema de datos `xtk:navtree`. La consola del cliente tiene un módulo de exportación e importación de paquete de datos.
 
 ## Exportación de paquetes {#export-packages}
 
 Los paquetes se pueden exportar de tres formas diferentes:
 
-* Utilice el **[!UICONTROL Package Export]** asistente para exportar un conjunto de objetos en un solo paquete. [Más información](#export-a-set-of-objects-in-a-package)
+* Utilice el asistente **[!UICONTROL Package Export]** para exportar un conjunto de objetos en un solo paquete. [Más información](#export-a-set-of-objects-in-a-package)
 * Para exportar un **objeto único**, haga clic con el botón derecho en él y seleccione **[!UICONTROL Actions > Export in a package]**.
-* Utilice el **Definiciones de paquetes** para crear una estructura de paquetes en la que se añaden objetos para exportarlos posteriormente en un paquete. [Más información](#manage-package-definitions)
+* Use **Definiciones de paquetes** para crear una estructura de paquetes en la que agregue objetos para exportarlos posteriormente en un paquete. [Más información](#manage-package-definitions)
 
 Una vez exportado el paquete, puede importarlo, junto a todas las entidades añadidas, en otra instancia de Campaign.
 
@@ -82,12 +83,12 @@ Una vez exportado el paquete, puede importarlo, junto a todas las entidades aña
 
 Para exportar un conjunto de objetos en un paquete de datos, siga estos pasos:
 
-1. Vaya al asistente de exportación de paquetes mediante el **[!UICONTROL Tools > Advanced > Export package...]** menú del explorador.
-1. Seleccione el [tipos de paquetes](#types-of-packages).
+1. Vaya al asistente de exportación de paquetes a través del menú **[!UICONTROL Tools > Advanced > Export package...]** del explorador.
+1. Seleccione los [tipos de paquetes](#types-of-packages).
 
    ![](assets/package_type.png)
 
-1. Haga clic en **Añadir** para seleccionar las entidades que desea exportar como paquete.
+1. Haga clic en el botón **Agregar** para seleccionar las entidades que desea exportar como paquete.
 
    >[!CAUTION]
    >
@@ -95,13 +96,13 @@ Para exportar un conjunto de objetos en un paquete de datos, siga estos pasos:
 
    El mecanismo de dependencia controla la secuencia de exportación de entidades. Para obtener más información, consulte [Administración de dependencias](#manage-dependencies).
 
-1. Clic **[!UICONTROL Next]** y defina la consulta de filtro en el tipo de documento que se va a extraer. Debe configurar la cláusula de filtrado para la extracción de datos.
+1. Haga clic en **[!UICONTROL Next]** y defina la consulta de filtro en el tipo de documento que desea extraer. Debe configurar la cláusula de filtrado para la extracción de datos.
 
    >[!NOTE]
    >
    >El editor de consultas se muestra en [esta sección](../../automation/workflow/query.md).
 
-1. Clic **[!UICONTROL Next]** y seleccione el orden de los datos exportados.
+1. Haga clic en **[!UICONTROL Next]** y seleccione el criterio de ordenación de los datos exportados.
 
 1. Previsualice los datos que desea extraer para comprobar la configuración.
 
@@ -111,8 +112,8 @@ Para exportar un conjunto de objetos en un paquete de datos, siga estos pasos:
 
 El proceso de exportación realiza un seguimiento de los vínculos entre los distintos elementos exportados. Este mecanismo se define por dos reglas:
 
-* objetos vinculados a un vínculo con una `own` o `owncopy` La integridad de tipos se exporta en el mismo paquete que el objeto exportado.
-* objetos vinculados a un vínculo con una `neutral` o `define` la integridad de tipo (vínculo definido) debe exportarse por separado.
+* los objetos vinculados a un vínculo con una integridad de tipo `own` o `owncopy` se exportan en el mismo paquete que el objeto exportado.
+* los objetos vinculados a un vínculo con una integridad de tipo `neutral` o `define` (vínculo definido) deben exportarse por separado.
 
 >[!NOTE]
 >
@@ -121,10 +122,10 @@ El proceso de exportación realiza un seguimiento de los vínculos entre los dis
 #### Exportación de una campaña {#export-a-campaign}
 
 A continuación se muestra un ejemplo de cómo exportar una campaña. La campaña de marketing que se va a exportar contiene:
-* a `MyTask`tarea
-* a `campaignWorkflow` flujo de trabajo en la siguiente carpeta: **[!UICONTROL Administration > Production > Technical workflows > Campaign processes > MyWorkflow]**.
+* una `MyTask`tarea
+* un flujo de trabajo `campaignWorkflow` en la siguiente carpeta: **[!UICONTROL Administration > Production > Technical workflows > Campaign processes > MyWorkflow]**.
 
-La tarea y el flujo de trabajo se exportan en el mismo paquete que la campaña, ya que los esquemas coincidentes están conectados por vínculos con una `own` integridad de tipo.
+La tarea y el flujo de trabajo se exportan en el mismo paquete que la campaña, ya que los esquemas coincidentes están conectados por vínculos con una integridad de tipo `own`.
 
 El contenido del paquete es:
 
@@ -171,14 +172,14 @@ label="" name="" namespace="" vendor="">
 </package>   
 ```
 
-La afiliación a un tipo de paquete se define en un esquema con la variable `@pkgAdmin and @pkgPlatform` atributo. Ambos atributos reciben una expresión XTK que define las condiciones de afiliación del paquete.
+La afiliación a un tipo de paquete se define en un esquema con el atributo `@pkgAdmin and @pkgPlatform`. Ambos atributos reciben una expresión XTK que define las condiciones de afiliación del paquete.
 
 ```xml
 <element name="offerEnv" img="nms:offerEnv.png" 
 template="xtk:folder" pkgAdmin="@id != 0">
 ```
 
-Por último, el `@pkgStatus` attribute permite definir las reglas de exportación para estos elementos o atributos. En función del valor del atributo, el elemento o atributo se encuentra en el paquete exportado. Los tres valores posibles de este atributo son:
+Finalmente, el atributo `@pkgStatus` le permite definir las reglas de exportación para estos elementos o atributos. En función del valor del atributo, el elemento o atributo se encuentra en el paquete exportado. Los tres valores posibles de este atributo son:
 
 * `never`: no exporta el campo/vínculo
 * `always`: fuerza la exportación de este campo
@@ -186,7 +187,7 @@ Por último, el `@pkgStatus` attribute permite definir las reglas de exportació
 
 >[!NOTE]
 >
->El `preCreate` el valor solo se admite para eventos de tipo vínculo. Permite crear o señalar una entidad que aún no se ha cargado en el paquete exportado.
+>El valor `preCreate` solo se admite para eventos de tipo vínculo. Permite crear o señalar una entidad que aún no se ha cargado en el paquete exportado.
 
 ## Administración de definiciones de paquetes {#manage-package-definitions}
 
@@ -210,7 +211,7 @@ A continuación, se pueden añadir entidades a la definición del paquete y expo
 
 ### Adición de entidades a una definición de paquete {#add-entities-to-a-package-definition}
 
-En la pestaña **[!UICONTROL Content]**, haga clic en el botón **[!UICONTROL Add]** para seleccionar las entidades que desea exportar con el paquete. Las prácticas recomendadas al seleccionar entidades se presentan en la [esta sección](#export-a-set-of-objects-in-a-package).
+En la pestaña **[!UICONTROL Content]**, haga clic en el botón **[!UICONTROL Add]** para seleccionar las entidades que desea exportar con el paquete. Las prácticas recomendadas al seleccionar entidades se presentan en [esta sección](#export-a-set-of-objects-in-a-package).
 
 ![](assets/packagedefinition_addentities.png)
 
@@ -228,9 +229,9 @@ La generación de paquetes se puede configurar desde la pestaña de **[!UICONTRO
 
 ![](assets/packagedefinition_generationparameters.png)
 
-* Utilice el **[!UICONTROL Include the definition]** opción para incluir la definición utilizada actualmente en la definición del paquete.
-* Utilice el **[!UICONTROL Include an installation script]** opción para añadir una secuencia de comandos javascript para ejecutarla en la importación del paquete. Al seleccionarlo, se añade una pestaña **[!UICONTROL Script]** en la pantalla de definición del paquete.
-* Utilice el **[!UICONTROL Include default values]** para añadir al paquete los valores de todos los atributos de las entidades.
+* Utilice la opción **[!UICONTROL Include the definition]** para incluir la definición utilizada actualmente en la definición del paquete.
+* Utilice la opción **[!UICONTROL Include an installation script]** para agregar un script javascript para ejecutarlo en la importación del paquete. Al seleccionarlo, se añade una pestaña **[!UICONTROL Script]** en la pantalla de definición del paquete.
+* Utilice la opción **[!UICONTROL Include default values]** para agregar al paquete los valores de todos los atributos de las entidades.
 
   Esta opción no está seleccionada de forma predeterminada para evitar exportaciones largas. Esto significa que, de forma predeterminada, los atributos de las entidades con valores predeterminados (&quot;cadena vacía&quot;, &quot;0&quot; y &quot;falso&quot; si no se definen en el esquema) no se añaden al paquete y, por lo tanto, no se exportan.
 
@@ -242,9 +243,9 @@ La generación de paquetes se puede configurar desde la pestaña de **[!UICONTRO
 
 Para exportar un paquete desde una definición de paquete, siga los pasos siguientes:
 
-1. Seleccione la definición del paquete que desea exportar y haga clic en **[!UICONTROL Actions]** y seleccione. **[!UICONTROL Export the package]**.
+1. Seleccione la definición del paquete que desea exportar, haga clic en el botón **[!UICONTROL Actions]** y seleccione **[!UICONTROL Export the package]**.
 1. Compruebe el nombre y la ubicación del archivo exportado.
-1. Haga clic en **[!UICONTROL Start]** para iniciar la exportación.
+1. Haga clic en el botón **[!UICONTROL Start]** para iniciar la exportación.
 
 ## Importación de paquetes {#import-packages}
 
@@ -254,7 +255,7 @@ Se puede acceder al asistente de importación de paquetes a través del menú pr
 
 Para importar un paquete de datos existente, siga estos pasos:
 
-1. Acceso al asistente de importación a través del menú principal **[!UICONTROL Tools > Advanced > Import package]** de la consola del cliente.
+1. Acceda al asistente de importación a través del menú principal **[!UICONTROL Tools > Advanced > Import package]** de la consola del cliente.
 1. Seleccione el archivo XML y haga clic en **[!UICONTROL Open]**.
 
 El contenido del paquete que se va a importar se muestra en la sección central del editor.
@@ -339,7 +340,7 @@ Por ejemplo:
 
 >[!NOTE]
 >
->Forms solo debe importarse **después** actualizaciones de esquema.
+>Forms solo debe importarse **después de** actualizaciones de esquema.
 
 
 #### Documentación del paquete {#package-documentation}
@@ -351,4 +352,3 @@ Una práctica recomendada también es introducir la fecha de la actualización.
 >[!IMPORTANT]
 >
 >El campo de descripción solo puede contener hasta 2000 caracteres.
-

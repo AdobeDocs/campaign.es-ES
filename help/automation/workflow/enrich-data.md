@@ -43,9 +43,9 @@ Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de 
 Para crear el flujo de trabajo, siga los siguientes pasos:
 
 1. Se agregan dos actividades **[!UICONTROL Query]** y una actividad **[!UICONTROL Intersection]** para dirigirse a los nuevos suscriptores que acaban de ingresar en la competición.
-1. El **[!UICONTROL Enrichment]** se utiliza para añadir datos almacenados en la actividad de **[!UICONTROL Competition results]** tabla. El **[!UICONTROL Score]** El campo en el que se desea realizar la personalización de la entrega se agrega a la tabla de trabajo del flujo de trabajo.
-1. El **[!UICONTROL Split]** la actividad se utiliza para crear subconjuntos de destinatarios en función de puntuaciones.
-1. Para cada subconjunto, una **[!UICONTROL Delivery]** Se ha añadido la actividad de.
+1. La actividad **[!UICONTROL Enrichment]** se usa para agregar datos almacenados en la tabla **[!UICONTROL Competition results]**. El campo **[!UICONTROL Score]** en el que se desea realizar la personalización de la entrega se agrega a la tabla de trabajo del flujo de trabajo.
+1. La actividad de tipo **[!UICONTROL Split]** se usa para crear subconjuntos de destinatarios basados en puntuaciones.
+1. Para cada subconjunto, se agrega una actividad **[!UICONTROL Delivery]**.
 
 ## Paso 1: Direccionamiento {#step-1--targeting}
 
@@ -61,7 +61,7 @@ A continuación, se agrega una actividad **[!UICONTROL Intersection]** para diri
 
 ## Paso 2: Enriquecimiento {#step-2--enrichment}
 
-En este ejemplo, aprenda a personalizar las entregas según el **[!UICONTROL Score]** campo almacenado en el **[!UICONTROL Competition results]** tabla. Esta tabla tiene una relación de tipo 1-n con la tabla de destinatarios. El **[!UICONTROL Enrichment]** la actividad se utiliza para agregar datos de una tabla vinculada al entorno de filtrado con la tabla de trabajo del flujo de trabajo.
+En este ejemplo, aprenderá a personalizar las entregas según el campo **[!UICONTROL Score]** almacenado en la tabla **[!UICONTROL Competition results]**. Esta tabla tiene una relación de tipo 1-n con la tabla de destinatarios. La actividad **[!UICONTROL Enrichment]** se utiliza para agregar datos de una tabla vinculada al entorno de filtrado con la tabla de trabajo del flujo de trabajo.
 
 1. En la pantalla de edición de la actividad de enriquecimiento, seleccione **[!UICONTROL Add data]**, luego **[!UICONTROL Data linked to the filtering dimension]**, y haga clic en **[!UICONTROL Next]**.
 

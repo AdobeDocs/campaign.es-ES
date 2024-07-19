@@ -54,4 +54,4 @@ En este vídeo se explica cómo configurar un envío recurrente y una actividad 
 
 >[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Hay disponibles [más vídeos de procedimientos para Campaign aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

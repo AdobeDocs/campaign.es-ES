@@ -41,9 +41,9 @@ Tenga en cuenta que solo los operadores con permisos de administración pueden i
 
 >[!NOTE]
 >
->Los flujos de trabajo técnicos relacionados con el complemento Centro de mensajes están disponibles de forma predeterminada en la **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]** nodo.
+>Los flujos de trabajo técnicos relacionados con el complemento Centro de mensajes están disponibles de forma predeterminada en el nodo **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]**.
 
-Obtenga información sobre cómo monitorizar flujos de trabajo técnicos en esta [sección dedicada](monitor-technical-workflows.md).
+Aprenda a monitorizar los flujos de trabajo técnicos en esta [sección dedicada](monitor-technical-workflows.md).
 
 
 ## Lista de flujos de trabajo técnicos {#list-technical-workflows}
@@ -64,7 +64,7 @@ Obtenga información sobre cómo monitorizar flujos de trabajo técnicos en esta
 | **Depuración de eventos** (webAnalyticsPurgeWebEvents) | Conectores de análisis web | Este flujo de trabajo permite eliminar todos los eventos del campo de base de datos según el periodo configurado en el campo Lifespan. |
 | **Exportar audiencias a Adobe Experience Cloud** (exportSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo exporta audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. |
 | **Previsión**(previsión) | Entrega | Este flujo de trabajo analiza las entregadas guardadas en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada. |
-| **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Más información sobre los cubos en  [esta sección](../../v8/reporting/gs-cubes.md). |
+| **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Obtenga más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md). |
 | **Identificación de contactos convertidos** (webAnalyticsFindConverted) | Conectores de análisis web | Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en el reporte de eficiencia de remarketing (consulte esta página). |
 | **Importar audiencias desde Adobe Experience Cloud** (importSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo permite importar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. |
 | **Trabajos en envíos en campañas** (deliveryMgt) | Instalado de forma predeterminada | Este flujo de trabajo activa los envíos aprobados e inicia el posprocesado del proveedor de servicios para un envío externo. También envía notificaciones de aprobación y recordatorios. |

@@ -11,7 +11,7 @@ ht-degree: 1%
 
 # Migración de los operadores de Campaign a Adobe Identity Management System (IMS) {#migrate-users-to-ims}
 
-A partir de la versión 8.6 de Campaign, se está mejorando el proceso de autenticación en la versión 8 de Campaign. Todos los operadores utilizarán [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} **solamente** para conectarse a Campaign. Ya no se permitirá conectarse con usuario/contraseña (también conocido como autenticación nativa). Adobe recomienda realizar esta migración en Campaign v8.5.2 para poder migrar sin problemas a Campaign v8.6.
+A partir de la versión 8.6 de Campaign, se está mejorando el proceso de autenticación en la versión 8 de Campaign. Todos los operadores usarán [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} **solo** para conectarse a Campaign. Ya no se permitirá conectarse con usuario/contraseña (también conocido como autenticación nativa). Adobe recomienda realizar esta migración en Campaign v8.5.2 para poder migrar sin problemas a Campaign v8.6.
 
 Como cliente de servicios administrados de Campaign Classic v7, si está migrando a Campaign v8, este procedimiento también se le aplica.
 
@@ -19,17 +19,17 @@ Este artículo detalla los pasos necesarios para migrar un operador técnico a u
 
 ## ¿Qué ha cambiado?{#move-to-ims-changes}
 
-Con Campaign v8, todos los usuarios normales ya deben conectarse a la consola del cliente de Adobe Campaign con su Adobe ID, a través del Sistema Identity Management de Adobe (IMS). Sin embargo, con algunas configuraciones anteriores, las conexiones de usuario y contraseña seguían estando disponibles. **Esto ya no se permitirá a partir de la versión 8.6 de Campaign.**
+Con Campaign v8, todos los usuarios normales ya deben conectarse a la consola del cliente de Adobe Campaign con su Adobe ID, a través del Sistema Identity Management de Adobe (IMS). Sin embargo, con algunas configuraciones anteriores, las conexiones de usuario y contraseña seguían estando disponibles. **Ya no se permitirá esto a partir de la versión 8.6 de Campaign.**
 
 Además, como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, la aplicación cliente de Adobe Campaign ahora llama a las API de Campaign directamente mediante el token de cuenta técnica de IMS. La migración para operadores técnicos se detalla en un artículo dedicado, disponible en [esta página](ims-migration.md).
 
-Este cambio es aplicable a partir de la versión 8.5.2 de Campaign y será **obligatorio** inicio de Campaign v8.6.
+Este cambio es aplicable a partir de la versión 8.5.2 de Campaign y será **obligatorio** a partir de la versión 8.6 de Campaign.
 
 ## ¿Se ha visto afectado?{#migrate-ims-impacts}
 
 Si los operadores de su organización se conectan a la consola del cliente de Campaign mediante su inicio de sesión/contraseña (también conocido como. (autenticación nativa), se ha visto afectado y debe migrar estos operadores a Adobe IMS como se detalla a continuación.
 
-Migración a [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} Es un imperativo de seguridad hacer que sus entornos sean seguros y estandarizados, ya que la mayoría de las otras soluciones y aplicaciones de Adobe Experience Cloud ya están en IMS.
+La migración a [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} es un imperativo de seguridad para que sus entornos sean seguros y estandarizados, ya que la mayoría de las otras soluciones y aplicaciones de Adobe Experience Cloud ya están en IMS.
 
 ## ¿Cómo realizar la migración?{#ims-migration-procedure}
 
@@ -47,7 +47,7 @@ A continuación se enumeran los pasos clave para esta migración:
 1. Trabaje con el Adobe de para asegurar una fecha de Adobe para ejecutar la migración automatizada para los usuarios no técnicos (operadores) y los perfiles de producto. Este paso requiere un intervalo de horas sin tiempo de inactividad en ninguna de las instancias.
 1. El administrador de Campaign interno valida estos cambios y proporciona una firma. Después de esta migración, ya no debe crear ningún operador adicional que se autentique con este inicio de sesión y contraseña.
 
-Ahora puede migrar sus operadores técnicos a la consola de Adobe Developer como se detalla en [esta nota técnica](ims-migration.md). Este paso es obligatorio si utiliza las API de Campaign.
+Ahora puede migrar sus operadores técnicos a Adobe Developer Console como se detalla en [esta nota técnica](ims-migration.md). Este paso es obligatorio si utiliza las API de Campaign.
 
 Una vez completada esta migración, confirme en el Administrador de transición de Adobe: Adobe marca la migración como completada y bloquea la creación de nuevos usuarios nativos y el inicio de sesión de usuarios nativos. A continuación, su entorno está protegido y estandarizado.
 
@@ -82,9 +82,9 @@ Como administrador de Campaign, puede conceder permisos a los usuarios de su org
 
 Como administrador de Campaign, debe agregar ID de correo electrónico a todos los usuarios nativos desde la consola del cliente. Para realizar esto, siga los pasos a continuación:
 
-1. Conéctese a la consola de cliente de y busque **Administración > Administración de acceso > Operadores**.
+1. Conéctese a la consola del cliente y vaya a **Administración > Administración de acceso > Operadores**.
 1. Seleccione el operador que desea actualizar en la lista de operadores.
-1. Introduzca el correo electrónico del operador en la **Puntos de contacto** del formulario del operador.
+1. Escriba el correo electrónico del operador en la sección **Puntos de contacto** del formulario del operador.
 1. Guarde los cambios.
 
 Como supervisor del flujo de trabajo o administrador de Campaign, también puede realizar una actualización masiva de los operadores con un flujo de trabajo.
@@ -93,29 +93,29 @@ Como supervisor del flujo de trabajo o administrador de Campaign, también puede
 
 Para realizar una actualización masiva de los operadores nativos, siga estos pasos:
 
-1. Cree un flujo de trabajo para extraer en un archivo CSV todos los operadores que se conecten a Campaign con el modo de autenticación nativo. Utilice un **Consulta** actividad y una **Extracción de datos (archivo)** actividad para crear el archivo CSV. Según los datos de perfil de cada operador, se pueden exportar las siguientes columnas: `Name, Label`.
+1. Cree un flujo de trabajo para extraer en un archivo CSV todos los operadores que se conecten a Campaign con el modo de autenticación nativo. Utilice una actividad **Query** y una actividad **Data extraction (file)** para crear el archivo CSV. Según los datos de perfil de cada operador, puede exportar las siguientes columnas: `Name, Label`.
 
-   Obtenga más información acerca de **Consulta** actividad en [esta página](../../automation/workflow/query.md)
+   Obtenga más información acerca de la actividad **Consulta** en [esta página](../../automation/workflow/query.md)
 
-   Obtenga más información acerca de **Extracción de datos (archivo)** actividad en [esta página](../../automation/workflow/extraction-file.md)
+   Obtenga más información acerca de la actividad **Extracción de datos (archivo)** en [esta página](../../automation/workflow/extraction-file.md)
 
 1. Actualice el archivo CSV con una nueva columna que contenga los correos electrónicos de los operadores.
 
-1. Cree un flujo de trabajo para importar datos actualizados, con un **Carga de datos (archivo)** actividad y una **Actualización de datos** actividad en el flujo de trabajo.
+1. Cree un flujo de trabajo para importar datos actualizados, con una actividad **Data loading (file)** y una actividad **Update data** en el flujo de trabajo.
 
    ![](assets/update-operators-wf.png){width="70%"}
 
-1. Edite el **Carga de datos (archivo)** y defina la configuración para cargar el archivo CSV actualizado, según el ejemplo siguiente.
+1. Edite la actividad **Data loading (file)** y defina la configuración para cargar el archivo CSV actualizado, según el ejemplo siguiente.
 
    ![](assets/data-loading-activity.png){width="70%"}
 
-   Obtenga más información acerca de **Carga de datos (archivo)** actividad en [esta página](../../automation/workflow/data-loading-file.md)
+   Obtenga más información acerca de la actividad **Carga de datos (archivo)** en [esta página](../../automation/workflow/data-loading-file.md)
 
-1. Edite el **Actualización de datos** y defina la configuración según el ejemplo siguiente. Tenga en cuenta que la variable **Dimensión actualizada** se ha cambiado a `Operators (xtk)`.
+1. Edite la actividad **Actualizar datos** y defina la configuración según el ejemplo siguiente. Tenga en cuenta que la **dimensión actualizada** se ha cambiado a `Operators (xtk)`.
 
    ![](assets/update-data-activity.png){width="70%"}
 
-   Obtenga más información acerca de **Actualización de datos** actividad en [esta página](../../automation/workflow/update-data.md)
+   Más información sobre la actividad **Actualizar datos** en [esta página](../../automation/workflow/update-data.md)
 
 1. Ejecute el flujo de trabajo y compruebe los resultados. La dirección de correo electrónico se ha añadido al perfil del operador.
 
@@ -126,7 +126,7 @@ Para realizar una actualización masiva de los operadores nativos, siga estos pa
 
 ### ¿Cómo iniciar sesión en Campaign a través de IMS? {#ims-migration-log}
 
-Obtenga información sobre cómo conectarse a Campaign con su Adobe ID en [esta sección](../../v8/start/connect.md).
+Aprenda a conectarse a Campaign con su Adobe ID en [esta sección](../../v8/start/connect.md).
 
 ### ¿Habrá un tiempo de inactividad durante esta migración? {#ims-migration-downtime}
 
@@ -150,17 +150,17 @@ Una vez completada esta migración, debe ponerse en contacto con el administrado
 
 Obtenga información sobre cómo ver el tipo de autenticación de los operadores en Campaign:
 
-1. Desde el **Explorer**, acceso **Administration** `>` **Administración de acceso** `>` **Operadores**.
+1. Desde **Explorer**, acceda a **Administration** `>` **Access Management** `>` **Operators**.
 
-1. Haga clic con el botón derecho en la fila de encabezado y seleccione **Configurar lista** menú.
+1. Haga clic con el botón derecho en la fila del encabezado y seleccione el menú **Configurar lista**.
 
    ![](assets/ims_2.png)
 
-1. Añadir **Cuenta deshabilitada** y **Tipo de autenticación** as **Columnas de salida**.
+1. Agregar **cuenta deshabilitada** y **tipo de autenticación** como **columnas de salida**.
 
    ![](assets/ims_1.png)
 
-Ahora puede ver la lista de sus **Operadores** y sus **Tipo de autenticación**.
+Ahora puede ver la lista de sus **Operadores** y su **Tipo de autenticación**.
 
 ![](assets/ims_3.png)
 
@@ -170,4 +170,4 @@ Ahora puede ver la lista de sus **Operadores** y sus **Tipo de autenticación**.
 * [Cómo conectarse a Adobe Campaign v8](../../v8/start/connect.md)
 * [Acceso y permisos en Adobe Campaign v8](../../v8/start/gs-permissions.md)
 * [Notas de la versión de Adobe Campaign v8](../../v8/start/release-notes.md)
-* [¿Qué es Adobe Identity Management System (IMS)?](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}
+* [Qué es el sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}

@@ -21,7 +21,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Cree una tipología de campaña.
 
-   Se accede a las tipologías a través de la variable **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** del explorador de Campaign.
+   Se accede a las tipologías a través de la carpeta **[!UICONTROL Administration > Campaign Management > Typology management]** > **[!UICONTROL Typologies]** del explorador de Campaign.
 
 1. Vaya a la pestaña **[!UICONTROL Rules]**, haga clic en el botón **[!UICONTROL Add]** y seleccione las reglas que desea aplicar con esta tipología.
 
@@ -29,7 +29,7 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Guarde la tipología: se añade a la lista de tipologías existentes.
 1. Abra la entrega al que desee aplicar las reglas.
-1. Vaya a las propiedades de entrega y abra **[!UICONTROL Typology]** pestaña.
+1. Vaya a las propiedades de entrega y abra la pestaña **[!UICONTROL Typology]**.
 1. Seleccione la tipología en la lista desplegable.
 
    ![](assets/campaign_opt_pressure_sample_1_7.png)
@@ -97,7 +97,7 @@ Por ejemplo, una regla de presión con un orden de ejecución de 20 se ejecuta a
 
 ### Reglas de control {#control-rules}
 
-Para **[!UICONTROL Control]** En las reglas de, puede decidir en qué punto del ciclo de vida de la entrega se aplica la regla: antes o después del objetivo, al comienzo de la personalización, al final del análisis. En la pestaña **[!UICONTROL Phase]** de la regla de tipología, seleccione el valor que se deba aplicar en la lista desplegable del campo **[!UICONTROL General]**.
+Para las reglas **[!UICONTROL Control]**, puede decidir en qué punto del ciclo de vida de la entrega se aplica la regla: antes o después del objetivo, al inicio de la personalización, al final del análisis. En la pestaña **[!UICONTROL Phase]** de la regla de tipología, seleccione el valor que se deba aplicar en la lista desplegable del campo **[!UICONTROL General]**.
 
 ![](assets/campaign_opt_define_control_phase.png)
 

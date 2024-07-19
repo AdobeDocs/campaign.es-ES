@@ -18,7 +18,7 @@ Esta sección presenta información sobre cómo monitorizar la ejecución de los
 
 En [esta sección](workflow-supervision.md#supervising-workflows) está disponible un caso de uso que detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
 
-Además, los administradores de la instancia pueden utilizar la **pista de auditoría** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo y el estado de los mismos. Obtenga más información sobre la pista de auditoría en esta sección [página](../../v8/reporting/audit-trail.md){target="_blank"}.
+Además, los administradores de la instancia pueden utilizar la **pista de auditoría** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo y el estado de los mismos. Obtenga más información sobre la pista de auditoría en esta [página](../../v8/reporting/audit-trail.md){target="_blank"}.
 
 ## Visualización del progreso {#displaying-progress}
 
@@ -229,7 +229,7 @@ Los flujos de trabajo utilizan muchas tablas de trabajo que consumen espacio y t
 
 El flujo de trabajo **Limpieza de la base de datos**, accesible a través del nodo **Administración, Producción, Flujos de trabajo técnicos**, permite eliminar datos obsoletos para evitar el crecimiento exponencial de la base de datos. El flujo de trabajo se activa automáticamente sin intervención del usuario.
 
-También puede crear flujos de trabajo técnicos específicos para depurar los datos innecesarios que consumen espacio. Consulte y esto [sección](#purging-the-logs).
+También puede crear flujos de trabajo técnicos específicos para depurar los datos innecesarios que consumen espacio. Consulte   y esta [sección](#purging-the-logs).
 
 ## Gestión de los flujos de trabajo en pausa {#handling-of-paused-workflows}
 

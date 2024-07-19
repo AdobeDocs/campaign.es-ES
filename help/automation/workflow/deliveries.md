@@ -53,7 +53,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **En
   <tr> 
    <td> <span class="uicontrol">Limpieza de flujos de trabajo en pausa</span> <br /> </td> 
    <td> <span class="uicontrol">cleanupPausedWorkflows</span> <br /> </td> 
-   <td> <p>Este flujo de trabajo analiza los flujos de trabajo en pausa con opción de gravedad definida en normal y activa las advertencias y notificaciones cuando dichos flujos llevan demasiado tiempo en pausa. Tras un mes, los flujos de trabajo técnicos en pausa se detienen de manera incondicional. De forma predeterminada, se activa todos los lunes a las 5 a. m.</p> <p>Para obtener más información, consulte Gestión de flujos de trabajo en pausa</a>.</p></td> 
+   <td> <p>Este flujo de trabajo analiza los flujos de trabajo en pausa con opción de gravedad definida en normal y activa las advertencias y notificaciones cuando dichos flujos llevan demasiado tiempo en pausa. Tras un mes, los flujos de trabajo técnicos en pausa se detienen de manera incondicional. De forma predeterminada, se activa todos los lunes a las 5 a. m.</p> <p>Para obtener más información, consulte Administración de flujos de trabajo en pausa </a>.</p></td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Notificación de oferta</span> <br /> </td> 

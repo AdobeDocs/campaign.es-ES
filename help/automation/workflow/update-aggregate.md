@@ -15,13 +15,13 @@ ht-degree: 11%
 
 # Actualización del agregado{#update-aggregate}
 
-Agregados definidos en [cubos](../../v8/reporting/gs-cubes.md) con fines de creación de informes, se puede actualizar con una actividad específica. A **[!UICONTROL Workflow]** está disponible al configurar el acumulado.
+Los agregados definidos en [cubos](../../v8/reporting/gs-cubes.md) para la generación de informes se pueden actualizar con una actividad específica. Una ficha **[!UICONTROL Workflow]** está disponible al configurar el agregado.
 
-Obtenga más información sobre los cubos y los acumulados en [esta sección](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
+Obtenga más información acerca de los cubos y los agregados en [esta sección](../../v8/reporting/customize-cubes.md#calculate-and-use-aggregates).
 
-Para actualizar un acumulado, edite el **[!UICONTROL Update aggregate]** y seleccione el cubo y el acumulado que desea actualizar.
+Para actualizar un agregado, edite la actividad **[!UICONTROL Update aggregate]** y seleccione el cubo y el agregado que desea actualizar.
 
-Puede configurar un **Actualización completa** o una **Actualización parcial**.
+Puede configurar una **actualización completa** o una **actualización parcial**.
 
 ![](assets/update-aggregate-details.png)
 
@@ -29,4 +29,4 @@ De forma predeterminada, se ejecuta una actualización completa durante cada cá
 
 ![](assets/update-aggregate-partial.png)
 
-Una buena práctica es añadir un **[!UICONTROL Scheduler]** actividad para configurar la frecuencia de las actualizaciones del cálculo.
+Una práctica recomendada es agregar una actividad **[!UICONTROL Scheduler]** para configurar la frecuencia de las actualizaciones del cálculo.

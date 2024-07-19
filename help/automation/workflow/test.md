@@ -21,7 +21,7 @@ Una condición es una expresión JavaScript que debe evaluarse como “verdadera
 
 ![](assets/edit_test.png)
 
-Para obtener más información sobre todas las funciones adicionales de JavaScript y los métodos SOAP del servidor aplicativo accesible mediante JavaScript de flujo de trabajo, consulte [Documentación de JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es){target="_blank"}.
+Para obtener más información sobre todas las funciones adicionales de JavaScript SOAP y los métodos de del servidor aplicativo accesible a través del flujo de trabajo JavaScript, consulte [Documentación de JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es){target="_blank"}.
 
 También puede insertar variables directamente desde este editor. Para obtener más información sobre cómo trabajar con variables, consulte [esta sección](javascript-scripts-and-templates.md#variables).
 

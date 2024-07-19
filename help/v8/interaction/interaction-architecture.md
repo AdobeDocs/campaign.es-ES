@@ -18,13 +18,13 @@ ht-degree: 67%
 
 Para cada dimensión de segmentación existen dos entornos utilizados al gestionar las ofertas:
 
-* A **diseño** entorno en el que el gestor de ofertas se encarga de la creación y la clasificación de las ofertas, la edición y el inicio del proceso de aprobación para que se puedan utilizar. También se definen en este entorno las reglas para cada categoría, los espacios de oferta en los que se pueden presentar las mismas y los filtros predefinidos utilizados para definir la idoneidad de una oferta.
+* Un entorno **design** en el que el gestor de ofertas se encarga de crear y categorizar las ofertas, editarlas e iniciar el proceso de aprobación para que se puedan utilizar. También se definen en este entorno las reglas para cada categoría, los espacios de oferta en los que se pueden presentar las mismas y los filtros predefinidos utilizados para definir la idoneidad de una oferta.
 
   Las categorías también se pueden publicar manualmente en el entorno en línea.
 
-  Se detalla el proceso de aprobación de ofertas [en esta sección](interaction-offer.md#approve-offers).
+  El proceso de aprobación de ofertas se detalla [en esta sección](interaction-offer.md#approve-offers).
 
-* A **live** entorno en el que se pueden encontrar ofertas aprobadas del entorno de diseño, así como los distintos espacios de ofertas, filtros, categorías y reglas configuradas en el entorno de diseño. Durante el acceso al motor de oferta, este siempre utiliza las ofertas del entorno en directo.
+* Un entorno **live** en el que se pueden encontrar ofertas aprobadas del entorno de diseño, así como los diversos espacios de ofertas, filtros, categorías y reglas configuradas en el entorno de diseño. Durante el acceso al motor de oferta, este siempre utiliza las ofertas del entorno en directo.
 
 Una oferta solo se implementa en los espacios de oferta seleccionados durante el proceso de aprobación. Por lo tanto, una oferta puede estar activa pero no puede utilizarse en un espacio de oferta que también esté activo.
 
@@ -32,10 +32,10 @@ Una oferta solo se implementa en los espacios de oferta seleccionados durante el
 
 El módulo de interacción de Adobe Campaign propone dos tipos de interacciones:
 
-* **entrante** interacciones, iniciadas por un contacto. [Más información](interaction-present-offers.md)
-* **saliente** interacciones, iniciadas por un administrador de envíos de Campaign. [Más información](interaction-send-offers.md)
+* **interacciones entrantes**, iniciadas por un contacto. [Más información](interaction-present-offers.md)
+* **interacciones salientes**, iniciadas por un administrador de envíos de Campaign. [Más información](interaction-send-offers.md)
 
-Estos dos tipos de interacciones se pueden llevar a cabo en **modo unitario** (la oferta se calcula para un único contacto), o en **modo por lotes** (la oferta se calcula para un conjunto de contactos). Por lo general, las interacciones entrantes se realizan en modo unitario y las interacciones salientes se llevan a cabo en modo agrupado. Sin embargo, puede haber ciertas excepciones, ya que [mensajes transaccionales](../send/transactional.md) por ejemplo, mediante el cual la interacción saliente se realiza en modo unitario.
+Estos dos tipos de interacciones se pueden realizar en **modo unitario** (la oferta se calcula para un único contacto) o en **modo por lotes** (la oferta se calcula para un conjunto de contactos). Por lo general, las interacciones entrantes se realizan en modo unitario y las interacciones salientes se llevan a cabo en modo agrupado. Sin embargo, puede haber ciertas excepciones, por ejemplo, para [mensajes transaccionales](../send/transactional.md), por las cuales la interacción saliente se realiza en modo unitario.
 
 Tan pronto como se puede o se debe presentar una oferta (según las configuraciones realizadas), el motor de oferta desempeña la función de intermediario: calcula automáticamente la mejor oferta posible para un contacto entre las disponibles combinando los datos recibidos sobre el contacto y las diferentes reglas que se pueden aplicar según se especifica en la aplicación.
 
@@ -43,7 +43,7 @@ Tan pronto como se puede o se debe presentar una oferta (según las configuracio
 
 ## Arquitectura distribuida
 
-Para poder admitir la escalabilidad y proporcionar un servicio de 24 horas al día en el canal entrante, el **Interacción** El módulo de se implementa en una arquitectura distribuida. Este tipo de arquitectura ya se usa con [Centro de mensajes](../architecture/architecture.md#transac-msg-archi) y se compone de varias instancias:
+Para poder admitir la escalabilidad y proporcionar un servicio de 24 horas al día en el canal entrante, el módulo **Interaction** se implementa en una arquitectura distribuida. Este tipo de arquitectura ya se usa con [Message Center](../architecture/architecture.md#transac-msg-archi) y se compone de varias instancias:
 
 * una o varias instancias de control dedicadas al canal saliente y que contienen la base de diseño de entorno y mercadotecnia.
 * una o varias instancias de ejecución dedicadas al canal entrante
@@ -80,13 +80,13 @@ Debe tener en cuenta los siguientes mecanismos de sincronización:
 
 Las extensiones de esquema directamente vinculadas a **interaction** (ofertas, propuestas, destinatarios, etc.) deben implementarse en las instancias de ejecución.
 
-El **Interacción** está instalado en todas las instancias (control y ejecución). Hay dos paquetes adicionales disponibles: un paquete para las instancias de control y otro para cada instancia de ejecución.
+El paquete **Interaction** está instalado en todas las instancias (control y ejecución). Hay dos paquetes adicionales disponibles: un paquete para las instancias de control y otro para cada instancia de ejecución.
 
 >[!NOTE]
 >
 >Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el ID de la propuesta, se convierten en campos de tipo **int64.** Este tipo de datos se detalla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
-La duración de la retención de datos se configura en cada instancia (a través del **[!UICONTROL Data purge]** en el asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de idoneidad que se van a calcular.
+La duración de la retención de datos se configura en cada instancia (a través de la ventana **[!UICONTROL Data purge]** del asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de idoneidad que se van a calcular.
 
 En las instancias de control:
 
@@ -144,7 +144,7 @@ La siguiente opción está disponible en instancias de ejecución:
 
 ### Instalación de paquetes {#packages-installation}
 
-Si la instancia no ha tenido anteriormente la variable **Interacción** paquete, no es necesaria ninguna migración. De forma predeterminada, la tabla de propuestas se encuentra en 64 bits después de instalar los paquetes.
+Si su instancia no tuvo el paquete **Interaction** anteriormente, no es necesario realizar ninguna migración. De forma predeterminada, la tabla de propuestas se encuentra en 64 bits después de instalar los paquetes.
 
 >[!CAUTION]
 >

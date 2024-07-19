@@ -15,7 +15,7 @@ ht-degree: 92%
 
 # Campaña{#campaign}
 
-Los flujos de trabajo detallados a continuación se instalan con **Campaign** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Campaign** de forma predeterminada.
 
 >[!CAUTION]
 >

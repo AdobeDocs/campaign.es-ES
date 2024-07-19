@@ -16,7 +16,7 @@ ht-degree: 78%
 
 
 
-El flujo de trabajo detallado a continuación se instala con el **Renderización de la bandeja de entrada (IR)** de forma predeterminada.
+El flujo de trabajo detallado a continuación se instala con el módulo **Renderización de la bandeja de entrada (IR)** de forma predeterminada.
 
 <table> 
  <tbody> 

@@ -25,9 +25,9 @@ Este cambio afecta a:
 
 ## ¿Cuándo se producirá esta actualización?{#aws-timeline}
 
-Las actualizaciones de los entornos de desarrollo y ensayo comenzaron en **Octubre de 2023**.
+Las actualizaciones de los entornos de ensayo y desarrollo comenzaron en **octubre de 2023**.
 
-Las actualizaciones de los entornos de producción comenzaron en **Enero de 2024**.
+Las actualizaciones de los entornos de producción comenzaron en **enero de 2024**.
 
 ## ¿Qué esperar?{#impact}
 
@@ -41,7 +41,7 @@ Las actualizaciones de los entornos de producción comenzaron en **Enero de 2024
 
   Sí. Como cliente de Campaign, su funcionalidad de envío de correo electrónico requiere el uso de una infraestructura de envío de correo electrónico.
 
-* **¿Qué clientes son los destinatarios de esta actualización?**
+* **¿Qué clientes son el destino de esta actualización?**
 
   Se actualizarán los entornos de todos los clientes de Campaign a los que se hace referencia arriba.
 
@@ -55,11 +55,11 @@ Las actualizaciones de los entornos de producción comenzaron en **Enero de 2024
 
 * **¿Qué pruebas requieren los clientes?**
 
-  No esperamos pruebas por parte de los clientes en relación con este evento de actualización. Si se observa algún problema, póngase en contacto con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  No esperamos pruebas por parte de los clientes en relación con este evento de actualización. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
-* **¿Puedo solicitar un cambio de fecha y hora en el intervalo de actualización de seguridad programado?**
+* **¿Puedo solicitar un cambio de fecha y hora en el intervalo programado de actualización de seguridad?**
 
   No. No podemos ajustar ninguna modificación solicitada a la programación existente, ya que esto probablemente interrumpa el evento de actualización asignado para otro cliente.
 
-Para cualquier otra pregunta, puede comunicarse con [Adobe del Servicio de atención al cliente](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Para cualquier otra pregunta, puede comunicarse con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

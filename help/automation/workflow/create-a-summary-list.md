@@ -56,7 +56,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    La actividad **Recolección de archivos** permite recopilar y enviar archivos desde y hacia el servidor de Adobe Campaign.
 
-   El **Carga de datos (archivo)** La actividad permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información, consulte [esta página](data-loading-file.md).
+   La actividad **Data loading(file)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información, consulte [esta página](data-loading-file.md).
 
 1. Configure la actividad **Recolector de ficheros** para recopilar archivos de texto (*.txt) &#42; del directorio seleccionado.
 

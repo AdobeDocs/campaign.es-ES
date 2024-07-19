@@ -72,7 +72,7 @@ Consulte estas secciones para ver instrucciones y prácticas recomendadas para a
 
 * Obtenga más información sobre las actividades de flujo de trabajo en [esta página](use-workflow-data.md).
 * Obtenga información sobre cómo crear un flujo de trabajo en [esta sección](build-a-workflow.md).
-* Descubra cómo utilizar flujos de trabajo para importar datos en Campaign en [esta sección](campaign-workflows.md)..
+* Descubra cómo usar flujos de trabajo para importar datos en Campaign en [esta sección](campaign-workflows.md).
 * Las prácticas recomendadas sobre los flujos de trabajo se detallan en [esta página](workflow-best-practices.md).
 * Encontrará instrucciones sobre la ejecución de flujos de trabajo en [esta sección](start-a-workflow.md).
 * Obtenga información sobre cómo monitorizar flujos de trabajo en [esta página](monitor-workflow-execution.md).

@@ -15,7 +15,7 @@ ht-degree: 81%
 
 
 
-Los flujos de trabajo detallados a continuación se instalan con **Conectores de análisis web** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Conectores de análisis web** de forma predeterminada.
 
 <table> 
  <tbody> 
@@ -32,7 +32,7 @@ Los flujos de trabajo detallados a continuación se instalan con **Conectores de
   <tr> 
    <td> <span class="uicontrol">Identification of converted contacts</span> <br /> </td> 
    <td> <span class="uicontrol">webAnalyticsFindConverted</span><br /> </td> 
-   <td> Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en la <span class="uicontrol">Informe de eficiencia de remarketing</span> (Consulte esta sección ). <br /> </td> 
+   <td> Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Se puede acceder a los datos recuperados por este flujo de trabajo en <span class="uicontrol">Informe de eficiencia de remarketing</span> (consulte este ). <br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Event purge</span> <br /> </td> 

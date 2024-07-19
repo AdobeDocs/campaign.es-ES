@@ -14,15 +14,15 @@ ht-degree: 67%
 
 # Cambio de dimensión{#change-dimension}
 
-Utilice el **[!UICONTROL Change dimension]** actividad para cambiar la dimensión de segmentación mientras crea una audiencia. Esta actividad desplaza el eje según la plantilla de datos y la dimensión de entrada. Por ejemplo, cambia de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
+Utilice la actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación mientras crea una audiencia. Esta actividad desplaza el eje según la plantilla de datos y la dimensión de entrada. Por ejemplo, cambia de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
 
 También puede utilizar esta actividad para definir las columnas adicionales del nuevo destinatario y los criterios de anulación de duplicación de datos.
 
 >[!IMPORTANT]
 >
->Tenga en cuenta que las **[!UICONTROL Change Dimension]** y **[!UICONTROL Change Data source]** las actividades no deben agregarse en una fila. Si necesita utilizar ambas actividades consecutivamente, asegúrese de incluir un **[!UICONTROL Enrichement]** actividad entre ellos. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
+>Tenga en cuenta que las actividades **[!UICONTROL Change Dimension]** y **[!UICONTROL Change Data source]** no deben agregarse en una fila. Si necesita usar ambas actividades consecutivamente, asegúrese de incluir una actividad **[!UICONTROL Enrichement]** entre ellas. Esto garantiza una ejecución adecuada y evita posibles conflictos o errores.
 
-Para configurar la variable **[!UICONTROL Change dimension]** actividad, siga los siguientes pasos:
+Para configurar la actividad **[!UICONTROL Change dimension]**, siga los siguientes pasos:
 
 1. Seleccione la nueva dimensión de destino mediante el campo **[!UICONTROL Change dimension]**.
 
@@ -54,7 +54,7 @@ Para configurar la variable **[!UICONTROL Change dimension]** actividad, siga lo
 
      >[!NOTE]
      >
-     >Para obtener información sobre la creación y administración de columnas adicionales, consulte [Añadir datos](query.md#add-data).
+     >Para obtener información sobre cómo crear y administrar columnas adicionales, consulte [Agregar datos](query.md#add-data).
 
    * Seleccione la dimensión de segmentación anterior (antes del cambio de eje) y, en el subárbol **[!UICONTROL Zip Code]** del destinatario, seleccione **[!UICONTROL Location]** y haga clic en **[!UICONTROL Edit expression]**.
 

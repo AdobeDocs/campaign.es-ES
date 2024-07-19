@@ -14,11 +14,11 @@ ht-degree: 56%
 
 # Procesamiento de eventos {#event-processing}
 
-En el contexto de los mensajes transaccionales, un evento se genera mediante un sistema de información y se envía a Adobe Campaign a través del **[!UICONTROL PushEvent]** y **[!UICONTROL PushEvents]** métodos. Estos métodos se describen en [esta sección](event-description.md).
+En el contexto de los mensajes transaccionales, un sistema de información genera un evento y este se envía a Adobe Campaign mediante los métodos **[!UICONTROL PushEvent]** y **[!UICONTROL PushEvents]**. Estos métodos se describen en [esta sección](event-description.md).
 
 Este evento contiene datos vinculados al evento, como:
 
-* sus [type](transactional.md#create-event-types): confirmación de pedido, creación de cuenta en un sitio web, etc.,
+* su [tipo](transactional.md#create-event-types): confirmación de pedido, creación de cuenta en un sitio web, etc.,
 * la dirección de correo electrónico o el número de teléfono,
 * cualquier otra información para enriquecer y personalizar el mensaje transaccional antes de la entrega: información de contacto del cliente, idioma del mensaje, formato de correo electrónico, etc.
 
@@ -42,7 +42,7 @@ Los eventos que genera el sistema de información se pueden recopilar de dos mod
 
 * Las llamadas a métodos SOAP permiten insertar eventos en Adobe Campaign: el método PushEvent permite enviar un evento a la vez, mientras que el método PushEvents permite enviar varios a la vez. [Más información](event-description.md).
 
-* La creación de un flujo de trabajo permite recuperar eventos mediante la importación de archivos o a través de una puerta de enlace SQL, con el [Acceso de datos federado](../connect/fda.md) módulo.
+* La creación de un flujo de trabajo permite recuperar eventos mediante la importación de archivos o mediante una puerta de enlace SQL, con el módulo [Acceso de datos federado](../connect/fda.md).
 
 Una vez recopilados, los eventos se desglosan, por flujos de trabajo técnicos, entre colas en tiempo real y por lotes de las instancias de ejecución, mientras esperan vincularse a una [plantilla de mensaje](transactional-template.md).
 
@@ -74,7 +74,7 @@ De forma predeterminada, el enrutamiento se basa en la siguiente información:
 
 ## Comprobar estado del evento {#event-statuses}
 
-Todos los eventos procesados se agrupan en una sola vista, en la variable **Historial de eventos** o el Explorador. Pueden clasificarse por tipo de evento o por **estado**.
+Todos los eventos procesados se agrupan en una sola vista, en la carpeta **Event history** o en el explorador. Pueden clasificarse por tipo de evento o por **estado**.
 
 Los estados posibles son:
 
@@ -86,7 +86,7 @@ Los estados posibles son:
 * **Envío pendiente**
 El evento se procesó y la plantilla de envíos está vinculada. El correo electrónico está pendiente de envío y se aplica el proceso de entrega clásico. Abra la entrega para obtener más información.
 * **Enviado**, **Ignorado** y **Error de envío**
-Estos estados de envío se recuperan mediante la variable **updateEventsStatus** flujo de trabajo. Para obtener más información, se puede abrir la entrega correspondiente.
+Estos estados de envío se recuperan mediante el flujo de trabajo **updateEventsStatus**. Para obtener más información, se puede abrir la entrega correspondiente.
 * **Evento no cubierto**
 Error en la fase de enrutamiento de la mensajería transaccional. Por ejemplo, Adobe Campaign no encontró el correo electrónico que actúa como plantilla para el evento.
 * **Evento caducado**

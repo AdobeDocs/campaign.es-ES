@@ -30,13 +30,13 @@ Las direcciones semilla se añaden al destino de las entregas mediante su import
 >
 >Las direcciones semilla no se crean en la tabla de destinatarios sino en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos. De lo contrario, los campos ampliados no tienen en cuenta las direcciones semilla.
 >
->Se presenta un ejemplo de cómo ampliar la tabla de direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
+>Se presenta un ejemplo de cómo extender la tabla de direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
 
 
 
 ## Creación de direcciones semilla
 
-Las direcciones semilla no se administran a través de perfiles y destinatarios estándar, sino en un nodo específico del explorador de Adobe Campaign: **[!UICONTROL Resources > Campaign management > Seed addresses]**. Se pueden crear subcarpetas para organizar las direcciones semilla.
+Las direcciones semilla no se administran a través de perfiles y destinos estándar, sino en un nodo específico del explorador de Adobe Campaign: **[!UICONTROL Resources > Campaign management > Seed addresses]**. Se pueden crear subcarpetas para organizar las direcciones semilla.
 
 Adobe Campaign también permite crear plantillas de las direcciones semilla que se importan a los envíos o campañas, adaptándolas a las necesidades específicas de los envíos o campañas correspondientes. Consulte [Creación de plantillas de direcciones semilla](#creating-seed-address-templates).
 
@@ -53,11 +53,11 @@ Para crear direcciones semilla, siga estos pasos:
    >
    >No es necesario introducir todos los campos de cada pestaña al crear una dirección semilla. Los elementos de personalización que faltan se introducen de forma aleatoria durante el análisis de envío.
 
-1. En el **[!UICONTROL Address fields]** , introduzca los valores que desea insertar en los registros de envío durante la fase de análisis, en **[!UICONTROL nms:broadLog]** tabla.
+1. En la ficha **[!UICONTROL Address fields]**, introduzca los valores que desea insertar en los registros de envío durante la fase de análisis, en la tabla **[!UICONTROL nms:broadLog]**.
 
 1. En la pestaña **[!UICONTROL Additional data]**, introduzca los datos de personalización utilizados para los envíos creados en los flujos de trabajo de gestión de datos y a los que desea asignar un valor específico.
 
-   Asegúrese de que se han definido datos de destino adicionales con un alias que comience por &#39;@&#39; en **[!UICONTROL Enrichment]** actividad de flujo de trabajo. De lo contrario, no podrá usarlos correctamente con sus direcciones semilla en la actividad de envío.
+   Asegúrese de que se hayan definido datos de destino adicionales con un alias que comience por &#39;@&#39; en la actividad de flujo de trabajo **[!UICONTROL Enrichment]**. De lo contrario, no podrá usarlos correctamente con sus direcciones semilla en la actividad de envío.
 
 ### Creación de plantillas de direcciones semilla {#creating-seed-address-templates}
 
@@ -65,13 +65,13 @@ Puede crear plantillas de direcciones que se pueden importar y modificar para ca
 
 ### Direcciones semilla para envíos de correo directo {#direct-mail-seed-addresses}
 
-Para [envíos de correo directo](../send/direct-mail.md), las direcciones semilla se añaden durante la extracción y la mezcla en el documento de salida.
+Para [envíos de correo postal](../send/direct-mail.md), las direcciones semilla se agregan durante la extracción y se mezclan en el documento de salida.
 
 En las entregas por correo postal, el formato del archivo de extracción debe cumplir con las siguientes limitaciones:
 
 * No se debe utilizar la opción **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
 
-* Si se extraen colecciones de datos, estos campos deben tener un valor vacío para las direcciones semilla, a menos que la variable **[!UICONTROL Single row (expert user)]** La opción está seleccionada.
+* Si se extraen colecciones de elementos, estos campos tendrán un valor vacío para las direcciones semilla, a menos que se seleccione la opción **[!UICONTROL Single row (expert user)]**.
 
 ## Adición de direcciones semilla en una entrega{#seed-addresses-in-a-delivery}
 
@@ -81,13 +81,13 @@ Hay tres modos de inserción posibles:
 
 1. Introduzca direcciones semilla únicas.  Para ello, haga clic en el botón **[!UICONTROL Add]** y defina el contenido de los campos de dirección. Repita este proceso con cada dirección.
 
-1. Importar [plantillas de direcciones semilla](#creating-seed-address-template) y adaptarlos a sus necesidades. Para ello, haga clic en el **[!UICONTROL Import seed templates...]** y seleccione la carpeta que contiene las plantillas de dirección.
+1. Importe [plantillas de direcciones semilla](#creating-seed-address-template) y adáptelas para adaptarlas a sus necesidades. Para ello, haga clic en el vínculo **[!UICONTROL Import seed templates...]** y seleccione la carpeta que contiene las plantillas de dirección.
 
    Si es necesario, una vez añadidas, se puede hacer doble clic en ellas o hacer clic en el botón **[!UICONTROL Detail...]** para adaptar el contenido de cada dirección.
 
 1. Cree una condición para seleccionar dinámicamente las direcciones de control que desea insertar. Para ello, haga clic en el enlace **[!UICONTROL Edit the dynamic condition...]** e introduzca los parámetros de selección de las direcciones semilla. Por ejemplo, puede incluir todas las direcciones semilla que contenga una carpeta específica o las pertenecientes a un departamento específico de su organización.
 
-   Un ejemplo de esto se presenta en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
+   Se presenta un ejemplo de esto en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
 
 Para las entregas, también se puede personalizar la forma en que se insertan las direcciones en los archivos de extracción. De forma predeterminada, se insertan en el orden de clasificación del archivo de salida, pero se puede elegir insertarlos al final o al principio del archivo o aleatoriamente entre los receptores del destino principal.
 
@@ -95,7 +95,7 @@ Para las entregas, también se puede personalizar la forma en que se insertan la
 
 Para añadir direcciones semilla a un destinatario para una campaña, seleccione la operación y haga clic en la pestaña **[!UICONTROL Edit]**.
 
-Haga clic en **[!UICONTROL Advanced campaign settings...]** y luego el **[!UICONTROL Seed addresses]** pestaña. Las direcciones semilla insertadas desde la campaña se añaden al objetivo de cada entrega de la campaña.
+Haga clic en el vínculo **[!UICONTROL Advanced campaign settings...]** y luego en la ficha **[!UICONTROL Seed addresses]**. Las direcciones semilla insertadas desde la campaña se añaden al objetivo de cada entrega de la campaña.
 
 ## Direcciones semilla y tabla personalizada {#using-an-external-recipient-table}
 

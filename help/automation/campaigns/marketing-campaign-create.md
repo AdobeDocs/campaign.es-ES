@@ -14,19 +14,19 @@ ht-degree: 49%
 
 # Creación de programas y campañas{#create-programs-and-campaigns}
 
-Los componentes de orquestación de Campaign se encuentran en **[!UICONTROL Campaigns]** pestaña: aquí puede ver una descripción general de los programas y campañas de marketing, y sus elementos asociados.
+Los componentes de orquestación de campaña se encuentran en la pestaña **[!UICONTROL Campaigns]**: aquí puede ver una descripción general de los programas y campañas de marketing, y sus elementos asociados.
 
 Un programa de marketing consta de campañas, que están formadas por envíos, recursos, etc. Toda la información sobre las entregas, los presupuestos, los revisores y los documentos vinculados se agrupa en la campaña.
 
 ![](assets/campaigns-create-from-home.png)
 
-![](assets/do-not-localize/how-to-video.png) [Descubra programas y campañas con este vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [Descubra programas y campañas en vídeo](#video)
 
 ## Trabajar con programas y planes{#work-with-plan-and-program}
 
 ### Creación de la jerarquía de planes y programas {#create-plan-and-program}
 
-Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Todos los planes, programas y campañas están disponibles a través de la **[!UICONTROL Campaign calendar]** en el menú **Campañas** pestaña.
+Cada campaña pertenece a un programa que, a su vez, pertenece a un plan. Todos los planes, programas y campañas están disponibles a través del menú **[!UICONTROL Campaign calendar]** en la pestaña **Campañas**.
 
 Antes de empezar a crear campañas y envíos, configure la jerarquía de carpetas para planes y programas de marketing.
 
@@ -54,7 +54,7 @@ Antes de empezar a crear campañas y envíos, configure la jerarquía de carpeta
 
 Al editar un programa, utilice las pestañas que se describen a continuación para explorarlo y configurarlo.
 
-* El **Programación** La pestaña muestra el calendario de programas de un mes, una semana o un día según la pestaña en la que haga clic en el encabezado del calendario. Puede crear una campaña, un programa o una tarea desde esta página. [Más información](#campaign-calendar)
+* La ficha **Programar** muestra el calendario de programas de un mes, una semana o un día, en función de la ficha en la que haga clic en el encabezado del calendario. Puede crear una campaña, un programa o una tarea desde esta página. [Más información](#campaign-calendar)
 
 * La pestaña **Editar** permite personalizar el programa: nombre, fechas de inicio y finalización, presupuesto, documentos vinculados, etc.
 
@@ -64,7 +64,7 @@ Al editar un programa, utilice las pestañas que se describen a continuación pa
 
 ### Creación de una campaña {#create-a-campaign}
 
-Puede crear una campaña a través de la lista de campañas. Para mostrar esta vista, seleccione **[!UICONTROL Campaigns]** en el menú **[!UICONTROL Campaigns]** panel y haga clic en **[!UICONTROL Create]**.
+Puede crear una campaña a través de la lista de campañas. Para mostrar esta vista, seleccione el menú **[!UICONTROL Campaigns]** en el panel **[!UICONTROL Campaigns]** y haga clic en **[!UICONTROL Create]**.
 
 El campo **[!UICONTROL Program]** permite seleccionar el programa al que se asocia la campaña. Esta información es obligatoria.
 
@@ -78,8 +78,8 @@ Haga clic en **[!UICONTROL OK]** para crear la campaña. Se añade a la programa
 
 A continuación, puede editar la campaña que acaba de crear y definir sus parámetros. Para abrir y configurar esta campaña, puede:
 
-1. Examine el calendario de campañas y seleccione la campaña que desee visualizar y luego haga clic en **[!UICONTROL Open]** vínculo.
-1. Examine la **[!UICONTROL Schedule]** del programa, seleccione la campaña y ábrala.
+1. Examine el calendario de campañas, seleccione la campaña que desee visualizar y luego haga clic en el vínculo **[!UICONTROL Open]**.
+1. Examine la pestaña **[!UICONTROL Schedule]** del programa, seleccione la campaña y ábrala.
 1. Examine la lista de campañas y haga clic en el nombre de la campaña que desea editar.
 
 Todas estas acciones le llevan al panel de campañas.
@@ -109,7 +109,7 @@ Para cada campaña, están disponibles las siguientes capacidades:
 
 >[!NOTE]
 >
->Para acceder y actualizar la configuración de la campaña, vaya a **[!UICONTROL Advanced campaign parameters...]** vínculo en el **[!UICONTROL Edit]** pestaña.
+>Para acceder y actualizar la configuración de la campaña, vaya al vínculo **[!UICONTROL Advanced campaign parameters...]** en la pestaña **[!UICONTROL Edit]**.
 
 ### Supervisión de una campaña {#monitor-a-campaign}
 
@@ -123,7 +123,7 @@ Con Adobe Campaign, puede configurar procesos de colaboración para la creación
 >
 >Los componentes disponibles en una campaña dependen de su plantilla. La configuración de la plantilla de campaña se presenta en [esta sección](marketing-campaign-templates.md#campaign-templates).
 
-Una vez completada la campaña, utilice el **[!UICONTROL Reports]** para acceder a los informes de campaña.
+Una vez completada la campaña, utilice el vínculo **[!UICONTROL Reports]** para acceder a los informes de campaña.
 
 ![](assets/campaigns-reports-dashboard.png)
 
@@ -131,7 +131,7 @@ Una vez completada la campaña, utilice el **[!UICONTROL Reports]** para acceder
 
 El calendario de campañas muestra todos los programas, planes, campañas y envíos.
 
-Para editar un plan, programa, campaña o entrega, busque su nombre en el calendario y luego utilice el **[!UICONTROL Open]** vínculo. A continuación se muestra en una nueva pestaña, como se muestra a continuación:
+Para editar un plan, programa, campaña o entrega, busque su nombre en el calendario y luego use el vínculo **[!UICONTROL Open]**. A continuación se muestra en una nueva pestaña, como se muestra a continuación:
 
 ![](assets/campaign-calendar.png)
 
@@ -192,7 +192,7 @@ Esta tabla resume las acciones que se pueden realizar en las campañas desde un 
 | Tarea | Finalizar una tarea<br/>Cancelar una tarea |
 | Recursos de marketing | Aprobar un recurso<br/>Bloqueo y desbloqueo de un recurso |
 | Paquete de campañas | Enviar un paquete para su aprobación<br/>Aprobar o rechazar un paquete<br/>Cancelar un paquete |
-| Pedido de la campaña | Creación de un pedido<br/>Aceptar o rechazar una solicitud |
+| Pedido de la campaña | Crear un pedido<br/>Aceptar o rechazar un pedido |
 | Stock | Eliminar una línea de stock |
 | Simulación de oferta | Inicio y parada de una simulación |
 | Flujo de trabajo de direccionamiento | Iniciar, pausar y detener un flujo de trabajo |

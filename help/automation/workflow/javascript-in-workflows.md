@@ -21,7 +21,7 @@ Estos ejemplos muestran cómo se puede utilizar el código JavaScript en un fluj
 * [Activación de un flujo de trabajo mediante un método estático SOAP](#trigger-example)
 * [Interacción con la base de datos mediante un método SOAP no estático](#interact-example)
 
-[Más información](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"} acerca de los métodos SOAP estáticos y no estáticos.
+SOAP [Más información](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"} acerca de los métodos estáticos y no estáticos de la.
 
 En estos ejemplos se utiliza la extensión ECMAScript para XML (E4X). Con esta extensión, puede combinar llamadas de JavaScript y primitivas XML en el mismo script.
 
@@ -79,7 +79,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Actualización de un registro
 
-Utilice el `_update` operación.
+Utilice la operación `_update`.
 
 Especifique esta información como atributos XML:
 
@@ -273,7 +273,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-El bucle incluye una variable de destinatario local. Para cada destinatario que se devuelve en la colección de destinatarios, se imprime el correo electrónico del destinatario. [Más información](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=es){target="_blank"} acerca de `logInfo` función.
+El bucle incluye una variable de destinatario local. Para cada destinatario que se devuelve en la colección de destinatarios, se imprime el correo electrónico del destinatario. [Más información](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=es){target="_blank"} sobre la función `logInfo`.
 
 #### Resultados de una operación `getIfExists`
 
@@ -611,11 +611,11 @@ Este vídeo muestra un ejemplo del uso de un método de API no estático en un f
 
 ### Documentación de API
 
-* [Ejemplos de llamadas SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"}
+* SOAP [Muestras de llamadas de](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"}
 * Métodos:
    * [Crear](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=es){target="_blank"}
    * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=es){target="_blank"}
    * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=es){target="_blank"}
    * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=es){target="_blank"}
-   * [Escritura](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=es){target="_blank"}
+   * [Escribir](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=es){target="_blank"}
 * [función logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=es){target="_blank"}

@@ -14,7 +14,7 @@ ht-degree: 2%
 
 # API de campaña de FDAC específicas{#gs-new-api}
 
-En el contexto de un [Implementación empresarial (FDAC)](enterprise-deployment.md), Campaign v8 viene con dos API específicas para administrar los datos entre la base de datos local de Campaign y la base de datos en la nube. Los requisitos previos para utilizarlos son habilitar el mecanismo de ensayo en el esquema. [Más información](staging.md)
+En el contexto de una implementación [Enterprise (FDAC) Deployment](enterprise-deployment.md) , Campaign v8 incluye dos API específicas para administrar los datos entre la base de datos local de Campaign y la base de datos en la nube. Los requisitos previos para utilizarlos son habilitar el mecanismo de ensayo en el esquema. [Más información](staging.md)
 
 * API de ingesta: **xtk.session.ingest**
 
@@ -28,13 +28,13 @@ Un flujo de trabajo integrado dedicado sincronizará los datos en la base de dat
 
 ## Inserción de datos{#data-insert-api}
 
-El **xtk.session.ingest** La API solo está dedicada a la inserción de datos. Sin actualización ni eliminación.
+La API **xtk.session.ingest** está dedicada únicamente a la inserción de datos. Sin actualización ni eliminación.
 
 ### Insertar sin reconciliación{#insert-no-reconciliation}
 
 **En un flujo de trabajo**
 
-Utilice el siguiente código en una **Código JavaScript** actividad para insertar datos en la base de datos en la nube sin reconciliación:
+Utilice el siguiente código en una actividad **Javascript code** para insertar datos en la base de datos en la nube sin reconciliación:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg
@@ -48,7 +48,7 @@ logInfo(strUuid);
 
 Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo esperado.
 
-**Desde una llamada SOAP**
+SOAP **Desde una llamada de**
 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
@@ -71,7 +71,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
    </soapenv:Envelope>
    ```
 
-1. UUID se devuelve a la respuesta SOAP:
+1. SOAP UUID se devuelve a la respuesta de la:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -91,7 +91,7 @@ Como resultado, la tabla de ensayo se alimenta según lo esperado.
 
 **En un flujo de trabajo**
 
-Utilice el siguiente código en una **Código JavaScript** actividad para insertar datos en la base de datos en la nube con reconciliación:
+Utilice el siguiente código en una actividad **Javascript code** para insertar datos en la base de datos en la nube con reconciliación:
 
 ```
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
@@ -108,7 +108,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
 ![](assets/with-reconciliation.png)
 
 
-**Desde una llamada SOAP**
+SOAP **Desde una llamada de**
 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
@@ -147,13 +147,13 @@ Como resultado, la tabla de ensayo se alimenta según lo esperado.
 
 ## Actualización o eliminación de datos{#data-update-api}
 
-El **xtk.session.IngestExt** La API está optimizada para actualizar o eliminar datos. Para insertar sólo, preferir **xtk.session.ingest**. Insert funciona si la clave de registro no está en la tabla provisional.
+La API **xtk.session.IngestExt** está optimizada para actualizar o eliminar datos. Solo para insertar, prefiere **xtk.session.ingest**. Insert funciona si la clave de registro no está en la tabla provisional.
 
 ### Insertar/actualizar
 
 **En un flujo de trabajo**
 
-Utilice el siguiente código en una **Código JavaScript** actividad para actualizar datos en la base de datos en la nube:
+Utilice el siguiente código en una actividad **Javascript code** para actualizar los datos en la base de datos en la nube:
 
 ```
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
@@ -168,7 +168,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se actualiza según lo
 
 ![](assets/updated-data.png)
 
-**Desde una llamada SOAP**
+SOAP **Desde una llamada de**
 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
@@ -191,7 +191,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se actualiza según lo
    </soapenv:Envelope>
    ```
 
-1. La respuesta SOAP es:
+1. SOAP La respuesta de la es:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -207,9 +207,9 @@ Como resultado, la tabla de ensayo se actualiza según lo esperado.
 
 La administración de suscripciones en Campaign se describe en [esta página](../start/subscriptions.md).
 
-La inserción de los datos de suscripción y baja depende del [Mecanismo de ensayo](staging.md) en la base de datos local de Campaign. La información del suscriptor se almacena temporalmente en tablas de ensayo de la base de datos local y el flujo de trabajo de sincronización envía estos datos desde la base de datos local a la base de datos en la nube. Como consecuencia, los procesos de suscripción y baja son **asíncrono**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](replication.md#tech-wf)
+La inserción de los datos de suscripción y baja se basa en el [Mecanismo de ensayo](staging.md) de la base de datos local de Campaign. La información del suscriptor se almacena temporalmente en tablas de ensayo de la base de datos local y el flujo de trabajo de sincronización envía estos datos desde la base de datos local a la base de datos en la nube. Como consecuencia, los procesos de suscripción y baja son **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](replication.md#tech-wf)
 
 
 **Temas relacionados**
 
-* [Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}
+* [JSAPI de campaña](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}

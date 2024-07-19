@@ -14,7 +14,7 @@ ht-degree: 56%
 
 # Sincronización de datos entre Campaign y CRM {#data-synchronization}
 
-La sincronización de datos entre Adobe Campaign y su CRM se administra mediante el **Conector CRM** actividad de flujo de trabajo.
+La actividad de flujo de trabajo **CRM Connector** administra la sincronización de datos entre Adobe Campaign y su CRM.
 
 Por ejemplo, para importar los datos de Microsoft Dynamics en Adobe Campaign, cree el siguiente tipo de flujo de trabajo:
 
@@ -48,12 +48,12 @@ Para importar datos del CRM a Adobe Campaign, debe crear el siguiente tipo de fl
 ![](assets/crm-wf-import.png)
 
 1. Seleccione una operación **[!UICONTROL Import from the CRM]**.
-1. En el **[!UICONTROL Remote object]** , seleccione el objeto que desea importar. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
-1. En el **[!UICONTROL Remote fields]** , introduzca los campos que desea importar.
+1. En la lista desplegable **[!UICONTROL Remote object]**, seleccione el objeto que desea importar. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
+1. En la sección **[!UICONTROL Remote fields]**, introduzca los campos que desea importar.
 
    Para agregar un campo, haga clic en el botón **[!UICONTROL Add]** en la barra de herramientas y, a continuación, haga clic en el icono **[!UICONTROL Edit expression]**.
 
-   Si es necesario, cambie el formato de los datos mediante la lista desplegable del **[!UICONTROL Conversion]** columnas. Los tipos de conversión posibles se detallan en [esta sección](#data-format).
+   Si es necesario, cambie el formato de los datos mediante la lista desplegable de las **[!UICONTROL Conversion]** columnas. Los tipos de conversión posibles se encuentran detallados en [esta sección](#data-format).
 
    >[!CAUTION]
    >
@@ -71,13 +71,13 @@ Para importar datos del CRM a Adobe Campaign, debe crear el siguiente tipo de fl
    >
    >Las limitaciones relacionadas con los modos de filtrado de datos se detallan en [esta sección](#filtering-data).
 
-1. Seleccione el **[!UICONTROL Use automatic index...]** para administrar automáticamente la sincronización de objetos incrementales entre su CRM y Adobe Campaign, en función de la fecha y la última modificación.
+1. Seleccione la opción **[!UICONTROL Use automatic index...]** para administrar automáticamente la sincronización de objetos incrementales entre su CRM y Adobe Campaign, según la fecha y la última modificación.
 
    Para obtener más información, consulte [esta sección](#variable-management).
 
 ### Administración de variables {#variable-management}
 
-Activar el **[!UICONTROL Automatic index]** para recopilar únicamente los objetos modificados desde la última importación.
+Active la opción **[!UICONTROL Automatic index]** para recopilar solamente los objetos modificados desde la última importación.
 
 ![](assets/use-auto-index.png)
 
@@ -148,17 +148,17 @@ Para exportar datos a su CRM, cree el siguiente tipo de flujo de trabajo:
 ![](assets/crm-export-diagram.png)
 
 1. Seleccione una operación **[!UICONTROL Export to CRM]**.
-1. Vaya a la **[!UICONTROL Remote object]** y seleccione el objeto que desea exportar. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
+1. Vaya a la lista desplegable **[!UICONTROL Remote object]** y seleccione el objeto que desea exportar. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
 
    >[!CAUTION]
    >
-   >La función de exportación del **[!UICONTROL CRM Connector]** La actividad de puede insertar o actualizar campos en su CRM. Para habilitar las actualizaciones de campo en CRM, especifique la clave principal de la tabla remota. Si falta la clave, se insertan los datos en lugar de actualizarse.
+   >La función de exportación de la actividad **[!UICONTROL CRM Connector]** puede insertar o actualizar campos en su CRM. Para habilitar las actualizaciones de campo en CRM, especifique la clave principal de la tabla remota. Si falta la clave, se insertan los datos en lugar de actualizarse.
 
-1. Si necesita realizar exportaciones más rápidas, consulte la  **[!UICONTROL Export in Batches]** opción.
+1. Si necesita realizar exportaciones más rápidas, marque la opción **[!UICONTROL Export in Batches]**.
 
    ![](assets/crm-export-batch.png)
 
-1. En el **[!UICONTROL Mapping]** , haga clic en **[!UICONTROL New]** para especificar los campos que se exportarán y su asignación en CRM.
+1. En la sección **[!UICONTROL Mapping]**, haga clic en **[!UICONTROL New]** para especificar los campos que se exportarán y su asignación en CRM.
 
    Para agregar un campo, haga clic en el botón **[!UICONTROL Add]** en la barra de herramientas y, a continuación, haga clic en el icono **[!UICONTROL Edit expression]**.
 
@@ -166,7 +166,7 @@ Para exportar datos a su CRM, cree el siguiente tipo de flujo de trabajo:
    >
    >Si no se define ninguna coincidencia para un campo, los valores no se pueden actualizar: se insertan directamente en el CRM.
 
-   Si es necesario, cambie el formato de los datos mediante la lista desplegable del **[!UICONTROL Conversion]** columnas. Los tipos de conversión posibles se detallan en [esta sección](#data-format).
+   Si es necesario, cambie el formato de los datos mediante la lista desplegable de las **[!UICONTROL Conversion]** columnas. Los tipos de conversión posibles se encuentran detallados en [esta sección](#data-format).
 
    >[!NOTE]
    >
@@ -200,7 +200,7 @@ Estas opciones añaden las transiciones de salida relacionadas.
 
 ![](assets/crm-export-transitions.png)
 
-A continuación, inserte las actividades relevantes para procesar datos. Por ejemplo, añada un **Esperar** reintentos de actividad y programación en busca de errores.
+A continuación, inserte las actividades relevantes para procesar datos. Por ejemplo, agregue una actividad **Wait** y programe reintentos para detectar errores.
 
 La transición de salida **[!UICONTROL Reject]** permite acceder al esquema de salida que contiene las columnas específicas de los mensajes de error y los códigos. Para Salesforce.com, esta columna es **errorSymbol** (símbolo de error, distinto del código de error), **errorMessage** (descripción del contexto del error).
 
@@ -210,7 +210,7 @@ Puede importar objetos eliminados en su CRM a Adobe Campaign.
 
 1. Seleccione una operación **[!UICONTROL Import objects deleted in the CRM]**.
 1. Ir a la lista desplegable **[!UICONTROL Remote object]** y seleccionar el objeto afectado en el proceso. Este objeto coincide con una de las tablas creadas en Adobe Campaign durante la configuración del conector.
-1. Especifique el periodo de eliminación a tener en cuenta en la **[!UICONTROL Start date]** y el **[!UICONTROL End date]** campos (las fechas están incluidas).
+1. Especifique el período de eliminación a tener en cuenta en los campos **[!UICONTROL Start date]** y **[!UICONTROL End date]** (se incluyen las fechas).
 
    >[!CAUTION]
    >

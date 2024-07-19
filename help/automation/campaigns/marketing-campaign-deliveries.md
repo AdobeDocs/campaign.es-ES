@@ -22,27 +22,27 @@ Las entregas se pueden crear a través del panel de la campaña, un flujo de tra
 
 Tiene dos formas de añadir envíos a sus campañas de marketing:
 
-* Desde el **[!UICONTROL Add a delivery]** en el panel de campañas.
+* Desde el vínculo **[!UICONTROL Add a delivery]** en el panel de campañas.
 
 ![](assets/campaign_op_add_delivery.png)
 
 Una vez guardada, la entrega se agrega al panel de campañas.
 
-* Desde un flujo de trabajo de campaña, en la variable **[!UICONTROL Targeting and workflows]** pestaña, añadiendo la entrega.
+* Desde un flujo de trabajo de campaña, en la pestaña **[!UICONTROL Targeting and workflows]**, agregando la entrega.
 
   ![](assets/campaign-wf-delivery.png)
 
   Una vez iniciado el flujo de trabajo, la entrega se agrega al panel de campañas.
 
-Obtenga información sobre cómo configurar y ejecutar el flujo de aprobación de envíos [en esta página](marketing-campaign-approval.md).
+Aprenda a configurar y ejecutar el flujo de aprobación de envíos [en esta página](marketing-campaign-approval.md).
 
 ## Inicio de una entrega {#start-a-delivery}
 
 Se puede realizar una entrega una vez que se hayan concedido todas las aprobaciones. El proceso de ejecución de la entrega depende del canal.
 
-* Para las entregas por correo electrónico o por canal móvil, consulte [esta sección](#start-an-online-delivery)
+* Para los envíos por correo electrónico o por canal móvil, consulte [esta sección](#start-an-online-delivery)
 
-* Para las entregas de correo directo, consulte [esta sección](#start-an-offline-delivery)
+* Para las entregas de correo postal, consulte [esta sección](#start-an-offline-delivery)
 
 ### Iniciar un envío de correo electrónico o móvil {#start-an-online-delivery}
 
@@ -58,12 +58,12 @@ La confirmación de la entrega está restringida a administradores y al operador
 
 ![](assets/select-delivery-reviewers.png)
 
-Sin embargo, también puede permitir que el propietario de la campaña confirme el envío, incluso si se han definido revisores específicos en las propiedades de entrega o de campaña. Para ello, como administrador, cree la variable **NmsCampaign_Activate_OwnerConfirmation** y configúrelo en. **1**. Las opciones se administran desde el **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** del explorador de Campaign.
+Sin embargo, también puede permitir que el propietario de la campaña confirme el envío, incluso si se han definido revisores específicos en las propiedades de entrega o de campaña. Para ello, como administrador, cree la opción **NmsCampaign_Activate_OwnerConfirmation** y configúrela en **1**. Las opciones se administran desde la carpeta **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** del explorador de Campaign.
 
 
 ### Inicio de una entrega de correo directo {#start-an-offline-delivery}
 
-Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UICONTROL Pending extraction]**. Los archivos de extracción se crean mediante un [flujo de trabajo técnico](../workflow/technical-workflows.md) que, en una configuración predeterminada, se inicia automáticamente cuando una entrega de correo directo está pendiente de extracción. Cuando un proceso está en curso, se muestra en el panel y se puede editar a través de su enlace.
+Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UICONTROL Pending extraction]**. Los archivos de extracción se crean mediante un [flujo de trabajo técnico](../workflow/technical-workflows.md) dedicado que, en una configuración predeterminada, se inicia automáticamente cuando una entrega de correo directo está pendiente de extracción. Cuando un proceso está en curso, se muestra en el panel y se puede editar a través de su enlace.
 
 Una vez ejecutado correctamente el flujo de trabajo de extracción, se debe aprobar el archivo de extracción (siempre que se haya seleccionado la aprobación del archivo de extracción en la configuración de envío). [Más información](marketing-campaign-approval.md#approving-an-extraction-file).
 
@@ -71,7 +71,7 @@ Siga los pasos a continuación para validar el contenido y enviar el archivo al 
 
 1. Una vez aprobado el archivo de extracción, puede generar la prueba del correo electrónico de notificación del enrutador. Este mensaje de correo electrónico se crea en función de una plantilla de envíos. Debe ser aprobado.
 
-   Este paso solo está disponible si **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** se activó en **[!UICONTROL Approvals]** de los parámetros de campaña avanzados.
+   Este paso solo está disponible si la opción **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** se habilitó en la pestaña **[!UICONTROL Approvals]** de los parámetros de campaña avanzados.
 
    ![](assets/enable-proof-validation.png)
 
@@ -99,11 +99,11 @@ La extracción de archivos inicia dos procesos: cálculo de presupuesto y cálcu
 
   El coste real se calcula a partir de la información proporcionada por el enrutador. Solo se facturan los mensajes que se han enviado realmente.
 
-* Las existencias se definen en la variable **[!UICONTROL Administration > Campaign management > Stocks]** nodo del árbol.
+* Las existencias se definen en el nodo **[!UICONTROL Administration > Campaign management > Stocks]** del árbol.
 
   ![](assets/campaign-stocks.png)
 
-  Estructuras de coste en **[!UICONTROL Administration > Campaign management > Service providers]** nodo.
+  Estructuras de coste en el nodo **[!UICONTROL Administration > Campaign management > Service providers]**.
 
   ![](assets/campaign-service-providers.png)
 
@@ -112,4 +112,4 @@ La extracción de archivos inicia dos procesos: cálculo de presupuesto y cálcu
 
   >[!NOTE]
   >
-  >Más información sobre los presupuestos [en esta sección](providers-stocks-and-budgets.md).
+  >Obtenga más información acerca de los presupuestos [en esta sección](providers-stocks-and-budgets.md).

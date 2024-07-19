@@ -49,7 +49,7 @@ Antes de configurar la actividad, asegúrese de que se cumplan los siguientes re
    La actividad permite utilizar las siguientes variables en el script:
 
    * **activity.tableName**: Nombre SQL de la tabla de trabajo saliente.
-   * **task.incomingTransitionByName(&#39;name&#39;).tableName**: Nombre SQL de la tabla de trabajo realizada por la transición entrante para utilizar (la transición se identifica con su nombre).
+   * **task.incomingTransitionByName(&#39;name&#39;).tableName**: nombre SQL de la tabla de trabajo realizada por la transición entrante que se va a utilizar (la transición se identifica con su nombre).
 
      >[!NOTE]
      >

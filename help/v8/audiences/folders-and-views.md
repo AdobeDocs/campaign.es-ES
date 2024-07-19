@@ -27,13 +27,14 @@ Tenga en cuenta que puede asignar permisos a las carpetas para restringir el acc
 
 ## Prácticas recomendadas al trabajar con carpetas{#best-practices-folders}
 
-* **Uso de carpetas integradas** para facilitar el uso, mantenimiento y solución de problemas de la aplicación a todas las personas involucradas en el proyecto. Evite crear estructuras de carpetas personalizadas para destinatarios, listas, envíos, etc., pero utilice las carpetas estándar como **Administration**, **Perfiles y objetivos**, **Administración de campañas**.
+* **Use carpetas integradas** para que sea más fácil para todas las personas involucradas en el proyecto usar, mantener y solucionar problemas de la aplicación. Evite crear estructuras de carpetas personalizadas para destinatarios, listas, envíos, etc., pero use las carpetas estándar como **Administración**, **Perfiles y objetivos**, **Administración de campañas**.
 
-* **Creación de subcarpetas**, por ejemplo, guarde los flujos de trabajo técnicos en la carpeta integrada: **[!UICONTROL Administration > Production > Technical Workflows]** y cree subcarpetas por tipo de flujo de trabajo.
+* **Cree subcarpetas**; por ejemplo, guarde los flujos de trabajo técnicos en la carpeta integrada: **[!UICONTROL Administration > Production > Technical Workflows]** y cree subcarpetas por tipo de flujo de trabajo.
 
-* **Definición y aplicación de una convención de nombres** Por ejemplo, puede asignar un nombre a los flujos de trabajo en orden alfabético, de modo que aparezcan ordenados en orden de ejecución, como:
+* **Defina y aplique una convención de nombres**; por ejemplo, puede asignar un nombre a los flujos de trabajo en orden alfabético, de modo que aparezcan ordenados en orden de ejecución, como:
 
-  A1 - importar destinatarios, comienza a las 10:00; A2 - importar tickets, comienza a las 11:00.
+  A1 - importar destinatarios, comienza a las 10:00;
+A2 - importar tickets, comienza a las 11:00.
 
 ## Crear una carpeta{#create-a-folder}
 
@@ -67,7 +68,7 @@ Puede convertir cualquier carpeta en una vista, pero la carpeta debe estar vací
 
 En el siguiente ejemplo, crearemos una nueva carpeta para mostrar solo los envíos de EE. UU., según su nombre interno.
 
-1. Crear un **[!UICONTROL Deliveries]** carpeta y asígnele un nombre **Envíos de EE. UU.**.
+1. Cree una carpeta **[!UICONTROL Deliveries]** y asígnele el nombre **Envíos de EE. UU.**.
 1. Haga clic con el botón derecho en esta carpeta y seleccione **[!UICONTROL Properties...]**.
 1. En la pestaña **[!UICONTROL Restriction]**, seleccione **[!UICONTROL This folder is a view]**. Eso hace que se muestren todas las entregas de la base de datos.
 
@@ -84,15 +85,15 @@ En el siguiente ejemplo, crearemos una nueva carpeta para mostrar solo los enví
 
 >[!CAUTION]
 >
->Al administrar [mensajería transaccional](../send/transactional.md) eventos, el **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** las carpetas no deben configurarse como vistas en las instancias de ejecución, ya que esto podría provocar problemas con los permisos.
+>Al administrar [eventos de mensajería transaccional](../send/transactional.md), las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben establecerse como vistas en las instancias de ejecución, ya que esto podría provocar problemas de permisos.
 
 ## Organizar las carpetas{#organize-your-folders}
 
 De forma predeterminada, se agrega una carpeta nueva en la parte superior de la jerarquía.
 
-Examine la **Subcarpetas** de las propiedades de una carpeta para organizar sus subcarpetas.
+Examine la pestaña **Subcarpetas** de las propiedades de una carpeta para organizar sus subcarpetas.
 
-Puede mover las carpetas con las flechas a la derecha o seleccionar la **[!UICONTROL Sort the sub-folders in alphabetical order]** para ordenarlos automáticamente.
+Puede mover las carpetas con las flechas a la derecha o seleccionar la opción **[!UICONTROL Sort the sub-folders in alphabetical order]** para ordenarlas automáticamente.
 
 ![](assets/sort-folders.png)
 
@@ -108,4 +109,4 @@ Por ejemplo, la carpeta a continuación solo contendrá contactos con una direcc
 
 ## Restringir el acceso a una carpeta{#restrict-access-to-a-folder}
 
-Utilice permisos en las carpetas para organizar y controlar el acceso a los datos de Campaign. Obtenga más información acerca de los permisos de en las carpetas de [esta sección](../start/folder-permissions.md).
+Utilice permisos en las carpetas para organizar y controlar el acceso a los datos de Campaign. Obtenga más información acerca de los permisos en las carpetas de [esta sección](../start/folder-permissions.md).

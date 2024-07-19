@@ -27,7 +27,7 @@ Como antiguo usuario de la versión 7 de [!DNL Campaign Classic], no debería su
 
 La versión 8 de Adobe Campaign está disponible como **servicio en la nube administrado**.
 
-Adobe Campaign Managed Cloud Services ofrece una plataforma de servicios administrados para diseñar experiencias multicanal para los clientes y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal. Obtenga más información sobre los Cloud Service administrados de Campaign en la [página de descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services ofrece una plataforma de servicios administrados para diseñar experiencias multicanal para los clientes y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal. Obtenga más información acerca de los Cloud Service administrados de Campaign en la [página de descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 La nueva oferta combina los mejores servicios con supervisión proactiva y alertas oportunas, centrándose en tres áreas:
 
@@ -50,23 +50,23 @@ Como consecuencia:
 * El estado de los envíos no se actualiza instantáneamente: se ejecuta un proceso técnico en la instancia de Marketing que actualizará los estados de entrega de forma oportuna.
 
 
-Obtenga más información acerca del envío de pruebas de mensajes transaccionales al realizar la transición de v7 en [esta página](../send/transactional-template.md#transition-from-v7).
+Obtenga más información acerca del envío de pruebas de mensajes transaccionales al realizar la transición desde la versión 7 en [esta página](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] y [!DNL Snowflake] {#ac-gs-snowflake}
 
-En su [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: un local [!DNL Campaign] base de datos para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una nube de [!DNL Snowflake] base de datos para la ejecución de campañas, consultas por lotes y la ejecución del flujo de trabajo.
+En su implementación [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: una base de datos [!DNL Campaign] local para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una base de datos [!DNL Snowflake] de la nube para la ejecución de campañas, consultas por lotes y la ejecución del flujo de trabajo.
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FDAC) simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 
-Más información sobre [!DNL Campaign] Arquitectura de v8 en [esta página](../architecture/architecture.md).
+Obtenga más información acerca de la arquitectura de [!DNL Campaign] v8 en [esta página](../architecture/architecture.md).
 
 
 ## Utilice su Adobe ID para conectarse a Campaign{#adobe-id}
 
 Los usuarios de Campaign solo se conectan mediante su Adobe ID. El mismo Adobe ID se utiliza para mantener todos sus planes de Adobe y productos asociados a una sola cuenta, para todas las soluciones de Adobe Experience Cloud.
 
-Obtenga información sobre cómo conectarse a [!DNL Campaign] in [esta página](connect.md).
+Aprenda a conectarse a [!DNL Campaign] en [esta página](connect.md).
 
 ## Analizar datos con cubos{#adobe-reporting}
 

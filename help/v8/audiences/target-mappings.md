@@ -14,9 +14,9 @@ ht-degree: 38%
 
 # Trabajar con asignaciones de destino{#gs-target-mappings}
 
-De forma predeterminada, las plantillas de envío de correo electrónico y SMS están segmentadas **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient**.
+De manera predeterminada, las plantillas de envío de correo electrónico y SMS tienen como destino **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient**.
 
-Para las notificaciones push, la asignación de destino predeterminada es **Aplicaciones del suscriptor (nms:appSubscriptionRcp)**, que está vinculado a la tabla de destinatarios.
+Para las notificaciones push, la asignación de destino predeterminada es **Aplicaciones del suscriptor (nms:appSubscriptionRcp)**, que está vinculada a la tabla de destinatarios.
 
 Puede utilizar otras asignaciones de destino para los envíos o crear una nueva asignación de destino.
 
@@ -42,11 +42,11 @@ También puede crear una asignación de destino. Es posible que tenga que agrega
 * se utiliza una tabla de destinatarios personalizada,
 * puede configurar una dimensión de filtrado diferente de la dimensión de segmentación integrada en la pantalla de asignación de destino.
 
-Obtenga más información sobre las tablas de destinatarios personalizadas en [esta página](../dev/custom-recipient.md).
+Obtenga más información acerca de las tablas de destinatarios personalizadas en [esta página](../dev/custom-recipient.md).
 
 El asistente de creación de asignaciones de destino de Adobe Campaign le ayuda a crear todos los esquemas necesarios para utilizar la asignación de destino personalizada.
 
-1. Navegar a **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** desde el explorador de Adobe Campaign.
+1. Vaya a **[!UICONTROL Administration]** `>` **[!UICONTROL Campaign Management]** `>` **[!UICONTROL Target mappings]** desde el explorador de Adobe Campaign.
 
 1. Cree una nueva asignación de destino y seleccione el esquema personalizado como dimensión de segmentación.
 

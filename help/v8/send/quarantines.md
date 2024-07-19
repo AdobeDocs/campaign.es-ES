@@ -20,9 +20,9 @@ Cuando su dirección o número de teléfono están en cuarentena, los destinatar
 
 <!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
 
-**Cuarentena** solo se aplica a un **dirección**, a **número de teléfono**, o a **token de dispositivo**, pero no al propio perfil. Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva, y luego puede volver a recibir entregas. Del mismo modo, si dos perfiles tienen el mismo número de teléfono, ambos se verán afectados si el número está en cuarentena. Las direcciones en cuarentena o los números de teléfono se muestran en los [registros de exclusión](#delivery-quarantines) (para una entrega) o en la [lista de cuarentena](#non-deliverable-bounces) (para toda la plataforma).
+**La cuarentena** solo se aplica a una **dirección**, un **número de teléfono** o un **token de dispositivo**, pero no al propio perfil. Del mismo modo, un perfil cuya dirección de correo electrónico se haya puesto en cuarentena puede actualizar su perfil e introducir una nueva, y luego puede volver a recibir entregas. Del mismo modo, si dos perfiles tienen el mismo número de teléfono, ambos se verán afectados si el número está en cuarentena. Las direcciones en cuarentena o los números de teléfono se muestran en los [registros de exclusión](#delivery-quarantines) (para una entrega) o en la [lista de cuarentena](#non-deliverable-bounces) (para toda la plataforma).
 
-Por otro lado, los perfiles pueden estar en la **lista de bloqueados de** como después de una baja (exclusión), para un canal determinado: esto implica que ya no están en el objetivo de ningún canal. Como consecuencia, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. [Más información](../audiences/view-profiles.md)
+Por otro lado, los perfiles pueden estar en la **lista de bloqueados de** como después de una cancelación de la suscripción (exclusión), para un canal determinado: esto implica que ya no están en el punto de mira de ningún canal. Como consecuencia, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. [Más información](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
@@ -32,17 +32,17 @@ Por otro lado, los perfiles pueden estar en la **lista de bloqueados de** como d
 
 ## ¿Por qué se envía un correo electrónico, un teléfono o un dispositivo a cuarentena? {#quarantine-reason}
 
-Adobe Campaign administra la cuarentena según el tipo de error de entrega y su motivo. Se asignan durante la calificación de mensajes de error. Más información sobre la administración de errores de entrega [en esta página](delivery-failures.md).
+Adobe Campaign administra la cuarentena según el tipo de error de entrega y su motivo. Se asignan durante la calificación de mensajes de error. Obtenga más información acerca de la administración de errores de entrega [en esta página](delivery-failures.md).
 
 Se pueden capturar dos tipos de errores:
 
 * **Error grave**: la dirección de correo electrónico, el número de teléfono o el dispositivo se envían inmediatamente a cuarentena.
-* **Error leve**: los errores leves incrementan un contador de errores y podrían poner en cuarentena un correo electrónico, un número de teléfono o un token de dispositivo. Rendimiento de campaña [reintentos](delivery-failures.md#retries): cuando el contador de errores alcanza el umbral de límite, la dirección, el número de teléfono o el token del dispositivo se ponen en cuarentena. [Más información](delivery-failures.md#retries).
+* **Error leve**: los errores leves incrementan un contador de errores y podrían poner en cuarentena un correo electrónico, un número de teléfono o un token de dispositivo. Campaign realiza [reintentos](delivery-failures.md#retries): cuando el contador de errores alcanza el umbral de límite, la dirección, el número de teléfono o el token del dispositivo se ponen en cuarentena. [Más información](delivery-failures.md#retries).
 
 En la lista de direcciones en cuarentena, el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se envía a cuarentena. [Más información](#identifying-quarantined-addresses-for-the-entire-platform).
 
 
-Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón de correo técnico administrado por el Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no está en la lista de bloqueados de la para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información sobre los bucles de comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
+Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón de correo técnico administrado por el Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no está en la lista de bloqueados de la para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información acerca de los bucles de comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -56,14 +56,14 @@ Las direcciones en cuarentena se pueden mostrar para una entrega específica o p
 
 Las direcciones en cuarentena se enumeran durante la fase de preparación de la entrega, en los registros de envío del panel de envío.
 
-Para cada entrega, también puede comprobar las **[!UICONTROL Delivery summary]** report: muestra el número de direcciones en cuarentena en el destino de la entrega y muestra:
+Para cada entrega, también puede comprobar el informe **[!UICONTROL Delivery summary]**: muestra el número de direcciones en cuarentena en el destino de la entrega y muestra:
 
 * El número de direcciones puestas en cuarentena durante el análisis de la entrega.
 * El número de direcciones puestas en cuarentena después de la acción de entrega.
 
 ### Direcciones de devolución y envío no permitidas{#non-deliverable-bounces}
 
-Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los administradores de Campaign pueden navegar a  **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**. Esta sección enumera los elementos en cuarentena para **email**, **SMS** y **Notificación push** canales.
+Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los administradores de Campaign pueden examinar **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**. Esta sección lista los elementos en cuarentena para los canales **email**, **SMS** y **Notificación push**.
 
 ![](assets/tech-quarantine.png)
 
@@ -75,7 +75,7 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 >
 Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
-Además, la variable **[!UICONTROL Non-deliverables and bounces]** informe integrado, disponible en el **Informes** de esta página de inicio, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de una entrega específica o personalizar este informe según sea necesario.
+Además, el informe integrado **[!UICONTROL Non-deliverables and bounces]**, disponible en la sección **Informes** de esta página de inicio, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de una entrega específica o personalizar este informe según sea necesario.
 
 Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
@@ -85,14 +85,14 @@ Se puede buscar el estado del correo electrónico de cualquier destinatario.
 
 Para ello, seleccione el perfil de destinatario y haga clic en la pestaña **[!UICONTROL Deliveries]**. Para todas las entregas a ese destinatario, se puede averiguar si la dirección falló, si se puso en cuarentena durante el análisis, etc.
 
-Para cada carpeta, puede mostrar solo los destinatarios cuya dirección de correo electrónico esté en cuarentena, con la variable **[!UICONTROL Quarantined email address]** filtro integrado, como se muestra a continuación:
+Para cada carpeta, puede mostrar solo los destinatarios cuya dirección de correo electrónico esté en cuarentena, con el filtro integrado **[!UICONTROL Quarantined email address]**, como se muestra a continuación:
 
 ![](assets/quarantine-filter.png)
 
 
 ## Eliminación de una dirección en cuarentena {#remove-a-quarantined-address}
 
-Las direcciones que coinciden con condiciones específicas se eliminan automáticamente de la lista de cuarentena mediante el **Database cleanup** flujo de trabajo integrado.
+Las direcciones que coinciden con condiciones específicas se eliminan automáticamente de la lista de cuarentena mediante el flujo de trabajo integrado de **Limpieza de base de datos**.
 
 Las direcciones se eliminan automáticamente de la lista de cuarentena en los siguientes casos:
 
@@ -108,7 +108,7 @@ Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o 
 
 También puede eliminar manualmente una dirección de la lista de cuarentena. Para eliminar una dirección de la cuarentena, puede:
 
-* Cambie su estado a **[!UICONTROL Valid]** desde el **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]** nodo.
+* Cambie su estado a **[!UICONTROL Valid]** desde el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
 
   ![](assets/tech-quarantine-status.png)
 
@@ -123,5 +123,5 @@ A continuación se muestran las directrices recomendadas para esta consulta:
 * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
 * **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
 
-Una vez que tenga la lista de destinatarios afectados, añada una **[!UICONTROL Update data]** actividad para establecer su estado en **[!UICONTROL Valid]** por lo tanto, serán eliminados de la lista de cuarentena por el **[!UICONTROL Database cleanup]** flujo de trabajo. También puede eliminarlos de la tabla de cuarentena.
+Una vez que tenga la lista de destinatarios afectados, agregue una actividad **[!UICONTROL Update data]** para establecer su estado en **[!UICONTROL Valid]** y el flujo de trabajo **[!UICONTROL Database cleanup]** los eliminará de la lista de cuarentena. También puede eliminarlos de la tabla de cuarentena.
 

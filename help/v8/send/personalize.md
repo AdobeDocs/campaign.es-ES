@@ -16,10 +16,10 @@ ht-degree: 71%
 
 Para sacar el máximo partido a cada campaña de marketing, Adobe Campaign le ofrece una forma de ofrecer contenido personalizado que hable con los clientes de su nivel. En función de los datos de perfil, las capacidades de personalización permiten crear una experiencia personalizada para diferentes grupos e individuos: puede adaptar los mensajes a cada destinatario específico aprovechando los datos y la información que tiene sobre ellos. Puede ser su nombre, intereses, dónde viven, qué compraron y mucho más.
 
-Adobe Campaign simplifica la personalización: puede mostrar diferentes tipos de contenido personalizado para cada destinatario con un solo [plantilla de mensaje](create-templates.md). En los mensajes transaccionales, como los correos electrónicos de confirmación de compra o de abandono del carro de compras, incluya información de listados de productos para cada individuo dentro de una sola plantilla de correo electrónico.
+Adobe Campaign simplifica la personalización: puede mostrar diferentes tipos de contenido personalizado para cada destinatario con una sola [plantilla de mensaje](create-templates.md). En los mensajes transaccionales, como los correos electrónicos de confirmación de compra o de abandono del carro de compras, incluya información de listados de productos para cada individuo dentro de una sola plantilla de correo electrónico.
 
 
-## Estrategias de personalización {#personalization-strategy}
+## Estrategias de Personalization {#personalization-strategy}
 
 Utilice Campaign para crear contenido dinámico y enviar mensajes personalizados. Las funcionalidades de personalización se pueden combinar para mejorar sus mensajes y crear una experiencia de usuario personalizada.
 
@@ -47,7 +47,7 @@ Puede personalizar el contenido del mensaje haciendo lo siguiente:
 
 ## Protecciones y recomendaciones{#perso-guardrails}
 
-### Tiempo de espera de personalización{#perso-timeout}
+### Tiempo de espera de Personalization{#perso-timeout}
 
 Para mejorar la protección de la entrega, puede establecer un período de espera para la fase de personalización.
 

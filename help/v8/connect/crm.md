@@ -41,8 +41,8 @@ Los CRM y versiones compatibles se detallan en la [matriz de compatibilidad de C
 
 ## Pasos de implementación {#crm-implementation-steps}
 
-Conozca el procedimiento paso a paso para conectar Campaign y Microsoft Dynamics en [esta página](ac-ms-dyn.md).
+Aprenda el procedimiento paso a paso para conectar Campaign y Microsoft Dynamics en [esta página](ac-ms-dyn.md).
 
-Conozca el procedimiento paso a paso para conectar Campaign y Salesforce.com en [esta página](ac-sfdc.md).
+Aprenda el procedimiento paso a paso para conectar Campaign y Salesforce.com en [esta página](ac-sfdc.md).
 
 La sincronización de datos entre Adobe Campaign y CRM se lleva a cabo mediante una actividad de flujo de trabajo dedicada. Cree sus flujos de trabajo para automatizar la sincronización entre Campaign y CRM. Puede crear un flujo de trabajo que importe los contactos a través de Microsoft Dynamics, los sincronice con los datos de Adobe Campaign existentes, elimine los contactos duplicados y, a continuación, actualice la base de datos de Adobe Campaign. Obtenga más información en [esta página](crm-data-sync.md).

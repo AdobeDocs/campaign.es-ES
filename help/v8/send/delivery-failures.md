@@ -28,19 +28,19 @@ Cuando una dirección de correo electrónico está en cuarentena, o si un perfil
 
 Existen dos tipos de error cuando falla un mensaje. Cada tipo de error de entrega determina si una dirección se envía a [cuarentena](quarantines.md#quarantine-reason) o no.
 
-* **Rechazos graves**
+* **Devoluciones graves**
 Las devoluciones duras son errores permanentes generados después de que un ISP determine que un intento de envío a una dirección de suscriptor no se puede entregar. En Adobe Campaign, las devoluciones graves de mensajes clasificados como no aptos para entrega se añaden a la lista de cuarentena, lo que significa que no se volverán a enviar. Hay algunos casos en los que se ignoran los mensajes devueltos no válidos si se desconoce la causa del error.
 
   Estos son algunos ejemplos comunes de devoluciones graves: La dirección no existe, Cuenta deshabilitada, Sintaxis incorrecta, Dominio incorrecto
 
-* **Rechazos leves**
-Las devoluciones leves de mensajes son errores temporales que los ISP generan cuando tienen dificultades para enviar correos. Los errores leves [volver a intentar](#retries) varias veces (con variación según el uso de la configuración de envío personalizada o predeterminada) para intentar una entrega correcta. Las direcciones de mensajes devueltos no entregados que reboten de forma continua no se añadirán a la cuarentena hasta que se haya intentado el número máximo de reintentos (que varía en función de la configuración).
+* **devoluciones leves**
+Las devoluciones leves de mensajes son errores temporales que los ISP generan cuando tienen dificultades para enviar correos. Los errores leves [se volverán a intentar](#retries) varias veces (con variación según el uso de la configuración de envío personalizada o predeterminada) para intentar una entrega correcta. Las direcciones de mensajes devueltos no entregados que reboten de forma continua no se añadirán a la cuarentena hasta que se haya intentado el número máximo de reintentos (que varía en función de la configuración).
 
   Algunas causas comunes de las devoluciones leves son las siguientes: Buzón lleno, Recepción del servidor de correo electrónico caído, Problemas de reputación del remitente
 
-El  **Ignorado** El tipo de error es temporal, como &quot;Fuera de la oficina&quot;, o un error técnico, por ejemplo, si el tipo de remitente es &quot;Administrador de correo&quot;.
+Se sabe que el tipo de error **Ignorado** es temporal, como &quot;Fuera de la oficina&quot;, o un error técnico, por ejemplo, si el tipo de remitente es &quot;Administrador de correo&quot;.
 
-El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluir en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se añaden a (**NmsAddress**) tabla de cuarentena y no a (**NmsRecipient**) tabla de destinatarios con **[!UICONTROL Denylisted]** estado. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
+El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluir en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se agregan a la tabla de cuarentena (**NmsAddress**) y no a la tabla de destinatarios (**NmsRecipient**) con el estado **[!UICONTROL Denylisted]**. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
 
 ## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
 
@@ -64,9 +64,9 @@ Estos tipos de errores se administran de la siguiente manera:
 
 La forma en que se gestiona la calificación de correo rechazado en Adobe Campaign depende del tipo de error:
 
-* **Errores sincrónicos**: el MTA determina el tipo de rechazo y la calificación, y envía esa información a Campaign. Las cualificaciones de rechazo en la **[!UICONTROL Delivery log qualification]** no se utilizan para **sincrónico** mensajes de error de fallo de entrega.
+* **Errores sincrónicos**: El MTA determina el tipo de devolución y calificación, y envía esa información a Campaign. Las cualificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** no se utilizan para los mensajes de error de envío **sincrónico**.
 
-* **Errores asíncronos**: Las reglas utilizadas por Campaign para clasificar los errores de entrega asincrónicos se enumeran en la **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** nodo. Las devoluciones asincrónicas son calificadas por el proceso de inMail a través de la variable **[!UICONTROL Inbound email]** reglas. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
+* **Errores asincrónicos**: Las reglas utilizadas por Campaign para calificar los errores de entrega asincrónicos se enumeran en el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Las devoluciones asincrónicas son calificadas por el proceso inMail a través de las reglas **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -95,7 +95,7 @@ Bounce mails can have the following qualification status:
 
 ## Administración de reintentos {#retries}
 
-Si la entrega de un mensaje falla tras un error temporal (**Suave** o **Ignorado**), Campaign reintenta enviar. Estos reintentos se pueden realizar hasta el final de la duración de la entrega.
+Si la entrega de mensajes falla tras un error temporal (**Soft** o **Ignored**), Campaign reintenta la entrega. Estos reintentos se pueden realizar hasta el final de la duración de la entrega.
 
 Los reintentos de rebote suave y el periodo entre ellos están determinados por el MTA en función del tipo y la gravedad de las respuestas de devoluciones procedentes del dominio de correo electrónico del mensaje.
 
@@ -105,13 +105,13 @@ Los reintentos de rebote suave y el periodo entre ellos están determinados por 
 
 ## Período de validez {#valid-period}
 
-La configuración del periodo de validez de los envíos de Campaign está limitada a **3,5 días o menos**. Para una entrega, si define un valor superior a 3,5 días en Campaign, no se tendrá en cuenta.
+La configuración del período de validez de los envíos de Campaign está limitada a **3,5 días o menos**. Para una entrega, si define un valor superior a 3,5 días en Campaign, no se tendrá en cuenta.
 
 Por ejemplo, si el periodo de validez se establece en el valor predeterminado de 5 días en Campaign, los mensajes de rebote suave se incluirán en la cola de reintentos de MTA y se volverán a intentar durante un máximo de 3,5 días a partir de la fecha en que el mensaje llegue al MTA. En ese caso, no se utilizará el valor establecido en Campaign.
 
-Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado de **[!UICONTROL Sent]** hasta **[!UICONTROL Failed]** en los registros de envío.
+Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
 
-Para obtener más información sobre el periodo de validez, consulte la [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
+Para obtener más información sobre el período de validez, consulte la [documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.
 
 
 ## Tipos de error de correo electrónico {#email-error-types}
@@ -196,7 +196,7 @@ Para el canal de correo electrónico, a continuación se enumeran los posibles m
    <td> Buzón de correo lleno </td> 
    <td> Leve </td> 
    <td> 5 </td> 
-   <td> El buzón de este usuario está lleno y no puede aceptar más mensajes. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento.<br /> Este tipo de error se administra mediante un proceso de limpieza; la dirección se establece en un estado válido después de 30 días.<br /> Advertencia: para que la dirección se elimine automáticamente de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico Database cleanup.<br /> </td> 
+   <td> El buzón de este usuario está lleno y no puede aceptar más mensajes. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento.<br /> Este tipo de error se administra mediante un proceso de limpieza; la dirección se establece en un estado válido después de 30 días.<br /> Advertencia: para que la dirección se elimine automáticamente de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico para limpieza de bases de datos.<br /> </td> 
   </tr> 
   <tr> 
    <td> Sin conexión </td> 
@@ -657,18 +657,18 @@ SR Generic DELIVRD 000|#MESSAGE#
 ```
 
 * Todos los mensajes de error empiezan por **SR** para distinguir entre los códigos de error de los SMS y códigos de error de los correos electrónicos.
-* La segunda parte (**Genérico** en este ejemplo) del mensaje de error hace referencia al nombre de la implementación de SMSC, como se define en la variable **[!UICONTROL SMSC implementation name]** del campo de la cuenta externa SMS.
+* La segunda parte (**Generic** en este ejemplo) del mensaje de error hace referencia al nombre de la implementación de SMSC, como se define en el campo **[!UICONTROL SMSC implementation name]** de la cuenta externa de SMS.
 
   Dado que el mismo código de error puede tener un significado diferente para cada proveedor, este campo permite saber qué proveedor genera el código de error. Después se puede buscar el error en la documentación del proveedor correspondiente.
 
 * La tercera parte (**DELIVRD** en este ejemplo) del mensaje de error corresponde al código de estado recuperado del SR mediante las regex de extracción de estado definidas en la cuenta externa de SMS.
 
-  Esta regex se especifica en **[!UICONTROL SMSC specificities]** de la cuenta externa.
+  Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa.
 De manera predeterminada, la regex extrae el campo **stat:** como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 
 * La cuarta parte (**000** en este ejemplo) del mensaje de error corresponde al código de error extraído del SR mediante la regex de extracción de código de error definida en la cuenta externa de SMS.
 
-  Esta regex se especifica en **[!UICONTROL SMSC specificities]** de la cuenta externa.
+  Esta regex se especifica en la pestaña **[!UICONTROL SMSC specificities]** de la cuenta externa.
 
   De manera predeterminada, la regex extrae el campo **err:** tal y como se define en la sección **Apéndice B** de la **especificación de SMPP 3.4**.
 

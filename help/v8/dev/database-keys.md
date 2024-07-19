@@ -26,7 +26,7 @@ Se declara una clave a partir del elemento principal del esquema de datos.
 </key>
 ```
 
-Una clave se conoce como &quot;clave principal&quot; cuando es la primera del esquema que se rellena o si contiene la variable `internal` atributo establecido en &quot;true&quot;.
+Una clave se conoce como &#39;clave principal&#39; cuando es la primera del esquema que se va a rellenar o si contiene el atributo `internal` establecido como &quot;true&quot;.
 
 Una clave puede hacer referencia a uno o varios campos de la tabla.
 
@@ -108,7 +108,7 @@ Una clave puede hacer referencia a uno o varios campos de la tabla.
 
 ## Clave principal: Identificador{#primary-key}
 
-En el contexto de un [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), la clave principal de las tablas de Adobe Campaign es una **ID único universal (UUID)** generado automáticamente por el motor de base de datos. El valor clave es único en toda la base de datos. El contenido de la clave se genera automáticamente al insertar el registro.
+En el contexto de una implementación [empresarial (FDAC)](../architecture/enterprise-deployment.md), la clave principal de las tablas de Adobe Campaign es un **identificador único universal (UUID)** generado automáticamente por el motor de base de datos. El valor clave es único en toda la base de datos. El contenido de la clave se genera automáticamente al insertar el registro.
 
 **Por ejemplo**
 

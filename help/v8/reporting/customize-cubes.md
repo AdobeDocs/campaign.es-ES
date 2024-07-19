@@ -64,7 +64,7 @@ Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 
    Siempre que se actualizan los valores de la lista desglosada, los grupos coincidentes se adaptan automáticamente.
 
-Obtenga más información sobre las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
+Obtenga más información acerca de las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
 
 ### Creación de rangos de valores {#create-value-ranges}
 
@@ -114,7 +114,7 @@ La enumeración **[!UICONTROL Domains]** se utiliza para generar informes integr
 
 Puede crear otras enumeraciones reservadas para agrupamiento y utilizarlas en otros cubos: todos los valores de alias se reagrupan en las bandejas especificadas en la primera pestaña de enumeración.
 
-Obtenga más información sobre las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
+Obtenga más información acerca de las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
 
 ## Agregados en cubos {#calculate-and-use-aggregates}
 

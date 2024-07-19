@@ -16,7 +16,7 @@ Se puede realizar un seguimiento de la ejecución de los envíos a través de di
 
 Para acceder a los informes, siga los pasos a continuación:
 
-1. Vaya a la **[!UICONTROL Campaigns]** y haga clic en la pestaña **[!UICONTROL Delivery]** para mostrar la lista de envíos.
+1. Vaya a la pestaña **[!UICONTROL Campaigns]** y haga clic en el vínculo **[!UICONTROL Delivery]** para mostrar la lista de envíos.
 1. Haga clic en el nombre de la entrega al que desee acceder.
 1. Seleccione la pestaña **[!UICONTROL Summary]** y haga clic en el vínculo **[!UICONTROL Reports]** para acceder a los informes específicos de la entrega.
 
@@ -62,7 +62,7 @@ Este informe combina los indicadores clave para realizar un seguimiento del comp
 * **[!UICONTROL Distinct opens for the population reached]** : Estimación del número de destinatarios objetivo que han abierto un mensaje al menos una vez. Se tienen en cuenta los clics en direcciones URL rastreadas, ya que es necesario abrir los correos electrónicos para hacer clic en un vínculo.
 * **[!UICONTROL Sum of opens for the population reached]** : Estimación del número total de aperturas de los destinatarios objetivo.
 * **[!UICONTROL Clicks on opt-out link]** : Número de clics en el vínculo de baja de suscripción.
-* **[!UICONTROL Clicks on the mirror page link]** : Número de clics en el vínculo al [página espejo](../send/mirror-page.md). Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envío (direcciones URL rastreadas).
+* **[!UICONTROL Clicks on the mirror page link]** : número de clics en el vínculo a la [página espejo](../send/mirror-page.md). Para que se tenga en cuenta un vínculo, este debe definirse como tal en el asistente de envío (direcciones URL rastreadas).
 * **[!UICONTROL Estimation of forwards]** : Estimación del número de correos electrónicos reenviados por los destinatarios objetivo. Este valor se calcula restando el número de personas diferentes y el número de destinatarios diferentes que hicieron clic en el correo electrónico.
 
   >[!NOTE]
@@ -157,7 +157,7 @@ Este informe proporciona toda la información principal sobre la entrega.
 Esta sección tiene dos indicadores:
 
 * **[!UICONTROL Initial population]** : Número total de destinatarios a quienes se realizó la entrega.
-* **[!UICONTROL Messages rejected by the rule]** : número de direcciones ignoradas durante el análisis al aplicar las reglas de tipología: dirección no disponible, en cuarentena, en lista de bloqueados, etc., de la que se ha hecho un seguimiento. <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
+* **[!UICONTROL Messages rejected by the rule]** : número de direcciones omitidas durante el análisis al aplicar reglas de tipología: dirección no disponible, en cuarentena, en lista de bloqueados de la, etc. <!--For more information on typology rules, refer to this [page](../../delivery/using/steps-validating-the-delivery.md#validation-process-with-typologies).-->
 
 **[!UICONTROL Causes of exclusion]**
 
@@ -202,4 +202,4 @@ Se pueden mostrar informes acumulados sobre las entregas. Para ello, seleccione 
 
 Para seleccionar entregas no adyacentes de la lista, mantenga pulsada la tecla CTRL mientras realiza la selección.
 
-Para seleccionar entregas guardadas en una carpeta diferente, haga clic en **[!UICONTROL Display sub-levels]** , accesible en la barra de herramientas. A continuación, se muestran en la misma lista.
+Para seleccionar entregas guardadas en una carpeta diferente, haga clic en el icono **[!UICONTROL Display sub-levels]**, al que se puede acceder en la barra de herramientas. A continuación, se muestran en la misma lista.

@@ -76,6 +76,6 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
   ![](assets/wf-properties_select-supervisors.png)
 
-  El **[!UICONTROL Notification to a workflow supervisor]** la plantilla predeterminada incluye un vínculo para acceder a la consola del cliente de Adobe Campaign a través de la web para que el destinatario pueda solucionar el problema una vez que haya iniciado sesión.
+  La plantilla predeterminada **[!UICONTROL Notification to a workflow supervisor]** incluye un vínculo para obtener acceso a la consola del cliente de Adobe Campaign a través de la Web para que el destinatario pueda solucionar el problema una vez que haya iniciado sesión.
 
   Para crear una plantilla personalizada, vaya a **[!UICONTROL Administration>Campaign management>Technical deliveries and templates]**.

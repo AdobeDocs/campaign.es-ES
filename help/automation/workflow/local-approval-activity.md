@@ -143,7 +143,7 @@ Se deben introducir los campos siguientes:
 1. En la sección **[!UICONTROL Notification]**, seleccione la plantilla de entrega y el asunto a utilizar para el correo electrónico de notificación. Aquí, se ha elegido la plantilla predeterminada: **[!UICONTROL Local approval notification]**.
 1. En la sección **[!UICONTROL Approval schedule]**, se ha guardado el plazo de aprobación predeterminado (3 días) y se ha agregado un recordatorio. La entrega se realiza 3 días después del inicio de la aprobación. Una vez que se ha alcanzado el plazo de aprobación, la segmentación no tiene en cuenta los destinatarios no aprobados.
 
-El envía un correo electrónico de notificación **[!UICONTROL Local approval]** actividad a supervisores locales.
+La actividad **[!UICONTROL Local approval]** envía un mensaje de correo electrónico de notificación a los supervisores locales.
 
 ### Espera {#wait}
 

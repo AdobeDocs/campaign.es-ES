@@ -44,44 +44,44 @@ Existen tres tipos de módulos de Adobe Campaign:
 
 * **Módulos de varias instancias**: se ejecuta un solo proceso para todas las instancias. Esto se aplica a los siguientes módulos: web, syslogd, trackinglogd y watchdog.
 * **Módulos de instancia mono**: se ejecuta un proceso por instancia. Esto se aplica a los siguientes módulos: mta, wfserver, inMail, sms y stat.
-* **Módulos de utilidad**: son módulos que se ejecutan ocasionalmente para realizar operaciones ocasionales o recurrentes (limpieza, configuración, descarga de registros de seguimiento, etc.).
+* **Módulos de utilidad**: estos módulos se ejecutan ocasionalmente para realizar operaciones ocasionales o recurrentes (limpieza, configuración, descarga de registros de seguimiento, etc.).
 
 Los procesos principales son:
 
-* **Servidor de aplicaciones** (nlserver web): Este proceso expone la gama completa de funcionalidades de Adobe Campaign a través de las API de servicios web (SOAP/HTTP + XML). Además, puede generar dinámicamente las páginas web utilizadas para el acceso basado en HTML (informes, formularios web, etc.). Para conseguirlo, este proceso incluye un servidor JSP Apache Tomcat. Este es el proceso al que se conecta la consola.
+* **Servidor de aplicaciones** (web nlserver): este proceso expone toda la funcionalidad de Adobe Campaign SOAP a través de las API de servicios web (/ HTTP + XML). Además, puede generar dinámicamente las páginas web utilizadas para el acceso basado en HTML (informes, formularios web, etc.). Para conseguirlo, este proceso incluye un servidor JSP Apache Tomcat. Este es el proceso al que se conecta la consola.
 
 * **Motor de flujo de trabajo** (nlserver wfserver): este proceso ejecuta los procesos de flujo de trabajo definidos en la aplicación. También gestiona flujos de trabajo técnicos ejecutados periódicamente, incluidos:
 
-   * **Seguimiento**: recupera y consolida los registros de seguimiento para que pueda recuperar los registros del servidor de redirección y crear los indicadores agregados utilizados por el módulo de creación de informes.
-   * **Cleanup**: limpia la base de datos, purga los registros antiguos y evita que la base de datos crezca exponencialmente.
-   * **Factura**: envía un informe de actividad para la plataforma (tamaño de la base de datos, número de acciones de marketing, etc.).
+   * **Seguimiento**: recupera y consolida los registros de seguimiento para que pueda recuperar los registros del servidor de redirección y crear los indicadores agregados que usa el módulo de informes.
+   * **Limpieza**: limpia la base de datos, purga los registros antiguos y evita que la base de datos crezca exponencialmente.
+   * **Facturación**: envía un informe de actividad para la plataforma (tamaño de la base de datos, número de acciones de marketing, etc.).
 
-* **Servidor de entrega** (nlserver mta): Adobe Campaign tiene la funcionalidad de difusión de correo electrónico nativa. Este proceso funciona como un agente de transferencia de correo SMTP (MTA). Realiza una personalización &quot;uno a uno&quot; de los mensajes y gestiona su envío físico. Se ejecuta mediante trabajos de envío y gestiona reintentos automáticos. Además, cuando el seguimiento está habilitado, reemplaza automáticamente las direcciones URL para que apunten al servidor de redirección. Este proceso puede gestionar la personalización y el envío automático a un enrutador de terceros para SMS, fax y correo postal.
+* **Servidor de entrega** (mta de nlserver): Adobe Campaign tiene la funcionalidad de difusión de correo electrónico nativa. Este proceso funciona como un agente de transferencia de correo SMTP (MTA). Realiza una personalización &quot;uno a uno&quot; de los mensajes y gestiona su envío físico. Se ejecuta mediante trabajos de envío y gestiona reintentos automáticos. Además, cuando el seguimiento está habilitado, reemplaza automáticamente las direcciones URL para que apunten al servidor de redirección. Este proceso puede gestionar la personalización y el envío automático a un enrutador de terceros para SMS, fax y correo postal.
 
-* **Servidor de redirección** (nlserver webmdl): para el correo electrónico, Adobe Campaign gestiona automáticamente el seguimiento de aperturas y clics (el seguimiento transaccional en el nivel de sitio web es una posibilidad adicional). Para conseguirlo, las URL incorporadas en los mensajes de correo electrónico se reescriben para que apunten a este módulo, que registra el paso del usuario de Internet antes de redirigirlo a la URL requerida.
+* **Servidor de redirección** (nlserver webmdl): por correo electrónico, Adobe Campaign administra automáticamente el seguimiento de aperturas y clics (el seguimiento transaccional en el nivel de sitio web es otra posibilidad). Para conseguirlo, las URL incorporadas en los mensajes de correo electrónico se reescriben para que apunten a este módulo, que registra el paso del usuario de Internet antes de redirigirlo a la URL requerida.
 
-  Para garantizar la máxima disponibilidad, este proceso es totalmente independiente de la base de datos: los demás procesos del servidor se comunican con él utilizando llamadas SOAP (HTTP, HTTP(S) y XML) únicamente. Técnicamente, esta funcionalidad se implementa en un módulo de extensión de un servidor HTTP (extensión ISAPI en IIS, o módulo DSO Apache, etc.) y solo está disponible en Windows.
+  SOAP Para garantizar la máxima disponibilidad, este proceso es totalmente independiente de la base de datos: los demás procesos del servidor se comunican con él utilizando llamadas de la red (HTTP, HTTP(S) y XML) únicamente. Técnicamente, esta funcionalidad se implementa en un módulo de extensión de un servidor HTTP (extensión ISAPI en IIS, o módulo DSO Apache, etc.) y solo está disponible en Windows.
 
 Otros procesos más técnicos también están disponibles:
 
-* **Administración de correos electrónicos rechazados** (nlserver inMail): este proceso le permite recoger automáticamente el correo electrónico de los buzones configurados para recibir mensajes devueltos en caso de error de entrega. A continuación, estos mensajes se someten a un procesamiento basado en reglas para determinar los motivos de la falta de entrega (destinatario desconocido, cuota excedida, etc.) y para actualizar el estado de envío en la base de datos. Todas estas operaciones son totalmente automáticas y están preconfiguradas.
+* **Administración de correos electrónicos rechazados** (nlserver inMail): este proceso le permite recoger automáticamente correos electrónicos de buzones configurados para recibir mensajes rechazados que se devuelven en caso de error de entrega. A continuación, estos mensajes se someten a un procesamiento basado en reglas para determinar los motivos de la falta de entrega (destinatario desconocido, cuota excedida, etc.) y para actualizar el estado de envío en la base de datos. Todas estas operaciones son totalmente automáticas y están preconfiguradas.
 
-* **Estado de envío de SMS** (nlserver sms): Este proceso sondea el enrutador SMS para recopilar el estado de progreso y actualizar la base de datos.
+* **Estado de entrega de SMS** (nlserver sms): este proceso sondea el enrutador SMS para recopilar el estado de progreso y actualizar la base de datos.
 
 * **Escritura de mensajes de registro** (nlserver syslogd): este proceso técnico captura los mensajes de registro y los seguimientos generados por los demás procesos y los escribe en el disco duro. Esto hace que haya amplia información disponible para el diagnóstico en caso de problemas.
 
-* **Escritura de registros de seguimiento** (nlserver trackinglogd): este proceso guarda en disco los registros de seguimiento generados por el proceso de redirección.
+* **Escritura de registros de seguimiento** (nlserver trackinglogd): este proceso guarda en el disco los registros de seguimiento generados por el proceso de redirección.
 
 * **Escritura de eventos entrantes** (nlserver interactiond): este proceso garantiza la grabación en el disco de eventos entrantes, dentro del marco de Interacción.
 
-* **Supervisión de módulos** (nlserver watchdog): Este proceso técnico actúa como un proceso principal que genera a los demás. También los monitoriza y los relanza automáticamente en caso de incidentes, manteniendo así el máximo tiempo de actividad del sistema.
+* **Módulos de supervisión** (nlserver watchdog): este proceso técnico actúa como un proceso principal que genera a los demás. También los monitoriza y los relanza automáticamente en caso de incidentes, manteniendo así el máximo tiempo de actividad del sistema.
 
-* **Servidor de estadísticas** (nlserver stat): este proceso mantiene estadísticas sobre el número de conexiones, los mensajes enviados para cada servidor de correo al que se envían los mensajes, así como sus limitaciones (número máximo de conexiones simultáneas, mensajes por hora/hora y/o conexión). También permite federar varias instancias o equipos si comparten las mismas direcciones IP públicas.
+* **Servidor de estadísticas** (nlserver stat): este proceso mantiene estadísticas sobre el número de conexiones, los mensajes enviados para cada servidor de correo al que se envían los mensajes, así como sus limitaciones (número máximo de conexiones simultáneas, mensajes por hora/hora o conexión). También permite federar varias instancias o equipos si comparten las mismas direcciones IP públicas.
 
 
 ## Contenedores de base de datos {#db-containers}
 
-En su [Implementación empresarial (FDAC)](enterprise-deployment.md), la base de datos de Adobe Campaign Cloud se basa en [!DNL Snowflake] que contiene los datos funcionales (perfiles, suscripciones, contenido, etc.), los datos técnicos (trabajos de entrega y registros, registros de seguimiento, etc.) y los datos de trabajo (compras, posibles clientes) de la solución, y todos los componentes de Adobe Campaign se comunican con la base de datos para realizar sus tareas específicas.
+En su [implementación empresarial (FDAC)](enterprise-deployment.md), la base de datos de Adobe Campaign Cloud se basa en [!DNL Snowflake], que contiene los datos funcionales (perfiles, suscripciones, contenido, etc.), los datos técnicos (trabajos de envío y registros, registros de seguimiento, etc.) y los datos de trabajo (compras, posibles clientes) de la solución, y todos los componentes de Adobe Campaign se comunican con la base de datos para realizar sus tareas específicas.
 
 Puede implementar Adobe Campaign utilizando la base de datos y los esquemas predefinidos y, si es necesario, se puede ampliar este entorno predefinido. Adobe Campaign accede a todos los datos del data mart a través de llamadas SQL. Adobe Campaign también proporciona un complemento completo de herramientas de extracción, transformación y carga (ETL) para importar y exportar datos dentro y fuera del sistema.
 
@@ -98,4 +98,4 @@ Puede implementar Adobe Campaign utilizando la base de datos y los esquemas pred
 
 La asignación de almacenamiento total se divide entre la base de datos principal y la base de datos secundaria del Snowflake (opcional). El lugar donde se almacenan los datos debe determinarse en el momento de la implementación o la actualización, según los casos de uso específicos del cliente.
 
-Obtenga información sobre cómo monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
+Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

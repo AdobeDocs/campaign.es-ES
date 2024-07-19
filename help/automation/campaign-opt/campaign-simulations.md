@@ -22,9 +22,9 @@ La simulación permite controlar y comparar el impacto de los envíos.
 ### Precaución
 
 
-Envíos preparados en **Prueba** Los modos de no se afectan entre sí, por ejemplo al evaluar una campaña en marketing distribuido o siempre que las entregas no estén programados en el calendario provisional.
+Los envíos preparados en modo **Test** no se afectan entre sí, por ejemplo al evaluar una campaña en marketing distribuido o siempre que los envíos no estén programados en el calendario provisional.
 
-Esto significa que las reglas de presión y capacidad solo se aplican a los envíos en modo **[!UICONTROL Target estimation and message personalization]**. Envíos en **[!UICONTROL Estimation and approval of the provisional target]** modo y en **[!UICONTROL Target evaluation]** no se tienen en cuenta los modos de.
+Esto significa que las reglas de presión y capacidad solo se aplican a los envíos en modo **[!UICONTROL Target estimation and message personalization]**. No se tienen en cuenta los envíos en modo **[!UICONTROL Estimation and approval of the provisional target]** y en modo **[!UICONTROL Target evaluation]**.
 
 El modo de entrega se elige en la subpestaña **[!UICONTROL Typology]** en las propiedades de la entrega.
 
@@ -192,12 +192,12 @@ Para comparar los resultados, debe utilizar los informes. De hecho, Adobe Campai
 
 ### Ejes de notificación {#reporting-axes}
 
-La pestaña **[!UICONTROL Calculations]** permite definir los ejes de creación de informes en el objetivo. Estos ejes se utilizarán durante [análisis de resultados](#explore-results).
+La pestaña **[!UICONTROL Calculations]** permite definir los ejes de creación de informes en el objetivo. Estos ejes se usarán durante [análisis de resultados](#explore-results).
 
 >[!NOTE]
 >
 >Se recomienda definir los ejes de cálculo en las plantillas de simulación en lugar de individualmente para cada simulación.\
->Las plantillas de simulación se guardan en **[!UICONTROL Resources > Templates > Simulation templates]** del explorador de Campaign.
+>Las plantillas de simulación se guardan en la carpeta **[!UICONTROL Resources > Templates > Simulation templates]** del explorador de Campaign.
 
 **Ejemplo:**
 

@@ -63,11 +63,11 @@ Para ello, seleccione la opción **[!UICONTROL Force the encoding used for messa
 
 ## Administrar correos electrónicos rechazados {#managing-bounce-emails}
 
-El **[!UICONTROL SMTP]** de las propiedades de entrega también permite configurar la gestión de los correos electrónicos rechazados.
+La pestaña **[!UICONTROL SMTP]** de las propiedades de entrega también permite configurar la administración de los correos electrónicos rechazados.
 
-* **[!UICONTROL Errors-to-address]**: De forma predeterminada, los correos electrónicos rechazados se reciben en el cuadro de error predeterminado de la plataforma, pero se puede definir una dirección de error específica para una entrega.
+* **[!UICONTROL Errors-to-address]**: de forma predeterminada, los correos electrónicos rechazados se reciben en el cuadro de error predeterminado de la plataforma, pero se puede definir una dirección de error específica para una entrega.
 
-* **[!UICONTROL Bounce address]**: También puede definir otra dirección a la que se reenvían los correos electrónicos rechazados sin procesar. Esta dirección permite investigar las razones de la devolución cuando la aplicación no pudo calificar automáticamente los correos electrónicos.
+* **[!UICONTROL Bounce address]**: también puede definir otra dirección a la que se reenviarán los correos electrónicos rechazados sin procesar. Esta dirección permite investigar las razones de la devolución cuando la aplicación no pudo calificar automáticamente los correos electrónicos.
 
 Cada uno de estos campos se puede personalizar mediante el icono dedicado. Obtenga más información sobre los campos de personalización en [esta sección](personalization-fields.md).
 
@@ -96,4 +96,4 @@ Los valores se codifican automáticamente si es necesario.
 
 La página espejo es una página HTML a la que se puede acceder en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico. Puede resultar útil si los destinatarios están experimentando problemas de procesamiento o imágenes rotas al intentar ver el correo electrónico en su bandeja de entrada.
 
-Obtenga información sobre cómo insertar un vínculo a la página espejo en [esta sección](mirror-page.md)
+Aprenda a insertar un vínculo a la página espejo de [esta sección](mirror-page.md)

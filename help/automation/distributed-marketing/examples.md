@@ -116,7 +116,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 #### Creación de una actividad de distribución de datos {#creating-a-data-distribution-activity}
 
-1. Para configurar una campaña de colaboración (por aprobación de objetivo) debe crear primero una **[!UICONTROL Data distribution activity]**. Haga clic en **[!UICONTROL New]** en el menú **[!UICONTROL Resources > Campaign management > Data distribution]** del explorador de Campaign.
+1. Para configurar una campaña de colaboración (por aprobación de objetivo) debe crear primero una **[!UICONTROL Data distribution activity]**. Haga clic en el icono **[!UICONTROL New]** en la carpeta **[!UICONTROL Resources > Campaign management > Data distribution]** del explorador de Campaign.
 
    ![](assets/mkg_dist_use_case_target_valid3.png)
 
@@ -140,7 +140,7 @@ Una vez aprobadas las comprobaciones, la campaña puede iniciarse automáticamen
 
 #### Creación de una campaña colaborativa {#creating-a-collaborative-campaign}
 
-1. Desde el **[!UICONTROL Campaign management > Campaign]** del explorador de Campaign, cree una nueva **[!UICONTROL collaborative campaign (by target approval)]**.
+1. Desde la carpeta **[!UICONTROL Campaign management > Campaign]** del explorador de Campaign, cree un nuevo **[!UICONTROL collaborative campaign (by target approval)]**.
 1. En la pestaña **[!UICONTROL Targeting and workflows]**, cree un flujo de trabajo para la campaña. Debe contener una actividad **Split** en la que **[!UICONTROL Record count limitation]** se define mediante la actividad **[!UICONTROL Data distribution]**.
 
    ![](assets/mkg_dist_use_case_target_valid5.png)

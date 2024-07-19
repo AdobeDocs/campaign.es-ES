@@ -20,7 +20,7 @@ Como administrador de productos, puede añadir usuarios y conceder acceso a Camp
 
 Para agregar un usuario, siga los pasos a continuación:
 
-1. En el [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"} página de inicio, seleccione **Agregar usuarios**.
+1. En la página de inicio de [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}, seleccione **Agregar usuarios**.
 
    ![](assets/add-a-user.png)
 
@@ -31,13 +31,13 @@ Para agregar un usuario, siga los pasos a continuación:
 
    Los perfiles de producto integrados de Campaign se enumeran en [esta sección](#ootb-productprofiles).
 
-   Obtenga información sobre cómo crear grupos de usuarios en [esta sección](#user-groups)
+   Aprenda a crear grupos de usuarios en [esta sección](#user-groups)
 
 1. Haga clic en **Save**. Se añade el usuario y se muestra en la lista Usuarios. Si asigna una función de administrador o un perfil de producto a los usuarios, estos recibirán una notificación por correo electrónico. Los usuarios deben seguir el vínculo para completar su perfil.
 
 Obtenga más información acerca de la creación de usuarios en el Admin Console de [esta página](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
-Cuando hay nuevos usuarios [inicie sesión en Campaign](connect.md) con su Adobe ID, se añaden a la lista de operadores de Campaign en la consola del cliente. Los operadores de campaña se almacenan en la **[!UICONTROL Administration > Access management > Operators]** del explorador de Campaign.
+Cuando los usuarios nuevos [inician sesión en Campaign](connect.md) con su Adobe ID, se agregan a la lista de operadores de Campaign en la consola del cliente. Los operadores de campaña se almacenan en la carpeta **[!UICONTROL Administration > Access management > Operators]** del explorador de campañas.
 
 ## Trabajo con perfiles de producto{#product-profiles}
 
@@ -47,13 +47,13 @@ Utilice perfiles de producto para otorgar a los usuarios las funciones incluidas
 * En cada perfil de producto, se asignan usuarios y grupos de usuarios (en su organización).
 * Cuando un usuario inicia sesión con sus credenciales según se especifican en el perfil del producto, se le concede acceso a las aplicaciones y servicios del producto en el que se basa el perfil del producto.
 
-Estos perfiles de producto coinciden con los grupos de operadores que se almacenan en el **[!UICONTROL Administration > Access management > Operator groups]** del explorador de Campaign.
+Estos perfiles de producto coinciden con los grupos de operadores que se almacenan en la carpeta **[!UICONTROL Administration > Access management > Operator groups]** del explorador de Campaign.
 
 En el Admin Console, los perfiles de producto utilizan la siguiente sintaxis:
 
 campaign - `<your instance>` - nombre interno del grupo de operadores
 
-Por ejemplo, para **Operador de envío** en la instancia &quot;test&quot;, el perfil de producto en el Admin Console es:
+Por ejemplo, para el grupo **Operador de envío** de la instancia &quot;prueba&quot;, el perfil de producto del Admin Console es:
 
 campaign - test - delivery
 
@@ -67,34 +67,34 @@ Por ejemplo, para crear un perfil de producto &quot;revisores&quot;, siga los pa
 
 #### Creación del grupo de operadores en Campaign{#create-op-group}
 
-1. Conéctese a Campaign, abra el Explorador y busque **[!UICONTROL Administration > Access management > Operator groups]**.
-1. Clic **[!UICONTROL New]**y defina el nombre del grupo de operadores y establezca su nombre interno (revisores).
+1. Conéctese a Campaign, abra el Explorador y vaya a **[!UICONTROL Administration > Access management > Operator groups]**.
+1. Haga clic en **[!UICONTROL New]**, y defina el nombre del grupo de operadores y su nombre interno (&quot;revisores&quot;).
    ![](assets/new-op-group.png)
 1. Defina los permisos asociados seleccionando derechos asignados. Los derechos asignados se detallan en [esta sección](#use-named-rights)
 1. Guarde el nuevo grupo de operadores.
 
 #### Cree el perfil de producto en el Admin Console{#create-profile-in-admin-console}
 
-1. Conéctese a [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
-1. Desde el **Productos y servicios** de la página de inicio, abra el producto Campaign.
-1. Clic **Nuevo perfil** e introduzca el nombre del perfil de producto que va a crear, con la sintaxis exacta correcta como se explica [aquí](#product-profiles). Para nuestro ejemplo, introducimos: campaign - `<your-instance-name>` - revisores
+1. Conectar con el [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
+1. En la sección **Productos y servicios** de la página de inicio, abra el producto de Campaign.
+1. Haga clic en **Nuevo perfil** e introduzca el nombre del perfil de producto que desea crear, con la sintaxis exacta correcta tal como se explica [aquí](#product-profiles). Para nuestro ejemplo, ingresamos: campaign - `<your-instance-name>` - reviewers
 
    ![](assets/new-product-profile-ui.png)
 
 1. Guarde los cambios.
 
-Ahora puede agregar usuarios a este nuevo perfil de producto, tal como se explica en [esta sección](#add-users).
+Ahora puede agregar usuarios a este nuevo perfil de producto, como se explica en [esta sección](#add-users).
 
 Una práctica recomendada es asignar perfiles de producto a grupos de usuarios. La administración de permisos por parte de los usuarios no es un modelo sostenible.
 
 
 ### Perfiles de producto y grupos de operadores predeterminados {#ootb-productprofiles}
 
-Adobe Campaign viene con un **perfiles de producto** que se definen cuando el Adobe habilita el entorno.
+Adobe Campaign incluye **perfiles de producto** integrados que se definen cuando el Adobe habilita su entorno.
 
 ![](assets/ootb-product-profiles.png)
 
-Estos perfiles de producto coinciden con Campaign **grupos de operadores**. Los grupos de operadores predeterminados y sus [derechos asignados](#use-named-rights) se enumeran a continuación:
+Estos perfiles de producto coinciden con los **grupos de operadores** de Campaign. Los grupos de operadores predeterminados y sus [derechos asignados](#use-named-rights) se enumeran a continuación:
 
 1. **[!UICONTROL Administrator]** (administrador)
 
@@ -128,11 +128,11 @@ Estos perfiles de producto coinciden con Campaign **grupos de operadores**. Los 
 
 1. **[!UICONTROL Content contributors]** (contenido)
 
-   Los usuarios de este grupo pueden acceder a las carpetas de contenido en el contexto del **[!UICONTROL Content management]** complemento de. Este grupo no concede permisos adicionales.
+   Los usuarios de este grupo pueden tener acceso a las carpetas de contenido en el contexto del complemento **[!UICONTROL Content management]**. Este grupo no concede permisos adicionales.
 
 1. **[!UICONTROL Access to reports]** (informe)
 
-   Este grupo está reservado para operadores externos, para acceder a los informes de envío a través de una [Acceso web](../start/campaign-ui.md#web-browser).
+   Este grupo está reservado para operadores externos, para acceder a los informes de envío a través de un [acceso web](../start/campaign-ui.md#web-browser).
 
 1. **[!UICONTROL Workflow execution]** (flujo de trabajo)
 
@@ -144,7 +144,7 @@ Estos perfiles de producto coinciden con Campaign **grupos de operadores**. Los 
 
 1. **Administración local/central** (central/local)
 
-   Los usuarios de este grupo pueden utilizar **[!UICONTROL Distributed marketing]** complemento de.
+   Los usuarios de este grupo pueden usar el complemento **[!UICONTROL Distributed marketing]**.
 
 1. **[!UICONTROL Offer managers]** (oferta)
 
@@ -167,7 +167,7 @@ Estos perfiles de producto coinciden con Campaign **grupos de operadores**. Los 
 
    >[!NOTE]
    >
-   >**Administradores de ofertas** Solo puede aprobar una oferta si no se especifica ningún revisor o si se han establecido como revisores en la plantilla de oferta.
+   >**Los administradores de ofertas** solo pueden aprobar una oferta si no se especifica ningún revisor o si se han establecido como revisores en la plantilla de oferta.
 
    La matriz de permisos del administrador de ofertas por entorno está disponible en [esta página](../interaction/interaction-operators.md#recap-of-rights-according-to-operator).
 
@@ -175,21 +175,23 @@ Estos perfiles de producto coinciden con Campaign **grupos de operadores**. Los 
 
 Puede utilizar el Admin Console para crear grupos de usuarios y asignarles usuarios.
 
-Un grupo de usuarios es una colección de usuarios diferentes a los que se debe otorgar un conjunto compartido de permisos. Obtenga información sobre cómo crear grupos de usuarios en [esta sección](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
+Un grupo de usuarios es una colección de usuarios diferentes a los que se debe otorgar un conjunto compartido de permisos. Aprenda a crear grupos de usuarios en [esta sección](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 
 Puede asignar perfiles de producto a grupos de usuarios. Por lo tanto, todos los usuarios de ese grupo deben recibir el mismo conjunto de permisos de producto.
 
 ## Derechos asignados{#use-named-rights}
 
-Adobe Campaign incluye un conjunto de derechos asignados que permiten definir los permisos asignados a usuarios y grupos de usuarios. Estos derechos se pueden editar desde el **[!UICONTROL Administration > Access management > Named rights]** del explorador de Campaign.
+Adobe Campaign incluye un conjunto de derechos asignados que permiten definir los permisos asignados a usuarios y grupos de usuarios. Estos derechos se pueden editar desde la carpeta **[!UICONTROL Administration > Access management > Named rights]** del explorador de Campaign.
 
 Derechos asignados: Conceda permisos a:
 
-* Realizar operaciones Por ejemplo, la variable **Analizar** en el Editor de envíos está activado para los miembros del **Operador de envío** grupo que tiene el **Preparar envío** Derecho con nombre
+* Realizar operaciones
+Por ejemplo, el botón **Analizar** del editor de envíos está activado para los miembros del grupo **Operador de envíos** que tienen el derecho asignado **Preparar envío**
 
-* Acceso a carpetas Pertenencia a grupos de operadores puede conceder o restringir derechos de acceso a las carpetas cambiando la configuración de seguridad de las carpetas. [Más información](folder-permissions.md#restrict-access-to-a-folder).
+* Acceso a carpetas
+La pertenencia a grupos de operadores puede conceder o restringir derechos de acceso a las carpetas cambiando la configuración de seguridad de las carpetas. [Más información](folder-permissions.md#restrict-access-to-a-folder).
 
-  Por ejemplo, puede afectar a: **Acceso de escritura** para crear nuevas entidades (como envíos, perfiles, etc.), **Acceso de lectura** para utilizar entidades, **Eliminar acceso** para eliminar entidades.
+  Por ejemplo, puede afectar a: **Acceso de escritura** para crear nuevas entidades (como envíos, perfiles, etc.), **Acceso de lectura** para usar entidades, **Acceso de eliminación** para eliminar entidades.
 
 Los derechos asignados predeterminados en Adobe Campaign son:
 
@@ -229,7 +231,7 @@ Los derechos asignados predeterminados en Adobe Campaign son:
 
 * **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: derecho para escribir sus propias secuencias de comandos SQL con la actividad Administración de datos SQL para crear y rellenar tablas de trabajo. [Más información](../../automation/workflow/sql-data-management.md).
 
-* **[!UICONTROL WORKFLOW]**: Este derecho asignado es específico de los flujos de trabajo: permite crear, iniciar y detener flujos de trabajo. Se necesitan derechos de lectura en el archivo de flujo de trabajo para que el derecho llamado sea aplicable. Para flujos de trabajo de objetivos, el derecho de lectura sobre **[!UICONTROL Profiles and Targets]** es necesaria.
+* **[!UICONTROL WORKFLOW]**: este derecho asignado es específico de los flujos de trabajo: permite crear, iniciar y detener flujos de trabajo. Se necesitan derechos de lectura en el archivo de flujo de trabajo para que el derecho llamado sea aplicable. Para flujos de trabajo de destino, es necesario tener derechos de lectura sobre la carpeta **[!UICONTROL Profiles and Targets]**.
 
 
 * **[!UICONTROL WEBAPP]**: derecho para utilizar aplicaciones web.

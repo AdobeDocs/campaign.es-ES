@@ -13,13 +13,13 @@ ht-degree: 84%
 
 # Unión{#union}
 
-A **[!UICONTROL Union]** agrupa el resultado de varias actividades entrantes en un solo destino. El objetivo se crea con todos los resultados recibidos: por lo tanto, todas las actividades anteriores deben terminar para que se ejecute la unión.
+Un(a) **[!UICONTROL Union]** agrupa el resultado de varias actividades entrantes en un solo destino. El objetivo se crea con todos los resultados recibidos: por lo tanto, todas las actividades anteriores deben terminar para que se ejecute la unión.
 
 ![](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->Para obtener más información sobre la configuración y el uso de **[!UICONTROL Union]** actividad, consulte [esta página](targeting-workflows.md#combining-several-targets--union-).
+>Para obtener más información sobre cómo configurar y usar la actividad **[!UICONTROL Union]**, consulte [esta página](targeting-workflows.md#combining-several-targets--union-).
 
 ## Ejemplo de unión {#union-example}
 
@@ -29,11 +29,11 @@ En el ejemplo siguiente, los resultados de dos consultas se han combinado para a
 1. Puede introducir una etiqueta.
 1. Seleccione el método de reconciliación **[!UICONTROL Keys only]** ya que, en este ejemplo, la población resultante de las consultas contiene datos coherentes.
 1. Si agregó datos adicionales para las consultas, puede optar por mantener solamente los datos compartidos.
-1. Si desea limitar el tamaño de la población final, consulte la **[!UICONTROL Limit size of generated population]** opción.
+1. Si desea limitar el tamaño de la población final, marque la opción **[!UICONTROL Limit size of generated population]**.
 
    Especifique este número final introduciendo el número máximo de destinatarios y seleccionando la consulta cuya población tendrá prioridad.
 
-1. Apruebe el **[!UICONTROL Union]** actividad y configure el [Actualización de lista](list-update.md) actividad.
+1. Apruebe la actividad **[!UICONTROL Union]** y configure la actividad [List update](list-update.md).
 1. Inicie el flujo de trabajo. El número de resultados se muestra y la lista definida en la actividad de actualización de lista se crea o actualiza. Esta lista contiene el conjunto de destinatarios para ambas consultas o, si corresponde, el número definido en el paso anterior.
 
    ![](assets/union_example.png)

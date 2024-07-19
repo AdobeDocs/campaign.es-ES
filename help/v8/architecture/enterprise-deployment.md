@@ -12,9 +12,9 @@ ht-degree: 50%
 
 ---
 
-# [!DNL Campaign] Implementación de FDAC {#gs-ac-ffda}
+# Implementación de FDAC [!DNL Campaign] {#gs-ac-ffda}
 
-Mediante [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}, una tecnología de base de datos en la nube, la implementación de Adobe Campaign Enterprise Full Federated Access (FDAC) mejora considerablemente su escala y velocidad, con la capacidad de administrar una cantidad más significativa de perfiles de clientes, así como tasas de entrega y transacciones por hora mucho más altas.
+Al aprovechar [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}, una tecnología de base de datos en la nube, la implementación de Adobe Campaign Enterprise Full Federated Access (FDAC) mejora considerablemente su escala y velocidad, con la capacidad de administrar una cantidad más significativa de perfiles de clientes, así como tasas de entrega y transacciones por hora mucho más altas.
 
 ## Ventajas {#ffda-benefits}
 
@@ -37,9 +37,9 @@ Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de 
 
 ## Arquitectura de Campaign Enterprise (FDAC){#ffda-archi}
 
-En un [Implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: un local [!DNL Campaign] base de datos para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y a Cloud [!DNL Snowflake] base de datos para la ejecución de campañas, consultas por lotes y la ejecución del flujo de trabajo.
+En una implementación [empresarial (FDAC)](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: una base de datos [!DNL Campaign] local para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una base de datos [!DNL Snowflake] de la nube para la ejecución de campañas, consultas por lotes y la ejecución del flujo de trabajo.
 
-Campaign v8 Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube.
+La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube.
 
 Hay API específicas disponibles para administrar los datos entre la base de datos local y la base de datos en la nube. Descubra cómo funcionan estas nuevas API y cómo utilizarlas en [esta página](new-apis.md).
 
@@ -48,9 +48,9 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 ![](assets/architecture.png)
 
 * Los módulos de administración de ejecución y rechazos están desactivados en la instancia.
-* La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se administra mediante llamadas SOAP (a través de HTTP o HTTPS).
+* SOAP La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se gestiona mediante llamadas de (por HTTP o HTTPS).
 
-El [!DNL Snowflake] La base de datos de marketing se utiliza para:
+La base de datos [!DNL Snowflake] del lado de marketing se usa para:
 
 * Almacenar todos los datos de clientes: perfiles, datos personalizados como transacciones, productos, ubicaciones, etc.
 * Almacena todos los eventos y datos de comportamiento generados o recopilados por Campaign, como registros de envío, registros de seguimiento, registros push, etc.
@@ -80,15 +80,15 @@ La base de datos PostgreSQL en la instancia intermediaria se utiliza para lo sig
 
 ## Impactos{#ffda-impacts}
 
-### [!DNL Campaign] Mecanismo de ensayo de API{#staging-api}
+### Mecanismo de ensayo de la API [!DNL Campaign]{#staging-api}
 
-Con [!DNL Campaign] En la base de datos de la nube, no se recomiendan las llamadas unitarias de ráfaga debido al rendimiento (latencia y concurrencia). Siempre se prefiere la operación por lotes. Para garantizar un rendimiento óptimo de las API, Campaign sigue gestionando las llamadas a la API en el nivel de base de datos local.
+Con la base de datos en la nube [!DNL Campaign], no se recomiendan las llamadas unitarias de ráfaga debido al rendimiento (latencia y concurrencia). Siempre se prefiere la operación por lotes. Para garantizar un rendimiento óptimo de las API, Campaign sigue gestionando las llamadas a la API en el nivel de base de datos local.
 
 [El mecanismo de ensayo de la API se detalla en esta página](staging.md)
 
 ### Nuevas API{#new-apis}
 
-Hay nuevas API disponibles para administrar la sincronización de datos entre [!DNL Campaign] base de datos local y base de datos en la nube. También se ha introducido un nuevo mecanismo para gestionar llamadas de API en el nivel de base de datos local para evitar la latencia y aumentar el rendimiento general.
+Hay nuevas API disponibles para administrar la sincronización de datos entre la base de datos local [!DNL Campaign] y la base de datos en la nube. También se ha introducido un nuevo mecanismo para gestionar llamadas de API en el nivel de base de datos local para evitar la latencia y aumentar el rendimiento general.
 
 [Las nuevas API se detallan en esta página](new-apis.md)
 
@@ -107,7 +107,7 @@ Un flujo de trabajo técnico específico gestiona la replicación de tablas que 
 
 ### Administración de ID{#id-mgt-ffda}
 
-Los objetos de Campaign v8 ahora utilizan una **ID único universal (UUID)**, que permite valores únicos ilimitados para identificar datos.
+Los objetos de Campaign v8 ahora usan un **ID único universal (UUID)**, que permite valores únicos ilimitados para identificar datos.
 
 Tenga en cuenta que este ID se basa en cadenas y no en secuencias. La clave principal no es un valor numérico en Campaign v8, y debe utilizar los atributos **autouuid** y **autopk** en los esquemas.
 

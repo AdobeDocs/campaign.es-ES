@@ -32,29 +32,29 @@ Campaign v8 puede conectarse con las siguientes soluciones de Adobe. Examine los
 * Adobe Target. [Más información](../connect/ac-at.md)
 * Adobe Workfront. [Más información](../connect/ac-workfront.md)
 
-También puede combinar sus **audiencias** y **activos** soluciones de varios Experience Cloud con funciones de uso compartido de recursos y audiencias.
+También puede combinar sus **audiencias** y **recursos** en soluciones de Experience Cloud con las capacidades de uso compartido de recursos y Audiencias.
 
-Más información sobre **Uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información sobre **uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Más información sobre **Uso compartido de recursos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información sobre **Uso compartido de recursos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >
->Como usuario de Managed Cloud Service, [Adobe de contacto](../start/campaign-faq.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud.
+>Como usuario de Cloud Service administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para conectar Campaign con los servicios y las soluciones de Adobe Experience Cloud.
 
 
 ## Integración con el conector CRM{#gs-crm-connectors}
 
-Puede conectar su plataforma de Adobe Campaign a su **Sistemas de terceros CRM** y sincronizar datos: contactos, cuentas, compras, etc.
+Puede conectar su plataforma Adobe Campaign a sus **sistemas de terceros de CRM** y sincronizar los datos: contactos, cuentas, compras, etc.
 
 Active los datos de CRM en la comunicación entre canales: Aprenda a pasar contactos de su sistema CRM a Adobe Campaign y a compartir los datos de campaña de Adobe Campaign con su sistema CRM.
 Los conectores CRM permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para garantizar que los datos estén actualizados en todo momento a lo largo de los sistemas.
 
-Obtenga información sobre cómo integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en [esta página](crm.md)
+Aprenda a integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en [esta página](crm.md)
 
 ## Conexión de terceros con acceso de datos federado{#gs-fda}
 
-Utilice el conector FDA (Acceso de datos federado) para conectar Campaign a uno o más **bases de datos externas** y procesar la información almacenada en ellos sin afectar a los datos de la base de datos de Campaign Cloud.
+Utilice el conector FDA (Acceso de datos federado) para conectar Campaign a una o más **bases de datos externas** y procesar la información almacenada en ellas sin afectar a los datos de la base de datos en la nube de Campaign.
 
 Obtenga más información en [esta página](fda.md)
 
@@ -68,6 +68,6 @@ Puede hacer lo siguiente:
 * Publica en tu cuenta X
 * Recopilar nuevos contactos
 
-Aprenda a configurar y utilizar la integración de X en [esta página](../connect/ac-tw.md).
+Aprenda a configurar y utilizar la integración X en [esta página](../connect/ac-tw.md).
 
-Aprenda a crear publicaciones X y enviar mensajes directos a sus seguidores en [esta página](../send/twitter.md).
+Aprenda a crear publicaciones X y a enviar mensajes directos a sus seguidores en [esta página](../send/twitter.md).

@@ -27,7 +27,7 @@ En el siguiente ejemplo, creamos una regla de tipología para una campaña de le
 
 Para diseñar una regla de capacidad nueva, siga los pasos a continuación:
 
-1. En el **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** carpeta, haga clic en **[!UICONTROL New]**.
+1. En la carpeta **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]**, haga clic en **[!UICONTROL New]**.
 1. Seleccione un tipo de regla de **[!UICONTROL Capacity]**.
 
    ![](assets/campaign_opt_create_capacity_01.png)
@@ -51,7 +51,7 @@ Para diseñar una regla de capacidad nueva, siga los pasos a continuación:
 
 ## Definición de la carga máxima {#define-the-maximum-load}
 
-Para definir la carga máxima, debe definir las líneas de disponibilidad. Para ello, hay dos opciones disponibles: puede [crear una o varias líneas de disponibilidad](#add-availability-lines-one-by-one) o cree intervalos de disponibilidad. La frecuencia de estos periodos se puede automatizar. [Más información](#add-a-set-of-availability-lines).
+Para definir la carga máxima, debe definir las líneas de disponibilidad. Para ello, hay dos opciones disponibles: puede [crear manualmente una o más líneas de disponibilidad](#add-availability-lines-one-by-one) o crear intervalos de disponibilidad. La frecuencia de estos periodos se puede automatizar. [Más información](#add-a-set-of-availability-lines).
 
 ### Adición de líneas de disponibilidad una por una {#add-availability-lines-one-by-one}
 

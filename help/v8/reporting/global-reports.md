@@ -7,7 +7,7 @@ exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -49,7 +49,7 @@ Se pueden configurar los valores que se muestran cambiando la escala temporal: v
 
 >[!NOTE]
 >
->También puede monitorizar el número de envíos por hora utilizando [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es){target="_blank"}.
+>También puede monitorizar el número de entregas enviadas por hora usando el [Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/sftp-storage-management.html?lang=es){target="_blank"}.
 >
 >Todos los usuarios administradores pueden acceder al Panel de control. Los pasos para otorgar acceso de administrador a un usuario se detallan en [esta página](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es#discover-control-panel){target="_blank"}.
 >
@@ -98,7 +98,7 @@ Se utilizan los siguientes indicadores:
 
   >[!NOTE]
   >
-  >Este indicador se refiere a las entregas de [canales móviles](../send/send.md) solo.
+  >Este indicador se relaciona únicamente con las entregas de [canales móviles](../send/send.md).
 
   Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo `[+]`. Para cada tipo de error, se puede mostrar el desglose de mensajes de error por dominio.
 
@@ -298,7 +298,7 @@ Se utilizan los siguientes indicadores:
 
 Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
 
-El número de aperturas corresponde al número total de mensajes abiertos. No se cuentan los correos electrónicos de formato de texto. Para obtener más información sobre el seguimiento de aperturas, consulte [esta sección](metrics-calculation.md#tracking-opens-).
+El número de aperturas corresponde al número total de mensajes abiertos. No se cuentan los correos electrónicos de formato de texto. Para obtener más información sobre el seguimiento de las aperturas, consulte [esta sección](metrics-calculation.md#tracking-opens-).
 
 ![](assets/user-agent-report.png)
 

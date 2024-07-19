@@ -35,20 +35,20 @@ Adobe Campaign Classic v7 y Adobe Campaign v8 ya admiten las últimas API para e
 
 Si la implementación actual admite servicios de suscripción que se conecten a FCM mediante las API heredadas, se verá afectado. La transición a las API más recientes es obligatoria para evitar cualquier interrupción del servicio. En ese caso, los equipos de Adobe se pondrán en contacto con usted.
 
-Para comprobar si se ha visto afectado, puede filtrar su **Servicios y suscripciones** según el filtro siguiente:
+Para comprobar si se ha visto afectado, puede filtrar sus **servicios y suscripciones** según el filtro siguiente:
 
 ![](assets/filter-services-fcm.png)
 
 
-* Si alguno de los servicios de notificaciones push activos utiliza **HTTP (heredado)** API, su configuración se verá directamente afectada por este cambio. Debe revisar las configuraciones actuales y pasar a las API más nuevas como se describe a continuación.
+* Si alguno de sus servicios de notificaciones push activos usa la API **HTTP (heredada)**, su configuración se verá directamente afectada por este cambio. Debe revisar las configuraciones actuales y pasar a las API más nuevas como se describe a continuación.
 
-* Si su configuración utiliza exclusivamente **HTTP v1** API para notificaciones push de Android, por lo que ya cumple los requisitos y no es necesario que realice ninguna otra acción.
+* Si su configuración usa exclusivamente la API **HTTP v1** para las notificaciones push de Android, entonces ya cumple los requisitos y no se requerirá ninguna otra acción por su parte.
 
 ### ¿Cómo realizar la actualización? {#fcm-transition-procedure}
 
 #### Requisitos previos {#fcm-transition-prerequisites}
 
-* Para Campaign Classic v7, se ha añadido la compatibilidad con HTTP v1 en la versión 20.3.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para la transición a HTTP v1 es actualizar el entorno a [última compilación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Para Campaign v8, HTTP v1 es compatible con todas las versiones y no se necesita ninguna actualización.
+* Para Campaign Classic v7, se ha añadido la compatibilidad con HTTP v1 en la versión 20.3.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para la transición a HTTP v1 es actualizar su entorno a la [última versión de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Para Campaign v8, HTTP v1 es compatible con todas las versiones y no se necesita ninguna actualización.
 
 * El archivo JSON de la cuenta del servicio Android Firebase Admin SDK es necesario para mover la aplicación móvil a HTTP v1. Obtenga información sobre cómo obtener este archivo en [Documentación de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
@@ -60,10 +60,10 @@ Para comprobar si se ha visto afectado, puede filtrar su **Servicios y suscripci
 
 Para mover el entorno a HTTP v1, siga estos pasos:
 
-1. Vaya a la lista de **Servicios y suscripciones**.
-1. Enumerar todas las aplicaciones móviles mediante **HTTP (heredado)** Versión de API.
-1. Para cada una de estas aplicaciones móviles, configure el **Versión de API** hasta **HTTP v1**.
-1. Haga clic en **[!UICONTROL Load project json file to extract project details...]** para cargar directamente el archivo con clave JSON.
+1. Examine su lista de **servicios y suscripciones**.
+1. Enumere todas las aplicaciones móviles usando la versión de la API **HTTP (heredada)**.
+1. Para cada una de estas aplicaciones móviles, establezca la **versión de API** en **HTTP v1**.
+1. Haga clic en el vínculo **[!UICONTROL Load project json file to extract project details...]** para cargar directamente el archivo con clave JSON.
 
    También puede introducir manualmente los siguientes detalles:
 
@@ -73,18 +73,18 @@ Para mover el entorno a HTTP v1, siga estos pasos:
 
    ![](assets/android-http-v1-config.png)
 
-1. Clic **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor de marketing tiene acceso a FCM. Tenga en cuenta que para las implementaciones intermediarias, la variable **[!UICONTROL Test connection]** no puede comprobar si el servidor tiene acceso al servicio Android Firebase Cloud Messaging (FCM).
+1. Haga clic en **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor de marketing tiene acceso a FCM. Tenga en cuenta que, para implementaciones intermediarias, el botón **[!UICONTROL Test connection]** no puede comprobar si el servidor tiene acceso al servicio Android Firebase Cloud Messaging (FCM).
 1. Como opción, puede enriquecer el contenido de un mensaje push con algunos **[!UICONTROL Application variables]** si es necesario. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
 1. Haga clic en **[!UICONTROL Finish]** y luego en **[!UICONTROL Save]**.
 
-   A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push. Estas opciones están detalladas [aquí](#fcm-apps).
+   A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push. Estas opciones se detallan [aquí](#fcm-apps).
 
    | Tipo de mensaje | Elemento de mensaje configurable (nombre de carga útil de FCM) | Opciones configurables (nombre de carga útil de FCM) |
    |:-:|:-:|:-:|
    | mensaje de datos | N/A | validate_only |
    | mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
 
-1. Una vez completada la transición a HTTP v1, debe actualizar su **plantillas de envío** para que las notificaciones push de Android aumenten el número de mensajes por lotes. Para ello, vaya a las propiedades de la plantilla de envíos de Android y, en **Envío** pestaña, configure el [Cantidad de lotes de mensajes](../../v8/send/configure-and-send.md#delivery-batch-quantity) hasta **256**. Aplique este cambio a todas las plantillas de envíos utilizadas para sus envíos de Android y a todas las entregas de Android existentes.
+1. Una vez completada la transición a HTTP v1, debe actualizar las **plantillas de envío** para las notificaciones push de Android a fin de aumentar el número de mensajes por lotes. Para ello, vaya a las propiedades de la plantilla de envíos de Android y, en la pestaña **Envío**, establezca [Cantidad de lotes de mensajes](../../v8/send/configure-and-send.md#delivery-batch-quantity) en **256**. Aplique este cambio a todas las plantillas de envíos utilizadas para sus envíos de Android y a todas las entregas de Android existentes.
 
 
 >[!NOTE]
@@ -101,12 +101,12 @@ Sin embargo, con HTTP v1, puede personalizar aún más la notificación push con
 
 Puede hacer lo siguiente:
 
-* Utilice el **[!UICONTROL Ticker]** para establecer el texto del valor de la notificación.
-* Utilice el **[!UICONTROL Image]** para establecer la dirección URL de la imagen que se mostrará en la notificación.
-* Utilice el **[!UICONTROL Notification Count]** para establecer la cantidad de información nueva no leída que se mostrará directamente en el icono de la aplicación.
-* Configure las variables **[!UICONTROL Sticky]** Opción a false para que la notificación se descarte automáticamente cuando el usuario haga clic en ella. Si se establece en true, la notificación se seguirá mostrando incluso cuando el usuario haga clic en ella.
-* Configure las variables **[!UICONTROL Notification Priority]** nivel de la notificación al predeterminado, mínimo, bajo o alto.
-* Configure las variables **[!UICONTROL Visibility]** nivel de notificación a público, privado o secreto.
+* Utilice el campo **[!UICONTROL Ticker]** para establecer el texto del valor de la notificación.
+* Utilice el campo **[!UICONTROL Image]** para establecer la dirección URL de la imagen que se mostrará en la notificación.
+* Utilice el campo **[!UICONTROL Notification Count]** para establecer el número de información nueva no leída que se mostrará directamente en el icono de la aplicación.
+* Establezca la opción **[!UICONTROL Sticky]** en false para que la notificación se descarte automáticamente cuando el usuario haga clic en ella. Si se establece en true, la notificación se seguirá mostrando incluso cuando el usuario haga clic en ella.
+* Establezca el nivel **[!UICONTROL Notification Priority]** de la notificación en predeterminado, mínimo, bajo o alto.
+* Establezca el nivel **[!UICONTROL Visibility]** de la notificación en pública, privada o secreta.
 
 Para obtener más información sobre **[!UICONTROL HTTP v1 additional options]** y cómo rellenar estos campos, consulte la [documentación de FCM](https://firebase.google.com/docs/reference/fcm/rest/v1/projects.messages#androidnotification){target="_blank"}.
 
@@ -124,7 +124,7 @@ La autenticación basada en tokens ofrece una forma sin estado de comunicarse co
 
 * Puede utilizar un token para distribuir notificaciones para todas las aplicaciones de la empresa.
 
-Obtenga más información acerca de las conexiones basadas en tokens a APNS en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+Obtenga más información acerca de las conexiones basadas en tokens a APN en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 Adobe Campaign Classic v7 y Adobe Campaign v8 admiten conexiones basadas en tokens y en certificados. Si la implementación depende de una conexión basada en certificados, Adobe le recomienda encarecidamente que la actualice a una conexión basada en tokens.
 
@@ -132,22 +132,22 @@ Adobe Campaign Classic v7 y Adobe Campaign v8 admiten conexiones basadas en toke
 
 Si la implementación actual depende de solicitudes basadas en certificados para conectarse a APNS, se verá afectado. Se recomienda la transición a una conexión basada en token.
 
-Para comprobar si se ha visto afectado, puede filtrar su **Servicios y suscripciones** según el filtro siguiente:
+Para comprobar si se ha visto afectado, puede filtrar sus **servicios y suscripciones** según el filtro siguiente:
 
 ![](assets/filter-services-ios.png)
 
 
-* Si alguno de los servicios de notificaciones push activos utiliza **Autenticación basada en certificados** modo (.p12), las implementaciones actuales deben revisarse y moverse a un **Autenticación basada en tokens** modo (.p8) como se describe a continuación.
+* Si alguno de sus servicios de notificaciones push activos usa el modo **Autenticación basada en certificado** (.p12), sus implementaciones actuales deberían revisarse y moverse al modo **Autenticación basada en token** (.p8) como se describe a continuación.
 
-* Si su configuración utiliza exclusivamente **Autenticación basada en tokens** modo para notificaciones push de iOS, la implementación ya está actualizada y no es necesario que realice más acciones.
+* Si su instalación utiliza exclusivamente el modo de autenticación **basada en tokens** para las notificaciones push de iOS, su implementación ya estará actualizada y no necesitará más acciones por su parte.
 
 ### ¿Cómo realizar la actualización? {#ios-transition-procedure}
 
 #### Requisitos previos {#ios-transition-prerequisites}
 
-* Para Campaign Classic v7, la compatibilidad de **Autenticación basada en tokens** se ha añadido el modo en la versión 20.2. Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la versión de [última compilación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Para la versión 8 de Campaign, **Autenticación basada en tokens** Todas las versiones admiten el modo y no se necesita ninguna actualización.
+* Para Campaign Classic v7, se ha agregado la compatibilidad con el modo **Autenticación basada en tokens** en la versión 20.2. Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la [última versión de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Para la versión 8 de Campaign, el modo **Autenticación basada en tokens** es compatible con todas las versiones y no se necesita ninguna actualización.
 
-* Necesita una clave de firma de token de autenticación de APNS para generar los tokens que utiliza su servidor. Puede solicitar esta clave a su cuenta de desarrollador de Apple, tal como se explica en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
+* Necesita una clave de firma de token de autenticación de APNS para generar los tokens que utiliza su servidor. Usted solicita esta clave desde su cuenta de desarrollador de Apple, como se explica en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 
 * Para implementaciones híbridas, alojadas y de Managed Services, además del procedimiento de transición que se muestra a continuación, póngase en contacto con el Adobe de trabajo para actualizar el servidor de ejecución en tiempo real (RT). El servidor intermediario no se ve afectado.
 
@@ -157,15 +157,15 @@ Para comprobar si se ha visto afectado, puede filtrar su **Servicios y suscripci
 
 Para mover las aplicaciones móviles de iOS al modo de autenticación basado en tokens, siga estos pasos:
 
-1. Vaya a la lista de **Servicios y suscripciones**.
-1. Enumerar todas las aplicaciones móviles mediante **Autenticación basada en certificados** modo (.p12).
-1. Edite cada una de estas aplicaciones móviles y vaya a la **Certificado/Clave privada** pestaña.
-1. Desde el **Modo de autenticación** menú desplegable, seleccione **Autenticación basada en tokens** modo (.p8).
-1. Rellene la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** a continuación, seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**.
+1. Examine su lista de **servicios y suscripciones**.
+1. Enumerar todas las aplicaciones móviles mediante el modo **Autenticación basada en certificado** (.p12).
+1. Edite cada una de estas aplicaciones móviles y vaya a la ficha **Certificado/Clave privada**.
+1. En el menú desplegable **Modo de autenticación**, seleccione el modo **Autenticación basada en token** (.p8).
+1. Complete la configuración de conexión de APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** y luego seleccione su certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**.
 
    ![](assets/token-based-certif.png)
 
-1. Clic **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor tiene acceso a APNS. Tenga en cuenta que para las implementaciones intermediarias, la variable **[!UICONTROL Test connection]** El botón no puede comprobar si el servidor tiene acceso a APNS.
+1. Haga clic en **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor tiene acceso a APNS. Tenga en cuenta que para las implementaciones intermediarias, el botón **[!UICONTROL Test connection]** no puede comprobar si el servidor tiene acceso a APNS.
 1. Haga clic en **[!UICONTROL Next]** para configurar la aplicación de producción y siga los mismos pasos detallados anteriormente.
 1. Haga clic en **[!UICONTROL Finish]** y luego en **[!UICONTROL Save]**.
 

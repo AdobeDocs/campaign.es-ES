@@ -37,7 +37,7 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     </div>
     <br>     
     <div>
-    <a href="workflow/build-a-workflow.md">Creación de su primer flujo de trabajo</a>
+    <a href="workflow/build-a-workflow.md">Cree su primer flujo de trabajo</a>
     </div>
     <br>
     <div>
@@ -47,7 +47,7 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
   </td>
   <td valign="top">
     <div><img src="assets/do-not-localize/campaign.jpeg">
-    <b>Orquestación de campaña</b>
+    <b>Organización de campaña</b>
     </div>
     <br>
     <div>
@@ -55,11 +55,11 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-create.md">Creación de la primera campaña</a>
+    <a href="campaigns/marketing-campaign-create.md">Cree su primera campaña</a>
     </div>
     <br>
     <div>
-    <a href="campaigns/marketing-campaign-deliveries.md">Envío de mensajes en una campaña</a>
+    <a href="campaigns/marketing-campaign-deliveries.md">Enviar mensajes en una campaña</a>
     </div>
     <br>
   </td>
@@ -73,7 +73,7 @@ Visite las guías siguientes y aprenda a crear automatización con Adobe Campaig
     </div>
     <br>
     <div>
-    <a href="campaign-opt/campaign-typologies.md">Optimización de campaña</a>
+    <a href="campaign-opt/campaign-typologies.md">Optimización de la campaña</a>
     </div>
     <br>
     <div>

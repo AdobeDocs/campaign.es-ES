@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0f81d318-dbfd-45c8-b391-b1d14d23e9c8
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 96%
+source-wordcount: '942'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe ofrece las herramientas de los controladores de datos para crear y procesa
 
 Para administrar la solicitud de privacidad en Campaign, primero debe [definir un área de nombres](#namespaces). A continuación, puede crear y administrar solicitudes de privacidad. Para ejecutar solicitudes de privacidad, utilice la integración **Privacy Service de Adobe**. Las solicitudes de privacidad enviadas desde Privacy Service a todas las soluciones de Adobe Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado. [Más información](#create-privacy-request)
 
-Obtenga información acerca de **Derecho de acceso** y el **Derecho al olvido** (solicitud de eliminación) en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target="_blank"}.
+Obtenga información sobre el **Derecho de acceso** y el **Derecho a ser olvidado** (solicitud de eliminación) en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target="_blank"}.
 
 <!--
 >[!NOTE]
@@ -109,7 +109,7 @@ El patrón para un nombre de archivo es: `<InstanceName>-<NamespaceId>-<Reconcil
 
 >[!CAUTION]
 >
->Para enviar una solicitud utilizando el tipo de área de nombres personalizada, aproveche el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target="_blank"} and add the namespaceId to the request, or use the [API call](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target="_blank"} para realizar la solicitud.
+>Para enviar una solicitud usando el tipo de área de nombres personalizada, aprovecha el [método JSON](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#json){target="_blank"} y agrega el namespaceId a la solicitud, o usa la [llamada de API](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/privacy-jobs.html?lang=es#access-delete){target="_blank"} para realizar la solicitud.
 >
 >Utilice únicamente la [interfaz de usuario de Privacidad](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=es#request-builder){target="_blank"} para enviar solicitudes con el tipo de área de nombres estándar.
 

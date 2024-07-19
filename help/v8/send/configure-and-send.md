@@ -14,7 +14,7 @@ ht-degree: 66%
 
 # Configuración y envío de la entrega {#configure-delivery}
 
-Acceda a los parámetros de envío para configurar más ajustes y definir cómo enviar los mensajes. Puede definir la entrega [priority](#delivery-priority), configurado [olas](#sending-using-multiple-waves)y pruebe el envío de envíos. Una vez completada esta configuración, puede confirmar el envío como se describe en [esta sección](#confirm-delivery). Los mensajes se envían inmediatamente o en función del envío [programación](#schedule-delivery-sending).
+Acceda a los parámetros de envío para configurar más ajustes y definir cómo enviar los mensajes. Puede definir la entrega [priority](#delivery-priority), configurar [waves](#sending-using-multiple-waves) y probar la entrega. Una vez completada esta configuración, puede confirmar el envío tal como se describe en [esta sección](#confirm-delivery). Los mensajes se envían inmediatamente o se basan en la entrega [programada](#schedule-delivery-sending).
 
 ## Definición de parámetros adicionales {#delivery-additional-parameters}
 
@@ -24,11 +24,11 @@ Antes de realizar el envío, se pueden definir los parámetros de envío en las 
 
 ### Prioridad de envío {#delivery-priority}
 
-Utilice el **[!UICONTROL Delivery priority]** para cambiar el orden de envío de los envíos estableciendo su nivel de prioridad, desde **[!UICONTROL Very low]** hasta **[!UICONTROL Very high]** (el valor predeterminado es **[!UICONTROL Normal]**).
+Utilice la opción **[!UICONTROL Delivery priority]** para cambiar el orden de envío de los envíos estableciendo su nivel de prioridad, de **[!UICONTROL Very low]** a **[!UICONTROL Very high]** (el valor predeterminado es **[!UICONTROL Normal]**).
 
 ### Cantidad de lotes {#delivery-batch-quantity}
 
-Utilice el  **[!UICONTROL Message batch quantity]** para definir el número de mensajes agrupados dentro del mismo paquete de envío XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
+Utilice la opción **[!UICONTROL Message batch quantity]** para definir el número de mensajes agrupados dentro del mismo paquete de envío XML. Si el parámetro se establece en 0, los mensajes se agrupan automáticamente. El tamaño del paquete se define mediante el cálculo `<delivery size>/1024`, con un mínimo de 8 y un máximo de 256 mensajes por paquete.
 
 >[!IMPORTANT]
 >
@@ -36,7 +36,7 @@ Utilice el  **[!UICONTROL Message batch quantity]** para definir el número de m
 
 ### Prueba de los envíos de entregas
 
-Utilice el  **[!UICONTROL Test SMTP delivery]** opción para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
+Utilice la opción **[!UICONTROL Test SMTP delivery]** para probar el envío a través de SMTP. La entrega se procesa hasta la conexión con el servidor SMTP, pero no se envía. Para cada destinatario de la entrega, Campaign se conecta al servidor del proveedor SMTP, ejecuta el comando RCPT TO del servidor de correo saliente (SMTP) y cierra la conexión antes del comando DATA del SMTP.
 
 >[!NOTE]
 >
@@ -52,8 +52,8 @@ Para equilibrar la carga, se pueden dividir los envíos en varios lotes. Configu
 
 Para definir las olas, siga estos pasos:
 
-1. Abra las propiedades de entrega y vaya a **[!UICONTROL Delivery]** pestaña.
-1. Habilite la **[!UICONTROL Send using multiple waves]** y haga clic en la **[!UICONTROL Define waves...]** vínculo.
+1. Abra las propiedades de entrega y vaya a la pestaña **[!UICONTROL Delivery]**.
+1. Habilite la opción **[!UICONTROL Send using multiple waves]** y haga clic en el vínculo **[!UICONTROL Define waves...]**.
 
    ![](assets/delivery-define-waves.png)
 
@@ -65,7 +65,7 @@ Para definir las olas, siga estos pasos:
 
 Puede definir el tamaño de cada ola o agregarlas a un calendario.
 
-* **Definir el tamaño de cada ola**. Por ejemplo, si se introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en el envío, excepto el último, que representa el 10 % de los mensajes.
+* **Defina el tamaño de cada ola**. Por ejemplo, si se introduce **[!UICONTROL 30%]** en el campo correspondiente, cada ola representa el 30 % de los mensajes incluidos en el envío, excepto el último, que representa el 10 % de los mensajes.
 
   En el campo **[!UICONTROL Period]** especifique el retardo entre el inicio de dos olas consecutivas. Por ejemplo, si se introduce **[!UICONTROL 2d]**, la primera ola comienza inmediatamente, la segunda ola comienza en dos días, la tercera ola en cuatro días, etc.
 
@@ -79,17 +79,17 @@ Puede definir el tamaño de cada ola o agregarlas a un calendario.
 
 ### Comprobación de programación de olas {#check-waves}
 
-Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Tipologías de campaña y sus reglas, configuradas en la variable **[!UICONTROL Typology]** de las propiedades de entrega, se presentan en [esta sección](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
+Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, garantiza que la última ola se programe antes del límite de validez del envío. Las tipologías de campaña y sus reglas, configuradas en la pestaña **[!UICONTROL Typology]** de las propiedades de entrega, se muestran en [esta sección](../../automation/campaign-opt/campaign-typologies.md#typology-rules)<!--ref TBC-->.
 
 >[!IMPORTANT]
 >
->Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. De lo contrario, es posible que algunos mensajes no se envíen. Obtenga más información acerca del periodo de validez de una entrega en [esta sección](delivery-failures.md#valid-period).
+>Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. De lo contrario, es posible que algunos mensajes no se envíen. Obtenga más información acerca del período de validez de un envío en [esta sección](delivery-failures.md#valid-period).
 >
->También debe definir tiempo suficiente para los reintentos al configurar las últimas olas. Más información sobre los reintentos en [esta sección](delivery-failures.md#retries).
+>También debe definir tiempo suficiente para los reintentos al configurar las últimas olas. Obtenga más información acerca de los reintentos en [esta sección](delivery-failures.md#retries).
 
 ### Monitorización de olas {#monitor-waves}
 
-Para supervisar sus envíos, vaya a los registros de envío. Consulte [esta página](send.md)
+Para supervisar sus envíos, vaya a los registros de envío. Ver [esta página](send.md)
 
 Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
 
@@ -124,7 +124,7 @@ Una vez configurada la entrega y lista para enviarla, asegúrese de ejecutar el 
 
 Para realizar esto, siga los pasos a continuación.
 
-1. Clic **[!UICONTROL Send]**, seleccione la acción que desee.
+1. Haga clic en **[!UICONTROL Send]** y seleccione la acción que desee.
 
    * Para realizar la entrega inmediatamente, seleccione [**Enviar lo antes posible**].
    * Para programar el envío a una fecha posterior, seleccione **[!UICONTROL Postpone the delivery]**. [Más información](#schedule-delivery-sending)
@@ -137,7 +137,7 @@ Para realizar esto, siga los pasos a continuación.
 
    ![](assets/delivery-send-confirm.png)
 
-1. Puede cerrar el asistente de envíos y realizar un seguimiento de la ejecución del envío desde **[!UICONTROL Delivery]** , a la que se puede acceder mediante el detalle de esta entrega o a través de la lista de envíos.
+1. Puede cerrar el asistente de envíos y realizar un seguimiento de la ejecución del envío desde la pestaña **[!UICONTROL Delivery]**, a la que se puede acceder mediante el detalle del envío o a través de la lista de envíos.
 
    Para obtener más información, consulte las secciones siguientes:
 
@@ -164,7 +164,7 @@ Puede retrasar la entrega de mensajes para programar su fecha o administrar la p
 
    ![](assets/delivery-send-scheduled.png)
 
-En la lista de envío, el envío aparecerá con el **[!UICONTROL Pending]** estado.
+En la lista de envío, el envío aparecerá con el estado **[!UICONTROL Pending]**.
 
 La programación se puede configurar en orden ascendente mediante el botón **[!UICONTROL Scheduling]** del envío.
 

@@ -14,7 +14,7 @@ ht-degree: 35%
 
 # Importación de perfiles de un archivo{#create-profiles}
 
-Para rellenar la base de datos de Campaign, puede [adición manual de perfiles](create-profiles.md) o importar perfiles como se detalla a continuación. También puede utilizar archivos importados para actualizar los datos de contacto.
+Para rellenar la base de datos de Campaign, puede [agregar perfiles manualmente](create-profiles.md) o importar perfiles como se detalla a continuación. También puede utilizar archivos importados para actualizar los datos de contacto.
 
 ## Importación de perfiles con un flujo de trabajo {#import-profiles-with-a-wf}
 
@@ -34,7 +34,7 @@ Una vez recopilados los datos, puede utilizarlos en sus flujos de trabajo, por e
 
 Adobe Campaign proporciona una capacidad de importación genérica que le permite, por ejemplo, extraer una lista de clientes o clientes potenciales que luego formarán parte de una población de destinatarios o suministrar datos de archivos externos a su base de datos.
 
-Las importaciones genéricas se administran desde **[!UICONTROL Profiles and Targets > Jobs]** de la página de inicio de Adobe Campaign.
+Las importaciones genéricas se administran desde el menú **[!UICONTROL Profiles and Targets > Jobs]** de la página principal de Adobe Campaign.
 
 ![](assets/new-import-job.png)
 

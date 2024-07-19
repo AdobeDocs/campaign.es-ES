@@ -66,7 +66,7 @@ Una actividad **[!UICONTROL Query]** permite seleccionar datos básicos para cre
 
 También puede utilizar las siguientes actividades para consultar y acotar los datos de la base de datos: [Incremental query](incremental-query.md), [Read list](read-list.md).
 
-Se pueden recopilar datos adicionales que reenviar y procesar a lo largo del ciclo de vida del flujo de trabajo. Para obtener más información, consulte [Añadir datos](query.md#add-data) y [Edición de datos adicionales](#edit-additional-data).
+Se pueden recopilar datos adicionales que reenviar y procesar a lo largo del ciclo de vida del flujo de trabajo. Para obtener más información, consulte [Agregar datos](query.md#add-data) y [Editar datos adicionales](#edit-additional-data).
 
 ### Edición de datos adicionales {#edit-additional-data}
 
@@ -80,7 +80,7 @@ Para añadir datos a las columnas de salida definidas anteriormente, seleccióne
 
 ![](assets/query_add_an_output_column.png)
 
-Haga clic en **Selección avanzada** botón.
+Haga clic en el botón **Selección avanzada**.
 
 ![](assets/query_add_an_output_column_formula.png)
 
@@ -284,7 +284,7 @@ Para implementar estas operaciones, Adobe Campaign ofrece:
 
 Además de la dimensión de destino, la dimensión de filtrado permite especificar la naturaleza de los datos recopilados. Consulte [esta sección](targeting-workflows.md#targeting-and-filtering-dimensions).
 
-Los datos identificados y recopilados se pueden enriquecer, añadir y manipular para optimizar la construcción de objetivos. Para ello, además de las actividades de manipulación de datos detalladas en [esta sección](#segmen-data), utilice lo siguiente:
+Los datos identificados y recopilados se pueden enriquecer, añadir y manipular para optimizar la construcción de objetivos. Para ello, además de las actividades de manipulación de datos detalladas en [esta sección](#segmen-data), use lo siguiente:
 
 * La actividad **[!UICONTROL Enrichment]** permite añadir rápidamente columnas a un esquema, así como añadir información a ciertos elementos. Se detalla en la sección [Enrichment](enrichment.md) del repositorio de actividades.
 * La actividad **[!UICONTROL Edit schema]** permite modificar la estructura de un esquema. Se detalla en la sección [Edit schema](edit-schema.md) del repositorio de actividades.

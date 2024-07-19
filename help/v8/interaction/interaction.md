@@ -14,7 +14,7 @@ ht-degree: 50%
 
 # Administración de interacciones en tiempo real
 
-Campaign incluye un **Interacción** módulo que permite responder en tiempo real durante una interacción a un contacto determinado proponiéndole una o varias ofertas específicas. Estas ofertas pueden ser mensajes de comunicación sencillos, ofertas especiales sobre uno o varios productos o un servicio.
+Campaign viene con un módulo **Interaction** que te permite responder en tiempo real durante una interacción con un contacto determinado proponiendo una o varias ofertas específicas. Estas ofertas pueden ser mensajes de comunicación sencillos, ofertas especiales sobre uno o varios productos o un servicio.
 
 Puede crear un catálogo de ofertas que interactúe con sus canales salientes (correo electrónico, correo directo, SMS) para seleccionar la mejor oferta y enviarla a un contacto en un contexto determinado. La selección de la mejor oferta para un destinatario se basa en **reglas de elegibilidad**. La selección de una oferta de entre un conjunto de ofertas relevantes se determina mediante reglas de prioridad. Las reglas de presentación de ofertas tienen en cuenta el historial del contacto y ayudan a evitar que reciban la misma oferta varias veces.
 
@@ -40,7 +40,7 @@ A continuación se enumeran los pasos clave para el inicio.
 
 ### Configurar su plataforma
 
-Antes de empezar, como campaña **Administrador**, asegúrese de realizar las siguientes tareas en entornos de diseño:
+Antes de empezar, como **Administrador** de Campaign, asegúrese de realizar las siguientes tareas en entornos de diseño:
 
 1. Crear perfiles de usuario. [Más información](interaction-operators.md)
 1. (Opcional) Cree un entorno de oferta para cada dimensión de segmentación. [Más información](interaction-env.md)
@@ -63,7 +63,7 @@ Si el espacio se define mediante un canal unitario en modo identificado, se debe
 
 ### Creación y publicación del catálogo de ofertas {#managing-the-offer-catalog-}
 
-Como un **Gestor de ofertas** debe:
+Como **gestor de ofertas**, debe:
 
 1. Cree categorías de oferta en entornos de diseño. [Más información](interaction-offer-catalog.md#creating-offer-categories)
 1. Cree ofertas en entornos de diseño. [Más información](interaction-offer.md)
@@ -71,7 +71,7 @@ Como un **Gestor de ofertas** debe:
 
 ### Uso del catálogo de ofertas {#using-the-offer-catalog-}
 
-As a **Gestor de envíos**  debe:
+Como **administrador de entregas**, debe:
 
 1. Cree una campaña.
 1. Hacer referencia a una oferta en la campaña o en la entrega. [Más información](interaction-send-offers.md).
@@ -82,7 +82,7 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
 
 * **Environment**: define lo que incluye un catálogo de ofertas y los enlaces (espacios de oferta). Cree un entorno mediante la dimensión de segmentación. Hay dos tipos de entornos:
 
-   * **Design environment**: entorno en el que se crean y/o se definen las reglas tipológicas (reglas que determinan las ofertas para presentarlas, o no, a una persona destinataria). En esta sección también se definen la lista de personas que reciben las ofertas y la lista de almacenamiento de todas ellas. El **[!UICONTROL Design environment]** El nodo contiene subcarpetas del espacio de ofertas, filtros predefinidos y categorías de las ofertas. A cada **[!UICONTROL Design environment]**, le corresponde un **[!UICONTROL Live environment]** de solo lectura, generado a partir de este mismo **[!UICONTROL Design environment]**.
+   * **Design environment**: entorno en el que se crean y/o se definen las reglas tipológicas (reglas que determinan las ofertas para presentarlas, o no, a una persona destinataria). En esta sección también se definen la lista de personas que reciben las ofertas y la lista de almacenamiento de todas ellas. El nodo **[!UICONTROL Design environment]** contiene subcarpetas del espacio de ofertas, filtros predefinidos y categorías de las ofertas. A cada **[!UICONTROL Design environment]**, le corresponde un **[!UICONTROL Live environment]** de solo lectura, generado a partir de este mismo **[!UICONTROL Design environment]**.
    * **Live environment**: entorno vinculado a **[!UICONTROL Design environment]**. Contiene ofertas de solo lectura cuyo contenido e idoneidad se han aprobado a través de la **[!UICONTROL Design environment]**. Están disponibles para mostrarse en un sitio web o insertarse en un mensaje.
 
 * **Offer space**: carpeta que determina la ubicación donde se expone la oferta. Al definir un espacio, puede:
@@ -107,7 +107,7 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
   >
   >Las categorías secundarias heredan los temas identificados en la categoría principal.
 
-* **Reglas de elegibilidad**: restricciones aplicadas a un entorno, categoría u oferta sobre el periodo de validez, el destinatario y el peso. Permiten garantizar que una oferta está en línea con el contacto de destino.
+* **Reglas de elegibilidad**: restricciones aplicadas a un entorno, categoría u oferta relacionadas con el período de validez, el objetivo y el peso. Permiten garantizar que una oferta está en línea con el contacto de destino.
 
   En los entornos, las reglas de idoneidad incluyen reglas de presentación aplicadas a las ofertas y a los destinatarios.
 
@@ -115,7 +115,7 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
 
   En las ofertas, las reglas de idoneidad permiten limitar la validez de las ofertas en el tiempo y determinar los destinatarios.
 
-* **Arbitraje**: selección de ofertas para mostrar en un entorno (ofertas aptas). El principio de arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
+* **Arbitrage**: seleccionar ofertas para mostrar en un entorno (ofertas elegibles). El principio de arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
 * **Contact**: un contacto de una interacción entrante. Durante el procesamiento de visualización del motor, el contacto se asocia a una dimensión de segmentación. Hay dos tipos de contactos:
 
    * **[!UICONTROL Identified contact]** : un contacto que se ha identificado voluntariamente en el canal. En las interacciones de salida, el contacto se identifica automáticamente.
@@ -125,20 +125,20 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
      >
      >Los contactos no identificados y anónimos se atribuyen a la dimensión de segmentación del visitante.
 
-* **Interacción saliente**: invoque al motor de oferta desde una lista de contactos (utilizada para enviar correos electrónicos, correo directo, etc.). Se aplican las mismas reglas y procesos a cada contacto. Este tipo de interacción se procesa generalmente en modo por lotes.
+* **Interacción saliente**: llame al motor de oferta desde una lista de contactos (utilizada para enviar correos electrónicos, correo directo, etc.). Se aplican las mismas reglas y procesos a cada contacto. Este tipo de interacción se procesa generalmente en modo por lotes.
 * **Inbound interaction**: interacción después de una llamada entrante generada por la acción de un contacto en el canal. Este tipo de interacción se procesa generalmente en modo unitario.
 * **Batch mode**: el modo por lotes permite seleccionar la mejor oferta para un conjunto de contactos. Las reglas de idoneidad/priorización se aplican a todos los contactos del conjunto. Este modo se aplica generalmente a las interacciones salientes.
 * **Unitary mode**: se procesa un solo contacto cada vez. Este modo se aplica generalmente a interacciones entrantes y mensajes transaccionales.
 * **Modo de identificación**: hace referencia al estado de un contacto:
 
-   * **[!UICONTROL explicit]** : los contactos se identifican mediante su inicio de sesión en la interfaz del canal.
+   * **[!UICONTROL explicit]** : los contactos se identifican por su inicio de sesión en la interfaz del canal.
    * **[!UICONTROL implicit]** : los contactos se identifican mediante una cookie (permanente o por sesión). Puede procesarse como contacto anónimo o identificado.
-   * **[!UICONTROL anonymous]** : los contactos no se pueden identificar.
+   * **[!UICONTROL anonymous]** : no se pueden identificar los contactos.
 
 * **Oferta elegible**: ofrece a las reuniones las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un objetivo.
 * **Presentation rules**: reglas de tipología a las que se hace referencia en el entorno de la oferta, que le permiten excluir algunas ofertas tomando en cuenta el historial de propuestas.
-* **Grosor**: fórmulas que permiten calcular con precisión la relevancia de una oferta para seleccionar la oferta más relevante. Los pesos se definen en las ofertas. Las ofertas elegibles se tienen en cuenta en orden de peso descendiente.
-* **Función de renderización**: función definida en el espacio de oferta para construir su representación de oferta en función de los atributos definidos en la oferta. Existen tres modos de función de renderización diferentes: HTML, XML y texto.
+* **Weight**: fórmulas que permiten calcular con precisión la relevancia de una oferta, para seleccionar la oferta más relevante. Los pesos se definen en las ofertas. Las ofertas elegibles se tienen en cuenta en orden de peso descendiente.
+* **Rendering function**: función definida en el espacio de oferta para construir su representación de oferta basada en los atributos definidos en la oferta. Existen tres modos de función de renderización diferentes: HTML, XML y texto.
 * **Offer proposition**: resultado de la acción que consiste en presentar una o varias ofertas a un contacto en un espacio determinado (titular de un sitio web, correo electrónico o SMS, por ejemplo). Este resultado se almacena en la tabla de ofertas propuestas. No obstante, no es obligatorio guardar las propuestas.
 * **Simulation**: módulo que permite probar la presentación de las ofertas en los destinatarios objetivo antes de enviar las ofertas.
 * **Preview**: previsualización de la oferta tal y como se muestra en su carpeta. Es accesible desde la ventana de configuración de la oferta o el perfil de contacto.

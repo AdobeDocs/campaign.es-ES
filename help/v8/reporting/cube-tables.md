@@ -25,7 +25,7 @@ Utilice los cubos para crear informes e identificar y seleccionar datos de la ba
 
 ### Paso 1: Creación de un informe basado en un cubo {#step-1---create-a-report-based-on-a-cube}
 
-Una vez que [cubo configurado](cube-indicators.md), se puede utilizar como plantilla para crear un nuevo informe.
+Una vez configurado el [cubo](cube-indicators.md), se puede usar como plantilla para crear un nuevo informe.
 
 Para crear un informe basado en un cubo existente, siga los pasos a continuación:
 
@@ -93,7 +93,7 @@ Para añadir y configurar medidas, siga los pasos a continuación:
 
    ![](assets/cube-measure-button.png)
 
-1. Con el **[!UICONTROL Use a measure]** , seleccione una de las medidas existentes.
+1. Con el botón **[!UICONTROL Use a measure]**, seleccione una de las medidas existentes.
 
    ![](assets/cube-add-measure.png)
 
@@ -125,7 +125,7 @@ Para añadir y configurar medidas, siga los pasos a continuación:
 
    ![](assets/cube-display-new-measure.png)
 
-   Una vez creada una medida, puede editarla y cambiar su configuración. Para ello, haga clic en el **[!UICONTROL Measures]** y, a continuación, vaya a la pestaña de la medida que desea editar.
+   Una vez creada una medida, puede editarla y cambiar su configuración. Para ello, haga clic en el botón **[!UICONTROL Measures]** y luego vaya a la pestaña de la medida que desea editar.
 
    A continuación, haga clic en **[!UICONTROL Edit the dynamic measure]** para acceder al menú de configuración.
 
@@ -145,7 +145,7 @@ Para agrupar una población en una lista, siga los pasos a continuación:
 
    ![](assets/cube-show-cart.png)
 
-1. Utilice el **[!UICONTROL Export]** para agrupar los elementos del carro en una lista.
+1. Utilice el botón **[!UICONTROL Export]** para agrupar los elementos del carro en una lista.
 
    Introduzca el nombre de la lista y seleccione el tipo de exportación que desea realizar.
 
@@ -159,7 +159,7 @@ Para agrupar una población en una lista, siga los pasos a continuación:
 
    Puede guardar el contenido del carro o vaciarlo.
 
-   La nueva lista está disponible a través de **[!UICONTROL Profiles and targets]** pestaña.
+   La nueva lista está disponible a través de la ficha **[!UICONTROL Profiles and targets]**.
 
    ![](assets/cube-list-available.png)
 
@@ -175,4 +175,4 @@ Para crear una tabla y explorar los datos de un cubo, siga los pasos a continuac
 
    ![](assets/cube-selected-in-report.png)
 
-   Esto permite generar el informe que se desea mostrar. Para obtener más información, consulte [Paso 2: Selección de líneas y columnas](#step-2---select-lines-and-columns).
+   Esto permite generar el informe que se desea mostrar. Para obtener más información, consulte [Paso 2 - Seleccionar líneas y columnas](#step-2---select-lines-and-columns).

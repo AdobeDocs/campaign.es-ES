@@ -71,7 +71,7 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
 
 1. También puede filtrar por el **[!UICONTROL Workflow type]**:
 
-   * **[!UICONTROL Technical]** : Solo [flujos de trabajo técnicos integrados](technical-workflows.md) y [flujos de trabajo de gestión de datos](targeting-workflows.md#data-management) se muestran.
+   * **[!UICONTROL Technical]** : Solo se muestran [flujos de trabajo técnicos integrados](technical-workflows.md) y [flujos de trabajo de administración de datos](targeting-workflows.md#data-management).
    * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de ](campaign-workflows.md)campaña.
 
 1. Para buscar un flujo de trabajo específico por su nombre, también puede utilizar el campo **[!UICONTROL Workflow name filter]**.
@@ -149,7 +149,7 @@ En este caso, muchos usuarios se quejan del rendimiento del flujo de trabajo. De
 
 1. Vaya a **[!UICONTROL Monitoring]** y haga clic en el vínculo **[!UICONTROL Workflows]** para mostrar la página **[!UICONTROL Campaign Workflow HeatMap]**.
 1. Establezca el filtro **[!UICONTROL Min duration]** en 5 minutos.
-1. Configure las variables **[!UICONTROL Workflow type]** filtrar a **[!UICONTROL Marketing]**.
+1. Establezca el filtro **[!UICONTROL Workflow type]** en **[!UICONTROL Marketing]**.
 1. Desde la cuadrícula de mapa de calor, observe lo siguiente:
 
    ![](assets/wkf_monitoring_without.png)

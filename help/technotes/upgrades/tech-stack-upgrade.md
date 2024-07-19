@@ -16,9 +16,9 @@ ht-degree: 9%
 
 La infraestructura de Campaign se basa en sistemas de terceros que deben actualizarse regularmente con las últimas versiones y correcciones. Estas actualizaciones son obligatorias para garantizar la continuidad del servicio y proteger los entornos de Campaign de los riesgos de seguridad. Además, se requiere una actualización de Campaign para garantizar la compatibilidad con los cambios del sistema de terceros.
 
-As a **Cliente de Cloud Service administrados**, el Adobe le informa sobre estas actualizaciones cuando son necesarias. Sus entornos deberán actualizarse de acuerdo con las recomendaciones para garantizar el cumplimiento.
+Como **cliente de Cloud Service administrados**, Adobe le informa sobre estas actualizaciones cuando son necesarias. Sus entornos deberán actualizarse de acuerdo con las recomendaciones para garantizar el cumplimiento.
 
-Por motivos de seguridad, el Adobe debe [instale la última versión de Campaign](#ac-upgrade)y, a continuación, actualice su [sistema operativo](#os-upgrade) y/o su [Relation Database Management System (RDBMS)](#pg-upgrade).
+Por razones de seguridad, el Adobe debe [instalar la última compilación de Campaign](#ac-upgrade) y luego actualizar el [sistema operativo](#os-upgrade) y/o el [Sistema de administración de bases de datos de relación (RDBMS)](#pg-upgrade).
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Por motivos de seguridad, el Adobe debe [instale la última versión de Campaign
 
 **¿Se ha visto afectado?**
 
-Si se ve afectado por el [actualización del sistema operativo](#os-upgrade) y/o el [actualización del sistema de base de datos](#pg-upgrade) detallado a continuación, el Adobe debe actualizar los entornos de Campaign a [la última versión 8.4.3](../../v8/start/release-notes.md), que es compatible con estos sistemas.
+Si se ve afectado por la [actualización del sistema operativo](#os-upgrade) y/o la [actualización del sistema de base de datos](#pg-upgrade) detallada a continuación, el Adobe debe actualizar los entornos de Campaign a [la última versión de la versión 8.4.3](../../v8/start/release-notes.md), que es compatible con estos sistemas.
 
 **¿Cómo realizar la actualización?**
 

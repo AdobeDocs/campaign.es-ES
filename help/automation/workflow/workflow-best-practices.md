@@ -109,7 +109,7 @@ El método JavaScript **[!UICONTROL logInfo()]** es una solución para depurar u
 
 ### Mantener poblaciones provisionales
 
-El **Mantener el resultado de poblaciones provisionales entre dos ejecuciones** mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo.
+La opción **Keep the result of interim populations between two executions** mantiene las tablas temporales entre dos ejecuciones de un flujo de trabajo.
 
 Está disponible en la pestaña **[!UICONTROL General]** de las propiedades del flujo de trabajo y se puede utilizar para fines de desarrollo y prueba para controlar los datos y comprobar los resultados. Puede utilizar esta opción en entornos de desarrollo, pero nunca en entornos de producción. Si mantiene las tablas temporales, el tamaño de la base de datos puede aumentar significativamente y finalmente alcanzar el límite de tamaño. Además, ralentiza la copia de seguridad.
 
@@ -122,7 +122,7 @@ Solo se conservan las tablas de trabajo de la última ejecución del flujo de tr
 
 ### Registrar consultas SQL
 
-El **Registrar consultas SQL en el historial** está disponible en la **[!UICONTROL Execution]** de las propiedades del flujo de trabajo. Esta opción registra todas las consultas SQL de las diferentes actividades y proporciona una forma de ver qué ejecuta realmente la plataforma. Sin embargo, esta opción solo debe utilizarse **temporalmente** durante el desarrollo y **no activado en producción**.
+La opción **Log SQL queries in the journal** está disponible en la pestaña **[!UICONTROL Execution]** de las propiedades del flujo de trabajo. Esta opción registra todas las consultas SQL de las diferentes actividades y proporciona una forma de ver qué ejecuta realmente la plataforma. Sin embargo, esta opción solo debería usarse **temporalmente** durante el desarrollo y **no activarse en la producción**.
 
 La práctica recomendada es purgar los registros cuando ya no los necesite. El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]** o haciendo clic en el botón Actions ubicado en la barra de herramientas situada encima de la lista. Seleccione Purge history.
 Para aprender a purgar los registros, consulte esta [documentación](start-a-workflow.md).
@@ -140,6 +140,6 @@ Se deben aplicar prácticas recomendadas adicionales en la planificación de la 
 
 ### Ejecutar en la opción de motor {#execute-in-the-engine-option}
 
-En un entorno de producción, evite ejecutar flujos de trabajo en el motor. Si la variable **[!UICONTROL Execute in the engine]** está marcada en la **[!UICONTROL Workflow properties]** Sin embargo, el flujo de trabajo tiene prioridad y el motor de flujos de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
+En un entorno de producción, evite ejecutar flujos de trabajo en el motor. Cuando se marca la opción **[!UICONTROL Execute in the engine]** en **[!UICONTROL Workflow properties]**, el flujo de trabajo tiene prioridad y el motor de flujo de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
 
 ![](assets/wf-execute-in-engine.png)

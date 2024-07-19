@@ -205,6 +205,6 @@ ht-degree: 99%
       + [Formularios de entrada](dev/forms.md)
    + [Trabajo con paquetes de datos](dev/packages.md)
    + [API de Campaign](dev/api.md)
-+ [Notas técnicas de Campaign >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
++ [Notas técnicas de campaña >](https://experienceleague.adobe.com/en/docs/campaign/technotes-ac/technotes-home)
 + [Documentación de la interfaz de usuario web de Campaign >](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home)
 

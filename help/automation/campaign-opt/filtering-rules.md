@@ -23,12 +23,12 @@ Por ejemplo, puede filtrar los suscriptores del boletín informativo para evitar
 
 Para definir este filtro, aplique los siguientes pasos:
 
-1. Vaya a la **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** del explorador de Campaign y haga clic en el botón **Nuevo** para crear una regla de tipología.
-1. Crear un **[!UICONTROL Filtering]** regla de tipología aplicable a todos los canales.
+1. Vaya a la carpeta **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** del explorador de Campaign y haga clic en el icono **Nuevo** para crear una regla de tipología.
+1. Cree una regla de tipología de **[!UICONTROL Filtering]** aplicable a todos los canales.
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. Desde el **Filtrar** pestaña cambie la dimensión de segmentación predeterminada a **Suscripciones** (**nms:subscription**).
+1. En la ficha **Filter**, cambie la dimensión de segmentación predeterminada a **Subscriptions** (**nms:subscription**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 
@@ -40,7 +40,7 @@ Para definir este filtro, aplique los siguientes pasos:
 
    ![](assets/campaign_opt_create_filter_03b.png)
 
-1. Desde el **Tipologías** , vincule esta regla a una tipología de campaña y guárdela.
+1. En la ficha **Tipologías**, vincule esta regla a una tipología de campaña y guárdela.
 
    ![](assets/campaign_opt_create_filter_04.png)
 
@@ -52,7 +52,7 @@ Cuando se utiliza esta regla en una entrega, se excluye automáticamente a los s
 
 Puede restringir el campo de aplicación de la regla de filtrado en función de la entrega relacionado o la descripción de la entrega.
 
-Para ello, vaya a la **[!UICONTROL General]** de la regla de tipología, seleccione el tipo de restricción que desea aplicar y cree el filtro.
+Para ello, vaya a la pestaña **[!UICONTROL General]** de la regla de tipología, seleccione el tipo de restricción que desea aplicar y cree el filtro.
 <!--
 ![](assets/campaign_opt_create_filter_06.png)
 -->

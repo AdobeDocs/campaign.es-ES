@@ -32,13 +32,13 @@ Los siguientes casos de uso detallan las posibles opciones para integrar ofertas
 
 ### Presentación de una oferta anónima {#presenting-an-anonymous-offer}
 
-**Paso 1: Preparar el motor de oferta**
+**Paso 1: preparar el motor de oferta**
 
 1. Abra la interfaz de Adobe Campaign y prepare un entorno anónimo.
 1. Cree un espacio de oferta vinculado al entorno anónimo.
 1. Cree una oferta y su representación vinculada al espacio de oferta.
 
-**Paso 2: Actualizar el contenido de la página del HTML**
+**Paso 2: actualizar el contenido de la página del HTML**
 
 La página HTML debe incluir un elemento con un atributo @id con el valor del nombre interno del espacio de oferta creado (&quot;espacio de nombre i_internal&quot;). La oferta se insertará en este elemento mediante interacción.
 
@@ -62,7 +62,7 @@ Esta llamada estática genera automáticamente una llamada dinámica que contien
 
 Este comportamiento permite utilizar varios espacios de oferta en la misma página, que se van a administrar mediante una sola llamada al motor de oferta.
 
-**Paso 3: Mostrar los resultados en la página del HTML**
+**Paso 3: mostrar los resultados en la página del HTML**
 
 El motor de oferta devuelve el contenido de la representación de la oferta a la página del HTML:
 
@@ -132,7 +132,7 @@ Para generar la representación de oferta HTML automáticamente, se puede utiliz
 
 ### Presentación de una oferta {#presenting-an-offer}
 
-Campaign **Interacción** Este módulo permite devolver un nodo XML a la página del HTML que llama al motor de oferta. Este nodo XML se puede procesar mediante funciones que se van a desarrollar en el lado del cliente.
+El módulo **Interaction** de la campaña le permite devolver un nodo XML a la página del HTML que llama al motor de oferta. Este nodo XML se puede procesar mediante funciones que se van a desarrollar en el lado del cliente.
 
 La llamada al motor de oferta tiene este aspecto:
 
@@ -165,13 +165,13 @@ El nodo XML devuelto tiene el siguiente aspecto:
 
 El caso de uso siguiente detalla las configuraciones que se deben realizar en Adobe Campaign para activar el modo XML y mostrar el resultado de la llamada al motor en la página del HTML.
 
-1. **Creación de un entorno y un espacio de oferta**
+1. **Crear un entorno y un espacio de ofertas**
 
    Para obtener más información sobre la creación de un entorno, consulte [esta página](interaction-env.md).
 
-   Para obtener más información sobre la creación de un espacio de oferta, consulte [esta página](interaction-offer-spaces.md).
+   Para obtener más información sobre la creación de un espacio de ofertas, consulte [esta página](interaction-offer-spaces.md).
 
-1. **Ampliación del esquema de oferta para añadir nuevos campos**
+1. **Ampliar el esquema de oferta para agregar nuevos campos**
 
    Este esquema va a definir los siguientes campos: Título número 2 y precio.
 
@@ -208,7 +208,7 @@ El caso de uso siguiente detalla las configuraciones que se deben realizar en Ad
 
    Puede ampliar el esquema de oferta para añadir nuevos campos tanto en el lote como en el modo unitario, y en cualquier formato (texto, HTML y XML).
 
-1. **Ampliación de la fórmula de oferta para editar nuevos campos y modificar un campo existente**
+1. **Amplíe la fórmula de oferta para editar nuevos campos y modificar un campo existente**
 
    Edite el formulario de entrada **Offer (nsm)**.
 
@@ -312,7 +312,7 @@ Es posible utilizar una función de renderización XML para crear una presentaci
 
 ![](assets/interaction_xmlmode_001.png)
 
-## Configuración de una integración de SOAP
+## SOAP Configuración de una integración de
 
 Los servicios web SOAP proporcionados para la administración de ofertas son diferentes de los utilizados en Adobe Campaign. Se puede acceder a ellos a través de la dirección URL de interacción descrita en la sección anterior y permiten presentar o actualizar ofertas para un contacto determinado.
 

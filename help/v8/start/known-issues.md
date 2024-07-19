@@ -16,7 +16,7 @@ ht-degree: 2%
 
 # Problemas conocidos{#known-issues}
 
-Esta página lista los problemas conocidos identificados en la **últimas versiones de Campaign v8**. Además, se enumeran las limitaciones que vienen con Campaign v8 [en esta página](ac-guardrails.md).
+Esta página lista los problemas conocidos identificados en las **últimas versiones de Campaign v8**. Además, las limitaciones que vienen con Campaign v8 se enumeran [en esta página](ac-guardrails.md).
 
 
 >[!NOTE]
@@ -25,21 +25,21 @@ Esta página lista los problemas conocidos identificados en la **últimas versio
 
 ## Campaign v8.3.8{#8.3-issues}
 
-### Problema de actividad de cambio de fuente de datos {#issue-2}
+### Cambiar problema de actividad de Data Source {#issue-2}
 
 #### Descripción{#issue-2-desc}
 
-Al insertar datos en la base de datos de la nube de Snowflake con una campaña de **Consulta** y una **Cambiar fuente de datos** actividad, el proceso falla cuando hay un carácter de barra invertida en los datos. La cadena de origen no se escapa y los datos no se procesan correctamente en el Snowflake.
+Al insertar datos en la base de datos de la nube de Snowflake con una actividad de **Query** de Campaign y **Change Data Source**, el proceso falla cuando hay un carácter de barra invertida en los datos. La cadena de origen no se escapa y los datos no se procesan correctamente en el Snowflake.
 
-Este problema solo ocurre si la barra invertida está al final de la cadena, por ejemplo: `Barker\`.
+Este problema solamente ocurre si el carácter de barra invertida está al final de la cadena, por ejemplo: `Barker\`.
 
 
 #### Pasos de reproducción{#issue-2-repro}
 
 1. Conéctese a la consola del cliente y cree un flujo de trabajo.
-1. Añadir un **Consulta** actividad y configúrela.
+1. Agregue una actividad **Query** y configúrela.
 1. Seleccione datos con las características descritas anteriormente.
-1. Añadir un **Cambiar fuente de datos** y configúrela para seleccionar la base de datos de nube de Snowflake.
+1. Agregue una actividad **Change Data Source** y configúrela para seleccionar la base de datos de nube de Snowflake.
 1. Ejecute el flujo de trabajo y compruebe los registros de flujo de trabajo para ver el error.
 
 
@@ -65,15 +65,15 @@ Referencia: NEO-45549
 
 #### Descripción{#issue-3-desc}
 
-Al cargar un archivo en el servidor de Campaign con una **Carga de datos (archivo)** actividad, el proceso se detiene al 100 % pero nunca termina.
+Al cargar un archivo en el servidor de Campaign con una actividad **Data loading (file)** , el proceso se detiene al 100 % pero nunca termina.
 
 #### Pasos de reproducción{#issue-3-repro}
 
 1. Conéctese a la consola del cliente y cree un flujo de trabajo.
-1. Añadir un **Carga de datos (archivo)** actividad y configúrela.
-1. Seleccione el **Cargar en el servidor** opción.
+1. Agregue una actividad **Carga de datos (archivo)** y configúrela.
+1. Seleccione la opción **Cargar en el servidor**.
 1. Seleccione el archivo en el equipo local,
-1. Clic **Cargar**
+1. Haga clic en **Cargar**
 
 
 #### Mensaje de error{#issue-3-error}
@@ -86,7 +86,7 @@ La solución consiste en utilizar una consola de cliente anterior. A continuaci�
 
 Como administrador de Campaign, puede descargar la consola de cliente de Campaign v8.3.1 en [Distribución de software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/en/campaign.html?1_group.propertyvalues.property=.%2Fjcr%3Acontent%2Fmetadata%2Fdc%3Aversion&amp;1_group.propertyvalues.operation=equals&amp;1_group.propertyvalues.0_values=target-version%3Acampaign%2F8&amp;orderby=%40jcr%3Acontent%2Fjcr%3AlastModified&amp;orderby.sort=desc&amp;layout=list&amp;p.offset=0&amp;p.limit=4){target="_blank"}.
 
-Obtenga información sobre cómo acceder a Distribución de software de Adobe [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target="_blank"}.
+Obtenga información sobre cómo obtener acceso a la distribución de software de Adobe [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target="_blank"}.
 
 Obtenga información sobre cómo actualizar la consola de cliente [en esta página](connect.md)
 

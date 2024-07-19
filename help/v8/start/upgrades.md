@@ -20,41 +20,41 @@ Adobe Campaign publica periódicamente versiones de productos que mejoran el ren
 
 Estas actualizaciones pueden ser:
 
-* **Principales actualizaciones**, de una versión principal a otra, por ejemplo, de la v7 a la v8. Estas actualizaciones aportan nuevas funciones, mejoras, actualizaciones de compatibilidad y seguridad, y correcciones.
+* **Actualizaciones principales**, de una versión principal a otra, por ejemplo, de la versión 7 a la 8. Estas actualizaciones aportan nuevas funciones, mejoras, actualizaciones de compatibilidad y seguridad, y correcciones.
 * **Actualizaciones menores**, de una versión menor a otra, por ejemplo, de la versión 8.5 a la 8.6. Estas actualizaciones traen mejoras, actualizaciones de compatibilidad y seguridad, y correcciones.
-* **Actualizaciones de parches**, de una versión de parche a otra, por ejemplo, de la v8.5.1 a la v8.5.2. Estas actualizaciones traen actualizaciones y correcciones de seguridad.
+* **Actualizaciones de parches**, de una versión de parche a otra, por ejemplo, de la versión 8.5.1 a la 8.5.2. Estas actualizaciones traen actualizaciones y correcciones de seguridad.
 
-Encontrará información detallada sobre cada nueva versión en la [Notas de versión](release-notes.md).
+Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](release-notes.md).
 
-Para garantizar una configuración estable, Adobe recomienda instalar **exactamente la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en la [Notas de versión](release-notes.md), la consola de cliente debe estar activada **exactamente la misma versión** como instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
+Para garantizar una configuración estable, Adobe recomienda instalar **la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en las [notas de la versión](release-notes.md), la consola del cliente debe estar en **la misma versión** que la instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
 
 Como cliente de Campaign Managed Services, cuando hay una nueva versión de Campaign disponible, la infraestructura se actualiza por Adobe sin tener que realizar más acciones.
 
-Tenga en cuenta que, como cliente de, debe asegurarse de que está utilizando las últimas versiones compatibles de los sistemas que se enumeran en la [Matriz de compatibilidad](compatibility-matrix.md).
+Tenga en cuenta que, como cliente de, debe asegurarse de que está utilizando las últimas versiones compatibles de los sistemas enumerados en la [Matriz de compatibilidad](compatibility-matrix.md).
 
 
 ## Preguntas frecuentes {#upgrades-faq}
 
 ### ¿Cómo puedo comprobar mi versión de Campaign? {#version}
 
-Para comprobar la versión de Campaign, acceda al **Ayuda > Acerca de...** desde la consola del cliente.
+Para comprobar su versión de Campaign, acceda al menú **Ayuda > Acerca de...** desde la consola del cliente.
 
 ![](assets/ac-version.png)
 
 Puede acceder a la siguiente información:
 
-* El **version** número de la consola del cliente y del servidor de aplicaciones. En el ejemplo anterior, la versión es 8.1.5 tanto para la consola del cliente como para el servidor de aplicaciones.
+* El número **version** de su consola de cliente y servidor de aplicaciones. En el ejemplo anterior, la versión es 8.1.5 tanto para la consola del cliente como para el servidor de aplicaciones.
 * El número SHA, entre paréntesis.
 * Un vínculo para ponerse en contacto con el Servicio de atención al cliente de Adobe.
 * Vínculos a la Política de privacidad de Adobe, a las Condiciones de uso y a la Política de cookies.
 
 ### ¿Cómo puedo estar informado del lanzamiento de una nueva versión? {#upgrades-0}
 
-Las nuevas versiones y los cambios que aportan se enumeran en la [Notas de versión](release-notes.md). Una vez que haya una nueva versión disponible, Adobe se pondrá en contacto con usted y actualizará sus entornos.
+Las nuevas versiones y los cambios que traen se enumeran en [Notas de la versión](release-notes.md). Una vez que haya una nueva versión disponible, Adobe se pondrá en contacto con usted y actualizará sus entornos.
 
 Para recibir información sobre las nuevas versiones de la solución Experience Cloud, suscríbase para recibir la [actualización de producto prioritaria de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
 
-También puede visitar [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
+También puede visitar la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
 
 
 ### ¿Por qué necesita mi organización esta actualización? {#upgrades-1}

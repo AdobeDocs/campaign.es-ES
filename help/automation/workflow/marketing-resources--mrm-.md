@@ -15,7 +15,7 @@ ht-degree: 83%
 
 # Recurso de Marketing (MRM){#marketing-resources-mrm}
 
-Los flujos de trabajo detallados a continuación se instalan con **Recursos de marketing (MRM)** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Recursos de mercadotecnia (MRM)** de forma predeterminada.
 
 <table> 
  <tbody> 

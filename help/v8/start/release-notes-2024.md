@@ -2,16 +2,17 @@
 title: Notas de la versión de Campaign v8 (consola) 2023
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2023
 feature: Release Notes
-source-git-commit: 4fecae16b2db0f174de6d77acf5b846906073aeb
+exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
+source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
 workflow-type: tm+mt
 source-wordcount: '381'
-ht-degree: 75%
+ht-degree: 77%
 
 ---
 
 # Notas de la versión 2024 {#2024-rn}
 
-Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con **Versiones de Campaign v8 2024**.
+Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con las **versiones de Campaign v8 de 2024**.
 
 
 ## Versión 8.6.2 {#release-8-6-2}
@@ -51,6 +52,6 @@ _14 de febrero de 2024_
 
 ### Correcciones {#fixes-8-6-1}
 
-Los siguientes problemas se solucionaron en esta versión:
+En esta versión se han solucionado los siguientes problemas:
 
 NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973, NEO-63879, NEO-63815, NEO-63657, NEO-63539, NEO-63174, NEO-63294, NEO-62964, NEO-62406, NEO-62750, NEO-62686, NEO-62455, NEO-61580, NEO-O, NEO-61199, NEO-60786, NEO-63387, NEO-59544, NEO-59198, NEO-59059 NEO-, NEO O-58637 55197 52542 50488 47789, NEO O-, NEO O-, NEO O-

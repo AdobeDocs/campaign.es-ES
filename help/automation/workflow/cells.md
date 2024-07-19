@@ -14,19 +14,19 @@ ht-degree: 13%
 
 # Celdas{#cells}
 
-El **[!UICONTROL Cells]** La actividad de proporciona una vista de los distintos subconjuntos como columnas de datos. Facilita la manipulación de subconjuntos y está diseñado para aprovechar las capacidades de personalización.
+La actividad **[!UICONTROL Cells]** proporciona una vista de los distintos subconjuntos como columnas de datos. Facilita la manipulación de subconjuntos y está diseñado para aprovechar las capacidades de personalización.
 
 ![](assets/wf_split_cells.png)
 
-Esta actividad se puede configurar para que introduzca parámetros específicos basados en las necesidades del usuario. De forma predeterminada, el detalle de cada subconjunto se detalla en una ventana dedicada a través de la **[!UICONTROL Cells]** y **[!UICONTROL Advanced]** pestañas.
+Esta actividad se puede configurar para que introduzca parámetros específicos basados en las necesidades del usuario. De forma predeterminada, el detalle de cada subconjunto se detalla en una ventana dedicada a través de las pestañas **[!UICONTROL Cells]** y **[!UICONTROL Advanced]**.
 
 ![](assets/wf_split_cells_with_customization.png)
 
-En el ejemplo siguiente, se ha modificado el formulario de entrada: a **[!UICONTROL Data]** se ha añadido una pestaña para habilitar la asociación de una oferta y un nivel de prioridad para cada subconjunto.
+En el ejemplo que se muestra a continuación, se ha modificado el formulario de entrada: se ha agregado una pestaña **[!UICONTROL Data]** para habilitar la asociación de una oferta y un nivel de prioridad para cada subconjunto.
 
 ![](assets/cells-activity-sample.png)
 
-Para esta configuración, se ha añadido la siguiente información al formulario de flujo de trabajo, en la **[!UICONTROL Administration > Configurations > Input forms]** nodo del explorador de Adobe Campaign:
+Para esta configuración, se agregó la siguiente información al formulario de flujo de trabajo, en el nodo **[!UICONTROL Administration > Configurations > Input forms]** del explorador de Adobe Campaign:
 
 ```
 <container img="nms:miniatures/mini-enrich.png" label="Data">

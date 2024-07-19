@@ -24,7 +24,7 @@ Un campo de personalización es una referencia de campo de datos única que se u
 
 Una etiqueta de personalización siempre utiliza la siguiente sintaxis: `<%=table.field%>`.
 
-Por ejemplo, para insertar el nombre del destinatario, almacenado en la tabla de destinatarios, el campo personalizado utiliza el `<%= recipient.lastName %>` sintaxis.
+Por ejemplo, para insertar el nombre del destinatario, almacenado en la tabla de destinatarios, el campo personalizado utiliza la sintaxis `<%= recipient.lastName %>`.
 
 >[!CAUTION]
 >
@@ -34,13 +34,13 @@ Por ejemplo, para insertar el nombre del destinatario, almacenado en la tabla de
 
 Para insertar campos personalizados, haga clic en el icono desplegable al que se puede acceder desde cualquier campo de encabezado, asunto o cuerpo del mensaje.
 
-![inserción de un campo personalizado](assets/perso-field-insert.png)
+![insertar un campo personalizado](assets/perso-field-insert.png)
 
 Los campos personalizados se insertan y están listos para ser interpretados por Adobe Campaign: durante la preparación del mensaje, los campos se sustituyen por su valor para un destinatario determinado.
 
 ![campos de personalización en un correo electrónico](assets/perso-fields-in-msg.png)
 
-Este reemplazo se puede probar en el **[!UICONTROL Preview]** pestaña.
+Este reemplazo se puede probar en la ficha **[!UICONTROL Preview]**.
 
 <!--Learn more about message preview in [this page]().-->
 
@@ -49,7 +49,7 @@ Este reemplazo se puede probar en el **[!UICONTROL Preview]** pestaña.
 En el siguiente caso de uso, aprenda a personalizar un asunto y un cuerpo del correo electrónico con los datos del destinatario:
 
 1. Cree una nueva entrega o abra una entrega de correo electrónico existente.
-1. Vaya a la **[!UICONTROL Subject]** para editar el asunto del mensaje.
+1. Vaya al vínculo **[!UICONTROL Subject]** para editar el asunto del mensaje.
 1. Introduzca “**Special offer for**” y utilice el botón de la barra de herramientas para insertar un campo de personalización. Seleccione **[!UICONTROL Recipients>Title]**.
 1. Repita la operación para insertar el nombre del destinatario. Inserte espacios entre todos los campos personalizados.
 1. Haga clic en **[!UICONTROL OK]** para validar.

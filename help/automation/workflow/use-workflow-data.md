@@ -34,7 +34,7 @@ Para ello, seleccione el menú correspondiente:
 
   ![](assets/wf-right-click-display.png)
 
-  Puede acceder a la estructura de la tabla de trabajo en el **[!UICONTROL Schema]** pestaña.
+  Puede obtener acceso a la estructura de la tabla de trabajo en la ficha **[!UICONTROL Schema]**.
 
   ![](assets/wf-right-click-schema.png)
 
@@ -57,7 +57,7 @@ Los datos del público objetivo se depuran mientras se ejecuta el flujo de traba
 
 ### Aprovechamiento de los datos de destino {#target-data}
 
-Los datos almacenados en la tabla de trabajo temporal del flujo de trabajo están disponibles para tareas de personalización. Los datos se pueden utilizar en la variable [campos de personalización](../../v8/send/personalization-fields.md).
+Los datos almacenados en la tabla de trabajo temporal del flujo de trabajo están disponibles para tareas de personalización. Los datos se pueden usar en [campos personalizados](../../v8/send/personalization-fields.md).
 
 Esto permite utilizar datos recopilados mediante una lista en una entrega, por ejemplo. Para ello, utilice la siguiente sintaxis:
 
@@ -85,11 +85,11 @@ En el ejemplo siguiente, se recopila una lista de información sobre los cliente
    [...]
    ```
 
-   Para cargar el archivo, configure las **[!UICONTROL Data loading (file)]** la siguiente actividad:
+   Para cargar el archivo, configure la actividad **[!UICONTROL Data loading (file)]** como se muestra a continuación:
 
    ![](assets/wf-targetdata-sample-2.png)
 
-1. Configure las variables **[!UICONTROL Enrichment]** actividad para reconciliar los datos recopilados con la base de datos de Adobe Campaign. En este caso, la clave de la reconciliación es el número de cuenta:
+1. Configure la actividad **[!UICONTROL Enrichment]** para reconciliar los datos recopilados con la base de datos de Adobe Campaign. En este caso, la clave de la reconciliación es el número de cuenta:
 
    ![](assets/wf-targetdata-sample-3.png)
 

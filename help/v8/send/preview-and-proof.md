@@ -14,7 +14,7 @@ ht-degree: 14%
 
 # Previsualización y prueba del correo electrónico {#preview-test}
 
-Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](personalize.md), puede comprobar cómo se muestra este contenido en el mensaje mediante los datos de perfil de prueba. Además, para detectar posibles errores en el contenido del mensaje o en la configuración de personalización, envíe pruebas a los perfiles de prueba. Se debe enviar una prueba cada vez que se realiza un cambio para validar el contenido más reciente.
+Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](personalize.md), puede comprobar cómo se muestra este contenido en el mensaje con los datos del perfil de prueba. Además, para detectar posibles errores en el contenido del mensaje o en la configuración de personalización, envíe pruebas a los perfiles de prueba. Se debe enviar una prueba cada vez que se realiza un cambio para validar el contenido más reciente.
 
 ## Previsualización de contenido{#preview-content}
 
@@ -22,8 +22,8 @@ Antes de enviar pruebas, una práctica recomendada es comprobar el contenido del
 
 Para obtener una vista previa del contenido del mensaje, siga los pasos a continuación:
 
-1. Vaya a la **Previsualizar** de la entrega.
-1. Haga clic en **[!UICONTROL Test personalization]** para seleccionar un perfil y rellenar los datos de personalización. Puede elegir un destinatario específico en la base de datos, una dirección semilla o seleccionar un perfil de la población de destinatarios, si ya se ha definido. También puede comprobar el contenido sin personalización.
+1. Vaya a la pestaña **Vista previa** del envío.
+1. Haga clic en el botón **[!UICONTROL Test personalization]** para seleccionar un perfil y rellenar los datos de personalización. Puede elegir un destinatario específico en la base de datos, una dirección semilla o seleccionar un perfil de la población de destinatarios, si ya se ha definido. También puede comprobar el contenido sin personalización.
 
    ![](assets/test-personalization.png)
 
@@ -41,46 +41,46 @@ Una prueba es un mensaje específico que le permite probar un mensaje antes de e
 
 ### Destinatarios de prueba {#proofs-recipients}
 
-El objetivo de la prueba se puede definir en la plantilla de envíos o puede ser específico de un envío. En ambos casos, vaya a la pantalla de definición de destinatario desde el **[!UICONTROL To]** y seleccione el vínculo **[!UICONTROL Target of the proofs]** pestaña.
+El objetivo de la prueba se puede definir en la plantilla de envíos o puede ser específico de un envío. En ambos casos, vaya a la pantalla de definición de destino desde el vínculo **[!UICONTROL To]** y seleccione la pestaña **[!UICONTROL Target of the proofs]**.
 
 ![](assets/target-of-proofs.png)
 
-El tipo de destinatario de prueba se selecciona en **[!UICONTROL Targeting mode]** lista desplegable.
+El tipo de destino de prueba está seleccionado en la lista desplegable **[!UICONTROL Targeting mode]**.
 
-* Utilice el **[!UICONTROL Definition of a specific proof target]** para seleccionar destinatarios en la base de datos como destino de la prueba.
-* Utilice el **[!UICONTROL Substitution of the address]** para introducir direcciones de correo electrónico y utilizar los datos del destinatario objetivo para validar el contenido. Las direcciones de sustitución se pueden introducir manualmente o seleccionar en la lista desplegable. La enumeración asociada es Substitution address (rcpAddress).
-De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se puede seleccionar un destinatario específico del objetivo principal mediante el  **[!UICONTROL Detail]** icono.
+* Utilice la opción **[!UICONTROL Definition of a specific proof target]** para seleccionar destinatarios en la base de datos como destino de la prueba.
+* Utilice la opción **[!UICONTROL Substitution of the address]** para introducir direcciones de correo electrónico y utilizar los datos del destinatario de destino para validar el contenido. Las direcciones de sustitución se pueden introducir manualmente o seleccionar en la lista desplegable. La enumeración asociada es Substitution address (rcpAddress).
+De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se puede seleccionar un destinatario específico del destino principal mediante el icono **[!UICONTROL Detail]**.
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
-  Elija la **[!UICONTROL Select a profile (must be included in the target)]** y seleccione un destinatario.
+  Elija la opción **[!UICONTROL Select a profile (must be included in the target)]** y seleccione un destinatario.
 
   ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
 
 
-* Utilice el **[!UICONTROL Seed addresses]**  para utilizar las direcciones semilla como destinatario de prueba. Estas direcciones pueden importarse desde un archivo o introducirse manualmente.
+* Utilice la opción **[!UICONTROL Seed addresses]** para usar las direcciones semilla como destino de prueba. Estas direcciones pueden importarse desde un archivo o introducirse manualmente.
 
   >[!NOTE]
   >
   >Las direcciones semilla no pertenecen a la tabla de destinatarios predeterminada (nms:recipient), sino que se crean en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones sembradas con los mismos datos.
 
-  Obtenga más información sobre las direcciones semilla en [esta sección](../audiences/test-profiles.md).
+  Obtenga más información acerca de las direcciones semilla en [esta sección](../audiences/test-profiles.md).
 
-* Utilice el **[!UICONTROL Specific target and Seed addresses]** para combinar direcciones semilla y direcciones de correo electrónico específicas. Las configuraciones relacionadas se definen en dos subpestañas independientes.
+* Utilice la opción **[!UICONTROL Specific target and Seed addresses]** para combinar direcciones semilla y direcciones de correo electrónico específicas. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
 ### Envío de una prueba{#proofs-send}
 
 Para enviar pruebas de mensajes, siga los pasos a continuación:
 
-1. En la pantalla de definición del mensaje, haga clic en **[!UICONTROL Send a proof]** botón.
-1. Desde el **[!UICONTROL Send a proof]** , compruebe los destinatarios de prueba.
-1. Clic **[!UICONTROL Analyze]** para iniciar la preparación del mensaje de prueba.
+1. En la pantalla de definición del mensaje, haga clic en el botón **[!UICONTROL Send a proof]**.
+1. En la ventana **[!UICONTROL Send a proof]**, compruebe los destinatarios de prueba.
+1. Haga clic en **[!UICONTROL Analyze]** para iniciar la preparación del mensaje de prueba.
 
    ![](assets/send-proof-analyze.png){width="800" align="left"}
 
-1. Una vez completada la preparación del envío, utilice el **[!UICONTROL Confirm delivery]** para empezar a enviar mensajes de prueba.
+1. Una vez completada la preparación del envío, use **[!UICONTROL Confirm delivery]** para empezar a enviar mensajes de prueba.
 
-Vaya a la **[!UICONTROL Audit]** pestaña de la entrega para comprobar la entrega de las copias de prueba.
+Vaya a la pestaña **[!UICONTROL Audit]** de la entrega para comprobar la entrega de las copias de prueba.
 
 Se recomienda enviar pruebas después de cada modificación al contenido del mensaje.
 
@@ -90,13 +90,13 @@ Se recomienda enviar pruebas después de cada modificación al contenido del men
 
 ### Propiedades de revisión{#proofs-properties}
 
-Las propiedades de prueba se establecen en la variable **[!UICONTROL Advanced]** de las ventanas de propiedades de entrega. Vaya a la **[!UICONTROL Proof properties...]** para definir los parámetros y la etiqueta de las pruebas. Puede optar por mantener:
+Las propiedades de prueba se establecen en la pestaña **[!UICONTROL Advanced]** de las ventanas de propiedades de entrega. Vaya al vínculo **[!UICONTROL Proof properties...]** para definir los parámetros y la etiqueta de las pruebas. Puede optar por mantener:
 
 * Duplicar direcciones en la prueba
 * Incluir en la lista de bloqueados Direcciones en la prueba
 * Direcciones en cuarentena en la prueba
 
-De forma predeterminada, los mensajes de prueba se identifican mediante `Proof #N` mencione en el asunto, donde `N` es el número de prueba. Este número se incrementa con cada análisis de entrega de prueba. Puede cambiar el `proof` prefijo, según sea necesario.
+De manera predeterminada, los mensajes de prueba se identifican mediante la mención `Proof #N` en el asunto, donde `N` es el número de prueba. Este número se incrementa con cada análisis de entrega de prueba. Puede cambiar el prefijo `proof` según sea necesario.
 
 ![](assets/proof-parameters.png){width="800" align="left"}
 

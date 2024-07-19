@@ -16,8 +16,8 @@ ht-degree: 78%
 
 En una campaña de marketing, puede definir lo siguiente por envío:
 
-* La audiencia de destino. Puede enviar mensajes a un [lista de destinatarios](#send-to-a-group) o cree un [audiencia en un flujo de trabajo](#build-the-main-target-in-a-workflow)
-* Un grupo de control. Puede [adición de un grupo de control](#add-a-control-group) para monitorizar el comportamiento de los destinatarios después de enviar el mensaje
+* La audiencia de destino. Puede enviar mensajes a una [lista de destinatarios](#send-to-a-group) o crear una [audiencia en un flujo de trabajo](#build-the-main-target-in-a-workflow)
+* Un grupo de control. Puede [agregar un grupo de control](#add-a-control-group) para supervisar el comportamiento de los destinatarios después de enviar el mensaje
 * Direcciones semilla: obtenga más información en [esta sección](../../v8/audiences/test-profiles.md).—>
 
 Parte de esta información se hereda de la [plantilla de campaña](marketing-campaign-templates.md#campaign-templates).
@@ -30,23 +30,23 @@ To build the delivery target, you can define filtering criteria for the recipien
 
 Puede importar una población a una lista y luego establecer como objetivo esta lista en las entregas. Para realizar esto, siga los pasos a continuación:
 
-1. Edite la entrega y haga clic en **[!UICONTROL To]** para cambiar la población de destino.
+1. Edite la entrega y haga clic en el vínculo **[!UICONTROL To]** para cambiar la población de destino.
 1. En la pestaña **[!UICONTROL Main target]**, seleccione la opción **[!UICONTROL Defined via the database]** y haga clic en **[!UICONTROL Add]** para seleccionar destinatarios.
 
    ![](assets/select-main-target.png)
 
-1. Elegir **[!UICONTROL A list of recipients]**.
+1. Elija **[!UICONTROL A list of recipients]**.
 
    ![](assets/target-a-list.png)
 
 
-1. Clic **[!UICONTROL Next]** para seleccionar la lista.
+1. Haga clic en **[!UICONTROL Next]** para seleccionar la lista.
 
    ![](assets/select-the-list.png)
 
    Puede refinar el objetivo añadiendo nuevos criterios de filtrado.
 
-1. Clic **[!UICONTROL Finish]** una vez definidos todos los criterios, y guarde el destinatario principal.
+1. Haga clic en **[!UICONTROL Finish]** una vez que se hayan definido todos los criterios y guarde el destinatario principal.
 
 ## Creación de la audiencia en un flujo de trabajo de campaña {#build-the-main-target-in-a-workflow}
 
@@ -62,7 +62,7 @@ El objetivo se puede crear mediante una combinación de condiciones de filtrado 
 
 ![](assets/targeting-and-wf-tab.png)
 
-La población de destino se extrae de la base de datos de Adobe Campaign a través de una o varias consultas ubicadas en un flujo de trabajo. Obtenga información sobre cómo crear una consulta en [esta sección](../workflow/query.md).
+La población de destino se extrae de la base de datos de Adobe Campaign a través de una o varias consultas ubicadas en un flujo de trabajo. Aprenda a generar una consulta en [esta sección](../workflow/query.md).
 
 Puede iniciar consultas y compartir poblaciones mediante cuadros como Unión, Intersección, Compartir, Exclusión, etc.
 
@@ -74,7 +74,7 @@ En el diagrama, vincule las consultas de objetivo y de programación necesarias 
 
 >[!NOTE]
 >
->Los ejemplos y el procedimiento para definir consultas se detallan en [esta sección](../workflow/query.md).
+>En [esta sección](../workflow/query.md) se detallan ejemplos y procedimientos para definir consultas.
 
 La sección izquierda del editor contiene una biblioteca de objetos gráficos que representan actividades. La primera pestaña contiene las actividades de objetivos, y la segunda pestaña contiene las actividades de control de flujo, que se utilizan a menudo para coordinar las actividades de objetivos.
 
@@ -84,7 +84,7 @@ Es posible acceder a las funciones de formato y ejecución del flujo de trabajo 
 
 >[!NOTE]
 >
->Las actividades disponibles para crear el diagrama, así como todas las funciones de visualización y presentación, se detallan en [esta sección](../workflow/about-workflows.md).
+>Las actividades disponibles para generar el diagrama, así como todas las características de presentación y presentación, se detallan en [esta sección](../workflow/about-workflows.md).
 
 Puede crear varios flujos de trabajo de objetivos para una sola campaña. Para agregar un flujo de trabajo:
 
@@ -111,9 +111,9 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
      ![](assets/start.png)
 
-     El servidor tiene en cuenta la solicitud, como muestra su estado: **[!UICONTROL Start as soon as possible]**.
+     El servidor tiene en cuenta la solicitud, tal como muestra su estado: **[!UICONTROL Start as soon as possible]**.
 
-   * Puede reiniciar el flujo de trabajo de destino mediante el icono correspondiente de la barra de herramientas. Este comando puede resultar útil si el icono **[!UICONTROL Start]** no está disponible, por ejemplo cuando el flujo de trabajo de destino está detenido. En este caso, haga clic en el icono **[!UICONTROL Restart]** para anticipar el reinicio. El servidor tiene en cuenta la solicitud, como se muestra en el estado siguiente: **[!UICONTROL Restart requested]**.
+   * Puede reiniciar el flujo de trabajo de destino mediante el icono correspondiente de la barra de herramientas. Este comando puede resultar útil si el icono **[!UICONTROL Start]** no está disponible, por ejemplo cuando el flujo de trabajo de destino está detenido. En este caso, haga clic en el icono **[!UICONTROL Restart]** para anticipar el reinicio. El servidor tiene en cuenta la solicitud, como muestra su estado: **[!UICONTROL Restart requested]**.
 
 * Detener o pausar
 
@@ -198,7 +198,7 @@ De manera predeterminada, la configuración del grupo de control definida al niv
 >
 >Si ha definido un grupo de control para una campaña y lo configura para una entrega relacionada con esta campaña, solo se aplica el grupo de control definido para la entrega.
 
-1. Edite la entrega en cuestión y haga clic en **[!UICONTROL To]** vínculo.
+1. Edite la entrega en cuestión y, a continuación, haga clic en el vínculo **[!UICONTROL To]**.
 1. Haga clic en la pestaña **[!UICONTROL Control group]** y seleccione **[!UICONTROL Enable and edit control group configuration]**.
 
    ![](assets/enable-control-group-for-a-delivery.png)
@@ -227,14 +227,14 @@ También puede extraer destinatarios del objetivo principal de la entrega. En es
 
 Para extraer un grupo de control, habilite el grupo de control para la campaña o entrega y seleccione una de las siguientes opciones: **[!UICONTROL Activate random sampling]** o **[!UICONTROL Keep only the first records after sorting]**.
 
-* Utilice el **[!UICONTROL Activate random sampling]** para aplicar muestras aleatorias a los destinatarios en la población principal. Si establece el umbral en 100, el grupo de control se compone de 100 destinatarios seleccionados aleatoriamente desde la población de destino. El muestreo aleatorio depende del motor de la base de datos.
-* Utilice el **[!UICONTROL Keep only the first records after sorting]** para definir una limitación basada en uno o más órdenes de clasificación. Si selecciona el campo **[!UICONTROL Age]** como criterio de clasificación y, a continuación, define 100 como umbral, el grupo de control se compone de los 100 destinatarios más jóvenes. Por ejemplo, podría resultar interesante definir un grupo de control que incluya destinatarios que realizan pocas compras o destinatarios que realizan compras frecuentes y comparar su comportamiento con el de los destinatarios contactados.
+* Utilice la opción **[!UICONTROL Activate random sampling]** para aplicar muestreo aleatorio a los destinatarios en la población principal. Si establece el umbral en 100, el grupo de control se compone de 100 destinatarios seleccionados aleatoriamente desde la población de destino. El muestreo aleatorio depende del motor de la base de datos.
+* Utilice la opción **[!UICONTROL Keep only the first records after sorting]** para definir una limitación basada en uno o más órdenes de clasificación. Si selecciona el campo **[!UICONTROL Age]** como criterio de clasificación y, a continuación, define 100 como umbral, el grupo de control se compone de los 100 destinatarios más jóvenes. Por ejemplo, podría resultar interesante definir un grupo de control que incluya destinatarios que realizan pocas compras o destinatarios que realizan compras frecuentes y comparar su comportamiento con el de los destinatarios contactados.
 
 Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si es necesario) y seleccione el modo de limitación de destinatarios.
 
 ![](assets/limit-control-group.png)
 
-Esta configuración equivale a un **[!UICONTROL Split]** en el flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos.
+Esta configuración equivale a una actividad **[!UICONTROL Split]** del flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos.
 
 
 ### Tutorial en vídeo {#create-email-video}
@@ -243,4 +243,4 @@ En este vídeo se explica cómo añadir un grupo de control a una campaña.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-Hay disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Hay disponibles [más vídeos de procedimientos para Campaign aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
