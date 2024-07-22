@@ -3,7 +3,7 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 09b8ced170ff28b24713722e0a82852038053201
+source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 89%
@@ -60,9 +60,6 @@ _2 de mayo de 2024_
 
 * **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos del perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}
 
-
-
-
 ### Actualizaciones de compatibilidad {#comp-8-7-1}
 
 * Databricks ahora se admite como base de datos externa con acceso de datos federado de Adobe Campaign (FDA). Obtenga más información [en esta página](compatibility-matrix.md#FederatedDataAccessFDA).
@@ -73,7 +70,6 @@ A partir de esta versión, y habiendo declarado Adobe la credencial Cuenta de se
 
 Si ha implementado integraciones de entrada con Campaign, debe migrar su cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Las credenciales de la cuenta de servicio (JWT) existentes seguirán funcionando hasta el **27 de enero de 2025**.
 
-
 ### Mejoras generales {#improvements-8-7-1}
 
 * Se han cambiado varios esquemas de 32 a 64 bits. Esto solo se aplica a los clientes que migran de Campaign Standard. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/technotes/64-bit-tables.html?lang=es){target="_blank"}
@@ -81,7 +77,6 @@ Si ha implementado integraciones de entrada con Campaign, debe migrar su cuenta 
 * En las tablas de Campaign, los siguientes atributos ahora se rellenan de forma predeterminada por la fecha y la hora del servidor: `lastModified` y `created`. El valor del atributo `createdBy-id` ahora se rellena con el ID de inicio de sesión actual de forma predeterminada. Los valores proporcionados por los usuarios en las llamadas de API se ignoran. <!--This configuration can be changed in the Campaign server configuration file. As a Managed Cloud Services customer, you must reach out to Adobe to change this default configuration.-->
 
 * Para aumentar la seguridad de todas las comunicaciones entre aplicaciones, mTLS ahora se admite para llamadas de API externas.
-
 
 ### Correcciones {#fixes-8-7-1}
 
