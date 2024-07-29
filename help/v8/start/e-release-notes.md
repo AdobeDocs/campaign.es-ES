@@ -7,10 +7,10 @@ level: Beginner
 hide: true
 hidefromtoc: true
 exl-id: a45f7b22-44c7-4dad-af0a-ae8f683ae3d9
-source-git-commit: 65efda7469c5ad35e8d03703951c3d1480b015f4
+source-git-commit: aadf47ccc7b014416064b7c1318cd1b35077d0fb
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 49%
+source-wordcount: '200'
+ht-degree: 75%
 
 ---
 
@@ -18,31 +18,33 @@ ht-degree: 49%
 
 Esta página describe las mejoras y correcciones incluidas en la próxima versión de Campaign v8. **Las notas de la versión preliminar que se indican a continuación están sujetas a cambios sin previo aviso hasta la fecha de disponibilidad final de la versión**. Los vínculos, las pantallas y la documentación actualizada se publican en las [notas de la versión](release-notes.md), en la fecha de lanzamiento.
 
-## Versión 8.7.2 {#release-8-7-2}
+<!--
+## Release 8.7.2 {#release-8-7-2}
 
-_miércoles, 30 de julio de 2024_
+_July 30, 2024_
 
 
 >[!AVAILABILITY]
 >
->Esta versión está en **Disponibilidad limitada** (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
+>This release is in **Limited Availability** (LA). It is restricted to customers migrating **from Adobe Campaign Standard to Adobe Campaign v8**, and cannot be deployed on any other environment.
 >
->Como usuario Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en la [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
+>As a Campaign Standard user transitioning to Campaign v8, learn more about this transition in [Campaign v8 web user interface documentation](https://experienceleague.adobe.com/en/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
 
-### Nuevas características {#new-8-7-2}
+### New features {#new-8-7-2}
 
-* **Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad para entornos que realizan la transición desde Adobe Campaign Standard. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y extendido.
+* **New SMS sending connector** - The SMS sending connector has been modernized and improved to enable transceiver mode SMPP connections, enable persistent SMPP connections, and ensure better compatibility for environments transitioning from Adobe Campaign Standard. A new SMS External account is now available for all new SMS implementations. Existing implementation are still supported, however recommendation is to move to this new modern and extended connector.
 
-* **Notificación push enriquecida (GA)**: ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. Con esta versión, ya está disponible un conjunto de plantillas para notificaciones push enriquecidas para sus aplicaciones de iOS y Android. [Más información](../send/rich-push.md).
+* **Rich Push Notification (GA)** - You can now send rich push notifications. Rich push notification is an enhanced form of mobile notification that goes beyond simple text messages by incorporating multimedia elements such as images, interactive buttons, or other rich media content. With this version, a set of templates for rich push notifications are now available for your iOS and Android apps. [Read more](../send/rich-push.md). 
 
-* **Promoción de marca**: las opciones de promoción de marca ya están disponibles para todos los canales, incluidos los SMS y el correo directo. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=es){target="_blank"}
+* **Branding** - Branding options are now available for all channels, including SMS and Direct mail. [Read more](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html){target="_blank"}
 
 
-### Correcciones {#fixes-8-7-2}
+### Fixes {#fixes-8-7-2}
 
-En esta versión se han solucionado los siguientes problemas:
+The following issues are fixed in this release:
 
-NEO-76592, NEO-75400, NEO-77406, NEO-77674, NEO-77899, NEO-73989, NEO-76064, NEO-76039, NEO-76040, NEO-76845, NEO-76664, NEO-76682, NEO-76663, NEO-78134, NEO-72915, NEO-77000, NEO-76926, NEO-77002, NEO-76955, NEO-76864, NEO-76495, NEO-O, NEO-77168, NEO-41058, NEO-73602, NEO-75581, NEO-74647, NEO-74585 NEO-, NEO O-74586 74831 77319 78607, NEO O-.
+NEO-76592, NEO-75400, NEO-77406, NEO-77674, NEO-77899, NEO-73989, NEO-76064, NEO-76039, NEO-76040, NEO-76845, NEO-76664, NEO-76682, NEO-76663, NEO-73602, NEO-72915, NEO-78134, NEO-77000, NEO-77002, NEO-76955, NEO-76864, NEO-76926, NEO-76495, NEO-77168, NEO-41058, NEO-75581, NEO-74647, NEO-74585, NEO-74586, NEO-74831, NEO-77319, NEO-78607.
+-->
 
 ## Versión 8.6.3 {#release-8-6-3}
 
@@ -56,7 +58,7 @@ _miércoles, 30 de julio de 2024_
 
 ### Mejoras generales {#improvements-8-6-3}
 
-* Para aumentar la seguridad de todas las comunicaciones entre aplicaciones, mTLS ahora se admite para llamadas de API externas.
+* Para aumentar la seguridad de todas las comunicaciones entre aplicaciones, mTLS se admite ahora para llamadas de API externas.
 
 ### Correcciones {#fixes-8-6-3}
 
