@@ -3,7 +3,7 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: bd53d04791af91afffe683ca92fa78562640170a
+source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 93%
@@ -26,7 +26,7 @@ _miércoles, 30 de julio de 2024_
 
 ### Nuevas características {#new-8-6-3}
 
-* **Notificación push enriquecida**: ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. Con esta versión, ya está disponible un conjunto de plantillas para notificaciones push enriquecidas para sus aplicaciones de iOS y Android. [Más información](../send/rich-push.md).
+* **Notificación push enriquecida**: ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. Con esta versión, ya está disponible un conjunto de plantillas para notificaciones push enriquecidas para sus aplicaciones de iOS y Android. [Más información](../send/rich-push-android.md).
 
 * A partir de esta versión, y habiendo declarado Adobe la credencial Cuenta de servicio (JWT) como obsoleta, las integraciones de salida de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. [Más información](release-notes.md#change-8-7-1)
 
@@ -79,7 +79,7 @@ _2 de mayo de 2024_
 
 ### Nuevas características {#new-8-7-1}
 
-* **Plantillas de notificaciones push enriquecidas**: ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. [Más información](../send/rich-push.md).
+* **Plantillas de notificaciones push enriquecidas**: ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. [Más información](../send/rich-push-ios.md).
 
 * **Promoción de la marca**: como usuario migrado de Campaign Standard, ahora los administradores técnicos pueden definir una o varias marcas para centralizar los parámetros que afectan a la identidad de una marca. Esto incluye el logotipo de la marca, el dominio de la URL de acceso de la página de aterrizaje o la configuración del seguimiento de mensajes. Con Adobe Campaign, puede crear estas marcas y vincularlas a mensajes o páginas de aterrizaje. Esta configuración se administra en plantillas. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=es){target="_blank"}
 
