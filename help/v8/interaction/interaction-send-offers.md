@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1241'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
@@ -59,12 +59,12 @@ Para insertar propuestas de oferta en una entrega, siga los pasos a continuació
 
 ### Parámetros del motor de oferta {#parameters-for-calling-offer-engine}
 
-* **[!UICONTROL Space]** : espacio del entorno de oferta que debe seleccionarse para activar el motor de oferta.
-* **[!UICONTROL Category]** : carpeta específica en la que se ordenan las ofertas. Si no se especifica ninguna categoría, el motor de oferta tendrá en cuenta todas las ofertas contenidas en el entorno, a menos que se seleccione un tema.
-* **[!UICONTROL Themes]** : las palabras clave se definen hacia arriba en las categorías. Estos actúan como un filtro y permiten refinar la cantidad de ofertas que se presentarán seleccionándolas de un conjunto de categorías.
-* **[!UICONTROL Number of propositions]** : número de ofertas que devuelve el motor que se puede insertar en el cuerpo del envío. Si no se insertan en el mensaje, las ofertas se generarán, pero no se presentarán.
-* **[!UICONTROL Exclude non-eligible recipients]** : esta opción permite activar o desactivar la exclusión de destinatarios para los que no haya suficientes ofertas aptas. El número de propuestas puede ser inferior al número solicitado de propuestas. Si se selecciona este cuadro, los destinatarios que no tengan suficientes propuestas se excluirán de la entrega. Si no selecciona esta opción, estos destinatarios no se excluirán, pero no tendrán el número solicitado de propuestas.
-* **[!UICONTROL Do not display anything if no offer is selected]** : esta opción le permite elegir cómo se procesará el mensaje en caso de que una de las propuestas no exista. Cuando se activa esta casilla, no se muestra la representación de la propuesta que falta y no aparecerá ningún contenido en el mensaje para esta propuesta. Si el cuadro no está activado, el mensaje en sí se cancela durante la entrega y los destinatarios ya no recibirán ningún mensaje.
+* **[!UICONTROL Space]**: espacio del entorno de oferta que debe seleccionarse para activar el motor de oferta.
+* **[!UICONTROL Category]**: carpeta específica en la que se ordenan las ofertas. Si no se especifica ninguna categoría, el motor de oferta tendrá en cuenta todas las ofertas contenidas en el entorno, a menos que se seleccione un tema.
+* **[!UICONTROL Themes]**: palabras clave definidas en sentido ascendente en las categorías. Estos actúan como un filtro y permiten refinar la cantidad de ofertas que se presentarán seleccionándolas de un conjunto de categorías.
+* **[!UICONTROL Number of propositions]**: número de ofertas que devuelve el motor que se puede insertar en el cuerpo de la entrega. Si no se insertan en el mensaje, las ofertas se generarán, pero no se presentarán.
+* **[!UICONTROL Exclude non-eligible recipients]**: esta opción permite activar o desactivar la exclusión de destinatarios para los que no haya suficientes ofertas aptas. El número de propuestas puede ser inferior al número solicitado de propuestas. Si se selecciona este cuadro, los destinatarios que no tengan suficientes propuestas se excluirán de la entrega. Si no selecciona esta opción, estos destinatarios no se excluirán, pero no tendrán el número solicitado de propuestas.
+* **[!UICONTROL Do not display anything if no offer is selected]**: esta opción le permite elegir cómo se procesará el mensaje en caso de que una de las propuestas no exista. Cuando se activa esta casilla, no se muestra la representación de la propuesta que falta y no aparecerá ningún contenido en el mensaje para esta propuesta. Si el cuadro no está activado, el mensaje en sí se cancela durante la entrega y los destinatarios ya no recibirán ningún mensaje.
 
 ## Envío de ofertas en flujos de trabajo{#offer-via-wf}
 
@@ -104,7 +104,7 @@ Después de configurar su actividad **Consulta**:
 
      ![](assets/int_enrichment_offer3.png)
 
-   * **[!UICONTROL A pre-defined offer]** : marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee agregar, sin recurrir al motor de oferta.
+   * **[!UICONTROL A pre-defined offer]**: marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee agregar, sin recurrir al motor de oferta.
 
      ![](assets/int_enrichment_offer4.png)
 

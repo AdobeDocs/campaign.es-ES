@@ -5,10 +5,10 @@ description: Monitorice los flujos de trabajo con el mapa de calor del flujo de 
 feature: Workflows, Heatmap
 role: Admin
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1104'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -69,10 +69,10 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
    >
    >Se aplica el filtro **[!UICONTROL Min duration]**. Si no encuentra un flujo de trabajo específico, restablezca la duración mínima a 0 para que todos los flujos de trabajo se muestren en la lista.
 
-1. También puede filtrar por el **[!UICONTROL Workflow type]**:
+1. También puede filtrar por **[!UICONTROL Workflow type]**:
 
-   * **[!UICONTROL Technical]** : Solo se muestran [flujos de trabajo técnicos integrados](technical-workflows.md) y [flujos de trabajo de administración de datos](targeting-workflows.md#data-management).
-   * **[!UICONTROL Marketing]** : Solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como flujos de trabajo [de ](campaign-workflows.md)campaña.
+   * **[!UICONTROL Technical]**: solo se muestran [flujos de trabajo técnicos integrados](technical-workflows.md) y [flujos de trabajo de administración de datos](targeting-workflows.md#data-management).
+   * **[!UICONTROL Marketing]**: solo se muestran los flujos de trabajo vinculados a una campaña de marketing, conocidos como [flujos de trabajo de campaña](campaign-workflows.md).
 
 1. Para buscar un flujo de trabajo específico por su nombre, también puede utilizar el campo **[!UICONTROL Workflow name filter]**.
 

@@ -5,10 +5,10 @@ description: Aprenda a crear una campaña colaborativa
 feature: Distributed Marketing
 role: User
 exl-id: edf887fb-c391-405c-b3cf-dc34aed69c53
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '910'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -76,9 +76,9 @@ Para crear una campaña de colaboración (por aprobación de destino), debe esta
 
 El flujo de trabajo de campaña debe integrar la actividad de tipo de **Local approval** . Los parámetros de actividad son los siguientes:
 
-* **[!UICONTROL Action to perform]** : Notificación de aprobación del objetivo.
-* **[!UICONTROL Distribution context]** : Explícito.
-* **[!UICONTROL Data distribution]** : Distribución de entidad local.
+* **[!UICONTROL Action to perform]**: notificación de aprobación de destino.
+* **[!UICONTROL Distribution context]**: Explícito.
+* **[!UICONTROL Data distribution]**: distribución de entidad local.
 
 Se debe crear la distribución de datos del tipo de **Local entity distribution** . La plantilla de distribución de datos permite limitar el número de registros de una lista de valores de agrupación. En **[!UICONTROL Resources > Campaign management > Data distribution]**, haga clic en el icono **[!UICONTROL New]** para crear una nueva **[!UICONTROL Data distribution]**. Para obtener más información sobre la distribución de datos,
 

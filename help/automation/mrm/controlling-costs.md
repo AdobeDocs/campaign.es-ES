@@ -5,7 +5,7 @@ description: Aprenda a gestionar los costes de control
 feature: Campaigns, Resource Management
 role: User
 exl-id: 51f3add9-a083-4db1-84a6-3aaaeec0465c
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '2428'
 ht-degree: 93%
@@ -28,7 +28,7 @@ Se deben aplicar los pasos siguientes para implementar la administración del pr
 
 1. Defina el método de cálculo de costes: las estructuras de costes se definen para los proveedores de servicios. [Más información](../campaigns/providers-stocks-and-budgets.md).
 
-1. Defina los costes de campaña (entregas/tareas) : los costes incurridos por las entregas y las tareas se introducen de forma individual o global para la plantilla de campaña. [Más información](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
+1. Defina los costes de campaña (entregas/tareas): los costes incurridos por las entregas y las tareas se introducen de forma individual o global para la plantilla de campaña. [Más información](../campaigns/marketing-campaign-deliveries.md#compute-costs-and-stocks).
 
 1. Consolidar: según el estado de progreso de las tareas, las entregas y la campaña, los costes se calculan y se transfieren al presupuesto correspondiente. Cuando la creación de la campaña avanza lo suficiente, el estado del progreso del presupuesto de la campaña se puede cambiar a **[!UICONTROL Specified]**. El coste calculado del programa se introduce automáticamente con el coste calculado de la campaña. [Más información](#cost-commitment--calculation-and-charging).
 

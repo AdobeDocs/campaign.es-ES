@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
-workflow-type: ht
-source-wordcount: '623'
-ht-degree: 100%
+source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+workflow-type: tm+mt
+source-wordcount: '675'
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,23 @@ ht-degree: 100%
       + [Añadir una dirección CCO](send/email-bcc.md)
       + [Definir los parámetros de correo electrónico adicionales](send/email-parameters.md)
       + [Envío y monitorización de correos electrónicos](send/send.md)
-   + [SMS](send/sms.md)
+   + SMS {#sms}
+      + [Introducción a los SMS](send/sms/sms.md)
+      + Configurar el canal SMS {#config-sms}
+         + [Configuración de cuenta externa de SMPP](send/sms/smpp-external-account.md)
+         + [Características del canal SMS](send/sms/sms-channel.md)
+         + [Validando una conexión SMPP](send/sms/smpp-connection.md)
+         + [Instancia independiente](send/sms/sms-standalone-instance.md)
+         + [Infraestructura intermediaria](send/sms/sms-mid-sourcing.md)
+         + [Descripción del conector SMPP](send/sms/smpp-connector-delivery.md)
+      + Crear un SMS {#create-sms}
+         + [Configuración de envío de SMS](send/sms/sms-delivery-settings.md)
+         + [Definición del contenido](send/sms/sms-content.md)
+         + [Selección de la audiencia](send/sms/sms-audience.md)
+      + Validar y enviar SMS {#validate-sms}
+         + [Enviar pruebas de SMS](send/sms/sms-proofs.md)
+         + [Enviar a la audiencia](send/sms/sms-send.md)
+      + [Monitorización y seguimiento de SMS](send/sms/sms-monitor.md)
    + Notificaciones push {#push}
       + [Creación y envío de notificaciones push](send/push.md)
       + Push enriquecido {#rich-push}
@@ -67,10 +83,10 @@ ht-degree: 100%
       + [Utilizar bloques de personalización](send/personalization-blocks.md)
       + [Crear condiciones](send/conditions.md)
    + Validación y envío de la entrega{#validate}
-   + [Previsualización y pruebas](send/preview-and-proof.md)
-   + [Análisis de envíos](send/delivery-analysis.md)
-   + [Configuración y envío de la entrega](send/configure-and-send.md)
-   + [Optimización del tiempo de envío](send/predictive.md)
+      + [Previsualización y pruebas](send/preview-and-proof.md)
+      + [Análisis de envíos](send/delivery-analysis.md)
+      + [Configuración y envío de la entrega](send/configure-and-send.md)
+      + [Optimización del tiempo de envío](send/predictive.md)
    + Errores, rechazos y cuarentenas{#failures}
       + [Cuarentenas](send/quarantines.md)
       + [Errores de envío](send/delivery-failures.md)

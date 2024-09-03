@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1608'
-ht-degree: 50%
+ht-degree: 48%
 
 ---
 
@@ -118,8 +118,8 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
 * **Arbitrage**: seleccionar ofertas para mostrar en un entorno (ofertas elegibles). El principio de arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
 * **Contact**: un contacto de una interacción entrante. Durante el procesamiento de visualización del motor, el contacto se asocia a una dimensión de segmentación. Hay dos tipos de contactos:
 
-   * **[!UICONTROL Identified contact]** : un contacto que se ha identificado voluntariamente en el canal. En las interacciones de salida, el contacto se identifica automáticamente.
-   * **[!UICONTROL Anonymous contact]** : contacto que no se ha suscrito oficialmente a través del canal, pero que puede identificarse implícitamente mediante una cookie. Esta terminología solo se utiliza para interacciones entrantes.
+   * **[!UICONTROL Identified contact]**: un contacto que se ha identificado voluntariamente en el canal. En las interacciones de salida, el contacto se identifica automáticamente.
+   * **[!UICONTROL Anonymous contact]**: contacto que no se ha suscrito voluntariamente a través del canal, pero que puede identificarse implícitamente mediante una cookie. Esta terminología solo se utiliza para interacciones entrantes.
 
      >[!NOTE]
      >
@@ -131,9 +131,9 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
 * **Unitary mode**: se procesa un solo contacto cada vez. Este modo se aplica generalmente a interacciones entrantes y mensajes transaccionales.
 * **Modo de identificación**: hace referencia al estado de un contacto:
 
-   * **[!UICONTROL explicit]** : los contactos se identifican por su inicio de sesión en la interfaz del canal.
-   * **[!UICONTROL implicit]** : los contactos se identifican mediante una cookie (permanente o por sesión). Puede procesarse como contacto anónimo o identificado.
-   * **[!UICONTROL anonymous]** : no se pueden identificar los contactos.
+   * **[!UICONTROL explicit]**: los contactos se identifican por su inicio de sesión en la interfaz del canal.
+   * **[!UICONTROL implicit]**: los contactos se identifican mediante una cookie (permanente o por sesión). Puede procesarse como contacto anónimo o identificado.
+   * **[!UICONTROL anonymous]**: no se pueden identificar los contactos.
 
 * **Oferta elegible**: ofrece a las reuniones las restricciones definidas por adelantado que pueden ofrecerse de forma coherente a un objetivo.
 * **Presentation rules**: reglas de tipología a las que se hace referencia en el entorno de la oferta, que le permiten excluir algunas ofertas tomando en cuenta el historial de propuestas.

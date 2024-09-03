@@ -5,10 +5,10 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '895'
-ht-degree: 64%
+ht-degree: 59%
 
 ---
 
@@ -116,10 +116,10 @@ Utilice la ficha **[!UICONTROL Content]** para definir el contenido de la oferta
 
 1. Defina los distintos parámetros del contenido de la oferta.
 
-   * **[!UICONTROL Title]** : especifique el título que desea que aparezca en la oferta. Advertencia: esto no hace referencia a la etiqueta de la oferta, la cual se define en la pestaña **[!UICONTROL General]**.
-   * **[!UICONTROL Destination URL]**: especifique la URL de la oferta. Debe comenzar con &quot;http://&quot; o &quot;https://&quot;.
-   * **[!UICONTROL Image URL]**: especifique una dirección URL o un trazado de acceso a la imagen de la oferta.
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]** : introduzca el cuerpo de la oferta en la pestaña que desee. Para generar un seguimiento, el **[!UICONTROL HTML content]** debe estar compuesto por elementos HTML que se puedan incluir en un elemento de tipo `<div>` Por ejemplo, el resultado de un elemento en la página HTML estará seguido por:`<table>`
+   * **[!UICONTROL Title]**: especifique el título que desea que aparezca en la oferta. Advertencia: esto no hace referencia a la etiqueta de la oferta, la cual se define en la pestaña **[!UICONTROL General]**.
+   * **[!UICONTROL Destination URL]**: especifique la dirección URL de la oferta. Debe comenzar con &quot;http://&quot; o &quot;https://&quot;.
+   * **[!UICONTROL Image URL]**: especifique una dirección URL o una ruta de acceso a la imagen de la oferta.
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: introduzca el cuerpo de la oferta en la pestaña que desee. Para generar un seguimiento, el **[!UICONTROL HTML content]** debe estar compuesto por elementos HTML que se puedan incluir en un elemento de tipo `<div>` Por ejemplo, el resultado de un elemento en la página HTML estará seguido por:`<table>`
 
    ```
       <div> 

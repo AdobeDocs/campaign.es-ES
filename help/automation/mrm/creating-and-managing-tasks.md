@@ -5,7 +5,7 @@ description: Creación y administración de tareas
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '3758'
 ht-degree: 85%
@@ -374,10 +374,10 @@ Una tarea de notificación puede tener los siguientes estados:
 
 Durante la creación, se deben introducir los siguientes elementos en la tarea:
 
-* **[!UICONTROL Assigned to]**: el operador o el grupo de operadores que recibe el correo electrónico. Si asigna la tarea una vez enviado el correo electrónico, este no se envía al operador nuevo (para esto, debe volver a ejecutar la tarea y cambiar su fecha inicial).
+* **[!UICONTROL Assigned to]**: el operador o el grupo de operadores que recibirá el correo electrónico. Si asigna la tarea una vez enviado el correo electrónico, este no se envía al operador nuevo (para esto, debe volver a ejecutar la tarea y cambiar su fecha inicial).
 * **Fecha de inicio de la tarea**: fecha en la que se envía el mensaje de correo electrónico de notificación. Esta fecha debe ser futura en el momento de la registrar la tarea.
 * **Task end date**: fecha en la que el estado de la tarea cambia a **[!UICONTROL Finished]**. De forma predeterminada, la fecha de finalización es idéntica a la fecha de inicio. Sin embargo, la asignación de una duración a la tarea permite simbolizar la cantidad de tiempo que el operador debe invertir en la programación, si fuera necesario.
-* **[!UICONTROL Description]**: el texto introducido aquí aparece en el cuerpo del mensaje de correo electrónico de notificación.
+* **[!UICONTROL Description]**: el texto introducido aquí aparecerá en el cuerpo del mensaje de correo electrónico de notificación.
 
   ![](assets/mrm_task_notif_dashboard_msg.png)
 

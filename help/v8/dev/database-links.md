@@ -5,7 +5,7 @@ feature: Data Model, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
-source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '919'
 ht-degree: 0%
@@ -26,14 +26,14 @@ En la interfaz de usuario, las cardinalidades se representan con un icono espec�
 
 Para relaciones de unión con una tabla o base de datos de campaña:
 
-* ![](assets/do-not-localize/join_with_campaign11.png) : Cardinalidad 1-1. Por ejemplo, entre un destinatario y un pedido actual. Un destinatario solo puede estar relacionado con una incidencia de la tabla de pedidos actual a la vez.
-* ![](assets/do-not-localize/externaljoin11.png) : cardinalidad 1-1, unión externa. Por ejemplo, entre un destinatario y su país. Un destinatario solo puede estar relacionado con una incidencia del país de la tabla. No se guardará el contenido de la lista del país.
-* ![](assets/do-not-localize/join_with_campaign1n.png) : Cardinalidad 1-N. Por ejemplo, entre un destinatario y la tabla de suscripciones. Un destinatario puede estar relacionado con varias incidencias en la tabla de suscripciones.
+* ![](assets/do-not-localize/join_with_campaign11.png): cardinalidad 1-1. Por ejemplo, entre un destinatario y un pedido actual. Un destinatario solo puede estar relacionado con una incidencia de la tabla de pedidos actual a la vez.
+* ![](assets/do-not-localize/externaljoin11.png): cardinalidad 1-1, unión externa. Por ejemplo, entre un destinatario y su país. Un destinatario solo puede estar relacionado con una incidencia del país de la tabla. No se guardará el contenido de la lista del país.
+* ![](assets/do-not-localize/join_with_campaign1n.png): Cardinalidad 1-N. Por ejemplo, entre un destinatario y la tabla de suscripciones. Un destinatario puede estar relacionado con varias incidencias en la tabla de suscripciones.
 
 Para relaciones de unión mediante el acceso a bases de datos federadas (FDA):
 
-* ![](assets/do-not-localize/join_fda_11.png) : Cardinalidad 1-1
-* ![](assets/do-not-localize/join_fda_1m.png) : Cardinalidad 1-N
+* ![](assets/do-not-localize/join_fda_11.png): cardinalidad 1-1
+* ![](assets/do-not-localize/join_fda_1m.png): cardinalidad 1-N
 
 Para obtener más información sobre las tablas de FDA, consulte [Acceso a una base de datos externa](../connect/fda.md).
 

@@ -5,10 +5,10 @@ description: Creación de una campaña local
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '1553'
-ht-degree: 91%
+ht-degree: 86%
 
 ---
 
@@ -62,7 +62,7 @@ Hay cuatro tipos de interfaces disponibles:
 
   ![](assets/mkt_distr_6.png)
 
-* **[!UICONTROL By form]**: la entidad local tiene acceso a un formulario web en el que, según la plantilla utilizada, pueden editar el contenido, el destinatario, su tamaño máximo, así como las fechas de creación y extracción utilizando campos de personalización. La entidad local puede evaluar el destinatario y obtener una vista previa del contenido desde este formulario web.
+* **[!UICONTROL By form]**: la entidad local tiene acceso a un formulario web en el que, según la plantilla utilizada, pueden editar el contenido, el objetivo, su tamaño máximo, así como la creación y extracción de fechas utilizando campos de personalización. La entidad local puede evaluar el destinatario y obtener una vista previa del contenido desde este formulario web.
 
   ![](assets/mkt_distr_8.png)
 

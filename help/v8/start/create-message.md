@@ -5,7 +5,7 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 7f6c394f56d517c0a675e0fd2341bb6ef98044f0
+source-git-commit: c508c80bea39e4fc32786d92d06651a1f91ca697
 workflow-type: tm+mt
 source-wordcount: '1319'
 ht-degree: 100%
@@ -55,7 +55,7 @@ Para obtener más información sobre los distintos tipos de envíos, consulte [e
 
 ### Canal móvil {#gs-channel-sms}
 
-Adobe Campaign le permite enviar mensajes [SMS](../send/sms.md) y de [LINE](../send/line.md) a móviles.
+Adobe Campaign le permite enviar mensajes [SMS](../send/sms/sms.md) y de [LINE](../send/line.md) a móviles.
 
 En los mensajes SMS, puede crear, modificar y personalizar mensajes solo de formato de texto. También puede obtener una previsualización de los mensajes SMS antes de enviarlos.
 

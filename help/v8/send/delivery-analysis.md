@@ -5,10 +5,10 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 1526048d-9f02-4853-948f-8fb618670dbd
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 59%
+ht-degree: 50%
 
 ---
 
@@ -76,7 +76,7 @@ Esta pestaña proporciona acceso a las siguientes opciones:
 
 * **[!UICONTROL Label and code of the delivery]**: las opciones de esta sección se utilizan para calcular los valores de estos campos durante la fase de análisis de envío. El campo **[!UICONTROL Compute the execution folder during the delivery analysis]** calcula el nombre de la carpeta que debe contener esta acción de entrega durante la fase de análisis.
 
-* **[!UICONTROL Approval mode]** : este campo permite definir el envío manual o automático una vez finalizado el análisis.
+* **[!UICONTROL Approval mode]**: este campo permite definir el envío manual o automático una vez finalizado el análisis.
 
   Si se generan advertencias durante el análisis (por ejemplo, si se acentúan ciertos caracteres en el asunto de la entrega, etc.), puede configurar la entrega para definir si se debe ejecutar o no. De forma predeterminada, el usuario debe confirmar la entrega de los mensajes al final de la fase de análisis: esta es la validación **manual**.
 
@@ -88,6 +88,6 @@ Esta pestaña proporciona acceso a las siguientes opciones:
    * **[!UICONTROL Semi-automatic]**: la entrega comienza automáticamente si la fase de análisis no genera mensajes de advertencia.
    * **[!UICONTROL Automatic]**: la entrega comienza automáticamente al final de la fase de análisis, independientemente de su resultado.
 
-* **[!UICONTROL Start job in a detached process]**: esta opción permite iniciar el análisis de envío en un proceso independiente. La función de análisis utiliza el proceso del servidor de aplicaciones de Adobe Campaign (web nlserver) de forma predeterminada. Al seleccionar esta opción, se asegura de que el análisis se complete incluso en caso de que falle el servidor de aplicaciones.
-* **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: esta opción añade los registros de consulta SQL al diario de entrega durante la fase de análisis.
-* **[!UICONTROL Ignore personalization scripts during sending]**: esta opción permite evitar la interpretación de las directrices de JavaScript que se encuentran en el contenido HTML. Se visualizan tal y como están en los contenidos enviados. Estas directivas se introducen con la etiqueta `<%=`.
+* **[!UICONTROL Start job in a detached process]**: esta opción le permite iniciar el análisis de envío en un proceso independiente. La función de análisis utiliza el proceso del servidor de aplicaciones de Adobe Campaign (web nlserver) de forma predeterminada. Al seleccionar esta opción, se asegura de que el análisis se complete incluso en caso de que falle el servidor de aplicaciones.
+* **[!UICONTROL Log SQL queries generated during the analysis in the journal]**: esta opción agrega los registros de consulta SQL al diario de envío durante la fase de análisis.
+* **[!UICONTROL Ignore personalization scripts during sending]**: esta opción le permite evitar la interpretación de las directivas de JavaScript que se encuentran en el contenido del HTML. Se visualizan tal y como están en los contenidos enviados. Estas directivas se introducen con la etiqueta `<%=`.
