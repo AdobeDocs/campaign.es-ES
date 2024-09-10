@@ -6,10 +6,10 @@ feature: Workflows
 level: Beginner
 role: User, Admin
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-source-git-commit: ab6c16af7652f2e8dbfa5c899c2152cefb7fc7c6
+source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 93%
+source-wordcount: '1136'
+ht-degree: 92%
 
 ---
 
@@ -57,7 +57,7 @@ El botón **[!UICONTROL Actions]** de la barra de herramientas le permite accede
 
   >[!CAUTION]
   >
-  >Esta opción se reserva para usuarios expertos.
+  >La detención incondicional está restringida a los usuarios administradores.
 
 * **[!UICONTROL Restart]**
 
@@ -107,7 +107,7 @@ Mejore la estabilidad de las instancias mediante la implementación de las sigui
 
 * **Detenga los flujos de trabajo no utilizados**. Los flujos de trabajo que siguen ejecutándose mantienen conexiones con la base de datos.
 
-* **Solo se debe utilizar la detención incondicional en los casos más inusuales**. Evite utilizar esta acción de forma regular. El no realizar un cierre limpio de las conexiones generadas por los flujos de trabajo a la base de datos afecta al rendimiento.
+* **Solo se debe utilizar la detención incondicional en los casos más inusuales**. Esta opción está restringida a los usuarios administradores. Evite utilizar esta acción de forma regular. El no realizar un cierre limpio de las conexiones generadas por los flujos de trabajo a la base de datos afecta al rendimiento.
 
 * **No realice varias solicitudes de detención en el mismo flujo de trabajo**. La detención de un flujo de trabajo es un proceso asíncrono: la solicitud se registra y, después, el servidor o los servidores de flujo de trabajo cancelan las operaciones en curso. Por lo tanto, la detención de una instancia de flujo de trabajo puede llevar tiempo, especialmente si el flujo de trabajo se ejecuta en varios servidores, cada uno de los cuales debe asumir el control para cancelar las tareas en curso. Para evitar cualquier problema, espere a que se complete la operación de parada y evite detener un flujo de trabajo varias veces.
 
