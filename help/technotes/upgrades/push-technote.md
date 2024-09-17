@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="También se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Se aplica a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 4ef40ff971519c064b980df8235188c717855f27
+source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 11%
+source-wordcount: '1630'
+ht-degree: 10%
 
 ---
 
@@ -56,6 +56,8 @@ Para comprobar si se ha visto afectado, puede filtrar sus **servicios y suscripc
 
 * Como usuario On-Premise de Campaign Classic v7, debe actualizar los servidores de ejecución de marketing y en tiempo real. El servidor intermediario no se ve afectado.
 
+* Como usuario on-premise o híbrido de Campaign Classic v7, compruebe que su cuenta externa de Android routing esté configurada con `androidPushConnectorV2.js`. [Más información](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+
 #### Procedimiento de transición {#fcm-transition-steps}
 
 Para mover el entorno a HTTP v1, siga estos pasos:
@@ -84,12 +86,73 @@ Para mover el entorno a HTTP v1, siga estos pasos:
    | mensaje de datos | N/A | validate_only |
    | mensaje de notificación | title, body, android_channel_id, icon, sound, tag, color, click_action, image, ticker, sticky, visibility, notification_priority, notification_count <br> | validate_only |
 
-1. Una vez completada la transición a HTTP v1, debe actualizar las **plantillas de envío** para las notificaciones push de Android a fin de aumentar el número de mensajes por lotes. Para ello, vaya a las propiedades de la plantilla de envíos de Android y, en la pestaña **Envío**, establezca [Cantidad de lotes de mensajes](../../v8/send/configure-and-send.md#delivery-batch-quantity) en **256**. Aplique este cambio a todas las plantillas de envíos utilizadas para sus envíos de Android y a todas las entregas de Android existentes.
-
 
 >[!NOTE]
 >
->Una vez aplicados estos cambios en todo el servidor, todos los nuevos envíos de notificaciones push a dispositivos Android utilizan la API HTTP v1. Los envíos push existentes en reintento, en curso y en uso siguen utilizando la API HTTP (heredada).
+>Una vez que estos cambios se hayan aplicado en todo el servidor, todos los **nuevos** envíos de notificaciones push a dispositivos Android utilizarán la API HTTP v1. Los envíos push existentes en reintento, en curso y en uso siguen utilizando la API HTTP (heredada). Obtenga información sobre cómo actualizarlos en la sección siguiente.
+
+### Actualizar plantillas existentes {#fcm-transition-update}
+
+Una vez completada la transición a HTTP v1, debe actualizar las **plantillas de envío** para las notificaciones push de Android a fin de aumentar el número de mensajes por lotes. Para ello, vaya a las propiedades de la plantilla de envíos de Android y, en la pestaña **Envío**, establezca [Cantidad de lotes de mensajes](../../v8/send/configure-and-send.md#delivery-batch-quantity) en **256**. Aplique este cambio a todas las plantillas de envíos utilizadas para sus envíos de Android y a todas las entregas de Android existentes.
+
+También puede actualizar los envíos existentes y las plantillas de envíos creadas antes de la actualización a una versión compatible con HTTP v1. Para realizar esto:
+
+* Como Cloud Service administrados o clientes alojados, póngase en contacto con el Adobe de para actualizar las plantillas de entrega de Android existentes.
+
+* Para entornos locales, descargue y ejecute el script `fcm-httpv1-migration.js` como se detalla a continuación.
+
+  Descargar [fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js)
+
+  >[!CAUTION]
+  >
+  >El script debe ejecutarse en los entornos de marketing, intermediario y en tiempo real.
+
+
+  +++Pasos para actualizar los envíos y las plantillas existentes
+
+  Para aplicar parches a todas las entregas y plantillas de entregas creadas antes de la actualización a una versión compatible con HTTP v1, siga estos pasos:
+
+   1. Exporte los envíos existentes y las plantillas de envío en un paquete para poder restaurarlos en caso de que se produzca un problema inesperado durante la aplicación del parche.
+   1. Ejecute el siguiente comando en Posgresql:
+
+      ```sql
+      pg_dump -Fp -f /sftp/<db_name>-nmsdelivery-before_rd_script.sql -t nmsdelivery -d <db_name>
+      ```
+
+   1. De forma predeterminada, el script se encuentra en modo `dryrun`; puede iniciarlo en ese modo para comprobar si es necesario aplicar parches a alguna entrega.
+
+      Comando
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js 
+      ```
+
+      Output
+
+      ```sql
+      ...
+      HH:MM:SS >   Processing delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:123456,  label:'Deliver on Android - New', name:'DM1234')
+      HH:MM:SS >   Processing delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      HH:MM:SS >   Dry run: Would update androidCheckParams for delivery (id:567890,  label:'Deliver on Android - New', name:'DM5678')
+      ...
+      HH:MM:SS >   Summary (XYZ processed deliverie(s) or delivery template(s)):
+      HH:MM:SS >>  - X had not patchable androidCheckParams formula!
+      HH:MM:SS >   - Y had androidCheckParams formula patched.
+      HH:MM:SS >   - Z ignored as alreading having androidCheckParams formula patched.
+      ```
+
+      >[!NOTE]
+      >
+      >Las `not patchable` entregas deben actualizarse manualmente. Su ID se puede encontrar en el registro.
+
+   1. Ejecute el script en el modo de ejecución para actualizar los envíos de la siguiente manera:
+
+      ```sql
+      nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
+      ```
+
++++
 
 ### ¿Cuál es el impacto para mis aplicaciones de Android? {#fcm-apps}
 
