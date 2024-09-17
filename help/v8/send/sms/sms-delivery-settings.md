@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
+source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
 workflow-type: tm+mt
 source-wordcount: '893'
-ht-degree: 14%
+ht-degree: 15%
 
 ---
-
 
 # Configuración de envío de SMS {#sms-settings}
 
@@ -55,12 +55,12 @@ Aquí está la información que necesita para rellenar este formulario. Cada cam
 
 * **[!UICONTROL Transmission mode]**
 
-Este campo indica el tipo de SMS que desea transferir: mensajes normales o flash, almacenados en el móvil o en la tarjeta SIM. Esta configuración se transmite en el campo opcional dest_addr_subunit de la PDU SUBMIT_SM.
+  Este campo indica el tipo de SMS que desea transferir: mensajes normales o flash, almacenados en el móvil o en la tarjeta SIM. Esta configuración se transmite en el campo opcional dest_addr_subunit de la PDU SUBMIT_SM.
 
-* **Flash** establece el valor en 1. Envía un mensaje flash que aparece en el dispositivo móvil y no se almacena en la memoria.
-* **Normal** establece el valor en 0. Envía un mensaje normal.
-* **Guardar en un móvil** establece el valor en 2. Le dice al teléfono que almacene el SMS en la memoria interna.
-* **Guardar en un terminal** establece el valor en 3. Le dice al teléfono que almacene el SMS en la tarjeta SIM.
+   * **Flash** establece el valor en 1. Envía un mensaje flash que aparece en el dispositivo móvil y no se almacena en la memoria.
+   * **Normal** establece el valor en 0. Envía un mensaje normal.
+   * **Guardar en un móvil** establece el valor en 2. Le dice al teléfono que almacene el SMS en la memoria interna.
+   * **Guardar en un terminal** establece el valor en 3. Le dice al teléfono que almacene el SMS en la tarjeta SIM.
 
 * **[!UICONTROL Priority, Communication type]**
 
@@ -103,7 +103,7 @@ Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
 
 1. Cree una nueva entrega, por ejemplo, desde el Tablero de entregas o en su carpeta de entregas de **[!UICONTROL Explorer]**.  De forma predeterminada, se denomina &quot;Envío de correo electrónico&quot;.
 
-1. Seleccione la plantilla de envíos que ha creado para sus envíos SMS. [Obtenga más información aquí](sms-mid-sourcing.md#sms-delivery-template).
+1. Seleccione la plantilla de envíos que ha creado para sus envíos SMS. [Más información aquí](sms-mid-sourcing.md#sms-delivery-template).
 
    ![](assets/sms_create.png){zoomable="yes"}
 
