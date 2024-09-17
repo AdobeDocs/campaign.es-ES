@@ -8,9 +8,9 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="También se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Se aplica a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: dffe082d5e31eda4ecfba369b92d8a2d441fca04
+source-git-commit: a6a1af4e0255a2fec359c415cbbf45da2e4baf67
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1633'
 ht-degree: 10%
 
 ---
@@ -91,7 +91,7 @@ Para mover el entorno a HTTP v1, siga estos pasos:
 >
 >Una vez que estos cambios se hayan aplicado en todo el servidor, todos los **nuevos** envíos de notificaciones push a dispositivos Android utilizarán la API HTTP v1. Los envíos push existentes en reintento, en curso y en uso siguen utilizando la API HTTP (heredada). Obtenga información sobre cómo actualizarlos en la sección siguiente.
 
-### Actualizar plantillas existentes {#fcm-transition-update}
+#### Actualizar plantillas existentes {#fcm-transition-update}
 
 Una vez completada la transición a HTTP v1, debe actualizar las **plantillas de envío** para las notificaciones push de Android a fin de aumentar el número de mensajes por lotes. Para ello, vaya a las propiedades de la plantilla de envíos de Android y, en la pestaña **Envío**, establezca [Cantidad de lotes de mensajes](../../v8/send/configure-and-send.md#delivery-batch-quantity) en **256**. Aplique este cambio a todas las plantillas de envíos utilizadas para sus envíos de Android y a todas las entregas de Android existentes.
 
@@ -99,16 +99,16 @@ También puede actualizar los envíos existentes y las plantillas de envíos cre
 
 * Como Cloud Service administrados o clientes alojados, póngase en contacto con el Adobe de para actualizar las plantillas de entrega de Android existentes.
 
-* Para entornos locales, descargue y ejecute el script `fcm-httpv1-migration.js` como se detalla a continuación.
+* Para entornos locales, descargue el script `fcm-httpv1-migration.js` y ejecútelo como se detalla a continuación.
 
-  Descargar [fcm-httpv1-migration.js](assets/do-not-localize/fcm-httpv1-migration.js)
+  Descargar [fcm-httpv1-migration.zip](assets/do-not-localize/fcm-httpv1-migration-js.zip)
 
   >[!CAUTION]
   >
   >El script debe ejecutarse en los entornos de marketing, intermediario y en tiempo real.
 
 
-  +++Pasos para actualizar los envíos y las plantillas existentes
+  +++Pasos para actualizar los envíos y las plantillas existentes (solo local)
 
   Para aplicar parches a todas las entregas y plantillas de entregas creadas antes de la actualización a una versión compatible con HTTP v1, siga estos pasos:
 
