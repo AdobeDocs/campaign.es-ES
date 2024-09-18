@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '677'
 ht-degree: 94%
 
 ---

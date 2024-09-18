@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -100,7 +100,7 @@ Antes de empezar a enviar mensajes y crear campañas de marketing, debe realizar
 
    Adobe Campaign viene con un modelo de datos predefinido. Para implementar y personalizar su entorno, debe estar familiarizado con las tablas integradas del modelo de datos de Adobe Campaign y con cómo se relacionan entre sí.
 
-   [Obtenga más información sobre el modelo de datos de Campaign](../dev/datamodel.md).
+   [Más información sobre el modelo de datos de Campaign](../dev/datamodel.md).
 
 ## Personalizar la instancia{#implementation-custom-your-instance}
 
@@ -110,7 +110,7 @@ Puede personalizar muchas áreas y capacidades de Campaign diferentes. La mayor�
 
    Adobe Campaign incluye esquemas comunes para identificar datos como destinatarios, registros de envío, suscripciones, etc.
 
-   Consulte esta sección para obtener más información sobre el [modelo de datos integrado de Campaign](../dev/datamodel.md).
+   Consulte esta sección para obtener más información sobre [Modelo de datos integrado de Campaign](../dev/datamodel.md).
 
    Puede ampliar los esquemas existentes o crear nuevos esquemas desde cero. Obtenga más información en [esta página](../dev/customize.md).
 

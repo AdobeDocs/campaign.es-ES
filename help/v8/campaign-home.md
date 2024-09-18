@@ -3,10 +3,10 @@ keywords: Campaign Classic;inicio;temas populares
 description: Centro de ayuda de Campaign v8
 title: Documentación del producto de Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: f25f793c85d1af26f2e36e28830c6192bfbe4ca3
-workflow-type: ht
-source-wordcount: '341'
-ht-degree: 100%
+source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 97%
 
 ---
 
@@ -105,7 +105,7 @@ Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM
     <td>
       <img src="assets/do-not-localize/icon-dev.svg" width="35px">
     <br/>
-      <strong>Recursos para desarrolladores</strong><br/><a href="dev/datamodel.md">Modelo de datos de Campaign v8</a> - <a href="dev/schemas.md">Esquemas</a> - <a href="dev/api.md">API</a>
+      <strong>Recursos para desarrolladores</strong><br/><a href="dev/datamodel.md">Modelo de datos de la versión 8 de Campaign</a> - <a href="dev/schemas.md">Esquemas</a> - <a href="dev/api.md">API</a>
     </td>
   </tr>
 </table>
