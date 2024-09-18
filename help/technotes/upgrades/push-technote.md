@@ -8,10 +8,10 @@ level: Experienced
 badge-v7: label="v7" type="Informative" tooltip="También se aplica a Campaign Classic v7"
 badge-v8: label="v8" type="Positive" tooltip="Se aplica a Campaign v8"
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: a6a1af4e0255a2fec359c415cbbf45da2e4baf67
+source-git-commit: aba0048e5aff1caa2067eb61d26548b08a3deb36
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 10%
+source-wordcount: '1664'
+ht-degree: 9%
 
 ---
 
@@ -48,15 +48,19 @@ Para comprobar si se ha visto afectado, puede filtrar sus **servicios y suscripc
 
 #### Requisitos previos {#fcm-transition-prerequisites}
 
-* Para Campaign Classic v7, se ha añadido la compatibilidad con HTTP v1 en la versión 20.3.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para la transición a HTTP v1 es actualizar su entorno a la [última versión de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Para Campaign v8, HTTP v1 es compatible con todas las versiones y no se necesita ninguna actualización.
-
 * El archivo JSON de la cuenta del servicio Android Firebase Admin SDK es necesario para mover la aplicación móvil a HTTP v1. Obtenga información sobre cómo obtener este archivo en [Documentación de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Para implementaciones híbridas, alojadas y de Managed Services, además del procedimiento de transición que se muestra a continuación, póngase en contacto con el Adobe de trabajo para actualizar el servidor de ejecución en tiempo real (RT). El servidor intermediario no se ve afectado.
+* Para Campaign Classic v7, se ha añadido la compatibilidad con HTTP v1 en la versión 20.3.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para la transición a HTTP v1 es actualizar su entorno a la [última versión de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Para Campaign v8, HTTP v1 es compatible con todas las versiones y no se necesita ninguna actualización.
 
-* Como usuario On-Premise de Campaign Classic v7, debe actualizar los servidores de ejecución de marketing y en tiempo real. El servidor intermediario no se ve afectado.
+* Como usuario On-Premise de Campaign Classic v7, debe actualizar los servidores de ejecución de marketing y en tiempo real.
 
-* Como usuario on-premise o híbrido de Campaign Classic v7, compruebe que su cuenta externa de Android routing esté configurada con `androidPushConnectorV2.js`. [Más información](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android)
+* Para implementaciones de Cloud Service híbridos, alojados y administrados, además del procedimiento de transición que se muestra a continuación, póngase en contacto con el Adobe de trabajo para actualizar el servidor de ejecución en tiempo real (RT).
+
+* Acerca de la cuenta externa Android routing:
+
+   * Como usuario on-premise o híbrido de Campaign Classic v7, compruebe que su cuenta externa de Android routing esté configurada con `androidPushConnectorV2.js`. Obtenga más información en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+
+   * Para implementaciones de Cloud Service híbridos, alojados y administrados, también debe conectarse con el equipo de atención al cliente de Adobe para validar que el conector `androidPushConnectorV2.js (nms)` está seleccionado en la cuenta externa de enrutamiento de Android de su servidor intermediario.
 
 #### Procedimiento de transición {#fcm-transition-steps}
 
@@ -105,7 +109,7 @@ También puede actualizar los envíos existentes y las plantillas de envíos cre
 
   >[!CAUTION]
   >
-  >El script debe ejecutarse en los entornos de marketing, intermediario y en tiempo real.
+  >El script debe ejecutarse en la instancia de Marketing.
 
 
   +++Pasos para actualizar los envíos y las plantillas existentes (solo local)
