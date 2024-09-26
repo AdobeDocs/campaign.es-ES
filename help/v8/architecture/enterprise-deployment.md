@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1050'
 ht-degree: 50%
 
 ---
@@ -82,7 +82,7 @@ La base de datos PostgreSQL en la instancia intermediaria se utiliza para lo sig
 
 ### Mecanismo de ensayo de la API [!DNL Campaign]{#staging-api}
 
-Con la base de datos en la nube [!DNL Campaign], no se recomiendan las llamadas unitarias de ráfaga debido al rendimiento (latencia y concurrencia). Siempre se prefiere la operación por lotes. Para garantizar un rendimiento óptimo de las API, Campaign sigue gestionando las llamadas a la API en el nivel de base de datos local.
+Con la base de datos en la nube [!DNL Campaign], no se recomiendan las llamadas unitarias de ráfaga debido al rendimiento (latencia y concurrencia). A menos que esté enviando un volumen de envío extremadamente grande, se debe utilizar la operación por lotes para garantizar el rendimiento óptimo de las API y Campaign sigue administrando las llamadas a la API en el nivel de base de datos local.
 
 [El mecanismo de ensayo de la API se detalla en esta página](staging.md)
 

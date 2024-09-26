@@ -5,16 +5,16 @@ feature: Configuration, API, FFDA
 role: Developer
 level: Intermediate
 exl-id: 96693af9-50db-4298-ae02-c238d35e52b4
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '322'
 ht-degree: 2%
 
 ---
 
 # Mecanismo de ensayo de API de Campaign
 
-En el contexto de una implementación [empresarial (FDAC)](enterprise-deployment.md), no se recomienda la limpieza de llamadas unitarias con respecto al rendimiento (latencia y concurrencia). Siempre se prefiere la operación por lotes. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
+En el contexto de una implementación [empresarial (FDAC)](enterprise-deployment.md), no se recomienda la limpieza de llamadas unitarias con respecto al rendimiento (latencia y concurrencia). A menos que esté enviando un volumen extremadamente bajo, se debe **usar la operación por lotes**. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
 
 La capacidad de ensayo de Campaign está habilitada de forma predeterminada en algunos esquemas integrados. También podemos habilitarlo en cualquier esquema personalizado. Mecanismo de ensayo en pocas palabras:
 
