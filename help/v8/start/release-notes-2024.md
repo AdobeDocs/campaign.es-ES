@@ -3,7 +3,7 @@ title: Notas de la versión de Campaign v8 (consola) 2023
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2023
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 07e0bfdade0356eedb24641259aa754fdb1c6155
+source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
 workflow-type: tm+mt
 source-wordcount: '1016'
 ht-degree: 91%
@@ -46,9 +46,9 @@ _2 de mayo de 2024_
 >
 >Esta versión está en **Disponibilidad limitada** (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 >
->Como usuario Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en la [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/release-notes/acs-migration){target="_blank"}.
+>Como usuario Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en la [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
-### Nuevas características {#new-8-7-1}
+### Nuevas funciones {#new-8-7-1}
 
 * **Plantillas de notificaciones push enriquecidas**: ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. [Más información](../send/rich-push-ios.md).
 
