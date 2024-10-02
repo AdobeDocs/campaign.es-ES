@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo consultar la tabla de destinatario
 feature: Query Editor
 role: User, Data Engineer
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: 122d78e310e66d5f354ffbc86c27a2fbff007447
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 100%
@@ -84,6 +84,6 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/query_editor_nveau_13.png)
 
-   La pestaña **[!UICONTROL Generated QSL queries]** muestra el resultado de la consulta en formato SQL.
+   La pestaña **[!UICONTROL Generated SQL queries]** muestra el resultado de la consulta en formato SQL.
 
    ![](assets/query_editor_nveau_14.png)
