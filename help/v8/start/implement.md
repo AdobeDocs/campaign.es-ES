@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -110,7 +110,7 @@ Puede personalizar muchas áreas y capacidades de Campaign diferentes. La mayor�
 
    Adobe Campaign incluye esquemas comunes para identificar datos como destinatarios, registros de envío, suscripciones, etc.
 
-   Consulte esta sección para obtener más información sobre [Modelo de datos integrado de Campaign](../dev/datamodel.md).
+   Consulte esta sección para obtener más información sobre el [modelo de datos integrado de Campaign](../dev/datamodel.md).
 
    Puede ampliar los esquemas existentes o crear nuevos esquemas desde cero. Obtenga más información en [esta página](../dev/customize.md).
 

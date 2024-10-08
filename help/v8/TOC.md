@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '677'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -54,17 +54,17 @@ ht-degree: 94%
       + Configurar el canal SMS {#config-sms}
          + [Configuración de cuenta externa de SMPP](send/sms/smpp-external-account.md)
          + [Características del canal SMS](send/sms/sms-channel.md)
-         + [Validando una conexión SMPP](send/sms/smpp-connection.md)
+         + [Validación de una conexión SMPP](send/sms/smpp-connection.md)
          + [Instancia independiente](send/sms/sms-standalone-instance.md)
          + [Infraestructura intermediaria](send/sms/sms-mid-sourcing.md)
          + [Descripción del conector SMPP](send/sms/smpp-connector-delivery.md)
-      + Crear un SMS {#create-sms}
+      + Creación de un SMS {#create-sms}
          + [Configuración de envío de SMS](send/sms/sms-delivery-settings.md)
          + [Definición del contenido](send/sms/sms-content.md)
-         + [Selección de la audiencia](send/sms/sms-audience.md)
-      + Validar y enviar SMS {#validate-sms}
-         + [Enviar pruebas de SMS](send/sms/sms-proofs.md)
-         + [Enviar a la audiencia](send/sms/sms-send.md)
+         + [Selección del público](send/sms/sms-audience.md)
+      + Validación y envío de SMS {#validate-sms}
+         + [Envío de pruebas SMS](send/sms/sms-proofs.md)
+         + [Envío al público](send/sms/sms-send.md)
       + [Monitorización y seguimiento de SMS](send/sms/sms-monitor.md)
    + Notificaciones push {#push}
       + [Creación y envío de notificaciones push](send/push.md)

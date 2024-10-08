@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Campaign le ayuda a añadir contactos a la base de datos de Cloud. Puede cargar 
 
 Introducción a los [públicos](audiences.md)
 
-Comprender el [modelo de datos](../dev/datamodel.md) de Campaign
+Explicación del [modelo de datos](../dev/datamodel.md) de Campaign
 
 ## Importación de perfiles en un flujo de trabajo
 
