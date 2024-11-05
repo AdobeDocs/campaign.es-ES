@@ -5,7 +5,7 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 19c42bcd2a96173f3d33e3e259192107b5e64c6c
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 14%
@@ -16,7 +16,7 @@ ht-degree: 14%
 
 Una vez definido el contenido del mensaje, puede utilizar perfiles de prueba para previsualizarlo y probarlo. Si ha insertado [contenido personalizado](personalize.md), puede comprobar cómo se muestra este contenido en el mensaje con los datos del perfil de prueba. Además, para detectar posibles errores en el contenido del mensaje o en la configuración de personalización, envíe pruebas a los perfiles de prueba. Se debe enviar una prueba cada vez que se realiza un cambio para validar el contenido más reciente.
 
-## Previsualización de contenido{#preview-content}
+## Previsualización de contenido {#preview-content}
 
 Antes de enviar pruebas, una práctica recomendada es comprobar el contenido del mensaje en la sección de vista previa de la ventana de entrega.
 
@@ -68,7 +68,7 @@ De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se 
 
 * Utilice la opción **[!UICONTROL Specific target and Seed addresses]** para combinar direcciones semilla y direcciones de correo electrónico específicas. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
-### Envío de una prueba{#proofs-send}
+### Envío de una prueba {#proofs-send}
 
 Para enviar pruebas de mensajes, siga los pasos a continuación:
 
@@ -88,7 +88,7 @@ Se recomienda enviar pruebas después de cada modificación al contenido del men
 >
 >En la prueba enviada, el vínculo a la página espejo no está activo. Solo se activa en los mensajes finales.
 
-### Propiedades de revisión{#proofs-properties}
+### Propiedades de revisión {#proofs-properties}
 
 Las propiedades de prueba se establecen en la pestaña **[!UICONTROL Advanced]** de las ventanas de propiedades de entrega. Vaya al vínculo **[!UICONTROL Proof properties...]** para definir los parámetros y la etiqueta de las pruebas. Puede optar por mantener:
 

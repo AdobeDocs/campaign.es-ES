@@ -4,14 +4,13 @@ description: Acerca de la monitorización y el seguimiento de un envío SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: 42be45db-3a90-4ad0-896d-f082afff1f8e
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '224'
 ht-degree: 0%
 
 ---
-
 
 # Monitorización y seguimiento de un SMS
 
@@ -52,4 +51,3 @@ Y por último, la pestaña **[!UICONTROL Audit]** con todos los detalles durante
 Los tipos de errores y los motivos del error para SMS son los mismos que para los correos electrónicos.
 
 Obtenga más información sobre [errores de entrega](../delivery-failures.md) y, específicamente, sobre [cuarentenas de SMS](../delivery-failures.md#sms-quarantines).
-

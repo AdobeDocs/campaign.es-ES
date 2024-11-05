@@ -5,7 +5,7 @@ description: Más información sobre las entregas de campañas de marketing
 feature: Campaigns, Resource Management, Cross Channel Orchestration
 role: User
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 40%
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # Entregas de campañas de marketing {#marketing-campaign-deliveries}
 
-Orqueste sus envíos en canales múltiples en sus campañas: optimice sus comunicaciones con Adobe Campaign mediante correos electrónicos personalizados, SMS, notificaciones push y mensajes en la aplicación. Puede utilizar medios enriquecidos como vídeos, emojis o GIF e integrarlos directamente.
+Orqueste sus envíos en canales múltiples en sus campañas: optimice sus comunicaciones con Adobe Campaign mediante correos electrónicos personalizados, SMS, notificaciones push y mensajes en la aplicación. Puede utilizar medios enriquecidos como vídeos, emojis o GIF, e integrarlos directamente.
 
 Las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas. Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
@@ -24,9 +24,9 @@ Tiene dos formas de añadir envíos a sus campañas de marketing:
 
 * Desde el vínculo **[!UICONTROL Add a delivery]** en el panel de campañas.
 
-![](assets/campaign_op_add_delivery.png)
+  ![](assets/campaign_op_add_delivery.png)
 
-Una vez guardada, la entrega se agrega al panel de campañas.
+  Una vez guardada, la entrega se agrega al panel de campañas.
 
 * Desde un flujo de trabajo de campaña, en la pestaña **[!UICONTROL Targeting and workflows]**, agregando la entrega.
 

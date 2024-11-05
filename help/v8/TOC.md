@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
-source-wordcount: '677'
-ht-degree: 100%
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+workflow-type: tm+mt
+source-wordcount: '681'
+ht-degree: 99%
 
 ---
 
@@ -42,7 +42,8 @@ ht-degree: 100%
    + [Introducción a las campañas](start/campaigns.md)
    + [Orquestación de campañas >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es)
 + Envío de mensajes{#send}
-   + [Introducción a los mensajes](start/create-message.md)
+   + [Introducción a los mensajes](start/gs-message.md)
+   + [Creación de la primera entrega](start/create-message.md)
    + Correos electrónicos {#emails}
       + [Diseño y validación de correos electrónicos](send/email.md)
       + [Vínculo a la página espejo](send/mirror-page.md)

@@ -4,14 +4,13 @@ description: Obtenga información sobre cómo configurar la cuenta externa de SM
 feature: SMS
 role: User
 level: Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 36bb1e2c9e2391065360c3cd2ad97612373ec0c2
+exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '3652'
+source-wordcount: '3650'
 ht-degree: 26%
 
 ---
-
 
 # Configuración de cuenta externa de SMPP {#smpp-external-account}
 

@@ -4,14 +4,13 @@ description: Obtenga información sobre cómo enviar pruebas de un envío SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: a184a29301f2bd739bc3fd1373fc8cfad58f0393
+exl-id: d2ec4d92-7f00-47c8-98e6-0613d6387de0
+source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '243'
 ht-degree: 0%
 
 ---
-
 
 # Envío de una prueba de un envío de SMS {#sms-proof}
 
