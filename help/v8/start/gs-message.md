@@ -4,10 +4,10 @@ description: Introducción a los mensajes
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: a7225fb958ad168d89e09445f4fad27e7b6817aa
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 88%
+source-wordcount: '1002'
+ht-degree: 75%
 
 ---
 
@@ -25,88 +25,44 @@ Para enviar mensajes, debe crear una entrega. El modo de creación de envíos de
 >
 >Al crear una entrega, debe seleccionar una plantilla. Las plantillas predeterminadas están disponibles para cada canal. Obtenga más información acerca de las plantillas de envío en [esta página](../send/create-templates.md).
 
-1. Mensajes de una sola toma: puede enviar mensajes de una sola toma a una audiencia. Aprenda a enviar su primer mensaje en [esta sección](create-message.md).
+1. **Mensajes de una sola toma**: puede enviar mensajes de una sola toma a una audiencia. Aprenda a enviar su primer mensaje en [esta sección](create-message.md).
 
    ![](assets/send-email.png)
 
-1. Mensajes en una campaña de marketing: puede enviar mensajes en el contexto de una [campaña de marketing](campaigns.md), definir un proceso de aprobación y enviarlos y realizar un seguimiento de ellos en un panel consolidado. Aprenda en [esta sección](../../automation/campaigns/marketing-campaign-deliveries.md).
+1. **Mensajes en una campaña de marketing**: puede enviar mensajes en el contexto de una [campaña de marketing](campaigns.md), definir un proceso de aprobación y enviarlos y realizar un seguimiento de ellos en un panel consolidado. Aprenda en [esta sección](../../automation/campaigns/marketing-campaign-deliveries.md).
 
    ![](assets/deliveries-in-a-campaign.png)
 
-1. Mensajes en un flujo de trabajo: puede enviar mensajes a través de un [flujo de trabajo](../config/workflows.md) y automatizar los envíos. Aprenda en [esta página](../../automation/workflow/delivery.md).
+1. **Mensajes en un flujo de trabajo**: puede enviar mensajes a través de un [flujo de trabajo](../config/workflows.md) y automatizar los envíos. Aprenda en [esta página](../../automation/workflow/delivery.md).
 
    ![](assets/send-in-a-wf.png)
 
-1. Mensajes activados: puede [enviar mensajes en Déclencheur](../send/transactional.md) desde un evento. La mensajería transaccional (Centro de mensajes) es el módulo de Campaign diseñado para gestionar mensajes de déclencheur. Los pasos para configurar y enviar mensajes transaccionales se detallan en [esta página](../send/transactional.md)
+1. **Mensajes activados** - Puede [mensajes de Déclencheur](../send/transactional.md) de un evento. La mensajería transaccional (Centro de mensajes) es el módulo de Campaign diseñado para gestionar mensajes de déclencheur. Los pasos para configurar y enviar mensajes transaccionales se detallan en [esta página](../send/transactional.md)
 
-## Canal de comunicación {#gs-channel}
+## Canales de comunicación {#gs-channel}
 
-Adobe Campaign v8 incluye los siguientes canales de envío:
+Adobe Campaign v8 viene con los canales de envío enumerados a continuación. Los canales disponibles en su entorno dependen del contrato. Compruebe el acuerdo de licencia.
 
-* **Canal de correo electrónico**: los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo. [Más información](#gs-channel-email)
+* **Canal de correo electrónico**: los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo. [Más información](../send/email.md)
 
-* **Canales móviles**: los envíos en canales móviles permiten enviar mensajes personalizados a los dispositivos móviles de la población de público destinatario. [Más información](#gs-channel-sms)
+* **Canales móviles**: los envíos en canales móviles permiten enviar mensajes personalizados a los dispositivos móviles de la población de público destinatario. Puedes enviar [mensajes SMS](../send/sms/sms.md) y [LINE](../send/line.md) a móviles.
 
-* **Canal de aplicaciones móviles**: los envíos de aplicaciones móviles permiten enviar notificaciones a dispositivos con sistemas iOS y Android. [Más información](#gs-channel-push)
+* **Canal de aplicaciones móviles**: puede usar Adobe Campaign para enviar [notificaciones push](../send/push.md) personalizadas y segmentadas en dispositivos móviles iOS y Android mediante aplicaciones especializadas. Una vez realizados los pasos de configuración e integración, se pueden crear y realizar los envíos de iOS y Android y enviarlos con Adobe Campaign. También puede diseñar y enviar notificaciones enriquecidas con imágenes o vídeos a dispositivos Android.
 
-* **Canal de correo directo**: los envíos de correo directo permiten generar un archivo de extracción que contenga datos sobre la población de público destinatario. [Más información](#gs-channel-direct)
+* **Canal de correo postal**: [Correo postal](../send/direct-mail.md) es un canal sin conexión que le permite crear, personalizar y generar un archivo externo para compartirlo con sus proveedores de correo postal. Utilice este canal para organizar canales en línea y sin conexión en los recorridos del cliente.
 
-  En [esta sección](#other-channels) se describen otros canales.
+  Al preparar un envío de correo directo, Adobe Campaign genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo directo que se encarga del envío real.
+
+
+* **Otros canales**: Adobe Campaign también incluye una plantilla de envíos telefónicos, que se usa para crear envíos externos. El uso de este canal implica la implementación de metodologías dedicadas para procesar archivos de salida. Los pasos de configuración son los mismos que para el [canal de correo directo](../send/direct-mail.md).
 
   >[!NOTE]
   >
-  >El número de canales disponibles depende del contrato. Compruebe el acuerdo de licencia.
+  >El canal del teléfono no es un canal integrado. Su implementación requiere la participación de un asesor o un socio de Adobe. Para obtener más información, póngase en contacto con su representante de Adobe.
 
-### Canal de correo electrónico {#gs-channel-email}
+  Los envíos de tipo “Otro” utilizan una plantilla técnica específica que no ejecuta un proceso: esto les permite administrar las acciones de marketing ejecutadas fuera de la plataforma de Adobe Campaign.
 
-El [canal de correo electrónico](../send/direct-mail.md) es uno de los canales principales de Adobe Campaign, el cual permite programar y enviar correos electrónicos personalizados a objetivos específicos.
-
-Se pueden enviar diferentes tipos de correos electrónicos:
-
-* Correos electrónicos de envío único: correos electrónicos que se pueden enviar una vez a un destino definido. Suelen utilizarse para promocionar un contenido específico que se prepara y se envía una sola vez (newsletter, correo electrónico promocional, etc.).
-* Correos electrónicos recurrentes: en una campaña, envíe el mismo correo electrónico regularmente y añada cada envío y sus informes periódicamente. Se envía el mismo correo electrónico, pero normalmente a un destino diferente, en función del destino apto para el día de la entrega. Un ejemplo común es un correo electrónico de cumpleaños. Para obtener más información, consulte [envíos recurrentes](../../automation/workflow/recurring-delivery.md).
-* Correos electrónicos de transacción: correos electrónicos individuales que se activan según el comportamiento de los clientes. Consulte [mensajería transaccional](../send/transactional.md).
-
-Para obtener más información sobre el uso y recomendaciones de envío, consulte [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/delivery-best-practices.html?lang=es#sending-messages){target="_blank"} de Adobe Campaign Classic
-
-Para obtener más información sobre los distintos tipos de envíos, consulte [esta sección](#types-of-deliveries).
-
-### Canal móvil {#gs-channel-sms}
-
-Adobe Campaign le permite enviar mensajes [SMS](../send/sms/sms.md) y de [LINE](../send/line.md) a móviles.
-
-En los mensajes SMS, puede crear, modificar y personalizar mensajes solo de formato de texto. También puede obtener una previsualización de los mensajes SMS antes de enviarlos.
-
-Para los mensajes de LINE, puede enviar texto o imágenes y vínculos.
-
-Para enviar mensajes SMS o de LINE a un teléfono móvil se necesita:
-
-* Una cuenta externa configurada en el canal **[!UICONTROL Mobile (SMS)]** o en el canal **[!UICONTROL LINE]**.
-* Una plantilla de envíos de SMS o LINE vinculada correctamente a esta cuenta externa.
-
-
-### Canal de notificaciones push {#gs-channel-push}
-
-Puede usar Adobe Campaign para enviar [notificaciones push](../send/push.md) personalizadas y segmentadas a dispositivos móviles iOS y Android mediante aplicaciones dedicadas. Una vez realizados los pasos de configuración e integración, se pueden crear y realizar los envíos de iOS y Android y enviarlos con Adobe Campaign. También puede diseñar y enviar notificaciones enriquecidas con imágenes o vídeos a dispositivos Android.
-
-### Canal de correo directo {#gs-channel-direct}
-
-[Correo directo](../send/direct-mail.md) es un canal sin conexión que permite crear, personalizar y generar un archivo externo para compartirlo con los proveedores de correo directo. Utilice este canal para organizar canales en línea y sin conexión en los recorridos del cliente.
-
-Al preparar un envío de correo directo, Adobe Campaign genera un archivo con todos los perfiles de destino y la información de contacto elegida (por ejemplo, una dirección postal). Después, puede enviar este archivo al proveedor de correo directo que se encarga del envío real.
-
-
-### Otros canales {#other-channels}
-
-Adobe Campaign también proporciona una plantilla de envío por teléfono que se utiliza para crear envíos externos. El uso de este canal implica la implementación de metodologías dedicadas para procesar archivos de salida. Los pasos de configuración son los mismos que para el [canal de correo directo](../send/direct-mail.md).
-
->[!NOTE]
->
->El canal del teléfono no es un canal integrado. Su implementación requiere la participación de un asesor o un socio de Adobe. Para obtener más información, póngase en contacto con su representante de Adobe.
-
-Los envíos de tipo “Otro” utilizan una plantilla técnica específica que no ejecuta un proceso: esto les permite administrar las acciones de marketing ejecutadas fuera de la plataforma de Adobe Campaign.
-
-Este canal no tiene un mecanismo específico. Es un canal genérico con su propia opción de enrutamiento de cuenta externa, tipo de plantilla de envío y actividad de flujo de trabajo de campaña, igual que cualquier otro canal de comunicación disponible en Adobe Campaign. Este canal se ha diseñado únicamente para fines descriptivos, por ejemplo para definir envíos para los que se desea mantener un seguimiento del destinatario de una campaña realizada en una herramienta que no sea Adobe Campaign.
+  Este canal no tiene un mecanismo específico. Es un canal genérico con su propia opción de enrutamiento de cuenta externa, tipo de plantilla de envío y actividad de flujo de trabajo de campaña, igual que cualquier otro canal de comunicación disponible en Adobe Campaign. Este canal se ha diseñado únicamente para fines descriptivos, por ejemplo para definir envíos para los que se desea mantener un seguimiento del destinatario de una campaña realizada en una herramienta que no sea Adobe Campaign.
 
 ## Tipos de envío {#types-of-deliveries}
 

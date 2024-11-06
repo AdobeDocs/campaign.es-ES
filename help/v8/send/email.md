@@ -5,10 +5,10 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: cf292ecd7d30862d7d195536ecc5be709fe037b3
+source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 21%
+source-wordcount: '521'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,7 @@ Las entregas de correo electrónico permiten enviar correos electrónicos person
 
 Conozca los pasos clave para crear y configurar una entrega en [esta página](../start/create-message.md).
 
-## Creación de su primer envío de correo electrónico
+## Crear un envío de correo electrónico
 
 Cree correos electrónicos personalizados y relevantes para el contexto que sean coherentes con el resto de la experiencia del cliente.
 
