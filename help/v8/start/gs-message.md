@@ -4,10 +4,10 @@ description: Introducción a los mensajes
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 0ff645a87700c038b78fb4cc45062822d6d97148
+source-git-commit: a7225fb958ad168d89e09445f4fad27e7b6817aa
 workflow-type: tm+mt
-source-wordcount: '1305'
-ht-degree: 89%
+source-wordcount: '1291'
+ht-degree: 88%
 
 ---
 
@@ -25,31 +25,21 @@ Para enviar mensajes, debe crear una entrega. El modo de creación de envíos de
 >
 >Al crear una entrega, debe seleccionar una plantilla. Las plantillas predeterminadas están disponibles para cada canal. Obtenga más información acerca de las plantillas de envío en [esta página](../send/create-templates.md).
 
-### Mensajes de una sola toma {#msg-single}
+1. Mensajes de una sola toma: puede enviar mensajes de una sola toma a una audiencia. Aprenda a enviar su primer mensaje en [esta sección](create-message.md).
 
-Puede enviar mensajes de una sola toma manualmente al destinatario principal. Aprenda a enviar su primer mensaje en [esta sección](create-message.md)
+   ![](assets/send-email.png)
 
-![](assets/send-email.png)
+1. Mensajes en una campaña de marketing: puede enviar mensajes en el contexto de una [campaña de marketing](campaigns.md), definir un proceso de aprobación y enviarlos y realizar un seguimiento de ellos en un panel consolidado. Aprenda en [esta sección](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-### Mensajes en una campaña de marketing {#msg-campaign}
+   ![](assets/deliveries-in-a-campaign.png)
 
-Puede enviar mensajes en el contexto de una [campaña de marketing](campaigns.md), definir un proceso de aprobación y enviarlos y realizar un seguimiento de ellos en un panel consolidado. Aprenda en [esta sección](../../automation/campaigns/marketing-campaign-deliveries.md)
+1. Mensajes en un flujo de trabajo: puede enviar mensajes a través de un [flujo de trabajo](../config/workflows.md) y automatizar los envíos. Aprenda en [esta página](../../automation/workflow/delivery.md).
 
-![](assets/deliveries-in-a-campaign.png)
+   ![](assets/send-in-a-wf.png)
 
-### Mensajes en un flujo de trabajo {#msg-wf}
+1. Mensajes activados: puede [enviar mensajes en Déclencheur](../send/transactional.md) desde un evento. La mensajería transaccional (Centro de mensajes) es el módulo de Campaign diseñado para gestionar mensajes de déclencheur. Los pasos para configurar y enviar mensajes transaccionales se detallan en [esta página](../send/transactional.md)
 
-Puede enviar mensajes a través de un [flujo de trabajo](../config/workflows.md) y automatizar los envíos. Aprenda en [esta página](../../automation/workflow/delivery.md)
-
-![](assets/send-in-a-wf.png)
-
-### Mensajes activados {#msg-trigger}
-
-Puede [almacenar mensajes en Déclencheur](../send/transactional.md) de un evento. La mensajería transaccional (Centro de mensajes) es el módulo de Campaign diseñado para gestionar mensajes de déclencheur.  Obtenga más información acerca de la capacidad de los mensajes transaccionales en [esta sección](../architecture/architecture.md#transac-msg-archi)
-
-Los pasos para configurar y enviar mensajes transaccionales se detallan en [esta página](../send/transactional.md)
-
-## Elija su canal {#gs-channel}
+## Canal de comunicación {#gs-channel}
 
 Adobe Campaign v8 incluye los siguientes canales de envío:
 
@@ -60,7 +50,6 @@ Adobe Campaign v8 incluye los siguientes canales de envío:
 * **Canal de aplicaciones móviles**: los envíos de aplicaciones móviles permiten enviar notificaciones a dispositivos con sistemas iOS y Android. [Más información](#gs-channel-push)
 
 * **Canal de correo directo**: los envíos de correo directo permiten generar un archivo de extracción que contenga datos sobre la población de público destinatario. [Más información](#gs-channel-direct)
-
 
   En [esta sección](#other-channels) se describen otros canales.
 
@@ -119,7 +108,7 @@ Los envíos de tipo “Otro” utilizan una plantilla técnica específica que n
 
 Este canal no tiene un mecanismo específico. Es un canal genérico con su propia opción de enrutamiento de cuenta externa, tipo de plantilla de envío y actividad de flujo de trabajo de campaña, igual que cualquier otro canal de comunicación disponible en Adobe Campaign. Este canal se ha diseñado únicamente para fines descriptivos, por ejemplo para definir envíos para los que se desea mantener un seguimiento del destinatario de una campaña realizada en una herramienta que no sea Adobe Campaign.
 
-## Elija el tipo de envío {#types-of-deliveries}
+## Tipos de envío {#types-of-deliveries}
 
 Existen tres tipos de objetos de entrega en Campaign:
 
@@ -147,7 +136,7 @@ Por ejemplo, si ejecuta este tipo de actividad una vez al mes, acaba teniendo un
 
 Las entregas continuas se crean dentro de flujos de trabajo a través de la [Actividad de entrega continua](../../automation/workflow/continuous-delivery.md).
 
-## Adición de personalización {#personalization}
+## Funciones de Personalization {#personalization}
 
 Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas. [Obtenga más información acerca las funcionalidades de personalización](../send/personalize.md)
 
@@ -158,7 +147,7 @@ Puede hacer lo siguiente:
 * Cree contenido condicional. [Más información](../send/conditions.md)
 
 
-## Envío y seguimiento {#gs-tracking-logs}
+## Seguimiento y monitorización {#gs-tracking-logs}
 
 La monitorización de los envíos una vez enviados es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes. Puede monitorizarlas después de enviar un envío, así como comprender cómo se administran los errores y las cuarentenas.
 
