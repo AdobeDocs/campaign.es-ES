@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 8dffc24ff859ded70ea9c5b9ede39512c1543e74
+source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '787'
 ht-degree: 15%
 
 ---
@@ -23,13 +23,12 @@ ht-degree: 15%
 
 La configuración técnica necesaria para un envío SMS es:
 
-* El enrutamiento: [la cuenta externa de SMPP](smpp-external-account.md#smpp-connection-settings)
-
-* [La ](#sms-tab)
+* La cuenta externa SMPP para el enrutamiento de mensajes. [Más información](smpp-external-account.md#smpp-connection-settings)
+* Configure la pestaña SMS. [Descubra cómo](#sms-tab)
 
 Puede configurar todos estos elementos en una plantilla de envíos para evitar tener que realizar la configuración para cada creación de envíos SMS.
 
-## Configurar la ficha **[!UICONTROL SMS]** {#sms-tab}
+## Configuración de la pestaña SMS {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
@@ -97,25 +96,3 @@ En la tabla se enumeran los parámetros opcionales que se envían con cada mensa
   >
   >Los formatos binarios siempre se codifican en forma de big endian.
 
-## Creación de un envío de SMS {#sms-delivery}
-
-Para diseñar una entrega de SMS nuevo, siga los pasos a continuación:
-
-1. Cree una nueva entrega, por ejemplo, desde el Tablero de entregas o en su carpeta de entregas de **[!UICONTROL Explorer]**.  De forma predeterminada, se denomina &quot;Envío de correo electrónico&quot;.
-
-1. Seleccione la plantilla de envíos que ha creado para sus envíos SMS. [Más información aquí](sms-mid-sourcing.md#sms-delivery-template).
-
-   ![](assets/sms_create.png){zoomable="yes"}
-
-<!-- * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
-* For mid-sourcing infrastructure, -->
-
-1. Cambie el nombre de la entrega en el campo **[!UICONTROL Label]** y agregue información en el campo **[!UICONTROL Delivery code]** y en la lista **[!UICONTROL Nature]** si es necesario para el seguimiento. También puede agregar un(a) **[!UICONTROL Description]** a su entrega.
-
-1. Haga clic en el botón **[!UICONTROL Continue]**. Ahora, tiene todos los ajustes de la plantilla en su envío.
-
-1. Puede comprobar en el botón **[!UICONTROL Properties]** que todo está configurado según sea necesario. [Más información sobre la ficha SMS](#sms-tab)
-
-![](assets/sms_settings.png){zoomable="yes"}
-
-Ahora puedes configurar tu [contenido SMS](sms-content.md).
