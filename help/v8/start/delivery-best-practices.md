@@ -4,7 +4,7 @@ description: Conozca las prácticas recomendadas al diseñar y enviar entregas c
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
 workflow-type: tm+mt
 source-wordcount: '2869'
 ht-degree: 74%
@@ -117,7 +117,7 @@ Para obtener más información acerca de los bloques personalizados, consulte [e
 
 Puede preparar datos de personalización en un flujo de trabajo para mejorar el análisis de preparación de envíos. Esto debe utilizarse especialmente si los datos de personalización proceden de una tabla externa a través del Acceso de datos federado (FDA). Esta opción se describe en [esta sección](../send/personalization-data.md#optimize-personalization)
 
-### Creación de contenido optimizado {#optimize-content}
+### Creación de contenido optimizado {#build-optimized-content}
 
 Al crear sus correos electrónicos, tenga en cuenta las prácticas recomendadas generales siguientes:
 
