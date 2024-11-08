@@ -5,10 +5,10 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 48%
+source-wordcount: '497'
+ht-degree: 49%
 
 ---
 
@@ -41,7 +41,6 @@ Aprenda a crear una audiencia en un flujo de trabajo de campaña en [esta págin
 
 ## Perfiles activos {#active-profiles}
 
-
 Un perfil activo es un perfil con el que el cliente ha intentado comunicarse durante los últimos 12 meses a través de cualquier canal.
 
 Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos. Obtenga más información en [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
@@ -55,17 +54,9 @@ Son de aplicación las siguientes limitaciones y protecciones:
 * Los perfiles segmentados en el contexto del marketing social en X (Twitter) no se tienen en cuenta como perfiles activos.
 * El recuento se basa en la clave principal del destinatario. Como consecuencia, si un perfil está presente en dos tablas de destinatarios diferentes, es posible que se contabilice dos veces como perfil activo.
 
-
 ## Privacidad y consentimiento{#privacy-and-consent}
 
 Adobe Campaign es una potente herramienta para recopilar y procesar un gran volumen de datos, incluida información personal e información confidencial. Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
 
 Obtenga información sobre cómo administrar la privacidad y el consentimiento en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es){target="_blank"}.
 
-**Temas relacionados**
-
-* [Diseñe y ejecute un flujo de trabajo específico de la campaña](../../automation/workflow/campaign-workflows.md){target="_blank"}
-
-* [Aprenda a seleccionar la audiencia de una campaña](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-target.html?lang=es){target="_blank"}
-
-* [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target="_blank"}

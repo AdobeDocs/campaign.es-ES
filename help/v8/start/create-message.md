@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 1bf3c4b2d0c8d9b1bdbc82a9047c52c0d80cd997
+source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 43%
+source-wordcount: '1530'
+ht-degree: 37%
 
 ---
 
@@ -24,7 +24,7 @@ Los pasos clave al crear una entrega de una sola toma son:
 
 1. **Seleccione la población objetivo**. [Más información](#target-population)
 
-A continuación, puede preparar, probar, enviar y supervisar sus mensajes.
+A continuación, puede preparar, probar, enviar y supervisar sus mensajes con Adobe Campaign.
 
 >[!NOTE]
 >
@@ -34,13 +34,14 @@ A continuación, puede preparar, probar, enviar y supervisar sus mensajes.
 
 Para crear una entrega, siga estos pasos:
 
-1. Haga clic en **[!UICONTROL Create]** sobre la lista de envíos. Al crear una nueva entrega, se debe seleccionar el canal de entrega. Para ello, seleccione la plantilla de envío adecuada en la lista desplegable del campo **[!UICONTROL Delivery template]**.
+1. Vaya a la lista de envíos y haga clic en **[!UICONTROL Create]**.
+1. Seleccione el canal de entrega. Para ello, elija la plantilla de envío adecuada en la lista desplegable.
 
    ![](../send/assets/select-the-new-template.png)
 
-   Se proporciona una plantilla integrada para cada canal instalado: correo postal, correo electrónico, teléfono, canal móvil (SMS), X (Twitter), etc. Los canales disponibles en la lista dependen del acuerdo de licencia.
+   Se proporciona una plantilla integrada para cada canal instalado: correo electrónico, teléfono, canales móviles (push/SMS), correo directo, X (Twitter), etc. Los canales disponibles en la lista dependen del acuerdo de licencia.
 
-   Puede crear nuevas plantillas de envío para preconfigurar parámetros específicos que se adapten a sus necesidades. Para obtener más información sobre las plantillas, consulte [esta sección](../send/create-templates.md).
+   Puede crear nuevas plantillas de envío para preconfigurar parámetros específicos que se adapten a sus necesidades.  [Más información](../send/create-templates.md).
 
 1. Introduzca un nombre para la entrega en el campo **[!UICONTROL Label]**.
 
@@ -48,7 +49,7 @@ Para crear una entrega, siga estos pasos:
 
 1. (opcional) Agregue una descripción en el campo **[!UICONTROL Description]**.
 1. (opcional) Seleccione la naturaleza de la entrega en el campo correspondiente. Esta información resulta útil para el seguimiento de envíos: puede filtrarlos en función de este criterio en la lista de envíos o crear consultas utilizando este criterio de selección.
-1. Haga clic en **[!UICONTROL Continue]** para confirmar esta información y mostrar la ventana de configuración de mensajes.
+1. Haga clic en **[!UICONTROL Continue]** para mostrar la ventana de contenido del mensaje.
 
 ## Definición del contenido de envío {#content-of-the-delivery}
 
@@ -126,7 +127,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
    ![](assets/target-remove-criterion.png)
 
-#### Selección de destinatarios externos {#selecting-external-recipients}
+### Selección de destinatarios externos {#selecting-external-recipients}
 
 Puede enviar mensajes a perfiles que no estén almacenados en la base de datos, sino en un archivo externo. Por ejemplo, para enviar una entrega a los destinatarios importados desde un archivo de texto, siga estos pasos:
 
@@ -141,25 +142,31 @@ Puede enviar mensajes a perfiles que no estén almacenados en la base de datos, 
 
 >[!CAUTION]
 >
->Al definir el contenido del mensaje para la entrega por correo electrónico, no incluya el vínculo a la página espejo: no se puede generar en este modo de entrega.
+>Al definir el contenido del mensaje para la entrega por correo electrónico a destinatarios externos, no incluya el vínculo a la página espejo: no se puede generar en este modo de entrega.
 
-#### Definición de la configuración de exclusión {#define-exclusion-settings}
+### Configuración de exclusión {#define-exclusion-settings}
 
-Al definir el destinatario de una entrega, se utiliza la pestaña **[!UICONTROL Exclusions]** para limitar el número de mensajes. Se recomiendan los parámetros predeterminados, pero los ajustes se pueden adaptar según sus necesidades. Sin embargo, estas opciones solo debe modificarlas un usuario experto para evitar errores y un uso incorrecto.
+Al definir la [audiencia de una entrega](#target-population), se usa la pestaña **[!UICONTROL Exclusions]** para limitar el número de mensajes. Se recomiendan los parámetros predeterminados, pero los ajustes se pueden adaptar según sus necesidades. Sin embargo, estas opciones solo debe modificarlas un usuario experto para evitar errores y un uso incorrecto.
 
-Puede elegir excluir las direcciones que han alcanzado un determinado número de errores consecutivos o cuya clasificación de calidad está por debajo del umbral especificado en esta ventana. También puede elegir si desea o no autorizar direcciones no clasificadas para las que no se ha devuelto ningún dato.
+>[!CAUTION]
+>
+>Como usuario experto, en casos de uso específicos, puede cambiar esta configuración, pero Adobe recomienda mantener la configuración predeterminada.
 
-Haga clic en el enlace **[!UICONTROL Edit...]** para modificar la configuración predeterminada.
+Puede excluir las direcciones que han alcanzado un determinado número de errores consecutivos o cuya clasificación de calidad está por debajo del umbral especificado en esta ventana. También puede elegir si desea o no autorizar direcciones no clasificadas para las que no se ha devuelto ningún dato.
+
+Para modificar la configuración predeterminada, haga clic en el vínculo **[!UICONTROL Edit...]**.
 
 ![](assets/target-exclusion-settings.png)
 
-Estas son las opciones disponibles:
++++ Ver las opciones disponibles
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: esta opción está activa de forma predeterminada y elimina las direcciones de correo electrónico duplicadas durante la entrega. La estrategia aplicada puede variar según la forma en que se utilice Adobe Campaign y el tipo de datos de la base de datos. El valor de la opción se puede configurar para cada plantilla de envío.
 * **[!UICONTROL Exclude recipients who no longer want to be contacted]**, es decir, destinatarios cuyas direcciones de correo electrónico estén en una lista de bloqueados (&quot;exclusión&quot;). Esta opción debe permanecer seleccionada para respetar la ética profesional de marketing electrónico.
 * **[!UICONTROL Exclude quarantined recipients]**: esta opción permite excluir del destino cualquier perfil con una dirección en cuarentena. Se recomienda mantener seleccionada esta opción. Obtenga más información acerca de la administración de cuarentena en [esta sección](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** a un número determinado de mensajes. Esta opción permite introducir el número máximo de mensajes a enviar. Si la audiencia de destino supera el número de mensajes indicados, se le aplica una selección aleatoria. Para enviar todos los mensajes, mantenga este valor en &quot;0&quot;.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: esta opción permite enviar varios envíos a destinatarios que cumplan varios criterios de objetivo.
++++
+
 
 ### Selección de los destinatarios de los mensajes de prueba {#select-the-proof-target}
 
