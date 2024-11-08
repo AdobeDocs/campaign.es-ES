@@ -4,7 +4,7 @@ description: Conozca las prácticas recomendadas al diseñar y enviar entregas c
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: b4fad76b43a77909a4ea2c0877527af80027681a
+source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
 workflow-type: tm+mt
 source-wordcount: '2869'
 ht-degree: 74%
@@ -151,7 +151,7 @@ El vínculo de cancelación de suscripción es esencial. Debe ser visible y vál
 
 **Sugerencia**: Debido a que siempre es posible cometer un error humano, compruebe que el vínculo de no participación funciona correctamente antes de cada envío. Por ejemplo, al enviar la prueba, asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que el campo `No longer contact this recipient ` se cambie a `Yes`.
 
-Obtenga información sobre cómo insertar un vínculo de no participación [en esta sección](personalization-blocks.md#personalization-blocks-example).
+Obtenga información sobre cómo insertar un vínculo de no participación [en esta sección](../send/personalization-blocks.md).
 
 ### Tamaño del correo electrónico
 
@@ -328,7 +328,7 @@ Puede definir un proceso de validación completo, que incluye los operadores y g
 
 #### Uso de oleadas
 
-Puede aumentar progresivamente el volumen enviado mediante oleadas. Esto evitará que sus mensajes se marquen como correo no deseado o para limitar el número de mensajes por día. Mediante las oleadas puede dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo. Obtenga más información [en esta sección](../send/configure-and-send.mdsending-using-multiple-waves).
+Puede aumentar progresivamente el volumen enviado mediante oleadas. Esto evitará que sus mensajes se marquen como correo no deseado o para limitar el número de mensajes por día. Mediante las oleadas puede dividir los envíos en varios lotes en lugar de enviar volúmenes altos de mensajes al mismo tiempo. Obtenga más información [en esta sección](../send/configure-and-send.md#sending-using-multiple-waves).
 
 #### Priorización de mensajes
 
