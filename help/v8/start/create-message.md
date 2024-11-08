@@ -5,10 +5,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
 workflow-type: tm+mt
-source-wordcount: '1530'
-ht-degree: 37%
+source-wordcount: '1525'
+ht-degree: 36%
 
 ---
 
@@ -176,15 +176,12 @@ Una prueba es un mensaje específico que le permite probar un mensaje antes de e
 
 Para obtener más información sobre los destinatarios de prueba y el envío, consulte [esta sección](../send/preview-and-proof.md#send-proofs).
 
-![](../send/assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#seeds-and-proofs-video)
-
 
 #### Tutorial en vídeo {#seeds-and-proofs-video}
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
-
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
@@ -200,7 +197,7 @@ Para ello:
 
 >[!IMPORTANT]
 >
->Los dos pasos anteriores DEBEN ejecutarse después de cada modificación del contenido del mensaje.
+>Los dos pasos anteriores a **deben** ejecutarse después de cada modificación en el contenido del mensaje.
 
 
 ## Configuración y envío de la entrega {#configuring-and-sending-the-delivery}
