@@ -4,10 +4,11 @@ description: Conozca las prácticas recomendadas al diseñar y enviar entregas c
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 10af828319569ad9aeeecc809bc213f9608791ac
+exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
+source-git-commit: 61c86c3c9d6dbbabf2d5174b8b7b1721b38280cb
 workflow-type: tm+mt
-source-wordcount: '2869'
-ht-degree: 74%
+source-wordcount: '2890'
+ht-degree: 71%
 
 ---
 
@@ -44,7 +45,7 @@ Obtenga más información sobre cómo iniciar una nueva plataforma en la [Guía 
 Las recomendaciones técnicas se enumeran en [esta sección](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
 
 
-**Sugerencias**
++++ **Lea algunas prácticas recomendadas**
 
 * Si tiene una lista de direcciones no válidas, Adobe recomienda importarlas a la tabla de cuarentenas, a través de **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**.
 
@@ -52,6 +53,9 @@ Las recomendaciones técnicas se enumeran en [esta sección](https://experiencel
 Adobe Campaign administra las direcciones erróneas según el tipo de error devuelto. [Más información sobre las cuarentenas](../send/quarantines.md)
 
 * Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
+
++++
+
 
 
 ### Mecanismo de inclusión doble {#double-opt-in}
@@ -74,6 +78,8 @@ Asegúrese de aplicar las siguientes directrices:
 * Una dirección mal formada puede resultar en que el servidor receptor la rechace. Debe asegurarse de que se proporciona una dirección correcta.
 * La dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado en él.
 * Adobe recomienda crear cuentas de correo electrónico que se correspondan con las direcciones especificadas para envíos y respuestas. Consulte con el administrador del sistema de mensajería.
+
++++ **Configurar direcciones en la interfaz de usuario de Campaign**
 
 Para configurar direcciones en la interfaz de Campaign, siga los pasos a continuación:
 
@@ -119,7 +125,9 @@ Puede preparar datos de personalización en un flujo de trabajo para mejorar el 
 
 ### Creación de contenido optimizado {#build-optimized-content}
 
-Al crear sus correos electrónicos, tenga en cuenta las prácticas recomendadas generales siguientes:
+Al crear sus correos electrónicos, aplique las prácticas recomendadas generales para el contenido del correo electrónico.
+
++++ **Lea algunas prácticas recomendadas**
 
 * El correo electrónico debe tener un diseño sencillo
 
@@ -131,15 +139,24 @@ Al crear sus correos electrónicos, tenga en cuenta las prácticas recomendadas 
 
 * Codifique caracteres especiales
 
++++
+
+
 ### Línea de asunto
 
-Cree una [línea de asunto ](../send/personalization-fields.md#personalization-fields-uc) para mejorar las tasas de apertura:
+Trabaje en la [línea de asunto](../send/personalization-fields.md#personalization-fields-uc) del correo electrónico para mejorar las tasas de apertura.
+
+
++++ **Lea algunas prácticas recomendadas**
+
 
 * Evite los asuntos demasiado largos. Utilice un máximo de 50 caracteres
 
 * Evite utilizar palabras de forma repetida, tales como “gratis” u “oferta”, que podrían considerarse como spam
 
 * Evite mayúsculas y caracteres especiales como &quot;!&quot;, &quot;£&quot;, &quot;€&quot; y &quot;$&quot;
+
++++
 
 ### Página espejo
 
@@ -149,15 +166,20 @@ Incluya siempre un vínculo de página espejo. La posición preferida es la part
 
 El vínculo de cancelación de suscripción es esencial. Debe ser visible y válido, y el formulario debe ser funcional. De manera predeterminada, cuando se analiza el mensaje, una regla de tipología **[!UICONTROL Unsubscription link approval]** [integrada](../../automation/campaign-opt/control-rules.md) comprueba si se ha incluido un vínculo de no participación y genera una advertencia si falta.
 
-**Sugerencia**: Debido a que siempre es posible cometer un error humano, compruebe que el vínculo de no participación funciona correctamente antes de cada envío. Por ejemplo, al enviar la prueba, asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que el campo `No longer contact this recipient ` se cambie a `Yes`.
+Obtenga información sobre cómo insertar un vínculo de exclusión [en esta sección](../send/personalization-blocks.md).
 
-Obtenga información sobre cómo insertar un vínculo de no participación [en esta sección](../send/personalization-blocks.md).
++++ **Aplicar esta práctica recomendada**
+
+Dado que siempre es posible cometer un error humano, compruebe que el vínculo de no participación funciona correctamente antes de cada envío. Por ejemplo, al enviar la prueba, asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que el campo `No longer contact this recipient ` se cambie a `Yes`.
+
++++
 
 ### Tamaño del correo electrónico
 
 Para evitar problemas de rendimiento o de entrega, el tamaño máximo recomendado de un correo electrónico es de unos **35 KB**. Para comprobar el tamaño del mensaje, examine la ficha **[!UICONTROL Preview]** y elija un perfil de prueba. Una vez generado, el tamaño del mensaje se muestra en la esquina superior derecha.
 
-Para mantener el correo electrónico por debajo del límite, haga lo siguiente:
+
++++ **Lea algunas prácticas recomendadas**
 
 * Eliminar estilos redundantes o que no utilice
 
@@ -167,19 +189,22 @@ Para mantener el correo electrónico por debajo del límite, haga lo siguiente:
 
 Asegúrese de probar los cambios antes del envío final.
 
++++
+
+
 ### Longitud del SMS
 
 De forma predeterminada, el número de caracteres de un SMS cumple con los estándares del GSM (Sistema Global de Comunicaciones Móviles). Los mensajes SMS con codificación GSM están limitados a 160 caracteres, o a 153 caracteres por SMS en el caso de los mensajes enviados en varias partes.
 
 La transliteración consiste en reemplazar un carácter de un SMS por otro cuando el estándar GSM no tiene en cuenta dicho carácter. Tenga en cuenta que la inserción de campos de personalización en el contenido del mensaje SMS puede introducir caracteres que no se tienen en cuenta con la codificación GSM. Puede autorizar la transliteración de caracteres marcando la casilla correspondiente en la pestaña de la configuración del canal SMPP del **[!UICONTROL External account]** correspondiente.
 
-**Sugerencias**
++++ **Lea algunas prácticas recomendadas**
 
 * Para mantener todos los caracteres en sus mensajes SMS tal como están, para no alterar nombres adecuados por ejemplo, no habilites la transliteración.
 
-* Sin embargo, si sus mensajes SMS contienen muchos caracteres que no se tienen en cuenta en el estándar GSM, habilite la transliteración para limitar los costes de envío de mensajes.
+* Sin embargo, si sus mensajes SMS contienen muchos caracteres que no se tienen en cuenta en el estándar GSM, habilite la transliteración para limitar los costes de envío de mensajes. Obtenga más información [en esta sección](../send/sms/smpp-external-account.md#smpp-transliteration).
 
-Obtenga más información [en esta sección](../send/sms/smpp-external-account.md#smpp-transliteration).
++++
 
 ### Prevención de envío de archivos adjuntos
 
@@ -385,8 +410,7 @@ Desde el panel de entregas de Campaign, puede comprobar los mensajes procesados 
 
 Para conocer mejor el comportamiento de sus destinatarios, puede rastrear cómo reaccionan a un envío: recepción, apertura, clics en vínculos, suscripciones, etc. En Campaign, esta información se muestra en la pestaña **Tracking** de los destinatarios a quienes se realizó la entrega y en la pestaña Tracking de la entrega.
 
-**Sugerencia**: el seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
+El seguimiento de mensajes está activado de forma predeterminada. Para configurar direcciones URL, seleccione la opción Mostrar direcciones URL en la sección inferior del asistente de envíos. Por cada dirección URL del mensaje, puede elegir si desea activar el seguimiento.
 
 
 [Obtenga más información acerca de las funcionalidades de seguimiento en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/tracking-messages/how-to-configure-tracked-links.html#sending-messages){target="_blank"}
-
