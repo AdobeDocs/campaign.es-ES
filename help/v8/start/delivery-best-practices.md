@@ -1,20 +1,20 @@
 ---
 title: Prácticas recomendadas de entregas
 description: Conozca las prácticas recomendadas al diseñar y enviar entregas con Adobe Campaign
-feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
+feature: Email, Push, SMS, Direct Mail
 role: User
 level: Beginner
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 58d88498c8472381a43d735b4dfb2a802a293952
+source-git-commit: 768ebf4b350da61f0076eb9e43a16246be3b2628
 workflow-type: tm+mt
-source-wordcount: '2934'
+source-wordcount: '2936'
 ht-degree: 66%
 
 ---
 
 # Prácticas recomendadas de entregas {#delivery-best-practices}
 
-Lea las prácticas recomendadas con las funciones de envío de Campaign.
+Lea las siguientes prácticas recomendadas con las funciones de envío de Campaign.
 
 ## Optimización de las envíos {#optimize-delivery}
 
