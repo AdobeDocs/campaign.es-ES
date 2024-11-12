@@ -6,9 +6,9 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
+source-git-commit: 9f19d5c9836c21cea7b4b55241f828e295831339
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '989'
 ht-degree: 51%
 
 ---
@@ -121,7 +121,7 @@ Seleccione la plantilla de envíos que va a utilizar y haga clic en **[!UICONTRO
 
 ### Ejecución de una plantilla {#execute-a-template}
 
-Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero una entrega. La plantilla de envío se puede ejecutar manualmente, como se detalla a continuación, o activarse mediante un evento (ejecutado a una hora determinada, cuando un archivo está disponible en el servidor, etc.), como se explica en [esta sección](../../automation/workflow/deliveries.md).
+Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero una entrega. La plantilla de envío se puede ejecutar manualmente, como se detalla a continuación, o activarse mediante un evento (ejecutado a una hora determinada, cuando un archivo está disponible en el servidor, etc.), como se explica en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Para ejecutar una plantilla manualmente, siga estos pasos:
 
