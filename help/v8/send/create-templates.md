@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
+source-git-commit: 5054dd1352972b402d54c1b51cfee1fb41ff4d1c
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 55%
+source-wordcount: '988'
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ Una plantilla puede incluir ajustes de configuración parciales o completos, com
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#delivery-template-video)
 
-En Adobe Campaign, puede trabajar con dos tipos de plantillas:
+Las plantillas de envío se almacenan en la carpeta **[!UICONTROL Resources > Templates > Delivery templates]** del explorador. En Adobe Campaign, puede trabajar con dos tipos de plantillas:
 
 1. Plantillas de envío **incorporadas** de Adobe Campaign: las plantillas integradas están disponibles para cada canal. NO DEBEN modificarse ni eliminarse. Incluyen una configuración básica para cada canal de envío. Como administrador, puede establecer valores predeterminados o restringir determinadas funciones a los usuarios finales, como modificar los parámetros de seguimiento, las direcciones de correo electrónico del remitente, etc. Las plantillas integradas aparecen en negrita en la lista de plantillas.
 
@@ -121,18 +121,19 @@ Seleccione la plantilla de envíos que va a utilizar y haga clic en **[!UICONTRO
 
 ### Ejecución de una plantilla {#execute-a-template}
 
-Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero un envío.
+Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero una entrega. La plantilla de envío se puede ejecutar manualmente, como se detalla a continuación, o activarse mediante un evento (ejecutado a una hora determinada, cuando un archivo está disponible en el servidor, etc.), como se explica en [esta sección](../../automation/workflow/deliveries.md).
 
-Para ello, seleccione la plantilla que desea ejecutar y haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions>Execute the delivery template...]**.
+Para ejecutar una plantilla manualmente, siga estos pasos:
 
-También puede usar **[!UICONTROL File>Actions>Execute the delivery template...]**.
+1. Seleccione la plantilla que desea ejecutar y haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Actions>Execute the delivery template...]**.
 
-![](assets/execute-delivery-template.png)
+   También puede usar **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
-Introduzca los parámetros de envío y haga clic en **[!UICONTROL Send]**.
+   ![](assets/execute-delivery-template.png)
+
+1. Introduzca los parámetros de envío y haga clic en **[!UICONTROL Send]**.
 
 Esta acción genera una entrega en la carpeta asociada a la plantilla. El nombre de este envío es el nombre de la plantilla de envío desde la que se creó.
-
 
 ## Tutoriales en vídeo {#delivery-template-video}
 
