@@ -6,20 +6,22 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: acb559c74aea3f59c05792b7596d0f85ff05047c
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 64%
+source-wordcount: '939'
+ht-degree: 55%
 
 ---
 
 # Trabajar con plantillas de envío {#work-with-delivery-template}
 
-Cada entrega se crea en función de una plantilla. Hay plantillas integradas disponibles para cada canal. Puede personalizarlos para aplicar la misma configuración a un conjunto de envíos.
+## Introducción a las plantillas de entrega
 
-Una plantilla incluye:
+Cada entrega se crea en función de una plantilla. Una plantilla es una configuración que se puede reutilizar para facilitar y estandarizar la implementación. Puede utilizar una plantilla integrada o personalizada.
 
-* Reglas de tipología
+Una plantilla puede incluir ajustes de configuración parciales o completos, como:
+
+* [Reglas de tipología](../../automation/campaign-opt/campaign-typologies.md)
 * Direcciones de remitente y respuesta
 * [bloques de personalización](../send/personalization-blocks.md) básicos
 * Vínculos a [páginas espejo](../send/mirror-page.md) y vínculos de baja
@@ -27,6 +29,17 @@ Una plantilla incluye:
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
 ![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#delivery-template-video)
+
+En Adobe Campaign, puede trabajar con dos tipos de plantillas:
+
+1. Plantillas de envío **incorporadas** de Adobe Campaign: las plantillas integradas están disponibles para cada canal. NO DEBEN modificarse ni eliminarse. Incluyen una configuración básica para cada canal de envío. Como administrador, puede establecer valores predeterminados o restringir determinadas funciones a los usuarios finales, como modificar los parámetros de seguimiento, las direcciones de correo electrónico del remitente, etc. Las plantillas integradas aparecen en negrita en la lista de plantillas.
+
+1. **Plantillas de envío personalizadas**: como administrador de Adobe Campaign, puede crear nuevas plantillas de envío. Una práctica recomendada es duplicar y actualizar una plantilla integrada en lugar de crear una plantilla desde cero. Por ejemplo, se puede configurar una plantilla de envíos por correo electrónico. Cuando los usuarios creen un envío a partir de esta plantilla, solo tendrán que introducir el texto o el contenido del HTML. Todas las demás configuraciones ya están definidas.
+
+>[!NOTE]
+>
+>Las plantillas disponibles dependen de los derechos de acceso, de la configuración de la instancia y del contexto. Por ejemplo, al crear un servicio informativo, puede vincular una plantilla de envío a los mensajes de confirmación: así solo puede acceder a las plantillas cuyo destino de mapeo sea la asignación de suscripción. Otras plantillas no son visibles en este contexto. Para obtener más información sobre esto, consulte [Selección de una asignación de destino](../audiences/target-mappings.md) y [Servicios y suscripciones](../start/subscriptions.md).
+
 
 ## Creación de una plantilla {#create-a-delivery-template}
 
