@@ -6,10 +6,10 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
-source-git-commit: 12de29e15d660cd5a40cda059fc19e45311fe312
+source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '989'
-ht-degree: 51%
+source-wordcount: '990'
+ht-degree: 50%
 
 ---
 
@@ -38,7 +38,7 @@ Las plantillas de envío se almacenan en la carpeta **[!UICONTROL Resources > Te
 
 >[!NOTE]
 >
->Las plantillas disponibles dependen de los derechos de acceso, de la configuración de la instancia y del contexto. Por ejemplo, al crear un servicio informativo, puede vincular una plantilla de envío a los mensajes de confirmación: así solo puede acceder a las plantillas cuyo destino de mapeo sea la asignación de suscripción. Otras plantillas no son visibles en este contexto. Para obtener más información sobre esto, consulte [Selección de una asignación de destino](../audiences/target-mappings.md) y [Servicios y suscripciones](../start/subscriptions.md).
+>Las plantillas disponibles dependen de los derechos de acceso, de la configuración de la instancia y del contexto. Por ejemplo, al crear un servicio informativo, puede vincular una plantilla de envío a los mensajes de confirmación: así solo puede acceder a las plantillas cuyo destino de mapeo sea la asignación de suscripción. Otras plantillas no son visibles en este contexto. Para obtener más información, consulte [Trabajar con asignaciones de destino](../audiences/target-mappings.md) y [Administrar suscripciones y bajas](../start/subscriptions.md).
 
 
 ## Creación de una plantilla {#create-a-delivery-template}
