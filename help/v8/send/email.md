@@ -5,16 +5,16 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 22%
+source-wordcount: '528'
+ht-degree: 21%
 
 ---
 
 # Diseño y envío de correos electrónicos
 
-Las entregas de correo electrónico permiten enviar correos electrónicos personalizados a la población objetivo. [Más información](../send/send.md)
+Con Adobe Campaign, cree envíos de correo electrónico para enviar correos electrónicos personalizados a la población objetivo. [Más información](../send/send.md)
 
 Conozca los pasos clave para crear y configurar una entrega en [esta página](../start/create-message.md).
 
@@ -85,15 +85,16 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
 Su primer envío de correo electrónico está listo. Ahora debe definir la audiencia, validar la entrega y enviarlo.
 
-Obtenga información sobre cómo importar contenido de correo electrónico en este [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
+Aprenda a crear un flujo de trabajo para importar un contenido de correo electrónico en este [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
-Obtenga más información en las siguientes secciones:
-
-<!--[Design an email in Campaign]-->
-* [Creación y uso de una plantilla de correo electrónico](../send/create-templates.md)
-* [Seleccione la audiencia del correo electrónico](../audiences/gs-audiences.md)
-* [Validación de una entrega y envío de pruebas](preview-and-proof.md)
-* [Configuración y envío de la entrega](configure-and-send.md)
+>[!MORELIKETHIS]
+>
+>* [Crear un envío](../start/create-message.md)
+>* [Crear y usar una plantilla de correo electrónico](create-templates.md)
+>* [Seleccione la audiencia de su correo electrónico](../audiences/gs-audiences.md)
+>* [Validar una entrega y enviar pruebas](preview-and-proof.md)
+>* [Configurar y realizar la entrega](configure-and-send.md)
+>* [Prácticas recomendadas sobre entregas](../start/delivery-best-practices.md)
 
 ## Prueba y validación de correos electrónicos
 
