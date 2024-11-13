@@ -5,16 +5,16 @@ feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 55b752713a29c035680dd39e42422b1743e15269
+source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1523'
 ht-degree: 36%
 
 ---
 
 # Creación de la primera entrega {#create-a-msg}
 
-En esta página, aprenderá a crear una entrega única con una sola toma. Puede crear otros tipos de envíos para abordar los casos de uso. Obtenga más información acerca de los diferentes tipos de envíos y cómo crearlos en [esta página](gs-message.md).
+En esta página, aprenda a crear una entrega única con una sola toma. Puede crear otros tipos de envíos para crear sus casos de uso. Obtenga más información acerca de los diferentes tipos de envíos y cómo crearlos en [esta página](gs-message.md).
 
 Los pasos clave al crear una entrega de una sola toma son:
 
