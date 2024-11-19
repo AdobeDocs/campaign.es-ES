@@ -5,10 +5,10 @@ description: Obtenga más información sobre los flujos de trabajo técnicos dis
 feature: Workflows
 role: User, Admin
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: d4e28ddf6081881f02042416aa8214761ea42be9
+source-git-commit: 4cb825c1899243e72a66b9dea2e56c45dc466fde
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 91%
+source-wordcount: '1799'
+ht-degree: 84%
 
 ---
 
@@ -63,6 +63,7 @@ Aprenda a monitorizar los flujos de trabajo técnicos en esta [sección dedicada
 | **Procesos de marketing distribuido** (centralLocalMgt) | Marketing central/local (Marketing distribuido) | Este flujo de trabajo comienza con el proceso vinculado al uso del módulo de marketing distribuido. Inicia la creación de las campañas locales y gestiona las notificaciones vinculadas a los pedidos y a la disponibilidad del paquete de Campaign. |
 | **Depuración de eventos** (webAnalyticsPurgeWebEvents) | Conectores de análisis web | Este flujo de trabajo permite eliminar todos los eventos del campo de base de datos según el periodo configurado en el campo Lifespan. |
 | **Exportar audiencias a Adobe Experience Cloud** (exportSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo exporta audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. |
+| **ffdaUnsubscribe** | Instalado de forma predeterminada | Este flujo de trabajo administra las cancelaciones de suscripción recibidas como correos de devolución (mediante el uso del método List-Unsubscribe de `<mailto>`). Se ejecuta a diario, cada 1 h, solo en instancias de marketing con una implementación empresarial (FDAC).<br/><br/>El flujo de trabajo comprueba los broadlogs de un intervalo de tiempo determinado (hora de último procesamiento y hora actual) que el módulo inMail ha marcado como rechazos de baja (marca establecida en la columna iFlags de la tabla NmsBroadLog) y procesa una cancelación de suscripción en función de si el servicio del broadlog está establecido o no:<ul><li>Incluir en la lista de bloqueados Si serviceId es 0 (no se ha definido), el destinatario se encuentra.</li><li>Si serviceId no es 0 (vinculado a un servicio existente), se da de baja al destinatario de ese servicio.</li></ul><br/>Nota: este flujo de trabajo solo gestiona las cancelaciones de suscripción de devolución; las cancelaciones de suscripción realizadas mediante el vínculo de exclusión y la cancelación de suscripción con un clic (método de URL) se administran por separado fuera de este flujo de trabajo. |
 | **Previsión**(previsión) | Entrega | Este flujo de trabajo analiza las entregadas guardadas en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada. |
 | **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Obtenga más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md). |
 | **Identificación de contactos convertidos** (webAnalyticsFindConverted) | Conectores de análisis web | Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en el reporte de eficiencia de remarketing (consulte esta página). |
