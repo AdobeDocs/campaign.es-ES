@@ -6,15 +6,15 @@ role: User
 level: Beginner
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1523'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Creación de su primer envío {#create-a-msg}
 
-En esta página, aprenda a crear una entrega única con una sola toma. Puede crear otros tipos de envíos para crear sus casos de uso. Obtenga más información sobre los diferentes tipos de envíos y cómo crearlos en [esta página](gs-message.md).
+En esta página, aprenderá a crear un envío único con un solo paso. Podrá crear otros tipos de envíos para crear sus casos de uso. Obtenga más información sobre los diferentes tipos de envíos y cómo crearlos en [esta página](gs-message.md).
 
 Los pasos clave a la hora de crear un envío con un solo paso son:
 
