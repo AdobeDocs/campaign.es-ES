@@ -5,10 +5,10 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows
 role: User, Data Engineer
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: 28742db06b9ca78a4e952fcb0e066aa5ec344416
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 96%
+source-wordcount: '257'
+ht-degree: 86%
 
 ---
 
@@ -40,7 +40,7 @@ Un **envío recurrente** creará una nueva instancia de envío cada vez que se e
 
 ![Entrega recurrente](assets/delivery_recurring.jpg)
 
-Si desea detener la ejecución de una entrega recurrente, debe cancelar completamente la campaña o detener el flujo de trabajo que la ejecuta. Al detener la entrega desde el panel de Campaign, solo se detendrá la ocurrencia de la entrega: las siguientes instancias de la entrega recurrente se seguirán creando en cada ejecución del flujo de trabajo.
+Si desea detener la ejecución de una entrega recurrente, debe cancelar completamente la campaña o detener el flujo de trabajo que la ejecuta. Al detener la entrega desde el panel de Campaign, solo se detiene la ocurrencia de la entrega: las siguientes instancias de la entrega recurrente se seguirán creando en cada ejecución del flujo de trabajo.
 
 >[!NOTE]
 >

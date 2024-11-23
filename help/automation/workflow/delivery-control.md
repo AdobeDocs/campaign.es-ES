@@ -5,7 +5,7 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows
 role: User
 exl-id: 09fe638d-5e1c-49d1-9196-6300c1e56703
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
 source-wordcount: '164'
 ht-degree: 100%
@@ -13,8 +13,6 @@ ht-degree: 100%
 ---
 
 # Control de entregas{#delivery-control}
-
-
 
 Una acción del tipo **Delivery control** permite iniciar, pausar o detener una entrega.
 
@@ -38,4 +36,4 @@ Estas son las opciones disponibles:
 
 * deliveryId
 
-Identificador de envío, si la acción seleccionada es **[!UICONTROL Specified in the transition]**.
+  Identificador de envío, si la acción seleccionada es **[!UICONTROL Specified in the transition]**.

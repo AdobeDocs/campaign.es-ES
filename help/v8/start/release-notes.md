@@ -3,21 +3,16 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: fb7abba9009591a2757c07f584c0a7c59c6eb01a
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+workflow-type: tm+mt
+source-wordcount: '422'
+ht-degree: 97%
 
 ---
 
 # Últimas versiones {#latest-release}
 
-Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Adobe recomienda encarecidamente a todos sus clientes que actualicen a la versión más reciente. Esta página lista las nuevas funciones, mejoras y correcciones que se proporcionan con las últimas versiones de Campaign v8 (Console). Obtenga más información sobre las versiones y actualizaciones de Campaign en [esta página](upgrades.md).
-
-Como usuario de Cloud Services administrados, su instancia se actualiza en Adobe con cada nueva versión. Adobe se pondrá en contacto con usted y actualizará sus entornos. La consola cliente de Campaign **debe actualizarse a la misma versión** como servidores de Campaign. Obtenga información sobre cómo actualizar la consola del cliente en [esta página](../start/connect.md#upgrade-ac-console).
-
-Además, como cliente, asegúrese de que utiliza la última versión compatible de los sistemas que se enumeran en la [Matriz de compatibilidad](compatibility-matrix.md).
-
+Esta página lista las nuevas funciones, mejoras y correcciones que se proporcionan con las últimas versiones de Campaign v8 (Console). Obtenga más información acerca de las versiones, actualizaciones y publicaciones de Campaign en [esta página](upgrades.md).
 
 ## Versión 8.7.2 {#release-8-7-2}
 

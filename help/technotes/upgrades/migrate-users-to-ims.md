@@ -2,9 +2,9 @@
 title: Migración de los operadores de Campaign a Adobe Identity Management System (IMS)
 description: Obtenga información sobre cómo migrar operadores de Campaign a Adobe Identity Management System (IMS)
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1343'
 ht-degree: 1%
 
 ---
@@ -19,11 +19,11 @@ Este artículo detalla los pasos necesarios para migrar un operador técnico a u
 
 ## ¿Qué ha cambiado?{#move-to-ims-changes}
 
-Con Campaign v8, todos los usuarios normales ya deben conectarse a la consola del cliente de Adobe Campaign con su Adobe ID, a través del Sistema Identity Management de Adobe (IMS). Sin embargo, con algunas configuraciones anteriores, las conexiones de usuario y contraseña seguían estando disponibles. **Ya no se permitirá esto a partir de la versión 8.6 de Campaign.**
+Con Campaign v8, todos los usuarios normales ya deben conectarse a la consola del cliente de Adobe Campaign con su Adobe ID, a través del Sistema Identity Management de Adobe (IMS). Sin embargo, con algunas configuraciones anteriores, las conexiones de usuario y contraseña seguían estando disponibles. **Ya no se permite esto a partir de la versión 8.6 de Campaign.**
 
 Además, como parte del esfuerzo por reforzar la seguridad y el proceso de autenticación, la aplicación cliente de Adobe Campaign ahora llama a las API de Campaign directamente mediante el token de cuenta técnica de IMS. La migración para operadores técnicos se detalla en un artículo dedicado, disponible en [esta página](ims-migration.md).
 
-Este cambio es aplicable a partir de la versión 8.5.2 de Campaign y será **obligatorio** a partir de la versión 8.6 de Campaign.
+Este cambio es aplicable a partir de Campaign v8.5.2 y es **obligatorio** a partir de Campaign v8.6.
 
 ## ¿Se ha visto afectado?{#migrate-ims-impacts}
 
