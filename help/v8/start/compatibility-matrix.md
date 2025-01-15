@@ -5,10 +5,10 @@ feature: Release Notes
 role: Admin
 level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
-source-git-commit: c225b3ee5b356d98d6a5e3bb9bd1cb0feae0300a
+source-git-commit: 5b649e17f464d09124064f61712856d9301fc6d6
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 99%
 
 ---
 
@@ -53,7 +53,7 @@ A continuación, se enumeran las bases de datos externas compatibles con el mód
 
 * **[!DNL Amazon Redshift]**
 * **[!DNL Azure Synapse]**, a partir de la versión 8.5 de Campaign
-* **[!DNL Databricks]**, a partir de la versión 8.7 de Campaign
+* **[!DNL Databricks]**, a partir de la versión 8.6.4 / 8.7 de Campaign
 * **[!DNL Google Big Query]**
 * **[!DNL Snowflake]**
 * **[!DNL Vertica]**

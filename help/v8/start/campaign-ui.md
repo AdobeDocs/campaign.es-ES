@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 87426a5924e1044faf212631ba868753ae43fad6
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1029'
 ht-degree: 13%
 
 ---
@@ -106,6 +106,10 @@ Esta área de trabajo permite acceder al árbol del Explorador para examinar tod
 Como usuario de la consola del cliente de Campaign v8, a partir de la versión v8.6.1, ahora tiene acceso a un entorno web, disponible a través de la interfaz de usuario central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
 
 ![Página principal de la interfaz de usuario web de Adobe Campaign](assets/ac-web-home.png)
+
+>[!AVAILABILITY]
+>La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+>
 
 Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}.
 
