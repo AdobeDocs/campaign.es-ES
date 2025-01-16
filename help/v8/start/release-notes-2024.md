@@ -1,12 +1,12 @@
 ---
-title: Notas de la versión de Campaign v8 (consola) 2023
-description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2023
+title: Notas de la versión de Campaign v8 (consola) 2024
+description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2024
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: 3bf433f3125183001d9f2a02a6a91011de1aa6ad
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 92%
+source-wordcount: '1191'
+ht-degree: 90%
 
 ---
 
@@ -18,36 +18,11 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 **En esta página**
 
-* Campaign v8.7: [Versión 8.7.1](#release-8-7-1) | [Versión 8.7.2](#release-8-7-2)
+* Campaign v8.7: [Versión 8.7.1](#release-8-7-1)
 * Campaign v8.6: [Versión 8.6.1](#release-8-6-1) | [Versión 8.6.2](#release-8-6-2) | [Versión 8.6.3](#release-8-6-3)
 * Campaign v8.5 - [Versión 8.5.3](#release-8-5-3)
 
 >[!ENDSHADEBOX]
-
-
-## Versión 8.7.2 {#release-8-7-2}
-
-_3 de septiembre de 2024_
-
->[!AVAILABILITY]
->
->Esta versión está en **Disponibilidad limitada** (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
->
->Como usuario Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en la [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
-
-### Nuevas funciones {#new-8-7-2}
-
-* **Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad para entornos que realizan la transición desde Adobe Campaign Standard. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y ampliado. [Más información](../send/sms/sms.md).
-
-* **Notificación push enriquecida (GA)**: ahora puede enviar notificaciones push enriquecidas. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. Con esta versión, ya está disponible un conjunto de plantillas para notificaciones push enriquecidas para sus aplicaciones de iOS y Android. [Más información](../send/rich-push-android.md).
-
-* **Promoción de la marca**: las opciones de promoción de la marca ya están disponibles para todos los canales, incluidos SMS y correo directo. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/branding/branding-gs.html?lang=es){target="_blank"}
-
-### Correcciones {#fixes-8-7-2}
-
-En esta versión se han solucionado los siguientes problemas:
-
-NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO-77014, NEO-77795, NEO-78843 y NEO-79328.
 
 
 
