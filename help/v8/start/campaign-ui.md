@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 87426a5924e1044faf212631ba868753ae43fad6
+source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 13%
+source-wordcount: '1055'
+ht-degree: 12%
 
 ---
 
@@ -25,6 +25,11 @@ Puede acceder a Adobe Campaign a través de su consola de cliente o de su interf
   Aprenda a instalar y configurar la consola del cliente de Campaign en [esta sección](../start/connect.md).
 
 * **Interfaz de usuario web**: Como usuario de Campaign v8, a partir de la versión v8.6.1, ahora tendrá acceso a un entorno web, disponible a través de la interfaz de usuario central de Adobe Experience Cloud. A continuación, puede conectarse a Adobe Campaign desde un explorador web. Esta nueva interfaz le permite crear, administrar y ejecutar acciones de marketing clave. Sin embargo, no todas las funcionalidades de Campaign están disponibles. [Más información](#ac-web-ui).
+
+  >[!AVAILABILITY]
+  >
+  >La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+  >
 
 * **Acceso web**: Las funcionalidades de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web, mediante una interfaz de usuario de HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  Obtenga más información acerca de Campaign Web Access [en esta sección](../start/connect.md#web-access).
 
@@ -108,6 +113,7 @@ Como usuario de la consola del cliente de Campaign v8, a partir de la versión v
 ![Página principal de la interfaz de usuario web de Adobe Campaign](assets/ac-web-home.png)
 
 >[!AVAILABILITY]
+>
 >La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 >
 
