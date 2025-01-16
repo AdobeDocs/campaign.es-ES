@@ -4,16 +4,14 @@ title: Propiedades del flujo de trabajo
 description: Descubra más información sobre las propiedades del flujo de trabajo de la campaña
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 63b7eaba3ea7b580d9b6c3c0e0c015c057539aa8
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 94%
+source-wordcount: '628'
+ht-degree: 82%
 
 ---
 
 # Propiedades del flujo de trabajo{#workflow-properties}
-
-
 
 ## Pestaña Ejecución {#execution-tab}
 
@@ -54,6 +52,16 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 * **[!UICONTROL Execute in the engine]**
 
   Esta opción solo puede utilizarse para tareas de depuración, nunca de producción. Cuando está activada, el flujo de trabajo tiene prioridad y el resto de flujos de trabajo se detienen hasta que este haya terminado.
+
+* **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
+
+  Esta opción fuerza a los flujos de trabajo a reiniciarse automáticamente después de que se produzca un error. Cuando está activado, el reinicio comprueba cada 30 segundos el estado del flujo de trabajo y lo reinicia cuando sea necesario. Para ajustar el intervalo de 30 segundos, puede crear la opción técnica `XtkWorkflow_WatchdogTimerTimeout` y utilizar un tipo de datos de entero para especificar el retraso deseado.
+
+  >[!NOTE]
+  >
+  >Esta opción está dirigida a usuarios avanzados y solo debe habilitarse para **flujos de trabajo técnicos**.
+  >
+  >Está habilitado de manera predeterminada para los flujos de trabajo de replicación centralizados disponibles con el paquete `fullFdaMkt`.
 
 ### Administración de errores {#error-management}
 

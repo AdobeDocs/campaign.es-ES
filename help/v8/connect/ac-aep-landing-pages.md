@@ -5,7 +5,7 @@ feature: Experience Platform Integration
 role: Data Engineer
 level: Beginner
 exl-id: 565a1c8b-1930-4b43-bc11-ae517df077d6
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 02d7909c409bd25cfa3cc7aad189247ce7b5176e
 workflow-type: tm+mt
 source-wordcount: '990'
 ht-degree: 1%
@@ -121,7 +121,7 @@ setOption("IMS_CLIENT_API_KEY", cryptString('CLIENT ID'));
 
 Ahora que las opciones de autenticación están configuradas en Campaign, debe crear códigos JavaScript personalizados para permitir la sincronización de datos entre Campaign y Adobe Experience Platform desde la página de aterrizaje.
 
-## Añadir opciones en la ejecución del flujo de trabajo {#javacript}
+## Añadir opciones en la ejecución del flujo de trabajo {#javascript}
 
 Para permitir la sincronización de datos entre páginas de aterrizaje y Adobe Experience Platform, se deben agregar códigos JavaScript personalizados a Adobe Campaign. Siga estos pasos:
 
