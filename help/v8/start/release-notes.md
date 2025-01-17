@@ -3,10 +3,10 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: b83222774b026348ae70f41a8193f88856af99a9
+source-git-commit: 0c11cdd3c0b623333e6a7cff66c734f18e3d3985
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 55%
+source-wordcount: '556'
+ht-degree: 51%
 
 ---
 
@@ -42,7 +42,7 @@ Databricks ahora se admite como base de datos externa con acceso de datos federa
 
 En esta versión se han solucionado los siguientes problemas:
 
-NEO-77452, NEO-81127, NEO-81209, NEO-80243, NEO-80314, NEO-81223, NEO-81287, NEO-81290, NEO-81312, NEO-81512, NEO-81520, NEO-81566, NEO-81704, NEO-83096, NEO-83081.
+NEO-48232, NEO-67814, NEO-71388, NEO-74855, NEO-75643, NEO-75962, NEO-76132, NEO-76958, NEO-76986, NEO-77162, NEO-77452, NEO-78946, NEO-79373, NEO-81127, NEO-80314, NEO-81209, NEO-81312, NEO-81223, NEO-81287, NEO-81290, NEO-81512, NEO-O, NEO-81520, NEO-81566, NEO-80243, NEO-81704, NEO-81908, NEO-82195 NEO-, NEO O-, NEO O-, NEO O-82591, NEO O-82592, NEO O-, NEO O-, NEO O-, NEO O-82640 82665 82781 82920 83081 83096 83137 83143, NEO O-.
 
 ## Versión 8.7.2 {#release-8-7-2}
 
