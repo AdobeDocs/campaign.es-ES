@@ -6,16 +6,20 @@ role: User
 level: Beginner
 hidefromtoc: true
 exl-id: 3c1cae6e-0a75-4f18-b1ee-2d5fa23b4251
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+source-git-commit: fdd0e534feb80e3acaec0a68238ac4ac596980e2
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 30%
+source-wordcount: '246'
+ht-degree: 29%
 
 ---
 
 # Actualizaciones de la documentación {#latest-updates}
 
 Esta página lista las últimas actualizaciones de la documentación de [!DNL Campaign] v8 (consola).
+
+## Enero de 2025 {#january-2025}
+
+La página sobre replicación de datos para implementaciones de FDAC se ha reorganizado y enriquecido con nueva información. [Más información](../architecture/replication.md)
 
 ## Noviembre de 2024 {#october-2024}
 
