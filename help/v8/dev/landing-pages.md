@@ -5,19 +5,18 @@ feature: Landing Pages
 role: User, Developer
 level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
-source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
+source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 24%
+source-wordcount: '294'
+ht-degree: 7%
 
 ---
 
 # Creación y administración de páginas de destino {#ac-gs-lp}
 
-Adobe Campaign le permite dirigir a los usuarios a formularios en línea, donde pueden actualizar sus datos, optar por suscribirse a darse de baja de la recepción de comunicaciones, o suscribirse a un servicio específico, como una Newsletter.
+Una página de aterrizaje es una página web dedicada diseñada con un objetivo de marketing específico. Los visitantes suelen llegar a una página de aterrizaje después de hacer clic en un vínculo de un correo electrónico, una publicación en medios sociales o el resultado del motor de búsqueda. A diferencia de las páginas de sitio web generales, las páginas de aterrizaje se centran en impulsar una única acción bien definida, como realizar una compra, suscribirse o cancelar la suscripción a un servicio o descargar un recurso. Con Adobe Campaign, cree páginas de aterrizaje para dirigir a los usuarios a un formulario en línea en el que puedan actualizar sus datos, impedir la recepción o la exclusión de comunicaciones o suscribirse a un servicio específico, como una newsletter.
 
 Para crear páginas de aterrizaje, vaya a la [interfaz de usuario web](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign incluye una experiencia de usuario rediseñada para las páginas de aterrizaje, disponible solo en la interfaz de usuario web.
-
 
 >[!AVAILABILITY]
 >
