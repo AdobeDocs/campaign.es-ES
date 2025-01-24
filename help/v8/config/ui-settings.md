@@ -6,7 +6,7 @@ feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
 workflow-type: tm+mt
 source-wordcount: '1848'
 ht-degree: 40%
@@ -30,7 +30,7 @@ Puede añadir carpetas al explorador de Campaign, crear vistas y asignar permiso
 
 Obtenga información sobre cómo administrar carpetas y vistas en [esta página](../audiences/folders-and-views.md)
 
-## Administración y personalización de listas{#customize-lists}
+## Administración y personalización de listas {#customize-lists}
 
 En la consola del cliente de Campaign, los datos se muestran en listas. Puede adaptar estas listas a sus necesidades. Por ejemplo, puede agregar columnas, filtrar datos, contar registros, guardar y compartir su configuración.
 
