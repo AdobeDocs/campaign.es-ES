@@ -5,9 +5,9 @@ feature: Architecture, FFDA, Deployment
 role: Admin, Developer
 level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
-source-git-commit: 9d500f185a9e706b6558135978c4f8c79d92d0d4
+source-git-commit: 3235701e0939466d4275b1e9202f82694ccdb352
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1053'
 ht-degree: 50%
 
 ---
@@ -55,7 +55,7 @@ La base de datos [!DNL Snowflake] del lado de marketing se usa para:
 * Almacenar todos los datos de clientes: perfiles, datos personalizados como transacciones, productos, ubicaciones, etc.
 * Almacena todos los eventos y datos de comportamiento generados o recopilados por Campaign, como registros de envío, registros de seguimiento, registros push, etc.
 * Almacena todos los agregados de datos de lo anterior.
-* Almacenar una copia (h+1) de las tablas de referencia (como envíos, enumeraciones, países, etc.) que se utilizan en flujos de trabajo, campañas e informes.
+* Almacene una copia (h+1) de las tablas de referencia (como envíos, enumeraciones, países, etc.) que se utilizan en flujos de trabajo, campañas e informes.
 * Ejecutar todos los procesos por lotes y las cargas de trabajo
 
 
@@ -82,9 +82,7 @@ La base de datos PostgreSQL en la instancia intermediaria se utiliza para lo sig
 
 ### Mecanismo de ensayo de la API [!DNL Campaign]{#staging-api}
 
-Con la base de datos en la nube [!DNL Campaign], no se recomiendan las llamadas unitarias de ráfaga debido al rendimiento (latencia y concurrencia). A menos que esté enviando un volumen de envío extremadamente grande, se debe utilizar la operación por lotes para garantizar el rendimiento óptimo de las API y Campaign sigue administrando las llamadas a la API en el nivel de base de datos local.
-
-[El mecanismo de ensayo de la API se detalla en esta página](staging.md)
+Con la base de datos en la nube [!DNL Campaign], no se recomienda la limpieza de llamadas unitarias con respecto al rendimiento (latencia y concurrencia). A menos que envíe un volumen extremadamente bajo, se deben utilizar operaciones por lotes para garantizar un rendimiento óptimo de la API. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local. [Más información sobre el mecanismo de ensayo de la API de Campaign](staging.md)
 
 ### Nuevas API{#new-apis}
 
