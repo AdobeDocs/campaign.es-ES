@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: 9d5a2ca1e9858a727377b8afa6bdd7e3761c1b56
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1072'
 ht-degree: 12%
 
 ---
@@ -117,7 +117,7 @@ Como usuario de la consola del cliente de Campaign v8, a partir de la versión v
 >La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 >
 
-Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}.
+Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}. También puede visitar la página [Preguntas más frecuentes](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"} dedicada en la documentación de la interfaz de usuario web de Campaign.
 
 Las funciones, la configuración y los ajustes adicionales y avanzados solo están disponibles en la consola del cliente. Obtenga más información acerca de las funcionalidades disponibles en ambas interfaces de usuario [en la documentación de la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=es){target="_blank"}.
 
