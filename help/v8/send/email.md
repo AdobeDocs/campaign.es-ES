@@ -5,16 +5,21 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 578f774152afbd42342da0f161b679ba9dd10c78
+source-git-commit: a76d2c30d3e1c723bcd4881f28980d346aade3dc
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 21%
+source-wordcount: '565'
+ht-degree: 20%
 
 ---
 
 # Diseño y envío de correos electrónicos
 
 Con Adobe Campaign, cree envíos de correo electrónico para enviar correos electrónicos personalizados a la población objetivo. [Más información](../send/send.md)
+
+>[!NOTE]
+>
+>Para crear correos electrónicos cautivadores y personalizados individualmente, ve a la [interfaz de usuario web](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign viene con el Designer de correo electrónico, una interfaz intuitiva de arrastrar y soltar que le permite diseñar y refinar todo el contenido de cada correo electrónico.
+
 
 Conozca los pasos clave para crear y configurar una entrega en [esta página](../start/create-message.md).
 
@@ -41,7 +46,7 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
 1. **Importe su contenido**
 
-   Haga clic en la ficha **Source** para pegar el contenido del HTML.
+   Haga clic en la ficha **Source** para pegar el contenido de HTML.
 
    ![](assets/paste-content.png)
 
