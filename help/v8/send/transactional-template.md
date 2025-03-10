@@ -5,9 +5,9 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: 253f3be945cbfa304fa7342c68f0c73b079e2870
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1170'
 ht-degree: 55%
 
 ---
@@ -161,7 +161,7 @@ Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UI
 
 #### Transición desde [!DNL Campaign Classic] v7 {#transition-from-v7}
 
-Si está [realizando la transición desde Campaign Classic v7](../start/v7-to-v8.md), todas las entregas pasan al servidor intermediario.
+Si está [realizando la transición desde Campaign Classic v7](../start/v7-to-v8.md), todas las entregas pasan al servidor intermediario (MID).
 
 Sin embargo, al crear una plantilla de mensaje transaccional, el enrutamiento necesario para que la plantilla se utilice correctamente es **envío de correo electrónico interno**. Este enrutamiento evita que envíe pruebas.
 
@@ -171,7 +171,7 @@ Por lo tanto, para enviar una prueba para la plantilla de mensaje transaccional,
 
 Una vez enviadas las pruebas, debe cambiar el enrutamiento de nuevo a envío de correo electrónico interno antes de publicar la plantilla de mensaje transaccional.
 
-## Publish la plantilla {#publish-message-template}
+## Publicación de la plantilla {#publish-message-template}
 
 Cuando la plantilla de mensaje creada<!-- on the control instance--> esté completa, puede publicarla, lo que le permitirá enviar mensajes vinculados a los eventos en tiempo real y por lotes.
 

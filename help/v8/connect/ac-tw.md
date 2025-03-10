@@ -5,9 +5,9 @@ role: User, Admin
 feature: Social Marketing
 level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1066'
 ht-degree: 11%
 
 ---
@@ -23,7 +23,7 @@ El módulo **Administración de redes sociales (Marketing social)** le permite i
 
 >[!NOTE]
 >
->Como usuario de Cloud Service administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para conectar Campaign con X. El complemento **Managing social networks (Social Marketing)** debe estar instalado en su entorno, a través del paquete específico, y la cuenta externa de Twitter debe estar configurada.
+>Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para conectar Campaign con X. El complemento **Managing social networks (Social Marketing)** debe estar instalado en su entorno, a través del paquete dedicado y la cuenta externa de Twitter debe estar configurada.
 
 
 Para configurar Adobe Campaign para que publique tweets en sus cuentas X, delegue el acceso de escritura a Adobe Campaign para estas cuentas. Para ello, debe:
@@ -56,7 +56,7 @@ Una vez aprobado con acceso elevado, cree una aplicación X para permitir que Ad
 
    ![](assets/tw-app-type.png)
 
-1. Vuelva al panel de aplicaciones, seleccione su aplicación y vaya a la ficha **Claves y tokens**. En **Token de acceso y secreto**, si no se menciona el permiso **Leer, escribir y dirigir mensajes**, debe volver a generar el token y el secreto de la aplicación. Tenga en cuenta que todas las claves y tokens deben guardarse en el momento de la creación. Los necesitará para configurar el servicio de Twitter de Campaign.
+1. Vuelva al panel de aplicaciones, seleccione su aplicación y vaya a la ficha **Claves y tokens**. En **Token de acceso y secreto**, si no se menciona el permiso **Leer, escribir y dirigir mensajes**, debe volver a generar el token y el secreto de la aplicación. Tenga en cuenta que todas las claves y tokens deben guardarse en el momento de la creación. Los necesitará para configurar su servicio de Twitter de Campaign.
 
    ![](assets/tw-permissions-check.png)
 
@@ -72,9 +72,9 @@ Para vincular la instancia de Campaign con la cuenta X, cree un servicio **Twitt
 
 >[!CAUTION]
 >
->Crear un servicio de **Twitteres** por cuenta X. Como consecuencia, debe crear otro servicio de prueba para enviar pruebas a su [cuenta de prueba](#tw-test-account).
+>Cree un servicio **Twitter** por cuenta X. Como consecuencia, debe crear otro servicio de prueba para enviar pruebas a su [cuenta de prueba](#tw-test-account).
 >
->Cada servicio **Twitter** también debe crearse mediante Adobe en su instancia MID. Póngase en contacto con el representante del Adobe para configurar su entorno.
+>Adobe también debe crear cada servicio **Twitter** en su instancia intermediaria (MID). Póngase en contacto con su representante de Adobe para configurar su entorno.
 >
 
 Para introducir la configuración, debe acceder tanto a la consola del cliente de Adobe Campaign como a los permisos de la aplicación X.
@@ -142,7 +142,7 @@ Además de la cuenta X, cree una cuenta X privada que se pueda usar para enviar 
 
 1. Cree una nueva cuenta X.
 1. Acceda a la cuenta **Configuración**.
-1. Vaya a **Privacidad y seguridad** y **Audiencia y etiquetado** y compruebe la opción **Protect sus publicaciones**. Tus publicaciones y otra información de la cuenta solo son visibles para las personas que te siguen.
+1. Vaya a **Privacidad y seguridad** y **Audiencia y etiquetado** y marque la opción **Proteger sus publicaciones**. Tus publicaciones y otra información de la cuenta solo son visibles para las personas que te siguen.
 
 ![](assets/do-not-localize/social_tw_test_page.png)
 

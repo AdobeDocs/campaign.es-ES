@@ -5,9 +5,9 @@ feature: Architecture, Deployment
 role: Data Engineer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1039'
 ht-degree: 14%
 
 ---
@@ -57,11 +57,11 @@ La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos 
 
 >[!AVAILABILITY]
 >
->Esta función solo está disponible para clientes con varias configuraciones de instancias de MID.
+>Esta función solo está disponible para clientes con varias configuraciones de instancias intermediarias (MID).
 
 Según el paquete de Campaign v8, se le proporciona un número específico de instancias intermediarias encargadas de ejecutar los envíos.
 
-De manera predeterminada, las cuentas externas de todos los canales utilizan un modo de enrutamiento **[!UICONTROL Alternate]**, lo que significa que se envía una entrega de cada instancia intermedia a la vez de forma alternativa.
+De manera predeterminada, las cuentas externas de todos los canales utilizan un modo de enrutamiento **[!UICONTROL Alternate]**, lo que significa que se envía una entrega de cada instancia de intermediario (MID) a la vez de forma alternativa.
 
 Para garantizar un mejor rendimiento tanto en términos de velocidad como de escala, puede permitir que los envíos se dividan automáticamente en varias instancias intermediarias para que se entreguen más rápido a los destinatarios. Esta operación es transparente al ejecutar el envío desde la instancia de marketing: una vez realizado el envío, todos los registros se consolidan juntos, antes de enviarse de nuevo a la instancia de marketing en un solo objeto de envío.
 
@@ -78,7 +78,7 @@ Para ello, se crean cuentas externas adicionales con el modo de enrutamiento **[
 >
 >El modo de enrutamiento dividido está habilitado de forma predeterminada para la cuenta &quot;Split Delivery - Email&quot;. Para el resto de cuentas externas de canales, póngase en contacto con el administrador de transición de Adobe para activar la opción.
 >
->De forma predeterminada, el valor de tamaño del umbral para dividir una entrega entre varios medios es 100 000. Puede cambiar este valor en la opción &quot;NmsDelivery_MultiMidSplitThreshold&quot; del menú **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**.
+>De forma predeterminada, el valor de tamaño del umbral para dividir un envío entre varias instancias intermediarias (MID) es 100 000. Puede cambiar este valor en la opción &quot;NmsDelivery_MultiMidSplitThreshold&quot; del menú **[!UICONTROL Administration]** / **[!UICONTROL Platform]** / **[!UICONTROL Options]**.
 
 Para que las cuentas externas divididas sean la cuenta predeterminada para realizar envíos, debe cambiar el proveedor de enrutamiento en las plantillas de envío. Para ello, siga estos pasos:
 
@@ -123,8 +123,8 @@ En esta arquitectura específica, la celda de ejecución se separa de la instanc
 Para utilizar estas funcionalidades, los usuarios de Adobe Campaign inician sesión en la instancia de control para crear plantillas de mensajes transaccionales, generar la vista previa del mensaje utilizando una lista de semilla, mostrar informes y supervisar las instancias de ejecución.
 
 * Instancia de ejecución única
-Al interactuar con una instancia de ejecución del Centro de mensajes alojada en el Adobe, un sistema externo puede recuperar primero un token de sesión (que de forma predeterminada caduca en 24 horas), realizando una llamada de API al método de inicio de sesión, utilizando para ello un inicio de sesión de cuenta y una contraseña proporcionados.
-SOAP SOAP A continuación, con el sessionToken proporcionado por la instancia de ejecución en respuesta a la llamada anterior, la aplicación externa puede realizar invocaciones de la API (rtEvents o batchEvents) para enviar comunicaciones, sin necesidad de incluir en cada llamada el inicio de sesión y la contraseña de la cuenta.
+Al interactuar con una instancia de ejecución del Centro de mensajes alojada en Adobe, un sistema externo puede recuperar primero un token de sesión (que de forma predeterminada caduca en 24 horas), realizando una llamada de API al método de inicio de sesión, utilizando para ello un inicio de sesión de cuenta y una contraseña proporcionados.
+A continuación, con el sessionToken proporcionado por la instancia de ejecución en respuesta a la llamada anterior, la aplicación externa puede realizar invocaciones de la API de SOAP (rtEvents o batchEvents) para enviar comunicaciones, sin necesidad de incluir en cada llamada de SOAP el inicio de sesión y la contraseña de la cuenta.
 
 * Varias instancias de ejecución
 En una arquitectura de ejecución de varias celdas con varias instancias de ejecución detrás de un equilibrador de carga, el método de inicio de sesión invocado por la aplicación externa pasa a través del equilibrador de carga: por ese motivo, no se puede utilizar una autenticación basada en token. Se requiere una autenticación basada en usuario/contraseña.

@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1049'
 ht-degree: 13%
 
 ---
@@ -26,7 +26,7 @@ Puede acceder a cuentas externas desde Adobe Campaign **[!UICONTROL Explorer]**:
 
 >[!CAUTION]
 >
->* Como usuario de Managed Cloud Service, las cuentas externas se configuran para su instancia por Adobe y no deben modificarse.
+>* Como usuario de Cloud Services administrados, Adobe configura las cuentas externas para la instancia y no deben modificarse.
 >
 >* En el contexto de una implementación [Enterprise (FDAC) deployment](../architecture/enterprise-deployment.md), una cuenta externa específica de **[!UICONTROL Full FDA]** (FDAC) administra la conexión entre la base de datos local de Campaign y la base de datos en la nube ([!DNL Snowflake]).
 >
@@ -35,7 +35,7 @@ Puede acceder a cuentas externas desde Adobe Campaign **[!UICONTROL Explorer]**:
 
 Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecutar procesos específicos.
 
-### Correos devueltos {#bounce-mails-external-account}
+### Correos rechazados {#bounce-mails-external-account}
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Para configurar la cuenta externa **[!UICONTROL Bounce mails (defaultPopAccount)
 
   La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-* SOAP **[!UICONTROL Function]** - Correo electrónico entrante o enrutador de
+* **[!UICONTROL Function]**: correo electrónico entrante o enrutador de SOAP
 
 ![](assets/bounce_external_2.png)
 
@@ -87,6 +87,8 @@ Para configurar un POP3 externo mediante Microsoft OAuth 2.0, marque la opción 
 
 La cuenta externa **[!UICONTROL Routing]** permite configurar cada canal disponible en Adobe Campaign según los paquetes instalados.
 
+Obtenga más información acerca de la administración de cuentas externas y la ejecución de envíos en [esta sección](../architecture/architecture.md#split).
+
 ### Instancia de ejecución {#execution-instance}
 
 En el contexto de los mensajes transaccionales, las instancias de ejecución se vinculan a la instancia de control y las conectan. Las plantillas de mensajes transaccionales se implementan en la instancia de ejecución. Obtenga más información acerca de la arquitectura del Centro de mensajes en [esta página](../architecture/architecture.md#transac-msg-archi).
@@ -97,11 +99,11 @@ En el contexto de los mensajes transaccionales, las instancias de ejecución se 
 
   Las bases de datos externas compatibles con Adobe Campaign v8 se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md)
 
-* **X (anteriormente conocido como Twitter)**: la cuenta externa de tipo **Twitter** se usa para conectar Campaign a su cuenta X y publicar mensajes en su nombre. Obtenga más información acerca de la integración X en [esta sección](../connect/ac-tw.md).
+* **X (anteriormente conocido como Twitter)**: La cuenta externa de tipo **Twitter** se usa para conectar Campaign a su cuenta X y publicar mensajes en su nombre. Obtenga más información acerca de la integración X en [esta sección](../connect/ac-tw.md).
 
-## Adobe Integración de soluciones cuentas externas {#adobe-integration-external-accounts}
+## Cuentas externas de Adobe Solution Integration {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud**: la cuenta externa **[!UICONTROL Adobe Experience Cloud]** se usa para implementar el servicio Identity Management de Adobe (IMS) y conectarse a Adobe Campaign. Obtenga más información acerca del servicio Identity Management de Adobe (IMS) en [esta sección](../start/connect.md#logon-to-ac).
+* **Adobe Experience Cloud**: la cuenta externa **[!UICONTROL Adobe Experience Cloud]** se usa para implementar el servicio Adobe Identity Management (IMS) y conectarse a Adobe Campaign. Obtenga más información acerca del servicio Adobe Identity Management (IMS) en [esta sección](../start/connect.md#logon-to-ac).
 
 * **Web Analytics**: la cuenta externa **[!UICONTROL Web Analytics (Adobe Analytics)]** se usa para configurar la transferencia de datos de Adobe Analytics a Adobe Campaign. Obtenga más información acerca de la integración de Adobe Campaign con Adobe Analytics en [esta página](../connect/ac-aa.md).
 
@@ -112,7 +114,7 @@ En el contexto de los mensajes transaccionales, las instancias de ejecución se 
 
 * **Microsoft Dynamics CRM**: la cuenta externa **[!UICONTROL Microsoft Dynamics CRM]** le permite importar y exportar datos de Microsoft Dynamics en Adobe Campaign. Obtenga más información acerca de la integración de Adobe Campaign con Microsoft Dynamics CRM en [esta página](../connect/ac-ms-dyn.md).
 
-* **Salesforce.com** - La cuenta externa **[!UICONTROL Salesforce CRM]** le permite importar y exportar datos de Salesforce a Adobe Campaign. Obtenga más información acerca de la integración de Adobe Campaign con Salesforce.com CRM en [esta página](../connect/ac-sfdc.md).
+* **Salesforce.com**: la cuenta externa **[!UICONTROL Salesforce CRM]** le permite importar y exportar datos de Salesforce en Adobe Campaign. Obtenga más información acerca de la integración de Adobe Campaign con Salesforce.com CRM en [esta página](../connect/ac-sfdc.md).
 
 ## Transferir datos a cuentas externas {#transfer-data-external-accounts}
 
