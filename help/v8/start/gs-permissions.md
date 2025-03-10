@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 3d61abac-03df-42d3-a950-37e41a5a7756
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 19f85d4e19f756d8a45ce5364dd0601373128f50
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 14%
+ht-degree: 17%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 14%
 
 Adobe Campaign permite definir y administrar los derechos asignados a los usuarios. Se trata de un conjunto de derechos y restricciones que autorizan o niegan:
 
-* Acceso a determinadas funciones
-* Acceso a determinados datos
-* Acceso a determinadas acciones (crear, modificar, eliminar)
+* Acceder a determinadas funciones
+* Acceder a determinados datos
+* Acceder a determinadas acciones (crear, modificar, eliminar)
 
 Estos permisos se definen combinando permisos de grupos de operadores, derechos asignados y permisos en carpetas.
 
-En Adobe Campaign, los usuarios son **operadores** y **grupos de operadores** representan funciones de usuario. Un operador es un usuario de Adobe Campaign que tiene permisos para iniciar sesión y realizar acciones. Los usuarios se crean en el Admin Console. Los permisos se aplican a perfiles de usuario o grupos de usuarios. Existen dos tipos de permisos que puede conceder:
+En Adobe Campaign, los usuarios son **operadores** y **grupos de operadores** representan funciones de usuario. Un operador es un usuario de Adobe Campaign que tiene permisos para iniciar sesión y realizar acciones. Los usuarios se crean en Admin Console. Los permisos se aplican a perfiles de usuario o grupos de usuarios. Existen dos tipos de permisos que puede conceder:
 
 * Puede definir grupos de operadores a los que desee atribuir derechos y luego asociar los operadores con uno o varios grupos. Esto permite reutilizar derechos y hacer que los perfiles de operador sean más coherentes. También facilita la administración y el mantenimiento de los perfiles de usuario.
 * Puede asignar derechos asignados directamente a los usuarios, en algunos casos para sobrecargar los derechos asignados a través de grupos.
@@ -40,11 +40,11 @@ Puede utilizar perfiles de producto integrados para empezar con. [Más informaci
 * **Paso 3**: Cree usuarios en Adobe Admin Console y asígnelos a un perfil de producto. [Más información](manage-permissions.md#add-users).
 * **Paso 4** (opcional): asigne permisos en las carpetas. [Más información](manage-permissions.md#ootb-productprofiles).
 
-## Acerca del Admin Console{#gs-admin-console}
+## Acerca de Admin Console{#gs-admin-console}
 
-Adobe Admin Console es una ubicación central para administrar los derechos de Adobe en toda la organización. Solo pueden acceder a él los administradores de productos.
+Adobe Admin Console es una ubicación central para administrar las autorizaciones de Adobe en toda la organización. Solo pueden acceder a él los administradores de productos.
 
-Utilice el Admin Console para añadir usuarios, crear y asignar perfiles de producto (que son grupos de funciones de operador).
+Utilice Admin Console para añadir usuarios, crear y asignar perfiles de producto (que son grupos de funciones de operador).
 
 Aprenda a agregar usuarios en [esta página](manage-permissions.md#add-users).
 
@@ -52,7 +52,7 @@ Aprenda a agregar usuarios en [esta página](manage-permissions.md#add-users).
 
 Los perfiles de producto son grupos de productos y servicios que puede asignar a los usuarios. En Adobe Experience Cloud, los permisos se basan en el perfil de un producto, no en el usuario. Sin embargo, puede delegar derechos administrativos a usuarios específicos.
 
-En el Admin Console, cada **perfil de producto** de Adobe Experience Cloud para Campaign está asociado a un **grupo de operadores** en la consola del cliente de Campaign.
+En Admin Console, cada **perfil de producto** de Adobe Experience Cloud para Campaign está asociado a un **grupo de operadores** en la consola del cliente de Campaign.
 
 Aprenda a crear y asignar perfiles de producto en [esta página](manage-permissions.md#create-a-product-profile).
 
