@@ -5,7 +5,7 @@ feature: Email
 role: User
 level: Beginner
 exl-id: 35702b81-1984-4a62-8f00-c2bc32ab2b42
-source-git-commit: 1cb92c6075e9478b641b11eae52372a909258cd3
+source-git-commit: 286af4739c33b79c74b3cb7fa90ad167670a4b4c
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -33,7 +33,7 @@ El destino de archivado es la dirección de correo electrónico CCO que elija, q
 
 >[!NOTE]
 >
->Como usuario de Cloud Service administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support){target="_blank"} para comunicar la dirección de correo electrónico de CCO que se utilizará para el archivado.
+>Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support){target="_blank"} para comunicar la dirección de correo electrónico de CCO que se utilizará para el archivado.
 
 ## Activar CCO de correo electrónico {#enable-bcc}
 
@@ -42,7 +42,7 @@ Para habilitar BCC para una [plantilla de envíos](create-templates.md) específ
 1. Desde el explorador de Campaign, vaya a la carpeta de plantillas de envío. De manera predeterminada, las plantillas de envío se almacenan en la carpeta **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]**.
 1. Edite la plantilla de envío para actualizarla con CCO.
 1. Haga clic en el botón **[!UICONTROL Properties]**.
-1. En la ficha **[!UICONTROL Delivery]**, marque la opción **[!UICONTROL Email BCC]**.
+1. En la ficha **[!UICONTROL Delivery]**, marque la opción **[!UICONTROL Email BCC with enhanced Momentum]**.
 
    ![](assets/email-bcc.png)
 
