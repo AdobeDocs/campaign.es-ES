@@ -1,12 +1,11 @@
 ---
 title: Integración de AEP SDK y Campaign
 description: Obtenga información sobre cómo integrar Adobe Experience Platform Mobile SDK con su aplicación
-version: v8
 feature: Push
 role: Admin, Developer
 level: Intermediate
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1681'
 ht-degree: 21%

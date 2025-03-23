@@ -1,15 +1,14 @@
 ---
 title: Configuración de interfaz de Campaign
 description: Aprenda a personalizar la configuración de la interfaz de Campaign
-version: v8
 feature: Application Settings
 role: Admin, Developer
 level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
-source-git-commit: 2f7496a0376776d35cf88b0e81365f6e414655fd
+source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
 workflow-type: tm+mt
 source-wordcount: '1848'
-ht-degree: 40%
+ht-degree: 43%
 
 ---
 
@@ -32,7 +31,7 @@ Obtenga información sobre cómo administrar carpetas y vistas en [esta página]
 
 ## Administración y personalización de listas {#customize-lists}
 
-En la consola del cliente de Campaign, los datos se muestran en listas. Puede adaptar estas listas a sus necesidades. Por ejemplo, puede agregar columnas, filtrar datos, contar registros, guardar y compartir su configuración.
+En la consola del cliente de Campaign, los datos se muestran en listas. Puede adaptar estas listas a sus necesidades. Por ejemplo, puede añadir columnas, filtrar datos, contar registros, y guardar y compartir su configuración.
 
 Además, puede crear y guardar filtros.  Más información sobre los filtros de [esta página](../audiences/create-filters.md).
 
@@ -162,7 +161,7 @@ También puede configurar la ordenación o combinar criterios de clasificación.
 
 ## Trabajo con enumeraciones {#enumerations}
 
-Una enumeración (también conocida como &quot;lista desglosada&quot;) es una lista de valores sugeridos por el sistema para rellenar campos. Utilice enumeraciones para estandarizar los valores de estos campos, ayudar con la entrada de datos o utilizar en las consultas.
+Una enumeración (también conocida como &quot;lista desglosada&quot;) es una lista de valores sugeridos por el sistema para rellenar campos. Utilice las enumeraciones para estandarizar los valores de estos campos, facilitar la introducción de datos o utilizarlas en las consultas.
 
 La lista de valores aparece como una lista desplegable desde la que puede seleccionar el valor que se va a introducir en el campo. La lista desplegable también permite la entrada predictiva: introduzca las primeras letras y la aplicación rellena el resto.
 
@@ -213,7 +212,7 @@ Para crear un alias, siga estos pasos:
 
 1. Guarde los cambios. El reemplazo de valores se realiza mediante el flujo de trabajo **Limpieza de alias**, que se ejecuta todas las noches. Consulte [Ejecución de la limpieza de datos](#running-data-cleansing).
 
-Para todos los campos basados en esta enumeración, cuando un usuario introduce el valor **Adobe** en un campo &quot;compañía&quot; (en la consola del cliente de Adobe Campaign, en un formulario web), se reemplazará automáticamente por el valor **Adobe**.
+Para todos los campos basados en esta enumeración, cuando un usuario introduzca el valor **Adobe** en un campo &quot;compañía&quot; (en la consola del cliente de Adobe Campaign, en un formulario web), se reemplazará automáticamente por el valor **Adobe**.
 
 #### Convertir un valor incorrecto en un alias{#convert-to-alias}
 
