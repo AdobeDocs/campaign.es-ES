@@ -4,7 +4,7 @@ title: Propiedades del flujo de trabajo
 description: Descubra más información sobre las propiedades del flujo de trabajo de la campaña
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: 63b7eaba3ea7b580d9b6c3c0e0c015c057539aa8
+source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 82%
@@ -55,7 +55,7 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
 * **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
 
-  Esta opción fuerza a los flujos de trabajo a reiniciarse automáticamente después de que se produzca un error. Cuando está activado, el reinicio comprueba cada 30 segundos el estado del flujo de trabajo y lo reinicia cuando sea necesario. Para ajustar el intervalo de 30 segundos, puede crear la opción técnica `XtkWorkflow_WatchdogTimerTimeout` y utilizar un tipo de datos de entero para especificar el retraso deseado.
+  Esta opción fuerza a los flujos de trabajo a reiniciarse automáticamente después de que se produzca un error. Cuando está activado, el reinicio comprueba cada 30 segundos el estado del flujo de trabajo y lo reinicia cuando sea necesario. Para ajustar el intervalo de 30 segundos, puede crear la opción técnica `XtkWorkflow_WatchdogRestartTimerTimeout` y utilizar un tipo de datos de entero para especificar el retraso deseado.
 
   >[!NOTE]
   >
