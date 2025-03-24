@@ -4,10 +4,10 @@ title: Propiedades del flujo de trabajo
 description: Descubra más información sobre las propiedades del flujo de trabajo de la campaña
 feature: Workflows
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
-source-git-commit: c6b4f4cee6f033218c77a495c39885e231c06126
+source-git-commit: d31040885ec45068d70a7d4c0b481269c8af7a33
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 82%
+source-wordcount: '640'
+ht-degree: 80%
 
 ---
 
@@ -59,9 +59,11 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
   >[!NOTE]
   >
-  >Esta opción está dirigida a usuarios avanzados y solo debe habilitarse para **flujos de trabajo técnicos**.
+  >* Esta opción está disponible a partir de la versión 8.6.4.
   >
-  >Está habilitado de manera predeterminada para los flujos de trabajo de replicación centralizados disponibles con el paquete `fullFdaMkt`.
+  >* Esta opción está dirigida a usuarios avanzados y solo debe habilitarse para **flujos de trabajo técnicos**.
+  >
+  >* Esta opción está habilitada de manera predeterminada para el contexto disponible de flujos de trabajo de replicación centralizados de una implementación de [empresa (FDAC)](../../v8/architecture/enterprise-deployment.md). [Más información](../../v8/architecture/replication.md)
 
 ### Administración de errores {#error-management}
 
