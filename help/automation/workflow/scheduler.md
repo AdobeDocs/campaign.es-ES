@@ -5,10 +5,10 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows
 role: User
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: ba8cf031db178f6575104858340e16d4e7bd6a31
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '393'
+ht-degree: 42%
 
 ---
 
@@ -22,15 +22,15 @@ La actividad del **[!UICONTROL Scheduler]** debe considerarse como un inicio pro
 
 ## Prácticas recomendadas {#best-practices}
 
-* No planifique un flujo de trabajo para que se ejecute durante más de 15 minutos, ya que podría limitar el rendimiento general del sistema y crear bloques en la base de datos.
+**Reinicie el flujo de trabajo después de cambiar el horario del programador** - Al cambiar el horario programado de la actividad **[!UICONTROL Scheduler]**, es importante reiniciar el flujo de trabajo. Esto garantiza que el flujo de trabajo se ejecute en los momentos actualizados. Sin reiniciarlo, el flujo de trabajo seguirá ejecutándose según la programación antigua.
 
-* Nunca utilice más de una **[!UICONTROL Scheduler]** actividad por rama en un flujo de trabajo. Consulte [Uso de actividades](workflow-best-practices.md#using-activities).
+**Limitar la frecuencia del programador**: evite programar flujos de trabajo para que se ejecuten con una frecuencia superior a 15 minutos. Ejecutarlos con mayor frecuencia puede degradar el rendimiento del sistema y provocar una congestión de la base de datos.
 
-* El uso de una actividad de planificador puede llevar a que se realicen varias ejecuciones de un flujo de trabajo al mismo tiempo. Por ejemplo, puede hacer que un programador active la ejecución del flujo de trabajo cada hora, pero a veces la ejecución del flujo de trabajo completo tarda más de una hora.
+**Use un Planificador por rama**: cada rama del flujo de trabajo solo debe tener una actividad **[!UICONTROL Scheduler]**. Para obtener más información sobre las prácticas recomendadas para usar actividades en flujos de trabajo, consulte la [página de prácticas recomendadas de flujo de trabajo](workflow-best-practices.md#using-activities).
 
-  Puede preferir omitir la ejecución si el flujo de trabajo ya se está ejecutando. Para obtener más información sobre cómo evitar ejecuciones simultáneas de un flujo de trabajo, consulte [esta página](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
+**Impedir ejecuciones simultáneas en un flujo de trabajo**: si un programador activa un flujo de trabajo, tenga en cuenta que se podrían ejecutar varias instancias del flujo de trabajo al mismo tiempo. Por ejemplo, si un planificador procesa el flujo de trabajo cada hora, pero éste tarda más de una hora, podría terminar con déclencheur superpuestos. Para evitarlo, plantéese configurar comprobaciones para evitar varias ejecuciones simultáneas. [Aprenda a evitar ejecuciones simultáneas de varios flujos de trabajo](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
-* Tenga en cuenta que la transición puede activarse varias horas más tarde si el flujo de trabajo ejecuta una tarea a largo plazo como una importación, o si el módulo wfserver se detuvo durante un tiempo. En este caso, puede ser necesario restringir la ejecución de la tarea activada por el planificador a un determinado intervalo de tiempo.
+**Cuenta para transiciones retrasadas**: las transiciones activadas por el programador pueden retrasarse si el flujo de trabajo ejecuta tareas de larga ejecución (como importaciones) o si el módulo wfserver se ha detenido temporalmente. Para mitigar esto, restrinja los tiempos de activación del planificador para garantizar que las tareas se ejecuten dentro de un intervalo de tiempo definido.
 
 ## Configuración de la actividad Planificador {#configuring-scheduler-activity}
 
