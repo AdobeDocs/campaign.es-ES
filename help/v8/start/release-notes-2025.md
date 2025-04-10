@@ -3,16 +3,38 @@ title: Notas de la versión de Campaign v8 (consola) 2025
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2025
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-source-git-commit: 82622a4517356eaba1f7eba23d4b3050d8ca37c9
+source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 90%
+source-wordcount: '417'
+ht-degree: 66%
 
 ---
 
-# Notas de la versión 2025 {#2025-rn}
+# Notas de la versión de 2025 {#2025-rn}
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones incluidas en las **versiones de Campaign v8 de 2025**. Las versiones más recientes se enumeran en [esta página](release-notes.md).
+
+## Versión 8.7.3 {#release-8-7-3}
+
+_14 de febrero de 2025_
+
+>[!AVAILABILITY]
+>
+>Esta versión está en **Disponibilidad limitada** (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
+>
+>Como usuario de Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+
+### Nuevas funciones {#features-8-7-3}
+
+* **Informes dinámicos para mensajes transaccionales**: ahora puede supervisar los mensajes transaccionales en la interfaz de usuario de informes dinámicos. Estos informes permiten al experto en marketing ver todas las métricas y dimensiones de informes de los mensajes transaccionales, así como el desglose de envíos enviados a través de una plantilla en tiempo real. [Más información](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/reporting/get-started-reporting){target="_blank"}
+
+* **API de REST de mensajería transaccional**: las API transaccionales basadas en eventos ya están disponibles para los correos electrónicos. [Más información](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/apis/managing-transactional-messages){target="_blank"}
+
+### Correcciones {#fixes-8-7-3}
+
+En esta versión se han solucionado los siguientes problemas:
+
+NEO-79373, NEO-81908, NEO-83081
 
 ## Versión 8.7.2 {#release-8-7-2}
 
@@ -22,7 +44,7 @@ _3 de septiembre de 2024_
 >
 >Esta versión está en **Disponibilidad limitada** (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 >
->Como usuario Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en la [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Como usuario de Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nuevas funciones {#new-8-7-2}
 
