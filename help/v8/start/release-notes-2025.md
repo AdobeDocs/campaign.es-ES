@@ -3,16 +3,26 @@ title: Notas de la versión de Campaign v8 (consola) 2025
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2025
 feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
-source-git-commit: ff874a8e06303625b4c96f49fdf4f303b50fb908
+source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 66%
+source-wordcount: '428'
+ht-degree: 64%
 
 ---
 
 # Notas de la versión de 2025 {#2025-rn}
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones incluidas en las **versiones de Campaign v8 de 2025**. Las versiones más recientes se enumeran en [esta página](release-notes.md).
+
+>[!BEGINSHADEBOX]
+
+**En esta página**
+
+* Campaign v8.7: [Versión 8.7.2](#release-8-7-2) | [Versión 8.7.3](#release-8-7-3)
+
+
+>[!ENDSHADEBOX]
+
 
 ## Versión 8.7.3 {#release-8-7-3}
 
