@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 8e1401ef0aada30d941905936b45c6c1819c83a7
 workflow-type: tm+mt
-source-wordcount: '1307'
-ht-degree: 20%
+source-wordcount: '1344'
+ht-degree: 21%
 
 ---
 
@@ -25,6 +25,11 @@ Puede configurar lo siguiente:
 * Envío automático de informes
 * Eventos activados
 
+>[!NOTE]
+>
+>La interfaz de usuario web de Adobe Campaign viene con un lienzo reinventado para los flujos de trabajo, lo que permite crear recorridos de cliente más dinámicos y personalizados. Para obtener más información sobre los flujos de trabajo para la interfaz de usuario web, consulte [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
+
+
 ## Diseñar y utilizar flujos de trabajo {#gs-ac-wf}
 
 Utilice flujos de trabajo de Adobe Campaign para mejorar la velocidad y la escala de cada aspecto de sus campañas de marketing, desde la creación de segmentos y la preparación de mensajes hasta la entrega.
@@ -35,7 +40,7 @@ Obtenga más información sobre los flujos de trabajo de la interfaz de usuario 
 
 * [Introducción a los flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es){target="_blank"}
 
-* [Prácticas recomendadas de flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
+* [Prácticas recomendadas de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html){target="_blank"}
 
 * [Flujos de trabajo técnicos integrados](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
@@ -94,7 +99,7 @@ Después de crear el flujo de trabajo, puede acceder a opciones adicionales con 
 
 Obtenga más información acerca de **propiedades del flujo de trabajo** en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
 
-Desde la pestaña **[!UICONTROL Execution]** de **[!UICONTROL Properties]** de su flujo de trabajo, puede elegir vincular el flujo de trabajo a diferentes almacenes y optimizar la administración de la carga de trabajo. Para obtener más información sobre **Almacenes**, consulte la [documentación del Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
+Desde la pestaña **[!UICONTROL Execution]** de **[!UICONTROL Properties]** de su flujo de trabajo, puede elegir vincular el flujo de trabajo a diferentes almacenes y optimizar la administración de la carga de trabajo. Para obtener más información sobre **Almacenes**, consulte la [documentación de Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
 ![](assets/warehouse.png)
 
@@ -137,12 +142,12 @@ En esta sección, encontrará varios casos de uso que aprovechan las capacidades
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 
-* [Enviar correo electrónico de cumpleaños](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=es){target="_blank"}
+* [Envío de un correo electrónico de cumpleaños](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=es){target="_blank"}
 
   Este caso de uso detalla cómo planificar la entrega de un correo electrónico recurrente a una lista de destinatarios en el día de su cumpleaños.
 
 * [Cargar contenido de envío](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}
-Cuando el contenido de la entrega está disponible en un archivo del HTML ubicado en un servidor remoto, puede cargar fácilmente este contenido en las entregas de Adobe Campaign.
+Cuando el contenido de la entrega está disponible en un archivo HTML ubicado en un servidor remoto, puede cargar fácilmente este contenido en las entregas de Adobe Campaign.
 
 * [Flujo de trabajo de entrega por canales cruzados](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/cross-channel-delivery-workflow.html){target="_blank"}
 Obtenga información sobre cómo crear un flujo de trabajo de entrega multicanal. El objetivo es segmentar una audiencia de los destinatarios de la base de datos en diferentes grupos y enviar un correo electrónico al primer grupo y un SMS al otro.
@@ -163,7 +168,7 @@ Obtenga información sobre cómo comparar dos contenidos de entrega por correo e
 <img src="assets/do-not-localize/icon_monitoring.svg" width="60px">
 
 * [Enviar un informe a una lista](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/send-a-report-to-a-list.html){target="_blank"}
-Obtenga información sobre cómo generar un informe mensual integrado de indicadores de seguimiento en formato de PDF y enviarlo a una lista de operadores de Campaign.
+Obtenga información sobre cómo generar un informe mensual integrado de indicadores de seguimiento en formato PDF y enviarlo a una lista de operadores de Campaign.
 
 * [Supervise sus flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/monitoring/workflow-supervision.html){target="_blank"}
 Obtenga información sobre cómo crear un flujo de trabajo que le permita monitorizar el estado de un conjunto de flujos de trabajo que están &quot;en pausa&quot;, &quot;detenidos&quot; o &quot;con errores&quot;.
