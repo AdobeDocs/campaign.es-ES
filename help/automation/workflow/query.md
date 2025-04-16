@@ -5,10 +5,10 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 71bad190894243f8c4dd82792dcc379faa947e04
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 100%
+source-wordcount: '1607'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,11 @@ ht-degree: 100%
 
 Una consulta le permite seleccionar un objetivo según los criterios. Puede asociar un código de segmento al resultado de la consulta e insertar datos adicionales en él.
 Para obtener más información sobre las muestras de consultas, consulte [esta sección](querying-recipient-table.md).
+
+>[!NOTE]
+>
+>La interfaz de usuario web de Adobe Campaign incluye un potente modelador de consultas que simplifica el proceso de filtrado de bases de datos para seleccionar destinatarios específicos según varios criterios, lo que le permite crear y administrar la consulta con mayor facilidad. Para obtener más información sobre Query Modeler for Web UI, consulte la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
+
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
@@ -41,7 +46,7 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
    ![](assets/query_temporary_table.png){width="70%" align="center" zoomable="yes"}
 
-1. Defina las poblaciones mediante el asistente. Los campos que se van a introducir pueden variar según el tipo de destino. Puede obtener una vista previa de la población objetivo con los criterios actuales en la pestaña **[!UICONTROL Preview]**.
+1. Defina las poblaciones mediante el asistente. Los campos que se van a introducir pueden variar según el tipo de público destinatario. Puede obtener una vista previa de la población objetivo con los criterios actuales en la pestaña **[!UICONTROL Preview]**.
 
    ![](assets/query-sample.png){width="70%" align="center" zoomable="yes"}
 
