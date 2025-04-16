@@ -1,26 +1,26 @@
 ---
-title: Notas de la versión de Campaign v8 (consola) 2024
+title: Campaign v8 (consola) 2024 Notas de la versión
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2024
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
-source-git-commit: 041df8d2d6128d72a04008affbc9680ba5b640a1
+source-git-commit: 57b18835b87be2a201ce23f5b6053266d13b9cb8
 workflow-type: tm+mt
 source-wordcount: '1308'
-ht-degree: 81%
+ht-degree: 78%
 
 ---
 
 # Notas de la versión 2024 {#2024-rn}
 
-Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con las **versiones de Campaign v8 de 2024**.
+Este Página enumera nuevas capacidades, mejoras y correcciones que vienen con **las versiones** 2024 Campaign v8.
 
 >[!BEGINSHADEBOX]
 
-**En esta página**
+**En este Página**
 
-* Campaign v8.7: [Versión 8.7.1](#release-8-7-1)
-* Campaign v8.6: [Versión 8.6.1](#release-8-6-1) | [Versión 8.6.2](#release-8-6-2) | [Versión 8.6.3](#release-8-6-3)
-* Campaign v8.5 - [Versión 8.5.3](#release-8-5-3)
+* Campaign v8.7 [: versión 8.7.1](#release-8-7-1)
+* Campaign v8.6 [, versión 8.6.1](#release-8-6-1) | [Versión 8.6.2](#release-8-6-2) | [Versión 8.6.3](#release-8-6-3)
+* Campaign v8.5 [: versión 8.5.3](#release-8-5-3)
 
 >[!ENDSHADEBOX]
 
@@ -34,9 +34,9 @@ _2 de mayo de 2024_
 >
 >Esta versión está en **Disponibilidad limitada** (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 >
->Como usuario Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en la [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
+>Como Campaign Standard usuario la transición a Campaign v8, obtenga más información sobre este transición en [Campaign documentación](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/acs-migration){target="_blank"} de la interfaz de usuario web v8.
 
-### Nuevas funciones {#new-8-7-1}
+### Nuevas características {#new-8-7-1}
 
 * **Plantillas de notificaciones push enriquecidas**: ahora puede enviar notificaciones push enriquecidas a través de Android. Las notificaciones push enriquecidas son una forma mejorada de notificación móvil que va más allá de los simples mensajes de texto al incorporar elementos multimedia como imágenes, botones interactivos u otro contenido con medios enriquecidos. [Más información](../send/rich-push-ios.md).
 
@@ -50,20 +50,20 @@ _2 de mayo de 2024_
 
 Se han añadido los siguientes conectores FDA. Consulte [esta página](compatibility-matrix.md#FederatedDataAccessFDA).
 
-* Databricks ahora se admite como base de datos externa con acceso de datos federado de Adobe Campaign (FDA).
+* Databricks ahora se admite como una base de datos externa con Adobe Campaign acceso de datos federado (FDA).
 
-* Ya está disponible un nuevo conector ODBC de Amazon Redshift FDA. Ofrece una conectividad mejorada, un mantenimiento más sencillo y una compatibilidad mejorada. Esta nueva versión incorpora las siguientes mejoras:
+* Ahora está disponible un nuevo conector ODBC FDA Amazon Redshift. Ofrece conectividad mejorada, mantenimiento más fácil y compatibilidad mejorada. Esta nueva versión trae las siguientes mejoras:
 
-   * El nuevo conector se basa en la interfaz ODBC, que se alinea con los conectores FDA más recientes. Esto garantiza una asistencia a largo plazo.
-   * También introduce un nuevo mecanismo de carga de datos mediante bloques de s3, lo que mejora significativamente el rendimiento.
+   * El nuevo conector se basa en la interfaz ODBC que se alinea con nuestros conectores FDA más recientes. Esto garantiza un soporte a largo plazo.
+   * También introduce un nuevo mecanismo de carga de datos utilizando buckets s3, lo que mejora significativamente el rendimiento.
 
-  El conector heredado aún se puede utilizar. Si desea probar el nuevo, póngase en contacto con su representante de Adobe.
+  El conector heredado se puede seguir utilizando. Si desea probar el nuevo, comuníquese con su representante de Adobe.
 
 ### Migración a la credencial OAuth de servidor a servidor {#change-8-7-1}
 
 A partir de esta versión, y habiendo declarado Adobe la credencial Cuenta de servicio (JWT) como obsoleta, las integraciones de salida de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. Adobe realizará la migración de JWT a OAuth para sus integraciones de salida, como la integración de Campaign-Analytics o la integración de Activadores de Experience Cloud.
 
-Si ha implementado integraciones de entrada con Campaign, debe migrar su cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Las credenciales de la cuenta de servicio existente (JWT) seguirán funcionando hasta el **27 de enero de 2025**.
+Si ha implementado integraciones entrantes con Campaign, debe migrar su cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Las credenciales de la cuenta de servicio existente (JWT) seguirán funcionando hasta el **martes, 30 de junio de 2025**.
 
 ### Mejoras generales {#improvements-8-7-1}
 
@@ -106,7 +106,7 @@ https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%2
 -->
 
 
-## Actualizaciones de mayo de 2024 {#may-updates}
+## Actualizaciones de mayo &#39;24 {#may-updates}
 
 El siguiente cambio se publicó en mayo y ahora está disponible para los usuarios de Campaign v8:
 
@@ -132,7 +132,7 @@ _14 de febrero de 2024_
 
   >[!AVAILABILITY]
   >
-  >La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+  >Campaign interfaz de usuario web solo está disponible para los usuarios que se conectan a Adobe Campaign con sus Adobe ID. Obtenga más información sobre [Adobe Systems sistema Identity Management (IMS).](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}
   >
 
 * Adobe Campaign v8 ahora se integra con **Adobe Experience Manager as a Cloud Service**, con la creación exclusivamente disponible a través de la interfaz de usuario web de Adobe Campaign. [Más información](../connect/ac-aem.md)
@@ -155,7 +155,7 @@ _14 de febrero de 2024_
 
 En esta versión se han solucionado los siguientes problemas:
 
-NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973, NEO-63879, NEO-63815, NEO-63657, NEO-63539, NEO-63174, NEO-63294, NEO-62964, NEO-62406, NEO-62750, NEO-62686, NEO-62455, NEO-61580, NEO-O, NEO-61199, NEO-60786, NEO-63387, NEO-59544, NEO-59198, NEO-59059 NEO-, NEO O-58637 55197 52542 50488 47789, NEO O-, NEO O-, NEO O-
+NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973, NEO-63879, NEO-63815, NEO-63657, NEO-63539, NEO-63387, NEO-63294, NEO-63174, NEO-62964, NEO-62750, NEO-62686, NEO-62455, NEO-62406, NEO-61580, NEO-61199, NEO-60786, NEO-59544, NEO-59198, NEO-59059, NEO-58637, NEO-55197, NEO-52542, NEO-50488, NEO-47789
 
 
 

@@ -4,9 +4,9 @@ title: Gestión de datos SQL
 description: Descubra más información sobre la actividad del flujo de trabajo Gestión de datos SQL
 feature: Workflows
 Role: User
-Level: Experienced
+level: Experienced
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: 64b24d7a72c2cdee841ea301ca46b0204f1fccaa
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 93%
