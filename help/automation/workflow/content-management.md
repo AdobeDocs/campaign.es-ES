@@ -5,10 +5,10 @@ description: Gestión de contenido
 feature: Workflows, Data Management
 role: User
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 9014c2d235fd3dde4afb961ef970334e4e909778
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '460'
+ht-degree: 85%
 
 ---
 
@@ -19,6 +19,10 @@ Una actividad de **Content management** (gestión de contenido) permite crear y 
 >[!CAUTION]
 >
 >El Gestor de contenido es un módulo opcional de Adobe Campaign. Compruebe el acuerdo de licencia.
+
+>[!NOTE]
+>
+>La interfaz de usuario web de Adobe Campaign permite utilizar fragmentos de contenido para el contenido. Permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados, gracias a un componente reutilizable al que se puede hacer referencia en uno o más mensajes y le permite ensamblar rápidamente el contenido de los mensajes en un proceso de diseño mejorado. Para obtener más información sobre fragmentos de contenido, consulte la [documentación de la interfaz de usuario web de Adobe Campaign.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 Las propiedades de la actividad se dividen en tres pasos:
 
