@@ -4,8 +4,9 @@ title: Plantillas de campañas de marketing
 description: Plantillas de campañas de marketing
 feature: Campaigns, Templates
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 55%
@@ -23,7 +24,7 @@ Las funcionalidades disponibles dependen de los permisos, los complementos y la 
 >
 >El árbol se muestra al hacer clic en el icono **[!UICONTROL Explorer]** de la página de inicio.
 
-Se proporciona una plantilla para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
+Se proporciona una plantilla integrada para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
 
 ## Creación de una plantilla de campaña {#create-a-campaign-template}
 
@@ -59,7 +60,7 @@ El vínculo **[!UICONTROL Advanced campaign parameters...]** permite habilitar y
 
 ![](assets/campaign-template-select-modules.png)
 
-Si no se selecciona una funcionalidad, los elementos correspondientes del proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña y las pestañas disponibles coinciden con las funcionalidades seleccionadas en la plantilla. Por ejemplo, si la funcionalidad **Gastos y objetivos** no está habilitada, la pestaña **[!UICONTROL Budget]** correspondiente no se muestra en las campañas basadas en esta plantilla.
+Si no se selecciona una funcionalidad, los elementos relacionados con el proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña y las pestañas disponibles coinciden con las funcionalidades seleccionadas en la plantilla. Por ejemplo, si la funcionalidad **Gastos y objetivos** no está habilitada, la pestaña **[!UICONTROL Budget]** correspondiente no se muestra en las campañas basadas en esta plantilla.
 
 Además, los accesos directos a las ventanas de configuración se añaden al panel de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de campañas.
 

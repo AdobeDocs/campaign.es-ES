@@ -4,8 +4,9 @@ title: Configuración y administración del proceso de aprobación
 description: Descubra cómo administrar las aprobaciones de campañas de marketing
 feature: Approvals, Campaigns
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '2281'
 ht-degree: 55%
@@ -177,7 +178,7 @@ Esta opción le permite definir a alguien a cargo de la edición de contenido, c
 
 1. La persona responsable de la edición de contenido recibirá un correo electrónico que les informará de que el contenido está disponible.
 
-1. Pueden iniciar sesión en la consola del cliente, abrir la entrega y editarlo utilizando un asistente simplificado para cambiar el asunto, el HTML y el contenido de texto, y enviar pruebas.
+1. Pueden iniciar sesión en la consola del cliente, abrir la entrega y editarlo utilizando un asistente simplificado para cambiar el asunto, el contenido de HTML y el contenido de texto, y enviar pruebas.
 
    >[!NOTE]
    >

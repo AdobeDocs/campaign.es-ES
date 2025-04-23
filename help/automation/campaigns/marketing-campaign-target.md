@@ -4,11 +4,12 @@ title: Audiencia objetivo de la campaña de marketing
 description: Aprenda a definir la audiencia de las campañas de marketing
 feature: Campaigns, Audiences
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: d292c20e520b2466f782ccf86eb9d61e01915563
+source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 78%
+ht-degree: 79%
 
 ---
 
@@ -101,7 +102,7 @@ Los flujos de trabajo de destino se pueden iniciar manualmente mediante el botó
 
 La segmentación se puede programar para la ejecución automática según una programación (programador) o un evento (señal externa, importación de archivos, etc.).
 
-Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, detención, pausa, etc.) son procesos **asíncronos**: el comando se guarda y surte efecto en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de destino (inicio, parada, pausa, etc.) son procesos **asincrónicos**: el comando se guarda y se aplica en cuanto el servidor esté disponible para su aplicación.
 
 Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la ejecución del flujo de trabajo de destino.
 
@@ -168,7 +169,7 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
   >[!CAUTION]
   >
-  >La detención incondicional está restringida a los usuarios administradores.
+  >La parada incondicional está restringida a los usuarios administradores.
 
 ## Adición de un grupo de control {#add-a-control-group}
 
@@ -247,4 +248,4 @@ En este vídeo se explica cómo añadir un grupo de control a una campaña.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para Campaign aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
