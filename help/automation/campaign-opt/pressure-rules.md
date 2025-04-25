@@ -4,9 +4,9 @@ title: Configuración de reglas de presión
 description: Aprenda a configurar las reglas de presión
 feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
-source-git-commit: 5810f9b53bd3ad5383d4b9767bc65a3d595862c7
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3126'
 ht-degree: 94%
 
 ---
@@ -36,6 +36,10 @@ De lo contrario, el destinatario es **[!UICONTROL Excluded by arbitration]**. [M
 ## Creación de una regla de presión {#create-a-pressure-rule}
 
 Para configurar la mediación entre campañas utilizando Adobe Campaign, comience creando tipologías de campaña y definiendo reglas de tipología vinculadas (reglas de **presión**).
+
+>[!NOTE]
+>
+>Para que una regla de presión se aplique correctamente, la dimensión de segmentación de la regla debe coincidir con la dimensión de segmentación de la asignación de entrega.
 
 Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, siga los siguientes pasos:
 

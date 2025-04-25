@@ -5,10 +5,10 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Data Management Activity
 role: User
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '1065'
-ht-degree: 100%
+source-wordcount: '1097'
+ht-degree: 96%
 
 ---
 
@@ -26,7 +26,7 @@ La sección superior de la ventana de configuración de esta actividad permite d
 
 >[!CAUTION]
 >
->Solo se admiten archivos de estructura “plana” (por ejemplo, CSV, TXT, etc.). No se recomienda utilizar el formato XML.
+>Solo se admiten archivos de estructura “plana” (por ejemplo, CSV, TXT, etc.). No se recomienda utilizar el formato XML. Con la consola del cliente, puede cargar archivos de hasta un tamaño máximo de 150 MB. En la interfaz de usuario web, la actividad Cargar archivo tiene un límite de 50 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 
