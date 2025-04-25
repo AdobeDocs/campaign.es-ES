@@ -3,10 +3,10 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 66e4b59915eae595b28076622f7bcfb5b5a0ffa4
+source-git-commit: 5ece3ca4ebf9f3973d9cbd1a00ea57b29c1f2e93
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 17%
+source-wordcount: '781'
+ht-degree: 33%
 
 ---
 
@@ -18,10 +18,37 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones incluidas 
 
 **En esta página**
 
+* [Versión 8.6.5](#release-8-6-4)
 * [Versión 8.7.4](#release-8-7-4)
 * [Versión 8.6.4](#release-8-6-4)
 
 >[!ENDSHADEBOX]
+
+## Versión 8.6.5 {#release-8-6-5}
+
+_sábado, 25 de abril de 2025_
+
+>[!AVAILABILITY]
+>
+>Esta versión se encuentra en **Disponibilidad limitada** (LA).
+
+### Nuevas funciones {#features-8-6-5}
+
+**Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad para entornos que realizan la transición desde Adobe Campaign Standard. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y ampliado. [Más información](../send/sms/sms.md).
+
+### Mejoras generales {#improvements-8-6-5}
+
+* Se ha mejorado el rendimiento global de la aplicación, en el contexto de una implementación empresarial (FDAC) , incluida la entrega a prueba de envíos y la limpieza de la base de datos.
+
+* Para aumentar la seguridad de todas las comunicaciones entre aplicaciones, mTLS se admite ahora para llamadas de API externas.
+
+* Agente de transferencia de correo (MTA): se ha corregido que un elemento secundario de MTA huérfano quede bloqueado en estado **[!UICONTROL Start pending]**.
+
+### Correcciones {#fixes-8-6-5}
+
+En esta versión se han corregido también los siguientes problemas:
+
+NEO-67620, NEO-71534, NEO-80245, NEO-81105, NEO-81758, NEO-81908, NEO-82351, NEO-82742, NEO-83044, NEO-83138, NEO-83350, NEO-83729, NEO-83793, NEO-83809, NEO-84038, NEO-84108, NEO-85269, NEO-86121, NEO-86556, NEO-86739
 
 ## Versión 8.7.4 {#release-8-7-4}
 
