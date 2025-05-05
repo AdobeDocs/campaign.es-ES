@@ -25,7 +25,7 @@ ht-degree: 9%
 
 En una instancia independiente, la entrega de un SMS requiere lo siguiente:
 
-1. Cuenta externa **1} que especifica un conector y el tipo de mensaje, [obtenga más información aquí](#external-account)**
+1. Cuenta externa **1&rbrace; que especifica un conector y el tipo de mensaje, [obtenga más información aquí](#external-account)**
 
 1. Una **plantilla de envíos** en la que se hace referencia a esta cuenta externa, [obtenga más información aquí](#sms-delivery-template)
 

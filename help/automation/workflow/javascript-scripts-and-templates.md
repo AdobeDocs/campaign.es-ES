@@ -164,7 +164,7 @@ Por lo tanto, para llamar a una variable **instance.vars.xxx = &quot;yyy&quot;**
 
 Por ejemplo:
 
-1. Cree una variable de instancia que defina el nombre interno de un envío mediante el ****[!UICONTROL JavaScript code]**: instance.vars.deliveryIN = “DM42”**.
+1. Cree una variable de instancia que defina el nombre interno de un envío mediante el **&#x200B;**&#x200B;[!UICONTROL JavaScript code]&#x200B;**: instance.vars.deliveryIN = “DM42”**.
 
    ![](assets/wkf_js_activity_1.png)
 

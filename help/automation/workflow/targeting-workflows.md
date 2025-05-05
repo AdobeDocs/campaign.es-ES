@@ -205,7 +205,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    ![](assets/split-subset-config-all-data.png)
 
-   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
+   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [&#128279;](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
 
    El campo **[!UICONTROL Label]** permite asignar un nombre al nuevo subconjunto, que coincide con la transición saliente.
 

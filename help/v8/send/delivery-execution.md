@@ -43,7 +43,7 @@ To monitor the activity and running of the execution instance(s), see [Transacti
 
 Adobe Campaign ofrece varios informes que permiten controlar la actividad y la ejecución continua de las instancias de ejecución.
 
-Se puede acceder a estos informes del centro de mensajería desde la pestaña **[!UICONTROL Reports]****de la instancia de control**.
+Se puede acceder a estos informes del centro de mensajería desde la pestaña **[!UICONTROL Reports]**&#x200B;**de la instancia de control**.
 
 ![](assets/mc-reports.png)
 

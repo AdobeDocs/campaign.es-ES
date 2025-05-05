@@ -45,7 +45,7 @@ Los pasos principales para ponerlo en práctica se detallan a continuación:
 1. [Pruebe el mensaje](transactional-template.md#test-message-template).
 1. [Publique la plantilla de mensaje](transactional-template.md#publish-message-template).
 
-SOAP Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si se activa un evento correspondiente, los datos relevantes se envían a Campaign mediante los métodos PushEvent y PushEvents [](../send/event-description.md), y la entrega se realiza a los destinatarios objetivo.
+SOAP Una vez que haya diseñado y publicado la plantilla de mensaje transaccional, si se activa un evento correspondiente, los datos relevantes se envían a Campaign mediante los métodos PushEvent y PushEvents [&#128279;](../send/event-description.md), y la entrega se realiza a los destinatarios objetivo.
 
 ## Creación de tipos de eventos {#create-event-types}
 

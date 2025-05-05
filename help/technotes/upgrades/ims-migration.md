@@ -218,7 +218,7 @@ Tenga en cuenta que el usuario de cuenta técnica NO existirá en Adobe Campaign
 
    ![](assets/do-not-localize/ims-updates-07.png)
 
-   En la pantalla Credenciales, desplácese hacia abajo para localizar el ** de correo electrónico de la cuenta técnica de ** y haga clic en el botón **Copiar**.
+   En la pantalla Credenciales, desplácese hacia abajo para localizar el **&#x200B; de correo electrónico de la cuenta técnica de &#x200B;** y haga clic en el botón **Copiar**.
 
    ![](assets/do-not-localize/ims-updates-08.png)
 

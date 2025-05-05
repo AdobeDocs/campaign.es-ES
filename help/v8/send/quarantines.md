@@ -73,7 +73,7 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 >
 >Fin de año 1: (1&#42;0,33)/(1+0,5) = 22 %.
 >
-Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
+>Fin de año 2: ((1,22&#42;0,33)+0,33)/(1,5+0,75) = 32,5 %.
 
 Además, el informe integrado **[!UICONTROL Non-deliverables and bounces]**, disponible en la sección **Informes** de esta página de inicio, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de una entrega específica o personalizar este informe según sea necesario.
 
@@ -104,7 +104,7 @@ A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 >[!CAUTION]
 >
-Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se eliminarán, aunque reciban un correo electrónico.
+>Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se eliminarán, aunque reciban un correo electrónico.
 
 También puede eliminar manualmente una dirección de la lista de cuarentena. Para eliminar una dirección de la cuarentena, puede:
 
