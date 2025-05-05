@@ -16,7 +16,7 @@ ht-degree: 36%
 
 Adobe Campaign incluye un módulo gráfico para definir y publicar **formularios web** a fin de crear páginas con campos de entrada y selección, que pueden incluir datos de la base de datos. Esto le permite diseñar y publicar páginas web a las que los usuarios pueden acceder para ver o introducir información.
 
-Aprenda a crear y publicar formularios web en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html#designing-content){target="_blank"}
+Aprenda a crear y publicar formularios web en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es#designing-content){target="_blank"}
 
 ![](assets/sample.png)
 
@@ -24,4 +24,4 @@ Adobe Campaign también le permite crear y publicar **aplicaciones web** dinámi
 
 Puede crear páginas, como un formulario de edición en una extranet, o formularios de notificación en los que se incluya la información de la base de datos con tablas, gráficos, formularios de entrada, etc. Esta funcionalidad permite diseñar y enviar páginas web en las que los usuarios pueden buscar o introducir información.
 
-Aprenda a crear y publicar aplicaciones web en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html#designing-content){target="_blank"}
+Aprenda a crear y publicar aplicaciones web en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-applications/about-web-applications.html?lang=es#designing-content){target="_blank"}

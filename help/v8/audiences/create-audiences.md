@@ -103,7 +103,7 @@ En el ejemplo siguiente, se crea una lista de todos los destinatarios entre 25 y
 
    ![](assets/targeting-wf-age-filter.png)
 
-   Aprenda a crear una consulta en un flujo de trabajo en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+   Aprenda a crear una consulta en un flujo de trabajo en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
 
 1. Añada una etiqueta para esta consulta y guarde los cambios.
 1. Agregue una actividad **[!UICONTROL List update]** y edítela.
@@ -124,7 +124,7 @@ En el ejemplo siguiente, se crea una lista de todos los destinatarios entre 25 y
 
    ![](assets/access-new-list.png)
 
-   Puede hacer que este flujo de trabajo sea recurrente si agrega un planificador al flujo de trabajo. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html){target="_blank"}.
+   Puede hacer que este flujo de trabajo sea recurrente si agrega un planificador al flujo de trabajo. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/scheduler.html?lang=es){target="_blank"}.
 
 ## Eliminación de perfiles de una lista {#remove-a-profile-from-a-list}
 

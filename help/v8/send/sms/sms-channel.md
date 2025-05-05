@@ -19,7 +19,7 @@ ht-degree: 23%
 >
 >Esta documentación es para Adobe Campaign 8.7.2 y posterior.
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol).
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol).
 
 
 ## Tipos de SMS {#sms-types}

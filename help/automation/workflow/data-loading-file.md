@@ -26,7 +26,7 @@ La sección superior de la ventana de configuración de esta actividad permite d
 
 >[!CAUTION]
 >
->Solo se admiten archivos de estructura “plana” (por ejemplo, CSV, TXT, etc.). No se recomienda utilizar el formato XML. Con la consola del cliente, puede cargar archivos de hasta un tamaño máximo de 150 MB. En la interfaz de usuario web, la actividad Cargar archivo tiene un límite de 50 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
+>Solo se admiten archivos de estructura “plana” (por ejemplo, CSV, TXT, etc.). No se recomienda utilizar el formato XML. Con la consola del cliente, puede cargar archivos de hasta un tamaño máximo de 150 MB. En la interfaz de usuario web, la actividad Cargar archivo tiene un límite de 50 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=es){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

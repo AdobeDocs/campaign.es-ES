@@ -62,7 +62,7 @@ Las nuevas versiones y los cambios que traen se enumeran en [Notas de la versió
 
 Para recibir información sobre las nuevas versiones de soluciones de Experience Cloud y su contenido, suscríbase a la comunicación [Actualizaciones prioritarias de productos de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
 
-También puede visitar la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
+También puede visitar la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=es&style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
 
 
 ### ¿Por qué necesita mi organización una actualización? {#upgrades-1}

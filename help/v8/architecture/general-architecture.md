@@ -98,4 +98,4 @@ Puede implementar Adobe Campaign utilizando la base de datos y los esquemas pred
 
 La asignación de almacenamiento total se divide entre la base de datos principal y la base de datos secundaria del Snowflake (opcional). El lugar donde se almacenan los datos debe determinarse en el momento de la implementación o la actualización, según los casos de uso específicos del cliente.
 
-Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.
+Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=es){target="_blank"}.

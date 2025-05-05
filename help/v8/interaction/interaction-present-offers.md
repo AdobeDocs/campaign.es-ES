@@ -20,7 +20,7 @@ Las ofertas se pueden presentar en varios espacios de ofertas usando [un canal e
 
 Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno en directo.
 
-Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}.
+Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=es#approving-offer-content){target="_blank"}.
 
 En el contexto de un contacto entrante, el sitio web puede identificar o no al usuario que está explorando la página. El motor de oferta presenta diferentes ofertas para perfiles identificados y para perfiles anónimos.
 
