@@ -3,10 +3,10 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 5ece3ca4ebf9f3973d9cbd1a00ea57b29c1f2e93
+source-git-commit: 6d2425f7e7f35f5461151790fbda2bef2959bff4
 workflow-type: tm+mt
 source-wordcount: '781'
-ht-degree: 33%
+ht-degree: 35%
 
 ---
 
@@ -62,7 +62,7 @@ _viernes, 10 de abril de 2025_
 
 ### Nuevas funciones {#features-8-7-4}
 
-* **Compatibilidad con la API REST de SMS**: la API REST de mensajería transaccional ya está disponible para el canal SMS. Cuando tanto el correo electrónico como el teléfono móvil están presentes en la carga útil, puede utilizar el campo &quot;wishedChannel&quot; para especificar el canal. Si no se proporciona, el correo electrónico se utilizará de forma predeterminada a menos que wishedChannel solicite explícitamente un SMS.
+* **Compatibilidad con la API REST de SMS**: la API REST de mensajería transaccional ya está disponible para el canal SMS. Cuando el correo electrónico como el teléfono móvil están presentes en la carga útil, puede utilizar el campo &quot;wishedChannel&quot; para especificar el canal. Si no se proporciona, el correo electrónico se utilizará de forma predeterminada a menos que wishedChannel solicite explícitamente un SMS.
 
 * **Envíos multilingües**: a partir de la versión de abril de la interfaz de usuario web de Campaign, podrá realizar varios envíos de correo electrónico en diferentes idiomas y acceder a los informes dinámicos relacionados. Esta funcionalidad solo estará disponible en la interfaz de usuario web de Adobe Campaign a finales de abril y requiere una actualización del servidor a Campaign v8.7.4.
 
@@ -109,5 +109,5 @@ Se han añadido los siguientes conectores FDA. Consulte [esta página](compatibi
 
 En esta versión se han solucionado los siguientes problemas:
 
-NEO-48232, NEO-67814, NEO-71388, NEO-74855, NEO-75643, NEO-75962, NEO-76132, NEO-76958, NEO-76986, NEO-77162, NEO-77452, NEO-78946, NEO-79373, NEO-81127, NEO-80314, NEO-81209, NEO-81312, NEO-81223, NEO-81287, NEO-81290, NEO-81512, NEO-O, NEO-81520, NEO-81566, NEO-80243, NEO-81704, NEO-81908, NEO-82195 NEO-, NEO O-, NEO O-, NEO O-82591, NEO O-82592, NEO O-, NEO O-, NEO O-, NEO O-82640 82665 82781 82920 83081 83096 83137 83143, NEO O-.
+NEO-48232,-67814, NEO-71388,-74855, NEO-75643, NEO-75962, NEO-76132, NEO-76958, NEO-76986,-77162,-77452,-78946,-79373,-80314,-81209,-81287,-81290,-81312,-81512,-80243,-NEO,-81127,-NEO,-81223,-NEO, NEO-81520, NEO-81566, NEO-81704, NEO-81908, NEO-82195, NEO-82591, NEO-82592, NEO-82640, NEO-82665, NEO-82781 NEO-, NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO-82920 83081 83096 83137 83143.
 
