@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 0513b9f65e9431f5207b384a0e2d8c5aeb8e209f
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 12%
+source-wordcount: '310'
+ht-degree: 10%
 
 ---
 
@@ -30,6 +30,12 @@ Para editar permisos en una carpeta de Campaign específica, siga los pasos a co
 * Para **autorizar un grupo o un operador**, haga clic en el botón **[!UICONTROL Add]** y seleccione el grupo u operador para asignar autorizaciones a esta carpeta.
 * Para **prohibir un grupo o un operador**, haga clic en **[!UICONTROL Delete]** y seleccione el grupo u operador para quitar la autorización de esta carpeta.
 * Para **seleccionar los derechos asignados a un grupo o a un operador**, seleccione el grupo u operador, seleccione los derechos de acceso que desee conceder y anule la selección de los demás.
+
+>[!NOTE]
+>
+>No debería poder crear un objeto para el que no tenga al menos una carpeta con derechos de escritura.
+>
+>No necesita ser administrador para crear fragmentos, pero debe tener derechos de escritura en al menos una carpeta &quot;Fragmento visual de contenido&quot;. De lo contrario, no podrá crear un fragmento visual.
 
 ## Propagación de permisos {#propagate-permissions}
 

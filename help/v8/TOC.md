@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: d50c746d11b6f1bb0b5af0d5ddab5660b99dc359
+source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 99%
+source-wordcount: '695'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 99%
 # Documentación de Adobe Campaign versión 8 (consola) {#campaign-v8}
 
 + [Documentación de Campaign versión 8](campaign-home.md)
-+ Notas de la versión{#releases}
++ Notas de la versión {#releases}
    + [Notas de la versión preliminar](start/e-release-notes.md)
    + [Versiones y actualizaciones](start/upgrades.md)
    + [Últimas versiones](start/release-notes.md)
@@ -30,7 +30,7 @@ ht-degree: 99%
    + [Problemas conocidos](start/known-issues.md)
    + [Matriz de compatibilidad](start/compatibility-matrix.md)
    + [Actualizaciones de la documentación](start/documentation-updates.md)
-+ Introducción {#new}
++ Primeros pasos {#new}
    + [Introducción a Adobe Campaign](start/get-started.md)
    + [Funcionalidades clave](start/whats-new.md)
    + [Descubra la nueva interfaz de usuario](start/campaign-ui.md)
@@ -39,7 +39,7 @@ ht-degree: 99%
    + [De Campaign Classic v7 a v8](start/v7-to-v8.md)
    + [De Campaign Standard a v8](start/acs-to-v8.md)
    + [Preguntas frecuentes](start/campaign-faq.md)
-+ Campaign Management {#campaigns}
++ Administración de campañas {#campaigns}
    + [Introducción a las campañas](start/campaigns.md)
    + [Orquestación de campañas >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es)
 + Envío de mensajes{#send}
@@ -54,7 +54,7 @@ ht-degree: 99%
       + [Envío y monitorización de correos electrónicos](send/send.md)
    + SMS {#sms}
       + [Introducción a los SMS](send/sms/sms.md)
-      + Configurar el canal SMS {#config-sms}
+      + Configuración del canal de SMS {#config-sms}
          + [Configuración de envío de SMS](send/sms/sms-delivery-settings.md)
          + [Configuración de cuenta externa de SMPP](send/sms/smpp-external-account.md)
          + [Características del canal SMS](send/sms/sms-channel.md)
@@ -62,7 +62,7 @@ ht-degree: 99%
          + [Instancia independiente](send/sms/sms-standalone-instance.md)
          + [Infraestructura intermediaria](send/sms/sms-mid-sourcing.md)
          + [Descripción del conector SMPP](send/sms/smpp-connector-delivery.md)
-      + Creación de un SMS {#create-sms}
+      + Creación de un SMS  {#create-sms}
          + [Creación de un envío de SMS](send/sms/create-sms.md)
          + [Definición del contenido](send/sms/sms-content.md)
          + [Selección del público](send/sms/sms-audience.md)
@@ -80,13 +80,14 @@ ht-degree: 99%
    + [Mensajería LINE](send/line.md)
    + [Correo directo](send/direct-mail.md)
    + [X (Twitter)](send/twitter.md)
+   + [Canal externo personalizado](send/custom-channel.md)
    + Personalización del contenido {#personalize}
       + [Introducción a la personalización](send/personalize.md)
       + [Datos de personalización](send/personalization-data.md)
       + [Añadir campos de personalización](send/personalization-fields.md)
       + [Utilizar bloques de personalización](send/personalization-blocks.md)
       + [Crear condiciones](send/conditions.md)
-   + Validación y envío de la entrega{#validate}
+   + Validación y envío de la entrega {#validate}
       + [Previsualización y pruebas](send/preview-and-proof.md)
       + [Análisis de envíos](send/delivery-analysis.md)
       + [Configuración y envío de la entrega](send/configure-and-send.md)
@@ -95,14 +96,14 @@ ht-degree: 99%
       + [Cuarentenas](send/quarantines.md)
       + [Errores de envío](send/delivery-failures.md)
    + [Trabajo con plantillas de envío](send/create-templates.md)
-   + Mensajes transaccionales{#real-time}
+   + Mensajes transaccionales {#real-time}
       + [Introducción a los mensajes transaccionales](send/transactional.md)
       + [Creación y publicación de una plantilla](send/transactional-template.md)
       + Administración de eventos {#event}
          + [Recopilación y procesamiento de eventos](send/event-processing.md)
          + [Comprensión de la descripción del evento](send/event-description.md)
          + [Mensajes de envío y monitorización](send/delivery-execution.md)
-+ Gestión de perfiles y públicos {#audience}
++ Administración de perfiles y audiencias {#audience}
    + [Introducción a perfiles y públicos](audiences/gs-audiences.md)
    + [Trabajo con públicos](start/audiences.md)
    + [Acceso a perfiles](audiences/view-profiles.md)
@@ -113,16 +114,16 @@ ht-degree: 99%
       + [Recopilación de datos de perfil en formularios web](audiences/collect-profiles.md)
       + [Trabajar con asignaciones de destino](audiences/target-mappings.md)
       + [Crear perfiles de prueba](audiences/test-profiles.md)
-   + Creación de públicos {#create-audiences}
+   + Crear públicos {#create-audiences}
       + [Creación de una lista de contactos](audiences/create-audiences.md)
       + [Creación y administración de filtros](audiences/create-filters.md)
       + [Compartir públicos con soluciones de Adobe](start/shared-audiences.md)
    + [Prácticas recomendadas](audiences/audiences-best-practices.md)
    + [Administración de suscripciones](start/subscriptions.md)
-+ Gestión de contenidos {#content}
++ Administración de contenido {#content}
    + [Creación de páginas de aterrizaje](dev/landing-pages.md)
    + [Diseño de aplicaciones y formularios web](dev/webapps.md)
-+ Automatización y flujos de trabajo{#automation}
++ Automatización y flujos de trabajo {#automation}
    + [Guía de automatización de Campaign >](https://experienceleague.adobe.com/es/docs/campaign/automation/home)
 + Administración de seguridad y privacidad {#privacy}
    + [Administración de solicitudes de privacidad](start/privacy.md)
@@ -132,7 +133,7 @@ ht-degree: 99%
    + [Introducción a la interacción en tiempo real](interaction/interaction.md)
    + [Entornos y arquitectura](interaction/interaction-architecture.md)
    + [Prácticas recomendadas](interaction/interaction-best-practices.md)
-   + Definir la configuración de {#interaction-settings}
+   + Definir configuración{#interaction-settings}
       + [Creación de operadores](interaction/interaction-operators.md)
       + [Creación de entornos](interaction/interaction-env.md)
       + [Creación de filtros predefinidos](interaction/interaction-predefined-filters.md)
@@ -146,7 +147,7 @@ ht-degree: 99%
       + [Administración de interacciones anónimas](interaction/anonymous-interactions.md)
    + [Informes e historial](interaction/interaction-tracking.md)
    + [Casos de uso](interaction/interaction-use-cases.md)
-+ Creación de informes y análisis {#analytics}
++ Informes y análisis {#analytics}
    + [Seguimiento y monitorización](start/tracking.md)
    + [Pista de auditoría](reporting/audit-trail.md)
    + Trabajo con informes{#reports}
@@ -168,7 +169,7 @@ ht-degree: 99%
    + [Documentación del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
 + Integraciones {#connect}
    + [Conectar Campaign con otras soluciones](connect/integration.md)
-   + Campaign + Experience Platform{#ac-aep}
+   + Campaign + Experience Platform {#ac-aep}
       + [Compartir y sincronizar públicos y atributos de perfil](connect/ac-aep.md)
       + [Actualización de perfiles de AEP desde las páginas de aterrizaje de Campaign](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
@@ -179,7 +180,7 @@ ht-degree: 99%
    + [Campaign + Workfront](connect/ac-workfront.md)
    + [Campaign + X (Twitter)](connect/ac-tw.md)
    + [Campaign + Base de datos externa](connect/fda.md)
-   + Campaign + su CRM{#ac-crm}
+   + Campaign + su CRM  {#ac-crm}
       + [Introducción a los conectores CRM](connect/crm.md)
       + [Trabajo con Campaign y SFDC](connect/ac-sfdc.md)
       + [Trabajo con Campaign y Microsoft Dynamics](connect/ac-ms-dyn.md)
@@ -191,7 +192,7 @@ ht-degree: 99%
       + [Agregar permisos en carpetas](start/folder-permissions.md)
    + [Panel de control](config/self-service.md)
 + Arquitectura y configuración {#config}
-   + Arquitectura de la versión 8 de Campaign{#architecture}
+   + Arquitectura de Campaign v8 {#architecture}
       + [Principios globales](architecture/general-architecture.md)
       + [Modelos de arquitectura](architecture/architecture.md)
       + [Implementación de FDA de Campaign](architecture/fda-deployment.md)
@@ -205,7 +206,7 @@ ht-degree: 99%
       + [Pasos de implementación](start/implement.md)
       + [Personalizar la instancia](dev/customize.md)
       + [Prácticas recomendadas del modelo de datos](dev/datamodel-best-practices.md)
-   + Configuración {#configuration}
+   + Ajustes y configuración {#configuration}
       + [Configuración de la interfaz de usuario](config/ui-settings.md)
       + [Administrar carpetas y vistas](audiences/folders-and-views.md)
       + [Configuración de mensajería transaccional](config/transactional-msg-settings.md)
@@ -214,7 +215,7 @@ ht-degree: 99%
 + Recursos para desarrolladores {#developer}
    + [Modelo de datos de Campaign](dev/datamodel.md)
    + Esquemas y formularios {#shemas-forms}
-      + [Usar esquemas](dev/schemas.md)
+      + [Trabajo con esquemas](dev/schemas.md)
       + [Crear esquemas](dev/create-schema.md)
       + [Ampliar esquemas](dev/extend-schema.md)
       + [Filtrar esquemas](dev/filter-schema.md)
