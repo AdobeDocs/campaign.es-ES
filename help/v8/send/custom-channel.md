@@ -17,7 +17,7 @@ Adobe Campaign le permite crear canales externos personalizados integrados con t
 
 La creación y la entrega de envíos se pueden realizar tanto en la consola del cliente como en la interfaz de usuario web. Sin embargo, el canal externo personalizado solo se realiza en la consola del cliente.
 
-Para obtener información sobre cómo crear y realizar un envío basado en un canal externo personalizado, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html).
+Para obtener información sobre cómo crear y realizar un envío basado en un canal externo personalizado, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=es).
 
 Estos son los pasos para crear un nuevo canal personalizado externo en la consola del cliente:
 
