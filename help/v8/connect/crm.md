@@ -5,10 +5,11 @@ feature: Salesforce Integration, Microsoft CRM Integration
 role: Admin, User
 level: Beginner
 exl-id: c2d34ee9-4427-48e7-a8cf-0ae02a801d50
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 27%
+ht-degree: 34%
 
 ---
 
@@ -16,11 +17,11 @@ ht-degree: 27%
 
 Adobe Campaign ofrece varios conectores CRM para vincular la plataforma de Adobe Campaign a los sistemas de terceros. Estos conectores de CRM le permiten sincronizar contactos, cuentas, compras, etc., para facilitar la integración de la aplicación con diversas aplicaciones de terceros y de negocios.
 
-Estos conectores permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para garantizar que los datos estén actualizados en todo momento a lo largo de los sistemas.
+Estos conectores permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar información de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para asegurar que los datos estén actualizados en todo momento en todos los sistemas.
 
 Las ventajas principales son:
 
-* Mensajería coherente entre ventas y marketing: la integración de Adobe Campaign con su CRM proporciona a ambos sistemas acceso a la perspectiva del cliente y al historial de marketing por correo electrónico, lo que permite que todos los mensajes al cliente compartan la misma mensajería coherente.
+* Mensajería coherente entre ventas y marketing: la integración de Adobe Campaign con su CRM proporciona a ambos sistemas acceso a insight del cliente e historial de marketing por correo electrónico, lo que permite que todos los mensajes al cliente compartan la misma mensajería coherente.
 
 * Vista holística de todos los datos de clientes y clientes potenciales: al integrar Adobe Campaign con su CRM, es posible compartir y acceder al historial de marketing por correo electrónico en cada contacto desde el sistema CRM.
 

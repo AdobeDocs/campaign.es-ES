@@ -4,11 +4,12 @@ description: Creación de su primer envío
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: 53fab31c21fdfe2f90c4793ccd025af1d5c0e061
-workflow-type: ht
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+workflow-type: tm+mt
 source-wordcount: '1523'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -58,7 +59,7 @@ El contenido de la entrega está listo para configurarse. La definición del con
 * [Definición del contenido del correo electrónico](../send/email.md)
 * [Definición del contenido del SMS](../send/sms/sms-content.md)
 * [Definición del contenido de correo postal](../send/direct-mail.md)
-* [Definir el contenido de la notificación push](../send/push.md)
+* [Definición del contenido de las notificaciones push](../send/push.md)
 
 
 ## Definición del público destinatario {#target-population}
@@ -136,7 +137,7 @@ Puede enviar mensajes a los perfiles que no se hayan guardado en la base de dato
 1. Seleccione el archivo que contiene los destinatarios.
 1. Al importar los destinatarios, haga clic en enlace **[!UICONTROL File format definition...]** para seleccionar y configurar el archivo externo.
 
-   Para obtener más información sobre la importación de los datos, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
+   Para obtener más información sobre la importación de datos, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
 
 1. Haga clic en **[!UICONTROL Finish]** y configure el envío como entrega estándar.
 
@@ -181,7 +182,7 @@ Para obtener más información sobre los destinatarios de la prueba y el envío,
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447002?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 

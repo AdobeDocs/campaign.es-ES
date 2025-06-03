@@ -5,9 +5,9 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '2990'
+source-wordcount: '2976'
 ht-degree: 64%
 
 ---
@@ -40,7 +40,7 @@ Las devoluciones leves de mensajes son errores temporales que los ISP generan cu
 
 Se sabe que el tipo de error **Ignorado** es temporal, como &quot;Fuera de la oficina&quot;, o un error técnico, por ejemplo, si el tipo de remitente es &quot;Administrador de correo&quot;.
 
-El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluir en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se agregan a la tabla de cuarentena (**NmsAddress**) y no a la tabla de destinatarios (**NmsRecipient**) con el estado **[!UICONTROL Denylisted]**. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobes](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
+El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluir en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se agregan a la tabla de cuarentena (**NmsAddress**) y no a la tabla de destinatarios (**NmsRecipient**) con el estado **[!UICONTROL Denylisted]**. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
 
 ## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
 
@@ -54,7 +54,7 @@ Estos tipos de errores se administran de la siguiente manera:
 
 >[!NOTE]
 >
->Como usuario de Managed Cloud Service, la configuración del buzón de rechazos se realiza mediante el Adobe.
+>Como usuario de Cloud Services administrados, la configuración del buzón de rechazos la realiza Adobe.
 
 ## Clasificación del correo rechazado {#bounce-mail-qualification}
 
@@ -66,7 +66,7 @@ La forma en que se gestiona la calificación de correo rechazado en Adobe Campai
 
 * **Errores sincrónicos**: El MTA determina el tipo de devolución y calificación, y envía esa información a Campaign. Las cualificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** no se utilizan para los mensajes de error de envío **sincrónico**.
 
-* **Errores asincrónicos**: Las reglas utilizadas por Campaign para calificar los errores de entrega asincrónicos se enumeran en el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Las devoluciones asincrónicas son calificadas por el proceso inMail a través de las reglas **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=es#bounce-mail-qualification){target="_blank"}.
+* **Errores asincrónicos**: Las reglas utilizadas por Campaign para calificar los errores de entrega asincrónicos se enumeran en el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Las devoluciones asincrónicas son calificadas por el proceso inMail a través de las reglas **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Por ejemplo, si el periodo de validez se establece en el valor predeterminado de
 
 Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
 
-Para obtener más información sobre el período de validez, consulte la [documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#defining-validity-period){target="_blank"}.
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipos de error de correo electrónico {#email-error-types}
@@ -312,7 +312,7 @@ Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problema de certificado (contraseña, datos dañados, etc.) y probar la conexión con un problema de APN<br /> </td> 
+   <td> Problema de certificado (contraseña, corrupción, etc.) y conexión de prueba a un problema de APNS<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> Varios mensajes de error según el error<br /> </td> 
    <td> Leve<br /> </td> 

@@ -4,10 +4,12 @@ description: Introducción a los mensajes
 feature: Email, Push, SMS, Direct Mail, Cross Channel Orchestration
 role: User
 level: Beginner
-source-git-commit: 5b2638927e39b6f839fb3a8639fe106d2c519fbf
+version: Campaign v8, Campaign Classic v7
+exl-id: a523e76d-776c-47d3-9c15-34241cee1092
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1002'
-ht-degree: 75%
+ht-degree: 74%
 
 ---
 
@@ -107,5 +109,4 @@ Puede hacer lo siguiente:
 
 La monitorización de los envíos una vez enviados es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes. Puede monitorizarlas después de enviar un envío, así como comprender cómo se administran los errores y las cuarentenas.
 
-Aprenda a monitorizar los envíos en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages){target="_blank"}
-
+Obtenga información sobre cómo monitorizar los envíos en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es#sending-messages){target="_blank"}

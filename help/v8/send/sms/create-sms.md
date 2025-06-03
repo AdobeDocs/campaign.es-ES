@@ -4,13 +4,14 @@ description: Obtenga información sobre cómo crear un envío de SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
-source-git-commit: 0ef082b49261d0d2de5a6891a4a7f0cf5aafa221
+version: Campaign v8, Campaign Classic v7
+exl-id: 3b15eb3e-8625-4049-bf0d-327407ae5ea6
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 10%
 
 ---
-
 
 # Creación de su primer envío de SMS {#sms-delivery}
 
@@ -50,5 +51,3 @@ Después de la creación de la entrega, puede:
 ## Monitorización y seguimiento de SMS {#sms-monitor}
 
 Después del envío, [aprenderá a monitorizar y rastrear su SMS](sms-monitor.md).
-
-

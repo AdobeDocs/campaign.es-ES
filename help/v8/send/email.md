@@ -1,11 +1,12 @@
 ---
 title: Envío de correos electrónicos con Adobe Campaign
-description: Introducción a los correos electrónicos en Adobe Campaign. Envíe correos electrónicos personalizados a un público objetivo.
+description: Introducción a los correos electrónicos en Adobe Campaign. Envíe correos electrónicos personalizados a una población de destino.
 feature: Email
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: 693b9d9d50d5e60061bd952090380382ebaf8df8
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 20%
@@ -90,7 +91,7 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
 Su primer envío de correo electrónico está listo. Ahora debe definir la audiencia, validar la entrega y enviarlo.
 
-Aprenda a crear un flujo de trabajo para importar un contenido de correo electrónico en este [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=es){target="_blank"}.
+Aprenda a crear un flujo de trabajo para importar un contenido de correo electrónico en este [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

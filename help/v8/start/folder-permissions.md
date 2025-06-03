@@ -5,10 +5,11 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 5bd8dbba-7a06-4737-bc5a-60354f91c709
-source-git-commit: 4a62c551c43cd5a4866df36cce10e294f35db363
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 10%
+ht-degree: 28%
 
 ---
 
@@ -35,7 +36,7 @@ Para editar permisos en una carpeta de Campaign específica, siga los pasos a co
 >
 >No debería poder crear un objeto para el que no tenga al menos una carpeta con derechos de escritura.
 >
->No necesita ser administrador para crear fragmentos, pero debe tener derechos de escritura en al menos una carpeta &quot;Fragmento visual de contenido&quot;. De lo contrario, no podrá crear un fragmento visual.
+>No necesita ser administrador para crear fragmentos, pero debe tener derechos de escritura en al menos una carpeta “Fragmento visual de contenido”. De lo contrario, no podrá crear un fragmento visual.
 
 ## Propagación de permisos {#propagate-permissions}
 

@@ -5,10 +5,11 @@ feature: Data Management, Package Export/Import
 role: Developer
 level: Intermediate, Experienced
 exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
-source-git-commit: 69ef7e81d5fc0f5cf0dc74fa16d970ef89607331
+version: Campaign v8, Campaign Classic v7
+source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
 source-wordcount: '1941'
-ht-degree: 50%
+ht-degree: 53%
 
 ---
 
@@ -289,8 +290,8 @@ Empiece por definir diferentes tipos de paquetes. Solo se utilizan cuatro tipos:
 
 **Entidades**
 
-* Todos los elementos específicos de &quot;xtk&quot; y &quot;nms&quot; en Adobe Campaign como esquemas, formularios, carpetas, plantillas de envíos, etc.
-* Puede considerar una entidad como elemento &quot;admin&quot; y &quot;platform&quot;.
+* Todos los elementos específicos de “xtk” y de “nms” en Adobe Campaign como esquemas, formularios, carpetas, plantillas de envíos, etc.
+* Puede considerar una entidad como elemento “admin” y “platform”.
 * Evite incluir más de una entidad en un paquete al cargarlo en una instancia de Campaign.
 
 Si necesita implementar la configuración en una instancia nueva, puede importar todos los paquetes de entidades.
@@ -312,7 +313,7 @@ Una vez configurada, una función se puede exportar a otro entorno. Por ejemplo,
 
 La primera solución sería volver a exportar toda la función. Sin embargo, para evitar cualquier riesgo (actualizar elementos no deseados), es más seguro tener un paquete que contenga solamente la corrección.
 
-Por este motivo, recomendamos crear un paquete &quot;actualización&quot; que contenga solo un tipo de entidad de la función.
+Por este motivo, recomendamos crear un paquete de “actualización” que contenga solo un tipo de entidad de la función.
 
 Una actualización no solo podría ser una corrección, sino también un nuevo elemento del paquete de campaña, función o entidad. Para evitar implementar todo el paquete, puede exportar un paquete de actualización.
 
