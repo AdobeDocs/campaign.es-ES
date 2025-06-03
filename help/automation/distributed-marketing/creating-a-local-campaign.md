@@ -5,10 +5,10 @@ description: Creación de una campaña local
 feature: Distributed Marketing
 role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 86%
+source-wordcount: '1556'
+ht-degree: 91%
 
 ---
 
@@ -46,17 +46,17 @@ En la ventana de la campaña, haga clic en la pestaña **[!UICONTROL Edit]** y l
 
 ![](assets/mkt_distr_4.png)
 
-### Tipo de interfaz {#web-interface}
+### Interfaz web {#web-interface}
 
-En la ficha **Marketing distribuido**, puede elegir el tipo de interfaz y especificar los valores y parámetros predeterminados que se especificarán cuando una entidad local realice una solicitud.
+En la pestaña **Marketing distribuido**, puede elegir el tipo de interfaz web y especificar los valores y parámetros predeterminados que introducir cuando una entidad local realiza una solicitud.
 
-La interfaz corresponde a un formulario que la entidad local rellena al solicitar la campaña.
+La interfaz web corresponde a un formulario que la entidad local rellena al solicitar la campaña.
 
-Seleccione el tipo de interfaz que se aplicará a las campañas creadas a partir de la plantilla:
+Seleccione el tipo de interfaz web que se aplicará a las campañas creadas a partir de la plantilla:
 
 ![](assets/mkt_distr_1.png)
 
-Hay cuatro tipos de interfaces disponibles:
+Hay cuatro tipos de interfaces web disponibles:
 
 * **[!UICONTROL By brief]**: la entidad local debe proporcionar una descripción de las configuraciones de campaña. Una vez aprobada la solicitud, la entidad central se configura y ejecuta la campaña en su totalidad.
 
@@ -298,7 +298,7 @@ Cuando una entidad local solicita una campaña, sus revisores reciben notificaci
 
 #### Aprobación mediante la consola de cliente {#approving-via-the-adobe-campaign-console}
 
-Las solicitudes también se pueden aprobar a través de la consola del cliente, en la información general de la solicitud de la campaña. Para aprobar una solicitud, selecciónela y haga clic en **[!UICONTROL Approve the order]**.
+Las solicitudes también se pueden aprobar a través de la consola del cliente, en la descripción general de la solicitud de la campaña. Para aprobar una solicitud, selecciónela y haga clic en **[!UICONTROL Approve the order]**.
 
 ![](assets/mkg_dist_local_order_valid.png)
 

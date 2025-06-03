@@ -1,20 +1,22 @@
 ---
-title: Conexión a Campaign con la consola del cliente
-description: Obtenga información sobre cómo instalar la consola del cliente de Campaign en el equipo y conectarse a Adobe Campaign
+title: Conexión a Campaign v8
+description: Aprenda a conectarse a Adobe Campaign versión 8 y a instalar la consola en su equipo para disfrutar de un acceso más sencillo.
 feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 16%
+source-wordcount: '1006'
+ht-degree: 14%
 
 ---
 
-# Conexión a Campaign con la consola del cliente{#gs-ac-connect}
+# Conectar con Adobe Campaign v8{#gs-ac-connect}
 
-Para conectarse a Campaign con la consola del cliente, primero debe instalarla y configurarla.
+Para comenzar a trabajar con Campaign, debe instalar y configurar la consola del cliente.
+
+La consola del cliente es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).
 
 Antes de empezar, debe hacer lo siguiente:
 
@@ -23,19 +25,13 @@ Antes de empezar, debe hacer lo siguiente:
 * Cree su Adobe ID o consiga sus credenciales de usuario en su empresa
 * Instale el tiempo de ejecución de Microsoft Edge Webview2 en su sistema. [Más información](#webview)
 
-
->[!NOTE]
->
->También puede conectarse a la interfaz de usuario web de Campaign mediante un explorador web. Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}.
-
-
 ## Instalación de la consola de cliente{#download-ac-console}
 
 ### Tiempo de ejecución de Microsoft Edge Webview2 {#webview}
 
-A partir de la versión de compilación del Campaign Classic 8.4, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente.
+A partir de la versión de compilación de Campaign Classic 8.4, se requiere la instalación del tiempo de ejecución de Microsoft Edge Webview 2 para cualquier instalación de la consola del cliente.
 
-Web View se instala de forma predeterminada como parte del sistema operativo Windows 11. Si aún no está presente en el sistema, el programa de instalación de la consola del cliente de Campaign le pedirá que lo descargue del [sitio web para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}. Tenga en cuenta que el vínculo de descarga no funciona en el navegador Internet Explorer 11, ya que Microsoft ha dejado de admitir. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
+Web View se instala de forma predeterminada como parte del sistema operativo Windows 11. Si no está presente en el sistema, el programa de instalación de la consola del cliente de Campaign le pedirá que lo descargue del [sitio web para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}. Tenga en cuenta que el vínculo de descarga no funciona en el navegador Internet Explorer 11, ya que Microsoft ha dejado de admitir. Asegúrese de utilizar un explorador diferente para acceder al vínculo.
 
 ### Descargar la consola{#install-ac-console}
 
@@ -43,11 +39,11 @@ Cuando utilice Campaign por primera vez, debe descargar la consola del cliente e
 
 Hay dos opciones disponibles para descargar la consola del cliente:
 
-1. Como administrador de Campaign, conéctese al Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target="_blank"}.
+1. Como administrador de Campaign, conéctese a Adobe [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target="_blank"}.
 
-1. Como usuario final, el administrador de Campaign implementa la consola del cliente y la pone a disposición a través de una dirección URL dedicada.
+1. Como usuario final, el administrador de Campaign implementa Client Console por usted y la pone a disposición a través de una dirección URL dedicada.
 
-Una vez descargado el programa de instalación de la consola del cliente, instálelo en el equipo local.
+Una vez descargado el programa de instalación de Client Console, instálelo en el equipo local.
 
 Tenga en cuenta que no puede cambiar el idioma de la consola del cliente una vez que está instalada.
 
@@ -75,7 +71,7 @@ Puede añadir tantas conexiones como sea necesario para conectarse a los entorno
 
 ## Iniciar sesión en Adobe Campaign {#logon-to-ac}
 
-Los usuarios de Campaign se conectan a la consola de Adobe Campaign con su Adobe ID a través del Sistema Identity Management de Adobe (IMS). Pueden utilizar el mismo ID para todas las soluciones de Adobe. La conexión se guarda al utilizar Adobe Campaign con otras soluciones. Obtenga más información acerca de Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+Los usuarios de Campaign se conectan a la consola de Adobe Campaign con su Adobe ID a través de Adobe Identity Management System (IMS). Pueden utilizar el mismo ID en todas las soluciones de Adobe. La conexión se guarda al utilizar Adobe Campaign con otras soluciones. Obtenga más información acerca de Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 
 Para iniciar sesión en una instancia, siga los pasos a continuación:
 
@@ -95,15 +91,15 @@ A continuación, puede iniciar sesión en Campaign con su Adobe ID.
 >
 >Como Microsoft Edge Webview2 no guarda las credenciales de proxy, la consola puede solicitarle que se autentique dos veces en la primera conexión.
 
-## Actualice la consola de cliente{#upgrade-ac-console}
+## Actualización de la consola de cliente{#upgrade-ac-console}
 
 Cuando el sistema se actualice a una versión más reciente, deberá actualizar la consola de cliente a esa misma versión. Esta es una práctica recomendada y, para algunas versiones, esta actualización es obligatoria. En ese caso, se menciona en las [Notas de la versión](release-notes.md).
 
-Como usuario de Cloud Service administrados, Adobe implementa la consola de cliente por usted. Cuando se conecte al entorno actualizado, se le pedirá que descargue la versión más reciente de la consola del cliente en una ventana emergente. Debe aceptar esta actualización y actualizar la consola de cliente como se solicita.
+Como usuario de Cloud Services administrados, Adobe implementa la consola de cliente por usted. Cuando se conecte al entorno actualizado, se le pedirá que descargue la versión más reciente de la consola del cliente en una ventana emergente. Debe aceptar esta actualización y actualizar la consola de cliente según se le solicite.
 
 >[!CAUTION]
 >
->El Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** sin seleccionar para asegurarse de que se le avise cuando una nueva versión de la consola esté disponible. Si se selecciona esta opción, no se informa al usuario de que se requiere una actualización de la consola.
+>Adobe recomienda dejar la opción **[!UICONTROL No longer ask this question]** sin seleccionar para asegurarse de que se le avise cuando haya disponible una nueva versión de la consola. Si se selecciona esta opción, no se informa al usuario de que se requiere una actualización de la consola.
 >
 
 
@@ -125,7 +121,7 @@ A partir de Campaign v8.6, tendrá acceso a la nueva **interfaz de usuario web d
 
 >[!AVAILABILITY]
 >
->La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+>La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 >
 
 Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz de Adobe Campaign Web [en esta página](campaign-ui.md#ac-web-ui).
@@ -134,7 +130,7 @@ Obtenga más información en la [documentación de la interfaz de usuario web de
 
 ### Acceso web {#web-access}
 
-Se puede acceder a ciertas partes de la aplicación a través de un explorador web mediante una interfaz de usuario de HTML: creación de informes, aprobación de envíos, monitorización de instancias, etc.
+Se puede acceder a ciertas partes de la aplicación a través de un explorador web mediante una interfaz de usuario de HTML: creación de informes, aprobación de envíos, monitorización de instancias y mucho más.
 
 El acceso web proporciona una interfaz similar a la consola pero con un conjunto reducido de funcionalidades.
 

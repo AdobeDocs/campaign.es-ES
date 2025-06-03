@@ -5,7 +5,7 @@ description: Obtenga información sobre cómo administrar los recursos de market
 feature: Campaigns, Resource Management
 role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
-source-git-commit: c3f4ad0b56dd45d19eebaa4d2f06551c8fecac1d
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 46%
@@ -113,7 +113,7 @@ Vaya a la pestaña **[!UICONTROL Tracking]** para comprobar las aprobaciones.
 >
 >Además del revisor designado para cada recurso de marketing, los operadores con derechos de administrador y el gestor de recursos tienen autorización para aprobar un recurso de marketing.
 
-### Publish un recurso {#publishing-a-resource}
+### Publicación de un recurso {#publishing-a-resource}
 
 Cuando se aprueba, el recurso de marketing debe publicarse. El proceso de publicación debe estar sujeto a una implementación específica según los requisitos de la empresa. Esto significa que los recursos se pueden publicar en una extranet o en cualquier otro servidor, se puede enviar información específica a un proveedor de servicios externos, etc.
 

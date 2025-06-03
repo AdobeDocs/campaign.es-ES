@@ -5,10 +5,10 @@ feature: Permissions
 role: User, Admin
 level: Beginner
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '1618'
-ht-degree: 41%
+ht-degree: 39%
 
 ---
 
@@ -35,7 +35,7 @@ Para agregar un usuario, siga los pasos a continuación:
 
 1. Haga clic en **Save**. Se añade el usuario y se muestra en la lista Usuarios. Si asigna una función de administrador o un perfil de producto a los usuarios, estos recibirán una notificación por correo electrónico. Los usuarios deben seguir el vínculo para completar su perfil.
 
-Obtenga más información acerca de la creación de usuarios en el Admin Console de [esta página](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
+Obtenga más información acerca de la creación de usuarios en Admin Console en [esta página](https://helpx.adobe.com/ie/enterprise/using/manage-users-individually.html){target="_blank"}.
 
 Cuando los usuarios nuevos [inician sesión en Campaign](connect.md) con su Adobe ID, se agregan a la lista de operadores de Campaign en la consola del cliente. Los operadores de campaña se almacenan en la carpeta **[!UICONTROL Administration > Access management > Operators]** del explorador de campañas.
 
@@ -43,17 +43,17 @@ Cuando los usuarios nuevos [inician sesión en Campaign](connect.md) con su Adob
 
 Utilice perfiles de producto para otorgar a los usuarios las funciones incluidas en el producto.
 
-* Para cada producto del Admin Console, puede crear uno o más perfiles de producto.
+* Para cada producto en Admin Console, puede crear uno o más perfiles de producto.
 * En cada perfil de producto, se asignan usuarios y grupos de usuarios (en su organización).
 * Cuando un usuario inicia sesión con sus credenciales según se especifican en el perfil del producto, se le concede acceso a las aplicaciones y servicios del producto en el que se basa el perfil del producto.
 
 Estos perfiles de producto coinciden con los grupos de operadores que se almacenan en la carpeta **[!UICONTROL Administration > Access management > Operator groups]** del explorador de Campaign.
 
-En el Admin Console, los perfiles de producto utilizan la siguiente sintaxis:
+En Admin Console, los perfiles de producto utilizan la siguiente sintaxis:
 
 campaign - `<your instance>` - nombre interno del grupo de operadores
 
-Por ejemplo, para el grupo **Operador de envío** de la instancia &quot;prueba&quot;, el perfil de producto del Admin Console es:
+Por ejemplo, para el grupo **Operador de envío** de la instancia &quot;prueba&quot;, el perfil de producto en Admin Console es:
 
 campaign - test - delivery
 
@@ -61,7 +61,7 @@ Puede utilizar perfiles de producto predeterminados o crear nuevos.
 
 ### Creación de un perfil de producto{#create-product-profile}
 
-Para añadir un nuevo perfil de producto al Adobe, primero debe crearlo en la consola del cliente de Campaign y, a continuación, agregarlo en el Admin Console.
+Para añadir un nuevo perfil de producto a Adobe, primero debe crearlo en la consola del cliente de Campaign y, a continuación, añadirlo en Admin Console.
 
 Por ejemplo, para crear un perfil de producto &quot;revisores&quot;, siga los pasos a continuación.
 
@@ -73,9 +73,9 @@ Por ejemplo, para crear un perfil de producto &quot;revisores&quot;, siga los pa
 1. Defina los permisos asociados seleccionando derechos asignados. Los derechos asignados se detallan en [esta sección](#use-named-rights)
 1. Guarde el nuevo grupo de operadores.
 
-#### Cree el perfil de producto en el Admin Console{#create-profile-in-admin-console}
+#### Cree el perfil de producto en Admin Console{#create-profile-in-admin-console}
 
-1. Conectar con el [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
+1. Conéctese a [Admin Console](https://adminconsole.adobe.com/enterprise){target="_blank"}.
 1. En la sección **Productos y servicios** de la página de inicio, abra el producto de Campaign.
 1. Haga clic en **Nuevo perfil** e introduzca el nombre del perfil de producto que desea crear, con la sintaxis exacta correcta tal como se explica [aquí](#product-profiles). Para nuestro ejemplo, ingresamos: campaign - `<your-instance-name>` - reviewers
 
@@ -90,7 +90,7 @@ Una práctica recomendada es asignar perfiles de producto a grupos de usuarios. 
 
 ### Perfiles de producto y grupos de operadores predeterminados {#ootb-productprofiles}
 
-Adobe Campaign incluye **perfiles de producto** integrados que se definen cuando el Adobe habilita su entorno.
+Adobe Campaign incluye **perfiles de producto** integrados que se definen cuando Adobe habilita su entorno.
 
 ![](assets/ootb-product-profiles.png)
 
@@ -115,7 +115,7 @@ Estos perfiles de producto coinciden con los **grupos de operadores** de Campaig
 
 1. **[!UICONTROL Campaign managers]** (operación)
 
-   Los operadores de este grupo pueden administrar las campañas de marketing: permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) en el marco de **[!UICONTROL Campaign]** (módulo Adobe Campaign opcional).
+   Los operadores de este grupo pueden administrar las campañas de marketing: permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) dentro del marco de **[!UICONTROL Campaign]** (módulo opcional de Adobe Campaign).
 
    Este grupo contiene los siguientes derechos asignados:
 
@@ -173,7 +173,7 @@ Estos perfiles de producto coinciden con los **grupos de operadores** de Campaig
 
 ## Trabajar con grupos de usuarios{#user-groups}
 
-Puede utilizar el Admin Console para crear grupos de usuarios y asignarles usuarios.
+Puede utilizar Admin Console para crear grupos de usuarios y asignarles usuarios.
 
 Un grupo de usuarios es una colección de usuarios diferentes a los que se debe otorgar un conjunto compartido de permisos. Aprenda a crear grupos de usuarios en [esta sección](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 

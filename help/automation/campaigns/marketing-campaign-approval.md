@@ -6,9 +6,9 @@ feature: Approvals, Campaigns
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 03be5058-436e-4de9-99a7-91d799aa17f6
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2279'
 ht-degree: 55%
 
 ---
@@ -91,7 +91,7 @@ Si se define una lista de revisores, el trabajo se aprueba en cuanto un revisor 
 
 ## Revisión y aprobación de entregas {#review-and-approve-deliveries}
 
-Para cada campaña, puede aprobar el objetivo de entrega, [contenido de entrega](#approving-content) y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola del cliente o de un explorador web. [Más información](#approving-processes).
+Para cada campaña, puede aprobar el objetivo de entrega, [contenido de entrega](#approving-content) y los costes. Los operadores de Adobe Campaign responsables de la aprobación pueden recibir notificaciones por correo electrónico y aceptar o rechazar la aprobación a través de la consola del cliente o de una conexión web. [Más información](#approving-processes).
 
 Para las entregas de correo directo, los operadores de Adobe Campaign pueden ver el archivo de extracción antes de enviarlo al enrutador y, si es necesario, pueden cambiar el formato y volver a iniciar la extracción. [Más información](#approve-an-extraction-file).
 
@@ -104,7 +104,7 @@ Cuando se hayan completado estas fases de validación, se puede iniciar el enví
 
 ### Pasos para aprobar un envío {#approving-processes}
 
-Los pasos que requieren aprobación aparecen en el panel de campañas (a través de la consola del cliente o un explorador web). También aparecen en la tabla de seguimiento de entregas y en el panel de entregas.
+Las etapas que requieren aprobación aparecen en el panel de campañas (a través de la consola del cliente o la interfaz web). También aparecen en la tabla de seguimiento de entregas y en el panel de entregas.
 
 ![](assets/delivery-approval-actions.png)
 
@@ -166,7 +166,7 @@ Se puede configurar un ciclo de aprobación de contenido. Para ello, seleccione 
 
    * via the notification email: el correo electrónico de notificación contiene un vínculo a las pruebas que ya se han enviado y posiblemente a una representación del mensaje para los distintos correos web si el complemento **Deliverability** está habilitado para esta instancia.
 
-   * a través de la consola del cliente o un explorador web, el seguimiento de entregas, el panel de entregas o el panel de campañas. Este panel de campaña le permite ver la lista de pruebas que se han enviado haciendo clic en el vínculo **[!UICONTROL Inbox rendering...]**. Para ver el contenido, haga clic en el icono **[!UICONTROL Detail]** a la derecha de la lista.
+   * a través de la consola del cliente o de la interfaz web, el seguimiento de entregas, el panel de entregas o el panel de campañas. Este panel de campaña le permite ver la lista de pruebas que se han enviado haciendo clic en el vínculo **[!UICONTROL Inbox rendering...]**. Para ver el contenido, haga clic en el icono **[!UICONTROL Detail]** a la derecha de la lista.
 
 1. Se envía un correo electrónico de notificación a la persona responsable de la campaña en el que se indica si el contenido se ha aprobado o no. La persona responsable de la campaña puede volver a iniciar el ciclo de aprobación de contenido en cualquier momento. Para ello, haga clic en el vínculo en la línea **[!UICONTROL Content status]** del panel de campañas (al nivel de entrega) y luego haga clic en **[!UICONTROL Reset content approval to submit it again]**.
 
@@ -200,7 +200,7 @@ Esta opción le permite definir un operador externo encargado de aprobar el proc
 1. El administrador de contenido externo recibe un mensaje de correo electrónico de notificación que indica que el contenido se ha aprobado y se solicita la aprobación externa.
 1. El correo electrónico de notificación contiene vínculos a las pruebas enviadas, lo que le permite ver el procesamiento de la entrega, y un botón para aprobar o rechazar el contenido de la entrega.
 
-Estos vínculos solo están disponibles si se han enviado una o más pruebas. De lo contrario, el procesamiento de la entrega solo está disponible a través de la consola del cliente o de un explorador web.
+Estos vínculos solo están disponibles si se han enviado una o más pruebas. De lo contrario, el procesamiento de la entrega solo está disponible a través de la consola del cliente o de la interfaz web.
 
 ### Aprobación de un archivo de extracción {#approve-an-extraction-file}
 
@@ -220,7 +220,7 @@ Los trabajos se pueden aprobar en el panel de campañas, en la pestaña de segui
 
 ### Aprobar en el panel {#approval-via-the-dashboard}
 
-Para aprobar un trabajo a través de la consola del cliente o mediante un explorador web, haga clic en el vínculo correspondiente en el panel de campañas.
+Para aprobar un trabajo a través de la consola del cliente o la interfaz web, haga clic en el vínculo correspondiente en el panel de campañas.
 
 Por ejemplo, una vez ejecutado el análisis de envío:
 

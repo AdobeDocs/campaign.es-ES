@@ -5,9 +5,9 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
+source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '637'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,21 @@ A continuación se describen los componentes de Adobe Campaign y la arquitectura
 
 ![](assets/do-not-localize//ac-components.png)
 
+### Capa de presentación{#presentation-layer}
 
+Puede acceder a Adobe Campaign a través de un cliente enriquecido, un cliente ligero o una integración de API.
+
+* Cliente enriquecido
+
+  El cliente enriquecido de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. [Más información sobre la consola del cliente de Campaign](../start/connect.md).
+
+* Cliente ligero
+
+  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario de HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  [Más información sobre Campaign Web Access](../start/connect.md).
+
+* Aplicaciones externas con API
+
+  En determinados casos, se puede llamar al sistema desde aplicaciones externas mediante las API de servicios web expuestas mediante el protocolo SOAP. [Más información sobre las API de Campaign](../dev/api.md).
 
 ### Capa de persistencia{#persistance-layer}
 
@@ -36,9 +50,9 @@ La fiabilidad de la base de datos es de suma importancia porque la mayoría de l
 
 La capa de aplicación lógica de Campaign se puede configurar fácilmente para satisfacer necesidades comerciales complejas. Puede utilizar Campaign como plataforma única con diferentes aplicaciones que se combinan para crear una arquitectura abierta y escalable. Cada instancia de Campaign es una colección de procesos en la capa de aplicación, algunos de los cuales se comparten y otros están dedicados.
 
-## Cloud Service administrados de Campaign{#ac-managed-services}
+## Cloud Services administrados de Campaign{#ac-managed-services}
 
-La versión 8 de Adobe Campaign se implementa as a Managed Service: todos los componentes de Adobe Campaign, incluida la interfaz de usuario, el motor de administración de la ejecución y las bases de datos de Campaign, están totalmente alojados por el Adobe, incluida la ejecución de correo electrónico, las páginas espejo, el servidor de seguimiento y los componentes web externos, como la cancelación de la suscripción de la página/centro de preferencias y páginas de aterrizaje.
+La versión 8 de Adobe Campaign se implementa as a Managed Service: todos los componentes de Adobe Campaign, incluida la interfaz de usuario, el motor de administración de la ejecución y las bases de datos de Campaign, están totalmente alojados en Adobe, incluida la ejecución de correo electrónico, las páginas espejo, el servidor de seguimiento y los componentes web externos, como la cancelación de suscripción de la página/centro de preferencias y las páginas de aterrizaje.
 
 ## Procesos de Campaign
 
@@ -46,7 +60,7 @@ El servidor web de Campaign controla el acceso a los procesos web de Campaign. J
 
 ![](assets/do-not-localize/ac-processes.png)
 
-SOAP La consola del cliente de Campaign se conecta al servidor web mediante XML de la aplicación a través de HTTP. El servidor web proporciona la capa de seguridad, pasa las solicitudes a la capa de aplicación mediante JavaScript y los procesos internos de Campaign acceden a la base de datos mediante SQL.
+La consola del cliente de Campaign se conecta al servidor web mediante SOAP XML a través de HTTP. El servidor web proporciona la capa de seguridad, pasa las solicitudes a la capa de aplicación mediante JavaScript y los procesos internos de Campaign acceden a la base de datos mediante SQL.
 
 <!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 

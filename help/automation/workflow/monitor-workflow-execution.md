@@ -5,7 +5,7 @@ description: Monitorización de la ejecución del flujo de trabajo
 feature: Workflows
 role: Admin
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
-source-git-commit: a78019d11a0a2acbd8c0d9ba7c2082c09f90356c
+source-git-commit: 3ce23cadf94eb561fb406fff739edd3eddf83b58
 workflow-type: tm+mt
 source-wordcount: '1926'
 ht-degree: 95%
@@ -90,7 +90,7 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
 ## Depuración de registros {#purging-the-logs}
 
-El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]**&#x200B;**[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](start-a-workflow.md).
+El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](start-a-workflow.md).
 
 ![](assets/purge_historique.png)
 

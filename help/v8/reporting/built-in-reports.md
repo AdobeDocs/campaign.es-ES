@@ -5,7 +5,7 @@ feature: Reporting
 role: User
 level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 88%
@@ -80,7 +80,7 @@ Para más información sobre el contenido de estos informes, consulte [esta secc
   </tr> 
   <tr> 
    <td> Errores y rechazos (errors)<br /> </td> 
-   <td> Rechazos y no entregables por motivo y por dominio.<br /> </td> 
+   <td> Rechazos y correos que no se pueden entregar por motivo y por dominio.<br /> </td> 
    <td> nms:delivery<br /> </td> 
   </tr> 
   <tr> 
@@ -180,7 +180,7 @@ Los informes sobre campañas hacen referencia a los datos de la tabla **nms:oper
   </tr> 
   <tr> 
    <td> Errores y rechazos (operationErrors)<br /> </td> 
-   <td> Rechazos y no entregables por motivo y dominio, dependen de Campaign.<br /> </td> 
+   <td> Rechazos y correos que no se pueden entregar por motivo y dominio, dependen de Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> Exploración de las líneas de coste (budgetExplorerOperation)<br /> </td> 
@@ -360,7 +360,7 @@ Los informes de aplicaciones Web hacen referencia a los datos de la tabla **nms:
 
 ## Otros informes de ootb {#other-ootb-reports}
 
-También se incluyen los siguientes informes. Para más información al respecto, consulte el documento sobre la funcionalidad a la hacen referencia.
+También se incluyen los siguientes informes integrados. Para más información al respecto, consulte el documento sobre la funcionalidad a la hacen referencia.
 
 <table> 
  <tbody> 

@@ -3,7 +3,7 @@ title: Notas de la versión de Campaign v8 de 2022
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2022
 feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
-source-git-commit: fe96eb65ac04fc2b89f0dfe1e8ed4286223c3f85
+source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
 source-wordcount: '1943'
 ht-degree: 89%
@@ -94,7 +94,7 @@ Para optimizar la seguridad, los tokens de seguridad se han eliminado de las dir
 
 **Mejoras**
 
-* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML en la consola utiliza ahora **Microsoft Edge Chromium**. Además, la instalación del tiempo de ejecución de **Microsoft Edge WebView 2** es ahora necesaria para cualquier instalación de la consola del cliente.
+* Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML en la consola utiliza ahora **Microsoft Edge Chromium**. Además, ahora se requiere la instalación del tiempo de ejecución de **Microsoft Edge WebView 2** para cualquier instalación de la consola del cliente.
 * Se ha mejorado la ejecución del flujo de trabajo con alta disponibilidad, lo que permite ejecutar flujos de trabajo simultáneos en diferentes contenedores para evitar la pérdida del servicio del flujo de trabajo y los errores de ejecución relacionados. **Nota**: esta nueva funcionalidad se lanza con disponibilidad limitada solo para un conjunto de clientes.
 * Las solicitudes de privacidad se realizan ahora en lote para un área de nombres de privacidad determinada. Esta mejora aumenta el tiempo de ejecución de las solicitudes de eliminación de RGPD/privacidad.
 
@@ -131,7 +131,7 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
 >[!CAUTION]
 >
-> la actualización de la consola de cliente es obligatoria. Obtén información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
+> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
 
 _7 de octubre de 2022_
 

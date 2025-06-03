@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo migrar los operadores técnicos de
 exl-id: 63008b58-4384-4d2b-864a-57f11d701c01
 hide: true
 hidefromtoc: true
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 0%
@@ -57,7 +57,7 @@ Para esta migración, debe agregar las siguientes API en su proyecto: **API de a
 
 ### Paso 2: Añadir una API al proyecto mediante la autenticación de servidor a servidor{#ims-migration-step-2}
 
-Una vez creado el proyecto en Adobe Developer Console, añada una API que utilice la autenticación de servidor a servidor. Obtenga información sobre cómo configurar la credencial de servidor a servidor OAuth en [documentación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
+Una vez creado el proyecto en Adobe Developer Console, añada una API que utilice la autenticación de servidor a servidor. Aprenda a configurar la credencial de servidor a servidor OAuth en [documentación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/implementation/){target="_blank"}.
 
 Cuando la API se haya conectado correctamente, puede acceder a las credenciales recién generadas, incluidos el ID de cliente y el Secreto de cliente, así como generar un token de acceso.
 
@@ -100,7 +100,7 @@ Para actualizar este operador, siga estos pasos:
 
 To update the technical operator authentication mode to IMS, follow these steps:
 
-1. From Campaign client console explorer, browse to the **Administration > Access Management > Operators**.
+1. From Campaign Client Console explorer, browse to the **Administration > Access Management > Operators**.
 1. Edit the existing technical operator used for APIs.
 1. Replace the **Name (login)** of this technical operator by the technical account email retrieved earlier.
 1. Browse to the **Edit** button on the top left beside **File**, and select **Edit the XML source**.
@@ -181,7 +181,7 @@ Para probar la conexión, siga los pasos detallados en la [guía de credenciales
 
 Debe actualizar las integraciones de la API con los sistemas de terceros.
 
-Para obtener más información sobre los pasos de integración de la API, incluido un código de ejemplo para una integración sin problemas, consulte la [documentación de autenticación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
+Para obtener más información sobre los pasos de integración de API, incluido un código de ejemplo para una integración sin problemas, consulte [Documentación de autenticación de Adobe Developer Console](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/){target="_blank"}.
 
 
 ### Paso 7: Eliminación del operador técnico anterior {#ims-migration-step-7}

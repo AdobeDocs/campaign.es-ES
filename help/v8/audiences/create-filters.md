@@ -5,16 +5,16 @@ feature: Audiences, Profiles
 role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 33%
+ht-degree: 35%
 
 ---
 
 # Creación y administración de filtros{#create-filters}
 
-El filtrado de datos es el proceso de seleccionar una parte más pequeña del conjunto de datos, solo los registros que coinciden con determinados criterios y utilizar ese subconjunto para acciones específicas (actualizaciones, creación de audiencias) o análisis.
+El filtrado de datos es el proceso de seleccionar una parte más pequeña del conjunto de datos, solo los registros que coinciden con determinados criterios, y utilizar ese subconjunto para acciones específicas (como actualizaciones o creación de público) o análisis.
 
 Al examinar Campaign desde **[!UICONTROL Explorer]**, los datos se muestran en listas. Puede utilizar filtros integrados existentes para acceder a un subconjunto específico de estos datos: direcciones en cuarentena, destinatarios sin objetivo, un intervalo de edad específico o una fecha de creación, por ejemplo.
 
@@ -327,9 +327,9 @@ Para realizar funciones de filtrado avanzadas, utilice funciones para definir el
 
 Aprenda a crear consultas avanzadas en estos ejemplos completos:
 
-* Aprenda a segmentar atributos de destinatario simples en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
-* Aprenda a filtrar los destinatarios no contactados durante los últimos 7 días en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=es){target="_blank"}.
-* Aprenda a recuperar la lista de operadores que pueden filtrar las cuentas activas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=es){target="_blank"}.
+* Aprenda a segmentar atributos de destinatario simples en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Aprenda a filtrar los destinatarios no contactados durante los últimos 7 días en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Obtenga información sobre cómo recuperar la lista de operadores que pueden filtrar las cuentas activas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 * Aprenda a crear una audiencia de correo electrónico de cumpleaños en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=es){target="_blank"}.
 
 

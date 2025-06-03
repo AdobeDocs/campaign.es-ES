@@ -5,7 +5,7 @@ feature: Salesforce Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 1e20f3b9-d1fc-411c-810b-6271360286f9
-source-git-commit: 09db0cc1a14bffefe8d1b8d0d5a06d5b6517a5bb
+source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
 source-wordcount: '349'
 ht-degree: 29%
@@ -20,13 +20,13 @@ Una vez completada la configuración, la sincronización de datos entre sistemas
 
 >[!NOTE]
 >
->Las versiones de SFDC compatibles se detallan en Campaign [Matriz de compatibilidad](../start/compatibility-matrix.md).
+>Las versiones de SFDC compatibles se detallan en Campaign [Compatibility matrix](../start/compatibility-matrix.md).
 
-Siga los pasos a continuación para configurar una cuenta externa dedicada para importar y exportar datos de Salesforce a Adobe Campaign.
+Siga los pasos a continuación para configurar una cuenta externa dedicada para importar y exportar datos de Salesforce en Adobe Campaign.
 
 ## Creación de la conexión{#new-sfdc-external-account}
 
-Primero, debe crear la cuenta externa de Salesforce.
+En primer lugar, debe crear la cuenta externa de Salesforce.
 
 1. Examine el nodo **[!UICONTROL Administration > Platform > External accounts]** del explorador de Campaign y cree una cuenta externa.
 1. Seleccione la cuenta externa **[!UICONTROL Salesforce.com]** en la sección **Tipo**.
@@ -36,11 +36,11 @@ Primero, debe crear la cuenta externa de Salesforce.
 
    Para configurar la cuenta externa de Salesforce CRM para que funcione con Adobe Campaign, proporcione los siguientes detalles:
 
-   * Escriba su inicio de sesión en Salesforce en el campo **[!UICONTROL Account]**.
+   * Escriba su inicio de sesión de Salesforce en el campo **[!UICONTROL Account]**.
    * Introduzca su contraseña de Salesforce.
    * Puede ignorar el campo **[!UICONTROL Client identifier]**.
    * Copiar/pegar su Salesforce **[!UICONTROL Security token]**
-   * Seleccione su **[!UICONTROL API version]**. Las versiones de API de SFDC compatibles se enumeran en Campaign [Matriz de compatibilidad](../start/compatibility-matrix.md).
+   * Seleccione su **[!UICONTROL API version]**. Las versiones de API de SFDC compatibles se enumeran en Campaign [Compatibility matrix](../start/compatibility-matrix.md).
 
 1. Seleccione la opción **Enable** para activar la cuenta en Campaign.
 
@@ -76,6 +76,6 @@ Puede reemplazar todos los valores de una enumeración de Adobe Campaign con los
 
 Adobe Campaign y Salesforce.com ya están conectados. Puede configurar la sincronización de datos entre los dos sistemas.
 
-Para sincronizar datos entre los datos de Adobe Campaign y el SFDC, cree un flujo de trabajo y use la actividad **[!UICONTROL CRM connector]**.
+Para sincronizar datos entre los datos de Adobe Campaign y SFDC, cree un flujo de trabajo y use la actividad **[!UICONTROL CRM connector]**.
 
 Obtenga más información acerca de la sincronización de datos [en esta página](crm-data-sync.md).

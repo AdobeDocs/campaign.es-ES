@@ -5,9 +5,9 @@ description: Creación y administración de tareas
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '3758'
+source-wordcount: '3757'
 ht-degree: 85%
 
 ---
@@ -36,7 +36,7 @@ Las tareas se muestran en la lista de tareas a la que se puede acceder mediante 
 
 Puede ver todas las tareas del operador actual.
 
-Para obtener más información sobre esto, consulte [Ejecución del estado de una tarea](#execution-status-of-a-task) y [Progreso del estado de una tarea](#progress-status-of-a-task).
+Para obtener más información sobre esto, consulte [Estado de ejecución de una tarea](#execution-status-of-a-task) y [Progreso del estado de una tarea](#progress-status-of-a-task).
 
 ### Filtrar tareas {#filtering-tasks}
 
@@ -467,7 +467,7 @@ A continuación, se muestran las fases del ciclo de vida completo de una tarea p
 1. Después de completar la sección asignada a ellos, los participantes pueden aprobar la tarea, ya sea:
 
    * mediante el correo electrónico de notificación.
-   * a través de la consola del cliente o el acceso web, en el panel de tareas.
+   * a través de la consola del cliente o de la interfaz web, en el panel de tareas.
 
      ![](assets/s_ncs_user_task_start_rea.png)
 
@@ -481,7 +481,7 @@ A continuación, se muestran las fases del ciclo de vida completo de una tarea p
 
    ![](assets/s_ncs_user_task_follow_from_dashboard.png)
 
-1. Una vez que la persona a cargo de la tarea decide que esta se ha completado, puede cerrarla con el enlace incluido en el mensaje de correo electrónico de notificación enviado cuando se inició la tarea, así como mediante la consola de cliente o la interfaz.
+1. Una vez que la persona a cargo de la tarea decide que esta se ha completado, puede cerrarla con el enlace incluido en el mensaje de correo electrónico de notificación enviado cuando se inició la tarea, la consola del cliente o la interfaz.
 
    ![](assets/s_ncs_user_task_console_ressource_validation.png)
 
@@ -491,7 +491,7 @@ A continuación, se muestran las fases del ciclo de vida completo de una tarea p
 
 1. El estado de la tarea cambia a **[!UICONTROL To approve]** y se envía una notificación al revisor.
 
-   Este aprueba la tarea por medio del correo electrónico de notificación, la consola del cliente o con un navegador web.
+   Este aprueba la tarea por medio del correo electrónico de notificación, la consola del cliente o la interfaz web.
 
    Puede actuar a través del panel de campañas:
 

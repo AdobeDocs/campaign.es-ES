@@ -5,10 +5,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 9ce5acd97e077105316c81029e3ccbc6fa4389dc
+source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
 source-wordcount: '1581'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -117,11 +117,11 @@ _7 de septiembre de 2021_
 
 * Tras finalizar su vida útil, se ha eliminado Flash de todas las funciones y componentes de Campaign relacionados y se ha sustituido por HTML5. Se ha eliminado el tipo de gráfico **Medición**. (NEO-30330) [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=es)
 * Al instalar la consola del cliente en Windows, el instalador ahora comprueba si hay un nodo de registro principal y crea uno si falta. Esto evita posibles problemas al iniciar la consola. (NEO-34854)
-* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) gestionan los caracteres especiales. Los parámetros de URL ahora están codificados.
+* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, exploradores de Internet, etc.) gestionan los caracteres especiales. Los parámetros de URL ahora están codificados.
 
 **Otros cambios**
 
-* Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=es#configure-acc-for-microsoft)
+* Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
 * Se ha añadido un mecanismo de protección para permitir que el [flujo de trabajo técnico de facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=es#billing-report) se ejecute en la instancia de marketing.

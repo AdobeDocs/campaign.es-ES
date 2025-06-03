@@ -5,7 +5,7 @@ feature: Web Forms, Landing Pages
 role: Developer
 level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 4%
@@ -22,7 +22,7 @@ La clave de identificación de un formulario es una cadena formada por el área 
 
 ## Edición de formularios de entrada
 
-Cree y configure formularios de entrada desde la carpeta **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** de la consola del cliente:
+Cree y configure formularios de entrada desde la carpeta **[!UICONTROL Administration]> [!UICONTROL Configuration] >[!UICONTROL Input forms]** de la consola de cliente:
 
 ![](assets/form_arbo.png)
 
@@ -87,7 +87,7 @@ El control de edición se adapta automáticamente al tipo de datos correspondien
 
 De forma predeterminada, cada campo se muestra en una sola línea y ocupa todo el espacio disponible en función del tipo de datos.
 
-Todos los atributos de formulario se enumeran en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=es){target="_blank"}.
+Todos los atributos de formulario se enumeran en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}.
 
 ## Formato {#formatting}
 
@@ -502,7 +502,7 @@ Ejemplo en el campo &quot;Género&quot;:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## Añadir botón de radio {#radio-button}
+## Añadir botón de opción {#radio-button}
 
 Un botón de opción le permite elegir entre varias opciones. Las etiquetas **`<input>`** se utilizan para enumerar las opciones posibles, y el atributo **checkvalue** especifica el valor asociado con la opción.
 
@@ -638,7 +638,7 @@ El botón **[!UICONTROL Finish]** guarda los datos introducidos y cierra el form
 
 ### Métodos SOAP {#soap-methods}
 
-SOAP Se puede iniciar la ejecución del método de desde una etiqueta **`<leave>`** rellenada al final de una página.
+Se puede iniciar la ejecución del método SOAP desde una etiqueta **`<leave>`** rellenada al final de una página.
 
 La etiqueta **`<soapcall>`** contiene la llamada para el método con los siguientes parámetros de entrada:
 

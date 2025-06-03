@@ -5,10 +5,10 @@ feature: Audiences, Profiles, Seed Address, Proofs
 role: User
 level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 54%
+ht-degree: 55%
 
 ---
 
@@ -20,7 +20,7 @@ Los perfiles de prueba se crean como direcciones semilla. Se utilizan para dirig
 
 Las direcciones semilla tienen las siguientes ventajas:
 
-* Sustitución aleatoria de campos con datos tomados de perfiles de destinatarios: esto permite introducir únicamente la dirección de correo electrónico, por ejemplo, en la sección de la dirección semilla; además, permite que Campaign rellene automáticamente los demás campos de formulario del perfil. Obtenga más información en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=es){target="_blank"}.
+* Sustitución aleatoria de campos con datos tomados de perfiles de destinatarios: esto permite introducir únicamente la dirección de correo electrónico, por ejemplo, en la sección de la dirección semilla; además, permite que Campaign rellene automáticamente los demás campos de formulario del perfil. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=en){target="_blank"}.
 * Al utilizar un flujo de trabajo con funciones de gestión de datos, los datos adicionales procesados en los envíos se pueden introducir en el ámbito de la dirección semilla para forzar los valores, esto evita la sustitución de valores aleatorios.
 * Las direcciones sembradas se excluyen automáticamente de los informes en las siguientes estadísticas de envío: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
@@ -30,7 +30,7 @@ Las direcciones semilla se añaden al destino de las entregas mediante su import
 >
 >Las direcciones semilla no se crean en la tabla de destinatarios sino en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos. De lo contrario, los campos ampliados no tienen en cuenta las direcciones semilla.
 >
->Se presenta un ejemplo de cómo extender la tabla de direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=es){target="_blank"}.
+>Se presenta un ejemplo de cómo extender la tabla de direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
 
 ## Creación de direcciones semilla
 
@@ -85,7 +85,7 @@ Hay tres modos de inserción posibles:
 
 1. Cree una condición para seleccionar dinámicamente las direcciones de control que desea insertar. Para ello, haga clic en el enlace **[!UICONTROL Edit the dynamic condition...]** e introduzca los parámetros de selección de las direcciones semilla. Por ejemplo, puede incluir todas las direcciones semilla que contenga una carpeta específica o las pertenecientes a un departamento específico de su organización.
 
-   Se presenta un ejemplo de esto en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html?lang=es){target="_blank"}.
+   Se presenta un ejemplo de esto en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case--selecting-seed-addresses-on-criteria.html){target="_blank"}.
 
 Para las entregas, también se puede personalizar la forma en que se insertan las direcciones en los archivos de extracción. De forma predeterminada, se insertan en el orden de clasificación del archivo de salida, pero se puede elegir insertarlos al final o al principio del archivo o aleatoriamente entre los receptores del destino principal.
 

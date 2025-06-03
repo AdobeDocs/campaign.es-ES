@@ -6,10 +6,10 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 49%
+source-wordcount: '1298'
+ht-degree: 53%
 
 ---
 
@@ -159,14 +159,9 @@ A medida que navega por el calendario, también puede crear un programa o una ca
 Cuando crea una campaña a través de la pestaña **[!UICONTROL Schedule]** de un programa, la campaña se relaciona automáticamente con el programa correspondiente. El campo **[!UICONTROL Program]** está oculto en este caso.
 
 
-## Acceso a Campaign con un explorador web {#use-the-web-interface}
+## Uso de la interfaz web {#use-the-web-interface-}
 
-
->[!AVAILABILITY]
->
->A partir de la versión 8.6 de Campaign, Campaign está disponible en una interfaz de usuario web. La mayoría de las acciones de marketing se pueden realizar desde esta nueva interfaz. [Más información](../../v8/start/campaign-ui.md#discover-the-user-interface).
-
-Puede acceder a algunas de las pantallas de la consola del cliente de Adobe Campaign a través de un explorador de Internet para ver todas las campañas y envíos, así como informes e información sobre los perfiles de la base de datos. No puede crear componentes a partir de este acceso web, pero, según los derechos de acceso, puede ver los datos de la base de datos o actuar en ellos. Normalmente, puede aprobar el contenido de la campaña y su segmentación, reiniciar o detener una entrega, etc.
+Puede acceder a las pantallas de la consola del cliente de Adobe Campaign a través de un explorador de Internet para ver todas las campañas y envíos, así como informes e información sobre los perfiles de la base de datos. Este acceso no permite la creación de registros. Según los derechos de los operadores, puede ver o actuar en los datos de la base de datos. Por ejemplo: puede aprobar el contenido de las campañas y su segmentación, reiniciar o detener una entrega, etc.
 
 1. Inicie sesión a través de https://`<your instance>:<port>/view/home`.
 1. Utilice los menús para acceder a las descripciones generales.
@@ -213,4 +208,4 @@ También puede utilizar el vínculo incluido en los mensajes de notificación. P
 
 Este vídeo muestra cómo crear planes, programas y campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449899?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)
