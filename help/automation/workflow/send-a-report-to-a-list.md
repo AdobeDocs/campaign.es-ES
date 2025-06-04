@@ -3,8 +3,9 @@ product: campaign
 title: Envío de un informe a una lista
 description: Descubra más información sobre cómo enviar un informe a una lista con un flujo de trabajo
 feature: Workflows
+version: Campaign v8, Campaign Classic v7
 exl-id: 5bc576d0-cab7-4d26-a3a5-91982a00e356
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 40%
@@ -21,7 +22,7 @@ Los pasos de implementación principales para este caso de uso son:
 
 * Cree una lista de destinatarios para este informe. [Más información](#step-1--create-the-recipient-list).
 * Cree una plantilla de envíos que cree un nuevo envío cada vez que se ejecute el flujo de trabajo. [Más información](#step-2--create-the-delivery-template).
-* Cree un flujo de trabajo que genere el informe en formato de PDF y lo envíe a la lista de destinatarios. [Más información](#step-3--create-the-workflow)).
+* Cree un flujo de trabajo que genere el informe en formato PDF y lo envíe a la lista de destinatarios. [Más información](#step-3--create-the-workflow)).
 
 ## Paso 1: Creación de la lista de destinatarios {#step-1--create-the-recipient-list}
 
@@ -78,7 +79,7 @@ Cree el siguiente flujo de trabajo para este caso de uso.
 Utiliza tres actividades:
 
 * Una actividad **[!UICONTROL Scheduler]** que ejecuta el flujo de trabajo una vez al mes,
-* Una actividad **[!UICONTROL JavaScript code]** que genera el informe en formato de PDF,
+* Una actividad **[!UICONTROL JavaScript code]** que genera el informe en formato PDF,
 * Una actividad **[!UICONTROL Delivery]** que hace referencia a la plantilla de envío creada anteriormente.
 
 Para crear este flujo de trabajo, siga los pasos a continuación:

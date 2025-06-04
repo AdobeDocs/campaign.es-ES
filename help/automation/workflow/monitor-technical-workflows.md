@@ -4,8 +4,9 @@ title: Monitorización de flujos de trabajo técnicos
 description: Monitorización de flujos de trabajo técnicos
 feature: Workflows
 role: Admin
+version: Campaign v8, Campaign Classic v7
 exl-id: 8524d916-8af7-4641-b047-9c348f1017fd
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 89%
@@ -30,7 +31,7 @@ En los indicadores del sistema y los archivos principales, compruebe que no hay 
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
-Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Technical workflows]**&#x200B;**[!UICONTROL Administration]**, **[!UICONTROL Production]**, .
+Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Technical workflows]****[!UICONTROL Administration]**, **[!UICONTROL Production]**, .
 
 Dependiendo del flujo de trabajo técnico, siga los pasos detallados a continuación para asegurarse de que todo funciona correctamente.
 

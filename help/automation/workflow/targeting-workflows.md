@@ -2,8 +2,9 @@
 title: Creación de flujos de trabajo de objetivos
 description: Obtenga información sobre cómo crear audiencias de destino en un flujo de trabajo
 feature: Query Editor, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
-source-git-commit: 122d78e310e66d5f354ffbc86c27a2fbff007447
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '2252'
 ht-degree: 93%
@@ -205,7 +206,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    ![](assets/split-subset-config-all-data.png)
 
-   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [&#128279;](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
+   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
 
    El campo **[!UICONTROL Label]** permite asignar un nombre al nuevo subconjunto, que coincide con la transición saliente.
 

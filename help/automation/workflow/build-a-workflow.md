@@ -4,8 +4,9 @@ title: Creación de un flujo de trabajo
 description: Descubra cómo generar un flujo de trabajo
 feature: Workflows
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
-source-git-commit: 166fe487aa169f47f9da86c2990acb1f6dff430e
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '838'
 ht-degree: 78%
@@ -133,7 +134,7 @@ Además de las propiedades habituales del flujo de trabajo, las propiedades de l
 
 Se pueden duplicar diferentes tipos de flujos de trabajo. Una vez duplicados, las modificaciones del flujo de trabajo no se transfieren a la copia del flujo de trabajo.
 
-El Adobe recomienda duplicar un flujo de trabajo en lugar de realizar una copia o pegado de las actividades. Cuando se copia una actividad, se conserva toda su configuración. Para las actividades de canal, el objeto de envío asociado a la actividad también se copia, lo que puede dar lugar a problemas importantes.
+Adobe recomienda duplicar un flujo de trabajo en lugar de realizar una copia o pegado de las actividades. Cuando se copia una actividad, se conserva toda su configuración. Para las actividades de canal, el objeto de envío asociado a la actividad también se copia, lo que puede dar lugar a problemas importantes.
 
 1. Haga clic con el botón derecho en un flujo de trabajo.
 1. Haga clic en **Duplicate**.

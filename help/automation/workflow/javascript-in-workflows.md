@@ -4,11 +4,12 @@ title: Ejemplos de código JavaScript en flujos de trabajo
 description: Estos ejemplos muestran cómo se puede utilizar código JavaScript en un flujo de trabajo
 feature: Workflows
 role: Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1683'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -21,7 +22,7 @@ Estos ejemplos muestran cómo se puede utilizar el código JavaScript en un fluj
 * [Activación de un flujo de trabajo mediante un método estático SOAP](#trigger-example)
 * [Interacción con la base de datos mediante un método SOAP no estático](#interact-example)
 
-SOAP [Más información](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"} acerca de los métodos estáticos y no estáticos de la.
+[Más información](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"} acerca de los métodos SOAP estáticos y no estáticos.
 
 En estos ejemplos se utiliza la extensión ECMAScript para XML (E4X). Con esta extensión, puede combinar llamadas de JavaScript y primitivas XML en el mismo script.
 
@@ -236,7 +237,7 @@ var query = xtk.queryDef.create(
     </queryDef>)
 ```
 
-Prefije el método `create(`*`content`*`)` con el esquema de la entidad que se va a crear.
+Use el esquema de la entidad que se va a crear como prefijo del método `create(`*`content`*`)`.
 
 El argumento *`content`* es de cadena y opcional. Este argumento contiene el código XML que describe la entidad.
 
@@ -273,7 +274,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-El bucle incluye una variable de destinatario local. Para cada destinatario que se devuelve en la colección de destinatarios, se imprime el correo electrónico del destinatario. [Más información](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=es){target="_blank"} sobre la función `logInfo`.
+El bucle incluye una variable de destinatario local. Para cada destinatario que se devuelve en la colección de destinatarios, se imprime el correo electrónico del destinatario. [Más información](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=es){target="_blank"} acerca de la función `logInfo`.
 
 #### Resultados de una operación `getIfExists`
 
@@ -611,11 +612,11 @@ Este vídeo muestra un ejemplo del uso de un método de API no estático en un f
 
 ### Documentación de API
 
-* SOAP [Muestras de llamadas de](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"}
+* [Ejemplos de llamadas SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"}
 * Métodos:
-   * [Crear](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=es){target="_blank"}
+   * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=es){target="_blank"}
    * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=es){target="_blank"}
    * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=es){target="_blank"}
    * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=es){target="_blank"}
-   * [Escribir](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=es){target="_blank"}
+   * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=es){target="_blank"}
 * [función logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=es){target="_blank"}

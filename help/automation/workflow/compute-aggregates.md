@@ -4,8 +4,9 @@ title: Realizar cálculo agregado
 description: Aprenda a realizar computación agregada en consultas.
 feature: Workflows
 role: User, Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 97%
@@ -14,7 +15,7 @@ ht-degree: 97%
 
 # Realizar cálculo agregado {#performing-aggregate-computing}
 
-En este ejemplo, se desea contar el número de destinatarios que residen en Londres, según el sexo.
+En este ejemplo, se desea contar el número de destinatarios que residen en Londres, según el género.
 
 * ¿Qué tabla se debe seleccionar?
 
@@ -46,6 +47,6 @@ Para crear este ejemplo, aplique los pasos siguientes:
 1. En la ventana **[!UICONTROL Data formatting]**, haga clic en **[!UICONTROL Next]**: no se requiere formato para este ejemplo.
 1. En la ventana de vista previa, haga clic en **[!UICONTROL Launch data preview]**.
 
-   Existen tres valores distintos para cada clasificación por sexo: **2** para las mujeres, **1** para los hombres y **0** cuando se desconoce el sexo. En este ejemplo, la lista contiene 10 mujeres, 16 hombres y 2 personas cuyo sexo no se conoce.
+   Existen tres valores distintos para cada clasificación por género: **2** para las mujeres, **1** para los hombres y **0** cuando se desconoce el género. En este ejemplo, la lista contiene 10 mujeres, 16 hombres y 2 personas cuyo género no se conoce.
 
    ![](assets/query_editor_agregat_04.png)

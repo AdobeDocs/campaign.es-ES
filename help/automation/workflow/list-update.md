@@ -4,11 +4,12 @@ title: Actualización de listas
 description: Actualización de listas
 feature: Workflows, Targeting Activity
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -72,6 +73,6 @@ Identifique la población que se va a guardar en el grupo.
 
 Este vídeo muestra cómo crear una lista de destinatarios desde Explorer.
 
->[!VIDEO](https://video.tv.adobe.com/v/27504?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Hay disponibles [más vídeos de procedimientos para Campaign aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

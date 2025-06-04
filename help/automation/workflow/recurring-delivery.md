@@ -4,11 +4,12 @@ title: Entrega recurrente
 description: Descubra más información sobre la actividad del flujo de trabajo Entrega recurrente
 feature: Workflows
 role: User, Data Engineer
+version: Campaign v8, Campaign Classic v7
 exl-id: 27308b0d-cbfc-4bc6-9061-d771ceac95fd
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 86%
+ht-degree: 89%
 
 ---
 
@@ -52,6 +53,6 @@ Si desea detener la ejecución de una entrega recurrente, debe cancelar completa
 
 En este vídeo se explica cómo configurar un envío recurrente y una actividad de planificador.
 
->[!VIDEO](https://video.tv.adobe.com/v/27509?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para Campaign aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

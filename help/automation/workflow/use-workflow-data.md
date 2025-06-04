@@ -2,8 +2,9 @@
 title: Uso de datos de flujo de trabajo
 description: Descubra cómo utilizar los datos de flujo de trabajo
 feature: Workflows, Data Management
+version: Campaign v8, Campaign Classic v7
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
-source-git-commit: 41ba91fca46747760fc42ea6cd78600abbd74c02
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 72%
@@ -44,7 +45,7 @@ Para ello, seleccione el menú correspondiente:
 
   Utilice este menú para acceder al asistente de análisis descriptivo que permite generar estadísticas e informes sobre los datos de transición.
 
-  Aprenda a utilizar el asistente de análisis descriptivo en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=es){target="_blank"}.
+  Aprenda a utilizar el asistente de análisis descriptivo en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=es){target="_blank"}.
 
 Los datos del público objetivo se depuran mientras se ejecuta el flujo de trabajo. Solo se puede acceder a la última tabla de trabajo. Puede configurar el flujo de trabajo para que todas las tablas de trabajo permanezcan accesibles: marque la opción **[!UICONTROL Keep the result of interim populations between two executions]** en las propiedades del flujo de trabajo.
 

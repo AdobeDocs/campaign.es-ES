@@ -4,11 +4,12 @@ title: Plantillas y secuencias de comandos de JavaScript
 description: Plantillas y secuencias de comandos de JavaScript
 feature: Workflows
 role: Developer
+version: Campaign v8, Campaign Classic v7
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
-source-git-commit: 25663b475514736f64e7216c798536d8c23e0983
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1247'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -160,11 +161,11 @@ Este ejemplo muestra que la actividad siguiente a **JavaScript code** accede a l
 
 Una vez especificada una variable de instancia en una actividad, puede volver a utilizarla en una consulta de flujo de trabajo.
 
-Por lo tanto, para llamar a una variable **instance.vars.xxx = &quot;yyy&quot;** en un filtro, ingrese **$(instance/vars/@xxx)**.
+Por consiguiente, para llamar a una variable **instance.vars.xxx = &quot;yyy&quot;** en un filtro, escriba **$(instance/vars/@xxx)**.
 
 Por ejemplo:
 
-1. Cree una variable de instancia que defina el nombre interno de un envío mediante el **&#x200B;**&#x200B;[!UICONTROL JavaScript code]&#x200B;**: instance.vars.deliveryIN = “DM42”**.
+1. Cree una variable de instancia que defina el nombre interno de un envío mediante el ****[!UICONTROL JavaScript code]**: instance.vars.deliveryIN = “DM42”**.
 
    ![](assets/wkf_js_activity_1.png)
 

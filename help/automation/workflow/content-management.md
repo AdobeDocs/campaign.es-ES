@@ -4,8 +4,9 @@ title: Gestión de contenido
 description: Gestión de contenido
 feature: Workflows, Data Management
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
-source-git-commit: c73f9f3dc7958152c284dbaf06210d09115e5df8
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 85%
@@ -22,7 +23,7 @@ Una actividad de **Content management** (gestión de contenido) permite crear y 
 
 >[!NOTE]
 >
->La interfaz de usuario web de Adobe Campaign permite utilizar fragmentos de contenido para el contenido. Permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados, gracias a componentes reutilizables a los que se puede hacer referencia en uno o más mensajes, lo que le permite ensamblar rápidamente el contenido de los mensajes en un proceso de diseño mejorado. Para obtener más información sobre fragmentos de contenido, consulte la [documentación de la interfaz de usuario web de Adobe Campaign.](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>La interfaz de usuario web de Adobe Campaign permite utilizar fragmentos de contenido para el contenido. Permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados, gracias a componentes reutilizables a los que se puede hacer referencia en uno o más mensajes, lo que le permite ensamblar rápidamente el contenido de los mensajes en un proceso de diseño mejorado. Para obtener más información sobre fragmentos de contenido, consulte la [documentación de la interfaz de usuario web de Adobe Campaign.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 Las propiedades de la actividad se dividen en tres pasos:
 

@@ -3,8 +3,9 @@ product: campaign
 title: División
 description: Descubra más información sobre la actividad del flujo de trabajo División
 feature: Workflows, Targeting Activity
+version: Campaign v8, Campaign Classic v7
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
-source-git-commit: a5d44321c3d68b9370cfb6e9b1df62435de0dbda
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1832'
 ht-degree: 92%
@@ -213,7 +214,7 @@ Para evitarlo, puede arrastrar y soltar la actividad **[!UICONTROL Enrichment]**
 
 La opción **[!UICONTROL Enable overlapping of output populations]** permite administrar poblaciones que pertenecen a varios subconjuntos:
 
-* Cuando el cuadro no está activado, la actividad de partición garantiza que un destinatario no pueda estar presente en varias transiciones de salida, aunque cumpla los criterios de varios subconjuntos. Se encuentran en el destino de la primera pestaña con criterios coincidentes.
+* Cuando el cuadro no está marcado, la actividad de división garantiza que los destinatarios no puedan estar presentes en varias transiciones de salida, aunque cumplan los criterios de varios subconjuntos. Los destinatarios se encuentran en el destino de la primera pestaña con criterios coincidentes.
 * Cuando se selecciona el cuadro, los destinatarios se pueden encontrar en varios subconjuntos si cumplen con sus criterios de filtro. Adobe Campaign recomienda utilizar criterios exclusivos.
 
 ## Parámetros de entrada {#input-parameters}

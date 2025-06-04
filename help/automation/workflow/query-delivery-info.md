@@ -4,8 +4,9 @@ title: Consulta de información de entrega
 description: Obtenga información sobre cómo consultar la información de entrega.
 feature: Query Editor
 role: User
+version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '1252'
 ht-degree: 100%
@@ -38,7 +39,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    ![](assets/query_editor_tracklog_05.png)
 
-1. En la ventana **[!UICONTROL Data to extract]**, se desea crear un acumulado para recopilar información. Para ello, añada la clave primaria (ubicada encima del elemento **[!UICONTROL Recipient tracking logs]** principal): el recuento de registros de seguimiento se realiza en este campo **[!UICONTROL Primary key]**. La expresión editada es **[!UICONTROL x=count(primary key)]**. Vincula la suma de diversos registros de seguimiento a una sola dirección de correo electrónico.
+1. En la ventana **[!UICONTROL Data to extract]**, se desea crear un acumulado para recopilar información. Para ello, añada la clave principal (ubicada encima del elemento **[!UICONTROL Recipient tracking logs]** principal): el recuento de registros de seguimiento se realiza en este campo **[!UICONTROL Primary key]**. La expresión editada es **[!UICONTROL x=count(primary key)]**. Vincula la suma de diversos registros de seguimiento a una sola dirección de correo electrónico.
 
    Para ello:
 
