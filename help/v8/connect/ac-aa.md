@@ -55,7 +55,7 @@ Para crear su **[!UICONTROL Report suite]** en [!DNL Adobe Analytics], siga los 
 
 1. En la página **[!UICONTROL Report suite manager]**, haga clic en **[!UICONTROL Create new]** y luego en **[!UICONTROL Report suite]**.
 
-   Para ver el procedimiento detallado sobre la creación de **[!UICONTROL Report suite]**, consulte [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html#prerequisites){target="_blank"}.
+   Para ver el procedimiento detallado sobre la creación de **[!UICONTROL Report suite]**, consulte [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/new-report-suite/t-create-a-report-suite.html?lang=es#prerequisites){target="_blank"}.
 
    ![](assets/analytics_connnector_3.png)
 
@@ -108,7 +108,7 @@ Después de crear su **[!UICONTROL Report suite]**, debe configurar sus **[!UICO
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
+   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=es)
 
    ![](assets/analytics_connnector_8.png)
 
@@ -146,7 +146,7 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
    >[!NOTE]
    >
-   >Los campos ID de campaña e ID de carga amplia se recopilan mediante JavaScript en la página de aterrizaje o mediante reglas de procesamiento. [Más información sobre las reglas de procesamiento](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >Los campos ID de campaña e ID de carga amplia se recopilan mediante JavaScript en la página de aterrizaje o mediante reglas de procesamiento. [Más información sobre las reglas de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 

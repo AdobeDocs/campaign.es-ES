@@ -19,7 +19,7 @@ ht-degree: 5%
 >
 >Esto se aplica a Adobe Campaign 8.7.2 y versiones posteriores.
 >
->Para ver las versiones anteriores, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+>Para ver las versiones anteriores, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Flujo de datos del conector SMS {#sms-data-flow}
 

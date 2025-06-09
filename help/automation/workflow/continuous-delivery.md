@@ -66,4 +66,4 @@ Este vídeo muestra cómo configurar un envío continua con una consulta increme
 
 >[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.

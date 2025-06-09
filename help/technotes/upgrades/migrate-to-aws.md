@@ -67,11 +67,11 @@ Este movimiento será transparente para los clientes:
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
-  No se necesitan pruebas específicas para esta migración. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  No se necesitan pruebas específicas para esta migración. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support){target="_blank"}.
 
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo programado de actualización de seguridad?**
 
   Dado que se trata de una migración obligatoria, no podemos admitir modificaciones en la programación existente.
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support){target="_blank"}.

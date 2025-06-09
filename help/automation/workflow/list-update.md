@@ -75,4 +75,4 @@ Este vídeo muestra cómo crear una lista de destinatarios desde Explorer.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.

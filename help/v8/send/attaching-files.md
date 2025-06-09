@@ -21,7 +21,7 @@ Puede adjuntar uno o varios archivos a una entrega de correo electrónico.
 
 >[!NOTE]
 >
->Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico. El umbral recomendado se puede configurar desde la lista de opciones de Campaign. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
+>Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico. El umbral recomendado se puede configurar desde la lista de opciones de Campaign. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#delivery).
 
 Hay dos casos posibles:
 
@@ -38,7 +38,7 @@ Para evitar problemas de rendimiento, las imágenes incluidas en los correos ele
 
 Adobe también recomienda limitar el tamaño y el número de archivos adjuntos. De forma predeterminada, solo puede agregar un archivo como archivo adjunto a un correo electrónico. Este umbral se puede configurar desde la opción `NmsDelivery_MaxRecommendedAttachments`.
 
-Obtenga más información en la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
+Obtenga más información en la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#delivery).
 
 ## Adjuntar un archivo local {#attaching-a-local-file}
 
