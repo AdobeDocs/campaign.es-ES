@@ -31,7 +31,7 @@ En los indicadores del sistema y los archivos principales, compruebe que no hay 
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
-Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Technical workflows]****[!UICONTROL Administration]**, **[!UICONTROL Production]**, .
+Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Technical workflows]**&#x200B;**[!UICONTROL Administration]**, **[!UICONTROL Production]**, .
 
 Dependiendo del flujo de trabajo técnico, siga los pasos detallados a continuación para asegurarse de que todo funciona correctamente.
 

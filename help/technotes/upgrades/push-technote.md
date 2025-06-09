@@ -156,7 +156,7 @@ También puede actualizar los envíos existentes y las plantillas de envíos cre
       nlserver javascript -instance:<instance_name> -file fcm-httpv1-migration.js -arg:run
       ```
 
-+++
+  +++
 
 ### ¿Cuál es el impacto para mis aplicaciones de Android? {#fcm-apps}
 

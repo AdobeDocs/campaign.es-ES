@@ -98,7 +98,7 @@ Un flujo de trabajo técnico específico gestiona la replicación de tablas que 
 >[!NOTE]
 >
 > Se han creado varias políticas de replicación en función del tamaño de la tabla (XS, XL, etc.).
-> > Algunas tablas se duplican en tiempo real, mientras que otras lo hacen cada hora. Algunas tablas sufrirán actualizaciones incrementales, mientras que otras se actualizarán por completo.
+> &#x200B;> Algunas tablas se duplican en tiempo real, mientras que otras lo hacen cada hora. Algunas tablas sufrirán actualizaciones incrementales, mientras que otras se actualizarán por completo.
 >
 
 [Más información acerca de la replicación de datos](replication.md)

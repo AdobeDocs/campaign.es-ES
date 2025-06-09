@@ -107,4 +107,4 @@ Adobe Campaign ofrece un complemento de **gestión de respuestas** que le permit
 >
 >Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png) Aprenda a configurar y utilizar el Gestor de respuestas de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target="_blank"}.
+[&#128279;](../assets/do-not-localize/book.png) Aprenda a configurar y utilizar el Gestor de respuestas de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target="_blank"}.
