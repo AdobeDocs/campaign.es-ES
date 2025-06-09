@@ -70,4 +70,4 @@ Las siguientes variables son variables internas que pueden utilizarse para la pe
 Descubra los distintos tipos de contenido dinámico, y aprenda a crear y aplicar bloques de personalización y afirmaciones condicionales a un envío.
 
 
->[!VIDEO](https://video.tv.adobe.com/v/335734?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3452870?quality=12&captions=spa)

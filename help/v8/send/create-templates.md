@@ -141,18 +141,18 @@ Esta acción genera una entrega en la carpeta asociada a la plantilla. El nombre
 
 En el siguiente vídeo se muestra cómo configurar una plantilla para un envío ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3409244?quality=12&captions=spa)
 
 ### Configuración de propiedades de plantillas de envíos
 
 El siguiente vídeo muestra cómo configurar las propiedades de las plantillas de envíos y explica cada propiedad en detalle.
 
->[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3443404?quality=12&captions=spa)
 
 ### Implementación de una plantilla de envíos ad-hoc
 
 En este vídeo se explica cómo implementar una plantilla de envíos de correo electrónico ad-hoc, y se explica la diferencia entre un envío de correo electrónico y un flujo de trabajo de envío.
 
->[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3444960?quality=12&captions=spa)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.

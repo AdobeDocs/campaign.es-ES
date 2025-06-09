@@ -86,4 +86,4 @@ En el siguiente ejemplo, aprenda a crear un correo electrónico multilingüe. El
 
 Aprenda a añadir contenido condicional a un envío con el ejemplo de una newsletter multilingüe.
 
->[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446714?quality=12&captions=spa)
