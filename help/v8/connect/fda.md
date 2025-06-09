@@ -20,9 +20,9 @@ Utilice el conector FDA (Acceso de datos federado) para conectar Campaign a una 
 >
 >* Las bases de datos compatibles para el acceso de datos federado se enumeran en la [matriz de compatibilidad](../start/compatibility-matrix.md).
 >
->* En el contexto de una implementación [Enterprise (FDAC) deployment](../architecture/enterprise-deployment.md), hay una cuenta externa específica disponible para administrar la comunicación entre la base de datos local de Campaign y la base de datos en la nube de Snowflake. Esta cuenta externa está configurada por Adobe y **no debe** modificarse.
+>* En el contexto de una implementación [Enterprise (FDAC) deployment](../architecture/enterprise-deployment.md), hay una cuenta externa específica disponible para administrar la comunicación entre la base de datos local de Campaign y la base de datos en la nube de Snowflake. Adobe ha configurado esta cuenta externa para usted y **no debe** modificarse.
 >
->* Como usuario de Cloud Service administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para conectar las bases de datos externas con Campaign.
+>* Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para conectar sus bases de datos externas con Campaign.
 
 
 ## Prácticas recomendadas y limitaciones

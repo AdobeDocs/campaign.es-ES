@@ -9,13 +9,13 @@ exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
 source-wordcount: '990'
-ht-degree: 50%
+ht-degree: 51%
 
 ---
 
 # Trabajo con plantillas de envío {#work-with-delivery-template}
 
-## Introducción a las plantillas de entrega
+## Introducción a las plantillas de envío
 
 Cada entrega se crea en función de una plantilla. Una plantilla es una configuración que se puede reutilizar para facilitar y estandarizar la implementación. Puede utilizar una plantilla integrada o personalizada.
 
@@ -34,7 +34,7 @@ Las plantillas de envío se almacenan en la carpeta **[!UICONTROL Resources > Te
 
 1. Plantillas de envío **incorporadas** de Adobe Campaign: las plantillas integradas están disponibles para cada canal. NO DEBEN modificarse ni eliminarse. Incluyen una configuración básica para cada canal de envío. Como administrador, puede establecer valores predeterminados o restringir determinadas funciones a los usuarios finales, como modificar los parámetros de seguimiento, las direcciones de correo electrónico del remitente, etc. Las plantillas integradas aparecen en negrita en la lista de plantillas.
 
-1. **Plantillas de envío personalizadas**: como administrador de Adobe Campaign, puede crear nuevas plantillas de envío. Una práctica recomendada es duplicar y actualizar una plantilla integrada en lugar de crear una plantilla desde cero. Por ejemplo, se puede configurar una plantilla de envíos por correo electrónico. Cuando los usuarios creen un envío a partir de esta plantilla, solo tendrán que introducir el texto o el contenido del HTML. Todas las demás configuraciones ya están definidas.
+1. **Plantillas de envío personalizadas**: como administrador de Adobe Campaign, puede crear nuevas plantillas de envío. Una práctica recomendada es duplicar y actualizar una plantilla integrada en lugar de crear una plantilla desde cero. Por ejemplo, se puede configurar una plantilla de envíos por correo electrónico. Cuando los usuarios creen un envío a partir de esta plantilla, solo tendrán que introducir el texto o el contenido de HTML. Todas las demás configuraciones ya están definidas.
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ Seleccione la plantilla de envíos que va a utilizar y haga clic en **[!UICONTRO
 
 ### Ejecución de una plantilla {#execute-a-template}
 
-Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero una entrega. La plantilla de envío se puede ejecutar manualmente, como se detalla a continuación, o activarse mediante un evento (ejecutado a una hora determinada, cuando un archivo está disponible en el servidor, etc.), como se explica en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
+Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero una entrega. La plantilla de envío se puede ejecutar manualmente, como se detalla a continuación, o activarse mediante un evento (ejecutado a una hora determinada, cuando un archivo está disponible en el servidor, etc.), como se explica en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Para ejecutar una plantilla manualmente, siga estos pasos:
 
@@ -141,18 +141,18 @@ Esta acción genera una entrega en la carpeta asociada a la plantilla. El nombre
 
 En el siguiente vídeo se muestra cómo configurar una plantilla para un envío ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409244?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### Configuración de propiedades de plantillas de envíos
 
 El siguiente vídeo muestra cómo configurar las propiedades de las plantillas de envíos y explica cada propiedad en detalle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443404?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### Implementación de una plantilla de envíos ad-hoc
 
 En este vídeo se explica cómo implementar una plantilla de envíos de correo electrónico ad-hoc, y se explica la diferencia entre un envío de correo electrónico y un flujo de trabajo de envío.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444960?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Hay disponibles [más vídeos de procedimientos para Campaign aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

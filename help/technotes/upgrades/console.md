@@ -16,7 +16,7 @@ ht-degree: 1%
 
 La versión de 32 bits de la consola del cliente está en desuso en la versión 8.5. Hay disponible una nueva versión de 64 bits de la consola del cliente para una actualización sin problemas.
 
-A partir de la versión 8.6, Campaign deja de admitir sistemas operativos de 32 bits, incluidas las actualizaciones de productos y de seguridad. El Adobe recomienda encarecidamente que mantenga las actualizaciones de seguridad actualizadas.
+A partir de la versión 8.6, Campaign deja de admitir sistemas operativos de 32 bits, incluidas las actualizaciones de productos y de seguridad. Adobe recomienda encarecidamente mantener las actualizaciones de seguridad actualizadas.
 
 Este cambio solo le afecta si tiene la versión de 32 bits de Windows 8 o 10.
 

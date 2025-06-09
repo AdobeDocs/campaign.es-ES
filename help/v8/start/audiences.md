@@ -8,7 +8,7 @@ exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
 source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
 workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 49%
+ht-degree: 48%
 
 ---
 
@@ -43,9 +43,9 @@ Aprenda a crear una audiencia en un flujo de trabajo de campaña en [esta págin
 
 Un perfil activo es un perfil con el que el cliente ha intentado comunicarse durante los últimos 12 meses a través de cualquier canal.
 
-Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos. Obtenga más información en [Descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Según el contrato, cada una de las instancias de Campaign se aprovisiona con una cantidad específica de perfiles activos que se contabilizan a efectos de facturación. Consulte su contrato más reciente para obtener una referencia sobre la cantidad de perfiles activos adquiridos. Obtenga más información en [descripción del producto de Adobe Campaign](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
-Puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del panel de control](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}.
+Puede monitorizar el número de perfiles activos en su instancia directamente desde el Panel de control de Campaign. Para obtener más información, consulte la [documentación del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}.
 
 
 Son de aplicación las siguientes limitaciones y protecciones:

@@ -208,4 +208,4 @@ También puede utilizar el vínculo incluido en los mensajes de notificación. P
 
 Este vídeo muestra cómo crear planes, programas y campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449899?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/333810?quality=12)

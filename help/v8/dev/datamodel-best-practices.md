@@ -63,7 +63,7 @@ Para garantizar la buena arquitectura y el rendimiento de su sistema, siga las p
 * El atributo **expr** permite definir un atributo de esquema como un campo calculado en lugar de un valor de conjunto físico en una tabla. Esto puede permitir el acceso a la información en un formato diferente (como por ejemplo, edad y fecha de nacimiento) sin necesidad de almacenar ambos valores. Esta es una buena manera de evitar la duplicación de campos. Por ejemplo, la tabla Destinatario utiliza una expresión para el dominio, que ya está presente en el campo de correo electrónico.
 * Sin embargo, cuando el cálculo de la expresión es complejo, no se recomienda utilizar el atributo **expr**, ya que el cálculo sobre la marcha puede afectar al rendimiento de las consultas.
 * El tipo **XML** es una buena manera de evitar la creación de demasiados campos. Pero también ocupa espacio en disco, ya que utiliza una columna CLOB en la base de datos. También puede generar consultas SQL complejas y afectar al rendimiento.
-* La longitud de un campo **cadena** siempre debe definirse con la columna. De forma predeterminada, la longitud máxima en Adobe Campaign es de 16 K, pero Adobe recomienda mantener el campo más corto si ya sabe que el tamaño no excederá una longitud más corta.
+* La longitud de un campo **cadena** siempre debe definirse con la columna. De forma predeterminada, la longitud máxima en Adobe Campaign es de 16 K, pero Adobe recomienda mantener el campo más corto si ya sabe que el tamaño no superará una longitud más corta.
 * Es aceptable tener un campo más corto en Adobe Campaign que en el sistema de origen si está seguro de que el tamaño en el sistema de origen se ha sobreestimado y no se alcanzaría. Esto podría significar una cadena más corta o un entero más pequeño en Adobe Campaign.
 
 ### Elección de campos {#choice-of-fields}
@@ -149,7 +149,7 @@ Los vínculos que realizan una unión externa (1-0..1) deben utilizarse con cuid
 
 Adobe Campaign no es un almacén de datos ni una herramienta de creación de informes. Por lo tanto, para garantizar el buen rendimiento de la solución de Adobe Campaign, el crecimiento de la base de datos debe mantenerse bajo control. Para lograrlo, puede ser útil seguir algunas de las prácticas recomendadas a continuación.
 
-Independientemente de la retención, las tablas de registro predeterminadas de Campaign tienen períodos de retención predefinidos, que generalmente limitan el almacenamiento de datos a seis meses o menos.
+Independientemente de la retención, las tablas de registro integradas de Campaign tienen períodos de retención predefinidos, que generalmente limitan el almacenamiento de datos a seis meses o menos.
 
 A continuación se muestran los valores de retención predeterminados para las tablas predeterminadas. Tenga en cuenta que los administradores técnicos de Adobe configuran los ajustes de retención durante la implementación y los valores pueden variar en función de los requisitos de los clientes.
 
@@ -175,7 +175,7 @@ Hay algunas soluciones para minimizar la necesidad de registros en Adobe Campaig
 
 Puede declarar el atributo &quot;deleteStatus&quot; en un esquema. Es más eficaz marcar el registro como eliminado y posponer la eliminación en la tarea de limpieza.
 
-Como usuario de Cloud Service administrados, póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita establecer la retención de tablas personalizadas.
+Como usuario de Cloud Services administrados, póngase en contacto con los consultores o administradores técnicos de Adobe para obtener más información sobre la retención o si necesita configurar la retención para tablas personalizadas.
 
 ## Rendimiento {#performance}
 

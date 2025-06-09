@@ -34,7 +34,7 @@ Esta sección presenta las prácticas recomendadas para administrar el módulo *
    * Coloque las reglas de la categoría de oferta más restrictivas en la posición más alta posible del árbol. En este caso, ponga en primer lugar el filtro para la mayoría de contactos, reduciendo el número de objetivo y evitará que se procesen más reglas.
    * Coloque las reglas más pesadas en términos de tiempo o procesamiento en la parte inferior del árbol. De este modo, estas reglas sólo se ejecutarán para los destinatarios restantes.
    * Comience en una categoría específica para evitar el escaneo del árbol completo.
-   * Para ahorrar tiempo de procesamiento, precalcule se añade en lugar de crear reglas complejas con uniones. Para ello, intente almacenar los datos del cliente en una tabla de referencia que se pueda buscar en reglas de elegibilidad.
+   * Para ahorrar tiempo de procesamiento, precalcule se añade en lugar de crear reglas complejas con uniones. Para ello, intente almacenar los datos del cliente en una tabla de referencia que se pueda buscar en reglas de idoneidad.
    * Utilice un número mínimo de ponderaciones para limitar el número de consultas.
    * Se recomienda tener un número limitado de ofertas por espacio de oferta. Esto garantiza una recuperación más rápida de las ofertas en un espacio determinado.
    * Utilice índices, especialmente en las columnas de búsqueda utilizadas frecuentemente.

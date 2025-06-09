@@ -28,7 +28,7 @@ Los problemas potenciales o la pérdida de funcionalidad en el sitio web se orig
 
 ## ¿Se ha visto afectado?{#version-100-impact}
 
-El Adobe recomienda probar las aplicaciones web de Campaign, incluidos los formularios web y las encuestas, para asegurarse de que siguen funcionando correctamente con estas nuevas versiones del explorador.
+Adobe recomienda probar las aplicaciones web de Campaign, incluidos los formularios web y las encuestas, para asegurarse de que siguen funcionando correctamente con estas nuevas versiones del explorador.
 
 Esta recomendación se aplica a todas las aplicaciones web y especialmente si ha incluido código JavaScript.
 

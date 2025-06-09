@@ -18,7 +18,7 @@ El contenido del catálogo de ofertas se configura en espacios de oferta. De for
 
 Como **administrador técnico**, puede crear espacios de ofertas en el entorno Design. Debe tener acceso a la subcarpeta del espacio de ofertas. Una vez creados, estos espacios de oferta se duplican automáticamente en el entorno Live durante la aprobación de la oferta.
 
-El procesamiento del HTML se crea mediante una función de procesamiento. La secuencia de los campos definidos en la función de renderización debe ser idéntica a la secuencia configurada en el contenido.
+El procesamiento de HTML se crea mediante una función de procesamiento. La secuencia de los campos definidos en la función de renderización debe ser idéntica a la secuencia configurada en el contenido.
 
 ![](assets/offer_space_create_009.png)
 
@@ -156,4 +156,4 @@ Si un destinatario no es elegible para ninguna oferta, esto se muestra en la vis
 
 La vista previa puede omitir los contextos cuando están restringidos a un espacio. Este es el caso cuando el esquema de interacción se ha ampliado para añadir campos a los que se hace referencia en un espacio mediante un canal entrante.
 
-Para obtener más información, consulte este ejemplo en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=es){target="_blank"}.
+Para obtener más información, consulte este ejemplo en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html){target="_blank"}.

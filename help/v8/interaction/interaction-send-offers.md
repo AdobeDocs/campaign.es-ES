@@ -76,7 +76,7 @@ Varias actividades de flujo de trabajo permiten definir la forma en que se prese
 
 ### Enriquecimiento  {#enrichment}
 
-La actividad **Enrichment** permite agregar ofertas o vínculos a ofertas para destinatarios de envíos.[Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html?lang=es){target="_blank"}.
+La actividad **Enrichment** permite agregar ofertas o vínculos a ofertas para destinatarios de envíos.[Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/enrichment.html){target="_blank"}.
 
 Por ejemplo, puede ampliar los datos de una consulta al destinatario antes de una entrega.
 
@@ -120,7 +120,7 @@ También puede hacer referencia a un vínculo de oferta en una actividad **Enric
 
 Para realizar esto, siga los pasos a continuación:
 
-1. En la pestaña **[!UICONTROL Enrichment]** de la actividad, seleccione **[!UICONTROL Add data]**.
+1.  En la pestaña **[!UICONTROL Enrichment]** de la actividad, seleccione **[!UICONTROL Add data]**.
 1. En la ventana donde se elige el tipo de datos a añadir, seleccione **[!UICONTROL A link]**.
 1. Seleccione el tipo de vínculo que desea establecer y su destino. En este caso, el destino es el esquema de oferta.
 
@@ -163,7 +163,7 @@ La entrega almacena automáticamente la clasificación y las consideraciones de 
 
 La actividad **[!UICONTROL Offer engine]** también le permite especificar una llamada al motor de oferta antes de la entrega.
 
-Para obtener más información sobre la actividad **Motor de ofertas**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=es){target="_blank"}.
+Para obtener más información sobre la actividad **Motor de ofertas**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}.
 
 Esta actividad funciona con el mismo principio que la actividad **Enrichment** con acceso al motor, al enriquecer los datos de población entrantes con una oferta calculada por el motor antes de una entrega.
 
@@ -186,7 +186,7 @@ Después de configurar su actividad **Consulta**:
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-Para obtener más información sobre la actividad **Oferta por celda**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=es){target="_blank"}.
+Para obtener más información sobre la actividad **Oferta por celda**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}.
 
 Para ello, utilice el proceso siguiente:
 

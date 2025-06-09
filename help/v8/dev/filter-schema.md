@@ -60,7 +60,7 @@ Estos filtros se introducen en el nivel principal **element** de los esquemas y,
 >
 >Si no se especifica ningún filtro, todos los operadores tendrán permisos de lectura y escritura en el esquema.
 
-## Esquemas integrados de Protect
+## Protección de esquemas integrados
 
 De forma predeterminada, solo se puede acceder a los esquemas integrados con permisos de ESCRITURA para operadores con derechos de ADMINISTRACIÓN:
 
@@ -101,7 +101,7 @@ De forma predeterminada, solo se puede acceder a los esquemas integrados con per
 
 ## Modificación de los filtros del sistema de los esquemas integrados
 
-Los esquemas integrados están protegidos para evitar problemas de compatibilidad con versiones anteriores. El Adobe recomienda no modificar los parámetros de esquema predeterminados para garantizar una seguridad óptima.
+Los esquemas integrados están protegidos para evitar problemas de compatibilidad con versiones anteriores. Adobe recomienda no modificar los parámetros de esquema predeterminados para garantizar una seguridad óptima.
 
 Sin embargo, en contextos específicos, es posible que tenga que modificar los filtros del sistema de los esquemas integrados. Para realizar esto, siga los pasos a continuación:
 

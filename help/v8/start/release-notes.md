@@ -46,7 +46,7 @@ _sábado, 25 de abril de 2025_
 
 ### Correcciones {#fixes-8-6-5}
 
-En esta versión se han corregido también los siguientes problemas:
+En esta versión, también se han corregido los siguientes problemas:
 
 NEO-67620, NEO-71534, NEO-80245, NEO-81105, NEO-81758, NEO-81908, NEO-82351, NEO-82742, NEO-83044, NEO-83138, NEO-83350, NEO-83729, NEO-83793, NEO-83809, NEO-84038, NEO-84108, NEO-85269, NEO-86121, NEO-86556, NEO-86739
 

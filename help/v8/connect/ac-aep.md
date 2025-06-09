@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Uso compartido y sincronización de audiencias con Adobe Experience Platform {#gs-ac-aep}
 
-Los conectores Destino de Cloud Service administrado de Adobe Campaign y Source permiten una integración perfecta entre Adobe Campaign y Adobe Experience Platform. Con esta integración, puede:
+Los conectores Adobe Campaign Managed Cloud Service Destination y Source permiten una integración perfecta entre Adobe Campaign y Adobe Experience Platform. Con esta integración, puede:
 
 * Envíe audiencias de Adobe Experience Platform a Adobe Campaign y envíe los &quot;logs&quot; de entrega y seguimiento a Adobe Experience Platform con fines de análisis.
 * Incluya atributos de perfil de Adobe Experience Platform en Adobe Campaign y establezca un proceso de sincronización para que se puedan actualizar de forma regular.
@@ -23,7 +23,7 @@ Los conectores Destino de Cloud Service administrado de Adobe Campaign y Source 
 
 Los pasos principales para enviar audiencias de Adobe Experience Platform a Adobe Campaign y devolver los registros de envío y seguimiento son los siguientes:
 
-* Use una conexión de destino de Adobe Campaign Managed Cloud Services **Destination** para enviar segmentos del Experience Platform a Adobe Campaign:
+* Use una conexión de destino de Adobe Campaign Managed Cloud Services **Destination** para enviar segmentos de Experience Platform a Adobe Campaign:
 
    1. Acceda al catálogo Destinos de Adobe Experience Platform y cree una nueva conexión **[!UICONTROL Adobe Campaign Managed Cloud Services]**.
    1. Proporcione detalles sobre la instancia de Campaign que se utilizará y elija **[!UICONTROL Audience sync]** como tipo de sincronización.

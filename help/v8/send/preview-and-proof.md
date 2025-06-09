@@ -8,7 +8,7 @@ exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
 source-wordcount: '703'
-ht-degree: 14%
+ht-degree: 21%
 
 ---
 
@@ -35,9 +35,9 @@ Para obtener una vista previa del contenido del mensaje, siga los pasos a contin
 
 ## Envío de pruebas {#send-proofs}
 
-En el caso de las entregas de correo electrónico, puede enviar pruebas para validar el contenido del mensaje. El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
+En el caso de los envíos por correo electrónico, puede enviar pruebas para validar el contenido del mensaje. El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
 
-Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo a la audiencia principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, configuración y configuración.
+Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo al público principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, valores de ajuste de personalización, configuración.
 
 ### Destinatarios de prueba {#proofs-recipients}
 
@@ -105,4 +105,4 @@ De manera predeterminada, los mensajes de prueba se identifican mediante la menc
 
 Obtenga información sobre cómo enviar y validar una prueba para un envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447002?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

@@ -21,12 +21,12 @@ Al aprovechar [[!DNL Snowflake]](https://www.snowflake.com/){target="_blank"}, u
 La versión 8 de Campaign Enterprise (FDAC) ofrece una escala de extremo a extremo en cualquier paso del proceso, desde la segmentación hasta la creación de informes final:
 
 * Escalar el volumen de datos que puede gestionar (hasta 8 TB)
-* Escalar el rendimiento de las consultas para segmentación y direccionamiento, pero también el consumo y la salida de datos
+* Escalar el rendimiento de las consultas para segmentación y direccionamiento, pero también la ingesta y la salida de datos
 * Escalar la preparación del envío (de horas a minutos)
 
 Este es un cambio fundamental en la arquitectura del software. Ahora, los datos son remotos y Campaign federa todos los datos, incluidos los perfiles. Los procesos de [!DNL Campaign] ahora escalan de extremo a extremo, desde el direccionamiento hasta la ejecución del mensaje: la ingesta de datos, la segmentación, el direccionamiento, las consultas y las entregas ahora se ejecutan normalmente en minutos. Esta nueva versión resuelve el desafío del escalado por completo, pero mantiene el mismo nivel de flexibilidad y extensibilidad. El número de perfiles es casi ilimitado y se puede ampliar la retención de datos.
 
-El almacenamiento en la nube se realiza en **[!DNL Snowflake]**: una nueva **cuenta externa** garantiza la conectividad con la base de datos en la nube. Está configurado por Adobe y no debe modificarse. [Más información](../config/external-accounts.md)
+El almacenamiento en la nube se realiza en **[!DNL Snowflake]**: una nueva **cuenta externa** integrada garantiza la conectividad con la base de datos en la nube. Está configurado por Adobe y no debe modificarse. [Más información](../config/external-accounts.md)
 
 Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de datos en la nube viene con una extensión de esquema integrada en el área de nombres **xxl.** Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos de [!DNL Campaign] local a la base de datos de [!DNL Snowflake] en la nube y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
 
@@ -48,7 +48,7 @@ La comunicación general entre servidores y procesos se realiza según el siguie
 ![](assets/architecture.png)
 
 * Los módulos de administración de ejecución y rechazos están desactivados en la instancia.
-* SOAP La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se gestiona mediante llamadas de (por HTTP o HTTPS).
+* La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se administra mediante llamadas de SOAP (a través de HTTP o HTTPS).
 
 La base de datos [!DNL Snowflake] del lado de marketing se usa para:
 
@@ -98,7 +98,7 @@ Un flujo de trabajo técnico específico gestiona la replicación de tablas que 
 >[!NOTE]
 >
 > Se han creado varias políticas de replicación en función del tamaño de la tabla (XS, XL, etc.).
-> Algunas tablas se duplican en tiempo real, mientras que otras lo hacen cada hora. Algunas tablas sufrirán actualizaciones incrementales, mientras que otras se actualizarán por completo.
+> > Algunas tablas se duplican en tiempo real, mientras que otras lo hacen cada hora. Algunas tablas sufrirán actualizaciones incrementales, mientras que otras se actualizarán por completo.
 >
 
 [Más información acerca de la replicación de datos](replication.md)

@@ -22,7 +22,7 @@ Los pasos básicos son crear una plantilla de mensaje transaccional en Campaign 
 ![](assets/ajo-integration.png)
 
 
-[Descubra esta integración en esta muestra integral](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
+[Descubra esta integración en esta muestra integral](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/journey-use-cases/business-use-cases/ajo-ac){target="_blank"}.
 
 
-[Obtenga más información en la documentación de Journey Optimizer](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.
+[Obtenga más información en la documentación de Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/about-journey-building/using-adobe-campaign-v7-v8){target="_blank"}.

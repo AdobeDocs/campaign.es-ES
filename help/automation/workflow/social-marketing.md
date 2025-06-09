@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # Marketin social {#social-marketing}
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Social Marketing** de forma predeterminada. Este módulo permite la integración con X (anteriormente conocido como Twitter).
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Social Marketing** de forma predeterminada. Este módulo habilita la integración con X (anteriormente conocido como Twitter).
 
 
 >[!AVAILABILITY]
@@ -43,7 +43,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **So
    <td> Este flujo de trabajo calcula las estadísticas vinculadas a las interacciones con los seguidores en Facebook.<br /> </td> 
   </tr> 
   <tr> 
-   <td> <span class="uicontrol">Sincronizando ventiladores de Facebook (solo v7)</span> <br /> </td> 
+   <td> <span class="uicontrol">Sincronizando seguidores de Facebook (solo v7)</span> <br /> </td> 
    <td> <span class="uicontrol">syncFacebookFans</span> <br /> </td> 
    <td> Este flujo de trabajo importa los seguidores de Facebook en Adobe Campaign todos los días a las 7 a. m.<br /> </td> 
   </tr> 

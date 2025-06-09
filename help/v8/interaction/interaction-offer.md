@@ -8,7 +8,7 @@ exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
 source-wordcount: '895'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -102,7 +102,7 @@ Para crear una ponderación en una oferta, siga los siguientes pasos:
 
 ### Resumen de las reglas de idoneidad para la oferta {#a-summary-of-offer-eligibility-rules}
 
-Una vez completada la configuración, se encontrará disponible un resumen de las reglas de elegibilidad en el panel de ofertas.
+Una vez completada la configuración, se encontrará disponible un resumen de las reglas de idoneidad en el panel de ofertas.
 
 Para visualizarlo, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules]**.
 
@@ -182,13 +182,13 @@ Creating hypotheses is detailed in [this page](../../campaign/using/about-respon
 
 Ahora puede aprobar y activar la oferta para que esté disponible en el entorno **Live**.
 
-Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=es#approving-offer-content){target="_blank"}.
+Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}.
 
 ## Administración de presentación de ofertas{#offer-presentation}
 
 Campaign permite controlar el flujo de propuestas de ofertas utilizando las reglas de presentación. Estas reglas, que son específicas de la interacción de Campaign, son **reglas de tipología**. Permiten excluir ofertas basadas en el historial de propuestas que ya se hayan hecho a un destinatario. Se las menciona en el entorno.
 
-Para obtener más información, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=es#managing-offers){target="_blank"}.
+Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}.
 
 ## Simulación de oferta
 
@@ -196,4 +196,4 @@ El módulo de **Simulation** permite probar la distribución de ofertas pertenec
 
 La simulación tiene en cuenta los contextos y las reglas de idoneidad aplicadas anteriormente a las ofertas y sus reglas de presentación. Esto permite probar y perfeccionar varias versiones de la propuesta de oferta sin utilizar realmente una por encima o por debajo del objetivo, ya que la simulación no tiene ningún impacto en los destinatarios a los que va dirigida.
 
-Para obtener más información sobre la simulación de ofertas, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=es){target="_blank"}.
+Para obtener más información sobre la simulación de oferta, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}.

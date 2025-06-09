@@ -12,7 +12,7 @@ ht-degree: 56%
 
 ---
 
-# Notas de la versión 2023 {#2023-rn}
+# Notas de la versión de 2023 {#2023-rn}
 
 Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con las **versiones de Campaign v8 de 2023**.
 
@@ -76,13 +76,13 @@ Para obtener más información, consulte la [documentación detallada](../send/p
 **Mejoras de seguridad**
 
 * Con Campaign v8.5.1, se ha mejorado y protegido el proceso de autenticación en Campaign v8. Los operadores técnicos ahora deben utilizar Adobe Identity Management System (IMS) para conectarse a Campaign. Obtén información sobre cómo migrar tus cuentas técnicas existentes en [esta nota técnica](../../technotes/upgrades/ims-migration.md).
-* A partir de la próxima versión 8.6, ya no se le permitirá crear operadores desde la consola del cliente de Campaign. Si utiliza la autenticación nativa de inicio de sesión y contraseña, debe migrar los operadores a Adobe Identity Management System (IMS). Aprende a migrar los operadores en [esta nota técnica](../../technotes/upgrades/migrate-users-to-ims.md).
+* A partir de la próxima versión 8.6, ya no se le permitirá crear operadores desde la consola del cliente de Campaign. Si utiliza la autenticación nativa de inicio de sesión y contraseña, debe migrar los operadores al sistema Identity Management de Adobe (IMS). Aprende a migrar los operadores en [esta nota técnica](../../technotes/upgrades/migrate-users-to-ims.md).
 * Se han actualizado varias herramientas de terceros para optimizar la seguridad.
 
 **Actualizaciones de compatibilidad**
 
 * La versión de 32 bits de la consola del cliente ya no se utiliza. A partir de la versión 8.6, la consola de cliente solo estará disponible en 64 bits. La actualización a la versión de 64 bits de la consola del cliente se realiza sin problemas. Para obtener más información sobre cómo actualizar el sistema operativo, consulte esta [nota técnica](../../technotes/upgrades/console.md).
-* Ahora puede conectar la instancia de Campaign v8 a la base de datos externa de Azure synapse. Esta conexión se administra mediante una nueva cuenta externa. Obtenga más información en [Matriz de compatibilidad de Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
+* Ahora puede conectar la instancia de Campaign v8 a la base de datos externa de Azure Synapse. Esta conexión se administra mediante una nueva cuenta externa. Obtenga más información en [Matriz de compatibilidad de Campaign](../start/compatibility-matrix.md#federated-data-access-fdafederateddataaccessfda).
 
 
 **Correcciones**

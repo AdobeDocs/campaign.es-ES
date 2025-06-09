@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: dde669980493b996c80baacc8726db87353585ad
+exl-id: eda6934a-e48a-4932-8c88-588f661005d6
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '4439'
 ht-degree: 16%
 
 ---
-
 
 # Validación de una conexión SMPP {#validate-smpp-connection}
 
@@ -141,7 +141,7 @@ Una vez completadas todas las comprobaciones, la última acción que se debe rea
 
 ### Procedimiento general de localización de averías {#sms-general-troubleshooting}
 
-El conector SMS incluye 3 entidades: el proveedor SMPP, el Adobe y usted.
+El conector SMS incluye 3 entidades: el proveedor SMPP, Adobe y usted.
 El principal experto en SMS es el proveedor de SMPP, por lo que debe participar en todos los problemas relacionados con el tráfico de SMS (problemas de conexión, mensajes perdidos, problemas de codificación, reglas específicas del país, etc.).
 
 #### Habilitar proceso dedicado {#sms-dedicated-process}

@@ -7,13 +7,13 @@ hide: true
 hidefromtoc: true
 level: Beginner, Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 6926d84576df1810b511ef1a9976593cb99585bb
+exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 9%
 
 ---
-
 
 # SMS en una instancia independiente {#sms-standalone}
 
@@ -21,11 +21,11 @@ ht-degree: 9%
 >
 >Esta documentación es para Adobe Campaign 8.7.2 y posterior.
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
 En una instancia independiente, la entrega de un SMS requiere lo siguiente:
 
-1. Cuenta externa **1&rbrace; que especifica un conector y el tipo de mensaje, [obtenga más información aquí](#external-account)**
+1. Cuenta externa **1} que especifica un conector y el tipo de mensaje, [obtenga más información aquí](#external-account)**
 
 1. Una **plantilla de envíos** en la que se hace referencia a esta cuenta externa, [obtenga más información aquí](#sms-delivery-template)
 

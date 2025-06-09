@@ -8,7 +8,7 @@ exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
 source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
 workflow-type: tm+mt
 source-wordcount: '3650'
-ht-degree: 26%
+ht-degree: 27%
 
 ---
 
@@ -172,7 +172,7 @@ Esto significa que el MTA intentará codificar el mensaje en GSM, si lo consigue
 
 Si el mensaje no se puede codificar en GSM, se codificará en UCS-2 y establecerá data_coding en 8.
 
-## Especificaciones del SMSC {#smsc-specificities}
+## Especificaciones de SMSC {#smsc-specificities}
 
 ![](assets/smsc_specificities.png){zoomable="yes"}
 

@@ -38,7 +38,7 @@ Los operadores están vinculados a una zona de seguridad desde su perfil en la c
 
 >[!NOTE]
 >
->Como usuario de Managed Cloud Service, el Adobe establece las zonas de seguridad automáticamente. Para obtener más información, [póngase en contacto con el Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
+>Como usuario de Cloud Services administrados, Adobe establece las zonas de seguridad por usted. Para obtener más información, [comuníquese con Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}.
 
 **Más información**
 

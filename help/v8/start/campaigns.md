@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 source-git-commit: 8d6c3e03f9b7533f7f325b755e3b6d4f74b63a8d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '770'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Campaign permite crear, configurar, ejecutar y analizar todas las campaña
 
 ![](assets/calendar.png)
 
-Descubra cómo acceder a campañas de marketing e implementarlas en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target="_blank"}.
+Descubra cómo acceder e implementar campañas de marketing en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es){target="_blank"}.
 
 ## Pasos clave para comenzar{#gs-ac-start}
 
@@ -56,11 +56,11 @@ Los pasos clave para crear una campaña de marketing multicanal son estos:
 
    Defina la jerarquía y la programación, establezca el presupuesto, añada recursos, y seleccione operadores.
 
-   Obtenga información sobre cómo crear un plan de marketing y configurar campañas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=es){target="_blank"}.
+   Aprenda a crear un plan de marketing y a configurar campañas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-create.html?lang=es){target="_blank"}.
 
-   Todas las campañas de marketing se basan en una plantilla que almacena las configuraciones y capacidades principales. Se proporciona una plantilla para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
+   Todas las campañas de marketing se basan en una plantilla que almacena las configuraciones y capacidades principales. Se proporciona una plantilla integrada para crear una campaña sin ninguna configuración específica definida. Puede crear y configurar las plantillas de campañas y luego crear campañas a partir de estas plantillas.
 
-   Obtenga información sobre cómo trabajar con plantillas de campañas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es){target="_blank"}.
+   Aprenda a trabajar con plantillas de campaña en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es){target="_blank"}.
 
    Descubra las campañas recurrentes y cómo configurarlas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/recurring-periodic-campaigns.html?lang=es){target="_blank"}.
 
@@ -97,7 +97,7 @@ Adobe Campaign ofrece un complemento de **marketing distribuido** para implement
 >
 >Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-Obtenga información sobre cómo configurar y utilizar las funciones de marketing distribuido de Campaign en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}.
+Aprenda a configurar y utilizar las funcionalidades de marketing distribuido de Campaign en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}.
 
 ## Complemento de gestión de respuestas{#response-manager-add-on}
 
@@ -107,4 +107,4 @@ Adobe Campaign ofrece un complemento de **gestión de respuestas** que le permit
 >
 >Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[](../assets/do-not-localize/book.png)Obtenga información sobre cómo configurar y utilizar el Gestor de respuestas de Campaign en la [documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target="_blank"}.
+[](../assets/do-not-localize/book.png) Aprenda a configurar y utilizar el Gestor de respuestas de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target="_blank"}.

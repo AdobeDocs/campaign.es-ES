@@ -1,5 +1,5 @@
 ---
-title: Campaign v8 (consola) 2024 Notas de la versión
+title: Notas de la versión de Campaign v8 (consola) 2024
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2024
 feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
@@ -12,15 +12,15 @@ ht-degree: 78%
 
 # Notas de la versión 2024 {#2024-rn}
 
-Este Página enumera nuevas capacidades, mejoras y correcciones que vienen con **las versiones** 2024 Campaign v8.
+Esta página lista las nuevas funcionalidades, mejoras y correcciones que se proporcionan con las **versiones de Campaign v8 de 2024**.
 
 >[!BEGINSHADEBOX]
 
-**En este Página**
+**En esta página**
 
-* Campaign v8.7 [: versión 8.7.1](#release-8-7-1)
-* Campaign v8.6 [, versión 8.6.1](#release-8-6-1) | [Versión 8.6.2](#release-8-6-2) | [Versión 8.6.3](#release-8-6-3)
-* Campaign v8.5 [: versión 8.5.3](#release-8-5-3)
+* Campaign v8.7: [Versión 8.7.1](#release-8-7-1)
+* Campaign v8.6: [Versión 8.6.1](#release-8-6-1) | [Versión 8.6.2](#release-8-6-2) | [Versión 8.6.3](#release-8-6-3)
+* Campaign v8.5 - [Versión 8.5.3](#release-8-5-3)
 
 >[!ENDSHADEBOX]
 
@@ -34,7 +34,7 @@ _2 de mayo de 2024_
 >
 >Esta versión está en **Disponibilidad limitada** (LA). Está restringido a los clientes que migran **de Adobe Campaign Standard a la versión 8 de Adobe Campaign** y no se puede implementar en ningún otro entorno.
 >
->Como Campaign Standard usuario la transición a Campaign v8, obtenga más información sobre este transición en [Campaign documentación](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/acs-migration){target="_blank"} de la interfaz de usuario web v8.
+>Como usuario de Campaign Standard que está realizando la transición a Campaign v8, obtenga más información sobre esta transición en [Documentación de la interfaz de usuario web de Campaign v8](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/acs-migration){target="_blank"}.
 
 ### Nuevas características {#new-8-7-1}
 
@@ -44,20 +44,20 @@ _2 de mayo de 2024_
 
 * **API de REST**: como usuario migrado de Campaign Standard, puede utilizar las API de REST para crear integraciones para Adobe Campaign y generar su propio ecosistema interconectando Adobe Campaign con el panel de tecnologías que emplea. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/apis/get-started-apis.html?lang=es){target="_blank"}
 
-* **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos del perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}
+* **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/experience-cloud/campaign/reporting/get-started-reporting.html?lang=es){target="_blank"}
 
 ### Actualizaciones de compatibilidad {#comp-8-7-1}
 
 Se han añadido los siguientes conectores FDA. Consulte [esta página](compatibility-matrix.md#FederatedDataAccessFDA).
 
-* Databricks ahora se admite como una base de datos externa con Adobe Campaign acceso de datos federado (FDA).
+* Databricks ahora se admite como base de datos externa con acceso de datos federado de Adobe Campaign (FDA).
 
-* Ahora está disponible un nuevo conector ODBC FDA Amazon Redshift. Ofrece conectividad mejorada, mantenimiento más fácil y compatibilidad mejorada. Esta nueva versión trae las siguientes mejoras:
+* Ya está disponible un nuevo conector ODBC de Amazon Redshift FDA. Ofrece una conectividad mejorada, un mantenimiento más sencillo y una compatibilidad mejorada. Esta nueva versión incorpora las siguientes mejoras:
 
-   * El nuevo conector se basa en la interfaz ODBC que se alinea con nuestros conectores FDA más recientes. Esto garantiza un soporte a largo plazo.
-   * También introduce un nuevo mecanismo de carga de datos utilizando buckets s3, lo que mejora significativamente el rendimiento.
+   * El nuevo conector se basa en la interfaz ODBC, que se alinea con los conectores FDA más recientes. Esto garantiza una asistencia a largo plazo.
+   * También introduce un nuevo mecanismo de carga de datos mediante bloques de s3, lo que mejora significativamente el rendimiento.
 
-  El conector heredado se puede seguir utilizando. Si desea probar el nuevo, comuníquese con su representante de Adobe.
+  El conector heredado aún se puede utilizar. Si desea probar el nuevo, póngase en contacto con su representante de Adobe.
 
 ### Migración a la credencial OAuth de servidor a servidor {#change-8-7-1}
 
@@ -106,7 +106,7 @@ https://jira.corp.adobe.com/issues/?filter=585288&jql=fixVersion%20%3D%208.6.3%2
 -->
 
 
-## Actualizaciones de mayo &#39;24 {#may-updates}
+## Actualizaciones de mayo de 2024 {#may-updates}
 
 El siguiente cambio se publicó en mayo y ahora está disponible para los usuarios de Campaign v8:
 
@@ -132,7 +132,7 @@ _14 de febrero de 2024_
 
   >[!AVAILABILITY]
   >
-  >Campaign interfaz de usuario web solo está disponible para los usuarios que se conectan a Adobe Campaign con sus Adobe ID. Obtenga más información sobre [Adobe Systems sistema Identity Management (IMS).](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}
+  >La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
   >
 
 * Adobe Campaign v8 ahora se integra con **Adobe Experience Manager as a Cloud Service**, con la creación exclusivamente disponible a través de la interfaz de usuario web de Adobe Campaign. [Más información](../connect/ac-aem.md)
@@ -148,14 +148,14 @@ _14 de febrero de 2024_
 
 * En febrero de 2024, cualquier compañía que envíe más de 5000 mensajes de correo electrónico a través de Google o Yahoo! tendrá que empezar a utilizar una tecnología de autenticación conocida como Domain based Message Authentication, Reporting and Conformance (DMARC). Asegúrese de tener configurado el registro DMARC para todos los subdominios que utilice con Adobe Campaign. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html?lang=es){target="_blank"}
 
-* A partir del 1 de junio de 2024, Google y Yahoo! exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista en un clic. Adobe Campaign ahora admite esta opción. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=es#list-unsubscribe){target="_blank"}
+* A partir del 1 de junio de 2024, Google y Yahoo! exigirán a los remitentes que cumplan con la cancelación de la suscripción a una lista en un clic. Adobe Campaign ahora admite esta opción. [Más información](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}
 
 
 ### Correcciones {#fixes-8-6-1}
 
 En esta versión se han solucionado los siguientes problemas:
 
-NEO-67892, NEO-67235, NEO-66797, NEO-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973, NEO-63879, NEO-63815, NEO-63657, NEO-63539, NEO-63387, NEO-63294, NEO-63174, NEO-62964, NEO-62750, NEO-62686, NEO-62455, NEO-62406, NEO-61580, NEO-61199, NEO-60786, NEO-59544, NEO-59198, NEO-59059, NEO-58637, NEO-55197, NEO-52542, NEO-50488, NEO-47789
+NEO-67892,-67235, NEO-66797,-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973,-63879,-63815,-63657,-63539,-63294,-63174,-62686,-62455,-62406,-61580,-63387,-NEO,-62964,-62750,-NEO,-,-61199,-,-NEO,-NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO,-60786,-59544,-59198,-,-,-59059,-58637 55197 52542 50488 47789
 
 
 

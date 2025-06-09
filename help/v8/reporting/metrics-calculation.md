@@ -48,7 +48,7 @@ ht-degree: 99%
 
 Este informe se basa en la tabla **[!UICONTROL Consolidated tracking]** (nms:trackingStats). Esta tabla de acumulados se utiliza por motivos de rendimiento al mostrar los informes, en lugar de la tabla **[!UICONTROL Recipient tracking logs]** (nms:trackingLogRcp), y no se calcula en tiempo real. La tabla se genera unos minutos después de recuperar los “logs” de seguimiento. Si los indicadores están actualizados, los resultados son los mismos que para los indicadores del informe **indicadores de seguimiento.** El indicador @totalclicks expresa el número total de clics durante un periodo de 5 minutos.
 
-## Rechazos y no entregables {#non-deliverables-and-bounces-1}
+## Rechazos y correos que no se pueden entregar {#non-deliverables-and-bounces-1}
 
 **Desglose por tipo de error**
 

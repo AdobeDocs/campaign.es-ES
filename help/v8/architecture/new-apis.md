@@ -8,7 +8,7 @@ exl-id: dd822f88-b27d-4944-879c-087f68e79825
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
 source-wordcount: '429'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -48,7 +48,7 @@ logInfo(strUuid);
 
 Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo esperado.
 
-SOAP **Desde una llamada de**
+**Desde una llamada de SOAP**
 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
@@ -71,7 +71,7 @@ SOAP **Desde una llamada de**
    </soapenv:Envelope>
    ```
 
-1. SOAP UUID se devuelve a la respuesta de la:
+1. UUID se devuelve a la respuesta de SOAP:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -108,7 +108,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
 ![](assets/with-reconciliation.png)
 
 
-SOAP **Desde una llamada de**
+**Desde una llamada de SOAP**
 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
@@ -168,7 +168,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se actualiza según lo
 
 ![](assets/updated-data.png)
 
-SOAP **Desde una llamada de**
+**Desde una llamada de SOAP**
 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
@@ -191,7 +191,7 @@ SOAP **Desde una llamada de**
    </soapenv:Envelope>
    ```
 
-1. SOAP La respuesta de la es:
+1. La respuesta de SOAP es:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -212,4 +212,4 @@ La inserción de los datos de suscripción y baja se basa en el [Mecanismo de en
 
 **Temas relacionados**
 
-* [JSAPI de campaña](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}
+* [JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}

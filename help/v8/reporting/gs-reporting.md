@@ -8,7 +8,7 @@ exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 17%
+ht-degree: 24%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
 * **Análisis de datos descriptivo**
 
-  Adobe Campaign proporciona una herramienta visual para generar estadísticas de los datos de la base de datos. Puede crear informes de análisis descriptivos con un asistente dedicado y adaptar su contenido y diseño según sus necesidades.
+  Adobe Campaign proporciona una herramienta visual para generar estadísticas de los datos de la base de datos. Puede crear informes de análisis descriptivos utilizando el asistente dedicado y adaptar su contenido y diseño según sus necesidades.
 
   Utilice el menú **[!UICONTROL Tools > Descriptive analysis...]** para crear un nuevo informe.
 
@@ -52,4 +52,4 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   Utilice Adobe Campaign para crear informes sobre los datos de la base de datos. Una vez creados, haga que sean accesibles en los contextos adecuados.
 
-  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=es){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.
+  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.

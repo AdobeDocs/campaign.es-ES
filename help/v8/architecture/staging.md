@@ -24,7 +24,7 @@ La capacidad de ensayo de Campaign está habilitada de forma predeterminada en a
 
 Algunos esquemas integrados están clasificados de forma predeterminada, como nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
-Las API de Campaign Classic v7 siguen estando disponibles, pero no pueden beneficiarse de este nuevo mecanismo de ensayo: las llamadas de API fluyen directamente a la base de datos en la nube. El Adobe recomienda utilizar el nuevo mecanismo de ensayo lo más posible para reducir la presión general y la latencia en la base de datos de Campaign Cloud.
+Las API de Campaign Classic v7 siguen estando disponibles, pero no pueden beneficiarse de este nuevo mecanismo de ensayo: las llamadas de API fluyen directamente a la base de datos en la nube. Adobe recomienda utilizar el nuevo mecanismo de ensayo lo más posible para reducir la presión general y la latencia en la base de datos de Campaign Cloud.
 
 >[!CAUTION]
 >

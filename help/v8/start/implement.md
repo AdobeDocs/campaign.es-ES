@@ -6,9 +6,9 @@ role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
 source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1148'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Campaign incluye procesos y configuraciones que permiten utilizar Campaign
 
 * **Consentimiento de usuario y retención de datos**: debe obtener el consentimiento del usuario, configurar mecanismos de suscripción de inclusión doble, facilitar la exclusión y configurar la retención de datos.
 
-  Obtenga más información en la [documentación de privacidad de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#consent){target="_blank"}
+  Obtenga más información en [Documentación de privacidad de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#consent){target="_blank"}
 
 * **Reglamentos de protección de datos y privacidad**: consulte [esta sección](privacy.md) para obtener información sobre los requisitos de privacidad y cómo afectan estas regulaciones a su organización y a Adobe Campaign.
 
@@ -83,18 +83,18 @@ Antes de empezar a enviar mensajes y crear campañas de marketing, debe realizar
    Las campañas, las entregas, los trabajos o los flujos de trabajo se basan en una plantilla, que almacena la configuración y las capacidades clave. Se proporciona una plantilla integrada por componente que no tiene definida ninguna configuración específica. Debe configurar y adaptar las plantillas a sus necesidades, y ponerlas a disposición de los usuarios finales.
 
 
-   Obtenga más información sobre cómo trabajar con plantillas de campañas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es){target="_blank"}.
+   Aprenda a trabajar con plantillas de campaña en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-templates.html?lang=es){target="_blank"}.
 
-   Obtenga más información sobre cómo configurar una plantilla de flujo de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es){target="_blank"}
+   Aprenda a configurar una plantilla de flujo de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es){target="_blank"}.
 
-   Obtenga más información sobre las plantillas de correo electrónico en la [documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target="_blank"}
+   Obtenga más información acerca de las plantillas de correo electrónico en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target="_blank"}.
 
 
 1. **Configuración de reglas de tipología**
 
    Aproveche las reglas de tipologías de Campaign para filtrar, controlar y monitorizar las entregas. Por ejemplo, las reglas de fatiga controlan la frecuencia y la cantidad de mensajes para evitar la saturación de destinatarios. Una vez implementadas, se hace referencia a las reglas de tipología en las entregas.
 
-   Obtenga más información sobre la administración de tipologías y fatiga en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target="_blank"}.
+   Obtenga más información acerca de la administración de tipologías y fatiga en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-optimization/campaign-typologies.html?lang=es){target="_blank"}.
 
 1. **Familiarícese con el modelo de datos integrado de Campaign**
 

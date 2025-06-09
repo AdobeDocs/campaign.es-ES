@@ -9,7 +9,7 @@ exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
 source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
 source-wordcount: '1349'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -29,9 +29,9 @@ En el contexto de esta implementación actualizada, para enviar notificaciones p
 
 1. [Creación y configuración de una propiedad móvil en la recopilación de datos de Adobe Experience Platform](#create-mobile-property)
 
-1. [Agregar extensión de Adobe Experience Platform Assurance de Adobe](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(recomendado)
+1. [Agregar extensión de Adobe Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(recomendado)
 
-1. [Añadir un Campaign Classic a la aplicación móvil.](#campaign-mobile-ap)
+1. [Añada Campaign Classic a su aplicación móvil](#campaign-mobile-ap)
 
 1. [Cree una entrega para iOS y Android](##push-create)
 
@@ -43,7 +43,7 @@ En el contexto de esta implementación actualizada, para enviar notificaciones p
 
 Debe agregar sus credenciales de inserción de la aplicación móvil en [!DNL Adobe Experience Platform Data Collection].
 
-Se requiere el registro de credenciales push de la aplicación móvil para autorizar al Adobe a enviar notificaciones push en su nombre. Consulte los pasos detallados a continuación:
+Se requiere el registro de credenciales push de aplicaciones móviles para autorizar a Adobe a enviar notificaciones push en su nombre. Consulte los pasos detallados a continuación:
 
 1. En [!DNL Adobe Experience Platform Data Collection], seleccione la ficha **[!UICONTROL App Surfaces]** en el panel izquierdo.
 
@@ -143,7 +143,7 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
 1. **[!UICONTROL Integration key]** es específico de cada aplicación. Vincula la aplicación móvil a Adobe Campaign y se utiliza al configurar la extensión de Campaign.
 
-   Asegúrese de que se ha definido el mismo **[!UICONTROL Integration key]** en Adobe Campaign y en el código de la aplicación a través del SDK.
+   Asegúrese de que se ha definido el mismo **[!UICONTROL Integration key]** en Adobe Campaign y en el código de la aplicación a través de SDK.
 
    Obtenga más información en [la documentación para desarrolladores](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
@@ -178,7 +178,7 @@ Para crear una aplicación para dispositivos Android, siga estos pasos:
 
 1. La clave de integración es específica para cada aplicación. Vincula la aplicación móvil a Adobe Campaign y se utiliza al configurar la extensión de Campaign.
 
-   Asegúrese de que se ha definido el mismo **[!UICONTROL Integration key]** en Adobe Campaign y en el código de la aplicación a través del SDK.
+   Asegúrese de que se ha definido el mismo **[!UICONTROL Integration key]** en Adobe Campaign y en el código de la aplicación a través de SDK.
 
    Obtenga más información en [la documentación para desarrolladores](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#configuration-keys){target="_blank"}
 
@@ -244,7 +244,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 Su propiedad móvil ahora se sincronizará automáticamente con el flujo de trabajo técnico de **[!UICONTROL Adobe Experience Platform Data Collection]**. [Más información](../../automation/workflow/technical-workflows.md#list-technical-workflows)
 
-## Añadir un Campaign Classic a la aplicación móvil. {#campaign-mobile-app}
+## Añada Campaign Classic a su aplicación móvil {#campaign-mobile-app}
 
 El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la IU de recopilación de datos para una configuración flexible e integraciones ampliables basadas en reglas.
 

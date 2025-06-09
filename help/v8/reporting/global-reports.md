@@ -66,9 +66,9 @@ Estas son las opciones disponibles:
 * **[!UICONTROL Transactions]**: Total number of transactions after a message is received. In order for a transaction to be taken into account, a transaction type webtracking tag must be inserted into the matching web page. Webtracking configuration is presented in [this section](../../configuration/using/about-web-tracking.md).
 -->
 
-## Rechazos y no entregables {#non-deliverables-and-bounces}
+## Rechazos y correos que no se pueden entregar {#non-deliverables-and-bounces}
 
-Este informe muestra el desglose de no entregables, así como un desglose de rechazos por dominio de Internet.
+Este informe muestra el desglose de correos que no se pueden entregar, así como un desglose de rechazos por dominio de Internet.
 
 **[!UICONTROL Number of messages processed]** representa el número total de mensajes procesados por el servidor de entrega. Este valor es inferior al número de mensajes que se desea enviar cuando se han detenido o pausado algunas entregas (antes de que el servidor los procese).
 
@@ -78,7 +78,7 @@ Este informe muestra el desglose de no entregables, así como un desglose de rec
 >
 >Los errores que se muestran en este informe activan el proceso de cuarentena. Para obtener más información sobre la administración de la cuarentena, consulte [Administración de cuarentena](../send/quarantines.md).
 
-La primera sección de este informe muestra el desglose de no entregables en forma de tabla de valores y de gráfico.
+La primera sección de este informe muestra el desglose de correos que no se pueden entregar en forma de tabla de valores y de gráfico.
 
 Para cada tipo de error, se cuenta con:
 

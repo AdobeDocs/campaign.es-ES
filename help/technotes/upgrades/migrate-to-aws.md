@@ -7,7 +7,7 @@ exl-id: 50279a2f-0296-43f5-8967-16cc6a0c88f6
 source-git-commit: 3e95a56825a143a4457ab7ee242208d7daaeb414
 workflow-type: tm+mt
 source-wordcount: '474'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ## ¿Qué ha cambiado?{#aws-changes}
 
-Como parte de nuestro esfuerzo continuo por proporcionar el servicio de envío de correo electrónico de la más alta calidad, la infraestructura de envío de correo electrónico de Campaign se está trasladando de los centros de datos alojados en el Adobe a Amazon Web Service (AWS).
+Como parte de nuestro esfuerzo continuo por proporcionar el servicio de envío de correo electrónico de la más alta calidad, la infraestructura de envío de correo electrónico de Campaign se está trasladando de los centros de datos alojados de Adobe a Amazon Web Service (AWS).
 
 Este movimiento garantizará una alta disponibilidad, un rendimiento óptimo y la capacidad de escalar para satisfacer las necesidades de nuestros clientes.
 
@@ -23,7 +23,7 @@ Este movimiento garantizará una alta disponibilidad, un rendimiento óptimo y l
 
 Este cambio afecta a:
 
-* Clientes alojados e híbridos de Campaign Classic v7
+* Clientes híbridos y alojados de Campaign Classic v7
 * Clientes de Campaign Managed Services
 * Todos los clientes de la versión 8 de Campaign
 * clientes de Campaign Standard
@@ -55,7 +55,7 @@ Este movimiento será transparente para los clientes:
 
 * **¿Cuáles son los clientes objetivo de esta migración?**
 
-  Se migrarán todos los entornos de los clientes de Campaign v8 y de Campaign Classic v7 hybrid, alojados y Campaign Managed Services. Los clientes de Campaign Standard también se ven afectados.
+  Todos los clientes de la versión 8 de Campaign y Campaign Classic v7 hybrid, alojados y Campaign Managed Services verán migrados sus entornos. Los clientes de Campaign Standard también se ven afectados.
 
 * **¿Cuál es el tiempo de inactividad esperado?**
 
@@ -63,15 +63,15 @@ Este movimiento será transparente para los clientes:
 
 * **¿El cliente requiere alguna acción para la migración?**
 
-  No se requiere ninguna acción, ya que la migración se ejecutará automáticamente mediante Adobe.
+  No se requiere ninguna acción, ya que Adobe ejecutará automáticamente la migración.
 
 * **¿Qué validaciones deben ejecutar los clientes?**
 
-  No se necesitan pruebas específicas para esta migración. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support){target="_blank"}.
+  No se necesitan pruebas específicas para esta migración. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo programado de actualización de seguridad?**
 
   Dado que se trata de una migración obligatoria, no podemos admitir modificaciones en la programación existente.
 
-Para cualquier otra pregunta, puede comunicarse con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support){target="_blank"}.
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

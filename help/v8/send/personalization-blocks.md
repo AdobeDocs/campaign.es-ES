@@ -8,7 +8,7 @@ exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 34%
+ht-degree: 33%
 
 ---
 
@@ -49,7 +49,7 @@ Los bloques de personalización integrados son:
 * **[!UICONTROL Registration link]**: inserta un vínculo de suscripción. Este vínculo se define en la configuración de la instancia. El contenido predeterminado es: “Para registrarse, haga clic aquí”.
 * **[!UICONTROL Registration link (with referrer)]**: inserta un vínculo de suscripción que permite identificar el visitante y la entrega. Este vínculo se define en la configuración de la instancia.
 * **[!UICONTROL Registration page URL]**: inserta una URL de suscripción
-* **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genere un código que dé formato a un correo electrónico con estilos de HTML predefinidos.
+* **[!UICONTROL Style of content emails]** y **[!UICONTROL Notification style]**: genere un código que dé formato a un correo electrónico con estilos HTML predefinidos.
 * **[!UICONTROL Unsubscription link]**: inserta un vínculo que permite cancelar la suscripción a todos los envíos (lista de bloqueados de la). El contenido asociado predeterminado es el siguiente: “Usted recibe este mensaje porque ha estado en contacto con ***nombre de la organización*** o un afiliado. Para dejar de recibir mensajes de ***nombre de la organización*** haga clic aquí”.
 
 ## Creación de bloques de personalización personalizados {#create-custom-personalization-blocks}
@@ -70,7 +70,7 @@ Para crear un bloque personalizado, siga los pasos a continuación:
    * Introduzca la etiqueta del bloque. Esta etiqueta se muestra en la ventana de inserción del campo personalizado.
    * Seleccione un tipo de contenido de **Envío**.
    * Habilite la opción **[!UICONTROL Visible in the customization menus]** para poder acceder a este bloque desde el icono de inserción del campo personalizado.
-   * Si es necesario, habilite la opción **[!UICONTROL The content of the personalization block depends upon the format]** para definir dos bloques diferentes para los correos electrónicos de HTML y texto.
+   * Si es necesario, habilite la opción **[!UICONTROL The content of the personalization block depends upon the format]** para definir dos bloques diferentes para los correos electrónicos de texto y HTML.
    * Introduzca el contenido (en HTML, texto, JavaScript, etc.) del bloque personalizado y haga clic en **[!UICONTROL Save]**.
 
 Una vez guardado, el nuevo bloque personalizado está disponible en el editor de envíos.
@@ -79,4 +79,4 @@ Una vez guardado, el nuevo bloque personalizado está disponible en el editor de
 
 Obtenga información sobre cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido de su envío de correo electrónico en el siguiente vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449009?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

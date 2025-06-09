@@ -18,7 +18,7 @@ Cree filtros predefinidos para definir reglas de idoneidad para la población de
 
 >[!NOTE]
 >
->La interfaz de usuario web de Adobe Campaign le ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro. Para obtener más información sobre los filtros predefinidos para la interfaz de usuario web, consulte la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
+>La interfaz de usuario web de Adobe Campaign le ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro. Para obtener más información sobre los filtros predefinidos para la interfaz de usuario web, consulte la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
 
 
 Para crear un filtro predefinido, siga el siguiente proceso:

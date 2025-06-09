@@ -16,9 +16,9 @@ ht-degree: 20%
 
 La integración entre Adobe Campaign y Adobe Experience Manager le permite gestionar el contenido de las entregas de los correos electrónicos y los formularios directamente en Adobe Experience Manager.
 
-[Descubra cómo editar el contenido de Adobe Experience Manager as a Cloud Service en la interfaz web de Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=es){target="_blank"}.
+[Descubra cómo editar el contenido de Adobe Experience Manager as a Cloud Service en la interfaz web de Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html){target="_blank"}.
 
-[Obtenga más información acerca de Adobe Experience Manager en este documento](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=es#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
+[Obtenga más información acerca de Adobe Experience Manager en este documento](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
 
 
 >[!NOTE]
@@ -47,7 +47,7 @@ Esta integración puede utilizarse, por ejemplo, para crear un “newsletter” 
 
    ![](assets/aem_authoring_3.png)
 
-1. Personalice el contenido del correo electrónico añadiendo componentes como, por ejemplo, campos de personalización de Adobe Campaign. Obtenga más información en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=es#editing-email-content){target="_blank"}.
+1. Personalice el contenido del correo electrónico añadiendo componentes como, por ejemplo, campos de personalización de Adobe Campaign. Obtenga más información en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html#editing-email-content){target="_blank"}.
 
 1. Cuando el correo electrónico esté listo, vaya al menú **[!UICONTROL Page information]** y haga clic en **[!UICONTROL Start workflow]**.
 
@@ -95,7 +95,7 @@ El correo electrónico está listo para enviarlo a su audiencia.
 
 ## Importar recursos desde la biblioteca de Adobe Experience Manager Assets {#assets-library}
 
-También puede insertar recursos directamente desde su [!DNL Adobe Experience Manager Assets Library] mientras edita un mensaje de correo electrónico o una página de aterrizaje en Adobe Campaign. Esta funcionalidad se encuentra detallada en [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=es){target="_blank"}.
+También puede insertar recursos directamente desde su [!DNL Adobe Experience Manager Assets Library] mientras edita un mensaje de correo electrónico o una página de aterrizaje en Adobe Campaign. Esta funcionalidad se encuentra detallada en [Documentación de Adobe Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html){target="_blank"}.
 
 **Desde Adobe Experience Manager:**
 
@@ -103,7 +103,7 @@ También puede insertar recursos directamente desde su [!DNL Adobe Experience Ma
 
    ![](assets/aem_assets_1.png)
 
-1. Haga clic en **Crear** y luego en **Archivos** para importar el recurso en la **biblioteca de Adobe Experience Manager Assets**. Obtenga más información en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=es#uploading-assets){target="_blank"}.
+1. Haga clic en **Crear** y luego en **Archivos** para importar el recurso en la **biblioteca de Adobe Experience Manager Assets**. Obtenga más información en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html#uploading-assets){target="_blank"}.
 
    ![](assets/aem_assets_2.png)
 

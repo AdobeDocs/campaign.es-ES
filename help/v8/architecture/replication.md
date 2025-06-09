@@ -42,7 +42,7 @@ Las políticas de replicación definen la cantidad de datos que se duplican desd
 
 La versión 8 de Campaign se basa en flujos de trabajo técnicos específicos para administrar la duplicación de datos programada. Estos flujos de trabajo técnicos están disponibles en el nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** del explorador de Campaign. **No se deben modificar.**
 
-Los flujos de trabajo técnicos ejecutan procesos o trabajos, programados de forma regular en el servidor. La lista completa de flujos de trabajo técnicos se detalla en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"}.
+Los flujos de trabajo técnicos ejecutan procesos o trabajos, programados de forma regular en el servidor. La lista completa de flujos de trabajo técnicos se detalla en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
 
 Los flujos de trabajo técnicos que garantizan la duplicación de datos son los siguientes:
 
@@ -115,6 +115,6 @@ Cada cola se administra mediante un flujo de trabajo técnico, que administra la
 
 Este vídeo presenta los conceptos clave de las bases de datos que utiliza Adobe Campaign v8, por qué se replican los datos, qué datos se replican y cómo funciona el proceso de replicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416864?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Hay disponibles [tutoriales adicionales de la consola del cliente de Campaign v8 aquí](https://experienceleague.adobe.com/es/docs/campaign-learn/tutorials/overview).
+Hay disponibles [tutoriales adicionales de la consola del cliente de Campaign v8 aquí](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).

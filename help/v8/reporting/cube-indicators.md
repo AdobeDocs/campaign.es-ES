@@ -80,7 +80,7 @@ Para crear un cubo, siga los pasos a continuación:
 
 ### Defina las dimensiones {#define-dimensions}
 
-Una vez creado el cubo, defina sus dimensiones. Los Dimension son los ejes de análisis definidos para cada cubo en función de su esquema de hechos relacionado. Estas son las dimensiones exploradas en el análisis, como el tiempo (año, mes, fecha), una clasificación de productos o contratos (familia, referencia, etc.), un segmento de población (por ciudad, grupo de edad, estado, etc.).
+Una vez creado el cubo, defina sus dimensiones. Las dimensiones son los ejes de análisis definidos para cada cubo en función de su esquema de hechos relacionado. Estas son las dimensiones exploradas en el análisis, como el tiempo (año, mes, fecha), una clasificación de productos o contratos (familia, referencia, etc.), un segmento de población (por ciudad, grupo de edad, estado, etc.).
 
 Para crear dimensiones, siga los pasos a continuación:
 

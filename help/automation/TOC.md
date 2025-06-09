@@ -6,7 +6,7 @@ feature: Overview
 source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 83%
       + [Creación de un flujo de trabajo](workflow/build-a-workflow.md)
       + [Prácticas recomendadas](workflow/workflow-best-practices.md)
       + [Uso de datos de flujo de trabajo](workflow/use-workflow-data.md)
-   + Ejecución de un flujo de trabajo {#executing-a-workflow}
+   + Ejecutar un flujo de trabajo {#executing-a-workflow}
       + [Inicio de un flujo de trabajo](workflow/start-a-workflow.md)
       + [Ciclo de vida del flujo de trabajo](workflow/workflow-life-cycle.md)
       + [Configuración de aprobaciones](workflow/define-approvals.md)
@@ -40,7 +40,7 @@ ht-degree: 83%
          + [Cambio de la fuente de datos](workflow/change-data-source.md)
          + [Cambio de dimensión](workflow/change-dimension.md)
          + [Conector CRM](workflow/crm-connector.md)
-         + [Anulación de duplicación](workflow/deduplication.md)
+         + [Deduplicación](workflow/deduplication.md)
          + [Descripción del envío](workflow/delivery-outline.md)
          + [Editar esquema](workflow/edit-schema.md)
          + [Enriquecimiento ](workflow/enrichment.md)
@@ -86,7 +86,7 @@ ht-degree: 83%
          + [Envío recurrente](workflow/recurring-delivery.md)
          + [Código SQL y código JavaScript](workflow/sql-code-and-javascript-code.md)
          + [Administración de datos SQL](workflow/sql-data-management.md)
-         + [Actualización de agregado](workflow/update-aggregate.md)
+         + [Actualización del agregado](workflow/update-aggregate.md)
       + Actividades de evento {#event-activities}
          + [Lista de actividades de evento](workflow/event-activities.md)
          + [Recolector de ficheros](workflow/file-collector.md)
@@ -113,7 +113,7 @@ ht-degree: 83%
          + [Uso de agregados](workflow/using-aggregates.md)
          + [Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](workflow/deduplication-merge.md)
          + [Configuración de un flujo de trabajo de importación recurrente](workflow/recurring-import-workflow.md)
-      + Consultas de diseño {#designing-queries}
+      + Diseño de consultas {#designing-queries}
          + [Actualización de lista trimestral con una consulta incremental](workflow/quarterly-list-update.md)
       + Consulta y filtro {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/querying-recipient-table.md)
@@ -133,7 +133,7 @@ ht-degree: 83%
       + [Administración de permisos](workflow/managing-rights.md)
       + [Cambio de imágenes de actividad](workflow/change-activity-images.md)
       + [Administrar zonas horarias](workflow/managing-time-zones.md)
-+ Orquestación de campañas {#campaign-orchestration}
++ Orquestación de campaña {#campaign-orchestration}
    + [Introducción a las campañas de marketing](campaigns/set-up-campaigns.md)
    + [Creación de programas y campañas](campaigns/marketing-campaign-create.md)
    + [Creación y configuración de plantillas](campaigns/marketing-campaign-templates.md)

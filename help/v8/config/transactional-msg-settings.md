@@ -21,7 +21,7 @@ Comprender la arquitectura de mensajería transaccional en [esta página](../arc
 
 >[!NOTE]
 >
->Como usuario de Cloud Service administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+>Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
 ## Definición de permisos {#mc-permissions}
 

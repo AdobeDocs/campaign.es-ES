@@ -18,11 +18,11 @@ Puede conectar la instancia de Campaign con las soluciones de Adobe Experience C
 
 Adobe Campaign incluye varios conectores que le permiten comunicarse con aplicaciones externas, conectarse a motores de base de datos, compartir y sincronizar datos.
 
-## Combine sus soluciones de Adobe {#gs-ac-integration}
+## Combinación de las soluciones de Adobe {#gs-ac-integration}
 
 Combine soluciones de Adobe Experience Cloud para modernizar su implementación.
 
-Campaign v8 puede conectarse con las siguientes soluciones de Adobe. Examine los vínculos para obtener más información sobre casos de uso, configuración y directrices:
+La versión 8 de Campaign puede conectarse con las siguientes soluciones de Adobe. Examine los vínculos para obtener más información sobre casos de uso, configuración y directrices:
 
 * Adobe Analytics.[Más información](../connect/ac-aa.md)
 * Adobe Experience Cloud déclencheur. [Más información](../connect/ac-triggers.md)
@@ -32,15 +32,15 @@ Campaign v8 puede conectarse con las siguientes soluciones de Adobe. Examine los
 * Adobe Target. [Más información](../connect/ac-at.md)
 * Adobe Workfront. [Más información](../connect/ac-workfront.md)
 
-También puede combinar sus **audiencias** y **recursos** en soluciones de Experience Cloud con las capacidades de uso compartido de recursos y Audiencias.
+También puede combinar sus **audiencias** y **recursos** en las soluciones de Experience Cloud con las capacidades de uso compartido de recursos y Audiencias.
 
-Obtenga más información sobre **uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=es#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información sobre **uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Obtenga más información sobre **Uso compartido de recursos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=es#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información sobre **Uso compartido de recursos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >
->Como usuario de Cloud Service administrados, [póngase en contacto con el Adobe](../start/campaign-faq.md#support) para conectar Campaign con los servicios y las soluciones de Adobe Experience Cloud.
+>Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud.
 
 
 ## Integración con el conector CRM{#gs-crm-connectors}
@@ -48,7 +48,7 @@ Obtenga más información sobre **Uso compartido de recursos** entre Campaign y 
 Puede conectar su plataforma Adobe Campaign a sus **sistemas de terceros de CRM** y sincronizar los datos: contactos, cuentas, compras, etc.
 
 Active los datos de CRM en la comunicación entre canales: Aprenda a pasar contactos de su sistema CRM a Adobe Campaign y a compartir los datos de campaña de Adobe Campaign con su sistema CRM.
-Los conectores CRM permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para garantizar que los datos estén actualizados en todo momento a lo largo de los sistemas.
+Los conectores CRM permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para asegurar que los datos estén actualizados en todo momento en todos los sistemas.
 
 Aprenda a integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en [esta página](crm.md)
 

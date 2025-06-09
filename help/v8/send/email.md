@@ -91,7 +91,7 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
 Su primer envío de correo electrónico está listo. Ahora debe definir la audiencia, validar la entrega y enviarlo.
 
-Aprenda a crear un flujo de trabajo para importar un contenido de correo electrónico en este [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=es){target="_blank"}.
+Aprenda a crear un flujo de trabajo para importar un contenido de correo electrónico en este [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 >[!MORELIKETHIS]
 >

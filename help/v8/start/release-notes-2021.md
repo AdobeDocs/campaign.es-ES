@@ -121,7 +121,7 @@ _7 de septiembre de 2021_
 
 **Otros cambios**
 
-* Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=es#configure-acc-for-microsoft)
+* Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
 * Se ha añadido un mecanismo de protección para permitir que el [flujo de trabajo técnico de facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=es#billing-report) se ejecute en la instancia de marketing.

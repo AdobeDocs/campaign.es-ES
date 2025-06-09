@@ -22,7 +22,7 @@ Adobe Campaign ofrece dos nuevos modelos de aprendizaje automático: [Optimizaci
 >
 >Esta capacidad no está disponible de forma predeterminada como parte del producto. Solo está disponible para clientes de Adobe Campaign Managed Cloud Services que ejecuten Adobe Campaign Classic v7 o Adobe Campaign v8.
 >
->La implementación requiere la participación de Adobe Consulting. Para obtener más información, póngase en contacto con el representante del Adobe.
+>La implementación requiere la participación de Adobe Consulting. Para obtener más información, póngase en contacto con su representante de Adobe.
 >
 
 

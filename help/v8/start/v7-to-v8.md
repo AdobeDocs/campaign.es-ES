@@ -27,7 +27,7 @@ Como antiguo usuario de la versión 7 de [!DNL Campaign Classic], no debería su
 
 La versión 8 de Adobe Campaign está disponible como **servicio en la nube administrado**.
 
-Adobe Campaign Managed Cloud Services ofrece una plataforma de servicios administrados para diseñar experiencias multicanal para los clientes y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal. Obtenga más información acerca de Campaign Managed Cloud Services en la [página de descripción del producto](https://helpx.adobe.com/es/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
+Adobe Campaign Managed Cloud Services ofrece una plataforma de servicios administrados para diseñar experiencias multicanal para los clientes y proporciona un entorno para la orquestación visual de la campaña, la administración de interacciones en tiempo real y la ejecución multicanal. Obtenga más información acerca de Campaign Managed Cloud Services en la [página de descripción del producto](https://helpx.adobe.com/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"}.
 
 La nueva oferta combina los mejores servicios con supervisión proactiva y alertas oportunas, centrándose en tres áreas:
 
@@ -70,7 +70,7 @@ Aprenda a conectarse a [!DNL Campaign] en [esta página](connect.md).
 
 ## Analizar datos con cubos{#adobe-reporting}
 
-Utilice el módulo Marketing Analytics para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Además, cree informes y genere poblaciones objetivo: una vez identificados, se almacenan en listas que se pueden utilizar en Adobe Campaign (direccionamiento, segmentación, etc.).
+Utilice el módulo Marketing Analytics para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Además, cree informes y genere poblaciones destinatarias: una vez identificados, se almacenan en listas que se pueden utilizar en Adobe Campaign (direccionamiento, segmentación, etc.).
 
 Los informes cubo de Adobe Campaign versión 8 están optimizados y disponen de mejores prestaciones de escalado que la versión 7 de Campaign Classic. En ese modelo de implementación específico, las anteriores limitaciones de los cubos no se aplican en la versión 8 de Campaign. Puede obtener más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md).
 

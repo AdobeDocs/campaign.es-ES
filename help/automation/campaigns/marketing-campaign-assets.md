@@ -36,7 +36,7 @@ Los documentos se pueden asociar en el nivel de campaña (documentos contextuale
 
 Para una campaña, la ficha **[!UICONTROL Documents]** contiene:
 
-* Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que Adobe Campaign puede descargar localmente con los derechos adecuados,
+* Lista de todos los documentos necesarios para el contenido (plantilla, imágenes, etc.) que los operadores de Adobe Campaign pueden descargar localmente con los derechos adecuados,
 * Documentos que contienen información para el enrutador, si los hay.
 
 Los documentos están vinculados al programa o a la campaña a través de la pestaña **[!UICONTROL Edit > Documents]**.

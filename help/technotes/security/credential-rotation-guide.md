@@ -4,7 +4,8 @@ title: 'Nota técnica: Guía de rotación de credenciales'
 description: 'Nota técnica de Adobe Campaign: Guía de rotación de credenciales'
 hide: true
 hidefromtoc: true
-source-git-commit: 9d280a5c9d428a2795f2c893aad2d31ae2f122b9
+exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
+source-git-commit: 14e49a0b4de1b82239113bd670213449f464c27f
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -29,7 +30,7 @@ Gire todas las credenciales guardadas en las cuentas externas.
 
 >[!CAUTION]
 >
->**No** modifique las credenciales administradas de la Adobe. No se debe modificar ninguna cuenta externa que tenga `adobe` servidor relacionado.
+>**No** modifique las credenciales administradas de Adobe. No se debe modificar ninguna cuenta externa que tenga `adobe` servidor relacionado.
 
 ![](assets/technote-1.png)
 
@@ -37,26 +38,26 @@ Para los operadores técnicos específicos `mc*` (por ejemplo: mc1, mc2, etc.) y
 
 1. Adobe puede cambiar las credenciales de estos operadores y compartirlas con usted. Tenga en cuenta que todas las integraciones que utilizan estos operadores dejarán de funcionar hasta que las credenciales de estos operadores se actualicen de su lado.
 
-1. El Adobe puede crear **nuevos** operadores correspondientes a cada operador existente y compartirlos con usted. El Adobe eliminará todas las ocurrencias de operadores antiguos después de cambiar a estos nuevos operadores.
+1. Adobe puede crear **nuevos** operadores correspondientes a cada operador existente y compartirlos con usted. Adobe eliminará todas las ocurrencias de operadores antiguos después de que haya cambiado a estos nuevos operadores.
 
 
 ## Clave privada/certificado de Mobile Services  {#ac-key-credentials}
 
 Para la rotación de los servicios móviles relacionados con Private keys y Certificate, consulte los vínculos a continuación.
 
-* Para Android, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
+* Para Android, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
 Vaya a la sección **Crear la aplicación móvil de Android > Configurar la versión de la API**.
 
-* Para iOS, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
+* Para iOS, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
 Vaya a la sección **Crear aplicación móvil de iOS->Modo de autenticación**.
 
 ## Claves GPG {#ac-gpg-credentials}
 
 Para la rotación de claves GPG, se deben seguir los siguientes pasos:
 
-1. Descifrar los datos existentes utilizando la clave existente. [Más información](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Descifrar los datos existentes utilizando la clave existente. [Más información](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
-1. Cree un nuevo par de claves GPG. Obtenga más información acerca de la administración de claves GPG en [esta documentación](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Cree un nuevo par de claves GPG. Obtenga más información acerca de la administración de claves GPG en [esta documentación](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
 1. Reemplace el uso de claves GPG existente en todos los flujos de trabajo con la clave recién creada.
 

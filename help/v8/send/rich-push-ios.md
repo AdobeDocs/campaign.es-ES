@@ -5,18 +5,19 @@ description: Aprenda a diseñar una entrega de notificaciones push enriquecidas 
 feature: Push
 role: User
 level: Beginner
-source-git-commit: 4e52e596d4eb2a8e1a1799fcd7104dcd894b6c2d
+exl-id: 75a57ddb-558e-4dd2-a684-e63e51545554
+source-git-commit: fef2c829da637b43067147b51aff7030d25c9744
 workflow-type: tm+mt
 source-wordcount: '1093'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
-# Diseño de una entrega push enriquecida con iOS {#rich-push}
+# Diseño de un envío push enriquecido para iOS {#rich-push}
 
 >[!IMPORTANT]
 >
->Antes de diseñar una notificación push enriquecida, primero debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) para ver el procedimiento detallado.
+>Antes de diseñar una notificación push enriquecida, primero debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application) para ver el procedimiento detallado.
 
 ## Definición del contenido de una notificación de iOS {#push-message}
 
@@ -187,4 +188,3 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 | **[!UICONTROL Click action]** | Configure la acción asociada con un clic del usuario en la notificación. |
 | **[!UICONTROL Interruption level]** | <ul><li>Activo: de forma predeterminada, el sistema presenta la notificación inmediatamente, ilumina la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.</li><li>Pasivo: el sistema añade la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.</li><li> Con distinción de tiempo: el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.</li><li>Esencial: el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.</li></ul> |
 | **[!UICONTROL Relevance score]** | Establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones. |
-

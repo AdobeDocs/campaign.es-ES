@@ -100,6 +100,6 @@ Para rellenar un campo en XML, debe agregar el atributo **xml** con el valor &qu
   <element name="description" xml="true" type="html" label="Description"/>
   ```
 
-  El tipo &quot;html&quot; permite almacenar el contenido del HTML en una etiqueta CDATA y mostrar una comprobación especial de edición del HTML en la interfaz de cliente de Adobe Campaign.
+  El tipo &quot;html&quot; permite almacenar el contenido de HTML en una etiqueta CDATA y mostrar una comprobación especial de edición de HTML en la interfaz de cliente de Adobe Campaign.
 
 El uso de campos XML permite añadir campos sin necesidad de modificar la estructura física de la base de datos. Otra ventaja es que utiliza menos recursos (tamaño asignado a campos SQL, límite en el número de campos por tabla, etc.).

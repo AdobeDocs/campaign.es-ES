@@ -89,7 +89,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 
 >[!NOTE]
 >
->Si trabaja con el módulo Campaign Interaction, las reglas de elegibilidad se aplican al mismo tiempo que las reglas de filtrado (para ofertas encontradas en las descripciones de entrega) o durante la fase de personalización, durante la llamada al motor de ofertas.
+>Si trabaja con el módulo Campaign Interaction, las reglas de idoneidad se aplican al mismo tiempo que las reglas de filtrado (para ofertas encontradas en las descripciones de entrega) o durante la fase de personalización, durante la llamada al motor de ofertas.
 
 Puede adaptar la secuencia de ejecución de las reglas que tienen el mismo tipo utilizando el campo correspondiente en la pestaña **[!UICONTROL General]** de la regla. Cuando se ejecutan varias reglas durante la misma fase de procesamiento de mensajes, se puede configurar su secuencia de ejecución en el campo **[!UICONTROL Execution sequence]**.
 

@@ -5,7 +5,8 @@ description: Aprenda a definir contenido de correo electrónico dinámico e inte
 feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
+source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 99%
@@ -197,4 +198,4 @@ Por ejemplo, si ha incluido una lista de productos en el correo electrónico, al
 
 El siguiente vídeo explica cómo activar AMP en Adobe Campaign y cómo usarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/33567?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)

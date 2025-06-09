@@ -8,7 +8,7 @@ exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
 workflow-type: tm+mt
 source-wordcount: '1049'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
 La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-Obtenga más información sobre los correos electrónicos entrantes en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=es){target="_blank"}.
+Obtenga más información acerca de los correos electrónicos entrantes en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -118,7 +118,7 @@ En el contexto de los mensajes transaccionales, las instancias de ejecución se 
 
 ## Transferir datos a cuentas externas {#transfer-data-external-accounts}
 
-Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Obtenga más información sobre **Transferencia de archivos** en los flujos de trabajo de [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html?lang=es){target="_blank"}.
+Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Obtenga más información acerca de **Transferencia de archivos** en los flujos de trabajo de [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/file-transfer.html){target="_blank"}.
 
 * **FTP y SFTP**: la cuenta externa **FTP** permite configurar y probar el acceso a un servidor fuera de Adobe Campaign. Para configurar conexiones con sistemas externos como servidores SFTP o FTP 898 utilizados para transferencias de archivos, puede crear cuentas externas propias.
 
@@ -126,7 +126,7 @@ Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Cam
 
   >[!NOTE]
   >
-  >A partir de la versión 8.5, ahora puede autenticarse de forma segura con una clave privada al configurar su cuenta externa SFTP. [Más información sobre la administración de claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es){target="_blank"}.
+  >A partir de la versión 8.5, ahora puede autenticarse de forma segura con una clave privada al configurar su cuenta externa SFTP. [Más información sobre la administración de claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon Simple Storage Service (S3)**: el conector **AWS S3** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detalles:
 
@@ -134,9 +134,9 @@ Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Cam
 
    * **[!UICONTROL AWS access key ID]**: Aprenda a encontrar su ID de clave de acceso de AWS en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-   * **[!UICONTROL Secret access key to AWS]**: Aprenda a encontrar su clave de acceso secreta a AWS en [Documentación de Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
+   * **[!UICONTROL Secret access key to AWS]**: aprenda a encontrar su clave de acceso secreta a AWS en [Documentación de Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
 
-   * **[!UICONTROL AWS Region]**: obtenga más información sobre las regiones de AWS en [Documentación de Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
+   * **[!UICONTROL AWS Region]**: Obtenga más información sobre las regiones de AWS en [Documentación de Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
 
    * La casilla de verificación **[!UICONTROL Use server side encryption]** le permite almacenar el archivo en modo codificado S3. Aprenda a encontrar el ID de clave de acceso y la clave de acceso secreta en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 

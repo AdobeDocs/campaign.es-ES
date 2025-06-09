@@ -20,7 +20,7 @@ Puede acceder a Adobe Campaign a través de su consola de cliente o de su interf
 >
 >Esta documentación se centra en el uso de la consola del cliente de Campaign. Si está usando la interfaz de usuario web de Campaign, consulte [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}.
 
-* **Consola de cliente**: la consola de cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign SOAP a través de protocolos de Internet estándar, como los protocolos de Internet de tipo y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S). [Más información](#ui-access)
+* **Consola de cliente**: la consola de cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S). [Más información](#ui-access)
 
   Aprenda a instalar y configurar la consola del cliente de Campaign en [esta sección](../start/connect.md).
 
@@ -28,17 +28,17 @@ Puede acceder a Adobe Campaign a través de su consola de cliente o de su interf
 
   >[!AVAILABILITY]
   >
-  >La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+  >La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
   >
 
-* **Acceso web**: Las funcionalidades de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web, mediante una interfaz de usuario de HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  Obtenga más información acerca de Campaign Web Access [en esta sección](../start/connect.md#web-access).
+* **Acceso web**: Las funcionalidades de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario de HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  Obtenga más información acerca de Campaign Web Access [en esta sección](../start/connect.md#web-access).
 
-* SOAP **API**: para solucionar más casos de uso, se puede llamar al sistema desde aplicaciones externas mediante las API de servicios web expuestas mediante el protocolo de la. Obtenga más información acerca de las API de Campaign [en esta página](../dev/api.md).
+* **API**: para abordar más casos de uso, se puede llamar al sistema desde aplicaciones externas utilizando las API de servicios web expuestas mediante el protocolo SOAP. Obtenga más información acerca de las API de Campaign [en esta página](../dev/api.md).
 
 
 ## Trabajar con la consola de cliente {#ui-access}
 
-La consola del cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign SOAP a través de protocolos de Internet estándar, como el protocolo de Internet de la red (HTTP) y el protocolo de la red (HTTPs), como el protocolo de la aplicación de la aplicación de Adobe. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).  [Más información sobre la consola del cliente de Campaign](../start/connect.md). Puede cambiar a la interfaz de usuario web de Campaign desde la tarjeta específica de la página principal de la consola del cliente.
+La consola del cliente de Campaign es una aplicación nativa que se comunica con el servidor de aplicaciones de Adobe Campaign a través de protocolos de Internet estándar, como SOAP y HTTP. La consola del cliente de Campaign centraliza todas las funcionalidades y configuraciones y requiere un ancho de banda mínimo, ya que depende de una caché local. Diseñada para facilitar la implementación, la consola del cliente de Campaign se puede implementar desde un explorador de Internet, actualizarse automáticamente y no requiere ninguna configuración de red específica, ya que solo genera tráfico HTTP(S).  [Más información sobre la consola del cliente de Campaign](../start/connect.md). Puede cambiar a la interfaz de usuario web de Campaign desde la tarjeta específica de la página principal de la consola del cliente.
 
 ![](assets/web-ui.png)
 
@@ -114,10 +114,10 @@ Como usuario de la consola del cliente de Campaign v8, a partir de la versión v
 
 >[!AVAILABILITY]
 >
->La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Sistema Identity Management de Adobe (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+>La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 >
 
-Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}. También puede visitar la página [Preguntas más frecuentes](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/faq){target="_blank"} dedicada en la documentación de la interfaz de usuario web de Campaign.
+Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}. También puede visitar la [página de preguntas más frecuentes](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/faq){target="_blank"} de la documentación de la interfaz de usuario web de Campaign.
 
 Las funciones, la configuración y los ajustes adicionales y avanzados solo están disponibles en la consola del cliente. Obtenga más información acerca de las funcionalidades disponibles en ambas interfaces de usuario [en la documentación de la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/start/capability-matrix.html?lang=es){target="_blank"}.
 
@@ -139,7 +139,7 @@ Los idiomas admitidos dependen de la interfaz de usuario.
   >
   >El idioma se selecciona durante el proceso de instalación y no se puede cambiar posteriormente.
 
-* Para los idiomas compatibles con la interfaz de usuario web de Campaign, [consulte esta página](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html?lang=es#language-pref){target="_blank"}.
+* Para los idiomas compatibles con la interfaz de usuario web de Campaign, [consulte esta página](https://experienceleague.adobe.com/docs/campaign-web/v8/start/connect-to-campaign.html#language-pref){target="_blank"}.
 
 
 El idioma afecta a los formatos de fecha y hora.

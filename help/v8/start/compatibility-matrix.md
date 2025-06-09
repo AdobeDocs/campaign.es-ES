@@ -8,7 +8,7 @@ exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: fb2cf4407750f8cff65ca53f0e87c32e9702de92
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -38,13 +38,13 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 
 * **Microsoft Edge**
 
-* **Microsoft Edge WebView2**, última versión. Descárguelo desde el [sitio de Microsoft Developer](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}.
+* **Microsoft Edge WebView2**, última versión. Descárguelo del [sitio para desarrolladores de Microsoft](http://www.adobe.com/go/acc-ms-webview2-runtime-download_es){target="_blank"}.
 
 ## Conectores CRM {#CRMconnectors}
 
 A continuación se enumeran los sistemas de gestión de relaciones con el cliente (CRM) compatibles con Adobe Campaign. Obtenga más información sobre los conectores CRM en [esta página](../connect/crm.md).
 
-* **&#x200B;**&#x200B;Versión 49 de la API de conector de Salesforce
+* **** Versión 49 de la API de conector de Salesforce
 * Conector de **Microsoft Dynamics**, API web: Dynamics 365 local y en línea
 
 ## Acceso de datos federado (FDA){#FederatedDataAccessFDA}
@@ -67,7 +67,7 @@ A continuación, se enumeran las bases de datos externas compatibles con el mód
 
 Para enviar [notificaciones push](../send/push.md) con Campaign, utilice el SDK móvil de Adobe Experience Platform configurando la extensión de Adobe Campaign Classic en la interfaz de usuario de recopilación de datos.
 
-Las versiones compatibles con iOS y Android se detallan en la [documentación de Adobe Developer](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
+Las versiones compatibles para iOS y Android se detallan en la [documentación de Adobe Developer](https://developer.adobe.com/client-sdks/home/){target="_blank"}.
 
 ## Interfaz de usuario web {#web-ui}
 

@@ -38,9 +38,9 @@ Los siguientes casos de uso detallan las posibles opciones para integrar ofertas
 1. Cree un espacio de oferta vinculado al entorno anónimo.
 1. Cree una oferta y su representación vinculada al espacio de oferta.
 
-**Paso 2: actualizar el contenido de la página del HTML**
+**Paso 2: actualizar el contenido de la página de HTML**
 
-La página HTML debe incluir un elemento con un atributo @id con el valor del nombre interno del espacio de oferta creado (&quot;espacio de nombre i_internal&quot;). La oferta se insertará en este elemento mediante interacción.
+La página de HTML debe incluir un elemento con un atributo @id con el valor del nombre interno del espacio de oferta creado (&quot;espacio de nombre i_internal&quot;). La oferta se insertará en este elemento mediante interacción.
 
 En este ejemplo, el atributo @id recibe el valor “i_SPC12”, donde “SPC12” es el nombre interno del espacio de oferta creado anteriormente:
 
@@ -62,9 +62,9 @@ Esta llamada estática genera automáticamente una llamada dinámica que contien
 
 Este comportamiento permite utilizar varios espacios de oferta en la misma página, que se van a administrar mediante una sola llamada al motor de oferta.
 
-**Paso 3: mostrar los resultados en la página del HTML**
+**Paso 3: mostrar los resultados en la página de HTML**
 
-El motor de oferta devuelve el contenido de la representación de la oferta a la página del HTML:
+El motor de oferta devuelve el contenido de la representación de la oferta a la página de HTML:
 
 ```
 <div id="banner_header">
@@ -116,7 +116,7 @@ En el contenido de la página web, se debe añadir la siguiente secuencia de com
    </script>
    ```
 
-### Uso de una función de renderización de HTML {#using-an-html-rendering-function}
+### Uso de una función de renderización HTML {#using-an-html-rendering-function}
 
 Para generar la representación de oferta HTML automáticamente, se puede utilizar una función de renderización.
 
@@ -132,7 +132,7 @@ Para generar la representación de oferta HTML automáticamente, se puede utiliz
 
 ### Presentación de una oferta {#presenting-an-offer}
 
-El módulo **Interaction** de la campaña le permite devolver un nodo XML a la página del HTML que llama al motor de oferta. Este nodo XML se puede procesar mediante funciones que se van a desarrollar en el lado del cliente.
+El módulo **Interaction** de la campaña le permite devolver un nodo XML a la página de HTML que llama al motor de oferta. Este nodo XML se puede procesar mediante funciones que se van a desarrollar en el lado del cliente.
 
 La llamada al motor de oferta tiene este aspecto:
 
@@ -163,7 +163,7 @@ El nodo XML devuelto tiene el siguiente aspecto:
 </propositions>
 ```
 
-El caso de uso siguiente detalla las configuraciones que se deben realizar en Adobe Campaign para activar el modo XML y mostrar el resultado de la llamada al motor en la página del HTML.
+El caso de uso siguiente detalla las configuraciones que se deben realizar en Adobe Campaign para activar el modo XML y mostrar el resultado de la llamada al motor en la página de HTML.
 
 1. **Crear un entorno y un espacio de ofertas**
 
@@ -265,7 +265,7 @@ El caso de uso siguiente detalla las configuraciones que se deben realizar en Ad
 
 1. **llamadas al motor y resultados en la página HTML**
 
-   La llamada al motor de oferta en la página del HTML tiene este aspecto:
+   La llamada al motor de oferta en la página de HTML tiene este aspecto:
 
    ```
    <script id="interactionProposalScript" src="https://<SERVER_URL>/nl/interactionProposal.js?env=OE7&cb=alert" type="text/javascript">
@@ -295,7 +295,7 @@ El caso de uso siguiente detalla las configuraciones que se deben realizar en Ad
 
 ### Uso de una función de renderización {#using-a-rendering-function-}
 
-Es posible utilizar una función de renderización XML para crear una presentación de oferta. Esta función modifica el nodo XML que se devuelve a la página del HTML durante la llamada al motor de oferta.
+Es posible utilizar una función de renderización XML para crear una presentación de oferta. Esta función modifica el nodo XML que se devuelve a la página de HTML durante la llamada al motor de oferta.
 
 1. Vaya al espacio de la oferta y haga clic en el vínculo **[!UICONTROL Edit functions]**.
 1. Seleccione **[!UICONTROL Overload the XML rendering function]**.
@@ -312,7 +312,7 @@ Es posible utilizar una función de renderización XML para crear una presentaci
 
 ![](assets/interaction_xmlmode_001.png)
 
-## SOAP Configuración de una integración de
+## Configuración de una integración con SOAP
 
 Los servicios web SOAP proporcionados para la administración de ofertas son diferentes de los utilizados en Adobe Campaign. Se puede acceder a ellos a través de la dirección URL de interacción descrita en la sección anterior y permiten presentar o actualizar ofertas para un contacto determinado.
 

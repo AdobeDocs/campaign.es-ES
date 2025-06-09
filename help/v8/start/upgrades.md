@@ -16,7 +16,7 @@ ht-degree: 21%
 
 Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Adobe recomienda encarecidamente a todos sus clientes que actualicen a la versión más reciente. 
 
-Como usuario de Cloud Services administrados, su instancia se actualiza en Adobe con cada nueva versión. El representante del Adobe se pone en contacto con usted para actualizar sus entornos. La consola cliente de Campaign **debe actualizarse a la misma versión** como servidores de Campaign. Obtenga información sobre cómo actualizar la consola del cliente en [esta página](../start/connect.md#upgrade-ac-console).
+Como usuario de Cloud Services administrados, su instancia se actualiza en Adobe con cada nueva versión. Su representante de Adobe se pondrá en contacto con usted para actualizar sus entornos. La consola cliente de Campaign **debe actualizarse a la misma versión** como servidores de Campaign. Obtenga información sobre cómo actualizar la consola del cliente en [esta página](../start/connect.md#upgrade-ac-console).
 
 Además, como cliente, asegúrese de que utiliza la última versión compatible de los sistemas que se enumeran en la [Matriz de compatibilidad](compatibility-matrix.md).
 
@@ -32,12 +32,12 @@ Estas actualizaciones pueden ser:
 
 Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](release-notes.md).
 
-Para garantizar una configuración estable, Adobe recomienda instalar **la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en las [notas de la versión](release-notes.md), la consola del cliente debe estar en **la misma versión** que la instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
+Para garantizar una configuración estable, Adobe recomienda instalar **exactamente la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en las [notas de la versión](release-notes.md), la consola del cliente debe estar en **la misma versión** que la instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
 
 
 ## Actualizaciones de Campaign {#ac-upgrades}
 
-Como cliente de Campaign Managed Services, cuando hay una nueva versión de Campaign disponible, la infraestructura se actualiza por Adobe sin tener que realizar más acciones.
+Como cliente de Campaign Managed Services, cuando hay una nueva versión de Campaign disponible, Adobe actualiza la infraestructura sin tener que realizar más acciones.
 
 Tenga en cuenta que, como cliente de, debe asegurarse de que está utilizando las últimas versiones compatibles de los sistemas enumerados en la [Matriz de compatibilidad](compatibility-matrix.md).
 
@@ -58,11 +58,11 @@ Puede acceder a la siguiente información:
 
 ### ¿Cómo puedo estar informado del lanzamiento de una nueva versión? {#upgrades-0}
 
-Las nuevas versiones y los cambios que traen se enumeran en [Notas de la versión](release-notes.md). Una vez que haya una nueva versión disponible, el representante del Adobe se pondrá en contacto con usted y actualizará sus entornos.
+Las nuevas versiones y los cambios que traen se enumeran en [Notas de la versión](release-notes.md). Una vez que haya una nueva versión disponible, su representante de Adobe se pondrá en contacto con usted y actualizará sus entornos.
 
-Para recibir información sobre las nuevas versiones de soluciones de Experience Cloud y su contenido, suscríbase a la comunicación [Actualizaciones prioritarias de productos de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
+Para recibir información sobre las nuevas versiones de la solución Experience Cloud y su contenido, suscríbase a la comunicación [Actualizaciones prioritarias del producto de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
 
-También puede visitar la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=es&style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
+También puede visitar la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&amp;sort=date&amp;order=desc&amp;filters=adobe-campaign-classic-community&amp;topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
 
 
 ### ¿Por qué necesita mi organización una actualización? {#upgrades-1}

@@ -5,13 +5,13 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
-source-git-commit: 36bb1e2c9e2391065360c3cd2ad97612373ec0c2
+exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
+source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
 workflow-type: tm+mt
 source-wordcount: '1326'
 ht-degree: 5%
 
 ---
-
 
 # Descripción del conector SMPP {#smpp-connector-desc}
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 >
 >Esto se aplica a Adobe Campaign 8.7.2 y versiones posteriores.
 >
->Para ver las versiones anteriores, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+>Para ver las versiones anteriores, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Flujo de datos del conector SMS {#sms-data-flow}
 

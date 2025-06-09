@@ -135,7 +135,7 @@ Los informes creados con los cubos permiten recopilar datos de la tabla y guarda
 
 Para agrupar una población en una lista, siga los pasos a continuación:
 
-1. Haga clic en las celdas que contienen los usuarios que quiera agrupar y selecciónelas. A continuación, haga clic en el icono **[!UICONTROL Add to cart]**.
+1. Haga clic en las celdas que contienen la población que quiera agrupar y selecciónelas. A continuación, haga clic en el icono **[!UICONTROL Add to cart]**.
 
    ![](assets/cube-add-to-cart.png)
 

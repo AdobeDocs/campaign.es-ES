@@ -60,13 +60,13 @@ Es posible ampliar la tabla de destinatarios, pero no reducir el número de camp
 
 Aprenda a ampliar un esquema existente en [esta sección](extend-schema.md).
 
-Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=es#extending-a-table){target="_blank"}
+Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 También puede utilizar una tabla de destinatarios diferente para adaptarse mejor a sus necesidades empresariales o funcionales. Este método tiene limitaciones y se describe en [esta sección](custom-recipient.md).
 
 ## Tablas de Campaign y base de datos en la nube
 
-Para comprender mejor la administración de tablas en Campaign v8, tenga en cuenta que, en el contexto de una implementación empresarial [FFDA)](../architecture/enterprise-deployment.md), las tablas se replican entre Campaign y su base de datos de Snowflake Cloud.
+Para comprender mejor la administración de tablas en Campaign v8, tenga en cuenta que, en el contexto de una implementación [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md), las tablas se replican entre Campaign y su base de datos de Snowflake Cloud.
 
 Obtenga más información acerca de la estrategia y los mecanismos de replicación en [esta sección](../architecture/replication.md).
 
