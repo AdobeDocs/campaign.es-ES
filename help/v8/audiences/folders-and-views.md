@@ -6,9 +6,9 @@ role: User
 level: Beginner, Intermediate
 exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 567ca1cd8fa6e4f03c8871488152710753ea02f1
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '686'
 ht-degree: 5%
 
 ---
@@ -21,8 +21,8 @@ Una vista es una carpeta específica que no contiene datos, pero muestra datos a
 
 
 >[!NOTE]
->Para distinguir vistas de carpetas estándar, su nombre se muestra en azul claro en lugar de negro.
 >
+>Para distinguir vistas de carpetas estándar, su nombre se muestra en azul claro en lugar de negro.
 
 Tenga en cuenta que puede asignar permisos a las carpetas para restringir el acceso a determinados datos. [Más información](#restrict-access-to-a-folder)
 
@@ -52,14 +52,19 @@ Para crear otro tipo de carpeta, haga clic con el botón derecho en una carpeta 
 ![](assets/add-new-folder.png)
 
 >[!CAUTION]
->Estos cambios se aplican a todos los usuarios de Campaign.
 >
+>Estos cambios se aplican a todos los usuarios de Campaign.
 
 ## Convertir una carpeta en una vista{#turn-a-folder-to-a-view}
 
 Una vista es una carpeta específica que no contiene datos, pero muestra datos almacenados físicamente en otras carpetas del mismo tipo.
 
 Puede convertir cualquier carpeta en una vista, pero la carpeta debe estar vacía. Cualquier dato almacenado en la carpeta se eliminará al convertir la carpeta en una vista.
+
+>[!IMPORTANT]
+>
+>Las carpetas predeterminadas no deben convertirse en una vista.
+
 
 >[!CAUTION]
 >
