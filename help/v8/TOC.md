@@ -6,9 +6,9 @@ title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '712'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,10 @@ ht-degree: 91%
    + [Problemas conocidos](start/known-issues.md)
    + [Matriz de compatibilidad](start/compatibility-matrix.md)
    + [Actualizaciones de la documentación](start/documentation-updates.md)
-+ Primeros pasos {#new}
++ Introducción  {#new}
    + [Introducción a Adobe Campaign](start/get-started.md)
    + [Funcionalidades clave](start/whats-new.md)
-   + [Descubra la nueva interfaz de usuario](start/campaign-ui.md)
+   + [Descubrimiento de la interfaz de usuario](start/campaign-ui.md)
    + [Conexión a Campaign](start/connect.md)
    + [Componentes y procesos](start/ac-components.md)
    + [De Campaign Classic v7 a v8](start/v7-to-v8.md)
@@ -103,11 +103,11 @@ ht-degree: 91%
    + Mensajes transaccionales {#real-time}
       + [Introducción a los mensajes transaccionales](send/transactional.md)
       + [Creación y publicación de una plantilla](send/transactional-template.md)
-      + Administración de eventos {#event}
+      + Administración de eventos  {#event}
          + [Recopilación y procesamiento de eventos](send/event-processing.md)
          + [Comprensión de la descripción del evento](send/event-description.md)
          + [Mensajes de envío y monitorización](send/delivery-execution.md)
-+ Administración de perfiles y audiencias {#audience}
++ Gestión de públicos y perfiles {#audience}
    + [Introducción a perfiles y públicos](audiences/gs-audiences.md)
    + [Trabajo con públicos](start/audiences.md)
    + [Acceso a perfiles](audiences/view-profiles.md)
@@ -129,7 +129,7 @@ ht-degree: 91%
    + [Diseño de aplicaciones y formularios web](dev/webapps.md)
 + Automatización y flujos de trabajo {#automation}
    + [Guía de automatización de Campaign >](https://experienceleague.adobe.com/es/docs/campaign/automation/home)
-+ Administración de seguridad y privacidad {#privacy}
++ Administración de la privacidad y la seguridad {#privacy}
    + [Administración de solicitudes de privacidad](start/privacy.md)
    + [Directrices de seguridad](config/security.md)
    + [Complemento de seguridad mejorada](config/enhanced-security.md)
@@ -137,7 +137,7 @@ ht-degree: 91%
    + [Introducción a la interacción en tiempo real](interaction/interaction.md)
    + [Entornos y arquitectura](interaction/interaction-architecture.md)
    + [Prácticas recomendadas](interaction/interaction-best-practices.md)
-   + Definir configuración{#interaction-settings}
+   + Definición de la configuración {#interaction-settings}
       + [Creación de operadores](interaction/interaction-operators.md)
       + [Creación de entornos](interaction/interaction-env.md)
       + [Creación de filtros predefinidos](interaction/interaction-predefined-filters.md)
@@ -151,7 +151,7 @@ ht-degree: 91%
       + [Administración de interacciones anónimas](interaction/anonymous-interactions.md)
    + [Informes e historial](interaction/interaction-tracking.md)
    + [Casos de uso](interaction/interaction-use-cases.md)
-+ Informes y análisis {#analytics}
++ Creación de informes y análisis {#analytics}
    + [Seguimiento y monitorización](start/tracking.md)
    + [Pista de auditoría](reporting/audit-trail.md)
    + Trabajo con informes{#reports}
@@ -196,7 +196,7 @@ ht-degree: 91%
       + [Agregar permisos en carpetas](start/folder-permissions.md)
    + [Panel de control](config/self-service.md)
 + Arquitectura y configuración {#config}
-   + Arquitectura de Campaign v8 {#architecture}
+   + Arquitectura de la versión 8 de Campaign {#architecture}
       + [Principios globales](architecture/general-architecture.md)
       + [Modelos de arquitectura](architecture/architecture.md)
       + [Implementación de FDA de Campaign](architecture/fda-deployment.md)

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '706'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ ht-degree: 95%
 
    La capacidad de envío de correo electrónico, un componente esencial para el éxito del programa de marketing de cada remitente, se caracteriza por criterios y reglas que cambian constantemente. La navegación eficaz en este mundo digital requiere un ajuste regular de su estrategia de correo electrónico, teniendo en cuenta las tendencias clave de envío, para llegar mejor a su público.
 
-   Consulte esta guía para obtener más información [Prácticas recomendadas de envío](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}
+   Consulte esta guía para obtener más información sobre las [prácticas recomendadas de entregabilidad](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es){target="_blank"}.
 
-   Aprenda a implementar la capacidad de envío en Campaign [en esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es){target="_blank"}
+   Aprenda a implementar la entregabilidad en Campaign [con esta guía](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/general-resources.html?lang=es){target="_blank"}
 
 1. **¿Cómo puedo asegurarme de que mi entrega se envíe sin errores?**
 
@@ -84,13 +84,13 @@ ht-degree: 95%
 
    Puede obtener el programa de instalación y la consola del cliente desde el Centro de descargas de Adobe.
 
-   Como usuario administrador, acceda a la [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target="_blank"}  de Adobe para descargar Adobe Campaign.
+   Como usuario administrador, acceda a la [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) {target="_blank"} de Adobe para descargar Adobe Campaign.
 
    Obtenga más información acerca el Centro de distribución [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target="_blank"}.
 
 1. **¿Puedo conectar con expertos en Campaign?**
 
-   Únase a la comunidad de Campaign: busque respuestas en preguntas existentes o pregunte a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"}
+   Únase a la comunidad de Campaign: busque respuestas en preguntas existentes o pregunte a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **¿Cómo puedo registrar un problema?**
