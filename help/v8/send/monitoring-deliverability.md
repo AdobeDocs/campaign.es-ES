@@ -30,7 +30,7 @@ Adobe Campaign le permite acceder a todas las herramientas de envío enumeradas 
 
   <!--For more on this, see the [Delivery statistics](../reporting/global-reports.md#delivery-statistics) section.-->
 
-* De manera más general, el [panel de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"} le permite acceder a:
+* De manera más general, el [panel de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=es#sending-messages){target="_blank"} le permite acceder a:
    * el resumen del envío, que muestra el detalle del envío y el número de mensajes que se van a enviar, procesados y enviados con éxito;
    * los registros de envío y el historial, que muestran qué destinatario se ha excluido y por qué;
    * los registros de seguimiento, que muestran información de seguimiento como aperturas y clics.
@@ -42,7 +42,7 @@ Estas son algunas directrices adicionales sobre la monitorización de la capacid
 * Compruebe regularmente el [rendimiento del envío](../reporting/global-reports.md#delivery-throughput) de toda la plataforma para comprobar si es coherente con la configuración original.
 * Compruebe que [los reintentos](delivery-failures.md#retries) estén correctamente configurados (30 minutos para el periodo de reintento y más de 20 reintentos) en plantillas de envíos.
 * Compruebe periódicamente si puede acceder al buzón de [rechazados](delivery-failures.md#bounce-mail-qualification) y que la cuenta no esté a punto de caducar.
-* Compruebe el rendimiento de cada envío, accesible desde [panel de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#sending-messages){target="_blank"}, para asegurarse de que es coherente con la validez del contenido del envío (por ejemplo, las &quot;ventas flash&quot; deben entregarse en minutos, no en días). es una herramienta clave para monitorizar las entregas y los problemas potenciales durante la entrega de mensajes.
+* Compruebe el rendimiento de cada envío, accesible desde [panel de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=es#sending-messages){target="_blank"}, para asegurarse de que es coherente con la validez del contenido del envío (por ejemplo, las &quot;ventas flash&quot; deben entregarse en minutos, no en días). es una herramienta clave para monitorizar las entregas y los problemas potenciales durante la entrega de mensajes.
 * Cuando utilice [olas](configure-and-send.md#sending-using-multiple-waves), compruebe que cada ola tenga tiempo suficiente para finalizar antes de que se active la siguiente.
 * Compruebe que las cantidades de errores y nuevas [cuarentenas](quarantines.md) sean coherentes con otros envíos.
-* Consulte cuidadosamente los [registros de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html#delivery-logs-and-history){target="_blank"} en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc.).
+* Consulte cuidadosamente los [registros de envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/delivery-dashboard.html?lang=es#delivery-logs-and-history){target="_blank"} en detalle para comprobar el tipo de errores resaltados (lista de bloqueados, problemas de DNS, reglas de correo no deseado, etc.).
