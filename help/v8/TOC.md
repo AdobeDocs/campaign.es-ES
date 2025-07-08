@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: b4947c8c20e123877e24f57d5ad7a15aa3f304a2
+workflow-type: tm+mt
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
@@ -45,7 +45,8 @@ ht-degree: 100%
 + Envío de mensajes{#send}
    + [Introducción a los mensajes](start/gs-message.md)
    + [Creación de su primer envío](start/create-message.md)
-   + [Prácticas recomendadas de envíos](start/delivery-best-practices.md)
+   + [Trabajo con plantillas de envío](send/create-templates.md)
+   + [Prácticas recomendadas para envíos](start/delivery-best-practices.md)
    + Correos electrónicos {#emails}
       + [Diseño y validación de correos electrónicos](send/email.md)
       + [Definición del contenido del correo electrónico](send/defining-the-email-content.md)
@@ -99,7 +100,12 @@ ht-degree: 100%
    + Errores, rechazos y cuarentenas{#failures}
       + [Cuarentenas](send/quarantines.md)
       + [Errores de envío](send/delivery-failures.md)
-   + [Trabajo con plantillas de envío](send/create-templates.md)
+   + Administración de la entregabilidad {#deliverability-management}
+      + [¿Qué es la entregabilidad?](send/about-deliverability.md)
+      + [Contenido de mensajes de control](send/control-message-content.md)
+      + [Supervisión de la entregabilidad](send/monitoring-deliverability.md)
+      + [Procesamiento de la bandeja de entrada](send/inbox-rendering.md)
+      + [SpamAssassin](send/spamassassin.md)
    + Mensajes transaccionales {#real-time}
       + [Introducción a los mensajes transaccionales](send/transactional.md)
       + [Creación y publicación de una plantilla](send/transactional-template.md)
@@ -175,7 +181,7 @@ ht-degree: 100%
    + [Conectar Campaign con otras soluciones](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
       + [Compartir y sincronizar públicos y atributos de perfil](connect/ac-aep.md)
-      + [Actualización de perfiles de AEP desde las páginas de aterrizaje de Campaign](connect/ac-aep-landing-pages.md)
+      + [Actualización de perfiles de AEP desde las páginas de destino de Campaign](connect/ac-aep-landing-pages.md)
    + [Campaign + Journey Optimizer](connect/ac-ajo.md)
    + [Campaign + Analytics](connect/ac-aa.md)
    + [Campaign + Experience Manager](connect/ac-aem.md)
