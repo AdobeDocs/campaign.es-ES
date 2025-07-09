@@ -20,7 +20,7 @@ ht-degree: 9%
 >
 >Esta documentación es para Adobe Campaign 8.7.2 y posterior.
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
 En una instancia independiente, la entrega de un SMS requiere lo siguiente:
 

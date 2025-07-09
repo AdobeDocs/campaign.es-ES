@@ -25,5 +25,5 @@ Como usuario de Campaign v8, ahora tiene acceso a la nueva interfaz de usuario w
 * Obtenga más información acerca de la nueva interfaz de usuario web de Campaign en [esta documentación](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html?lang=es){target="_blank"}.
 
 <!--
-* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/en/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.-->
+* Campaign Standard capabilities have been added to Campaign v8 to facilitate your transition. These capabilities are restricted to customers transitioning from Campaign Standard, and are described in [this documentation](https://experienceleague.adobe.com/es/docs/experience-cloud/campaign/campaign-standard-migration-home){target="_blank"}.-->
 

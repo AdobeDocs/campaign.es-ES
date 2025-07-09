@@ -18,7 +18,7 @@ ht-degree: 11%
 >
 >Esta documentación se aplica a Adobe Campaign 8.7.2 y versiones posteriores. Para cambiar del conector SMS heredado al nuevo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 El envío de envíos SMS con una infraestructura intermediaria requiere lo siguiente:
 

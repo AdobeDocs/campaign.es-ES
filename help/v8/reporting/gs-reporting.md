@@ -56,4 +56,4 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   Utilice Adobe Campaign para crear informes sobre los datos de la base de datos. Una vez creados, haga que sean accesibles en los contextos adecuados.
 
-  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.
+  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=es){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.
