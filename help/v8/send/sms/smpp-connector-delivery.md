@@ -4,11 +4,10 @@ description: Acerca de la configuración del conector SMPP en envíos
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: '1340'
 ht-degree: 5%
 
 ---
@@ -17,9 +16,9 @@ ht-degree: 5%
 
 >[!IMPORTANT]
 >
->Esto se aplica a Adobe Campaign 8.7.2 y versiones posteriores.
+>Esta documentación se aplica a Adobe Campaign 8.7.2 y versiones posteriores. Para cambiar del conector SMS heredado al nuevo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}.
 >
->Para ver las versiones anteriores, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Flujo de datos del conector SMS {#sms-data-flow}
 

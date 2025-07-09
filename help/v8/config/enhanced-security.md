@@ -5,10 +5,10 @@ feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 24b252373923a9724743650b13a69d4f2c8dcd24
+source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 2%
+source-wordcount: '727'
+ht-degree: 3%
 
 ---
 
@@ -96,7 +96,7 @@ Se admiten tres casos de uso:
 
 >[!CAUTION]
 >
->Solo son compatibles las bases de datos locales y los dispositivos VPN compatibles con AWS. [Más información](#vpn-databases)
+>Se admiten bases de datos locales y en la nube. [Más información](#vpn-databases)
 
 Para garantizar el uso correcto de esta función, siga las directrices a continuación:
 
@@ -122,8 +122,9 @@ Se admiten las siguientes bases de datos locales:
 * Sybase
 * Teradata
 * Hadoop a través de HiveSQL
+* PostgreSQL
 
-Solo se admiten dispositivos VPN compatibles con AWS. Hay disponible una lista de dispositivos compatibles en [esta página](https://docs.aws.amazon.com/vpn/latest/s2svpn/your-cgw.html#example-configuration-files){target="_blank"}.
+Se admiten bases de datos en la nube. Consulte la [matriz de compatibilidad](../start/compatibility-matrix.md#FederatedDataAccessFDA).
 
 >[!NOTE]
 >

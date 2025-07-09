@@ -4,11 +4,10 @@ description: Conozca las características del canal SMS
 feature: SMS
 role: User
 level: Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '1365'
+source-wordcount: '1378'
 ht-degree: 23%
 
 ---
@@ -17,10 +16,9 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->Esta documentación es para Adobe Campaign 8.7.2 y posterior.
+>Esta documentación se aplica a Adobe Campaign 8.7.2 y versiones posteriores. Para cambiar del conector SMS heredado al nuevo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-protocol).
-
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Tipos de SMS {#sms-types}
 

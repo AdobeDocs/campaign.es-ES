@@ -1,25 +1,24 @@
 ---
-title: Configuración de envío de SMS
+title: Configuración del envío de SMS
 description: Obtenga información sobre cómo configurar un envío de SMS
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: c4d500ef-2339-491f-9ae2-9bfaf72088a9
-source-git-commit: 826abd5c5f8b191d34abf724b91c5a82665d00a2
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '800'
 ht-degree: 15%
 
 ---
 
-# Configuración de envío de SMS {#sms-settings}
+# Configuración del envío de SMS {#sms-settings}
 
 >[!IMPORTANT]
 >
->Esta documentación es para Adobe Campaign 8.7.2 y posterior.
+>Esta documentación se aplica a Adobe Campaign 8.7.2 y versiones posteriores. Para cambiar del conector SMS heredado al nuevo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 La configuración técnica necesaria para un envío SMS es:
 

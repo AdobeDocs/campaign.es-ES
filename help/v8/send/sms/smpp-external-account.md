@@ -5,9 +5,9 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 3ac2976839f084761ba56647b282062d8d457ff2
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3666'
 ht-degree: 27%
 
 ---
@@ -332,6 +332,10 @@ Para cada campo, se puede establecer la etiqueta asociada, así como su formato.
 
 * Etiqueta: el valor de la etiqueta, ya sea en formato decimal (por ejemplo, 12345) o hexadecimal con prefijo 0x (por ejemplo, 0x12ab). Las etiquetas pueden ir entre 0 y 65535.
 * Formato: formato utilizado para el valor. Los valores binarios son todos valores binarios con signo big endian. Para los campos de texto, elija la codificación utilizada por el proveedor SMPP.
+
+>[!NOTE]
+>
+>Si el campo **Customer account** se deja vacío, se reemplazará con el código corto.
 
 ### Respuesta automática enviada al MO
 

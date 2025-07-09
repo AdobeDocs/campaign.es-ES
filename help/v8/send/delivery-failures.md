@@ -5,7 +5,7 @@ feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
 workflow-type: tm+mt
 source-wordcount: '2976'
 ht-degree: 64%
@@ -66,7 +66,7 @@ La forma en que se gestiona la calificación de correo rechazado en Adobe Campai
 
 * **Errores sincrónicos**: El MTA determina el tipo de devolución y calificación, y envía esa información a Campaign. Las cualificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** no se utilizan para los mensajes de error de envío **sincrónico**.
 
-* **Errores asincrónicos**: Las reglas utilizadas por Campaign para calificar los errores de entrega asincrónicos se enumeran en el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Las devoluciones asincrónicas son calificadas por el proceso inMail a través de las reglas **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=es#bounce-mail-qualification){target="_blank"}.
+* **Errores asincrónicos**: Las reglas utilizadas por Campaign para calificar los errores de entrega asincrónicos se enumeran en el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Las devoluciones asincrónicas son calificadas por el proceso inMail a través de las reglas **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html#bounce-mail-qualification){target="_blank"}.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,7 +111,7 @@ Por ejemplo, si el periodo de validez se establece en el valor predeterminado de
 
 Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipos de error de correo electrónico {#email-error-types}
@@ -238,7 +238,7 @@ Para el canal de correo electrónico, a continuación se enumeran los posibles m
    <td> Inaccesible </td> 
    <td> Leve/Grave </td> 
    <td> 3 </td> 
-   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio que está temporalmente inaccesible, etc. Según el error, se vuelve a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se envía directamente a cuarentena.<br /> </td> 
+   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio que está temporalmente inaccesible, etc. Según el error, se volverá a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se enviará directamente a cuarentena.<br /> </td> 
   </tr> 
   <tr> 
    <td> Usuario desconocido </td> 

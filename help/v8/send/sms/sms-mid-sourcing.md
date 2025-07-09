@@ -4,12 +4,11 @@ description: Aprenda a configurar un envío SMS en una infraestructura intermedi
 feature: SMS
 role: User
 level: Beginner, Intermediate
-badge: label="Disponibilidad limitada" type="Informative"
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
-source-git-commit: 30babc4bec802f61d3bd28a7ebcf0c15e22b2284
+source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 12%
+source-wordcount: '595'
+ht-degree: 11%
 
 ---
 
@@ -17,9 +16,9 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->Esta documentación es para Adobe Campaign 8.7.2 y posterior.
+>Esta documentación se aplica a Adobe Campaign 8.7.2 y versiones posteriores. Para cambiar del conector SMS heredado al nuevo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 El envío de envíos SMS con una infraestructura intermediaria requiere lo siguiente:
 
