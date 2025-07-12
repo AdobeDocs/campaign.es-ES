@@ -18,7 +18,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
 * **Informes dinámicos**
 
-  El sistema de informes dinámico, disponible con la interfaz de usuario web de Campaign, proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Consulte la [documentación de Web UI v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
+  El sistema de informes dinámico, disponible con la interfaz de usuario web de Campaign, proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Consulte la [documentación de Web UI v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}.
 
 * **Cubos**
 
