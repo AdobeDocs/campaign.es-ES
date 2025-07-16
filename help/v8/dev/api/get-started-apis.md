@@ -7,10 +7,10 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: c6968252-a012-4029-bbb8-66f4f693e99b
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 83524feeb6a5de32a1b32c8d66f97a32d270f62d
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 50%
+source-wordcount: '212'
+ht-degree: 53%
 
 ---
 
@@ -18,9 +18,7 @@ ht-degree: 50%
 
 >[!CAUTION]
 >
->Esta documentación está destinada a los clientes de Adobe Campaign Standard que migran a Campaign v8.
->
->Antes de realizar llamadas API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
+>Antes de realizar llamadas API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte [esta página](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers).
 
 Las API de REST de Campaign están destinadas a permitirle **crear integraciones** para Adobe Campaign y **construir su propio ecosistema** al interconectar Adobe Campaign con el panel de tecnologías que utiliza.
 
@@ -41,4 +39,4 @@ Las API que proporcionamos utilizan **conceptos estándar** con una interfaz RES
 
 En esta documentación se describen detalladamente todos los extremos con las nociones generales que debe conocer para manipular la API, la referencia completa de la API, los ejemplos de código y las guías de inicio rápido. Todos los ejemplos funcionan con Postman, pero no dude en usar su cliente REST favorito.
 
-Si algo falta o le parece incorrecto, pregunte a la [comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es).
+Si algo falta o le parece incorrecto, pregunte a la [comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community).
