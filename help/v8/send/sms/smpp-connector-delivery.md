@@ -5,20 +5,20 @@ feature: SMS
 role: User
 level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: ea51863bdbc22489af35b2b3c81259b327380be4
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1342'
 ht-degree: 5%
 
 ---
 
 # Descripción del conector SMPP {#smpp-connector-desc}
 
->[!IMPORTANT]
+>[!AVAILABILITY]
 >
->Esta documentación se aplica a Adobe Campaign 8.7.2 y versiones posteriores. Para cambiar del conector SMS heredado al nuevo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}.
+>Esta capacidad está disponible para todos los entornos de FDA de Campaign. Está **no** disponible para implementaciones de FDAC de Campaign. Esta documentación se aplica a Adobe Campaign 8.7.2 y versiones posteriores. Para cambiar del conector SMS heredado al nuevo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Flujo de datos del conector SMS {#sms-data-flow}
 
@@ -49,12 +49,12 @@ Para cada cuenta SMPP activa, el conector SMPP intenta mantener las conexiones a
 * El conector SMPP envía la MT a través de una conexión de transmisor (o transceptor).
 * El proveedor devuelve un ID para este MT. Se inserta en nms:providerMsgId.
 * El proceso del SMS actualiza el registro general al estado enviado.
-* En caso de error final, el proceso del SMS actualiza el registro general en consecuencia y puede crear un nuevo tipo de error en nms:broadLogMsg.
+* En caso de error final, el proceso de SMS actualiza el registro general en consecuencia y puede crear un nuevo tipo de error en nms:broadLogMsg.
 
 ### Flujo de datos al recibir SR {#sms-data-flow-sr}
 
 * El conector SMPP recibe y descodifica el SR (PDU DELIVER_SM). Utiliza expresiones regulares definidas en la cuenta externa para obtener el ID y el estado del mensaje.
-* El ID y el estado del mensaje se insertan en nms:providerMsgStatus
+* El ID de mensaje y el estado se insertan en nms:providerMsgStatus
 * Después de insertarse, el conector SMPP responde con una PDU DELIVER_SM_RESP.
 * Si algo salió mal durante el proceso, el conector SMPP envía una PDU DELIVER_SM_RESP negativa y registra un mensaje.
 
@@ -70,7 +70,7 @@ Para cada cuenta SMPP activa, el conector SMPP intenta mantener las conexiones a
 
 * El componente de reconciliación SR lee periódicamente nms:providerMsgId y nms:providerMsgStatus. Los datos de ambas tablas se unen.
 * Para todos los mensajes que tienen una entrada en ambas tablas, se actualiza la entrada correspondiente nms:broadLog.
-* La tabla nms:broadLogMsg puede actualizarse en el proceso si se detecta un nuevo tipo de error, o para actualizar los contadores de errores que no se hayan clasificado manualmente.
+* La tabla nms:broadLogMsg se puede actualizar en el proceso si se detecta un nuevo tipo de error o para actualizar los contadores de errores que no se hayan clasificado manualmente.
 
 ## Entradas de MT, SR y “broadlog” que coinciden {#sms-matching-entries}
 
@@ -84,18 +84,18 @@ Este es un diagrama que describe todo el proceso:
 * El conector SMPP lo formatea como una SUBMIT_SM MT PDU.
 * El MT se envía al proveedor del SMPP.
 * El proveedor responde con SUBMIT_SM_RESP. SUBMIT_SM y SUBMIT_SM_RESP coinciden con su número de secuencia.
-* SUBMIT_SM_RESP proporciona un ID proveniente del proveedor. Este ID se inserta junto con el ID de registro general en la tabla nms:providerMsgId.
+* SUBMIT_SM_RESP proporciona un ID proveniente del proveedor. Este identificador se inserta junto con el identificador de registro general en la tabla nms:providerMsgId.
 
 **Fase 2**
 
 * El proveedor envía una PDU SR DELIVER_SM.
 * El SR se analiza para extraer el ID del proveedor, el estado y el código de error. Este paso utiliza expresiones regulares de extracción.
-* El ID del proveedor y su estado correspondiente se insertan en nms:providerMsgStatus.
+* El identificador del proveedor y su estado correspondiente se insertan en nms:providerMsgStatus.
 * Cuando todos los datos se insertan de forma segura en la base de datos, el conector SMPP responde con DELIVER_SM_RESP. DELIVER_SM y DELIVER_SM_RESP coinciden con su número de secuencia.
 
 **Fase 3**
 
-* El componente de reconciliación SR del proceso SMS analiza periódicamente las tablas nms:providerMsgId y nms:providerMsgStatus.
+* El componente de reconciliación SR del proceso de SMS analiza las tablas nms:providerMsgId y nms:providerMsgStatus periódicamente.
 * Si alguna fila tiene ID de proveedor coincidentes en ambas tablas, las dos entradas se unen. Esto permite hacer coincidir el ID de registro general (almacenado en providerMsgId) con el estado (almacenado en providerMsgStatus)
 * El registro general se actualiza con el estado correspondiente.
 
