@@ -5,18 +5,18 @@ feature: Audiences
 role: User
 level: Beginner
 exl-id: 07baa759-fb0b-4eba-bf8b-ec6cf21df7f8
-source-git-commit: ad96c126836981f861c246eafa2ec7d2c0e179dc
+version: Campaign v8, Campaign Classic v7
+source-git-commit: b24e05f152bc299ea7953856bfa71950b5cc9837
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 48%
+source-wordcount: '493'
+ht-degree: 36%
 
 ---
 
+
 # Trabajo con audiencias en Campaign{#gs-ac-audiences}
 
-Los perfiles son contactos almacenados en la base de datos de Campaign.
-
-En Adobe Campaign, **los destinatarios** son los perfiles predeterminados a los que se dirigen los envíos (correos electrónicos, SMS, etc.). Los datos de destinatario almacenados en la base de datos permiten filtrar el destinatario que recibirá cualquier envío dado y añadir datos de personalización en el contenido de los envíos. Existen otros tipos de perfiles en la base de datos. Están diseñados para usos diferentes. Por ejemplo se crean perfiles semilla para probar los envíos antes de enviarlos al público objetivo final.
+Los perfiles representan los contactos almacenados en la base de datos de Adobe Campaign. De manera predeterminada, **destinatarios** son los perfiles principales utilizados al enviar envíos como correos electrónicos, SMS o correo directo. Los datos de destinatario almacenados en la base de datos permiten definir y filtrar las audiencias de destino, así como personalizar el contenido de la entrega. Además de los destinatarios, existen otros tipos de perfiles para fines específicos. Por ejemplo, los perfiles semilla permiten probar los envíos antes de enviarlos a la audiencia real.
 
 Obtenga información sobre cómo importar, actualizar y administrar perfiles y audiencias [en esta sección](../audiences/gs-audiences.md).
 
