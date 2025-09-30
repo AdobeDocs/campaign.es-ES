@@ -24,7 +24,7 @@ Las API de REST de Campaign están destinadas a permitirle **crear integraciones
 >
 >* Esta funcionalidad solo está disponible bajo demanda para todos los [entornos de FDA de Campaign](../../architecture/fda-deployment.md). Está **no** disponible para [implementaciones empresariales (FDAC)](../../architecture/enterprise-deployment.md). Para obtener acceso, póngase en contacto con su representante de Adobe.
 >
->* Antes de realizar llamadas API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte la [Página de descripción del producto de Campaign](https://helpx.adobe.com/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers){target="_blank"}.
+>* Antes de realizar llamadas API, compruebe las limitaciones de escala correspondientes a su contrato de licencia. Para obtener más información, consulte la [Página de descripción del producto de Campaign](https://helpx.adobe.com/es/legal/product-descriptions/campaign-standard.html#ITInfrastructureResourcesbyActiveProfilesTiers){target="_blank"}.
 
 
 Con las API de REST de Adobe Campaign, puede acceder a las siguientes funcionalidades:
@@ -44,4 +44,4 @@ Las API que proporcionamos utilizan **conceptos estándar** con una interfaz RES
 
 En esta documentación se describen detalladamente todos los extremos con las nociones generales que debe conocer para manipular la API, la referencia completa de la API, los ejemplos de código y las guías de inicio rápido. Todos los ejemplos funcionan con Postman, pero no dude en usar su cliente REST favorito.
 
-Si algo falta o le parece incorrecto, pregunte a la [comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community){target="_blank"}.
+Si algo falta o le parece incorrecto, pregunte a la [comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-standard/ct-p/adobe-campaign-standard-community?profile.language=es){target="_blank"}.
