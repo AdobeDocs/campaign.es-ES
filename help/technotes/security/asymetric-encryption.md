@@ -4,10 +4,10 @@ title: 'Nota técnica: cifrado y descifrado asimétricos en Adobe Campaign'
 description: 'Nota técnica: cifrado y descifrado asimétricos en Adobe Campaign'
 hide: true
 hidefromtoc: true
-source-git-commit: d80d81bf8c25c467c909c9ccac7c31e6963409f0
+source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 0%
+source-wordcount: '142'
+ht-degree: 2%
 
 ---
 
@@ -51,3 +51,7 @@ var decrypted = rsaPrivateDecrypt(
 );
 ```
 
+**Recursos adicionales**
+
+* [Introducción a [!DNL Campaign] las API](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/developer/api){target="_blank"}
+* [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}

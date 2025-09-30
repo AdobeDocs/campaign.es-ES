@@ -5,9 +5,9 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 1d9d4111cde1e230220a04c8fd10a126116339ad
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '280'
 ht-degree: 14%
 
 ---
@@ -19,16 +19,17 @@ ht-degree: 14%
 * en scripts - en [!DNL Adobe Campaign] flujos de trabajo
 * mediante API: desde sistemas externos
 
-Puede utilizar las API de JavaScript para escribir en la base de datos en la nube de Campaign o leer desde la base de datos:
-
-* API específicas de la empresa que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=es){target="_blank"}.
-* API genéricas de acceso a datos para consultar los datos del modelo de datos. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html?lang=es){target="_blank"}.
-
-Tenga en cuenta que en su implementación de [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md), Campaign funciona con dos bases de datos: una base de datos local para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una base de datos de Cloud para la ejecución de campañas, la creación de informes, la ingesta de datos, las consultas por lotes y la ejecución del flujo de trabajo.
-
 >[!NOTE]
 >
->* Puede utilizar las API de REST con Campaign v8. [Más información](../dev/api/get-started-apis.md).
+>* Según el modelo de implementación, también puede utilizar las API de REST con Campaign v8. [Más información](../dev/api/get-started-apis.md).
+
+
+Puede utilizar las API de JavaScript para escribir en la base de datos en la nube de Campaign o leer desde la base de datos:
+
+* API específicas de la empresa que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
+* API genéricas de acceso a datos para consultar los datos del modelo de datos. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/data-oriented-apis.html){target="_blank"}.
+
+Tenga en cuenta que en su implementación de [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md), Campaign funciona con dos bases de datos: una base de datos local para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una base de datos de Cloud para la ejecución de campañas, la creación de informes, la ingesta de datos, las consultas por lotes y la ejecución del flujo de trabajo.
 
 >[!CAUTION]
 >
