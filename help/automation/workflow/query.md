@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '1607'
-ht-degree: 96%
+source-wordcount: '1603'
+ht-degree: 93%
 
 ---
 
@@ -20,16 +20,13 @@ ht-degree: 96%
 ## Creación de una consulta {#creating-a-query}
 
 Una consulta le permite seleccionar un objetivo según los criterios. Puede asociar un código de segmento al resultado de la consulta e insertar datos adicionales en él.
-Para obtener más información sobre las muestras de consultas, consulte [esta sección](querying-recipient-table.md).
-
->[!NOTE]
->
->La interfaz de usuario web de Adobe Campaign incluye un potente modelador de consultas que simplifica el proceso de filtrado de bases de datos para seleccionar destinatarios específicos según varios criterios, lo que le permite crear y administrar la consulta con mayor facilidad. Para obtener más información sobre Query Modeler for Web UI, consulte la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
-
+Aprenda a crear consultas mediante casos de uso en [esta sección](querying-recipient-table.md). Consulte también la sección sobre [Editor de consultas](../../v8/start/query-editor.md).
 
 ![](assets/query-activity.png){width="70%" align="center" zoomable="yes"}
 
-Para obtener más información sobre cómo utilizar y administrar datos adicionales, consulte [Adición de datos](#adding-data).
+>[!NOTE]
+>
+>La interfaz de usuario web de Adobe Campaign cuenta con un potente modelador de consultas que simplifica el proceso de filtrado de bases de datos para seleccionar objetivos específicos en función de diversos criterios, lo que le permite crear y administrar la consulta con mayor facilidad. Para obtener más información sobre Query Modeler for Web UI, consulte la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/query-database/query-modeler-overview){target=_blank}.
 
 El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, las restricciones y los criterios de selección para la población de la siguiente forma:
 
@@ -53,7 +50,7 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
 1. Si ha seleccionado **[!UICONTROL Filtering conditions]** en el paso 1 o si utiliza la opción **[!UICONTROL Filters]** > **[!UICONTROL Advanced filter...]**, debe añadir manualmente los criterios de filtrado.
 
-   También puede agregar condiciones de agrupación de datos marcando el cuadro correspondiente. Para ello, la dimensión del filtro debe ser diferente a la dimensión de objetivos de la consulta. Para obtener más información sobre la agrupación, consulte esta [sección](query-grouping-management.md).
+   También puede agregar condiciones de agrupación de datos marcando el cuadro correspondiente. Para ello, la dimensión del filtro debe ser diferente a la dimensión de segmentación de la consulta. Para obtener más información sobre la agrupación, consulte esta [sección](query-grouping-management.md).
 
    También puede agregar más criterios utilizando el generador de expresiones y combinándolo con las opciones lógicas AND, OR y EXCEPT.
 

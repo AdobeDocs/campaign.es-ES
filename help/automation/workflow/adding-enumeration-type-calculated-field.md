@@ -1,25 +1,25 @@
 ---
 product: campaign
-title: Adición de un campo calculado de tipo Lista desglosada
-description: Aprenda cómo añadir un campo calculado de tipo Lista desglosada
+title: Adición de un campo calculado de tipo Enumeración
+description: Aprenda cómo añadir un campo calculado de tipo Enumeración
 feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '436'
+ht-degree: 96%
 
 ---
 
-# Adición de un campo calculado de tipo Lista desglosada {#adding-an-enumeration-type-calculated-field}
+# Adición de un campo calculado de tipo Enumeración {#adding-an-enumeration-type-calculated-field}
 
 Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL Enumerations]**. Este campo genera una columna adicional en la ventana de vista previa de datos. Esta columna especifica los valores numéricos devueltos como resultado de cada destinatario (0, 1 y 2). Se asigna un género a cada valor de la nueva columna: “Hombre” para “1”, “Mujer” para “2” o “No indicado” si el valor es igual a “0”.
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (nms:recipient).
+  La tabla de destinatarios (nms:recipient)
 
 * ¿Campos que se desea seleccionar en la columna de salida?
 
@@ -31,7 +31,7 @@ Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL E
 
 Siga estos pasos:
 
-1. Abra el Editor de consultas genérico y seleccione la tabla de destinatarios (**[!UICONTROL nms:recipient]**).
+1. Abra [Generic query editor](../../v8/start/query-editor.md) y seleccione la tabla de destinatarios (**[!UICONTROL nms:recipient]**).
 1. En la ventana **[!UICONTROL Data to extract]**, seleccione **[!UICONTROL Last name]**, **[!UICONTROL First name]** y **[!UICONTROL Gender]**.
 
    ![](assets/query_editor_nveau_73.png)

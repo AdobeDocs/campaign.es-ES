@@ -6,8 +6,8 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
-workflow-type: ht
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+workflow-type: tm+mt
 source-wordcount: '1523'
 ht-degree: 100%
 
@@ -58,7 +58,7 @@ El contenido de la entrega está listo para configurarse. La definición del con
 
 * [Definición del contenido del correo electrónico](../send/email.md)
 * [Definición del contenido del SMS](../send/sms/sms-content.md)
-* [Definición del contenido de correo postal](../send/direct-mail.md)
+* [Definición del contenido de correo directo](../send/direct-mail.md)
 * [Definición del contenido de la notificación push](../send/push.md)
 
 
@@ -94,7 +94,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
    Están disponibles los siguientes modos de aprobación:
 
-   * **[!UICONTROL Filtering conditions]**: utilice esta opción para definir una consulta y mostrar el resultado. Aprenda a diseñar una consulta en [esta sección](../../automation/workflow/query.md).
+   * **[!UICONTROL Filtering conditions]**: utilice esta opción para definir una consulta y mostrar el resultado. Aprenda a diseñar una consulta en [esta sección](../start/query-editor.md).
    * **[!UICONTROL A list of recipients]**: utilice esta opción para seleccionar una lista de perfiles. Más información sobre listas en [esta sección](../audiences/create-audiences.md).
    * **[!UICONTROL A recipient]**: utilice esta opción para seleccionar un perfil específico en la base de datos.
    * **[!UICONTROL Recipients included in a folder]**: utilice esta opción para seleccionar todos los perfiles contenidos en una carpeta específica.
@@ -182,7 +182,7 @@ Para obtener más información sobre los destinatarios de la prueba y el envío,
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447002?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/333404?quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 

@@ -6,10 +6,10 @@ role: User
 level: Beginner
 exl-id: 04b12907-3cb1-40f1-90b8-1524d84edf2d
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1033'
+ht-degree: 92%
 
 ---
 
@@ -48,7 +48,7 @@ Aprenda a añadir perfiles a Campaign en [esta sección](import.md).
 
 ## Segmentación dirigida {#targeted-segmentation}
 
-Adobe Campaign tiene funcionalidades de segmentación y direccionamiento potentes y fáciles de usar que permiten crear ofertas específicas y diferenciadas. La funcionalidad de análisis descriptivo permite analizar la información de subida y de bajada de las campañas de marketing, mientras que la funcionalidad de filtrado y del editor gráfico de consultas permiten filtrar la población de suscriptores y la muestra, o crear grupos de destino según un número ilimitado de criterios.
+Adobe Campaign tiene funcionalidades de segmentación y direccionamiento potentes y fáciles de usar que permiten crear ofertas específicas y diferenciadas. La funcionalidad de análisis descriptivo le permite analizar la información de subida y de bajada de sus campañas de marketing, y la funcionalidad [administración de filtros](../audiences/create-filters.md) y el [editor de consultas](query-editor.md) gráfico le permiten filtrar la población de suscriptores y la muestra, o crear grupos de destino según un número ilimitado de criterios.
 
 La funcionalidad avanzada de administración de datos amplía las características de procesamiento de datos. Simplifica y optimiza el proceso de direccionamiento incluyendo información que no se encuentra en la base de datos.
 

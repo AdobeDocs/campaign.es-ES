@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 97%
+source-wordcount: '791'
+ht-degree: 96%
 
 ---
 
@@ -133,8 +133,9 @@ ht-degree: 97%
 + Administración de contenido {#content}
    + [Creación de páginas de aterrizaje](dev/landing-pages.md)
    + [Diseño de aplicaciones y formularios web](dev/webapps.md)
-+ Automatización y flujos de trabajo {#automation}
-   + [Guía de automatización de Campaign >](https://experienceleague.adobe.com/es/docs/campaign/automation/home)
++ Flujos de trabajo {#workflows}
+   + [Introducción a los flujos de trabajo](config/workflows.md)
+   + [Documentación de flujo de trabajo >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
 + Administración de la privacidad y la seguridad {#privacy}
    + [Administración de solicitudes de privacidad](start/privacy.md)
    + [Directrices de seguridad](config/security.md)
@@ -174,9 +175,11 @@ ht-degree: 97%
          + [Cálculo de métricas integradas](reporting/metrics-calculation.md)
       + [Informes personalizados](reporting/custom-reports.md)
 + Administración de datos {#data}
-   + [Introducción a los flujos de trabajo](config/workflows.md)
+   + [Documentación de flujo de trabajo >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
    + [Importación de datos](start/import.md)
-   + [Documentación del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
+   + Creación de consultas {#query}
+      + [Diseño de consultas](start/query-editor.md)
+      + [Definición de condiciones de filtro](start/filter-conditions.md)
 + Integraciones {#connect}
    + [Conectar Campaign con otras soluciones](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}

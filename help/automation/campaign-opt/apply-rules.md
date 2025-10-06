@@ -4,10 +4,10 @@ title: Aplicación de reglas de tipología
 description: Aprenda a aplicar reglas de tipología
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: a8568e0c1e9af11b533b7d435691dc12cc0a2485
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '955'
-ht-degree: 85%
+ht-degree: 84%
 
 ---
 
@@ -46,7 +46,7 @@ Puede configurar las reglas de tipología para que influyan solo sobre algunos e
 
 Para definir las condiciones de aplicación de una regla, en la pestaña **[!UICONTROL Edit the rule application conditions...]**, haga clic en la pestaña **[!UICONTROL General]**.
 
-A continuación, utilice el editor de consultas para definir las condiciones de filtrado. En el siguiente ejemplo, la regla de capacidad respeta solo los envíos con la palabra “oferta” en su etiqueta o los envíos creados antes del 1 de abril de 2013.
+A continuación, use [editor de consultas](../../v8/start/query-editor.md) para definir las condiciones de filtrado. En el siguiente ejemplo, la regla de capacidad respeta solo los envíos con la palabra “oferta” en su etiqueta o los envíos creados antes del 1 de abril de 2013.
 
 ![](assets/campaign_opt_create_capacity_criterion.png)
 
@@ -58,7 +58,7 @@ A continuación, utilice el editor de consultas para definir las condiciones de 
 
 La mediación se vuelve a ejecutar automáticamente cada noche a través del flujo de trabajo de limpieza de la base de datos. Sin embargo, los valores se pueden guardar más allá de este periodo.
 
-De hecho, algunos cálculos utilizan valores que no cambian diariamente. Por lo tanto, sería irrelevante recalcular los datos todos los días y sobrecargar la base de datos para nada. Por ejemplo, si un proceso enriquece la base de datos de marketing con puntuaciones de tendencia de los clientes y adquiere información cada semana, no es necesario recalcular los datos basados en estos valores todos los días.
+De hecho, algunos cálculos utilizan valores que no cambian diariamente. Por lo tanto, sería irrelevante recalcular los datos todos los días y sobrecargar la base de datos para nada. Por ejemplo, si un proceso enriquece la base de datos de marketing con puntuaciones de tendencia de los clientes y compra información cada semana, no es necesario recalcular los datos basados en estos valores todos los días.
 
 Para hacerlo, el campo **[!UICONTROL Frequency]** en la pestaña **[!UICONTROL General]** permite definir un periodo máximo durante el cual se guarda el objetivo. De forma predeterminada, el valor **0** indica que el cálculo sigue siendo válido hasta la siguiente ejecución de mediación diaria.
 
@@ -89,7 +89,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 
 >[!NOTE]
 >
->Si trabaja con el módulo Campaign Interaction, las reglas de idoneidad se aplican al mismo tiempo que las reglas de filtrado (para ofertas encontradas en las descripciones de entrega) o durante la fase de personalización, durante la llamada al motor de ofertas.
+>Si trabaja con el módulo Campaign Interaction, las reglas de elegibilidad se aplican al mismo tiempo que las reglas de filtrado (para ofertas encontradas en las descripciones de entrega) o durante la fase de personalización, durante la llamada al motor de ofertas.
 
 Puede adaptar la secuencia de ejecución de las reglas que tienen el mismo tipo utilizando el campo correspondiente en la pestaña **[!UICONTROL General]** de la regla. Cuando se ejecutan varias reglas durante la misma fase de procesamiento de mensajes, se puede configurar su secuencia de ejecución en el campo **[!UICONTROL Execution sequence]**.
 

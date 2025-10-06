@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Audiencia objetivo de la campaña de marketing
-description: Aprenda a definir la audiencia de las campañas de marketing
+title: Público destinatario de la campaña de marketing
+description: Aprenda a definir el público de las campañas de marketing
 feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
 source-wordcount: '1470'
 ht-degree: 79%
 
 ---
 
-# Selección de la audiencia de las campañas {#marketing-campaign-deliveries}
+# Selección del público de las campañas {#marketing-campaign-deliveries}
 
 En una campaña de marketing, puede definir lo siguiente por envío:
 
@@ -49,7 +49,7 @@ Puede importar una población a una lista y luego establecer como objetivo esta 
 
 1. Haga clic en **[!UICONTROL Finish]** una vez que se hayan definido todos los criterios y guarde el destinatario principal.
 
-## Creación de la audiencia en un flujo de trabajo de campaña {#build-the-main-target-in-a-workflow}
+## Creación del público en un flujo de trabajo de campaña {#build-the-main-target-in-a-workflow}
 
 El objetivo principal de una entrega también se puede definir en el flujo de trabajo de campaña: este entorno gráfico permite crear un objetivo utilizando consultas, pruebas y operadores: unión, deduplicación, uso compartido, etc.
 
@@ -59,7 +59,7 @@ El objetivo principal de una entrega también se puede definir en el flujo de tr
 
 ### Creación del flujo de trabajo {#create-a-targeting-workflow}
 
-El objetivo se puede crear mediante una combinación de condiciones de filtrado en una secuencia gráfica de un flujo de trabajo. Puede crear poblaciones y subpoblaciones según lo necesite. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de campañas.
+El objetivo se puede crear mediante una combinación de condiciones de filtrado en una secuencia gráfica de un flujo de trabajo. Puede crear poblaciones y subpoblaciones según lo necesite. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de control de campañas.
 
 ![](assets/targeting-and-wf-tab.png)
 
@@ -163,7 +163,7 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
   En Explorer, seleccione **[!UICONTROL Administration > Production > Object created automatically > Campaign workflows]** para acceder y utilizar cada flujo de trabajo de campaña.
 
-  Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción finaliza el flujo de trabajo de la campaña.
+  Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción termina el flujo de trabajo de la campaña.
 
   ![](assets/stop_unconditional.png)
 
@@ -222,7 +222,7 @@ Esta población puede proceder de una lista de destinatarios o puede definirla m
 
 >[!NOTE]
 >
->El editor de consultas de Adobe Campaign se muestra en [esta sección](../workflow/query.md).
+>El editor de consultas de Adobe Campaign se muestra en [esta sección](../../v8/start/query-editor.md).
 
 ### Extracción del grupo de control a partir del objetivo principal {#extract-the-control-group-from-the-main-target}
 
@@ -248,4 +248,4 @@ En este vídeo se explica cómo añadir un grupo de control a una campaña.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
