@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 55%
@@ -62,7 +62,7 @@ El vínculo **[!UICONTROL Advanced campaign parameters...]** permite habilitar y
 
 Si no se selecciona una funcionalidad, los elementos relacionados con el proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña y las pestañas disponibles coinciden con las funcionalidades seleccionadas en la plantilla. Por ejemplo, si la funcionalidad **Gastos y objetivos** no está habilitada, la pestaña **[!UICONTROL Budget]** correspondiente no se muestra en las campañas basadas en esta plantilla.
 
-Además, los accesos directos a las ventanas de configuración se añaden al panel de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de campañas.
+Además, los accesos directos a las ventanas de configuración se añaden al panel de control de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de control de campañas.
 
 ### Muestras de configuración
 
@@ -169,8 +169,7 @@ Cuando crea una plantilla de campaña, debe introducir la siguiente información
 * Escriba la **etiqueta** de la plantilla: la etiqueta es obligatoria y es la etiqueta predeterminada para todas las campañas basadas en esta plantilla.
 * Seleccione la **naturaleza** de la campaña en la lista desplegable. Los valores disponibles en esta lista son los guardados en la enumeración **[!UICONTROL natureOp]**.
 
-Obtenga información sobre cómo acceder y configurar las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
-
+  Obtenga información sobre cómo acceder y configurar las enumeraciones en [esta página](../../v8/config/enumerations.md).
 
 * Seleccione el **tipo de campaña**: única, recurrente o periódica. De manera predeterminada, las plantillas de campaña se aplican a las campañas únicas. Las campañas recurrentes y periódicas se detallan en [esta sección](recurring-periodic-campaigns.md).
 * Especifique la duración de la campaña, es decir, el número de días durante los que se desarrolla la campaña. Al crear una campaña basada en esta plantilla, las fechas de inicio y finalización de la campaña se rellenan automáticamente.

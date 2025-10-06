@@ -5,10 +5,10 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 03a6816b-e51a-4eaf-ab76-02d24f97ba46
-source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '755'
-ht-degree: 34%
+ht-degree: 32%
 
 ---
 
@@ -102,7 +102,7 @@ En nuestro ejemplo, solo queremos mostrar años, meses y días. Tenga en cuenta 
 
 1. Cree otra dimensión para analizar los datos relacionados con la ciudad del destinatario. Para ello, añada una nueva dimensión y seleccione la ciudad en el nodo **[!UICONTROL Location]** del esquema de destinatarios.
 
-Puede activar el agrupamiento para facilitar la lectura de la información y vincular los valores a una enumeración.
+Puede habilitar el agrupamiento para facilitar la lectura de la información y vincular los valores a una [enumeración](../config/enumerations.md).
 
 Seleccione la enumeración en la lista desplegable. Observe que esta enumeración debe definirse como **[!UICONTROL Reserved for binning]**.
 

@@ -6,10 +6,10 @@ feature: Reporting
 role: Data Engineer
 level: Beginner
 exl-id: 300aedd0-6b5d-4264-bd63-e26a41ab64db
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '1438'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -22,14 +22,14 @@ Utilice el agrupamiento de datos para simplificar la visualización de los datos
 En general, hay tres tipos de agrupamiento disponibles:
 
 1. Uso de intervalos de valores definidos manualmente. Por ejemplo: edad, carro de compras promedio, número de envíos abiertos, etc.). Para obtener más información, consulte [Definición de cada grupo](#defining-each-bin).
-1. De forma dinámica, dependiendo de los valores de una enumeración: solo se muestran los valores contenidos en la enumeración; los demás valores se agrupan en “Otros”. Para obtener más información, consulte [Administración dinámica de grupos](#dynamically-managing-bins).
+1. De forma dinámica, dependiendo de los valores de una [enumeración](../config/enumerations.md): solo se muestran los valores contenidos en la enumeración; los demás valores se agrupan en &#39;Otros&#39;. Para obtener más información, consulte [Administración dinámica de grupos](#dynamically-managing-bins).
 1. Uso de intervalos de valores; todos los demás se agrupan. Por ejemplo, de 18 a 25 años de edad, de 26 a 59 años de edad y el resto. Para obtener más información, consulte [Creación de intervalos de calores](#creating-value-ranges).
 
-Para activar el agrupamiento, marque la casilla adecuada al crear la dimensión.
+Para habilitar el agrupamiento, marque la casilla adecuada al crear la dimensión.
 
 ![](assets/cube-class.png)
 
-Puede crear bandejas manualmente o enlazarlas a una enumeración existente.
+Puede crear bandejas manualmente o vincularlas a una [enumeración](../config/enumerations.md) existente.
 
 Adobe Campaign también ofrece un asistente para el agrupamiento automático: los valores se pueden desglosar en “n” grupos o agrupar según los valores más frecuentes de la base de datos.
 
@@ -62,9 +62,9 @@ Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 
    ![](assets/cube-link-to-enum.png)
 
-   Siempre que se actualizan los valores de la lista desglosada, los grupos coincidentes se adaptan automáticamente.
+   Siempre que se actualizan los valores de la enumeración, los grupos coincidentes se adaptan automáticamente.
 
-Obtenga más información acerca de las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
+   Obtenga más información acerca de las enumeraciones en [esta página](../config/enumerations.md).
 
 ### Creación de rangos de valores {#create-value-ranges}
 
@@ -140,7 +140,7 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
    * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](../../automation/workflow/scheduler.md).
    * La actividad **[!UICONTROL Aggregate update]** permite seleccionar el modo de actualización que desea aplicar: completo o parcial.
 
-     De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para activar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
+     De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para habilitar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
 
 ## Definición de medidas {#define-measures}
 
@@ -204,7 +204,7 @@ En cada medida, se puede definir la unidad y el formato que se va a aplicar.
 
 Una vez configurado el informe, puede guardarlo y compartirlo con otros operadores.
 
-Para ello, haga clic en el icono **[!UICONTROL Show the report properties]** y active la opción **[!UICONTROL Share this report]**.
+Para ello, haga clic en el icono **[!UICONTROL Show the report properties]** y habilite la opción **[!UICONTROL Share this report]**.
 
 ![](assets/cube_share_option.png)
 

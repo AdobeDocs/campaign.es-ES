@@ -6,9 +6,9 @@ role: User
 level: Beginner
 exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '4024'
+source-wordcount: '4027'
 ht-degree: 96%
 
 ---
@@ -104,7 +104,7 @@ El enlace **[!UICONTROL Advanced parameters]** permite acceder a las siguientes 
 
    * **[!UICONTROL Do not update enumerations]**
 
-     Seleccione esta opción para evitar enriquecer la lista de valores numéricos en la base de datos.
+     Seleccione esta opción para evitar enriquecer la lista de valores enumerados en la base de datos. Más información sobre [enumeraciones](../config/enumerations.md).
 
 * **[!UICONTROL Variables]** Ficha
 
@@ -182,7 +182,7 @@ Existen cuatro tipos de campos calculados:
 * **[!UICONTROL Fixed string]**: el valor del campo calculado es el mismo para todas las líneas del archivo de origen. Permite establecer el valor de un campo de los registros insertados o actualizados. Por ejemplo, puede establecer un marcador en “sí” para todos los registros importados.
 * **[!UICONTROL String with JavaScript tags]**: el valor del campo calculado es una cadena de caracteres que contiene comandos de JavaScript.
 * **[!UICONTROL JavaScript expression]**: el valor del campo calculado es el resultado de la evaluación de una función de JavaScript. El valor devuelto puede ser un número, una fecha, etc.
-* **[!UICONTROL Enumeration]**: el valor del campo se atribuye de acuerdo con un valor contenido en el archivo de origen. El editor permite especificar la columna de origen e introducir la lista de valores numéricos, como en el siguiente ejemplo:
+* **[!UICONTROL Enumeration]**: el valor del campo se atribuye de acuerdo con un valor contenido en el archivo de origen. El editor permite especificar la columna de origen e introducir la lista de valores de enumeración, como en el siguiente ejemplo:
 
   ![](assets/s_ncs_user_import_wizard03_3.png)
 
@@ -300,7 +300,7 @@ El siguiente paso del asistente de importación le permite seleccionar o crear l
 
 >[!NOTE]
 >
->Este paso aparece solo cuando se importan destinatarios y cuando se utiliza la tabla de destinatarios predeterminada de Adobe Campaign (**nms:destinatario**).
+>Este paso aparece solo cuando se importan destinatarios y cuando se utiliza la tabla de destinatarios predeterminada de Adobe Campaign (**nms:recipient**).
 
 * Haga clic en los enlaces **[!UICONTROL Edit]** para seleccionar la carpeta, la lista o el servicio al que desee asociar o suscribir a los destinatarios.
 
@@ -413,7 +413,7 @@ Seleccione un formato de salida para el archivo de exportación. Se pueden utili
 * En el caso de los archivos de formato **[!UICONTROL Text]**, seleccione los delimitadores para separar las columnas (tabulaciones, comas, punto y coma o personalizado) y las cadenas (comillas simples o dobles, o ninguna).
 * Para **[!UICONTROL text]** y **[!UICONTROL CSV]**, puede seleccionar la opción **[!UICONTROL Use first lines as column titles]**.
 * Indique el formato de fecha y el formato de número. Para hacer esto, haga clic en el botón **[!UICONTROL Edit]** en el campo correspondiente y use el editor.
-* En los campos que contienen valores numéricos, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el título se puede almacenar en el formulario **1=Mr.**, **2=Miss**, **3=Mrs.**. Si se selecciona esta opción, se exportan **Mr.**, **Miss** y **Mrs.**
+* En los campos que contienen valores enumerados, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el título se puede almacenar en el formulario **1=Mr.**, **2=Miss**, **3=Mrs.**. Si se selecciona esta opción, se exportan **Mr.**, **Miss** y **Mrs.**
 
 #### Paso 4: Selección de datos {#step-4---data-selection}
 

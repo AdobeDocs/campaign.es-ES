@@ -6,7 +6,7 @@ feature: Workflows
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 2693856c-80b2-4e35-be8e-2a9760f8311f
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '2064'
 ht-degree: 69%
@@ -43,7 +43,7 @@ Los flujos de trabajo detallados en esta página se instalan con los paquetes in
 
 | Flujo de trabajo técnico | Paquete | Descripción |
 |------|--------|-----------|
-| **Limpieza de alias** (aliasCleansing) | Instalado de forma predeterminada | Este flujo de trabajo estandariza los valores de enumeración. Se activa cada día a las 3 de la mañana de forma predeterminada. |
+| **Limpieza de alias** (aliasCleansing) | Instalado de forma predeterminada | Este flujo de trabajo estandariza los valores de [enumeración](../../v8/config/enumerations.md#alias-cleansing). Se activa cada día a las 3 de la mañana de forma predeterminada. |
 | **Facturación** (facturación) | Instalado de forma predeterminada | Este flujo de trabajo envía el informe de actividad del sistema al operador “facturación” por correo electrónico. Se activa el día 25 de cada mes en la instancia de Marketing. |
 | **Trabajos de Campaign** (operationMgt) | Instalado de forma predeterminada | Este flujo de trabajo administra los trabajos de las campañas de marketing (inicia la segmentación, la extracción de archivos, etc.). También crea flujos de trabajo relacionados con campañas recurrentes y periódicas. |
 | **Recopilación de datos para el servicio HeatMap** (collectDataHeatMapService) | Instalado de forma predeterminada | Este flujo de trabajo recupera los datos requeridos por el servicio HeatMap. |
@@ -54,13 +54,13 @@ Los flujos de trabajo detallados en esta página se instalan con los paquetes in
 | **Eliminar datos de solicitudes de privacidad** (deletePrivacyRequestsData) | Reglamento de protección de datos de privacidad | Este flujo de trabajo elimina los datos del destinatario almacenados en Adobe Campaign. |
 | **Indicadores de entrega** (deliveryIndicators) | Instalado de forma predeterminada | Este flujo de trabajo actualiza los indicadores de seguimiento de un envío para un envío. De forma predeterminada, este flujo de trabajo se activa cada hora. |
 | **Implementar FDAC inmediatamente** (ffdaDeploy) | Instalado de forma predeterminada solo en [implementaciones de Campaign Enterprise (FDAC)](../../v8/architecture/enterprise-deployment.md) | Realiza una implementación inmediata en la base de datos en la nube. [Más información sobre la replicación de datos](../../v8/architecture/replication.md) |
-| **Procesos de marketing distribuido** (centralLocalMgt) | Marketing central/local (Marketing distribuido) | Este flujo de trabajo comienza con el proceso vinculado al uso del módulo de marketing distribuido. Inicia la creación de las campañas locales y gestiona las notificaciones vinculadas a los pedidos y a la disponibilidad del paquete de Campaign. |
+| **Procesos de marketing distribuido** (centralLocalMgt) | Marketing central/local (Marketing distribuido) | Este flujo de trabajo comienza con el proceso vinculado al uso del módulo de marketing distribuido. Inicia la creación de las campañas locales y gestiona las notificaciones vinculadas a los pedidos y a la disponibilidad del paquete de campaña. |
 | **Depuración de eventos** (webAnalyticsPurgeWebEvents) | Conectores de análisis web | Este flujo de trabajo permite eliminar todos los eventos del campo de base de datos según el periodo configurado en el campo Lifespan. |
-| **Exportar audiencias a Adobe Experience Cloud** (exportSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo exporta audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. |
+| **Exportar públicos a Adobe Experience Cloud** (exportSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo exporta públicos como públicos o segmentos compartidos. Estos públicos pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. |
 | **Previsión**(previsión) | Instalado de forma predeterminada | Este flujo de trabajo analiza las entregadas guardadas en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada. |
 | **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Obtenga más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md). |
 | **Identificación de contactos convertidos** (webAnalyticsFindConverted) | Conectores de análisis web | Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en el reporte de eficiencia de remarketing (consulte esta página). |
-| **Importar audiencias desde Adobe Experience Cloud** (importSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo permite importar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. |
+| **Importar públicos desde Adobe Experience Cloud** (importSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo permite importar públicos y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. |
 | **Trabajos en envíos en campañas** (deliveryMgt) | Instalado de forma predeterminada | Este flujo de trabajo activa los envíos aprobados e inicia el posprocesado del proveedor de servicios para un envío externo. También envía notificaciones de aprobación y recordatorios. |
 | **Trabajos en proveedores de servicios** (supplierMgt) | Instalado de forma predeterminada | Este flujo de trabajo comienza a procesar el proveedor (correo electrónico al enrutador y posprocesado) una vez que se aprueban los envíos. |
 | **Migración MID a LineUserID** (MIDToUserIDMigration) | Canal LINE | Este flujo de trabajo genera las ID de los usuarios de LINE V2 para la migración de LINE V1 a LINE V2. |

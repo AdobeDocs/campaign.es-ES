@@ -5,9 +5,9 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
-source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '702'
 ht-degree: 21%
 
 ---
@@ -48,8 +48,9 @@ El objetivo de la prueba se puede definir en la plantilla de envíos o puede ser
 El tipo de destino de prueba está seleccionado en la lista desplegable **[!UICONTROL Targeting mode]**.
 
 * Utilice la opción **[!UICONTROL Definition of a specific proof target]** para seleccionar destinatarios en la base de datos como destino de la prueba.
-* Utilice la opción **[!UICONTROL Substitution of the address]** para introducir direcciones de correo electrónico y utilizar los datos del destinatario de destino para validar el contenido. Las direcciones de sustitución se pueden introducir manualmente o seleccionar en la lista desplegable. La enumeración asociada es Substitution address (rcpAddress).
-De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se puede seleccionar un destinatario específico del destino principal mediante el icono **[!UICONTROL Detail]**.
+* Utilice la opción **[!UICONTROL Substitution of the address]** para introducir direcciones de correo electrónico y utilizar los datos del destinatario de destino para validar el contenido. Las direcciones de sustitución se pueden introducir manualmente o seleccionar en la lista desplegable. La [enumeración](../config/enumerations.md) asociada es **Dirección de sustitución (rcpAddress)**.
+
+  De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se puede seleccionar un destinatario específico del destino principal mediante el icono **[!UICONTROL Detail]**.
 
   ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
 
@@ -105,4 +106,4 @@ De manera predeterminada, los mensajes de prueba se identifican mediante la menc
 
 Obtenga información sobre cómo enviar y validar una prueba para un envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447002?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

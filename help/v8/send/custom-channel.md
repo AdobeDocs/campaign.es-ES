@@ -4,7 +4,7 @@ description: Obtenga información sobre cómo crear y enviar envíos de canales 
 role: User
 level: Beginner, Intermediate
 exl-id: d2d92de6-3974-41c5-a0fd-09bbf6cf0020
-source-git-commit: e2c7529fb7dc033f35f9c0d2e73273d7f20bac64
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 2%
@@ -17,7 +17,7 @@ Adobe Campaign le permite crear canales externos o API personalizados integrados
 
 La creación y la entrega de envíos se pueden realizar tanto en la consola del cliente como en la interfaz de usuario web. Sin embargo, la configuración de canal personalizado solo se realiza en la consola del cliente.
 
-Para obtener información sobre cómo crear y realizar una entrega basada en un canal personalizado, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html?lang=es){target="_blank"}.
+Para obtener información sobre cómo crear y realizar una entrega basada en un canal personalizado, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/gs-custom-channel.html){target="_blank"}.
 
 Estos son los pasos para configurar un nuevo canal personalizado en la consola del cliente. Estos pasos son comunes a los canales externos y API personalizados:
 
@@ -33,7 +33,7 @@ En primer lugar, se debe configurar el esquema para añadir el nuevo canal a la 
 
 1. En el explorador de Campaign, seleccione **Administración** > **Configuración** > **Esquemas de datos**.
 
-1. Cree una extensión de esquema para ampliar la enumeración messageType con el nuevo canal.
+1. Cree una extensión de esquema para ampliar la **messageType** [enumeración](../config/enumerations.md) con el nuevo canal.
 
    Por ejemplo:
 
@@ -90,7 +90,7 @@ En la interfaz de usuario web de Campaign, configure la definición de pantalla 
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. Seleccione la pestaña que corresponde al canal y defina cómo se mostrarán los campos en la pantalla de contenido del envío. Para obtener más información sobre la edición en pantalla, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=es#fields){target="_blank"}.
+1. Seleccione la pestaña que corresponde al canal y defina cómo se mostrarán los campos en la pantalla de contenido del envío. Para obtener más información sobre la edición en pantalla, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}.
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 

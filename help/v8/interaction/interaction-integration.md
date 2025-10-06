@@ -5,10 +5,10 @@ description: Obtenga información sobre cómo añadir una oferta en una página 
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 1eb0775a-5da9-4a27-aa7b-339372748f9c
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 68%
+source-wordcount: '1454'
+ht-degree: 63%
 
 ---
 
@@ -314,15 +314,15 @@ Es posible utilizar una función de renderización XML para crear una presentaci
 
 ## Configuración de una integración con SOAP
 
-Los servicios web SOAP proporcionados para la administración de ofertas son diferentes de los utilizados en Adobe Campaign. Se puede acceder a ellos a través de la dirección URL de interacción descrita en la sección anterior y permiten presentar o actualizar ofertas para un contacto determinado.
+Los servicios web SOAP proporcionados para la gestión de ofertas son diferentes de los utilizados en Adobe Campaign. Se puede acceder a ellos a través de la dirección URL de interacción descrita en la sección anterior y permiten presentar o actualizar ofertas para un contacto determinado.
 
 ### Propuesta de oferta {#offer-proposition}
 
-Para una propuesta de oferta mediante SOAP, añada el comando **nms:proposition#Propose** seguido de los parámetros siguientes:
+Para una propuesta de oferta a través de SOAP, agregue el comando **nms:proposition#Propose** seguido de los siguientes parámetros:
 
 * **targetId**: clave principal del destinatario (puede ser una clave compuesta).
 * **maxCount**: especifica el número de propuestas de ofertas para el contacto.
-* **context**: permite añadir información contextual en el esquema de espacio. Si el esquema utilizado es **nms:interaction**, se debe añadir **`<empty>`**.
+* **context**: permite añadir información contextual en el esquema de espacio. Si el esquema usado es **nms:interaction**, se debe agregar **`<empty>`**.
 * **categories**: especifica las categorías a las que las ofertas deben pertenecer.
 * **themes**: especifica los tema a los que las ofertas deben pertenecer.
 * **uuid**: valor de la cookie permanente de Adobe Campaign (“uuid230”).
@@ -340,11 +340,11 @@ Como respuesta a la consulta, el servicio SOAP devuelve los siguientes parámetr
 
 ### Actualización de oferta {#offer-update}
 
-Añada el comando **nms:interaction#UpdateStatus** a la dirección URL, seguido de estos parámetros:
+Agregue el comando **nms:interaction#UpdateStatus** a la dirección URL, seguido de estos parámetros:
 
 * **proposition**: cadena de caracteres, contiene el ID de la propuesta dado como salida durante una propuesta de oferta. Consulte la [Propuesta de oferta](#offer-proposition).
-* **status**: tipo cadena, especifica el nuevo estado de la oferta. Los valores posibles se mencionan en la enumeración **propositionStatus**, en el esquema **nms:common.** Por ejemplo, de forma predeterminada, el número 3 corresponde al estado **Accepted**.
-* **context**: el elemento XML, permite añadir información contextual en el esquema de espacio. Si el esquema utilizado es **nms:interaction**, se debe añadir **`<empty>`**.
+* **status**: tipo cadena, especifica el nuevo estado de la oferta. Los valores posibles se enumeran en la **propositionStatus** [enumeración](../config/enumerations.md), en el esquema **nms:common**. Por ejemplo, de forma predeterminada, el número 3 corresponde al estado **Accepted**.
+* **context**: el elemento XML, permite añadir información contextual en el esquema de espacio. Si el esquema usado es **nms:interaction**, se debe agregar **`<empty>`**.
 
 ### Ejemplo de uso de una llamada a SOAP {#example-using-a-soap-call}
 
