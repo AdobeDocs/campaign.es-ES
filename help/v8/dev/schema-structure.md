@@ -5,9 +5,9 @@ feature: Schema Extension, Configuration, Data Model
 role: Developer
 level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1417'
 ht-degree: 12%
 
 ---
@@ -124,7 +124,7 @@ Se deben cumplir las siguientes reglas:
 
 El tipo de datos se ingresa mediante el atributo **type** en los elementos **`<attribute>`** y **`<element>`**.
 
-Hay disponible una lista detallada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=es#configuring-campaign-classic){target="_blank"}.
+Hay disponible una lista detallada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 Cuando este atributo no se rellena, **string** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se usa para estructurar los elementos jerárquicamente (**`<location>`** elemento en nuestro ejemplo).
 
@@ -222,6 +222,8 @@ Para vincular un valor predeterminado a un campo, puede usar `<default>  or  <sq
 `<sqldefault>`: permite tener un valor agregado al crear un campo. Este valor aparece como un resultado SQL. Durante una actualización de esquema, este valor solo afecta a los registros nuevos.
 
 ### Enumeraciones {#enumerations}
+
+Use [enumeraciones](../dev/enumerations.md) gratuitas, fijas o basadas en bases de datos para controlar los valores de los campos. Proporcionan listas desplegables para una entrada más sencilla, datos coherentes y un diseño de esquema flexible.
 
 #### Lista desglosada libre {#free-enumeration}
 

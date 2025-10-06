@@ -5,9 +5,9 @@ feature: Microsoft CRM Integration
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
-source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1376'
+source-wordcount: '1386'
 ht-degree: 35%
 
 ---
@@ -90,7 +90,7 @@ Luego debe codificar el certificado en base64. Para ello, puede utilizar la ayud
 1. Vaya a **Azure Active Directory > Registros de aplicación** y seleccione la aplicación que se creó anteriormente.
 1. Haga clic en **Configuración** en la parte superior izquierda.
 1. En **Permisos requeridos**, haga clic en **Añadir** y, luego, en **Seleccionar una API > Dynamics CRM en línea**.
-1. A continuación, haga clic en **Seleccionar**, active la casilla **Acceder a Dynamics 365 como usuarios de la organización** y haga clic en **Seleccionar**.
+1. A continuación, haga clic en **Seleccionar**, habilite la casilla **Acceder a Dynamics 365 como usuarios de la organización** y haga clic en **Seleccionar**.
 1. A continuación, desde la aplicación, seleccione el **Manifiesto** en el menú **Administrar**.
 1. En el editor **Manifiesto**, establezca la propiedad `allowPublicClient` de `null` en `true` y haga clic en **Guardar**.
 
@@ -195,6 +195,8 @@ Para sincronizar datos entre los datos de Adobe Campaign y Microsoft CRM, cree u
 
 Obtenga más información acerca de la sincronización de datos [en esta página](crm-data-sync.md).
 
+Obtenga más información acerca de la administración de la enumeración en Campaign [en esta página](../dev/enumerations.md).
+
 ### Tipos de datos de campo admitidos {#ms-dyn-supported-types}
 
 Para Microsoft Dynamics 365, los tipos de atributos admitidos o no admitidos se enumeran a continuación:
@@ -205,7 +207,7 @@ Para Microsoft Dynamics 365, los tipos de atributos admitidos o no admitidos se 
 | Tipos básicos: booleano, datetime, decimal, flotante, doble, entero, bigint, cadena | Sí |
 | Dinero (como doble) | Sí |
 | memo, entityname, primarykey, uniqueidentifier (como cadenas) | Sí |
-| Estado, lista de selección (almacenamos los valores posibles en listas desglosadas), estado (cadena) | Sí |
+| Estado, lista de selección (almacenamos los valores posibles en enumeraciones), estado (cadena) | Sí |
 | propietario (como cadena) | Sí |
 | Búsqueda (solo búsquedas de referencia de entidad única) | Sí |
 | cliente | No |

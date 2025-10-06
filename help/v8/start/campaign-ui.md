@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 428de72e0459b95a6db0b06ec8541d0475b72fdd
+source-git-commit: fbde111671fb972f6c96ba45eba4c8a88dbcac64
 workflow-type: tm+mt
-source-wordcount: '1235'
-ht-degree: 72%
+source-wordcount: '1121'
+ht-degree: 74%
 
 ---
 
@@ -189,25 +189,7 @@ Las principales diferencias entre el inglés de EE. UU. y el inglés de Reino U
 </table>
 
 
+## Recursos adicionales
 
-## Unidades predeterminadas {#default-units}
-
-En los campos que expresan una duración (por ejemplo, un periodo de validez de los recursos de una entrega, un plazo de aprobación para una tarea, etc.), el valor se puede expresar en las siguientes **unidades**:
-
-* **[!UICONTROL s]** para segundos,
-* **[!UICONTROL mn]** para minutos,
-* **[!UICONTROL h]** para horas,
-* **[!UICONTROL d]** para días.
-
-
-## Enumeración {#enumeration}
-
-Utilizando los campos de entrada con una lista desplegable, puede introducir un valor de enumeración, que se puede almacenar y, a continuación, proponer como opción en la lista desplegable.
-
-Por ejemplo, en el campo **[!UICONTROL City]** de la ficha **[!UICONTROL General]** de un perfil de destinatario, puede introducir Londres. Cuando pulse Intro para confirmar este valor, aparecerá un mensaje en el que se le preguntará si desea guardar este valor para la enumeración asociada al campo.  Si hace clic en **[!UICONTROL Yes]**, este valor estará disponible en el menú desplegable del campo correspondiente.
-
-El administrador administra las enumeraciones (también conocidas como &quot;listas desglosadas&quot;) mediante la sección **[!UICONTROL Administration > Platform > Enumerations]**.
-
-Aprenda a [trabajar con enumeraciones](../dev/enumerations.md)
-
-Más información sobre [Enumeraciones en esquemas](../dev/schema-structure.md#enumerations)
+* **[Trabajar con enumeraciones](../dev/enumerations.md)**: estandarice los valores de los campos con listas desplegables predefinidas para que la entrada de datos sea más rápida y coherente.
+* **[Enumeraciones en esquemas](../dev/schema-structure.md#enumerations)**: como desarrollador de Campaign, utilice enumeraciones gratuitas, fijas o basadas en bases de datos en los esquemas para controlar los valores de campo.
