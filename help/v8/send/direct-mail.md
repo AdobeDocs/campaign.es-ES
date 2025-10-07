@@ -71,11 +71,11 @@ Este vínculo le permite acceder al asistente de extracción y definir la inform
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Puede insertar una URL personalizada en el archivo de extracción. Para obtener más información, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"} de Adobe Campaign Classic.
+Puede insertar una URL personalizada en el archivo de extracción. Para obtener más información, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=es){target="_blank"} de Adobe Campaign Classic.
 
 >[!NOTE]
 >
->Este asistente incluye los pasos del asistente de exportación detallados en Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}.
+>Este asistente incluye los pasos del asistente de exportación detallados en Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=es){target="_blank"}.
 
 ## Validación del envío{#validating}
 
