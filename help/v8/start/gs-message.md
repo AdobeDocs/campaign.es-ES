@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a523e76d-776c-47d3-9c15-34241cee1092
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 74%
@@ -15,7 +15,7 @@ ht-degree: 74%
 
 # Introducción a los mensajes {#gs-ac-msg}
 
-Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push y correo postal, y medir su eficacia mediante varios informes dedicados. Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario.
+Con Adobe Campaign, puede enviar campañas de canales múltiples, incluidos correos electrónicos, SMS, notificaciones push y correo directo, y medir su eficacia mediante varios informes dedicados. Estos mensajes están diseñados y enviados por medio de envíos y pueden personalizarse para cada destinatario.
 
 Las funciones principales incluyen establecimiento de objetivos, definición y personalización de mensajes, ejecución de comunicaciones y los informes operativos asociados.
 
@@ -47,7 +47,7 @@ Adobe Campaign v8 viene con los canales de envío enumerados a continuación. Lo
 
 * **Canal de correo electrónico**: los envíos de correo electrónico le permiten enviar correos electrónicos personalizados a la población objetivo. [Más información](../send/email.md)
 
-* **Canales móviles**: los envíos en canales móviles permiten enviar mensajes personalizados a los dispositivos móviles de la población de público destinatario. Puedes enviar [mensajes SMS](../send/sms/sms.md) y [LINE](../send/line.md) a móviles.
+* **Canales móviles**: los envíos en canales móviles permiten enviar mensajes personalizados a los dispositivos móviles de la población de público destinatario. Puedes enviar [mensajes SMS](../send/sms/sms.md) y [LINE](../send/line/line.md) a móviles.
 
 * **Canal de aplicaciones móviles**: puede usar Adobe Campaign para enviar [notificaciones push](../send/push.md) personalizadas y segmentadas en dispositivos móviles iOS y Android mediante aplicaciones especializadas. Una vez realizados los pasos de configuración e integración, se pueden crear y realizar los envíos de iOS y Android y enviarlos con Adobe Campaign. También puede diseñar y enviar notificaciones enriquecidas con imágenes o vídeos a dispositivos Android.
 

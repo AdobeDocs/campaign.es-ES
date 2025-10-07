@@ -4,8 +4,9 @@ description: Introducción a las notificaciones push en Campaign
 feature: Push
 role: User
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: f04c6e0c-f2b9-496a-9697-04ef4c3411ee
-source-git-commit: 0b4fc6da8761d2efe57d8eb0ff87cd11d0e2d250
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '968'
 ht-degree: 61%
@@ -74,7 +75,7 @@ Para enviar notificaciones en dispositivos iOS, siga estos pasos:
 
 1. En la pestaña **[!UICONTROL Sound and Badge]**, puede editar las siguientes opciones:
 
-   * **[!UICONTROL Clean Badge]**: active estas opciones para actualizar el valor del distintivo.
+   * **[!UICONTROL Clean Badge]**: habilite estas opciones para actualizar el valor del distintivo.
 
    * **[!UICONTROL Value]**: establezca un número que se utilizará para mostrar directamente en el icono de la aplicación la cantidad de información nueva no leída.
 

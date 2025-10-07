@@ -5,10 +5,10 @@ feature: SMS
 role: User, Data Engineer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 95dca48ae0e2ee82b80464cdf9414538776969ad
+source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 12%
+ht-degree: 30%
 
 ---
 
@@ -26,7 +26,7 @@ Después de esta configuración, compruebe su conexión SMPP y aprenda a solucio
 
 >[!NOTE]
 >
->También puede usar Adobe Campaign para enviar [notificaciones push](../push.md) y [LINE](../line.md) mensajes a dispositivos móviles.
+>También puede usar Adobe Campaign para enviar [notificaciones push](../push.md) y [LINE](../line/line.md) mensajes a dispositivos móviles.
 
 
 <table style="table-layout:fixed"><tr style="border: 0;">
@@ -51,7 +51,7 @@ Después de esta configuración, compruebe su conexión SMPP y aprenda a solucio
 <img alt="Audiencia de SMS" src="../../assets/do-not-localize/sms-opt-out.jpg">
 </a>
 <div>
-<a href="sms-audience.md"><strong>Selección de la audiencia</strong></a>
+<a href="sms-audience.md"><strong>Selección del público</strong></a>
 </div>
 <p>
 </td>
