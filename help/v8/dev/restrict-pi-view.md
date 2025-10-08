@@ -5,7 +5,7 @@ feature: PI, Privacy, Configuration
 role: Developer
 level: Intermediate, Experienced
 exl-id: 1b833745-71d7-430d-ac7d-c830c78ea232
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 2%
@@ -39,7 +39,7 @@ A continuación, puede encontrar un ejemplo de una extensión de esquema de dest
 
 Las propiedades principales son:
 
-* **[!UICONTROL visibleIf]**: oculta los campos de los metadatos, por lo que no se puede acceder a ellos dentro de una vista de esquema, una selección de columna o un generador de expresiones. Pero esto no oculta ningún dato. Si el nombre del campo se introduce manualmente en una expresión, se muestra el valor.
+* **[!UICONTROL visibleIf]**: oculta los campos de los metadatos, por lo que no se puede obtener acceso a ellos desde una vista de esquema, una selección de columna o un [generador de expresiones](../../v8/start/filter-conditions.md#list-of-functions). Pero esto no oculta ningún dato. Si el nombre del campo se introduce manualmente en una expresión, se muestra el valor.
 * **[!UICONTROL accessibleIf]**: oculta los datos (reemplazándolos por valores vacíos) de la consulta resultante. Si visibleIf está vacío, obtiene la misma expresión que **[!UICONTROL accessibleIf]**.
 
 Estas son las consecuencias de utilizar este atributo en Campaign:

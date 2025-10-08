@@ -5,10 +5,10 @@ description: Descubra más información sobre la actividad del flujo de trabajo 
 feature: Workflows, Targeting Activity, Data Management
 version: Campaign v8, Campaign Classic v7
 exl-id: 63b214c7-bbbf-448b-b3af-b3b7a7a5b65c
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ La actualización de datos y la combinación de colecciones le permite actualiza
 
 1. Seleccione las colecciones que se van a mover al registro principal y los campos que se van a actualizar.
 
-   Introduzca las reglas que se aplican a estas una vez que se identifiquen uno o varios registros secundarios. Para ello, puede utilizar el generador de expresiones. Por ejemplo, si especifica que es el valor actualizado más recientemente de todos los registros que se deben conservar.
+   Introduzca las reglas que se aplican a estas una vez que se identifiquen uno o varios registros secundarios. Para ello, puede usar el [generador de expresiones](../../v8/start/filter-conditions.md#list-of-functions). Por ejemplo, si especifica que es el valor actualizado más recientemente de todos los registros que se deben conservar.
 
    A continuación introduzca las condiciones para tener en cuenta la regla.
 

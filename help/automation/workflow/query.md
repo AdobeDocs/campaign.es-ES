@@ -6,10 +6,10 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Data Engineer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ El enlace **[!UICONTROL Edit query...]** permite definir el tipo de objetivo, la
 
    También puede agregar condiciones de agrupación de datos marcando el cuadro correspondiente. Para ello, la dimensión del filtro debe ser diferente a la dimensión de segmentación de la consulta. Para obtener más información sobre la agrupación, consulte esta [sección](query-grouping-management.md).
 
-   También puede agregar más criterios utilizando el generador de expresiones y combinándolo con las opciones lógicas AND, OR y EXCEPT.
+   También puede agregar más criterios usando el [generador de expresiones](../../v8/start/filter-conditions.md#using-and--or--except) y combinándolo con las opciones lógicas AND, OR y EXCEPT.
 
    Guarde el filtro si desea volver a utilizarlo más tarde.
 
