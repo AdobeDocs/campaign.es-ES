@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: 449f24cb23afa2d6bd7d6f2ad7ff3ba65e0a1d5d
 workflow-type: tm+mt
-source-wordcount: '791'
+source-wordcount: '797'
 ht-degree: 96%
 
 ---
@@ -175,11 +175,12 @@ ht-degree: 96%
          + [Cálculo de métricas integradas](reporting/metrics-calculation.md)
       + [Informes personalizados](reporting/custom-reports.md)
 + Administración de datos {#data}
-   + [Documentación de flujo de trabajo >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
-   + [Importación de datos](start/import.md)
-   + Creación de consultas {#query}
-      + [Diseño de consultas](start/query-editor.md)
+   + Consultar la base de datos {#query}
+      + [Trabajo con el editor de consultas](start/query-editor.md)
+      + [Diseño de consultas](start/design-queries.md)
       + [Definición de condiciones de filtro](start/filter-conditions.md)
+   + [Importación de datos](start/import.md)
+   + [Documentación de flujo de trabajo >](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/about-workflows.html?lang=es)
 + Integraciones {#connect}
    + [Conectar Campaign con otras soluciones](connect/integration.md)
    + Campaign + Experience Platform {#ac-aep}
