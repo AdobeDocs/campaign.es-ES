@@ -6,14 +6,14 @@ role: User
 level: Beginner
 exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: ec1b41ccf532b044e75c69e795eabfb19a523ec2
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 4%
 
 ---
 
-# Ver perfiles existentes{#view-profiles}
+# Ver perfiles existentes {#view-profiles}
 
 Vaya a **[!UICONTROL Profiles and targets]** para acceder a los destinatarios almacenados en la base de datos de Adobe Campaign.
 
@@ -31,7 +31,7 @@ Para realizar manipulaciones de perfiles más avanzadas, acceda al árbol de Cam
 >La pantalla integrada de Destinatario se define a través de un esquema XML y su formulario asociado. El esquema XML se almacena en el nodo **[!UICONTROL Administration > Configuration > Data schemas]** del árbol del explorador de Adobe Campaign. Solo los usuarios expertos pueden realizar cambios en estos esquemas.
 >
 
-## Editar un perfil{#edit-a-profiles}
+## Editar un perfil {#edit-a-profiles}
 
 Seleccione un perfil para mostrar los detalles en una nueva pestaña.
 
