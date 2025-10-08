@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: a7846b95-7570-4dce-b3f4-d3cc23eefcac
-source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -192,4 +192,4 @@ Las principales diferencias entre el inglés de EE. UU. y el inglés de Reino U
 ## Recursos adicionales
 
 * **[Trabajar con enumeraciones](../config/enumerations.md)**: estandarice los valores de los campos con listas desplegables predefinidas para que la entrada de datos sea más rápida y coherente.
-* **[Enumeraciones en esquemas](../dev/schema-structure.md#enumerations)**: como desarrollador de Campaign, utilice enumeraciones gratuitas, fijas o basadas en bases de datos en los esquemas para controlar los valores de campo.
+* **[Filtrar datos](../audiences/create-filters.md)**: descubra los filtros integrados existentes para acceder a un subconjunto específico de datos de Campaign, crear filtros rápidos o diseñar y compartir sus propios filtros avanzados.

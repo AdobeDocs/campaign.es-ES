@@ -6,22 +6,22 @@ role: User
 level: Beginner
 exl-id: 873578f6-6af9-4d0c-8df3-cce320fc6a4e
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
 workflow-type: tm+mt
-source-wordcount: '1607'
-ht-degree: 35%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
-# Creación y administración de filtros{#create-filters}
+# Trabajo con filtros{#create-filters}
 
-El filtrado de datos es el proceso de seleccionar una parte más pequeña del conjunto de datos, solo los registros que coinciden con determinados criterios, y utilizar ese subconjunto para acciones específicas (como actualizaciones o creación de público) o análisis.
+El filtrado de datos es el proceso de reducir un conjunto de datos a solo los registros que coinciden con criterios específicos. Este subconjunto se puede utilizar para acciones segmentadas (como actualizaciones o creación de audiencias) o para análisis.
 
-Al examinar Campaign desde **[!UICONTROL Explorer]**, los datos se muestran en listas. Puede utilizar filtros integrados existentes para acceder a un subconjunto específico de estos datos: direcciones en cuarentena, destinatarios sin objetivo, un intervalo de edad específico o una fecha de creación, por ejemplo.
+Al navegar por Campaign, los datos se muestran en listas. Puede aplicar filtros integrados para acceder rápidamente a un subconjunto definido, como direcciones en cuarentena, destinatarios sin objetivo o registros dentro de un intervalo de edad o fecha de creación específicos.
 
-También puede crear sus propios filtros, guardarlos para usarlos en el futuro o compartirlos con otros usuarios de Campaign.
+Además, puede crear filtros personalizados, guardarlos para usarlos en el futuro y compartirlos con otros usuarios de Campaign.
 
-La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**: cuando se modifican los datos, los datos filtrados se actualizan.
+Los filtros se aplican **dinámicamente**: cada vez que los datos cambian, los resultados filtrados se actualizan automáticamente.
 
 >[!NOTE]
 >
@@ -29,7 +29,67 @@ La configuración del filtro permite seleccionar datos de una lista **[!UICONTRO
 
 Los siguientes tipos de filtros están disponibles en Adobe Campaign:
 
+* [Filtros predefinidos](#predefined-filters)
+* [Filtros rápidos](#quick-filters)
+* [Filtros personalizados avanzados](#advanced-filters)
+
 ## Filtros predefinidos{#predefined-filters}
+
+### Filtros predefinidos en los paneles
+
+De forma predeterminada, Adobe Campaign muestra todos los registros de base de datos para los que el operador tiene permiso de lectura. Puede filtrar estos datos mediante las opciones disponibles en la sección superior de la ventana del explorador.
+
+![](assets/filter_web_zone.png)
+
+Existen varias maneras de filtrar los datos que se van a mostrar. Si es necesario, se pueden utilizar juntos.
+
+* Filtrar por carpetas, consulte [Filtrar por carpeta](#filter-by-folder),
+* Filtrar por estado, consulte [Filtrar por estado](#filter-by-status),
+* Ordenación de datos, consulte [Ordenar por](#order-by),
+* Buscar, consulte [Búsqueda rápida](#quick-search).
+
+
+>[!BEGINTABS]
+
+>[!TAB Filtrar por carpeta]
+
+Para filtrar los datos según su carpeta, haga clic en el icono **[!UICONTROL Folder]** y seleccione la carpeta que contiene los datos que se van a mostrar.
+
+![](assets/filter_web_select_folder.png)
+
+Solo se muestran los perfiles de la carpeta:
+
+![](assets/filter_web_folder_display.png)
+
+Utilice la cruz a la derecha del campo de selección de carpetas para volver al modo de visualización predeterminado.
+
+>[!TAB Filtrar por estado]
+
+Según el tipo de información que se muestre, puede aplicar un filtro por estatus o por estado.
+
+Por ejemplo, para las entregas, puede elegir mostrar solo las entregas finalizados como se muestra a continuación:
+
+![](assets/d_ncs_user_interface_filter_delivery.png)
+
+>[!TAB Ordenar por]
+
+Puede seleccionar el orden de los datos ofrecidos en las páginas mediante la lista desplegable a la derecha del campo de filtro “por carpeta”. El contenido de este campo depende del tipo de datos de la página.
+
+Por ejemplo, puede ordenar las tareas por prioridad, fecha de creación u orden alfabético.
+
+![](assets/order_data_sample.png)
+
+>[!TAB Búsqueda rápida]
+
+Utilice el campo de búsqueda para acceder rápidamente al elemento que está buscando: introduzca los caracteres incluidos en la etiqueta o el nombre interno del elemento que desea mostrar y, a continuación, confirme la aplicación de un filtro automático a los datos de la página.
+
+![](assets/d_ncs_user_interface_filter_search.png)
+
+Para volver a mostrar todos los elementos, haga clic en la cruz para eliminar el contenido del campo de búsqueda.
+
+>[!ENDTABS]
+
+### Filtros predefinidos en el explorador
 
 Los filtros predefinidos están disponibles en el botón **Filters** situado encima de cada lista.
 
@@ -52,7 +112,7 @@ Utilice la última pestaña para previsualizar los datos filtrados.
 ![](assets/built-in-filter-preview.png)
 
 
-+++  Filtros predefinidos integrados
++++  Filtros predefinidos integrados para perfiles
 
 <table> 
  <tbody> 
@@ -161,7 +221,7 @@ Utilice la última pestaña para previsualizar los datos filtrados.
 
 +++
 
-### Filtros predeterminados{#default-filters}
+#### Filtros predeterminados{#default-filters}
 
 Los campos encima de cada lista le permiten usar el **filtro predeterminado predefinido** para esta lista. Para la lista de destinatarios, puede filtrar el nombre y la dirección de correo electrónico de forma predeterminada.
 
@@ -191,7 +251,7 @@ Siga estos pasos:
 
 ## Filtros rápidos{#quick-filters}
 
-Use y combine **Filtros rápidos** para definir filtros en campos específicos.
+Puede establecer y combinar **Filtros rápidos** para generar filtros personalizados en campos específicos.
 
 Una vez añadidos, los campos de filtro rápido se muestran encima de la lista de datos, uno tras otro. Pueden eliminarse de forma independiente.
 
@@ -199,7 +259,7 @@ Los filtros rápidos son específicos de cada operador y se reinician cada vez q
 
 Si necesita reutilizar un filtro, cree un **filtro avanzado** y guárdelo. [Más información](#advanced-filters).
 
-Para crear un **filtro rápido**, siga los pasos:
+Para crear un **filtro rápido**, siga estos pasos:
 
 1. Haga clic con el botón derecho en el campo que desee filtrar y seleccione **[!UICONTROL Filter on this field]**.
 
@@ -216,7 +276,7 @@ Para crear un **filtro rápido**, siga los pasos:
    ![](assets/add-filter-above-the-list.png)
 
 
-Si necesita filtrar un campo que no está disponible en el formulario, hágalo en las columnas y filtre en esa columna. Para ello,
+Si necesita filtrar por un campo que no está disponible en el formulario, sino en las columnas, y filtrar en esa columna. Para ello,
 
 1. Haga clic en el icono **[!UICONTROL Configure list]**.
 
@@ -236,7 +296,7 @@ Si necesita filtrar un campo que no está disponible en el formulario, hágalo e
 
 ## Filtros avanzados{#advanced-filters}
 
-Combine criterios complejos en **filtros avanzados**. Utilice estos filtros para crear una consulta compleja o una combinación de consultas sobre los datos. Estos filtros se pueden guardar y compartir con otros usuarios de Campaign.
+Combine criterios complejos en **filtros avanzados** personalizados. Utilice estos filtros para crear una consulta compleja o una combinación de consultas sobre los datos. Estos filtros se pueden guardar y compartir con otros usuarios de Campaign.
 
 ### Creación de un filtro avanzado{#create-adv-filters}
 
@@ -329,9 +389,9 @@ Para realizar funciones de filtrado avanzadas, utilice funciones para definir el
 
 Aprenda a crear consultas avanzadas en estos ejemplos completos:
 
-* Aprenda a segmentar atributos de destinatario simples en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
-* Aprenda a filtrar los destinatarios no contactados durante los últimos 7 días en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html?lang=es){target="_blank"}.
-* Obtenga información sobre cómo recuperar la lista de operadores que pueden filtrar las cuentas activas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html?lang=es){target="_blank"}.
+* Aprenda a segmentar atributos de destinatario simples en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
+* Aprenda a filtrar los destinatarios no contactados durante los últimos 7 días en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/query-many-to-many-relationship.html){target="_blank"}.
+* Obtenga información sobre cómo recuperar la lista de operadores que pueden filtrar las cuentas activas en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/designing-queries/create-a-filter.html){target="_blank"}.
 * Aprenda a crear una audiencia de correo electrónico de cumpleaños en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/send-a-birthday-email.html?lang=es){target="_blank"}.
 
 
@@ -355,5 +415,3 @@ Los parámetros avanzados están disponibles para filtros predefinidos. Para acc
    * Puede asociar una tabla SQL con el filtro para que sea común a todos los editores que compartan la tabla.
    * Para evitar que cualquier usuario anule el filtro, seleccione la opción **[!UICONTROL Do not restrict the filter]**. Por ejemplo, esta opción está activa para los filtros &quot;Destinatarios de una entrega&quot; y &quot;Destinatarios de entregas pertenecientes a una carpeta&quot;, que están disponibles en el asistente de entregas. Estos filtros no se pueden sobrecargar.
 
-
-### Operadores
