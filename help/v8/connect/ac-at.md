@@ -48,7 +48,7 @@ Se deben lograr los siguientes pasos en Adobe Campaign y Adobe Target:
 1. [Inserción de la oferta dinámica en un correo electrónico](#inserting-dynamic-offer)
 1. [Creación de ofertas de redireccionamiento](#create-redirect-offers)
 1. [Crear públicos](#audiences-target)
-1. [Creación de una actividad de segmentación de experiencias ](#creating-targeting-activity)
+1. [Creación de una actividad de segmentación de experiencias &#x200B;](#creating-targeting-activity)
 1. [Previsualización y envío del mensaje](#preview-send-email)
 
 ### Inserción de la oferta dinámica en un correo electrónico {#inserting-dynamic-offer}
