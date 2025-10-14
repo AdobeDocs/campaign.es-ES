@@ -116,11 +116,11 @@ Para personalizar los mensajes, puede utilizar los datos de destinatarios almace
 
 * Compruebe la configuración de personalización: asegúrese de que el contenido del mensaje está diseñado correctamente para evitar errores, que pueden estar relacionados con la personalización. Una etiqueta personalizada de Adobe Campaign siempre tiene el siguiente formulario: `<%=table.field%>`. El uso incorrecto de parámetros en bloques de personalización puede ser un problema. Por ejemplo: las variables en JavaScript deben usarse de la siguiente manera:
 
-  ``
+  &grave;&grave;
   <%
   var brand = "xxx"
   %>
-  ``
+  &grave;&grave;
 
   Para obtener más información acerca de los bloques personalizados, consulte [esta sección](../send/personalization-blocks.md).
 
