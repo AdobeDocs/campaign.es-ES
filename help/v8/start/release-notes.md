@@ -3,9 +3,9 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3bc247ba81de3de56c26bdf8fa9b8aa5ea91fb2a
+source-git-commit: d31368428fc7d5b982bb5fc67d0369bb17ea0b2c
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '388'
 ht-degree: 23%
 
 ---
@@ -28,8 +28,8 @@ El **nuevo conector de envío de SMS** ya está disponible para [implementacione
 
 Esta versión también incluye un conjunto de funcionalidades disponibles con la interfaz de usuario web de Campaign:
 
-* [Enriquecimiento de perfil en mensajes transaccionales](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=es){target="_blank"}
-* [Funciones multilingües para mensajes transaccionales, notificaciones push y SMS](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=es){target="_blank"}
+* [Enriquecimiento de perfil en mensajes transaccionales](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Funciones multilingües para mensajes transaccionales, notificaciones push y SMS](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
 
 Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es){target="_blank"} de la IU web de Campaign
 
@@ -52,7 +52,7 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 * Se ha corregido un problema en el cual el servidor en tiempo real devolvía un código de respuesta incorrecto para tokens de IMS no válidos en su lugar. (NEO-87428)
 * Se ha corregido un problema en el cual las estadísticas de envío de correo electrónico y SMS no se volvían a calcular completamente, lo que provocaba indicadores de éxito inexactos. (NEO-88106)
 * Se ha corregido un problema con el nuevo conector de envío de SMS en el que los registros de envío asignaban incorrectamente el estado de envío a un pequeño subconjunto de mensajes. (NEO-89581)
-* Se ha corregido un problema con el nuevo conector de envío de SMS en el que las métricas de éxito de los envíos de T-Mobile no se actualizaban correctamente en los servidores de marketing e intermediarios. (NEO-89850)
+* Se ha corregido un problema con el nuevo conector de envío de SMS en el que los envíos de métricas de éxito no se actualizaban correctamente en los servidores de marketing e intermediarios. (NEO-89850)
 * Se ha corregido un problema de sincronización entre las instancias de Tiempo real y Marketing que provocaba registros de seguimiento faltantes e informes incorrectos. (NEO-90247)
 * Se ha corregido un problema de enriquecimiento del flujo de trabajo que podía provocar errores al seleccionar campos en dos vínculos 1-N consecutivos en esquemas personalizados. (NEO-87682)
 
