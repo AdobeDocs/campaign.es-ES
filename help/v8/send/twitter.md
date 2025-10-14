@@ -4,9 +4,9 @@ description: Aprenda a utilizar el módulo Adobe Campaign Social Marketing para 
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: f463c5747b844544ba561a63e4cb0359c0c258c8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '785'
+source-wordcount: '782'
 ht-degree: 24%
 
 ---
@@ -76,7 +76,7 @@ Siga los pasos a continuación para publicar un mensaje en su cuenta X:
 
    ![](assets/tw-delivery-preview.png)
 
-   1. Seleccione la pestaña **[!UICONTROL Preview]**.
+   1. Haga clic en la pestaña **[!UICONTROL Preview]**.
    1. Haga clic en el menú desplegable **[!UICONTROL Test personalization]** y seleccione **[!UICONTROL Service]**.
    1. En el campo **[!UICONTROL Folder]**, seleccione la carpeta de servicio que contiene su cuenta X.
 
@@ -132,7 +132,7 @@ Para enviar mensajes directos a sus seguidores, siga los pasos a continuación:
 
    ![](assets/tw-dm-preview.png)
 
-   1. Seleccione la pestaña **[!UICONTROL Preview]**.
+   1. Haga clic en la pestaña **[!UICONTROL Preview]**.
    1. Haga clic en el menú desplegable **[!UICONTROL Test personalization]** y seleccione **[!UICONTROL Visitor Subscription]**.
    1. Elija una cuenta X con la que desee probar la vista previa.
 
@@ -149,7 +149,7 @@ Para enviar mensajes directos a sus seguidores, siga los pasos a continuación:
 
 >[!CAUTION]
 >
->No puede enviar más de 250 mensajes directos al día. Para evitar superar este umbral, puede realizar envíos en olas. Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#sending-using-multiple-waves){target="_blank"}.
+>No puede enviar más de 250 mensajes directos al día. Para evitar superar este umbral, puede realizar envíos en olas. Para obtener más información, consulte [esta sección](configure-and-send.md#sending-using-multiple-waves).
 
 
 ## Acceso a datos de seguimiento {#tw-tracking}

@@ -1,15 +1,15 @@
 ---
 product: campaign
 title: Procesamiento de la bandeja de entrada en Campaign
-description: Obtenga información sobre cómo capturar las renderizaciones de correo electrónico y ponerlas a disposición en un informe dedicado
+description: Obtenga información sobre cómo capturar las representaciones de correo electrónico y ponerlas a disposición en un informe dedicado
 feature: Inbox Rendering, Monitoring, Email Rendering
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: a3294e70-ac96-4e51-865f-b969624528ce
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,8 @@ Normalmente, la función de renderización de la bandeja de entrada se utiliza p
 
 Una vez que haya creado su envío de correo electrónico y definido su contenido, así como la población de destino, siga los pasos a continuación.
 
-Para obtener más información sobre la creación, el diseño y la segmentación un envío, consulte [esta sección](defining-the-email-content.md).
+Para obtener más información sobre cómo crear, diseñar y segmentar una entrega, consulte esta [página](defining-the-email-content.md).
+
 
 1. En la barra superior del envío, haga clic en el botón **[!UICONTROL Inbox rendering]**.
 

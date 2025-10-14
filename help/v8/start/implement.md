@@ -5,9 +5,9 @@ feature: Overview
 role: User
 level: Intermediate
 exl-id: 09562b6c-3d3d-4808-a70b-202172867f46
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1145'
 ht-degree: 97%
 
 ---
@@ -87,7 +87,7 @@ Antes de empezar a enviar mensajes y crear campañas de marketing, debe realizar
 
    Aprenda a configurar una plantilla de flujo de trabajo en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/build-a-workflow.html?lang=es){target="_blank"}.
 
-   Obtenga más información acerca de las plantillas de correo electrónico en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/using-delivery-templates/about-templates.html?lang=es){target="_blank"}.
+   Obtenga más información acerca de las plantillas de correo electrónico en esta [página](../send/create-templates.md).
 
 
 1. **Configuración de reglas de tipología**
@@ -114,13 +114,13 @@ Puede personalizar muchas áreas y capacidades de Campaign diferentes. La mayor�
 
    Puede ampliar los esquemas existentes o crear nuevos esquemas desde cero. Obtenga más información en [esta página](../dev/customize.md).
 
-1. **Paneles y listas**
+1. **Paneles de control y listas**
 
    Puede configurar listas, añadir y quitar campos, y personalizar columnas fácilmente.
 
    Obtenga información sobre cómo administrar filtros y listas en Campaign en [esta página](../dev/customize.md#gs-lists-and-filters).
 
-   También puede crear nuevos paneles para mostrar los datos de Campaign según sus necesidades.
+   También puede crear nuevos paneles de control para mostrar los datos de Campaign según sus necesidades.
 
    Obtenga más información en [esta página](../dev/customize.md#gs-custom-dashboards).
 
@@ -139,7 +139,7 @@ Para organizar campañas de marketing complejas para distintos públicos en vari
 
 * Use **flujos de trabajo** para administrar procesos y datos. Obtenga más información en [esta documentación](../../automation/workflow/about-workflows.md)
 
-* Configure procesos de **suscripción** y **páginas de aterrizaje**.  Obtenga más información en [esta página](../start/subscriptions.md)
+* Configure procesos de **suscripción** y **páginas de destino**.  Obtenga más información en [esta página](../start/subscriptions.md)
 
 * Configure **reglas de tipología** para definir la fatiga y la gestión de control.  Obtenga más información en [esta documentación](../../automation/campaign-opt/campaign-typologies.md)
 

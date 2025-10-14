@@ -6,9 +6,9 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '566'
 ht-degree: 20%
 
 ---
@@ -91,7 +91,7 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
 Su primer envío de correo electrónico está listo. Ahora debe definir la audiencia, validar la entrega y enviarlo.
 
-Aprenda a crear un flujo de trabajo para importar un contenido de correo electrónico en este [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html?lang=es){target="_blank"}.
+Aprenda a crear un flujo de trabajo para importar un contenido de correo electrónico en este [caso de uso](https://experienceleague.adobe.com/docs/campaign/automation/workflows/use-cases/deliveries/load-delivery-content.html){target="_blank"}.
 
 >[!MORELIKETHIS]
 >
@@ -100,7 +100,7 @@ Aprenda a crear un flujo de trabajo para importar un contenido de correo electr�
 >* [Seleccione la audiencia de su correo electrónico](../audiences/gs-audiences.md)
 >* [Validar una entrega y enviar pruebas](preview-and-proof.md)
 >* [Configurar y realizar la entrega](configure-and-send.md)
->* [Prácticas recomendadas sobre entregas](../start/delivery-best-practices.md)
+>* [Prácticas recomendadas sobre entregas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}
 
 ## Prueba y validación de correos electrónicos
 

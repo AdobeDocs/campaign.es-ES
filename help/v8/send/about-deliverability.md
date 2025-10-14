@@ -6,10 +6,10 @@ feature: Deliverability
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
-source-git-commit: 11c8c4c51c7901ba0d119323c564a64b940428b7
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 98%
+source-wordcount: '641'
+ht-degree: 99%
 
 ---
 
@@ -65,7 +65,7 @@ Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas
 
 Para evitar el envío de mensajes a direcciones no válidas, limitar las comunicaciones incorrectas y mejorar la reputación del remitente, Adobe recomienda implementar un mecanismo de inclusión doble. Este método le permite asegurarse de que sus destinatarios se hayan suscrito intencionadamente.
 
-Para obtener más información sobre esto, consulte [Creación de un formulario de suscripción con doble inclusión](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}.
+Para obtener más información sobre esto, consulte [Creación de un formulario de suscripción con doble inclusión](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}.
 
 Para obtener más información sobre las prácticas recomendadas al recopilar datos de sus clientes, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/first-impressions/address-collection-and-list-growth.html?lang=es#data-quality-and-hygiene){target="_blank"}.
 
@@ -92,5 +92,4 @@ Adobe Campaign le permite comprobar el rendimiento de sus entregas a través de 
 Para obtener más información, consulte las siguientes secciones:
 
 * [Monitorización de la capacidad de entrega](monitoring-deliverability.md)
-* [Introducción a la monitorización de entregas en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=es){target="_blank"}
 * [Introducción a los informes integrados de Campaign](../reporting/built-in-reports.md)

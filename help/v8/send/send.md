@@ -6,10 +6,10 @@ role: Data Engineer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 26%
+source-wordcount: '797'
+ht-degree: 27%
 
 ---
 
@@ -31,9 +31,6 @@ Desde el panel de entregas, puede comprobar los mensajes procesados y los regist
 >[!NOTE]
 >
 >Los estados de envío no se muestran en tiempo real. Obtenga más información acerca del servicio de comentarios de correo electrónico [en esta sección](#email-feedback-service).
-
-
-[Obtenga más información acerca de la monitorización de entregas en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/delivery-bestpractices/track-and-monitor.html?lang=es){target="_blank"}
 
 ## MTA de Campaign {#mta}
 
@@ -88,7 +85,7 @@ Cuando el mensaje se envía realmente a los perfiles de destino y una vez que se
 
 Cuando se generan informes de los mensajes de rebote duro desde el servidor de correo, su estado de registro cambia de **[!UICONTROL Taken into account by the service provider]** a **[!UICONTROL Failed]**<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->.
 
-Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo se actualiza [el motivo del error](delivery-failures.md#delivery-failure-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#defining-validity-period){target="_blank"}:
+Cuando se generan informes de los mensajes de rebote suave desde el servidor de correo, su estado de registro permanece sin cambios (**[!UICONTROL Taken into account by the service provider]**): solo se actualiza [el motivo del error](delivery-failures.md#delivery-failure-reasons)<!-- and the **[!UICONTROL Bounces + errors]** percentage is increased accordingly-->. El porcentaje de **[!UICONTROL Success]** permanece sin cambios. A continuación, se vuelven a intentar los mensajes de devolución suave a lo largo del [período de validez del envío](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/communication-channels){target="_blank"}:
 
 * Si un reintento se realiza correctamente antes del final del período de validez, el estado del mensaje cambia a **[!UICONTROL Sent]** y el porcentaje de **[!UICONTROL Success]** sube en consecuencia.
 
