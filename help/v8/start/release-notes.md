@@ -28,8 +28,8 @@ El **nuevo conector de envío de SMS** ya está disponible para [implementacione
 
 Esta versión también incluye un conjunto de funcionalidades disponibles con la interfaz de usuario web de Campaign:
 
-* [Enriquecimiento de perfil en mensajes transaccionales](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
-* [Funciones multilingües para mensajes transaccionales, notificaciones push y SMS](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Enriquecimiento de perfil en mensajes transaccionales](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=es){target="_blank"}
+* [Funciones multilingües para mensajes transaccionales, notificaciones push y SMS](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=es){target="_blank"}
 
 Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es){target="_blank"} de la IU web de Campaign
 
