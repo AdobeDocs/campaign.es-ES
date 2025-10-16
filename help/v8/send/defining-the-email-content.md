@@ -6,10 +6,10 @@ feature: Email Design
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: c3e107b5-6d2e-408f-9c7d-a81a4756b4ef
-source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
+source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '1957'
-ht-degree: 94%
+source-wordcount: '1954'
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,7 @@ Los mensajes se envían en formato HTML o texto de forma predeterminada, según 
 
 * Para importar un contenido HTML, usar el botón **[!UICONTROL Open]**. También puede pegar el código de fuente directamente en la subpestaña **[!UICONTROL Source]**.
 
-  Si está usando el editor de contenido (DCE), consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=es#step-3---selecting-a-content).
+  Si está usando el editor de contenido (DCE), consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >
@@ -117,11 +117,11 @@ Para obtener más información, consulte [esta sección](defining-interactive-co
 
 ## Uso de la administración de contenido {#using-content-management}
 
-Puede definir el contenido del envío mediante los formularios de administración de contenido directamente en el asistente de envíos. Para ello, debe hacer referencia a la plantilla de publicación de la gestión de contenido que se va a utilizar, en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
+Puede definir el contenido del envío mediante los formularios de administración de contenido directamente en el asistente de envíos. Para ello, debe hacer referencia a la plantilla de publicación de la administración de contenido que se va a utilizar, en la pestaña **[!UICONTROL Advanced]** de las propiedades de entrega.
 
 ![](assets/s_ncs_content_in_delivery.png)
 
-Una pestaña adicional permite introducir contenido que se integra y formatea automáticamente según las reglas de gestión de contenido.
+Una pestaña adicional permite introducir contenido que se integra y formatea automáticamente según las reglas de administración de contenido.
 
 ![](assets/s_ncs_content_in_delivery_edition_tab.png)
 
@@ -140,7 +140,7 @@ Puede insertar emoticonos en el contenido del correo electrónico.
 
 1. Haga clic en el botón **[!UICONTROL Close]** cuando termine.
 
-Para personalizar la lista de emoticonos, consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/personalizing-deliveries/customizing-emoticon-list.html?lang=es).
+Para personalizar la lista de emoticonos, consulte esta [página](customizing-emoticon-list.md).
 
 ## Adición de imágenes {#adding-images}
 
@@ -151,7 +151,7 @@ Los envíos de correo electrónico de formato HTML pueden contener imágenes. De
 
 Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 KB. Este límite, establecido de forma predeterminada, se puede cambiar desde la opción `NmsDelivery_MaxDownloadedImageSize`. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
 
-Obtenga más información sobre la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#delivery).
+Obtenga más información sobre la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ### Tipos de imágenes {#img-types}
 
@@ -160,9 +160,9 @@ Las imágenes pueden ser:
 * Una imagen local o una imagen obtenida desde un servidor
 * Una imagen almacenada en la biblioteca de recursos públicos de Adobe Campaign
 
-  Los recursos públicos son accesibles a través del nodo **[!UICONTROL Resources > Online]** de la jerarquía de Adobe Campaign. Se agrupan en una biblioteca y se pueden incluir en mensajes de correo electrónico, pero también se pueden utilizar para campañas o tareas, o para la gestión de contenido.
+  Los recursos públicos son accesibles a través del nodo **[!UICONTROL Resources > Online]** de la jerarquía de Adobe Campaign. Se agrupan en una biblioteca y se pueden incluir en mensajes de correo electrónico, pero también se pueden utilizar para campañas o tareas, o para la administración de contenido.
 
-* Un recurso compartido con Adobe Experience Cloud. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=es).
+* Un recurso compartido con Adobe Experience Cloud. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html).
 
 ### Inserción y administración de imágenes {#manage-images}
 
