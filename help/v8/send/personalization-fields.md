@@ -65,4 +65,4 @@ En el siguiente caso de uso, aprenda a personalizar un asunto y un cuerpo del co
 
 Obtenga información sobre cómo añadir un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico en el siguiente vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27466?captions=spa&quality=12)

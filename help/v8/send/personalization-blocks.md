@@ -80,4 +80,4 @@ Una vez guardado, el nuevo bloque personalizado está disponible en el editor de
 
 Obtenga información sobre cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido de su envío de correo electrónico en el siguiente vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3449009?captions=spa&quality=12)
