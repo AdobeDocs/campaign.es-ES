@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: f308f34afc16426d81d31eeaca5f14b10ac49c32
+source-git-commit: 0e2e96a37165b82829df7421760de761a2c2b1a5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '806'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 0%
    + [Problemas conocidos](start/known-issues.md)
    + [Matriz de compatibilidad](start/compatibility-matrix.md)
    + [Actualizaciones de la documentación](start/documentation-updates.md)
-+ Introducción  {#new}
++ Introducción {#new}
    + [Introducción a Adobe Campaign](start/get-started.md)
    + [Funcionalidades clave](start/whats-new.md)
    + [Descubrimiento de la interfaz de usuario](start/campaign-ui.md)
@@ -92,6 +92,9 @@ ht-degree: 0%
       + [Añadir campos de personalización](send/personalization-fields.md)
       + [Utilizar bloques de personalización](send/personalization-blocks.md)
       + [Crear condiciones](send/conditions.md)
+      + [Cupones personalizados](send/personalized-coupons.md)
+      + [Generación de documentos PDF personalizados](send/generating-personalized-pdf-documents.md)
+      + [Personalización de la lista de emoticonos](send/customizing-emoticon-list.md)
    + Validación y envío de la entrega {#validate}
       + [Previsualización y pruebas](send/preview-and-proof.md)
       + [Análisis de envíos](send/delivery-analysis.md)
