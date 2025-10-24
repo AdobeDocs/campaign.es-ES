@@ -6,10 +6,10 @@ feature: Campaigns, Audiences
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 70a63632-f66d-40f2-806d-bde89303936a
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: 26829656f8e06434ca3207c0c7b62ba907765972
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 79%
+source-wordcount: '1484'
+ht-degree: 78%
 
 ---
 
@@ -19,7 +19,7 @@ En una campaña de marketing, puede definir lo siguiente por envío:
 
 * La audiencia de destino. Puede enviar mensajes a una [lista de destinatarios](#send-to-a-group) o crear una [audiencia en un flujo de trabajo](#build-the-main-target-in-a-workflow)
 * Un grupo de control. Puede [agregar un grupo de control](#add-a-control-group) para supervisar el comportamiento de los destinatarios después de enviar el mensaje
-* Direcciones semilla: obtenga más información en [esta sección](../../v8/audiences/test-profiles.md).—>
+* Direcciones semilla: obtenga más información en [esta sección](../../v8/audiences/test-profiles.md).
 
 Parte de esta información se hereda de la [plantilla de campaña](marketing-campaign-templates.md#campaign-templates).
 
@@ -177,6 +177,10 @@ Un grupo de control es una población que no recibe la entrega; se utiliza para 
 
 El grupo de control se puede extraer del objetivo principal o provenir de un grupo o consulta específicos.
 
+>[!CAUTION]
+>
+>No se pueden utilizar grupos de control al cargar la población de destinatarios desde un archivo externo.
+
 ### Activación del grupo de control para una campaña {#activate-the-control-group-for-a-campaign}
 
 Puede definir un grupo de control en el nivel de la campaña, en cuyo caso se aplica el grupo de control a cada entrega de la campaña correspondiente.
@@ -248,4 +252,4 @@ En este vídeo se explica cómo añadir un grupo de control a una campaña.
 
 >[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.
