@@ -57,11 +57,11 @@ Las actualizaciones de los entornos de producción comenzaron en **enero de 2024
 
 * **¿Qué pruebas requieren los clientes?**
 
-  No esperamos pruebas por parte de los clientes en relación con este evento de actualización. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+  No esperamos pruebas por parte de los clientes en relación con este evento de actualización. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support){target="_blank"}.
 
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo programado de actualización de seguridad?**
 
   No. No podemos ajustar ninguna modificación solicitada a la programación existente, ya que esto probablemente interrumpa el evento de actualización asignado para otro cliente.
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support){target="_blank"}.
