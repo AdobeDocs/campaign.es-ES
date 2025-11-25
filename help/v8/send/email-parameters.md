@@ -6,10 +6,10 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
+source-git-commit: 6b70ad987b828dc1c17bc4f0683046be4eff0408
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 63%
+source-wordcount: '862'
+ht-degree: 44%
 
 ---
 
@@ -76,11 +76,55 @@ Cada uno de estos campos se puede personalizar mediante el icono dedicado. Obten
 
 Para obtener más información sobre la gestión de correo rechazado, consulte [esta sección](delivery-failures.md#bounce-mail-management).
 
+## Habilitar cancelación de suscripción a una lista de un clic {#one-click-list-unsubscribe}
+
+La URL de cancelación de suscripción a una lista de un clic es un vínculo o botón que se muestra junto a la información del remitente del correo electrónico, lo que permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
+
+Se muestra como un vínculo **Cancelar la suscripción** en las interfaces de correo electrónico de los ISP. Por ejemplo:
+
+![](assets/email-list-unsubscribe-example.png)
+
+Añadir un encabezado SMTP denominado List-Unsubscribe es obligatorio para garantizar una gestión óptima de la entrega, y se puede utilizar como alternativa al icono &quot;Notificar como correo no deseado&quot;. De hecho, el uso de esta funcionalidad reduce las tasas de quejas y ayuda a proteger su reputación.
+
+>[!IMPORTANT]
+>
+>Para mostrar la URL &quot;Cancelar la suscripción&quot; con un solo clic en el encabezado del correo electrónico, el cliente de correo electrónico de los destinatarios debe admitir esta función.
+
+Para habilitar esta funcionalidad, seleccione la opción **[!UICONTROL Addition of One-click List-Unsubscription Header]** en la pestaña **[!UICONTROL SMTP]** de las propiedades de entrega.
+
+>[!NOTE]
+>
+>Esta opción está habilitada de manera predeterminada.
+
+![](assets/email-smtp-list-unsubscribe.png)
+
+<!--
+>[!WARNING]
+>
+>If you uncheck this option in the delivery template, it will still be enabled by default in the deliveries created from this template. You need to enable the option again at the delivery level.-->
+
+Según el cliente de correo electrónico y el método que utilice para realizar la exclusión, hacer clic en el vínculo **Cancelar suscripción** del encabezado del correo electrónico puede tener el siguiente impacto:
+
+* Si el cliente de correo electrónico utiliza el método de cancelación de suscripción a una lista de **un clic**, el destinatario se excluye directamente.
+
+  >[!NOTE]
+  >
+  >Los principales ISP, como Google y Yahoo! están exigiendo a los remitentes que cumplan con **Cancelación de suscripción a una lista de un clic**.
+
+* Si el cliente de correo electrónico no admite la cancelación de la suscripción a una lista de un clic, puede seguir utilizando el método de cancelación de suscripción a una lista **&quot;mailto&quot;**, que envía un correo electrónico rellenado previamente a la dirección de cancelación de suscripción especificada en el encabezado del correo electrónico.
+
+  Puede establecer la dirección explícitamente en el encabezado o utilizar una dirección dinámica (por ejemplo, utilizando &lt;%=errorAddress%> o la opción &quot;NmsEmail_DefaultErrorAddress&quot;) que se puede configurar mediante el asistente de implementación.
+
+>[!NOTE]
+>
+>También puede establecer manualmente los métodos [One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} y [&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. Los pasos detallados se describen en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"} de Experience Cloud.
+
+
 ## Añadir encabezados SMTP {#adding-smtp-headers}
 
 Es posible añadir encabezados SMTP a las entregas. Para ello, utilice la sección correspondiente en la pestaña **[!UICONTROL SMTP]** de la entrega.
 
-La secuencia de comandos introducida en esta ventana debe hacer referencia a un encabezado por línea en el siguiente formulario **name:value**.
+El script introducido en esta ventana debe hacer referencia a un encabezado por línea con el siguiente formato **name:value**.
 
 Los valores se codifican automáticamente si es necesario.
 
