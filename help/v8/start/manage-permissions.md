@@ -4,11 +4,12 @@ description: Obtenga información sobre cómo conceder permisos a usuarios de Ca
 feature: Permissions
 role: User, Admin
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
-source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
+source-git-commit: df8ab43d9c7aee96c23240cd6c2775311da1abf2
 workflow-type: tm+mt
 source-wordcount: '1618'
-ht-degree: 39%
+ht-degree: 42%
 
 ---
 
@@ -115,7 +116,7 @@ Estos perfiles de producto coinciden con los **grupos de operadores** de Campaig
 
 1. **[!UICONTROL Campaign managers]** (operación)
 
-   Los operadores de este grupo pueden administrar las campañas de marketing: permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) dentro del marco de **[!UICONTROL Campaign]** (módulo opcional de Adobe Campaign).
+   Los operadores de este grupo pueden administrar las campañas de marketing: le permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) dentro del marco de trabajo de **[!UICONTROL Campaign]** (módulo opcional de Adobe Campaign).
 
    Este grupo contiene los siguientes derechos asignados:
 
@@ -229,7 +230,7 @@ Los derechos asignados predeterminados en Adobe Campaign son:
 
 * **[!UICONTROL START DELIVERIES]**: derecho a aprobar los envíos analizados previamente. Después del análisis de envío, el envío se detiene en varios pasos de aprobación y debe aprobarse para reanudarse. Los usuarios con derecho a **[!UICONTROL START DELIVERIES]** pueden aprobar envíos.
 
-* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: derecho para escribir sus propias secuencias de comandos SQL con la actividad Administración de datos SQL para crear y rellenar tablas de trabajo. [Más información](../../automation/workflow/sql-data-management.md).
+* **[!UICONTROL USE SQL DATA MANAGEMENT ACTIVITY]**: derecho a escribir sus propios scripts SQL con la actividad Gestión de datos SQL, para poder crear y rellenar tablas de trabajo. [Más información](../../automation/workflow/sql-data-management.md).
 
 * **[!UICONTROL WORKFLOW]**: este derecho asignado es específico de los flujos de trabajo: permite crear, iniciar y detener flujos de trabajo. Se necesitan derechos de lectura en el archivo de flujo de trabajo para que el derecho llamado sea aplicable. Para flujos de trabajo de destino, es necesario tener derechos de lectura sobre la carpeta **[!UICONTROL Profiles and Targets]**.
 
