@@ -7,10 +7,10 @@ topic-tags: campaign-standard-apis
 role: Data Engineer
 level: Experienced
 exl-id: 79eacc31-d5a2-4e13-aa0b-744d7ab7004f
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 5b9793d98d12afb28e987b16bc2e34f0ee72ac5f
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 11%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
@@ -22,7 +22,7 @@ Puede controlar un flujo de trabajo directamente desde la API de REST, a través
 
 >[!CAUTION]
 >
->Si se cambia el ID del flujo de trabajo en Adobe Campaign, la solicitud de API ya no funcionará.
+>Si el ID de flujo de trabajo se cambia en Adobe Campaign, la solicitud de API ya no funcionará.
 
 Hay cuatro comandos de ejecución disponibles para controlar un flujo de trabajo:
 
@@ -31,9 +31,6 @@ Hay cuatro comandos de ejecución disponibles para controlar un flujo de trabajo
 * Reanudar
 * Stop
 
-Para obtener más información sobre los comandos de ejecución, consulte la [documentación de Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/about-workflow-execution.html?lang=es).
-
-<br/>
 
 ***Solicitudes de muestra***
 
@@ -47,6 +44,34 @@ Para obtener más información sobre los comandos de ejecución, consulte la [do
   -H 'X-Api-Key: <API_KEY>' \
   -i
   -d '{"method":"start"}'
+  ```
+
+  <!-- + réponse -->
+
+* Pausar un flujo de trabajo.
+
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -i
+  -d '{"method":"pause"}'
+  ```
+
+  <!-- + réponse -->
+
+* Reanudar un flujo de trabajo.
+
+  ```
+  -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/workflow/execution/<workflowID>/commands \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer <ACCESS_TOKEN>' \
+  -H 'Cache-Control: no-cache' \
+  -H 'X-Api-Key: <API_KEY>' \
+  -i
+  -d '{"method":"resume"}'
   ```
 
   <!-- + réponse -->
