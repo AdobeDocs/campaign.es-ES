@@ -87,7 +87,7 @@ El esquema `xtk:queryDef` proporciona métodos para generar y ejecutar consultas
 * `getIfExists` - Recuperar un solo registro, devolver nulo si no se encuentra
 * `count` - Recuento de registros que coinciden con los criterios
 
-Obtenga más información acerca de los métodos queryDef en la [documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}.
+Obtenga más información acerca de los métodos queryDef en la [documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=es){target="_blank"}.
 
 ## Consulta con JSON {#query-json}
 
@@ -256,7 +256,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->Utilice siempre consultas parametrizadas con `$(sz)` para cadenas y `$(l)` para enteros con el fin de evitar vulnerabilidades de inyección de SQL. Obtenga más información en la [documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}.
+>Utilice siempre consultas parametrizadas con `$(sz)` para cadenas y `$(l)` para enteros con el fin de evitar vulnerabilidades de inyección de SQL. Obtenga más información en la [documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html?lang=es){target="_blank"}.
 
 ## Recuento de registros {#count-records}
 
@@ -435,7 +435,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-Más información sobre [BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}.
+Más información sobre [BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html?lang=es){target="_blank"}.
 
 ### BuildQueryEx: obtener SQL con cadena de formato {#build-query-ex}
 
@@ -460,7 +460,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-Más información sobre [BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}.
+Más información sobre [BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html?lang=es){target="_blank"}.
 
 ### Seleccionar todo: agregue todos los campos que desea seleccionar {#select-all}
 
@@ -483,7 +483,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-Más información sobre [SelectAll](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}.
+Más información sobre [SelectAll](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html?lang=es){target="_blank"}.
 
 ### Actualización: Actualización masiva de registros {#mass-update}
 
@@ -513,7 +513,7 @@ logInfo("Mass update completed");
 >
 >Las actualizaciones masivas afectan a todos los registros que coinciden con la cláusula where. Pruebe siempre primero las condiciones where con una consulta de selección para comprobar qué registros se verán afectados.
 
-Más información sobre [Actualización](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}.
+Más información sobre [Actualización](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html?lang=es){target="_blank"}.
 
 ### GetInstanceFromModel: instancias de plantilla de consulta {#get-instance-from-model}
 
@@ -536,7 +536,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-Más información sobre [GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}.
+Más información sobre [GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html?lang=es){target="_blank"}.
 
 ## Operaciones por lotes {#batch-operations}
 
@@ -772,7 +772,7 @@ Estructura completa del objeto `queryDef`:
 ## Temas relacionados {#related-topics}
 
 * [Introducción a las API de Campaign](api.md)
-* [Referencia de API queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
+* [Referencia de API queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=es){target="_blank"}
 * [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}
 * [Modelo de datos](datamodel.md)
 * [Trabajo con esquemas](schemas.md)
