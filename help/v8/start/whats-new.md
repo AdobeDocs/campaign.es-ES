@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 4b67d5f5427b1be8217f141a97c4de413f5e1f2e
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 97%
+source-wordcount: '1447'
+ht-degree: 69%
 
 ---
 
@@ -21,6 +21,22 @@ Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, e
 ![](assets/home-page.png)
 
 ## Funcionalidades clave{#key-capabilities}
+
+### Interfaz de usuario web de Campaign{#new-web-ui}
+
+Adobe Campaign v8 ofrece **nueva interfaz de usuario web** junto con la consola de cliente tradicional. Esta interfaz moderna e intuitiva está diseñada para los especialistas en marketing que necesitan una creación de campañas más rápida y una accesibilidad mejorada.
+
+**Ventajas principales:**
+
+* **Diseño moderno**: interfaz limpia y adaptable accesible desde cualquier explorador
+* **Flujos de trabajo simplificados**: creación y administración de campañas optimizadas
+* **Funciones de arrastrar y soltar**: diseño de contenido visual sin conocimientos técnicos
+* **Incorporación más rápida**: curva de aprendizaje mínima para nuevos usuarios
+* **Experiencia unificada**: comparte similitudes con Campaign Standard para facilitar la transición
+
+A partir de la versión 8.6 de Campaign, la IU web de Campaign está disponible a través de Adobe Experience Cloud, lo que permite un acceso sin problemas a todas las soluciones de Adobe.
+
+[Obtenga más información acerca de la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
 ### Administración central del flujo de trabajo{#central-wf-mgt}
 
@@ -92,6 +108,63 @@ Adobe Campaign ahora puede aprovechar las tecnologías de bases de datos a escal
 
 [Obtenga más información sobre la implementación de Enterprise (FDAC)](../architecture/enterprise-deployment.md)
 
+### Rendimiento a escala {#performance-metrics}
+
+La versión 8 de Campaign Enterprise ofrece un rendimiento excepcional para operaciones de marketing de gran volumen:
+
+* **Procesamiento por lotes** - Hasta **20 millones de operaciones por hora** para la ejecución de campañas a gran escala
+* **Mensajería transaccional** - **1 millón de mensajes por hora** para comunicaciones en tiempo real
+* **Creación rápida de audiencias**: consulte y segmente millones de perfiles en minutos en lugar de horas
+* **Base de datos en la nube**: la tecnología Snowflake elimina la sobrecarga del sistema durante el pico de actividad
+
+Este rendimiento permite a las organizaciones ejecutar campañas complejas y multitáctiles a escala empresarial sin poner en riesgo la velocidad o la fiabilidad.
+
+### Funciones nuevas y mejoradas {#new-features}
+
+La versión 8 de Campaign introduce nuevas y potentes funciones y mejoras:
+
+**Asistente de IA**
+
+Aproveche la IA generativa para acelerar la creación de contenido:
+
+* Generación automática de contenido de correo electrónico, SMS y notificaciones push
+* Adaptar la mensajería a las directrices y la voz de su marca
+* Puntuación de alineación de marca para garantizar la coherencia
+* Reduzca el tiempo de creación del contenido y mantenga la calidad
+
+**Notificaciones push enriquecidas**
+
+Cree experiencias móviles atractivas con:
+
+* Imágenes, vídeos y carruseles en notificaciones push
+* Botones interactivos y temporizadores
+* Personalización mejorada para iOS y Android
+* Participación mejorada mediante la narración visual
+
+**Infraestructura de SMS actualizada (v2.0)**
+
+* Mayor fiabilidad y tasas de entrega
+* Mejor compatibilidad con los conectores SMPP
+* Rendimiento mejorado para campañas de SMS de gran volumen
+* Monitorización e informes de entrega avanzados
+
+**Integraciones mejoradas**
+
+* **Adobe Experience Manager as a Cloud Service**: integración perfecta de recursos y administración de contenido
+* **API de REST**: arquitectura de API moderna para facilitar las integraciones y el desarrollo
+* **Informes dinámicos**: funciones de análisis avanzadas para usuarios de Campaign Standard en transición a la versión 8
+
+### Actualizaciones y mantenimiento automáticos {#automatic-upgrades}
+
+Campaign v8 Managed Cloud Services elimina la carga de las actualizaciones manuales:
+
+* **Modelo de envío continuo**: actualizaciones automáticas a la última versión estable
+* **Cero tiempo de inactividad**: actualizaciones realizadas con un impacto mínimo en las operaciones
+* **Acceso inmediato**: obtenga nuevas funciones y parches de seguridad tan pronto como se publiquen
+* **Carga de TI reducida**: Adobe administra todo el mantenimiento y las actualizaciones de la infraestructura
+* **Programación coordinada**: Adobe trabaja con usted para planificar el tiempo de actualización
+
+Este enfoque garantiza que la instancia de Campaign siempre sea segura, esté optimizada y equipada con las últimas funciones sin necesidad de recursos informáticos internos para la planificación y ejecución de la actualización.
 
 ## Interfaz de administración de autoservicio{#self-service-admin}
 
