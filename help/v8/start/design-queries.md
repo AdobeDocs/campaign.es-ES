@@ -1,13 +1,13 @@
 ---
 title: Diseño de consultas en Campaign v8
-description: Obtenga información sobre cómo crear consultas
+description: Obtenga información sobre cómo crear consultas en la consola del cliente de Campaign
 feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
+source-git-commit: edd495a377559007dad7158c9ab4a4917d89ae73
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '871'
 ht-degree: 29%
 
 ---
