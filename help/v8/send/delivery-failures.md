@@ -4,11 +4,12 @@ description: Comprender los posibles errores al enviar mensajes con Adobe Campai
 feature: Profiles, Monitoring
 role: User
 level: Beginner, Intermediate
+version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 338013ac999ae0fedac132adf730c6f9477d73ca
+source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
 workflow-type: tm+mt
-source-wordcount: '2976'
-ht-degree: 64%
+source-wordcount: '3410'
+ht-degree: 58%
 
 ---
 
@@ -22,7 +23,7 @@ Si no es posible enviar un mensaje a un perfil, el servidor remoto envía autom�
 
 Una vez enviado un mensaje, puede ver el estado de envío de cada perfil y el tipo y el motivo de error asociado en los registros de envío.
 
-Cuando una dirección de correo electrónico está en cuarentena, o si un perfil está a la lista de bloqueados, el destinatario se excluye en el paso de preparación de la entrega. Los mensajes excluidos se muestran en el panel de entrega.
+Cuando una dirección de correo electrónico está en cuarentena, o si un perfil está a la lista de bloqueados, el destinatario se excluye en el paso de preparación de la entrega. Los mensajes excluidos se muestran en el panel de control de entrega.
 
 ## ¿Por qué ha fallado la entrega del mensaje? {#delivery-failure-reasons}
 
@@ -48,7 +49,7 @@ Una entrega de mensajes puede fallar inmediatamente, en ese caso se clasifica co
 
 Estos tipos de errores se administran de la siguiente manera:
 
-* **Error sincrónico**: el servidor remoto contactado mediante el servidor de entrega de Adobe Campaign devuelve inmediatamente un mensaje de error. No se permite realizar la entrega al servidor del perfil. El Agente de transferencia de correo (MTA) determina el tipo de rechazo y clasifica el error, y envía esa información a Campaign para determinar si las direcciones de correo electrónico correspondientes deben ponerse en cuarentena. Consulte [Cualificación de correo rechazado](#bounce-mail-qualification).
+* **Error sincrónico**: el servidor remoto contactado mediante el servidor de entrega de Adobe Campaign devuelve inmediatamente un mensaje de error. No se permite realizar la entrega al servidor del perfil. El Agente de transferencia de correo (MTA) determina el tipo de rechazo y clasifica el error, y envía esa información a Campaign para determinar si las direcciones de correo electrónico correspondientes deben ponerse en cuarentena. Consulte [Calificación de correo rechazado](#bounce-mail-qualification).
 
 * **Error asíncrono**: el servidor receptor reenvía más tarde un correo electrónico de rechazo o una SR. Este error se califica con una etiqueta relacionada con el error. Pueden producirse errores asíncronos hasta una semana después de mandar la entrega.
 
@@ -56,7 +57,7 @@ Estos tipos de errores se administran de la siguiente manera:
 >
 >Como usuario de Cloud Services administrados, la configuración del buzón de rechazos la realiza Adobe.
 
-## Clasificación del correo rechazado {#bounce-mail-qualification}
+## Calificación del correo rechazado {#bounce-mail-qualification}
 
 <!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
 
@@ -66,7 +67,7 @@ La forma en que se gestiona la calificación de correo rechazado en Adobe Campai
 
 * **Errores sincrónicos**: El MTA determina el tipo de devolución y calificación, y envía esa información a Campaign. Las cualificaciones de rechazo de la tabla **[!UICONTROL Delivery log qualification]** no se utilizan para los mensajes de error de envío **sincrónico**.
 
-* **Errores asincrónicos**: Las reglas utilizadas por Campaign para calificar los errores de entrega asincrónicos se enumeran en el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Las devoluciones asincrónicas son calificadas por el proceso inMail a través de las reglas **[!UICONTROL Inbound email]**. Para obtener más información, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/understanding-delivery-failures.html?lang=es#bounce-mail-qualification){target="_blank"}.
+* **Errores asincrónicos**: Las reglas utilizadas por Campaign para calificar los errores de entrega asincrónicos se enumeran en el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Las devoluciones asincrónicas son calificadas por el proceso inMail a través de las reglas **[!UICONTROL Inbound email]**.
 
 <!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
@@ -111,12 +112,14 @@ Por ejemplo, si el periodo de validez se establece en el valor predeterminado de
 
 Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipos de error de correo electrónico {#email-error-types}
 
 Para el canal de correo electrónico, a continuación se enumeran los posibles motivos de un error de entrega.
+
++++ Haga clic en para ver la lista completa de tipos de error de correo electrónico
 
 <table> 
  <tbody> 
@@ -249,7 +252,7 @@ Para el canal de correo electrónico, a continuación se enumeran los posibles m
  </tbody> 
 </table>
 
-
++++
 
 ## Tipos de error de notificaciones push {#push-error-types}
 
@@ -260,6 +263,8 @@ Para el canal de aplicaciones móviles, los posibles motivos de un error de entr
 El protocolo HTTP/V2 permite los comentarios y el estado directo para cada notificación remota. Si se utiliza el conector de protocolo HTTP/V2, el flujo de trabajo **[!UICONTROL mobileAppOptOutMgt]** ya no se comunica con el servicio de comentarios. Un token de dispositivo se considera no registrado cuando se desinstala o se vuelve a instalar una aplicación móvil.
 
 Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje, el token de destino se pone inmediatamente en cuarentena.
+
++++ Haga clic para ver los escenarios de cuarentena de iOS
 
 <table> 
  <tbody> 
@@ -346,6 +351,8 @@ Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje
  </tbody> 
 </table>
 
++++
+
 ### Cuarentena de Android {#android-quarantine}
 
 **Para Android V1**
@@ -373,6 +380,8 @@ Durante el análisis de la entrega, todos los dispositivos excluidos del destino
 **Para Android V2**
 
 El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1; lo mismo se aplica a las suscripciones y a la actualización de las exclusiones. Para obtener más información, consulte la sección de [Android V1](#android-quarantine).
+
++++ Haga clic para ver los escenarios de cuarentena de Android V2
 
 <table> 
  <tbody> 
@@ -561,7 +570,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> No<br /> </td> 
   </tr>
     <tr> 
-   <td> Autenticación: audiencia de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
+   <td> Autenticación: público de ámbito de OAuth o token de ID no válida proporcionada<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> unauthorized_client</td> 
    <td> Ignorado</td> 
@@ -579,6 +588,8 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
  </tbody> 
 </table>
 
++++
+
 ## Cuarentenas de SMS {#sms-quarantines}
 
 **Para conectores estándar**
@@ -588,6 +599,8 @@ Las particularidades del canal SMS se enumeran a continuación.
 >[!NOTE]
 >
 >La tabla **[!UICONTROL Delivery log qualification]** no se aplica al conector **Extended generic SMPP**.
+
++++ Haga clic para ver los tipos de error de SMS para los conectores estándar
 
 <table> 
  <tbody> 
@@ -636,6 +649,8 @@ Las particularidades del canal SMS se enumeran a continuación.
  </tbody> 
 </table>
 
++++
+
 **Para el conector SMPP genérico extendido**
 
 Al utilizar el protocolo SMPP para enviar mensajes SMS, la administración de errores se gestiona de forma distinta.
@@ -648,7 +663,7 @@ Antes de que se clasifique un nuevo tipo de error, el motivo del error se establ
 >
 >Los tipos de errores y los motivos del error son los mismos que para los correos electrónicos.
 >
->Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla de clasificación de registros de entregas.
+>Solicite a su proveedor una lista de estados y códigos de error para establecer tipos y motivos de error adecuados para los errores en la tabla Calificación del registro de envío.
 
 Ejemplo de mensaje generado:
 
@@ -675,3 +690,61 @@ De manera predeterminada, la regex extrae el campo **stat:** como se define en l
 * Todo lo que aparece después del símbolo de barra vertical (|) se muestra solo en la columna **[!UICONTROL First text]** de la tabla **[!UICONTROL Delivery log qualification]**. Este contenido siempre se sustituye por **#MESSAGE#** después de normalizar el mensaje. Este proceso evita tener varias entradas para errores similares y funciona igual que para los correos electrónicos.
 
 El conector genérico extendido SMPP aplica un método heurístico para buscar valores predeterminados coherentes: si el estado comienza con **DELIV**, se considera un éxito porque coincide con los estados comunes utilizados por la mayoría de los proveedores **DELIVRD** o **DELIVERED.** Cualquier otro estado conlleva un error grave.
+
+## Solución de problemas de entrega {#troubleshooting}
+
+Esta sección proporciona instrucciones para diagnosticar y resolver problemas comunes de errores de entrega.
+
+### Estado fallido con errores de personalización {#personalization-errors}
+
+Si el estado de una entrega de correo electrónico es **[!UICONTROL Failed]**, puede deberse a un problema con bloques de personalización. Los bloques personalizados en una entrega pueden generar errores cuando los esquemas no coinciden con la asignación de entregas.
+
+Los registros de entregas son esenciales para saber por qué ha fallado una entrega. Este es un error común que puede encontrar:
+
+Si los mensajes al destinatario fallan e indican el error “inaccesible”:
+
+```
+Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
+```
+
+**Causa**: la personalización dentro de HTML está intentando llamar a una tabla o campo que no se ha definido o asignado en el objetivo ascendente o en la asignación de destino de la entrega.
+
+**Resolución**: revise el flujo de trabajo y el contenido de la entrega para determinar específicamente qué personalización está intentando llamar a la tabla en cuestión. A continuación, elimine la llamada a esta tabla en HTML o corrija la asignación a la entrega.
+
+Obtenga más información acerca de la personalización en [esta sección](personalize.md).
+
+### Error de valores de personalización múltiple {#multiple-values-error}
+
+Cuando una entrega falla, el siguiente error puede aparecer en los “logs” de envío:
+
+```
+DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
+```
+
+**Causa**: hay un campo o un bloque personalizado dentro del correo electrónico que tiene más de un valor para el destinatario. Se está utilizando un bloque personalizado que está recuperando más de un registro para un destinatario determinado.
+
+**Resolución**: compruebe los datos de personalización utilizados y, a continuación, compruebe el destino de los destinatarios que tengan más de una entrada para cualquiera de esos campos. También puede utilizar una actividad **[!UICONTROL Deduplication]** en el flujo de trabajo de objetivos antes de la actividad de entrega para asegurarse de que solo haya un campo de personalización a la vez. Para obtener más información sobre la deduplicación, consulte la [documentación del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/deduplication.html?lang=es){target="_blank"}.
+
+### Gestión de respuesta automática {#auto-reply-handling}
+
+Algunos envíos pueden fallar con un error que indica &quot;inaccesible&quot;:
+
+```
+Inbound email bounce (rule 'Auto_replies' has matched this bounce).
+```
+
+**Explicación**: esto significa que la entrega se realizó correctamente, pero Adobe Campaign recibió un mensaje de respuesta automática del destinatario (por ejemplo, &quot;Fuera de la oficina&quot;) que coincidió con las reglas de correo electrónico entrante de &quot;Respuestas automáticas&quot;.
+
+Adobe Campaign ignora el correo electrónico de respuesta automática y la dirección del destinatario no se pone en cuarentena. Este es un comportamiento esperado y no indica un error de entrega.
+
+## Temas relacionados
+
+[Estados de entrega](delivery-statuses.md) explica los diferentes estados que puede tener una entrega durante su ciclo de vida.
+
+[Supervisar las entregas en la interfaz de usuario de Campaign](delivery-dashboard.md) proporciona instrucciones sobre el uso del panel de entregas para rastrear el rendimiento de las entregas y diagnosticar problemas.
+
+[Administración de cuarentena](quarantines.md) explica cómo Campaign administra las direcciones en cuarentena para proteger su reputación de envío.
+
+[Supervise su capacidad de entrega](monitoring-deliverability.md) proporciona instrucciones para mantener la buena capacidad de entrega y la reputación del remitente.
+
+[Prácticas recomendadas de envío](../start/delivery-best-practices.md) abarca las prácticas recomendadas para crear y enviar envíos en Campaign.
