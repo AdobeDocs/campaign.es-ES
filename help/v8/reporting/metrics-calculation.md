@@ -2,12 +2,12 @@
 title: Cálculo de métricas de informes integradas
 description: Cálculo de métricas de informes integradas
 feature: Reporting
-role: Data Engineer
+role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
-source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '3048'
-ht-degree: 99%
+source-wordcount: '3025'
+ht-degree: 93%
 
 ---
 
@@ -482,9 +482,9 @@ Este informe se basa en la tabla **[!UICONTROL Services]** (nms:service).
    <td> Iif(number(@_subscription) &gt; number(@_unsubscription), '+', '')+format(@_subscription - @_unsubscription, 'number', '# ##0')+ Iif(@_subscriber&gt;0,' (' + format(100*percent(@_subscription - @_unsubscription, @_subscriber), 'number', '#,##0.00')+ '%)','')<br /> </td> 
   </tr> 
   <tr> 
-   <td> Fidelidad<br /> </td> 
+   <td> Lealtad<br /> </td> 
    <td> -<br /> </td> 
-   <td> Tasa de fidelidad del suscriptor para el periodo relacionado.<br /> </td> 
+   <td> Tasa de lealtad del suscriptor para el periodo relacionado.<br /> </td> 
    <td> 1-percent(@_unsubscription,@_subscriber+@_subscription-@_unsubscription)<br /> </td> 
   </tr> 
  </tbody> 
@@ -889,7 +889,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery and tracking statistics]
 
 ## Desglose de aperturas {#breakdown-of-opens-1}
 
-Este informe se basa en las tablas **Envíos** (nms:delivery) y **“Logs” de seguimiento** (nms:trackingLogRcp).
+Este informe se basa en las tablas **Deliveries** (nms:delivery) y **Tracking logs** (nms:trackingLogRcp).
 
 <table> 
  <thead> 
@@ -912,7 +912,7 @@ Este informe se basa en las tablas **Envíos** (nms:delivery) y **“Logs” de 
 
 ## Otros indicadores {#other-indicators}
 
-El indicador **Enviado** (@sent), al que se accede a través de **Envíos (nms:delivery) > Indicadores**, corresponde al número total de SMS enviados al proveedor de servicios. Este indicador solo se utiliza para envíos SMS y no debe utilizarse para otros tipos de envíos (no confundirlo con los indicadores **@success** y **@processed**).
+El indicador **Enviado** (@sent), al que se accede a través del nodo **Envíos (nms:delivery) > Indicadores**, corresponde al número total de SMS enviados al proveedor de servicios. Este indicador solo se utiliza para envíos SMS y no debe utilizarse para otros tipos de envíos (no confundirlo con los indicadores **@success** y **@processed**).
 
 ## Sincronización de indicadores {#indicator-synchronization}
 

@@ -2,13 +2,13 @@
 title: Envío de una notificación push con Adobe Campaign
 description: Introducción a las notificaciones push en Campaign
 feature: Push
-role: Data Engineer
+role: Developer
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1353'
 ht-degree: 16%
 
 ---
@@ -55,37 +55,43 @@ Se requiere el registro de credenciales push de aplicaciones móviles para autor
 
 1. En **[!UICONTROL Mobile Application Configuration]**, seleccione el sistema operativo:
 
-   * **Para iOS**
+>[!BEGINTABS]
 
-     ![](assets/push-config-2.png)
+>[!TAB iOS]
 
-      1. Escriba la aplicación móvil **Id. de paquete** en el campo **[!UICONTROL App ID (iOS Bundle ID)]**.
+![](assets/push-config-2.png)
 
-         El identificador del paquete de aplicaciones se encuentra en la ficha **General** del destino principal en **XCode** de tu cuenta de desarrollador de Apple.
+1. Escriba la aplicación móvil **Id. de paquete** en el campo **[!UICONTROL App ID (iOS Bundle ID)]**.
 
-      1. Active **[!UICONTROL Push Credentials]** para agregar sus credenciales.
+   El identificador del paquete de aplicaciones se encuentra en la ficha **General** del destino principal en **XCode** de tu cuenta de desarrollador de Apple.
 
-      1. Arrastre y suelte su archivo .p8 de clave de autenticación de notificaciones push de Apple.
+1. Active **[!UICONTROL Push Credentials]** para agregar sus credenciales.
 
-         Esta clave se puede adquirir desde las páginas de **Certificados**, **Identificadores** y **Perfiles** de su cuenta de desarrollador de Apple.
+1. Arrastre y suelte su archivo .p8 de clave de autenticación de notificaciones push de Apple.
 
-      1. Proporcione la **ID de clave**. Es una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8.
+   Esta clave se puede adquirir desde las páginas de **Certificados**, **Identificadores** y **Perfiles** de su cuenta de desarrollador de Apple.
 
-         Se encuentra en la pestaña **Keys** de las páginas **Certificados**, **Identificadores** y **Perfiles** de tu cuenta de desarrollador de Apple.
+1. Proporcione la **ID de clave**. Es una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8.
 
-      1. Proporcione el **ID de equipo**. Es un valor de cadena que se encuentra en la ficha **Pertenencia**.
-
-   * **Para Android**
-
-     ![](assets/push-config-3.png)
-
-      1. Proporcione **[!UICONTROL App ID (Android package name)]**. Normalmente, el nombre del paquete es el ID de la aplicación que hay en el archivo `build.gradle`.
-
-      1. Cambie **[!UICONTROL Push Credentials]** para agregar sus credenciales.
-
-      1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+       Se encuentra en la ficha **Keys** de la página **Certificates**, **Identifiers** y **Profiles** de su cuenta de desarrollador de Apple.
+   
+1. Proporcione el **ID de equipo**. Es un valor de cadena que se encuentra en la ficha **Pertenencia**.
 
 1. Haga clic en **[!UICONTROL Save]** para crear la configuración de su aplicación.
+
+>[!TAB Android]
+
+![](assets/push-config-3.png)
+
+1. Proporcione **[!UICONTROL App ID (Android package name)]**. Normalmente, el nombre del paquete es el ID de la aplicación que hay en el archivo `build.gradle`.
+
+1. Cambie **[!UICONTROL Push Credentials]** para agregar sus credenciales.
+
+1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
+
+1. Haga clic en **[!UICONTROL Save]** para crear la configuración de su aplicación.
+
+>[!ENDTABS]
 
 ## Configuración de la aplicación en Adobe Campaign{#push-config-campaign}
 
@@ -105,7 +111,7 @@ Para crear un servicio para enviar notificaciones push, siga los pasos a continu
 
    >[!NOTE]
    >
-   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destinatario diferente, debe crear una nueva asignación de destino e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Obtenga más información acerca de las asignaciones de destino en [esta página](../audiences/target-mappings.md).
+   >La asignación de destino predeterminada **[!UICONTROL Subscriber applications (nms:appSubscriptionRcp)]** está relacionada con la tabla de destinatarios. Si desea utilizar una asignación de destinatario diferente, debe crear una nueva e introducirla en el campo **[!UICONTROL Target mapping]** del servicio. Obtenga más información acerca de las asignaciones de destino en [esta página](../audiences/target-mappings.md).
 
 1. A continuación, utilice el icono **[!UICONTROL Add]** de la derecha para definir las aplicaciones móviles que utilizan este servicio.
 

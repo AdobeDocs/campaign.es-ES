@@ -2,10 +2,10 @@
 title: Introducción a la arquitectura de Campaign
 description: Descubra los entornos y los conceptos básicos de la implementación, incluido cómo informar sobre un entorno de campaña.
 feature: Architecture, Deployment
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 42241364c1a23ae75d8f0aaf18a2cb1c04ce5b0c
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 14%
@@ -26,7 +26,7 @@ Hay dos tipos de entornos disponibles:
 
 Puede exportar e importar paquetes de un entorno a otro.
 
-Obtenga más información sobre paquetes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=es){target="_blank"}
+Obtenga más información sobre paquetes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Modelos de implementación {#ac-deployment}
 

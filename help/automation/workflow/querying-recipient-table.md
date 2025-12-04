@@ -3,13 +3,13 @@ product: campaign
 title: Consulta de la tabla de destinatarios
 description: Obtenga información sobre cómo consultar la tabla de destinatarios.
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 7f859ce9-7ab8-46e1-8bd6-43aaffe30da2
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ En este ejemplo, se desea recuperar los nombres y correos electrónicos de los d
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (nms:recipient).
+  La tabla del destinatario (nms:recipient)
 
 * Campos que se desea seleccionar como columnas de salida
 
@@ -37,7 +37,7 @@ En este ejemplo, se desea recuperar los nombres y correos electrónicos de los d
 
 Para crear este ejemplo, aplique los pasos siguientes:
 
-1. Haga clic en **[!UICONTROL Tools > Generic query editor...]** y seleccione la tabla **Destinatarios** (**nms:recipient**). A continuación, haga clic en **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Tools > Generic query editor...]** y elija la tabla **Destinatarios** (**nms:recipient**). A continuación, haga clic en **[!UICONTROL Next]**.
 1. Elija **[!UICONTROL Last name]**, **[!UICONTROL First name]**, **[!UICONTROL Email]**, **[!UICONTROL City]** y **[!UICONTROL Account number]**. Estos campos se añaden a **[!UICONTROL Output columns]**. A continuación, haga clic en **[!UICONTROL Next]**.
 
    ![](assets/query_editor_03.png)

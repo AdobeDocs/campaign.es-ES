@@ -5,10 +5,10 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
-source-git-commit: a9f26a033d63ab1dece9ef9780392823ee130047
-workflow-type: ht
-source-wordcount: '706'
-ht-degree: 100%
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 96%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
    A partir de Campaign v8.6, tendrá acceso a la nueva **interfaz de usuario web de Campaign**, disponible a través del entorno central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
 
-   Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz de Adobe Campaign Web [en esta página](campaign-ui.md#ac-web-ui).
+   Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz web de Adobe Campaign [en esta página](campaign-ui.md#ac-web-ui).
 
    Obtenga más información en la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
@@ -52,9 +52,9 @@ ht-degree: 100%
 
 1. **¿Cómo puedo asegurarme de que mi entrega se envíe sin errores?**
 
-   Adobe Campaign incluye un conjunto de paneles y herramientas para monitorizar los envíos de correo electrónico.
+   Adobe Campaign incluye un conjunto de paneles de control y herramientas para monitorizar los envíos de correo electrónico.
 
-   [Lea la documentación de Campaign Classic v7 para aprender](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"} a corroborar que sus mensajes se envían, a monitorizar la ejecución y a actuar en consecuencia si se produce un error.
+   Aprenda a [rastrear y supervisar sus mensajes](../send/tracking.md) para asegurarse de que se envían sus mensajes, supervisar la ejecución y actuar en consecuencia si se produce un error.
 
 1. **¿Se puede monitorizar la ejecución del flujo de trabajo?**
 
@@ -90,7 +90,7 @@ ht-degree: 100%
 
 1. **¿Puedo conectar con expertos en Campaign?**
 
-   Únase a la comunidad de Campaign: busque respuestas en preguntas existentes o pregunte a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"}
+   Únase a la comunidad de Campaign: busque respuestas en preguntas existentes o pregunte a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **¿Cómo puedo registrar un problema?**

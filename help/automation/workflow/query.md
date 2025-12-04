@@ -3,13 +3,13 @@ product: campaign
 title: Consulta
 description: Descubra más información sobre la actividad del flujo de trabajo Consulta
 feature: Workflows, Targeting Activity, Query Editor
-role: User, Data Engineer
+role: User, Developer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 2d13ba585b55f0e149d1bca53240b05fe5a8a9eb
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '1603'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -157,7 +157,7 @@ En el siguiente ejemplo, la consulta busca identificar hombres de entre 18 y 30 
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica la población objetivo de la consulta. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica la población objetivo de la consulta. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente, nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 Este valor es el esquema de la tabla de trabajo. Este parámetro es válido para todas las transiciones con **[!UICONTROL tableName]** y **[!UICONTROL schema]**.
 

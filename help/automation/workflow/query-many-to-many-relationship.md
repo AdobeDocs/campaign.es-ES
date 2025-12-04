@@ -3,13 +3,13 @@ product: campaign
 title: Consultas con una relación “varios a varios”
 description: Aprenda a hacer consultas mediante una relación “varios a varios”
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '389'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ En este ejemplo también muestra el modo de configurar un filtro relacionado con
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (**nms:recipient**).
+  La tabla de destinatarios (**nms:recipient**)
 
 * Campos que se desea seleccionar para la columna de salida.
 
@@ -35,7 +35,7 @@ En este ejemplo también muestra el modo de configurar un filtro relacionado con
 
 Siga estos pasos:
 
-1. Abra el Editor de consultas genérico y seleccione la tabla de destinatarios **[!UICONTROL (nms:recipient)]**.
+1. Abra Generic query editor y seleccione la tabla de destinatarios **[!UICONTROL (nms:recipient)]**.
 1. En la ventana **[!UICONTROL Data to extract]** seleccione **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** y **[!UICONTROL Email]**.
 
    ![](assets/query_editor_nveau_33.png)

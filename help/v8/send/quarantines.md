@@ -2,19 +2,20 @@
 title: Administración de cuarentena en Campaign
 description: Explicación de la administración de cuarentena en Adobe Campaign
 feature: Profiles, Monitoring
-role: User, Data Engineer
+role: User, Developer
 level: Beginner
+version: Campaign v8, Campaign Classic v7
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
-source-git-commit: cb4cbc9ba14e953d2b3109e87eece4f310bfe838
+source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '1213'
-ht-degree: 33%
+source-wordcount: '1317'
+ht-degree: 29%
 
 ---
 
 # Cuarentena {#quarantine-management}
 
-Adobe Campaign administra una lista de direcciones en cuarentena para canales en línea (correo electrónico, SMS, notificación push). Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser agregado a la lista de bloqueados de la por estos proveedores. Además, la cuarentena reduce el coste de entrega de los SMS mediante la exclusión en las entregas de los números de teléfono incorrectos.
+Adobe Campaign administra una lista de direcciones en cuarentena para canales en línea (correo electrónico, SMS, notificación push). Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser agregado a la lista de bloqueados de la por estos proveedores. Además, la cuarentena reduce el coste de envío de los SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
 
 Cuando su dirección o número de teléfono están en cuarentena, los destinatarios se excluyen del objetivo durante el análisis de la entrega: no podrá enviar mensajes de marketing, incluidos correos electrónicos de flujo de trabajo automatizado, a esos contactos. Si esas direcciones en cuarentena también están presentes en las listas, se excluirán al enviarlas a esas listas. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno, si la dirección no existe o si el servidor de correo electrónico no está disponible.
 
@@ -32,7 +33,7 @@ Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de** como d
 
 >[!NOTE]
 >
->Los destinatarios que cancelaron la suscripción a través del método List-Unsubscribe [&quot;mailto&quot;](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} no se envían a la cuarentena. Se da de baja su suscripción al [servicio](../start/subscriptions.md) asociado con la entrega, o se envía a la lista de bloqueados de la (visible en la sección **[!UICONTROL No longer contact]** del perfil) si no se ha definido ningún servicio para la entrega.
+>Los destinatarios que cancelaron la suscripción a través del método List-Unsubscribe [&quot;mailto&quot;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} no se envían a la cuarentena. Se da de baja su suscripción al [servicio](../start/subscriptions.md) asociado con la entrega, o se envía a la lista de bloqueados de la (visible en la sección **[!UICONTROL No longer contact]** del perfil) si no se ha definido ningún servicio para la entrega.
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -45,7 +46,7 @@ Se pueden capturar dos tipos de errores:
 * **Error grave**: la dirección de correo electrónico, el número de teléfono o el dispositivo se envían inmediatamente a cuarentena.
 * **Error leve**: los errores leves incrementan un contador de errores y podrían poner en cuarentena un correo electrónico, un número de teléfono o un token de dispositivo. Campaign realiza [reintentos](delivery-failures.md#retries): cuando el contador de errores alcanza el umbral de límite, la dirección, el número de teléfono o el token del dispositivo se ponen en cuarentena. [Más información](delivery-failures.md#retries).
 
-En la lista de direcciones en cuarentena, el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se envía a cuarentena. [Más información](#identifying-quarantined-addresses-for-the-entire-platform).
+En la lista de direcciones en cuarentena, el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se envía a cuarentena. [Más información](#non-deliverable-bounces).
 
 
 Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón de correo técnico administrado por Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no está en la lista de bloqueados de la para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información acerca de los bucles de comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
@@ -53,6 +54,12 @@ Si un usuario clasifica un correo electrónico como correo no deseado, el mensaj
 >[!NOTE]
 >
 >La cuarentena en Adobe Campaign distingue entre mayúsculas y minúsculas. Asegúrese de importar las direcciones de correo electrónico en minúsculas para que no se redireccionen más adelante.
+
+## Administración de errores en software {#soft-error-management}
+
+A diferencia de los errores en hardware, los errores en software no envían una dirección a la cuarentena inmediatamente, sino que se suman a un contador de errores. Cuando el contador de errores alcanza el umbral de límite, la dirección se pone en cuarentena. Obtenga más información sobre reintentos y tipos de error en [Explicación de los errores de entrega](delivery-failures.md).
+
+El contador de errores se reinicia si el último error significativo se produjo hace más de 10 días. El estado de la dirección cambia a **[!UICONTROL Valid]** y el flujo de trabajo **[!UICONTROL Database cleanup]** la elimina de la lista de cuarentena. [Más información sobre flujos de trabajo técnicos](../config/workflows.md#technical-workflows).
 
 ## Acceso a direcciones en cuarentena {#access-quarantined-addresses}
 
@@ -66,6 +73,8 @@ Para cada entrega, también puede comprobar el informe **[!UICONTROL Delivery su
 
 * El número de direcciones puestas en cuarentena durante el análisis de la entrega.
 * El número de direcciones puestas en cuarentena después de la acción de entrega.
+
+Obtenga más información sobre los informes de envíos en [esta sección](../reporting/gs-reporting.md).
 
 ### Direcciones de devolución y envío no permitidas{#non-deliverable-bounces}
 
@@ -83,7 +92,7 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 
 Además, el informe integrado **[!UICONTROL Non-deliverables and bounces]**, disponible en la sección **Informes** de esta página de inicio, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de una entrega específica o personalizar este informe según sea necesario.
 
-Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Dirección de correo en cuarentena {#quarantined-recipient}
 
@@ -98,7 +107,9 @@ Para cada carpeta, puede mostrar solo los destinatarios cuya dirección de corre
 
 ## Eliminación de una dirección en cuarentena {#remove-a-quarantined-address}
 
-Las direcciones que coinciden con condiciones específicas se eliminan automáticamente de la lista de cuarentena mediante el flujo de trabajo integrado de **Limpieza de base de datos**.
+### Actualizaciones automáticas {#unquarantine-auto}
+
+El flujo de trabajo integrado de **[!UICONTROL Database cleanup]** elimina automáticamente de la lista de cuarentena las direcciones que cumplan condiciones específicas.
 
 Las direcciones se eliminan automáticamente de la lista de cuarentena en los siguientes casos:
 
@@ -112,22 +123,30 @@ A continuación, su estado cambia a **[!UICONTROL Valid]**.
 >
 >Los destinatarios con una dirección en un estado **[!UICONTROL Quarantine]** o **[!UICONTROL Denylisted]** nunca se eliminarán, aunque reciban un correo electrónico.
 
-También puede eliminar manualmente una dirección de la lista de cuarentena. Para eliminar una dirección de la cuarentena, puede:
+### Actualizaciones manuales {#unquarantine-manual}
 
-* Cambie su estado a **[!UICONTROL Valid]** desde el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
+También puede eliminar manualmente una dirección de la lista de cuarentena. Para quitar manualmente una dirección de la cuarentena, puede cambiar su estado a **[!UICONTROL Valid]** desde el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
 
-  ![](assets/tech-quarantine-status.png)
+![](assets/tech-quarantine-status.png)
 
-Es posible que deba realizar actualizaciones masivas en la lista de cuarentena, por ejemplo, en caso de una interrupción del ISP durante la cual los correos electrónicos se marcan erróneamente como rechazos porque no se pueden enviar correctamente a su destinatario.
+### Actualizaciones masivas {#unquarantine-bulk}
 
-Para ello, cree un flujo de trabajo y añada una consulta en la tabla de cuarentena para filtrar todos los destinatarios afectados y así poder eliminarlos de la lista de cuarentena e incluirlos en futuros envíos de correo electrónico de Campaign.
+Es posible que deba realizar actualizaciones masivas en la lista de cuarentena en situaciones específicas, como una interrupción del ISP durante la cual los correos electrónicos se marcan erróneamente como rechazos porque no se pueden enviar correctamente a su destinatario.
 
-A continuación se muestran las directrices recomendadas para esta consulta:
+Para realizar una actualización masiva:
 
-* **El texto del error (texto de cuarentena)** contiene “Momen_Code10_InvalidRecipient”
-* **Dominio de correo electrónico (@domain)** igual a domain1.com O **Dominio de correo electrónico (@domain)** igual a domain2.com O **Dominio de correo electrónico (@domain)** igual a domain3.com
-* **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS AM` o después
-* **Estado de la actualización (@lastModified)** el `MM/DD/YYYY HH:MM:SS PM` o antes
+1. Cree un flujo de trabajo y agregue una consulta a la tabla de cuarentena (**[!UICONTROL nms:address]**) para filtrar los destinatarios afectados
+2. Utilice condiciones de consulta para identificar las direcciones que se deben dejar de poner en cuarentena, como:
+   * **Dominio de correo electrónico (@domain)** es igual a los dominios de ISP afectados
+   * **Actualizar estado (@lastModified)** dentro del intervalo de tiempo de la interrupción
+   * **Estado (@status)** es igual al estado de cuarentena
+3. Agregue una actividad **[!UICONTROL Update data]** para establecer el estado de la dirección en **[!UICONTROL Valid]**
 
-Una vez que tenga la lista de destinatarios afectados, agregue una actividad **[!UICONTROL Update data]** para establecer su estado en **[!UICONTROL Valid]** y el flujo de trabajo **[!UICONTROL Database cleanup]** los eliminará de la lista de cuarentena. También puede eliminarlos de la tabla de cuarentena.
+El flujo de trabajo **[!UICONTROL Database cleanup]** quitará automáticamente las direcciones de la lista de cuarentena y se podrán incluir en futuros envíos.
+
+## Temas relacionados
+
+* [Comprensión de los errores de entrega](delivery-failures.md): obtenga información sobre los diferentes tipos de errores de entrega y cómo gestiona Campaign los rechazos
+* [Supervisar envíos](delivery-dashboard.md): acceda a los registros de envío y supervise el rendimiento de envío
+* [Prácticas recomendadas de entrega](../start/delivery-best-practices.md): prácticas recomendadas para mantener la buena capacidad de entrega y evitar cuarentenas
 

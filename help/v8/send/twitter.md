@@ -4,10 +4,10 @@ description: Aprenda a utilizar el módulo Adobe Campaign Social Marketing para 
 role: User
 level: Beginner, Intermediate
 exl-id: 0783e289-ae8e-4bb7-80f1-f90937a528c1
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 24%
+source-wordcount: '778'
+ht-degree: 23%
 
 ---
 
@@ -158,5 +158,5 @@ En la plantilla de envíos integrada **[!UICONTROL Tweet]**, el seguimiento est�
 
 Los datos de seguimiento se pueden ver en los informes de entrega y en la pestaña **[!UICONTROL Edit > Tracking]** de la entrega y el servicio.
 
-La configuración de seguimiento es la misma que para una entrega de correo electrónico. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-delivery-monitoring.html?lang=es){target="_blank"}.
+La configuración de seguimiento es la misma que para una entrega de correo electrónico. Más información sobre [seguimiento](tracking.md).
 

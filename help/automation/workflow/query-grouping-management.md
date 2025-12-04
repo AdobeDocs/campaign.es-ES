@@ -3,12 +3,12 @@ product: campaign
 title: Consultas mediante la administración de agrupación
 description: Obtenga información sobre cómo realizar consultas mediante la administración de agrupación
 feature: Query Editor
-role: User, Data Engineer
+role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 6fc4ef67-5d75-4c8c-8bcc-41e3ed155ca2
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '244'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,7 @@ En este ejemplo, se desea ejecutar una consulta para buscar todos los dominios d
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (nms:recipient).
+  La tabla del destinatario (nms:recipient)
 
 * ¿Campos que se van a seleccionar en las columnas de salida?
 
@@ -33,7 +33,7 @@ En este ejemplo, se desea ejecutar una consulta para buscar todos los dominios d
 
 Para crear este ejemplo, aplique los pasos siguientes:
 
-1. Abra **[!UICONTROL Generic query editor]** y seleccione la tabla de destinatarios (**nms:recipient**).
+1. Abra el **[!UICONTROL Generic query editor]** y seleccione la tabla de destinatarios (**nms:recipient**).
 
    ![](assets/query_editor_02.png)
 

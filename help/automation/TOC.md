@@ -3,10 +3,10 @@ audience: user
 user-guide-title: Guía de automatización de Campaign
 user-guide-description: Guía de automatización de Campaign
 feature: Overview
-source-git-commit: 8ff207246bea1f476b37b1d4f2c79498362e7481
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '444'
-ht-degree: 81%
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 81%
       + [Creación de un flujo de trabajo](workflow/build-a-workflow.md)
       + [Prácticas recomendadas](workflow/workflow-best-practices.md)
       + [Uso de datos de flujo de trabajo](workflow/use-workflow-data.md)
-   + Ejecutar un flujo de trabajo {#executing-a-workflow}
+   + Ejecución de un flujo de trabajo  {#executing-a-workflow}
       + [Inicio de un flujo de trabajo](workflow/start-a-workflow.md)
       + [Ciclo de vida del flujo de trabajo](workflow/workflow-life-cycle.md)
       + [Configuración de aprobaciones](workflow/define-approvals.md)
@@ -43,8 +43,8 @@ ht-degree: 81%
          + [Deduplicación](workflow/deduplication.md)
          + [Descripción del envío](workflow/delivery-outline.md)
          + [Editar esquema](workflow/edit-schema.md)
-         + [Enriquecimiento &#x200B;](workflow/enrichment.md)
-         + [Exclusión &#x200B;](workflow/exclusion.md)
+         + [Enriquecimiento ](workflow/enrichment.md)
+         + [Exclusión ](workflow/exclusion.md)
          + [Consulta incremental](workflow/incremental-query.md)
          + [Intersección](workflow/intersection.md)
          + [Actualización de listas](workflow/list-update.md)
@@ -115,13 +115,13 @@ ht-degree: 81%
          + [Configuración de un flujo de trabajo de importación recurrente](workflow/recurring-import-workflow.md)
       + Diseño de consultas {#designing-queries}
          + [Actualización de lista trimestral con una consulta incremental](workflow/quarterly-list-update.md)
-      + Consulta y filtro {#designing-queries}
+      + Consulta y filtro  {#designing-queries}
          + [Consulta de la tabla de destinatarios](workflow/querying-recipient-table.md)
          + [Consulta de la información de envío](workflow/query-delivery-info.md)
          + [Calcular agregados](workflow/compute-aggregates.md)
          + [Realización de consultas mediante la administración de agrupación](workflow/query-grouping-management.md)
          + [Realización de consultas con una relación de varios a varios](workflow/query-many-to-many-relationship.md)
-         + [Adición de un campo calculado de tipo de lista desglosada](workflow/adding-enumeration-type-calculated-field.md)
+         + [Adición de un campo calculado de tipo Enumeración](workflow/adding-enumeration-type-calculated-field.md)
          + [Creación de un filtro](workflow/create-a-filter.md)
          + [Filtro de destinatarios duplicados](workflow/filter-duplicated-recipients.md)
    + Configuración avanzada {#advanced-management}
@@ -133,12 +133,12 @@ ht-degree: 81%
       + [Administración de permisos](workflow/managing-rights.md)
       + [Cambio de imágenes de actividad](workflow/change-activity-images.md)
       + [Administrar zonas horarias](workflow/managing-time-zones.md)
-+ Orquestación de campaña {#campaign-orchestration}
++ Orquestación de campañas  {#campaign-orchestration}
    + [Introducción a las campañas de marketing](campaigns/set-up-campaigns.md)
    + [Creación de programas y campañas](campaigns/marketing-campaign-create.md)
    + [Creación y configuración de plantillas](campaigns/marketing-campaign-templates.md)
    + [Agregar envíos](campaigns/marketing-campaign-deliveries.md)
-   + [Selección de la audiencia](campaigns/marketing-campaign-target.md)
+   + [Selección del público](campaigns/marketing-campaign-target.md)
    + [Administración de documentos y recursos](campaigns/marketing-campaign-assets.md)
    + [Configuración y administración de aprobaciones](campaigns/marketing-campaign-approval.md)
    + [Campañas recurrentes y periódicas](campaigns/recurring-periodic-campaigns.md)

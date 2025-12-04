@@ -4,13 +4,13 @@ description: Recomendaciones y limitaciones al migrar a las API de REST de Campa
 audience: developing
 content-type: reference
 topic-tags: campaign-standard-apis
-role: Data Engineer
+role: Developer
 level: Experienced
 mini-toc-levels: 1
 exl-id: 45acebb1-9325-4e26-8fe9-cc73f745d801
-source-git-commit: 4ed5799c77c647c9f1aeabba7645fbb475d03c09
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1046'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Algunos campos de la base de datos se pierden durante la migración. Al utilizar
 
 ## PUBLICACIÓN con recursos vinculados
 
-Cuando se utiliza el siguiente formato de cuerpo de solicitud, con &quot;propietario del vehículo&quot; representando el vínculo a &quot;nms:destinatario&quot;:
+Cuando se usa el siguiente formato de cuerpo de solicitud, con &quot;excipiente&quot; representando el enlace a &quot;nms:recipient&quot;:
 
 ```
 {
@@ -107,11 +107,11 @@ La sección siguiente enumera las diferencias entre los códigos de error y los 
 
 | Situación | Campaign Standard | Campaign v8 |
 |  ---  |  ---  |  ---  |
-| Usar una clave principal no válida en el cuerpo de la solicitud | 500 - Atributo &#39;O5iRp40EGA&#39; desconocido (consulte la definición del esquema &#39;Profiles (nms:recipient)&#39;). XTK-170036 No se ha podido analizar la expresión &#39;@id = @O5iRp40EGA&#39;. | 404: No se puede descifrar la clave principal. (PKey=@jksad) |
-| Usar una clave principal no válida en el URI | 500 - Atributo &#39;O5iRp40EGA&#39; desconocido (consulte la definición del esquema &#39;Profiles (nms:recipient)&#39;). XTK-170036 No se ha podido analizar la expresión &#39;@id = @O5iRp40EGA&#39;. | 404: No se puede descifrar la clave principal. (PKey=@jksad) Extremo no compatible. (extremo=rest/profileAndServices/profile/@jksad) |
+| Usar una clave principal no válida en el cuerpo de la solicitud | 500: atributo &#39;O5iRp40EGA&#39; desconocido (consulte la definición del esquema &#39;Profiles (nms:recipient)&#39;). XTK-170036 No se ha podido analizar la expresión &#39;@id = @O5iRp40EGA&#39;. | 404: No se puede descifrar la clave principal. (PKey=@jksad) |
+| Usar una clave principal no válida en el URI | 500: atributo &#39;O5iRp40EGA&#39; desconocido (consulte la definición del esquema &#39;Profiles (nms:recipient)&#39;). XTK-170036 No se ha podido analizar la expresión &#39;@id = @O5iRp40EGA&#39;. | 404: No se puede descifrar la clave principal. (PKey=@jksad) Extremo no compatible. (extremo=rest/profileAndServices/profile/@jksad) |
 | Uso de dos claves sin procesar diferentes en el URI y en el cuerpo de la solicitud | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. RST-360012 Operación incoherente en el recurso &quot;servicio&quot;: no se puede actualizar la clave &quot;SVC3&quot; a &quot;SVC4&quot;. | 500 - Se ha producido un error - póngase en contacto con su administrador. |
 | Uso de PKey en el URI y de una PKey sin procesar diferente en el cuerpo de la solicitud | 500: ya existe un &quot;servicio&quot; con la misma clave &quot;SVC4&quot;. PGS-220000 Error de PostgreSQL: ERROR: el valor de clave duplicado viola la restricción única &quot;nmsservice_name&quot; DETALLE: La clave (sname)=(SVC4) ya existe. | 500 - Se ha producido un error - póngase en contacto con su administrador. |
-| Uso de raw-id no existente en el URI | 404 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. No se puede encontrar el documento con la ruta &#39;Servicio&#39; de la clave &#39;adobe_nl:0&#39; (documento con el esquema &#39;service&#39; y el nombre &#39;adobe_nl&#39;) | 404: No se puede encontrar el documento con la ruta &quot;Servicio&quot; de la clave &quot;adobe_nl&quot; (documento con el esquema &quot;service&quot; y el nombre &quot;adobe_nl&quot;) |
+| Uso de raw-id no existente en el URI | 404 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. No se pudo encontrar el documento con la ruta &#39;Servicio&#39; de la clave &#39;adobe_nl:0&#39; (documento con el esquema &#39;service&#39; y el nombre &#39;adobe_nl&#39;) | 404: No se puede encontrar el documento con la ruta &quot;Servicio&quot; de la clave &quot;adobe_nl&quot; (documento con el esquema &quot;service&quot; y el nombre &quot;adobe_nl&quot;) |
 | Uso de raw-id no existente en el cuerpo de la solicitud | 404 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. No se pudo encontrar documento con ruta &#39;Servicio&#39; de la clave &#39;adobe_nl&#39; (documento con esquema &#39;service&#39; y nombre &#39;adobe_nl&#39;) | 404: No se puede encontrar el documento con la ruta &quot;Servicio&quot; de la clave &quot;adobe_nl&quot; (documento con el esquema &quot;service&quot; y el nombre &quot;adobe_nl&quot;) |
 | - | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. | 500 - Se ha producido un error - póngase en contacto con su administrador. |
 | Inserte un perfil o servicio con un valor de enumeración de sexo no válido (o cualquier cosa) | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. El valor &quot;invalid&quot; no es válido para la enumeración &quot;nms:recipient:gender&quot; del campo &quot;@gender&quot; | 500: Se ha producido un error. Póngase en contacto con el administrador. |

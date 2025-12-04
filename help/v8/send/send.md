@@ -2,13 +2,13 @@
 title: Envío y monitorización de correos electrónicos
 description: Obtenga información acerca del ámbito y las características específicas del envío de correos electrónicos con Adobe Campaign
 feature: Email
-role: Data Engineer
+role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
+source-git-commit: c7f139dd7f139ba421eb034f4d8911671b3b3332
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '802'
 ht-degree: 27%
 
 ---
@@ -27,6 +27,8 @@ Rastree la ejecución del envío desde la ficha **Envío**, a la que se puede ac
 Una vez enviado, compruebe su estado de envío en **Delivery Dashboard** y acceda a los registros de envío y a los informes para confirmar que los mensajes se han enviado correctamente.
 
 Desde el panel de entregas, puede comprobar los mensajes procesados y los registros de auditoría de entregas. También puede controlar el estado de los mensajes en los registros de envío.
+
+Más información sobre [estados de entrega](delivery-statuses.md).
 
 >[!NOTE]
 >

@@ -2,10 +2,10 @@
 title: Introducción al modelo de datos de Campaign
 description: Empiece con el modelo de datos de Campaign y combine los datos de sus fuentes para favorecer sus comunicaciones y los resultados de marketing.
 feature: Data Model
-role: Data Engineer
+role: Developer
 level: Beginner
 exl-id: 200b60f1-04ae-4c3e-892f-3dd2bd22b896
-source-git-commit: be085eaf7e1e7ded5986fdb6100045daba4d88fe
+source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
 source-wordcount: '706'
 ht-degree: 5%
@@ -60,7 +60,7 @@ Es posible ampliar la tabla de destinatarios, pero no reducir el número de camp
 
 Aprenda a ampliar un esquema existente en [esta sección](extend-schema.md).
 
-Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=es#extending-a-table){target="_blank"}
+Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
 
 También puede utilizar una tabla de destinatarios diferente para adaptarse mejor a sus necesidades empresariales o funcionales. Este método tiene limitaciones y se describe en [esta sección](custom-recipient.md).
 

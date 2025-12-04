@@ -3,10 +3,10 @@ title: Informes de envío integrados de Adobe Campaign
 description: Informes de envío integrados de Adobe Campaign
 feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 62%
+source-wordcount: '1019'
+ht-degree: 60%
 
 ---
 
@@ -40,7 +40,7 @@ Para acceder a los informes, siga los pasos a continuación:
 
 ## Indicadores de seguimiento {#tracking-indicators}
 
-Este informe combina los indicadores clave para realizar un seguimiento del comportamiento de los destinatarios al recibir la entrega. Permite el acceso a las estadísticas de entrega y recepción, las tasas de apertura y clics, los flujos de clics generados, el seguimiento web y las actividades de uso compartido en redes sociales.
+Este informe combina los indicadores clave para realizar un seguimiento del comportamiento de los destinatarios al recibir la entrega. Permite acceder a las estadísticas de entrega y recepción, las tasas de apertura y clics, los flujos de clics generados y las actividades de uso compartido en redes sociales.
 
 >[!NOTE]
 >
