@@ -5,7 +5,7 @@ feature: Architecture, Deployment
 role: Developer
 level: Beginner
 exl-id: 562b24c3-6bea-447f-b74c-187ab77ae78f
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: 7465cacc74b8b7df38c5eb10d2928749c70a87ea
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 14%
@@ -110,7 +110,7 @@ En esta arquitectura específica, la celda de ejecución se separa de la instanc
 
   Aprenda a crear y publicar plantillas de mensajes en [esta sección](../send/transactional.md).
 
-* La **instancia de ejecución** recupera los eventos entrantes (restablecimiento de contraseña o pedidos de un sitio web, por ejemplo) y envía mensajes personalizados. Puede haber más de una instancia de ejecución para procesar mensajes a través del equilibrador de carga y escalar el número de eventos que se van a procesar para obtener la máxima disponibilidad.
+* La **instancia de ejecución** recupera los eventos entrantes (restablecimiento de contraseña o pedidos de un sitio web, por ejemplo) y envía mensajes personalizados. Puede haber más de una instancia de ejecución para procesar mensajes a través del equilibrador de carga y escalar el número de eventos que se procesarán para obtener la máxima disponibilidad.
 
 >[!CAUTION]
 >
