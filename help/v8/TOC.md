@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+source-git-commit: 050612f6d7ab20aed5880454eec9cfc6e5fc18c2
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '837'
 ht-degree: 88%
 
 ---
@@ -131,7 +131,6 @@ ht-degree: 88%
    + Adición de perfiles {#add-profiles}
       + [Creación de perfiles manual](audiences/create-profiles.md)
       + [Importación de perfiles de un archivo](audiences/import-profiles.md)
-      + [Trabajo con perfiles externos](audiences/external-profiles.md)
       + [Recopilación de datos de perfil en formularios web](audiences/collect-profiles.md)
       + [Trabajar con asignaciones de destino](audiences/target-mappings.md)
       + [Crear perfiles de prueba](audiences/test-profiles.md)
@@ -173,7 +172,7 @@ ht-degree: 88%
       + [Introducción al seguimiento](send/tracking.md)
       + [Configuración de vínculos rastreados](send/tracked-links.md)
       + [Configuración de las opciones de seguimiento de URL](send/url-tracking.md)
-      + [Seguimiento de vínculos personalizados &#x200B;](send/personalized-links.md)
+      + [Seguimiento de vínculos personalizados ](send/personalized-links.md)
       + [Seguimiento de pruebas](send/testing-tracking.md)
       + [Acceder a registros de seguimiento](send/tracking-logs.md)
    + [Información general de monitorización de Campaign](start/monitor.md)
