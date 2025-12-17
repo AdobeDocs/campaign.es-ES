@@ -172,7 +172,7 @@ ht-degree: 88%
       + [Introducción al seguimiento](send/tracking.md)
       + [Configuración de vínculos rastreados](send/tracked-links.md)
       + [Configuración de las opciones de seguimiento de URL](send/url-tracking.md)
-      + [Seguimiento de vínculos personalizados ](send/personalized-links.md)
+      + [Seguimiento de vínculos personalizados &#x200B;](send/personalized-links.md)
       + [Seguimiento de pruebas](send/testing-tracking.md)
       + [Acceder a registros de seguimiento](send/tracking-logs.md)
    + [Información general de monitorización de Campaign](start/monitor.md)
