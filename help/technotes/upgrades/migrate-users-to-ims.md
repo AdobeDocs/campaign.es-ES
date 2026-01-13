@@ -2,9 +2,9 @@
 title: Migración de operadores de Campaign a Adobe Identity Management System (IMS)
 description: Obtenga información sobre cómo migrar operadores de Campaign a Adobe Identity Management System (IMS)
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
-source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
+source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1343'
+source-wordcount: '1433'
 ht-degree: 1%
 
 ---
@@ -30,6 +30,14 @@ Este cambio es aplicable a partir de Campaign v8.5.2 y es **obligatorio** a part
 Si los operadores de su organización se conectan a la consola del cliente de Campaign mediante su inicio de sesión/contraseña (también conocido como. (autenticación nativa), se ha visto afectado y debe migrar estos operadores a Adobe IMS como se detalla a continuación.
 
 La migración a [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"} es un imperativo de seguridad para hacer que sus entornos sean seguros y estandarizados, ya que la mayoría de las otras soluciones y aplicaciones de Adobe Experience Cloud ya están en IMS.
+
+>[!IMPORTANT]
+>
+>**Impacto del acceso al Panel de control de Campaign**
+>
+>Una vez que migre a los usuarios a IMS, tenga en cuenta que cualquier Perfil de producto de Adobe Admin Console que contenga la palabra &quot;admin&quot; en su nombre (como &quot;Administradores&quot;, &quot;admin&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.) concederá automáticamente acceso al Panel de control de Campaign de Campaign. Panel de control de Campaign es una herramienta de autoservicio que permite realizar cambios significativos en las instancias de Campaign.
+>
+>Revise atentamente las convenciones de nomenclatura de Perfil de producto para asegurarse de que solo los usuarios autorizados tengan acceso al Panel de control de Campaign. Obtenga más información acerca de la administración de permisos de Panel de control de Campaign en la [documentación de Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html){target="_blank"}.
 
 ## ¿Cómo realizar la migración?{#ims-migration-procedure}
 
@@ -89,7 +97,7 @@ Como administrador de Campaign, debe agregar ID de correo electrónico a todos l
 
 Como supervisor del flujo de trabajo o administrador de Campaign, también puede realizar una actualización masiva de los operadores con un flujo de trabajo.
 
-+++ Pasos clave para actualizar los operadores con un flujo de trabajo
++++Pasos clave para actualizar los operadores con un flujo de trabajo
 
 Para realizar una actualización masiva de los operadores nativos, siga estos pasos:
 
