@@ -50,7 +50,7 @@ Habilite la programación de envíos basada en archivos OOTB con tiempos de env�
 
 **Contexto:** Impulsado por el cliente (H&amp;M), ACS a requisito de paridad ACC
 
-**Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
+**Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/es/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
 &#x200B;---
 
@@ -134,7 +134,7 @@ Integración de AEM optimizada que permite crear con un solo clic Live Copies y 
 
 **Contexto:** Requisito de Microsoft, trabajo transferido al equipo de Himanshu
 
-**Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
+**Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html?lang=es)
 
 &#x200B;---
 
@@ -201,7 +201,7 @@ Capacidad de carga de archivos OOTB para crear envíos de notificaciones push mu
 
 **Contexto:** impulsado por el cliente (H&amp;M), paridad de ACS con ACC, crítico para la migración
 
-**Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
+**Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/es/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
 &#x200B;---
 
@@ -278,7 +278,7 @@ Gestión del proceso de aprobación que permite flujos de trabajo de validación
 
 **Contexto:** Impulsado por el cliente (Pierre Fabre), requisito de Microsoft, desarrollo completado y en prueba
 
-**Referencias:** [Documentación clásica](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [Burlas de Figma](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
+**Referencias:** [Documentación clásica](https://experienceleague.adobe.com/es/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [Burlas de Figma](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
 &#x200B;---
 
