@@ -5,11 +5,9 @@ source-wordcount: '2430'
 ht-degree: 3%
 
 ---
-# Análisis de entradas de AC-UI Jira - Resumen de trabajo
-**Fecha:** 12 de enero de 2026
-**Tipo de documento:** Documento de trabajo / Análisis interno
+# Análisis de entradas de AC-UI Jira - Resumen de trabajo&#x200B;**Fecha:** 12 de enero de 2026&#x200B;**Tipo de documento:** Documento de trabajo / Análisis interno
 
----
+&#x200B;---
 
 ## Resumen ejecutivo
 
@@ -20,7 +18,7 @@ Este documento analiza los tickets de producto Jira de varias consultas relacion
 **Entradas Ya Documentadas:** 5
 **Entradas sin necesidad de documentos:** 5
 
----
+&#x200B;---
 
 ## &#x200B;1. Lista de tickets analizados
 
@@ -58,207 +56,41 @@ Este documento analiza los tickets de producto Jira de varias consultas relacion
 | NEO-92151 | Mensajería transaccional de enriquecimiento basada en perfiles [UI/UX] - Fase 2 | Resuelto | Principal | ACS a ACC, IU/UX PIX |
 | NEO-84916 | [UX/UI]: configure y administre el proceso de aprobación | Resuelto | Importante | IU/UX PIX |
 
----
+&#x200B;---
 
 ## &#x200B;2. Billetes que requieren documentación
 
 ### 2.1 ALTA PRIORIDAD: desarrollo activo (AC-UI-26-01)
 
-#### **NEO-86754: prueba A/B**
-- **Estado:** En Curso (En Seguimiento)
-- **Por qué se necesita documentación:** Nueva característica importante para la experimentación de contenido de correo electrónico con capacidades de prueba A/B
-- **DOCAC existente:** DOCAC-13104 (nuevo estado)
-- **Ámbito de la documentación:**
-   - Creación de experimentos de prueba A/B en envíos
-   - Definición de variantes de contenido/entrega
-   - Configuración de proporciones de muestra y envío de variantes de prueba
-   - Definición de criterios de evaluación
-   - Análisis de los resultados del experimento y selección de ganadores
-   - Prácticas recomendadas y limitaciones
-- **Audiencia de destino:** Usuarios de marketing, administradores de campaña
-- **Versión:** 8.9.1, AC-UI-26-01-Monthly
-- **Preguntas abiertas:**
-   - ¿Estado final de validación de IU/UX?
-   - ¿Alguna limitación para los mensajes transaccionales?
-   - ¿Integración con la previsualización de contenido preciso?
+#### **NEO-86754: prueba A/B**- **Estado:** En Curso (En Seguimiento)- **Por qué se necesita documentación:** Nueva característica importante para la experimentación de contenido de correo electrónico con capacidades de prueba A/B- **DOCAC existente:** DOCAC-13104 (nuevo estado)- **Ámbito de la documentación:**   - Creación de experimentos de prueba A/B en envíos   - Definición de variantes de contenido/entrega   - Configuración de proporciones de muestra y envío de variantes de prueba   - Definición de criterios de evaluación   - Análisis de los resultados del experimento y selección de ganadores   - Prácticas recomendadas y limitaciones- **Audiencia de destino:** Usuarios de marketing, administradores de campaña- **Versión:** 8.9.1, AC-UI-26-01-Monthly- **Preguntas abiertas:**   - ¿Estado final de validación de IU/UX?   - ¿Alguna limitación para los mensajes transaccionales?   - ¿Integración con la previsualización de contenido preciso?
 
-#### **NEO-80973: disponibilidad de informes dinámicos**
-- **Estado:** en curso (listo para revisión)
-- **Por qué se necesita documentación:** Expandir el sistema de informes dinámico a todos los usuarios de la interfaz de usuario web (no solo a los clientes de ACS 8.7)
-- **DOCAC existente:** DOCAC-11070 (Cerrado), DOCAC-13432 (Resuelto: limitaciones de idioma)
-- **Ámbito de la documentación:**
-   - Disponibilidad y requisitos de acceso
-   - Documentación de idiomas admitidos
-   - Limitaciones conocidas frente a informes preexistentes
-   - Las métricas en conflicto se muestran con los informes heredados
-   - Configuración del entorno de demostración
-- **Audiencia de destino:** Todos los usuarios de interfaz de usuario web, analistas
-- **Versión:** 8.8.1, AC-UI-26-01-Monthly
-- **Preguntas abiertas:**
-   - Estado de disponibilidad del entorno de demostración
-   - ¿Lista completa de métricas en conflicto con los informes heredados?
-   - Matriz de compatibilidad de idiomas
+#### **NEO-80973: disponibilidad de informes dinámicos**- **Estado:** en curso (listo para revisión)- **Por qué se necesita documentación:** Expandir el sistema de informes dinámico a todos los usuarios de la interfaz de usuario web (no solo a los clientes de ACS 8.7)- **DOCAC existente:** DOCAC-11070 (Cerrado), DOCAC-13432 (Resuelto: limitaciones de idioma)- **Ámbito de la documentación:**   - Disponibilidad y requisitos de acceso   - Documentación de idiomas admitidos   - Limitaciones conocidas frente a informes preexistentes   - Las métricas en conflicto se muestran con los informes heredados   - Configuración del entorno de demostración- **Audiencia de destino:** Todos los usuarios de interfaz de usuario web, analistas- **Versión:** 8.8.1, AC-UI-26-01-Monthly- **Preguntas abiertas:**   - Estado de disponibilidad del entorno de demostración   - ¿Lista completa de métricas en conflicto con los informes heredados?   - Matriz de compatibilidad de idiomas
 
-#### **NEO-76126: creación de esquemas**
-- **Estado:** En Curso (En Seguimiento)
-- **Por qué se necesita documentación:** Característica de administración significativa para la administración del modelo de datos
-- **DOCAC existente:** DOCAC-13826 (nuevo estado)
-- **Ámbito de la documentación:**
-   - Creación de nuevas tablas
-   - Ampliación de esquemas existentes
-   - Acceso a bases de datos externas
-   - Definición de formulario para entidades personalizadas
-   - Operaciones de navegación y CRUD
-   - Funciones de la fase 3 (creación y ampliación de esquemas): fin de febrero de ETA
-- **Audiencia de destino:** Usuarios administradores, administradores técnicos
-- **Versión:** AC-UI-26-01-Monthly
-- **Fecha de vencimiento:** 28 de febrero de 2026
-- **Preguntas abiertas:**
-   - ¿Cuándo se completará la Fase 2 para la activación de FF?
-   - ¿Fase 3 de confirmación del plazo de entrega?
-   - Requisitos de configuración del entorno
+#### **NEO-76126: creación de esquemas**- **Estado:** En Curso (En Seguimiento)- **Por qué se necesita documentación:** Característica de administración significativa para la administración del modelo de datos- **DOCAC existente:** DOCAC-13826 (nuevo estado)- **Ámbito de la documentación:**   - Creación de nuevas tablas   - Ampliación de esquemas existentes   - Acceso a bases de datos externas   - Definición de formulario para entidades personalizadas   - Operaciones de navegación y CRUD   - Funciones de la fase 3 (creación y ampliación de esquemas): fin de febrero de ETA- **Audiencia de destino:** Usuarios administradores, administradores técnicos- **Versión:** AC-UI-26-01-Monthly- **Fecha de vencimiento:** 28 de febrero de 2026- **Preguntas abiertas:**   - ¿Cuándo se completará la Fase 2 para la activación de FF?   - ¿Fase 3 de confirmación del plazo de entrega?   - Requisitos de configuración del entorno
 
-#### **NEO-93487: Proceso de cálculo de programación de entregas (H&amp;M)**
-- **Estado:** Nuevo
-- **Por qué se necesita documentación:** Escalación crítica del cliente: horario de entrega basado en zona horaria
-- **DOCAC existente:** Ninguno identificado
-- **Ámbito de la documentación:**
-   - Programación de entregas según la zona horaria del usuario
-   - Uso de fórmulas calculadas para regiones de varias zonas horarias
-   - Ejemplos de configuración (por ejemplo, Estados Unidos con varias zonas horarias)
-   - Prácticas recomendadas para campañas globales
-   - Comparación de funciones con ACS
-- **Audiencia de destino:** Administradores de campañas, Usuarios de marketing
-- **Impacto en el cliente:** H&amp;M (más de 50 mercados)
-- **Versión:** 8.9.1, AC-UI-26-01-Monthly, 8.8.2.NEO-90300
-- **Preguntas abiertas:**
-   - ¿Demostración de la función programada con PM?
-   - ¿Especificaciones funcionales completas disponibles?
-   - ¿Moquetas de IU finalizadas?
+#### **NEO-93487: Proceso de cálculo de programación de entregas (H&amp;M)**- **Estado:** Nuevo- **Por qué se necesita documentación:** Escalación crítica del cliente: horario de entrega basado en zona horaria- **DOCAC existente:** Ninguno identificado- **Ámbito de la documentación:**   - Programación de entregas según la zona horaria del usuario   - Uso de fórmulas calculadas para regiones de varias zonas horarias   - Ejemplos de configuración (por ejemplo, Estados Unidos con varias zonas horarias)   - Prácticas recomendadas para campañas globales   - Comparación de funciones con ACS- **Audiencia de destino:** Administradores de campañas, Usuarios de marketing- **Impacto en el cliente:** H&amp;M (más de 50 mercados)- **Versión:** 8.9.1, AC-UI-26-01-Monthly, 8.8.2.NEO-90300- **Preguntas abiertas:**   - ¿Demostración de la función programada con PM?   - ¿Especificaciones funcionales completas disponibles?   - ¿Moquetas de IU finalizadas?
 
-#### **NEO-86753: integración de AEM para Live Copies/Copias de idioma**
-- **Estado:** Nuevo
-- **Por qué se necesita documentación:** función específica de Microsoft para la administración de contenido multilingüe
-- **DOCAC existente:** DOCAC-13829 (resuelto)
-- **Ámbito de la documentación:**
-   - Exploración de plantillas de entrega de AEM
-   - Creación de Live Copies
-   - Creación de variantes de contenido de copias de idioma
-   - Flujo de trabajo y prácticas recomendadas
-   - Requisitos de configuración de integración
-- **Audiencia objetivo:** Usuarios de marketing que trabajan con equipos de AEM y Microsoft
-- **Versión:** AC-UI-26-01-Monthly
-- **Prioridad:** Bloqueador
-- **Preguntas abiertas:**
-   - Trabajo transferido al equipo de Himanshu - ¿estado actual?
-   - ¿Cronología de finalización?
+#### **NEO-86753: integración de AEM para Live Copies/Copias de idioma**- **Estado:** Nuevo- **Por qué se necesita documentación:** función específica de Microsoft para la administración de contenido multilingüe- **DOCAC existente:** DOCAC-13829 (resuelto)- **Ámbito de la documentación:**   - Exploración de plantillas de entrega de AEM   - Creación de Live Copies   - Creación de variantes de contenido de copias de idioma   - Flujo de trabajo y prácticas recomendadas   - Requisitos de configuración de integración- **Audiencia objetivo:** Usuarios de marketing que trabajan con equipos de AEM y Microsoft- **Versión:** AC-UI-26-01-Monthly- **Prioridad:** Bloqueador- **Preguntas abiertas:**   - Trabajo transferido al equipo de Himanshu - ¿estado actual?   - ¿Cronología de finalización?
 
-#### **NEO-92668: Web Analytics**
-- **Estado:** Nuevo (En seguimiento)
-- **Por qué se necesita documentación:** Configuración de cuenta externa para la integración de análisis web
-- **DOCAC existente:** Ninguno identificado
-- **Ámbito de la documentación:**
-   - Creación de cuenta externa de Web Analytics
-   - Parámetros de configuración
-   - Integración con el seguimiento de envíos
-   - Funcionalidades de informes
-- **Audiencia objetivo:** Usuarios administradores, analistas de marketing
-- **Versión:** AC-UI-26-01-Monthly
-- **Preguntas abiertas:**
-   - Estado de disponibilidad del entorno?
-   - ¿Pasos de configuración necesarios?
+#### **NEO-92668: Web Analytics**- **Estado:** Nuevo (En seguimiento)- **Por qué se necesita documentación:** Configuración de cuenta externa para la integración de análisis web- **DOCAC existente:** Ninguno identificado- **Ámbito de la documentación:**   - Creación de cuenta externa de Web Analytics   - Parámetros de configuración   - Integración con el seguimiento de envíos   - Funcionalidades de informes- **Audiencia objetivo:** Usuarios administradores, analistas de marketing- **Versión:** AC-UI-26-01-Monthly- **Preguntas abiertas:**   - Estado de disponibilidad del entorno?   - ¿Pasos de configuración necesarios?
 
 ### 2.2 PRIORIDAD DE MEDIUM: Entregas recientes (AC-UI-25-11)
 
-#### **NEO-90183: inserción enriquecida multilingüe**
-- **Estado:** Cerrado
-- **Por qué se necesita documentación:** Nueva capacidad para push enriquecidas con iOS/Android con soporte multilingüe
-- **DOCAC existente:** DOCAC-13565 (nuevo estado)
-- **Ámbito de la documentación:**
-   - Configuración de notificaciones push enriquecidas para iOS y Android
-   - Variantes de contenido multilingües
-   - Selección de plantilla
-   - Campos adicionales para contenido enriquecido
-   - Funcionalidades de carga de archivos
-   - Prácticas recomendadas y limitaciones
-- **Audiencia de destino:** Usuarios de marketing, administradores de canales móviles
-- **Versión:** AC-UI-25-11-Monthly, 8.8.2
-- **Cliente:** H&amp;M
+#### **NEO-90183: inserción enriquecida multilingüe**- **Estado:** Cerrado- **Por qué se necesita documentación:** Nueva capacidad para push enriquecidas con iOS/Android con soporte multilingüe- **DOCAC existente:** DOCAC-13565 (nuevo estado)- **Ámbito de la documentación:**   - Configuración de notificaciones push enriquecidas para iOS y Android   - Variantes de contenido multilingües   - Selección de plantilla   - Campos adicionales para contenido enriquecido   - Funcionalidades de carga de archivos   - Prácticas recomendadas y limitaciones- **Audiencia de destino:** Usuarios de marketing, administradores de canales móviles- **Versión:** AC-UI-25-11-Monthly, 8.8.2- **Cliente:** H&amp;M
 
-#### **NEO-84916: administración del proceso de aprobación**
-- **Estado:** Resuelto
-- **Por qué se necesita documentación:** Función principal de flujo de trabajo para la validación de envíos
-- **DOCAC existente:** DOCAC-13827 (nuevo estado)
-- **Ámbito de la documentación:**
-   - Configuración de operadores de aprobación en envíos/campañas
-   - Configuración de aprobación de contenido
-   - Configuración de aprobación de destino
-   - Administración de flujos de trabajo de aprobación entre canales (correo electrónico, SMS, push para iOS/Android, correo directo, centro de llamadas)
-   - Aceptar/rechazar procesos
-   - Informes de aprobación y seguimiento
-- **Audiencia de destino:** Administradores de campañas, usuarios administradores
-- **Versión:** AC-UI-25-11-Monthly
-- **Prioridad:** Crítico
-- **Cliente:** Pierre Fabre
+#### **NEO-84916: administración del proceso de aprobación**- **Estado:** Resuelto- **Por qué se necesita documentación:** Función principal de flujo de trabajo para la validación de envíos- **DOCAC existente:** DOCAC-13827 (nuevo estado)- **Ámbito de la documentación:**   - Configuración de operadores de aprobación en envíos/campañas   - Configuración de aprobación de contenido   - Configuración de aprobación de destino   - Administración de flujos de trabajo de aprobación entre canales (correo electrónico, SMS, push para iOS/Android, correo directo, centro de llamadas)   - Aceptar/rechazar procesos   - Informes de aprobación y seguimiento- **Audiencia de destino:** Administradores de campañas, usuarios administradores- **Versión:** AC-UI-25-11-Monthly- **Prioridad:** Crítico- **Cliente:** Pierre Fabre
 
-#### **NEO-91299: Actividad de envío continuo**
-- **Estado:** Cerrado
-- **Por qué se necesita documentación:** Nueva actividad de flujo de trabajo para escenarios de envío recurrentes
-- **DOCAC existente:** DOCAC-13586 (Nuevo estado), DOCAC-13808 (Cerrado: ayuda contextual)
-- **Ámbito de la documentación:**
-   - Configuración de actividad de envío continuo
-   - Requisitos del selector de plantillas de envío
-   - Tratamiento de errores de procesos
-   - Integración de flujo de trabajo
-   - Casos de uso y ejemplos
-- **Audiencia de destino:** usuarios técnicos, diseñadores de flujo de trabajo
-- **Versión:** AC-UI-26.01.06
+#### **NEO-91299: Actividad de envío continuo**- **Estado:** Cerrado- **Por qué se necesita documentación:** Nueva actividad de flujo de trabajo para escenarios de envío recurrentes- **DOCAC existente:** DOCAC-13586 (Nuevo estado), DOCAC-13808 (Cerrado: ayuda contextual)- **Ámbito de la documentación:**   - Configuración de actividad de envío continuo   - Requisitos del selector de plantillas de envío   - Tratamiento de errores de procesos   - Integración de flujo de trabajo   - Casos de uso y ejemplos- **Audiencia de destino:** usuarios técnicos, diseñadores de flujo de trabajo- **Versión:** AC-UI-26.01.06
 
-#### **NEO-90130: carga de archivos push multilingües (H&amp;M)**
-- **Estado:** Cerrado
-- **Por qué se necesita documentación:** OOTB ofrece paridad con ACS para push multilingüe basado en archivos
-- **DOCAC existente:** DOCAC-13606 (nuevo estado)
-- **Ámbito de la documentación:**
-   - Carga de archivo CSV para notificaciones push multilingües
-   - Especificaciones del formato de archivo
-   - Asignación de campos
-   - Configuraciones específicas de iOS y Android
-   - Tratamiento del tipo de mensaje de datos
-   - Solución de problemas y problemas conocidos
-- **Audiencia de destino:** Usuarios de marketing, administradores de campaña
-- **Versión:** AC-UI-25-10-Monthly, AC-UI-25.11.03
-- **Prioridad:** Crítico
-- **Cliente:** H&amp;M (migración de ACS a ACC)
+#### **NEO-90130: carga de archivos push multilingües (H&amp;M)**- **Estado:** Cerrado- **Por qué se necesita documentación:** OOTB ofrece paridad con ACS para push multilingüe basado en archivos- **DOCAC existente:** DOCAC-13606 (nuevo estado)- **Ámbito de la documentación:**   - Carga de archivo CSV para notificaciones push multilingües   - Especificaciones del formato de archivo   - Asignación de campos   - Configuraciones específicas de iOS y Android   - Tratamiento del tipo de mensaje de datos   - Solución de problemas y problemas conocidos- **Audiencia de destino:** Usuarios de marketing, administradores de campaña- **Versión:** AC-UI-25-10-Monthly, AC-UI-25.11.03- **Prioridad:** Crítico- **Cliente:** H&amp;M (migración de ACS a ACC)
 
-#### **NEO-92942: filtros predefinidos - Opción compartida**
-- **Estado:** Resuelto
-- **Por qué se necesita documentación:** Mejora de la funcionalidad del generador de reglas
-- **DOCAC existente:** DOCAC-13697 (Estado de revisión de código), DOCAC-13522 (Cerrado: asistente)
-- **Ámbito de la documentación:**
-   - Opción compartida para filtros predefinidos
-   - Administración de la visibilidad del filtro con otros operadores
-   - Comportamientos de ACC frente a Brand Recorrido
-   - Administración de listas de filtros
-- **Audiencia de destino:** Todos los usuarios, diseñadores de consultas
-- **Versión:** Versión principal
-- **FF:** enable-query-filter-shared
+#### **NEO-92942: filtros predefinidos - Opción compartida**- **Estado:** Resuelto- **Por qué se necesita documentación:** Mejora de la funcionalidad del generador de reglas- **DOCAC existente:** DOCAC-13697 (Estado de revisión de código), DOCAC-13522 (Cerrado: asistente)- **Ámbito de la documentación:**   - Opción compartida para filtros predefinidos   - Administración de la visibilidad del filtro con otros operadores   - Comportamientos de ACC frente a Brand Recorrido   - Administración de listas de filtros- **Audiencia de destino:** Todos los usuarios, diseñadores de consultas- **Versión:** Versión principal- **FF:** enable-query-filter-shared
 
 ### 2.3 PRIORIDAD BAJA: mejora del editor de contenido
 
-#### **NEO-88838: variables de tema en fragmentos**
-- **Estado:** Nuevo (En espera)
-- **Por qué se necesita documentación:** Funcionalidad del tema de Designer de correo electrónico
-- **DOCAC existente:** DOCAC-12941 (nuevo estado)
-- **Ámbito de la documentación:**
-   - Uso de variables de temática en fragmentos de correo electrónico
-   - Configuración del tema
-   - Administración de variables
-   - Prácticas recomendadas
-- **Audiencia de destino:** Diseñadores de correo electrónico, Usuarios de marketing
-- **Versión:** AC-UI-26-01-Monthly
-- **Nota:** La característica está en espera mientras se realiza una revisión del lado de Acrite
+#### **NEO-88838: variables de tema en fragmentos**- **Estado:** Nuevo (En espera)- **Por qué se necesita documentación:** Funcionalidad del tema de Designer de correo electrónico- **DOCAC existente:** DOCAC-12941 (nuevo estado)- **Ámbito de la documentación:**   - Uso de variables de temática en fragmentos de correo electrónico   - Configuración del tema   - Administración de variables   - Prácticas recomendadas- **Audiencia de destino:** Diseñadores de correo electrónico, Usuarios de marketing- **Versión:** AC-UI-26-01-Monthly- **Nota:** La característica está en espera mientras se realiza una revisión del lado de Acrite
 
----
+&#x200B;---
 
 ## &#x200B;3. Billetes que NO requieren documentación
 
@@ -278,18 +110,13 @@ Este documento analiza los tickets de producto Jira de varias consultas relacion
 |-----------|-------|--------|
 | NEO-92400 | Mejoras de la versión, 26 de enero | Marcador de posición para rastrear la finalización de mejoras |
 
----
+&#x200B;---
 
 ## &#x200B;4. Billetes DOCAC propuestos
 
 ### 4.1 Se necesitan nuevas entradas DOCAC
 
-#### **DOCAC-XXXX: Programación de entregas con compatibilidad con zona horaria**
-**vale principal:** NEO-93487
-**Prioridad:** Crítico
-**Versión de Target:** AC-UI-26-01-Monthly
-**Descripción:**
-Documente el nuevo proceso de cálculo de programación de entregas que habilita la programación de entregas basada en zona horaria similar a la funcionalidad ACS. Esta función permite a los especialistas en marketing enviar comunicaciones basadas en las zonas horarias de los destinatarios mediante fórmulas calculadas, lo que resulta especialmente importante en mercados con varias zonas horarias como EE. UU.
+#### **DOCAC-XXXX: Programación de entregas con compatibilidad con zona horaria**&#x200B;**vale principal:** NEO-93487&#x200B;**Prioridad:** Crítico&#x200B;**Versión de Target:** AC-UI-26-01-Monthly&#x200B;**Descripción:**&#x200B;Documente el nuevo proceso de cálculo de programación de entregas que habilita la programación de entregas basada en zona horaria similar a la funcionalidad ACS. Esta función permite a los especialistas en marketing enviar comunicaciones basadas en las zonas horarias de los destinatarios mediante fórmulas calculadas, lo que resulta especialmente importante en mercados con varias zonas horarias como EE. UU.
 
 **Ámbito:**
 - Guía de configuración para programación basada en huso horario
@@ -300,12 +127,7 @@ Documente el nuevo proceso de cálculo de programación de entregas que habilita
 
 **Cliente:** H&amp;M (crítico para la migración de ACS a ACC)
 
-#### **DOCAC-XXXX: Configuración de cuenta externa de Web Analytics**
-**vale principal:** NEO-92668
-**Prioridad:** Normal
-**Versión de Target:** AC-UI-26-01-Monthly
-**Descripción:**
-Documente la configuración y el uso del tipo de cuenta externa Web Analytics en la interfaz de usuario web.
+#### **DOCAC-XXXX: Configuración de cuenta externa de Web Analytics**&#x200B;**vale principal:** NEO-92668&#x200B;**Prioridad:** Normal&#x200B;**Versión de Target:** AC-UI-26-01-Monthly&#x200B;**Descripción:**&#x200B;Documente la configuración y el uso del tipo de cuenta externa Web Analytics en la interfaz de usuario web.
 
 **Ámbito:**
 - Pasos de creación de cuenta externa
@@ -314,122 +136,55 @@ Documente la configuración y el uso del tipo de cuenta externa Web Analytics en
 - Funcionalidades de informes
 - Solución de problemas
 
----
+&#x200B;---
 
 ### 4.2 Entradas DOCAC existentes para actualizar
 
-#### **DOCAC-13104: prueba A/B**
-**Estado:** Nuevo
-**Ticket Principal:** NEO-86754
-**Acción necesaria:** Iniciar documentación: característica en desarrollo activo
-**Envío estimado:** febrero de 2026 (pendiente de finalización del desarrollo)
+#### **DOCAC-13104: prueba A/B**&#x200B;**Estado:** Nuevo&#x200B;**Ticket Principal:** NEO-86754&#x200B;**Acción necesaria:** Iniciar documentación: característica en desarrollo activo&#x200B;**Envío estimado:** febrero de 2026 (pendiente de finalización del desarrollo)
 
-#### **DOCAC-11070 Y DOCAC-13432: Informes dinámicos**
-**Estado:** cerrado/resuelto
-**Ticket Principal:** NEO-80973
-**Acción necesaria:**
-- Actualización de la disponibilidad general (no solo 8.7)
-- Documentar métricas en conflicto con informes heredados
-- Verificar la documentación de asistencia lingüística
+#### **DOCAC-11070 Y DOCAC-13432: Informes dinámicos**&#x200B;**Estado:** cerrado/resuelto&#x200B;**Ticket Principal:** NEO-80973&#x200B;**Acción necesaria:**- Actualización de la disponibilidad general (no solo 8.7)- Documentar métricas en conflicto con informes heredados- Verificar la documentación de asistencia lingüística
 
-#### **DOCAC-13826: creación de esquemas**
-**Estado:** Nuevo
-**Ticket Principal:** NEO-76126
-**Acción necesaria:**
-- Documentación de la fase 2 (navegación + CRUD + definición del formulario)
-- Preparación para la fase 3 (creación/ampliación de esquemas): fin de febrero de ETA
+#### **DOCAC-13826: creación de esquemas**&#x200B;**Estado:** Nuevo&#x200B;**Ticket Principal:** NEO-76126&#x200B;**Acción necesaria:**- Documentación de la fase 2 (navegación + CRUD + definición del formulario)- Preparación para la fase 3 (creación/ampliación de esquemas): fin de febrero de ETA
 
-#### **DOCAC-13829: AEM Live Copies/Copias de idioma**
-**Estado:** Resuelto
-**Ticket Principal:** NEO-86753
-**Acción necesaria:** Compruebe el estado actual y actualice según sea necesario
+#### **DOCAC-13829: AEM Live Copies/Copias de idioma**&#x200B;**Estado:** Resuelto&#x200B;**Ticket Principal:** NEO-86753&#x200B;**Acción necesaria:** Compruebe el estado actual y actualice según sea necesario
 
-#### **DOCAC-13565: Inserción enriquecida multilingüe**
-**Estado:** Nuevo
-**Ticket Principal:** NEO-90183
-**Acción necesaria:** Documentación completa; función entregada en noviembre de 2025
+#### **DOCAC-13565: Inserción enriquecida multilingüe**&#x200B;**Estado:** Nuevo&#x200B;**Ticket Principal:** NEO-90183&#x200B;**Acción necesaria:** Documentación completa; función entregada en noviembre de 2025
 
-#### **DOCAC-13827: proceso de aprobación**
-**Estado:** Nuevo
-**Ticket Principal:** NEO-84916
-**Acción necesaria:** Documentación completa; función entregada en noviembre de 2025
+#### **DOCAC-13827: proceso de aprobación**&#x200B;**Estado:** Nuevo&#x200B;**Ticket Principal:** NEO-84916&#x200B;**Acción necesaria:** Documentación completa; función entregada en noviembre de 2025
 
-#### **DOCAC-13586 y DOCAC-13808: Entrega continua**
-**Estado:** Nuevo/Cerrado
-**Ticket Principal:** NEO-91299
-**Acción necesaria:** Documentación principal completa (13586); función entregada
+#### **DOCAC-13586 y DOCAC-13808: Entrega continua**&#x200B;**Estado:** Nuevo/Cerrado&#x200B;**Ticket Principal:** NEO-91299&#x200B;**Acción necesaria:** Documentación principal completa (13586); función entregada
 
-#### **DOCAC-13606: Carga de archivos push multilingües**
-**Estado:** Nuevo
-**Ticket Principal:** NEO-90130
-**Acción necesaria:** Documentación completa - función entregada
+#### **DOCAC-13606: Carga de archivos push multilingües**&#x200B;**Estado:** Nuevo&#x200B;**Ticket Principal:** NEO-90130&#x200B;**Acción necesaria:** Documentación completa - función entregada
 
-#### **DOCAC-13697 y DOCAC-13522: filtros predefinidos compartidos**
-**Estado:** revisión de código/cerrado
-**Ticket Principal:** NEO-92942
-**Acción necesaria:** finalizar documentación (13697)
+#### **DOCAC-13697 y DOCAC-13522: filtros predefinidos compartidos**&#x200B;**Estado:** revisión de código/cerrado&#x200B;**Ticket Principal:** NEO-92942&#x200B;**Acción necesaria:** finalizar documentación (13697)
 
-#### **DOCAC-12941: temas en el correo electrónico Designer**
-**Estado:** Nuevo
-**Ticket Principal:** NEO-88838
-**Acción necesaria:** En espera con revisión pendiente de la función
+#### **DOCAC-12941: temas en el correo electrónico Designer**&#x200B;**Estado:** Nuevo&#x200B;**Ticket Principal:** NEO-88838&#x200B;**Acción necesaria:** En espera con revisión pendiente de la función
 
----
+&#x200B;---
 
 ## &#x200B;5. Preguntas abiertas e información que falta
 
 ### 5.1 Por función
 
-#### **Prueba A/B (NEO-86754)**
-- [ ] ¿Cuál es el estado final de validación de IU/UX?
-- [ ] ¿Existen limitaciones específicas para los mensajes transaccionales?
-- [ ] ¿Cómo se integra esto con la vista previa de contenido Acrite (bloqueo de NEO-92516)?
-- [ ] ¿Cuáles son las capacidades de simular/previsualizar dentro de cada variante?
+#### **Prueba A/B (NEO-86754)**- [ ] ¿Cuál es el estado final de validación de IU/UX?- [ ] ¿Existen limitaciones específicas para los mensajes transaccionales?- [ ] ¿Cómo se integra esto con la vista previa de contenido Acrite (bloqueo de NEO-92516)?- [ ] ¿Cuáles son las capacidades de simular/previsualizar dentro de cada variante?
 
-#### **Informes dinámicos (NEO-80973)**
-- [ ] ¿Cuál es el estado de la reactivación del entorno de demostración?
-- [ ] ¿Lista completa de métricas en conflicto con los informes heredados?
-- [ ] ¿Matriz detallada de compatibilidad con idiomas?
-- [ ] ¿Comparación de rendimiento con informes heredados?
+#### **Informes dinámicos (NEO-80973)**- [ ] ¿Cuál es el estado de la reactivación del entorno de demostración?- [ ] ¿Lista completa de métricas en conflicto con los informes heredados?- [ ] ¿Matriz detallada de compatibilidad con idiomas?- [ ] ¿Comparación de rendimiento con informes heredados?
 
-#### **Creación de esquemas (NEO-76126)**
-- [ ] ¿Cuándo se activará la Fase 2 FF?
-- [ ] ¿ETA confirmado para la fase 3 (crear/ampliar esquemas)?
-- [ ] ¿Cuáles son los requisitos de configuración del entorno?
-- [ ] ¿Alguna limitación o funcionalidad de la consola de cliente?
+#### **Creación de esquemas (NEO-76126)**- [ ] ¿Cuándo se activará la Fase 2 FF?- [ ] ¿ETA confirmado para la fase 3 (crear/ampliar esquemas)?- [ ] ¿Cuáles son los requisitos de configuración del entorno?- [ ] ¿Alguna limitación o funcionalidad de la consola de cliente?
 
-#### **Programación de entrega (NEO-93487)**
-- [ ] ¿Está programada la demostración de la función con PM?
-- [ ] ¿Se encuentran disponibles las especificaciones funcionales completas?
-- [ ¿Finalizaron y revisaron ] pruebas de interfaz de usuario?
-- [ ] ¿Cuál es la sintaxis/estructura exacta de la fórmula?
+#### **Programación de entrega (NEO-93487)**- [ ] ¿Está programada la demostración de la función con PM?- [ ] ¿Se encuentran disponibles las especificaciones funcionales completas?- [ ¿Finalizaron y revisaron ] pruebas de interfaz de usuario?- [ ] ¿Cuál es la sintaxis/estructura exacta de la fórmula?
 
-#### **AEM Live/Copias de idioma (NEO-86753)**
-- [ ] ¿Cuál es el estado actual del equipo de Himanshu?
-- [ ] ¿Se actualizó el calendario de envíos?
-- [ ] ¿Alguna dependencia de la versión de AEM?
+#### **AEM Live/Copias de idioma (NEO-86753)**- [ ] ¿Cuál es el estado actual del equipo de Himanshu?- [ ] ¿Se actualizó el calendario de envíos?- [ ] ¿Alguna dependencia de la versión de AEM?
 
-#### **Análisis web (NEO-92668)**
-- [ ] ¿Qué es el estado de disponibilidad del entorno?
-- [ ] ¿Requisitos de configuración completos?
-- [ ] ¿Plataformas de análisis compatibles?
+#### **Análisis web (NEO-92668)**- [ ] ¿Qué es el estado de disponibilidad del entorno?- [ ] ¿Requisitos de configuración completos?- [ ] ¿Plataformas de análisis compatibles?
 
-#### **Variables de tema en fragmentos (NEO-88838)**
-- [ ] ¿Cuándo volverá Acrite a utilizar la función?
-- [ ] ¿Está aún planificado para AC-UI-26-01?
+#### **Variables de tema en fragmentos (NEO-88838)**- [ ] ¿Cuándo volverá Acrite a utilizar la función?- [ ] ¿Está aún planificado para AC-UI-26-01?
 
 ### 5.2 Por versión
 
-#### **AC-UI-26-01-Monthly (enero de 2026)**
-- [ ] ¿Confirmación oficial de la fecha de lanzamiento?
-- [ ] ¿Fecha de congelación de característica?
-- [ ] ¿Cronología de finalización de prueba?
-- [ ] ¿Plazo de entrega de documentación?
+#### **AC-UI-26-01-Monthly (enero de 2026)**- [ ] ¿Confirmación oficial de la fecha de lanzamiento?- [ ] ¿Fecha de congelación de característica?- [ ] ¿Cronología de finalización de prueba?- [ ] ¿Plazo de entrega de documentación?
 
-#### **Características entregadas en noviembre de 2025**
-- [ ] ¿Qué características ya están activadas en la producción?
-- [ ] ¿Se detectaron problemas o limitaciones conocidos después del lanzamiento?
-- [ ] comentarios del cliente recibidos?
+#### **Características entregadas en noviembre de 2025**- [ ] ¿Qué características ya están activadas en la producción?- [ ] ¿Se detectaron problemas o limitaciones conocidos después del lanzamiento?- [ ] comentarios del cliente recibidos?
 
 ### 5.3 Proceso de documentación
 
@@ -439,7 +194,7 @@ Documente la configuración y el uso del tipo de cuenta externa Web Analytics en
 - [ ] ¿Requisitos de plataforma/formato de documentación?
 - [ ¿Disponibilidad de entornos de demostración y capturas de pantalla de ]?
 
----
+&#x200B;---
 
 ## &#x200B;6. Impacto y escalaciones para el cliente
 
@@ -459,7 +214,7 @@ Documente la configuración y el uso del tipo de cuenta externa Web Analytics en
 | NEO-91566 | Seguimiento de CTA | Cerrado/Ya No Se Aplica | Información pendiente de MSFT |
 | NEO-91567 | Función NRT | Resuelto/sin impacto en la IU | Nueva función ACS para MSFT |
 
----
+&#x200B;---
 
 ## &#x200B;7. Prioridades de la documentación y calendario
 
@@ -487,33 +242,17 @@ Documente la configuración y el uso del tipo de cuenta externa Web Analytics en
 
 1. **NEO-88838** - Variables de tema (DOCAC-12941) - Revisión precisa pendiente
 
----
+&#x200B;---
 
 ## &#x200B;8. Pasos siguientes
 
-### 8.1 Acciones del equipo de documentación
-1. **Priorizar las funciones entregadas** sin documentación (sección 7.1)
-2. **Crear nuevos tickets DOCAC** para NEO-93487 y NEO-92668
-3. **Actualizar tickets DOCAC** existentes con ámbito detallado (Sección 4.2)
-4. **Programar entrevistas de EM** para pruebas A/B, esquemas y programación de envíos
-5. **Recopilar capturas de pantalla** y preparar entornos de demostración
-6. **Revisar y finalizar** limitaciones de idioma para el sistema de informes dinámico
+### 8.1 Acciones del equipo de documentación1. **Priorizar las funciones entregadas** sin documentación (sección 7.1)2. **Crear nuevos tickets DOCAC** para NEO-93487 y NEO-926683. **Actualizar tickets DOCAC** existentes con ámbito detallado (Sección 4.2)4. **Programar entrevistas de EM** para pruebas A/B, esquemas y programación de envíos5. **Recopilar capturas de pantalla** y preparar entornos de demostración6. **Revisar y finalizar** limitaciones de idioma para el sistema de informes dinámico
 
-### 8.2 Recopilación de información
-1. **Póngase en contacto con posibles clientes de ingeniería** para obtener actualizaciones de estado sobre:
-   - Validación final de la prueba A/B
-   - Esquemas Fase 2/3 cronología
-   - Especificaciones del programa de entregas
-2. **Programar demostraciones de características** con la administración de productos
-3. **Recopilar comentarios de clientes** de H&amp;M y Pierre Fabre
-4. **Verificar la disponibilidad del entorno** para análisis web y creación de informes dinámica
+### 8.2 Recopilación de información1. **Póngase en contacto con posibles clientes de ingeniería** para obtener actualizaciones de estado sobre:   - Validación final de la prueba A/B   - Esquemas Fase 2/3 cronología   - Especificaciones del programa de entregas2. **Programar demostraciones de características** con la administración de productos3. **Recopilar comentarios de clientes** de H&amp;M y Pierre Fabre4. **Verificar la disponibilidad del entorno** para análisis web y creación de informes dinámica
 
-### 8.3 Coordinación
-1. **Sincronizar con el equipo de Himanshu** en AEM Live/Copies de idioma
-2. **Coordinar con el equipo Acrite** el estado de las variables del tema
-3. **Realizar seguimiento de las características específicas de Microsoft** con el equipo de la cuenta
+### 8.3 Coordinación1. **Sincronizar con el equipo de Himanshu** en AEM Live/Copies de idioma2. **Coordinar con el equipo Acrite** el estado de las variables del tema3. **Realizar seguimiento de las características específicas de Microsoft** con el equipo de la cuenta
 
----
+&#x200B;---
 
 ## Historial de documentos
 
@@ -521,7 +260,7 @@ Documente la configuración y el uso del tipo de cuenta externa Web Analytics en
 |------|--------|---------|---------|
 | 12-01-2026 | Asistente de IA | 1,0 | Análisis inicial de consultas Jira |
 
----
+&#x200B;---
 
 ## Apéndice: Consultas Jira analizadas
 

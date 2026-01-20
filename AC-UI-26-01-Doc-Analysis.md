@@ -18,15 +18,11 @@ Este documento analiza los JIRA del producto para las versiones mensuales AC-UI-
 3. **[Historias mensuales de AC-UI-25-11](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20type%20%3D%20story%20order%20by%20status)** - Arrastre de la versión anterior
 4. **[AC-UI-25-11 Excluyendo 8.8.2](https://jira.corp.adobe.com/issues/?jql=project%20%3D%20NEO%20AND%20fixVersion%20%3D%20AC-UI-25-11-Monthly%20and%20fixVersion%20!%3D%208.8.2%20and%20type%20%3D%20story%20order%20by%20status)** - Versión anterior filtrada
 
----
+&#x200B;---
 
 ## 🟢 Crear DOCAC
 
-### [NEO-91565](https://jira.corp.adobe.com/browse/NEO-91565) - Agregar compatibilidad con campos de personalización (integración avanzada de AEM)
-**Estado:** Resuelto\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** Ninguno\
-**Acción:** Crear DOCAC
+### [NEO-91565](https://jira.corp.adobe.com/browse/NEO-91565) - Agregar compatibilidad con campos de personalización (integración avanzada de AEM)**Estado:** Resuelto\Se requiere **Doc:** Sí\**DOCAC existente:** Ninguno\**Acción:** Crear DOCAC
 
 **Ámbito:**
 - Compatibilidad de documentos para campos de personalización en la integración avanzada de AEM
@@ -40,13 +36,9 @@ Compatibilidad para añadir campos de personalización en las entregas mediante 
 
 **Referencias:** [wiki multilingüe de AEM](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=2988189953)
 
----
+&#x200B;---
 
-### [NEO-93487](https://jira.corp.adobe.com/browse/NEO-93487) - Proceso de cálculo de programación de envíos (paridad ACS)
-**Estado:** Nuevo\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** Ninguno\
-**Acción:** Crear DOCAC
+### [NEO-93487](https://jira.corp.adobe.com/browse/NEO-93487) - Proceso de cálculo de programación de envíos (paridad ACS)**Estado:** Nuevo\Se requiere **Doc:** Sí\**DOCAC existente:** Ninguno\**Acción:** Crear DOCAC
 
 **Ámbito:**
 - Proceso de cálculo de programación de entrega de documentos para notificaciones push
@@ -60,15 +52,11 @@ Habilite la programación de envíos basada en archivos OOTB con tiempos de env�
 
 **Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/en/docs/campaign-standard/using/testing-and-sending/scheduling-messages/computing-the-sending-date)
 
----
+&#x200B;---
 
 ## DOCAC de actualización de 🔄
 
-### [NEO-80973](https://jira.corp.adobe.com/browse/NEO-80973): disponibilidad de informes dinámicos para todos los usuarios de la interfaz de usuario web
-**Estado:** En Curso\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-11070](https://jira.corp.adobe.com/browse/DOCAC-11070) (Cerrado), [DOCAC-13432](https://jira.corp.adobe.com/browse/DOCAC-13432) (Resuelto)\
-**Acción:** revisar DOCAC
+### [NEO-80973](https://jira.corp.adobe.com/browse/NEO-80973): disponibilidad de informes dinámicos para todos los usuarios de la interfaz de usuario web&#x200B;**Estado:** En Curso\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-11070](https://jira.corp.adobe.com/browse/DOCAC-11070) (Cerrado), [DOCAC-13432](https://jira.corp.adobe.com/browse/DOCAC-13432) (Resuelto)\**Acción:** revisar DOCAC
 
 **Ámbito:**
 - Actualizar la información de disponibilidad (ahora para todos los usuarios de la interfaz de usuario web, no solo para 8.7)
@@ -82,13 +70,9 @@ El sistema de informes dinámico ya está disponible para todos los usuarios de 
 
 **Referencias:** [Wiki - Comparación de informes](https://wiki.corp.adobe.com/display/~kumarvishal/Reports+-+Client+console+vs+WebUI)
 
----
+&#x200B;---
 
-### [NEO-86754](https://jira.corp.adobe.com/browse/NEO-86754) - Prueba A/B
-**Estado:** En Curso\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-13104](https://jira.corp.adobe.com/browse/DOCAC-13104) (Nuevo)\
-**Acción:** Actualizar DOCAC
+### [NEO-86754](https://jira.corp.adobe.com/browse/NEO-86754) - Prueba A/B&#x200B;**Estado:** En Curso\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-13104](https://jira.corp.adobe.com/browse/DOCAC-13104) (Nuevo)\**Acción:** Actualizar DOCAC
 
 **Ámbito:**
 - Documentación completa del flujo de trabajo de pruebas A/B
@@ -103,13 +87,9 @@ La experimentación de contenido y las pruebas A/B para envíos de correo electr
 
 **Referencias:** [Wiki](https://wiki.corp.adobe.com/pages/viewpage.action?pageId=3017705719), [Figma se burla](https://www.figma.com/design/4EfXEaA6OIV0D8rauuXSWX/A-B-Testing)
 
----
+&#x200B;---
 
-### [NEO-76126](https://jira.corp.adobe.com/browse/NEO-76126): creación de esquemas (crear nueva tabla, ampliar esquemas, acceder a BD externa)
-**Estado:** En Curso\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-13826](https://jira.corp.adobe.com/browse/DOCAC-13826) (Nuevo)\
-**Acción:** Actualizar DOCAC
+### [NEO-76126](https://jira.corp.adobe.com/browse/NEO-76126): creación de esquemas (crear nueva tabla, ampliar esquemas, acceder a BD externa)**Estado:** En Curso\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-13826](https://jira.corp.adobe.com/browse/DOCAC-13826) (Nuevo)\**Acción:** Actualizar DOCAC
 
 **Ámbito:**
 - Flujo de trabajo de creación de esquemas de documentos (solo 3 opciones: crear tabla, ampliar esquema, acceder a base de datos externa)
@@ -124,13 +104,9 @@ Funciones de creación de esquemas en la interfaz de usuario web que permiten a 
 
 **Referencias:** [PRD](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=AC+Web+UI+-+Schemas+PRD), [Figma](https://www.figma.com/design/lZkJso2HvXPbNjG0TmQTrC/Schemas)
 
----
+&#x200B;---
 
-### [NEO-92668](https://jira.corp.adobe.com/browse/NEO-92668) - Web Analytics
-**Estado:** Nuevo\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** Ninguno\
-**Acción:** Crear DOCAC
+### [NEO-92668](https://jira.corp.adobe.com/browse/NEO-92668) - Web Analytics&#x200B;**Estado:** Nuevo\Se requiere **Doc:** Sí\**DOCAC existente:** Ninguno\**Acción:** Crear DOCAC
 
 **Ámbito:**
 - Configuración de cuenta externa de Web Analytics
@@ -144,13 +120,9 @@ Integración de Web Analytics que permite la conexión a plataformas de análisi
 
 **Referencias:** Ninguna proporcionada
 
----
+&#x200B;---
 
-### [NEO-86753](https://jira.corp.adobe.com/browse/NEO-86753): integración de AEM para Live Copies/Copias de idioma
-**Estado:** Nuevo\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-13829](https://jira.corp.adobe.com/browse/DOCAC-13829) (resuelto)\
-**Acción:** revisar DOCAC
+### [NEO-86753](https://jira.corp.adobe.com/browse/NEO-86753): integración de AEM para Live Copies/Copias de idioma&#x200B;**Estado:** Nuevo\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-13829](https://jira.corp.adobe.com/browse/DOCAC-13829) (resuelto)\**Acción:** revisar DOCAC
 
 **Ámbito:**
 - Examinar plantillas de envío de AEM
@@ -164,13 +136,9 @@ Integración de AEM optimizada que permite crear con un solo clic Live Copies y 
 
 **Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-experience-manager/creating-multilingual-email-aem.html)
 
----
+&#x200B;---
 
-### [NEO-88838](https://jira.corp.adobe.com/browse/NEO-88838) - Editor de contenido: usar variables de temas en el fragmento
-**Estado:** Nuevo\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-12941](https://jira.corp.adobe.com/browse/DOCAC-12941) (Nuevo)\
-**Acción:** Actualizar DOCAC
+### [NEO-88838](https://jira.corp.adobe.com/browse/NEO-88838) - Editor de contenido: usar variables de temas en el fragmento&#x200B;**Estado:** Nuevo\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-12941](https://jira.corp.adobe.com/browse/DOCAC-12941) (Nuevo)\**Acción:** Actualizar DOCAC
 
 **Ámbito:**
 - Variables de tema en el diseñador de correo electrónico (Beta)
@@ -184,15 +152,11 @@ Compatibilidad para utilizar variables de temas dentro de fragmentos de contenid
 
 **Referencias:** [ATU-5460](https://jira.corp.adobe.com/browse/ATU-5460)
 
----
+&#x200B;---
 
 ## ➕ Crear DOCAC (mejoras)
 
-### [NEO-92942](https://jira.corp.adobe.com/browse/NEO-92942) - Filtros predefinidos - Opción compartida
-**Estado:** Resuelto\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-13697](https://jira.corp.adobe.com/browse/DOCAC-13697) (Revisión de código), [DOCAC-13522](https://jira.corp.adobe.com/browse/DOCAC-13522) (Cerrado - Ayudante)\
-**Acción:** revisar DOCAC
+### [NEO-92942](https://jira.corp.adobe.com/browse/NEO-92942) - Filtros predefinidos - Opción compartida&#x200B;**Estado:** Resuelto\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-13697](https://jira.corp.adobe.com/browse/DOCAC-13697) (Revisión de código), [DOCAC-13522](https://jira.corp.adobe.com/browse/DOCAC-13522) (Cerrado - Ayudante)\**Acción:** revisar DOCAC
 
 **Ámbito:**
 - Opción compartida para filtros predefinidos
@@ -206,13 +170,9 @@ Los filtros predefinidos ahora se pueden marcar como &quot;compartidos&quot; par
 
 **Referencias:** relacionadas con [NEO-88441](https://jira.corp.adobe.com/browse/NEO-88441)
 
----
+&#x200B;---
 
-### [NEO-91299](https://jira.corp.adobe.com/browse/NEO-91299) - Actividad de entrega continua
-**Estado:** Cerrado\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-13586](https://jira.corp.adobe.com/browse/DOCAC-13586) (Nuevo), [DOCAC-13808](https://jira.corp.adobe.com/browse/DOCAC-13808) (Cerrado: ayuda contextual)\
-**Acción:** Actualizar DOCAC
+### [NEO-91299](https://jira.corp.adobe.com/browse/NEO-91299) - Actividad de entrega continua&#x200B;**Estado:** Cerrado\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-13586](https://jira.corp.adobe.com/browse/DOCAC-13586) (Nuevo), [DOCAC-13808](https://jira.corp.adobe.com/browse/DOCAC-13808) (Cerrado: ayuda contextual)\**Acción:** Actualizar DOCAC
 
 **Ámbito:**
 - Actividad de flujo de trabajo de entrega continua
@@ -227,13 +187,9 @@ La actividad de envío continuo para flujos de trabajo permite la ejecución de 
 
 **Referencias:** Épica relacionada [NEO-67972](https://jira.corp.adobe.com/browse/NEO-67972)
 
----
+&#x200B;---
 
-### [NEO-90130](https://jira.corp.adobe.com/browse/NEO-90130): habilitar la carga de archivos OOTB para notificaciones push multilingües
-**Estado:** Cerrado\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-13606](https://jira.corp.adobe.com/browse/DOCAC-13606) (Nuevo)\
-**Acción:** Actualizar DOCAC
+### [NEO-90130](https://jira.corp.adobe.com/browse/NEO-90130): habilitar la carga de archivos OOTB para notificaciones push multilingües&#x200B;**Estado:** Cerrado\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-13606](https://jira.corp.adobe.com/browse/DOCAC-13606) (Nuevo)\**Acción:** Actualizar DOCAC
 
 **Ámbito:**
 - Carga de archivos para notificaciones push multilingües (iOS y Android)
@@ -247,77 +203,53 @@ Capacidad de carga de archivos OOTB para crear envíos de notificaciones push mu
 
 **Referencias:** [Documentación de ACS](https://experienceleague.adobe.com/en/docs/campaign-standard/using/communication-channels/push-notifications/generating-csv-multilingual-push)
 
----
+&#x200B;---
 
 ## ❌ Cancelado/Ya No Se Aplica
 
-### [NEO-91566](https://jira.corp.adobe.com/browse/NEO-91566): compatibilidad con el seguimiento de CTA en webui
-**Estado:** Cerrado (Ya No Se Aplica)\
-Se requiere **Doc:** No\
-**DOCAC existente:** [DOCAC-13821](https://jira.corp.adobe.com/browse/DOCAC-13821) (Nuevo)\
-**Acción:** Cerrar DOCAC
+### [NEO-91566](https://jira.corp.adobe.com/browse/NEO-91566): compatibilidad con el seguimiento de CTA en webui&#x200B;**Estado:** Cerrado (Ya No Se Aplica)\Se requiere **Doc:** No\**DOCAC existente:** [DOCAC-13821](https://jira.corp.adobe.com/browse/DOCAC-13821) (Nuevo)\**Acción:** Cerrar DOCAC
 
 **Motivo:** Nueva característica de ACS compatible con MSFT: no iniciada, con información pendiente de MSFT, no se esperaba ningún trabajo de interfaz de usuario
 
 **Contexto:** requisito de seguimiento CTA específico de Microsoft
 
----
+&#x200B;---
 
-### [NEO-91564](https://jira.corp.adobe.com/browse/NEO-91564): compatibilidad con IU multilingüe de AEM
-**Estado:** Cerrado (Ya No Se Aplica)\
-Se requiere **Doc:** No\
-**DOCAC existente:** [DOCAC-13822](https://jira.corp.adobe.com/browse/DOCAC-13822) (Nuevo)\
-**Acción:** Cerrar DOCAC
+### [NEO-91564](https://jira.corp.adobe.com/browse/NEO-91564): compatibilidad con IU multilingüe de AEM&#x200B;**Estado:** Cerrado (Ya No Se Aplica)\Se requiere **Doc:** No\**DOCAC existente:** [DOCAC-13822](https://jira.corp.adobe.com/browse/DOCAC-13822) (Nuevo)\**Acción:** Cerrar DOCAC
 
 **Razón:** trabajo en la interfaz de usuario administrado por el equipo de Himanshu (historia diferente)
 
 **Contexto:** requisito de Microsoft, trabajo transferido
 
----
+&#x200B;---
 
-### [NEO-91567](https://jira.corp.adobe.com/browse/NEO-91567) - Agregar compatibilidad con la función NRT
-**Estado:** Resuelto (Ya No Se Aplica)\
-Se requiere **Doc:** No\
-**DOCAC existente:** [DOCAC-13824](https://jira.corp.adobe.com/browse/DOCAC-13824) (Nuevo)\
-**Acción:** Cerrar DOCAC
+### [NEO-91567](https://jira.corp.adobe.com/browse/NEO-91567) - Agregar compatibilidad con la función NRT&#x200B;**Estado:** Resuelto (Ya No Se Aplica)\Se requiere **Doc:** No\**DOCAC existente:** [DOCAC-13824](https://jira.corp.adobe.com/browse/DOCAC-13824) (Nuevo)\**Acción:** Cerrar DOCAC
 
 **Razón:** Nueva característica específica de ACS para MSFT: especificación disponible, pero sin impacto en la interfaz de usuario web
 
 **Contexto:** requisito de Microsoft, mensajería transaccional
 
----
+&#x200B;---
 
-### [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563): API REST transaccional para enriquecimiento basado en perfiles
-**Estado:** Resuelto (Ya No Se Aplica)\
-Se requiere **Doc:** No\
-**DOCAC existente:** [DOCAC-13825](https://jira.corp.adobe.com/browse/DOCAC-13825) (Nuevo)\
-**Acción:** Cerrar DOCAC
+### [NEO-91563](https://jira.corp.adobe.com/browse/NEO-91563): API REST transaccional para enriquecimiento basado en perfiles&#x200B;**Estado:** Resuelto (Ya No Se Aplica)\Se requiere **Doc:** No\**DOCAC existente:** [DOCAC-13825](https://jira.corp.adobe.com/browse/DOCAC-13825) (Nuevo)\**Acción:** Cerrar DOCAC
 
 **Motivo:** No funciona la interfaz de usuario web, la instancia actualizada está pendiente y la actualización de la compilación es obligatoria para el lanzamiento
 
 **Contexto:** característica de extremo de API de REST
 
----
+&#x200B;---
 
-### [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) - Mensajería transaccional de enriquecimiento basada en perfiles Fase 2
-**Estado:** Resuelto (Ya No Se Aplica)\
-Se requiere **Doc:** No\
-**DOCAC existente:** [DOCAC-13823](https://jira.corp.adobe.com/browse/DOCAC-13823) (Nuevo)\
-**Acción:** Cerrar DOCAC
+### [NEO-92151](https://jira.corp.adobe.com/browse/NEO-92151) - Mensajería transaccional de enriquecimiento basada en perfiles Fase 2&#x200B;**Estado:** Resuelto (Ya No Se Aplica)\Se requiere **Doc:** No\**DOCAC existente:** [DOCAC-13823](https://jira.corp.adobe.com/browse/DOCAC-13823) (Nuevo)\**Acción:** Cerrar DOCAC
 
 **Motivo:** La historia no tiene tareas, marcadas como &quot;ya no se aplica&quot;
 
 **Contexto:** requisito de Microsoft, proyecto Europa
 
----
+&#x200B;---
 
 ## 🟢 Documentación Lista (Desde AC-UI-25-11)
 
-### [NEO-90183](https://jira.corp.adobe.com/browse/NEO-90183) - Inserción enriquecida multilingüe - IU
-**Estado:** Cerrado\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-13565](https://jira.corp.adobe.com/browse/DOCAC-13565) (Nuevo)\
-**Acción:** revisar DOCAC
+### [NEO-90183](https://jira.corp.adobe.com/browse/NEO-90183) - Inserción enriquecida multilingüe - IU&#x200B;**Estado:** Cerrado\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-13565](https://jira.corp.adobe.com/browse/DOCAC-13565) (Nuevo)\**Acción:** revisar DOCAC
 
 **Ámbito:**
 - Campos push enriquecidos para envíos multilingües
@@ -331,13 +263,9 @@ Compatibilidad con notificaciones push enriquecidas con funciones multilingües,
 
 **Referencias:** [Wiki](https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=neolane&title=Rich+push+fields+in+multilingual)
 
----
+&#x200B;---
 
-### [NEO-84916](https://jira.corp.adobe.com/browse/NEO-84916): configure y administre el proceso de aprobación
-**Estado:** Resuelto\
-Se requiere **Doc:** Sí\
-**DOCAC existente:** [DOCAC-13827](https://jira.corp.adobe.com/browse/DOCAC-13827) (Nuevo)\
-**Acción:** Actualizar DOCAC
+### [NEO-84916](https://jira.corp.adobe.com/browse/NEO-84916): configure y administre el proceso de aprobación&#x200B;**Estado:** Resuelto\Se requiere **Doc:** Sí\**DOCAC existente:** [DOCAC-13827](https://jira.corp.adobe.com/browse/DOCAC-13827) (Nuevo)\**Acción:** Actualizar DOCAC
 
 **Ámbito:**
 - Configuración de operadores de validación en entrega/campaña
@@ -352,7 +280,7 @@ Gestión del proceso de aprobación que permite flujos de trabajo de validación
 
 **Referencias:** [Documentación clásica](https://experienceleague.adobe.com/en/docs/campaign-classic/using/orchestrating-campaigns/orchestrate-campaigns/marketing-campaign-approval), [Burlas de Figma](https://www.figma.com/design/r2vpqXoVyI3aucKgkt8TLN/Approvals)
 
----
+&#x200B;---
 
 ## 📊 resumen por acción
 
@@ -364,7 +292,7 @@ Gestión del proceso de aprobación que permite flujos de trabajo de validación
 | ❌ Cerrar DOCAC | 5 |
 | **Total** | **17** |
 
----
+&#x200B;---
 
 ## ⚠️ preguntas abiertas
 
@@ -374,7 +302,7 @@ Gestión del proceso de aprobación que permite flujos de trabajo de validación
 4. NEO-88838: variables de tema, en espera, pendiente de revisión de la función de Acrite
 5. Informes dinámicos: aclare las métricas conflictivas y muestre las directrices con los informes heredados
 
----
+&#x200B;---
 
 ## 🔗 épicas relacionadas
 
