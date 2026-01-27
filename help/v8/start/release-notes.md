@@ -3,9 +3,9 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: e5e08dcd1813c8eba608ba3a7b659dcd6d98d985
+source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '697'
 ht-degree: 21%
 
 ---
@@ -28,11 +28,12 @@ El **nuevo conector de envío de SMS** ya está disponible para todos los client
 
 Esta versión incorpora un conjunto de funcionalidades disponibles con la interfaz de usuario web de Campaign:
 
-* Funciones de envío multilingües (GA)
-* Enriquecimiento de perfil en mensajes transaccionales (GA)
-* Adobe Experience Manager live y copias de idioma
-* Experimentos de contenido: pruebas A/B
-* Actividad de envío continuo
+* [Funciones de envío multilingüe (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Copias de Adobe Experience Manager en vivo y de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html)
+* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html)
+* [Administración de aprobación de campaña](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html)
 
 Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es){target="_blank"} de la IU web de Campaign
 

@@ -5,10 +5,10 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: 6693bb8a62c0d126b871dc24a75b76de71b86f8d
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 96%
+source-wordcount: '737'
+ht-degree: 89%
 
 ---
 
@@ -30,7 +30,7 @@ Dos métodos SOAP **PushEvent** o **PushEvents** están vinculados a los dos esq
 La ruta WSDL para acceder a ambos métodos es:
 
 * **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:rtEvent** para acceder al esquema de tipo en tiempo real.
-* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** para acceder al esquema de tipo por lote.
+* **http://hostname/nl/jsp/schemawsdl.jsp?schema=nms:batchEvent** para acceder al esquema de tipo por lotes.
 
 Ambos métodos contienen un elemento **`<urn:sessiontoken>`** para iniciar sesión en el módulo de mensajes transaccionales. Se recomienda utilizar un método de identificación a través de direcciones IP de confianza. Para recuperar el símbolo de sesión, realice una llamada SOAP de inicio de sesión y obtenga el autentificador seguido de un cierre de sesión. Utilice el mismo símbolo para varias llamadas de RT. Los ejemplos incluidos en esta sección utilizan el método de símbolo de sesión, que es el recomendado.
 
@@ -100,13 +100,13 @@ Ejemplo con PushEvents:
 </urn:PushEvents>
 ```
 
-Los elementos **`<rtevent>`** y **`<batchevent>`** tienen un conjunto de atributos así como un elemento secundario obligatorio: **`<ctx>`** para integrar datos de mensajes.
+Los elementos **`<rtevent>`** y **`<batchEvent>`** tienen un conjunto de atributos así como un elemento secundario obligatorio: **`<ctx>`** para integrar datos de mensajes.
 
 >[!NOTE]
 >
->El elemento **`<batchevent>`** permite añadir el evento a la cola “por lotes”. El elemento **`<rtevent>`** añade el evento a la cola “en tiempo real”.
+>El elemento **`<batchEvent>`** permite añadir el evento a la cola “por lotes”. El elemento **`<rtevent>`** añade el evento a la cola “en tiempo real”.
 
-Los atributos obligatorios de los elementos **`<rtevent>`** y **`<batchevent>`** son @type y @email. El valor de @type debe ser el mismo que el valor de la lista desglosada definido al configurar la instancia de ejecución. Este valor permite definir la plantilla que se va a vincular al contenido del evento durante la entrega.
+Los atributos obligatorios de los elementos **`<rtevent>`** y **`<batchEvent>`** son @type y @email. El valor de @type debe ser el mismo que el valor de la lista desglosada definido al configurar la instancia de ejecución. Este valor permite definir la plantilla que se va a vincular al contenido del evento durante la entrega.
 
 `<rtevent> configuration example:`
 
@@ -122,7 +122,7 @@ Se recomienda rellenar los atributos @wishedChannel y @emailFormat con valores n
 
 >[!NOTE]
 >
->Una descripción detallada de todos los atributos autorizados, así como sus valores, están disponibles en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
+>Hay disponible una descripción detallada de todos los atributos autorizados, así como sus valores, en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
 
 El elemento **`<ctx>`** contiene los datos del mensaje. Su contenido XML está abierto, lo que significa que se puede configurar según el contenido que se va a enviar.
 
