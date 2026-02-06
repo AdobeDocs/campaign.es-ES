@@ -5,7 +5,7 @@ feature: Configuration
 role: User
 level: Beginner
 exl-id: 50c254ba-cc33-49b2-b7d5-12aa69883c07
-source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
+source-git-commit: 631c4986d24daeff870412566318adb170ce040f
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 77%
@@ -22,7 +22,7 @@ Los mecanismos de protección y las limitaciones identifican funcionalidades, ar
 
 * Adobe Campaign v8 no está disponible para implementaciones locales o híbridas; solo se presenta como servicio en la nube administrado por Adobe
 * No hay ninguna migración automática a Adobe Campaign v8 disponible para los clientes existentes
-* En el contexto de una [implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), no se proporciona replicación de datos bidireccional: la replicación solo se produce de la base de datos local de Campaign a la base de datos en la nube
+* En el contexto de una [implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md), no se proporciona replicación de datos bidireccional: la replicación solo se produce de la base de datos local de Campaign a la base de datos en la nube
 * Las capacidades enumeradas [en esta sección](v7-to-v8.md#gs-unavailable-features) no están disponibles en la versión actual de Campaign v8
 * Algunas funciones no disponibles o eliminadas siguen estando visibles en la interfaz de usuario
 * En el contexto de una [implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), los mecanismos de suscripción (inclusión) y baja (exclusión) y el registro móvil son procesos asincrónicos. Las solicitudes se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](../architecture/replication.md#tech-wf)
