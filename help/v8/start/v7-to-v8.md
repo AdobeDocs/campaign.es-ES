@@ -5,7 +5,7 @@ feature: Overview
 role: User
 level: Beginner
 exl-id: 00ba1c43-9558-4adb-83a1-6597c2bbca62
-source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
+source-git-commit: 334b327c7798c78fcfa90e90afe04896959037eb
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 76%
@@ -55,11 +55,11 @@ Obtenga más información acerca del envío de pruebas de mensajes transaccional
 
 ## [!DNL Campaign] y [!DNL Snowflake] {#ac-gs-snowflake}
 
-En su implementación [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: una base de datos [!DNL Campaign] local para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una base de datos [!DNL Snowflake] de la nube para la ejecución de campañas, consultas por lotes y la ejecución del flujo de trabajo.
+En su implementación [Enterprise (FDAC) Deployment](../../v8/architecture/enterprise-deployment.md), [!DNL Adobe Campaign] v8 funciona con dos bases de datos: una base de datos [!DNL Campaign] local para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una base de datos [!DNL Snowflake] de la nube para la ejecución de campañas, consultas por lotes y la ejecución del flujo de trabajo.
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FDAC) simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 
-Obtenga más información acerca de la arquitectura de [!DNL Campaign] v8 en [esta página](../architecture/architecture.md).
+Obtenga más información acerca de la arquitectura de [!DNL Campaign] v8 en [esta página](../../v8/architecture/architecture.md).
 
 
 ## Utilice su Adobe ID para conectarse a Campaign{#adobe-id}
@@ -76,7 +76,7 @@ Los informes cubo de Adobe Campaign versión 8 están optimizados y disponen de 
 
 ## Funciones no disponibles{#gs-unavailable-features}
 
-Tenga en cuenta que algunas funcionalidades no están disponibles en el contexto de una [implementación empresarial (FDAC)](../architecture/enterprise-deployment.md) de Campaign, como la siguiente:
+Tenga en cuenta que algunas funcionalidades no están disponibles en el contexto de una [implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md) de Campaign, como la siguiente:
 
 * Administración de recursos de marketing
 * Cupones
