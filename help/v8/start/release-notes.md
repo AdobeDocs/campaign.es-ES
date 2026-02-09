@@ -3,10 +3,10 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 981fa2029528cac5806da7c39aec3a2e6de0bf56
+source-git-commit: 4fe8b8eaf88f763e796dbe06ef3c1477de12bad6
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 20%
+source-wordcount: '921'
+ht-degree: 18%
 
 ---
 
@@ -28,12 +28,12 @@ El **nuevo conector de envío de SMS** ya está disponible para todos los client
 
 Esta versión incorpora un conjunto de funcionalidades disponibles con la interfaz de usuario web de Campaign:
 
-* [Funciones de envío multilingüe (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=es){target="_blank"}
-* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=es){target="_blank"}
-* [Copias de Adobe Experience Manager en vivo y de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=es){target="_blank"}
-* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=es){target="_blank"}
-* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=es){target="_blank"}
-* [Administración de aprobación de campaña](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=es){target="_blank"}
+* [Funciones de envío multilingüe (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Copias de Adobe Experience Manager en vivo y de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Administración de aprobación de campaña](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es){target="_blank"} de la IU web de Campaign
 
@@ -52,36 +52,43 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 
 ### Correcciones {#fixes-8-9-1}
 
-* Se ha corregido un problema por el cual los informes dinámicos mostraban recuentos incorrectos al agruparse por determinadas columnas. (NEO-86898)
-* Se han resuelto discrepancias entre los informes dinámicos y los datos de campaña reales. (NEO-88068)
-* Se han corregido problemas de concatenación con los tipos de campo &quot;char&quot; de PostgreSQL que provocaban resultados inesperados en las consultas. (NEO-87769)
-* Se ha corregido un problema por el que el comando logInfo de JavaScript no gestionaba correctamente ciertos parámetros. (NEO-88263)
-* Se han resuelto problemas de bloqueo de sincronización en el procesamiento de eventos en tiempo real del Centro de mensajes. (NEO-88330)
-* Se ha corregido un problema en el cual el Editor visual aplicaba automáticamente un nuevo formato al contenido de HTML, lo que producía cambios de diseño. (NEO-88409)
-* Se ha corregido un problema por el que la actividad Deduplicación no funcionaba correctamente con esquemas temporales. (NEO-88577)
-* Se ha corregido un problema que impedía que se generaran direcciones semilla al enviar pruebas. (NEO-88720)
-* Se ha mejorado el rendimiento de las consultas PostgreSQL al optimizar el control de columnas de partición. (NEO-88771)
-* Se ha resuelto un problema en el cual las actividades de transferencia de archivos no gestionaban correctamente los caracteres de continuación de línea. (NEO-88812)
-* Optimización de la consulta PostgreSQL mejorada para un mejor rendimiento en conjuntos de datos grandes. (NEO-88885)
-* Se ha corregido el error &quot;Permiso denegado&quot; que impedía que se abrieran las campañas híbridas. (NEO-88955)
-* Compatibilidad ampliada con funciones de código de barras para gestionar cadenas de texto más largas. (NEO-88958)
-* Se corrigió un error en los registros de campaña que se producía al utilizar pruebas con envíos recurrentes. (NEO-88976)
-* Se ha corregido un problema que afectaba a las operaciones de envío de correo electrónico en determinados escenarios. (NEO-89019)
-* Se ha resuelto un problema en el cual el modo de inicio del flujo de trabajo cambiaba inesperadamente de Inmediato a Normal. (NEO-89025)
-* Se han corregido errores que se producían al ejecutar la actividad Actualizar datos en condiciones específicas. (NEO-89031)
-* Se ha corregido un problema en el cual la actividad Actualizar datos perdía metadatos de esquema personalizados. (NEO-89056)
-* Se ha corregido un error de validación que se producía durante la preparación de la entrega. (NEO-89063)
-* Se ha resuelto la generación de SQL no válido cuando las consultas contenían filtros en relaciones de vínculo 1-1. (NEO-89065)
-* Se ha corregido un problema en el cual la actividad Consulta incremental no respetaba el límite de tamaño configurado. (NEO-89066)
-* Rendimiento de flujo de trabajo mejorado en implementaciones de FDAC para operaciones a gran escala. (NEO-89098)
-* Administración y estabilidad de memoria mejoradas para procesos de flujo de trabajo. (NEO-89105)
-* Se habilitó la validación estricta de columnas para formularios web para evitar incoherencias en los datos. (NEO-89111)
-* Se han resuelto problemas de sincronización del Centro de mensajes que provocaban retrasos de procesamiento. (NEO-89138)
-* Se corrigieron errores en el flujo de trabajo &quot;Actualizar la entrega&quot; que impedían la ejecución adecuada. (NEO-89160)
-* Se corrigieron errores que se producían al ejecutar actividades de código JavaScript en flujos de trabajo. (NEO-89169)
-* Se han eliminado las configuraciones de Snowflake data warehouse codificadas para permitir una configuración correcta de cuenta externa. (NEO-89201)
-* Se corrigieron 403 errores prohibidos que se producían durante las operaciones de transferencia de archivos de flujo de trabajo. (NEO-89226)
-* Consultas lentas optimizadas en la tabla de destinatarios en implementaciones de FDAC. (NEO-89268)
-* Se ha corregido un problema en el cual las actividades de consulta incrementales ignoraban las programaciones configuradas. (NEO-89317)
-* Se han resuelto errores de acceso al abrir campañas en entornos híbridos. (NEO-89320)
+* Se corrigió un problema en el cual la estructura de la base de datos no se podía actualizar después de cambios en sysFilter. (NEO-93306)
+* Se ha resuelto un problema por el que faltaban datos de informes dinámicos después de la migración. (NEO-92962)
+* Se ha corregido un problema en el cual el estado de entrega no se actualizaba correctamente. (NEO-92908)
+* Se ha añadido una solución para la restricción CATÁLOGO DE USO DE FDA de Databricks. (NEO-92900)
+* Se ha corregido un problema en el cual el Editor visual dañaba el diseño de HTML en el escritorio de Outlook Windows. (NEO-92611)
+* Se ha resuelto un problema crítico de integridad de datos en el que las claves principales de entrega se duplicaban en la instancia media después de la actualización. (NEO-92424)
+* Se ha corregido un problema en el cual los vínculos no se podían deshabilitar en el Seguimiento e imágenes (Cuadro de diálogo) de una entrega. (NEO-92381)
+* Se ha corregido un problema por el que la función nms.subscription.RecipientSubscribe() no funcionaba para la suscripción masiva. (NEO-92308)
+* Se ha resuelto un problema en el cual se producían errores de envío debido a la falta de piezas de envío después de la actualización. (NEO-92278)
+* Se ha corregido un problema en el flujo de trabajo de seguimiento. (NEO-92239)
+* Se ha resuelto un problema en el cual faltaban referencias de enumeración temporales en el XML de lista después de la creación de la lista mediante un flujo de trabajo. (NEO-91158)
+* Se ha corregido un problema en el cual el cuadro de diálogo Publicación de RT/Cancelar la publicación no se cerraba ni se bloqueaba. (NEO-91038)
+* Se ha resuelto un problema en el cual los destinatarios que se quedaban con el estado &quot;Tenido en cuenta por el proveedor de servicios&quot; no llegaban a Momentum. (NEO-90927)
+* Se ha corregido un problema por el que el origen de la suscripción (o cancelarla) faltaba en la versión 8 para los vínculos de no participación. (NEO-90714)
+* Se corrigió un problema en el cual la adición de cupones fallaba en la preparación de envíos. (NEO-90547)
+* Se ha corregido un problema por el cual Insertar recuento de rechazos no se reflejaba con precisión en la pestaña Auditoría. (NEO-90318)
+* Se ha resuelto un problema de seguridad que podría provocar la denegación de servicio de la aplicación. (NEO-89984)
+* Se ha corregido un problema por el cual el PDF descargado del informe de clic interactivo estaba dañado. (NEO-89954)
+* Se ha resuelto un error de SSL que se producía después de la actualización y que provocaba un EOF inesperado al leer errores. (NEO-89108)
+* Se corrigió un problema en el cual no se podían consultar los datos en el esquema de datos después de la actualización. (NEO-88663)
+* Se ha corregido un error que se producía al concatenar un campo &quot;char&quot; en PostgreSQL 15. (NEO-88028)
+* Se ha corregido un problema en el cual el orden de las variables de plantilla de envíos cambiaba al guardar o duplicar la plantilla. (NEO-87845)
+* Se ha resuelto un problema en el cual la interfaz web se bloqueaba al crear un nuevo esquema de biblioteca de datos. (NEO-87816)
+* Se ha corregido un problema en el cual el código de segmento del conjunto de complementos de la actividad de anulación de duplicación no funcionaba. (NEO-87711)
+* Se ha resuelto una solicitud de paquete de instalación sin dependencia de X11. (NEO-87471)
+* Se ha corregido un problema en el cual los códigos de segmento no se podían usar en informes dinámicos. (NEO-87276)
+* Se ha resuelto un problema en el cual los flujos de trabajo se quedaban atascados en la actividad Actualizar datos. (NEO-87252)
+* Se ha corregido un problema por el cual BigQuery usaba una zona horaria incorrecta. (NEO-86622)
+* Se ha corregido un error de JavaScript que se producía al evaluar el script &quot;mcSynch_mcExec1/jsReplicateUrl&quot;. (NEO-86553)
+* Se ha resuelto un problema en el cual aparecían eventos duplicados en la tabla eventHisto debido al método de cálculo de identificador. (NEO-86544)
+* Se ha corregido un problema en el cual la pestaña Avanzado no se mostraba para iOS Push upon copy. (NEO-86231)
+* Se ha resuelto un problema en el cual el flujo de trabajo Replicar tablas de referencia no podía replicar el esquema nms:delivery. (NEO-85884)
+* Se ha corregido un problema en el cual los errores de dominio nulo correspondientes a las direcciones MXIP aparecían en los registros de errores al realizar entregas. (NEO-85238)
+* Se ha añadido una forma de actualizar las plantillas de envío técnicas después de cualquier cambio que se haya realizado en las opciones. (NEO-84149)
+* Se ha corregido un error en el flujo de trabajo de facturación predeterminado. (NEO-83624)
+* Se ha resuelto un problema con la exclusión de duplicados basados únicamente en la clave principal de los registros de destino. (NEO-82910)
 * Se han corregido discrepancias en los informes de la interfaz de usuario web de Campaign en los que las estadísticas de seguimiento mostraban valores diferentes en comparación con la consola. Los informes Indicadores de seguimiento, Resumen de envío y Flujos de clic en URL ahora muestran métricas coherentes en ambas interfaces. (NEO-82339)
+* Se ha corregido un problema por el cual la última fecha de modificación cambiaba aunque el registro no se actualizara en la actividad Actualizar datos. (NEO-82002)
+* Se ha corregido un problema en el cual la adición de nuevos atributos en una lista provocaba que fallaran los flujos de trabajo que leían la lista. (NEO-80258)
+* Se ha resuelto una anomalía en el informe Indicadores de seguimiento. (NEO-79466)
