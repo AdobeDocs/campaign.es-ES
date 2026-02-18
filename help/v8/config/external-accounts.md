@@ -5,9 +5,9 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-source-git-commit: a0aadd7e991dcceb5646f0afbc9cb1534e459e2c
+source-git-commit: 776a0e5eead9161b7e2c9d7746c72cba42ea42cb
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1280'
 ht-degree: 9%
 
 ---
@@ -44,7 +44,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
 La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-Obtenga más información acerca de los correos electrónicos entrantes en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=es){target="_blank"}.
+Obtenga más información acerca de los correos electrónicos entrantes en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -101,7 +101,7 @@ La cuenta externa de tipo **Base de datos externa** se usa para conectarse a una
 >
 >Las bases de datos externas compatibles con Adobe Campaign v8 se enumeran en la [Matriz de compatibilidad](../start/compatibility-matrix.md). Las conexiones FDA utilizan controladores ODBC; con Adobe Campaign Managed Cloud Services, Adobe configura el controlador ODBC y la configuración de cuentas externas.
 
-Las opciones de configuración de cuenta externa dependen del motor de la base de datos. Con Adobe Campaign Managed Cloud Services, la configuración de cuentas externas la realiza Adobe. Obtenga más información acerca de esta configuración en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}.
+Las opciones de configuración de cuenta externa dependen del motor de la base de datos. Con Adobe Campaign Managed Cloud Services, la configuración de cuentas externas la realiza Adobe. Obtenga más información acerca de esta configuración en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}.
 
 #### Cuenta externa de Databricks {#databricks-external-accounts}
 
@@ -113,7 +113,7 @@ Para configurar la autenticación OAuth2 a través de la entidad de seguridad de
 
 1. El administrador del espacio de trabajo de Databricks habilita las principales de servicio en el espacio de trabajo de Databricks y genera credenciales. Para autorizar el acceso a los recursos de Databricks de Azure con OAuth, cree un secreto de OAuth (utilizado para generar tokens de acceso de OAuth para la autenticación).
 2. En Adobe Campaign, cree o edite una cuenta externa de Databricks y abra la pestaña **OAuth**.
-3. Pegue las credenciales en el campo **Secret** de la pestaña OAuth en la cuenta externa de Databricks.
+3. Pegue las credenciales en los campos de la pestaña OAuth de la cuenta externa Databricks.
 4. Use **[!UICONTROL Test the connection]** para validar la configuración.
 
 ### X (anteriormente conocido como Twitter) {#twitter-external-account}
@@ -145,7 +145,7 @@ Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Cam
 
   >[!NOTE]
   >
-  >A partir de la versión 8.5, ahora puede autenticarse de forma segura con una clave privada al configurar su cuenta externa SFTP. [Más información sobre la administración de claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es){target="_blank"}.
+  >A partir de la versión 8.5, ahora puede autenticarse de forma segura con una clave privada al configurar su cuenta externa SFTP. [Más información sobre la administración de claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon Simple Storage Service (S3)**: el conector **AWS S3** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Al configurar esta nueva cuenta externa, debe proporcionar los siguientes detalles:
 
