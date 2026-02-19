@@ -1,19 +1,21 @@
 ---
 title: Complemento de seguridad mejorada de Campaign
-description: Introducción al complemento de seguridad mejorada de Campaign
+description: Directrices de configuración segura para el complemento de seguridad mejorada de Campaign
 feature: Configuration
 role: Developer
 level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
-source-git-commit: 3f36d7c425dd5a9a13e1de7a77371b29a462dbea
+source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 3%
+source-wordcount: '743'
+ht-degree: 2%
 
 ---
 
 
 # Complemento de seguridad mejorada de Campaign {#enhanced-security}
+
+Esta página forma parte de las [directrices de configuración segura recomendadas de uso público](security.md#public-guidance) de Adobe para la versión 8 de Campaign.
 
 Para hacer que la conexión de red sea más segura y proporcionar una seguridad mejorada para los recursos, [!DNL Adobe Campaign] ofrece un nuevo complemento de **seguridad mejorada**.
 
