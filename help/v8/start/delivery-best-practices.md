@@ -6,7 +6,7 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
-source-git-commit: 096c453f727b461a7b09a47282e186e91ffc847e
+source-git-commit: 7bfe0ac7ba99ebf26844d2cea14a75f32ecb8b74
 workflow-type: tm+mt
 source-wordcount: '3068'
 ht-degree: 64%
@@ -17,7 +17,7 @@ ht-degree: 64%
 
 Lea las siguientes prácticas recomendadas con las funciones de envío de Campaign.
 
-## Optimización de las envíos {#optimize-delivery}
+## Optimización de las entregas {#optimize-delivery}
 
 Antes de empezar a crear envíos, puede realizar varias acciones para proteger y optimizar el proceso de envío de forma ascendente. En la siguiente sección se describen las prácticas recomendadas y los procedimientos recomendados para una configuración óptima de Adobe Campaign.
 
@@ -32,7 +32,7 @@ Para evitarlo, coordine la programación de las entregas con los demás miembros
 
 * Ejecución del flujo de trabajo: La monitorización de sus flujos de trabajo es esencial para evitar problemas de rendimiento de la plataforma. Siga las directrices enumeradas [en este documento](../../automation/workflow/workflow-best-practices.md#execution-and-performance).
 
-* Conéctese a sus [funciones de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/es/docs/control-panel/using/discover-control-panel/key-features){target="_blank"} para monitorizar su plataforma mediante las funciones de [supervisión del rendimiento](https://experienceleague.adobe.com/es/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}.
+* Conéctese a sus [funciones de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/en/docs/control-panel/using/discover-control-panel/key-features){target="_blank"} para monitorizar su plataforma mediante las funciones de [supervisión del rendimiento](https://experienceleague.adobe.com/en/docs/control-panel/using/performance-monitoring/about-performance-monitoring){target="_blank"}.
 
 #### Administración de cuarentena {#quarantine-management}
 
@@ -41,9 +41,9 @@ Le conviene mantener buenos procesos de gestión de cuarentenas.
 Al comenzar a enviar correos electrónicos en una nueva plataforma, puede utilizar una lista de direcciones que no esté totalmente confirmada. Si realiza envíos a direcciones no válidas o a direcciones honeypot (bandejas de entrada creadas únicamente para engañar a remitentes de correo electrónico no deseado), la reputación de su plataforma comenzará a reducirse. Unos procesos de administración de cuarentena adecuados ayudan a mantener la calidad de la dirección, evitar la lista de bloqueados de los proveedores de acceso a internet, y reducir la tasa de errores para acelerar los envíos y el rendimiento.
 
 
-Obtenga más información sobre cómo iniciar una nueva plataforma en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}.
+Obtenga más información sobre cómo iniciar una nueva plataforma en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-starting-new-platform){target="_blank"}.
 
-Las recomendaciones técnicas se enumeran en [esta sección](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
+Las recomendaciones técnicas se enumeran en [esta sección](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations){target="_blank"}.
 
 
 +++ **Lea algunas prácticas recomendadas**
@@ -81,7 +81,7 @@ Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenario
 
 ### Subdominios y marca {#subdomains-and-branding}
 
-Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco posee el dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo. Obtenga más información acerca de la marca de subdominios en la [documentación de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/es/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
+Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco posee el dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo. Obtenga más información acerca de la marca de subdominios en la [documentación de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/en/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
 
 ### Configuración de direcciones {#configure-addresses}
 
@@ -103,6 +103,8 @@ Para configurar direcciones en la interfaz de Campaign, siga los pasos a continu
 1. En el campo **[!UICONTROL From]**, utilice un nombre fácilmente identificable por los destinatarios, como el nombre de su marca, para aumentar la velocidad de apertura de sus envíos. Para mejorar aún más la experiencia del destinatario, puede agregar el nombre de una persona como, por ejemplo, &quot;Emma de Megastore&quot;.
 
 1. En los campos **[!UICONTROL Reply address text]**, la dirección del remitente se utiliza de forma predeterminada para las respuestas. Sin embargo, Adobe recomienda utilizar una dirección real existente, como el servicio de atención al cliente de su marca. En este caso, si un destinatario envía una respuesta, el servicio de atención al cliente podrá atenderla.
+
++++
 
 ### Configuración de un grupo de control {#set-up-control-group}
 
@@ -128,11 +130,11 @@ Para personalizar los mensajes, puede utilizar los datos de destinatarios almace
 
 * Compruebe la configuración de personalización: asegúrese de que el contenido del mensaje está diseñado correctamente para evitar errores, que pueden estar relacionados con la personalización. Una etiqueta personalizada de Adobe Campaign siempre tiene el siguiente formulario: `<%=table.field%>`. El uso incorrecto de parámetros en bloques de personalización puede ser un problema. Por ejemplo: las variables en JavaScript deben usarse de la siguiente manera:
 
-  &grave;&grave;
+  ``
   <%
   var brand = "xxx"
   %>
-  &grave;&grave;
+  ``
 
   Para obtener más información acerca de los bloques personalizados, consulte [esta sección](../send/personalization-blocks.md).
 
@@ -184,7 +186,7 @@ Incluya siempre un vínculo de página espejo. La posición preferida es la part
 
 El vínculo de cancelación de suscripción es esencial. Debe ser visible y válido, y el formulario debe ser funcional. De manera predeterminada, cuando se analiza el mensaje, una regla de tipología **[!UICONTROL Unsubscription link approval]** [integrada](../../automation/campaign-opt/control-rules.md) comprueba si se ha incluido un vínculo de no participación y genera una advertencia si falta.
 
-Obtenga información sobre cómo insertar un vínculo de exclusión [en esta sección](../send/personalization-blocks.md).
+Obtenga información sobre cómo insertar un vínculo de no participación [en esta sección](../send/personalization-blocks.md).
 
 +++ **Aplicar esta práctica recomendada**
 
@@ -238,7 +240,7 @@ To avoid common formatting errors, check the following elements:
 
 * Usage of **authorized characters** in emails: the list of valid characters for email addresses is defined in the "XtkEmail_Characters" option. Learn how to access Campaign options [in this section](../../installation/using/configuring-campaign-options.md). To correctly handle special characters, Adobe Campaign needs to be installed in Unicode. 
 
-* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#authentication).-->
+* Configuration of **Email Authentication**: make sure that the email headers contain the DKIM signature. DKIM (Domain Keys Identified Mail) authentication allows the receiving email server to verify that a message was indeed sent by the person or entity it claims it was sent by, and whether the message content was altered in between the time it was originally sent (and DKIM "signed") and the time it was received. This standard typically uses the domain in the From or Sender header. For more on this, refer to the [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html#authentication).-->
 
 ## Administración de imágenes {#manage-images}
 
@@ -418,7 +420,7 @@ Puede utilizar reglas de tipología para excluir parte del destinatario según c
 
 ¿Ha hecho clic en el botón **Enviar**? Veamos qué pasa. Una vez entregado el envío, Adobe Campaign le permite realizar un seguimiento de los mensajes enviados y descubrir cómo reaccionan sus destinatarios al envío. Esto le ayudará a mejorar los envíos futuros y a optimizar sus próximas campañas.
 
-## Monitorización de las entregas {#monitoring-deliveries}
+## Monitorización de los envíos {#monitoring-deliveries}
 
 Para controlar sus campañas, debe asegurarse de que el mensaje se haya enviado a sus destinatarios.
 
