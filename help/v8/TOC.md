@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: 050612f6d7ab20aed5880454eec9cfc6e5fc18c2
+source-git-commit: 4626d93dea22e0ee458babfd53758c8c63a98ad4
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '840'
 ht-degree: 88%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 88%
    + [Problemas conocidos](start/known-issues.md)
    + [Matriz de compatibilidad](start/compatibility-matrix.md)
    + [Actualizaciones de la documentación](start/documentation-updates.md)
+   + [Informe de actualizaciones mensuales](../../monthly-updates-report.md)
 + Introducción {#new}
    + [Introducción a Adobe Campaign](start/get-started.md)
    + [Funcionalidades clave](start/whats-new.md)
@@ -138,7 +139,7 @@ ht-degree: 88%
       + [Creación de una lista de contactos](audiences/create-audiences.md)
       + [Compartir públicos con soluciones de Adobe](start/shared-audiences.md)
    + [Prácticas recomendadas](audiences/audiences-best-practices.md)
-   + [Administración de suscripciones](start/subscriptions.md)
+   + [Administración de las suscripciones](start/subscriptions.md)
 + Páginas de aterrizaje y Forms {#content}
    + [Creación de páginas de aterrizaje](dev/landing-pages.md)
    + [Diseño de aplicaciones y formularios web](dev/webapps.md)
@@ -172,7 +173,7 @@ ht-degree: 88%
       + [Introducción al seguimiento](send/tracking.md)
       + [Configuración de vínculos rastreados](send/tracked-links.md)
       + [Configuración de las opciones de seguimiento de URL](send/url-tracking.md)
-      + [Seguimiento de vínculos personalizados &#x200B;](send/personalized-links.md)
+      + [Seguimiento de vínculos personalizados ](send/personalized-links.md)
       + [Seguimiento de pruebas](send/testing-tracking.md)
       + [Acceder a registros de seguimiento](send/tracking-logs.md)
    + [Información general de monitorización de Campaign](start/monitor.md)
