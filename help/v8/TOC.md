@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
+source-git-commit: a81ec247d3c44c06aad977c0c58ad7916d6aa2a6
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '844'
 ht-degree: 88%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 88%
       + [Adjuntar archivos a un correo electrónico](send/attaching-files.md)
    + SMS {#sms}
       + [Introducción a los SMS](send/sms/sms.md)
-      + [Conectores SMS](send/sms/sms-connectors.md)
+      + [Acerca de los tipos de conectores SMS](send/sms/sms-connectors.md)
       + [Características del canal SMS](send/sms/sms-channel.md)
       + [Creación de un envío de SMS](send/sms/create-sms.md)
       + [Definición del contenido](send/sms/sms-content.md)
@@ -174,7 +174,7 @@ ht-degree: 88%
       + [Introducción al seguimiento](send/tracking.md)
       + [Configuración de vínculos rastreados](send/tracked-links.md)
       + [Configuración de las opciones de seguimiento de URL](send/url-tracking.md)
-      + [Seguimiento de vínculos personalizados &#x200B;](send/personalized-links.md)
+      + [Seguimiento de vínculos personalizados ](send/personalized-links.md)
       + [Seguimiento de pruebas](send/testing-tracking.md)
       + [Acceder a registros de seguimiento](send/tracking-logs.md)
    + [Información general de monitorización de Campaign](start/monitor.md)
