@@ -5,10 +5,10 @@ feature: SMS
 role: User, Developer
 level: Beginner
 exl-id: e2e2922a-2058-4588-b1b5-6997f29ee663
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 25%
+source-wordcount: '173'
+ht-degree: 28%
 
 ---
 
@@ -23,12 +23,11 @@ Después de esta configuración, compruebe su conexión SMPP y aprenda a solucio
 
 * Una plantilla de envíos de SMS vinculada correctamente a esta cuenta externa.
 
+Adobe Campaign admite dos conectores SMS utilizados para enviar mensajes SMS a sus clientes. [Más información](sms-connectors.md).
 
 >[!NOTE]
 >
 >También puede usar Adobe Campaign para enviar [notificaciones push](../push.md) y [LINE](../line/line.md) mensajes a dispositivos móviles.
->
-> Para los clientes que utilizan el conector SMS heredado, la implementación existente sigue siendo compatible. Sin embargo, se recomienda pasar al nuevo conector. Póngase en contacto con Adobe si desea realizar la transición.
 
 <table style="table-layout:fixed"><tr style="border: 0;">
 <td>

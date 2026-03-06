@@ -3,7 +3,7 @@ keywords: Campaign Classic;inicio;temas populares
 description: Encuentre ayuda en el centro de ayuda de Adobe Campaign v8. Obtenga información sobre novedades, mejoras y correcciones en la versión 8 de Campaign.
 title: Documentación del producto de Adobe Campaign v8
 exl-id: 6010b0f7-baf0-43ba-af9a-b8864f3897ea,9ff16fb1-d3d3-44fe-9016-15abffdbc74e
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 90%
@@ -18,7 +18,7 @@ Eche un vistazo a las mejoras más recientes del producto y la documentación de
 
 >[!BEGINTABS]
 
->[!TAB La versión 8.8 de Campaign está activa]
+>[!TAB La versión v8.9 de Campaign está activa]
 
 La última versión de Adobe Campaign ya está disponible. Lee las notas de la versión para obtener más información.
 
@@ -71,7 +71,7 @@ Some important changes to the Android Firebase Cloud Messaging (FCM) service wil
     </tr>
 </table>
 
-## Explore la documentación
+## Explora la documentación
 
 <table style="table-layout:auto">
   <tr style="border: 0;">

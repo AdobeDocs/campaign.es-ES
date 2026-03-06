@@ -5,20 +5,14 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: abab6f15-43ea-42fc-817b-8dbd88df82f7
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 22%
+source-wordcount: '1343'
+ht-degree: 23%
 
 ---
 
 # Características del canal SMS {#sms-channel}
-
->[!AVAILABILITY]
->
->Esta capacidad está disponible para todos los entornos de FDA de Campaign. Está **no** disponible para implementaciones de FDAC de Campaign. Esta documentación se aplica a Adobe Campaign 8.7.2 y versiones posteriores. Para cambiar del conector SMS heredado al nuevo, consulte esta [nota técnica](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/sms-migration){target="_blank"}
->
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Tipos de SMS {#sms-types}
 
