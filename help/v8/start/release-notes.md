@@ -3,16 +3,34 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: d18c876de44b367c79abb04a65fce0698ff6ff78
+source-git-commit: 3ce922319646fae03ad7f6757ffdd94804120144
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 17%
+source-wordcount: '1076'
+ht-degree: 18%
 
 ---
 
 # Últimas versiones {#latest-release}
 
 En esta página se indican las nuevas funciones, mejoras y correcciones que se incluyen con las **últimas versiones** de la versión 8 de Campaign (consola). Obtenga más información sobre las versiones y actualizaciones de Campaign en [esta página](upgrades.md). Otras versiones se indican en la sección Versiones anteriores de esta documentación.
+
+## Versión 8.9.2 {#release-8-9-2}
+
+_9 de marzo de 2026_
+
+>[!CAUTION]
+>
+> La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#upgrade-ac-console).
+
+### Mejoras de seguridad {#security-8-9-2}
+
+* Para mantener una seguridad, estabilidad y conformidad óptimas, todas las instancias se han actualizado a Debian 13 y PostgreSQL 17.
+
+### Correcciones {#fixes-8-9-2}
+
+* Se ha corregido un problema por el cual las fechas de los eventos en eventos transaccionales se configuraban incorrectamente debido a un problema de conversión de tipo de datos, lo que provocaba fechas incorrectas en el sistema de informes dinámico. (NEO-93923)
+* Se ha corregido un problema por el cual las notificaciones push silenciosas de Android y iOS fallaban durante la preparación de la entrega cuando los campos de título y cuerpo estaban vacíos. (NEO-93739)
+* Se ha corregido un problema que impedía que el campo de idioma se capturara para tokens de registro de aplicaciones de Android debido a claves de reconciliación incorrectas. (NEO-93100)
 
 ## Versión 8.9.1 {#release-8-9-1}
 
@@ -28,12 +46,12 @@ El **nuevo conector de envío de SMS** ya está disponible para todos los client
 
 Esta versión incorpora un conjunto de funcionalidades disponibles con la interfaz de usuario web de Campaign:
 
-* [Funciones de envío multilingüe (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=es){target="_blank"}
-* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=es){target="_blank"}
-* [Copias de Adobe Experience Manager en vivo y de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=es){target="_blank"}
-* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=es){target="_blank"}
-* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=es){target="_blank"}
-* [Administración de aprobación de campaña](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=es){target="_blank"}
+* [Funciones de envío multilingüe (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Copias de Adobe Experience Manager en vivo y de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Administración de aprobación de campaña](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es){target="_blank"} de la IU web de Campaign
 
