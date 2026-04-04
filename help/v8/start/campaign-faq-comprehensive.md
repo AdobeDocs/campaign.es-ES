@@ -1837,7 +1837,7 @@ Obtenga ayuda del equipo de asistencia de Adobe y administre su instancia.
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - Registrar casos de soporte y administrar usuarios
 * **[Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - Comuníquese con el equipo de atención al cliente
 * **[Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"}** - Administrar la configuración de la instancia de Campaign
-* **[Estado del sistema](https://status.adobe.com/){target="_blank"}** - Comprobar el estado de los servicios de Adobe
+* **[Estado del sistema](https://status.adobe.com/es-es/){target="_blank"}** - Comprobar el estado de los servicios de Adobe
 
 ### Formación y certificación
 
