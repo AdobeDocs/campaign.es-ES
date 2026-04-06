@@ -7,7 +7,7 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -201,8 +201,8 @@ Si desea utilizar un filtro personalizado, debe crearlo y personalizarlo en la i
 
 Para obtener más información, consulte la documentación de Campaign Standard:
 
-* [Configurando definición de filtro](https://helpx.adobe.com/es/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso de uso: invocando a un recurso mediante una clave de identificación compuesta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=es).
+* [Configurando definición de filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Caso de uso: invocando a un recurso mediante una clave de identificación compuesta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 
@@ -243,7 +243,8 @@ Response to the request.
 
 <!-- exemple à vérifier de bout en bout-->
 
-<!--+category = query editor
+<!--
++category = query editor
 privacy ?
 displayFOrmat ?
 pour faire un POST sur une enum, il faut lui passer le @name décrit dans le noeud values, chaque @name a une correspondance en format = au format définit par le resType

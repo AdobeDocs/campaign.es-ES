@@ -4,7 +4,7 @@ title: Aplicación de reglas de tipología
 description: Aprenda a aplicar reglas de tipología
 feature: Typology Rules
 exl-id: 4ec3bbe1-fc4c-4b1e-989c-f4dcf8ee8d5e
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 84%
@@ -77,7 +77,7 @@ En el modo de operación estándar, las reglas se aplican en la siguiente secuen
 1. Reglas de control, si se aplican al principio del objetivo.
 1. Reglas de filtrado:
 
-   * Reglas de aplicación nativas para la clasificación de direcciones: dirección definida/dirección no verificada/dirección en lista de bloqueados/dirección en cuarentena/calidad de la dirección.
+   * Reglas de aplicación nativas para la calificación de direcciones: dirección definida/dirección no verificada/dirección en lista de bloqueados/dirección en cuarentena/calidad de la dirección.
    * Reglas de filtrado definidas por el usuario.
    * Deduplicación sobre la dirección o el identificador (se aplica si es necesario).
 
@@ -134,7 +134,8 @@ Como opción, puede utilizar el campo **[!UICONTROL Managing affinities with IP 
 >La administración de la afinidad no se aplica a tipologías de **[!UICONTROL Filtering]**.
 
 <!--
->Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../installation/using/about-initial-configuration.md).-->
+>Affinities are defined in the instance configuration file, on the Adobe Campaign server. For more on this, refer to [this section](../../installation/using/about-initial-configuration.md).
+-->
 
 ### Optimización de la campaña y marketing distribuido {#campaign-optimization-and-distributed-marketing}
 

@@ -5,10 +5,10 @@ feature: Release Notes
 role: User
 level: Beginner
 exl-id: b860c843-155e-4abb-bdd6-b68dc7eaa0ee
-source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 56%
+source-wordcount: '1516'
+ht-degree: 55%
 
 ---
 
@@ -23,7 +23,7 @@ Para cualquier implementación nueva o actualización a un entorno existente, in
 
 **En esta página**
 
-* Campaign v8.5: [Versión 8.5.1](#release-8-5-1) | [Versión 8.5.2](#release-8-5-2)
+* Campaign v8.5 - [Versión 8.5.1](#release-8-5-1) | [Versión 8.5.2](#release-8-5-2)
 * Campaign v8.4 - [Versión 8.4.3](#release-8-4-3) | [Versión 8.4.4](#release-8-4-4) | [Versión 8.4.5](#release-8-4-5)
 
 >[!ENDSHADEBOX]
@@ -93,7 +93,7 @@ Para obtener más información, consulte la [documentación detallada](../send/p
 * Se ha corregido un problema que podía provocar que los caracteres especiales del contenido del HTML de un envío se codificaran incorrectamente en varios exploradores. (NEO-60081)
 * Se ha corregido un problema que podía impedir que guardara un informe en una implementación de Campaign v8 Enterprise (FDAC). (NEO-56836)
 * Se ha corregido un problema que se producía al insertar o actualizar datos en un esquema de FDAC personalizado mediante una actividad de flujo de trabajo Actualizar datos. (NEO-54708)
-* Se ha corregido un problema que impedía que el flujo de trabajo de limpieza de la base de datos eliminara direcciones en la tabla nms:address de FDAC. (NEO-54460)
+* Se ha corregido un problema que impedía que el flujo de trabajo de limpieza de la base de datos eliminara direcciones en la tabla nms:address en FDAC. (NEO-54460)
 * Se ha corregido un problema con el flujo de trabajo de facturación que podía fallar con un error de &quot;Memoria de compilación agotada&quot;. (NEO-51137)
 * Se ha corregido un problema que podía impedir que el descifrado GPG funcionara correctamente en la actividad de flujo de trabajo Carga de datos (archivo). (NEO-50257)
 * Se ha corregido un problema que impedía el funcionamiento de la función `JSPContext.sqlExecWithOneParam`. (NEO-50066)
@@ -108,7 +108,7 @@ Para obtener más información, consulte la [documentación detallada](../send/p
 
 ## Versión 8.4.5 {#release-8-4-5}
 
-_3 de abril de 2023_
+_martes, 03 de abril de 2023_
 
 **Correcciones**
 
@@ -122,7 +122,7 @@ _3 de abril de 2023_
 
 ## Versión 8.4.4 {#release-8-4-4}
 
-_8 de marzo de 2023_
+_jueves, 08 de marzo de 2023_
 
 **Mejora de la seguridad**
 
@@ -137,7 +137,7 @@ _8 de marzo de 2023_
 ## Versión 8.4.3 {#release-8-4-3}
 
 
-_27 de enero de 2023_
+_sábado, 27 de enero de 2023_
 
 **Correcciones**
 
@@ -148,15 +148,17 @@ _27 de enero de 2023_
 * Se han corregido dos problemas de error en la preparación de envíos. La preparación del envío podría fallar cuando el número de ofertas potenciales que se están manipulando fuera demasiado alto. El segundo problema se producía cuando las direcciones URL de la imagen se definían como direcciones URL para rastrear en un envío en formato de texto. (NEO-48807) <!--OKKKK-->
 * Se ha corregido un problema que podría provocar un error en el que un flujo de trabajo sobrescribía el nombre del almacén definido en la cuenta externa para cuentas que no son de FDAC. (NEO-43209) <!--OKKKK-->
 * Se ha mejorado la seguridad en las aplicaciones web para evitar ataques DDoS. (NEO-50757) <!--OKKKK-->
-* La administración de los datos de seguimiento consolidados se ha mejorado en la tabla de FDAC **[!UICONTROL Consolidated tracking]** (nms:trackingStats) para evitar duplicados. (NEO-46409)
+* La administración de los datos de seguimiento consolidados se mejoró en la tabla de FDAC **[!UICONTROL Consolidated tracking]** (nms:trackingStats) para evitar duplicados. (NEO-46409)
 * Se ha corregido un problema de operadores lógicos en las consultas de flujo de trabajo al usar un `enableIf` en una condición de operador lógico. Se ha sobrescrito la condición lógica anterior. (NEO-45815)  <!--OKKKK-->
 * La generación de perfiles activos se ha optimizado en el flujo de trabajo de facturación para mejorar el rendimiento. (NEO-47658) <!--OKKKK-->
 * Se ha corregido un problema con la importación de archivos HTML cuando los nodos de imagen (img) contenían direcciones URL con campos de personalización. (NEO-48396)
 * Se ha corregido un problema con Snowflake (todas las implantaciones) al utilizar el parámetro de ordenación en una actividad de **División** del flujo de trabajo. (NEO-45899) <!--OKKKK-->
 * Se ha corregido un problema que provocaba un error cuando un usuario con derechos de acceso de lectura en la carpeta nmsDeliveryMapping intentaba ejecutar una campaña o un flujo de trabajo. (NEO-48230)
 * Se ha corregido un problema de rendimiento en la pestaña HTML de un envío que se podía producir en código HTML extenso. (NEO-47440)
-<!-- * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
-* Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)-->
+<!--
+ * Fixed an issue which could lead to a "Character set mismatch" error when using certain functions such as `to_nclob` with an Oracle unicode database where NChar was not enabled. (NEO-49361)
+* Fixed an issue which prevented users from inserting a Time datatype in a **Data Update** workflow activity on MSSQL. (NEO-47763)
+-->
 * Se ha corregido un problema que impedía usar la opción de flujo de trabajo **Combinar líneas seleccionadas**. (NEO-48488)
 * Se ha corregido un problema en la versión del conector de FDA de Snowflake que provocaba la eliminación de registros al utilizar la opción “combinación simple de cardinalidad 0 o 1” durante el enriquecimiento. (NEO-48737)
 * Las referencias restantes a la biblioteca log4j se han eliminado de la instalación de Campaign en Windows. (NEO-44851)

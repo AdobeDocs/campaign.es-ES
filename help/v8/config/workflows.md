@@ -5,10 +5,10 @@ feature: Workflows
 role: User, Admin
 level: Beginner
 exl-id: 0be1c5f5-f07d-46dc-bebc-5eb50f466547
-source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '501'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -27,7 +27,7 @@ Puede configurar lo siguiente:
 
 >[!NOTE]
 >
->La interfaz de usuario web de Adobe Campaign viene con un lienzo reinventado para los flujos de trabajo, lo que permite crear recorridos de cliente más dinámicos y personalizados. Para obtener más información sobre los flujos de trabajo para la interfaz de usuario web, consulte [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
+>La interfaz de usuario web de Adobe Campaign viene con un lienzo reinventado para los flujos de trabajo, lo que permite crear recorridos de cliente más dinámicos y personalizados. Para obtener más información sobre los flujos de trabajo para la interfaz de usuario web, consulte [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
 
 
 ## Diseñar y utilizar flujos de trabajo {#gs-ac-wf}
@@ -40,7 +40,7 @@ Obtenga más información sobre los flujos de trabajo de la interfaz de usuario 
 
 * [Prácticas recomendadas de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/workflow-best-practices.html?lang=es){target="_blank"}
 
-* [Flujos de trabajo técnicos integrados](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"}
+* [Flujos de trabajo técnicos integrados](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
 
 * [Supervisar la ejecución de flujos de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}
 
@@ -52,10 +52,10 @@ Obtenga más información acerca de las actividades de flujo de trabajo disponib
 
 Las actividades de flujo de trabajo se agrupan por categoría. Hay cuatro categorías de actividades disponibles:
 
-* [Actividades de segmentación](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html?lang=es){target="_blank"}: consulta, lista de lectura, enriquecimiento, unión y más
-* [Actividades de control de flujo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html?lang=es){target="_blank"}: Planificador, Bifurcación, Alerta, Señal externa y más
+* [Actividades de segmentación](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/targeting-activities.html){target="_blank"}: consulta, lista de lectura, enriquecimiento, unión y más
+* [Actividades de control de flujo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/flow-control-activities/flow-control-activities.html){target="_blank"}: Planificador, Bifurcación, Alerta, Señal externa y más
 * [Actividades de acción](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/action-activities.html?lang=es){target="_blank"}: envíos en canales múltiples, código JavaScript, actividades CRM, acumulado de actualización y más
-* [Actividades de eventos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html?lang=es){target="_blank"}: transferencia de archivos, descarga web y más
+* [Actividades de eventos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/event-activities.html){target="_blank"}: transferencia de archivos, descarga web y más
 
 <!--
 ### Change data source activity {#change-data-source-activity}
@@ -74,20 +74,20 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 1. Create a workflow.
 
-1. Query your targeted recipients with a **[!UICONTROL Query]** activity. 
+1. Query your targeted recipients with a **[!UICONTROL Query]** activity.
 
-    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html?lang=es){target="_blank"}.
+    For more information on the **[!UICONTROL Query]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/query.html){target="_blank"}.
 
 1. From the **[!UICONTROL Targeting]** tab, add a **[!UICONTROL Change data source]** activity and double-click it to select **[!UICONTROL Default data source]**.
-    
+
     The working table, which contains the result of your query, is then moved to the default PostgreSQL database.
 
 1. From the **[!UICONTROL Actions]** tab, drag and drop a **[!UICONTROL JavaScript code]** activity to perform unitary operations on the working table.
 
-    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html?lang=es){target="_blank"}.
+    For more information on the **[!UICONTROL JavaScript code]** activity, refer to [this page](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code.html){target="_blank"}.
 
-1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database. 
-    
+1. Add another **[!UICONTROL Change data source]** activity to switch back to the Cloud database.
+
     Double-click your activity and select **[!UICONTROL Active FDA external account]** then the corresponding external account.
 
 1. You can now start your workflow.
@@ -97,7 +97,7 @@ To use the **[!UICONTROL Change Data Source]** activity:
 
 Después de crear el flujo de trabajo, puede acceder a opciones adicionales con el botón **[!UICONTROL Properties]** para realizar más configuraciones.
 
-Obtenga más información acerca de **propiedades del flujo de trabajo** en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html?lang=es){target="_blank"}.
+Obtenga más información acerca de **propiedades del flujo de trabajo** en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/advanced-management/workflow-properties.html){target="_blank"}.
 
 Desde la pestaña **[!UICONTROL Execution]** de **[!UICONTROL Properties]** de su flujo de trabajo, puede elegir vincular el flujo de trabajo a diferentes almacenes y optimizar la administración de la carga de trabajo. Para obtener más información sobre **Almacenes**, consulte la [documentación de Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 

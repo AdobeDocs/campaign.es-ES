@@ -5,7 +5,7 @@ description: Acerca de la gestión de recursos de marketing
 feature: Campaigns, Resource Management
 role: Admin, User
 exl-id: 6fa4f4e3-c5a5-4d7f-8e71-826dee4e926a
-source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 95%
@@ -40,7 +40,7 @@ En el contexto de la gestión de recursos de marketing de Adobe Campaign, los si
 
 * **Recursos de marketing**
 
-  Adobe Campaign permite realizar un seguimiento del progreso de los proyectos de marketing de colaboración como, por ejemplo, medios de comunicación, planes de acciones, boletines informativos, etc. El ciclo de creación y aprobación de estos recursos de marketing se puede rastrear desde el panel de recursos hasta su publicación.
+  Adobe Campaign permite realizar un seguimiento del progreso de los proyectos de marketing de colaboración como, por ejemplo, medios de comunicación, planes de acciones, boletines informativos, etc. El ciclo de creación y aprobación de estos recursos de marketing se puede rastrear desde el panel de control de recursos hasta su publicación.
 
   Para obtener más información, consulte [Administración de recursos de marketing](managing-marketing-resources.md).
 
@@ -48,16 +48,16 @@ En el contexto de la gestión de recursos de marketing de Adobe Campaign, los si
 >[!NOTE]
 >
 >For more on Adobe Campaign workspace, refer to [this section](../../platform/using/adobe-campaign-workspace.md).
->  
->Deliveries and communication channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).  
+>
+>Deliveries and communication channels are detailed in [this section](../../delivery/using/steps-about-delivery-creation-steps.md).
 >
 >Marketing campaign functionalities are detailed in [this section](../../campaign/using/accessing-marketing-campaigns.md).
 -->
 
 Con el complemento de la gestión de recursos de marketing, los planes y programas incluyen las siguientes funcionalidades adicionales:
 
-* **Gestión del presupuesto**. [Obtenga más información](controlling-costs.md)
+* **Gestión del presupuesto**. [Más información](controlling-costs.md)
 
 * **Administración de tareas**. [obtenga más información](creating-and-managing-tasks.md)
 
-* **Gestión de recursos**. [Obtenga más información](managing-marketing-resources.md)
+* **Gestión de recursos**. [Más información](managing-marketing-resources.md)

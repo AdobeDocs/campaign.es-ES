@@ -6,7 +6,7 @@ role: User
 level: Beginner, Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
-source-git-commit: 57e177dc6c30502f2ed3bb08b18586fa5399e89c
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '3410'
 ht-degree: 58%
@@ -41,7 +41,7 @@ Las devoluciones leves de mensajes son errores temporales que los ISP generan cu
 
 Se sabe que el tipo de error **Ignorado** es temporal, como &quot;Fuera de la oficina&quot;, o un error técnico, por ejemplo, si el tipo de remitente es &quot;Administrador de correo&quot;.
 
-El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Incluir en la lista de bloqueados Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se agregan a la tabla de cuarentena (**NmsAddress**) y no a la tabla de destinatarios (**NmsRecipient**) con el estado **[!UICONTROL Denylisted]**. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
+El bucle de comentarios funciona como los correos electrónicos rechazados: cuando un usuario clasifica un correo electrónico como correo no deseado, puede configurar las reglas de correo electrónico en Adobe Campaign para bloquear todas las entregas a este usuario. Las direcciones de estos usuarios se aunque no hayan hecho clic en el vínculo de baja. Las direcciones se agregan a la tabla de cuarentena (**NmsAddress**) y no a la tabla de destinatarios (**NmsRecipient**) con el estado **[!UICONTROL Denylisted]**. Obtenga más información acerca del mecanismo de bucle de comentarios en la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
 
 ## Errores sincrónicos y asíncronos {#synchronous-and-asynchronous-errors}
 
@@ -59,9 +59,11 @@ Estos tipos de errores se administran de la siguiente manera:
 
 ## Calificación del correo rechazado {#bounce-mail-qualification}
 
-<!--NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
+<!--
+NO LONGER WITH MOMENTUM - Rules used by Campaign to qualify delivery failures are listed in the **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]** node. It is non-exhaustive, and is regularly updated by Adobe Campaign and can also be managed by the user.
 
-![](assets/delivery-log-qualification.png)-->
+![](assets/delivery-log-qualification.png)
+-->
 
 La forma en que se gestiona la calificación de correo rechazado en Adobe Campaign depende del tipo de error:
 
@@ -69,14 +71,15 @@ La forma en que se gestiona la calificación de correo rechazado en Adobe Campai
 
 * **Errores asincrónicos**: Las reglas utilizadas por Campaign para calificar los errores de entrega asincrónicos se enumeran en el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Delivery log qualification]**. Las devoluciones asincrónicas son calificadas por el proceso inMail a través de las reglas **[!UICONTROL Inbound email]**.
 
-<!--NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
+<!--
+NO LONGER WITH MOMENTUM - The message returned by the remote server on the first occurrence of this error type is displayed in the **[!UICONTROL First text]** column of the **[!UICONTROL Audit]** tab.
 
 ![](assets/delivery-log-first-txt.png)
 
 Adobe Campaign filters this message to delete the variable content (such as IDs, dates, email addresses, phone numbers, etc.) and displays the filtered result in the **[!UICONTROL Text]** column. The variables are replaced with **`#xxx#`**, except addresses that are replaced with **`*`**.
 
 This process allows to bring together all failures of the same type and avoid multiple entries for similar errors in the Delivery log qualification table.
-  
+
 >[!NOTE]
 >
 >The **[!UICONTROL Number of occurrences]** field displays the number of occurrences of the message in the list. It is limited to 100 000 occurrences. You can edit the field, if you want, for example, to reset it.
@@ -91,7 +94,8 @@ Bounce mails can have the following qualification status:
 
 >[!NOTE]
 >
->In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.-->
+>In case of an outage of an ISP, emails sent through Campaign will be wrongly marked as bounces. To correct this, you need to update bounce qualification.
+-->
 
 
 ## Administración de reintentos {#retries}
@@ -112,7 +116,7 @@ Por ejemplo, si el periodo de validez se establece en el valor predeterminado de
 
 Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha podido entregar, se agotará el tiempo de espera y se actualizará su estado de **[!UICONTROL Sent]** a **[!UICONTROL Failed]** en los registros de envío.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipos de error de correo electrónico {#email-error-types}

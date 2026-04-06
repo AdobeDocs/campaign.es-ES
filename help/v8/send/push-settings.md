@@ -6,7 +6,7 @@ role: Admin, Developer
 level: Intermediate
 version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1679'
 ht-degree: 21%
@@ -38,7 +38,7 @@ Para configurar la aplicación con los SDK para móviles de Adobe Experience Pla
 
 ### Configuración de permisos {#setup-permissions}
 
-Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos para las etiquetas en Adobe Experience Platform. Los permisos de usuario para las etiquetas en Adobe Experience Platform se asignan a los usuarios a través de Adobe Admin Console. Obtenga más información en [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es){target="_blank"}.
+Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos para las etiquetas en Adobe Experience Platform. Los permisos de usuario para las etiquetas en Adobe Experience Platform se asignan a los usuarios a través de Adobe Admin Console. Obtenga más información en [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
@@ -48,9 +48,9 @@ Para asignar los derechos de **Property** y **Company**, siga los pasos a contin
 
 1. Obtener acceso a **[!DNL Admin Console]**.
 1. En la ficha **[!UICONTROL Products]**, seleccione la tarjeta **[!UICONTROL Adobe Experience Platform Data Collection]**.
-1. Seleccione un(a) **[!UICONTROL Product Profile]** existente o cree uno nuevo con el botón **[!UICONTROL New profile]**. Aprenda a crear un nuevo(a) **[!UICONTROL New profile]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=es#ui){target="_blank"}.
+1. Seleccione un(a) **[!UICONTROL Product Profile]** existente o cree uno nuevo con el botón **[!UICONTROL New profile]**. Aprenda a crear un nuevo(a) **[!UICONTROL New profile]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 1. En la pestaña **[!UICONTROL Permissions]**, seleccione **[!UICONTROL Property Rights]**.
-1. Haga clic en **[!UICONTROL Add all]**. Esto añadirá el siguiente derecho a su perfil de producto:
+1. Haga clic **[!UICONTROL Add all]**. Esto añadirá el siguiente derecho a su perfil de producto:
    * **[!UICONTROL Approve]**
    * **[!UICONTROL Develop]**
    * **[!UICONTROL Edit Property]**
@@ -80,7 +80,7 @@ Para asignar este(a) **[!UICONTROL Product profile]** a usuarios, siga los pasos
 
    >[!NOTE]
    >
-   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
+   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
 
 ### Configurar su aplicación {#configure-app}
 
@@ -94,7 +94,7 @@ Siga los pasos de implementación detallados en los vínculos siguientes:
 <!--
 ## Add your app push credentials in Adobe Experience Platform Data Collection {#push-credentials}
 
-After granting the correct user permissions, you now need to add your mobile application push credentials in Adobe Experience Platform Data Collection. 
+After granting the correct user permissions, you now need to add your mobile application push credentials in Adobe Experience Platform Data Collection.
 
 The mobile app push credential registration is required to authorize Adobe to send push notifications on your behalf. Refer to the steps detailed below:
 
@@ -109,13 +109,13 @@ The mobile app push credential registration is required to authorize Adobe to se
     * **For iOS**
 
         1. Enter the mobile app **Bundle Id** in the **[!UICONTROL App ID (iOS Bundle ID)]** field. The app Bundle ID can be found in the **General** tab of the primary target in **XCode**.
-        
+
         1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
-        
+
         1. Drag and drop your .p8 Apple Push Notification Authentication Key file. This key can be acquired from the **Certificates**, **Identifiers** and **Profiles** page.
 
         1. Provide the **Key ID**. This is a 10 character string assigned during the creation of p8 auth key. It can be found under **Keys** tab in **Certificates**, **Identifiers** and **Profiles** page.
-        
+
         1. Provide the **Team ID**. This is a string value which can be found under the Membership tab.
 
     * **For Android**
@@ -125,7 +125,7 @@ The mobile app push credential registration is required to authorize Adobe to se
         1. Switched on the **[!UICONTROL Push Credentials]** button to add your credentials.
 
         1. Drag and drop the FCM push credentials. For more details on how to get the push credentials refer to [Google Documentation](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
-    
+
 
 1. Click **[!UICONTROL Save]** to create your app configuration.
 -->
@@ -142,9 +142,9 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-Obtenga más información acerca de las etiquetas [!DNL Adobe Experience Platform Data Collection] en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las etiquetas [!DNL Adobe Experience Platform Data Collection] en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
-Una vez creada, abra la nueva propiedad de etiqueta y cree una biblioteca. Para ello, haga lo siguiente:
+Una vez creada, abra la nueva propiedad de etiqueta y cree una biblioteca. Para ello:
 
 1. Vaya a **Flujo de publicación** en el panel de navegación izquierdo y seleccione **Agregar biblioteca**.
 1. Introduzca el nombre de la biblioteca y seleccione el entorno.

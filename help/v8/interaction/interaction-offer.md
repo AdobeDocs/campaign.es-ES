@@ -5,7 +5,7 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
-source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '895'
 ht-degree: 61%
@@ -100,9 +100,9 @@ Para crear una ponderación en una oferta, siga los siguientes pasos:
    >
    >Si un objetivo es apto para múltiples pesos para una oferta seleccionada, el motor mantiene el mejor peso (más alto). Al llamar al motor de oferta, se selecciona una oferta por un máximo de una vez por contacto.
 
-### Resumen de las reglas de idoneidad para la oferta {#a-summary-of-offer-eligibility-rules}
+### Resumen de las reglas de elegibilidad para la oferta {#a-summary-of-offer-eligibility-rules}
 
-Una vez completada la configuración, se encontrará disponible un resumen de las reglas de idoneidad en el panel de ofertas.
+Una vez completada la configuración, se encontrará disponible un resumen de las reglas de elegibilidad en el panel de control de ofertas.
 
 Para visualizarlo, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules]**.
 
@@ -152,7 +152,7 @@ Una vez configurado el contenido de la oferta, se puede obtener una vista previa
 
 Para ello, haga lo siguiente:
 
-1. Seleccione la pestaña **[!UICONTROL Preview]**.
+1. Haga clic en la pestaña **[!UICONTROL Preview]**.
 
    ![](assets/offer_preview_create_001.png)
 
@@ -163,7 +163,6 @@ Para ello, haga lo siguiente:
 1. Si ha personalizado el contenido de la oferta, seleccione el objetivo de la oferta para ver la personalización.
 
 <!--
-
 ## Create a hypothesis on an offer {#creating-a-hypothesis-on-an-offer}
 
 You can create hypotheses on your offer propositions. This lets you determine the impact of your offers on purchases carried out for the product concerned.
@@ -175,20 +174,19 @@ You can create hypotheses on your offer propositions. This lets you determine th
 Hypotheses carried out on an offer proposition are referenced in their **[!UICONTROL Measure]** tab.
 
 Creating hypotheses is detailed in [this page](../../campaign/using/about-response-manager.md).
-
 -->
 
 ## Aprobar y activar una oferta{#approve-offers}
 
 Ahora puede aprobar y activar la oferta para que esté disponible en el entorno **Live**.
 
-Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html?lang=es#approving-offer-content){target="_blank"}.
+Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/approving-and-activating-an-offer.html#approving-offer-content){target="_blank"}.
 
 ## Administración de presentación de ofertas{#offer-presentation}
 
 Campaign permite controlar el flujo de propuestas de ofertas utilizando las reglas de presentación. Estas reglas, que son específicas de la interacción de Campaign, son **reglas de tipología**. Permiten excluir ofertas basadas en el historial de propuestas que ya se hayan hecho a un destinatario. Se las menciona en el entorno.
 
-Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html?lang=es#managing-offers){target="_blank"}.
+Para obtener más información, consulte la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/managing-an-offer-catalog/managing-offer-presentation.html#managing-offers){target="_blank"}.
 
 ## Simulación de oferta
 
@@ -196,4 +194,4 @@ El módulo de **Simulation** permite probar la distribución de ofertas pertenec
 
 La simulación tiene en cuenta los contextos y las reglas de idoneidad aplicadas anteriormente a las ofertas y sus reglas de presentación. Esto permite probar y perfeccionar varias versiones de la propuesta de oferta sin utilizar realmente una por encima o por debajo del objetivo, ya que la simulación no tiene ningún impacto en los destinatarios a los que va dirigida.
 
-Para obtener más información sobre la simulación de oferta, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html?lang=es){target="_blank"}.
+Para obtener más información sobre la simulación de oferta, consulte [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/simulating-offers/about-offers-simulation.html){target="_blank"}.

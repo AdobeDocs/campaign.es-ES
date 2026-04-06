@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
 workflow-type: tm+mt
 source-wordcount: '1353'
 ht-degree: 16%
@@ -73,8 +73,8 @@ Se requiere el registro de credenciales push de aplicaciones móviles para autor
 
 1. Proporcione la **ID de clave**. Es una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8.
 
-       Se encuentra en la ficha **Keys** de la página **Certificates**, **Identifiers** y **Profiles** de su cuenta de desarrollador de Apple.
-   
+   Se encuentra en la pestaña **Keys** de las páginas **Certificados**, **Identificadores** y **Perfiles** de tu cuenta de desarrollador de Apple.
+
 1. Proporcione el **ID de equipo**. Es un valor de cadena que se encuentra en la ficha **Pertenencia**.
 
 1. Haga clic en **[!UICONTROL Save]** para crear la configuración de su aplicación.
@@ -200,7 +200,7 @@ Para crear una aplicación para dispositivos Android, siga estos pasos:
 
 1. Vaya a la pestaña **[!UICONTROL Subscription parameters]** para definir la asignación con una extensión del esquema **[!UICONTROL Subscriber applications (nms:appsubscriptionRcp)]**.
 
-1. Haga clic en **[!UICONTROL Finish]** y luego en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Finish]**, luego en **[!UICONTROL Save]**.
 
 La aplicación de Android ya está lista para su uso en Campaign.
 

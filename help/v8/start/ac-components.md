@@ -5,8 +5,8 @@ feature: Overview, Architecture, Configuration
 role: User
 level: Beginner
 exl-id: 7db32bd8-a088-405f-9633-2968c28b13b0
-source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
-workflow-type: ht
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+workflow-type: tm+mt
 source-wordcount: '637'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Puede acceder a Adobe Campaign a través de un cliente enriquecido, un cliente l
 
 * Cliente ligero
 
-  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de monitorización y mucho más.  [Obtenga más información sobre el acceso web de Campaign](../start/connect.md).
+  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de control de monitorización y mucho más.  [Obtenga más información sobre el acceso web de Campaign](../start/connect.md).
 
 * Aplicaciones externas con API
 
@@ -62,9 +62,11 @@ El servidor web de Campaign controla el acceso a los procesos web de Campaign. J
 
 La consola del cliente de Campaign se conecta al servidor web mediante SOAP XML a través de HTTP. El servidor web proporciona la capa de seguridad, pasa las solicitudes a la capa de aplicación mediante JavaScript y los procesos internos de Campaign acceden a la base de datos mediante SQL.
 
-<!--The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
+<!--
+The overall communication between Campaign processes are described in the following standalone deployment diagram: all Campaign components are installed in the same machine.
 
-![](assets/do-not-localize//ac-standalone.png) -->
+![](assets/do-not-localize//ac-standalone.png)
+-->
 
 El usuario se conecta al servidor de aplicaciones de Campaign mediante el protocolo HTTP. Todos los datos y la información se administran en la base de datos de Campaign. Si un desarrollador de Campaign realiza cualquier cambio en la configuración, se captura en la base de datos. Si un experto en marketing crea una nueva campaña, toda la información y los datos relacionados con esta nueva campaña también se administran en la base de datos. Cuando un experto en marketing ejecuta una campaña, los envíos de correo electrónico se realizan a los perfiles desde el servidor de Campaign a través del servidor SMTP. A medida que los perfiles interactúan con los envíos de correo electrónico, como, por ejemplo, abrir el correo electrónico, esos datos de seguimiento se envían de nuevo al servidor de seguimiento.
 

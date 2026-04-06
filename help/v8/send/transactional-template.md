@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-source-git-commit: a05b1d7d9b35f8d9189046fd4288d0b80f30967a
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 54%
@@ -86,7 +86,7 @@ Una dirección semilla permite mostrar una previsualización del mensaje, enviar
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -99,14 +99,13 @@ Una dirección semilla permite mostrar una previsualización del mensaje, enviar
 Una vez creadas las direcciones, puede acceder a su vista previa y personalización.
 
 <!--
-
 ### Add personalization data{#personalization-data}
 
 You can add data in the message template to test transactional message personalization. This will allow you to generate a preview or send a proof. If you install the **Deliverability** module, this data allows you to display a rendering of the messages for various desktop, web or mobile clients.
 
 The purpose of this data is to test your messages before their final delivery. These messages do not coincide with actual data to be processed by Message Center.
 
-However, the XML structure must be identical to that of the event stored in the execution instance, as shown below. 
+However, the XML structure must be identical to that of the event stored in the execution instance, as shown below.
 
 ![](assets/messagecenter_create_custo_4.png)
 
@@ -132,7 +131,7 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
 ### Envío de una prueba {#send-proof}
 
-Puede probar la entrega de mensajes enviando una prueba a una dirección semilla creada anteriormente.
+Puede probar el envío de mensajes enviando una prueba a una dirección semilla creada anteriormente.
 
 El envío de una prueba implica realizar el mismo proceso que para cualquier entrega.
 
@@ -175,11 +174,13 @@ Una vez enviadas las pruebas, debe cambiar el enrutamiento de nuevo a envío de 
 
 Cuando la plantilla de mensaje creada<!-- on the control instance--> esté completa, puede publicarla, lo que le permitirá enviar mensajes vinculados a los eventos en tiempo real y por lotes.
 
-<!--This process will also publish it on all execution instances.
+<!--
+This process will also publish it on all execution instances.
 
 NOTE: When publishing transactional message templates, typology rules are also automatically published on the execution instances.
 
-Publication lets you automatically create two message templates on the execution instances, which will allow you to send messages linked to real-time and batch events.-->
+Publication lets you automatically create two message templates on the execution instances, which will allow you to send messages linked to real-time and batch events.
+-->
 
 >[!CAUTION]
 >

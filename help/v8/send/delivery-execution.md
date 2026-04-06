@@ -5,7 +5,7 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
-source-git-commit: c044b391c900e8ff82147f2682e2e4f91845780c
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 54%
@@ -37,13 +37,14 @@ Los envíos transaccionales enviados desde la instancia de ejecución se sincron
 >Los envíos acumulan semanalmente los eventos en función de la actualización de eventos más reciente y no en la fecha de creación del evento. Por lo tanto, al extraer registros de envío de mensajería transaccional de la instancia de control, el ID de envío asociado con cada ID de registro de envío puede cambiar con el tiempo a medida que se actualiza el registro (por ejemplo, cuando se recibe una devolución de entrada para el evento).
 
 <!--
-To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).-->
+To monitor the activity and running of the execution instance(s), see [Transactional messaging reports](transactional-messaging-reports.md).
+-->
 
 ## Creación de informes{#reporting-transactional-msg}
 
 Adobe Campaign ofrece varios informes que permiten controlar la actividad y la ejecución continua de las instancias de ejecución.
 
-Se puede acceder a estos informes del centro de mensajería desde la pestaña **[!UICONTROL Reports]**&#x200B;**de la instancia de control**.
+Se puede acceder a estos informes del centro de mensajería desde la pestaña **[!UICONTROL Reports]****de la instancia de control**.
 
 ![](assets/mc-reports.png)
 

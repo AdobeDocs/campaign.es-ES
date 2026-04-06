@@ -6,7 +6,7 @@ feature: Campaigns, Templates
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
-source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
+source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
 source-wordcount: '987'
 ht-degree: 55%
@@ -131,7 +131,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
   ![](assets/template-activate-3.png)
 
-* **Descripción del envío**
+* **Descripción de la entrega**
 
   Cuando se selecciona este módulo, se añade una subpestaña **[!UICONTROL Delivery outlines]** a la pestaña **[!UICONTROL Documents]** para definir los esquemas de entrega de la campaña. Obtenga más información sobre los esquemas de entrega en [esta sección](marketing-campaign-assets.md#delivery-outlines).
 
@@ -188,4 +188,5 @@ In the task configuration box, go to the **[!UICONTROL Implementation schedule]*
 
 ![](assets/mrm_task_in_template_start_date.png)
 
-When you create a campaign using this template, the task start date will be calculated automatically. However, you can always change it later.-->
+When you create a campaign using this template, the task start date will be calculated automatically. However, you can always change it later.
+-->
