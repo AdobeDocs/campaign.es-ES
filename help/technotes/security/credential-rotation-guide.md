@@ -3,9 +3,8 @@ product: campaign
 title: 'Nota técnica: Guía de rotación de credenciales'
 description: 'Nota técnica de Adobe Campaign: Guía de rotación de credenciales'
 hide: true
-hidefromtoc: true
 exl-id: 0848ee2d-3506-4167-9aea-a1589aa82805
-source-git-commit: 14e49a0b4de1b82239113bd670213449f464c27f
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 1%
@@ -45,19 +44,19 @@ Para los operadores técnicos específicos `mc*` (por ejemplo: mc1, mc2, etc.) y
 
 Para la rotación de los servicios móviles relacionados con Private keys y Certificate, consulte los vínculos a continuación.
 
-* Para Android, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
+* Para Android, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android){target="_blank"}.
 Vaya a la sección **Crear la aplicación móvil de Android > Configurar la versión de la API**.
 
-* Para iOS, consulte [esta documentación](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
+* Para iOS, consulte [esta documentación](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application){target="_blank"}.
 Vaya a la sección **Crear aplicación móvil de iOS->Modo de autenticación**.
 
 ## Claves GPG {#ac-gpg-credentials}
 
 Para la rotación de claves GPG, se deben seguir los siguientes pasos:
 
-1. Descifrar los datos existentes utilizando la clave existente. [Más información](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Descifrar los datos existentes utilizando la clave existente. [Más información](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
-1. Cree un nuevo par de claves GPG. Obtenga más información acerca de la administración de claves GPG en [esta documentación](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
+1. Cree un nuevo par de claves GPG. Obtenga más información acerca de la administración de claves GPG en [esta documentación](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/gpg-keys-management#decrypting-data){target="_blank"}.
 
 1. Reemplace el uso de claves GPG existente en todos los flujos de trabajo con la clave recién creada.
 

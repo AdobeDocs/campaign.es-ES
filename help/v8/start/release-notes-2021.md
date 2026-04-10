@@ -3,9 +3,8 @@ title: Notas de la versión de Campaign v8 de 2021
 description: Lista de funciones y mejoras incluidas en las versiones de Campaign v8 de 2021
 feature: Release Notes
 hide: true
-hidefromtoc: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 97%
@@ -18,7 +17,7 @@ En esta página se indican las nuevas funcionalidades, mejoras y correcciones qu
 
 ## Versión 8.2.8 {#release-8-2-8}
 
-_28 de octubre de 2021_
+_viernes, 28 de octubre de 2021_
 
 <table>
 <thead>
@@ -89,7 +88,7 @@ _28 de octubre de 2021_
 * Se ha corregido un problema que podía ralentizar la importación de paquetes.
 * Se ha corregido un problema que podía impedir que se enviaran entregas de correo electrónico con direcciones semilla.
 * Se ha corregido un problema que podía impedir que las propuestas se guardaran en la tabla de propuestas de ofertas.
-* Se ha corregido un problema que provocaba que los problemas de tiempo de espera de red se registraran incorrectamente como problemas de interrupción de secuencia de comandos en lugar de errores de red. Este problema ocurría en el caso de solicitudes HTTP incluidas en actividades JavaScript.
+* Se ha corregido un problema que provocaba que los problemas de tiempo de espera de red se registraran incorrectamente como problemas de interrupción de scripts en lugar de errores de red. Este problema ocurría en el caso de solicitudes HTTP incluidas en actividades JavaScript.
 * Se ha corregido un problema que impedía que las ofertas se replicaran en el entorno de ofertas en directo en Snowflake.
 * Se ha corregido un problema que ignoraba el atributo autoStg para esquemas integrados no ampliados.
 * Se ha corregido un problema que impedía que los usuarios seleccionaran el vínculo **[!UICONTROL Country/Region]** al obtener una vista previa de un perfil.
@@ -111,7 +110,7 @@ _7 de septiembre de 2021_
 
 **Mejoras de seguridad**
 
-* Se ha corregido un problema de seguridad para reforzar la protección contra ataques de salto de directorio. (NEO-28547)
+* Se ha corregido un problema de seguridad para reforzar la protección contra los ataques de recorrido de directorios. (NEO-28547)
 
 **Mejoras**
 
@@ -121,7 +120,7 @@ _7 de septiembre de 2021_
 
 **Otros cambios**
 
-* Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=es#configure-acc-for-microsoft)
+* Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
 * Se ha añadido un mecanismo de protección para permitir que el [flujo de trabajo técnico de facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=es#billing-report) se ejecute en la instancia de marketing.
@@ -137,16 +136,16 @@ _7 de septiembre de 2021_
 * Se ha corregido un error al conectarse a Microsoft CRM mediante la API web. El mensaje de error se ha eliminado porque las funcionalidades no se vieron afectadas.
 * Se ha corregido un problema de deduplicación del registro de seguimiento cuando el servidor mid se establecía como reenvío entre los servidores de seguimiento y marketing. (NEO-36285)
 * Se ha corregido una regresión que impedía que Vault se usara como almacén de código específico.
-* Se ha corregido un problema que impedía usar variables en una actividad de flujo de trabajo de **enriquecimiento** cuando la transición entrante era de una fuente de datos de FDA.
+* Se ha corregido un problema que impedía usar variables en una actividad de flujo de trabajo **Enriquecimiento** cuando la transición entrante era de una fuente de datos FDA.
 * Se ha corregido un problema con FDAC que impedía la replicación adecuada de los grupos de operadores y los derechos.
 * Se ha corregido un problema que podía provocar el envío de un vínculo de baja incorrecto a través de la entrega.
 * Se ha corregido un problema en la administración de la replicación que afectaba a la duración de la posactualización.
 * Se ha corregido un problema que podía impedir que se mostrara **Clics activos**.
-* Se ha corregido un problema que podía provocar URL rotas en los mensajes de correo electrónico.
+* Se ha corregido un problema que podría provocar URL rotas en los mensajes de correo electrónico.
 
 ## Versión 8.1.14 {#release-8-1-14}
 
-_23 de julio de 2021_
+_sábado, 23 de julio de 2021_
 
 **Novedades**
 

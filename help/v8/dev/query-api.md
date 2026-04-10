@@ -5,9 +5,8 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 hide: true
-hidefromtoc: true
-exl-id: 0fd39d6c-9e87-4b0f-a960-2aef76c9c8eb
-source-git-commit: ceab90331fab0725962a2a98f338ac3dc31a2588
+exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1281'
 ht-degree: 1%
@@ -40,7 +39,7 @@ NLWS.<namespace><SchemaName>.<method>()
 
 Los métodos comunes de API incluyen:
 
-* `load(id)` - Cargar una entidad por su ID. [Más información](https://experienceleague.adobe.com/developer/campaign-api/api/f-load.html?lang=es){target="_blank"}
+* `load(id)` - Cargar una entidad por su ID. [Más información](https://experienceleague.adobe.com/developer/campaign-api/api/f-load.html){target="_blank"}
 * `create(data)` - Crear una nueva entidad
 * `save()` - Guardar cambios en una entidad
 
@@ -138,7 +137,7 @@ El esquema `xtk:queryDef` proporciona métodos para generar y ejecutar consultas
 * `getIfExists` - Recuperar un solo registro, devolver nulo si no se encuentra
 * `count` - Recuento de registros que coinciden con los criterios
 
-Obtenga más información acerca de los métodos queryDef en la [documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=es){target="_blank"}.
+Obtenga más información acerca de los métodos queryDef en la [documentación de Campaign JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}.
 
 ## Consulta con JSON {#query-json}
 
@@ -310,7 +309,7 @@ for each(var record in records.getElements()) {
 
 >[!CAUTION]
 >
->Utilice siempre consultas parametrizadas con `$(sz)` para cadenas y `$(l)` para enteros con el fin de evitar vulnerabilidades de inyección de SQL. Obtenga más información en la [documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html?lang=es){target="_blank"}.
+>Utilice siempre consultas parametrizadas con `$(sz)` para cadenas y `$(l)` para enteros con el fin de evitar vulnerabilidades de inyección de SQL. Obtenga más información en la [documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/f-sqlExec.html){target="_blank"}.
 
 ## Recuento de registros {#count-records}
 
@@ -561,7 +560,7 @@ logInfo("Generated SQL: " + sql);
 // Output: "SELECT iRecipientId, sEmail FROM NmsRecipient WHERE sEmail IS NOT NULL"
 ```
 
-Más información sobre [BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html?lang=es){target="_blank"}.
+Más información sobre [BuildQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQuery.html){target="_blank"}.
 
 ### BuildQueryEx: obtener SQL con cadena de formato {#build-query-ex}
 
@@ -586,7 +585,7 @@ logInfo("Format: " + format);
 var results = sqlSelect(format, sql);
 ```
 
-Más información sobre [BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html?lang=es){target="_blank"}.
+Más información sobre [BuildQueryEx](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-BuildQueryEx.html){target="_blank"}.
 
 ### Seleccionar todo: agregue todos los campos que desea seleccionar {#select-all}
 
@@ -609,7 +608,7 @@ var result = query.ExecuteQuery();
 // Result contains all recipient fields
 ```
 
-Más información sobre [SelectAll](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html?lang=es){target="_blank"}.
+Más información sobre [SelectAll](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-SelectAll.html){target="_blank"}.
 
 ### Actualización: Actualización masiva de registros {#mass-update}
 
@@ -639,7 +638,7 @@ logInfo("Mass update completed");
 >
 >Las actualizaciones masivas afectan a todos los registros que coinciden con la cláusula where. Pruebe siempre primero las condiciones where con una consulta de selección para comprobar qué registros se verán afectados.
 
-Más información sobre [Actualización](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html?lang=es){target="_blank"}.
+Más información sobre [Actualización](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-Update.html){target="_blank"}.
 
 ### GetInstanceFromModel: instancias de plantilla de consulta {#get-instance-from-model}
 
@@ -662,7 +661,7 @@ var query = NLWS.xtkQueryDef.create(
 var instance = query.GetInstanceFromModel("nms:delivery");
 ```
 
-Más información sobre [GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html?lang=es){target="_blank"}.
+Más información sobre [GetInstanceFromModel](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-GetInstanceFromModel.html){target="_blank"}.
 
 ## Operaciones por lotes {#batch-operations}
 
@@ -901,8 +900,7 @@ Estructura completa del objeto `queryDef`:
 
 * [Introducción a las API de Campaign](api.md)
 * [SDK de Campaign JavaScript - API de consultas](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
-* [Referencia de API queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=es){target="_blank"}
+* [Referencia de API queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html){target="_blank"}
 * [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}
 * [Trabajo con esquemas](schemas.md)
 * [Trabajo con el editor de consultas](../start/query-editor.md)
-

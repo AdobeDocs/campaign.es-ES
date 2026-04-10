@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: a81ec247d3c44c06aad977c0c58ad7916d6aa2a6
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 88%
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 88%
 
 + [Documentación de Campaign versión 8](campaign-home.md)
 + Notas de la versión  {#releases}
-   + [Notas de la versión preliminar](start/e-release-notes.md)
+   + {hide-from-toc}[Notas de la versión anticipadas](start/e-release-notes.md)
    + [Versiones y actualizaciones](start/upgrades.md)
    + [Últimas versiones](start/release-notes.md)
    + Versiones anteriores {#previous-rn}
@@ -25,11 +25,11 @@ ht-degree: 88%
       + [2024](start/release-notes-2024.md)
       + [2023](start/release-notes-2023.md)
       + [2022](start/release-notes-2022.md)
-      + [2021](start/release-notes-2021.md)
+      + {hide-from-toc}[2021](start/release-notes-2021.md)
    + [Mecanismos de protección](start/ac-guardrails.md)
-   + [Problemas conocidos](start/known-issues.md)
+   + {hide-from-toc}[Problemas conocidos](start/known-issues.md)
    + [Matriz de compatibilidad](start/compatibility-matrix.md)
-   + [Actualizaciones de la documentación](start/documentation-updates.md)
+   + {hide-from-toc}[Actualizaciones de documentación](start/documentation-updates.md)
    + [Informe de actualizaciones mensuales](../../monthly-updates-report.md)
 + Introducción {#new}
    + [Introducción a Adobe Campaign](start/get-started.md)
@@ -40,7 +40,7 @@ ht-degree: 88%
    + [De Campaign Classic v7 a v8](start/v7-to-v8.md)
    + [De Campaign Standard a v8](start/acs-to-v8.md)
    + [Preguntas frecuentes](start/campaign-faq-comprehensive.md)
-   + [Preguntas frecuentes](start/campaign-faq.md)
+   + {hide-from-toc}[Preguntas más frecuentes](start/campaign-faq.md)
 + Administración y permisos {#permissions}
    + [Introducción a los permisos](start/gs-permissions.md)
    + [Administrar permisos de usuario](start/manage-permissions.md)
@@ -78,7 +78,7 @@ ht-degree: 88%
          + [Configuración de envío de SMS](send/sms/sms-delivery-settings.md)
          + [Configuración de cuenta externa de SMPP](send/sms/smpp-external-account.md)
          + [Validación de una conexión SMPP](send/sms/smpp-connection.md)
-         + [Instancia independiente](send/sms/sms-standalone-instance.md)
+         + {hide-from-toc}[Instancia independiente](send/sms/sms-standalone-instance.md)
          + [Infraestructura intermediaria](send/sms/sms-mid-sourcing.md)
          + [Descripción del conector SMPP](send/sms/smpp-connector-delivery.md)
    + Notificaciones push {#push}
@@ -138,8 +138,8 @@ ht-degree: 88%
       + [Crear perfiles de prueba](audiences/test-profiles.md)
    + Crear públicos {#create-audiences}
       + [Creación de una lista de contactos](audiences/create-audiences.md)
-      + [Compartir públicos con soluciones de Adobe](start/shared-audiences.md)
-   + [Prácticas recomendadas](audiences/audiences-best-practices.md)
+      + {hide-from-toc}[Compartir audiencias con soluciones de Adobe](start/shared-audiences.md)
+   + {hide-from-toc}[Prácticas recomendadas](audiences/audiences-best-practices.md)
    + [Administración de las suscripciones](start/subscriptions.md)
 + Páginas de aterrizaje y Forms {#content}
    + [Creación de páginas de aterrizaje](dev/landing-pages.md)
@@ -174,7 +174,7 @@ ht-degree: 88%
       + [Introducción al seguimiento](send/tracking.md)
       + [Configuración de vínculos rastreados](send/tracked-links.md)
       + [Configuración de las opciones de seguimiento de URL](send/url-tracking.md)
-      + [Seguimiento de vínculos personalizados &#x200B;](send/personalized-links.md)
+      + [Seguimiento de vínculos personalizados ](send/personalized-links.md)
       + [Seguimiento de pruebas](send/testing-tracking.md)
       + [Acceder a registros de seguimiento](send/tracking-logs.md)
    + [Información general de monitorización de Campaign](start/monitor.md)
@@ -237,7 +237,7 @@ ht-degree: 88%
       + [Administrar carpetas y vistas](audiences/folders-and-views.md)
       + [Trabajo con enumeraciones](config/enumerations.md)
       + [Configuración de mensajería transaccional](config/transactional-msg-settings.md)
-      + [Integración de los SDK de Campaign con la aplicación - PÁGINA OBSOLETA](config/push-config.md)
+      + {hide-from-toc}[Integrar los SDK de Campaign con la aplicación: PÁGINA OBSOLETA](config/push-config.md)
       + [Cuentas externas](config/external-accounts.md)
 + Recursos para desarrolladores {#developer}
    + [Modelo de datos de Campaign](dev/datamodel.md)
@@ -256,7 +256,7 @@ ht-degree: 88%
       + [Formularios de entrada](dev/forms.md)
    + [Trabajo con paquetes de datos](dev/packages.md)
    + [API de Campaign](dev/api.md)
-   + [Consultar la base de datos con queryDef](dev/query-api.md)
+   + {hide-from-toc}[Consulte la base de datos con queryDef](dev/query-api.md)
    + API de REST {#apis}
       + [Introducción a las API de REST](dev/api/get-started-apis.md)
       + [Recomendaciones y limitaciones](dev/api/limitations.md)

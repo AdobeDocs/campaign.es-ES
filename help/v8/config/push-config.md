@@ -5,9 +5,8 @@ feature: Push
 role: Admin, Developer
 level: Intermediate
 hide: true
-hidefromtoc: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
-source-git-commit: a288845e1f092d293d679fa9aaaf6d609de85230
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1230'
 ht-degree: 42%
@@ -649,7 +648,7 @@ Aprenda a implementar FCM en su aplicación en [Documentación de Google](https:
    | Estado | Descripción | ErrorReason |
    | ---------------------------------------------------------- | ------------------------------------------------------ | ----------------------------------------- |
    | ACCRegisterDeviceStatusSuccess | Registro con éxito | VACÍO |
-   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | El nombre de anfitrión del servidor de marketing ACC está vacío o no se ha definido. | VACÍO |
+   | ACCRegisterDeviceStatusFailureMarketingServerHostnameEmpty | El nombre de host del servidor de marketing ACC está vacío o no se ha definido. | VACÍO |
    | ACCRegisterDeviceStatusFailureIntegrationKeyEmpty | La clave de integración está vacía o no se ha definido. | VACÍO |
    | ACCRegisterDeviceStatusFailureConnectionIssue | Problema de conexión con ACC | Más información (en el idioma actual de OS) |
    | ACCRegisterDeviceStatusFailureUnknownUUID | Se desconoce la UUID (clave de integración) proporcionada. | VACÍO |

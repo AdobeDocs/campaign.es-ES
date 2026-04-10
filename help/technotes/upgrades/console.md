@@ -3,9 +3,8 @@ product: campaign
 title: desaprobación de 32 bits de la consola del cliente
 description: desaprobación de 32 bits de la consola del cliente
 hide: true
-hidefromtoc: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
-source-git-commit: 50dcdf1f6bcc8c8a195a0bf0a37af254f33b80d5
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 1%
@@ -54,7 +53,7 @@ A partir de la versión 8.6, todas las versiones de Campaign v8 dejarán de ser 
 
 +++
 
-+++¿Cómo actualizo del sistema operativo Windows (32 bits) al Windows (64 bits)?
++++¿Cómo puedo actualizar del sistema operativo Windows (32 bits) al sistema operativo Windows (64 bits)?
 
 Asegúrese de que el procesador del equipo admite la instalación de un sistema operativo de 64 bits. La actualización de la versión de 32 bits a la versión de 64 bits de Windows requiere que vuelva a formatear el disco duro, instale la versión de 64 bits de Windows y, a continuación, vuelva a instalar todo lo demás que tenía en el dispositivo. Para obtener más información, consulte [Windows de 32 y 64 bits: preguntas más frecuentes](https://support.microsoft.com/en-us/windows/32-bit-and-64-bit-windows-frequently-asked-questions-c6ca9541-8dce-4d48-0415-94a3faa2e13d){target="_blank"}.
 
