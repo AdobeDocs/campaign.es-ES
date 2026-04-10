@@ -6,9 +6,8 @@ feature: Push
 role: Admin
 level: Experienced
 hide: true
-hidefromtoc: true
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
-source-git-commit: 784c74aaff23dbf1f35c6e8153f90610048e1c07
+source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 10%
@@ -81,7 +80,7 @@ Para mover el entorno a HTTP v1, siga estos pasos:
 
 1. Haga clic en **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor de marketing tiene acceso a FCM. Tenga en cuenta que, para implementaciones intermediarias, el botón **[!UICONTROL Test connection]** no puede comprobar si el servidor tiene acceso al servicio Android Firebase Cloud Messaging (FCM).
 1. Como opción, puede enriquecer el contenido de un mensaje push con algunos **[!UICONTROL Application variables]** si es necesario. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
-1. Haga clic en **[!UICONTROL Finish]** y luego en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Finish]**, luego en **[!UICONTROL Save]**.
 
    A continuación se muestran los nombres de carga útil de FCM para personalizar aún más la notificación push. Estas opciones se detallan [aquí](#fcm-apps).
 
@@ -166,7 +165,7 @@ Sin embargo, con HTTP v1, puede personalizar aún más la notificación push con
 
 ![](assets/android-push-additional-options.png)
 
-Puede hacer lo siguiente:
+Se puede:
 
 * Utilice el campo **[!UICONTROL Ticker]** para establecer el texto del valor de la notificación.
 * Utilice el campo **[!UICONTROL Image]** para establecer la dirección URL de la imagen que se mostrará en la notificación.
@@ -234,6 +233,6 @@ Para mover las aplicaciones móviles de iOS al modo de autenticación basado en 
 
 1. Haga clic en **[!UICONTROL Test the connection]** para comprobar que la configuración es correcta y que el servidor tiene acceso a APNS. Tenga en cuenta que para las implementaciones intermediarias, el botón **[!UICONTROL Test connection]** no puede comprobar si el servidor tiene acceso a APNS.
 1. Haga clic en **[!UICONTROL Next]** para configurar la aplicación de producción y siga los mismos pasos detallados anteriormente.
-1. Haga clic en **[!UICONTROL Finish]** y luego en **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Finish]**, luego en **[!UICONTROL Save]**.
 
 La aplicación de iOS ahora se mueve al modo de autenticación basado en token.
