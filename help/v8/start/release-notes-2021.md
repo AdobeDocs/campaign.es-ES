@@ -4,7 +4,7 @@ description: Lista de funciones y mejoras incluidas en las versiones de Campaign
 feature: Release Notes
 hide: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
-source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
+source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
 source-wordcount: '1577'
 ht-degree: 97%
@@ -120,7 +120,7 @@ _7 de septiembre de 2021_
 
 **Otros cambios**
 
-* Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html?lang=es#configure-acc-for-microsoft)
+* Los conectores de Microsoft CRM retirados anteriormente (implementaciones de Office 365 y locales) se han eliminado de la interfaz. [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/connectors/crm-ms-dynamics.html#configure-acc-for-microsoft)
 
 * Después de la migración a Tomcat 8, el script de configuración de IIS se ha actualizado para solucionar los problemas de integración de IIS. (NEO-31019)
 * Se ha añadido un mecanismo de protección para permitir que el [flujo de trabajo técnico de facturación](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/production-procedures/monitoring-processes.html?lang=es#billing-report) se ejecute en la instancia de marketing.
