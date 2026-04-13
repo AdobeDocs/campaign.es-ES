@@ -7,10 +7,10 @@ Role: User
 level: Experienced
 version: Campaign v8, Campaign Classic v7
 exl-id: a1e08d57-0387-4802-b447-f6d9ad87072a
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 93%
+source-wordcount: '418'
+ht-degree: 82%
 
 ---
 
@@ -25,6 +25,16 @@ Antes de configurar la actividad, asegúrese de que se cumplan los siguientes re
 * La actividad solo está disponible para fuentes de datos remotos.
 * El esquema de salida debe existir en la base de datos y estar vinculado a una base de datos de FDA.
 
+## Notas importantes {#important-notes}
+
+A partir de la versión 8.9.1, las actividades de flujo de trabajo **[!UICONTROL SQL code]** y **[!UICONTROL SQL Data Management]** se han mejorado para proteger mejor las bases de datos PostgreSQL y mantener los flujos de trabajo funcionando sin problemas cuando se ejecuta SQL personalizado desde Campaign.
+
+En caso de errores, hay dos soluciones disponibles:
+
+* Solución 1 — `XtkSecurity_FeatureFlag_SqlSensitive`
+* Solución 2 — `XtkSecurity_SqlSensitive_Methods`
+
+Consulte [Código SQL](sql-code-and-javascript-code.md#important-notes) para obtener más información y prácticas recomendadas.
 
 ## Configuración de la actividad de gestión de datos SQL {#configuring-the-sql-data-management-activity}
 

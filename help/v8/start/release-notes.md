@@ -3,10 +3,10 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: 3256a2c57e3ccfec40dde33a2daaccbc3ff57b9b
+source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 18%
+source-wordcount: '1149'
+ht-degree: 17%
 
 ---
 
@@ -69,6 +69,7 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 * Se ha mejorado la administración de la memoria contenedora mediante la implementación de restricciones automáticas del flujo de trabajo durante condiciones de alta memoria, con capacidades inteligentes de reinicio del flujo de trabajo y protecciones de memoria para procesos no críticos. (NEO-89041)
 * Se ha agregado compatibilidad con las funciones asimétricas de cifrado y descifrado en los flujos de trabajo de Campaign. (NEO-80257)
 * Rendimiento mejorado del agente de replicación y resistencia de la memoria para cargas de datos grandes en implementaciones de FDAC. (NEO-88430)
+* Las actividades de flujo de trabajo **[!UICONTROL SQL code]** y **[!UICONTROL SQL Data Management]** se han mejorado para proteger mejor las bases de datos PostgreSQL y mantener los flujos de trabajo funcionando sin problemas cuando se ejecuta SQL personalizado desde Campaign. Consulte [Administración de datos SQL](../../automation/workflow/sql-data-management.md#important-notes) y [Código SQL](../../automation/workflow/sql-code-and-javascript-code.md#important-notes) para obtener más información y prácticas recomendadas. (NEO-86540)
 
 
 ### Correcciones {#fixes-8-9-1}
