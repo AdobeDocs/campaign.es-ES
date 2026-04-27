@@ -44,7 +44,7 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 
 A continuación se enumeran los sistemas de gestión de relaciones con el cliente (CRM) compatibles con Adobe Campaign. Obtenga más información sobre los conectores CRM en [esta página](../connect/crm.md).
 
-* **** Versión 49 de la API de conector de Salesforce
+* **&#x200B;**&#x200B;Versión 49 de la API de conector de Salesforce
 * Conector de **Microsoft Dynamics**, API web: Dynamics 365 local y en línea
 
 ## Acceso de datos federado (FDA){#FederatedDataAccessFDA}
