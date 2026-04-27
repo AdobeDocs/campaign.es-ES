@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 4fe2ae81-faa6-4777-a332-70c451bca75b
 source-git-commit: 95c944963feee746a2bb83a85f075134c91059d1
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 96%
+source-wordcount: '437'
+ht-degree: 91%
 
 ---
 
@@ -19,7 +19,7 @@ Aquí se desea crear una consulta con un campo calculado de tipo **[!UICONTROL E
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatarios (nms:recipient)
+  La tabla del destinatario (nms:recipient)
 
 * ¿Campos que se desea seleccionar en la columna de salida?
 
@@ -80,6 +80,6 @@ Siga estos pasos:
 
    ![](assets/query_editor_nveau_79.png)
 
-   Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Seleccione la función **[!UICONTROL Generate an error and reject the line]**: todos los destinatarios de género “2” generarán anomalías y el resto de la información de la línea (nombre y apellido, etc.) no se exportará. Se muestra un registro de error en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos. Este registro indica que no se ha introducido el valor de enumeración “2”.
+   Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Seleccione la función **[!UICONTROL Generate an error and reject the line]**: todos los destinatarios de sexo &quot;2&quot; generan anomalías y el resto de la información de la línea (nombre y apellido, etc.) no se exportará. Se muestra un registro de error en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos. Este registro indica que no se ha introducido el valor de enumeración “2”.
 
    ![](assets/query_editor_nveau_80.png)

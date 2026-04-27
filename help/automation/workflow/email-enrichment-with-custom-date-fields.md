@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '540'
 ht-degree: 100%
 
 ---
@@ -76,7 +76,7 @@ Ahora necesita configurar su actividad **[!UICONTROL Enrichment]**:
 
    ![](assets/uc_enrichment_11.png)
 
-1. A continuación, para crear el campo de fecha personalizado **Fecha de fin de validez**, que abarca la semana después del cumpleaños, se debe agregar la **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
+1. A continuación, para crear el campo de fecha personalizado **Validity end date**, que abarca la semana después del cumpleaños, se debe añadir la **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
 
    Se puede añadir una etiqueta a la expresión.
 
@@ -109,7 +109,7 @@ Ahora puede empezar a diseñar su envío por correo electrónico con los campos 
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. Haga clic en ![](assets/uc_enrichment_16.png). Seleccione **[!UICONTROL Target extension]** y luego las fechas de validez personalizadas creadas anteriormente con la actividad **[!UICONTROL Enrichment]** para agregar la extensión a la expresión formatDate.
+1. Haga clic ![](assets/uc_enrichment_16.png). Seleccione **[!UICONTROL Target extension]** y luego las fechas de validez personalizadas creadas anteriormente con la actividad **[!UICONTROL Enrichment]** para agregar la extensión a la expresión formatDate.
 
    ![](assets/uc_enrichment_19.png)
 

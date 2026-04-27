@@ -8,12 +8,12 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 71f36413-377a-4be6-921c-9e794fe882fd
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 67%
+source-wordcount: '414'
+ht-degree: 64%
 
 ---
 
-# Cambio de dimensión{#change-dimension}
+# Dimensión cambiante{#change-dimension}
 
 Utilice la actividad **[!UICONTROL Change dimension]** para cambiar la dimensión de segmentación mientras crea una audiencia. Esta actividad desplaza el eje según la plantilla de datos y la dimensión de entrada. Por ejemplo, cambia de la dimensión &quot;contratos&quot; a la dimensión &quot;clientes&quot;.
 
@@ -25,11 +25,11 @@ También puede utilizar esta actividad para definir las columnas adicionales del
 
 Para configurar la actividad **[!UICONTROL Change dimension]**, siga los siguientes pasos:
 
-1. Seleccione la nueva dimensión de destino mediante el campo **[!UICONTROL Change dimension]**.
+1. Seleccione la nueva dimensión de segmentación mediante el campo **[!UICONTROL Change dimension]**.
 
    ![](assets/s_user_change_dimension_param1.png)
 
-1. Durante el cambio de dimensión, se pueden mantener todos los elementos o seleccionar los que desea conservar en la salida. En el ejemplo siguiente, el número máximo de duplicados se establece en 2.
+1. Durante el cambio de dimensión, se pueden mantener todos los elementos o seleccionar los que desea conservar en la salida. En el ejemplo siguiente, el máximo. el número de duplicados se establece en 2.
 
    ![](assets/s_user_change_dimension_limit.png)
 

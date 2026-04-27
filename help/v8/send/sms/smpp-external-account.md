@@ -7,8 +7,8 @@ level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
 source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '3666'
-ht-degree: 27%
+source-wordcount: '3682'
+ht-degree: 26%
 
 ---
 
@@ -40,7 +40,7 @@ Estos son los parámetros y su función necesarios para configurar la conexión:
 * **Tipo de sistema**: valor pasado en el campo system_type de la PDU BIND. Algunos proveedores necesitan un valor específico aquí.
 * **Número de conexiones secundarias MTA**: Esto define cuántas conexiones se abren por subproceso de envío.
 El número total de conexiones se puede calcular mediante esta fórmula:
-  *Conexiones totales = Número de procesos SMS * número de subprocesos de envío * número de conexiones secundarias MTA*
+  *Conexiones totales = Número de procesos SMS* número de subprocesos de envío * número de conexiones secundarias MTA*
 
    * El número de procesos SMS suele ser 1. En algunas instancias de alto rendimiento, es posible que se inicien varios procesos SMS en paralelo.
    * El número de subprocesos de envío está establecido en serverConf (configuración sendingThreads). El valor predeterminado es 1.
@@ -61,7 +61,7 @@ Configure la conexión en modo transceptor o en modo separado transmisor+recepto
    * Transceptor (o TRX): se utiliza una sola conexión TCP para transmitir y recibir mensajes.
 * **Usar parámetros diferentes para el receptor**:
 Disponible solo en modo transmisor+receptor.
-Cuando la casilla está desmarcada, se utiliza la misma configuración para el transmisor y el receptor. Cuando se marca la casilla, la configuración estándar se aplica solo al transmisor, mientras que la configuración del receptor se aplica solo al receptor.
+Cuando la casilla está desactivada, se utiliza la misma configuración para el transmisor y el receptor. Cuando se marca la casilla, la configuración estándar se aplica solo al transmisor, mientras que la configuración del receptor se aplica solo al receptor.
 * **Servidor receptor, puerto, cuenta, contraseña, tipo de sistema**
 Esta configuración se aplica al receptor cuando se encuentra en modo transmisor+receptor. Funcionan como la parte del transmisor, ver arriba [más detalles](#smpp-connection-settings).
 * **Habilite seguimientos detallados del SMPP en el archivo de registro**
@@ -83,7 +83,7 @@ Consulte la [Definición de una asignación específica de la configuración de 
 
 ### Número de origen
 
-Define la dirección de origen predeterminada para los mensajes. Esta configuración solo se aplica si el número de origen se ha dejado vacío en la entrega. De forma predeterminada, el campo de número de origen no se pasa, por lo que el proveedor lo sustituirá por el código corto.
+Define la dirección de origen predeterminada para los mensajes. Esta configuración solo se aplica si el número de origen se ha dejado vacío en el envío. De forma predeterminada, el campo de número de origen no se pasa, por lo que el proveedor lo sustituirá por el código corto.
 
 Esto habilita la función de anulación de dirección de remitente/oADC.
 
@@ -267,7 +267,7 @@ Esto indica el formato del ID devuelto en el campo message_id de la PDU SUBMIT_S
 
 * **No modificar**: El ID se almacena tal cual en la base de datos, como texto con codificación ASCII. No hay ningún procesamiento previo ni filtrado.
 * **Número decimal** : Se espera que el ID sea un número decimal en formato ASCII. Cuando se utiliza este ajuste, se eliminan los espacios iniciales y finales y los ceros al inicio.
-* **Número hexadecimal**: Se espera que el ID sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. El ID se convierte a continuación en un número decimal antes de almacenarse en la base de datos.
+* **Número hexadecimal**: Se espera que el identificador sea un número hexadecimal en formato ASCII, sin 0x inicial ni h final. A continuación, el ID se convierte en un número decimal antes de almacenarse en la base de datos.
 * **Cadena hexadecimal**: Se espera que el ID sea un texto con codificación ASCII que es en sí mismo una cadena de bytes codificados como hexadecimales. Por ejemplo, en la PDU encontrará 0x34 0x31 0x34 0x32 0x34 0x33, que se traduce como ASCII &quot;414243&quot;; entonces esta cadena se descodifica como una cadena hexadecimal de bytes, y obtiene &quot;ABC&quot; como resultado: almacenará el ID &quot;ABC&quot; en la base de datos.
 
 ### Formato de ID en el SR
@@ -278,7 +278,7 @@ Indica el formato del ID capturado por la regex de extracción del ID en el SR. 
 
 Si se selecciona, el contenido de los campos opcionales se anexará al texto procesado por las expresiones regulares anteriores. El texto tendrá el formato &quot; 0xTAG:VALUE&quot;, siendo 0xTAG el valor hexadecimal de 4 dígitos de la etiqueta en mayúsculas (por ejemplo, 0x002E).
 
-Por ejemplo, es posible que desee capturar el ID en el campo recipient_message_id. Para ello, active esta casilla de verificación y el siguiente texto se agrega al estado:
+Por ejemplo, es posible que desee capturar el ID en el campo recipient_message_id. Para ello, habilite esta casilla de verificación y el siguiente texto se agrega al estado:
 
 0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
 
@@ -286,7 +286,7 @@ En este ejemplo, 0x001E es la etiqueta del campo opcional y UUID es el valor del
 
 Para capturar este valor, ahora puede establecer la siguiente regex en la regex de Extracción del ID en el campo SR:
 
-\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
+\b0x001E:([0-9a-f][-[0-9a-f][-{4}0-9a-f]{4}-[0-9a-f]{4}-{8}0-9a-f]{12})\b
 
 >[!IMPORTANT]
 >

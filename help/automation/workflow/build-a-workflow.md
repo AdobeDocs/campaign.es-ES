@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: a6003fdb-1035-4b80-8831-73f30a0b4fb2
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '845'
 ht-degree: 78%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 78%
 
 ## Cree un nuevo flujo de trabajo {#create-a-new-workflow}
 
-El flujo de trabajo de creación depende del tipo de flujos de trabajo. Puede hacer lo siguiente:
+El flujo de trabajo de creación depende del tipo de flujos de trabajo. Se puede:
 
 * Cree [flujos de trabajo de destino](#targeting-workflows) desde el nodo **[!UICONTROL Profiles and Targets]** > **[!UICONTROL Jobs]** > **[!UICONTROL Targeting workflows]** del explorador o desde la pestaña **[!UICONTROL Profiles and Targets]** de la página principal, a través de la subpestaña **[!UICONTROL Targeting workflows]**.
 

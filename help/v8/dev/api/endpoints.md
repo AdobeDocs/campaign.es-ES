@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 9f6d3da6-374d-47f5-bc8f-b31b19cbb5ca
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '197'
 ht-degree: 9%
 
 ---
@@ -20,13 +20,13 @@ Los extremos disponibles para la API de REST de Adobe Campaign:
 
 * **/profileAndServices**: interactúe con los campos predeterminados. No se puede acceder a los campos extendidos con este extremo.
 * **/profileAndServicesExt**: interactúe con los campos personalizados agregados durante la extensión de recursos personalizados de perfil o servicios. Para obtener más información sobre los recursos personalizados, consulte [esta sección](custom-resources.md).
-* **/&lt;transactionalAPI>**: interactúe con la API de mensajes transaccionales (el nombre del extremo de la API de mensajes transaccionales depende de la configuración de su instancia). Para obtener más información, consulte [esta sección](managing-transactional-messages.md).
+* **/&lt;transactionalAPI>**: interactúa con la API de mensajes transaccionales (el nombre del extremo de la API de mensajes transaccionales depende de la configuración de su instancia). Para obtener más información, consulte [esta sección](managing-transactional-messages.md).
 * **/workflow/execution**: interactuar con flujos de trabajo. Para obtener más información, consulte [esta sección](controlling-a-workflow.md).
 
 De manera predeterminada, los recursos principales disponibles para las API **profileAndServices** y **profileAndServicesExt** son:
 
-* **/profile**: interactúe con los perfiles de la base de datos de Campaign. Para agregar perfiles a un servicio, use el extremo **/service**. Para obtener más información sobre los perfiles de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/es/campaign/standard/audiences/using/about-profiles.html).
-* **/servicio**: administrar servicios de suscripción. Para obtener más información sobre los servicios de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/es/campaign/standard/audiences/using/creating-a-service.html).
+* **/profile**: interactúe con los perfiles de la base de datos de Campaign. Para agregar perfiles a un servicio, use el extremo **/service**. Para obtener más información sobre los perfiles de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/about-profiles.html).
+* **/servicio**: administrar servicios de suscripción. Para obtener más información sobre los servicios de Campaign, consulte la [Documentación de Campaign](https://helpx.adobe.com/campaign/standard/audiences/using/creating-a-service.html).
 
 >[!NOTE]
 >

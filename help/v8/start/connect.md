@@ -6,8 +6,8 @@ role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
 source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
-workflow-type: ht
-source-wordcount: '1006'
+workflow-type: tm+mt
+source-wordcount: '1041'
 ht-degree: 100%
 
 ---
@@ -63,7 +63,7 @@ Una vez instalada la consola del cliente, siga los pasos que se indican a contin
 
 1. Haga clic en **[!UICONTROL Ok]** para guardar su configuración.
 
-Puede añadir tantas conexiones como sea necesario para conectarse a los entornos de prueba, fase y producción, por ejemplo.
+Puede añadir tantas conexiones como sea necesario para conectarse a los entornos de prueba, ensayo y producción, por ejemplo.
 
 >[!NOTE]
 >

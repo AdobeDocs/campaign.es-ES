@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 12%
+source-wordcount: '461'
+ht-degree: 11%
 
 ---
 
@@ -34,9 +34,9 @@ La versión 8 de Campaign puede conectarse con las siguientes soluciones de Adob
 
 También puede combinar sus **audiencias** y **recursos** en las soluciones de Experience Cloud con las capacidades de uso compartido de recursos y Audiencias.
 
-Obtenga más información sobre **uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=es#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información sobre **uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Obtenga más información sobre **Uso compartido de recursos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=es#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información sobre **Uso compartido de recursos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ Obtenga más información en [esta página](fda.md)
 
 Utilice Adobe Campaign para interactuar con clientes y clientes potenciales mediante X (anteriormente conocido como Twitter).
 
-Puede hacer lo siguiente:
+Se puede:
 
 * Envíe mensajes directos a sus seguidores
 * Publica en tu cuenta X

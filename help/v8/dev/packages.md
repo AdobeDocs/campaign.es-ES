@@ -8,8 +8,8 @@ exl-id: bf1ae889-9c07-4acf-8fd0-55b57151bc47
 version: Campaign v8, Campaign Classic v7
 source-git-commit: a2efad26232cd380eea850a589b22b23928253e8
 workflow-type: tm+mt
-source-wordcount: '1941'
-ht-degree: 53%
+source-wordcount: '1944'
+ht-degree: 51%
 
 ---
 
@@ -93,7 +93,7 @@ Para exportar un conjunto de objetos en un paquete de datos, siga estos pasos:
 
    >[!CAUTION]
    >
-   >Si exporta una carpeta de tipo **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** o **[!UICONTROL Plan]**, evite seleccionar la carpeta **xtk:folder**, ya que puede perder algunos datos. Seleccione la entidad que corresponde a la carpeta: **nms:offerCategory** para categorías de ofertas, **nms:offerEnv** para entornos de ofertas, **nms:program** para programas y **nms:plan** para planes.
+   >Si exporta una carpeta de tipo **[!UICONTROL Offer category]**, **[!UICONTROL Offer environment]**, **[!UICONTROL Program]** o **[!UICONTROL Plan]**, nunca seleccione el **xtk:folder**, ya que podría perder algunos datos. Seleccione la entidad que corresponde con la carpeta: **nms:offerCategory** para categorías de ofertas, **nms:offerEnv** para entornos de ofertas, **nms:program** para programas y **nms:plan** para planes.
 
    El mecanismo de dependencia controla la secuencia de exportación de entidades. Para obtener más información, consulte [Administración de dependencias](#manage-dependencies).
 

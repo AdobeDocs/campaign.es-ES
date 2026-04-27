@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 5b9fa90c-c23e-47a7-b2ca-de75da4da2ab
 source-git-commit: f75b95faa570d7c3f59fd8fb15692d3c3cbe0d36
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 21%
+source-wordcount: '707'
+ht-degree: 16%
 
 ---
 
@@ -35,7 +35,7 @@ Para obtener una vista previa del contenido del mensaje, siga los pasos a contin
 
 ## Envío de pruebas {#send-proofs}
 
-En el caso de los envíos por correo electrónico, puede enviar pruebas para validar el contenido del mensaje. El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
+En el caso de los envíos por correo electrónico, puede enviar pruebas para validar el contenido del mensaje. El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en diferentes dispositivos.
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo al público principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, valores de ajuste de personalización, configuración.
 
@@ -65,7 +65,7 @@ El tipo de destino de prueba está seleccionado en la lista desplegable **[!UICO
   >
   >Las direcciones semilla no pertenecen a la tabla de destinatarios predeterminada (nms:recipient), sino que se crean en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones sembradas con los mismos datos.
 
-  Obtenga más información acerca de las direcciones semilla en [esta sección](../audiences/test-profiles.md).
+  Obtenga más información sobre las direcciones semilla en [esta sección](../audiences/test-profiles.md).
 
 * Utilice la opción **[!UICONTROL Specific target and Seed addresses]** para combinar direcciones semilla y direcciones de correo electrónico específicas. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
@@ -94,7 +94,7 @@ Se recomienda enviar pruebas después de cada modificación al contenido del men
 Las propiedades de prueba se establecen en la pestaña **[!UICONTROL Advanced]** de las ventanas de propiedades de entrega. Vaya al vínculo **[!UICONTROL Proof properties...]** para definir los parámetros y la etiqueta de las pruebas. Puede optar por mantener:
 
 * Duplicar direcciones en la prueba
-* Incluir en la lista de bloqueados Direcciones en la prueba
+* Direcciones en la prueba
 * Direcciones en cuarentena en la prueba
 
 De manera predeterminada, los mensajes de prueba se identifican mediante la mención `Proof #N` en el asunto, donde `N` es el número de prueba. Este número se incrementa con cada análisis de entrega de prueba. Puede cambiar el prefijo `proof` según sea necesario.
@@ -106,4 +106,4 @@ De manera predeterminada, los mensajes de prueba se identifican mediante la menc
 
 Obtenga información sobre cómo enviar y validar una prueba para un envío de correo electrónico.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447002?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/333404)

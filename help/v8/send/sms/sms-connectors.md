@@ -4,9 +4,10 @@ description: Obtenga información acerca de los conectores SMS en Adobe Campaign
 feature: SMS
 role: User, Admin
 level: Intermediate
-source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
+exl-id: 5ec3f172-22dc-458b-8688-9974009c985e
+source-git-commit: 0278c5161b4b32cd2158c7694d3c7a9996a401cb
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -24,7 +25,7 @@ El conector SMS heredado es el conector SMS basado en MTA utilizado en versiones
 
 Para obtener más información sobre cómo aprovechar el conector v2, consulte la sección [Activation](#activation).
 
-Para obtener información detallada acerca de la configuración y el uso del conector SMS heredado, consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
+Para obtener información detallada acerca de la configuración y el uso del conector SMS heredado, consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up){target="_blank"}.
 
 ## Conector de SMS v2 {#sms-connector-v2}
 

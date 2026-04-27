@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 69e8d034-6bdd-4b82-bcd7-1ef4be0a59b3
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ La creación de perfiles se realiza con una solicitud **POST** en el recurso de 
 >
 >Si desea asociar una <b>orgUnit</b> al perfil creado, debe ampliar el recurso de perfil con este campo y, después de la publicación de la extensión, realizar una petición POST en el extremo <b>ProfileAndServicesExt</b>.
 >
->Para obtener más información sobre la extensión de recursos del perfil, consulte la <a href="https://helpx.adobe.com/es/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentación de Campaign</a>.
+>Para obtener más información sobre la extensión de recursos del perfil, consulte la <a href="https://helpx.adobe.com/campaign/standard/administration/using/organizational-units.html#partitioning-profiles">documentación de Campaign</a>.
 
 <br/>
 

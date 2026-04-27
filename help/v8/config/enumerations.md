@@ -5,18 +5,19 @@ feature: Configuration, Application Settings
 role: Developer
 version: Campaign v8, Campaign Classic v7
 level: Intermediate, Experienced
-source-git-commit: a1f479538a2d93a2ec13e35cb6813e09c8c4a5f8
+exl-id: 799978e7-025d-4ab0-b198-0e568e4f8ea9
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 24%
+source-wordcount: '804'
+ht-degree: 33%
 
 ---
 
 # Trabajo con enumeraciones {#enumerations}
 
-Una enumeración (también denominada lista desglosada) es una lista predefinida de valores que puede utilizar para rellenar determinados campos. Las enumeraciones ayudan a estandarizar los valores de los campos, lo que hace que la entrada de datos sea más coherente y simplifica las consultas.
+Una lista desglosada (también denominada lista detallada) es una lista predefinida de valores que se pueden utilizar para rellenar determinados campos. Las listas desglosadas ayudan a estandarizar los valores de campo, lo que hace que la entrada de datos sea más coherente y simplifica las consultas.
 
-Cuando se definen, los valores se muestran en una lista desplegable. Se puede seleccionar un valor directamente o introducirlo mediante una entrada predictiva, que sugiere y completa entradas coincidentes. Algunos campos incluyen enumeraciones predefinidas y se pueden crear enumeraciones adicionales si es necesario.
+Cuando se definen, los valores se muestran en una lista desplegable. Puede seleccionar un valor directamente o introducirlo mediante una entrada predictiva, que sugiere y completa entradas coincidentes. Algunos campos incluyen listas desglosadas predefinidas y se pueden crear listas desglosadas adicionales si es necesario.
 
 ![](assets/enum_values.png)
 

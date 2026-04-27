@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 648fefcc-6476-4af8-9f0d-c9a87a7a3019
 source-git-commit: 77ec01aaba1e50676bed57f503a9e4e8bb1fe54c
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '796'
+ht-degree: 58%
 
 ---
 
@@ -43,7 +43,7 @@ Dentro del modelo de optimización del tiempo de envío predictivo, hay dos subm
 
 Detalles de salida:
 
-* Calcular la mejor hora del día para enviar un correo electrónico durante los 7 días de la semana con intervalos de 1 hora (por ejemplo: 9:00, 10:00 y 11:00 de la mañana).
+* Calcular la mejor hora del día para enviar un correo electrónico durante los 7 días de la semana con intervalos de 1 hora (por ejemplo: 9:00 a. m., 10:00 a. m., 11:00 a. m.)
 * El modelo indicará el mejor día de la semana y la mejor hora de ese día.
 * Cada horario óptimo se calcula dos veces: una vez para maximizar la tasa de apertura y otra para maximizar la tasa de clics.
 * Se dan 16 campos (14 para los días de la semana y 2 para toda la semana):
@@ -74,8 +74,8 @@ La puntuación de participación predictiva predice la probabilidad de que un de
 
 La puntuación de participación predictiva le permite lo siguiente:
 
-* **Seleccionar una audiencia**: mediante la actividad de consulta, puede seleccionar la audiencia para interactuar con un mensaje específico.
-* **Excluir una audiencia**: mediante la actividad de consulta, puede quitar la audiencia para cancelar la suscripción.
+* **Seleccionar un público**: mediante la actividad de consulta, puede seleccionar el público para interactuar con un mensaje específico.
+* **Excluir un público**: mediante la actividad de consulta, puede quitar el público para cancelar la suscripción.
 * **Personalizar**: el mensaje en función del nivel de participación (los usuarios con un alto nivel de participación recibirán un mensaje diferente al que reciben los que no participan).
 
 Este modelo utiliza varias puntuaciones para indicar:
@@ -83,7 +83,7 @@ Este modelo utiliza varias puntuaciones para indicar:
 * **Puntuación de participación de aperturas/Puntuación de participación de clics**: este valor coincide con la probabilidad de que un suscriptor interactúe con un mensaje específico (lo abra o haga clic). Los valores van del 0,0 al 1,0.
 * **Probabilidad de baja**: este valor coincide con la probabilidad de que el destinatario cancele la suscripción del canal de correo electrónico a partir de un correo electrónico abierto. Los valores van del 0,0 al 1,0.
 * **Nivel de retención**: este valor clasifica a los usuarios en tres niveles: baja, media y alta. Es muy probable que el nivel alto permanezca con la marca y que el bajo probablemente cancele la suscripción.
-* **Clasificación del percentil de retención**: clasificación de perfiles en términos de las probabilidades de baja. Los valores van del 0,0 al 1,0. Por ejemplo: si la clasificación del porcentaje de retención es de 0,953, es más probable que este destinatario permanezca con la marca y tenga menos probabilidades de cancelar la suscripción que el 95,3% de todos los destinatarios.
+* **Clasificación del percentil de retención**: clasificación de perfiles en términos de las probabilidades de baja. Los valores van del 0,0 al 1,0. Por ejemplo, si la clasificación del porcentaje de retención es de 0,953, es más probable que este destinatario permanezca con la marca y tenga menos probabilidades de cancelar la suscripción que el 95,3 % de todos los destinatarios.
 
 >[!NOTE]
 >

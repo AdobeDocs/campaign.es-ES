@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 28%
+source-wordcount: '387'
+ht-degree: 29%
 
 ---
 
@@ -52,7 +52,7 @@ Para crear una categoría nueva, siga los pasos a continuación:
 
    * **[!UICONTROL Edit query]** para aplicar filtros al destino de la oferta.
 
-   * Un resumen de las reglas de idoneidad. Para verlas, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
+   * Un resumen de las reglas de idoneidad.Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
 
 ## Agregar una categoría de reserva
 

@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: bc13d706-7888-42eb-9116-5538e68cd515
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1926'
-ht-degree: 95%
+source-wordcount: '1937'
+ht-degree: 96%
 
 ---
 
@@ -91,7 +91,7 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
 ## Depuración de registros {#purging-the-logs}
 
-El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]**&#x200B;**[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](start-a-workflow.md).
+El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](start-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
@@ -139,11 +139,11 @@ En este caso, se anula la tarea de error. Este modo es especialmente apropiado p
 
 ## Procesamiento de errores {#processing-errors}
 
-En cuanto a las actividades, la opción **[!UICONTROL Process errors]** muestra una transición específica que se activa si se genera un error. En este caso, el flujo de trabajo no se abre en modo de error y la ejecución continúa.
+En cuanto a las actividades, la opción **[!UICONTROL Process errors]** muestra una transición específica que se habilita si se genera un error. En este caso, el flujo de trabajo no se abre en modo de error y la ejecución continúa.
 
 Los errores que se tienen en cuenta son los errores del sistema de archivos (el archivo no se puede mover, no se puede acceder a un directorio, etc.).
 
-Esta opción no procesa los errores relacionados con la configuración de la actividad, es decir, valores no válidos. Los errores relacionados con una configuración defectuosa no activan esta transición (el directorio no existe, etc.).
+Esta opción no procesa los errores relacionados con la configuración de la actividad, es decir, valores no válidos. Los errores relacionados con una configuración defectuosa no habilitan esta transición (el directorio no existe, etc.).
 
 Si un flujo de trabajo está en pausa (manual o automáticamente después de un error), el botón **[!UICONTROL Start]** reinicia la ejecución del flujo de trabajo en la que se detuvo. La actividad errónea (o actividad pausada) se vuelve a ejecutar. Las actividades anteriores no se vuelven a ejecutar.
 
@@ -244,7 +244,7 @@ Estos periodos se pueden configurar mediante la opción NmsServer_PausedWorkflow
 
 Se notifica a los supervisores del flujo de trabajo. También reciben una notificación el creador y el último usuario que modificó el flujo de trabajo. Los administradores no reciben notificaciones.
 
-## Filtrado de flujos de trabajo según su estado{#filtering-workflows-status}
+## Filtrado de flujos de trabajo según su estado {#filtering-workflows-status}
 
 La interfaz de Campaign Classic permite monitorizar el estado de ejecución de todos los flujos de trabajo de la instancia mediante **vistas** predefinidas. Para acceder a estas vistas, abra el nodo **[!UICONTROL Administration]** / **[!UICONTROL Audit]** / **[!UICONTROL Workflows Status]**.
 
@@ -265,7 +265,7 @@ Para ello:
 1. En **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, seleccione la vista que desee añadir.
 1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar vistas, consulte [esta página](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
-Además de estas vistas, puede configurar carpetas de filtros que le permitan filtrar la lista de flujos de trabajo según su estado de ejecución. Para ello:
+Además de estas vistas, puede configurar carpetas de filtros que le permitan filtrar la lista de flujos de trabajo según su estado de ejecución. Para ello, haga lo siguiente:
 
 1. Acceda a una carpeta de tipo de flujo de trabajo y seleccione el menú **[!UICONTROL Filters]** / **[!UICONTROL Advanced filter]**.
 1. Configure el filtro para que el campo **[!UICONTROL @status]** del flujo de trabajo sea igual al estado que elija.

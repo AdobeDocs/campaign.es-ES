@@ -8,7 +8,7 @@ exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 04dff810f5a838b2468280519948c88e29acf221
 workflow-type: tm+mt
-source-wordcount: '2865'
+source-wordcount: '2977'
 ht-degree: 52%
 
 ---
@@ -61,7 +61,7 @@ Adobe Campaign forma parte de las soluciones de Adobe Experience Cloud. La forma
 
   >[!NOTE]
   >
-  >Al igual que con todos los productos de Adobe, Campaign recopila información sobre los usuarios de la aplicación y del sitio web. Para obtener más información sobre esto, consulte la Política de privacidad de [Adobe](https://www.adobe.com/privacy/policy.html).
+  >Al igual que con todos los productos de Adobe, Campaign recopila información sobre los usuarios de la aplicación y del sitio web. Para obtener más información sobre esto, consulte la Política de privacidad de [Adobe](https://www.adobe.com/es/privacy/policy.html).
 
 * **Uso de Adobe Experience Cloud para recopilar información**
 
@@ -125,8 +125,8 @@ Este es el flujo general para este ejemplo de uso:
 
 Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
 
-* Los destinatarios siempre deben aceptar recibir comunicaciones. Para ello, siga atendiendo las solicitudes de exclusión lo más rápido posible y verifique el consentimiento a través de un proceso de doble inclusión. Para obtener más información sobre esto, consulte [Creación de un formulario de suscripción con doble inclusión](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}.
-* No importe listas fraudulentas ni utilice direcciones semilla para comprobar que el archivo cliente no se está utilizando de forma fraudulenta. Para obtener más información sobre esto, consulte [Acerca de las direcciones semilla](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}.
+* Los destinatarios siempre deben aceptar recibir comunicaciones. Para ello, siga atendiendo las solicitudes de exclusión lo más rápido posible y verifique el consentimiento a través de un proceso de doble inclusión. Para obtener más información sobre esto, consulte [Creación de un formulario de suscripción con doble inclusión](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms){target=_blank}.
+* No importe listas fraudulentas ni utilice direcciones semilla para comprobar que el archivo cliente no se está utilizando de forma fraudulenta. Para obtener más información sobre esto, consulte [Acerca de las direcciones semilla](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}.
 * A través de la administración de derechos y consentimiento, puede rastrear las preferencias de sus destinatarios, así como administrar quién dentro de su organización puede acceder a qué datos. Para obtener más información, consulte [esta sección](#consent).
 * Facilite y administre las solicitudes de privacidad de sus destinatarios. Para obtener más información, consulte [esta sección](#privacy-requests).
 
@@ -147,7 +147,7 @@ En principio, Adobe Campaign ofrece funcionalidades importantes que son esencial
 
 * **Gestión del consentimiento**: A través del proceso de administración de suscripciones, puede administrar las preferencias de sus destinatarios y rastrear qué destinatarios han elegido qué tipo de suscripciones. Para obtener más información sobre esto, consulte [Acerca de las suscripciones](../../automation/workflow/subscription-services.md).
 * **Retención de datos**: Todas las tablas de registro integradas tienen períodos de retención preestablecidos, lo que generalmente limita su almacenamiento de datos a 6 meses o menos. Se pueden configurar períodos de retención adicionales con flujos de trabajo. Para obtener más información, póngase en contacto con los consultores o administradores técnicos de Adobe.
-* **Administración de derechos**: Adobe Campaign permite administrar los derechos asignados a los distintos operadores de campaña a través de diferentes funciones generadas previamente o personalizadas. Esto le permite administrar qué persona de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Para obtener más información sobre esto, consulte [Acerca de la administración de acceso](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}.
+* **Administración de derechos**: Adobe Campaign permite administrar los derechos asignados a los distintos operadores de campaña a través de diferentes funciones generadas previamente o personalizadas. Esto le permite administrar qué persona de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Para obtener más información sobre esto, consulte [Acerca de la administración de acceso](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}.
 
 ### Solicitudes de privacidad {#privacy-requests}
 
@@ -179,7 +179,7 @@ Las regulaciones como el reglamento general de protección de datos (RGPD) estab
 
 ### Seguimiento de mensajes {#message-tracking}
 
-Adobe Campaign le permite rastrear los correos electrónicos enviados y el comportamiento de los destinatarios de envío: abrir, hacer clic en vínculos, cancelar suscripciones, etc. Para obtener más información, consulte [Acerca de los mensajes](../start/gs-message.md).
+Adobe Campaign permite rastrear los correos electrónicos enviados y el comportamiento de los destinatarios de envío: abrir, hacer clic en vínculos, cancelar suscripciones, etc. Para obtener más información, consulte [Acerca de los mensajes](../start/gs-message.md).
 
 Para ello, agregue vínculos de seguimiento a sus mensajes para medir el impacto del comportamiento de envío y destinatario en la pestaña Seguimiento del panel de envío. El seguimiento de datos se interpreta en el informe Seguimiento de indicadores. Para obtener más información sobre el seguimiento, consulte [esta página](../send/tracking.md).
 
@@ -242,7 +242,7 @@ Al desarrollar en Adobe Campaign (flujos de trabajo, Javascript, JSSP, etc.), si
 * **Validar y sanear la entrada**: valide y sanee la entrada del usuario en las aplicaciones web y los parámetros de flujo de trabajo para reducir los riesgos de inyección y XSS.
 * **Usar la lista de permitidos para SQL**: cuando sea necesario ejecutar SQL o script, use la lista de permitidos para las funciones SQL permitidas y evite crear consultas a partir de la entrada del usuario a través de la concatenación de cadenas.
 
-Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=es#installing-campaign-classic){target="_blank"}.
+Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
 
 
 ## Personalización

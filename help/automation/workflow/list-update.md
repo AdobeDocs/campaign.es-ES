@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: abb7f777-0b4a-4bf2-bcb6-32264f340a58
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 99%
+source-wordcount: '473'
+ht-degree: 97%
 
 ---
 
@@ -31,7 +31,7 @@ Si la lista ya existe, los destinatarios se añaden al contenido existente, a no
 
 Si desea que la lista creada o actualizada utilice una lista distinta a la del destinatario, marque la opción **[!UICONTROL Create or use a list with its own table]**.
 
-Para utilizar la opción, dichas tablas específicas deben haberse configurado en el entorno de Adobe Campaign.
+Para utilizar la opción, dichas tablas específicas deben haberse configurado en su instancia de Adobe Campaign.
 
 Por lo general, guardar un destino en una lista indica el final de un flujo de trabajo. De forma predeterminada, la actividad **[!UICONTROL List update]** no tiene una transición saliente. Marque la opción **[!UICONTROL Generate an outbound transition]** para agregar una.
 
@@ -73,6 +73,6 @@ Identifique la población que se va a guardar en el grupo.
 
 Este vídeo muestra cómo crear una lista de destinatarios desde Explorer.
 
->[!VIDEO](https://video.tv.adobe.com/v/27504?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

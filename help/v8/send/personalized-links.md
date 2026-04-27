@@ -1,5 +1,5 @@
 ---
-title: 'Seguimiento de vínculos personalizados '
+title: Seguimiento de vínculos personalizados
 description: Obtenga información sobre cómo rastrear vínculos personalizados en correos electrónicos
 feature: Personalization
 role: User
@@ -7,12 +7,12 @@ level: Beginner
 exl-id: d0e00b40-e7dd-4484-b37c-fd3f3ac70fda
 source-git-commit: 6e465ec24f72d0b30c4fc287da5d4c4bcaeda05b
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 50%
+source-wordcount: '642'
+ht-degree: 51%
 
 ---
 
-# Seguimiento de vínculos personalizados  {#tracking-personalized-links}
+# Seguimiento de vínculos personalizados {#tracking-personalized-links}
 
 Los vínculos del contenido del correo electrónico que contienen personalización necesitan rastrearse con una sintaxis específica.
 

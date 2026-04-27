@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 14a741dd-794e-4760-bfa3-bafbe993a3f7
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 41%
 
 ---
@@ -65,4 +65,4 @@ En el siguiente caso de uso, aprenda a personalizar un asunto y un cuerpo del co
 
 Obtenga información sobre cómo añadir un campo de personalización a la línea de asunto y el contenido de un envío de correo electrónico en el siguiente vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/27466?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/24925?quality=12)

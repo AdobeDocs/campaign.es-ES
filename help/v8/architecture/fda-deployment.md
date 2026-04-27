@@ -7,7 +7,7 @@ level: Beginner
 exl-id: b3df0336-f40e-4ac1-b6a4-068b8827dca2
 source-git-commit: 561e4b6d2c99e98e068132c80c2bebb756b60a44
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ En su implementación de FDA de Campaign (predeterminada), [!DNL Adobe Campaign]
 
 Este modelo de implementación ofrece las siguientes ventajas:
 
-* **Almacenamiento y rendimiento**
+* **Rendimiento y almacenamiento**
 Puede mover los datos históricos a [!DNL Snowflake] y, a continuación, reducir las dependencias al límite de Adobe Campaign ID. Esta arquitectura también reduce su dependencia de los límites de almacenamiento y rendimiento de PostgreSQL. A medida que se almacenan menos datos en la base de datos de Campaign, el rendimiento es mejor y las tareas de mantenimiento se realizan más rápido.
 
 * **Administración y extensión del modelo de datos**

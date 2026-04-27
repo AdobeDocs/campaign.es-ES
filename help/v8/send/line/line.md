@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 4de3b2c2-7eb7-4fd9-9350-64a6e9e2b7f8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 94%
+source-wordcount: '1196'
+ht-degree: 93%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 94%
 
 LINE es una aplicación gratuita de mensajería instantánea, llamadas de voz y vídeo disponible en todos los sistemas operativos móviles y en PC. Puede utilizar Adobe Campaign para enviar mensajes de LINE.
 
-[!DNL LINE] también se puede combinar con el módulo de mensajes transaccionales para enviar mensajes en tiempo real en la aplicación [!DNL LINE] instalada en los dispositivos móviles de los consumidores. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) en la documentación de Campaign Classic v7.
+[!DNL LINE] también se puede combinar con el módulo de mensajes transaccionales para enviar mensajes en tiempo real en la aplicación [!DNL LINE] instalada en los dispositivos móviles de los consumidores. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/configure-transactional-messaging/transactional-messaging-architecture#transactional-messaging-and-line) en la documentación de Campaign Classic v7.
 
 ![](assets/line_message.png)
 
 Los pasos para utilizar el canal [!DNL LINE] son los siguientes:
 
 1. [Configuración del canal LINE](#setting-up-line-channel)
-1. [Creación de una entrega](#creating-the-delivery)
+1. [Creación de un envío](#creating-the-delivery)
 1. [Configuración del tipo de contenido](#defining-the-content)
 1. [Monitorización de la entrega (seguimiento, cuarentena, informes, etc.)](#accessing-reports)
 

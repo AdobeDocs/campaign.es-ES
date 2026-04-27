@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 9e57d21c-ce16-448d-97f1-8c6844acb37b
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 97%
 
 ---
@@ -39,7 +39,7 @@ Si es necesario, puede asignar la tarea de aprobación a un solo operador o a un
 
 En caso de una sola aprobación, la transición correspondiente a la opción de operador se activa y la tarea finaliza: los demás operadores no pueden responder.
 
-En caso de varias aprobaciones, se activan las transiciones correspondientes a la opción de cada operador. La tarea finaliza cuando han respondido todos los operadores del grupo o si ha caducado la tarea.
+En caso de varias aprobaciones, se habilitan las transiciones correspondientes a la opción de cada operador. La tarea finaliza cuando han respondido todos los operadores del grupo o si ha caducado la tarea.
 
 Esta actividad no bloquea el procesamiento y el flujo de trabajo puede realizar otras tareas mientras espera una respuesta.
 

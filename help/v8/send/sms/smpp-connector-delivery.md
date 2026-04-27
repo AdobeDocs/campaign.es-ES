@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 704e151a-b863-46d0-b8a1-fca86abd88b9
 source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 5%
+source-wordcount: '1291'
+ht-degree: 2%
 
 ---
 
@@ -108,7 +108,7 @@ Esta tabla resume todas las configuraciones. Los valores sensatos mín./máx. da
 | batchUpdateSize | Tamaño de los microlotes de actualización | 5000 | 100: Latencia muy baja | maxWaitingMessages/updateThreads: Sobrepasar este valor no sirve de nada porque maxWaitingMessages limitará el almacenamiento en búfer de todas formas | 1: Deshabilitar el microagrupamiento, actualizar los mensajes uno por uno |
 | configRefreshMillis | Periodo para la recarga de configuración en milisegundos | 10000 | pollPeriodMillis: baja latencia | 600000: No vuelva a cargar demasiado rápido para guardar los recursos | 500: La baja latencia permite probar nuevos ajustes más rápido |
 | deliveryPartRetryCount | Número máximo de veces que deliveryPart se vuelve a intentar o se pospone. Precaución: al reiniciar el proceso de envío se cuenta como un reintento, los bloqueos también se pueden contar como un reintento. | 20 | 1: Deshabilitar los reintentos | 50: Hacer que los mensajes sean más persistentes para evitar proveedores inestables | 1: Deshabilitar los reintentos. 1000: Evite vaciar los mensajes fallidos. |
-| deliveryPartRetryDelaySeconds | Retraso mínimo antes de volver a intentar una deliveryPart. Se trata de procesos cruzados y contenedores cruzados. El retraso se expresa en segundos. | 60 | 0: Reintentos inmediatos | 3600: Reintentos muy lentos (1 hora entre cada reintento) | 1: Facilita los reintentos en registros ocupados. |
+| deliveryPartRetryDelaySeconds | Retraso mínimo antes de reintentar una deliveryPart. Esto es un proceso cruzado y un contenedor cruzado. El retraso es en segundos. | 60 | 0: Reintentos inmediatos | 3600: Reintentos muy lentos (1 hora entre cada reintento) | 1: Facilita los reintentos en registros ocupados. |
 | logOutput | Enviar datos de monitorización y generación de perfiles en la salida de registro principal. | verdadero | false: puede aumentar un poco el rendimiento. Desanimado. | true: habilitar el registro. | verdadero |
 | maxWaitingMessages | Número máximo de mensajes procesados en cualquier momento | 50000 | 256: Suficiente para un solo deliveryPart | 200000: limitado por la longitud de la consulta SQL (64 k) | 1: Procesar los mensajes uno por uno |
 | pollPeriodMillis | Frecuencia de sondeo de base de datos (en milisegundos) para comprobar si hay mensajes nuevos | 2000 | 500: Latencia muy baja | 10000: Lotes más grandes | 500: La baja latencia facilita la depuración. |
@@ -116,7 +116,7 @@ Esta tabla resume todas las configuraciones. Los valores sensatos mín./máx. da
 | profDeliveryStat | Registra varias estadísticas agregadas sobre los aspectos internos del proceso de SMS | verdadero | false: puede aumentar un poco el rendimiento. Desanimado. | true: registro de poca profundidad | verdadero |
 | profLogPerMessage | Registra cada paso de procesamiento de cada mensaje | falso | false: Reduzca la amplitud del registro. | true: registro de gran nivel de detalle. **Usar solo cuando sea absolutamente necesario**. Gran impacto en el rendimiento. **Deshabilite esta configuración tan pronto como se hayan recopilado suficientes datos**. | verdadero |
 | providerIdScanPeriod | Período en segundos entre análisis para buscar nuevos id de proveedor para conciliar | 10 | 1: Baja latencia | 60: Lotes más grandes para obtener más rendimiento | 1: La baja latencia ayuda a depurar el procesamiento de mensajes. |
-| providerIdThreads | Número de subprocesos para la reconciliación del identificador de proveedor. 1 subproceso por instancia es suficiente. Defina como 0 para deshabilitarlo en este contenedor. | 1 | 0: Deshabilitar en este contenedor | 1 | 1 |
+| providerIdThreads | Número máximo de subprocesos para la reconciliación de ID de proveedor. 1 subproceso por instancia es suficiente. Establezca el valor en 0 para deshabilitar en este contenedor. | 1 | 0: Deshabilitar en este contenedor | 1 | 1 |
 | sendingThreads | Número máximo de hilos de envío | 1 | 1: Un solo hilo | Número de CPU. Demasiados hilos suelen dañar el rendimiento. | 1: Un solo subproceso genera registros más limpios. |
 | updateThreads | Número máximo de subprocesos para actualizar la base de datos | 1 | 1: Un solo hilo | Número de CPU. Cada subproceso crea su propia conexión DB. | 1: Un solo subproceso genera registros más limpios. |
 | verifyMode | Simular el envío de mensajes. Los mensajes no se envían realmente. Útil para la depuración | falso | falso | verdadero | false: ejecute el sistema normalmente. true: Probar solo el acceso a la base de datos y la preparación de mensajes. |

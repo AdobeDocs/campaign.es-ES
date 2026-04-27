@@ -7,8 +7,8 @@ description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
 source-git-commit: e3a234c7a29795c2a09fba9063ce17f0a573ab46
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 85%
+source-wordcount: '893'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 85%
 # Documentación de Adobe Campaign versión 8 (consola) {#campaign-v8}
 
 + [Documentación de Campaign versión 8](campaign-home.md)
-+ Notas de la versión  {#releases}
++ Notas de la versión {#releases}
    + {hide-from-toc}[Notas de la versión anticipadas](start/e-release-notes.md)
    + [Versiones y actualizaciones](start/upgrades.md)
    + [Últimas versiones](start/release-notes.md)
@@ -121,7 +121,7 @@ ht-degree: 85%
    + Mensajes transaccionales {#real-time}
       + [Introducción a los mensajes transaccionales](send/transactional.md)
       + [Creación y publicación de una plantilla](send/transactional-template.md)
-      + Administración de eventos  {#event}
+      + Administración de eventos {#event}
          + [Recopilación y procesamiento de eventos](send/event-processing.md)
          + [Comprensión de la descripción del evento](send/event-description.md)
          + [Mensajes de envío y monitorización](send/delivery-execution.md)
@@ -174,7 +174,7 @@ ht-degree: 85%
       + [Introducción al seguimiento](send/tracking.md)
       + [Configuración de vínculos rastreados](send/tracked-links.md)
       + [Configuración de las opciones de seguimiento de URL](send/url-tracking.md)
-      + [Seguimiento de vínculos personalizados &#x200B;](send/personalized-links.md)
+      + [Seguimiento de vínculos personalizados](send/personalized-links.md)
       + [Seguimiento de pruebas](send/testing-tracking.md)
       + [Acceder a registros de seguimiento](send/tracking-logs.md)
    + [Información general de monitorización de Campaign](start/monitor.md)
@@ -212,7 +212,7 @@ ht-degree: 85%
    + [Campaign + Workfront](connect/ac-workfront.md)
    + [Campaign + X (Twitter)](connect/ac-tw.md)
    + [Campaign + Base de datos externa](connect/fda.md)
-   + Campaign + su CRM  {#ac-crm}
+   + Campaign + su CRM {#ac-crm}
       + [Introducción a los conectores CRM](connect/crm.md)
       + [Trabajo con Campaign y SFDC](connect/ac-sfdc.md)
       + [Trabajo con Campaign y Microsoft Dynamics](connect/ac-ms-dyn.md)

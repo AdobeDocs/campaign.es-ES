@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 10351620-115c-4bd8-b216-e5ad6f205ef3
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1110'
 ht-degree: 96%
 
 ---
@@ -27,7 +27,7 @@ La sección superior de la ventana de configuración de esta actividad permite d
 
 >[!CAUTION]
 >
->Solo se admiten archivos de estructura “plana” (por ejemplo, CSV, TXT, etc.). No se recomienda utilizar el formato XML. Con la consola del cliente, puede cargar archivos de hasta un tamaño máximo de 150 MB. En la interfaz de usuario web, la actividad Cargar archivo tiene un límite de 50 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=es){target="_blank"}
+>Solo se admiten archivos de estructura “plana” (por ejemplo, CSV, TXT, etc.). No se recomienda utilizar el formato XML. Con la consola del cliente, puede cargar archivos de hasta un tamaño máximo de 150 MB. En la interfaz de usuario web, la actividad Cargar archivo tiene un límite de 50 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
 ![](assets/s_advuser_wf_etl_file.png)
 

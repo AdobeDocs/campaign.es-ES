@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 3412e3de-1c88-496e-8fda-ca9fc9b18e69
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1812'
 ht-degree: 99%
 
 ---
@@ -45,7 +45,7 @@ Para probar estos ejemplos, siga estos pasos:
 
 Para escribir en la base de datos, puede utilizar el método estático `Write` en el esquema `xtk:session`:
 
-1. Componga una solicitud de escritura en XML.
+1. Redacte una solicitud de escritura en XML.
 
 1. Escriba el registro:
 
@@ -56,7 +56,7 @@ Para escribir en la base de datos, puede utilizar el método estático `Write` e
 
    1. Pase el código XML como argumento para la solicitud de escritura.
 
-### Paso 1: componer una solicitud de escritura
+### Paso 1: redactar una solicitud de escritura
 
 Puede añadir, actualizar y eliminar registros.
 
@@ -147,11 +147,11 @@ Este vídeo muestra cómo escribir en la base de datos:
 
 Para consultar la base de datos, puede utilizar el método de instancia no estático `xtk:queryDef`:
 
-1. Componga una consulta en XML.
+1. Redacte una consulta en XML.
 1. Cree un objeto de consulta.
 1. Ejecute la consulta.
 
-### Paso 1: componer una consulta
+### Paso 1: redactar una consulta
 
 Especifique el código XML para una entidad `queryDef`.
 
@@ -612,11 +612,11 @@ Este vídeo muestra un ejemplo del uso de un método de API no estático en un f
 
 ### Documentación de API
 
-* [Ejemplos de llamadas SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"}
+* [Ejemplos de llamadas de SOAP](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=es){target="_blank"}
 * Métodos:
-   * [Create](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=es){target="_blank"}
+   * [Crear](https://experienceleague.adobe.com/developer/campaign-api/api/f-create.html?lang=es){target="_blank"}
    * [DeleteCollection](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-DeleteCollection.html?lang=es){target="_blank"}
    * [ExecuteQuery](https://experienceleague.adobe.com/developer/campaign-api/api/sm-queryDef-ExecuteQuery.html?lang=es){target="_blank"}
    * [PostEvent](https://experienceleague.adobe.com/developer/campaign-api/api/sm-workflow-PostEvent.html?lang=es){target="_blank"}
-   * [Write](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=es){target="_blank"}
+   * [Escribir](https://experienceleague.adobe.com/developer/campaign-api/api/sm-session-Write.html?lang=es){target="_blank"}
 * [función logInfo](https://experienceleague.adobe.com/developer/campaign-api/api/f-logInfo.html?lang=es){target="_blank"}

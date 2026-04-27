@@ -7,8 +7,8 @@ role: User, Admin
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 73%
+source-wordcount: '132'
+ht-degree: 55%
 
 ---
 
@@ -27,12 +27,12 @@ Los flujos de trabajo detallados a continuación se instalan con el complemento 
   <tr> 
    <td> <span class="uicontrol">Full aggregate calculation (propositionrcp cube)</span> <br /> </td> 
    <td> <span class="uicontrol">agg_nmspropositionrcp_full</span><br /> </td> 
-   <td> Este flujo de trabajo actualiza el acumulado <strong>Completo</strong> del cubo <strong>Propuesta de oferta. </strong> Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Entrega, Oferta de mercadotecnia y Fecha.<br />: el cubo <strong>Propuesta de oferta</strong> se usa para generar informes basados en ofertas.<br /> </td> 
+   <td> Este flujo de trabajo actualiza el acumulado <strong>Completo</strong> del cubo <strong>Propuesta de oferta. </strong> Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de mercadotecnia y Fecha.<br /> Luego se usa el cubo <strong>Propuesta de oferta</strong> para generar informes basados en ofertas.<br /> </td> 
   </tr> 
    <tr> 
    <td> <span class="uicontrol">MessageCenter full aggregate calculation</span> <br /> </td> 
    <td> <span class="uicontrol">agg_messageCenter_full</span> <br /> </td> 
-   <td> Este flujo de trabajo actualiza el acumulado <strong>Completo</strong> del cubo <strong>Centro de mensajes</strong>. Se activa cada día a la 3 de la mañana de forma predeterminada. Este acumulado captura las siguientes dimensiones: canal, fecha, estado y tipo de evento.<br />: el cubo <strong>Centro de mensajes</strong> se usa para generar informes basados en eventos. <br /> </td> 
+   <td> Este flujo de trabajo actualiza el acumulado <strong>Completo</strong> del cubo <strong>Centro de mensajes</strong>. Se activa cada día a las 3 de la mañana de forma predeterminada. Este agregado captura las siguientes dimensiones: canal, fecha, estado y tipo de evento.<br /> Luego se usa el cubo <strong>Centro de mensajes</strong> para generar informes basados en eventos. <br /> </td> 
    <td> <br /> </td> 
   </tr> 
  </tbody> 

@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 65%
+source-wordcount: '1326'
+ht-degree: 63%
 
 ---
 
@@ -78,13 +78,13 @@ Debe tener en cuenta los siguientes mecanismos de sincronización:
 
 ### Configuración de paquetes {#packages-configuration}
 
-Las extensiones de esquema directamente vinculadas a **interaction** (ofertas, propuestas, destinatarios, etc.) deben implementarse en las instancias de ejecución.
+Cualquier extensión de esquema vinculada directamente a **Interaction** (ofertas, propuestas, destinatarios, etc.) debe implementarse en las instancias de ejecución.
 
 El paquete **Interaction** está instalado en todas las instancias (control y ejecución). Hay dos paquetes adicionales disponibles: un paquete para las instancias de control y otro para cada instancia de ejecución.
 
 >[!NOTE]
 >
->Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Este tipo de datos se encuentra detallado en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=es#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Este tipo de datos se encuentra detallado en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La duración de la retención de datos se configura en cada instancia (a través de la ventana **[!UICONTROL Data purge]** del asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de elegibilidad que se van a calcular.
 

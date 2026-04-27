@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: ff2be012-72f3-428d-a973-196fea7ec4ab
 source-git-commit: 110a2cac920ca3087f6fcb3cab8474729f6075be
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 64%
+source-wordcount: '885'
+ht-degree: 63%
 
 ---
 
@@ -19,13 +19,13 @@ Las entregas de correo postal permiten generar un archivo de extracción que con
 
 Los pasos para generar el archivo son los siguientes:
 
-1. [Creación del envío](#creating-a-direct-mail-delivery)
+1. [Creación de la entrega](#creating-a-direct-mail-delivery)
 1. [Definición del público](#defining-the-direct-mail-audience)
 1. [Definición del contenido del archivo](#defining-the-direct-mail-content)
-1. [Validación del envío](#validating)
+1. [Validación de la entrega](#validating)
 1. [Inicio de la entrega](#start-delivery)
 
-## Creación del envío{#creating-a-direct-mail-delivery}
+## Creación de la entrega{#creating-a-direct-mail-delivery}
 
 Cree una entrega de correo directo basado en la plantilla. Puede duplicar y configurar la plantilla integrada **[!UICONTROL Deliver by direct mail (paper)]**.
 
@@ -35,12 +35,12 @@ Para crear una nueva envío de correo directo, siga los pasos a continuación:
 >
 >En [esta sección](../start/create-message.md) se exponen conceptos globales sobre la creación de envíos.
 
-1. Cree un nuevo envío, por ejemplo, desde el panel de control Envío.
+1. Cree un nuevo envío, por ejemplo, en el panel de control de envíos.
 1. Seleccione la plantilla de envío **Enviar por correo directo (papel)**.
 
    ![](assets/direct_mail.png)
 
-1. Identifique su entrega con una etiqueta, un código y una descripción. Para obtener más información, consulte [esta sección](../start/create-message.md#create-the-delivery).
+1. Identifique su envío con una etiqueta, un código y una descripción. Para obtener más información, consulte [esta sección](../start/create-message.md#create-the-delivery).
 1. Haga clic en **Continuar** para confirmar esta información y mostrar la ventana de configuración de mensajes.
 
 ## Definición del público{#defining-the-direct-mail-audience}
@@ -71,13 +71,13 @@ Este vínculo le permite acceder al asistente de extracción y definir la inform
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Puede insertar una URL personalizada en el archivo de extracción. Para obtener más información, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=es){target="_blank"} de Adobe Campaign Classic.
+Puede insertar una URL personalizada en el archivo de extracción. Para obtener más información, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html){target="_blank"} de Adobe Campaign Classic.
 
 >[!NOTE]
 >
->Este asistente incluye los pasos del asistente de exportación detallados en Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=es){target="_blank"}.
+>Este asistente incluye los pasos del asistente de exportación detallados en Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}.
 
-## Validación del envío{#validating}
+## Validación de la entrega{#validating}
 
 Compruebe el resultado del análisis y el contenido del archivo de salida.
 

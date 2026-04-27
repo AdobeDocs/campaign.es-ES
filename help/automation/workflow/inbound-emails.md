@@ -27,7 +27,7 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
    * **[!UICONTROL Use an external account]**
 
-     Cuando esta opción está activada, se puede seleccionar una cuenta POP3 externa en lugar de introducir los parámetros de conexión. El campo **[!UICONTROL External account]** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Este campo solo está visible si está activada la opción “Usar una cuenta externa”.
+     Cuando esta opción está activada, se puede seleccionar una cuenta POP3 externa en lugar de introducir los parámetros de conexión. El campo **[!UICONTROL External account]** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Este campo solo está visible si está habilitada la opción “Usar una cuenta externa”.
 
      Si no se selecciona esta opción, se deberán especificar los siguientes parámetros:
 

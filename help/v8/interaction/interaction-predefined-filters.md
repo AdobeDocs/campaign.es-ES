@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 42%
+source-wordcount: '166'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,7 @@ Cree filtros predefinidos para definir reglas de idoneidad para la población de
 
 >[!NOTE]
 >
->La interfaz de usuario web de Adobe Campaign le ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro. Para obtener más información sobre los filtros predefinidos para la interfaz de usuario web, consulte la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
+>La interfaz de usuario web de Adobe Campaign le ofrece una interfaz fácil de usar para administrar y personalizar sin esfuerzo los filtros predefinidos para satisfacer sus necesidades específicas. Debe crearla una sola vez y guardarla para usarla en el futuro. Para obtener más información sobre los filtros predefinidos para la interfaz de usuario web, consulte la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/start/predefined-filters){target=_blank}.
 
 
 Para crear un filtro predefinido, siga el siguiente proceso:
@@ -27,7 +27,7 @@ Para crear un filtro predefinido, siga el siguiente proceso:
 
    ![](assets/offer_filter_create_005.png)
 
-1. Haga clic en **[!UICONTROL New]**.
+1. Haga clic **[!UICONTROL New]**.
 
    ![](assets/offer_filter_create_001.png)
 

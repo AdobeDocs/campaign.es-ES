@@ -9,8 +9,8 @@ level: Experienced
 exl-id: efbbd0cd-9c56-4ad0-8bcb-efba4b63c28b
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 6%
+source-wordcount: '448'
+ht-degree: 8%
 
 ---
 
@@ -43,14 +43,14 @@ Para establecer una sesión segura de la API de Adobe I/O de servicio a servicio
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-* **&lt;ORGANIZATION>**: Este es su ID de ORGANIZACIÓN personal; Adobe proporciona un ID de ORGANIZACIÓN para cada una de sus instancias:
+* **&lt;ORGANIZATION>**: Este es su ID DE ORGANIZACIÓN personal; Adobe proporciona un ID de ORGANIZACIÓN para cada una de sus instancias:
 
    * &lt;ORGANIZATION> : su instancia de producción,
    * &lt;ORGANIZATION-mkt-stage>: su instancia de fase.
 
   Para obtener el valor de su ID de ORGANIZACIÓN, consulte con el administrador o con el contacto técnico de Adobe. También puede recuperarla en Adobe I/O al crear una nueva integración, en la lista de licencias (consulte la <a href="https://developer.adobe.com/developer-console/docs/guides/authentication/">documentación de Adobe Developer</a>).
 
-* **&lt;ACCESS_TOKEN>**: Su token de acceso personal, que se recuperó al intercambiar su token web JSON a través de una solicitud POST.
+* **&lt;ACCESS_TOKEN>**: El token de acceso personal, que se recuperó al intercambiar el token web JSON mediante una solicitud POST.
 
 * **&lt;API_KEY>**: su clave API personal. Se proporciona en Adobe I/O después de crear una nueva integración con el servicio de Adobe Campaign.
 

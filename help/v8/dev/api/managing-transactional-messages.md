@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 1%
 
 ---
@@ -35,9 +35,9 @@ El evento transaccional se envía a través de una solicitud de POST con la sigu
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZATION>**: su ID. DE ORGANIZACIÓN personal. Consulte [esta sección](must-read.md).
+* **&lt;ORGANIZATION>**: su ID DE ORGANIZACIÓN personal. Consulte [esta sección](must-read.md).
 
-* **&lt;transactionalAPI>**: los extremos de la API de mensajes transaccionales.
+* **&lt;transactionalAPI>**: los puntos finales de la API de mensajes transaccionales.
 
   El nombre del punto de conexión de la API de mensajes transaccionales depende de la configuración de la instancia. Corresponde al valor &quot;mc&quot; seguido de su ID personal de organización. Veamos el ejemplo de la empresa de Geometrixx, con &quot;geometrixx&quot; como ID de la organización. En ese caso, la petición POST sería la siguiente:
 

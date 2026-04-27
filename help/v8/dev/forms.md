@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 62908bba-9cfa-42b6-b463-b601496d535b
 source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2571'
 ht-degree: 4%
 
 ---
@@ -87,7 +87,7 @@ El control de edición se adapta automáticamente al tipo de datos correspondien
 
 De forma predeterminada, cada campo se muestra en una sola línea y ocupa todo el espacio disponible en función del tipo de datos.
 
-Todos los atributos de formulario se enumeran en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html?lang=es){target="_blank"}.
+Todos los atributos de formulario se enumeran en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/developer/campaign-api/api/control-Button.html){target="_blank"}.
 
 ## Formato {#formatting}
 
@@ -293,7 +293,7 @@ Se utiliza una lista desplegable para seleccionar un elemento de destino de la l
 
 El icono **[!UICONTROL Modify the link]** (carpeta) inicia un formulario de selección con la lista de elementos de destino y una zona de filtro.
 
-El icono **[!UICONTROL Edit link]** (lupa) inicia el formulario de edición del elemento vinculado. El formulario utilizado se deduce de forma predeterminada en la clave del esquema de destino. El atributo **form** le permite forzar el nombre del formulario de edición (por ejemplo, &quot;cus:company2&quot;).
+El icono **[!UICONTROL Edit link]** (lupa) inicia el formulario de edición del elemento vinculado. El formulario utilizado se deduce de forma predeterminada en la clave del esquema de destino. El atributo **form** le permite forzar el nombre del formulario de edición (por ejemplo: &quot;cus:company2&quot;).
 
 Puede restringir la selección de elementos de destino agregando el elemento **`<sysfilter>`** de la definición del vínculo en el formulario de entrada:
 
@@ -392,7 +392,7 @@ Ejemplo de una tabla de relaciones en un esquema:
 </srcSchema>
 ```
 
-Para nuestro ejemplo, empezamos con el formulario de entrada del esquema &quot;cus:recipient&quot;. La lista debe mostrar las asociaciones con suscripciones a servicios y debe permitirle agregar una suscripción seleccionando un servicio existente.
+Para nuestro ejemplo, comenzamos con el formulario de entrada del esquema &quot;cus:recipient&quot;. La lista debe mostrar las asociaciones con suscripciones a servicios y debe permitirle agregar una suscripción seleccionando un servicio existente.
 
 ![](assets/do-not-localize/form_exemple12.png)
 

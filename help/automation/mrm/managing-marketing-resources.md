@@ -7,7 +7,7 @@ role: User
 exl-id: 4d91fb7d-f846-4644-b83d-5a6a988ae297
 source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 46%
 
 ---
@@ -59,7 +59,7 @@ Utilice la ficha **[!UICONTROL Audit]** para agregar un lector de pruebas y defi
 
 ### Bloqueo/desbloqueo de un recurso {#locking-unlocking-a-resource}
 
-Una vez creados, los recursos están disponibles en el panel de recursos de marketing y los operadores pueden editarlos y modificarlos.
+Una vez creados, los recursos están disponibles en el panel de control de recursos de marketing y los operadores pueden editarlos y modificarlos.
 
 Cuando un operador comienza a trabajar en un recurso, la práctica recomendada es bloquearlo para evitar que otros operadores lo modifiquen al mismo tiempo. A continuación, el recurso se reserva: permanece accesible, pero otro operador no lo puede publicar ni actualizar en el servidor.
 
@@ -95,7 +95,7 @@ Obtenga más información en la sección [Foros de debate](discussion-forums.md)
 
 ### Proceso de aprobación {#approval-process}
 
-La fecha de disponibilidad prevista se muestra en los detalles del recurso si dicha fecha se especificó en la pestaña **[!UICONTROL Tracking]**. Una vez que llegue esta fecha, puede ejecutar el proceso de aprobación mediante el botón **[!UICONTROL Submit for approval]** del panel de recursos. El estado del recurso cambia a **[!UICONTROL Approval in progress]**.
+La fecha de disponibilidad prevista se muestra en los detalles del recurso si dicha fecha se especificó en la pestaña **[!UICONTROL Tracking]**. Una vez que llegue esta fecha, puede ejecutar el proceso de aprobación mediante el botón **[!UICONTROL Submit for approval]** del panel de control de recursos. El estado del recurso cambia a **[!UICONTROL Approval in progress]**.
 
 Para aprobar un recurso, haga clic en el botón **[!UICONTROL Approve the resource]** de su panel.
 
@@ -117,7 +117,7 @@ Vaya a la pestaña **[!UICONTROL Tracking]** para comprobar las aprobaciones.
 
 Cuando se aprueba, el recurso de marketing debe publicarse. El proceso de publicación debe estar sujeto a una implementación específica según los requisitos de la empresa. Esto significa que los recursos se pueden publicar en una extranet o en cualquier otro servidor, se puede enviar información específica a un proveedor de servicios externos, etc.
 
-Para publicar un recurso, haga clic en el botón **[!UICONTROL Publish]** en el área de edición del panel de recursos de marketing.
+Para publicar un recurso, haga clic en el botón **[!UICONTROL Publish]** en el área de edición del panel de control de recursos de marketing.
 
 ![](assets/mkt-resource-publish.png)
 

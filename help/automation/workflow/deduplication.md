@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: f79a979d-bd1d-4a86-8844-563886692941
 source-git-commit: f616f92e31abd51e3544f848ce272e80389aef73
 workflow-type: tm+mt
-source-wordcount: '1114'
-ht-degree: 96%
+source-wordcount: '1134'
+ht-degree: 98%
 
 ---
 
@@ -158,7 +158,7 @@ Para ello, siga estos pasos:
 
 1. Después de activar la funcionalidad, se agrega una pestaña **[!UICONTROL Merge]** a la actividad **[!UICONTROL Deduplication]**. Permite definir grupos de campos para combinar y sus reglas asociadas.
 
-   Para obtener más información al respecto, consulte el caso de uso detallado disponible en [esta sección](deduplication-merge.md). 
+   Para obtener más información al respecto, consulte el caso de uso detallado disponible en [esta sección](deduplication-merge.md).
 
 ## Parámetros de entrada {#input-parameters}
 

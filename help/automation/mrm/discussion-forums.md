@@ -7,7 +7,7 @@ role: User
 exl-id: c2336507-beea-4ddb-aa8c-1ec591eb5683
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '527'
 ht-degree: 45%
 
 ---
@@ -62,7 +62,7 @@ Para responder a un mensaje, haga clic en el cuerpo del correo electrónico y lu
 
 * Para cancelar la suscripción a un foro, haga clic en el botón **[!UICONTROL Unsubscribe]**.
 
-* Su panel personal enumera los foros a los que está suscrito. Haga clic en el vínculo **[!UICONTROL Subscription to discussion forums]** para mostrar la lista y luego haga clic en el elemento que le interese para acceder al foro correspondiente.
+* Su panel de control personal enumera los foros a los que está suscrito. Haga clic en el vínculo **[!UICONTROL Subscription to discussion forums]** para mostrar la lista y luego haga clic en el elemento que le interese para acceder al foro correspondiente.
 
   ![](assets/forum-subscribed.png)
 

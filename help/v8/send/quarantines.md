@@ -8,14 +8,14 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 220b7a88-bd42-494b-b55b-b827b4971c9e
 source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
 workflow-type: tm+mt
-source-wordcount: '1317'
-ht-degree: 29%
+source-wordcount: '1363'
+ht-degree: 33%
 
 ---
 
 # Cuarentena {#quarantine-management}
 
-Adobe Campaign administra una lista de direcciones en cuarentena para canales en línea (correo electrónico, SMS, notificación push). Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser agregado a la lista de bloqueados de la por estos proveedores. Además, la cuarentena reduce el coste de envío de los SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
+Adobe Campaign administra una lista de direcciones en cuarentena para canales en línea (correo electrónico, SMS, notificación push). Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores. Además, la cuarentena reduce el coste de envío de los SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
 
 Cuando su dirección o número de teléfono están en cuarentena, los destinatarios se excluyen del objetivo durante el análisis de la entrega: no podrá enviar mensajes de marketing, incluidos correos electrónicos de flujo de trabajo automatizado, a esos contactos. Si esas direcciones en cuarentena también están presentes en las listas, se excluirán al enviarlas a esas listas. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno, si la dirección no existe o si el servidor de correo electrónico no está disponible.
 
@@ -33,7 +33,7 @@ Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de** como d
 
 >[!NOTE]
 >
->Los destinatarios que cancelaron la suscripción a través del método List-Unsubscribe [&quot;mailto&quot;](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} no se envían a la cuarentena. Se da de baja su suscripción al [servicio](../start/subscriptions.md) asociado con la entrega, o se envía a la lista de bloqueados de la (visible en la sección **[!UICONTROL No longer contact]** del perfil) si no se ha definido ningún servicio para la entrega.
+>Los destinatarios que cancelaron la suscripción a través del método List-Unsubscribe [&quot;mailto&quot;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} no se envían a la cuarentena. Se da de baja su suscripción al [servicio](../start/subscriptions.md) asociado con la entrega, o se envía a la lista de bloqueados de la (visible en la sección **[!UICONTROL No longer contact]** del perfil) si no se ha definido ningún servicio para la entrega.
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -49,7 +49,7 @@ Se pueden capturar dos tipos de errores:
 En la lista de direcciones en cuarentena, el campo **[!UICONTROL Error reason]** indica por qué la dirección seleccionada se envía a cuarentena. [Más información](#non-deliverable-bounces).
 
 
-Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón de correo técnico administrado por Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no está en la lista de bloqueados de la para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información acerca de los bucles de comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
+Si un usuario clasifica un correo electrónico como correo no deseado, el mensaje se redirige automáticamente a un buzón de correo técnico administrado por Adobe. A continuación, la dirección de correo electrónico del usuario se envía automáticamente a la cuarentena con el estado **[!UICONTROL Denylisted]**. Este estado hace referencia únicamente a la dirección y el perfil no se incluye en la lista de bloqueados para que el usuario siga recibiendo mensajes SMS y notificaciones push. Obtenga más información acerca de los bucles de comentarios en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/transition-process/infrastructure.html?lang=es#feedback-loops){target="_blank"}.
 
 >[!NOTE]
 >
@@ -92,7 +92,7 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 
 Además, el informe integrado **[!UICONTROL Non-deliverables and bounces]**, disponible en la sección **Informes** de esta página de inicio, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de una entrega específica o personalizar este informe según sea necesario.
 
-Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Dirección de correo en cuarentena {#quarantined-recipient}
 

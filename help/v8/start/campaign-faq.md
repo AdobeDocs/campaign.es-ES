@@ -8,7 +8,7 @@ exl-id: 027f5478-d86b-42be-b63d-ec8f5e1dd83d
 hide: true
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '785'
 ht-degree: 96%
 
 ---
@@ -85,13 +85,13 @@ ht-degree: 96%
 
    Puede obtener el programa de instalación y la consola del cliente desde el Centro de descargas de Adobe.
 
-   Como usuario administrador, acceda a la [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target="_blank"}  de Adobe para descargar Adobe Campaign.
+   Como usuario administrador, acceda a la [Distribución de software](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html) {target="_blank"} de Adobe para descargar Adobe Campaign.
 
    Obtenga más información acerca el Centro de distribución [en esta página](https://experienceleague.adobe.com/docs/experience-cloud/software-distribution/home.html?lang=es){target="_blank"}.
 
 1. **¿Puedo conectar con expertos en Campaign?**
 
-   Únase a la comunidad de Campaign: busque respuestas en preguntas existentes o pregunte a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"}
+   Únase a la comunidad de Campaign: busque respuestas en preguntas existentes o pregunte a los expertos. [Únase a la conversación](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community){target="_blank"}
 
 
 1. **¿Cómo puedo registrar un problema?**

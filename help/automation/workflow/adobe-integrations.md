@@ -27,12 +27,12 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **In
   <tr> 
    <td> <span class="uicontrol">Importar audiencias desde Adobe Experience Cloud</span> <br /> </td> 
    <td> <span class="uicontrol">importSharedAudience</span> <br /> </td> 
-   <td> Este flujo de trabajo permite importar audiencias y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign.<br /> </td> 
+   <td> Este flujo de trabajo permite importar públicos y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Exportar audiencias a Adobe Experience Cloud</span> <br /> </td> 
    <td> <span class="uicontrol">exportSharedAudience</span> <br /> </td> 
-   <td> Este flujo de trabajo exporta audiencias como audiencias o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza.<br /> </td> 
+   <td> Este flujo de trabajo exporta públicos como públicos o segmentos compartidos. Estos públicos pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

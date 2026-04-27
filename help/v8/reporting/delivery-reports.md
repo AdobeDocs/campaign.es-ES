@@ -5,14 +5,14 @@ feature: Reporting
 exl-id: e9031d65-6e0e-49da-9990-7687d2a77591
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1028'
 ht-degree: 60%
 
 ---
 
 # Informes de envío {#delivery-reports}
 
-Se puede realizar un seguimiento de la ejecución de los envíos a través de diversos informes accesibles desde la información general de envío.
+Se puede realizar un seguimiento de la ejecución de los envíos a través de diversos informes accesibles desde la información general de entrega.
 
 Para acceder a los informes, siga los pasos a continuación:
 

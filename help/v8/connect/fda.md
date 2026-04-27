@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0259b3bd-9dc2-44f9-a426-c4af46b00a4e
 source-git-commit: 631c4986d24daeff870412566318adb170ce040f
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 36%
+source-wordcount: '734'
+ht-degree: 40%
 
 ---
 
@@ -69,8 +69,8 @@ Por ejemplo, en la actividad **[!UICONTROL Query]**, puede definir una conexión
 1. Abra la actividad y haga clic en **[!UICONTROL Add data...]**
 1. Seleccionar las opciones de **[!UICONTROL External data]**
 1. Seleccione la opción **[!UICONTROL Locally defining the data source]**
-1. Seleccionar el motor de base de datos de objetivo en la lista desplegable. Introduzca el nombre del servidor y proporcione los parámetros de autenticación. Especificar también el nombre de la base de datos externa.
-1. Seleccione la tabla donde se almacenan los datos. Puede introducir el nombre de la tabla directamente en el campo correspondiente o hacer clic en el icono de edición para acceder a la lista de las tablas de la base de datos.
+1. Seleccionar el motor de base de datos de objetivo en la lista desplegable. Introducir el nombre del servidor y especificar los parámetros de autenticación. Especificar también el nombre de la base de datos externa.
+1. Seleccionar la tabla en la que se almacenan los datos. Puede introducir el nombre de la tabla directamente en el campo correspondiente o hacer clic en el icono de edición para acceder a la lista de las tablas de la base de datos.
 1. Hacer clic en el botón **[!UICONTROL Add]** para definir uno o varios campos de reconciliación entre los datos de la base de datos externa y los datos de la base de datos de Adobe Campaign. Los iconos **[!UICONTROL Edit expression]** del **[!UICONTROL Remote field]** y el **[!UICONTROL Local field]** le proporcionan acceso a la lista de campos de cada una de las tablas.
 1. Si es necesario, especifique una condición de filtrado y el modo de clasificación de datos.
 1. Seleccione los datos adicionales que se recopilarán en la base de datos externa. Para ello, haga doble clic en los campos que desea añadir para mostrarlos en las **[!UICONTROL Output columns]**.

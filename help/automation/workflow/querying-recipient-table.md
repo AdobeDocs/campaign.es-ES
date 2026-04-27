@@ -53,7 +53,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/query_editor_05.png)
 
-1. Si es necesario, haga clic en el botón **[!UICONTROL Distribution of values]** para ver una distribución en función del dominio de correo electrónico de los posibles clientes. Hay un porcentaje disponible para cada dominio de correo electrónico de la base de datos. Los dominios que no sean “orange.co.uk” se muestran hasta que se aplique el filtro.
+1. Si es necesario, haga clic en el botón **[!UICONTROL Distribution of values]** para ver una distribución en función del dominio de correo electrónico de los clientes potenciales. Hay un porcentaje disponible para cada dominio de correo electrónico de la base de datos. Los dominios que no sean “orange.co.uk” se muestran hasta que se aplique el filtro.
 
    En la parte inferior de la ventana se muestra un resumen de la consulta: **Email domain equal to “orange.co.uk”**.
 

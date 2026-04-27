@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 7fef434e-f6bd-46a4-9ec2-0182f081c928
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '640'
+source-wordcount: '641'
 ht-degree: 80%
 
 ---
@@ -46,13 +46,13 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
   Esta funcionalidad se reserva únicamente a los usuarios avanzados. Afecta a los flujos de trabajo que incluyen actividades de objetivos (consulta, unión, intersección, etc.). Cuando se activa esta opción, las consultas SQL enviadas a la base de datos durante la ejecución del flujo de trabajo se muestran en Adobe Campaign: esto significa que puede revisarlas para optimizar consultas o diagnosticar problemas.
 
-  Las consultas se muestran en una pestaña **[!UICONTROL SQL logs]** que se añade al flujo de trabajo (excepto a los flujos de trabajo de la campaña) y a la actividad **[!UICONTROL Properties]** cuando la opción está activada. La pestaña **[!UICONTROL Audit]** también incluye consultas SQL.
+  Las consultas se muestran en una pestaña **[!UICONTROL SQL logs]** que se añade al flujo de trabajo (excepto a los flujos de trabajo de la campaña) y a la actividad **[!UICONTROL Properties]** cuando la opción está habilitada. La pestaña **[!UICONTROL Audit]** también incluye consultas SQL.
 
   ![](assets/wf_tab_log_sql.png)
 
 * **[!UICONTROL Execute in the engine]**
 
-  Esta opción solo puede utilizarse para tareas de depuración, nunca de producción. Cuando está activada, el flujo de trabajo tiene prioridad y el resto de flujos de trabajo se detienen hasta que este haya terminado.
+  Esta opción solo puede utilizarse para tareas de depuración, nunca de producción. Cuando está habilitada, el flujo de trabajo tiene prioridad y el resto de flujos de trabajo se detienen hasta que este haya terminado.
 
 * **[!UICONTROL Enable watchdog supervisor to keep workflow running permanently]**
 

@@ -5,7 +5,7 @@ role: Developer
 level: Experienced
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '352'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera solici
 }
 ```
 
-* **Al realizar una solicitud a Adobe.io, se obtiene {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Se ha producido un error. Compruebe su URI e inténtelo de nuevo.&quot;}**
+* **Al realizar una solicitud a Adobe.io, se obtiene {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Algo ha salido mal. Compruebe su URI e inténtelo de nuevo.&quot;}**
 
 Adobe.io declara su URI no válido: lo más probable es que el URI que está solicitando no sea válido. En Adobe.io, al seleccionar el servicio de Campaign, se obtiene un selector con una lista de posibles organization_ids. Debe comprobar que el que elige es el que introduce en la dirección URL.
 

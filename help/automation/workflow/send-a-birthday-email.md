@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: c3a80871-e045-454c-b1ca-8f484d2e14e1
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '814'
 ht-degree: 94%
 
 ---
@@ -116,7 +116,7 @@ La selección de los destinatarios cuyo cumpleaños corresponde a la fecha actua
 
 La actividad **[!UICONTROL Test]** permite comprobar si es un año bisiesto o no y si la fecha actual es el 1 de marzo.
 
-Si se verifica la prueba (el año no es un año bisiesto: no hay 29 de febrero y la fecha actual es de hecho 1 de marzo), la transición **[!UICONTROL True]** se activa y los destinatarios nacidos el 29 de febrero se añadirán a la entrega del 1 de marzo. En caso contrario, la transición **[!UICONTROL False]** se activa y solo los destinatarios nacidos en la fecha actual reciben la entrega.
+Si se verifica la prueba (el año no es un año bisiesto: no hay 29 de febrero y la fecha actual es de hecho 1 de marzo), la transición **[!UICONTROL True]** se habilita y los destinatarios nacidos el 29 de febrero se añadirán a la entrega del 1 de marzo. En caso contrario, la transición **[!UICONTROL False]** se habilita y solo los destinatarios nacidos en la fecha actual reciben la entrega.
 
 Copie y pegue el código siguiente en la sección **[!UICONTROL Initialization script]** de la pestaña **[!UICONTROL Advanced]**.
 
@@ -190,7 +190,7 @@ Añada una actividad de **Entrega recurrente** basada en la plantilla de correo 
 
 >[!CAUTION]
 >
->Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de Campaign. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](technical-workflows.md).
+>Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de campaña. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](technical-workflows.md).
 >
 >Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información, consulte   sección.
 

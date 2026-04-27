@@ -7,7 +7,7 @@ level: Experienced
 exl-id: 7c586836-82e1-45fb-9c28-18361572e1fa
 source-git-commit: 925f8152d28f60f876c5ef4420064fa0d71cdb9d
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '801'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Para habilitar la integración de CMK con Campaign, siga los pasos a continuaci�
 
 1. Comparta su [nombre de recurso de Amazon (clave ARN)](https://docs.aws.amazon.com/kms/latest/developerguide/find-cmk-id-arn.html){target="_blank"} con [!DNL Adobe Campaign]. Para ello, póngase en contacto con su representante de Adobe. <!--or Adobe transition manager?-->
 
-1. Cree y pruebe las reglas de Amazon EventBridge para permitir que Adobe supervise las claves&#x200B; [Más información](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
+1. Cree y pruebe las reglas de Amazon EventBridge para permitir que Adobe supervise sus claves.&#x200B; [Más información](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-rules.html){target="_blank"}.
 
 
 ### Mecanismos de protección y limitaciones {#cmk-callouts}
@@ -66,7 +66,7 @@ Las siguientes limitaciones y protecciones se aplican a la integración de CMK c
 
 * Solo se admiten las claves [AWS Key Management Service](https://docs.aws.amazon.com/kms/latest/developerguide/overview.html){target="_blank"} (KMS). No se pueden utilizar claves generadas por el cliente fuera de KMS&#x200B;
 
-* Se espera tiempo de inactividad durante la primera configuración. palo de golfLa duración del tiempo de inactividad depende del tamaño de la base de datos.
+* Se espera tiempo de inactividad durante la primera configuración. &#x200B;La duración del tiempo de inactividad depende del tamaño de la base de datos.
 
 * Como cliente, es el propietario y mantiene la clave. Debe ponerse en contacto con Adobe en caso de cualquier cambio en la clave&#x200B;
 

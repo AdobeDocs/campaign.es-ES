@@ -7,8 +7,8 @@ level: Beginner
 exl-id: b63e6905-3bd4-4de4-9e7e-7638e5fc1192
 source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '1108'
-ht-degree: 88%
+source-wordcount: '1112'
+ht-degree: 87%
 
 ---
 
@@ -23,7 +23,7 @@ Están disponibles los siguientes tipos de informe:
 
 Puede acceder a los informes integrados desde la página de inicio de Campaign, el panel de informes dedicado o la lista de envío. La forma en que se muestra el informe en la interfaz de usuario depende de su contexto.
 
-Hay disponible una lista de informes clave en la página principal que le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. También puede aprender a agregar sus propios informes a la ficha **[!UICONTROL Reports]**.
+Hay disponible una lista de informes clave en la página principal que le permite acceder rápidamente a los datos de envío. La lista se puede modificar para adaptarla a las necesidades. También puede aprender a añadir sus propios informes a la pestaña **[!UICONTROL Reports]**.
 
 Para obtener más información sobre estas configuraciones personalizadas, consulte esta [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/configuring-access-to-the-report.html?lang=es){target="_blank"}.
 
@@ -42,11 +42,11 @@ Para acceder a los informes integrados de Campaign:
 
    ![](assets/edit-a-report.png)
 
-1. El vínculo **[!UICONTROL Back]** en la parte superior de la pantalla le devuelve a la lista de informes.
+1. Haga clic en el vínculo **[!UICONTROL Back]** en la parte superior de la pantalla para volver a la lista de informes.
 
    ![](assets/back-button.png)
 
-Se puede acceder a los informes que son específicos de una campaña o una entrega a través de sus respectivos paneles.
+Se puede acceder a los informes que son específicos de una campaña o una entrega a través de sus respectivos paneles de control.
 
 ![](assets/reporting-on-delivery.png)
 
@@ -215,7 +215,7 @@ Los informes sobre campañas hacen referencia a los datos de la tabla **nms:oper
 
 ## Informes sobre servicios {#reports-on-services}
 
-Los informes sobre servicios hacen referencia a los datos de la tabla **nms:service**.
+Los informes sobre servicios se refieren a los datos de la tabla **nms:service**.
 
 <table> 
  <tbody> 
@@ -302,7 +302,7 @@ Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en
 
 ## Informes sobre simulaciones {#reports-on-simulations}
 
-Los informes sobre simulaciones hacen referencia a los datos de la tabla **nms:simulation**.
+Los informes sobre simulaciones se refieren a los datos de la tabla **nms:simulation**.
 
 <table> 
  <tbody> 
@@ -335,7 +335,7 @@ Los informes sobre simulaciones hacen referencia a los datos de la tabla **nms:s
 
 ## Informes de aplicaciones Web {#reports-on-web-applications}
 
-Los informes de aplicaciones Web hacen referencia a los datos de la tabla **nms:WebApp**.
+Los informes de aplicaciones web hacen referencia a los datos de la tabla **nms:WebApp**.
 
 <table> 
  <tbody> 
@@ -360,7 +360,7 @@ Los informes de aplicaciones Web hacen referencia a los datos de la tabla **nms:
 
 ## Otros informes de ootb {#other-ootb-reports}
 
-También se incluyen los siguientes informes integrados. Para más información al respecto, consulte el documento sobre la funcionalidad a la hacen referencia.
+También se incluyen los siguientes informes. Para obtener más información, consulte el documento sobre la funcionalidad a la que se refieren.
 
 <table> 
  <tbody> 

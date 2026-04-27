@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: aeb35076-2f0d-456d-8562-be69e7e902eb
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 97%
+source-wordcount: '1111'
+ht-degree: 95%
 
 ---
 
@@ -94,7 +94,7 @@ Cada fila representa una hora del día y cada celda representa 5 minutos de esa 
 
 La cuadrícula muestra todos los flujos de trabajo que se ejecutan al mismo tiempo para cada uno de estos períodos de 5 minutos.
 
-En el ejemplo siguiente, entre las 8:00 y las 8:05 de la mañana, se están ejecutando tres flujos de trabajo (independientemente de su duración individual):
+En el ejemplo siguiente, entre las 8:00 y las 8:00, se están ejecutando tres flujos de trabajo (independientemente de su duración individual)::05am
 
 ![](assets/wkf_monitoring_ex_8am.png)
 

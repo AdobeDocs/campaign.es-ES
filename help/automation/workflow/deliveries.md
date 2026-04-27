@@ -39,12 +39,12 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **En
   <tr> 
    <td> <span class="uicontrol">Alias cleansing</span> <br /> </td> 
    <td> <span class="uicontrol">aliasCleansing</span> <br /> </td> 
-   <td> Este flujo de trabajo estandariza los valores de enumeración. Se activa cada día a la 3 de la mañana de forma predeterminada.<br /> </td> 
+   <td> Este flujo de trabajo estandariza los valores de enumeración. Se activa cada día a las 3 de la mañana de forma predeterminada.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Update for deliverability</span> <br /> </td> 
    <td> <span class="uicontrol">deliverabilityUpdate</span> <br /> </td> 
-   <td> Este flujo de trabajo le permite crear la lista de reglas de los atributos del correo rechazado, así como la lista de dominios y los MX de la plataforma. Este flujo de trabajo solo funciona si el puerto HTTPS está abierto. Estas listas no se actualizan a menos que se instale el módulo Deliverability.<br /> </td> 
+   <td> Este flujo de trabajo le permite crear la lista de reglas de las calificaciones del correo rechazado, así como la lista de dominios y los MX de la plataforma. Este flujo de trabajo solo funciona si el puerto HTTPS está abierto. Estas listas no se actualizan a menos que se instale el módulo Deliverability.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Database cleanup</span> <br /> </td> 

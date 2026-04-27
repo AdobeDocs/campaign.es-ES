@@ -7,12 +7,12 @@ level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 59%
+source-wordcount: '1276'
+ht-degree: 58%
 
 ---
 
-# Enviar una oferta {#send}
+# Enviar una oferta{#send}
 
 Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno **Live**. [Más información](interaction-offer.md#approve-offers)
 
@@ -163,7 +163,7 @@ La entrega almacena automáticamente la clasificación y las consideraciones de 
 
 La actividad **[!UICONTROL Offer engine]** también le permite especificar una llamada al motor de oferta antes de la entrega.
 
-Para obtener más información sobre la actividad **Motor de ofertas**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=es){target="_blank"}.
+Para obtener más información sobre la actividad **Motor de ofertas**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}.
 
 Esta actividad funciona con el mismo principio que la actividad **Enrichment** con acceso al motor, al enriquecer los datos de población entrantes con una oferta calculada por el motor antes de una entrega.
 
@@ -186,7 +186,7 @@ Después de configurar su actividad **Consulta**:
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-Para obtener más información sobre la actividad **Oferta por celda**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=es){target="_blank"}.
+Para obtener más información sobre la actividad **Oferta por celda**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}.
 
 Para ello, utilice el proceso siguiente:
 

@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 31089026-3fc0-4491-8b70-0fb7fd1e3ac0
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1281'
+source-wordcount: '1282'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,7 @@ La actividad **[!UICONTROL Local approval]** integrada en un flujo de trabajo de
 
 >[!CAUTION]
 >
->Para utilizar esta función, es necesario adquirir el módulo Distributed Marketing, que es una opción de Campaign. Compruebe el acuerdo de licencia.
+>Para utilizar esta función, es necesario comprar el módulo Distributed Marketing, que es una opción de Campaign. Compruebe el acuerdo de licencia.
 
 Para configurar este caso de uso, se ha creado el siguiente flujo de trabajo de objetivo:
 

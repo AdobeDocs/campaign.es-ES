@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 4da3e69a-6230-4c94-a6f1-4e8c01e854ba
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '1608'
+source-wordcount: '1620'
 ht-degree: 48%
 
 ---
@@ -18,7 +18,7 @@ Campaign viene con un módulo **Interaction** que te permite responder en tiempo
 
 Puede crear un catálogo de ofertas que interactúe con sus canales salientes (correo electrónico, correo directo, SMS) para seleccionar la mejor oferta y enviarla a un contacto en un contexto determinado. La selección de la mejor oferta para un destinatario se basa en **reglas de elegibilidad**. La selección de una oferta de entre un conjunto de ofertas relevantes se determina mediante reglas de prioridad. Las reglas de presentación de ofertas tienen en cuenta el historial del contacto y ayudan a evitar que reciban la misma oferta varias veces.
 
-La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de idoneidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
+La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de elegibilidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
 
 ![](assets/interaction-cycle.png)
 
@@ -100,7 +100,7 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
   >Los espacios deben definirse en las especificaciones y no deben modificarse durante el proyecto.
 
 * **Offer catalog**: conjunto de ofertas definidas en Adobe Campaign que se puede seleccionar durante una interacción. El catálogo se organiza de forma jerárquica con cada nodo correspondiente a una categoría.
-* **Category**: una carpeta relacionada con el catálogo de ofertas en un entorno, que organiza las ofertas según la naturaleza, la fecha de idoneidad y el tema de la aplicación. Una categoría puede contener subcategorías que heredan todas las características de la categoría principal. Las reglas de idoneidad se pueden definir para una categoría a fin de compartirlas en varias ofertas.
+* **Category**: una carpeta relacionada con el catálogo de ofertas en un entorno, que organiza las ofertas según la naturaleza, la fecha de idoneidad y el tema de la aplicación. Una categoría puede contener subcategorías que heredan todas las características de la categoría principal. Las reglas de elegibilidad se pueden definir para una categoría a fin de compartirlas en varias ofertas.
 * **Application themes**: las palabras clave definidas en la categoría permiten filtrar ofertas cuando se presentan en un canal entrante o saliente y restringen la selección de ofertas a una o dos categorías.
 
   >[!NOTE]
@@ -109,11 +109,11 @@ Descubra los términos específicos de la oferta y las directrices relacionadas 
 
 * **Reglas de elegibilidad**: restricciones aplicadas a un entorno, categoría u oferta relacionadas con el período de validez, el objetivo y el peso. Permiten garantizar que una oferta está en línea con el contacto de destino.
 
-  En los entornos, las reglas de idoneidad incluyen reglas de presentación aplicadas a las ofertas y a los destinatarios.
+  En los entornos, las reglas de elegibilidad incluyen reglas de presentación aplicadas a las ofertas y a las personas objetivo.
 
   En las categorías, las reglas de idoneidad permiten: limitar la validez de la categoría en el tiempo, definir los temas de la aplicación y determinar las personas objetivo. También pueden recibir un peso multiplicador durante un tiempo determinado. Esto le permite compartir las reglas para las ofertas en otras categorías y simplificar así la administración.
 
-  En las ofertas, las reglas de idoneidad permiten limitar la validez de las ofertas en el tiempo y determinar los destinatarios.
+  En las ofertas, las reglas de elegibilidad permiten limitar la validez de las ofertas en el tiempo y determinar las personas objetivo.
 
 * **Arbitrage**: seleccionar ofertas para mostrar en un entorno (ofertas elegibles). El principio de arbitraje clasifica las ofertas por prioridad según los criterios definidos en las categorías, ofertas y ofertas de contexto.
 * **Contact**: un contacto de una interacción entrante. Durante el procesamiento de visualización del motor, el contacto se asocia a una dimensión de segmentación. Hay dos tipos de contactos:

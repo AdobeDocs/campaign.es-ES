@@ -1,7 +1,7 @@
 ---
 product: campaign
 title: Acerca de los flujos de trabajo
-description: Automatice los procesos con flujos de trabajo, administre datos y audiencias, envíe mensajes, y mucho más.
+description: Automatice los procesos con flujos de trabajo, administre datos y públicos, envíe mensajes, y mucho más.
 feature: Workflows
 version: Campaign v8, Campaign Classic v7
 role: User
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 ## Acerca de los flujos de trabajo{#about-workflows}
 
-Adobe Campaign incluye un módulo de flujos de trabajo que permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos, incluso la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos.
+Adobe Campaign incluye un módulo de flujos de trabajo que permite organizar la gama completa de procesos y tareas en los distintos módulos del servidor de aplicaciones. Este entorno gráfico completo permite diseñar procesos que incluyen la segmentación, la ejecución de campañas, el procesamiento de archivos, la participación humana, etc. El motor de flujo de trabajo se ejecuta y rastrea estos procesos.
 
 Se puede utilizar un flujo de trabajo, por ejemplo, para descargar un archivo de un servidor, descomprimirlo y, a continuación, importar registros de la base de datos de Adobe Campaign.
 

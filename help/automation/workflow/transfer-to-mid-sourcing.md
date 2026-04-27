@@ -5,8 +5,8 @@ description: Descubra más información sobre los flujos de trabajo Transfer to 
 feature: Workflows
 source-git-commit: 6464e1121b907f44db9c0c3add28b54486ecf834
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 85%
+source-wordcount: '103'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Tr
   <tr> 
    <td> <span class="uicontrol">Mid-sourcing (delivery logs)</span> <br /> </td> 
    <td> <span class="uicontrol">defaultMidSourcingLog</span> <br /> </td> 
-   <td> Este flujo de trabajo recopila los registros de envío en el servidor de mid-sourcing. Se activa cada hora de forma predeterminada.<br /> </td> 
+   <td> Este flujo de trabajo recopila los registros de envío en el servidor intermediario. Se activa cada hora de forma predeterminada.<br /> </td> 
   </tr> 
  </tbody> 
 </table>

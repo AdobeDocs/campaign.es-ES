@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 4be3a6dc-0c61-4534-b9dd-6c99c8a037a9
 source-git-commit: 329130d716054e5054fc0a5989a77d950c546ec0
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 100%
+source-wordcount: '468'
+ht-degree: 99%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 En este documento se indican todos los sistemas y componentes compatibles con la última versión de la consola del cliente de **Adobe Campaign v8**. A menos que se indique lo contrario, se admiten todas las versiones secundarias. Los productos y las versiones que no forman parte de esta lista no son compatibles con Adobe Campaign.
 
-Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL), Adobe Campaign ya no es compatible con ellas y se eliminan de esta matriz de compatibilidad. Para evitar problemas, compruebe que tiene una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
+Cuando las versiones específicas de estos sistemas y herramientas de terceros llegan al final de su vida útil (EOL), Adobe Campaign ya no es compatible con ellas y se eliminan de esta matriz de compatibilidad. Para evitar problemas, compruebe que se encuentra en una versión compatible de cualquier sistema enumerado en la matriz de compatibilidad.
 
 >[!NOTE]
 >
@@ -87,6 +87,6 @@ Los siguientes exploradores son compatibles con Campaign for Web Access. Obtenga
 * [Actualizaciones de la versión de Campaign](upgrades.md)
 * [Compruebe su versión de Campaign](upgrades.md#version)
 * [Instalación de la consola del cliente de Campaign](connect.md)
-* [Versiones del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target="_blank"}
+* [Versiones de Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target="_blank"}
 
 Para recibir información sobre las nuevas versiones de la solución Experience Cloud, suscríbase para recibir la [actualización de producto prioritaria de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.

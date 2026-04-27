@@ -9,7 +9,7 @@ level: Experienced
 exl-id: cdb050b7-d327-42f7-b534-d32d988c8ffb
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '444'
 ht-degree: 0%
 
 ---
@@ -201,8 +201,8 @@ Si desea utilizar un filtro personalizado, debe crearlo y personalizarlo en la i
 
 Para obtener más información, consulte la documentación de Campaign Standard:
 
-* [Configurando definición de filtro](https://helpx.adobe.com/es/campaign/standard/developing/using/configuring-filter-definition.html).
-* [Caso de uso: invocando a un recurso mediante una clave de identificación compuesta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html?lang=es).
+* [Configurando definición de filtro](https://helpx.adobe.com/campaign/standard/developing/using/configuring-filter-definition.html).
+* [Caso de uso: invocando a un recurso mediante una clave de identificación compuesta](https://experienceleague.adobe.com/docs/campaign-standard/using/developing/adding-or-extending-a-resource/uc-calling-resource-id-key.html).
 
 <br/>
 

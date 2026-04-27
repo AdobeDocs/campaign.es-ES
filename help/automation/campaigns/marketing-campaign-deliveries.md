@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1d9638cb-0fc9-4d04-a9c5-bcab8f4ebe95
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 40%
+source-wordcount: '706'
+ht-degree: 46%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 40%
 
 Orqueste sus envíos en canales múltiples en sus campañas: optimice sus comunicaciones con Adobe Campaign mediante correos electrónicos personalizados, SMS, notificaciones push y mensajes en la aplicación. Puede utilizar medios enriquecidos como vídeos, emojis o GIF, e integrarlos directamente.
 
-Las entregas se pueden crear a través del panel de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas. Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
+Las entregas se pueden crear a través del tablero de la campaña, un flujo de trabajo de la campaña o directamente a través de la descripción general de las entregas. Cuando se crean a partir de una campaña, las entregas se vincularán a esta campaña y se consolidarán en el nivel de la campaña.
 
 ## Creación de entregas {#create-deliveries}
 
@@ -51,7 +51,7 @@ Una vez concedidas todas las solicitudes de aprobación, el estado de entrega ca
 
 ![](assets/confirm-delivery.png)
 
-La información también aparece en el panel de campañas. El enlace **[!UICONTROL Confirm delivery]** le permite iniciar la entrega.
+La información también aparece en el panel de control de campañas. El enlace **[!UICONTROL Confirm delivery]** le permite iniciar la entrega.
 
 ![](assets/confirm-delivery-from-dashboard.png)
 
@@ -64,9 +64,9 @@ Sin embargo, también puede permitir que el propietario de la campaña confirme 
 
 ### Inicio de una entrega de correo directo {#start-an-offline-delivery}
 
-Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UICONTROL Pending extraction]**. Los archivos de extracción se crean mediante un [flujo de trabajo técnico](../workflow/technical-workflows.md) dedicado que, en una configuración predeterminada, se inicia automáticamente cuando una entrega de correo directo está pendiente de extracción. Cuando un proceso está en curso, se muestra en el panel y se puede editar a través de su enlace.
+Una vez concedidas todas las aprobaciones, el estado de entrega cambia a **[!UICONTROL Pending extraction]**. Los archivos de extracción se crean mediante un [flujo de trabajo técnico](../workflow/technical-workflows.md) dedicado que, en una configuración predeterminada, se inicia automáticamente cuando una entrega de correo directo está pendiente de extracción. Cuando un proceso está en curso, se muestra en el panel de control y se puede editar a través de su enlace.
 
-Una vez ejecutado correctamente el flujo de trabajo de extracción, se debe aprobar el archivo de extracción (siempre que se haya seleccionado la aprobación del archivo de extracción en la configuración de envío). [Más información](marketing-campaign-approval.md#approving-an-extraction-file).
+Una vez ejecutado correctamente el flujo de trabajo de extracción, debe aprobar el archivo de extracción (siempre que se haya seleccionado la aprobación del archivo de extracción en la configuración de envío). [Más información](marketing-campaign-approval.md#approving-an-extraction-file).
 
 Siga los pasos a continuación para validar el contenido y enviar el archivo al proveedor:
 

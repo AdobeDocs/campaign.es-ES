@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
 source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1447'
 ht-degree: 12%
 
 ---
@@ -54,7 +54,7 @@ La estructura básica de `<srcschema>` es la siguiente:
 </srcSchema>
 ```
 
-El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su área de nombres.
+El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su espacio de nombres.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">
@@ -124,7 +124,7 @@ Se deben cumplir las siguientes reglas:
 
 El tipo de datos se ingresa mediante el atributo **type** en los elementos **`<attribute>`** y **`<element>`**.
 
-Hay disponible una lista detallada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=es#configuring-campaign-classic){target="_blank"}.
+Hay disponible una lista detallada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
 
 Cuando este atributo no se rellena, **string** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se usa para estructurar los elementos jerárquicamente (**`<location>`** elemento en nuestro ejemplo).
 

@@ -7,16 +7,16 @@ level: Beginner, Intermediate
 exl-id: 5256fc15-1878-4064-9c75-7876a3826b83
 source-git-commit: 4c787abbf9b13c08263e602930bc532d73e08a5a
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 39%
+source-wordcount: '376'
+ht-degree: 38%
 
 ---
 
 # Trabajar con asignaciones de destino{#gs-target-mappings}
 
-De manera predeterminada, las plantillas de envío de correo electrónico y SMS tienen como destino **[!UICONTROL Recipients]**. El destino de mapeo utiliza los campos de la tabla **nms:recipient**.
+De manera predeterminada, las plantillas de envío de correo electrónico y SMS tienen como destino **[!UICONTROL Recipients]**. Por consiguiente, la asignación de destinatario utiliza los campos de la tabla **nms:recipient**.
 
-Para las notificaciones push, la asignación de destino predeterminada es **Aplicaciones del suscriptor (nms:appSubscriptionRcp)**, que está vinculada a la tabla de destinatarios.
+Para las notificaciones push, la asignación de destino predeterminada es **Aplicaciones de suscriptor (nms:appSubscriptionRcp)**, que está vinculada a la tabla de destinatarios.
 
 Puede utilizar otras asignaciones de destino para los envíos o crear una nueva asignación de destino.
 
@@ -24,9 +24,9 @@ Puede utilizar otras asignaciones de destino para los envíos o crear una nueva 
 
 Adobe Campaign viene con las siguientes asignaciones de destino integradas:
 
-| Nombre | Usar para | Esquema |
+| Name | Usar para | Esquema |
 |---|---|---|
-| Destinatarios | Envío a destinatarios (tabla de destinatarios integrada) | nms:recipient |
+| Recipients | Envío a destinatarios (tabla de destinatarios integrada) | nms:recipient |
 | Visitantes | Envío a los visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) por ejemplo. | mns:visitor |
 | Suscripciones | Envío a destinatarios suscritos a un servicio de información como un boletín informativo | nms:subscription |
 | Suscripciones de visitantes | Envío a los visitantes que están suscritos a un servicio de información | nms:visitorSub |

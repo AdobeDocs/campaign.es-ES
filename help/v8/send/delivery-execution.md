@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 084607f6-47d8-40c0-89ba-bfbb88fc2e53
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '779'
 ht-degree: 54%
 
 ---
@@ -44,7 +44,7 @@ To monitor the activity and running of the execution instance(s), see [Transacti
 
 Adobe Campaign ofrece varios informes que permiten controlar la actividad y la ejecución continua de las instancias de ejecución.
 
-Se puede acceder a estos informes del centro de mensajería desde la pestaña **[!UICONTROL Reports]**&#x200B;**de la instancia de control**.
+Se puede acceder a estos informes del centro de mensajería desde la pestaña **[!UICONTROL Reports]****de la instancia de control**.
 
 ![](assets/mc-reports.png)
 

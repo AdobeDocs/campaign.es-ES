@@ -6,12 +6,12 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 27be9d5a-168c-470e-a480-f3c71858fc75
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '2252'
-ht-degree: 93%
+source-wordcount: '2258'
+ht-degree: 92%
 
 ---
 
-# Crear un flujo de trabajo de segmentación{#target-data}
+# Creación de un flujo de trabajo de segmentación{#target-data}
 
 El flujo de trabajo se puede utilizar para consultar la base de datos y segmentar los datos. El módulo de flujo de trabajo de Campaign es una potente herramienta para realizar actividades de administración de datos, extraer, enriquecer y transformar datos, administrar audiencias y refinar poblaciones.
 
@@ -43,11 +43,11 @@ Los resultados de todos los enriquecimientos y todas las gestiones realizadas du
 
 ## Establecimiento de objetivos y filtrado de dimensiones {#targeting-and-filtering-dimensions}
 
-Durante las operaciones de segmentación de datos, la clave de establecimiento de objetivos se asigna a una dimensión de filtrado. La dimensión objetivo permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. La dimensión de filtrado permite seleccionar la población en función de determinados criterios: titulares de contrato, suscriptores a boletines, etc.
+Durante las operaciones de segmentación de datos, la clave de establecimiento de objetivos se asigna a una dimensión de filtrado. La dimensión de segmentación permite definir la población objetivo de la operación: destinatarios, beneficiarios de contratos, operadores, suscriptores, etc. La dimensión de filtrado permite seleccionar la población en función de determinados criterios: titulares de contrato, suscriptores a boletines, etc.
 
 Por ejemplo, para seleccionar clientes que han tenido una póliza de seguro de vida durante más de 5 años, seleccione la siguiente dimensión de segmentación: **Clients** y la siguiente dimensión de filtrado: **Contract holder**. Después, puede definir las condiciones de filtrado dentro de la actividad de consulta.
 
-Durante la fase de selección de la dimensión objetivo, solo se ofrecen en la interfaz las dimensiones de filtrado compatibles.
+Durante la fase de selección de la dimensión de segmentación, solo se ofrecen en la interfaz las dimensiones de filtrado compatibles.
 
 Estas dos dimensiones deben estar vinculadas. Por lo tanto, el contenido de la lista **[!UICONTROL Filtering dimension]** depende de la dimensión de segmentación especificada en el primer campo.
 
@@ -109,7 +109,7 @@ En las actividades de tipo **[!UICONTROL Union]** o **[!UICONTROL Intersection]*
 
 ### Reconciliación con los datos adicionales {#reconciliation-with-additional-data}
 
-Durante las fases de reconciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc. actividades), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
+Durante las fases de reconciliación de datos (**[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
 
 ![](assets/select-column-and-join.png)
 
@@ -178,9 +178,9 @@ Esta actividad de intersección se detalla en la sección [Intersección](inters
 
 ### Exclusión de una población (exclusión) {#exclude-a-population--exclusion-}
 
-La actividad de exclusión permite excluir los elementos de un objetivo desde una población objetivo diferente. La dimensión objetivo de salida de esta actividad es la del conjunto principal.
+La actividad de exclusión permite excluir los elementos de un objetivo desde una población objetivo diferente. La dimensión de segmentación de salida de esta actividad es la del conjunto principal.
 
-Si es necesario, se pueden manipular las tablas entrantes. De hecho, para excluir un objetivo de otra dimensión, se debe devolver este objetivo a la misma dimensión objetivo que el objetivo principal. Para ello, haga clic en el botón **[!UICONTROL Add]** y especifique las condiciones del cambio de dimensión.
+Si es necesario, se pueden manipular las tablas entrantes. De hecho, para excluir un objetivo de otra dimensión, se debe devolver este objetivo a la misma dimensión de segmentación que la segmentación principal. Para ello, haga clic en el botón **[!UICONTROL Add]** y especifique las condiciones del cambio de dimensión.
 
 La reconciliación de datos se lleva a cabo mediante un identificador, un eje de cambio o una unión.
 
@@ -188,7 +188,7 @@ La reconciliación de datos se lleva a cabo mediante un identificador, un eje de
 
 ### Creación de subconjuntos con la actividad División {#create-subsets-using-the-split-activity}
 
-La actividad **[!UICONTROL Split]** es una actividad estándar que permite crear tantos conjuntos como sea necesario mediante una o varias dimensiones de filtro, así como una transición de salida por subgrupo o una transición única.
+La actividad **[!UICONTROL Split]** es una actividad estándar que permite crear tantos conjuntos como sea necesario mediante una o varias dimensiones de filtro, así como una transición de salida por subconjunto o una transición única.
 
 Los datos adicionales transmitidos por la transición entrante se pueden utilizar en los criterios de filtrado.
 
@@ -196,7 +196,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
 1. En el flujo de trabajo, arrastre y suelte una actividad **[!UICONTROL Split]**.
 1. En la pestaña **[!UICONTROL General]**, seleccione la opción que desee: **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** o **[!UICONTROL Use external data]**.
-1. Si la opción **[!UICONTROL Use data from the target and additional data]** está seleccionada, la dimensión de destino permite utilizar todos los datos transmitidos por la transición entrante.
+1. Si la opción **[!UICONTROL Use data from the target and additional data]** está seleccionada, la dimensión de segmentación permite utilizar todos los datos transmitidos por la transición entrante.
 
    ![](assets/split-general-tab-options.png)
 
@@ -206,7 +206,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    ![](assets/split-subset-config-all-data.png)
 
-   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [&#128279;](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
+   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
 
    El campo **[!UICONTROL Label]** permite asignar un nombre al nuevo subconjunto, que coincide con la transición saliente.
 
@@ -272,7 +272,7 @@ En Adobe Campaign, la gestión de datos combina un conjunto de actividades para 
 Para implementar estas operaciones, Adobe Campaign ofrece:
 
 * Actividades de recopilación de datos: [File transfer](file-transfer.md), [Data loading (file)](data-loading-file.md), [Data loading (RDBMS)](data-loading-rdbms.md), [Update data](update-data.md). Este primer paso de recopilación de datos prepara los datos para permitir que se procesen en otras actividades. Es necesario monitorizar varios parámetros para garantizar que el flujo de trabajo se ejecuta correctamente y proporciona los resultados esperados. Por ejemplo, al importar datos, la clave principal (Pkey) de estos datos debe ser exclusiva para cada registro.
-* Actividades de establecimiento de objetivos enriquecidas con opciones de administración de datos: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). Esto permite configurar una unión o una intersección entre los datos de distintas dimensiones de destino, siempre y cuando sea posible la reconciliación de los mismos.
+* Actividades de establecimiento de objetivos enriquecidas con opciones de administración de datos: [Query](query.md), [Union](union.md), [Intersection](intersection.md), [Split](split.md). Esto permite configurar una unión o una intersección entre los datos de distintas dimensiones de segmentación, siempre y cuando sea posible la reconciliación de los mismos.
 * Actividades de transformación de datos: [Enrichment](enrichment.md), [Change dimension](change-dimension.md).
 
 >[!CAUTION]
@@ -283,10 +283,10 @@ Para implementar estas operaciones, Adobe Campaign ofrece:
 
 ### Enriquecimiento y modificación de datos {#enrich-and-modify-data}
 
-Además de la dimensión de destino, la dimensión de filtrado permite especificar la naturaleza de los datos recopilados. Consulte [esta sección](targeting-workflows.md#targeting-and-filtering-dimensions).
+Además de la dimensión de segmentación, la dimensión de filtrado permite especificar la naturaleza de los datos recopilados. Consulte [esta sección](targeting-workflows.md#targeting-and-filtering-dimensions).
 
 Los datos identificados y recopilados se pueden enriquecer, añadir y manipular para optimizar la construcción de objetivos. Para ello, además de las actividades de manipulación de datos detalladas en [esta sección](#segmen-data), use lo siguiente:
 
 * La actividad **[!UICONTROL Enrichment]** permite añadir rápidamente columnas a un esquema, así como añadir información a ciertos elementos. Se detalla en la sección [Enrichment](enrichment.md) del repositorio de actividades.
 * La actividad **[!UICONTROL Edit schema]** permite modificar la estructura de un esquema. Se detalla en la sección [Edit schema](edit-schema.md) del repositorio de actividades.
-* La actividad **[!UICONTROL Change dimension]** permite cambiar la dimensión objetivo durante el ciclo de construcción del mismo. Se detalla en la sección [Change dimension](change-dimension.md).
+* La actividad **[!UICONTROL Change dimension]** permite cambiar la dimensión de segmentación durante el ciclo de construcción del mismo. Se detalla en la sección [Change dimension](change-dimension.md).

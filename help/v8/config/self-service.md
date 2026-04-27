@@ -7,8 +7,8 @@ level: Beginner
 exl-id: b8aa89ac-19f4-4df3-9f36-860aca61bea3
 source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 77%
+source-wordcount: '496'
+ht-degree: 96%
 
 ---
 
@@ -28,19 +28,19 @@ Obtenga más información en [Panel de control de Campaign de Campaign](https://
 
 ## ¿Cómo acceder al Panel de control? {#ac-control-panel-access}
 
-El Panel de control está disponible directamente en Adobe Experience Cloud. Solo pueden acceder a él los usuarios administradores.
+El Panel de control está disponible directamente en Adobe Experience Cloud. Solo pueden acceder a él los usuarios administradores.
 
 >[!IMPORTANT]
 >
->De forma predeterminada, el Panel de control de Campaign es accesible para los usuarios administradores que pertenecen al Perfil de producto &quot;Administradores&quot;. Según la configuración de la organización, el perfil de producto puede tener un nombre diferente (&quot;administrador&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.). **Cualquier perfil de producto que contenga la palabra &quot;admin&quot; en su nombre concederá automáticamente acceso al Panel de control de Campaign.**
+>De forma predeterminada, el Panel de control de Campaign es accesible para los usuarios administradores que pertenecen al Perfil de producto “Administradores”. Dependiendo de la configuración de la organización, el Perfil de producto puede tener distintos nombres (“administrador”, “administradores”, “administrador de aprobación”, etc.). **Cualquier Perfil de producto que contenga la palabra “Administrador” en su nombre concederá acceso automáticamente al Panel de control de Campaign.**
 >
->Revise cuidadosamente los nombres de los perfiles de producto para asegurarse de que solo los usuarios autorizados tengan acceso al Panel de control de Campaign.
+>Revise cuidadosamente el nombre de su Perfil de producto para asegurarse de que solo los usuarios autorizados tengan acceso al Panel de control de Campaign.
 
 [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=es){target="_blank"} para obtener más información.
 
 ## Preguntas frecuentes sobre el Panel de control {#ac-control-faq}
 
-[Haga clic aquí &#x200B;](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es#control-panel){target="_blank"} para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
+[Haga clic aquí ](https://experienceleague.adobe.com/docs/control-panel/using/faq.html?lang=es#control-panel){target="_blank"} para acceder a las preguntas frecuentes sobre el Panel de control de Campaign.
 
 ## Administración de SFTP {#ac-control-sftp}
 

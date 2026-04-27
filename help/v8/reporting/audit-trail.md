@@ -6,7 +6,7 @@ feature: Audit Trail, Monitoring, Workflows
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
 source-git-commit: b4b361a4aabd1b33554166c2638989b99a02baec
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '626'
 ht-degree: 2%
 
 ---
@@ -43,7 +43,7 @@ La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un regist
 
 * **Seguimiento de auditoría de opciones** le permite comprobar las actividades y las últimas modificaciones realizadas en sus opciones.
 
-  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Registro de auditoría de envíos** le permite comprobar las actividades y las últimas modificaciones realizadas en los envíos.
 

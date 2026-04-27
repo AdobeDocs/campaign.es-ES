@@ -7,8 +7,8 @@ level: Beginner
 exl-id: f57f3074-981f-4bcf-9274-7908cd00a4a2
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 76%
+source-wordcount: '529'
+ht-degree: 68%
 
 ---
 
@@ -58,4 +58,4 @@ A continuación se enumeran términos específicos al trabajar con cubos.
 
 * **Agrupamiento**: en algunos campos, se puede definir un agrupamiento para reunir valores y facilitar la lectura de la información. El agrupamiento se aplica a los niveles. Se recomienda definir un agrupamiento cuando pueda haber muchos valores diferentes.
 
-* **Medida**: las medidas más frecuentes son suma, media, máximo, mínimo, desviación típica, etc. Las medidas se pueden calcular, por ejemplo, la tasa de aceptación de una oferta es la relación entre el número de veces que se presentó comparada con el número de veces que se aceptó.
+* **Medida**: las medidas más frecuentes son suma, promedio, máximo, mínimo, desviación estándar, etc. Las medidas se pueden calcular: por ejemplo, la tasa de aceptación de una oferta es la relación entre el número de veces que se presentó comparada con el número de veces que se aceptó.

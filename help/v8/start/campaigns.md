@@ -7,8 +7,8 @@ level: Beginner
 exl-id: b5a6c845-13a7-4746-b856-a08a3cf80b66
 source-git-commit: 8d6c3e03f9b7533f7f325b755e3b6d4f74b63a8d
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 93%
+source-wordcount: '852'
+ht-degree: 78%
 
 ---
 
@@ -28,9 +28,9 @@ Adobe Campaign le permite diseñar y organizar campañas dirigidas y personaliza
 
 Antes de comenzar a implementar campañas de marketing, debe estar familiarizado con los siguientes conceptos:
 
-* **Campaña de marketing**: una campaña unifica todos los elementos relacionados con una campaña de marketing, como envíos, reglas de direccionamiento, costes, archivos de exportación, documentos relacionados, etc. Cada campaña se adjunta a un programa.
+* **Campaña de marketing**: una campaña unifica todos los elementos relacionados con una campaña de marketing: envíos, reglas de segmentación, costos, archivos de exportación, documentos relacionados, etc. Cada campaña se adjunta a un programa.
 
-* **Programa**: un programa permite definir acciones de marketing para un periodo de calendario (lanzamiento, escrutinio, lealtad, etc.). Cada programa contiene campañas vinculadas a un calendario, que proporciona una vista general.
+* **Programa**: un programa le permite definir acciones de marketing para un período de calendario: lanzamiento, escrutinio, lealtad, etc. Cada programa contiene campañas vinculadas a un calendario, que proporciona una vista general.
 
 * **Plan**: el plan de marketing puede contener varios programas. Está vinculado a un periodo, tiene un presupuesto asignado y también puede estar vinculado a documentos y objetivos.
 
@@ -80,7 +80,7 @@ Los pasos clave para crear una campaña de marketing multicanal son estos:
 
    Obtenga información sobre cómo crear e iniciar envíos de campañas de marketing en [esta página](../../automation/campaigns/marketing-campaign-deliveries.md).
 
-   Puede asociar varios documentos a una campaña: informe, foto, página web, diagrama, etc. Obtenga más información sobre los documentos asociados en [esta página](../../automation/campaigns/marketing-campaign-assets.md).
+   Puede asociar varios documentos a una campaña: informe, foto, página web, diagrama, etc. Obtenga más información acerca de los documentos asociados en [esta página](../../automation/campaigns/marketing-campaign-assets.md).
 
 1. **Configuración del proceso de aprobación**
 
@@ -91,11 +91,11 @@ Los pasos clave para crear una campaña de marketing multicanal son estos:
 
 ## Complemento de marketing distribuido{#distributed-marketing-add-on}
 
-Adobe Campaign ofrece un complemento de **marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL List of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas diseñadas por entidades centrales.
+Adobe Campaign ofrece un complemento **Marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (tiendas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL List of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas diseñadas por entidades centrales.
 
 >[!NOTE]
 >
->Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>Esta funcionalidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
 Aprenda a configurar y utilizar las funcionalidades de marketing distribuido de Campaign en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/distributed-marketing/about-distributed-marketing.html?lang=es){target="_blank"}.
 
@@ -105,6 +105,6 @@ Adobe Campaign ofrece un complemento de **gestión de respuestas** que le permit
 
 >[!NOTE]
 >
->Esta capacidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
+>Esta funcionalidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md#how-to-check-your-campaign-version-and-buildversion)
 
-[&#128279;](../assets/do-not-localize/book.png) Aprenda a configurar y utilizar el Gestor de respuestas de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target="_blank"}.
+[](../assets/do-not-localize/book.png) Aprenda a configurar y utilizar el Gestor de respuestas de Campaign en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/response-manager/about-response-manager.html?lang=es){target="_blank"}.

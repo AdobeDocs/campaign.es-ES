@@ -6,7 +6,7 @@ feature: Campaigns
 exl-id: 2b2b668f-87d9-4265-adbc-9098b85c5aab
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1226'
 ht-degree: 88%
 
 ---
@@ -101,7 +101,7 @@ La pestaña **[!UICONTROL General]** de la simulación permite introducir los aj
 
 Una vez definido el ámbito de simulación, puede ejecutarlo.
 
-Para ello, abra el panel de simulación y haga clic en **[!UICONTROL Start simulation]**.
+Para ello, abra el panel de control de simulación y haga clic en **[!UICONTROL Start simulation]**.
 
 ![](assets/simu_campaign_opti_start.png)
 
@@ -163,11 +163,11 @@ Los siguientes informes se ofrecen de forma predeterminada:
 >You can create new reports and add them to the ones offered. For more on this, refer to [this section](../../reporting/using/about-adobe-campaign-reporting-tools.md).
 -->
 
-Para acceder a los informes, haga clic en el vínculo **[!UICONTROL Reports]** de la simulación de destinatarios a través de su panel.
+Para acceder a los informes, haga clic en el vínculo **[!UICONTROL Reports]** de la simulación de destinatarios a través de su panel de control.
 
 ![](assets/campaign_opt_reporting_edit_from_board.png)
 
-También puede editar informes mediante el vínculo **[!UICONTROL Reports]** al que se puede acceder desde el panel de simulación.
+También puede editar informes mediante el vínculo **[!UICONTROL Reports]** al que se puede acceder desde el panel de control de simulación.
 
 ### Comparación de simulaciones {#compare-simulations-}
 
@@ -230,6 +230,6 @@ La superposición de destinatarios de la entrega indica que han estado presentes
 
 >[!NOTE]
 >
->Esta subpestaña solo se muestra si se ha activado la opción **[!UICONTROL Generate target recovery statistics]**.
+>Esta subpestaña solo se muestra si se ha habilitado la opción **[!UICONTROL Generate target recovery statistics]**.
 
 La información sobre los ejes de creación de informes se puede procesar en los informes de análisis de exclusión creados en la subpestaña **[!UICONTROL Exploring exclusions]**. [Más información](#explore-results).

@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 54%
+source-wordcount: '1200'
+ht-degree: 50%
 
 ---
 
@@ -66,7 +66,7 @@ Para insertar etiquetas de personalización en el cuerpo de un mensaje de correo
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. Complete la etiqueta con la siguiente sintaxis: **element name**.@**attribute name** como se muestra a continuación.
+1. Complete la etiqueta con la siguiente sintaxis: **nombre del elemento**.@**nombre del atributo** como se muestra a continuación.
 
    ![](assets/messagecenter_create_custo_2.png)
 
@@ -82,11 +82,11 @@ Una dirección semilla permite mostrar una previsualización del mensaje, enviar
 
 1. Asigne una etiqueta para facilitar la selección posterior e introduzca la dirección semilla (correo electrónico o teléfono móvil según el canal de comunicación).
 
-1. Introduzca el identificador externo: este campo opcional permite introducir una clave comercial (ID única, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y es utilizada para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede reconciliar un evento con un perfil de la base de datos.
+1. Introduzca el identificador externo: este campo opcional permite introducir una clave empresarial (ID única, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y se utiliza para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede reconciliar un evento con un perfil de la base de datos.
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 

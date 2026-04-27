@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 1d9ff6c5-974d-4a8a-a0d7-641685bbe26e
 source-git-commit: 061197048885a30249bd18af7f8b24cb71def742
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1163'
 ht-degree: 7%
 
 ---
@@ -60,11 +60,11 @@ Los procesos principales son:
 
 * **Servidor de redirección** (nlserver webmdl): por correo electrónico, Adobe Campaign administra automáticamente el seguimiento de aperturas y clics (el seguimiento transaccional en el nivel de sitio web es otra posibilidad). Para conseguirlo, las URL incorporadas en los mensajes de correo electrónico se reescriben para que apunten a este módulo, que registra el paso del usuario de Internet antes de redirigirlo a la URL requerida.
 
-  Para garantizar la máxima disponibilidad, este proceso es totalmente independiente de la base de datos: los demás procesos del servidor se comunican con él utilizando llamadas SOAP (HTTP, HTTP(S) y XML) únicamente. Técnicamente, esta funcionalidad se implementa en un módulo de extensión de un servidor HTTP (extensión ISAPI en IIS o módulo DSO Apache, etc.) y solo está disponible en Windows.
+  Para garantizar la máxima disponibilidad, este proceso es totalmente independiente de la base de datos: los demás procesos del servidor se comunican con él utilizando llamadas SOAP (HTTP, HTTP(S) y XML) únicamente. Técnicamente, esta funcionalidad se implementa en un módulo de extensión de un servidor HTTP (extensión ISAPI en IIS, o módulo DSO Apache, etc.) y solo está disponible en Windows.
 
 Otros procesos más técnicos también están disponibles:
 
-* **Administración de correos electrónicos rechazados** (nlserver inMail): este proceso le permite recoger automáticamente correos electrónicos de buzones configurados para recibir mensajes rechazados que se devuelven en caso de error de entrega. A continuación, estos mensajes se someten a un procesamiento basado en reglas para determinar los motivos de la falta de entrega (destinatario desconocido, cuota excedida, etc.) y actualizar el estado de entrega en la base de datos. Todas estas operaciones son totalmente automáticas y están preconfiguradas.
+* **Administración de correos electrónicos rechazados** (nlserver inMail): este proceso le permite recoger automáticamente correos electrónicos de buzones configurados para recibir mensajes rechazados que se devuelven en caso de error de entrega. A continuación, estos mensajes se someten a un procesamiento basado en reglas para determinar los motivos de la falta de entrega (destinatario desconocido, cuota excedida, etc.) y para actualizar el estado de envío en la base de datos. Todas estas operaciones son totalmente automáticas y están preconfiguradas.
 
 * **Estado de entrega de SMS** (nlserver sms): este proceso sondea el enrutador SMS para recopilar el estado de progreso y actualizar la base de datos.
 
@@ -81,7 +81,7 @@ Otros procesos más técnicos también están disponibles:
 
 ## Contenedores de base de datos {#db-containers}
 
-En su [implementación empresarial (FDAC)](enterprise-deployment.md), la base de datos de Adobe Campaign Cloud se basa en [!DNL Snowflake], que contiene los datos funcionales (perfiles, suscripciones, contenido, etc.), los datos técnicos (trabajos de entrega y registros, registros de seguimiento, etc.) y los datos de trabajo (compras, posibles clientes) para la solución, y todos los componentes de Adobe Campaign se comunican con la base de datos para realizar sus tareas específicas.
+En su [implementación empresarial (FDAC)](enterprise-deployment.md), la base de datos de Adobe Campaign Cloud se basa en [!DNL Snowflake], que contiene los datos funcionales (perfiles, suscripciones, contenido, etc.), los datos técnicos (trabajos de envío y registros, registros de seguimiento, etc.) y los datos de trabajo (compras, posibles clientes) de la solución, y todos los componentes de Adobe Campaign se comunican con la base de datos para realizar sus tareas específicas.
 
 Puede implementar Adobe Campaign utilizando la base de datos y los esquemas predefinidos y, si es necesario, se puede ampliar este entorno predefinido. Adobe Campaign accede a todos los datos del data mart a través de llamadas SQL. Adobe Campaign también proporciona un complemento completo de herramientas de extracción, transformación y carga (ETL) para importar y exportar datos dentro y fuera del sistema.
 
@@ -98,4 +98,4 @@ Puede implementar Adobe Campaign utilizando la base de datos y los esquemas pred
 
 La asignación de almacenamiento total se divide entre la base de datos principal y la base de datos secundaria (opcional) de Snowflake. El lugar donde se almacenan los datos debe determinarse en el momento de la implementación o la actualización, según los casos de uso específicos del cliente.
 
-Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=es){target="_blank"}.
+Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

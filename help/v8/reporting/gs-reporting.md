@@ -7,8 +7,8 @@ level: Beginner
 exl-id: f931fc0d-12c1-4bff-a4f2-153e8d91c339
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 27%
+source-wordcount: '408'
+ht-degree: 25%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
 * **Informes dinámicos**
 
-  El sistema de informes dinámico, disponible con la interfaz de usuario web de Campaign, proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Consulte la [documentación de Web UI v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}.
+  El sistema de informes dinámico, disponible con la interfaz de usuario web de Campaign, proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Consulte la [documentación de Web UI v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
 
 * **Cubos**
 
@@ -34,7 +34,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
 * **Informes integrados**
 
-  Adobe Campaign incluye informes sobre envíos, campañas, actividades de plataforma, funciones opcionales, etc. Estos informes están disponibles a través de las diversas funciones a las que se refieren. Pueden adaptarse a sus necesidades específicas.
+  Adobe Campaign incluye informes sobre envíos, campañas, actividades de plataforma, funciones opcionales, etc. Estos informes están disponibles a través de las diversas funcionalidades a las que se refieren. Pueden adaptarse a sus necesidades específicas.
 
   Use la ficha **Informes** para tener acceso a estos informes.
 
@@ -56,4 +56,4 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   Utilice Adobe Campaign para crear informes sobre los datos de la base de datos. Una vez creados, haga que sean accesibles en los contextos adecuados.
 
-  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=es){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.
+  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.

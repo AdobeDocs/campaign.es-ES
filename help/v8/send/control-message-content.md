@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: dcd3a9f9-5fe9-4c28-a4a5-5aed67b036ab
 source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '769'
 ht-degree: 97%
 
 ---
@@ -49,9 +49,9 @@ Para obtener más información sobre el uso de los campos de personalización en
 
 De forma predeterminada, cuando se analiza el mensaje, una [regla de tipología](../../automation/campaign-opt/apply-rules.md) comprueba si se ha incluido un vínculo de no participación y genera una advertencia si falta. Puede cambiar esta regla para que se produzca un error en lugar de una simple advertencia y evitar que una entrega salga sin este vínculo.
 
-Debe comprobar que el vínculo de exclusión funciona correctamente antes de cada envío. Por ejemplo, al enviar la prueba, asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que al validarlo se cambie el valor del campo **[!UICONTROL No longer contact this recipient]** a **[!UICONTROL Yes]**. Debe realizar esta comprobación sistemáticamente porque siempre puede haber errores humanos al introducir el vínculo o al cambiar el formulario.
+Debe comprobar si el vínculo de no participación funciona correctamente antes de cada envío. Por ejemplo, al enviar la prueba, asegúrese de que el vínculo sea válido, de que el formulario esté en línea y de que al validarlo se cambie el valor del campo **[!UICONTROL No longer contact this recipient]** a **[!UICONTROL Yes]**. Debe realizar esta comprobación sistemáticamente porque siempre puede haber errores humanos al introducir el vínculo o al cambiar el formulario.
 
-Obtenga información sobre cómo insertar un vínculo de exclusión [en esta sección](personalization-blocks.md#ootb-personalization-blocks).
+Obtenga información sobre cómo insertar un vínculo de no participación [en esta sección](personalization-blocks.md#ootb-personalization-blocks).
 
 Si se detecta un problema relacionado con la baja después de que se inicie la entrega, aún es posible realizar una baja manualmente (mediante la función de actualización masiva, por ejemplo) para los destinatarios que hacen clic en el vínculo de exclusión incluso si no pudieron confirmar su elección.
 

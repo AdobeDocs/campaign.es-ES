@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 8ea831e2-8e6e-4ef0-ac05-f27ebf89ccb9
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '358'
 ht-degree: 100%
 
 ---
@@ -56,6 +56,6 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica el destino resultante de la exclusión. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica el destino resultante de la exclusión. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente, nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 La transición asociada al complemento tiene los mismos parámetros.

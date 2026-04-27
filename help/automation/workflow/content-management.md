@@ -1,29 +1,29 @@
 ---
 product: campaign
-title: Gestión de contenido
-description: Gestión de contenido
+title: Administración de contenido
+description: Administración de contenido
 feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 9b225f78-1959-4e4f-aa4e-ff8a63051154
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 85%
+source-wordcount: '472'
+ht-degree: 83%
 
 ---
 
-# Gestión de contenido{#content-management}
+# Administración de contenido{#content-management}
 
-Una actividad de **Content management** (gestión de contenido) permite crear y manipular contenidos y generar archivos basados en este contenido. Este contenido se puede entregar a través de la actividad “Envío”.
+Una actividad de **Administración de contenido** permite crear y manipular contenidos y generar archivos basados en este contenido. Este contenido se puede entregar a través de la actividad “Envío”.
 
 >[!CAUTION]
 >
->El Gestor de contenido es un módulo opcional de Adobe Campaign. Compruebe el acuerdo de licencia.
+>La Administración de contenido es un módulo opcional de Adobe Campaign. Compruebe el acuerdo de licencia.
 
 >[!NOTE]
 >
->La interfaz de usuario web de Adobe Campaign permite utilizar fragmentos de contenido para el contenido. Permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados, gracias a componentes reutilizables a los que se puede hacer referencia en uno o más mensajes, lo que le permite ensamblar rápidamente el contenido de los mensajes en un proceso de diseño mejorado. Para obtener más información sobre fragmentos de contenido, consulte la [documentación de la interfaz de usuario web de Adobe Campaign.](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>La interfaz de usuario web de Adobe Campaign permite utilizar fragmentos de contenido para el contenido. Permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados, gracias a componentes reutilizables a los que se puede hacer referencia en uno o más mensajes, lo que le permite ensamblar rápidamente el contenido de los mensajes en un proceso de diseño mejorado. Para obtener más información sobre fragmentos de contenido, consulte la [documentación de la interfaz de usuario web de Adobe Campaign.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 Las propiedades de la actividad se dividen en tres pasos:
 
@@ -37,7 +37,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 
    * **[!UICONTROL Specified in the transition]**
 
-     Esta opción permite utilizar el contenido especificado en la transición, es decir, el evento que activa el Gestor de contenido debe contener una variable **[!UICONTROL contentId]**. Esta variable puede haber sido configurada por un gestor de contenido anterior o por cualquier script.
+     Esta opción permite utilizar el contenido especificado en la transición, es decir, el evento que activa la administración de contenido debe contener una variable **[!UICONTROL contentId]**. Esta variable puede haber sido configurada por un administrador de contenido anterior o por cualquier script.
 
    * **[!UICONTROL Explicit]**
 
@@ -89,7 +89,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 
 * contentId
 
-Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Specified in the transition]** está activada.
+Identificador del contenido que se va a utilizar si la opción **[!UICONTROL Specified in the transition]** está habilitada.
 
 ## Parámetros de salida {#output-parameters}
 

@@ -8,8 +8,8 @@ level: Beginner
 exl-id: 3a4de36e-ba24-49ec-8113-f32f12c8ecdd
 source-git-commit: 08e04f3642320df94d719a415e878e3a26d2e00f
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 51%
+source-wordcount: '1033'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +28,7 @@ Una plantilla puede incluir ajustes de configuración parciales o completos, com
 * Contenido, logotipo de una compañía o firma
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta funcionalidad en vídeo](#delivery-template-video)
+![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#delivery-template-video)
 
 Las plantillas de envío se almacenan en la carpeta **[!UICONTROL Resources > Templates > Delivery templates]** del explorador. En Adobe Campaign, puede trabajar con dos tipos de plantillas:
 
@@ -105,7 +105,7 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
 
 ## Uso de plantillas {#use-a-delivery-template}
 
-### Crear un envío a partir de una plantilla {#create-a-delivery-from-a-template}
+### Creación de una entrega a partir de una plantilla {#create-a-delivery-from-a-template}
 
 Para crear una entrega basada en una plantilla existente, seleccione la plantilla de la lista de plantillas de entrega disponibles.
 
@@ -121,7 +121,7 @@ Seleccione la plantilla de envíos que va a utilizar y haga clic en **[!UICONTRO
 
 ### Ejecución de una plantilla {#execute-a-template}
 
-Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero una entrega. La plantilla de envío se puede ejecutar manualmente, como se detalla a continuación, o activarse mediante un evento (ejecutado a una hora determinada, cuando un archivo está disponible en el servidor, etc.), como se explica en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
+Puede iniciar la ejecución de una plantilla directamente desde la lista de plantillas sin tener que crear primero una entrega. La plantilla de envío se puede ejecutar manualmente, como se detalla a continuación, o activarse mediante un evento (ejecutado a una hora determinada, cuando un archivo está disponible en el servidor, etc.), como se explica en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/delivery).
 
 Para ejecutar una plantilla manualmente, siga estos pasos:
 
@@ -141,18 +141,18 @@ Esta acción genera una entrega en la carpeta asociada a la plantilla. El nombre
 
 En el siguiente vídeo se muestra cómo configurar una plantilla para un envío ad hoc.
 
->[!VIDEO](https://video.tv.adobe.com/v/3409244?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/342082?quality=12)
 
 ### Configuración de propiedades de plantillas de envíos
 
 El siguiente vídeo muestra cómo configurar las propiedades de las plantillas de envíos y explica cada propiedad en detalle.
 
->[!VIDEO](https://video.tv.adobe.com/v/3443404?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/338969?quality=12)
 
 ### Implementación de una plantilla de envíos ad-hoc
 
 En este vídeo se explica cómo implementar una plantilla de envíos de correo electrónico ad-hoc, y se explica la diferencia entre un envío de correo electrónico y un flujo de trabajo de envío.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444960?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/338965?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

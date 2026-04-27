@@ -5,8 +5,8 @@ feature: Release Notes
 exl-id: 76473fa5-48ba-42cf-8664-0dd197833a86
 source-git-commit: b3ca222fb28c1a5d35190e41cfbbe463c5d1bcad
 workflow-type: tm+mt
-source-wordcount: '1943'
-ht-degree: 89%
+source-wordcount: '1946'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ Esta página lista las nuevas funcionalidades, mejoras y correcciones que se pro
 
 ## Versión 8.4.2 {#release-8-4-2}
 
-_28 de octubre de 2022_
+_sábado, 28 de octubre de 2022_
 
 **Correcciones**
 
@@ -36,7 +36,7 @@ _28 de octubre de 2022_
 
 ## Versión 8.4.1 {#release-8-4-1}
 
-_30 de septiembre de 2022_
+_sábado, 30 de septiembre de 2022_
 
 **Novedades**
 
@@ -66,9 +66,9 @@ _30 de septiembre de 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>El <a href="../send/twitter.md">canal social X</a> ya está disponible con Campaign v8. Puede hacer lo siguiente:</p>
+<td> <p>El <a href="../send/twitter.md">canal social X</a> ya está disponible con Campaign v8. Se puede:</p>
 <ul> 
-<li><p>Enviar mensajes en X (anteriormente conocido como Twitter): Adobe Campaign permite publicar mensajes directamente en la cuenta X. También puede enviar mensajes directos a todos sus seguidores. 
+<li><p>Enviar mensajes en X (anteriormente conocido como Twitter): Adobe Campaign permite publicar mensajes directamente en la cuenta X. También puede enviar mensajes directos a todos sus seguidores.
 </p></li>
 <li><p>Recopile nuevos contactos: Adobe Campaign puede recuperar automáticamente los datos de perfil, lo que le permite llevar a cabo campañas de objetivos e implementar estrategias multicanal.
 </p></li>
@@ -96,7 +96,7 @@ Para optimizar la seguridad, los tokens de seguridad se han eliminado de las dir
 
 * Tras el fin de vida útil de Microsoft Internet Explorer 11, el motor de renderización de HTML en la consola utiliza ahora **Microsoft Edge Chromium**. Además, ahora se requiere la instalación del tiempo de ejecución de **Microsoft Edge WebView 2** para cualquier instalación de la consola del cliente.
 * Se ha mejorado la ejecución del flujo de trabajo con alta disponibilidad, lo que permite ejecutar flujos de trabajo simultáneos en diferentes contenedores para evitar la pérdida del servicio del flujo de trabajo y los errores de ejecución relacionados. **Nota**: esta nueva funcionalidad se lanza con disponibilidad limitada solo para un conjunto de clientes.
-* Las solicitudes de privacidad se realizan ahora en lote para un área de nombres de privacidad determinada. Esta mejora aumenta el tiempo de ejecución de las solicitudes de eliminación de RGPD/privacidad.
+* Las solicitudes de privacidad se realizan ahora en lote para un espacio de nombres de privacidad determinada. Esta mejora aumenta el tiempo de ejecución de las solicitudes de eliminación de RGPD/privacidad.
 
 **Actualizaciones de compatibilidad**
 
@@ -106,7 +106,7 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
 **Correcciones**
 
-* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
+* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba habilitada. (NEO-49183)
 * Se ha corregido un problema que podía hacer que los envíos permanecieran en el estado **Pendiente** incluso si se había llegado a la fecha de contacto. (NEO-48079)
 * Se ha corregido un problema en los flujos de trabajo que podía impedir que los archivos se actualizaran en el servidor al usar la actividad **Carga de datos (archivo)**. El proceso se detuvo al 100 % pero nunca se finalizó. (NEO-47269)
 * Se ha corregido un problema durante la posactualización en entornos japoneses. (NEO-46640)
@@ -120,7 +120,7 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 * Se ha corregido un problema que se producía al insertar datos en la base de datos de nube de Snowflake con una actividad de **Consulta de Campaign** y una actividad de **Cambiar fuente de datos**: el proceso fallaba cuando había un carácter de barra invertida presente en los datos. La cadena de fuente no se escapó y los datos no se procesaron correctamente en Snowflake. (NEO-45549)
 * Se ha corregido un problema que se producía al usar la actividad **Consulta** y filtrar una tabla. Cuando un nombre de columna contenía la palabra &quot;Actualización&quot;, se producía un error de compilación con un identificador no válido y el siguiente mensaje: &quot;número de filas actualizado&quot;. (NEO-46485)
 * El flujo de trabajo técnico para la **Limpieza de base de datos** ahora también gestiona los esquemas de ensayo personalizados. (NEO-48974)
-* Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al dirigirse a grandes volúmenes de destinatarios. (NEO-48019)
+* Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al segmentar grandes volúmenes de destinatarios. (NEO-48019)
 * Se ha mejorado la estabilidad al gestionar cadenas XML no válidas durante las llamadas SOAP. (NEO-48027)
 * Se ha corregido un problema que provocaba la creación de elementos DeliveryParts innecesarios cuando el envío utilizaba modos de calendario y división. (NEO-48634)
 * Se ha corregido un problema de rendimiento al usar olas basadas en calendario. (NEO-48451)
@@ -133,15 +133,15 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 >
 > La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#download-ac-console).
 
-_7 de octubre de 2022_
+_sábado, 07 de octubre de 2022_
 
 **Correcciones**
 
-* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba activada. (NEO-49183)
+* Se ha corregido un problema que afectaba a las actualizaciones de estado del registro de envío en la instancia MID, cuando la opción FeatureFlag_GZIP_Compression estaba habilitada. (NEO-49183)
 * El flujo de trabajo técnico para la **Limpieza de base de datos** ahora también gestiona los esquemas de ensayo personalizados. (NEO-48974)
 * Se ha corregido un problema que podía ocasionar que los envíos permanecieran en el estado **Pendiente** aunque se hubiera alcanzado la fecha de contacto. (NEO-48079, NEO-48251)
 * Se ha mejorado la estabilidad al gestionar cadenas XML no válidas durante las llamadas SOAP. (NEO-48027)
-* Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al dirigirse a grandes volúmenes de destinatarios. (NEO-48019)
+* Se ha corregido un problema que podía ralentizar el análisis de envío, durante el paso de exclusión de destinatarios incluida en la lista de bloqueados, al segmentar grandes volúmenes de destinatarios. (NEO-48019)
 * Para evitar la lentitud al enviar la prueba a las direcciones semilla, todas las réplicas consecutivas de los miembros semilla ahora se agrupan en una solicitud de réplica. (NEO-44844)
 * Se ha corregido un problema que provocaba problemas de personalización al enviar mensajes SMS mediante un modo de envío externo. (NEO-46415)
 * Se ha corregido un problema que mostraba un error al intentar previsualizar una entrega en cualquier evento archivado del Centro de mensajes. (NEO-43620)
@@ -159,7 +159,7 @@ _7 de octubre de 2022_
 
 ## Versión 8.3.8 {#release-8-3-8}
 
-_18 de mayo de 2022_
+_jueves, 18 de mayo de 2022_
 
 **Novedades**
 
@@ -217,7 +217,7 @@ _18 de mayo de 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>El marketing distribuido de Campaign permite implementar campañas de colaboración entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). A través de un espacio de trabajo compartido (paquetes de campañas), puede crear plantillas de campaña y proponerlas a las entidades locales.</p>
+<td> <p>El marketing distribuido de Campaign permite implementar campañas de colaboración entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). A través de un espacio de trabajo compartido (paquetes de campañas), puede crear plantillas de campaña y proponerlas a las entidades locales.</p>
 <p>Para obtener más información, consulte la <a href="../start/campaigns.md#distributed-marketing-add-on">documentación detallada</a>.</p>
 </td> 
 </tr> 
@@ -235,7 +235,7 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
 * La autenticación OAuth 2.0 de Microsoft Exchange Online para POP3 ahora es compatible con Campaign. [Más información](../config/external-accounts.md#bounce-mails-external-account)
 * Se han aplicado correcciones críticas con respecto a la API web del conector de Microsoft Dynamics.
-* Se ha añadido el nuevo derecho denominado Operator y group schema write (operatorWrite) para permitir a los usuarios insertar, actualizar y eliminar esquemas Operators (xtk:operator) y Operator groups (xtk:group).
+* Se ha agregado el nuevo derecho denominado Operator y group schema write (operatorWrite) para permitir a los usuarios insertar, actualizar y eliminar esquemas Operators (xtk:operator) y Operator groups (xtk:group).
   <!--* You can now enable the Email BCC (blind carbon copy) capability to store emails sent by Campaign at the delivery level, through the dedicated option in the delivery properties. [Read more](../config/email-settings.md#email-bcc)-->
   <!--* To ensure better performances, a new "Split" option is now activated by default in the Routing external account. This option allows messages to be automatically split across your mid-sourcing instances in order to be delivered faster to the recipients.-->
 * Ahora se pueden configurar varias cuentas activas de LINE en un solo intermediario.
@@ -251,7 +251,7 @@ Consulte la [Matriz de compatibilidades de Campaign](compatibility-matrix.md).
 
 ## Versión 8.2.10 {#release-8-2-10}
 
-_2 de febrero de 2022_
+_jueves, 02 de febrero de 2022_
 
 **Correcciones**
 

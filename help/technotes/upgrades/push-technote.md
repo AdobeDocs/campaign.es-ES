@@ -9,8 +9,8 @@ hide: true
 exl-id: 45ac6f8f-eb2a-4599-a930-1c1fcaa3095b
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1653'
-ht-degree: 10%
+source-wordcount: '1776'
+ht-degree: 12%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 Puede utilizar Campaign para enviar notificaciones push a dispositivos iOS y Android. Para ello, Campaign se basa en los servicios de suscripción de aplicaciones móviles.
 
-Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de admitir este cambio.
+Algunos cambios importantes en el servicio Android Firebase Cloud Messaging (FCM) se lanzarán en 2024 y pueden afectar a su implementación de Adobe Campaign. Es posible que sea necesario actualizar la configuración de los servicios de suscripción para los mensajes push de Android a fin de que admitan este cambio.
 
 Además, Adobe recomienda encarecidamente pasar a la conexión basada en tokens a APNS en lugar de a una conexión basada en certificados, que es más segura y escalable.
 
@@ -49,7 +49,7 @@ Para comprobar si se ha visto afectado, puede filtrar sus **servicios y suscripc
 
 * El archivo JSON de la cuenta del servicio Android Firebase Admin SDK es necesario para mover la aplicación móvil a HTTP v1. Obtenga información sobre cómo obtener este archivo en [Documentación de Google Firebase](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 
-* Para Campaign Classic v7, se ha añadido la compatibilidad con HTTP v1 en la versión 20.3.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para la transición a HTTP v1 es actualizar su entorno a la [última versión de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es){target="_blank"}. Para Campaign v8, HTTP v1 es compatible con todas las versiones y no se necesita ninguna actualización.
+* Para Campaign Classic v7, se ha añadido la compatibilidad con HTTP v1 en la versión 20.3.1. Si su entorno se está ejecutando en una versión anterior, un requisito previo para la transición a HTTP v1 es actualizar su entorno a la [última versión de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Para Campaign v8, HTTP v1 es compatible con todas las versiones y no se necesita ninguna actualización.
 
 * Como usuario On-Premise de Campaign Classic v7, debe actualizar los servidores de ejecución de marketing y en tiempo real.
 
@@ -57,7 +57,7 @@ Para comprobar si se ha visto afectado, puede filtrar sus **servicios y suscripc
 
 * Acerca de la cuenta externa Android routing:
 
-   * Como usuario local o híbrido de Campaign Classic v7, compruebe que su cuenta externa de Android routing esté configurada con `androidPushConnectorV2.js`. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
+   * Como usuario local o híbrido de Campaign Classic v7, compruebe que su cuenta externa de Android routing esté configurada con `androidPushConnectorV2.js`. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android){target="_blank"}.
 
    * Para implementaciones híbridas, alojadas y administradas de Cloud Services, también debe conectarse con el equipo de atención al cliente de Adobe para validar que el conector `androidPushConnectorV2.js (nms)` está seleccionado en la cuenta externa de enrutamiento de Android de su servidor intermediario.
 
@@ -211,7 +211,7 @@ Para comprobar si se ha visto afectado, puede filtrar sus **servicios y suscripc
 
 #### Requisitos previos {#ios-transition-prerequisites}
 
-* Para Campaign Classic v7, se ha agregado la compatibilidad con el modo **Autenticación basada en tokens** en la versión 20.2. Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la [última versión de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=es){target="_blank"}. Para la versión 8 de Campaign, el modo **Autenticación basada en tokens** es compatible con todas las versiones y no se necesita ninguna actualización.
+* Para Campaign Classic v7, se ha agregado la compatibilidad con el modo **Autenticación basada en tokens** en la versión 20.2. Si su entorno se está ejecutando en una versión anterior, un requisito previo para este cambio es actualizar su entorno a la [última versión de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html){target="_blank"}. Para la versión 8 de Campaign, el modo **Autenticación basada en tokens** es compatible con todas las versiones y no se necesita ninguna actualización.
 
 * Necesita una clave de firma de token de autenticación de APNS para generar los tokens que utiliza su servidor. Usted solicita esta clave desde su cuenta de desarrollador de Apple, como se explica en [Documentación para desarrolladores de Apple](https://developer.apple.com/documentation/usernotifications/establishing-a-token-based-connection-to-apns){target="_blank"}.
 

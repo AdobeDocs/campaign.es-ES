@@ -6,16 +6,16 @@ feature: Typology Rules
 exl-id: 17507cdf-211f-4fa2-abb9-33d4f6dc47bb
 source-git-commit: 1fb93efac4fee4965213f8b42f518f2c10638e20
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 77%
+source-wordcount: '522'
+ht-degree: 73%
 
 ---
 
 # Reglas de filtrado{#filtering-rules}
 
-Utilice reglas de filtrado para seleccionar los mensajes que desea excluir según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión objetivo.
+Utilice reglas de filtrado para seleccionar los mensajes que desea excluir según los criterios definidos en una consulta. Estas reglas están vinculadas a una dimensión de segmentación.
 
-Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.) en tipologías o agrupadas en una tipología dedicada de **filtrado.** [Más información](#create-and-use-a-filtering-typology).
+Las reglas de filtrado se pueden vincular a otros tipos de reglas (control, presión, etc.) en tipologías o agrupadas en una tipología **Filtrado** dedicada. [Más información](#create-and-use-a-filtering-typology).
 
 ## Creación de una regla de filtrado {#create-a-filtering-rule}
 
@@ -28,7 +28,7 @@ Para definir este filtro, aplique los siguientes pasos:
 
    ![](assets/campaign_opt_create_filter_01.png)
 
-1. En la ficha **Filter**, cambie la dimensión de segmentación predeterminada a **Subscriptions** (**nms:subscription**).
+1. Desde la ficha **Filter**, cambie la dimensión de segmentación predeterminada a **Subscriptions** (**nms:subscription**).
 
    ![](assets/campaign_opt_create_filter_02.png)
 

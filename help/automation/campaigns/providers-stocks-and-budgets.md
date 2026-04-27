@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 76%
+source-wordcount: '1835'
+ht-degree: 75%
 
 ---
 
@@ -139,7 +139,7 @@ Puede asociar información sobre los procesos asociados con el proveedor de serv
 
 Los proveedores de servicios están asociados a envíos de campañas. Se hace referencia a ellos en las plantillas de envío para ofrecer sus servicios en las entregas creados mediante esta plantilla.
 
-Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo electrónico, correo directo, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
+Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo directo, correo electrónico, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
 
 >[!NOTE]
 >

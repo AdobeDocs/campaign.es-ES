@@ -17,7 +17,7 @@ ht-degree: 89%
 
 Es necesario supervisar los flujos de trabajo técnicos, y deben tomarse medidas cuando se producen errores.
 
-## Panel de monitorización de instancias {#instance-monitoring-dashboard}
+## Panel de control de monitorización de instancias {#instance-monitoring-dashboard}
 
 Se puede acceder al tablero de monitorización de instancias a través de la pestaña **[!UICONTROL Monitoring]**.
 
@@ -31,7 +31,7 @@ En los indicadores del sistema y los archivos principales, compruebe que no hay 
 
 ## Flujos de trabajo técnicos {#technical-workflows}
 
-Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Technical workflows]**&#x200B;**[!UICONTROL Administration]**, **[!UICONTROL Production]**, .
+Los flujos de trabajo técnicos están disponibles en **[!UICONTROL Technical workflows]****[!UICONTROL Administration]**, **[!UICONTROL Production]**, .
 
 Dependiendo del flujo de trabajo técnico, siga los pasos detallados a continuación para asegurarse de que todo funciona correctamente.
 
@@ -83,7 +83,7 @@ Todos los flujos de trabajo técnicos personalizados deben documentarse en una h
 
 La planificación de la monitorización del flujo de trabajo mejora su eficacia. Es necesario llevar a cabo algunas tareas diariamente, mientras que otras pueden realizarse semanalmente o mensualmente.
 
-La configuración de flujos de trabajo en carpetas con nombre por repetición y ordenadas por planificación de ejecución mejora la eficacia del control.
+La configuración de flujos de trabajo en carpetas con nombre por periodicidad y ordenadas por planificación de ejecución mejora la eficacia del control.
 
 La automatización de la monitorización reduce los costes de los recursos y garantiza que las tareas se planifiquen con la frecuencia adecuada.
 

@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: a523e76d-776c-47d3-9c15-34241cee1092
 source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 74%
+source-wordcount: '1003'
+ht-degree: 76%
 
 ---
 
@@ -39,7 +39,7 @@ Para enviar mensajes, debe crear una entrega. El modo de creación de envíos de
 
    ![](assets/send-in-a-wf.png)
 
-1. **Mensajes activados** - Puede [mensajes de Déclencheur](../send/transactional.md) de un evento. La mensajería transaccional (Centro de mensajes) es el módulo de Campaign diseñado para gestionar mensajes de déclencheur. Los pasos para configurar y enviar mensajes transaccionales se detallan en [esta página](../send/transactional.md)
+1. **Mensajes activados** - Puede [mensajes de Déclencheur](../send/transactional.md) de un evento. La mensajería transaccional (Centro de mensajes) es el módulo de Campaign diseñado para gestionar mensajes de activación. Los pasos para configurar y enviar mensajes transaccionales se detallan en [esta página](../send/transactional.md)
 
 ## Canales de comunicación {#gs-channel}
 
@@ -84,7 +84,7 @@ Hay un **envío recurrente** disponible en el contexto de un flujo de trabajo. E
 
 Las entregas recurrentes se crean en los flujos de trabajo a través de la actividad de [entrega recurrente](../../automation/workflow/recurring-delivery.md). En esta sección se muestra un ejemplo de esta actividad: [Creación de una entrega recurrente en un flujo de trabajo de objetivos](../../automation/workflow/send-a-birthday-email.md).
 
-### Entrega continua {#continuous-delivery}
+### Envío continuo {#continuous-delivery}
 
 Hay un **envío continuo** disponible en el contexto de un flujo de trabajo. Esto permite añadir nuevos destinatarios a un envío existente, lo que evita tener que crear un nuevo envío cada vez que se ejecuta.
 
@@ -98,7 +98,7 @@ Las entregas continuas se crean dentro de flujos de trabajo a través de la [Act
 
 Los mensajes enviados por Adobe Campaign se pueden personalizar de varias formas. [Obtenga más información acerca las funcionalidades de personalización](../send/personalize.md)
 
-Puede hacer lo siguiente:
+Se puede:
 
 * Insertar campos de personalización dinámicos. [Más información](../send/personalization-fields.md)
 * Inserte bloques de personalización predefinidos. [Más información](../send/personalization-blocks.md)
