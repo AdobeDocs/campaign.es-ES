@@ -84,7 +84,7 @@ El paquete **Interaction** está instalado en todas las instancias (control y ej
 
 >[!NOTE]
 >
->Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Este tipo de datos se encuentra detallado en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Este tipo de datos se encuentra detallado en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=es#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La duración de la retención de datos se configura en cada instancia (a través de la ventana **[!UICONTROL Data purge]** del asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de elegibilidad que se van a calcular.
 
