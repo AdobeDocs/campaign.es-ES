@@ -26,7 +26,7 @@ Puede adjuntar uno o varios archivos a una entrega de correo electrónico.
 Hay dos casos posibles:
 
 * Seleccione un archivo y adjúntelo a la entrega tal cual.
-* Personalice el contenido del archivo adjunto para cada destinatario. En este caso, es necesario crear un archivo adjunto calculado: el nombre del archivo adjunto se calcula en el momento de la entrega de forma individual según cada mensaje en función del destinatario. **** El contenido también se puede personalizar y convertir en formato PDF en el momento de la entrega si tiene la opción **Impresión digital de variable**.
+* Personalice el contenido del archivo adjunto para cada destinatario. En este caso, es necesario crear un archivo adjunto calculado: el nombre del archivo adjunto se calcula en el momento de la entrega de forma individual según cada mensaje en función del destinatario. **&#x200B;**&#x200B;El contenido también se puede personalizar y convertir en formato PDF en el momento de la entrega si tiene la opción **Impresión digital de variable**.
 
 >[!NOTE]
 >
