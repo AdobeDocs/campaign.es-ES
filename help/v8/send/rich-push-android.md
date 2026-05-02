@@ -18,7 +18,7 @@ ht-degree: 9%
 
 >[!IMPORTANT]
 >
->Antes de diseñar una notificación push enriquecida, primero debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) para ver el procedimiento detallado.
+>Antes de diseñar una notificación push enriquecida, primero debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) para ver el procedimiento detallado.
 
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 

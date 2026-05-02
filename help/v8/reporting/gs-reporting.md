@@ -18,7 +18,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
 * **Informes dinámicos**
 
-  El sistema de informes dinámico, disponible con la interfaz de usuario web de Campaign, proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Consulte la [documentación de Web UI v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
+  El sistema de informes dinámico, disponible con la interfaz de usuario web de Campaign, proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Consulte la [documentación de Web UI v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}.
 
 * **Cubos**
 
@@ -56,4 +56,4 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   Utilice Adobe Campaign para crear informes sobre los datos de la base de datos. Una vez creados, haga que sean accesibles en los contextos adecuados.
 
-  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.
+  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=es){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.

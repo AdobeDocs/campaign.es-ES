@@ -60,7 +60,7 @@ Es posible ampliar la tabla de destinatarios, pero no reducir el número de camp
 
 Aprenda a ampliar un esquema existente en [esta sección](extend-schema.md).
 
-Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#extending-a-table){target="_blank"}
+Descubra ejemplos de extensiones de tabla de destinatarios integradas en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=es#extending-a-table){target="_blank"}
 
 También puede utilizar una tabla de destinatarios diferente para adaptarse mejor a sus necesidades empresariales o funcionales. Este método tiene limitaciones y se describe en [esta sección](custom-recipient.md).
 

@@ -124,7 +124,7 @@ Se deben cumplir las siguientes reglas:
 
 El tipo de datos se ingresa mediante el atributo **type** en los elementos **`<attribute>`** y **`<element>`**.
 
-Hay disponible una lista detallada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html#configuring-campaign-classic){target="_blank"}.
+Hay disponible una lista detallada en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/schema-introduction.html?lang=es#configuring-campaign-classic){target="_blank"}.
 
 Cuando este atributo no se rellena, **string** es el tipo de datos predeterminado a menos que el elemento contenga elementos secundarios. Si es así, solo se usa para estructurar los elementos jerárquicamente (**`<location>`** elemento en nuestro ejemplo).
 

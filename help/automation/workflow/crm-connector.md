@@ -29,4 +29,4 @@ Seleccionar la cuenta externa que coincide con el CRM con el que desea configura
 
 ![](assets/crm_task_select_obj.png)
 
-Para obtener más información sobre conectores CRM en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}.
+Para obtener más información sobre conectores CRM en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=es){target="_blank"}.
