@@ -127,11 +127,11 @@ Después de crear el servicio, debe definir las aplicaciones móviles que lo uti
 
 Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
-1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an iOS application]**. Haga clic en **[!UICONTROL Next]**.
+1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an iOS application]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/push-config-6.png)
 
-1. En la ventana **[!UICONTROL Launch app configurations list]**, seleccione la superficie de aplicación creada anteriormente en esta sección. Haga clic en **[!UICONTROL Next]**.
+1. En la ventana **[!UICONTROL Launch app configurations list]**, seleccione la superficie de aplicación creada anteriormente en esta sección. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/push-config-7.png)
 
@@ -174,7 +174,7 @@ La aplicación de iOS ya está lista para su uso en Campaign.
 
 Para crear una aplicación para dispositivos Android, siga estos pasos:
 
-1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an Android application]**. Haga clic en **[!UICONTROL Next]**.
+1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an Android application]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/push-config-10.png)
 
@@ -217,7 +217,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 1. En la página de inicio de la recopilación de datos, acceda al menú Etiquetas.
 
-1. Haga clic en **[!UICONTROL New Property]**.
+1. Haga clic **[!UICONTROL New Property]**.
 
    ![](assets/push-config-13.png)
 

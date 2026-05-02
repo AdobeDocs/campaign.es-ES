@@ -37,7 +37,7 @@ Tenga en cuenta que los emoticonos solo están disponibles para correo electrón
 
    ![](assets/emoticon_1.png)
 
-1. Haga clic **[!UICONTROL Add]**.
+1. Haga clic en **[!UICONTROL Add]**.
 
 1. Rellene los campos:
 

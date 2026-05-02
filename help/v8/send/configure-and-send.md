@@ -42,7 +42,7 @@ Utilice la opción **[!UICONTROL Test SMTP delivery]** para probar el envío a t
 >
 >* Esta opción no debe configurarse en intermediario.
 >
->* Obtenga más información acerca de la configuración del servidor SMTP en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=es#smtp-relay){target="_blank"}.
+>* Obtenga más información acerca de la configuración del servidor SMTP en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Envío mediante múltiples olas {#sending-using-multiple-waves}
 

@@ -23,7 +23,7 @@ Para cualquier implementación nueva o actualización a un entorno existente, in
 
 **En esta página**
 
-* Campaign v8.5 - [Versión 8.5.1](#release-8-5-1) | [Versión 8.5.2](#release-8-5-2)
+* Campaign v8.5: [Versión 8.5.1](#release-8-5-1) | [Versión 8.5.2](#release-8-5-2)
 * Campaign v8.4 - [Versión 8.4.3](#release-8-4-3) | [Versión 8.4.4](#release-8-4-4) | [Versión 8.4.5](#release-8-4-5)
 
 >[!ENDSHADEBOX]

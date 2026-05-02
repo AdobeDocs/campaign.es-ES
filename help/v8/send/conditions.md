@@ -47,7 +47,7 @@ Se pueden añadir otros casos y definir contenido diferente según los valores d
 
 >[!CAUTION]
 >
->Los caracteres **%> &lt;%** deben eliminarse después de agregar las condiciones **Else** y **Else if**.
+>Los caracteres **%> &lt;%** deben eliminarse después de agregar **Else** y **Else if** condiciones.
 
 
 ## Caso de uso: Creación de un correo electrónico multilingüe {#creating-multilingual-email}
@@ -86,4 +86,4 @@ En el siguiente ejemplo, aprenda a crear un correo electrónico multilingüe. El
 
 Aprenda a añadir contenido condicional a un envío con el ejemplo de una newsletter multilingüe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446714?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

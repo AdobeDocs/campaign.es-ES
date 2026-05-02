@@ -32,4 +32,4 @@ Para ello:
 
      ![](assets/int_offer_per_cell1.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).

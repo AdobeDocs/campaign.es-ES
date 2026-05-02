@@ -192,6 +192,6 @@ Añada una actividad de **Entrega recurrente** basada en la plantilla de correo 
 >
 >Para que se ejecuten los flujos de trabajo, se deben iniciar los flujos de trabajo técnicos relacionados con el paquete de campaña. Para obtener más información sobre esto, consulte la sección [Lista de flujos de trabajo técnicos](technical-workflows.md).
 >
->Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información, consulte   sección.
+>Si los pasos de aprobación están habilitados para la campaña, las entregas solo se realizan una vez que estén confirmados los pasos. Para obtener más información, consulte la sección.
 
 ![](assets/birthday-workflow_usecase_1.png)

@@ -114,7 +114,7 @@ Si no desea limitar la población de la consulta, no tiene que utilizar las acti
 
    ![](assets/local_validation_split_1bis.png)
 
-1. En la sección **[!UICONTROL Sort columns]**, añada el campo al que se aplica la ordenación. Aquí, se ha elegido el campo **[!UICONTROL Email]**. Haga clic en **[!UICONTROL Next]**.
+1. En la sección **[!UICONTROL Sort columns]**, añada el campo al que se aplica la ordenación. Aquí, se ha elegido el campo **[!UICONTROL Email]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/local_validation_split_2.png)
 

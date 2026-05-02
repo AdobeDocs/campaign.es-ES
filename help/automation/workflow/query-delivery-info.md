@@ -83,7 +83,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      Seleccione el operador **[!UICONTROL greater than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]** y, en la ventana **[!UICONTROL Formula type]**, seleccione **[!UICONTROL Process on dates]**. Finalmente, en **[!UICONTROL Current date minus n days]**, escriba &quot;15&quot;.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_24.png)
 
@@ -91,7 +91,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      Seleccione el operador **[!UICONTROL less than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]**. Para el procesamiento de fechas, vaya a la ventana **[!UICONTROL Formula type]** y escriba “1” en **[!UICONTROL Current date minus n days]**.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_65.png)
 
@@ -99,7 +99,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    * Haga clic en la función **[!UICONTROL Add]** para crear otra condición de filtrado. En la columna **[!UICONTROL Expression]**, haga clic en **[!UICONTROL Edit expression]**. En la ventana **[!UICONTROL Field to select]**, elija **[!UICONTROL Label]** en el nodo **[!UICONTROL Delivery]**.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_66.png)
 

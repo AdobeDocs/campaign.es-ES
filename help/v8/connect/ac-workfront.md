@@ -19,4 +19,4 @@ Agilice la entrega de campañas asociando Campaign con Adobe Workfront. Facilite
 Los pasos para configurar esta integración se detallan en la documentación de Adobe Workfront.
 
 
-[Módulos Adobe Campaign en Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=es){target="_blank"}.
+[Módulos Adobe Campaign en Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html){target="_blank"}.

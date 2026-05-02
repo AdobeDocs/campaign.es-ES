@@ -66,6 +66,6 @@ Para incluir una categoría de reserva en las recomendaciones, siga los pasos a 
 
 1. Vaya al catálogo de ofertas.
 1. Haga clic en la ficha **[!UICONTROL Eligibility]** y seleccione la opción **[!UICONTROL Always include this category in the recommendations]**.
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)

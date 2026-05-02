@@ -47,7 +47,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/uc_enrichment_4.png)
 
-1. Haga clic **[!UICONTROL Finish]**. A continuación, en la pestaña **[!UICONTROL General]** de su actividad **[!UICONTROL Split]**, haga clic en **[!UICONTROL Generate complement]** en la categoría **[!UICONTROL Results]**.
+1. Haga clic en **[!UICONTROL Finish]**. A continuación, en la pestaña **[!UICONTROL General]** de su actividad **[!UICONTROL Split]**, haga clic en **[!UICONTROL Generate complement]** en la categoría **[!UICONTROL Results]**.
 
    Con el resultado **[!UICONTROL Complement]**, puede añadir una actividad de envío o actualizar una lista. Aquí, agregamos una actividad **[!UICONTROL End]**.
 
@@ -82,7 +82,7 @@ Ahora necesita configurar su actividad **[!UICONTROL Enrichment]**:
 
    ![](assets/uc_enrichment_12.png)
 
-1. Haga clic **[!UICONTROL Ok]**. El enriquecimiento está listo.
+1. Haga clic en **[!UICONTROL Ok]**. El enriquecimiento está listo.
 
 Después de la actividad de **[!UICONTROL Enrichment]** puede agregar una entrega. En este caso, agregamos una entrega por correo electrónico para enviar a los destinatarios una oferta especial con fechas de validez para los clientes que celebran su cumpleaños ese mes.
 

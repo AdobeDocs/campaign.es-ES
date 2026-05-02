@@ -41,7 +41,7 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
 1. **Seleccione la plantilla**
 
-   Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic en **[!UICONTROL Continue]**.
+   Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic **[!UICONTROL Continue]**.
 
    ![](assets/dce_delivery_model.png)
 

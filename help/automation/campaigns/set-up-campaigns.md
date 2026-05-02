@@ -61,4 +61,4 @@ Una vez completados estos pasos, puede [iniciar los envíos](marketing-campaign-
 
 Este vídeo presenta los conceptos clave de las campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/326574?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/35131?quality=12)

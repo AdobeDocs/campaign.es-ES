@@ -77,7 +77,7 @@ Los valores de **[!UICONTROL channel]**, **[!UICONTROL status]** y **[!UICONTROL
 
 En el siguiente ejemplo, la entrega se crea desde la página principal. Para obtener instrucciones detalladas sobre cómo crear una entrega, consulte [esta sección](email.md)
 1. Vaya a **[!UICONTROL Campaigns]** y elija **[!UICONTROL Deliveries]**.
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 
    ![](assets/deliv_coup_04.png)
 

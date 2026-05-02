@@ -91,7 +91,7 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
 ## Depuración de registros {#purging-the-logs}
 
-El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]**&#x200B;**[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](start-a-workflow.md).
+El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](start-a-workflow.md).
 
 ![](assets/purge_historique.png)
 
@@ -230,7 +230,7 @@ Los flujos de trabajo utilizan muchas tablas de trabajo que consumen espacio y t
 
 El flujo de trabajo **Limpieza de la base de datos**, accesible a través del nodo **Administración, Producción, Flujos de trabajo técnicos**, permite eliminar datos obsoletos para evitar el crecimiento exponencial de la base de datos. El flujo de trabajo se activa automáticamente sin intervención del usuario.
 
-También puede crear flujos de trabajo técnicos específicos para depurar los datos innecesarios que consumen espacio. Consulte   y esta [sección](#purging-the-logs).
+También puede crear flujos de trabajo técnicos específicos para depurar los datos innecesarios que consumen espacio. Consulte y esta [sección](#purging-the-logs).
 
 ## Gestión de los flujos de trabajo en pausa {#handling-of-paused-workflows}
 
