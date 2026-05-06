@@ -7,8 +7,8 @@ role: User
 exl-id: b46530b5-cb81-40d7-b596-c7685359782a
 source-git-commit: d80a39d7f0df939d0e9e3f782d5d9aef3d459a32
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 91%
+source-wordcount: '1557'
+ht-degree: 90%
 
 ---
 
@@ -107,7 +107,7 @@ Si no desea asignar nombres a los revisores de una campaña, escriba 0.
 
 ### Documentos {#documents}
 
-Puede permitir que los operadores de la entidad local vinculen los documentos (archivos de texto, hojas de cálculo, imágenes, descripciones de campañas, etc.) a la campaña local al crear la solicitud. El enlace **[!UICONTROL Advanced parameters for campaign entry...]** permite restringir el número de documentos. Para ello, simplemente introduzca el número máximo permitido en el campo **[!UICONTROL Number of documents]**.
+Puede permitir que los operadores de entidades locales vinculen documentos (archivos de texto, hojas de cálculo, imágenes, descripciones de campañas, etc.) a la campaña local al crear la solicitud. El enlace **[!UICONTROL Advanced parameters for campaign entry...]** permite restringir el número de documentos. Para ello, simplemente introduzca el número máximo permitido en el campo **[!UICONTROL Number of documents]**.
 
 ![](assets/s_advuser_mkg_dist_local_docs.png)
 
@@ -266,7 +266,7 @@ Para solicitar una campaña:
 
    Para obtener más información, consulte la sección [Proceso de aprobación](#approval-process).
 
-1. El operador local recibe una notificación cuando la campaña está disponible: la disponibilidad de la campaña puede encontrarse en la lista de paquetes de campañas en la pestaña **Campañas**. La campaña entonces se puede utilizar. Para obtener más información, consulte [Acceso a campañas](accessing-campaigns.md).
+1. El operador local recibe una notificación cuando la campaña está disponible: la disponibilidad de la campaña puede encontrarse en la lista de paquetes de campañas en la pestaña **Campaign**. La campaña entonces se puede utilizar. Para obtener más información, consulte [Acceso a campañas](accessing-campaigns.md).
 
    La opción **[!UICONTROL Start targeting with order approval]** permite que la entidad local ejecute la campaña en cuanto se apruebe la solicitud.
 
@@ -326,7 +326,7 @@ La información se muestra en la lista de página de paquetes de campañas o en 
 
 ![](assets/mkg_dist_do_not_valid_view.png)
 
-Pueden ver el comentario relacionado en la pestaña **[!UICONTROL Edit]** del paquete de la campaña.
+Pueden ver el comentario relacionado en la pestaña **[!UICONTROL Edit]** del paquete de campaña.
 
 ![](assets/mkg_dist_do_not_valid_tab.png)
 
@@ -342,7 +342,7 @@ Para cada entidad local, se seleccionan los revisores para la aprobación de sol
 
 ### Cancelación de una solicitud {#canceling-an-order}
 
-La agencia central puede cancelar una solicitud utilizando el botón **[!UICONTROL Delete]** situado en el panel de solicitudes.
+La agencia central puede cancelar una solicitud utilizando el botón **[!UICONTROL Delete]** situado en el panel de control de solicitudes.
 
 ![](assets/mkg_dist_local_op_cancel.png)
 

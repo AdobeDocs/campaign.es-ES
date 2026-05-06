@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: ed70d2d3-251e-4ee8-84d4-73ad03e8dd35
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '396'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ La actividad del **[!UICONTROL Scheduler]** debe considerarse como un inicio pro
 
 **Use un Planificador por rama**: cada rama del flujo de trabajo solo debe tener una actividad **[!UICONTROL Scheduler]**. Para obtener más información sobre las prácticas recomendadas para usar actividades en flujos de trabajo, consulte la [página de prácticas recomendadas de flujo de trabajo](workflow-best-practices.md#using-activities).
 
-**Impedir ejecuciones simultáneas en un flujo de trabajo**: si un programador activa un flujo de trabajo, tenga en cuenta que se podrían ejecutar varias instancias del flujo de trabajo al mismo tiempo. Por ejemplo, si un planificador procesa el flujo de trabajo cada hora, pero éste tarda más de una hora, podría terminar con déclencheur superpuestos. Para evitarlo, plantéese configurar comprobaciones para evitar varias ejecuciones simultáneas. [Aprenda a evitar ejecuciones simultáneas de varios flujos de trabajo](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
+**Impedir ejecuciones simultáneas en un flujo de trabajo**: si un programador activa un flujo de trabajo, tenga en cuenta que se podrían ejecutar varias instancias del flujo de trabajo al mismo tiempo. Por ejemplo, si un planificador procesa el flujo de trabajo cada hora, pero este déclencheur tarda más de una hora, podría terminar con ejecuciones superpuestas.Para evitarlo, considere la posibilidad de configurar comprobaciones para evitar ejecuciones simultáneas múltiples. [Aprenda a evitar ejecuciones simultáneas de varios flujos de trabajo](monitor-workflow-execution.md#preventing-simultaneous-multiple-executions).
 
 **Cuenta para transiciones retrasadas**: las transiciones activadas por el programador pueden retrasarse si el flujo de trabajo ejecuta tareas de larga ejecución (como importaciones) o si el módulo wfserver se ha detenido temporalmente. Para mitigar esto, restrinja los tiempos de activación del planificador para garantizar que las tareas se ejecuten dentro de un intervalo de tiempo definido.
 

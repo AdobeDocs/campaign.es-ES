@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 100%
+source-wordcount: '1251'
+ht-degree: 97%
 
 ---
 
@@ -165,7 +165,7 @@ Por consiguiente, para llamar a una variable **instance.vars.xxx = &quot;yyy&quo
 
 Por ejemplo:
 
-1. Cree una variable de instancia que defina el nombre interno de un envío mediante el ****[!UICONTROL JavaScript code]**: instance.vars.deliveryIN = “DM42”**.
+1. Cree una variable de instancia que defina el nombre interno de un envío mediante el **&#x200B;**&#x200B;[!UICONTROL JavaScript code]&#x200B;**: instance.vars.deliveryIN = “DM42”**.
 
    ![](assets/wkf_js_activity_1.png)
 

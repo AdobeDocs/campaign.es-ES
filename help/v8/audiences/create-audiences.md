@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 6fbe5616-7b8b-4504-988b-2bbbfd062548
 source-git-commit: 70af3bceee67082d6a1bb098e60fd2899dc74600
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 33%
+source-wordcount: '796'
+ht-degree: 36%
 
 ---
 
@@ -26,7 +26,7 @@ Puede crear una lista con la actividad **Actualizar lista** en un flujo de traba
 
 Vea este vídeo para obtener más información sobre la administración de listas en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426458?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3426458?captions=spa&quality=12)
 
 
 ## Creación de una lista de contactos {#create-a-list-of-contacts}

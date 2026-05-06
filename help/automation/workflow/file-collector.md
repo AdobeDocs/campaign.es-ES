@@ -41,9 +41,9 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
    * **[!UICONTROL Stop as soon as a file has been processed]**
 
-     Si esta opción está activada, la tarea finaliza después de la recepción del primer archivo. Si hay varios archivos correspondientes al filtro en el directorio, solo se tendrá en cuenta uno. Esta opción garantiza que solo se envíe un evento. El archivo tenido en cuenta es la primero en la lista en orden alfabético.
+     Si esta opción está habilitada, la tarea finaliza después de la recepción del primer archivo. Si hay varios archivos correspondientes al filtro en el directorio, solo se tendrá en cuenta uno. Esta opción garantiza que solo se envíe un evento. El archivo tenido en cuenta es la primero en la lista en orden alfabético.
 
-     Para una actividad no programada, si no se encuentra ningún archivo que coincida con el filtro en el directorio especificado y si la opción **[!UICONTROL Process file nonexistence]** no está activada, se generará un error.
+     Para una actividad no programada, si no se encuentra ningún archivo que coincida con el filtro en el directorio especificado y si la opción **[!UICONTROL Process file nonexistence]** no está habilitada, se generará un error.
 
    * **[!UICONTROL Execution schedule]**
 

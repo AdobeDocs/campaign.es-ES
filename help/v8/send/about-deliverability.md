@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: f301b34c-244c-4279-b23f-8224ea8eedbe
 source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 99%
+source-wordcount: '805'
+ht-degree: 98%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Campaign proporciona varias herramientas para rastrear y mejorar el rendim
 
 Al configurar, diseñar y probar el mensaje, asegúrese de seguir las prácticas recomendadas que se mencionan en las secciones a continuación. El uso de todas las funciones que proporciona Adobe Campaign le ayuda a mejorar la capacidad de envío.
 
-* [Prácticas recomendadas de entregas](../start/delivery-best-practices.md)
+* [Prácticas recomendadas para envíos](../start/delivery-best-practices.md)
 * [Control del contenido de correo electrónico](control-message-content.md)
 * [Procesamiento de la bandeja de entrada](inbox-rendering.md)
 * [Envío de una prueba](preview-and-proof.md#send-proofs)
@@ -79,7 +79,7 @@ Algunos proveedores de acceso a Internet consideran automáticamente los correos
 
 Para obtener más información, consulte las siguientes secciones:
 
-* [Comprensión de los errores de entrega](delivery-failures.md)
+* [Comprender los errores de envío](delivery-failures.md)
 * [Comprensión de la administración de cuarentenas](quarantines.md)
 * [Cuarentena frente a lista de bloqueados](quarantines.md)
 

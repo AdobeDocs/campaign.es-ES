@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 092262c7-768c-4e86-9b2b-c52516f6a030
 source-git-commit: c748654c76c6b6ce8ad4d4886a1f73004a41e7ac
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 42%
+source-wordcount: '166'
+ht-degree: 39%
 
 ---
 
@@ -27,7 +27,7 @@ Para crear un filtro predefinido, siga el siguiente proceso:
 
    ![](assets/offer_filter_create_005.png)
 
-1. Haga clic en **[!UICONTROL New]**.
+1. Haga clic **[!UICONTROL New]**.
 
    ![](assets/offer_filter_create_001.png)
 

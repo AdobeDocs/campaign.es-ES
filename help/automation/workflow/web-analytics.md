@@ -6,8 +6,8 @@ feature: Workflows, Analytics Integration
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 81%
+source-wordcount: '177'
+ht-degree: 89%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 81%
 
 
 
-Los flujos de trabajo detallados a continuación se instalan con el módulo **Conectores de análisis web** de forma predeterminada.
+Los flujos de trabajo detallados a continuación se instalan con el módulo **Conectores web de Analytics** de forma predeterminada.
 
 <table> 
  <tbody> 

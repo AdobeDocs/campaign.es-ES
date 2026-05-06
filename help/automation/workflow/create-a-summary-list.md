@@ -9,7 +9,7 @@ exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '975'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -57,7 +57,7 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    La actividad **Recolección de archivos** permite recopilar y enviar archivos desde y hacia el servidor de Adobe Campaign.
 
-   La actividad **Data loading(file)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información, consulte [esta página](data-loading-file.md).
+   La actividad **Carga de datos (archivo)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información, consulte [esta página](data-loading-file.md).
 
 1. Configure la actividad **Recolector de ficheros** para recopilar archivos de texto (*.txt) &#42; del directorio seleccionado.
 
@@ -112,10 +112,10 @@ Los datos de la tabla de trabajo del flujo de trabajo después de este enriqueci
 
 Este paso detalla cómo escribir los datos importados y enriquecidos en la tabla “Purchases”. Para ello, se debe utilizar una actividad **Update data**.
 
-Se debe llevar a cabo una reconciliación entre los datos de la tabla de trabajo del flujo de trabajo y del entorno de segmentación de **Purchases** antes de actualizar los datos en la tabla **Purchases**.
+Se debe llevar a cabo una reconciliación entre los datos de la tabla de trabajo del flujo de trabajo y de la dimensión de segmentación de **Purchases** antes de actualizar los datos en la tabla **Purchases**.
 
 1. En la actividad de enriquecimiento, haga clic en la pestaña **[!UICONTROL Reconciliation]**.
-1. Seleccione el entorno de segmentación, el esquema “Purchases” en este caso.
+1. Seleccione la dimensión de segmentación, el esquema “Purchases” en este caso.
 1. Seleccione una “Source expression” para los datos de la tabla de flujo de trabajo (el campo “storeName” en este caso).
 1. Seleccione una “Destination expression” para los datos de la tabla “Purchases” (el campo “storename” en este caso).
 1. Marque la opción **[!UICONTROL Keep unreconciled data coming from the work table]**.
@@ -162,7 +162,7 @@ Para preparar la lista de resumen, se debe agregar campos desde “Purchases” 
 
    ![](assets/uc2_enrich_enrich7.png)
 
-1. Seleccione la pestaña **[!UICONTROL Properties]**.
+1. Haga clic en la pestaña **[!UICONTROL Properties]**.
 1. Cambie el segundo vínculo para crear solo una línea.
 
 ## Paso 4: Cree y añada a una lista de resumen {#step-4--creating-and-adding-to-a-summary-list}

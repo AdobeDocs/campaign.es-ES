@@ -7,7 +7,7 @@ level: Beginner, Intermediate
 exl-id: 5523217a-b95f-4639-b941-52eb7d5a0203
 source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1077'
 ht-degree: 11%
 
 ---
@@ -117,7 +117,7 @@ Se detienen de manera predeterminada: debe iniciarlos manualmente cuando comienc
 
 El flujo de trabajo técnico **[!UICONTROL Synchronization of Twitter accounts]** sincroniza las cuentas X en Adobe Campaign. Este flujo de trabajo recupera la lista de X seguidores para que pueda enviarles mensajes directos. [Más información](../send/twitter.md#direct-tw-messages)
 
-De forma predeterminada, este flujo de trabajo se activa todos los jueves a las 7:30 a.m. Puede usar la opción **[!UICONTROL Execute pending task(s) now]** para iniciar el flujo de trabajo en cualquier momento mientras implementa esta integración.  También puede editar el planificador para cambiar la frecuencia de activación del flujo de trabajo. Obtenga más información en [esta página](../../automation/workflow/scheduler.md).
+De manera predeterminada, este flujo de trabajo se activa todos los jueves a las 7:30AM. Puede usar la opción **[!UICONTROL Execute pending task(s) now]** para iniciar el flujo de trabajo en cualquier momento mientras implementa esta integración.  También puede editar el planificador para cambiar la frecuencia de activación del flujo de trabajo. Obtenga más información en [esta página](../../automation/workflow/scheduler.md).
 
 >[!CAUTION]
 >

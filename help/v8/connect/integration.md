@@ -7,8 +7,8 @@ level: Beginner
 exl-id: d1d57aa8-b811-470f-a8a6-18da3a700f1a
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 12%
+source-wordcount: '461'
+ht-degree: 11%
 
 ---
 
@@ -62,7 +62,7 @@ Obtenga más información en [esta página](fda.md)
 
 Utilice Adobe Campaign para interactuar con clientes y clientes potenciales mediante X (anteriormente conocido como Twitter).
 
-Puede hacer lo siguiente:
+Se puede:
 
 * Envíe mensajes directos a sus seguidores
 * Publica en tu cuenta X

@@ -8,8 +8,8 @@ level: Beginner, Intermediate
 exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 9%
+source-wordcount: '279'
+ht-degree: 8%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 9%
 
 En una instancia independiente, la entrega de un SMS requiere lo siguiente:
 
-1. Cuenta externa **1&rbrace; que especifica un conector y el tipo de mensaje,** obtenga más información aquí[&#128279;](#external-account)
+1. Cuenta externa **1&rbrace; que especifica un conector y el tipo de mensaje, [obtenga más información aquí](#external-account)**
 
 1. Una **plantilla de envíos** en la que se hace referencia a esta cuenta externa, [obtenga más información aquí](#sms-delivery-template)
 

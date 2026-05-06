@@ -8,8 +8,8 @@ exl-id: b0f8c057-dd4e-4284-b5a4-157986a1d95a
 version: Campaign v8, Campaign Classic v7
 source-git-commit: adea4eb54f3d519802119646bc501aae2ef5f831
 workflow-type: tm+mt
-source-wordcount: '3845'
-ht-degree: 94%
+source-wordcount: '3864'
+ht-degree: 95%
 
 ---
 
@@ -256,7 +256,7 @@ El siguiente paso del asistente de importación le permite seleccionar o crear l
 
 >[!NOTE]
 >
->Este paso aparece solo cuando se importan destinatarios y cuando se utiliza la tabla de destinatarios predeterminada de Adobe Campaign (**nms:recipient**).
+>Este paso solo aparece cuando se importan destinatarios y cuando se utiliza la tabla de destinatarios predeterminada de Adobe Campaign (**nms:recipient**).
 
 * Haga clic en los enlaces **[!UICONTROL Edit]** para seleccionar la carpeta, la lista o el servicio al que desee asociar o suscribir a los destinatarios.
 
@@ -316,7 +316,7 @@ A continuación, puede supervisar la ejecución del trabajo de importación (con
 
 Los trabajos de exportación permiten acceder a la base de datos y extraer datos de ella: contactos, clientes, listas, segmentos, etc.
 
-Por ejemplo: puede resultar útil utilizar datos de seguimiento de campañas (historial de seguimiento, etc.) en una hoja de cálculo. Los datos de salida pueden estar en formato txt, CSV, TAB o formato XML.
+Por ejemplo: puede resultar útil utilizar datos de seguimiento de campañas (historial de seguimiento, etc.) en una hoja de cálculo. Los datos de salida pueden estar en formato TXT, CSV, TAB o XML.
 
 El asistente de exportación permite configurar una exportación, definir sus opciones e iniciar la ejecución. Es una serie de pantallas cuyo contenido depende del tipo de exportación (simple o múltiple) y de los derechos del operador.
 
@@ -369,11 +369,11 @@ Seleccione un formato de salida para el archivo de exportación. Se pueden utili
 * En el caso de los archivos de formato **[!UICONTROL Text]**, seleccione los delimitadores para separar las columnas (tabulaciones, comas, punto y coma o personalizado) y las cadenas (comillas simples o dobles, o ninguna).
 * Para **[!UICONTROL text]** y **[!UICONTROL CSV]**, puede seleccionar la opción **[!UICONTROL Use first lines as column titles]**.
 * Indique el formato de fecha y el formato de número. Para hacer esto, haga clic en el botón **[!UICONTROL Edit]** en el campo correspondiente y use el editor.
-* En los campos que contienen valores enumerados, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el título se puede almacenar en el formulario **1=Mr.**, **2=Miss**, **3=Mrs.**. Si se selecciona esta opción, se exportan **Mr.**, **Miss** y **Mrs.**
+* En los campos que contienen valores enumerados, puede seleccionar **[!UICONTROL Export labels instead of internal values of enumerations]**. Por ejemplo, el título se puede almacenar en el formulario **1=Mr.**, **2=Miss**, **3=Mrs**. Si se selecciona esta opción, se exportarán **Mr**, **Miss** y **Mrs**.
 
 ### Paso 4: Selección de datos {#step-4---data-selection}
 
-Seleccione los campos que desea exportar. Para ello:
+Seleccione los campos que desea exportar. Para ello, haga lo siguiente:
 
 1. Haga doble clic en los campos deseados en la lista **[!UICONTROL Available fields]** para añadirlos a la sección **[!UICONTROL Output columns]**.
 1. Utilice las flechas de la derecha de la lista para definir el orden de los campos en el archivo de salida.
@@ -390,7 +390,7 @@ Seleccione el orden de las columnas.
 
 ### Paso 6: Condiciones de filtro {#step-6---filter-conditions-}
 
-Puede añadir condiciones de filtro para evitar la exportación de todos los datos. La configuración de este filtro es la misma que la segmentación de destinatarios en el asistente de envíos.
+Puede añadir condiciones de filtro para evitar la exportación de todos los datos. La configuración de este filtro es la misma que el direccionamiento de destinatarios en el asistente de envíos.
 
 ![](assets/s_ncs_user_export_wizard05_b.png)
 
@@ -416,7 +416,7 @@ Si desea exportar una recopilación de elementos (por ejemplo, suscripciones de 
 
 ### Paso 8: Previsualización de datos {#step-8---data-preview}
 
-Haga clic en **[!UICONTROL Start the preview of the data]** para obtener una vista previa del resultado de la exportación.
+Haga clic en **[!UICONTROL Start the preview of the data]** para obtener una previsualización del resultado de la exportación.
 
 ![](assets/s_ncs_user_export_wizard07.png)
 

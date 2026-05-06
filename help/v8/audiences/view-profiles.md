@@ -8,8 +8,8 @@ exl-id: 03f7a736-e0b9-4216-9550-507f10e6fcf6
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 3453820bb0eca7847ec55d7e6ea15766a57ab94e
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 4%
+source-wordcount: '455'
+ht-degree: 6%
 
 ---
 
@@ -31,13 +31,13 @@ Para realizar manipulaciones de perfiles más avanzadas, acceda al árbol de Cam
 >La pantalla integrada de Destinatario se define a través de un esquema XML y su formulario asociado. El esquema XML se almacena en el nodo **[!UICONTROL Administration > Configuration > Data schemas]** del árbol del explorador de Adobe Campaign. Solo los usuarios expertos pueden realizar cambios en estos esquemas.
 >
 
-## Editar un perfil {#edit-a-profiles}
+## Edición de un perfil {#edit-a-profiles}
 
 Seleccione un perfil para mostrar los detalles en una nueva pestaña.
 
 ![](assets/edit-a-profile.png)
 
-Los datos concernientes a los perfiles se agrupan en pestañas. Estas pestañas y su contenido dependen de la configuración específica y de los paquetes instalados.
+Los datos concernientes a los perfiles se agrupan en fichas. Estas pestañas y su contenido dependen de la configuración específica y de los paquetes instalados.
 
 Para un destinatario integrado típico, puede acceder a las siguientes pestañas:
 

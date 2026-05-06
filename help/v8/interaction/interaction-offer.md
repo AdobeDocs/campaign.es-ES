@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 4dc2008d-681c-4a79-8fc8-c270c9224ab9
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 61%
+source-wordcount: '945'
+ht-degree: 60%
 
 ---
 
@@ -46,7 +46,7 @@ Fuera de este periodo, la oferta no se selecciona. Si también se han configurad
 
 En la pestaña **[!UICONTROL Eligibility]** de la oferta, aplique filtros al destino de la oferta.
 
-Para ello, haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione el filtro que desee aplicar.
+Para ello, haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione el filtro que desea aplicar.
 
 ![](assets/offer_eligibility_create_003.png)
 

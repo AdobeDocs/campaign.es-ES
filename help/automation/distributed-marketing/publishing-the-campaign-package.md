@@ -7,7 +7,7 @@ role: User
 exl-id: 2cd1981d-f192-41dc-b2f2-4fcd60493079
 source-git-commit: 41e39e046ec77de8b5e657ba76645898ff1cd2d7
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '459'
 ht-degree: 86%
 
 ---
@@ -38,7 +38,7 @@ Hecho esto, se envía un mensaje de notificación al revisor para confirmar la d
 
 ## Añadir otros revisores {#adding-other-reviewers}
 
-Puede añadir otros revisores desde el vínculo **[!UICONTROL Edit...]** que se encuentra en la pestaña **[!UICONTROL Approval parameters...]** del paquete de la campaña.
+Puede añadir otros revisores desde el vínculo **[!UICONTROL Edit...]** que se encuentra en la pestaña **[!UICONTROL Approval parameters...]** del paquete de campaña.
 
 ![](assets/s_advuser_mkg_dist_select_op_valid.png)
 

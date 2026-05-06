@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 8510e879-2862-491f-bc52-ca8f56105932
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '315'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ Para configurar la extracción de datos, siga estos pasos:
 
    ![](assets/s_advuser_extract_file_param.png)
 
-   La opción **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** añade un paso adicional para filtrar el resultado final del acumulado, por ejemplo, en un tipo de orden de compra determinado, clientes que hayan hecho una orden más de 10 veces, etc.
+   La opción **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** añade un paso adicional para filtrar el resultado final del acumulado, por ejemplo, en un tipo de pedido determinado, clientes que hayan hecho un pedido más de 10 veces, etc.
 
 1. Si es necesario, puede añadir nuevas columnas al archivo de salida, como, por ejemplo, calcular o procesar resultados. Para hacer esto, haga clic en el icono **[!UICONTROL Add]**.
 

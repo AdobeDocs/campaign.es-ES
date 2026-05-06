@@ -1,19 +1,19 @@
 ---
 product: campaign
-title: Entrega continua
-description: Entrega continua
+title: Envío continuo
+description: Envío continuo
 feature: Workflows, Channels Activity
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: e3ad6d92-8d53-4098-90fd-cfed29f2e56e
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 99%
+source-wordcount: '370'
+ht-degree: 89%
 
 ---
 
-# Entrega continua{#continuous-delivery}
+# Envío continuo{#continuous-delivery}
 
 
 
@@ -46,7 +46,7 @@ Solamente cuando la opción **[!UICONTROL Specified by the inbound event]** est�
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica el objetivo resultante de la entrega sobre la marcha. **[!UICONTROL tableName]** es el nombre de la tabla que memoriza los identificadores del objetivo, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica el objetivo resultante de la entrega sobre la marcha. **[!UICONTROL tableName]** es el nombre de la tabla que memoriza los identificadores del destino, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 La transición asociada al complemento tiene los mismos parámetros.
 
@@ -58,12 +58,12 @@ Los **envíos continuos** le permiten añadir destinatarios nuevos a un envío e
 
 Un envío continuo creará un envío ÚNICO y registros de envío (broadLog) y registros de seguimiento que hacen referencia a que se agrega un envío cada vez que se ejecuta.
 
-![Entrega continua](assets/delivery_continuous.jpg)
+![Envío continuo](assets/delivery_continuous.jpg)
 
 ## Tutorial en vídeo {#continuous-delivery-video}
 
-Este vídeo muestra cómo configurar un envío continua con una consulta incremental.
+Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 
->[!VIDEO](https://video.tv.adobe.com/v/27514?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27514?captions=spa&quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.

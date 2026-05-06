@@ -6,8 +6,8 @@ hide: true
 exl-id: 5ac6bda9-86c8-4200-b285-6fee2a29039d
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1577'
-ht-degree: 97%
+source-wordcount: '1644'
+ht-degree: 93%
 
 ---
 
@@ -98,7 +98,7 @@ _viernes, 28 de octubre de 2021_
 * Se ha corregido un problema que podía provocar que el flujo de trabajo de facturación se bloqueara en las instancias de marketing.
 * Se ha corregido un problema que podía provocar la duplicación de claves en tablas predeterminadas de Snowflake de FDAC. (NEO-38583)
 * Se ha corregido un problema que podía provocar la pérdida de esquemas temporales de flujo de trabajo al editar dos actividades de anulación de duplicación una tras otra. (NEO-34063)
-* Se ha corregido un problema que devolvía resultados incorrectos al ejecutar las funciones Amazon Redshift HoursDiff y MinutesDiff al intentar extraer el componente de tiempo.(NEO-31673)
+* Se ha corregido un problema que devolvía resultados incorrectos al ejecutar las funciones Amazon Redshift HoursDiff y MinutesDiff al intentar extraer el componente de tiempo. (NEO-31673)
 * Se ha corregido un problema que podía impedir que los usuarios iniciaran sesión en la consola debido a un problema de configuración de proxy. (NEO-38388)
 * Se ha corregido un problema de regresión que impedía que la funcionalidad **Purgar carpeta** funcionara correctamente. (NEO-37459)
 * Se ha corregido un problema que podía impedir que previsualizara los envíos móviles adjuntos a un flujo de trabajo.
@@ -116,7 +116,7 @@ _7 de septiembre de 2021_
 
 * Tras finalizar su vida útil, se ha eliminado Flash de todas las funciones y componentes de Campaign relacionados y se ha sustituido por HTML5. Se ha eliminado el tipo de gráfico **Medición**. (NEO-30330) [Más información](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/creating-a-chart.html?lang=es)
 * Al instalar la consola del cliente en Windows, el instalador ahora comprueba si hay un nodo de registro principal y crea uno si falta. Esto evita posibles problemas al iniciar la consola. (NEO-34854)
-* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, exploradores de Internet, etc.) gestionan los caracteres especiales. Los parámetros de URL ahora están codificados.
+* La función de firma de seguimiento se ha mejorado para evitar errores vinculados a la forma en que las herramientas de terceros (clientes de correo electrónico, navegadores de Internet, etc.) tratan los caracteres especiales. Los parámetros de URL ahora están codificados.
 
 **Otros cambios**
 

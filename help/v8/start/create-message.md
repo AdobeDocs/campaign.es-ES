@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 6cf8a929-637e-4e51-9160-5980ca727efb
 source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
 workflow-type: tm+mt
-source-wordcount: '1524'
-ht-degree: 99%
+source-wordcount: '1565'
+ht-degree: 93%
 
 ---
 
@@ -31,7 +31,7 @@ A continuación, puede preparar, probar, enviar y supervisar sus mensajes con Ad
 >
 >Los pasos que se describen a continuación suponen que todos los destinatarios y sus perfiles se almacenan en la base de datos, excepto en el caso de envíos externos. Consulte [Selección de destinatarios externos](#selecting-external-recipients).
 
-## Creación del envío {#create-the-delivery}
+## Creación de la entrega {#create-the-delivery}
 
 Para crear un envío, siga estos pasos:
 
@@ -40,11 +40,11 @@ Para crear un envío, siga estos pasos:
 
    ![](../send/assets/select-the-new-template.png)
 
-   Se proporciona una plantilla integrada para cada canal que tenga instalado: correo electrónico, teléfono, canales de dispositivos móviles (push/SMS), correo directo, X (Twitter), etc. Los canales que se ofrecen en la lista dependen del contrato de licencia.
+   Se proporciona una plantilla integrada para cada canal instalado: correo electrónico, teléfono, canales móviles (push/SMS), correo directo, X (Twitter), etc. Los canales disponibles en la lista dependen del acuerdo de licencia.
 
    Puede crear nuevas plantillas de envío para preconfigurar parámetros específicos que se adapten a sus necesidades.  [Más información](../send/create-templates.md).
 
-1. Introduzca un nombre para el envío en el campo **[!UICONTROL Label]**.
+1. Introduzca un nombre para la entrega en el campo **[!UICONTROL Label]**.
 
    (opcional) También puede asignar un código de envío al envío. El nombre del envío y su código aparecen en la lista de envíos, pero los destinatarios no pueden verlos.
 
@@ -76,7 +76,7 @@ Además, en el contexto de una campaña de marketing, puede añadir lo siguiente
 
 ### Selección de los principales destinatarios de la entrega {#select-the-main-target}
 
-En la mayoría de los casos, el público destinatario principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). No obstante, los destinatarios también se pueden almacenar en un [archivo externo](#selecting-external-recipients). 
+En la mayoría de los casos, el público destinatario principal se extrae de la base de datos de Adobe Campaign (modo predeterminado). No obstante, los destinatarios también se pueden almacenar en un [archivo externo](#selecting-external-recipients).
 
 Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
@@ -98,7 +98,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
    * **[!UICONTROL A list of recipients]**: utilice esta opción para seleccionar una lista de perfiles. Más información sobre listas en [esta sección](../audiences/create-audiences.md).
    * **[!UICONTROL A recipient]**: utilice esta opción para seleccionar un perfil específico en la base de datos.
    * **[!UICONTROL Recipients included in a folder]**: utilice esta opción para seleccionar todos los perfiles contenidos en una carpeta específica.
-   * **[!UICONTROL Recipients of a delivery]**: utilice esta opción para generar el objetivo a partir de los destinatarios de un envío. A continuación, se debe seleccionar el envío en la lista:
+   * **[!UICONTROL Recipients of a delivery]**: utilice esta opción para generar el objetivo a partir de los destinatarios de un envío. A continuación, se debe seleccionar la entrega en la lista:
 
      ![](assets/target-recipient-delivery.png)
 
@@ -114,7 +114,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
      >
      >La opción **[!UICONTROL Include sub-folders]** también permite dirigir los envíos contenidos en carpetas ubicadas en la estructura del árbol debajo del nodo seleccionado.
 
-   * **[!UICONTROL Subscribers of an information service]**: esta opción permite seleccionar un boletín informativo al que se deben suscribir los destinatarios para ser objetivos del envío que se está creando.
+   * **[!UICONTROL Subscribers of an information service]**: esta opción permite seleccionar un boletín informativo al que se deben suscribir los destinatarios para ser objetivos de la entrega que se está creando.
 
      ![](assets/target-service.png)
 
@@ -139,7 +139,7 @@ Puede enviar mensajes a los perfiles que no se hayan guardado en la base de dato
 
    Para obtener más información sobre la importación de los datos, consulte la [documentación de la versión 7 de Campaign Classic](https://experienceleague.adobe.com/es/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-import-jobs#step-2---source-file-selection){target="_blank"}.
 
-1. Haga clic en **[!UICONTROL Finish]** y configure el envío como entrega estándar.
+1. Haga clic en **[!UICONTROL Finish]** y configure la entrega como entrega estándar.
 
 >[!CAUTION]
 >
@@ -162,7 +162,7 @@ Para modificar la configuración predeterminada, haga clic en el vínculo **[!UI
 +++ Consulte las opciones disponibles
 
 * **[!UICONTROL Exclude duplicate addresses during delivery]**: esta opción está activa de forma predeterminada y elimina las direcciones de correo electrónico duplicadas durante el envío. La estrategia aplicada puede variar según la forma en que se utilice Adobe Campaign y el tipo de datos de la base de datos. El valor predeterminado de la opción se puede configurar para cada plantilla de envío.
-* **[!UICONTROL Exclude recipients who no longer want to be contacted]**, es decir, destinatarios cuyas direcciones de correo electrónico estén en una lista de bloqueados (“exclusión”). Esta opción debe permanecer seleccionada para respetar la ética profesional del marketing electrónico.
+* **[!UICONTROL Exclude recipients who no longer want to be contacted]**, es decir, destinatarios cuyas direcciones de correo electrónico estén en una lista de bloqueados (&quot;exclusión&quot;). Esta opción debe permanecer seleccionada para respetar la ética profesional del marketing electrónico.
 * **[!UICONTROL Exclude quarantined recipients]**: esta opción permite excluir del público destinatario cualquier perfil cuya dirección esté en cuarentena. Se recomienda mantener seleccionada esta opción. Obtenga más información sobre los conectores disponibles en [esta sección](../send/quarantines.md).
 * **[!UICONTROL Limit delivery]** a un número determinado de mensajes. Esta opción permite introducir el número máximo de mensajes a enviar. Si el público destinatario supera el número de mensajes indicados, se le aplica una selección aleatoria. Para enviar todos los mensajes, mantenga este valor en “0”.
 * **[!UICONTROL Keep duplicate records (same identifier)]**: esta opción permite autorizar varios envíos a destinatarios que cumplan varios criterios de segmentación.
@@ -171,7 +171,7 @@ Para modificar la configuración predeterminada, haga clic en el vínculo **[!UI
 
 ### Selección de los destinatarios de los mensajes de prueba {#select-the-proof-target}
 
-En el caso de los envíos por correo electrónico, puede enviar pruebas para validar el contenido del mensaje. El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
+En el caso de los envíos por correo electrónico, puede enviar pruebas para validar el contenido del mensaje. El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en diferentes dispositivos.
 
 Una prueba es un mensaje específico que le permite probar un mensaje antes de enviarlo al público principal. Los destinatarios de la prueba se encargan de aprobar el mensaje: procesamiento, contenido, valores de ajuste de personalización, configuración.
 
@@ -182,7 +182,7 @@ Para obtener más información sobre los destinatarios de la prueba y el envío,
 
 En este vídeo aprenderá a añadir semillas y pruebas a un correo electrónico existente y a enviarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3447002?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3447002?captions=spa&quality=12)
 
 Hay disponibles más vídeos de procedimientos para Campaign Classic [aquí](https://experienceleague.adobe.com/docs/campaign-classic-learn/tutorials/overview.html?lang=es).
 
@@ -194,7 +194,7 @@ Para ello:
 
 1. **Analice la entrega**: este paso permite preparar los mensajes que se van a enviar. [Más información](../send/delivery-analysis.md).
 
-1. **Envío de pruebas**: este paso permite controlar el contenido, las direcciones URL, la personalización, etc. [Más información](../send/preview-and-proof.md).
+1. **Enviar pruebas**: este paso permite controlar el contenido, las direcciones URL, la personalización, etc. [Más información](../send/preview-and-proof.md).
 
 >[!IMPORTANT]
 >

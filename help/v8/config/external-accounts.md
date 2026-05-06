@@ -7,8 +7,8 @@ level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
 source-git-commit: fce4f85386c18d0919a85e938d3c1f2cca8d79b9
 workflow-type: tm+mt
-source-wordcount: '1758'
-ht-degree: 5%
+source-wordcount: '2133'
+ht-degree: 8%
 
 ---
 
@@ -105,7 +105,7 @@ Las opciones de configuración de cuenta externa dependen del motor de la base d
 
 Para la interfaz de usuario web de Campaign (v8), consulte:
 
-* [Crear una cuenta externa](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/create-external-account){target="_blank"}
+* [Creación de una cuenta externa](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/create-external-account){target="_blank"}
 * [Cuentas de base de datos externas](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database){target="_blank"}
 
 La página de la interfaz de usuario web de Campaign proporciona una lista más completa de **tipos de proveedores de base de datos externa**, que incluye:
@@ -217,7 +217,7 @@ Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Cam
 
    * **[!UICONTROL AWS Region]**: Obtenga más información sobre las regiones de AWS en [Documentación de Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
 
-   * La casilla de verificación **[!UICONTROL Use server-side encryption]** le permite almacenar el archivo en modo codificado S3. Aprenda a encontrar el ID de clave de acceso y la clave de acceso secreta en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
+   * La casilla de verificación **[!UICONTROL Use server-side encryption]** permite almacenar el archivo en modo cifrado S3. Aprenda a encontrar el ID de clave de acceso y la clave de acceso secreta en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
 * **Almacenamiento de Azure Blob**: la cuenta externa **Azure** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Para configurar la cuenta externa de **Azure** para que funcione con Adobe Campaign, debe proporcionar los siguientes detalles:
 

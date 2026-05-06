@@ -14,7 +14,7 @@ ht-degree: 11%
 
 ---
 
-# Actualización del agregado{#update-aggregate}
+# Actualización de agregado{#update-aggregate}
 
 Los agregados definidos en [cubos](../../v8/reporting/gs-cubes.md) para la generación de informes se pueden actualizar con una actividad específica. Una ficha **[!UICONTROL Workflow]** está disponible al configurar el agregado.
 

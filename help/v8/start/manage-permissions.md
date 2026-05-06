@@ -8,14 +8,14 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 90154f84-b6a7-407c-93b7-9731dc94d9de
 source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 38%
+source-wordcount: '1734'
+ht-degree: 37%
 
 ---
 
 # Administrar permisos de usuario{#manage-permissions}
 
-## Adición de usuarios {#add-users}
+## Añadir usuarios {#add-users}
 
 Como administrador de productos, puede añadir usuarios y conceder acceso a Campaign.
 
@@ -40,7 +40,7 @@ Obtenga más información acerca de la creación de usuarios en Admin Console en
 
 Cuando los usuarios nuevos [inician sesión en Campaign](connect.md) con su Adobe ID, se agregan a la lista de operadores de Campaign en la consola del cliente. Los operadores de campaña se almacenan en la carpeta **[!UICONTROL Administration > Access management > Operators]** del explorador de campañas.
 
-## Trabajo con perfiles de producto{#product-profiles}
+## Trabajar con perfiles de producto{#product-profiles}
 
 Utilice perfiles de producto para otorgar a los usuarios las funciones incluidas en el producto.
 
@@ -107,7 +107,7 @@ Estos perfiles de producto coinciden con los **grupos de operadores** de Campaig
 
    >[!IMPORTANT]
    >
-   >El rol **[!UICONTROL Administrator]** concede acceso al Panel de control de Campaign de campaña. Cualquier perfil de producto de Adobe Admin Console que contenga la palabra &quot;admin&quot; en su nombre (como &quot;Administradores&quot;, &quot;admin&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.) otorgará acceso al Panel de control de Campaign. Más información sobre [administrar el acceso al Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es){target="_blank"}.
+   >El rol **[!UICONTROL Administrator]** concede acceso al Panel de control de Campaign de campaña. Cualquier perfil de producto de Adobe Admin Console que contenga la palabra &quot;admin&quot; en su nombre (como &quot;Administradores&quot;, &quot;admin&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.) concederá acceso al Panel de control de Campaign. Más información sobre [administrar el acceso al Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es){target="_blank"}.
 
 1. **[!UICONTROL Delivery operators]** (envío)
 
@@ -120,7 +120,7 @@ Estos perfiles de producto coinciden con los **grupos de operadores** de Campaig
 
 1. **[!UICONTROL Campaign managers]** (operación)
 
-   Los operadores de este grupo pueden administrar las campañas de marketing: le permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) dentro del marco de trabajo de **[!UICONTROL Campaign]** (módulo opcional de Adobe Campaign).
+   Los operadores de este grupo pueden administrar las campañas de marketing: permite acceder a los objetos vinculados a campañas (planes, programas, flujos de trabajo, presupuestos, etc.) dentro del marco de **[!UICONTROL Campaign]** (módulo Adobe Campaign opcional).
 
    Este grupo contiene los siguientes derechos asignados:
 
@@ -202,7 +202,7 @@ Los derechos asignados predeterminados en Adobe Campaign son:
 
 * **[!UICONTROL ADMINISTRATION]**: Los operadores con el derecho de **[!UICONTROL ADMINISTRATION]** tienen acceso total a la instancia. Los usuarios administradores pueden ejecutar, crear, editar o eliminar cualquier objeto, como flujo de trabajo, envío, secuencias de comandos, etc. **Nota:** Los perfiles de producto de Adobe Admin Console que contienen la palabra &quot;admin&quot; conceden acceso al Panel de control de Campaign de Campaign.
 
-* **[!UICONTROL APPROVAL ADMINISTRATION]**: Puede definir varios pasos de aprobación dentro de flujos de trabajo y envíos para asegurarse de que un operador o grupo asignado ha aprobado el estado actual. Los usuarios con el derecho **[!UICONTROL APPROVAL ADMINISTRATION]** pueden definir los pasos de aprobación y también asignar un operador o grupo de operadores que deben aprobar dichos pasos. **Nota:** Los perfiles de producto que contienen la palabra &quot;admin&quot; (como &quot;administrador de aprobación&quot;) conceden acceso al Panel de control de Campaign de Campaign.
+* **[!UICONTROL APPROVAL ADMINISTRATION]**: Puede definir varios pasos de aprobación dentro de flujos de trabajo y envíos para asegurarse de que un operador o grupo asignado ha aprobado el estado actual. Los usuarios con el derecho de **[!UICONTROL APPROVAL ADMINISTRATION]** pueden definir los pasos de aprobación y también asignar un operador o grupo de operadores que deben aprobar dichos pasos. **Nota:** Los perfiles de producto que contienen la palabra &quot;admin&quot; (como &quot;administrador de aprobación&quot;) conceden acceso al Panel de control de Campaign de Campaign.
 
 * **[!UICONTROL CENTRAL]**: derecho para la administración central (Marketing distribuido).
 
@@ -212,7 +212,7 @@ Los derechos asignados predeterminados en Adobe Campaign son:
 
 * **[!UICONTROL EXPORT]**: Los usuarios pueden exportar datos de sus instancias de Adobe Campaign a un archivo del servidor o del equipo local mediante la actividad de flujo de trabajo **[!UICONTROL EXPORT]**.
 
-* **[!UICONTROL FILES ACCESS]**: Derecho de lectura y escritura de archivos mediante una secuencia de comandos que se puede escribir en la actividad de flujo de trabajo **[!UICONTROL JavaScript]** para leer y escribir archivos en un servidor. 
+* **[!UICONTROL FILES ACCESS]**: Derecho de lectura y escritura de archivos mediante una secuencia de comandos que se puede escribir en la actividad de flujo de trabajo **[!UICONTROL JavaScript]** para leer y escribir archivos en un servidor.
 
 * **[!UICONTROL IMPORT]**: derecho para importar datos genéricos. **[!UICONTROL IMPORT]** permite importar datos en cualquier otra tabla, mientras que el derecho de **[!UICONTROL RECIPIENT IMPORT]** permite importarlos únicamente en la tabla de destinatarios.
 

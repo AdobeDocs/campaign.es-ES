@@ -7,8 +7,8 @@ level: Experienced
 exl-id: ae1ef010-24d5-4be4-a30c-899e2b0040a4
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 79%
+source-wordcount: '151'
+ht-degree: 47%
 
 ---
 
@@ -43,29 +43,29 @@ Starting Campaign v8.6, the authentication process to Campaign v8 is being impro
     <td>
       <img src="../v8/assets/do-not-localize/icon-start.svg" width="35px">
     <br/>
-      <strong>Introducción a</strong><br/><a href="../v8/start/campaign-ui.md">la interfaz de usuario</a> - <a href="../v8/start/ac-components.md">Componentes y procesos</a> - <a href="../v8/start/v7-to-v8.md">De la versión 7 a la 8 de Classic</a> - <a href="../v8/start/campaign-faq.md">Preguntas frecuentes</a>
+      <strong>Introducción</strong><br/><a href="../v8/start/campaign-ui.md">Interfaz de usuario</a> - <a href="../v8/start/ac-components.md">Componentes y procesos</a> - <a href="../v8/start/v7-to-v8.md">De la versión 7 a la 8 clásica</a> - <a href="../v8/start/campaign-faq.md">Preguntas frecuentes</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-experience.svg" width="35px">
     <br/>
-      <strong>Experiencia del cliente</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automatización con flujos de trabajo</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Orquestación de campañas</a> - <a href="../v8/interaction/interaction.md">Gestión de decisiones</a> - <a href="../v8/send/personalize.md">Personalización</a>
+      <strong>Experiencia del cliente</strong><br/><a href="../automation/workflow/about-workflows.md" target="_blank">Automatización con flujos de trabajo</a> - <a href="../automation/campaigns/set-up-campaigns.md" target="_blank">Organización de la campaña</a> - <a href="../v8/interaction/interaction.md">Administración de decisiones</a> - <a href="../v8/send/personalize.md">Personalization</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-send.svg" width="35px">
     <br/>
-      <strong>Envío de mensajes</strong><br/><a href="../v8/start/create-message.md">Introducción</a> - <a href="../v8/send/preview-and-proof.md">Previsualización y pruebas</a> - <a href="../v8/send/predictive.md">Optimización del tiempo de envío</a> - <a href="../v8/reporting/gs-reporting.md">Creación de informes y análisis</a>
+      <strong>Enviar mensajes</strong><br/><a href="../v8/start/create-message.md">Introducción</a> - <a href="../v8/send/preview-and-proof.md">Vista previa y pruebas</a> - <a href="../v8/send/predictive.md">Optimización del tiempo de envío</a> - <a href="../v8/reporting/gs-reporting.md">Informes y análisis</a>
     </td>
   </tr>
   <tr style="border: 0;">
     <td>
       <img src="../v8/assets/do-not-localize/icon_profile-audience.svg" width="35px">
     <br/>
-      <strong>Perfiles y públicos</strong><br/><a href="../v8/audiences/create-profiles.md">Adición de perfiles</a> - <a href="../v8/audiences/create-audiences.md">Creación de públicos</a> - <a href="../v8/start/subscriptions.md">Administración de suscripciones</a> - <a href="../v8/start/privacy.md">Privacidad</a>
+      <strong>Perfiles y audiencias</strong><br/><a href="../v8/audiences/create-profiles.md">Agregar perfiles</a> - <a href="../v8/audiences/create-audiences.md">Crear audiencias</a> - <a href="../v8/start/subscriptions.md">Administrar suscripciones</a> - <a href="../v8/start/privacy.md">Privacidad</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-configure.svg" width="35px">
     <br/>
-      <strong>Arquitectura y configuración</strong><br/><a href="../v8/architecture/architecture.md">Arquitectura</a> - <a href="../v8/start/implement.md">Implementación de Campaign v8</a> - <a href="../v8/connect/integration.md">Conexión con otras soluciones</a> - <a href="../v8/start/gs-permissions.md">Usuarios y permisos</a>
+      <strong>Arquitectura y configuración</strong><br/><a href="../v8/architecture/architecture.md">Arquitectura</a> - <a href="../v8/start/implement.md">Implementación de Campaign v8</a> - <a href="../v8/connect/integration.md">Conectar con otras soluciones</a> - <a href="../v8/start/gs-permissions.md">Usuarios y permisos</a>
     </td>
     <td>
       <img src="../v8/assets/do-not-localize/icon-dev.svg" width="35px">

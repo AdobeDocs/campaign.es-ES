@@ -4,8 +4,8 @@ description: Obtenga información sobre cómo migrar operadores de Campaign a Ad
 exl-id: 58c130d8-8ba8-42ce-9ab4-a697125d3f85
 source-git-commit: ec506653830f4d02d0875a4f26ff4ee76f880272
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 1%
+source-wordcount: '1469'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ La migración a [Adobe Identity Management System (IMS)](https://helpx.adobe.com
 >
 >**Impacto del acceso al Panel de control de Campaign**
 >
->Una vez que migre a los usuarios a IMS, tenga en cuenta que cualquier Perfil de producto de Adobe Admin Console que contenga la palabra &quot;admin&quot; en su nombre (como &quot;Administradores&quot;, &quot;admin&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.) concederá automáticamente acceso al Panel de control de Campaign de Campaign. Panel de control de Campaign es una herramienta de autoservicio que permite realizar cambios significativos en las instancias de Campaign.
+>Una vez migrados los usuarios a IMS, tenga en cuenta que cualquier Perfil de producto de Adobe Admin Console que contenga la palabra &quot;admin&quot; en su nombre (como &quot;Administradores&quot;, &quot;admin&quot;, &quot;administradores&quot;, &quot;administrador de aprobación&quot;, etc.) concederá automáticamente acceso al Panel de control de Campaign de Campaign. Panel de control de Campaign es una herramienta de autoservicio que permite realizar cambios significativos en las instancias de Campaign.
 >
 >Revise atentamente las convenciones de nomenclatura de Perfil de producto para asegurarse de que solo los usuarios autorizados tengan acceso al Panel de control de Campaign. Obtenga más información acerca de la administración de permisos de Panel de control de Campaign en la [documentación de Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=es){target="_blank"}.
 
@@ -178,4 +178,4 @@ Ahora puede ver la lista de sus **Operadores** y su **Tipo de autenticación**.
 * [Cómo conectarse a Adobe Campaign v8](../../v8/start/connect.md)
 * [Acceso y permisos en Adobe Campaign v8](../../v8/start/gs-permissions.md)
 * [Notas de la versión de Adobe Campaign v8](../../v8/start/release-notes.md)
-* [Qué es Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}
+* [¿Qué es Adobe Identity Management System (IMS)?](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}

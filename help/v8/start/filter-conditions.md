@@ -5,13 +5,13 @@ feature: Query Editor
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 3a521f7006ca833af96f1ef5d5b369c2c0568635
+exl-id: 18e49a15-dbb5-42d6-9379-367e769f319a
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '3323'
-ht-degree: 98%
+source-wordcount: '3344'
+ht-degree: 99%
 
 ---
-
 
 # Definición de condiciones de filtro{#filter-conditions}
 
@@ -317,7 +317,7 @@ Siga estos pasos:
 
    Hay varios tipos de fórmulas disponibles: **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
 
-   Seleccione **[!UICONTROL Process on an aggregate function]** y **[!UICONTROL Count]**. Haga clic en **[!UICONTROL Next]**.
+   Seleccione **[!UICONTROL Process on an aggregate function]** y **[!UICONTROL Count]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_54.png)
 

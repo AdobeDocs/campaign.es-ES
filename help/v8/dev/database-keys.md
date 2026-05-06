@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: cf1f5cfc-172f-44ec-ac97-804d15f9d628
 source-git-commit: 0f5efba364ef924447324bdd806e15e6db8d799d
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '271'
 ht-degree: 1%
 
 ---
@@ -110,7 +110,7 @@ Una clave puede hacer referencia a uno o varios campos de la tabla.
 
 En el contexto de una implementación [empresarial (FDAC)](../architecture/enterprise-deployment.md), la clave principal de las tablas de Adobe Campaign es un **identificador único universal (UUID)** generado automáticamente por el motor de base de datos. El valor clave es único en toda la base de datos. El contenido de la clave se genera automáticamente al insertar el registro.
 
-**Por ejemplo**
+**Ejemplo**
 
 En el ejemplo siguiente, declaramos una clave incremental en el esquema de origen:
 

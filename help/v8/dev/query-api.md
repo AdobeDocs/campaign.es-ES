@@ -8,8 +8,8 @@ hide: true
 exl-id: c2862f94-7d15-4a49-a74e-df90d0ea7bc9
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 1%
+source-wordcount: '1421'
+ht-degree: 3%
 
 ---
 
@@ -899,7 +899,7 @@ Estructura completa del objeto `queryDef`:
 ## Temas relacionados {#related-topics}
 
 * [Introducción a las API de Campaign](api.md)
-* [SDK de Campaign JavaScript - API de consultas](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
+* [SDK de Campaign JavaScript: API de consulta](https://opensource.adobe.com/acc-js-sdk/xtkQueryDef.html){target="_blank"}
 * [Referencia de API queryDef](https://experienceleague.adobe.com/developer/campaign-api/api/s-xtk-queryDef.html?lang=es){target="_blank"}
 * [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}
 * [Trabajo con esquemas](schemas.md)

@@ -7,8 +7,8 @@ level: Intermediate
 exl-id: eda6934a-e48a-4932-8c88-588f661005d6
 source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
 workflow-type: tm+mt
-source-wordcount: '4437'
-ht-degree: 16%
+source-wordcount: '4458'
+ht-degree: 17%
 
 ---
 
@@ -68,7 +68,7 @@ Realice una prueba que cargue la conexión al 100 % durante al menos 5 segundos.
 
 El número mínimo de mensajes que se van a enviar se puede calcular de esta manera:
 
-*Rendimiento máximo de MT * Número total de conexiones de transmisores/transceptores * 5*
+*Rendimiento máximo de MT* Número total de conexiones de transmisores/transceptores * 5*
 
 Una vez finalizada la entrega, compruebe lo siguiente:
 
@@ -160,7 +160,7 @@ Para aislar la cuenta externa que causa problemas:
 1. Deshabilitar todas las cuentas externas
 1. Habilitar una cuenta externa
 1. Intente reproducir el problema
-1. Si el problema no aparece con esa sola cuenta, desactívela y vuelva a empezar en el paso 2 de la siguiente cuenta. Una vez que ha comprobado cada cuenta individualmente, existen dos escenarios posibles:
+1. Si el problema no aparece con esa única cuenta, desactívela y vuelva a empezar en el paso 2 de la cuenta siguiente. Una vez que ha comprobado cada cuenta individualmente, existen dos escenarios posibles:
 
 **El problema apareció en una o varias cuentas**
 
@@ -236,7 +236,7 @@ Una conexión se considera inestable si ocurre alguna de estas cosas:
 * Compruebe que la conexión sea estable: una conexión SMPP debe permanecer activa durante al menos 1 hora de forma continua. Consulte la sección &quot;Problema con conexiones inestables&quot; anterior.
 * Si al reiniciar el proceso de SMS hace que el envío de MT vuelva a funcionar por un período de tiempo corto, es probable que tenga un estrangulamiento debido a una conexión inestable. Consulte la sección &quot;Problema con conexiones inestables&quot; anterior.
 * Compruebe que el registro general está presente y en el estado correcto con las fechas correctas. Si no es así, no se trata de un problema de SMS, sino de un problema de envío o de preparación de envíos (que está fuera del ámbito de este documento).
-* Compruebe que el conector SMS está vinculado con el equipo del proveedor. Pídale información al proveedor para asegurarse de que todos los sistemas se comunican correctamente. Consulte PDU BIND_TRANSMITTER y BIND_TRANSCEIVER para obtener información sobre el proceso de enlace. Es posible que deba habilitar los seguimientos del SMPP para la correcta resolución de problemas.
+* Compruebe que el conector SMS está vinculado con el equipo del proveedor. Pídale comentarios al proveedor para asegurarse de que todos los sistemas se comunican correctamente. Consulte PDU BIND_TRANSMITTER y BIND_TRANSCEIVER para obtener información sobre el proceso de enlace. Es posible que deba habilitar los seguimientos del SMPP para la correcta resolución de problemas.
 * Con los seguimientos del SMPP activados, compruebe que la PDU SUBMIT_SM contenga la información correcta (consulte la documentación anterior).
 * Compruebe que el proveedor responde con una PDU SUBMIT_SM_RESP con un valor &quot;OK&quot; (código 0). Asegúrese de que la PDU llega con un retraso razonable: cualquier valor superior a 1 segundo es sospechoso y debe ser consultado con el proveedor, normalmente llega en menos de 100 ms.
 * Si todos estos pasos funcionan, puede estar seguro de que el problema está en el lado del proveedor. Tendrán que resolver problemas en su plataforma.
@@ -256,7 +256,7 @@ Mitigación de la cantidad de duplicados cuando hay un reintento:
 
 #### Problema al procesar SR (recibos de entrega)
 
-* Necesitará los seguimientos del SMPP activados para realizar cualquier tipo de resolución de problemas de SR.
+* Necesitará los seguimientos del SMPP habilitados para realizar cualquier tipo de resolución de problemas de SR.
 * Compruebe que la PDU DELIVER_SM proviene del proveedor y que está bien formada.
 * Compruebe que Campaign responde con una PDU DELIVER_SM_RESP correcta de manera oportuna. Esto garantiza que el SR se ha insertado en la tabla providerMsgStatus para que el proceso SMS lo procese de forma diferida.
 

@@ -63,7 +63,7 @@ Así, el resultado de la agregación se vincula a todos los destinatarios.
 
 Una vez establecido el vínculo, el resultado del agregado y los destinatarios forman parte del mismo esquema temporal. Por lo tanto, es posible crear un filtro en el esquema para comparar la fecha de creación de los destinatarios y la última fecha de creación conocida, representada mediante la función de agregación. Este filtro se lleva a cabo mediante una actividad de división.
 
-1. En la pestaña **[!UICONTROL General]**, seleccione **Recipients** como entorno de segmentación y **Edit schema** como entorno de filtrado (para filtrar en la actividad de esquema de transición entrante).
+1. En la pestaña **[!UICONTROL General]**, seleccione **Recipients** como dimensión de segmentación y **Edit schema** como dimensión de filtrado (para filtrar en la actividad de esquema de transición entrante).
 1. En la pestaña **[!UICONTROL subsets]**, seleccione **[!UICONTROL Add a filtering condition on the inbound population]** y haga clic en **[!UICONTROL Edit...]**.
 1. Mediante el editor de expresiones, agregue un criterio de igualdad entre la fecha de creación de los destinatarios y la fecha de creación calculada mediante el agregado.
 

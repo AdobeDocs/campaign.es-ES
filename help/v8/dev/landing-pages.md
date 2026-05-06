@@ -1,14 +1,14 @@
 ---
 title: Creación de páginas de aterrizaje con Adobe Campaign
-description: Introducción a las páginas de aterrizaje
+description: Introducción a las páginas de destino
 feature: Landing Pages
 role: User, Developer
 level: Beginner
 exl-id: ad639a39-f011-4f0f-9db6-d06078f2e7a2
 source-git-commit: 465d5d4ba10596ad2c3ced1fe621a93327fc48ab
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 7%
+source-wordcount: '376'
+ht-degree: 13%
 
 ---
 
@@ -20,7 +20,7 @@ Para crear páginas de aterrizaje, vaya a la [interfaz de usuario web](../start/
 
 >[!AVAILABILITY]
 >
->* La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Más información sobre [Adobe Identity Management System (IMS)](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+>* La interfaz de usuario web de Campaign solo está disponible para los usuarios que se conectan a Adobe Campaign con su Adobe ID. Obtenga más información sobre el [sistema de administración de identidades (IMS) de Adobe](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 >
 >* Las páginas de destino que cree en la interfaz de usuario web de Campaign no se pueden mostrar ni editar en la consola del cliente de Campaign.
 >
@@ -43,7 +43,7 @@ También puede examinar las secciones siguientes:
 <a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/create-lp">
 <img alt="Posible cliente" src="assets/do-not-localize/lp-subscription.jpeg">
 </a>
-<div><a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/create-lp"><strong>Creación de páginas de aterrizaje</strong>
+<div><a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/create-lp"><strong>Creación de páginas de destino</strong>
 </div>
 <p>
 </td>
@@ -52,16 +52,16 @@ También puede examinar las secciones siguientes:
 <img alt="Validación" src="assets/do-not-localize//lp-design.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/lp-content"><strong>Páginas de aterrizaje de diseño</strong></a>
+<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/lp-content"><strong>Páginas de destino de diseño</strong></a>
 </div>
 <p>
 </td>
 <td>
-<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/lp-templates">
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates">
 <img alt="Validación" src="assets/do-not-localize/lp-reporting.jpg">
 </a>
 <div>
-<a href="https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Trabajar con plantillas de página de aterrizaje</strong></a>
+<a href="https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/lp-templates"><strong>Trabajar con plantillas de página de aterrizaje</strong></a>
 </div>
 <p>
 </td>

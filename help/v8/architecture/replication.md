@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: 7b145193-d4ae-47d0-b694-398c1e35eee4
 source-git-commit: b8f774ce507cff67163064b6bd1341b31512c08f
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '831'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ Si es necesario, puede iniciar la sincronización de datos manualmente. Para ell
 
 Además del flujo de trabajo técnico integrado **Replicar tablas de referencia**, puede forzar la replicación de datos en los flujos de trabajo mediante uno de estos métodos
 
-+++Cómo forzar la replicación de datos
++++Forzar la replicación de datos
 
 * Agregue una actividad **Javascript code** específica con el siguiente código:
 
@@ -115,6 +115,6 @@ Cada cola se administra mediante un flujo de trabajo técnico, que administra la
 
 Este vídeo presenta los conceptos clave de las bases de datos que utiliza Adobe Campaign v8, por qué se replican los datos, qué datos se replican y cómo funciona el proceso de replicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416864?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3416864?captions=spa&quality=12)
 
 Hay disponibles [tutoriales adicionales de la consola del cliente de Campaign v8 aquí](https://experienceleague.adobe.com/es/docs/campaign-learn/tutorials/overview).

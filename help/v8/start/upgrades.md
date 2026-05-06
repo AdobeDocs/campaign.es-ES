@@ -7,14 +7,14 @@ level: Beginner
 exl-id: 04bda36f-051f-41a3-84b3-6af3c5e34ab2
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 21%
+source-wordcount: '806'
+ht-degree: 30%
 
 ---
 
 # Versiones y actualizaciones {#upgrades}
 
-Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Adobe recomienda encarecidamente a todos sus clientes que actualicen a la versión más reciente. 
+Adobe Campaign se actualiza periódicamente. Esta frecuencia regular de actualizaciones tiene como objetivo ofrecerle lo más novedoso y lo mejor, mantener el entorno seguro y mejorar su experiencia con nuestro producto. Adobe recomienda encarecidamente a todos sus clientes que actualicen a la versión más reciente.
 
 Como usuario de Cloud Services administrados, su instancia se actualiza en Adobe con cada nueva versión. Su representante de Adobe se pondrá en contacto con usted para actualizar sus entornos. La consola cliente de Campaign **debe actualizarse a la misma versión** como servidores de Campaign. Obtenga información sobre cómo actualizar la consola del cliente en [esta página](../start/connect.md#upgrade-ac-console).
 
@@ -77,7 +77,7 @@ Normalmente, la actualización a la versión más reciente trae consigo:
 
 * Compatibilidad mejorada
 
-  La mayoría de los problemas más graves se resuelven con las actualizaciones y se pueden evitar. Las actualizaciones regulares ayudan a reducir los desafíos y aumentar la eficiencia al eliminarlos. El volumen del Servicio de atención al cliente se reduce, lo que permite una resolución más rápida y una mayor atención a los problemas que no están relacionados con las actualizaciones.
+  La mayoría de los problemas más graves se pueden evitar y se resuelven con las actualizaciones. Las actualizaciones regulares ayudan a reducir los desafíos y aumentar la eficiencia al eliminarlos. El volumen del Servicio de atención al cliente se reduce, lo que permite una resolución más rápida y una mayor atención a los problemas que no están relacionados con las actualizaciones.
 
 
 * Mantenimiento y estabilidad mejorados

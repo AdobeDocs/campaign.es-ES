@@ -6,7 +6,7 @@ feature: Fatigue Management, Typology Rules
 exl-id: d234db0e-936a-48db-b697-11c6b40bc3ab
 source-git-commit: 8272550faefece753636418bcb748b36f989fcb5
 workflow-type: tm+mt
-source-wordcount: '3126'
+source-wordcount: '3145'
 ht-degree: 94%
 
 ---
@@ -20,7 +20,7 @@ Las reglas de **presión** para administrar la fatiga de marketing pueden consis
 Las campañas se seleccionan según los umbrales definidos y el peso del mensaje.
 
 * Un umbral es la cantidad más alta de envíos autorizados para un destinatario determinado durante un periodo determinado. Puede ser fijo o variable. Se define o calcula en la configuración de reglas de tipología. [Más información](#maximum-number-of-messages).
-* El peso del envío le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso son prioritarios. [Más información](#message-weight).
+* El peso del envío le permite identificar las entregas de mayor prioridad dentro del marco de la gestión de presión. Los mensajes con mayor peso tienen prioridad. [Más información](#message-weight).
 
 La mediación consiste en asegurarse de que las campañas programadas cuyo peso sea mayor que la campaña en curso no saturen los perfiles: si este es el caso, el perfil se excluye de la entrega.
 
@@ -211,7 +211,7 @@ Si este número supera el umbral, se aplican las reglas de mediación definidas 
 
 ### Adaptación del umbral según el criterio {#adapt-the-threshold-based-on-criterion}
 
-Queremos crear una regla de tipología para evitar la entrega de más de cuatro mensajes por semana a los clientes y de más de dos mensajes por semana a los posibles clientes.
+Queremos crear una regla de tipología para evitar la entrega de más de cuatro mensajes por semana a los clientes y de más de dos mensajes por semana a los clientes potenciales.
 
 Para identificar clientes y clientes potenciales, utilice el campo **[!UICONTROL Status]**, que contiene 0 para los clientes potenciales y 1 para los clientes.
 
@@ -314,7 +314,7 @@ Para ello, debe programar varios envíos con diferentes pesos para el mismo dest
 Primero, configure la regla de presión.
 
 1. Cree una regla de presión. [Más información](#create-a-pressure-rule).
-1. En la pestaña **[!UICONTROL General]** , seleccione la opción **[!UICONTROL Re-apply the rule at the start of personalization]** . 
+1. En la pestaña **[!UICONTROL General]** , seleccione la opción **[!UICONTROL Re-apply the rule at the start of personalization]** .
 
    ![](assets/campaign_opt_pressure_example_5.png)
 

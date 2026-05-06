@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '540'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/uc_enrichment_4.png)
 
-1. Haga clic **[!UICONTROL Finish]**. A continuación, en la pestaña **[!UICONTROL General]** de su actividad **[!UICONTROL Split]**, haga clic en **[!UICONTROL Generate complement]** en la categoría **[!UICONTROL Results]**.
+1. Haga clic en **[!UICONTROL Finish]**. A continuación, en la pestaña **[!UICONTROL General]** de su actividad **[!UICONTROL Split]**, haga clic en **[!UICONTROL Generate complement]** en la categoría **[!UICONTROL Results]**.
 
    Con el resultado **[!UICONTROL Complement]**, puede añadir una actividad de envío o actualizar una lista. Aquí, agregamos una actividad **[!UICONTROL End]**.
 
@@ -76,13 +76,13 @@ Ahora necesita configurar su actividad **[!UICONTROL Enrichment]**:
 
    ![](assets/uc_enrichment_11.png)
 
-1. A continuación, para crear el campo de fecha personalizado **Fecha de fin de validez**, que abarca la semana después del cumpleaños, se debe agregar la **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
+1. A continuación, para crear el campo de fecha personalizado **Validity end date**, que abarca la semana después del cumpleaños, se debe añadir la **[!UICONTROL Expression]**: `AddDays([target/@birthDate], 7)`.
 
    Se puede añadir una etiqueta a la expresión.
 
    ![](assets/uc_enrichment_12.png)
 
-1. Haga clic **[!UICONTROL Ok]**. El enriquecimiento está listo.
+1. Haga clic en **[!UICONTROL Ok]**. El enriquecimiento está listo.
 
 Después de la actividad de **[!UICONTROL Enrichment]** puede agregar una entrega. En este caso, agregamos una entrega por correo electrónico para enviar a los destinatarios una oferta especial con fechas de validez para los clientes que celebran su cumpleaños ese mes.
 
@@ -109,7 +109,7 @@ Ahora puede empezar a diseñar su envío por correo electrónico con los campos 
            formatDate(targetData.alias of your expression,"%2D.%2M")  %>
    ```
 
-1. Haga clic en ![](assets/uc_enrichment_16.png). Seleccione **[!UICONTROL Target extension]** y luego las fechas de validez personalizadas creadas anteriormente con la actividad **[!UICONTROL Enrichment]** para agregar la extensión a la expresión formatDate.
+1. Haga clic ![](assets/uc_enrichment_16.png). Seleccione **[!UICONTROL Target extension]** y luego las fechas de validez personalizadas creadas anteriormente con la actividad **[!UICONTROL Enrichment]** para agregar la extensión a la expresión formatDate.
 
    ![](assets/uc_enrichment_19.png)
 

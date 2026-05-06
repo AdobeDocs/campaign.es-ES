@@ -6,7 +6,7 @@ role: Developer
 exl-id: ad8e9f9c-df24-4a11-b8df-4b31dd54911f
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '3025'
+source-wordcount: '3090'
 ht-degree: 93%
 
 ---
@@ -356,7 +356,7 @@ Este informe se basa en las tablas **[!UICONTROL Delivery]** (nms:delivery), **[
    <td> Nuevos contactos<br /> </td> 
    <td> @newContacts<br /> </td> 
    <td> Recuento de los visitantes vinculados a un destinatario.<br /> </td> 
-   <td> Fórmula: count(@id)<br /> Filter: @Recipi-id != 0<br /> </td> 
+   <td> Fórmula: count(@id)<br /> Filtro: @recipient-id != 0<br /> </td> 
   </tr> 
   <tr> 
    <td> Aperturas<br /> </td> 

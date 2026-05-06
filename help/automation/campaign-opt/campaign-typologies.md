@@ -6,7 +6,7 @@ feature: Typology Rules
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 source-git-commit: 50688c051b9d8de2b642384963ac1c685c0c33ee
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 41%
 
 ---
@@ -79,11 +79,11 @@ En [esta página](pressure-rules.md#use-cases-on-pressure-rules) se encuentran d
 
 En este vídeo se explica cómo implementar la administración de la fatiga en Adobe Campaign mediante reglas de tipología.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448334?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3448334?captions=spa&quality=12)
 
 ### Configuración de la administración de la fatiga mediante filtros predefinidos
 
 La administración de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de la campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población objetivo por el número de mensajes recibidos
 En este vídeo se explica cómo implementar la administración de la fatiga en Adobe Campaign mediante filtros.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444603?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3444603?captions=spa&quality=12)

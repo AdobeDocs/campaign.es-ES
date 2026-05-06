@@ -8,8 +8,8 @@ exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 94%
+source-wordcount: '1621'
+ht-degree: 91%
 
 ---
 
@@ -76,7 +76,7 @@ Si no hay un módulo opcional instalado en la plataforma, este paso no se muestr
 
 Para agregar datos de la base de datos de Adobe Campaign:
 
-1. Seleccione el tipo de datos que desea añadir. Pueden ser datos de la dimensión o datos almacenados en tablas enlazadas.
+1. Seleccione el tipo de datos que desea agregar. Pueden ser datos que pertenezcan a la dimensión de filtrado o datos almacenados en tablas vinculadas.
 
    ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
@@ -147,7 +147,7 @@ En el siguiente ejemplo, la consulta busca identificar hombres de entre 18 y 30 
    ![](assets/query_example_preview.png){width="70%" align="center" zoomable="yes"}
 
 1. Guarde los filtros de manera que pueda utilizarlos de nuevo en una fecha posterior haciendo clic en **[!UICONTROL Finish]** > **[!UICONTROL OK]**.
-1. Siga editando el flujo de trabajo añadiendo otras actividades. Una vez que se haya iniciado y haya finalizado el paso anterior, se mostrará el número de destinatarios encontrados. Puede ver más detalles con el menú emergente del ratón (haga clic con el botón derecho en la transición > **[!UICONTROL Display the target...]**).
+1. Siga editando el flujo de trabajo añadiendo otras actividades. Una vez que se haya iniciado y haya finalizado el paso de consulta anterior, se mostrará el número de destinatarios encontrados. Puede ver más detalles con el menú emergente del ratón (haga clic con el botón derecho en la transición > **[!UICONTROL Display the target...]**).
 
    ![](assets/query_example_result.png){width="70%" align="center" zoomable="yes"}
 

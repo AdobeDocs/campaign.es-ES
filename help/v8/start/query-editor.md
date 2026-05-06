@@ -5,22 +5,23 @@ feature: Query Editor, Data Management
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 56d5628312ea3dedf9335dd0933811e4bf66eb97
+exl-id: 071274f1-7c60-445d-ac07-f5f4f229a489
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 5%
+ht-degree: 81%
 
 ---
 
 # Base de datos de Query Campaign
 
-La herramienta de consulta está disponible en varios niveles de la aplicación y se puede utilizar para definir poblaciones objetivo, segmentar clientes, extraer y filtrar registros de seguimiento, crear filtros, etc.
+La herramienta de consulta está disponible en varios niveles de la aplicación y se puede utilizar para definir las poblaciones de público destinatario, segmentar clientes, extraer y filtrar registros de seguimiento, crear filtros, etc.
 
-Proporciona un asistente dedicado (el editor de consultas genérico) accesible desde el menú **[!UICONTROL Tools > Generic query editor...]**. Este editor permite a las consultas de base de datos extraer, organizar, agrupar y ordenar información. Por ejemplo, puede recuperar los destinatarios que hicieron clic más de n veces en un vínculo del boletín durante un periodo determinado.
+Proporciona un asistente dedicado (el editor de consultas genérico) accesible desde el menú **[!UICONTROL Tools > Generic query editor...]**. Este editor permite que las consultas de base de datos extraigan, organicen, agrupen y ordenen la información. Por ejemplo, puede recuperar los destinatarios que hicieron clic más de n veces en un vínculo de Newsletter durante un periodo determinado.
 
-El editor de consultas genérico centraliza todas las funcionalidades de consulta. Permite la creación y el almacenamiento de filtros de restricción, que luego se pueden reutilizar en otros contextos, como el cuadro de consulta de un flujo de trabajo de objetivos.
+El editor de consultas genérico centraliza todas las funcionalidades de consulta. Permite crear y almacenar filtros de restricción, que luego se pueden reutilizar en otros contextos, como el cuadro de consulta de un flujo de trabajo de segmentación.
 
-![Acceda al editor de consultas y seleccione una tabla](assets/query_editor_nveau_21.png)
+![Acceso al editor de consultas y selección de una tabla](assets/query_editor_nveau_21.png)
 
 
 Los pasos para crear una consulta se detallan [en esta página](design-queries.md).

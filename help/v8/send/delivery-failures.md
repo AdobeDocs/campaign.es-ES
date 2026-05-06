@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 9c83ebeb-e923-4d09-9d95-0e86e0b80dcc
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '3410'
-ht-degree: 58%
+source-wordcount: '3442'
+ht-degree: 55%
 
 ---
 
@@ -203,7 +203,7 @@ Para el canal de correo electrónico, a continuación se enumeran los posibles m
    <td> Buzón de correo lleno </td> 
    <td> Leve </td> 
    <td> 5 </td> 
-   <td> El buzón de este usuario está lleno y no puede aceptar más mensajes. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento.<br /> Este tipo de error se administra mediante un proceso de limpieza; la dirección se establece en un estado válido después de 30 días.<br /> Advertencia: para que la dirección se elimine automáticamente de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico para limpieza de bases de datos.<br /> </td> 
+   <td> El buzón de este usuario está lleno y no puede aceptar más mensajes. Este perfil se vuelve a seleccionar hasta que el recuento de errores llegue a 5. Después de esto, el registro se pone en estado de cuarentena y no se realiza ningún reintento.<br /> Este tipo de error se administra mediante un proceso de limpieza; la dirección se establece en un estado válido después de 30 días.<br /> Advertencia: para que la dirección se quite automáticamente de la lista de direcciones en cuarentena, debe iniciarse el flujo de trabajo técnico para limpieza de bases de datos.<br /> </td> 
   </tr> 
   <tr> 
    <td> Sin conexión </td> 
@@ -245,7 +245,7 @@ Para el canal de correo electrónico, a continuación se enumeran los posibles m
    <td> Inaccesible </td> 
    <td> Leve/Grave </td> 
    <td> 3 </td> 
-   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio que está temporalmente inaccesible, etc. Según el error, se volverá a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se enviará directamente a cuarentena.<br /> </td> 
+   <td> Se ha producido un error en la cadena de entrega de mensajes. Podría ser un incidente en la retransmisión SMTP, un dominio al que no se puede acceder temporalmente, etc. Según el error, se volverá a intentar enviar un correo a la dirección hasta que el contador de errores alcance 5 o se enviará directamente a cuarentena.<br /> </td> 
   </tr> 
   <tr> 
    <td> Usuario desconocido </td> 
@@ -321,7 +321,7 @@ Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Problema de certificado (contraseña, corrupción, etc.) y conexión de prueba a un problema de APNS<br /> </td> 
+   <td> Problema de certificado (contraseña, corrupción, etc.) y probar la conexión al problema de APNS<br /> </td> 
    <td> Fallo<br /> </td> 
    <td> Varios mensajes de error según el error<br /> </td> 
    <td> Leve<br /> </td> 
@@ -400,7 +400,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
   <tr> 
    <td> Fase de creación/análisis de mensaje: palabras clave no válidas utilizadas en los campos personalizados<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> Las siguientes palabras clave no se pueden utilizar: {1}<br /> </td> 
+   <td> No se pueden usar las siguientes palabras clave: {1}<br /> </td> 
    <td> Leve<br /> </td> 
    <td> </td> 
    <td> No<br /> </td> 
@@ -408,7 +408,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
   <tr> 
    <td> Fase de creación/análisis de mensaje: carga útil demasiado grande<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> La notificación es demasiado pesada: {1} bits, mientras que solo se autorizan {2}<br />. </td> 
+   <td> La notificación es demasiado pesada: {1} bits, mientras que solo {2} están autorizados<br /> </td> 
    <td> Leve<br /> </td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -456,7 +456,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
   <tr> 
    <td> Rechazo de mensaje FCM: Todos los demás errores<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> El servidor Firebase Cloud Messaging ha devuelto un código de error inesperado: {1} </td> 
+   <td> El servidor de Firebase Cloud Messaging devolvió un código de error inesperado: {1} </td> 
    <td> </td> 
    <td> Rechazado<br /> </td> 
    <td> No<br /> </td> 
@@ -639,7 +639,7 @@ Las particularidades del canal SMS se enumeran a continuación.
   <tr> 
    <td> Reconocimiento de MT no válido<br /> </td> 
    <td> Fallo<br /> </td> 
-   <td> Error “{1}” durante el procesamiento del marco de reconocimiento de la consulta de entrega<br /> </td> 
+   <td> Error '{1}' al procesar el marco de reconocimiento para la consulta de envío <br /> </td> 
    <td> Leve<br /> </td> 
    <td> Inaccesible<br /> </td> 
   </tr> 

@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 topic-tags: technical-workflows
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 92%
+source-wordcount: '157'
+ht-degree: 100%
 
 ---
 
@@ -42,12 +42,12 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Ca
   <tr> 
    <td> <span class="uicontrol">Trabajos enviados en campañas</span> <br /> </td> 
    <td> <span class="uicontrol">deliveryMgt</span> <br /> </td> 
-   <td> Este flujo de trabajo activa las entregas aprobadas e inicia el posprocesado del proveedor de servicios para una entrega externo. También envía notificaciones de aprobación y recordatorios.<br /> </td> 
+   <td> Este flujo de trabajo activa los envíos aprobados e inicia el posprocesado del proveedor de servicios para un envío externo. También envía notificaciones de aprobación y recordatorios.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Trabajos en campaña</span> <br /> </td> 
    <td> <span class="uicontrol">operationMgt</span> <br /> </td> 
-   <td> Este flujo de trabajo administra los trabajos de las campañas de marketing (inicia los objetivos, la extracción de archivos, etc.). También crea flujos de trabajo relacionados con campañas recurrentes y periódicas.<br /> </td> 
+   <td> Este flujo de trabajo administra los trabajos de las campañas de marketing (inicia la segmentación, la extracción de archivos, etc.). También crea flujos de trabajo relacionados con campañas recurrentes y periódicas.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Trabajos con proveedores de servicios</span> <br /> </td> 

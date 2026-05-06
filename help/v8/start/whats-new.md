@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 7771a02c-ebd4-48b6-b25e-6b6e420ad493
 source-git-commit: 4b67d5f5427b1be8217f141a97c4de413f5e1f2e
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 69%
+source-wordcount: '1504'
+ht-degree: 70%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Campaign v8 ofrece **nueva interfaz de usuario web** junto con la consola 
 
 A partir de la versión 8.6 de Campaign, la IU web de Campaign está disponible a través de Adobe Experience Cloud, lo que permite un acceso sin problemas a todas las soluciones de Adobe.
 
-[Obtenga más información acerca de la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home){target="_blank"}
+[Obtenga más información sobre la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home){target="_blank"}
 
 ### Administración central del flujo de trabajo{#central-wf-mgt}
 
@@ -54,7 +54,7 @@ Con Adobe Campaign, puede mejorar sus correos electrónicos, personalizarlos y h
 
 [Obtenga más información sobre las funciones de personalización](create-message.md)
 
-### Administración de datos de clientes  {#customer-data-mgt}
+### Administración de datos de clientes {#customer-data-mgt}
 
 Vea toda la imagen de sus clientes para crear rápidamente campañas personalizadas a escala empresarial.
 
@@ -62,7 +62,7 @@ Adobe Campaign le ayuda a generar perfiles de clientes a partir de datos recopil
 
 [Obtenga más información sobre la administración de datos de clientes](audiences.md)
 
-### Administración de campañas de la mejor clase  {#best-in-campaign-mgt}
+### Administración de campañas de la mejor clase {#best-in-campaign-mgt}
 
 La versión 8 de Adobe Campaign proporciona a los especialistas en marketing las mejores funciones de su clase para planificar, iniciar y medir campañas en todos los canales.
 

@@ -8,8 +8,8 @@ hide: true
 exl-id: 31c13d7e-55d1-4fbb-82e0-5779a17d65ac
 source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 42%
+source-wordcount: '1271'
+ht-degree: 45%
 
 ---
 
@@ -497,7 +497,7 @@ Aprenda a implementar FCM en su aplicación en [Documentación de Google](https:
    Para los mensajes de notificación, la recepción de seguimiento debe configurarse en dos niveles:
 
    * `onMessageReceived` (aplicación no en segundo plano): la implementación se realizó en la sección anterior
-   * `onCreate` de la actividad de lanzamiento (o la actividad de destino si se usa la función `click_action`) (la aplicación no está en segundo plano).
+   * `onCreate` de la actividad de lanzamiento (o la actividad de destino si se utiliza la función `click_action`). (Aplicación no en segundo plano).
 
    Debe realizarse en el mismo momento que el seguimiento de aperturas/clics.
 

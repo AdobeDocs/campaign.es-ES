@@ -8,14 +8,14 @@ level: Beginner
 exl-id: 7dbc66ab-a468-40ff-9db2-b33e4fd27754
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 70%
+source-wordcount: '953'
+ht-degree: 68%
 
 ---
 
 # Uso de cubos para explorar datos{#use-cubes-to-create-reports}
 
-Utilice los cubos para crear informes e identificar y seleccionar datos de la base de datos. Puede hacer lo siguiente:
+Utilice los cubos para crear informes e identificar y seleccionar datos de la base de datos. Se puede:
 
 * Crear informes basados en cubos. [Más información](#explore-the-data-in-a-report).
 * Recopilar los datos de la base de datos y agruparlos en listas, por ejemplo, para identificar y crear destinatarios y entregas. [Más información](#build-a-target-population).

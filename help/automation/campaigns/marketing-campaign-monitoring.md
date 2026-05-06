@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 13a7432e-6216-4a5c-84fc-bc374b5af5ee
 source-git-commit: a5f7cf6e21b263f8a7fb4fa19a88bebb78390c3d
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 46%
+source-wordcount: '222'
+ht-degree: 52%
 
 ---
 
@@ -41,7 +41,7 @@ La lista de envíos está disponible a través del vínculo **[!UICONTROL Delive
 
 Para cada envío, esta lista le permite acceder a los indicadores clave: estado, número de destinatarios dirigidos, campañas vinculadas, etc.
 
-Para comprobar el estado de una entrega, edite y vea su panel y pestañas.
+Para comprobar el estado de una entrega, edite y vea su panel de control y pestañas.
 
 <!--
 >[!NOTE]

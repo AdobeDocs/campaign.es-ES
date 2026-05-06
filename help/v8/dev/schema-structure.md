@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: 9c4a9e71-3fc8-4b4e-8782-0742bbeaf426
 source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1447'
 ht-degree: 12%
 
 ---
@@ -54,7 +54,7 @@ La estructura básica de `<srcschema>` es la siguiente:
 </srcSchema>
 ```
 
-El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su área de nombres.
+El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su espacio de nombres.
 
 ```
 <srcSchema name="schema_name" namespace="namespace">

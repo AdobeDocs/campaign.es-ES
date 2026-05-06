@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 4f9e8f74-27dc-482c-a83c-25623b53560f
 source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 35%
+source-wordcount: '1425'
+ht-degree: 36%
 
 ---
 
@@ -47,7 +47,7 @@ Para obtener el ID de aplicación (cliente), debe registrar una aplicación en A
 1. Vaya a **Azure Active Directory > Registros de aplicación** y seleccione **Nuevo registro**.
 1. Escriba un nombre único que pueda ayudar a identificar una instancia, como **adobecampaign`<instance identifier>`**.
 
-Una vez guardado, el directorio de Microsoft Azure asigna una **ID de aplicación (cliente)** única a su aplicación. Necesitará este ID más adelante en la configuración de Dynamics 365 en Adobe Campaign.
+Una vez guardado, Microsoft Azure Directory asignará una **ID de aplicación (cliente)** única a su aplicación. Necesitará este ID más adelante en la configuración de Dynamics 365 en Adobe Campaign.
 
 Obtenga más información en [Documentación de Microsoft Dynamics 365](https://docs.microsoft.com/es-es/powerapps/developer/common-data-service/walkthrough-register-app-azure-active-directory){target="_blank"}.
 

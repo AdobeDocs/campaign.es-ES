@@ -7,12 +7,12 @@ level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 59%
+source-wordcount: '1276'
+ht-degree: 58%
 
 ---
 
-# Enviar una oferta {#send}
+# Enviar una oferta{#send}
 
 Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno **Live**. [Más información](interaction-offer.md#approve-offers)
 
@@ -108,7 +108,7 @@ Después de configurar su actividad **Consulta**:
 
      ![](assets/int_enrichment_offer4.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -130,7 +130,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/int_enrichment_link2.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -180,7 +180,7 @@ Después de configurar su actividad **Consulta**:
 
    ![](assets/int_offerengine_activity1.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#inserting-an-offer-proposition-into-a-delivery)
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. [Más información](#inserting-an-offer-proposition-into-a-delivery)
 
 ### Ofertas por celda {#offers-by-cell}
 

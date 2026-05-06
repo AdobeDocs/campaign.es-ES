@@ -5,7 +5,7 @@ feature: Release Notes
 exl-id: 3f91d83e-594e-49ee-a898-606e3de00bf3
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '3472'
+source-wordcount: '3608'
 ht-degree: 33%
 
 ---
@@ -142,7 +142,7 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
   >
   >Esta característica es **no** disponible para [implementaciones de FDAC de Campaign](../architecture/enterprise-deployment.md).
 
-* **Cancelación de suscripción a una lista de un clic**: dado que los principales ISP requieren que los remitentes permitan que los destinatarios se excluyan instantáneamente con un solo clic, ahora puede habilitar el encabezado Cancelación de suscripción a una lista de un clic en la interfaz de usuario, directamente desde la plantilla de correo electrónico o las propiedades de entrega. Esta opción está habilitada de forma predeterminada. [Más información](../send/email-parameters.md#one-click-list-unsubscribe)
+* **Cancelación de suscripción a una lista de un clic**: dado que los principales ISP requieren que los remitentes permitan que los destinatarios se excluyan instantáneamente con un solo clic, ahora puede habilitar el encabezado Cancelación de suscripción a una lista de un clic en la interfaz de usuario, directamente desde la plantilla de correo electrónico o las propiedades de entrega. Esta opción está habilitada de manera predeterminada. [Más información](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
@@ -307,7 +307,7 @@ _viernes, 10 de abril de 2025_
 
 ### Nuevas funciones {#features-8-7-4}
 
-* **Compatibilidad con la API REST de SMS**: la API REST de mensajería transaccional ya está disponible para el canal de SMS. Cuando el correo electrónico como el teléfono móvil están presentes en la carga útil, puede utilizar el campo “wishedChannel” para especificar el canal. Si no se proporciona, se utiliza de forma predeterminada el correo electrónico, a menos que wishedChannel solicite explícitamente un SMS.
+* **Compatibilidad con la API REST de SMS**: la API REST de mensajería transaccional ya está disponible para el canal de SMS. Cuando el correo electrónico como el teléfono móvil están presentes en la carga útil, puede utilizar el campo “wishedChannel” para especificar el canal. Si no se proporciona, el correo electrónico se utilizará de forma predeterminada a menos que wishedChannel solicite explícitamente un SMS.
 
 * **Envíos multilingües**: a partir de la versión de abril de la interfaz de usuario web de Campaign, podrá realizar varios envíos de correo electrónico en diferentes idiomas y acceder a los informes dinámicos relacionados. Esta funcionalidad solo estará disponible en la interfaz de usuario web de Adobe Campaign a finales de abril y requiere una actualización del servidor a la versión 8.7.4 de Campaign.
 

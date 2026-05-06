@@ -31,7 +31,7 @@ El flujo de trabajo detallado a continuación está programado para ejecutarse c
    <td> Este flujo de trabajo:<br /> 
     <ul> 
      <li> <p>recupera la lista de eventos procesados por las operaciones.</p> </li> 
-     <li> <p>se sincroniza con la tabla NmsBroadLogMsg para poder recuperar los atributos del mensaje de la entrega.</p> </li> 
+     <li> <p>se sincroniza con la tabla NmsBroadLogMsg para poder recuperar las calificaciones del mensaje de la entrega.</p> </li> 
      <li> <p>recupera los registros de envío de eventos en cuanto se completa la sincronización con la tabla NmsBroadLogMsg.</p> </li> 
      <li> <p>se sincroniza con la tabla NmsTrackingUrl para recuperar el seguimiento de las URL de la entrega.</p> </li> 
      <li> <p>recupera las URL de seguimiento de eventos en cuanto se completa la sincronización con la tabla NmsTrackingUrl.</p> </li> 

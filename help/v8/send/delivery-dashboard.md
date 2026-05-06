@@ -5,9 +5,10 @@ feature: Monitoring
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 254765d3-f664-4200-9a70-f8876f2b2933
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1157'
 ht-degree: 70%
 
 ---
@@ -53,7 +54,7 @@ A continuación, se muestra la información que puede monitorizar en las distint
 
 * [Comprender los errores de envío](delivery-failures.md)
 * [Administración de cuarentena](quarantines.md)
-* [Prácticas recomendadas de entregas](../start/delivery-best-practices.md)
+* [Prácticas recomendadas para envíos](../start/delivery-best-practices.md)
 * [Administración de entregabilidad](about-deliverability.md)
 
 ## Resumen de entregas {#delivery-summary}
@@ -164,4 +165,3 @@ Los problemas del sistema pueden impedir que los servidores procesen los envíos
 >[!NOTE]
 >
 >Como usuario de Cloud Services administrados de Campaign v8, la supervisión de la infraestructura del servidor la administra Adobe. Si experimenta problemas de rendimiento persistentes con las entregas, póngase en contacto con el Servicio de atención al cliente de Adobe con sus registros de entregas.
-

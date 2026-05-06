@@ -7,8 +7,8 @@ level: Beginner
 exl-id: e83893f7-a8be-48a3-a7a6-aced7b4d4f69
 source-git-commit: 4f9183c7f1d12feb255a0050da423647f0fce85e
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 20%
+source-wordcount: '651'
+ht-degree: 19%
 
 ---
 
@@ -91,7 +91,7 @@ El boletín ya está listo y sincronizado en Adobe Campaign.
 
 1. Para eliminar la vinculación entre Experience Manager y Campaign, haga clic en **[!UICONTROL Desynchronize]**.
 
-El correo electrónico está listo para enviarlo a su audiencia.
+El correo electrónico está listo para enviarlo a su público.
 
 ## Importar recursos desde la biblioteca de Adobe Experience Manager Assets {#assets-library}
 

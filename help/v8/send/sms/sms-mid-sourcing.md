@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: b5eb9eaa-0ca8-478c-9ed5-e5006e9b5609
 source-git-commit: e349e9f236c3eeb28ffe96bcc5ec72ab64c4c127
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 12%
+source-wordcount: '574'
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ El envío de envíos SMS con una infraestructura intermediaria requiere lo sigui
 1. Un operador SMS en el servidor central. [Aprenda a crearlo aquí](#sms-operator-mid)
 1. Una cuenta externa SMS en el servidor de marketing que utilizará el operador creado anteriormente. [Aprenda a crearlo aquí](#sms-external-account)
 1. Una cuenta externa SMPP en el servidor intermediario, que especifica el modo de envío de canal y intermediario. [Aprenda a crearlo aquí](#smpp-external-account-mid)
-1. Una plantilla de envío que hace referencia a la cuenta externa para racionalizar el proceso de envío. [Aprenda a crearlo aquí](#sms-delivery-template)
+1. Una plantilla de envíos que haga referencia a la cuenta externa para optimizar el proceso de envío. [Aprenda a crearlo aquí](#sms-delivery-template)
 
 ## Creación del operador SMS en el servidor intermediario {#sms-operator-mid}
 

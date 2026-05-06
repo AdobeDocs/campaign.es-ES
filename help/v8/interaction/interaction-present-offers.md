@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: d0137fa7-3d04-4205-b49c-46973e45a5b8
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 26%
+source-wordcount: '209'
+ht-degree: 23%
 
 ---
 
@@ -30,4 +30,4 @@ Antes de poder presentar ofertas en un canal entrante, se debe configurar la lla
 >
 >Para las interacciones entrantes, se debe configurar específicamente el motor de oferta para presentar y actualizar una o varias ofertas.
 >
->Asimismo, se debe activar el modo unitario en los espacios de oferta. Para obtener más información, consulte [esta página](interaction-offer-spaces.md).
+>Asimismo, se debe habilitar el modo unitario en los espacios de oferta. Para obtener más información, consulte [esta página](interaction-offer-spaces.md).

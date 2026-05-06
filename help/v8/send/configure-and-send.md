@@ -7,7 +7,7 @@ level: Beginner
 exl-id: 36033255-1e75-41c1-9816-126777f7330a
 source-git-commit: e0dbeb7402a46f76a26c28dd226bc069d52f2609
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1209'
 ht-degree: 68%
 
 ---
@@ -83,7 +83,7 @@ Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, gar
 
 >[!IMPORTANT]
 >
->* Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. De lo contrario, es posible que algunos mensajes no se envíen. Obtenga más información acerca del período de validez de un envío en [esta sección](delivery-failures.md#valid-period).
+>* Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. En caso contrario, es posible que algunos mensajes no se envíen. Obtenga más información acerca del período de validez de un envío en [esta sección](delivery-failures.md#valid-period).
 >
 >* También debe definir tiempo suficiente para los reintentos al configurar las últimas olas. Obtenga más información acerca de los reintentos en [esta sección](delivery-failures.md#retries).
 
@@ -129,7 +129,7 @@ Para realizar esto, siga los pasos a continuación.
    * Para realizar la entrega inmediatamente, seleccione **[!UICONTROL Deliver as soon as possible]**.
    * Para programar el envío a una fecha posterior, seleccione **[!UICONTROL Postpone the delivery]**. [Más información](#schedule-delivery-sending)
 
-1. Haga clic en **[!UICONTROL Analyze]**. Para obtener más información, consulte [esta sección](delivery-analysis.md).
+1. Haga clic **[!UICONTROL Analyze]**. Para obtener más información, consulte [esta sección](delivery-analysis.md).
 
    ![](assets/delivery-send-analyze.png)
 

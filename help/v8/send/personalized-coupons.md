@@ -5,10 +5,11 @@ description: Aprenda a crear e insertar cupones personalizados
 feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
-source-git-commit: 33462c1e2af34000131ce81e23ac2360c2cc5a3a
+exl-id: d5af1f98-42e8-4909-b2e6-be65c50c9874
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 96%
+source-wordcount: '889'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +19,7 @@ Añadir cupones a las entregas puede proporcionar aumentar el valor de los produ
 
 >[!AVAILABILITY]
 >
->La administración de cupones no está disponible en Campaign v8 en el contexto de una implementación de Enterprise (FDAC). Obtenga más información en [Documentación de Campaign v8](../architecture/enterprise-deployment.md).
+>La administración de cupones no está disponible en Campaign v8 en el contexto de una implementación de Enterprise (FDAC). Más información en la [documentación de Campaign v8](../architecture/enterprise-deployment.md).
 
 La administración de cupones se basa en un paquete que debe instalarse. Para confirmar que tiene instalado el administrador de cupones, marque **[!UICONTROL Administration > Configuration > Package management > Installed packages.]**
 
@@ -47,7 +48,7 @@ Antes de iniciar los pasos siguientes, asegúrese de saber el tipo de cupón que
 
    **[!UICONTROL Anonymous coupons]** : Un cupón anónimo es idéntico para todos los destinatarios. Confirme que ha seleccionado Anónimo en el menú **Coupon type** y haga clic en **Save** para generar el cupón.
 
-   **[!UICONTROL Individual coupons]**: Un cupón individual puede personalizarse aún más con códigos de cupones adicionales. Por ejemplo, se crea un cupón individual para una venta en un almacén de equipación deportiva. Sin embargo, la lista de destinatarios es larga y no comparten el mismo entusiasmo por un único deporte. Se puede añadir nombres de código para el cupón individual en función de un deporte (por ejemplo, fútbol, fútbol americano, béisbol, etc.) y enviar cada código a los destinatarios correspondientes.
+   **[!UICONTROL Individual coupons]**: Un cupón individual puede personalizarse aún más con códigos de cupones adicionales. Por ejemplo, se crea un cupón individual para una venta en un almacén de equipación deportiva. Sin embargo, la lista de destinatarios es larga y no comparten el mismo entusiasmo por un único deporte. Puede añadir nombres de código para el cupón individual en función de un deporte (por ejemplo, fútbol, fútbol americano, béisbol, etc.) y enviar cada código a los destinatarios correspondientes.
 
    1. Al elegir Individual, aparece una pestaña nueva, Cupones, en la esquina inferior izquierda. Vaya a la pestaña **[!UICONTROL Coupons]** y haga clic en **[!UICONTROL Add]**.
    1. Introduzca un código único para el cupón individual cuando lo solicite la ventana emergente.
@@ -76,7 +77,7 @@ Los valores de **[!UICONTROL channel]**, **[!UICONTROL status]** y **[!UICONTROL
 
 En el siguiente ejemplo, la entrega se crea desde la página principal. Para obtener instrucciones detalladas sobre cómo crear una entrega, consulte [esta sección](email.md)
 1. Vaya a **[!UICONTROL Campaigns]** y elija **[!UICONTROL Deliveries]**.
-1. Haga clic en **[!UICONTROL Create]**.
+1. Haga clic **[!UICONTROL Create]**.
 
    ![](assets/deliv_coup_04.png)
 
@@ -148,7 +149,7 @@ Para confirmar que la entrega se realizó correctamente:
 
 >[!NOTE]
 >
->De manera predeterminada, el módulo de administración de cupones usa una tabla **nms:recipient**. [Más información](../dev/datamodel.md#ootb-profiles).
+>De forma predeterminada, el módulo de administración de cupones utiliza una tabla **nms:recipient**. [Más información](../dev/datamodel.md#ootb-profiles).
 >
 >Aprenda a utilizar una tabla de destinatarios personalizada [en esta página](../dev/custom-recipient.md).
 

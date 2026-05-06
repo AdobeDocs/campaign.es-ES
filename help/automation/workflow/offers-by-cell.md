@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: e2216dfd-1ef8-4747-b716-576fd6498fa6
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '154'
 ht-degree: 94%
 
 ---
@@ -21,7 +21,7 @@ La actividad **[!UICONTROL Offers by cell]** permite distribuir la población en
 
 Esta actividad solo se puede utilizar con **Interaction**. Obtenga más información acerca de la administración de ofertas en [esta sección](../../v8/interaction/interaction.md).
 
-Para ello, haga lo siguiente:
+Para ello:
 
 1. Una vez que haya especificado la población destinataria, añada la actividad **[!UICONTROL Offers by cell]** y ábrala.
 1. En la pestaña **[!UICONTROL General]**, seleccione el espacio de oferta en el que desea presentar las ofertas.
@@ -32,4 +32,4 @@ Para ello, haga lo siguiente:
 
      ![](assets/int_offer_per_cell1.png)
 
-1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).
+1. A continuación, configure una actividad de envío que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).

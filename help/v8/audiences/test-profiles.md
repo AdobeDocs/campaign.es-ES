@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 878b5963-100c-4dd7-97a0-c59a62c493b1
 source-git-commit: e4f6c70ecdcf7414b5f49a43933cfd1c967a0905
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 55%
+source-wordcount: '982'
+ht-degree: 56%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Campaign también permite crear plantillas de las direcciones semilla que 
 Para crear direcciones semilla, siga estos pasos:
 
 1. Haga clic en el botón **[!UICONTROL New]** situado encima de las direcciones semilla.
-1. Introduzca los datos relacionados con la dirección en los campos correspondientes de la pestaña **[!UICONTROL Recipient]**. Los campos disponibles corresponden a los datos fundamentales del perfil de los destinatarios del envío (nms:recipient table): nombre, apellido, correo electrónico, etc.
+1. Introduzca los datos relacionados con la dirección en los campos correspondientes de la pestaña **[!UICONTROL Recipient]**. Los campos disponibles corresponden a los datos fundamentales del perfil de los destinatarios del envío (tabla nms:recipient): nombre, apellido, correo electrónico, etc.
 
    >[!NOTE]
    >
@@ -65,11 +65,11 @@ Puede crear plantillas de direcciones que se pueden importar y modificar para ca
 
 Para [envíos de correo postal](../send/direct-mail.md), las direcciones semilla se agregan durante la extracción y se mezclan en el documento de salida.
 
-En las entregas por correo postal, el formato del archivo de extracción debe cumplir con las siguientes limitaciones:
+En las entregas por correo directo, el formato del archivo de extracción debe cumplir con las siguientes limitaciones:
 
 * No se debe utilizar la opción **[!UICONTROL Handle groupings (GROUP BY+HAVING)]**.
 
-* Si se extraen colecciones de elementos, estos campos tendrán un valor vacío para las direcciones semilla, a menos que se seleccione la opción **[!UICONTROL Single row (expert user)]**.
+* Si se extraen colecciones de datos, estos campos deben tener un valor vacío para las direcciones semilla, a menos que se seleccione la opción **[!UICONTROL Single row (expert user)]**.
 
 ## Adición de direcciones semilla en una entrega{#seed-addresses-in-a-delivery}
 
@@ -79,7 +79,7 @@ Hay tres modos de inserción posibles:
 
 1. Introduzca direcciones semilla únicas.  Para ello, haga clic en el botón **[!UICONTROL Add]** y defina el contenido de los campos de dirección. Repita este proceso con cada dirección.
 
-1. Importe [plantillas de direcciones semilla](#creating-seed-address-template) y adáptelas para adaptarlas a sus necesidades. Para ello, haga clic en el vínculo **[!UICONTROL Import seed templates...]** y seleccione la carpeta que contiene las plantillas de dirección.
+1. Importe [plantillas de direcciones semilla](#creating-seed-address-template) y adáptelas para adaptarlas a sus necesidades. Para ello, haga clic en el enlace **[!UICONTROL Import seed templates...]** y seleccione la carpeta que contiene las plantillas de dirección.
 
    Si es necesario, una vez añadidas, se puede hacer doble clic en ellas o hacer clic en el botón **[!UICONTROL Detail...]** para adaptar el contenido de cada dirección.
 

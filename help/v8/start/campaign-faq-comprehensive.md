@@ -9,8 +9,8 @@ version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
 source-git-commit: da2274cfd19bb067fcc1e990360093f161d5638a
 workflow-type: tm+mt
-source-wordcount: '10485'
-ht-degree: 11%
+source-wordcount: '11573'
+ht-degree: 15%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 11%
 
 Obtenga respuestas rápidas a las preguntas más comunes sobre Adobe Campaign v8. Tanto si acaba de empezar como si busca ayuda para la configuración avanzada, encontrará respuestas organizadas por temas a continuación.
 
-**¿Es nuevo en Campaign?** Empiece con [Introducción](#getting-started) para conocer los aspectos básicos.\
-**¿Necesita ayuda con las versiones?** Comprueba [Actualizaciones](#upgrades) para obtener información sobre la versión y los procesos de actualización.\
-**¿Está migrando desde la versión 7 o estándar?** Consulte [Campaign v8 frente a versiones anteriores](#v7-differences) para ver las diferencias y las directrices de transición.\
-**¿Necesita ayuda técnica?**: comprobar [desarrolladores](#developers) y [configuración de la campaña](#settings).\
-**¿No encuentra la respuesta?** Visite nuestros [Foros de la comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"} o [comuníquese con la atención al cliente](#get-help).
+**Nuevo en Campaign?** Empiece con [Introducción](#getting-started) para conocer los aspectos básicos.\
+**¿Necesita ayuda con las versiones?** Consulte [Actualizaciones](#upgrades) para obtener información sobre la versión y los procesos de actualización.\
+**Migrando desde la versión 7 o estándar?** Consulte [Campaign v8 frente a versiones anteriores](#v7-differences) para ver las diferencias y las directrices de transición.\
+**¿Necesita ayuda técnica?** Compruebe [desarrolladores](#developers) y [configuración de la campaña](#settings).\
+**¿No encuentras tu respuesta?** Visite nuestros [Foros de la comunidad](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"} o [comuníquese con la atención al cliente](#get-help).
 
 **Sugerencia:** Utilice Ctrl+F (Cmd+F en Mac) para buscar palabras clave específicas en esta página. Haga clic en cualquier pregunta para ampliar la respuesta.
 
@@ -63,7 +63,7 @@ Debe descargar e instalar la consola del cliente de Campaign para conectarse a A
 
 A partir de la versión 8.6 de Campaign, tiene acceso a la **interfaz de usuario web de Campaign**, disponible a través del entorno central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe.
 
-Obtenga información sobre cómo conectarse a Adobe Experience Cloud y obtener acceso a la interfaz web de Adobe Campaign [en esta página](campaign-ui.md#ac-web-ui). Obtenga más información en la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
+Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz web de Adobe Campaign [en esta página](campaign-ui.md#ac-web-ui). Obtenga más información en la [documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home){target="_blank"}.
 
 
 **Temas relacionados:**
@@ -424,7 +424,7 @@ La versión 8 de Campaign incorpora la mayoría de las funciones de la versión 
 
 Encuentre respuestas a preguntas sobre la administración de perfiles, la creación de audiencias, la importación de datos y la segmentación de destinatarios para sus campañas.
 
-+++ ¿Cómo se crean los destinatarios? 
++++ ¿Cómo se crean los destinatarios?
 
 Cree destinatarios manualmente en la consola del cliente para perfiles individuales, importe desde archivos (CSV/TXT) para adiciones masivas, utilice formularios web para el registro automático o integre a través de API desde sistemas externos. Utilice flujos de trabajo de importación para cargas de datos recurrentes.
 
@@ -454,7 +454,7 @@ Más información sobre [perfiles de prueba](../audiences/test-profiles.md).
 
 +++
 
-+++ ¿Cómo puedo definir la población destinataria de una campaña de marketing? 
++++ ¿Cómo puedo definir la población destinataria de una campaña de marketing?
 
 Campaign ofrece varios métodos de segmentación: crear consultas con criterios visuales, segmentar listas o segmentos existentes, importar destinatarios de archivos externos (CSV, TXT) o aplicar filtros predefinidos. Puede combinar criterios con la lógica AND/OR, excluir poblaciones específicas, utilizar grupos de control y dividir para las pruebas A/B. Obtenga siempre una vista previa del tamaño de la población objetivo antes de enviar.
 
@@ -464,7 +464,7 @@ Campaign ofrece varios métodos de segmentación: crear consultas con criterios 
 
 +++
 
-+++ ¿Cómo puedo crear una lista de perfiles? 
++++ ¿Cómo puedo crear una lista de perfiles?
 
 Una lista es un conjunto estático de destinatarios que se puede dirigir en envíos y reutilizar en campañas.
 
@@ -484,7 +484,7 @@ Una lista es un conjunto estático de destinatarios que se puede dirigir en env�
 
 +++
 
-+++ ¿Cómo duplicar una población antes de enviar un mensaje? 
++++ ¿Cómo duplicar una población antes de enviar un mensaje?
 
 Utilice la actividad **[!UICONTROL Deduplication]** en un flujo de trabajo para eliminar los destinatarios duplicados antes de la entrega. Colóquela entre sus actividades **[!UICONTROL Query]** y **[!UICONTROL Delivery]** y, a continuación, elija los criterios de anulación de duplicación (generalmente la dirección de correo electrónico o el ID de destinatario) y qué registro desea mantener.
 
@@ -494,7 +494,7 @@ Más información sobre la [actividad de deduplicación](https://experienceleagu
 
 +++
 
-+++ ¿Cómo se identifican y se segmentan los suscriptores a un newsletter? 
++++ ¿Cómo se identifican y se segmentan los suscriptores a un newsletter?
 
 Campaign realiza automáticamente un seguimiento de las suscripciones a boletines informativos a través de servicios informativos. Para dirigirse a suscriptores:
 
@@ -510,7 +510,7 @@ Campaign realiza un seguimiento del historial de suscripciones/bajas y administr
 
 +++
 
-+++ ¿Cuál es la práctica recomendada para excluir perfiles de una población objetivo? 
++++ ¿Cuál es la práctica recomendada para excluir perfiles de una población objetivo?
 
 Utilice la actividad **[!UICONTROL Exclusion]** en un flujo de trabajo para eliminar perfiles no deseados del destinatario. Colóquelo después de las actividades de segmentación y defina qué población excluir.
 
@@ -529,7 +529,7 @@ Directrices clave: Garantice un diseño adaptable a dispositivos móviles, utili
 
 **Temas relacionados:**
 
-[Guía de diseño de correo electrónico](../send/email.md) | [Prácticas recomendadas de envío](delivery-best-practices.md)
+[Guía de diseño de correo electrónico](../send/email.md) | [Prácticas recomendadas de entrega](delivery-best-practices.md)
 
 +++
 
@@ -635,7 +635,7 @@ Sí, pero **solo a través de la IU web de Campaign**. AI Assistant, con tecnolo
 
 **Temas relacionados:**
 
-[Descripción general del Asistente de IA](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [Casos de uso del Asistente de IA](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [Alineación de marca](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
+[Descripción general del Asistente de IA](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/ai-assistant/generative-gs){target="_blank"} | [Casos de uso del asistente de IA](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/ai-assistant/generative-uc){target="_blank"} | [Alineación de marca](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/ai-assistant/ai-assistant/brands-score){target="_blank"}
 
 +++
 
@@ -667,7 +667,7 @@ Aprenda a implementar la entregabilidad en Campaign [con esta guía](https://exp
 
 **Temas relacionados:**
 
-[Seguimiento y monitorización de entregas](../send/tracking.md) | [Prácticas recomendadas de envío](delivery-best-practices.md)
+[Seguimiento y monitorización de entregas](../send/tracking.md) | [Prácticas recomendadas de entrega](delivery-best-practices.md)
 
 +++
 
@@ -720,7 +720,7 @@ Use **pruebas como proceso de aprobación**. Envíe pruebas al grupo de aprobaci
 
 **Temas relacionados:**
 
-[Validación de envío](../send/preview-and-proof.md) | [Aprobaciones de campaña](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=es){target="_blank"}
+[Validación de envío](../send/preview-and-proof.md) | [Aprobaciones de campañas](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=es){target="_blank"}
 
 +++
 
@@ -768,7 +768,7 @@ Obtenga más información en la [Guía de reglas de tipología](https://experien
 
 +++
 
-+++ ¿Cómo puedo enviar correos electrónicos en cadena? 
++++ ¿Cómo puedo enviar correos electrónicos en cadena?
 
 Sí. El envío de ondas divide su envío en varios lotes enviados a intervalos programados. Esto es esencial para campañas de gran volumen a fin de equilibrar la carga del servidor, evitar la restricción de ISP, crear una reputación de remitente con nuevas IP y administrar las exclusiones/devoluciones entre olas.
 
@@ -1148,7 +1148,7 @@ Arrastre desde la paleta, haga doble clic para configurar y conectar con transic
 
 Configure la instancia de Campaign con las configuraciones, integraciones y ajustes adecuados para optimizar las operaciones de marketing.
 
-+++ ¿Puedo cambiar el idioma de la interfaz de Campaign? 
++++ ¿Puedo cambiar el idioma de la interfaz de Campaign?
 
 Depende de la interfaz que esté utilizando. El idioma de la consola de cliente **1&rbrace; es fijo, pero la interfaz de usuario web de** Campaign **permite que los usuarios individuales cambien sus preferencias de idioma.**
 
@@ -1222,7 +1222,7 @@ Un subdominio es una división de su dominio que puede utilizarse para aislar su
 
 +++
 
-+++ ¿Cómo puedo configurar las funcionalidades de seguimiento en mi instancia de Campaign? 
++++ ¿Cómo puedo configurar las funcionalidades de seguimiento en mi instancia de Campaign?
 
 La versión 8 de Campaign proporciona un seguimiento completo para supervisar las interacciones de los destinatarios con los mensajes. El seguimiento requiere la configuración adecuada de la instancia y la configuración del mensaje.
 
@@ -1249,7 +1249,7 @@ La versión 8 de Campaign proporciona un seguimiento completo para supervisar la
 
 +++
 
-+++ ¿Cómo configurar la entrega del correo electrónico? 
++++ ¿Cómo configurar la entrega del correo electrónico?
 
 La capacidad de envío de correo electrónico depende de la configuración técnica, la calidad del contenido y la reputación del remitente. La versión 8 de Campaign proporciona herramientas y configuraciones para optimizar la ubicación de la bandeja de entrada.
 
@@ -1277,7 +1277,7 @@ La capacidad de envío de correo electrónico depende de la configuración técn
 
 +++
 
-+++ ¿Cómo puedo acceder a los datos almacenados en una base de datos externa? 
++++ ¿Cómo puedo acceder a los datos almacenados en una base de datos externa?
 
 La versión 8 de Campaign proporciona acceso de datos federado (FDA) para consultar y utilizar datos almacenados en bases de datos externas sin cambiar el modelo de datos de Campaign. Configure una cuenta externa y, a continuación, utilice FDA en flujos de trabajo, consultas y direccionamiento para combinar datos externos con perfiles de Campaign.
 
@@ -1289,7 +1289,7 @@ Los requisitos de disponibilidad y conexión de FDA dependen de la implementaci�
 
 +++
 
-+++ ¿A qué bases de datos externas puedo conectar Campaign? 
++++ ¿A qué bases de datos externas puedo conectar Campaign?
 
 La versión 8 de Campaign admite conexiones de acceso de datos federado (FDA) a los principales sistemas de bases de datos empresariales (bases de datos en la nube, bases de datos empresariales, almacenes de datos y plataformas de big data).
 
@@ -1352,7 +1352,7 @@ Obtenga más información en [Instalar y configurar la consola de cliente](conne
 
 +++
 
-+++ ¿Se puede integrar Adobe Campaign con LDAP? 
++++ ¿Se puede integrar Adobe Campaign con LDAP?
 
 No. La versión 8 de Campaign no admite la integración de LDAP. La autenticación utiliza Adobe IMS (Adobe ID o Federated ID). Si está migrando desde Campaign Classic v7, revise las funciones no admitidas y los cambios de autenticación.
 
@@ -1430,7 +1430,7 @@ Campaign ofrece varias opciones de creación de informes en función de sus nece
 
 **Temas relacionados:**
 
-[Introducción a los informes](../reporting/gs-reporting.md) | [Informes de IU web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[Introducción a los informes](../reporting/gs-reporting.md) | [Informes de la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1555,7 +1555,7 @@ Sí, Campaign admite varios formatos de exportación tanto para la consola del c
 
 **Temas relacionados:**
 
-[Informes personalizados](../reporting/custom-reports.md) | [Informes de IU web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
+[Informes personalizados](../reporting/custom-reports.md) | [Informes de la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/reports/gs-reports){target="_blank"}
 
 +++
 
@@ -1616,7 +1616,7 @@ Utilice una tabla de destinatarios personalizada al segmentar cuentas B2B, datos
 
 +++
 
-+++ ¿Cuáles son las mejores prácticas para definir las consultas en Campaign? 
++++ ¿Cuáles son las mejores prácticas para definir las consultas en Campaign?
 
 El editor de consultas de Campaign crea consultas de base de datos visualmente sin SQL, utilizadas en actividades de flujo de trabajo, direccionamiento de envíos, listas, informes y filtros.
 
@@ -1639,7 +1639,7 @@ El editor de consultas de Campaign crea consultas de base de datos visualmente s
 
 +++
 
-+++ ¿Cómo puedo importar un paquete de datos? 
++++ ¿Cómo puedo importar un paquete de datos?
 
 Importe paquetes mediante **[!UICONTROL Tools > Advanced > Import package]** en la consola del cliente. Los paquetes contienen configuraciones de Campaign (esquemas, flujos de trabajo, tipologías) y datos para su implementación entre instancias.
 

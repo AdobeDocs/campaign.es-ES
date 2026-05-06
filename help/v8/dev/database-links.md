@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: f7047c6e-f045-4534-b117-311dd90dd92b
 source-git-commit: 69ff08567f3a0ab827a118a089495fc75bb550c5
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '921'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ La definición del vínculo se complementa con los campos que conforman la unió
 
 La clave externa se agrega automáticamente en un elemento que utiliza las mismas características que el campo asociado en la tabla de destino, con la siguiente convención de nombres: nombre del esquema de destino seguido del nombre del campo asociado (&quot;company-id&quot; en nuestro ejemplo).
 
-Esquema extendido del destinatario (&quot;cus:company&quot;):
+Esquema extendido del destino (&quot;cus:company&quot;):
 
 ```sql
 <schema mappingType="sql" name="company" namespace="cus" xtkschema="xtk:schema">  
@@ -133,7 +133,7 @@ Esquema extendido del destinatario (&quot;cus:company&quot;):
 </schema>
 ```
 
-Se ha añadido un vínculo inverso a la tabla &quot;cus:recipient&quot; con los siguientes parámetros:
+Se agregó un vínculo inverso a la tabla &quot;cus:recipient&quot; con los siguientes parámetros:
 
 * **name**: se deduce automáticamente del nombre del esquema de origen (se puede forzar con el atributo &quot;revLink&quot; en la definición del vínculo en el esquema de origen)
 * **revLink**: nombre del vínculo inverso

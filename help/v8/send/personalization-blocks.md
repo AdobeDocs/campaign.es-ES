@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 214ad693-d456-47ec-a9c8-199ba23c3d9c
 source-git-commit: 25ee55d5327e0ba7f2192f7b462853269c8cbf46
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 33%
+source-wordcount: '559'
+ht-degree: 32%
 
 ---
 
@@ -41,7 +41,7 @@ Los bloques de personalización integrados son:
 
 * **[!UICONTROL Enabled by Adobe Campaign]**: inserta el logotipo &quot;Habilitado por Adobe Campaign&quot;.
 * **[!UICONTROL Formatting function for proper nouns]**: genera la función JavaScript **[!UICONTROL toSmartCase]**, que cambia la primera letra de cada palabra a mayúscula.
-* **[!UICONTROL Greetings]**: inserta los saludos con el nombre completo del destinatario, seguido de una coma. Ejemplo: “Hola, John Doe”.
+* **[!UICONTROL Greetings]**: inserta los saludos con el nombre completo del destinatario, seguido de una coma. Ejemplo: &quot;Hola John Doe&quot;.
 * **[!UICONTROL Insert logo]**: inserta un logotipo definido en la configuración de la instancia.
 * **[!UICONTROL Link to mirror page]**: inserta un vínculo a la [página espejo](mirror-page.md). El formato predeterminado es: “Si no puede ver este mensaje correctamente, haga clic aquí”.
 * **[!UICONTROL Mirror page URL]**: inserta la dirección URL de la página espejo, permitiendo que los diseñadores de envío comprueben el vínculo.

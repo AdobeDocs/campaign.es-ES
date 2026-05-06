@@ -5,7 +5,7 @@ feature: Release Notes
 exl-id: 6a0a9486-19a9-4ec3-9030-48dbf419f45f
 source-git-commit: b52308bcbe68a7c382918fe28f8166e3bfcb6cde
 workflow-type: tm+mt
-source-wordcount: '1568'
+source-wordcount: '1679'
 ht-degree: 91%
 
 ---
@@ -53,7 +53,7 @@ NEO-48232, NEO-56832, NEO-72504, NEO-74855, NEO-75898, NEO-76097, NEO-76958, NEO
 
 ## Versión 8.7.1 {#release-8-7-1}
 
-_2 de mayo de 2024_
+_viernes, 02 de mayo de 2024_
 
 >[!AVAILABILITY]
 >
@@ -69,7 +69,7 @@ _2 de mayo de 2024_
 
 * **API de REST**: como usuario migrado de Campaign Standard, puede utilizar las API de REST para crear integraciones para Adobe Campaign y generar su propio ecosistema interconectando Adobe Campaign con el panel de tecnologías que emplea. [Más información](../dev/api/get-started-apis.md)
 
-* **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como género, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}
+* **Creación de informes dinámicos**: como usuario migrado de Campaign Standard, puede acceder a la Creación de informes dinámicos, que proporciona informes totalmente personalizables y en tiempo real para medir el impacto de sus actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}
 
 ### Actualizaciones de compatibilidad {#comp-8-7-1}
 
@@ -88,7 +88,7 @@ Se han añadido los siguientes conectores FDA. Consulte [esta página](compatibi
 
 A partir de esta versión, y habiendo declarado Adobe la credencial Cuenta de servicio (JWT) como obsoleta, las integraciones de salida de Campaign con aplicaciones y soluciones de Adobe ahora dependen de la credencial OAuth de servidor a servidor. Adobe realizará la migración de JWT a OAuth para sus integraciones de salida, como la integración de Campaign-Analytics o la integración de Activadores de Experience Cloud.
 
-Si ha implementado integraciones entrantes con Campaign, debe migrar su cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Las credenciales de la cuenta de servicio existente (JWT) seguirán funcionando hasta el **martes, 30 de junio de 2025**.
+Si ha implementado integraciones de entrada con Campaign, debe migrar su Cuenta técnica como se detalla en [esta documentación](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/migration/){target="_blank"}. Las credenciales de la cuenta de servicio existente (JWT) seguirán funcionando hasta el **martes, 30 de junio de 2025**.
 
 ### Mejoras generales {#improvements-8-7-1}
 
@@ -108,7 +108,7 @@ NEO-72648, NEO-71534, NEO-71473, NEO-70263, NEO-70195, NEO-69651, NEO-68704, NEO
 
 ## Versión 8.6.3 {#release-8-6-3}
 
-_30 de julio de 2024_
+_miércoles, 30 de julio de 2024_
 
 ### Nuevas funciones {#new-8-6-3}
 
@@ -180,13 +180,13 @@ _14 de febrero de 2024_
 
 En esta versión se han solucionado los siguientes problemas:
 
-NEO-67892,-67235, NEO-66797,-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973,-63879,-63815,-63657,-63539,-63294,-63174,-62686,-62455,-62406,-61580,-63387,-NEO,-62964,-62750,-NEO,-,-61199,-,-NEO,-NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO NEO,-60786,-59544,-59198,-,-,-59059,-58637 55197 52542 50488 47789
+NEO-67892,-67235, NEO-66797,-66462, NEO-65091, NEO-65036, NEO-64984, NEO-64680, NEO-63973,-63879,-63815,-63657,-63539,-63294,-63174,-62686,-62455,-62406,-61580,-63387,-NEO,-62964,-62750,-NEO,-,-61199,-,-NEO,-NEO,-60786,-59544,-59198,-,-,-59059,-58637 55197 52542 50488 47789
 
 
 
 ## Versión 8.5.3 {#release-8-5-3}
 
-_28 de mayo de 2024_
+_miércoles, 28 de mayo de 2024_
 
 ### Migración a la credencial OAuth de servidor a servidor {#change-8-5-3}
 

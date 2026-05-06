@@ -7,8 +7,8 @@ level: Beginner, Intermediate
 exl-id: 891a9a87-f3a4-405a-87ed-a7703be90a67
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 52%
+source-wordcount: '994'
+ht-degree: 54%
 
 ---
 
@@ -48,7 +48,7 @@ Se deben lograr los siguientes pasos en Adobe Campaign y Adobe Target:
 1. [Inserción de la oferta dinámica en un correo electrónico](#inserting-dynamic-offer)
 1. [Creación de ofertas de redireccionamiento](#create-redirect-offers)
 1. [Crear públicos](#audiences-target)
-1. [Creación de una actividad de segmentación de experiencias &#x200B;](#creating-targeting-activity)
+1. [Creación de una actividad de segmentación de experiencias](#creating-targeting-activity)
 1. [Previsualización y envío del mensaje](#preview-send-email)
 
 ### Inserción de la oferta dinámica en un correo electrónico {#inserting-dynamic-offer}
@@ -98,21 +98,21 @@ En este caso, necesitamos dos ofertas de redirección, la tercera (la predetermi
 
 ### Crear públicos {#audiences-target}
 
-En Adobe Target, debe crear las dos audiencias en las que se clasifican las personas que visitan la oferta para enviarles los diferentes contenidos. Para cada audiencia, añada una regla para definir quién puede ver la oferta.
+En Adobe Target, debe crear las dos audiencias en las que se clasifican las personas que visitan la oferta para enviarles los diferentes contenidos. Para cada público, añada una regla para definir quién puede ver la oferta.
 
 1. Para crear una nueva audiencia en Target, en la pestaña **[!UICONTROL Audiences]**, haga clic en **[!UICONTROL Create Audience]**.
 
    ![](assets/audiences_1.png)
 
-1. Añada un nombre a su audiencia.
+1. Añada un nombre a su público.
 
    ![](assets/audiences_2.png)
 
 1. Haga clic en **[!UICONTROL Add a rule]** y seleccione una categoría. La regla utiliza criterios específicos para dirigirse a los visitantes. Puede restringir las reglas añadiendo condiciones o creando nuevas reglas en otras categorías.
 
-1. Siga el mismo procedimiento para las audiencias restantes.
+1. Siga el mismo procedimiento para los públicos restantes.
 
-### Creación de una actividad de segmentación de experiencias  {#creating-targeting-activity}
+### Creación de una actividad de segmentación de experiencias {#creating-targeting-activity}
 
 En Adobe Target, es necesario crear una actividad de segmentación de experiencias, definir las diferentes experiencias y asociarlas a las ofertas correspondientes.
 
@@ -124,11 +124,11 @@ Primero debe definir la audiencia:
 
 1. Seleccione **[!UICONTROL Form]** como **[!UICONTROL Experience Composer]**.
 
-1. Haga clic en el botón **[!UICONTROL Change audience]** para elegir una audiencia.
+1. Haga clic en el botón **[!UICONTROL Change audience]** para elegir un público.
 
    ![](assets/target_10_2.png)
 
-1. Seleccione la audiencia que se creó en los pasos anteriores.
+1. Seleccione el público que se creó en los pasos anteriores.
 
    ![](assets/target_10_3.png)
 
@@ -162,9 +162,9 @@ La sección **[!UICONTROL Reporting Settings]** permite seleccionar una acción 
 
 ## Previsualización y envío del mensaje {#preview-send-email}
 
-En Adobe Campaign, ahora puede previsualizar el correo electrónico y probar su renderización en diferentes destinatarios.
+En Adobe Campaign, ahora puede previsualizar el correo electrónico y probar su renderizado en distintos destinatarios.
 
-Observará que la imagen cambia según las diferentes experiencias creadas.
+Observe que la imagen cambia según las diferentes experiencias creadas.
 
 Ya está listo para enviar su correo electrónico, incluida una oferta dinámica de Target.
 

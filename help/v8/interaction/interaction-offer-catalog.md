@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 911096e2-0307-46a8-873c-ee2248b8e3e8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 28%
+source-wordcount: '387'
+ht-degree: 29%
 
 ---
 
@@ -52,7 +52,7 @@ Para crear una categoría nueva, siga los pasos a continuación:
 
    * **[!UICONTROL Edit query]** para aplicar filtros al destino de la oferta.
 
-   * Un resumen de las reglas de idoneidad. Para verlas, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
+   * Un resumen de las reglas de idoneidad.Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
 
 ## Agregar una categoría de reserva
 
@@ -66,6 +66,6 @@ Para incluir una categoría de reserva en las recomendaciones, siga los pasos a 
 
 1. Vaya al catálogo de ofertas.
 1. Haga clic en la ficha **[!UICONTROL Eligibility]** y seleccione la opción **[!UICONTROL Always include this category in the recommendations]**.
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
    ![](assets/offer_cat_default_001.png)

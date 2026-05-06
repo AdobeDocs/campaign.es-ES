@@ -9,7 +9,7 @@ exl-id: 00e564b5-3c8e-45d4-b240-c872a8b8ccb6
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 97%
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ En este ejemplo, se desea contar el número de destinatarios que residen en Lond
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatario (**nms:recipient**).
+  La tabla de destinatarios (**nms:recipient**)
 
 * ¿Qué campos se deben seleccionar en la columna de salida?
 

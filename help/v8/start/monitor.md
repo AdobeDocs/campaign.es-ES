@@ -4,10 +4,11 @@ description: Obtenga información sobre cómo monitorizar entregas, flujos de tr
 feature: Monitoring
 role: User
 level: Beginner
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 2ad585f2-19bc-4391-8a19-9e892dbe01a3
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 3%
+source-wordcount: '1141'
+ht-degree: 6%
 
 ---
 
@@ -171,4 +172,3 @@ Más información sobre [informes globales](../reporting/global-reports.md)
 * [Administración de cuarentena](../send/quarantines.md)
 * [Configuración y envío de entregas](../send/configure-and-send.md)
 * [Introducción a la creación de informes](../reporting/gs-reporting.md)
-

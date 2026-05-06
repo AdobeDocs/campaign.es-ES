@@ -7,7 +7,7 @@ level: Intermediate, Experienced
 exl-id: e8ad021c-ce2e-4a74-b9bf-a989d8879fd1
 source-git-commit: 2ce1ef1e935080a66452c31442f745891b9ab9b3
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '401'
 ht-degree: 2%
 
 ---
@@ -64,16 +64,16 @@ Estos filtros se introducen en el nivel principal **element** de los esquemas y,
 
 De forma predeterminada, solo se puede acceder a los esquemas integrados con permisos de ESCRITURA para operadores con derechos de ADMINISTRACIÓN:
 
-* ncm:publicar
-* nl:monitorización
-* nms:calendario
+* ncm:publishing
+* nl:monitoring
+* nms:calendar
 * xtk:builder
-* xtk:conexiones
+* xtk:connections
 * xtk:dbInit
 * xtk:entityBackupNew
 * xtk:entityBackupOriginal
 * xtk:entityOriginal
-* xtk:formulario
+* xtk:form
 * xtk:funcList
 * xtk:fusion
 * xtk:image

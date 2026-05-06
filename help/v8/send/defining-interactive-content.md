@@ -8,7 +8,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 2a8b900b-ce0a-41b1-b4e4-b024ca93052e
 source-git-commit: 3d562aab2f19b84aad8b484768bf19648145feb3
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1461'
 ht-degree: 99%
 
 ---
@@ -67,7 +67,7 @@ Para generar un correo electrónico con el formato AMP, siga los pasos a continu
    >
    >Una plantilla de AMP específica contiene un ejemplo de las capacidades principales que puede utilizar: lista de productos, carrusel, doble inclusión, encuesta y solicitud de servidor avanzada.
 
-1. Seleccione la pestaña **[!UICONTROL AMP content]**.
+1. Haga clic en la pestaña **[!UICONTROL AMP content]**.
 
    ![](assets/amp_tab.png)
 
@@ -198,4 +198,4 @@ Por ejemplo, si ha incluido una lista de productos en el correo electrónico, al
 
 El siguiente vídeo explica cómo activar AMP en Adobe Campaign y cómo usarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/33567?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/33567?captions=spa&quality=12&learn=on)

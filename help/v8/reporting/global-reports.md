@@ -6,8 +6,8 @@ role: User, Developer
 exl-id: 6e3409d8-86bd-44ba-a40d-10287f53a960
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1750'
-ht-degree: 65%
+source-wordcount: '1783'
+ht-degree: 64%
 
 ---
 
@@ -45,7 +45,7 @@ Este informe contiene información sobre el rendimiento de entrega de toda la pl
 
 ![](assets/report-toolbar.png)
 
-Se pueden configurar los valores que se muestran cambiando la escala temporal: vista de 1 hora, de 3 horas, de 24 horas, etc. Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
+Puede configurar los valores mostrados cambiando la escala temporal: vista de 1 hora, de 3 horas, de 24 horas, etc. Haga clic en **[!UICONTROL Refresh]** para confirmar la selección.
 
 >[!NOTE]
 >

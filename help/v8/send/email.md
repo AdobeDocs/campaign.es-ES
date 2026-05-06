@@ -8,14 +8,14 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 97dcd0e0-db5b-45a4-96af-817e49f6cb64
 source-git-commit: 96f1518f252be7ffa27ba8157b8a090bf4d4510d
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 20%
+source-wordcount: '588'
+ht-degree: 26%
 
 ---
 
 # Diseño y envío de correos electrónicos
 
-Con Adobe Campaign, cree envíos de correo electrónico para enviar correos electrónicos personalizados a la población objetivo. [Más información](../send/send.md)
+Con Adobe Campaign, cree envíos de correo electrónico para enviar correos electrónicos personalizados al público destinatario. [Más información](../send/send.md)
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Con Adobe Campaign, cree envíos de correo electrónico para enviar correos elec
 
 Conozca los pasos clave para crear y configurar una entrega en [esta página](../start/create-message.md).
 
-## Crear un envío de correo electrónico
+## Creación de una entrega de correo electrónico
 
 Cree correos electrónicos personalizados y relevantes para el contexto que sean coherentes con el resto de la experiencia del cliente.
 
@@ -41,7 +41,7 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
 1. **Seleccione la plantilla**
 
-   Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic en **[!UICONTROL Continue]**.
+   Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic **[!UICONTROL Continue]**.
 
    ![](assets/dce_delivery_model.png)
 
@@ -100,13 +100,13 @@ Aprenda a crear un flujo de trabajo para importar un contenido de correo electr�
 >* [Seleccione la audiencia de su correo electrónico](../audiences/gs-audiences.md)
 >* [Validar una entrega y enviar pruebas](preview-and-proof.md)
 >* [Configurar y realizar la entrega](configure-and-send.md)
->* [Prácticas recomendadas sobre entregas](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}
+>* [Prácticas recomendadas sobre los envíos](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/delivery-best-practices.html?lang=es){target="_blank"}
 
 ## Prueba y validación de correos electrónicos
 
 Campaign ofrece varias formas de probar y validar los correos electrónicos antes de enviarlos a sus audiencias. Obtenga información sobre cómo obtener una vista previa y probar el contenido de su correo electrónico en [esta sección](../send/preview-and-proof.md).
 
-Puede hacer lo siguiente:
+Se puede:
 
 * [Envío de pruebas](preview-and-proof.md)
 * [Adición de direcciones semilla](../audiences/test-profiles.md)

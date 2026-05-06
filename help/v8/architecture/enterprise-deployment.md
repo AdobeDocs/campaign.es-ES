@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 0a6f6701-b137-4320-9732-31946509ee03
 source-git-commit: 3235701e0939466d4275b1e9202f82694ccdb352
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 50%
+source-wordcount: '1073'
+ht-degree: 52%
 
 ---
 
@@ -28,7 +28,7 @@ Este es un cambio fundamental en la arquitectura del software. Ahora, los datos 
 
 El almacenamiento en la nube se realiza en **[!DNL Snowflake]**: una nueva **cuenta externa** integrada garantiza la conectividad con la base de datos en la nube. Está configurado por Adobe y no debe modificarse. [Más información](../config/external-accounts.md)
 
-Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de datos en la nube viene con una extensión de esquema integrada en el área de nombres **xxl.** Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos de [!DNL Campaign] local a la base de datos de [!DNL Snowflake] en la nube y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
+Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de datos en la nube viene con una extensión de esquema integrada en el espacio de nombres xxl.**&#x200B;** Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos de [!DNL Campaign] local a la base de datos de [!DNL Snowflake] en la nube y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
 
 >[!CAUTION]
 >
@@ -55,7 +55,7 @@ La base de datos [!DNL Snowflake] del lado de marketing se usa para:
 * Almacenar todos los datos de clientes: perfiles, datos personalizados como transacciones, productos, ubicaciones, etc.
 * Almacena todos los eventos y datos de comportamiento generados o recopilados por Campaign, como registros de envío, registros de seguimiento, registros push, etc.
 * Almacena todos los agregados de datos de lo anterior.
-* Almacene una copia (h+1) de las tablas de referencia (como envíos, enumeraciones, países, etc.) que se utilizan en flujos de trabajo, campañas e informes.
+* Almacenar una copia (h+1) de las tablas de referencia (como envíos, enumeraciones, países, etc.) que se utilizan en flujos de trabajo, campañas e informes.
 * Ejecutar todos los procesos por lotes y las cargas de trabajo
 
 
@@ -98,7 +98,7 @@ Un flujo de trabajo técnico específico gestiona la replicación de tablas que 
 >[!NOTE]
 >
 > Se han creado varias políticas de replicación en función del tamaño de la tabla (XS, XL, etc.).
-> &#x200B;> Algunas tablas se duplican en tiempo real, mientras que otras lo hacen cada hora. Algunas tablas sufrirán actualizaciones incrementales, mientras que otras se actualizarán por completo.
+> Algunas tablas se duplican en tiempo real, mientras que otras lo hacen cada hora. Algunas tablas sufrirán actualizaciones incrementales, mientras que otras se actualizarán por completo.
 >
 
 [Más información acerca de la replicación de datos](replication.md)

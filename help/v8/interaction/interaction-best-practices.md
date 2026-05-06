@@ -7,8 +7,8 @@ role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
 source-git-commit: 1a0b473b005449be7c846225e75a227f6d877c88
 workflow-type: tm+mt
-source-wordcount: '1166'
-ht-degree: 67%
+source-wordcount: '1173'
+ht-degree: 65%
 
 ---
 
@@ -32,9 +32,9 @@ Esta sección presenta las prácticas recomendadas para administrar el módulo *
    * Simplificar las reglas. La complejidad de las reglas afecta al rendimiento a medida que amplía la búsqueda. Una regla compleja es cualquier regla que tenga más de cinco condiciones.
    * Para aumentar el rendimiento, las reglas se pueden dividir en diferentes filtros predefinidos que se comparten en varias ofertas.
    * Coloque las reglas de la categoría de oferta más restrictivas en la posición más alta posible del árbol. En este caso, ponga en primer lugar el filtro para la mayoría de contactos, reduciendo el número de objetivo y evitará que se procesen más reglas.
-   * Coloque las reglas más pesadas en términos de tiempo o procesamiento en la parte inferior del árbol. De este modo, estas reglas sólo se ejecutarán para los destinatarios restantes.
+   * Coloque las reglas más pesadas en términos de tiempo o procesamiento en la parte inferior del árbol. De este modo, estas reglas sólo se ejecutarán para el público destinatario restante.
    * Comience en una categoría específica para evitar el escaneo del árbol completo.
-   * Para ahorrar tiempo de procesamiento, precalcule se añade en lugar de crear reglas complejas con uniones. Para ello, intente almacenar los datos del cliente en una tabla de referencia que se pueda buscar en reglas de idoneidad.
+   * Para ahorrar tiempo de procesamiento, precalcule se añade en lugar de crear reglas complejas con uniones. Para ello, intente almacenar los datos del cliente en una tabla de referencia que se pueda buscar en reglas de elegibilidad.
    * Utilice un número mínimo de ponderaciones para limitar el número de consultas.
    * Se recomienda tener un número limitado de ofertas por espacio de oferta. Esto garantiza una recuperación más rápida de las ofertas en un espacio determinado.
    * Utilice índices, especialmente en las columnas de búsqueda utilizadas frecuentemente.
@@ -111,7 +111,7 @@ Al utilizar la interacción y seleccionar ofertas manualmente, el usuario puede 
 
 ![](assets/Interaction-best-practices-manual-offer-combined.png)
 
-### Ampliación del esquema nms:offer {#extending-nms-offer-schema}
+### Ampliar el esquema nms:offer {#extending-nms-offer-schema}
 
 Al ampliar el esquema nms:offer, asegúrese de seguir la estructura predeterminada ya configurada:
 * Defina cualquier campo nuevo para almacenamiento de contenido en `<element name="view">`.

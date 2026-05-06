@@ -8,7 +8,7 @@ exl-id: 762dcacc-4aeb-4990-af01-7f793bd69170
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 567ca1cd8fa6e4f03c8871488152710753ea02f1
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '695'
 ht-degree: 5%
 
 ---
@@ -34,7 +34,7 @@ Tenga en cuenta que puede asignar permisos a las carpetas para restringir el acc
 
 * **Defina y aplique una convención de nombres**; por ejemplo, puede asignar un nombre a los flujos de trabajo en orden alfabético, de modo que aparezcan ordenados en orden de ejecución, como:
 
-  A1 - importar destinatarios, comienza a las 10:00;
+  A1 - importar destinatarios, comienza en 10:00;
 A2 - importar tickets, comienza a las 11:00.
 
 ## Crear una carpeta{#create-a-folder}
@@ -76,7 +76,7 @@ En el siguiente ejemplo, crearemos una nueva carpeta para mostrar solo los enví
 
 1. Cree una carpeta **[!UICONTROL Deliveries]** y asígnele el nombre **Envíos de EE. UU.**.
 1. Haga clic con el botón derecho en esta carpeta y seleccione **[!UICONTROL Properties...]**.
-1. En la pestaña **[!UICONTROL Restriction]**, seleccione **[!UICONTROL This folder is a view]**. Eso hace que se muestren todas las entregas de la base de datos.
+1. En la pestaña **[!UICONTROL Restriction]**, seleccione **[!UICONTROL This folder is a view]**. Eso hace que se muestren todos los envíos de la base de datos.
 
    ![](assets/this-folder-is-a-view.png)
 

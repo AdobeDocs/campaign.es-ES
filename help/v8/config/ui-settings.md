@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 9fa6fc42-45be-41db-9b4a-19b3b0c40dcd
 source-git-commit: 2898fe400e9bf53fc2fe8fde26ccc61ec43bc69e
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 47%
+source-wordcount: '1051'
+ht-degree: 45%
 
 ---
 
@@ -78,7 +78,7 @@ También puede utilizar la pantalla de configuración de la lista para añadir y
    >
    >De forma predeterminada, no se muestran los campos avanzados. Para mostrarlos, haga clic en el icono **Mostrar campos avanzados** en la sección inferior derecha de la lista de campos disponibles.
    >
-   >Los campos se identifican mediante iconos específicos: Campos SQL, tablas vinculadas, campos calculados, etc. La descripción de cada campo seleccionado se muestra en la lista de campos disponibles.
+   >Los campos se identifican mediante iconos específicos: campos SQL, tablas vinculadas, campos calculados, etc. La descripción de cada campo seleccionado se muestra en la lista de campos disponibles.
    >
 
 1. Utilice las flechas arriba/abajo para modificar el **orden de visualización**.

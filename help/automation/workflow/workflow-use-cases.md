@@ -7,8 +7,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 6e899937-5ca0-4ca5-bb14-f914e41559ab
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 59%
+source-wordcount: '178'
+ht-degree: 60%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 59%
 
 Conozca los diferentes contextos en los que se pueden utilizar los flujos de trabajo y cómo implementarlos a través de casos de uso de extremo a extremo.
 
-## Envíos {#deliveries}
+## Entregas {#deliveries}
 
 <img src="assets/do-not-localize/icon_send.svg" width="60px">
 
 * [Uso de la actividad de aprobación local](local-approval-activity.md)
 * [Envío de un correo electrónico de cumpleaños](send-a-birthday-email.md)
-* [Carga de contenido de envíos](load-delivery-content.md)
+* [Carga de contenido de entrega](load-delivery-content.md)
 * [Flujo de trabajo de envíos en canales múltiples](cross-channel-delivery-workflow.md)
 * [Enriquecimiento de correo electrónico con campos de datos personalizados](email-enrichment-with-custom-date-fields.md)
 
@@ -53,11 +53,11 @@ Conozca los diferentes contextos en los que se pueden utilizar los flujos de tra
 <img src="assets/do-not-localize/icon_filter.svg" width="60px">
 
 * [Consulta de la tabla de destinatarios](querying-recipient-table.md)
-* [Consulta de la información de envío](query-delivery-info.md)
+* [Información de entrega de la consulta](query-delivery-info.md)
 * [Realizar cálculo agregado](compute-aggregates.md)
-* [Realización de consultas mediante la administración de agrupación](query-grouping-management.md)
+* [Consultas mediante la administración de agrupación](query-grouping-management.md)
 * [Realización de consultas con una relación de varios a varios](query-many-to-many-relationship.md)
-* [Adición de un campo calculado de tipo de lista desglosada](adding-enumeration-type-calculated-field.md)
+* [Adición de un campo calculado de tipo Enumeración](adding-enumeration-type-calculated-field.md)
 * [Creación de un filtro](create-a-filter.md)
 * [Filtro de destinatarios duplicados](filter-duplicated-recipients.md)
 * [Llamar a una variable de instancia en una consulta](javascript-scripts-and-templates.md#calling-an-instance-variable-in-a-query)

@@ -8,13 +8,13 @@ exl-id: c9f5b277-3ad8-4316-94b9-789d37813b8b
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
 source-wordcount: '1135'
-ht-degree: 98%
+ht-degree: 94%
 
 ---
 
 # Introducción al marketing distribuido{#about-distributed-marketing}
 
-Adobe Campaign ofrece una aplicación de **marketing distribuido** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de ventas, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
+Adobe Campaign ofrece una aplicación **Distributed Marketing** para implementar campañas cooperativas entre entidades centrales (sede central, departamentos de marketing, etc.) y entidades locales (puntos de venta, agencias regionales, etc.). Esta cooperación se basa en un espacio de trabajo compartido denominado **[!UICONTROL list of campaign packages]**, donde las entidades locales pueden encontrar plantillas de campañas creadas de forma centralizada y diferentes instancias.
 
 La entidad central proporciona campañas que entidades locales pueden utilizar. Las campañas se materializan mediante paquetes que corresponden a campañas locales o de colaboración. Para utilizar una campaña, la entidad local debe pedirla y se debe aprobar la solicitud.
 
@@ -31,7 +31,7 @@ La entidad central proporciona campañas que entidades locales pueden utilizar. 
   El módulo de Distributed Marketing permite que la entidad central:
 
    * configure paquetes de campañas de marketing para entidades locales,
-   * aumente el grado de autonomía de las entidades locales respecto a la elección de la comunicación para clientes o posibles clientes, así como su segmentación, contenido, etc.
+   * aumente el grado de autonomía de las entidades locales respecto a la elección de la comunicación para clientes o clientes potenciales, así como su segmentación, contenido, etc.
    * administre y controle los costes,
    * gestione una red de agencias.
 
@@ -72,7 +72,7 @@ La entidad central proporciona campañas que entidades locales pueden utilizar. 
 
   Consulte [Creación de una campaña de colaboración](creating-a-collaborative-campaign.md).
 
-**Solicitud de paquetes de campaña**
+**Solicitud de paquetes de campañas**
 
 Si una entidad local se registra para una campaña, esto se convierte en un pedido que reagrupa toda la información relativa a la localización de la campaña.
 
@@ -108,7 +108,7 @@ Para crear una entidad organizativa, haga clic en la carpeta **[!UICONTROL Admin
 
 ![](assets/s_advuser_mkg_dist_local_list.png)
 
-Cada entidad organizativa contiene información de identificación (etiqueta, nombre interno, información de contacto, etc.) y grupos involucrados en el proceso de aprobación. Se definen en la sección **[!UICONTROL Notifications and approvals]** ubicada en la pestaña **[!UICONTROL General]**.
+Cada entidad organizativa contiene información de identificación (etiqueta, nombre interno, información de contacto, etc.) y grupos involucrados en el proceso de aprobación de la solicitud. Se definen en la sección **[!UICONTROL Notifications and approvals]** ubicada en la pestaña **[!UICONTROL General]**.
 
 * Defina un grupo de notificación de paquetes: los operadores de este grupo recibirán una notificación cada vez que se añada un nuevo paquete a la lista de paquetes de campañas y cada vez que una campaña esté disponible.
 * Seleccione el grupo de revisores de la aprobación de solicitudes; es decir, aquellos que se encarguen de aprobar las campañas ordenadas por la entidad local.

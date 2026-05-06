@@ -9,7 +9,7 @@ exl-id: 2c12c45b-4429-4e60-bc96-ff70a95d4c9e
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ La actividad de **SMS entrantes** permite descargar y procesar mensajes de texto
 
 La primera pestaña de la actividad de **Inbound SMS** permite introducir los parámetros de enrutamiento para mensajes SMS e introducir la secuencia de comandos que se ejecutará al recibir cada mensaje. La segunda pestaña le permite asignar una programación a la actividad y la tercera pestaña define las condiciones de caducidad de la actividad.
 
-1. **[!UICONTROL SMS routing]**: Seleccione la cuenta externa que desea utilizar para la recuperación de SMS. Las cuentas externas se configuran a través del nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol. [Más información](../../v8/config/external-accounts.md)
+1. **[!UICONTROL SMS routing]**: Seleccione la cuenta externa que desea utilizar para la recuperación de SMS. Las cuentas externas se configuran en el nodo **[!UICONTROL Administration > Platform > External accounts]** del árbol. [Más información](../../v8/config/external-accounts.md)
 1. **[!UICONTROL Script]**
 1. **[!UICONTROL Schedule]**
 

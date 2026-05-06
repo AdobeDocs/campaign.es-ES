@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: bf4935dd-87dc-4c5c-becf-8c4df61805fd
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1835'
 ht-degree: 92%
 
 ---
@@ -147,7 +147,7 @@ La plantilla de distribución de datos permite limitar el número de registros u
    Se deben introducir los campos siguientes:
 
    * **[!UICONTROL Label]**: etiqueta para la plantilla de distribución.
-   * **[!UICONTROL Targeting dimension]**: introduzca la dimensión objetivo a la que se aplicará la distribución de datos, **[!UICONTROL Recipient]** por ejemplo. Este esquema siempre debe ser compatible con los datos utilizados en el flujo de trabajo de segmentación.
+   * **[!UICONTROL Targeting dimension]**: introduzca la dimensión de segmentación a la que se aplicará la distribución de datos, **[!UICONTROL Recipient]** por ejemplo. Este esquema siempre debe ser compatible con los datos utilizados en el flujo de trabajo de segmentación.
    * **[!UICONTROL Distribution field]**: seleccione un campo mediante la dimensión de segmentación. Por ejemplo, si selecciona el campo **[!UICONTROL Email domain]**, la lista de destinatarios se desglosará por dominio.
    * **[!UICONTROL Distribution type]**: seleccione la forma en que se desglosará el valor de limitación del objetivo en la ficha **[!UICONTROL Distribution]**: **[!UICONTROL Percentage]** o **[!UICONTROL Set]**.
    * **[!UICONTROL Approval storage]**: si usa una actividad [Aprobación local](local-approval.md) en el flujo de trabajo de direccionamiento, introduzca el esquema en el que se almacenarán los resultados de aprobación. Debe especificar un esquema de almacenamiento por esquema de segmentación. Si utiliza el esquema de segmentación **[!UICONTROL Recipients]**, introduzca el esquema de almacenamiento predeterminado **[!UICONTROL Local approval of recipients]**.
@@ -230,6 +230,6 @@ Cada evento entrante debe especificar un objetivo definido por estos parámetros
 * esquema
 * recCount
 
-Este conjunto de tres valores identifica el destino resultante de la exclusión. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
+Este conjunto de tres valores identifica el destino resultante de la exclusión. **[!UICONTROL tableName]** es el nombre de la tabla que registra los identificadores de destinatario, **[!UICONTROL schema]** es el esquema de la población (normalmente, nms:recipient) y **[!UICONTROL recCount]** es el número de elementos de la tabla.
 
 La transición asociada al complemento tiene los mismos parámetros.

@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 90dd2dad-1380-490e-b958-4a28a7d930ed
 source-git-commit: 24ecf598d3d01f7fb59c70e1c8c81e9c086e653e
 workflow-type: tm+mt
-source-wordcount: '1298'
-ht-degree: 53%
+source-wordcount: '1288'
+ht-degree: 52%
 
 ---
 
@@ -77,7 +77,7 @@ En la ventana de creación de campaña, seleccione la plantilla de campaña y a�
 
 Haga clic en **[!UICONTROL OK]** para crear la campaña. Se añade a la programación y a la lista de campañas.
 
-A continuación, puede editar la campaña que acaba de crear y definir sus parámetros. Para abrir y configurar esta campaña, puede:
+Luego puede editar la campaña que acaba de crear y definir sus parámetros. Para abrir y configurar esta campaña, puede:
 
 1. Examine el calendario de campañas, seleccione la campaña que desee visualizar y luego haga clic en el vínculo **[!UICONTROL Open]**.
 1. Examine la pestaña **[!UICONTROL Schedule]** del programa, seleccione la campaña y ábrala.
@@ -103,7 +103,7 @@ Las campañas se crean mediante plantillas de campaña. Puede configurar plantil
 Para cada campaña, están disponibles las siguientes capacidades:
 
 * Documentos y recursos de referencia: puede asociar documentos a la campaña (resumen, informe, imágenes, etc.). Se admiten todos los formatos de documento. [Más información](marketing-campaign-deliveries.md#manage-associated-documents).
-* Definir costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costes de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers-stocks-and-budgets.md#defining-cost-categories).
+* Definir costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costos de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers-stocks-and-budgets.md#defining-cost-categories).
 * Definir objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza posteriormente en los informes de campaña.
 * Administrar direcciones semilla y grupos de control. [Más información](marketing-campaign-deliveries.md#defining-a-control-group).
 * Manage approvals: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](marketing-campaign-approval.md#checking-and-approving-deliveries).
@@ -208,4 +208,4 @@ También puede utilizar el vínculo incluido en los mensajes de notificación. P
 
 Este vídeo muestra cómo crear planes, programas y campañas de marketing.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449899?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3449899?captions=spa&quality=12)

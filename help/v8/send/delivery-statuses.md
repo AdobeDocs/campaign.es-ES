@@ -5,10 +5,11 @@ feature: Monitoring, Deliverability
 role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
-source-git-commit: c4d3a5d3cf89f2d342c661e54b5192d84ceb3a75
+exl-id: 90f2b7b2-db9e-42aa-aef2-e90aee5d208e
+source-git-commit: 0868fa6522f622e9fa18d4acc3606f690550e5b6
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 69%
+source-wordcount: '557'
+ht-degree: 66%
 
 ---
 
@@ -62,7 +63,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
   </tr> 
   <tr> 
    <td> El proveedor de servicios lo tiene en cuenta<br /> </td> 
-   <td> Para las entregas SMS, el proveedor de servicios SMS recibió la entrega.<br /> Para las entregas por correo electrónico, el mensaje se retransmitió correctamente desde Campaign al servidor de correo (MTA).</td> 
+   <td> Para las entregas SMS, el proveedor de servicios SMS recibió la entrega.<br /> En el caso de las entregas de correo electrónico, el mensaje se retransmitió correctamente desde Campaign al servidor de correo (MTA).</td> 
   </tr> 
   <tr> 
    <td> Se ha recibido en dispositivos móviles<br /> </td> 
@@ -70,7 +71,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
   </tr>
   <tr> 
    <td> Enviado al proveedor de servicios<br /> </td> 
-   <td> Se realizó la entrega al proveedor de servicios SMS, pero no se ha recibido todavía.<br />
+   <td> Se realizó la entrega al proveedor de servicios SMS, pero aún no se ha recibido.<br />
    </td> 
   </tr> 
   <tr> 
@@ -109,4 +110,3 @@ Si el envío no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, pu
 * [Envío y monitorización de correos electrónicos](send.md#email-monitoring)
 * [Comprender los errores de envío](delivery-failures.md)
 * [Monitorización del entorno de Campaign](../start/monitor.md#monitor-deliveries)
-

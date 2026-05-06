@@ -7,8 +7,8 @@ level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
 source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 65%
+source-wordcount: '1326'
+ht-degree: 63%
 
 ---
 
@@ -78,7 +78,7 @@ Debe tener en cuenta los siguientes mecanismos de sincronización:
 
 ### Configuración de paquetes {#packages-configuration}
 
-Las extensiones de esquema directamente vinculadas a **interaction** (ofertas, propuestas, destinatarios, etc.) deben implementarse en las instancias de ejecución.
+Cualquier extensión de esquema vinculada directamente a **Interaction** (ofertas, propuestas, destinatarios, etc.) debe implementarse en las instancias de ejecución.
 
 El paquete **Interaction** está instalado en todas las instancias (control y ejecución). Hay dos paquetes adicionales disponibles: un paquete para las instancias de control y otro para cada instancia de ejecución.
 

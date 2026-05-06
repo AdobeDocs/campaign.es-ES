@@ -7,7 +7,7 @@ role: User
 exl-id: 7825426b-c9e4-49e9-840c-dc6d6d836fbe
 source-git-commit: 567c2e84433caab708ddb9026dda6f9cb717d032
 workflow-type: tm+mt
-source-wordcount: '1293'
+source-wordcount: '1297'
 ht-degree: 98%
 
 ---
@@ -228,7 +228,7 @@ Los pasos son los siguientes:
 
    ![](assets/mkg_dist_use_case_form_1.png)
 
-1. En la pestaña de la campaña **[!UICONTROL Edit]**, haga clic en el enlace **[!UICONTROL Advanced campaign parameters...]** para configurarlo como una campaña local. Consulte [Creación de una campaña local (por formulario)](#creating-a-local-campaign--by-form-).
+1. En la pestaña de la campaña **[!UICONTROL Edit]**, haga clic en el enlace **[!UICONTROL Advanced campaign parameters...]** para configurarlo como una campaña local. Consulte [Creación de una campaña local (por formulario) &#x200B;](#creating-a-local-campaign--by-form-).
 
    ![](assets/mkg_dist_use_case_form_2.png)
 

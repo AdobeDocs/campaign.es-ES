@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: cb6094eb-0010-4c62-9589-3b52fd60c2c2
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '3068'
-ht-degree: 64%
+source-wordcount: '3154'
+ht-degree: 65%
 
 ---
 
@@ -50,7 +50,7 @@ Las recomendaciones técnicas se enumeran en [esta sección](https://experiencel
 
 * Si tiene una lista de direcciones no válidas, Adobe recomienda importarlas a la tabla de cuarentenas, a través de **[!UICONTROL Administration]** > **[!UICONTROL Campaign Management]** > **[!UICONTROL Non deliverables Management]** > **[!UICONTROL Non deliverables and addresses]**.
 
-* Los destinatarios cuyas direcciones están en cuarentena se excluyen de forma predeterminada durante el análisis de envío: no están segmentados. Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando la bandeja de entrada está llena o si la dirección no existe.
+* Los destinatarios cuyas direcciones están en cuarentena se excluyen de forma predeterminada durante el análisis de envío: no están segmentados. Esto acelera las entregas, ya que la tasa de error afecta significativamente a la velocidad de entrega. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno o si la dirección no existe.
 Adobe Campaign administra las direcciones erróneas según el tipo de error devuelto. [Más información sobre las cuarentenas](../send/quarantines.md)
 
 * Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores.
@@ -81,13 +81,13 @@ Las plantillas de envíos ofrecen una mayor eficiencia al proporcionar escenario
 
 ### Subdominios y marca {#subdomains-and-branding}
 
-Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco posee el dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo. Obtenga más información acerca de la marca de subdominios en la [documentación de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/es/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
+Cuando se gestionan varias marcas en Adobe Campaign, Adobe recomienda tener un subdominio por marca. Por ejemplo, un banco puede tener varios subdominios correspondientes a cada una de sus agencias regionales. Si un banco es propietario del dominio bluebank.com, sus subdominios pueden ser @ny.bluebank.com, @ma.bluebank.com, @ca.bluebank.com, etc. Tener una plantilla de envíos para cada subdominio le permite utilizar los parámetros preconfigurados adecuados para cada una de sus marcas, lo que evita errores y le ahorra tiempo. Obtenga más información acerca de la marca de subdominios en la [documentación de Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/es/docs/control-panel/using/subdomains-and-certificates/subdomains-branding){target="_blank"}.
 
 ### Configuración de direcciones {#configure-addresses}
 
 Asegúrese de aplicar las siguientes directrices:
 
-* La dirección del remitente es obligatoria para permitir que se envíe un correo electrónico. Algunos ISP (proveedores de servicios de Internet) comprueban la validez de la dirección del remitente antes de aceptar mensajes.
+* La dirección del remitente es obligatoria para permitir que se envíe un mensaje de correo electrónico. Algunos ISP (proveedores de servicios de Internet) comprueban la validez de la dirección del remitente antes de aceptar mensajes.
 * Una dirección mal formada puede resultar en que el servidor receptor la rechace. Debe asegurarse de que se proporciona una dirección correcta.
 * La dirección debe identificar explícitamente al remitente. El dominio debe ser propiedad del remitente y estar registrado en él.
 * Adobe recomienda crear cuentas de correo electrónico que se correspondan con las direcciones especificadas para envíos y respuestas. Consulte con el administrador del sistema de mensajería.
@@ -124,7 +124,7 @@ Para obtener más información sobre tipologías, consulte [esta sección](../..
 
 ### Creación de contenido personalizado {#perso-content}
 
-Para personalizar los mensajes, puede utilizar los datos de destinatarios almacenados en la base de datos o recopilados mediante seguimiento, páginas de aterrizaje, suscripciones, etc. Los conceptos básicos de la personalización se presentan en [esta sección](../send/personalize.md).
+Para personalizar los mensajes, puede utilizar los datos de destinatarios almacenados en la base de datos o recopilados mediante seguimiento, páginas de aterrizaje, suscripciones, etc. Los conceptos básicos de Personalization se presentan en [esta sección](../send/personalize.md).
 
 +++ **Lea algunas prácticas recomendadas**
 
@@ -249,7 +249,7 @@ Estas son algunas directrices específicas para optimizar imágenes para la camp
 
 ### Prevención del bloqueo de imágenes {#image-blocking}
 
-Algunos clientes de correo electrónico bloquean las imágenes de forma predeterminada y los usuarios pueden cambiar su configuración para bloquearlas y ahorrar en el uso de los datos.  Por lo tanto, si las imágenes no se descargan, se puede perder todo el mensaje.
+Algunos clientes de correo electrónico bloquean las imágenes de forma predeterminada y los usuarios pueden cambiar su configuración para bloquearlas y ahorrar en el uso de los datos.  Por lo tanto, si las imágenes no se descargan, se puede perder todo el mensaje.
 
 +++ Para evitarlo, puede aplicar estas prácticas recomendadas
 
@@ -291,11 +291,11 @@ La población objetivo es clave: cree sus listas con cuidado, pruebe sus correos
 
 Cuando tenga preparado el contenido, debe definir cuidadosamente quién recibirá el mensaje.
 
-Para que su envío se realice correctamente, envíe el contenido personalizado más relevante a los destinatarios adecuados. Adobe Campaign le permite crear la población más adecuada: puede seleccionar destinatarios según su edad, ubicación, lo que compraron, si hicieron clic en un vínculo en un envío anterior, etc. Con Adobe Campaign, también puede definir perfiles, grupos de control y direcciones semilla de prueba para asegurarse de que el destinatario es correcto.
+Para que su envío se realice correctamente, envíe el contenido personalizado más relevante a los destinatarios adecuados. Adobe Campaign le permite crear el objetivo más preciso: puede seleccionar destinatarios según su edad, ubicación, lo que compraron, si hicieron clic en un vínculo en una entrega anterior, etc. Con Adobe Campaign, también puede definir perfiles, grupos de control y direcciones semilla de prueba para asegurarse de que el destinatario es correcto.
 
 ### Asignaciones de destino {#target-mappings}
 
-En Campaign, de forma predeterminada, las plantillas de envíos tienen como destino **Destinatarios**. Adobe Campaign ofrece otros destinos de mapeo para las entregas, que puede cambiar según sus necesidades. Por ejemplo, puede enviar a visitantes cuyos perfiles se hayan recopilado a través de redes sociales o a visitantes suscritos a un servicio informativo.
+En Campaign, de forma predeterminada, las plantillas de envíos tienen como destino **Destinatarios**. Adobe Campaign ofrece otras asignaciones de destino para los envíos, que puede cambiar según sus necesidades. Por ejemplo, puede enviar a visitantes cuyos perfiles se hayan recopilado a través de redes sociales o a visitantes suscritos a un servicio informativo.
 
 Estas asignaciones se presentan [en esta sección](../audiences/target-mappings.md).
 
@@ -334,7 +334,7 @@ Las direcciones duplicadas protegen su reputación de envío y garantizan una bu
 
 ## Realice todas las comprobaciones necesarias antes de enviar {#perform-all-checks}
 
-Una vez que el mensaje esté listo, asegúrese de que su contenido se muestra correctamente en todos los dispositivos y no contiene ningún error, como una personalización incorrecta o vínculos rotos. Antes de enviar el mensaje, compruebe que los parámetros y la configuración se adecuan al envío.
+Cuando el mensaje esté listo, asegúrese de que su contenido se muestra correctamente en todos los dispositivos y no contiene ningún error, como por ejemplo de personalización incorrecta o enlaces rotos. Antes de enviar el mensaje, compruebe que los parámetros y la configuración se adecuan al envío.
 
 Los pasos para validar un envío se presentan [en esta sección](../send/preview-and-proof.md).
 
@@ -354,7 +354,7 @@ Learn more [in this section](inbox-rendering.md).
 
 ### Mensajes de prueba {#proof-messages}
 
-El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en distintos dispositivos.
+El envío de pruebas le permite comprobar el vínculo de no participación, la página espejo y cualquier otro vínculo, validar el mensaje, comprobar que se muestran las imágenes, detectar posibles errores, etc. También es posible que desee comprobar el diseño y el procesamiento en diferentes dispositivos.
 
 <!--
 ### Set up A/B testing deliveries {#a-b-testing-deliveries}

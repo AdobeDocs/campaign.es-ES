@@ -7,8 +7,8 @@ level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
 source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
 workflow-type: tm+mt
-source-wordcount: '600'
-ht-degree: 26%
+source-wordcount: '601'
+ht-degree: 28%
 
 ---
 
@@ -88,7 +88,7 @@ Utilice las flechas según corresponda para cambiar la configuración de depurac
 
 Debe asegurarse de que los flujos de trabajo técnicos de las instancias de control y ejecución se hayan iniciado antes de implementar cualquier plantilla de mensaje transaccional.
 
-Se puede acceder a estos flujos de trabajo desde la carpeta **Administration > Production > Message Center**.
+A continuación, se puede acceder a estos flujos de trabajo de archivado desde la carpeta **Administration > Production > Message Center**.
 
 ### Flujos de trabajo de instancias de control {#control-instance-workflows}
 
@@ -106,7 +106,7 @@ En las instancias de ejecución, debe iniciar los siguientes flujos de trabajo t
 
    * **[!UICONTROL Pending]**: el evento está en cola. Aún no se le ha asignado ninguna plantilla de mensaje.
    * **[!UICONTROL Pending delivery]**: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.
-   * **[!UICONTROL Sent]**: este estado se copia desde los registros de envío. Significa que el envío se realizó.
+   * **[!UICONTROL Sent]**: este estado se copia desde los registros de envío. Significa que la entrega se realizó.
    * **[!UICONTROL Ignored by the delivery]**: este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.
    * **[!UICONTROL Delivery failed]**: este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
    * **[!UICONTROL Event not taken into account]**: el evento no se pudo vincular a una plantilla de mensaje. El evento no se va a procesar.

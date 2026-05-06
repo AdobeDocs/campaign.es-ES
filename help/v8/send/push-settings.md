@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1a75f411-3f71-4114-b738-277820dc6138
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 21%
+source-wordcount: '1829'
+ht-degree: 22%
 
 ---
 
@@ -213,7 +213,7 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
    * (Recomendado) **[!UICONTROL Token-based authentication]**: complete la configuración las conexiones APNS **[!UICONTROL Key Id]**, **[!UICONTROL Team Id]** y **[!UICONTROL Bundle Id]** y luego seleccione el certificado p8 haciendo clic en **[!UICONTROL Enter the private key...]**. Para más información sobre **[!UICONTROL Token-based authentication]**, consulte la [documentación de Apple](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_token-based_connection_to_apns){target="_blank"}.
 
-   * **[!UICONTROL Certificate-based authentication]**: haga clic en **[!UICONTROL Enter the certificate...]**, seleccione la clave p12 e introduzca la contraseña que proporcionó el desarrollador de aplicaciones móviles. Tenga en cuenta que este certificado viene con una fecha de caducidad y debe renovarse anualmente. Para evitar interrupciones en el servicio para los usuarios, actualice los certificados antes de que caduquen. Los certificados son válidos durante un año y debe actualizarlos para seguir comunicándose con APNS.
+   * **[!UICONTROL Certificate-based authentication]**: haga clic en **[!UICONTROL Enter the certificate...]**, seleccione la clave p12 e introduzca la contraseña proporcionada por el desarrollador de aplicaciones móviles. Tenga en cuenta que este certificado viene con una fecha de caducidad y debe renovarse anualmente. Para evitar interrupciones en el servicio para los usuarios, actualice los certificados antes de que caduquen. Los certificados son válidos durante un año y debe actualizarlos para seguir comunicándose con APNS.
 
 1. Utilice el botón **[!UICONTROL Test the connection]** para validar la configuración.
 

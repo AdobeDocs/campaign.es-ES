@@ -6,8 +6,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 5014c2ed-2a74-4122-b7b9-d3703db7ab12
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 72%
+source-wordcount: '718'
+ht-degree: 66%
 
 ---
 
@@ -110,7 +110,7 @@ En el ejemplo siguiente, se recopila una lista de información sobre los cliente
 
    Aquí, queremos insertar el género musical favorito del cliente y el tipo de medio (CD o DVD) como se indica en el archivo recopilado por el flujo de trabajo.
 
-   Además, vamos a añadir un cupón para los titulares de la tarjeta de fidelidad. Por ejemplo, para los destinatarios para los que el valor “Tarjeta” sea igual a 1.
+   Además, vamos a añadir un cupón para los titulares de la tarjeta de lealtad. Por ejemplo, para los destinatarios para los que el valor “Tarjeta” sea igual a 1.
 
    ![](assets/wf-targetdata-sample-6.png)
 
@@ -119,7 +119,7 @@ En el ejemplo siguiente, se recopila una lista de información sobre los cliente
 
 ## Actualizar la base de datos {#update-the-database}
 
-Todos los datos recopilados pueden utilizarse para actualizar la base de datos o en las entregas. Por ejemplo, puede enriquecer las opciones de personalización del contenido del mensaje (incluir el número de los contratos en el mensaje, especificar el carro de la compra medio en el último año, etc.) o detallar la población objetivo (enviar un mensaje a los cotitulares del contrato, dirigirse a los 1000 mejores suscriptores de los servicios en línea, etc.). Estos datos también se pueden exportar o archivar en una lista.
+Todos los datos recopilados pueden utilizarse para actualizar la base de datos o en las entregas. Por ejemplo, puede enriquecer las posibilidades de personalización del contenido del mensaje (incluir el número de contratos en el mensaje, especificar el carro de compras promedio durante el último año, etc.) o indique la población objetivo (envíe un mensaje a los cotitulares del contrato, diríjase a los 1000 mejores suscriptores de los servicios en línea, etc.). Estos datos también se pueden exportar o archivar en una lista.
 
 ### Actualizar listas  {#list-updates}
 
@@ -137,6 +137,6 @@ Los datos de la base de datos de Adobe Campaign y de las listas existentes puede
 
   Para obtener más información, consulte [Actualización de datos](update-data.md).
 
-### Administración de suscripciones {#subscription-management}
+### Administración de las suscripciones {#subscription-management}
 
 Para obtener información sobre las suscripciones y las bajas de un servicio informativo para los destinatarios a través de un flujo de trabajo, consulte [Servicios de suscripción](subscription-services.md).

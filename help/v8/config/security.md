@@ -8,7 +8,7 @@ exl-id: 1d593c8e-4b32-4902-93a7-7b18cef27cac
 version: Campaign v8, Campaign Classic v7
 source-git-commit: 04dff810f5a838b2468280519948c88e29acf221
 workflow-type: tm+mt
-source-wordcount: '2865'
+source-wordcount: '2977'
 ht-degree: 52%
 
 ---
@@ -61,7 +61,7 @@ Adobe Campaign forma parte de las soluciones de Adobe Experience Cloud. La forma
 
   >[!NOTE]
   >
-  >Al igual que con todos los productos de Adobe, Campaign recopila información sobre los usuarios de la aplicación y del sitio web. Para obtener más información sobre esto, consulte la Política de privacidad de [Adobe](https://www.adobe.com/privacy/policy.html).
+  >Al igual que con todos los productos de Adobe, Campaign recopila información sobre los usuarios de la aplicación y del sitio web. Para obtener más información sobre esto, consulte la Política de privacidad de [Adobe](https://www.adobe.com/es/privacy/policy.html).
 
 * **Uso de Adobe Experience Cloud para recopilar información**
 
@@ -179,7 +179,7 @@ Las regulaciones como el reglamento general de protección de datos (RGPD) estab
 
 ### Seguimiento de mensajes {#message-tracking}
 
-Adobe Campaign le permite rastrear los correos electrónicos enviados y el comportamiento de los destinatarios de envío: abrir, hacer clic en vínculos, cancelar suscripciones, etc. Para obtener más información, consulte [Acerca de los mensajes](../start/gs-message.md).
+Adobe Campaign permite rastrear los correos electrónicos enviados y el comportamiento de los destinatarios de envío: abrir, hacer clic en vínculos, cancelar suscripciones, etc. Para obtener más información, consulte [Acerca de los mensajes](../start/gs-message.md).
 
 Para ello, agregue vínculos de seguimiento a sus mensajes para medir el impacto del comportamiento de envío y destinatario en la pestaña Seguimiento del panel de envío. El seguimiento de datos se interpreta en el informe Seguimiento de indicadores. Para obtener más información sobre el seguimiento, consulte [esta página](../send/tracking.md).
 

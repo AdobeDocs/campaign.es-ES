@@ -8,8 +8,8 @@ badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
 source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 16%
+source-wordcount: '1424'
+ht-degree: 18%
 
 ---
 
@@ -127,11 +127,11 @@ Después de crear el servicio, debe definir las aplicaciones móviles que lo uti
 
 Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
-1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an iOS application]**. Haga clic en **[!UICONTROL Next]**.
+1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an iOS application]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/push-config-6.png)
 
-1. En la ventana **[!UICONTROL Launch app configurations list]**, seleccione la superficie de aplicación creada anteriormente en esta sección. Haga clic en **[!UICONTROL Next]**.
+1. En la ventana **[!UICONTROL Launch app configurations list]**, seleccione la superficie de aplicación creada anteriormente en esta sección. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/push-config-7.png)
 
@@ -164,7 +164,7 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
 1. Seleccione el icono del campo **[!UICONTROL Application icon]** para personalizar la aplicación móvil en el servicio.
 
-1. Haga clic en **[!UICONTROL Next]** para comenzar a configurar la aplicación de producción y siga los mismos pasos detallados anteriormente. Tenga en cuenta que no puede usar el mismo **[!UICONTROL Integration key]** para la versión de desarrollo (entorno limitado) y la versión de producción de la aplicación.
+1. Haga clic en **[!UICONTROL Next]** para configurar la aplicación de producción y siga los mismos pasos detallados anteriormente. Tenga en cuenta que no puede usar el mismo **[!UICONTROL Integration key]** para la versión de desarrollo (entorno limitado) y la versión de producción de la aplicación.
 
 1. Haga clic en **[!UICONTROL Finish]**.
 
@@ -174,7 +174,7 @@ La aplicación de iOS ya está lista para su uso en Campaign.
 
 Para crear una aplicación para dispositivos Android, siga estos pasos:
 
-1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an Android application]**. Haga clic en **[!UICONTROL Next]**.
+1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an Android application]**. Haga clic **[!UICONTROL Next]**.
 
    ![](assets/push-config-10.png)
 
@@ -217,7 +217,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 1. En la página de inicio de la recopilación de datos, acceda al menú Etiquetas.
 
-1. Haga clic en **[!UICONTROL New Property]**.
+1. Haga clic **[!UICONTROL New Property]**.
 
    ![](assets/push-config-13.png)
 
@@ -252,7 +252,7 @@ Su propiedad móvil ahora se sincronizará automáticamente con el flujo de trab
 
 ## Añada Campaign Classic a su aplicación móvil {#campaign-mobile-app}
 
-El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la IU de recopilación de datos para una configuración flexible e integraciones ampliables basadas en reglas.
+El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas.
 
 [Obtenga más información en la documentación de Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 

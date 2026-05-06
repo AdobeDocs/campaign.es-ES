@@ -7,7 +7,7 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1de622bc-967b-403b-86e0-2ad32cb432e3
 source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 100%
 
 ---
@@ -30,6 +30,6 @@ Las actividades **[!UICONTROL Start]** y **[!UICONTROL End]** permiten marcar de
 
   ![](assets/s_user_segmentation_end.png)
 
-  Los datos de la tabla de trabajo se eliminan automáticamente cuando se activa la actividad final. Si no es necesario y para evitar cargas innecesarias, puede optar por deshabilitar la transición en la última salida de actividad. Por ejemplo, en una salida de envío, si no hay ningún proceso programado, anule la selección de la opción correspondiente como se muestra a continuación:
+  Los datos de la tabla de trabajo se eliminan automáticamente cuando se habilita la actividad final. Si no es necesario y para evitar cargas innecesarias, puede optar por deshabilitar la transición en la última salida de actividad. Por ejemplo, en una salida de envío, si no hay ningún proceso programado, anule la selección de la opción correspondiente como se muestra a continuación:
 
   ![](assets/s_advuser_delivery_option_no_output.png)

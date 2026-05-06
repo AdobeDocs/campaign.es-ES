@@ -7,7 +7,7 @@ level: Intermediate
 exl-id: c1deb0a1-aeba-4813-b674-a6a164b98b02
 source-git-commit: f577ee6d303bab9bb07350b60cf0fa6fc9d3a163
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '681'
 ht-degree: 56%
 
 ---
@@ -85,7 +85,7 @@ Los estados posibles son:
 
 * **Envío pendiente**
 El evento se procesó y la plantilla de envíos está vinculada. El correo electrónico está pendiente de envío y se aplica el proceso de entrega clásico. Abra la entrega para obtener más información.
-* **Enviado**, **Ignorado** y **Error de envío**
+* **Se envió**, **Se ignoró** y **Error de envío**
 Estos estados de envío se recuperan mediante el flujo de trabajo **updateEventsStatus**. Para obtener más información, se puede abrir la entrega correspondiente.
 * **Evento no cubierto**
 Error en la fase de enrutamiento de la mensajería transaccional. Por ejemplo, Adobe Campaign no encontró el correo electrónico que actúa como plantilla para el evento.

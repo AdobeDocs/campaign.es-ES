@@ -8,8 +8,8 @@ version: Campaign v8, Campaign Classic v7
 exl-id: 1bd8d3e7-aaa9-4e00-96bb-0d30614ab380
 source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 55%
+source-wordcount: '998'
+ht-degree: 53%
 
 ---
 
@@ -60,7 +60,7 @@ El vínculo **[!UICONTROL Advanced campaign parameters...]** permite habilitar y
 
 ![](assets/campaign-template-select-modules.png)
 
-Si no se selecciona una funcionalidad, los elementos relacionados con el proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña y las pestañas disponibles coinciden con las funcionalidades seleccionadas en la plantilla. Por ejemplo, si la funcionalidad **Gastos y objetivos** no está habilitada, la pestaña **[!UICONTROL Budget]** correspondiente no se muestra en las campañas basadas en esta plantilla.
+Si no se selecciona una funcionalidad, los elementos correspondientes del proceso (menús, iconos, opciones, pestañas, subpestañas, etc.) no aparecen en la interfaz de la plantilla ni en las campañas basadas en esta plantilla. Las pestañas a la izquierda de los detalles de la campaña y las pestañas disponibles coinciden con las funcionalidades seleccionadas en la plantilla. Por ejemplo, si la funcionalidad **Gastos y objetivos** no está habilitada, la pestaña **[!UICONTROL Budget]** correspondiente no se muestra en las campañas basadas en esta plantilla.
 
 Además, los accesos directos a las ventanas de configuración se añaden al panel de control de campañas. Cuando una funcionalidad está habilitada, un vínculo directo le permite acceder a ella desde el panel de control de campañas.
 
@@ -121,7 +121,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
 * **Direcciones semilla**
 
-  Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o por separado para cada campaña.
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña.
 
   ![](assets/template-activate-2.png)
 
@@ -139,7 +139,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
 * **Establecimiento de objetivos y flujos de trabajo**
 
-  Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar por separado para cada campaña basada en esta plantilla. Obtenga más información sobre los flujos de trabajo de campañas en [esta sección](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
+  Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar individualmente para cada campaña basada en esta plantilla.Obtenga más información acerca de los flujos de trabajo de campañas en [esta sección](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
 
   ![](assets/template-activate-5.png)
 
