@@ -286,7 +286,7 @@ En este ejemplo, 0x001E es la etiqueta del campo opcional y UUID es el valor del
 
 Para capturar este valor, ahora puede establecer la siguiente regex en la regex de Extracción del ID en el campo SR:
 
-\b0x001E:([0-9a-f][-[0-9a-f][-{4}0-9a-f]{4}-[0-9a-f]{4}-{8}0-9a-f]{12})\b
+\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
 
 >[!IMPORTANT]
 >
