@@ -5,10 +5,10 @@ feature: SMS
 role: User
 level: Intermediate
 exl-id: 1f941b35-c7e0-4e8c-b6e5-a1a3e5354483
-source-git-commit: 6f29a7f157c167cae6d304f5d972e2e958a56ec8
+source-git-commit: fc0a610a2215db3bfc15c5df3a1a7d1d30783545
 workflow-type: tm+mt
-source-wordcount: '3682'
-ht-degree: 26%
+source-wordcount: '3659'
+ht-degree: 27%
 
 ---
 
@@ -280,13 +280,13 @@ Si se selecciona, el contenido de los campos opcionales se anexará al texto pro
 
 Por ejemplo, es posible que desee capturar el ID en el campo recipient_message_id. Para ello, habilite esta casilla de verificación y el siguiente texto se agrega al estado:
 
-0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739
+`0x001E:05e3299e-8d37-49d0-97c6-8e4fe60c7739`
 
 En este ejemplo, 0x001E es la etiqueta del campo opcional y UUID es el valor del campo.
 
 Para capturar este valor, ahora puede establecer la siguiente regex en la regex de Extracción del ID en el campo SR:
 
-\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b
+`\b0x001E:([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})\b`
 
 >[!IMPORTANT]
 >
