@@ -3,10 +3,10 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-source-git-commit: c9098683077d4a01e269801b4434fcf5eb1f90a4
+source-git-commit: 4a3e6cf15b1877e6eb4e13fdee056356eab267c5
 workflow-type: tm+mt
-source-wordcount: '1214'
-ht-degree: 8%
+source-wordcount: '1747'
+ht-degree: 6%
 
 ---
 
@@ -16,11 +16,11 @@ En esta página se indican las nuevas funciones, mejoras y correcciones que se i
 
 ## Versión 8.9.2 {#release-8-9-2}
 
-_11 de marzo de 2026_
-
 >[!CAUTION]
 >
 > La actualización de la consola de cliente es obligatoria. Obtenga información sobre cómo actualizar la consola de cliente en esta [página](../start/connect.md#upgrade-ac-console).
+
+_3 de mayo de 2026_
 
 ### Mejoras de seguridad {#security-8-9-2}
 
@@ -28,11 +28,68 @@ _11 de marzo de 2026_
 
 ### Correcciones {#fixes-8-9-2}
 
+>[!NOTE]
+>
+> Las correcciones enumeradas a continuación se han implementado progresivamente en versiones sucesivas de 8.9.2. Vaya al **[!UICONTROL Help > About...]** [menú](upgrades.md#version) para comprobar que dispone de la última versión de 8.9.2 (11d1c68). Póngase en contacto con su representante de Adobe para obtener más información.
+
 * Se ha corregido un problema por el cual las fechas de los eventos en eventos transaccionales se configuraban incorrectamente debido a un problema de conversión de tipo de datos, lo que provocaba fechas incorrectas en el sistema de informes dinámico. (NEO-93923)
 * Se ha corregido un problema por el cual las notificaciones push silenciosas de Android y iOS fallaban durante la preparación de la entrega cuando los campos de título y cuerpo estaban vacíos. (NEO-93739)
 * Se ha corregido un problema que impedía que el campo de idioma se capturara para tokens de registro de aplicaciones de Android debido a claves de reconciliación incorrectas. (NEO-93100)
 * Se ha corregido un problema en el cual la preparación de la entrega fallaba al aplicar reglas de tipología personalizadas con reglas de presión. (NEO-94457)
 * Se ha corregido un problema en el cual la consola del cliente podía experimentar errores de procesamiento de solicitudes HTTP. (NEO-94071)
+
+<!-- BUILD 8.9.2.9829.9669833 -->
+
+* La supervisión de FDA ahora está deshabilitada de forma predeterminada para evitar errores de inserción del registro de conexión. (NEO-94841)
+* Se ha corregido un problema en el cual las llamadas de interacción de SOAP utilizadas para el canje de ofertas podían fallar con un error de resolución de área de nombres. (NEO-94787)
+<!-- infra * Fixed an issue where Snowflake connections using private key authentication could fail on ARM64 architectures. (NEO-94350) -->
+* Se corrigió un problema en el cual los campos de cadena con longitud 1 podrían causar errores de SQL en las tablas temporales de flujo de trabajo en PostgreSQL 17. (NEO-94487)
+<!-- linked to previous build * Fixed an issue where the server could fail to restart after a Debian 13 build upgrade due to a missing dependency. (NEO-94598) -->
+
+<!-- BUILD 8.9.2.9829.c90aa36 -->
+
+* Se corrigió un problema en el cual la opción **Mostrar página espejo** en la consola del cliente y la interfaz de usuario web podría devolver un error de &quot;Página espejo incorrecta&quot;. (NEO-93303)
+
+<!-- BUILD 8.9.2.9830.4a6f868 -->
+
+* Se ha corregido un problema en el cual el flujo de trabajo técnico predeterminado **Tracking** podía fallar después de la instalación de un paquete multivariable en implementaciones de FDAC. (NEO-94972)
+* Se ha corregido un problema en el cual la preparación de la entrega podría no agregar ningún destinatario al objetivo cuando la plantilla de entrega utilizaba una fórmula de peso que hacía referencia a la entrega actual. (NEO-94892)
+<!-- hotfix -->
+* Se ha corregido un problema en el cual los enriquecimientos de flujo de trabajo mediante uniones en dos vínculos 1-N consecutivos podían fallar con errores SQL después de una actualización. (NEO-94893)
+
+<!-- BUILD 8.9.2.9831.f53d3d2 -->
+
+* Se ha corregido un problema en la canalización de correo electrónico que podría provocar un consumo excesivo de memoria a lo largo del tiempo. (NEO-95088)
+* Se ha corregido un problema en el cual la regla de tipología de correo electrónico en conflicto podía excluir incorrectamente los destinatarios no duplicados de un destino de entrega cuando se utilizaban direcciones semilla o de prueba. (NEO-95026)
+* Se ha corregido un problema en el cual el flujo de trabajo técnico predeterminado de **Notificación de oferta** podía fallar después de una actualización. (NEO-95064)
+* Se ha mejorado el proceso de instalación del paquete multivariable para evitar el seguimiento de los errores del flujo de trabajo durante las actualizaciones de la compilación. (NEO-95018)
+
+<!-- BUILD 8.9.2.9831.11d1c68 -->
+
+* Se ha corregido un problema que podía provocar que el servidor se bloqueara repetidamente, lo que provocaba interrupciones en la instancia. (NEO-95304)
+* Se ha corregido un problema en el cual los vínculos de seguimiento y de página espejo no podían cargar los envíos. (NEO-95239)
+* Se ha corregido un problema que podría provocar un bucle de redireccionamiento al iniciar sesión en aplicaciones web de Campaign protegidas con el inicio de sesión único de IMS. (NEO-95188)
+* Se ha corregido un problema en el cual la fecha de creación de la entrega faltaba en los archivos de extracción de la entrega después de guardar la entrega. (NEO-95010)
+* Se corrigió un problema en el cual los flujos de trabajo secundarios generados en gran volumen podían permanecer atascados en el estado **En proceso de edición**, lo que reducía la capacidad del flujo de trabajo transaccional. (NEO-95131)
+* Se ha corregido un problema en el cual la actividad **Leer lista** podía sobrescribir plantillas de lista predefinidas con estructuras de lista generadas por el flujo de trabajo, lo que provocaba errores en los flujos de trabajo descendentes. (NEO-95103)
+* Se ha corregido un problema en el cual la administración de comentarios de notificaciones push podía provocar que el servidor se bloqueara al procesar envíos de gran volumen. (NEO-95150)
+* Se corrigió un problema en el cual al abrir la pestaña **Data** en el esquema `xtk:workflow` en el explorador de esquemas se podía almacenar en déclencheur un mensaje de error. (NEO-94923)
+<!-- hotfixes -->
+* Se ha corregido un problema en el cual la actividad **Enrichment** ya no podía recuperar atributos de salida de actividades **Subworkflow** de flujo ascendente, lo que provocaba que fallaran los flujos de trabajo. (NEO-95151)
+* Se ha corregido un problema de ingesta de datos de seguimiento que podía impedir las actualizaciones de estado de entrega y bloquear el procesamiento descendente de mensajes. (NEO-94666)
+* Se ha corregido un problema en el cual ciertas acciones de la consola del cliente relacionadas con las propuestas de ofertas podían almacenar en déclencheur consultas de larga ejecución en bases de datos de Snowflake, lo que provocaba bloqueos y lentitud. (NEO-92936)
+* Se ha corregido un problema que impedía configurar las opciones personalizadas para almacenar claves cifradas en cuentas externas de Snowflake. (NEO-93302)
+
+<!-- 
+Internal/non-customer-facing:
+* Internal test automation task added to cover NEO-94893. (NEO-94990) — autotest only
+Customer-specific hotfixes:
+* Fixed an issue affecting WhatsApp delivery preparation. (NEO-92480) — HeroMotoCorp only
+* Added a feature-flagged optimization to use dynamic shared memory in Customer Targeting Audience (CTA) processing. (NEO-93542) — DerTour only
+* Fixed an issue where the delivery alerting workflow could fire incorrect "long start pending" notifications even when deliveries were sent within the configured threshold. (NEO-93434) — non-ZDT hotfix, NORC only
+* Added a new parameter in the mobile SDK to allow identification of the source instance for push notifications. (NEO-94650) — ICICI only
+* Fixed an issue with the custom send time feature on the Web UI where deliveries waited until the contact date and time to execute instead of executing at the equivalent local time per recipient timezone, breaking parity with Campaign Standard behavior. (NEO-94762) — H&M only (in progress at time of writing)
+-->
 
 ## Versión 8.9.1 {#release-8-9-1}
 
@@ -48,12 +105,12 @@ El **nuevo conector de envío de SMS** ya está disponible para todos los client
 
 Esta versión incorpora un conjunto de funcionalidades disponibles con la interfaz de usuario web de Campaign:
 
-* [Funciones de envío multilingües (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=es){target="_blank"}
-* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=es){target="_blank"}
-* [Copias de Adobe Experience Manager en vivo y de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=es){target="_blank"}
-* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=es){target="_blank"}
-* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=es){target="_blank"}
-* [Administración de aprobación de campaña](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=es){target="_blank"}
+* [Funciones de envío multilingües (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Copias de Adobe Experience Manager en vivo y de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Administración de aprobación de campaña](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es){target="_blank"} de la IU web de Campaign
 
