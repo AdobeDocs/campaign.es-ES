@@ -69,6 +69,6 @@ Un envío continuo creará un envío ÚNICO y registros de envío (broadLog) y r
 
 Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 
->[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/27514?captions=spa&quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.

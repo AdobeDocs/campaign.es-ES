@@ -33,7 +33,7 @@ Puede crear una lista con la actividad **Actualizar lista** en un flujo de traba
 
 Vea este vídeo para obtener más información sobre la administración de listas en Adobe Campaign.
 
->[!VIDEO](https://video.tv.adobe.com/v/334909?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3426458?captions=spa&quality=12)
 
 
 ## Creación de una lista de contactos {#create-a-list-of-contacts}
