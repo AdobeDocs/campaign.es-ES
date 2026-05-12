@@ -6,9 +6,12 @@ feature: Workflows
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 2bb3443c-37d8-4d49-9be1-81217f56823c
-source-git-commit: 4cbccf1ad02af9133d51933e3e0d010b5c8c43bd
+TQID: https://experienceleague.adobe.com/Mgo8JMtAXLW86GgkEsoVTtMSfUUKPsp-G9lL0p9JBg8
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: 540
 ht-degree: 100%
 
 ---
@@ -47,7 +50,7 @@ Para crear este ejemplo, aplique los pasos siguientes:
 
    ![](assets/uc_enrichment_4.png)
 
-1. Haga clic en **[!UICONTROL Finish]**. A continuación, en la pestaña **[!UICONTROL General]** de su actividad **[!UICONTROL Split]**, haga clic en **[!UICONTROL Generate complement]** en la categoría **[!UICONTROL Results]**.
+1. Haga clic **[!UICONTROL Finish]**. A continuación, en la pestaña **[!UICONTROL General]** de su actividad **[!UICONTROL Split]**, haga clic en **[!UICONTROL Generate complement]** en la categoría **[!UICONTROL Results]**.
 
    Con el resultado **[!UICONTROL Complement]**, puede añadir una actividad de envío o actualizar una lista. Aquí, agregamos una actividad **[!UICONTROL End]**.
 
@@ -82,7 +85,7 @@ Ahora necesita configurar su actividad **[!UICONTROL Enrichment]**:
 
    ![](assets/uc_enrichment_12.png)
 
-1. Haga clic en **[!UICONTROL Ok]**. El enriquecimiento está listo.
+1. Haga clic **[!UICONTROL Ok]**. El enriquecimiento está listo.
 
 Después de la actividad de **[!UICONTROL Enrichment]** puede agregar una entrega. En este caso, agregamos una entrega por correo electrónico para enviar a los destinatarios una oferta especial con fechas de validez para los clientes que celebran su cumpleaños ese mes.
 

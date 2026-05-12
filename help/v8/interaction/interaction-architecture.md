@@ -5,9 +5,14 @@ feature: Interaction, Offers
 role: Developer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-source-git-commit: 00d9c3229b7bbabfec3b1750ae84978545fdc218
+TQID: https://experienceleague.adobe.com/KikEyxXS3iB2EJUMm7D4XOxXRzflBGVlewWTvuu5LzA
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
 workflow-type: tm+mt
-source-wordcount: '1326'
+source-wordcount: 1326
 ht-degree: 63%
 
 ---
@@ -84,7 +89,7 @@ El paquete **Interaction** está instalado en todas las instancias (control y ej
 
 >[!NOTE]
 >
->Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Este tipo de datos se encuentra detallado en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=es#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Este tipo de datos se encuentra detallado en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La duración de la retención de datos se configura en cada instancia (a través de la ventana **[!UICONTROL Data purge]** del asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de elegibilidad que se van a calcular.
 
