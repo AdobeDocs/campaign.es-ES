@@ -6,7 +6,7 @@ role: Developer
 level: Intermediate
 badge: label="Disponibilidad limitada" type="Informative"
 exl-id: 0f22b17c-ed01-4add-8300-8689b8a9f963
-source-git-commit: 52ea7f0a7690ef656568cc75925b9982e1f475e9
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: '1424'
 ht-degree: 18%
@@ -105,7 +105,7 @@ Para crear un servicio para enviar notificaciones push, siga los pasos a continu
 
 1. Vaya a la ficha **[!UICONTROL Profiles and Targets > Services and Subscriptions]** y haga clic en **[!UICONTROL Create]**.
 
-   ![](assets/push-config-4.png){width="800" align="left"}
+   ![](assets/push-config-4.png){width="800"}
 
 1. Escriba **[!UICONTROL Label]** y **[!UICONTROL Internal name]** y seleccione un tipo **[!UICONTROL Mobile application]**.
 
@@ -127,11 +127,11 @@ Después de crear el servicio, debe definir las aplicaciones móviles que lo uti
 
 Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
-1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an iOS application]**. Haga clic **[!UICONTROL Next]**.
+1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an iOS application]**. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/push-config-6.png)
 
-1. En la ventana **[!UICONTROL Launch app configurations list]**, seleccione la superficie de aplicación creada anteriormente en esta sección. Haga clic **[!UICONTROL Next]**.
+1. En la ventana **[!UICONTROL Launch app configurations list]**, seleccione la superficie de aplicación creada anteriormente en esta sección. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/push-config-7.png)
 
@@ -174,7 +174,7 @@ La aplicación de iOS ya está lista para su uso en Campaign.
 
 Para crear una aplicación para dispositivos Android, siga estos pasos:
 
-1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an Android application]**. Haga clic **[!UICONTROL Next]**.
+1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an Android application]**. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/push-config-10.png)
 
@@ -217,7 +217,7 @@ A continuación se muestran los nombres de carga útil de FCM para personalizar 
 
 1. En la página de inicio de la recopilación de datos, acceda al menú Etiquetas.
 
-1. Haga clic **[!UICONTROL New Property]**.
+1. Haga clic en **[!UICONTROL New Property]**.
 
    ![](assets/push-config-13.png)
 
