@@ -15,7 +15,7 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 693
 ht-degree: 52%
@@ -64,7 +64,7 @@ Para preparar la entrega, asegúrese de que se han definido el contenido y el ob
    * El icono amarillo indica un error de procesamiento no crítico.
    * Un icono rojo indica un error crítico que impide realizar el envío.
 
-   ![](assets/delivery-analysis-results.png){width="800" align="left"}
+   ![](assets/delivery-analysis-results.png){width="800"}
 
 1. Haga clic en **[!UICONTROL Close]** para corregir los errores. Después de realizar los cambios, reinicie el análisis haciendo clic en **[!UICONTROL Analyze]**.
 
@@ -80,7 +80,7 @@ Para preparar la entrega, asegúrese de que se han definido el contenido y el ob
 
 Vaya a la pestaña **[!UICONTROL Analysis]** de las propiedades de entrega para definir la configuración de la preparación del mensaje durante la fase de análisis.
 
-![](assets/delivery-properties-analysis-tab.png){width="800" align="left"}
+![](assets/delivery-properties-analysis-tab.png){width="800"}
 
 Esta pestaña proporciona acceso a las siguientes opciones:
 

@@ -14,7 +14,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 707
 ht-degree: 16%
@@ -61,11 +61,11 @@ El tipo de destino de prueba está seleccionado en la lista desplegable **[!UICO
 
   De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se puede seleccionar un destinatario específico del destino principal mediante el icono **[!UICONTROL Detail]**.
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution-details.png){width="800"}
 
   Elija la opción **[!UICONTROL Select a profile (must be included in the target)]** y seleccione un destinatario.
 
-  ![](assets/target-of-proofs-substitution.png){width="800" align="left"}
+  ![](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * Utilice la opción **[!UICONTROL Seed addresses]** para usar las direcciones semilla como destino de prueba. Estas direcciones pueden importarse desde un archivo o introducirse manualmente.
@@ -86,7 +86,7 @@ Para enviar pruebas de mensajes, siga los pasos a continuación:
 1. En la ventana **[!UICONTROL Send a proof]**, compruebe los destinatarios de prueba.
 1. Haga clic en **[!UICONTROL Analyze]** para iniciar la preparación del mensaje de prueba.
 
-   ![](assets/send-proof-analyze.png){width="800" align="left"}
+   ![](assets/send-proof-analyze.png){width="800"}
 
 1. Una vez completada la preparación del envío, use **[!UICONTROL Confirm delivery]** para empezar a enviar mensajes de prueba.
 
@@ -108,7 +108,7 @@ Las propiedades de prueba se establecen en la pestaña **[!UICONTROL Advanced]**
 
 De manera predeterminada, los mensajes de prueba se identifican mediante la mención `Proof #N` en el asunto, donde `N` es el número de prueba. Este número se incrementa con cada análisis de entrega de prueba. Puede cambiar el prefijo `proof` según sea necesario.
 
-![](assets/proof-parameters.png){width="800" align="left"}
+![](assets/proof-parameters.png){width="800"}
 
 
 ## Vídeos explicativos {#video-proof}

@@ -12,9 +12,9 @@ topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 531670de4c2f740e4f0a4b96049b23eb8000e40d
 workflow-type: tm+mt
-source-wordcount: 1946
+source-wordcount: 1936
 ht-degree: 88%
 
 ---
@@ -96,7 +96,9 @@ Para optimizar la seguridad, los tokens de seguridad se han eliminado de las dir
 * Este cambio solo se aplica a las direcciones URL de GET. Otros tipos, incluidas las direcciones URL de POST, no se ven afectados.
 * Si utiliza un código personalizado, los tokens de seguridad ya no se recuperan del parámetro del token de seguridad de URL de GET. Debe generar un nuevo token de seguridad utilizando el siguiente código JSSP:
 
-  ```getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);```
+  ```
+  getNewSecurityToken(jsspContext.getSessionToken(), jsspContext.getSecurityToken(), true);
+  ```
 
   También puede utilizar la API de inicio de sesión para recuperar tokens de seguridad.
 * No hay cambios en la administración de tokens de sesión.

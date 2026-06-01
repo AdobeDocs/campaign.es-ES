@@ -17,7 +17,7 @@ topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 435
 ht-degree: 56%
@@ -34,7 +34,7 @@ Aunque la mayoría de los clientes de correo electrónico procesan las imágenes
 
 La página espejo generada por Adobe Campaign contiene todos los datos de personalización.
 
-![ejemplo de vínculo espejo](assets/mirror-page-link.png){width="600" align="left"}
+![ejemplo de vínculo espejo](assets/mirror-page-link.png){width="600"}
 
 ## Añadir un vínculo a la página espejo {#link-to-mirror-page}
 
@@ -42,7 +42,7 @@ Se recomienda insertar un vínculo a la página espejo. Este vínculo puede ser,
 
 En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante el **bloque de personalización** específico. El bloque de personalización integrado **Vínculo a página espejo** inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="800" align="left"}
+![](assets/mirror-page-insert.png){width="800"}
 
 
 Para obtener más información sobre cómo insertar bloques de contenido personalizado, consulte [Bloques de personalización](personalization-blocks.md).
@@ -56,7 +56,7 @@ Puede controlar el modo de generación de la página espejo del correo electrón
 1. Vaya a la pestaña **[!UICONTROL Validity]** de las propiedades de correo electrónico.
 1. En la sección **Administración de páginas espejo**, marque la lista desplegable **[!UICONTROL Mode]**.
 
-![](assets/mirror-page-generation.png){width="800" align="left"}
+![](assets/mirror-page-generation.png){width="800"}
 
 Además del modo predeterminado, están disponibles las siguientes opciones:
 
@@ -74,6 +74,6 @@ Para acceder a esta página espejo:
 
 1. Seleccione un destinatario y haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
-   ![](assets/mirror-page-display.png){width="800" align="left"}
+   ![](assets/mirror-page-display.png){width="800"}
 
    La página espejo se muestra en una pantalla dedicada, con datos de personalización para el destinatario seleccionado.

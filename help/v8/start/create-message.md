@@ -15,7 +15,7 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 01596f03cb299f30a0a32e7095c62c6ce9c40259
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 93%
@@ -97,7 +97,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 1. Seleccione la [asignación de público destinatario](../audiences/target-mappings.md) en la lista desplegable **[!UICONTROL Target mapping]**.
 1. Haga clic en el botón **[!UICONTROL Add]** para definir los filtros de restricción.
 
-   ![](assets/target-type.png){width="60%" align="left" zoomable="yes"}
+   ![](assets/target-type.png){width="60%" zoomable="yes"}
 
    Seleccione un tipo de filtro y haga clic en **[!UICONTROL Next]** para definir las condiciones. Puede mostrar los destinatarios filtrados en la pestaña **[!UICONTROL Preview]**. En función del tipo de público destinatario, el botón **[!UICONTROL Refine target]** le permite combinar varios criterios de segmentación.
 
