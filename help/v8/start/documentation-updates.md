@@ -12,7 +12,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: b285c321f3b905150b31621941ea99608d627739
 workflow-type: tm+mt
 source-wordcount: 275
 ht-degree: 100%
@@ -56,3 +56,4 @@ Se ha añadido una nota para especificar cómo borrar variables de instancia al 
 
 * Se ha añadido información sobre cómo se define el campo Dirección postal predeterminado para el correo directo y por qué es importante asegurarse de que las direcciones estén completas. [Más información](../send/direct-mail.md)
 * Se ha rediseñado la página de [inicio de la documentación](../campaign-home.md) de la versión 8 de Adobe Campaign.
+
