@@ -7,19 +7,13 @@ hide: true
 level: Beginner, Intermediate
 exl-id: 7cebcde0-c5a8-4b9b-baba-27a62bebde91
 TQID: https://experienceleague.adobe.com/dCe9loow9GAK5YIKzwwcZVS94JtDiEhg0p5QUCBd-So
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: c1579802-ddd4-4214-8a91-97b2066abe11
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: b285c321f3b905150b31621941ea99608d627739
 workflow-type: tm+mt
-source-wordcount: 279
+source-wordcount: 273
 ht-degree: 8%
 
 ---
@@ -30,11 +24,11 @@ ht-degree: 8%
 >
 >Esta documentación es para Adobe Campaign 8.7.2 y posterior.
 >
->Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
+>Para las versiones anteriores, lea la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-messages-on-mobiles/sms-set-up/sms-set-up).
 
 En una instancia independiente, la entrega de un SMS requiere lo siguiente:
 
-1. Cuenta externa **1&rbrace; que especifica un conector y el tipo de mensaje, [obtenga más información aquí](#external-account)**
+1. Cuenta externa **1} que especifica un conector y el tipo de mensaje, [obtenga más información aquí](#external-account)**
 
 1. Una **plantilla de envíos** en la que se hace referencia a esta cuenta externa, [obtenga más información aquí](#sms-delivery-template)
 
@@ -55,7 +49,7 @@ Estos son los pasos para crear la cuenta externa SMPP:
    ![](assets/sms_extaccount_new.png){zoomable="yes"}
 
 1. En la ficha **[!UICONTROL Mobile]**, mantenga a **[!UICONTROL Extended generic SMPP]** en la lista desplegable **[!UICONTROL Connector]**.
-La casilla **[!UICONTROL Send messages through a dedicated process]** está marcada de manera predeterminada.
+La casilla **[!UICONTROL Send messages through a dedicated process]** está activada de forma predeterminada.
 
    ![](assets/sms_extaccount_connector.png){zoomable="yes"}
 
@@ -83,3 +77,4 @@ En la ficha **[!UICONTROL SMS]**, puede agregar parámetros opcionales a la plan
 ![](assets/sms_template_properties.png){zoomable="yes"}
 
 [Más información sobre esta configuración de ficha de SMS](sms-delivery-settings.md).
+
