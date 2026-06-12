@@ -51,9 +51,9 @@ Para obtener más información sobre el seguimiento de correo electrónico en la
 | Producto | Referencia de documentación |
 |---|---|
 | Campaign v8 | [Seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [Introducción al seguimiento de mensajes](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Campaign Standard | [Configuración del canal de correo electrónico](https://experienceleague.adobe.com/en/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
-| Journey Optimizer | [Documentación de seguimiento de mensajes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [Deshabilitar el seguimiento de un vínculo de correo electrónico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer B2B | [Documentación de configuración de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign Classic | [Introducción al seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Campaign Standard | [Configuración del canal de correo electrónico](https://experienceleague.adobe.com/es/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
+| Journey Optimizer | [Documentación de seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [Deshabilitar el seguimiento de un vínculo de correo electrónico](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer B2B | [Documentación de configuración de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
 
