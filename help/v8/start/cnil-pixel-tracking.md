@@ -5,12 +5,13 @@ feature: Overview
 role: User
 level: Beginner
 hide: true
-source-git-commit: b285c321f3b905150b31621941ea99608d627739
+source-git-commit: 94d9f6725b0bfb458707c9900f5b6cb553d72daf
 workflow-type: tm+mt
 source-wordcount: '849'
 ht-degree: 2%
 
 ---
+
 
 # Explicación de las directrices actualizadas de CNIL sobre los píxeles de seguimiento de correo electrónico
 
@@ -39,11 +40,16 @@ Los clientes que busquen ayuda para implementar los cambios descritos anteriorme
 Los clientes pueden utilizar los mecanismos nativos de seguimiento, esquema y personalización de Adobe Campaign para abordar ciertos elementos al configurar la arquitectura para abordar las directrices CNIL:
 
 * **Clasificación del envío.** Amplíe `nms:delivery` con un atributo `emailType` (autenticación, solo capacidad de entrega, transaccional, marketing, servicio público, prospección B2B). La clasificación determina qué píxeles se permiten sin consentimiento.
+
 * **Captura de consentimiento.** Amplíe `nms:recipient` con una estructura de consentimiento por propósito que incluya la versión del texto, la marca de tiempo, el origen de captura y la caducidad. Amplíe los formularios de registro y los centros de preferencias para recopilar el consentimiento en píxeles de forma independiente de la inclusión por correo electrónico.
+
 * **Emisión de píxeles.** Defina un `NmsTracking_OpenFormula` por propósito de píxel (autenticación, capacidad de entrega, rendimiento, generación de perfiles, detección de fraude). Una regla de tipología de entrega selecciona qué fórmulas emitir en función de emailType y el consentimiento del destinatario para cada propósito. Los bloques personalizados encapsulan la lógica para que no viva en elementos creativos individuales.
+
 * **Retiro.** Agregue un vínculo **Administrar preferencias de rastreador** a cada pie de página del correo electrónico, distinto del vínculo de cancelación de suscripción. El vínculo apunta a una página de aterrizaje `nms:webApp` autenticada mediante `idTracking`; el destinatario retira el consentimiento con un solo clic, sin volver a escribir su dirección de correo electrónico. Un paso de filtro agregado al flujo de trabajo estándar **Tracking** evita que las reaperturas de correos electrónicos enviados anteriormente se aprovechen después de la retirada.
+
 * **Prueba de consentimiento.** Capturar cada evento de consentimiento en un registro de solo anexar (un área de nombres de extensión `pix:consentLog`, por ejemplo), con la versión de la redacción almacenada por separado para su recuperación después de cambios de redacción. El registro aparece a través del explorador de Adobe Campaign y como una exportación periódica.
 * **Gobernanza de solicitud de nuevo.** Un campo `lastPixelRefusalDate` y una regla de tipología de filtrado impiden que se vuelva a solicitar durante al menos seis meses después de una denegación. Un flujo de trabajo periódico puede ayudar a administrar la caducidad del consentimiento.
+
 * **Informes.** Los informes de Adobe Campaign existentes siguen operando con los nuevos campos (urlCategory, emailType, los indicadores de consentimiento) sin cambios de código.
 
 Para obtener más información sobre el seguimiento de correo electrónico en las aplicaciones de ejecución de marketing por correo electrónico de Adobe, consulte la siguiente documentación:
@@ -51,9 +57,10 @@ Para obtener más información sobre el seguimiento de correo electrónico en la
 | Producto | Referencia de documentación |
 |---|---|
 | Campaign v8 | [Seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [Introducción al seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Campaign Standard | [Configuración del canal de correo electrónico](https://experienceleague.adobe.com/es/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
-| Journey Optimizer | [Documentación de seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [Deshabilitar el seguimiento de un vínculo de correo electrónico](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer B2B | [Documentación de configuración de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign Classic | [Introducción al seguimiento de mensajes](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Campaign Standard | [Configuración del canal de correo electrónico](https://experienceleague.adobe.com/en/docs/campaign-standard/using/administrating/configuring-channels/configuring-email-channel){target="_blank"} |
+| Journey Optimizer | [Documentación de seguimiento de mensajes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [Deshabilitar el seguimiento de un vínculo de correo electrónico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer B2B | [Documentación de configuración de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+
 
