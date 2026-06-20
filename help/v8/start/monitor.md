@@ -125,13 +125,13 @@ Más información sobre [Pista de auditoría](../reporting/audit-trail.md)
 
 La versión 8 de Campaign proporciona varias funciones de monitorización para rastrear el rendimiento de la instancia y garantizar un funcionamiento óptimo:
 
-**Supervisión de bases de datos**: supervise el uso y la capacidad de las bases de datos mediante el Panel de control de Campaign para garantizar un rendimiento y una administración del almacenamiento óptimos. [Más información acerca de la supervisión de bases de datos](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html){target="_blank"}
+**Supervisión de bases de datos**: supervise el uso y la capacidad de las bases de datos mediante el Panel de control de Campaign para garantizar un rendimiento y una administración del almacenamiento óptimos. [Más información acerca de la supervisión de bases de datos](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=es){target="_blank"}
 
 **Supervisión de perfiles activos**: realice un seguimiento del uso de perfiles activos en relación con los límites contractuales para mantener el cumplimiento y optimizar la asignación de recursos. [Más información sobre los perfiles activos](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}
 
 **Supervisión del flujo de trabajo**: supervise el estado de ejecución del flujo de trabajo para identificar los flujos de trabajo de larga duración y garantizar que todos los flujos de trabajo técnicos se ejecuten correctamente. [Más información sobre flujos de trabajo técnicos](#technical-workflows)
 
-**Rendimiento y latencia de entrega** — Rastrea el rendimiento de entrega (mensajes enviados por hora) y la latencia para comunicaciones transaccionales a través del Panel de control de Campaign. [Más información sobre la supervisión del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html){target="_blank"}
+**Rendimiento y latencia de entrega** — Rastrea el rendimiento de entrega (mensajes enviados por hora) y la latencia para comunicaciones transaccionales a través del Panel de control de Campaign. [Más información sobre la supervisión del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=es){target="_blank"}
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Compruebe que cada flujo de trabajo técnico se ejecuta según lo programado, se
 | **Actualización de la capacidad de envío** | Actualiza las reglas de envío y los patrones de filtro de spam | Las reglas se quedan obsoletas; la precisión del filtrado puede degradarse |
 | **Limpieza de base de datos** | Purga los registros de envío y seguimiento antiguos | La acumulación de registros ralentiza las consultas y los informes con el tiempo |
 
-Más información sobre [flujos de trabajo técnicos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}
+Más información sobre [flujos de trabajo técnicos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"}
 
 ### Panel de control de Campaign {#control-panel}
 
