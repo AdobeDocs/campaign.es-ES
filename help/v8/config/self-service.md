@@ -16,10 +16,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 382f297c4763e56f65b6f1acb7ff209cf59b71c2
 workflow-type: tm+mt
-source-wordcount: 496
-ht-degree: 96%
+source-wordcount: 519
+ht-degree: 92%
 
 ---
 
@@ -68,6 +68,8 @@ Obtenga información sobre cómo monitorizar los subdominios y sus certificados.
 ## Monitorización del rendimiento
 
 El Panel de control proporciona varias funcionalidades que le ayudan a monitorizar las instancias y garantizar un rendimiento óptimo. [Haga clic aquí](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target="_blank"}
+
+En Campaign v8 Managed Cloud Services, Adobe también supervisa los procesos de infraestructura, plataforma y software en su nombre. Más información sobre la [supervisión administrada por Adobe](../start/monitor.md#adobe-cloud-monitoring).
 
 
 ## Configuración de instancias
