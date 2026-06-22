@@ -18,16 +18,20 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e8438b85eec144e83b2660f9d66444c1a01863ab
+source-git-commit: 6cf587ecc9cc1e4cf9b3de0d2067e0c4562afe01
 workflow-type: tm+mt
-source-wordcount: 2101
+source-wordcount: 2206
 ht-degree: 4%
 
 ---
 
 # Información general de monitorización de Campaign {#monitor-campaign}
 
-Adobe Campaign le ofrece visibilidad en todos los niveles, desde si se entregó un mensaje individual, hasta por qué falló un flujo de trabajo o cuánta capacidad de base de datos le queda. Esta página asigna todas las funcionalidades de monitorización para que sepa dónde buscar cuando algo necesita atención. Como administrador de Campaign, también puede usar [Panel de control de Campaign de Campaign](#control-panel) para supervisar las instancias, administrar el rendimiento y configurar opciones con capacidades de autoservicio.
+Adobe Campaign le ofrece visibilidad en todos los niveles, desde si se entregó un mensaje individual, hasta por qué falló un flujo de trabajo o cuánta capacidad de base de datos le queda. Esta página asigna todas las funcionalidades de monitorización para que sepa dónde buscar cuando algo necesita atención.
+
+>[!NOTE]
+>
+>Como administrador de Campaign, también puede usar [Panel de control de Campaign de Campaign](#control-panel) para supervisar las instancias, administrar el rendimiento y configurar opciones con capacidades de autoservicio.
 
 >[!TIP]
 >
@@ -39,21 +43,21 @@ Adobe Campaign le ofrece visibilidad en todos los niveles, desde si se entregó 
 
 ## Monitorización de entregas {#monitor-deliveries}
 
-La monitorización de las entregas una vez enviadas es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes. Después de realizar una entrega, puede realizar un seguimiento de su progreso y diagnosticar problemas desde el panel de entrega. El panel le permite acceder a los registros de envío, los registros de exclusión, los registros de seguimiento y otros datos de cada canal que utilice.
+La monitorización de las entregas una vez enviadas es un paso clave para garantizar que las campañas de marketing sean eficientes y lleguen a los clientes. Después de realizar una entrega, puede monitorizar su estado y rastrear las métricas clave en el panel de entrega. El panel proporciona acceso a los registros de envío, los registros de exclusión, los registros de seguimiento y otras funcionalidades de monitorización para ayudarle a analizar el rendimiento de su envío en todos los canales.
 
 >[!NOTE]
 >
 >**Nuevo en Campaign?** El panel de entregas es la pantalla principal del día a día. Abra cualquier entrega enviada, haga clic en la pestaña **Registros** y verá qué destinatarios recibieron el mensaje, cuáles se excluyeron y por qué, y quién hizo clic o abrió.
 
-**Envíos de correo electrónico**: supervise el estado de envío de los correos electrónicos, realice un seguimiento de las métricas clave y acceda a los registros detallados. Obtenga más información sobre [supervisión de entregas en la interfaz de usuario de Campaign](../send/delivery-dashboard.md), [estados de entrega](../send/delivery-statuses.md) y [supervisión de entregas por correo electrónico](../send/send.md#email-monitoring).
+**Envíos de correo electrónico**: supervise el estado de envío de los correos electrónicos, realice un seguimiento de las métricas clave y acceda a los registros detallados. Obtenga más información sobre [supervisión de entregas en la interfaz de usuario de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-dashboard), [estados de entrega](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-statuses) y [supervisión de entregas por correo electrónico](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/emails/send#email-monitoring).
 
-**Envíos de SMS**: efectúe el seguimiento del estado de envío de SMS y supervise las métricas clave en el panel de envío de SMS. Más información sobre la [supervisión de SMS](../send/sms/sms-monitor.md).
+**Envíos de SMS**: rastree el estado de envío de SMS y supervise las métricas clave en el panel de envío de SMS. Más información sobre la [supervisión de SMS](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/sms/sms-monitor).
 
-**Notificaciones push**: supervise las entregas de notificaciones push para garantizar que lleguen a los usuarios de su aplicación móvil de forma eficaz. Más información sobre la [supervisión de notificaciones push](../send/push.md#push-test).
+**Notificaciones push**: supervise las entregas de notificaciones push para garantizar que lleguen a los usuarios de su aplicación móvil de forma eficaz. Más información sobre la [supervisión de notificaciones push](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/push/push#push-test).
 
-**Mensajes transaccionales**: para los mensajes activados por eventos, supervise el estado de procesamiento de eventos, la profundidad de cola y los resultados de ejecución. Más información sobre la [supervisión de mensajes transaccionales](../send/delivery-execution.md#monitor-messages).
+**Mensajes transaccionales**: para los mensajes activados por eventos, supervise el estado de procesamiento de eventos, la ejecución de mensajes y el estado de envío. Más información sobre la [supervisión de mensajes transaccionales](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/real-time/event/delivery-execution#monitor-messages).
 
-**Errores de entrega**: Es fundamental comprender por qué ha fallado una entrega para mantener una base de datos limpia y garantizar tasas de entrega correctas. Los errores de entrega se clasifican en tres tipos: comprender la diferencia le ayuda a decidir qué acción realizar:
+**Errores de entrega**: comprender por qué falló una entrega es fundamental para mantener una base de datos limpia y garantizar buenas tasas de entrega. Los errores de entrega se clasifican en tres tipos: comprender la diferencia le ayuda a decidir qué acción realizar:
 
 | Tipo de error | Lo que significa | Qué hace Campaign |
 | --- | --- | --- |
@@ -61,30 +65,25 @@ La monitorización de las entregas una vez enviadas es un paso clave para garant
 | **Rebote suave** | Un problema temporal (buzón lleno, servidor no disponible temporalmente) | Reintentos de Campaign automáticamente durante un periodo configurado |
 | **Ignorado** | La dirección ya se había puesto en cuarentena o en una lista de bloqueados antes de enviarse | No se realiza ningún intento; se cuenta por separado de las devoluciones |
 
-Más información sobre [errores y cuarentenas de entregas](../send/delivery-failures.md).
+Más información sobre [errores y cuarentenas de entregas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/delivery-failures).
 
 ## Monitorización de la capacidad de entrega {#monitor-deliverability}
-
-La capacidad de entrega mide el éxito con que los mensajes llegan a las bandejas de entrada de los destinatarios, en lugar de filtrarse como correo no deseado o rechazarse. Adobe Campaign proporciona varias herramientas integradas para ayudarle a comprender y mejorar las tasas de colocación de la bandeja de entrada.
 
 >[!NOTE]
 >
 >Un mensaje contabilizado como &quot;entregado&quot; significa que fue aceptado por el servidor receptor; no garantiza la colocación en la bandeja de entrada. La monitorización de la capacidad de entrega indica si la autenticación del dominio de envío, la reputación de la IP y el contenido del correo electrónico cumplen los estándares del proveedor de la bandeja de entrada.
 
-Adobe Campaign proporciona las siguientes herramientas de envío integradas:
+La monitorización de la capacidad de entrega le ayuda a garantizar que los mensajes lleguen a las bandejas de entrada de los destinatarios y evitar filtros de correo no deseado. Adobe Campaign proporciona varias herramientas integradas para monitorizar y mejorar la capacidad de entrega, incluidos informes de entrega, procesamiento de la bandeja de entrada, pruebas de SpamAssassin y estadísticas de difusión. Seguir las prácticas recomendadas de envío, como mantener una lista de correo electrónico limpia, monitorizar la reputación del remitente y autenticar los dominios de envío es fundamental para mantener buenas tasas de envío.
 
-- **Informes de envío**: informes integrados que muestran el volumen de envío, las tasas de salida hacia otro sitio y las bajas de suscripción a lo largo del tiempo.
-- **Procesamiento de la bandeja de entrada**: obtenga una vista previa de cómo aparece el correo electrónico en los principales clientes (Gmail, Outlook, Apple Mail) antes o después de enviarlo.
-- **Prueba de SpamAssassin**: puntúe el contenido del correo electrónico con respecto a las reglas comunes de filtro de correo no deseado para detectar problemas antes de la entrega.
-- **Estadísticas de difusión**: datos de envío agregados en sus volúmenes de envío y reputación de IP.
-
-Las siguientes prácticas recomendadas sobre la capacidad de envío, como mantener una lista de correo electrónico limpia, monitorizar la reputación del remitente y autenticar los dominios de envío, son esenciales para mantener buenas tasas de envío.
-
-Obtenga más información sobre las [herramientas de monitorización de capacidad de envío](../send/monitoring-deliverability.md) y las [prácticas recomendadas de capacidad de envío](../send/about-deliverability.md).
+Obtenga más información sobre las [herramientas de monitorización de capacidad de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/deliverability-management/monitoring-deliverability) y las [prácticas recomendadas de capacidad de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/deliverability-management/about-deliverability).
 
 ## Monitorización de flujos de trabajo {#monitor-workflows}
 
-Los flujos de trabajo son el motor de las automatizaciones de marketing y del procesamiento de datos. Su monitorización garantiza que las actividades programadas se completen según lo esperado y que los errores se detecten antes de que afecten a las entregas o a la calidad de los datos.
+Los flujos de trabajo son esenciales para automatizar las campañas de marketing y el procesamiento de datos. La monitorización de la ejecución del flujo de trabajo le ayuda:
+
+- Garantizar que los flujos de trabajo se completen correctamente
+- Identificar y solucionar errores
+- Optimización del rendimiento del flujo de trabajo
 
 >[!TIP]
 >
@@ -94,64 +93,70 @@ Los flujos de trabajo son el motor de las automatizaciones de marketing y del pr
 
 **Supervisar los siguientes elementos de flujo de trabajo:**
 
-**Estado de ejecución del flujo de trabajo**: efectúe el seguimiento de si los flujos de trabajo se están ejecutando, están en pausa, han fallado o se han completado. Vea los flujos de trabajo atascados o de larga duración de un vistazo. [Más información sobre la ejecución del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution.html?lang=es){target="_blank"}
+**Estado de ejecución del flujo de trabajo**: efectúe el seguimiento de si los flujos de trabajo se están ejecutando, están en pausa, han fallado o se han completado. [Más información sobre la ejecución del flujo de trabajo](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/monitoring-workflows/monitor-workflow-execution#_blank)
 
-**Registros de ejecución de actividad**: explore en profundidad los registros por actividad para comprender qué ha sucedido en cada paso. Resulta útil para solucionar problemas de transiciones fallidas o salidas de datos inesperadas.
+**Registros de ejecución de actividades**: acceda a los registros detallados de cada actividad de flujo de trabajo para solucionar problemas y optimizar el rendimiento.
 
-**Mapa de calor del flujo de trabajo**: una descripción general visual de todos los flujos de trabajo que se ejecutan simultáneamente en la instancia. Utilícelo para identificar períodos de carga máxima, flujos de trabajo puntuales que consumen recursos desproporcionados y planificar la programación para evitar conflictos de ejecución. Disponible solo para administradores de Campaign. [Más información sobre el mapa de calor del flujo de trabajo](https://experienceleague.adobe.com/docs/campaign/automation/workflows/monitoring-workflows/heatmap.html?lang=es){target="_blank"}
+**Mapa de calor del flujo de trabajo**: una descripción general visual de todos los flujos de trabajo que se ejecutan simultáneamente en la instancia. Utilícelo para identificar períodos de carga máxima, flujos de trabajo puntuales que consumen recursos desproporcionados y planificar la programación para evitar conflictos de ejecución. Disponible solo para administradores de Campaign. [Más información sobre el mapa de calor del flujo de trabajo](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/monitoring-workflows/heatmap#_blank)
 
-**Historial del flujo de trabajo**: realice un seguimiento de todas las ejecuciones y modificaciones de flujos de trabajo a lo largo del tiempo para comprender el comportamiento del flujo de trabajo y los patrones de rendimiento.
+**Historial del flujo de trabajo**: haga un seguimiento de todas las ejecuciones y modificaciones del flujo de trabajo a lo largo del tiempo para comprender el comportamiento y el rendimiento del flujo de trabajo.
 
 ## Monitorización de la instancia {#monitor-instance}
 
-La monitorización de instancias cubre el estado del entorno de Campaign: capacidad de la base de datos, uso del perfil, rendimiento e infraestructura. En el caso de los servicios administrados en la nube de Campaign v8, Adobe supervisa y administra la infraestructura subyacente en su nombre, pero mantiene una visibilidad completa a través de la consola de cliente y el Panel de control de Campaign. Más información sobre la [supervisión administrada por Adobe](#adobe-cloud-monitoring).
+La monitorización de instancias ayuda a garantizar el estado y el rendimiento de su entorno de Adobe Campaign. En el caso de los servicios administrados en la nube de Campaign v8, Adobe también supervisa y administra la infraestructura en su nombre. Más información sobre la [supervisión administrada por Adobe](#adobe-cloud-monitoring).
 
 ### Pista de auditoría {#audit-trail}
 
-La interfaz de autoservicio Pista de auditoría permite monitorizar todos los cambios significativos realizados en la instancia de Adobe Campaign. La pista de auditoría captura, en tiempo real, una lista completa de las acciones y eventos que se producen dentro de la instancia.
+La interfaz de autoservicio Pista de auditoría permite monitorizar los cambios realizados en la instancia de Adobe Campaign. La pista de auditoría captura, en tiempo real, una lista completa de las acciones y eventos que se producen dentro de la instancia.
 
 **Usar pista de auditoría para:**
 
 - **Rastrear cambios de componentes**: supervise lo que ha sucedido a sus flujos de trabajo, esquemas, opciones y otros componentes
-- **Identificar quién realizó un cambio** — Ver qué usuario modificó un elemento por última vez y a qué hora
-- **Solucionar problemas de comportamiento inesperado**: realice un seguimiento de las acciones del usuario para averiguar cuándo y cómo se introdujo un problema
-- **Cumplimiento de la asistencia y auditorías**: mantenga un registro completo y a prueba de manipulaciones de todos los cambios de configuración
+- **Identificar quién hizo cambios**: Ver quién actualizó por última vez un elemento específico y cuándo
+- **Comprender las acciones del usuario**: revise lo que los usuarios hicieron en la instancia para solucionar problemas o auditar
+- **Mantener el cumplimiento**: haga un seguimiento de todos los cambios de configuración por motivos de cumplimiento y seguridad
 
 Se puede acceder a la pista de auditoría a través de la consola del cliente de Campaign y proporciona información detallada sobre las acciones realizadas por los usuarios.
 
-Más información sobre [Pista de auditoría](../reporting/audit-trail.md)
+Más información sobre [Pista de auditoría](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/audit-trail)
 
 ### Monitorización del rendimiento {#performance-monitoring}
 
 La versión 8 de Campaign proporciona varias funciones de monitorización para rastrear el rendimiento de la instancia y garantizar un funcionamiento óptimo:
 
-**Supervisión de bases de datos**: supervise el uso y la capacidad de las bases de datos mediante el Panel de control de Campaign para garantizar un rendimiento y una administración del almacenamiento óptimos. [Más información acerca de la supervisión de bases de datos](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring.html?lang=es){target="_blank"}
+**Supervisión de bases de datos**: supervise el uso y la capacidad de las bases de datos mediante el Panel de control de Campaign para garantizar un rendimiento y una administración del almacenamiento óptimos. [Más información acerca de la supervisión de bases de datos](https://experienceleague.adobe.com/es/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring#_blank)
 
-**Supervisión de perfiles activos**: realice un seguimiento del uso de perfiles activos en relación con los límites contractuales para mantener el cumplimiento y optimizar la asignación de recursos. [Más información sobre los perfiles activos](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/active-profiles-monitoring.html?lang=es){target="_blank"}
+**Supervisión de perfiles activos**: realice un seguimiento del uso de perfiles activos en relación con los límites contractuales para mantener el cumplimiento y optimizar la asignación de recursos. [Más información sobre los perfiles activos](https://experienceleague.adobe.com/es/docs/control-panel/using/performance-monitoring/active-profiles-monitoring#_blank)
 
-**Supervisión del flujo de trabajo**: supervise el estado de ejecución del flujo de trabajo para identificar los flujos de trabajo de larga duración y garantizar que todos los flujos de trabajo técnicos se ejecuten correctamente. [Más información sobre flujos de trabajo técnicos](#technical-workflows)
+**Supervisión del flujo de trabajo**: supervise el estado de ejecución del flujo de trabajo para identificar flujos de trabajo de larga duración y garantizar que todos los flujos de trabajo técnicos se ejecuten correctamente. [Más información sobre flujos de trabajo técnicos](#technical-workflows)
 
-**Rendimiento y latencia de entrega** — Rastrea el rendimiento de entrega (mensajes enviados por hora) y la latencia para comunicaciones transaccionales a través del Panel de control de Campaign. [Más información sobre la supervisión del rendimiento](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/throughputs-latencies.html?lang=es){target="_blank"}
+**Rendimiento y latencia de entrega** - Rastree el rendimiento de entrega (mensajes enviados por hora) y la latencia para comunicaciones transaccionales a través del Panel de control de Campaign. [Más información sobre la supervisión del rendimiento](https://experienceleague.adobe.com/es/docs/control-panel/using/performance-monitoring/throughputs-latencies#_blank)
 
 >[!NOTE]
 >
->En Campaign v8 Managed Cloud Services, Adobe supervisa y administra la infraestructura del servidor (CPU, memoria, disco). Las funcionalidades de monitorización descritas en esta página y en Panel de control de Campaign son complementarias: le proporcionan visibilidad de sus datos y configuración sin necesidad de acceso a la infraestructura. Algunas acciones realizadas por Adobe aparecen en los registros de Campaign bajo el usuario **campaign-loginmonitor**. Más información sobre la [supervisión administrada por Adobe](#adobe-cloud-monitoring).
+>En Campaign v8 Managed Cloud Services, Adobe supervisa y administra la infraestructura del servidor (CPU, memoria, disco). Más información sobre la [supervisión administrada por Adobe](#adobe-cloud-monitoring).
 
 ### Monitorización administrada por Adobe {#adobe-cloud-monitoring}
 
-Adobe Campaign Cloud Services proporciona una asistencia esencial para las necesidades de entrega de las experiencias de los clientes más exigentes a través de una infraestructura de nube flexible. Esto permite a las organizaciones iniciar, monitorizar y optimizar las experiencias de los clientes sin administrar ni operar con la propia infraestructura de Campaign.
+Adobe Campaign Cloud Services proporciona una asistencia esencial para las necesidades de entrega de las experiencias de los clientes más exigentes a través de una infraestructura de nube flexible. Esto permite a las organizaciones iniciar, monitorizar y optimizar las experiencias de los clientes sin necesidad de administrar u operar la infraestructura de Campaign por sí mismas.
 
-Adobe monitoriza los entornos de Cloud Services de Campaign las 24 horas del día, los 7 días de la semana para detectar problemas técnicos y minimizar las interrupciones. Al detectar un problema, el sistema utiliza mecanismos de reinicio automático e inicio automático para intentar la corrección. Si el sistema no se corrige automáticamente, el equipo de ingeniería de Adobe On-Call interviene en función de los runbooks de alertas predefinidos.
+Adobe supervisa los entornos de Cloud Services de Campaign para ayudar a administrar varios problemas y minimizar las interrupciones detectando problemas técnicos y proporcionando información continua sobre el rendimiento y los proyectos en curso.
 
->[!TIP]
+**Cómo responde Adobe**
+
+Adobe supervisa todos los equipos de red esenciales en la red de Campaign las 24 horas del día, los 7 días de la semana, y recibe notificaciones de los sistemas de monitorización cuando se necesitan correcciones o escalaciones. Al detectar un problema, el sistema utiliza mecanismos de reinicio automático e inicio automático para intentar la corrección. Si el sistema no se corrige automáticamente, el equipo de ingeniería de Adobe On-Call interviene para realizar la resolución de problemas en función de los runbooks de alertas predefinidos.
+
+>[!NOTE]
 >
->Puede suscribirse a las alertas de instancias en tiempo real a través de [Panel de control de Campaign de Campaign](#control-panel) y recibir los pasos de corrección recomendados para los problemas detectados; por ejemplo, los certificados SSL están a punto de expirar.
+>Algunas acciones de monitorización realizadas por Adobe aparecen en los registros de Campaign bajo el usuario **campaign-loginmonitor**.
 
-**Niveles de supervisión**
+Además de la supervisión interna de Adobe, puede acceder a las funciones de supervisión directamente a través de la consola del cliente de Campaign o el [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/self-service). Con el Panel de control de Campaign, puede suscribirse a alertas en tiempo real sobre sus instancias y recibir pasos de corrección recomendados para incidentes identificados (por ejemplo, certificados SSL próximos a la caducidad).
 
-Adobe supervisa su entorno en tres niveles. Los problemas de nivel 1 tienen el mayor impacto y reciben la respuesta más rápida:
+**Supervisando taxonomía**
 
-| Nivel | Grupo | Qué puede experimentar |
+Adobe supervisa su entorno en tres niveles:
+
+| Nivel | Grupo | Impacto potencial en la empresa |
 | --- | --- | --- |
 | **Nivel 1: Infraestructura** | Agotamiento del espacio de base de datos | Problemas de rendimiento, incluida la incapacidad para iniciar sesión, ejecutar envíos por lotes o ejecutar consultas |
 | **Nivel 1: Infraestructura** | Disponibilidad de base de datos | Es posible que los usuarios y servicios no puedan utilizar el sistema |
@@ -172,13 +177,19 @@ Adobe supervisa su entorno en tres niveles. Los problemas de nivel 1 tienen el m
 
 >[!NOTE]
 >
->Adobe Campaign Cloud Services se basa en una estrategia de varias nubes con implementaciones en AWS y Azure. Las funcionalidades de supervisión difieren entre AWS, Azure y otras implementaciones de centros de datos. La tabla anterior se aplica a los clientes de Cloud Services de Campaign alojados en AWS a menos que se indique lo contrario. Actualmente, Adobe Campaign no expone a los clientes todos los datos de monitorización utilizados por el departamento de ingeniería On-Call.
+>Adobe Campaign Cloud Services se basa en una estrategia de varias nubes y ofrece implementaciones en AWS y Azure. Debido a las diferencias de proveedor, las capacidades de monitorización difieren entre AWS, Azure y otras implementaciones de centros de datos. La tabla anterior se aplica a los clientes de Cloud Services de Campaign alojados en AWS a menos que se indique lo contrario. Tenga en cuenta también que Adobe Campaign no expone actualmente a los clientes todos los datos de monitorización utilizados por el ingeniería de llamadas.
 
 ### Flujos de trabajo técnicos {#technical-workflows}
 
-Los flujos de trabajo técnicos se ejecutan silenciosamente en segundo plano para mantener la instancia de Campaign. No los crean los usuarios, sino que se envían con el producto. Si un flujo de trabajo técnico falla, puede afectar directamente a las entregas y a la calidad de los datos.
+Los flujos de trabajo técnicos son procesos esenciales que se ejecutan en segundo plano para mantener la instancia de Campaign.
 
-Compruebe que cada flujo de trabajo técnico se ejecuta según lo programado, se completa sin errores y procesa los datos correctamente.
+**Supervisar que los flujos de trabajo técnicos son:**
+
+- Ejecución según lo programado
+- Finalización correcta sin errores
+- Procesamiento correcto de los datos
+
+**Flujos de trabajo técnicos clave que supervisar:**
 
 | Flujo de trabajo | Objetivo | Si falla |
 | --- | --- | --- |
@@ -187,61 +198,61 @@ Compruebe que cada flujo de trabajo técnico se ejecuta según lo programado, se
 | **Actualización de la capacidad de envío** | Actualiza las reglas de envío y los patrones de filtro de spam | Las reglas se quedan obsoletas; la precisión del filtrado puede degradarse |
 | **Limpieza de base de datos** | Purga los registros de envío y seguimiento antiguos | La acumulación de registros ralentiza las consultas y los informes con el tiempo |
 
-Más información sobre [flujos de trabajo técnicos](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"}
+Más información sobre [flujos de trabajo técnicos](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows#_blank)
 
 ### Panel de control de Campaign {#control-panel}
 
-El Panel de control de Campaign de trabajo de Campaign proporciona a los administradores funciones de autoservicio para monitorizar y administrar instancias de Campaign, sin necesidad de un ticket de asistencia.
+El Panel de control de Campaign de trabajo de Campaign proporciona a los administradores funciones de autoservicio para monitorizar y administrar instancias de Campaign.
 
-| Tipo de monitorización | Funcionalidades |
+| Tipo de supervisión | Funcionalidades |
 | --- | --- |
-| **Rendimiento** | Uso de perfil activo frente a límite de contrato, uso y capacidad de la base de datos, estado de ejecución del flujo de trabajo, rendimiento del envío y latencia |
-| **Infraestructura** | Capacidad de almacenamiento SFTP, configuración de subdominios, alertas de caducidad de certificados SSL, lista de IP permitidas |
-| **Instancia** | Versión de compilación y paquetes instalados, información general sobre la configuración del sistema, dominios externos autorizados |
+| **Rendimiento** | Rastree el uso activo del perfil, monitorice el uso y la capacidad de la base de datos, vea el estado de ejecución del flujo de trabajo, monitorice el rendimiento de entrega y la latencia |
+| **Infraestructura** | Monitorización de la capacidad de almacenamiento SFTP, seguimiento de la configuración de subdominios, monitorización de la caducidad del certificado SSL, administración de la lista de IP permitidas |
+| **Instancia** | Ver la versión de compilación y los paquetes instalados, supervisar la configuración del sistema y administrar los dominios externos autorizados |
 
-Obtenga más información sobre [Panel de control de Campaign](../config/self-service.md) y [supervisión del rendimiento del Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=es){target="_blank"}
+Obtenga más información sobre [Panel de control de Campaign](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/permissions/self-service) y [supervisión del rendimiento del Panel de control de Campaign](https://experienceleague.adobe.com/es/docs/control-panel/using/performance-monitoring/about-performance-monitoring#_blank)
 
 >[!NOTE]
 >
->En Campaign v8 Managed Cloud Services, Adobe supervisa y administra la infraestructura del servidor, el sistema operativo y la capa de aplicaciones. Las funcionalidades de monitorización que se describen en esta página y en el Panel de control de Campaign son complementarias: le proporcionan visibilidad de los datos y la configuración sin necesidad de acceder a la infraestructura.
+>En Campaign v8 Managed Cloud Services, Adobe supervisa y administra la infraestructura del servidor, el sistema operativo y la capa de aplicaciones. Más información sobre la [supervisión administrada por Adobe](#adobe-cloud-monitoring). Puede utilizar las funcionalidades de monitorización descritas en esta página y Panel de control de Campaign para monitorizar el rendimiento de las instancias, los flujos de trabajo y los envíos.
 
 ## Seguimiento y creación de informes {#tracking-reporting}
 
 ### Seguimiento de mensajes {#message-tracking}
 
-El seguimiento registra cómo interactúan los destinatarios con los mensajes después de la entrega. Todos los eventos rastreados se almacenan en registros de seguimiento y aparecen en informes de envío.
+Realice un seguimiento del comportamiento de los destinatarios y mida la eficacia de sus campañas:
 
-- **Aperturas** — Se registra cuando se carga el píxel de seguimiento (solo correo electrónico)
-- **Clics**: registrados para cada vínculo rastreado en el mensaje
-- **Cancela la suscripción** — Solicitudes de exclusión a través del vínculo de cancelación de suscripción
-- **Vistas de página espejo**: Destinatarios que vieron el correo electrónico en un explorador
+- **Aperturas**: Rastrea cuándo los destinatarios abren tus correos electrónicos
+- **Clics**: Supervise qué vínculos hacen clic los destinatarios
+- **Cancelaciones de suscripción**: Rastrear solicitudes de exclusión
+- **Vistas de página espejo**: Ver cuántos destinatarios ven el correo electrónico en un explorador
 
-Más información sobre [seguimiento de mensajes](../send/tracking.md)
+Más información sobre [seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/tracking)
 
 ### Informes de envío {#delivery-reports}
 
 Adobe Campaign proporciona un completo conjunto de informes para analizar el rendimiento de su entrega:
 
-- **Resumen de envío**: información general sobre envíos, envíos y errores de un solo envío
-- **Indicadores de seguimiento**: abre, hace clic y tasa de pulsaciones con una tendencia en el tiempo
-- **URL y flujos de clics**: clasificación de los vínculos en los que se hizo clic más, con recuentos y porcentajes.
-- **Clics activos**: superposición visual que muestra dónde hicieron clic los destinatarios dentro del cuerpo del correo electrónico
+- **Resumen de envíos**: Información general sobre envíos, envíos y errores
+- **Indicadores de seguimiento**: Aperturas, clics y tasas de pulsaciones
+- **URL y flujos de clics**: Vínculos más populares en las entregas
+- **Clics activos**: representación visual de dónde hicieron clic los destinatarios en el correo electrónico
 
-Más información sobre [informes de envío](../reporting/delivery-reports.md)
+Más información sobre [informes de envío](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/delivery-reports)
 
 ### Informes globales {#global-reports}
 
 Acceda a informes globales para analizar el rendimiento de todas las campañas y envíos:
 
-- **Rendimiento de entrega**: mensajes enviados por hora en todas las entregas durante un periodo
-- **Rechazos y no entregables**: desglose de los envíos fallidos por tipo y motivo de error
-- **Actividades de usuario**: abre, hace clic y cancela la suscripción acumuladas en todas las campañas
+- **Rendimiento de entrega**: mensajes enviados a lo largo del tiempo
+- **Rechazos y no entregables**: análisis de los envíos fallidos
+- **Actividades de usuario**: Abre, hace clic y cancela la suscripción en todas las campañas
 
-Más información sobre [informes globales](../reporting/global-reports.md)
+Más información sobre [informes globales](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/ac-reports/global-reports)
 
 ## Temas relacionados {#related-topics}
 
-- [Prácticas recomendadas para envíos](delivery-best-practices.md)
-- [Administración de cuarentena](../send/quarantines.md)
-- [Configuración y envío de entregas](../send/configure-and-send.md)
-- [Introducción a la creación de informes](../reporting/gs-reporting.md)
+- [Prácticas recomendadas para envíos](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/delivery-best-practices)
+- [Administración de cuarentena](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/monitor/quarantines)
+- [Configuración y envío de entregas](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/send/validate/configure-and-send)
+- [Introducción a la creación de informes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/reports/gs-reporting)
