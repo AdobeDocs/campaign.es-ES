@@ -260,6 +260,6 @@ Esta configuración equivale a una actividad **[!UICONTROL Split]** del flujo de
 
 En este vídeo se explica cómo añadir un grupo de control a una campaña.
 
->[!VIDEO](https://video.tv.adobe.com/v/335606?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3446921?captions=spa&quality=12)
 
 Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
