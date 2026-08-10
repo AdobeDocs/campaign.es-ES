@@ -268,7 +268,7 @@ La actualización a la versión más reciente de Campaign es fundamental para la
 * **Seguridad mejorada**: protección contra vulnerabilidades, parches más recientes y protección de datos mejorada
 * **Mejor soporte** - Resolución de problemas más rápida, acceso a correcciones de errores, soporte prioritario en versiones recientes
 * **Rendimiento mejorado**: optimizaciones de la base de datos y del flujo de trabajo, mejor escalabilidad y operaciones más confiables
-* **Nuevas funciones**: últimas funciones, integraciones de Adobe Experience Cloud mejoradas y mejoras en la IU moderna
+* **Nuevas funciones**: últimas funciones, integraciones mejoradas de Adobe Experience Cloud y mejoras en la IU moderna
 
 Adobe recomienda encarecidamente ejecutar la versión más reciente. Como cliente de Cloud Services administrados, las actualizaciones las realiza Adobe con una interrupción mínima.
 
