@@ -18,10 +18,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 989cd72ab555a1b81042bbc043c246427e22a0d4
 workflow-type: tm+mt
-source-wordcount: 1429
-ht-degree: 65%
+source-wordcount: 1595
+ht-degree: 58%
 
 ---
 
@@ -52,6 +52,7 @@ Para configurar la conexión de Campaign-Analytics, debe realizar las siguientes
 
 1. [Creación de un grupo de informes en Adobe Analytics](#report-suite-analytics)
 1. [Configuración de las variables de conversión y los eventos de éxito](#configure-conversion-success)
+1. [Crear un conjunto de clasificaciones](#create-classification-set)
 1. [Configuración de la cuenta externa en Adobe Campaign](#external-account-ac)
 
 ## Crear su grupo de informes de Analytics {#report-suite-analytics}
@@ -62,7 +63,7 @@ Para crear su **[!UICONTROL Report suite]** en [!DNL Adobe Analytics], siga los 
 
    ![](assets/analytics_connnector_1.png)
 
-1. Haga clic **[!UICONTROL Report suites]**.
+1. Haga clic en **[!UICONTROL Report suites]**.
 
    ![](assets/analytics_connnector_2.png)
 
@@ -127,7 +128,30 @@ Después de crear su **[!UICONTROL Report suite]**, debe configurar sus **[!UICO
 
 1. Haga clic en **[!UICONTROL Save]** cuando termine.
 
-Cuando se configure el grupo de informes, deberá configurar **[!UICONTROL External accounts]** en Adobe Campaign.
+## Crear un conjunto de clasificaciones {#create-classification-set}
+
+Desde la migración a la API de Adobe Analytics 2.0, también debe crear un **[!UICONTROL Classification set]** en Adobe Analytics antes de configurar la cuenta externa en Campaign. Este conjunto de clasificación vincula la variable de conversión que acaba de crear (el nombre de su campaña interna) con el grupo de informes, de modo que Campaign puede descubrirla y utilizarla automáticamente al configurar la cuenta externa en el siguiente paso.
+
+Para crear el conjunto de clasificaciones:
+
+1. En la barra de menú superior [!DNL Adobe Analytics], seleccione **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** y luego haga clic en **[!UICONTROL New]**.
+
+   ![](assets/analytics_connnector_16.png)
+
+1. En el diálogo **[!UICONTROL Add New Classification Set]**:
+
+   ![](assets/analytics_connnector_17.png)
+
+   * Escriba un **[!UICONTROL Name]** para el conjunto de clasificaciones.
+   * Establezca **[!UICONTROL Type]** en **[!UICONTROL Primary]**.
+   * En **[!UICONTROL Job notifications]**, elija a quién se debe notificar si los trabajos del conjunto de clasificación se han realizado correctamente o no y proporcione las direcciones de correo electrónico correspondientes.
+   * En **[!UICONTROL Subscriptions]**, seleccione el grupo de informes y la variable de conversión que creó para el nombre de la campaña interna en el paso anterior.
+
+1. Haga clic **[!UICONTROL Save]**.
+
+Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+
+Cuando se configuren el grupo de informes, las variables de conversión, los eventos de éxito y el conjunto de clasificaciones, deberá configurar **[!UICONTROL External accounts]** en Adobe Campaign.
 
 ## Configuración de la cuenta externa de Campaign {#external-account-ac}
 
