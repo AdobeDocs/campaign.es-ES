@@ -32,7 +32,7 @@ Estos ejemplos muestran cómo se puede utilizar el código JavaScript en un fluj
 * [Activación de un flujo de trabajo mediante un método estático SOAP](#trigger-example)
 * [Interacción con la base de datos mediante un método SOAP no estático](#interact-example)
 
-[Más información](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"} acerca de los métodos SOAP estáticos y no estáticos.
+[Más información](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"} acerca de los métodos SOAP estáticos y no estáticos.
 
 En estos ejemplos se utiliza la extensión ECMAScript para XML (E4X). Con esta extensión, puede combinar llamadas de JavaScript y primitivas XML en el mismo script.
 
@@ -110,7 +110,7 @@ var myXML = <recipient xtkschema="nms:recipient"
 
 #### Eliminación de un registro
 
-Utilice el método `DeleteCollection`. [Más información](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
+Utilice el método `DeleteCollection`. [Más información](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}.
 
 Especifique esta información:
 
@@ -284,7 +284,7 @@ for each (var rcp in res:recipient)
     logInfo(rcp.@email)
 ```
 
-El bucle incluye una variable de destinatario local. Para cada destinatario que se devuelve en la colección de destinatarios, se imprime el correo electrónico del destinatario. [Más información](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"} acerca de la función `logInfo`.
+El bucle incluye una variable de destinatario local. Para cada destinatario que se devuelve en la colección de destinatarios, se imprime el correo electrónico del destinatario. [Más información](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"} acerca de la función `logInfo`.
 
 #### Resultados de una operación `getIfExists`
 
@@ -370,7 +370,7 @@ Puede activar flujos de trabajo mediante programación, por ejemplo, en flujos d
 
 La activación del flujo de trabajo funciona mediante el uso de eventos. Puede usar estas funciones para eventos:
 
-* Para publicar un evento, puede utilizar el método estático `PostEvent`. [Más información](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
+* Para publicar un evento, puede utilizar el método estático `PostEvent`. [Más información](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}.
 * Para recibir un evento, puede usar la actividad **[!UICONTROL External signal]**. [Más información](external-signal.md).
 
 Puede activar flujos de trabajo de diferentes maneras:
@@ -437,10 +437,10 @@ Siga estos pasos:
 
 1. Defina la consulta:
 
-   * Recupere una entidad utilizando el método `create` en el esquema correspondiente; por ejemplo, el esquema `xtk:workflow`. [Más información](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
+   * Recupere una entidad utilizando el método `create` en el esquema correspondiente; por ejemplo, el esquema `xtk:workflow`. [Más información](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}.
    * Utilice el método `queryDef` para emitir una consulta SQL.
 
-1. Ejecute la consulta utilizando el método `ExecuteQuery`. [Más información](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
+1. Ejecute la consulta utilizando el método `ExecuteQuery`. [Más información](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}.
 
    Utilice el bucle `for each` para recuperar los resultados.
 
@@ -622,11 +622,11 @@ Este vídeo muestra un ejemplo del uso de un método de API no estático en un f
 
 ### Documentación de API
 
-* [Muestras de llamadas SOAP](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [Muestras de llamadas SOAP](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
 * Métodos:
-  * [Crear](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
-  * [DeleteCollection](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
-  * [ExecuteQuery](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
-  * [PostEvent](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
-  * [Escribir](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
-* [función logInfo](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+  * [Crear](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
+  * [DeleteCollection](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
+  * [ExecuteQuery](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
+  * [PostEvent](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
+  * [Escribir](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
+* [función logInfo](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}

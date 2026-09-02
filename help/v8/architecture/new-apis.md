@@ -221,4 +221,4 @@ La inserción de los datos de suscripción y baja se basa en el [Mecanismo de en
 
 **Temas relacionados**
 
-* [Campaign JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}
+* [Campaign JSAPI](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
