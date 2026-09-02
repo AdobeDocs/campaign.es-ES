@@ -6,12 +6,11 @@ feature: Workflows
 version: Campaign v8, Campaign Classic v7
 exl-id: 0d4d13f6-7128-44d3-ad5c-4ed02257ee64
 TQID: https://experienceleague.adobe.com/dXkGOQ-OD-KUwWx29DcE7FqYzbDSF-M6ox8-8cTurjA
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 100%
+source-wordcount: 192
+ht-degree: 96%
 
 ---
 
@@ -25,7 +24,7 @@ Una condición es una expresión JavaScript que debe evaluarse como “verdadera
 
 ![](assets/edit_test.png)
 
-Para obtener más información sobre todas las funciones adicionales de JavaScript y los métodos SOAP del servidor aplicativo accesible mediante JavaScript de flujo de trabajo, consulte la [Documentación de JSAPI](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es){target="_blank"}.
+Para obtener más información sobre todas las funciones adicionales de JavaScript y los métodos SOAP del servidor aplicativo accesible mediante JavaScript de flujo de trabajo, consulte la [Documentación de JSAPI](https://experienceleague.adobe.com/en/tools/campaign-api){target="_blank"}.
 
 También puede insertar variables directamente desde este editor. Para obtener más información sobre cómo trabajar con variables, consulte [esta sección](javascript-scripts-and-templates.md#variables).
 
