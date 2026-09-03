@@ -15,10 +15,10 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 559
-ht-degree: 32%
+source-wordcount: 638
+ht-degree: 30%
 
 ---
 
@@ -64,6 +64,10 @@ Los bloques de personalización integrados son:
 
 ## Creación de bloques de personalización personalizados {#create-custom-personalization-blocks}
 
+>[!IMPORTANT]
+>
+>La versión 8.9.3 incluye una actualización de la lista de permitidos de URL externa. Si un bloque personalizado de personalización hace referencia a una dirección URL externa (por ejemplo, una imagen alojada externamente), asegúrese de que se añade el dominio a la lista de permitidos aprobada de la instancia para que el recurso se siga cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
+
 Puede definir nuevos bloques de contenido personalizado para insertarlos desde el icono de personalización.
 
 Para crear un bloque personalizado, siga los pasos a continuación:
@@ -81,7 +85,7 @@ Para crear un bloque personalizado, siga los pasos a continuación:
    * Seleccione un tipo de contenido de **Envío**.
    * Habilite la opción **[!UICONTROL Visible in the customization menus]** para poder acceder a este bloque desde el icono de inserción del campo personalizado.
    * Si es necesario, habilite la opción **[!UICONTROL The content of the personalization block depends upon the format]** para definir dos bloques diferentes para los correos electrónicos de texto y HTML.
-   * Introduzca el contenido (en HTML, texto, JavaScript, etc.) del bloque personalizado y haga clic en **[!UICONTROL Save]**.
+   * Introduzca el contenido (en formato HTML, texto, JavaScript, etc.) del bloque personalizado y haga clic en **[!UICONTROL Save]**.
 
 Una vez guardado, el nuevo bloque personalizado está disponible en el editor de envíos.
 

@@ -16,10 +16,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
 workflow-type: tm+mt
-source-wordcount: 2028
-ht-degree: 92%
+source-wordcount: 2096
+ht-degree: 89%
 
 ---
 
@@ -71,6 +71,10 @@ También puede insertar iconos gestuales en la línea de asunto con la ventana e
 >[!IMPORTANT]
 >
 >Por razones de privacidad, recomendamos utilizar HTTPS para todos los recursos externos.
+
+>[!IMPORTANT]
+>
+>La versión 8.9.3 incluye una actualización de la lista de permitidos de URL externa. Asegúrese de que los dominios utilizados en el contenido del mensaje se añadan a la lista de permitidos aprobada de la instancia para que los recursos se sigan cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
 
 El contenido del mensaje se define en la sección inferior de la ventana de configuración de entrega.
 
