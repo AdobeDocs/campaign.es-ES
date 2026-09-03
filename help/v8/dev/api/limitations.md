@@ -22,9 +22,9 @@ topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 66ed59f89f7e58ce0a04d1fe3e4bf34c81ce94cb
 workflow-type: tm+mt
-source-wordcount: 1052
+source-wordcount: 1053
 ht-degree: 1%
 
 ---
@@ -125,7 +125,7 @@ La sección siguiente enumera las diferencias entre los códigos de error y los 
 | Usar una clave principal no válida en el URI | 500: atributo &#39;O5iRp40EGA&#39; desconocido (consulte la definición del esquema &#39;Profiles (nms:recipient)&#39;). XTK-170036 No se ha podido analizar la expresión &#39;@id = @O5iRp40EGA&#39;. | 404: No se puede descifrar la clave principal. (PKey=@jksad) Extremo no compatible. (extremo=rest/profileAndServices/profile/@jksad) |
 | Uso de dos claves sin procesar diferentes en el URI y en el cuerpo de la solicitud | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. RST-360012 Operación incoherente en el recurso &quot;servicio&quot;: no se puede actualizar la clave &quot;SVC3&quot; a &quot;SVC4&quot;. | 500 - Se ha producido un error - póngase en contacto con su administrador. |
 | Uso de PKey en el URI y de una PKey sin procesar diferente en el cuerpo de la solicitud | 500: ya existe un &quot;servicio&quot; con la misma clave &quot;SVC4&quot;. PGS-220000 Error de PostgreSQL: ERROR: el valor de clave duplicado viola la restricción única &quot;nmsservice_name&quot; DETALLE: La clave (sname)=(SVC4) ya existe. | 500 - Se ha producido un error - póngase en contacto con su administrador. |
-| Uso de raw-id no existente en el URI | 404 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. No se pudo encontrar el documento con la ruta &#39;Servicio&#39; de la clave &#39;adobe_nl:0&#39; (documento con el esquema &#39;service&#39; y el nombre &#39;adobe_nl&#39;) | 404: No se puede encontrar el documento con la ruta &quot;Servicio&quot; de la clave &quot;adobe_nl&quot; (documento con el esquema &quot;service&quot; y el nombre &quot;adobe_nl&quot;) |
+| Uso de raw-id no existente en el URI | 404 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. No se puede encontrar el documento con la ruta &#39;Servicio&#39; de la clave &#39;adobe_nl:0&#39; (documento con el esquema &#39;service&#39; y el nombre &#39;adobe_nl&#39;) | 404: No se puede encontrar el documento con la ruta &quot;Servicio&quot; de la clave &quot;adobe_nl&quot; (documento con el esquema &quot;service&quot; y el nombre &quot;adobe_nl&quot;) |
 | Uso de raw-id no existente en el cuerpo de la solicitud | 404 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. No se pudo encontrar documento con ruta &#39;Servicio&#39; de la clave &#39;adobe_nl&#39; (documento con esquema &#39;service&#39; y nombre &#39;adobe_nl&#39;) | 404: No se puede encontrar el documento con la ruta &quot;Servicio&quot; de la clave &quot;adobe_nl&quot; (documento con el esquema &quot;service&quot; y el nombre &quot;adobe_nl&quot;) |
 | - | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. | 500 - Se ha producido un error - póngase en contacto con su administrador. |
 | Inserte un perfil o servicio con un valor de enumeración de sexo no válido (o cualquier cosa) | 500 - RST-360011 Se ha producido un error. Póngase en contacto con el administrador. El valor &quot;invalid&quot; no es válido para la enumeración &quot;nms:recipient:gender&quot; del campo &quot;@gender&quot; | 500: Se ha producido un error. Póngase en contacto con el administrador. |
@@ -140,7 +140,7 @@ Con Campaign v8, la zona horaria solo se muestra al usuario como parte de las ll
 
 La API de GET de flujo de trabajo de Campaign Standard devuelve nombres de parámetros como las variables de instancia de flujo de trabajo y sus tipos de datos (booleano, cadena, etc.). Se utiliza para crear un cuerpo de solicitud JSON con el formato adecuado al activar la señal a través de una llamada de API POST.
 
-Campaign v8 no admite variables de instancia de flujo de trabajo de publicidad, pero espera que los desarrolladores sepan cuáles son. Como tal, después de la migración, la información de parámetros en el cuerpo de la solicitud de POST deberá construirse sin la disponibilidad de la información de parámetros en la respuesta de la API de GET.
+Campaign v8 no admite variables de instancia de flujo de trabajo de publicidad, pero espera que los desarrolladores sepan cuáles son. Como tal, después de la migración, la información de parámetros en el cuerpo de la solicitud POST deberá construirse sin la disponibilidad de la información de parámetros en la respuesta de la API de GET.
 
 <!--
 ## Transactional messages
