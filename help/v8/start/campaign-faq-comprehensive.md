@@ -7,9 +7,9 @@ level: Beginner
 keywords: Preguntas más frecuentes, Campaign v8, preguntas, respuestas, ayuda, asistencia, solución de problemas
 version: Campaign v8
 exl-id: 8b4f6343-5dc5-4401-ad6f-9c1ddbb23168
-source-git-commit: d25c5a40af9ac0594301f46f09a4cc07a8e1945e
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: '11541'
+source-wordcount: '11539'
 ht-degree: 15%
 
 ---
@@ -1651,7 +1651,7 @@ La versión 8 de Campaign proporciona API de SOAP (operaciones de consola del cl
 
 **Usuarios comunes:** Integrar con CRM/ERP, automatizar campañas, sincronizar datos, crear soluciones de supervisión, crear interfaces externas.
 
-**Acceso:** [Documentación de la API de Campaign v8](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es){target="_blank"}
+**Acceso:** [Documentación de la API de Campaign v8](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
 
 +++
 
@@ -1820,7 +1820,7 @@ Acceda a guías completas, tutoriales y materiales de formación.
 
 Encuentre documentación técnica detallada y recursos para desarrolladores.
 
-* **[API de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/index.html?lang=es){target="_blank"}**: documentación de referencia de API completa
+* **[API de Campaign](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}**: documentación de referencia de API completa
 * **[Matriz de compatibilidad](compatibility-matrix.md)** - Sistemas y versiones compatibles
 * **[Preguntas frecuentes sobre versiones y actualizaciones](upgrades.md)**: comprueba tu versión y obtén información sobre las actualizaciones
 

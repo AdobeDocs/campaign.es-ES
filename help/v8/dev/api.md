@@ -18,10 +18,10 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
 workflow-type: tm+mt
-source-wordcount: 320
-ht-degree: 16%
+source-wordcount: 314
+ht-degree: 10%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 16%
 >
 >Según el modelo de implementación, también puede utilizar las API de REST con Campaign v8. [Más información](../dev/api/get-started-apis.md).
 
-Puede usar [las API de JavaScript de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"} para escribir en la base de datos de la nube de Campaign o leer desde la base de datos:
+Puede usar [las API de JavaScript de Campaign](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"} para escribir en la base de datos de la nube de Campaign o leer desde la base de datos:
 
 * API específicas de la empresa que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=es){target="_blank"}.
 * API genéricas de acceso a datos para consultar los datos del modelo de datos usando `queryDef` y el objeto `NLWS`. Obtenga más información en [Consulte la base de datos con queryDef](query-api.md).
@@ -68,4 +68,4 @@ Para usar las API e interactuar con [!DNL Adobe Campaign], también debe estar f
 
 <!-- * [Query the database with queryDef](query-api.md)-->
 * [Prácticas recomendadas del modelo de datos](datamodel-best-practices.md)
-* [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/developer/campaign-api/api/p-1.html?lang=es){target="_blank"}
+* [Documentación de JSAPI de Campaign](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"}
