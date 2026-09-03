@@ -66,7 +66,7 @@ Los bloques de personalización integrados son:
 
 >[!IMPORTANT]
 >
->La versión 8.9.3 incluye una actualización de la lista de permitidos de URL externa. Si un bloque personalizado de personalización hace referencia a una dirección URL externa (por ejemplo, una imagen alojada externamente), asegúrese de que se añade el dominio a la lista de permitidos aprobada de la instancia para que el recurso se siga cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/en/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
+>La versión 8.9.3 incluye una actualización de la lista de permitidos de URL externa. Si un bloque personalizado de personalización hace referencia a una dirección URL externa (por ejemplo, una imagen alojada externamente), asegúrese de que se añade el dominio a la lista de permitidos aprobada de la instancia para que el recurso se siga cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control de Campaign para añadir y administrar las direcciones URL incluidas en la lista de permitidos. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
 
 Puede definir nuevos bloques de contenido personalizado para insertarlos desde el icono de personalización.
 
