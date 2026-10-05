@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: bd8e8abb2d53dd9b7b3afcc82c283aa25111a0ff
+source-git-commit: 2b29b51ec0ddb0331afe7e8222f1f2a466c71e6c
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1621'
 ht-degree: 7%
 ---
 # Versiones, actualizaciones y seguridad {#upgrades}
@@ -86,11 +86,11 @@ Puede acceder a la siguiente información:
 >
 >Si la versión mostrada para la consola de cliente no coincide con la versión mostrada para el servidor de aplicaciones, actualice la consola tal como se describe en [Mantenga la consola de cliente actualizada](#ac-upgrades).
 
-### Manténgase informado sobre las nuevas versiones {#upgrades-0}
+### Anuncios de lanzamiento del producto {#upgrades-0}
 
 Las nuevas versiones y sus cambios se enumeran en [Notas de la versión](release-notes.md).
 
-Para obtener actualizaciones de la versión del producto, suscríbase a [Actualizaciones prioritarias del producto de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"} o visite la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=es&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
+Para obtener actualizaciones de la versión del producto, suscríbase a [Actualizaciones prioritarias del producto de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"} o visite la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
 
 Para obtener notificaciones de seguridad e instrucciones sobre cómo preparar a su organización para recibir actualizaciones de seguridad, vea [Mantenerse informado](#security-staying-informed).
 
