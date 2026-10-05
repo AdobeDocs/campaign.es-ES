@@ -1,5 +1,5 @@
 ---
-title: Versiones y actualizaciones de Campaign
+title: Versiones de Campaign, actualizaciones y seguridad
 description: Obtenga más información sobre las versiones y actualizaciones de Campaign
 feature: Release Notes
 role: User
@@ -19,12 +19,12 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 8e5d8570e198b0e6db350ba82e521bee8a2f6d9e
+source-git-commit: bd8e8abb2d53dd9b7b3afcc82c283aa25111a0ff
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1623'
 ht-degree: 7%
 ---
-# Versiones y actualizaciones {#upgrades}
+# Versiones, actualizaciones y seguridad {#upgrades}
 
 Adobe Campaign v8 se ofrece exclusivamente como solución de **Managed Cloud Services**. Adobe administra y realiza cada actualización del lado del servidor por usted: no hay implementación local o híbrida de v8 ni actualización de servidor para programar o realizar usted mismo.
 
@@ -42,7 +42,7 @@ Además, como cliente, asegúrese de que utiliza la última versión compatible 
 >
 >Adobe se reserva el derecho de aplicar parches de seguridad críticos a su entorno alojado en cualquier momento, sin previo aviso, para solucionar las vulnerabilidades lo antes posible. Estos parches se implementan sin interrupción del servicio. La corrección de una vulnerabilidad crítica tiene prioridad sobre las notificaciones avanzadas.
 
-## Versiones de Campaign {#versions}
+## Versiones y actualizaciones de Campaign {#versions}
 
 Adobe Campaign publica periódicamente versiones de productos que mejoran el rendimiento, la seguridad, la lógica y la facilidad de uso de su infraestructura de Campaign.
 
@@ -52,11 +52,11 @@ Estas actualizaciones pueden ser:
 * **Actualizaciones menores**, de una versión menor a otra, por ejemplo, de la versión 8.5 a la 8.6. Estas actualizaciones traen mejoras, actualizaciones de compatibilidad y seguridad, y correcciones.
 * **Actualizaciones de parches**, de una versión de parche a otra, por ejemplo, de la versión 8.5.1 a la 8.5.2. Estas actualizaciones traen actualizaciones y correcciones de seguridad.
 
-Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](release-notes.md). Las correcciones relacionadas con la seguridad se indican en las notas de cada versión. Consulte [¿Cómo puedo recibir información sobre el lanzamiento de una nueva versión?](#upgrades-0) más abajo.
+Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](release-notes.md). Las correcciones relacionadas con la seguridad se llaman dentro de las notas de cada versión. Para obtener más información acerca de las notificaciones de seguridad, vea [Mantenerse informado](#security-staying-informed).
 
 Para garantizar una configuración estable, Adobe recomienda instalar **exactamente la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en las [notas de la versión](release-notes.md), la consola del cliente debe estar en **la misma versión** que la instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
 
-## Mantenga la consola de cliente actualizada {#ac-upgrades}
+### Mantenga la consola de cliente actualizada {#ac-upgrades}
 
 Como cliente de Campaign Managed Services, cuando hay una nueva versión de Campaign disponible, Adobe actualiza la infraestructura del servidor sin que tenga que realizar ninguna otra acción.
 
@@ -69,13 +69,74 @@ Para evitarlo, actualice la consola de cliente en cuanto se le notifique una nue
 
 Tenga en cuenta que, como cliente de, también debe asegurarse de que está utilizando las últimas versiones compatibles de los sistemas enumerados en la [Matriz de compatibilidad](compatibility-matrix.md).
 
+### Compruebe su versión de Campaign {#version}
+
+Para comprobar su versión de Campaign, acceda al menú **Ayuda > Acerca de...** desde la consola del cliente.
+
+![](assets/ac-version.png)
+
+Puede acceder a la siguiente información:
+
+* El número **version** de su consola de cliente y servidor de aplicaciones. En el ejemplo anterior, la versión es 8.1.5 tanto para la consola del cliente como para el servidor de aplicaciones.
+* El número SHA, entre paréntesis.
+* Un vínculo para ponerse en contacto con el Servicio de atención al cliente de Adobe.
+* Vínculos a la Política de privacidad de Adobe, a las Condiciones de uso y a la Política de cookies.
+
+>[!NOTE]
+>
+>Si la versión mostrada para la consola de cliente no coincide con la versión mostrada para el servidor de aplicaciones, actualice la consola tal como se describe en [Mantenga la consola de cliente actualizada](#ac-upgrades).
+
+### Manténgase informado sobre las nuevas versiones {#upgrades-0}
+
+Las nuevas versiones y sus cambios se enumeran en [Notas de la versión](release-notes.md).
+
+Para obtener actualizaciones de la versión del producto, suscríbase a [Actualizaciones prioritarias del producto de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"} o visite la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"}.
+
+Para obtener notificaciones de seguridad e instrucciones sobre cómo preparar a su organización para recibir actualizaciones de seguridad, vea [Mantenerse informado](#security-staying-informed).
+
+### Ventajas de la actualización {#upgrades-1}
+
+La actualización garantiza que su cuenta está segura frente a vulnerabilidades y que utiliza una tecnología de rendimiento actualizada.
+
+Normalmente, la actualización a la versión más reciente trae consigo:
+
+* **Mayor seguridad**
+
+  La seguridad necesita un enfoque constante y mantenimiento proactivo. Los riesgos de seguridad son omnipresentes y no se pueden ignorar: cada actualización para Campaign mejora la seguridad. Una combinación de tecnologías funciona en conjunto para impulsar Adobe Campaign, y todas ellas deben estar actualizadas. Adobe aplica estas actualizaciones al servidor automáticamente; la actualización de la consola de cliente en este paso garantiza que la misma protección se extienda a él.
+
+* **Compatibilidad mejorada**
+
+  Los problemas más graves se resuelven con las actualizaciones y se pueden evitar por completo. Las actualizaciones regulares ayudan a reducir los desafíos a los que se enfrenta y aumentar la eficacia. El volumen del Servicio de atención al cliente se reduce, lo que permite una resolución más rápida y una mayor atención a los problemas que no están relacionados con las actualizaciones.
+
+* **Mantenimiento y estabilidad mejorados**
+
+  Con el tiempo, el equipo de Adobe Campaign identifica las formas de mejorar la estabilidad y el rendimiento del producto, así como de solucionar problemas conocidos. La actualización actualiza la instancia con estas mejoras y elimina los desafíos comunes a los que se enfrentan las organizaciones que experimentan un rápido crecimiento y/o complejidad en sus instancias de Campaign. Las mejoras de la pila tecnológica de Campaign se ven en los equipos de marketing y TI de su organización.
+
+* **Permanecer conectado**
+
+  La consola de cliente solo puede comunicarse de forma fiable con un servidor que ejecute la misma versión. Mantener la consola actualizada, cada vez que se actualiza el servidor, es lo que mantiene intacta esta conexión, así como la seguridad y las correcciones que conlleva.
+
+### Proceso de actualización y cronología {#upgrades-2}
+
+Como cliente de la versión 8, Adobe administra la actualización de servidor de extremo a extremo:
+
+1. Cuando hay una nueva versión disponible o se identifica que su cuenta debe pasar a una, su representante de Adobe se lo notifica.
+1. Adobe actualiza su infraestructura de servidor: no es necesario que realice ninguna acción en este paso.
+1. Por su parte, la única acción necesaria es actualizar la consola de cliente para que coincida y confirmar que los sistemas de su [matriz de compatibilidad](compatibility-matrix.md) siguen siendo compatibles. Ver [Mantén tu consola de cliente actualizada](#ac-upgrades).
+
+Un equipo de representantes del Servicio de atención al cliente, gerentes de productos, ingenieros, especialistas en TechOps y consultores de productos está preparado para ayudarle y garantizar que la experiencia sea fluida.
+
+>[!NOTE]
+>
+>Pueden aplicarse parches de seguridad críticos al entorno alojado fuera de este ciclo de notificación (consulte la nota en la parte superior de esta página).
+
 ## Protección más rápida a los clientes de Adobe Campaign: Cómo Adobe sigue el ritmo de la seguridad {#campaign-security}
 
 ### Buscar más, más rápido {#finding-more-faster}
 
 Como compartimos en [Protección de clientes más rápida: la respuesta de Adobe a la detección de vulnerabilidades acelerada por IA](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery), los equipos de seguridad de Adobe utilizan herramientas asistidas por IA para identificar y abordar las vulnerabilidades con mayor rapidez. Aplicamos este enfoque a todos nuestros productos, incluido Adobe Campaign.
 
-En esta página se explica cómo evaluamos y priorizamos los problemas de seguridad, cómo implementamos las correcciones y qué significa para usted.
+En esta sección se explica cómo evaluamos y priorizamos los problemas de seguridad, cómo implementamos las correcciones y qué significa para usted.
 
 ### Cómo evaluamos y priorizamos los problemas de seguridad {#assess-security-issues}
 
@@ -102,73 +163,10 @@ Diseñamos actualizaciones de seguridad para mantener la compatibilidad con las 
 
 No necesita realizar acciones inmediatas, pero estos pasos pueden ayudar a su organización a mantenerse informada y responder de forma eficaz:
 
-- Mantenga su cuenta y contactos técnicos actualizados en Adobe Admin Console para que las notificaciones lleguen a las personas adecuadas.
-- Suscríbase a [notificaciones de seguridad de Adobe](https://www.adobe.com/subscription/adobesecuritynotifications.html) para recibir boletines y avisos nuevos.
-- Revise el proceso de administración de cambios de su organización para que pueda evaluar y responder a las actualizaciones de seguridad con prontitud.
+* Mantenga su cuenta y contactos técnicos actualizados en Adobe Admin Console para que las notificaciones lleguen a las personas adecuadas.
+* Suscríbase a [notificaciones de seguridad de Adobe](https://www.adobe.com/subscription/adobesecuritynotifications.html) para recibir boletines y avisos nuevos.
+* Revise el proceso de administración de cambios de su organización para que pueda evaluar y responder a las actualizaciones de seguridad con prontitud.
 
 ### Nuestro compromiso {#security-commitment}
 
 Adobe se compromete a ayudar a proteger su entorno de Adobe Campaign y a responder rápidamente cuando surjan problemas de seguridad. Seguiremos fortaleciendo nuestros procesos de seguridad mientras trabajamos para minimizar las interrupciones en sus operaciones.
-
-## Preguntas frecuentes {#upgrades-faq}
-
-### ¿Cómo puedo comprobar mi versión de Campaign? {#version}
-
-Para comprobar su versión de Campaign, acceda al menú **Ayuda > Acerca de...** desde la consola del cliente.
-
-![](assets/ac-version.png)
-
-Puede acceder a la siguiente información:
-
-* El número **version** de su consola de cliente y servidor de aplicaciones. En el ejemplo anterior, la versión es 8.1.5 tanto para la consola del cliente como para el servidor de aplicaciones.
-* El número SHA, entre paréntesis.
-* Un vínculo para ponerse en contacto con el Servicio de atención al cliente de Adobe.
-* Vínculos a la Política de privacidad de Adobe, a las Condiciones de uso y a la Política de cookies.
-
->[!NOTE]
->
->Si la versión mostrada para la consola de cliente no coincide con la versión mostrada para el servidor de aplicaciones, actualice la consola tal como se describe en [Mantenga la consola de cliente actualizada](#ac-upgrades).
-
-### ¿Cómo puedo estar informado del lanzamiento de una nueva versión? {#upgrades-0}
-
-Las nuevas versiones y los cambios que traen, incluidas las correcciones de seguridad, se enumeran en [Notas de la versión](release-notes.md). Una vez que haya disponible una nueva versión, el representante de Adobe se pondrá en contacto con usted y actualizará los entornos de servidor; deberá actualizar por separado la consola de cliente (consulte [Mantener actualizada la consola de cliente](#ac-upgrades)).
-
-Para recibir información sobre las nuevas versiones de la solución Experience Cloud y su contenido, suscríbase a la comunicación [Actualizaciones prioritarias del producto de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
-
-También puede visitar la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=es&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
-
-### ¿Por qué necesita mi organización una actualización? {#upgrades-1}
-
-La actualización garantiza que su cuenta está segura frente a vulnerabilidades y que utiliza una tecnología de rendimiento actualizada.
-
-Normalmente, la actualización a la versión más reciente trae consigo:
-
-* **Mayor seguridad**
-
-  La seguridad necesita un enfoque constante y mantenimiento proactivo. Los riesgos de seguridad son omnipresentes y no se pueden ignorar: cada actualización para Campaign mejora la seguridad. Una combinación de tecnologías funciona en conjunto para impulsar Adobe Campaign, y todas ellas deben estar actualizadas. Adobe aplica estas actualizaciones al servidor automáticamente; la actualización de la consola de cliente en este paso garantiza que la misma protección se extienda a él.
-
-* **Compatibilidad mejorada**
-
-  Los problemas más graves se resuelven con las actualizaciones y se pueden evitar por completo. Las actualizaciones regulares ayudan a reducir los desafíos a los que se enfrenta y aumentar la eficacia. El volumen del Servicio de atención al cliente se reduce, lo que permite una resolución más rápida y una mayor atención a los problemas que no están relacionados con las actualizaciones.
-
-* **Mantenimiento y estabilidad mejorados**
-
-  Con el tiempo, el equipo de Adobe Campaign identifica las formas de mejorar la estabilidad y el rendimiento del producto, así como de solucionar problemas conocidos. La actualización actualiza la instancia con estas mejoras y elimina los desafíos comunes a los que se enfrentan las organizaciones que experimentan un rápido crecimiento y/o complejidad en sus instancias de Campaign. Las mejoras de la pila tecnológica de Campaign se ven en los equipos de marketing y TI de su organización.
-
-* **Permanecer conectado**
-
-  La consola de cliente solo puede comunicarse de forma fiable con un servidor que ejecute la misma versión. Mantener la consola actualizada, cada vez que se actualiza el servidor, es lo que mantiene intacta esta conexión, así como la seguridad y las correcciones que conlleva.
-
-### ¿Cuál es el proceso y la cronología de una actualización? {#upgrades-2}
-
-Como cliente de la versión 8, Adobe administra la actualización de servidor de extremo a extremo:
-
-1. Cuando hay una nueva versión disponible o se identifica que su cuenta debe pasar a una, su representante de Adobe se lo notifica.
-1. Adobe actualiza su infraestructura de servidor: no es necesario que realice ninguna acción en este paso.
-1. Por su parte, la única acción necesaria es actualizar la consola de cliente para que coincida y confirmar que los sistemas de su [matriz de compatibilidad](compatibility-matrix.md) siguen siendo compatibles. Ver [Mantén tu consola de cliente actualizada](#ac-upgrades).
-
-Un equipo de representantes del Servicio de atención al cliente, gerentes de productos, ingenieros, especialistas en TechOps y consultores de productos está preparado para ayudarle y garantizar que la experiencia sea fluida.
-
->[!NOTE]
->
->Pueden aplicarse parches de seguridad críticos al entorno alojado fuera de este ciclo de notificación (consulte la nota en la parte superior de esta página).
