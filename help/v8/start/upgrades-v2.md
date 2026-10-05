@@ -19,7 +19,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 829f03234f4899643a7af4c8f21707f4dc7c5389
+source-git-commit: 8e5d8570e198b0e6db350ba82e521bee8a2f6d9e
 workflow-type: tm+mt
 source-wordcount: '1685'
 ht-degree: 7%
@@ -75,7 +75,7 @@ Tenga en cuenta que, como cliente de, también debe asegurarse de que está util
 
 Como compartimos en [Protección de clientes más rápida: la respuesta de Adobe a la detección de vulnerabilidades acelerada por IA](https://blog.adobe.com/security/protecting-customers-faster-how-adobe-is-responding-to-ai-accelerated-vulnerability-discovery), los equipos de seguridad de Adobe utilizan herramientas asistidas por IA para identificar y abordar las vulnerabilidades con mayor rapidez. Aplicamos este enfoque a todos nuestros productos, incluido Adobe Campaign.
 
-Este artículo explica cómo evaluamos y priorizamos los problemas de seguridad, cómo implementamos correcciones y qué significa para usted.
+En esta página se explica cómo evaluamos y priorizamos los problemas de seguridad, cómo implementamos las correcciones y qué significa para usted.
 
 ### Cómo evaluamos y priorizamos los problemas de seguridad {#assess-security-issues}
 
@@ -91,8 +91,8 @@ Validamos las actualizaciones de seguridad antes del lanzamiento y elegimos un m
 
 Según el ámbito de la actualización, utilizamos uno de los dos métodos de implementación:
 
-- Mantenimiento de la pila de seguridad: actualizaciones dirigidas que no cambian el número de compilación ni introducen cambios previstos en la funcionalidad del producto. Los clientes con configuraciones estándar generalmente no necesitan realizar ninguna acción.
-- Actualizaciones de la versión impulsadas por la seguridad: Actualizaciones que cambian el número de compilación y siguen los procesos de notificación, nota de versión y despliegue estándar de Adobe.
+* **Mantenimiento de la pila de seguridad**: Actualizaciones dirigidas que no cambian el número de compilación ni introducen cambios previstos en la funcionalidad del producto. Los clientes con configuraciones estándar generalmente no necesitan realizar ninguna acción.
+* **Actualizaciones de versión impulsadas por la seguridad**: Actualizaciones que cambian el número de compilación y siguen los procesos de notificación, nota de versión y despliegue estándar de Adobe.
 
 Para las configuraciones estándar integradas, las integraciones y las campañas en ejecución siguen funcionando como antes.
 
@@ -135,7 +135,7 @@ Las nuevas versiones y los cambios que traen, incluidas las correcciones de segu
 
 Para recibir información sobre las nuevas versiones de la solución Experience Cloud y su contenido, suscríbase a la comunicación [Actualizaciones prioritarias del producto de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
 
-También puede visitar la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?profile.language=es&style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
+También puede visitar la [Comunidad de Campaign](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/Community-TopicsPage?style=all&sort=date&order=desc&filters=adobe-campaign-classic-community&topic=Campaign+v8){target="_blank"} para recibir información sobre las actualizaciones de la versión.
 
 ### ¿Por qué necesita mi organización una actualización? {#upgrades-1}
 
