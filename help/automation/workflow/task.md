@@ -9,7 +9,6 @@ source-wordcount: '78'
 ht-degree: 100%
 
 ---
-
 # Tarea{#task}
 
 En un flujo de trabajo de campaña, la actividad **[!UICONTROL Task]** permite especificar dos situaciones: la primera, si la tarea se completa; y la segunda, si la tarea no se completa (si se marca manualmente como incompleta o si caduca).
