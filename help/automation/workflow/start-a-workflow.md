@@ -7,26 +7,36 @@ level: Beginner
 role: User, Admin
 version: Campaign v8, Campaign Classic v7
 exl-id: 6d9789e3-d721-4ffd-b3fb-a0c522ab1c0a
-TQID: https://experienceleague.adobe.com/VHBQEKUthZcW2WrbNjmlIC7FzJFDqX0PykJg95sM-WI
+TQID: 'https://experienceleague.adobe.com/VHBQEKUthZcW2WrbNjmlIC7FzJFDqX0PykJg95sM-WI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1143
-ht-degree: 89%
-
+source-wordcount: '1143'
+ht-degree: 94%
 ---
-
 # Iniciar, pausar y detener un flujo de trabajo {#starting-a-workflow}
 
 Un flujo de trabajo siempre se inicia manualmente. Cuando se inicia, no obstante, puede permanecer inactivo según la información especificada mediante un planificador (consulte [Scheduler](scheduler.md)) o una planificación de actividad.
 
-Acciones relacionadas con la ejecución del flujo de trabajo de objetivos (inicio, parada, pausa, etc.) son **procesos asincrónicos**: el pedido se ha registrado y entrará en vigor en cuanto el servidor esté disponible para aplicarlo.
+Las acciones relacionadas con la ejecución del flujo de trabajo de segmentación (inicio, parada, pausa, etc.) son procesos **asíncronos**: la orden se registra y se aplicará tan pronto como el servidor esté disponible para ejecutarla.
 
 La barra de herramientas permite iniciar y rastrear la ejecución del flujo de trabajo.
 
@@ -73,14 +83,14 @@ El botón **[!UICONTROL Actions]** de la barra de herramientas le permite accede
   Esta acción detiene y reinicia el flujo de trabajo. En la mayoría de los casos, es posible reiniciarlo más rápido. También resulta útil automatizar el reinicio cuando la detención lleva una determinada cantidad de tiempo: esto sucede porque el comando “Detener” no está disponible cuando el flujo de trabajo se detiene.
 
   Tenga en cuenta que la acción **Reiniciar** no borra las variables de la instancia de flujo de trabajo en comparación con las acciones **Ejecución**, **Detener** e **Iniciar** (las variables de instancia se borran tras la acción Iniciar). Al reiniciar un flujo de trabajo, las variables de instancia siguen estando disponibles para su uso con los valores conservados. Para configurarlas, puede:
-   * Ejecutar las acciones **Detener** e **Iniciar**.
-   * Añada el siguiente código JavaScript al final de la ejecución del flujo de trabajo:
+  * Ejecutar las acciones **Detener** e **Iniciar**.
+  * Añada el siguiente código JavaScript al final de la ejecución del flujo de trabajo:
 
-     ```
-     var wkf = xtk.workflow.load(instance.id)
-     wkf.variables='<variables/>'
-     wkf.save()
-     ```
+    ```
+    var wkf = xtk.workflow.load(instance.id)
+    wkf.variables='<variables/>'
+    wkf.save()
+    ```
 
 * **[!UICONTROL Purge history]**
 
@@ -88,7 +98,7 @@ El botón **[!UICONTROL Actions]** de la barra de herramientas le permite accede
 
 * **[!UICONTROL Start in simulation mode]**
 
-  Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. Esto significa que, cuando se habilita este modo, solo se ejecutan las actividades que no afectan a la base de datos o al sistema de archivos (por ejemplo **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Actividades que sí tienen impacto (por ejemplo: **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.) no se ejecutan ni los que se encuentran después de ellos (en la misma rama).
+  Esta opción permite iniciar el flujo de trabajo en modo de simulación, distinto del modo real. Esto significa que, cuando se habilita este modo, solo se ejecutan las actividades que no afectan a la base de datos o al sistema de archivos (por ejemplo **[!UICONTROL Query]**, **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.). Las actividades que sí tienen un impacto (por ejemplo: **[!UICONTROL Export]**, **[!UICONTROL Import]**, etc.), así como las que vienen después de ellas (en la misma rama), no se ejecutan.
 
 * **[!UICONTROL Execute pending tasks now]**
 
@@ -110,9 +120,9 @@ Mejore la estabilidad de las instancias mediante la implementación de las sigui
 
   Para evitar tener flujos de trabajo en estado pausado:
 
-   * Consulte los flujos de trabajo regularmente para garantizar que no hay errores inesperados.
-   * Mantenga los flujos de trabajo tan sencillos como sea posible, por ejemplo, dividiendo los flujos de trabajo grandes en distintos flujos de trabajo. Puede utilizar las actividades **[!UICONTROL External signal]** impulsando la ejecución en función de la ejecución de otros flujos de trabajo.
-   * Evite tener actividades desactivadas con flujos en los flujos de trabajo, dejando los subprocesos abiertos y generando que muchas tablas temporales puedan consumir mucho espacio. Evite mantener las actividades en estados **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** en los flujos de trabajo.
+  * Consulte los flujos de trabajo regularmente para garantizar que no hay errores inesperados.
+  * Mantenga los flujos de trabajo tan sencillos como sea posible, por ejemplo, dividiendo los flujos de trabajo grandes en distintos flujos de trabajo. Puede utilizar las actividades **[!UICONTROL External signal]** impulsando la ejecución en función de la ejecución de otros flujos de trabajo.
+  * Evite tener actividades desactivadas con flujos en los flujos de trabajo, dejando los subprocesos abiertos y generando que muchas tablas temporales puedan consumir mucho espacio. Evite mantener las actividades en estados **[!UICONTROL Do not enable]** o **[!UICONTROL Enable but do not execute]** en los flujos de trabajo.
 
 * **Detenga los flujos de trabajo no utilizados**. Los flujos de trabajo que siguen ejecutándose mantienen conexiones con la base de datos.
 

@@ -5,21 +5,30 @@ description: Método de prácticas recomendadas para administrar el módulo de i
 feature: Interaction, Offers
 role: User, Admin
 exl-id: 28f3a5bc-67f5-413e-b2ba-35c341f9ec5f
-TQID: https://experienceleague.adobe.com/OUP5tiLtOXdnbtE-Q-Y673b2sinBqHj3071zUMc23bc
+TQID: 'https://experienceleague.adobe.com/OUP5tiLtOXdnbtE-Q-Y673b2sinBqHj3071zUMc23bc'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Metadata
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1173
-ht-degree: 65%
-
+source-wordcount: '1173'
+ht-degree: 67%
 ---
-
 # Prácticas recomendadas de interacción {#interaction-best-practices}
 
 ## Recomendaciones generales {#general-recommendations}
@@ -30,30 +39,30 @@ Esta sección presenta las prácticas recomendadas para administrar el módulo *
 
 * Al **implementar y configurar interacciones**, debe tener en cuenta las siguientes recomendaciones:
 
-   * Para el motor por lotes (generalmente utilizado en comunicaciones salientes como el correo electrónico), el rendimiento es la preocupación principal, ya que se pueden manejar varios contactos al mismo tiempo. El típico obstáculo es el rendimiento de la base de datos.
-   * La restricción principal del motor unitario (que generalmente se utiliza en comunicaciones entrantes como un banner en un sitio web) es la latencia, ya que alguien está esperando una respuesta. El típico obstáculo es el rendimiento de la CPU.
-   * El diseño del catálogo de ofertas tiene un gran impacto en el rendimiento de Adobe Campaign.
-   * Al trabajar con muchas ofertas, la práctica recomendada es dividirlas en varios catálogos de ofertas.
+  * Para el motor por lotes (generalmente utilizado en comunicaciones salientes como el correo electrónico), el rendimiento es la preocupación principal, ya que se pueden manejar varios contactos al mismo tiempo. El típico obstáculo es el rendimiento de la base de datos.
+  * La restricción principal del motor unitario (que generalmente se utiliza en comunicaciones entrantes como un banner en un sitio web) es la latencia, ya que alguien está esperando una respuesta. El típico obstáculo es el rendimiento de la CPU.
+  * El diseño del catálogo de ofertas tiene un gran impacto en el rendimiento de Adobe Campaign.
+  * Al trabajar con muchas ofertas, la práctica recomendada es dividirlas en varios catálogos de ofertas.
 
 * A continuación se enumeran algunas prácticas recomendadas al trabajar con **reglas de elegibilidad**:
 
-   * Simplificar las reglas. La complejidad de las reglas afecta al rendimiento a medida que amplía la búsqueda. Una regla compleja es cualquier regla que tenga más de cinco condiciones.
-   * Para aumentar el rendimiento, las reglas se pueden dividir en diferentes filtros predefinidos que se comparten en varias ofertas.
-   * Coloque las reglas de la categoría de oferta más restrictivas en la posición más alta posible del árbol. En este caso, ponga en primer lugar el filtro para la mayoría de contactos, reduciendo el número de objetivo y evitará que se procesen más reglas.
-   * Coloque las reglas más pesadas en términos de tiempo o procesamiento en la parte inferior del árbol. De este modo, estas reglas sólo se ejecutarán para el público destinatario restante.
-   * Comience en una categoría específica para evitar el escaneo del árbol completo.
-   * Para ahorrar tiempo de procesamiento, precalcule se añade en lugar de crear reglas complejas con uniones. Para ello, intente almacenar los datos del cliente en una tabla de referencia que se pueda buscar en reglas de elegibilidad.
-   * Utilice un número mínimo de ponderaciones para limitar el número de consultas.
-   * Se recomienda tener un número limitado de ofertas por espacio de oferta. Esto garantiza una recuperación más rápida de las ofertas en un espacio determinado.
-   * Utilice índices, especialmente en las columnas de búsqueda utilizadas frecuentemente.
+  * Simplificar las reglas. La complejidad de las reglas afecta al rendimiento a medida que amplía la búsqueda. Una regla compleja es cualquier regla que tenga más de cinco condiciones.
+  * Para aumentar el rendimiento, las reglas se pueden dividir en diferentes filtros predefinidos que se comparten en varias ofertas.
+  * Coloque las reglas de la categoría de oferta más restrictivas en la posición más alta posible del árbol. En este caso, ponga en primer lugar el filtro para la mayoría de contactos, reduciendo el número de objetivo y evitará que se procesen más reglas.
+  * Coloque las reglas más pesadas en términos de tiempo o procesamiento en la parte inferior del árbol. De este modo, estas reglas sólo se ejecutarán para el público destinatario restante.
+  * Comience en una categoría específica para evitar el escaneo del árbol completo.
+  * Para ahorrar tiempo de procesamiento, precalcule se añade en lugar de crear reglas complejas con uniones. Para ello, intente almacenar los datos del cliente en una tabla de referencia que se pueda buscar en reglas de elegibilidad.
+  * Utilice un número mínimo de ponderaciones para limitar el número de consultas.
+  * Se recomienda tener un número limitado de ofertas por espacio de oferta. Esto garantiza una recuperación más rápida de las ofertas en un espacio determinado.
+  * Utilice índices, especialmente en las columnas de búsqueda utilizadas frecuentemente.
 
 * A continuación se enumeran algunas prácticas recomendadas con respecto a la **tabla de propuestas**:
 
-   * Utilice un número mínimo de reglas para realizar el procesamiento lo más rápidamente posible.
-   * Limite el número de registros de la tabla de propuestas: mantenga únicamente los registros necesarios para realizar el seguimiento de su actualización de estado y lo que necesita las reglas, luego archívelo en otro sistema.
-   * Realice un mantenimiento intensivo de la base de datos en la tabla de propuestas, como la regeneración de índices o la regeneración de tablas.
-   * Limite el número de proposiciones solicitadas por destino. No configure más de lo que realmente va a utilizar.
-   * Evite las uniones lo máximo posible en los criterios de regla.
+  * Utilice un número mínimo de reglas para realizar el procesamiento lo más rápidamente posible.
+  * Limite el número de registros de la tabla de propuestas: mantenga únicamente los registros necesarios para realizar el seguimiento de su actualización de estado y lo que necesita las reglas, luego archívelo en otro sistema.
+  * Realice un mantenimiento intensivo de la base de datos en la tabla de propuestas, como la regeneración de índices o la regeneración de tablas.
+  * Limite el número de proposiciones solicitadas por destino. No configure más de lo que realmente va a utilizar.
+  * Evite las uniones lo máximo posible en los criterios de regla.
 
 ## Sugerencias al administrar ofertas {#tips-managing-offers}
 

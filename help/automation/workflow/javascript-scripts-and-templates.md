@@ -6,18 +6,26 @@ feature: Workflows
 role: Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 14160de5-23d2-4f53-84c6-0f9e3b1dcf21
-TQID: https://experienceleague.adobe.com/PbWDQXbUkUD125BnpQnw9SbKgUFnIqKeus1EVc-OAEk
+TQID: 'https://experienceleague.adobe.com/PbWDQXbUkUD125BnpQnw9SbKgUFnIqKeus1EVc-OAEk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1251
-ht-degree: 97%
-
+source-wordcount: '1251'
+ht-degree: 100%
 ---
-
 # Plantillas y secuencias de comandos de JavaScript{#javascript-scripts-and-templates}
 
 
@@ -170,7 +178,7 @@ Por consiguiente, para llamar a una variable **instance.vars.xxx = &quot;yyy&quo
 
 Por ejemplo:
 
-1. Cree una variable de instancia que defina el nombre interno de un envío mediante el **&#x200B;**&#x200B;[!UICONTROL JavaScript code]&#x200B;**: instance.vars.deliveryIN = “DM42”**.
+1. Cree una variable de instancia que defina el nombre interno de un envío mediante el ****[!UICONTROL JavaScript code]**: instance.vars.deliveryIN = “DM42”**.
 
    ![](assets/wkf_js_activity_1.png)
 

@@ -5,20 +5,29 @@ feature: Transactional Messaging
 role: User
 level: Intermediate
 exl-id: 2f679d1c-4eb6-4b3c-bdc5-02d3dea6b7d3
-TQID: https://experienceleague.adobe.com/ni7XuCsnpZaGAozdYRZF4Dy-PQAGe720g0WTimQPpX0
+TQID: 'https://experienceleague.adobe.com/ni7XuCsnpZaGAozdYRZF4Dy-PQAGe720g0WTimQPpX0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Intermediate
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 750
-ht-degree: 87%
-
+source-wordcount: '750'
+ht-degree: 96%
 ---
-
 # Comprensión de la descripción del evento {#about-event-desc}
 
 ## Modelo de datos de mensajería transaccional {#about-mc-datamodel}
@@ -29,7 +38,7 @@ La mensajería transaccional se basa en el modelo de datos de Adobe Campaign y u
 
 Esta sección detalla los métodos SOAP asociados a los esquemas de módulos de mensajes transaccionales.
 
-Dos métodos SOAP **PushEvent** o **PushEvents** están vinculados a los dos esquemas de datos **nms:rtEvent** y **nms:BatchEvent**. Es el sistema de información el que determina si un evento es de tipo “por lotes” o en “tiempo real”.
+Dos métodos de SOAP **PushEvent** o **PushEvents** están vinculados a los dos esquemas de datos **nms:rtEvent** y **nms:BatchEvent**. Es el sistema de información el que determina si un evento es de tipo “por lotes” o en “tiempo real”.
 
 * **PushEvent** le permite insertar un solo evento en el mensaje,
 * **PushEvents** le permite insertar una serie de eventos en el mensaje.
@@ -129,7 +138,7 @@ Se recomienda rellenar los atributos @wishedChannel y @emailFormat con valores n
 
 >[!NOTE]
 >
->Hay disponible una descripción detallada de todos los atributos autorizados, así como sus valores, en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
+>Hay una descripción detallada disponible de todos los atributos autorizados, así como sus valores, en la descripción del esquema de datos **nms:rtEvent** y **nms:BatchEvent**.
 
 El elemento **`<ctx>`** contiene los datos del mensaje. Su contenido XML está abierto, lo que significa que se puede configurar según el contenido que se va a enviar.
 

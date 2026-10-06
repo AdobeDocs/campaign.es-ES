@@ -5,26 +5,34 @@ feature: API
 role: Developer
 level: Intermediate, Experienced
 exl-id: 50e21acd-d23d-4fdd-a8aa-23c3f209bda3
-TQID: https://experienceleague.adobe.com/pC27h6Z-J345l4XjFEOgwVTHtQSSRxJmtnWQ973SiPk
+TQID: 'https://experienceleague.adobe.com/pC27h6Z-J345l4XjFEOgwVTHtQSSRxJmtnWQ973SiPk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
+    internal-label: Reporting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 314
-ht-degree: 10%
-
+source-wordcount: '314'
+ht-degree: 14%
 ---
-
 # Introducción a las API de [!DNL Campaign] {#gs-ac-api}
 
 [!DNL Adobe Campaign] viene con un conjunto de funciones de JavaScript que puede utilizar:
@@ -38,7 +46,7 @@ ht-degree: 10%
 
 Puede usar [las API de JavaScript de Campaign](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"} para escribir en la base de datos de la nube de Campaign o leer desde la base de datos:
 
-* API específicas de la empresa que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=es){target="_blank"}.
+* API específicas de la empresa que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
 * API genéricas de acceso a datos para consultar los datos del modelo de datos usando `queryDef` y el objeto `NLWS`. Obtenga más información en [Consulte la base de datos con queryDef](query-api.md).
 
 Tenga en cuenta que en su implementación de [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md), Campaign funciona con dos bases de datos: una base de datos local para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una base de datos de Cloud para la ejecución de campañas, la creación de informes, la ingesta de datos, las consultas por lotes y la ejecución del flujo de trabajo.

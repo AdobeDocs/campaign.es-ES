@@ -4,13 +4,16 @@ title: desaprobación de 32 bits de la consola del cliente
 description: desaprobación de 32 bits de la consola del cliente
 hide: true
 exl-id: 9411e38a-5783-439c-ad54-f33bd374f2b8
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 1%
-
 ---
-
 # Fin de la compatibilidad con sistemas operativos de 32 bits {#console-eol}
 
 La versión de 32 bits de la consola del cliente está en desuso en la versión 8.5. Hay disponible una nueva versión de 64 bits de la consola del cliente para una actualización sin problemas.

@@ -6,20 +6,29 @@ feature: Workflows, Data Management
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 86dee66a-357a-4927-916e-51cde6c006d5
-TQID: https://experienceleague.adobe.com/-pe9wOpEgZGYZg-mC5EBSQ6sH-pxsLC1HvUEnVxVBPM
+TQID: 'https://experienceleague.adobe.com/-pe9wOpEgZGYZg-mC5EBSQ6sH-pxsLC1HvUEnVxVBPM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Data management
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 975
+source-wordcount: '975'
 ht-degree: 99%
-
 ---
-
 # Creación de una lista de resumen{#creating-a-summary-list}
 
 Este caso de uso detalla la creación de un flujo de trabajo que, después de recopilar archivos y luego de varios enriquecimientos, permite crear una lista de resumen. El ejemplo se basa en una lista de contactos que realizaron compras en una tienda.
@@ -157,7 +166,7 @@ El propósito de este segundo enriquecimiento es crear un agregado en el esquema
 
    ![](assets/uc2_enrich_enrich10.png)
 
-1. Haga clic **[!UICONTROL Next]**.
+1. Haga clic en **[!UICONTROL Next]**.
 1. Agregue la siguiente expresión para calcular el total de compra para cada contacto:&quot;Sum(@prodprice)&quot;.
 
    ![](assets/uc2_enrich_enrich6.png)

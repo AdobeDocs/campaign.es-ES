@@ -5,21 +5,30 @@ feature: Interaction, Offers
 role: User, Admin
 level: Beginner
 exl-id: d39b1768-4c39-4d64-b9b6-d9c9424a2b0d
-TQID: https://experienceleague.adobe.com/K-eSL7fzZ0mPQgyumhnWSDBPbvkEml80n0aGrJWazd8
+TQID: 'https://experienceleague.adobe.com/K-eSL7fzZ0mPQgyumhnWSDBPbvkEml80n0aGrJWazd8'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1276
+source-wordcount: '1276'
 ht-degree: 58%
-
 ---
-
 # Enviar una oferta{#send}
 
 Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno **Live**. [Más información](interaction-offer.md#approve-offers)
@@ -116,7 +125,7 @@ Después de configurar su actividad **Consulta**:
 
      ![](assets/int_enrichment_offer4.png)
 
-1. A continuación, configure una actividad de envío que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -138,7 +147,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/int_enrichment_link2.png)
 
-1. A continuación, configure una actividad de envío que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#offer-into-a-delivery)
 
    >[!NOTE]
    >
@@ -171,7 +180,7 @@ La entrega almacena automáticamente la clasificación y las consideraciones de 
 
 La actividad **[!UICONTROL Offer engine]** también le permite especificar una llamada al motor de oferta antes de la entrega.
 
-Para obtener más información sobre la actividad **Motor de ofertas**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html?lang=es){target="_blank"}.
+Para obtener más información sobre la actividad **Motor de ofertas**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offer-engine.html){target="_blank"}.
 
 Esta actividad funciona con el mismo principio que la actividad **Enrichment** con acceso al motor, al enriquecer los datos de población entrantes con una oferta calculada por el motor antes de una entrega.
 
@@ -188,13 +197,13 @@ Después de configurar su actividad **Consulta**:
 
    ![](assets/int_offerengine_activity1.png)
 
-1. A continuación, configure una actividad de envío que corresponda al canal elegido. [Más información](#inserting-an-offer-proposition-into-a-delivery)
+1. A continuación, configure una actividad de entrega que corresponda al canal elegido. [Más información](#inserting-an-offer-proposition-into-a-delivery)
 
 ### Ofertas por celda {#offers-by-cell}
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-Para obtener más información sobre la actividad **Oferta por celda**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html?lang=es){target="_blank"}.
+Para obtener más información sobre la actividad **Oferta por celda**, consulte [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/targeting-activities/offers-by-cell.html){target="_blank"}.
 
 Para ello, utilice el proceso siguiente:
 

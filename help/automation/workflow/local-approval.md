@@ -6,22 +6,33 @@ feature: Workflows, Approvals
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 172b6827-ddfc-4c6e-87c9-eb49e73ab3ab
-TQID: https://experienceleague.adobe.com/wVcQzhDcvinh3rooWklkMsf-KQvWepqYcgcgrHlbdXg
+TQID: 'https://experienceleague.adobe.com/wVcQzhDcvinh3rooWklkMsf-KQvWepqYcgcgrHlbdXg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ce296ecd-3d06-45ab-83c3-37214e8ce31c
+    internal-label: Approvals
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 648
+source-wordcount: '648'
 ht-degree: 92%
-
 ---
-
 # Aprobación local{#local-approval}
 
 Cuando se integra en un flujo de trabajo de objetivos, la actividad **[!UICONTROL Local approval]** permite configurar un proceso de aprobación de destinatarios antes de la entrega.
@@ -60,14 +71,14 @@ Los campos que se deben ingresar en caso de una notificación para la aprobació
 
 * **[!UICONTROL Approval management]**
 
-   * Seleccione la plantilla de envío y el asunto que se utilizará para la notificación por correo electrónico. Hay disponible una plantilla predeterminada: **[!UICONTROL Local approval notification]**. También puede añadir una descripción que aparecerá sobre las listas de destinatarios en las notificaciones de aprobación y comentarios.
-   * Especifique el **[!UICONTROL Approval type]** correspondiente a la fecha límite de aprobación (fecha o fecha límite desde el inicio de la aprobación). En esta fecha, el flujo de trabajo se inicia nuevamente y los destinatarios que no se hayan aprobado no se tienen en cuenta para los objetivos. Una vez enviadas las notificaciones, la actividad se pone en cola para que los supervisores locales puedan aprobar sus contactos.
+  * Seleccione la plantilla de envío y el asunto que se utilizará para la notificación por correo electrónico. Hay disponible una plantilla predeterminada: **[!UICONTROL Local approval notification]**. También puede añadir una descripción que aparecerá sobre las listas de destinatarios en las notificaciones de aprobación y comentarios.
+  * Especifique el **[!UICONTROL Approval type]** correspondiente a la fecha límite de aprobación (fecha o fecha límite desde el inicio de la aprobación). En esta fecha, el flujo de trabajo se inicia nuevamente y los destinatarios que no se hayan aprobado no se tienen en cuenta para los objetivos. Una vez enviadas las notificaciones, la actividad se pone en cola para que los supervisores locales puedan aprobar sus contactos.
 
-     >[!NOTE]
-     >
-     >De forma predeterminada, cuando se inicia el proceso de aprobación, la actividad queda pendiente durante tres días.
+    >[!NOTE]
+    >
+    >De forma predeterminada, cuando se inicia el proceso de aprobación, la actividad queda pendiente durante tres días.
 
-     También puede añadir uno o más recordatorios para informarles a los supervisores locales que la fecha límite se acerca. Para ello, haga clic en el vínculo **[!UICONTROL Add a reminder]**.
+    También puede añadir uno o más recordatorios para informarles a los supervisores locales que la fecha límite se acerca. Para ello, haga clic en el vínculo **[!UICONTROL Add a reminder]**.
 
 * **[!UICONTROL Complementary set]**: la opción **[!UICONTROL Generate complement]** permite generar un segundo conjunto que incluya todos los objetivos no aprobados.
 

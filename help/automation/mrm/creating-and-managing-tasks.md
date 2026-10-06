@@ -5,22 +5,28 @@ description: Creación y administración de tareas
 feature: Campaigns, Resource Management
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
-TQID: https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs
+TQID: 'https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Implementation
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3764
-ht-degree: 84%
-
+source-wordcount: '3766'
+ht-degree: 85%
 ---
-
 # Creación y administración de tareas{#creating-and-managing-tasks}
 
 Adobe Campaign le permite crear tareas y gestionar su ciclo de vida completo directamente desde la aplicación. La implementación de programas y campañas se puede dividir en tareas asignadas a operadores de Adobe Campaign o a proveedores de servicios externos. Este modo de operación le permite crear un entorno de colaboración abierto que incluye todos los participantes del programa y participantes externos.
@@ -323,8 +329,8 @@ La tarea de creación de recursos de marketing interactúa con el recurso vincul
 
   Puede utilizar una serie de tareas vinculadas para definir un ciclo de aprobación completo. Compruebe la opción **[!UICONTROL Publish the marketing resource]** solo para la última tarea: todas las tareas deben haber terminado para que se publique el recurso. Además, al crear una tarea secundaria de recursos de marketing, el recurso se selecciona automáticamente en la tarea secundaria.
 
-   * **Mediante el recurso**: si envía el recurso para su aprobación o lo aprueba, estas acciones no afectan a la tarea.
-   * **Via the task**: si la opción **[!UICONTROL Publish the marketing resource]** está activada, el recurso se aprueba y se publica automáticamente una vez se haya finalizado la tarea (consulte más arriba). Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
+  * **Mediante el recurso**: si envía el recurso para su aprobación o lo aprueba, estas acciones no afectan a la tarea.
+  * **Via the task**: si la opción **[!UICONTROL Publish the marketing resource]** está activada, el recurso se aprueba y se publica automáticamente una vez se haya finalizado la tarea (consulte más arriba). Si la opción no está activada, la tarea y el recurso no interactúan: la modificación de una no afecta al otro, y viceversa.
 
 #### Configuración de una tarea de creación de recursos de marketing {#configuring-a-marketing-resource-creation-task}
 
@@ -420,7 +426,7 @@ La dependencia entre tareas se representa mediante flechas en el panel de contro
 
 ![](assets/s_ncs_user_task_dependencies_from_board.png)
 
-En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea secundaria de **Crear invitación** finaliza el 15 de octubre a las 3:30PM, la tarea secundaria **Enviar correo electrónico de invitación** comenzará el 15 de octubre a las 3:30PM.
+En el caso de las tareas agrupadas, Adobe Campaign asigna automáticamente la fecha de finalización de la tarea principal a la tarea secundaria como fecha de inicio. Por ejemplo, si una tarea **Crear invitación** finaliza el 15 de octubre a las 15:30, la tarea secundaria **Enviar correo electrónico de invitación** comenzará el 15 de octubre a las 15:30.
 
 Además, si pospone el final de una tarea principal, algunas de sus tareas secundarias podrían verse afectadas: estas son las tareas secundarias cuyo estado es **[!UICONTROL Scheduled]** y cuya fecha de inicio es anterior a la nueva fecha de finalización de la tarea principal. La duración de la tarea sigue siendo la misma. Si la fecha de inicio de una tarea secundaria es posterior a la nueva fecha de finalización de la tarea principal, la tarea secundaria no se ve afectada.
 

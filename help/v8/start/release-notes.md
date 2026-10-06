@@ -3,23 +3,34 @@ title: Notas de la versión de Campaign v8
 description: Última versión de Campaign v8
 feature: Release Notes
 exl-id: 7cf8111d-9f3a-46a4-813a-d4e43a1d1471
-TQID: https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg
+TQID: 'https://experienceleague.adobe.com/Zdo52RLQFbxlRNgE54yLDn3yAMmmOqxKyRhnCJa0Xwg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: d5ef99fa-df0c-4153-bf94-105ad0724167
+    internal-label: Integrations
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e5e477db-ebc7-4368-ab0f-4d8fc2aed405
+    internal-label: Release notes
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 87e77fcdb7c97ed903ea37a23fb2670aca904f59
+    internal-label: Security
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2098
-ht-degree: 6%
-
+source-wordcount: '2098'
+ht-degree: 11%
 ---
-
 # Últimas versiones {#latest-release}
 
 En esta página se indican las nuevas funciones, mejoras y correcciones que se incluyen con las **últimas versiones** de la versión 8 de Campaign (consola). Obtenga más información sobre las versiones y actualizaciones de Campaign en [esta página](upgrades.md). Otras versiones se indican en la sección Versiones anteriores de esta documentación.
@@ -34,11 +45,11 @@ _11 de agosto de 2026_
 
 Esta versión incluye correcciones de seguridad que refuerzan la postura de seguridad general del entorno de Campaign. Como cliente alojado, Adobe aplica estas correcciones como parte de la actualización, sin que sea necesario realizar ninguna acción por su parte.
 
-### Actualización de lista de permitidos de URL externa {#url-allow-list-update-8-9-3}
+### Actualización de lista de permitidos de URL externas {#url-allow-list-update-8-9-3}
 
-Esta versión incluye una actualización de la lista de permitidos de URL externa utilizada para el contenido de envío y los archivos adjuntos. Asegúrese de que todos los dominios a los que hace referencia actualmente se añadan a la lista de permitidos aprobada de la instancia.
+Esta versión incluye una actualización de la lista de permitidos de URL externas utilizada para el contenido de envío y los archivos adjuntos. Asegúrese de que todos los dominios a los que hace referencia actualmente se añadan a la lista de permitidos aprobada de la instancia.
 
-Como administrador de Campaign, utilice el Panel de control de Campaign para añadir a la lista de permitidos las URL externas que se utilizan actualmente en los envíos y siga el mismo proceso para cualquier URL externa nueva en el futuro. Complete esta actividad antes del 5 de septiembre de 2026 para evitar el impacto en las entregas afectadas. Consulte [Agregar permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para ver los pasos.
+Como administrador de Campaign, utilice el Panel de control para añadir a la lista de permitidos las URL externas que se utilizan actualmente en sus envíos y siga el mismo proceso para cualquier URL externa nueva en el futuro. Complete esta actividad antes del 5 de septiembre de 2026 para evitar cualquier impacto en los envíos afectados. Consulte [Adición de permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para conocer los pasos.
 
 ### Conector de Adobe Analytics actualizado a la API de Analytics 2.0 {#analytics-2-0-8-9-3}
 
@@ -119,12 +130,12 @@ El **nuevo conector de envío de SMS** ya está disponible para todos los client
 
 Esta versión incorpora un conjunto de funcionalidades disponibles con la interfaz de usuario web de Campaign:
 
-* [Funciones de envío multilingües (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html?lang=es){target="_blank"}
-* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html?lang=es){target="_blank"}
-* [Adobe Experience Manager live y copias de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html?lang=es){target="_blank"}
-* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html?lang=es){target="_blank"}
-* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html?lang=es){target="_blank"}
-* [Administración de aprobación de campañas](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html?lang=es){target="_blank"}
+* [Funciones de envío multilingües (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/multilingual.html){target="_blank"}
+* [Enriquecimiento de perfil en mensajes transaccionales (GA)](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/transactional-messages/profile-enrichment.html){target="_blank"}
+* [Adobe Experience Manager live y copias de idioma](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-multilingual.html){target="_blank"}
+* [Experimentos de contenido: pruebas A/B](https://experienceleague.adobe.com/docs/campaign-web/v8/msg/email/ab-testing.html){target="_blank"}
+* [Actividad de envío continuo](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/continuous-delivery.html){target="_blank"}
+* [Administración de aprobación de campañas](https://experienceleague.adobe.com/docs/campaign-web/v8/campaigns/campaign-approvals.html){target="_blank"}
 
 Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/campaign-web/v8/release-notes/release-notes.html?lang=es){target="_blank"} de la IU web de Campaign
 

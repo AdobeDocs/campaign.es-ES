@@ -3,13 +3,16 @@ title: Actualización de la infraestructura de envío de correo electrónico de 
 description: Actualización de la infraestructura de envío de correo electrónico de Campaign
 hide: true
 exl-id: f01e38ad-490e-4389-af5e-87beef533eb0
-source-git-commit: 6728fc8db6a6f8e401b782d6a17f4fa04876daa9
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 4%
-
 ---
-
 # Actualización de la infraestructura de envío de correo electrónico de Campaign {#migrate-infra-to-aws}
 
 ## ¿Qué se actualizará?{#aws-changes}
@@ -56,11 +59,11 @@ Las actualizaciones de los entornos de producción comenzaron en **enero de 2024
 
 * **¿Qué pruebas requieren los clientes?**
 
-  No esperamos pruebas por parte de los clientes en relación con este evento de actualización. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support){target="_blank"}.
+  No esperamos pruebas por parte de los clientes en relación con este evento de actualización. Si se observa algún problema, comuníquese con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.
 
 
 * **¿Puedo solicitar un cambio de fecha y hora en el intervalo programado de actualización de seguridad?**
 
   No. No podemos ajustar ninguna modificación solicitada a la programación existente, ya que esto probablemente interrumpa el evento de actualización asignado para otro cliente.
 
-Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/es?support-solution=Campaign#support){target="_blank"}.
+Para cualquier otra pregunta, puede contactar con el [Servicio de atención al cliente de Adobe](https://experienceleague.adobe.com/?support-solution=Campaign#support){target="_blank"}.

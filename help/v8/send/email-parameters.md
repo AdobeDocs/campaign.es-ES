@@ -6,13 +6,25 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: ad75f01e-2c6c-4607-b15a-8870d399002a
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 41%
-
 ---
-
 # Parámetros de correo electrónico {#email-parameters}
 
 Esta sección presenta las opciones y los parámetros disponibles en las propiedades de envío específicas de la entrega por correo electrónico.
@@ -79,7 +91,7 @@ Para obtener más información sobre la gestión de correo rechazado, consulte [
 
 ## Habilitar cancelación de suscripción a una lista de un clic {#one-click-list-unsubscribe}
 
-La URL de cancelación de suscripción a una lista de un clic es un vínculo o botón que se muestra junto a la información del remitente del correo electrónico, lo que permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=es#list-unsubscribe){target="_blank"}-->
+La URL de cancelación de suscripción a una lista de un clic es un vínculo o botón que se muestra junto a la información del remitente del correo electrónico, lo que permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
 Se muestra como un vínculo **Cancelar la suscripción** en las interfaces de correo electrónico de los ISP. Por ejemplo:
 
@@ -119,7 +131,7 @@ Según el cliente de correo electrónico y el método que utilice para realizar 
 
 >[!NOTE]
 >
->También puede establecer manualmente los métodos [One-Click List-Unsubscribe](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} y [&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. Los pasos detallados se describen en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=es#list-unsubscribe){target="_blank"} de Experience Cloud.
+>También puede establecer manualmente los métodos [One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} y [&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. Los pasos detallados se describen en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"} de Experience Cloud.
 
 
 ## Añadir encabezados SMTP {#adding-smtp-headers}

@@ -6,25 +6,37 @@ feature: Budget Management, Campaigns
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 1d4a98e6-af11-4645-864e-29aa5766d9d8
-TQID: https://experienceleague.adobe.com/-9-67l8H1X7fXH708FbQc0Tu37mWAxpuFFvHfT9hQoo
+TQID: 'https://experienceleague.adobe.com/-9-67l8H1X7fXH708FbQc0Tu37mWAxpuFFvHfT9hQoo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 8d5d4b17-44c6-5e7b-891c-b4277613013d
+    internal-label: Resource Management
+subfeature_v2:
+  - id: f4694696-6278-5131-97cc-3f6c23e232a2
+    internal-label: Budget Management
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1835
-ht-degree: 75%
-
+source-wordcount: '1835'
+ht-degree: 77%
 ---
-
 # Proveedores, stock y presupuestos{#providers-stocks-and-budgets}
 
 Adobe Campaign permite definir proveedores de servicios que participan en los trabajos realizados dentro de las campañas. La información sobre los proveedores de servicios y las estructuras de coste relacionadas la define el administrador de Adobe Campaign desde la vista principal. Se hace referencia al proveedor de servicios desde la entrega, y las estructuras de coste permiten el cálculo de los costes asociados con esta entrega, así como la gestión de stock correspondiente.
@@ -151,7 +163,7 @@ Puede asociar información sobre los procesos asociados con el proveedor de serv
 
 Los proveedores de servicios están asociados a envíos de campañas. Se hace referencia a ellos en las plantillas de envío para ofrecer sus servicios en las entregas creados mediante esta plantilla.
 
-Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de entrega (correo directo, correo electrónico, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
+Cuando se selecciona un servicio, las categorías de coste correspondientes al tipo de envío (correo electrónico, correo directo, etc.) se indican automáticamente en la tabla central junto con las opciones de procesamiento definidas.
 
 >[!NOTE]
 >

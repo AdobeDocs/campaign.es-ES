@@ -6,20 +6,27 @@ feature: Campaigns, Cross Channel Orchestration, Programs
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 68c5b903-5043-4e74-b3f6-90a7f2fb3b9a
-TQID: https://experienceleague.adobe.com/KvqJgnEmIVPmL4K5bSC2t02SQoZ1xskNzrgTTeESnVA
+TQID: 'https://experienceleague.adobe.com/KvqJgnEmIVPmL4K5bSC2t02SQoZ1xskNzrgTTeESnVA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: 237333ba-90fa-554c-bc8d-2047e6173477
+    internal-label: Cross Channel Orchestration
+  - id: 6641bfdc-d19c-56e4-9045-0f6d06e8a43b
+    internal-label: Programs
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 806
+source-wordcount: '806'
 ht-degree: 63%
-
 ---
-
 # Campañas recurrentes y periódicas {#recurring-and-periodic-campaigns}
 
 Una **campaña recurrente** es una campaña basada en una plantilla específica, cuyos flujos de trabajo están configurados para ejecutarse según una programación asociada. El objetivo se duplica en cada ejecución y se rastrean los distintos procesos y las poblaciones destinatarias.  Una vez configurada, las campañas recurrentes crean automáticamente un nuevo flujo de trabajo (duplicando la plantilla de flujo de trabajo) y lo ejecutan. Por ejemplo, si necesita enviar un recordatorio mensual a un segmento de audiencia, configure una campaña recurrente para que, al principio de cada año, cree 12 flujos de trabajo, uno para cada mes. [Más información](#create-a-recurring-campaign)

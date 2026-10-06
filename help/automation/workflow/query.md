@@ -6,19 +6,32 @@ feature: Workflows, Targeting Activity, Query Editor
 role: User, Developer
 exl-id: 717e4f7c-3a8e-4930-9a06-b7412d6e1675
 version: Campaign v8, Campaign Classic v7
-TQID: https://experienceleague.adobe.com/52OZPf93IeD62Vo1-G68JRoM9aeIK1Qgbw885s9eHnI
+TQID: 'https://experienceleague.adobe.com/52OZPf93IeD62Vo1-G68JRoM9aeIK1Qgbw885s9eHnI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
+  - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
+    internal-label: Targeting Activity
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1621
-ht-degree: 91%
-
+source-wordcount: '1627'
+ht-degree: 93%
 ---
-
 # Consulta{#query}
 
 
@@ -82,7 +95,7 @@ Si no hay un módulo opcional instalado en la plataforma, este paso no se muestr
 
 Para agregar datos de la base de datos de Adobe Campaign:
 
-1. Seleccione el tipo de datos que desea agregar. Pueden ser datos que pertenezcan a la dimensión de filtrado o datos almacenados en tablas vinculadas.
+1. Seleccione el tipo de datos que desea añadir. Pueden ser datos que pertenecen a la dimensión de filtrado o datos almacenados en tablas vinculadas.
 
    ![](assets/query_add_columns.png){width="70%" align="center" zoomable="yes"}
 
@@ -115,7 +128,7 @@ Para añadir una colección de información enlazada a una población de destino
      >Si no se respeta la condición inicial, el resultado puede ser defectuoso (falta de líneas o líneas superpuestas).
 
    * Si elige recuperar varias líneas (**[!UICONTROL Limit the line count]**), puede especificar el número de líneas que desea recopilar.
-   * Si las columnas recopiladas contienen agregados, por ejemplo, el número de errores declarados, el gasto promedio en un sitio, etc., puede utilizar el valor **[!UICONTROL Aggregates]**.
+   * Si las columnas recopiladas contienen agregados, por ejemplo, el número de errores declarados, el gasto medio en un sitio, etc., puede utilizar el valor **[!UICONTROL Aggregates]**.
 
    ![](assets/query_add_collection_param.png){width="70%" align="center" zoomable="yes"}
 
@@ -216,11 +229,11 @@ Para obtener más información sobre dimensiones de filtrado, consulte [esta sec
 * Cree una plataforma de desarrollo con volúmenes, parámetros y arquitectura similares a los de la plataforma de producción.
 * Utilice los mismos valores para los entornos de desarrollo y producción. Utilice lo mismo en la medida de lo posible:
 
-   * Sistema operativo,
-   * Versión,
-   * Datos,
-   * Aplicación,
-   * Volúmenes.
+  * Sistema operativo,
+  * Versión,
+  * Datos,
+  * Aplicación,
+  * Volúmenes.
 
   >[!NOTE]
   >

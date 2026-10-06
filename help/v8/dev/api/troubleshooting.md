@@ -3,13 +3,22 @@ title: Solución de problemas API
 description: Obtenga más información acerca de problemas comunes relacionados con las API de Campaign Standard
 role: Developer
 level: Experienced
-source-git-commit: a5436f7e1f1e4ad86157dfd8943d51bf852b747c
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '353'
 ht-degree: 0%
-
 ---
-
 # Solución de problemas API {#troubleshooting}
 
 * **Al ir a la consola de Adobe.io, aparece el siguiente error: &quot;La consola de Adobe I/O solo está disponible para seleccionar miembros de cuentas empresariales. Si cree que debería tener acceso, comuníquese con el administrador del sistema.&quot;**
@@ -47,7 +56,7 @@ Compruebe su perfil IMS con esta solicitud.
 -H 'X-Api-Key: <API_KEY>'
 ```
 
-En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera solicitud de GET.
+En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera petición GET.
 
 ```
 {
@@ -72,7 +81,7 @@ En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera solici
 }
 ```
 
-* **Al realizar una solicitud a Adobe.io, se obtiene {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Algo ha salido mal. Compruebe su URI e inténtelo de nuevo.&quot;}**
+* **Al realizar una solicitud a Adobe.io, recibe {&quot;code&quot;:500, &quot;message&quot;:&quot;Uy. Algo ha salido mal. Compruebe su URI e inténtelo de nuevo.&quot;}**
 
 Adobe.io declara su URI no válido: lo más probable es que el URI que está solicitando no sea válido. En Adobe.io, al seleccionar el servicio de Campaign, se obtiene un selector con una lista de posibles organization_ids. Debe comprobar que el que elige es el que introduce en la dirección URL.
 

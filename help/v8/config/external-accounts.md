@@ -5,24 +5,40 @@ feature: Application Settings, External Account
 role: Admin
 level: Beginner, Intermediate, Experienced
 exl-id: 9634b576-2854-4ea9-ba0d-8efaab2c4aee
-TQID: https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk
+TQID: 'https://experienceleague.adobe.com/15Nn-l031JWcYJAEooiP6ZN4btvuwd9r1soU3a77Jqk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: ca3c1dd6-bdd2-41a9-bc5a-e35f5cca9e63
+    internal-label: Application settings
+  - id: ebf2bfe1-e099-5c32-ac1e-1865f8050ffc
+    internal-label: External Account
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 2133
+source-wordcount: '2133'
 ht-degree: 8%
-
 ---
-
 # Configuración de las cuentas externas {#config-external-accounts}
 
 Adobe Campaign incluye un conjunto de cuentas externas predefinidas. Para configurar conexiones con sistemas externos, puede crear nuevas cuentas externas.
@@ -54,7 +70,7 @@ Adobe Campaign utiliza las siguientes cuentas técnicas para habilitar y ejecuta
 
 La cuenta externa **Rebote de correos electrónicos** especifica la cuenta POP3 externa que se utilizará para conectar con el servicio de correo electrónico. Todos los servidores configurados para el acceso POP3 pueden utilizarse para recibir el correo electrónico devuelto.
 
-Obtenga más información acerca de los correos electrónicos entrantes en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html?lang=es){target="_blank"}.
+Obtenga más información acerca de los correos electrónicos entrantes en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/event-activities/inbound-emails.html){target="_blank"}.
 
 ![](assets/bounce_external_1.png)
 
@@ -137,7 +153,7 @@ La página de la interfaz de usuario web de Campaign proporciona una lista más 
 * **[Vertica Analytics](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#vertica-analytics){target="_blank"}**: conecte Campaign a las bases de datos de análisis OpenText de Vertica.
 * **[Microsoft Fabric](https://experienceleague.adobe.com/en/docs/campaign-web/v8/administration/external-account-database#fabric){target="_blank"}** - Conecte Campaign a Microsoft Fabric SQL y a los servicios de almacenamiento.
 
-Para obtener detalles de la consola de cliente heredada y referencias adicionales, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}.
+Para obtener detalles de la consola de cliente heredada y referencias adicionales, consulte [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/accessing-external-database/external-accounts){target="_blank"}.
 
 #### Cuenta externa de Databricks {#databricks-external-accounts}
 
@@ -192,7 +208,7 @@ La cuenta externa de tipo **Twitter** se usa para conectar Campaign a su cuenta 
 
 ## cuentas externas de integración de soluciones de Adobe {#adobe-integration-external-accounts}
 
-* **Adobe Experience Cloud**: la cuenta externa **[!UICONTROL Adobe Experience Cloud]** se usa para implementar el servicio Adobe Identity Management (IMS) y conectarse a Adobe Campaign. Obtenga más información acerca del servicio Adobe Identity Management (IMS) en [esta sección](../start/connect.md#logon-to-ac).
+* **Adobe Experience Cloud**: La cuenta externa **[!UICONTROL Adobe Experience Cloud]** se usa para implementar el servicio Adobe Identity Management (IMS) y conectarse a Adobe Campaign. Obtenga más información acerca del servicio Adobe Identity Management (IMS) en [esta sección](../start/connect.md#logon-to-ac).
 
 * **Web Analytics**: la cuenta externa **[!UICONTROL Web Analytics (Adobe Analytics)]** se usa para configurar la transferencia de datos de Adobe Analytics a Adobe Campaign. Obtenga más información acerca de la integración de Adobe Campaign con Adobe Analytics en [esta página](../connect/ac-aa.md).
 
@@ -215,32 +231,32 @@ Estas cuentas externas se pueden usar para importar o exportar datos a Adobe Cam
 
   >[!NOTE]
   >
-  >A partir de la versión 8.5, ahora puede autenticarse de forma segura con una clave privada al configurar su cuenta externa SFTP. [Más información sobre la administración de claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html?lang=es){target="_blank"}.
+  >A partir de la versión 8.5, ahora puede autenticarse de forma segura con una clave privada al configurar su cuenta externa SFTP. [Más información sobre la administración de claves](https://experienceleague.adobe.com/docs/control-panel/using/sftp-management/key-management.html){target="_blank"}.
 
 * **Amazon Simple Storage Service (S3)**: el conector **AWS S3** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Al configurar esta cuenta externa, debe proporcionar los siguientes detalles:
 
-   * **[!UICONTROL AWS S3 Account Server]**: dirección URL del servidor, con el formato `<S3bucket name>.s3.amazonaws.com/<s3object path>`.
+  * **[!UICONTROL AWS S3 Account Server]**: dirección URL del servidor, con el formato `<S3bucket name>.s3.amazonaws.com/<s3object path>`.
 
-   * **[!UICONTROL AWS access key ID]**: Aprenda a encontrar su ID de clave de acceso de AWS en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
+  * **[!UICONTROL AWS access key ID]**: Aprenda a encontrar su ID de clave de acceso de AWS en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
-   * **[!UICONTROL Secret access key to AWS]**: aprenda a encontrar su clave de acceso secreta a AWS en [Documentación de Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
+  * **[!UICONTROL Secret access key to AWS]**: aprenda a encontrar su clave de acceso secreta a AWS en [Documentación de Amazon](https://aws.amazon.com/fr/blogs/security/wheres-my-secret-access-key/){target="_blank"}.
 
-   * **[!UICONTROL AWS Region]**: Obtenga más información sobre las regiones de AWS en [Documentación de Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
+  * **[!UICONTROL AWS Region]**: Obtenga más información sobre las regiones de AWS en [Documentación de Amazon](https://aws.amazon.com/about-aws/global-infrastructure/regions_az/){target="_blank"}.
 
-   * La casilla de verificación **[!UICONTROL Use server-side encryption]** permite almacenar el archivo en modo cifrado S3. Aprenda a encontrar el ID de clave de acceso y la clave de acceso secreta en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
+  * La casilla de verificación **[!UICONTROL Use server-side encryption]** permite almacenar el archivo en modo cifrado S3. Aprenda a encontrar el ID de clave de acceso y la clave de acceso secreta en [Documentación de Amazon](https://docs.aws.amazon.com/general/latest/gr/aws-sec-cred-types.html#access-keys-and-secret-access-keys){target="_blank"}.
 
 * **Almacenamiento de Azure Blob**: la cuenta externa **Azure** se puede usar para importar o exportar datos a Adobe Campaign mediante una actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Para configurar la cuenta externa de **Azure** para que funcione con Adobe Campaign, debe proporcionar los siguientes detalles:
 
-   * **[!UICONTROL Server]**: URL del servidor de almacenamiento del blob de Azure.
+  * **[!UICONTROL Server]**: URL del servidor de almacenamiento del blob de Azure.
 
-   * **[!UICONTROL Encryption]**: tipo de cifrado: **[!UICONTROL None]** o **[!UICONTROL SSL]**.
+  * **[!UICONTROL Encryption]**: tipo de cifrado: **[!UICONTROL None]** o **[!UICONTROL SSL]**.
 
-   * **[!UICONTROL Access key]**: Aprenda a encontrar su **[!UICONTROL Access key]** en [documentación de Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.
+  * **[!UICONTROL Access key]**: Aprenda a encontrar su **[!UICONTROL Access key]** en [documentación de Microsoft](https://docs.microsoft.com/en-us/azure/storage/common/storage-account-keys-manage?tabs=azure-portal){target="_blank"}.
 
 * **Microsoft Fabric**: la cuenta externa **Microsoft Fabric** le permite importar y exportar datos entre Microsoft Fabric y Adobe Campaign mediante la actividad de flujo de trabajo **[!UICONTROL Transfer file]**. Para configurar esta integración, proporcione los siguientes detalles:
 
-   * **[!UICONTROL Server]**: URL del servidor de almacenamiento de Microsoft Fabric.
+  * **[!UICONTROL Server]**: URL del servidor de almacenamiento de Microsoft Fabric.
 
-   * **[!UICONTROL Application ID]**: identificador único de la aplicación utilizada para autenticar y acceder a los recursos de Microsoft Fabric.
+  * **[!UICONTROL Application ID]**: identificador único de la aplicación utilizada para autenticar y acceder a los recursos de Microsoft Fabric.
 
-   * **[!UICONTROL Client secret]**: la clave de autenticación o contraseña asociada con la aplicación, necesaria para conectarse de forma segura a Microsoft Fabric.
+  * **[!UICONTROL Client secret]**: la clave de autenticación o contraseña asociada con la aplicación, necesaria para conectarse de forma segura a Microsoft Fabric.

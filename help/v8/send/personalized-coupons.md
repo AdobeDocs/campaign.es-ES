@@ -6,24 +6,32 @@ feature: Personalization
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d5af1f98-42e8-4909-b2e6-be65c50c9874
-TQID: https://experienceleague.adobe.com/RTn-nTK3YjtekmBU9BcSIK05n0eJX2EImRsJlHAUG48
+TQID: 'https://experienceleague.adobe.com/RTn-nTK3YjtekmBU9BcSIK05n0eJX2EImRsJlHAUG48'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 889
-ht-degree: 95%
-
+source-wordcount: '889'
+ht-degree: 98%
 ---
-
 # Cupones personalizados{#personalized-coupons}
 
 Añadir cupones a las entregas puede proporcionar aumentar el valor de los productos y servicios para sus destinatarios. Se puede utilizar el módulo de cupones de Campaign para crear un conjunto de cupones que pretenda añadir a las próximas ofertas de marketing. Cuando esté preparado para crear una entrega, asigne los cupones aplicables. Dado que los cupones son válidos durante un periodo determinado, un cupón asignado se enlaza exclusivamente a su mensaje de envío. Además, Campaign confirma que hay suficientes cupones para la cantidad de mensajes antes de realizar la entrega.
@@ -88,7 +96,7 @@ Los valores de **[!UICONTROL channel]**, **[!UICONTROL status]** y **[!UICONTROL
 
 En el siguiente ejemplo, la entrega se crea desde la página principal. Para obtener instrucciones detalladas sobre cómo crear una entrega, consulte [esta sección](email.md)
 1. Vaya a **[!UICONTROL Campaigns]** y elija **[!UICONTROL Deliveries]**.
-1. Haga clic **[!UICONTROL Create]**.
+1. Haga clic en **[!UICONTROL Create]**.
 
    ![](assets/deliv_coup_04.png)
 
@@ -141,7 +149,7 @@ En el siguiente ejemplo, la entrega se crea desde la página principal. Para obt
 
    ![](assets/deliv_coup_15.png)
 
-1. Haga clic **[!UICONTROL Analyze]**. Si el registro de análisis confirma que hay suficientes cupones para todos los destinatarios, haga clic en **[!UICONTROL Confirm delivery]** para enviarlo.
+1. Haga clic en **[!UICONTROL Analyze]**. Si el registro de análisis confirma que hay suficientes cupones para todos los destinatarios, haga clic en **[!UICONTROL Confirm delivery]** para enviarlo.
 
    ![](assets/deliv_coup_16.png)
 

@@ -6,20 +6,29 @@ role: User
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: 18e49a15-dbb5-42d6-9379-367e769f319a
-TQID: https://experienceleague.adobe.com/MvYtphJPgDXOp9-CR3rhTYNazED3seRZxt89W29PJlI
+TQID: 'https://experienceleague.adobe.com/MvYtphJPgDXOp9-CR3rhTYNazED3seRZxt89W29PJlI'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 3344
+source-wordcount: '3353'
 ht-degree: 99%
-
 ---
-
 # Definición de condiciones de filtro{#filter-conditions}
 
 Para diseñar la consulta, debe seleccionar las condiciones de filtrado en el editor de consultas. Las funciones disponibles y los casos de uso se detallan en esta página.
@@ -301,10 +310,10 @@ Existen cuatro tipos de campos calculados:
 
   El campo calculado de tipo **[!UICONTROL Enumerations]** puede incluir 4 condiciones:
 
-   * **[!UICONTROL Keep the source value]** restaura el valor de origen en el destino sin cambiarlo.
-   * **[!UICONTROL Use the following value]** permite introducir un valor de destino predeterminado para valores de origen no definidos.
-   * **[!UICONTROL Generate a warning and continue]** advierte al usuario de que el valor de origen no puede modificarse.
-   * **[!UICONTROL Generate an error and reject the line]** evita el cálculo e importación de la línea.
+  * **[!UICONTROL Keep the source value]** restaura el valor de origen en el destino sin cambiarlo.
+  * **[!UICONTROL Use the following value]** permite introducir un valor de destino predeterminado para valores de origen no definidos.
+  * **[!UICONTROL Generate a warning and continue]** advierte al usuario de que el valor de origen no puede modificarse.
+  * **[!UICONTROL Generate an error and reject the line]** evita el cálculo e importación de la línea.
 
 Haga clic en **[!UICONTROL Detail of calculated field]** para ver los detalles del campo insertado.
 
@@ -324,7 +333,7 @@ Siga estos pasos:
 
    Hay varios tipos de fórmulas disponibles: **[!UICONTROL Field only]**, **[!UICONTROL Aggregate]**, **[!UICONTROL Expression]**.
 
-   Seleccione **[!UICONTROL Process on an aggregate function]** y **[!UICONTROL Count]**. Haga clic **[!UICONTROL Next]**.
+   Seleccione **[!UICONTROL Process on an aggregate function]** y **[!UICONTROL Count]**. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/query_editor_nveau_54.png)
 

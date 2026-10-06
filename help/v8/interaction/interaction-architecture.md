@@ -5,22 +5,31 @@ feature: Interaction, Offers
 role: Developer
 level: Beginner
 exl-id: 7a710960-7e41-4462-bd5e-18e874aa46f8
-TQID: https://experienceleague.adobe.com/KikEyxXS3iB2EJUMm7D4XOxXRzflBGVlewWTvuu5LzA
+TQID: 'https://experienceleague.adobe.com/KikEyxXS3iB2EJUMm7D4XOxXRzflBGVlewWTvuu5LzA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Optimization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1326
-ht-degree: 63%
-
+source-wordcount: '1326'
+ht-degree: 66%
 ---
-
 # Comprender los entornos y la arquitectura de interacción de Campaign
 
 ## Entornos {#environments}
@@ -87,13 +96,13 @@ Debe tener en cuenta los siguientes mecanismos de sincronización:
 
 ### Configuración de paquetes {#packages-configuration}
 
-Cualquier extensión de esquema vinculada directamente a **Interaction** (ofertas, propuestas, destinatarios, etc.) debe implementarse en las instancias de ejecución.
+Las extensiones de esquema directamente vinculadas a **interacción** (ofertas, propuestas, destinatarios, etc.) deben implementarse en las instancias de ejecución.
 
 El paquete **Interaction** está instalado en todas las instancias (control y ejecución). Hay dos paquetes adicionales disponibles: un paquete para las instancias de control y otro para cada instancia de ejecución.
 
 >[!NOTE]
 >
->Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Este tipo de datos se encuentra detallado en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html?lang=es#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
+>Al instalar el paquete, los campos de tipo **long** de la tabla **nms:proposition**, como el identificador de la propuesta, se convierten en campos de tipo **int64**. Este tipo de datos se encuentra detallado en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/schema-structure.html#mapping-the-types-of-adobe-campaign-dbms-data){target="_blank"}.
 
 La duración de la retención de datos se configura en cada instancia (a través de la ventana **[!UICONTROL Data purge]** del asistente de implementación). En instancias de ejecución, este periodo debe corresponder a la profundidad histórica necesaria para las reglas de tipología (punto de deslizamiento) y para las reglas de elegibilidad que se van a calcular.
 

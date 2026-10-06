@@ -4,22 +4,38 @@ title: Pista de auditoría
 description: Obtenga información sobre cómo monitorizar la instancia con la pista de auditoría de Campaign
 feature: Audit Trail, Monitoring, Workflows
 exl-id: 6a937575-42d4-4dc5-8168-43c25bb2cde6
-TQID: https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0
+TQID: 'https://experienceleague.adobe.com/0a5LrtW8EomSlw-mLwLTplBpEPovWLC-sXFdoSQYhV0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: cebd7cfa-b9fa-4d9f-a2ab-fce31f32c4a3
+    internal-label: Audit trail
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
+  - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
+    internal-label: Workflows
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 626
+source-wordcount: '626'
 ht-degree: 2%
-
 ---
-
 # Pista de auditoría{#audit-trail}
 
 La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un registro granular de todas las modificaciones realizadas en entidades importantes dentro de su instancia, normalmente aquellas que afectan significativamente al funcionamiento sin problemas de la instancia. Funciona como un registro en tiempo real y captura una lista detallada de acciones y eventos a medida que se producen.
@@ -37,14 +53,14 @@ La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un regist
 
 * **Registro de auditoría de flujo de trabajo** rastrea todas las acciones relacionadas con sus flujos de trabajo, incluyendo:
 
-   * Start
-   * Pause
-   * Stop
-   * Restart
-   * Limpieza igual al historial de purga de acciones
-   * Simular, que es igual a la acción Iniciar en modo de simulación
-   * Activación igual a la acción Ejecutar tareas pendientes ahora
-   * Interrupción incondicional
+  * Start
+  * Pause
+  * Stop
+  * Restart
+  * Limpieza igual al historial de purga de acciones
+  * Simular, que es igual a la acción Iniciar en modo de simulación
+  * Activación igual a la acción Ejecutar tareas pendientes ahora
+  * Interrupción incondicional
 
   Para obtener más información sobre los flujos de trabajo, consulte esta [página](../../automation/workflow/about-workflows.md).
 
@@ -52,7 +68,7 @@ La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un regist
 
 * **Seguimiento de auditoría de opciones** le permite comprobar las actividades y las últimas modificaciones realizadas en sus opciones.
 
-  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Registro de auditoría de envíos** le permite comprobar las actividades y las últimas modificaciones realizadas en los envíos.
 
@@ -137,4 +153,4 @@ Para ello:
 
    ![](assets/audit-trail-4.png)
 
-1. Haga clic **[!UICONTROL Save]**.
+1. Haga clic en **[!UICONTROL Save]**.

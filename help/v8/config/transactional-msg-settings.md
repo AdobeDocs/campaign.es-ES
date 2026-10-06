@@ -5,13 +5,30 @@ feature: Transactional Messaging
 role: Admin, Developer
 level: Experienced
 exl-id: 2899f627-696d-422c-ae49-c1e293b283af
-source-git-commit: 5ab598d904bf900bcb4c01680e1b4730881ff8a5
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 28%
-
 ---
-
 # Configuración de mensajería transaccional {#mc-settings}
 
 La mensajería transaccional (Centro de mensajes) es un módulo de Campaign diseñado para gestionar mensajes activados. Obtenga más información acerca de la mensajería transaccional en [esta sección](../send/transactional.md).
@@ -104,9 +121,9 @@ En las instancias de ejecución, debe iniciar los siguientes flujos de trabajo t
 
   Los estados de eventos posibles son:
 
-   * **[!UICONTROL Pending]**: el evento está en cola. Aún no se le ha asignado ninguna plantilla de mensaje.
-   * **[!UICONTROL Pending delivery]**: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.
-   * **[!UICONTROL Sent]**: este estado se copia desde los registros de envío. Significa que la entrega se realizó.
-   * **[!UICONTROL Ignored by the delivery]**: este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.
-   * **[!UICONTROL Delivery failed]**: este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
-   * **[!UICONTROL Event not taken into account]**: el evento no se pudo vincular a una plantilla de mensaje. El evento no se va a procesar.
+  * **[!UICONTROL Pending]**: el evento está en cola. Aún no se le ha asignado ninguna plantilla de mensaje.
+  * **[!UICONTROL Pending delivery]**: el evento está en cola, se le ha asignado una plantilla de mensaje y la entrega lo está procesando.
+  * **[!UICONTROL Sent]**: este estado se copia desde los registros de envío. Significa que la entrega se realizó.
+  * **[!UICONTROL Ignored by the delivery]**: este estado se copia desde los registros de envío. Significa que la entrega se ha omitido.
+  * **[!UICONTROL Delivery failed]**: este estado se copia desde los registros de envío. Significa que la entrega ha fallado.
+  * **[!UICONTROL Event not taken into account]**: el evento no se pudo vincular a una plantilla de mensaje. El evento no se va a procesar.

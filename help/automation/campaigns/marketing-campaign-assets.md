@@ -6,27 +6,31 @@ feature: Campaigns
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: 352f6cd5-777d-413d-af79-6f53444b336f
-TQID: https://experienceleague.adobe.com/snshYvtbT3wG1N5-A4VHjl1bylxlXObi-97yVwuKAXk
+TQID: 'https://experienceleague.adobe.com/snshYvtbT3wG1N5-A4VHjl1bylxlXObi-97yVwuKAXk'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Personalization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 690
-ht-degree: 48%
-
+source-wordcount: '690'
+ht-degree: 70%
 ---
-
 # Administración de recursos y documentos {#manage-assets-documents}
 
 Puede asociar varios documentos a una campaña: informes, fotos, páginas web, diagramas, etc. Estos documentos pueden tener cualquier formato.
 
-En una campaña también puede hacer referencia a otros elementos, como cupones promocionales, ofertas especiales relacionadas con una marca o tienda específica, etc. Cuando estos elementos se incluyen en una descripción, pueden asociarse con una entrega de correo directo. [Más información](#associating-and-structuring-resources-linked-via-a-delivery-outline).
+En una campaña también puede hacer referencia a otros elementos, tales como cupones promocionales, ofertas especiales relacionadas con una filial o tienda específica, etc. Cuando estos elementos se incluyen en una descripción, pueden asociarse a un envío por correo directo. [Más información](#associating-and-structuring-resources-linked-via-a-delivery-outline).
 
 
 >[!CAUTION]
@@ -68,7 +72,7 @@ También pueden editarse y modificarse desde esta vista.
 
 ## Uso de descripciones del envío {#delivery-outlines}
 
-Una descripción de la entrega es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creado por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
+Una descripción de la entrega es un conjunto estructurado de elementos (documentos, tiendas, cupones promocionales, etc.) creados por la compañía y para una campaña en particular. Se utiliza en el contexto de los envíos por correo directo.
 
 Estos elementos se agrupan en descripciones de envío y cada descripción de envío concreta se asocia a un envío; se hace referencia en el archivo de extracción enviado al **proveedor de servicios** para que se asocie al envío. Por ejemplo, puede crear una descripción de la entrega que haga referencia a una unidad y a los folletos de marketing que utiliza.
 
@@ -99,7 +103,7 @@ Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía
 Una descripción puede contener elementos, campos de personalización y ofertas:
 
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
-* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en envíos para un objetivo específico (oferta de bienvenida, descuento, etc.) Se crean en Adobe Campaign y se importan en el esquema mediante el vínculo **[!UICONTROL Import personalization fields...]**.
+* Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en los envíos para un objetivo específico (oferta de bienvenida, descuento, etc.). Se crean en Adobe Campaign y se importan a la descripción mediante el vínculo **[!UICONTROL Import personalization fields...]**.
 
   ![](assets/del-outline-perso-field.png)
 
@@ -124,7 +128,7 @@ La pestaña **[!UICONTROL Summary]** de la entrega también muestra esta informa
 
 ### Resultado de la extracción {#extraction-result}
 
-En el archivo extraído y enviado al proveedor de servicios, el nombre de la descripción y, en su caso, sus características (coste, descripción, etc.) se añaden al contenido de según la información de la plantilla de exportación asociada al proveedor de servicios.
+En el archivo extraído y enviado al proveedor de servicio, el nombre de la descripción y, en su caso, sus características (coste, descripción, etc.) se añaden al contenido de acuerdo con la información de la plantilla de exportación asociada al proveedor de servicio.
 
 En el siguiente ejemplo, la etiqueta, el coste estimado y la descripción asociada con la entrega se añaden al archivo de extracción.
 
