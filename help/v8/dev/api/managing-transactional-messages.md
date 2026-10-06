@@ -7,22 +7,29 @@ topic-tags: campaign-standard-apis
 role: Developer
 level: Experienced
 exl-id: 00d39438-a232-49f1-ae5e-1e98c73397e3
-TQID: https://experienceleague.adobe.com/0JDPFM3PDI61vx3CPPveqw5Cta5AujFIngrbbD6V-tY
+TQID: 'https://experienceleague.adobe.com/0JDPFM3PDI61vx3CPPveqw5Cta5AujFIngrbbD6V-tY'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: b12f6872-9271-4369-85e5-86969a0b99a2
+    internal-label: APIs
 subfeature_v2:
   - id: bf97c196-a4d1-4fa3-a151-e68a114c8ac0
+    internal-label: REST API
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 744
+source-wordcount: '744'
 ht-degree: 1%
-
 ---
-
 # Administración de mensajes transaccionales {#managing-transactional-messages}
 
 >[!AVAILABILITY]
@@ -34,7 +41,7 @@ Una vez creado y publicado un evento transaccional, debe integrar la activación
 Por ejemplo, desea que se active un evento &quot;Abandono del carro de compras&quot; cada vez que uno de los clientes abandone el sitio web antes de comprar los productos que tiene en el carro de compras. Para ello, como desarrollador web, debe utilizar la API de mensajes transaccionales de REST.
 
 1. Envíe una solicitud según el método POST, que almacena en déclencheur el [envío del evento transaccional](#sending-a-transactional-event).
-1. La respuesta a la solicitud de POST contiene una clave principal, que le permite enviar una o varias solicitudes a través de una solicitud de GET. A continuación, puede obtener el [estado del evento](#transactional-event-status).
+1. La respuesta a la solicitud POST contiene una clave principal, que le permite enviar una o varias solicitudes a través de una solicitud GET. A continuación, puede obtener el [estado del evento](#transactional-event-status).
 
 ## Envío de un evento transaccional {#sending-a-transactional-event}
 
@@ -118,7 +125,7 @@ Si la carga útil incluye &quot;correo electrónico&quot; y &quot;teléfono móv
 
 ### Respuesta a la solicitud de POST
 
-La respuesta POST devuelve el estado del evento transaccional en el momento en que se creó. Para recuperar su estado actual (datos de evento, estado de evento...), utilice la clave principal devuelta por la respuesta POST en una solicitud GET:
+La respuesta POST devuelve el estado del evento transaccional en el momento en que se creó. Para recuperar su estado actual (datos de evento, estado de evento...), utilice la clave principal devuelta por la respuesta POST en una petición GET:
 
 `GET https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>/`
 

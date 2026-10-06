@@ -6,18 +6,26 @@ feature: Query Editor
 role: User
 version: Campaign v8, Campaign Classic v7
 exl-id: d11a1992-c07b-4133-8f0a-65f1b7552a99
-TQID: https://experienceleague.adobe.com/HVv9XhJv9325WD39-3TmmTB9AyVh0k2aIlEcMFAccgo
+TQID: 'https://experienceleague.adobe.com/HVv9XhJv9325WD39-3TmmTB9AyVh0k2aIlEcMFAccgo'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: User
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1260
+source-wordcount: '1260'
 ht-degree: 100%
-
 ---
-
 # Información de entrega de la consulta {#querying-delivery-information}
 
 
@@ -58,7 +66,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      ![](assets/query_editor_nveau_18.png)
 
-     Haga clic **[!UICONTROL Next]**.
+     Haga clic en **[!UICONTROL Next]**.
 
    * Seleccione el campo **[!UICONTROL Primary key (@id)]**. Se configura la columna de salida **[!UICONTROL count (primary key)]**.
 
@@ -88,7 +96,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      Seleccione el operador **[!UICONTROL greater than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]** y, en la ventana **[!UICONTROL Formula type]**, seleccione **[!UICONTROL Process on dates]**. Finalmente, en **[!UICONTROL Current date minus n days]**, escriba &quot;15&quot;.
 
-     Haga clic **[!UICONTROL Finish]**.
+     Haga clic en **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_24.png)
 
@@ -96,7 +104,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
      Seleccione el operador **[!UICONTROL less than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]**. Para el procesamiento de fechas, vaya a la ventana **[!UICONTROL Formula type]** y escriba “1” en **[!UICONTROL Current date minus n days]**.
 
-     Haga clic **[!UICONTROL Finish]**.
+     Haga clic en **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_65.png)
 
@@ -104,7 +112,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    * Haga clic en la función **[!UICONTROL Add]** para crear otra condición de filtrado. En la columna **[!UICONTROL Expression]**, haga clic en **[!UICONTROL Edit expression]**. En la ventana **[!UICONTROL Field to select]**, elija **[!UICONTROL Label]** en el nodo **[!UICONTROL Delivery]**.
 
-     Haga clic **[!UICONTROL Finish]**.
+     Haga clic en **[!UICONTROL Finish]**.
 
      ![](assets/query_editor_nveau_66.png)
 

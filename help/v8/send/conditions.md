@@ -5,13 +5,25 @@ feature: Personalization
 role: User
 level: Beginner
 exl-id: bcbf3101-d43c-4ed3-ab02-a9936ec55b71
-source-git-commit: c248dd899ea704e43873652545c6b945c2915b57
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 13af5358-448e-5a4a-850b-0db592bb0f8f
+    internal-label: Personalization
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 52%
-
 ---
-
 # Creación de contenido condicional{#conditional-content}
 
 Al configurar los campos de contenido condicionados, puede crear una personalización avanzada. Los bloques de texto o las imágenes completas se sustituyen cuando se cumple una condición concreta.
@@ -47,7 +59,7 @@ Se pueden añadir otros casos y definir contenido diferente según los valores d
 
 >[!CAUTION]
 >
->Los caracteres **%> &lt;%** deben eliminarse después de agregar **Else** y **Else if** condiciones.
+>Los caracteres **%> &lt;%** deben eliminarse después de agregar las condiciones **Else** y **Else if**.
 
 
 ## Caso de uso: Creación de un correo electrónico multilingüe {#creating-multilingual-email}

@@ -6,23 +6,31 @@ role: Developer
 level: Beginner
 version: Campaign v8, Campaign Classic v7
 exl-id: f2c26351-8ed7-498a-ac83-d4c583fb98f3
-TQID: https://experienceleague.adobe.com/LHKXRb4lBbTL6DVrnsnTIPE-Pj-f5I5qQcG3O57Wz5I
+TQID: 'https://experienceleague.adobe.com/LHKXRb4lBbTL6DVrnsnTIPE-Pj-f5I5qQcG3O57Wz5I'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 62f279d8b36160ff56f4fdc1f7fba0099bdbc8ad
+    internal-label: Optimization
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 832
-ht-degree: 28%
-
+source-wordcount: '832'
+ht-degree: 31%
 ---
-
 # Envío y monitorización de correos electrónicos  {#send-and-monitor-emails}
 
 Una vez configurada la entrega y lista para enviarla, asegúrese de ejecutar el análisis de entrega. [Más información](delivery-analysis.md)
@@ -53,7 +61,7 @@ Disponible para todos los clientes de Campaign v8, garantiza la escalabilidad, u
 
 Adobe Campaign usa el **servidor de correo mejorado** (agente de transferencia de correo), un motor de entrega de correo electrónico de alto rendimiento.
 
-El servidor de correo mejorado incluye una gestión de devoluciones más inteligente y una capacidad de optimización de la capacidad de envío automatizada que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas.
+El MTA mejorado incluye gestión de devoluciones más inteligente y capacidad de optimización de entregabilidad automatizada, lo que ayuda a los remitentes a lograr y mantener tasas de envío de bandeja de entrada óptimas.
 
 * El MTA permite un aumento masivo en la velocidad de rendimiento general y una reducción significativa de las devoluciones suaves.
 * Utiliza la tecnología de MTA más reciente para proporcionarle las velocidades de rendimiento óptimas para su envío de correo electrónico.

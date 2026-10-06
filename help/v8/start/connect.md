@@ -5,22 +5,29 @@ feature: Client Console
 role: User
 level: Beginner
 exl-id: 176cc4f0-8827-4127-9f03-7d75ac8cf917
-TQID: https://experienceleague.adobe.com/aQ7qHePaWM8LnbvZmkebVyUUw8Vbjmgo2pj4MKZd1VE
+TQID: 'https://experienceleague.adobe.com/aQ7qHePaWM8LnbvZmkebVyUUw8Vbjmgo2pj4MKZd1VE'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 5ea984c6-e1ec-59c0-bf35-0d3c05f585e1
+    internal-label: Client Console
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: ffeb9430b382b598af412555b1b0a6ff42bc68d0
+    internal-label: Reporting
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1111
-ht-degree: 94%
-
+source-wordcount: '1111'
+ht-degree: 98%
 ---
-
 # Conexión a la versión 8 de Adobe Campaign{#gs-ac-connect}
 
 Para comenzar a trabajar con Campaign, debe instalar y configurar la consola del cliente.
@@ -104,14 +111,14 @@ A continuación, puede iniciar sesión en Campaign con su Adobe ID.
 
 Si tiene problemas al iniciar sesión en **[!UICONTROL Client Console]** con su Adobe ID, intente borrar la caché local de WebView2. En la mayoría de los casos, esto resuelve el problema. Siga estos pasos:
 
-1. Cierre **[!UICONTROL Client Console]** y detenga cualquier proceso de `nlclient` en ejecución.
+1. Cierre la **[!UICONTROL Client Console]** y detenga cualquier proceso `nlclient` en ejecución.
 
 1. Eliminar todas las carpetas `webview2` y `webview2Cache` de las siguientes ubicaciones.
 
    * `C:\ProgramData\Neolane\NL_5\nlclient\`
    * `C:\Users\<username>\AppData\Roaming\Neolane\NL_5\nlclient\`
 
-1. Reinicie **[!UICONTROL Client Console]** e inicie sesión con su Adobe ID. Las carpetas de caché se volverán a crear automáticamente en el siguiente inicio.
+1. Reinicie la **[!UICONTROL Client Console]** e inicie sesión con su Adobe ID. Las carpetas de caché se volverán a crear automáticamente la próxima vez que reinicie la aplicación.
 
 ## Actualización de la consola de cliente{#upgrade-ac-console}
 

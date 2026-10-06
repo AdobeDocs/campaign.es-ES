@@ -5,27 +5,40 @@ feature: Transactional Messaging
 role: User
 level: Beginner, Intermediate
 exl-id: 858c9216-c5a0-4bf9-b4b0-91e403293f73
-TQID: https://experienceleague.adobe.com/uHf2o7h-iEwuPhNgjT-sAOES0A-uzpye9UGgZkgxdOA
+TQID: 'https://experienceleague.adobe.com/uHf2o7h-iEwuPhNgjT-sAOES0A-uzpye9UGgZkgxdOA'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 feature_v2:
   - id: a075b2c1-7748-4328-b7f6-343aa314616a
+    internal-label: Campaigns
   - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: d3b34fea-a110-482f-adb2-aae8d686bac8
+    internal-label: Transactional messaging
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 1200
-ht-degree: 50%
-
+source-wordcount: '1200'
+ht-degree: 54%
 ---
-
 # Crear y publicar una plantilla para la mensajería transaccional{#template-transactional-messages}
 
 Cada evento puede almacenar en déclencheur un mensaje personalizado. Para que esto suceda, debe crear una plantilla de mensaje para que coincida con cada tipo de evento. Las plantillas contienen la información necesaria para personalizar el mensaje transaccional. También puede utilizar plantillas para probar la vista previa del mensaje y enviar pruebas utilizando las direcciones semilla antes de enviar al destinatario final.
@@ -80,7 +93,7 @@ Para insertar etiquetas de personalización en el cuerpo de un mensaje de correo
 
    ![](assets/messagecenter_create_custo_1.png)
 
-1. Complete la etiqueta con la siguiente sintaxis: **nombre del elemento**.@**nombre del atributo** como se muestra a continuación.
+1. Complete la etiqueta con la siguiente sintaxis: **nombre de elemento**.@**nombre de atributo** tal como se muestra a continuación.
 
    ![](assets/messagecenter_create_custo_2.png)
 
@@ -96,7 +109,7 @@ Una dirección semilla permite mostrar una previsualización del mensaje, enviar
 
 1. Asigne una etiqueta para facilitar la selección posterior e introduzca la dirección semilla (correo electrónico o teléfono móvil según el canal de comunicación).
 
-1. Introduzca el identificador externo: este campo opcional permite introducir una clave empresarial (ID única, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y se utiliza para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede reconciliar un evento con un perfil de la base de datos.
+1. Introduzca el identificador externo: este campo opcional permite introducir una clave de negocio (ID único, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y sirve para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede reconciliar un evento con un perfil de la base de datos.
 
    ![](assets/messagecenter_create_seed_2.png)
 
@@ -202,7 +215,7 @@ Publication lets you automatically create two message templates on the execution
 
 1. Vaya a la carpeta **[!UICONTROL Message Center > Transactional message templates]** del árbol.
 1. Seleccione la plantilla que desea publicar<!--on your execution instances-->.
-1. Haga clic **[!UICONTROL Publish]**.
+1. Haga clic en **[!UICONTROL Publish]**.
 
    ![](assets/messagecenter_publish_template.png)
 

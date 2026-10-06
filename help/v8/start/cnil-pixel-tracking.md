@@ -3,13 +3,16 @@ title: Píxeles de seguimiento de correo electrónico y guía de la CNIL
 description: Comprender las directrices actualizadas de CNIL sobre los píxeles de seguimiento de correo electrónico y las funciones de Adobe Campaign que pueden apoyar los esfuerzos de cumplimiento.
 version: Campaign v8, Campaign Classic v7
 hide: true
-source-git-commit: 124f23f384d0eb974a22e40eed3904ed43f8f9db
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 3%
-
 ---
-
 
 # Explicación de las directrices actualizadas de CNIL sobre los píxeles de seguimiento de correo electrónico
 

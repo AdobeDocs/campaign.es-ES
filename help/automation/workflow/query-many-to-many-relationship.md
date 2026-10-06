@@ -6,19 +6,28 @@ feature: Query Editor
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: c320054d-7f67-4b12-aaa7-785945bf0c18
-TQID: https://experienceleague.adobe.com/BnWR5Pz41h-CeMuyGKXKBmhRHGcuSShWerJpOWAN7W0
+TQID: 'https://experienceleague.adobe.com/BnWR5Pz41h-CeMuyGKXKBmhRHGcuSShWerJpOWAN7W0'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: a658c786-869b-4194-a780-2594d663adda
+    internal-label: Data management
+subfeature_v2:
+  - id: f5293531-9312-4099-bfa3-9e67df6a8750
+    internal-label: Query Editor
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Developer
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 399
-ht-degree: 96%
-
+source-wordcount: '399'
+ht-degree: 100%
 ---
-
 # Realización de consultas con una relación “varios a varios” {#querying-using-a-many-to-many-relationship}
 
 
@@ -29,7 +38,7 @@ En este ejemplo también muestra el modo de configurar un filtro relacionado con
 
 * ¿Qué tabla se debe seleccionar?
 
-  La tabla de destinatarios (**nms:recipient**)
+  La tabla de destinatario (**nms:recipient**)
 
 * Campos que se desea seleccionar para la columna de salida.
 
@@ -41,7 +50,7 @@ En este ejemplo también muestra el modo de configurar un filtro relacionado con
 
 Siga estos pasos:
 
-1. Abra Generic query editor y seleccione la tabla de destinatarios **[!UICONTROL (nms:recipient)]**.
+1. Abra el editor de consultas genérico y seleccione la tabla de destinatario **[!UICONTROL (nms:recipient)]**.
 1. En la ventana **[!UICONTROL Data to extract]** seleccione **[!UICONTROL Primary key]**, **[!UICONTROL First name]**, **[!UICONTROL Last name]** y **[!UICONTROL Email]**.
 
    ![](assets/query_editor_nveau_33.png)
@@ -86,7 +95,7 @@ Siga estos pasos:
 
    ![](assets/query_editor_nveau_40.png)
 
-   Haga clic **[!UICONTROL OK]**. La ventana **[!UICONTROL Data formatting]** está configurada.
+   Haga clic en **[!UICONTROL OK]**. La ventana **[!UICONTROL Data formatting]** está configurada.
 
    Para obtener más información sobre la adición de campos calculados, consulte esta sección.
 

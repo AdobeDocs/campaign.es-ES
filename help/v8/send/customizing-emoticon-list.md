@@ -6,21 +6,33 @@ feature: Email, Push
 role: User, Developer
 version: Campaign v8, Campaign Classic v7
 exl-id: 8a714eef-ea72-48f3-86d9-5a98b8ddcc6f
-TQID: https://experienceleague.adobe.com/sCGiJu4peYEbt4i-NnuvOpfQp0WkG-iho-xz-4HNuvg
+TQID: 'https://experienceleague.adobe.com/sCGiJu4peYEbt4i-NnuvOpfQp0WkG-iho-xz-4HNuvg'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: 50d1fd2e-0fc9-5627-bbc9-02dbc9d15e08
+    internal-label: Email
+  - id: a4671286-a59f-47e3-b97b-90627a1977d5
+    internal-label: Communication channels
+subfeature_v2:
+  - id: a4657621-810c-498b-8a27-7ced9c176dda
+    internal-label: Push notifications
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+    internal-label: Administration
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
-source-wordcount: 463
+source-wordcount: '463'
 ht-degree: 96%
-
 ---
-
 # Personalización de la lista de emoticonos {#customize-emoticons}
 
 La lista de emoticonos que se muestra en la ventana emergente se rige por una enumeración que permite mostrar valores en una lista para restringir las opciones que el usuario tiene para un campo determinado.
@@ -50,7 +62,7 @@ Tenga en cuenta que los emoticonos solo están disponibles para correo electrón
 1. Rellene los campos:
 
    * **[!UICONTROL U+]**: Código del nuevo emoticono. Puede encontrar la lista de los códigos de emoticonos en esta [página](https://unicode.org/emoji/charts/full-emoji-list.html).
-Para evitar problemas de compatibilidad, le recomendamos que elija emoticonos compatibles con los navegadores y con todos los sistemas operativos.
+     Para evitar problemas de compatibilidad, le recomendamos que elija emoticonos compatibles con los navegadores y con todos los sistemas operativos.
 
    * **[!UICONTROL Label]**: Etiqueta del nuevo emoticono.
 

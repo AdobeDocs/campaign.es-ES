@@ -4,13 +4,16 @@ title: 'Nota técnica: cifrado y descifrado asimétricos en Adobe Campaign'
 description: 'Nota técnica: cifrado y descifrado asimétricos en Adobe Campaign'
 hide: true
 exl-id: 6ee8b05b-2a46-4adf-a036-82fdd4809d0d
-source-git-commit: 2425b8e500380076d56bccec41ac821f7c867d92
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
 workflow-type: tm+mt
 source-wordcount: '155'
-ht-degree: 6%
-
+ht-degree: 10%
 ---
-
 # Nota técnica: cifrado y descifrado asimétricos en Adobe Campaign {#asymetric-encryption}
 
 La criptografía de clave pública, o criptografía asimétrica, es el campo de los sistemas criptográficos que utilizan pares de claves relacionadas. Cada par de claves consta de una **clave pública** y una **clave privada** correspondiente.
