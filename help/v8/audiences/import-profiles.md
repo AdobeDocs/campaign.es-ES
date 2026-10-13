@@ -32,7 +32,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 42%
@@ -51,7 +51,7 @@ Prepare y estructurar los datos en un archivo para importarlos con un flujo de t
 
 ### Carga de datos desde un archivo {#data-from-a-file}
 
-Los datos procesados en un flujo de trabajo se pueden extraer de un archivo estructurado para que se puedan importar en Adobe Campaign. [Más información](https://experienceleague.adobe.com/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading--file-.html?lang=es){target="_blank"}.
+Los datos procesados en un flujo de trabajo se pueden extraer de un archivo estructurado para que se puedan importar en Adobe Campaign. [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}.
 
 Una vez recopilados los datos, puede utilizarlos en sus flujos de trabajo, por ejemplo para enriquecer una entrega o actualizar la base de datos. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=es){target="_blank"}.
 

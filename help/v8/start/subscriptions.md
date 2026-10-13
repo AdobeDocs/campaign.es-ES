@@ -25,9 +25,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '515'
 ht-degree: 29%
 ---
 # Administración de suscripciones y bajas {#optin-optout}
@@ -67,7 +67,7 @@ Para suscribir (opt-in) un perfil a un servicio, las opciones disponibles son:
 
   ![](assets/web-app.png)
 
-  Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/use-cases--web-forms.html?lang=es#create-a-subscription--form-with-double-opt-in){target="_blank"}.
+  Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/use-cases-web-forms#create-a-subscription--form-with-double-opt-in){target="_blank"}.
 
 
 * Cree un flujo de trabajo de objetivos y use una actividad **[!UICONTROL Subscription service]**.
