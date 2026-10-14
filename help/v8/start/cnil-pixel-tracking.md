@@ -1,6 +1,6 @@
 ---
-title: Píxeles de seguimiento de correo electrónico y guía de la CNIL
-description: Comprender las directrices actualizadas de CNIL sobre los píxeles de seguimiento de correo electrónico y las funciones de Adobe Campaign que pueden apoyar los esfuerzos de cumplimiento.
+title: Directrices Sobre Los Píxeles De Seguimiento De Correo Electrónico
+description: Comprenda las directrices regulatorias con respecto a los píxeles de seguimiento de correo electrónico y las capacidades de Adobe Campaign que pueden apoyar los esfuerzos de cumplimiento.
 version: Campaign v8, Campaign Classic v7
 hide: true
 product_v2:
@@ -8,27 +8,25 @@ product_v2:
     internal-label: Campaign
   - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
     internal-label: Campaign v8
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 93335b46b1c706a9409f0816b2ced4ebc612d5fe
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 3%
+source-wordcount: '834'
+ht-degree: 2%
 ---
 
-# Explicación de las directrices actualizadas de CNIL sobre los píxeles de seguimiento de correo electrónico
+# Directrices Sobre Los Píxeles De Seguimiento De Correo Electrónico
 
 Esta publicación es solo con fines informativos. No es asesoramiento legal y no garantiza el cumplimiento de la ley aplicable. Las funcionalidades del producto de Adobe Campaign que se describen a continuación son componentes básicos que, configurados y operados correctamente, pueden admitir una implementación compatible. Cada cliente es responsable de determinar y cumplir con sus obligaciones según la ley aplicable.
 
 ## Información general
 
-El 14 de abril de 2026, la _Comisión Nacional de Informática y Libertades_ (CNIL), la autoridad de protección de datos de Francia, publicó una [recomendación sobre el uso de píxeles de seguimiento en correos electrónicos](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). La guía aclara cuándo se requiere el consentimiento y resalta la importancia de las prácticas de consentimiento adecuadas para el seguimiento de píxeles del correo electrónico. Esta política podría afectar a las prácticas de envío de cualquier entidad que envíe correos electrónicos a suscriptores con sede en Francia.
+El 14 de abril de 2026, la _Comisión Nacional de Informática y Libertades_ (CNIL), la autoridad de protección de datos de Francia, publicó una [recomendación sobre el uso de píxeles de seguimiento en correos electrónicos](https://www.cnil.fr/sites/default/files/2026-04/recommandation-pixels_de_suivi.pdf). Poco después, la autoridad independiente de protección de datos de Italia (&quot;Garante&quot;) publicó la Disposición No. 284 (la &quot;Disposición Garante&quot;) el 17 de abril de 2026. Ambos documentos de orientación, aunque no son jurídicamente vinculantes, aclaran cuándo se requiere el consentimiento y resaltan la importancia de las prácticas de consentimiento adecuadas para el seguimiento de píxeles de correo electrónico. Esta política podría afectar a las prácticas de envío de cualquier entidad que envíe correos electrónicos a los suscriptores según la legislación de privacidad de la UE aplicable.
 
-CNIL proporcionó a las empresas un periodo de tres meses a partir de la fecha de la recomendación para informar a sus destinatarios de correo electrónico (&quot;usuarios&quot;) de la presencia de los píxeles de seguimiento, su propósito y el derecho de los usuarios a la exclusión. Durante este período de transición, se espera que los clientes notifiquen a los usuarios el seguimiento de píxeles y proporcionen una exclusión si es necesario. Se espera que CNIL inicie sus actividades de aplicación después del 14 de julio de 2026.
+A medida que los reguladores sigan aclarando las directrices sobre el seguimiento de píxeles y problemas relacionados, Adobe seguirá supervisando los cambios e informando a los clientes de las funciones técnicas de los productos de Adobe que admiten el marketing por correo electrónico, incluido Adobe Campaign. La documentación de Adobe sobre los píxeles de seguimiento de correo electrónico refleja las directrices regulatorias actuales. Adobe seguirá actualizando la documentación según sea necesario para reflejar los cambios relevantes que puedan afectar al uso de los productos CXO de Adobe a medida que evolucionen los requisitos regulatorios. Los retrasos en la actualización de los materiales no constituyen un error por parte de Adobe.
 
-A medida que la CNIL y otros reguladores aclaren las directrices sobre el seguimiento de píxeles y problemas relacionados, Adobe seguirá supervisando las actualizaciones e informando a los clientes de las funciones técnicas de los productos de Adobe que admiten el marketing por correo electrónico, incluido Adobe Campaign.
+Las aplicaciones de ejecución de marketing por correo electrónico de Adobe, incluidas Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign y Marketo Engage, proporcionan controles que pueden ayudar a los clientes a administrar el seguimiento abierto en el nivel de envío o de correo electrónico. Los clientes son responsables de determinar sus propias obligaciones de cumplimiento según las directrices aplicables y otras leyes, pero estas capacidades pueden apoyar los esfuerzos de cumplimiento de los clientes.
 
-Las aplicaciones de ejecución de marketing por correo electrónico de Adobe, incluidas Adobe Journey Optimizer, Journey Optimizer B2B, Adobe Campaign y Marketo Engage, proporcionan controles que pueden ayudar a los clientes a administrar el seguimiento abierto en el nivel de envío o de correo electrónico. Los clientes son responsables de determinar sus propias obligaciones de cumplimiento según las directrices de CNIL aplicables y otras leyes, pero estas capacidades pueden apoyar los esfuerzos de cumplimiento de los clientes.
-
-## Qué es un píxel de seguimiento de correo electrónico
+## ¿Qué es un píxel de seguimiento de correo electrónico?
 
 Un píxel de seguimiento de correo electrónico es una imagen transparente 1x1 incrustada en el HTML de un correo electrónico. Cuando el cliente de correo electrónico del destinatario carga esa imagen, el píxel hace ping a un servidor que registra datos como una marca de tiempo, un tipo de dispositivo, un cliente de correo electrónico y, a veces, una dirección IP para obtener una ubicación aproximada. A continuación, ese registro se vincula al registro de un destinatario, lo que permite a los especialistas en marketing ver si se abre un correo electrónico.
 
@@ -38,7 +36,7 @@ Los clientes que busquen ayuda para implementar los cambios descritos anteriorme
 
 ## Funcionalidad de Adobe Campaign relacionada con el seguimiento de correo electrónico
 
-Los clientes pueden utilizar los mecanismos nativos de seguimiento, esquema y personalización de Adobe Campaign para abordar ciertos elementos al configurar la arquitectura para abordar las directrices CNIL:
+Los clientes pueden utilizar los mecanismos nativos de seguimiento, esquema y personalización de Adobe Campaign para abordar ciertos elementos al configurar la arquitectura para abordar las directrices que rodean los píxeles de seguimiento de correo electrónico:
 
 * **Clasificación del envío.** Amplíe `nms:delivery` con un atributo `emailType` (autenticación, solo capacidad de entrega, transaccional, marketing, servicio público, prospección B2B). La clasificación determina qué píxeles se permiten sin consentimiento.
 
@@ -58,9 +56,9 @@ Para obtener más información sobre el seguimiento de correo electrónico en la
 | Producto | Referencia de documentación |
 |---|---|
 | Campaign v8 | [Seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/analytics/tracking/url-tracking){target="_blank"} |
-| Campaign Classic | [Introducción al seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
-| Journey Optimizer | [Documentación de seguimiento de mensajes](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
-| Marketo Engage | [Deshabilitar el seguimiento de un vínculo de correo electrónico](https://experienceleague.adobe.com/es/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
-| Journey Optimizer B2B | [Documentación de configuración de correo electrónico](https://experienceleague.adobe.com/es/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
+| Campaign Classic | [Introducción al seguimiento de mensajes](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/monitoring-deliveries/about-message-tracking){target="_blank"} |
+| Journey Optimizer | [Documentación de seguimiento de mensajes](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/email/design-email/add-content/message-tracking){target="_blank"} |
+| Marketo Engage | [Deshabilitar el seguimiento de un vínculo de correo electrónico](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/general/functions-in-the-editor/disable-tracking-for-an-email-link){target="_blank"} |
+| Journey Optimizer B2B | [Documentación de configuración de correo electrónico](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/journey-content/email-channel/add-email){target="_blank"} |
 
 
