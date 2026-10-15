@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: b5e9265db5409f3f0fada35c43cb08fafa1ec4e0
+source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 7%
+source-wordcount: '1780'
+ht-degree: 6%
 ---
 # Versiones, actualizaciones y seguridad {#upgrades}
 
@@ -64,6 +64,16 @@ Estas actualizaciones pueden ser:
 Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](release-notes.md). Las correcciones relacionadas con la seguridad se llaman dentro de las notas de cada versión. Para obtener más información acerca de las notificaciones de seguridad, vea [Mantenerse informado](#security-staying-informed).
 
 Para garantizar una configuración estable, Adobe recomienda instalar **exactamente la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en las [notas de la versión](release-notes.md), la consola del cliente debe estar en **la misma versión** que la instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
+
+### Hotflixes {#hotflixes}
+
+En casos excepcionales, Adobe puede proporcionar una revisión específica del cliente para solucionar un problema antes de que una corrección esté disponible en una versión estándar. Las solicitudes de revisión se evalúan caso por caso y no forman parte del ciclo de lanzamiento estándar.
+
+Las solicitudes de revisión deben generarse a través del Servicio de atención al cliente de Adobe. Si se aprueba, se prepara una revisión para el cliente y la compilación del producto afectados. Una revisión no es una versión general para todos los clientes; Adobe puede aprobar la posibilidad de compartirla con otros clientes afectados después de su revisión.
+
+Es posible que los detalles de la revisión no se incluyan en las notas de la versión pública cuando se entregue la revisión. Adobe puede incluir posteriormente una revisión en una versión estándar para la versión aplicable. No se garantiza la inclusión ni el tiempo. Consulte las notas de la versión para ver los cambios incluidos en cada versión estándar.
+
+Este proceso de revisión específico del cliente es independiente de la política de parches de seguridad críticos descrita anteriormente, en la cual Adobe puede aplicar parches de seguridad críticos a entornos alojados sin previo aviso.
 
 ### Mantenga la consola de cliente actualizada {#ac-upgrades}
 

@@ -26,20 +26,44 @@ topic_v2:
     internal-label: Optimization
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7ae0ea8d334af5e3580b594d5ddc8b52b10fa5b6
 workflow-type: tm+mt
-source-wordcount: '2098'
-ht-degree: 11%
+source-wordcount: '2446'
+ht-degree: 9%
 ---
 # Últimas versiones {#latest-release}
 
 En esta página se indican las nuevas funciones, mejoras y correcciones que se incluyen con las **últimas versiones** de la versión 8 de Campaign (consola). Obtenga más información sobre las versiones y actualizaciones de Campaign en [esta página](upgrades.md). Otras versiones se indican en la sección Versiones anteriores de esta documentación.
 
+## Versión 8.9.4 {#release-8-9-4}
+
+_15 de octubre de 2026_
+
+### Mejoras {#improvements-8-9-4}
+
+* Los temas de la IU de la consola del cliente ahora se pueden almacenar y compartir entre los usuarios. (NEO-96823)
+
+### Correcciones {#fixes-8-9-4}
+
+* Se ha corregido un problema en el cual ciertos mensajes de comentarios devueltos podían provocar que las actualizaciones del estado de entrega se detuvieran, lo que dejaba los envíos afectados atascados en el estado &quot;Tenido en cuenta por el proveedor de servicios&quot;. (NEO-98183)
+* Se ha corregido un problema en el cual las alertas de entrega para entregas atascadas en un estado pendiente de inicio largo podían déclencheur incorrectamente debido a un error de cálculo de umbral. (NEO-93434)
+* Se ha corregido un problema en el cual el envío de envíos de contenido de texto podía provocar el bloqueo del proceso del servidor intermediario. (NEO-95122)
+* Se ha corregido un problema en el cual la actividad de flujo de trabajo **Leer grupo** podía generar SQL no válido para los campos de expresión calculada. (NEO-95233)
+* Se ha corregido un problema en el cual los ID de parte de envío generados para los envíos intermediarios de FDAC podían chocar. (NEO-95777)
+* Se ha corregido un problema en el cual ciertos caracteres en las direcciones URL de navegación del explorador incrustadas podían provocar que la consola del cliente se bloqueara. (NEO-96267)
+* Se ha corregido un problema por el cual los envíos SMS no se incluían en los informes en el sistema de informes dinámico. (NEO-96401)
+* Se ha corregido un problema en el cual la preparación de la entrega podría fallar para los destinos de archivo externo de Snowflake o FDAC que no utilizan asignación de perfil. (NEO-96507)
+* Se ha corregido un problema en el cual los flujos de trabajo que contenían varias consultas vinculadas a diferentes fuentes de FDA podían fallar. (NEO-97249)
+* Se ha corregido un problema en el cual los flujos de trabajo de enriquecimiento en tiempo casi real podían fallar intermitentemente con errores SQL cuando los eventos de procesamiento se activaban cerca a tiempo. (NEO-97557)
+* Se ha corregido un problema en el cual un mecanismo de bloqueo interno podía entrar en un bucle de reintentos y provocar un alto uso de CPU en el servidor. (NEO-94845)
+* Se corrigió un problema en el cual la preparación de la entrega podría fallar con un error SQL al utilizar direcciones semilla junto con una asignación de destino personalizada. (NEO-94966)
+* Se ha corregido un problema en el cual los flujos de trabajo de FDA podían fallar con un error de desbordamiento de columna al cargar datos en Redshift. (NEO-96125)
+* Se ha corregido un problema en el cual la cuenta externa de Analytics podía fallar con un error &quot;Desaparecido&quot; (410). (NEO-99019)
+* Se ha corregido un problema en el cual algunos envíos podían permanecer atascados en el estado de personalización pendiente aunque los mensajes correspondientes se enviaran correctamente. (NEO-94471)
+
 ## Versión 8.9.3 {#release-8-9-3}
 
 _11 de agosto de 2026_
-
-<!-- CONFIRM: is a client console upgrade required for 8.9.3? If yes, add the >[!CAUTION] notice used in 8.9.2/8.9.1. If no, add an explicit one-line "no console upgrade required for this release" statement so the absence reads as intentional. -->
 
 ### Mejoras de seguridad {#security-8-9-3}
 
@@ -170,8 +194,8 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 * Se ha corregido un error que se producía al concatenar un campo &quot;char&quot; en PostgreSQL 15. (NEO-88028)
 * Se ha corregido un problema en el cual el orden de las variables de plantilla de envíos cambiaba al guardar o duplicar la plantilla. (NEO-87845)
 * Se ha corregido un problema por el cual la interfaz web se bloqueaba al crear un nuevo esquema de biblioteca de datos. (NEO-87816)
-* Se ha corregido un problema en el cual con conjuntos de complementos en la actividad de anulación de duplicación. (NEO-87711)
-* Se ha corregido una solicitud de paquete de instalación sin dependencia de X11. (NEO-87471)
+* Se ha corregido un problema en el cual los códigos de segmento para conjuntos de complementos no funcionaban correctamente en la actividad de anulación de duplicación. (NEO-87711)
+* Se ha añadido una opción de paquete de instalación que no requiere la dependencia X11. (NEO-87471)
 * Se ha corregido un problema en el cual los códigos de segmento no se podían usar en informes dinámicos. (NEO-87276)
 * Se ha corregido un problema en el cual los flujos de trabajo se quedaban atascados en la actividad Actualizar datos. (NEO-87252)
 * Se ha corregido un problema por el cual BigQuery usaba una zona horaria incorrecta. (NEO-86622)
@@ -183,7 +207,7 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 * Se ha corregido un problema por el cual las plantillas de envío técnicas no se actualizaban después de realizar cambios en las opciones. (NEO-84149)
 * Se ha corregido un error en el flujo de trabajo de facturación predeterminado. (NEO-83624)
 * Se ha corregido un problema con la exclusión de duplicados basados únicamente en la clave principal de los registros de destino. (NEO-82910)
-* Se han corregido discrepancias en los informes de la interfaz de usuario web de Campaign en los que las estadísticas de seguimiento mostraban valores diferentes en comparación con la consola. (NEO-82339)
+* Se han corregido discrepancias en los informes de la IU web de Campaign en los que las estadísticas de seguimiento mostraban valores diferentes en comparación con la consola del cliente. (NEO-82339)
 * Se ha corregido un problema en el cual la última fecha de modificación cambiaba incluso si el registro no debería actualizarse en la actividad de actualización de datos. (NEO-82002)
 * Se ha corregido un problema en el cual la adición de nuevos atributos en una lista provocaba que fallaran los flujos de trabajo que leían la lista. (NEO-80258)
 * Se ha corregido un problema por el cual el informe Indicadores de seguimiento mostraba valores incorrectos para aperturas distintas. (NEO-79466)
