@@ -109,7 +109,7 @@ En la interfaz de usuario web de Campaign, configure la definición de pantalla 
 
    ![](assets/cus-schema2.png){zoomable="yes"}
 
-1. Seleccione la pestaña que corresponde al canal y defina cómo se mostrarán los campos en la pantalla de contenido del envío. Para obtener más información sobre la edición en pantalla, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html#fields){target="_blank"}.
+1. Seleccione la pestaña que corresponde al canal y defina cómo se mostrarán los campos en la pantalla de contenido del envío. Para obtener más información sobre la edición en pantalla, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=es#fields){target="_blank"}.
 
    ![](assets/cus-schema3.png){zoomable="yes"}
 
