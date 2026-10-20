@@ -88,8 +88,8 @@ Se recomienda enfáticamente incluir direcciones URL en delimitadores en la pest
 * Corchetes cuadrados [ ]
 * Corchetes { }
 
-En este ejemplo, la dirección URL https://www.adobe.com va seguida de un punto y coma. Los clientes de correo electrónico del destinatario pueden interpretar el punto y coma como parte de la dirección URL. Como resultado, el vínculo puede estar roto. Para evitar este problema, puede incluir la URL en delimitadores de una de las siguientes maneras:
+En este ejemplo, la dirección URL https://www.adobe.com/es va seguida de un punto y coma. Los clientes de correo electrónico del destinatario pueden interpretar el punto y coma como parte de la dirección URL. Como resultado, el vínculo puede estar roto. Para evitar este problema, puede incluir la URL en delimitadores de una de las siguientes maneras:
 
-* (https://www.adobe.com);
-* [https://www.adobe.com];
-* {https://www.adobe.com};
+* (https://www.adobe.com/es);
+* [https://www.adobe.com/es];
+* {https://www.adobe.com/es};
