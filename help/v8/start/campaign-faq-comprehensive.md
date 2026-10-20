@@ -1819,7 +1819,7 @@ La pista de auditoría de Campaign registra tanto el evento de eliminación como
 Conéctese con otros usuarios de Campaign y con expertos en Adobe para compartir conocimientos y obtener respuestas.
 
 * **[Comunidad de Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"}**: haga preguntas, comparta soluciones y conecte con la comunidad de Campaign
-* **[Foros de Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es){target="_blank"}**: Examine los debates en todos los productos de Adobe
+* **[Foros de Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es&lang=es){target="_blank"}**: Examine los debates en todos los productos de Adobe
 * **[Horario de oficina de la comunidad de Campaign](https://experienceleague.adobe.com/es){target="_blank"}**: únase a las sesiones en directo con los expertos de Adobe
 
 ### Documentación y aprendizaje
