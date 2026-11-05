@@ -18,10 +18,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8a7bf8408d15e0bd9e1c3e72f7846bf9a79c6885
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 41%
 ---
 
 # Mid-sourcing platform{#mid-sourcing-platform}
@@ -45,3 +45,6 @@ Los flujos de trabajo detallados a continuación se instalan con el módulo **Pl
  </tbody> 
 </table>
 
+>[!NOTE]
+>
+>El período de retención de registro en el servidor intermediario debe ser mayor que el período de validez del envío más el valor **indicatorsDuration**. De lo contrario, los indicadores de envío disminuyen cuando se depuran los registros antiguos y los valores más bajos se sincronizan con la instancia de marketing. Por ejemplo, con un período de validez de 5 días y **indicatorsDuration** de 30 días, establezca el período de retención en al menos 36 días.

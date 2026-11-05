@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 63%
+source-wordcount: '921'
+ht-degree: 60%
 ---
 # Creación de envíos de correo directo
 
@@ -138,3 +138,7 @@ Una vez validado el archivo de extracción, haga clic en **Confirmar entrega**; 
 La confirmación inicia la extracción de datos en el archivo especificado.
 
 En el contexto de una campaña de marketing, cuando se han concedido todas las aprobaciones, los archivos de extracción se crean mediante un flujo de trabajo especial que, en una configuración predeterminada, se inicia automáticamente cuando una entrega de correo directo está pendiente de extracción. Obtenga más información en [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=es){target="_blank"}.
+
+>[!NOTE]
+>
+>Cuando se utiliza una actividad **[!UICONTROL Direct mail]** en un flujo de trabajo, su transición saliente lleva la población objetivo, no el archivo de extracción generado. Para enviar el archivo a un servidor, agregue una actividad **[!UICONTROL Data extraction]** después de la actividad **[!UICONTROL Direct mail]** y luego una actividad **[!UICONTROL File transfer]**.
