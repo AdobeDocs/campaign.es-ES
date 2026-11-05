@@ -159,7 +159,7 @@ Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha 
 
 Un mensaje puede caducar antes del final de su periodo de validez cuando el siguiente reintento cae después de la hora de caducidad. A continuación, el registro de envío muestra el error del último intento de envío.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipos de error de correo electrónico {#email-error-types}
