@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2d8aa27d6565e216cc0842ba22678c884479ff43
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 68%
+source-wordcount: '1244'
+ht-degree: 66%
 ---
 # Configuración y envío de la entrega {#configure-delivery}
 
@@ -54,7 +54,7 @@ Utilice la opción **[!UICONTROL Test SMTP delivery]** para probar el envío a t
 >
 >* Esta opción no debe configurarse en intermediario.
 >
->* Obtenga más información acerca de la configuración del servidor SMTP en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html?lang=es#smtp-relay){target="_blank"}.
+>* Obtenga más información acerca de la configuración del servidor SMTP en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configure-delivery-settings.html#smtp-relay){target="_blank"}.
 
 ## Envío mediante múltiples olas {#sending-using-multiple-waves}
 
@@ -98,6 +98,8 @@ Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, gar
 >* Asegúrese de que las últimas olas no superen la fecha límite de envío, que se define en la pestaña **[!UICONTROL Validity]**. En caso contrario, es posible que algunos mensajes no se envíen. Obtenga más información acerca del período de validez de un envío en [esta sección](delivery-failures.md#valid-period).
 >
 >* También debe definir tiempo suficiente para los reintentos al configurar las últimas olas. Obtenga más información acerca de los reintentos en [esta sección](delivery-failures.md#retries).
+>
+>* Las olas se programan desde la fecha de contacto de la entrega. Si la entrega se inicia después del tiempo planificado de una o más olas, todas esas olas vencidas se envían juntas en lugar de espaciarse.
 
 ### Monitorización de olas {#monitor-waves}
 
