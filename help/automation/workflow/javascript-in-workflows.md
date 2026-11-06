@@ -71,7 +71,7 @@ Para escribir en la base de datos, puede utilizar el método estático `Write` e
    1. Llame al método `Write` en el esquema `xtk:session`.
 
       >[!IMPORTANT]
-      > Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}.
+      > Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}.
 
    1. Pase el código XML como argumento para la solicitud de escritura.
 
@@ -581,7 +581,7 @@ Puede insertar, actualizar y eliminar registros. Puede usar el método `Write` e
 * La operación `delete`
 
 >[!IMPORTANT]
-> Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}.
+> Si utiliza Adobe Campaign v8, le recomendamos que utilice el mecanismo de ensayo con las API de **Ingesta** y **Actualización/eliminación de datos** para el método `Write` en una tabla de Snowflake. [Más información](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/architecture/ffda/new-apis){target="_blank"}.
 
 #### Ejemplo 1: insertar o actualizar un registro
 
