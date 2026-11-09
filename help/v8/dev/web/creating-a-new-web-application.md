@@ -65,7 +65,7 @@ Esta plantilla determina el tipo de aplicación web. Puede crear:
 
 1. Encuestas
 
-   Adobe Campaign le permite, a través de la opción **Gestor de encuestas**, diseñar y administrar encuestas en línea y procesar sus resultados: creación dinámica de campos, administración de puntuación, exportación de respuestas e informes dedicados. Para obtener más información al respecto, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentación de Campaign v8).
+   Adobe Campaign le permite, a través de la opción **Gestor de encuestas**, diseñar y administrar encuestas en línea y procesar sus resultados: creación dinámica de campos, administración de puntuación, exportación de respuestas e informes dedicados. Para obtener más información al respecto, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentación de Campaign v8).
 
    >[!CAUTION]
    >
