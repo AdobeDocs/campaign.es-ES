@@ -21,10 +21,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 97%
+source-wordcount: '944'
+ht-degree: 99%
 ---
 # Pasos clave para crear una encuesta{#getting-started-with-surveys}
 
@@ -125,7 +125,7 @@ En el siguiente ejemplo se utiliza una página de tipo **[!UICONTROL Page (v5 co
 
   >[!NOTE]
   >
-  >Para cada campo o pregunta, puede adaptar el diseño de página según sus necesidades, gracias a las opciones de la pestaña **[!UICONTROL Advanced]**. El diseño de las pantallas de encuestas se explica en [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+  >Para cada campo o pregunta, puede adaptar el diseño de página según sus necesidades, gracias a las opciones de la pestaña **[!UICONTROL Advanced]**. El diseño de las pantallas de encuestas se explica en [esta sección](../web/about-web-forms.md).
 
   En la pantalla de detalles, haga clic en la pestaña **[!UICONTROL Preview]** para ver la renderización de la encuesta que acaba de crear.
 

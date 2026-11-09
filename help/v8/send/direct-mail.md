@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cb79282ed9b2b560201a001787c439a5da462ce1
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 60%
+source-wordcount: '904'
+ht-degree: 62%
 ---
 # Creación de envíos de correo directo
 
@@ -90,11 +90,11 @@ Este vínculo le permite acceder al asistente de extracción y definir la inform
 
 ![](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Puede insertar una URL personalizada en el archivo de extracción. Para obtener más información, consulte la [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/publishing-a-web-form.html?lang=es){target="_blank"} de Adobe Campaign Classic.
+Puede insertar una URL personalizada en el archivo de extracción. Para obtener más información, consulte [esta sección](../dev/web/publishing-a-web-form.md).
 
 >[!NOTE]
 >
->Este asistente incluye los pasos del asistente de exportación detallados en Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=es){target="_blank"}.
+>Este asistente incluye los pasos del asistente de exportación detallados en Adobe Campaign Classic [documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"}.
 
 ## Validación de la entrega{#validating}
 

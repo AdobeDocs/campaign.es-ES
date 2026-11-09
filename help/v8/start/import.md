@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '3864'
+source-wordcount: '3849'
 ht-degree: 96%
 ---
 # Importación de datos en Campaign {#ootb-profiles}
@@ -443,7 +443,7 @@ Haga clic en **[!UICONTROL Start the preview of the data]** para obtener una pre
 
 >[!NOTE]
 >
->Como en todas las listas disponibles en la consola, de forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. Para cambiar esto, ingrese un número en el cuadro **[!UICONTROL Lines to display]** y haga clic en **[!UICONTROL Start the preview of the data]**. [Más información](../config/ui-settings.md#manage-and-customize-lists)
+>Como en todas las listas disponibles en la consola, de forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. Para cambiar esto, ingrese un número en el cuadro **[!UICONTROL Lines to display]** y haga clic en **[!UICONTROL Start the preview of the data]**. [Más información](../config/ui-settings.md#customize-lists)
 
 Haga clic en las pestañas de la parte inferior del asistente para cambiar de la vista previa de los resultados en columnas a los resultados en XML. También puede ver las consultas SQL generadas.
 
@@ -462,7 +462,7 @@ Utilice Campaign para crear formularios web y recopilar y administrar la informa
 
 ![](assets/web-form-page.png)
 
-Aprenda a crear formularios web en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/web-forms/about-web-forms.html?lang=es){target="_blank"}.
+Aprenda a crear formularios web en [esta sección](../dev/web/about-web-forms.md).
 
 **Temas relacionados**
 
