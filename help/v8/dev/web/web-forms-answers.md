@@ -153,4 +153,4 @@ Puede seleccionar una carpeta de búsqueda para la reconciliación y una carpeta
 >
 >Las operaciones posibles son: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
 >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene permiso de escritura.\
->Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
+>Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.

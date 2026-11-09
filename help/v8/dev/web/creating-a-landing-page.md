@@ -37,7 +37,7 @@ ht-degree: 91%
 >
 >Para los casos de uso más comunes, cree sus páginas de destino en la interfaz de usuario de Campaign Web, donde podrá diseñarlas y publicarlas fácilmente. Las páginas de aterrizaje creadas en la consola del cliente, tal como se describe en esta sección, ofrecen más configuraciones y cubren casos de uso más avanzados.
 >
->[Obtenga más información acerca de las páginas de destino en la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Obtenga más información acerca de las páginas de destino en la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 

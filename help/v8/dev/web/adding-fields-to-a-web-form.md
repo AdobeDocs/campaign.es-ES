@@ -332,7 +332,7 @@ Indique la etiqueta de la casilla de verificación y seleccione el servicio de i
 
 >[!NOTE]
 >
->Los servicios de información se describen en [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
+>Los servicios de información se describen en [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
 
 El usuario se suscribe al servicio seleccionando la opción correspondiente.
 

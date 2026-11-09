@@ -73,7 +73,7 @@ Esta plantilla determina el tipo de aplicación web. Puede crear:
 
 1. Aplicaciones de Facebook
 
-   Gracias a la opción **Marketing social**, Adobe Campaign permite publicar contenido personalizado en una aplicación de Facebook. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}.
+   Gracias a la opción **Marketing social**, Adobe Campaign permite publicar contenido personalizado en una aplicación de Facebook. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/integrating-with-social-media/about-social-marketing){target="_blank"}.
 
    >[!CAUTION]
    >
