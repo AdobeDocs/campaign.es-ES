@@ -36,7 +36,7 @@ ht-degree: 83%
 
 Las encuestas en línea son totalmente configurables y personalizables para satisfacer sus necesidades. Los parámetros deben introducirse en la ventana de propiedades.
 
-Los parámetros disponibles se explican en [este documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}.
+Los parámetros disponibles se explican en [este documento](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties){target="_blank"}.
 
 ![](assets/s_ncs_admin_survey_properties_general.png)
 

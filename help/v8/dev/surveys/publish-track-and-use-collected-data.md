@@ -39,7 +39,7 @@ Cuando se haya creado, configurado y publicado el formulario, puede publicarlo e
 
 >[!NOTE]
 >
->El ciclo de vida de una encuesta en Adobe Campaign, así como sus modos de publicación y envío, son similares a los de los formularios web: estos se detallan en [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>El ciclo de vida de una encuesta en Adobe Campaign, así como sus modos de publicación y envío, son similares a los de los formularios web: estos se detallan en [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 
 ## Panel de control de encuesta {#survey-dashboard}
 
@@ -69,7 +69,7 @@ El origen se indica en la dirección URL de la encuesta añadiendo los caractere
 
 mientras se edita la encuesta, su URL contiene el parámetro **[!UICONTROL __uuid]**, que indica que se encuentra en una fase de prueba y que todavía no está en línea. Al acceder a la encuesta a través de esta dirección URL, los archivos creados no se tienen en cuenta en el seguimiento (informes). Se fuerza el valor en el origen **[!UICONTROL Adobe Campaign]**.
 
-Para obtener más información sobre los parámetros de URL, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties#form-url-parameters){target="_blank"}.
+Para obtener más información sobre los parámetros de URL, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/defining-web-forms-properties#form-url-parameters){target="_blank"}.
 
 ### Informes sobre las encuestas {#reports-on-surveys}
 
@@ -103,7 +103,7 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
    Para exportar los datos del informe, haga clic en el botón **[!UICONTROL Export]** y seleccione el formato de exportación.
 
-   Para obtener más información sobre la exportación de los datos de un informe, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}.
+   Para obtener más información sobre la exportación de los datos de un informe, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}.
 
 1. Exportación de respuestas
 

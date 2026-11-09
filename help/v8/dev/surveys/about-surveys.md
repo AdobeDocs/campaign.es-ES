@@ -53,13 +53,13 @@ Aprenda a crear la primera encuesta en [esta página](getting-started-with-surve
 
 >[!NOTE]
 >
->* Los pasos para la creación de un formulario web estándar se detallan en [este documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>* Los pasos para la creación de un formulario web estándar se detallan en [este documento](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 >
->* La administración de la aplicación web se explica en [este documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-applications/about-web-applications){target="_blank"}. Consulte este capítulo para obtener más información.
+>* La administración de la aplicación web se explica en [este documento](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-applications/about-web-applications){target="_blank"}. Consulte este capítulo para obtener más información.
 
 ## Funcionalidad del ámbito {#campaign-surveys-scope}
 
-En Adobe Campaign, utilice las [aplicaciones web](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} para lo siguiente:
+En Adobe Campaign, utilice las [aplicaciones web](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} para lo siguiente:
 
 * Crear formularios de varias páginas.
 * Administrar formularios multilingües con una herramienta de traducción integrada.
@@ -90,7 +90,7 @@ Realice los pasos siguientes para crear y enviar una encuesta y procesar sus res
 1. Publique y luego envíe el estudio a los destinatarios (p. ej., incluya un vínculo en una entrega o en un sitio web).
 1. Monitorice las respuestas y vea los informes.
 
-Para obtener más información sobre la configuración y secuenciación de estos pasos, consulte [este documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}. En este capítulo solo se detallan las configuraciones específicas de las encuestas.
+Para obtener más información sobre la configuración y secuenciación de estos pasos, consulte [este documento](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}. En este capítulo solo se detallan las configuraciones específicas de las encuestas.
 
 >[!CAUTION]
 >
@@ -107,4 +107,4 @@ La configuración se almacena en las siguientes carpetas:
 
 >[!NOTE]
 >
->Los detalles de configuración están disponibles en [este documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>Los detalles de configuración están disponibles en [este documento](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.

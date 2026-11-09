@@ -42,7 +42,7 @@ Las páginas del formulario se crean utilizando un editor especial que permite d
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo definir contenido y crear diseños de pantalla para un formulario web, consulte [este documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+>Para obtener más información sobre cómo definir contenido y crear diseños de pantalla para un formulario web, consulte [este documento](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 
 ## Adición de campos {#adding-fields}
 
@@ -71,7 +71,7 @@ La naturaleza del campo que desea añadir (lista desplegable, campo de texto, ca
 
 ![](assets/s_ncs_admin_survey_change_type.png)
 
-En [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} se describen los distintos tipos de campos disponibles.
+En [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} se describen los distintos tipos de campos disponibles.
 
 ## Elementos específicos de las encuestas {#survey-specific-elements}
 
@@ -106,7 +106,7 @@ Además, la ubicación de almacenamiento para este campo de entrada debe ser un 
 
 ### Adición de preguntas {#adding-questions}
 
-Existen dos tipos de contenedores: estándar y de pregunta. Los contenedores estándar se utilizan para configurar el diseño de página y la visualización condicional en una página. [Más información](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
+Existen dos tipos de contenedores: estándar y de pregunta. Los contenedores estándar se utilizan para configurar el diseño de página y la visualización condicional en una página. [Más información](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"}.
 
 Utilice un contenedor de **Pregunta** para añadir una pregunta a la página y para insertar las posibles respuestas por debajo en la jerarquía. Las respuestas del usuario a preguntas colocadas en este tipo de contenedor se pueden analizar en los informes.
 
@@ -120,7 +120,7 @@ La etiqueta de la pregunta se introduce en el campo de etiqueta. En este caso, s
 
 >[!NOTE]
 >
->Consulte [este documento](https://experienceleague.adobe.com/en/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} para obtener más información sobre el uso del editor de HTML.
+>Consulte [este documento](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-forms/about-web-forms){target="_blank"} para obtener más información sobre el uso del editor de HTML.
 
 Por ejemplo:
 
