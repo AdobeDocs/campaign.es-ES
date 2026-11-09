@@ -1,5 +1,5 @@
 ---
-title: Recuento
+title: Contar resultados
 description: Obtenga información sobre cómo realizar operaciones de recuento.
 audience: developing
 content-type: reference
@@ -18,12 +18,12 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '89'
+ht-degree: 0%
 ---
-# Recuento
+# Contar resultados
 
 La API de REST de Adobe Campaign puede contar el número de registros de una solicitud. Para ello, utilice la dirección URL que se devuelve en el nodo **count**.
 

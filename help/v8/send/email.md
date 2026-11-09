@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 26%
@@ -39,7 +39,7 @@ Con Adobe Campaign, cree envíos de correo electrónico para enviar correos elec
 
 >[!NOTE]
 >
->Para crear correos electrónicos cautivadores y personalizados individualmente, ve a la [interfaz de usuario web](../start/campaign-ui.md#campaign-web-user-interface-ac-web-ui). Adobe Campaign viene con el Designer de correo electrónico, una intuitiva interfaz de arrastrar y soltar, que le permite diseñar y refinar todo el contenido de cada correo electrónico.
+>Para crear correos electrónicos cautivadores y personalizados individualmente, ve a la [interfaz de usuario web](../start/campaign-ui.md#ac-web-ui). Adobe Campaign viene con el Designer de correo electrónico, una intuitiva interfaz de arrastrar y soltar, que le permite diseñar y refinar todo el contenido de cada correo electrónico.
 
 
 Conozca los pasos clave para crear y configurar una entrega en [esta página](../start/create-message.md).

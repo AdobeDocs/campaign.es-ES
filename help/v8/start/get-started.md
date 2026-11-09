@@ -51,7 +51,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 87%
@@ -146,4 +146,4 @@ Adobe Campaign ofrece un conjunto de funcionalidades que le ayudarán a implemen
 * [Espacio de trabajo de Campaign](campaign-ui.md)
 * [Matriz de compatibilidad de Campaign v8](compatibility-matrix.md)
 * [Conexión a Campaign](connect.md)
-* [Preguntas frecuentes](campaign-faq.md)
+* [Preguntas frecuentes](campaign-faq-comprehensive.md)

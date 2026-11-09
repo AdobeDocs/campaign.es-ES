@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1282'
 ht-degree: 98%
@@ -62,7 +62,7 @@ Los pasos principales del proceso de aprobación local son:
 
 La plantilla de distribución de datos permite limitar la población resultante de la segmentación en función de la agrupación de datos, así como asignar cada valor a un supervisor local. En este ejemplo, se ha definido el campo **[!UICONTROL Email address domain]** como campo de distribución y se ha asignado un dominio a cada supervisor local.
 
-Para obtener más información sobre la creación de una plantilla de distribución de datos, consulte [Limitación del número de registros de subconjuntos por distribución de datos](split.md#limiting-the-number-of-subset-records-per-data-distribution).
+Para obtener más información sobre la creación de una plantilla de distribución de datos, consulte [Limitación del número de registros de subconjuntos por distribución de datos](split.md#limit-the-number-of-subset-records-per-data-distribution).
 
 1. Para crear la plantilla de distribución de datos, vaya al nodo **[!UICONTROL Resources > Campaign management > Data distribution]** y haga clic en **[!UICONTROL New]**.
 
@@ -117,7 +117,7 @@ Se agregaron las siguientes actividades:
 
 La segmentación ascendente se compone de dos consultas, una intersección y una división. La población resultante de la segmentación se puede limitar con una actividad **[!UICONTROL Split]** que utiliza una plantilla de distribución de datos.
 
-Para obtener más información sobre la configuración de una actividad de división, consulte [Dividir](split.md). La creación de una plantilla de distribución de datos se detalla en [Limitar el número de registros de subconjuntos por distribución de datos](split.md#limiting-the-number-of-subset-records-per-data-distribution).
+Para obtener más información sobre la configuración de una actividad de división, consulte [Dividir](split.md). La creación de una plantilla de distribución de datos se detalla en [Limitar el número de registros de subconjuntos por distribución de datos](split.md#limit-the-number-of-subset-records-per-data-distribution).
 
 Si no desea limitar la población de la consulta, no tiene que utilizar las actividades **[!UICONTROL Query]**, **[!UICONTROL Intersection]** ni **[!UICONTROL Split]**. En este caso, complete la plantilla de distribución de datos en la primera actividad **[!UICONTROL Local approval]**.
 

@@ -20,7 +20,7 @@ subfeature_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 60%
@@ -56,7 +56,7 @@ Conozca los diferentes contextos en los que se pueden utilizar los flujos de tra
 * [Creación de una lista de resumen](create-a-summary-list.md)
 * [Enriquecimiento de datos](enrich-data.md)
 * [Uso de acumulados](using-aggregates.md)
-* [Cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](use-workflow-data.md#use-case-gpg-encrypt)
+* [Cifrado y exportación de datos con una clave instalada en el Panel de control de Campaign](use-workflow-data.md)
 * [Actualización de lista trimestral con una consulta incremental](quarterly-list-update.md)
 * [Uso de la funcionalidad de combinación de la actividad de anulación de duplicación](deduplication-merge.md)
 * [Configuración de un flujo de trabajo de importación recurrente](recurring-import-workflow.md)

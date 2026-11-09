@@ -34,7 +34,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 2%
@@ -84,7 +84,7 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
 
    >[!NOTE]
    >
-   >De forma predeterminada, los esquemas creados por los usuarios se almacenan en el área de nombres &quot;cus&quot;. Para obtener más información, consulte [Identificación de un esquema](extend-schema.md#identification-of-a-schema).
+   >De forma predeterminada, los esquemas creados por los usuarios se almacenan en el área de nombres &quot;cus&quot;. Para obtener más información, consulte [Identificación de un esquema](extend-schema.md).
 
 1. Cree el contenido de la tabla. Se recomienda utilizar el asistente dedicado para asegurarse de que no falta ninguna configuración. Para ello, haga clic en el botón **[!UICONTROL Insert]** y elija el tipo de configuración que desea agregar.
 

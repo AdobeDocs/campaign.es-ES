@@ -23,7 +23,7 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '414'
 ht-degree: 67%
@@ -70,7 +70,7 @@ Para configurar la actividad **[!UICONTROL Change dimension]**, siga los siguien
 
      >[!NOTE]
      >
-     >Para obtener información sobre cómo crear y administrar columnas adicionales, consulte [Agregar datos](query.md#add-data).
+     >Para obtener información sobre cómo crear y administrar columnas adicionales, consulte [Agregar datos](query.md#adding-data).
 
    * Seleccione la dimensión de segmentación anterior (antes del cambio de eje) y, en el subárbol **[!UICONTROL Zip Code]** del destinatario, seleccione **[!UICONTROL Location]** y haga clic en **[!UICONTROL Edit expression]**.
 

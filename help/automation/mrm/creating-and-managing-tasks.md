@@ -3,6 +3,7 @@ product: campaign
 title: Creación y administración de tareas
 description: Creación y administración de tareas
 feature: Campaigns, Resource Management
+version: Campaign v8, Campaign Classic v7
 role: User
 exl-id: 730d1712-53a6-4bf7-9aac-523b06bd0d0a
 TQID: 'https://experienceleague.adobe.com/LggpejZ5h1fYPh3efYx2f7x3DEhqVlvPndjgNkNUUCs'
@@ -22,7 +23,7 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '3766'
 ht-degree: 85%
@@ -205,7 +206,7 @@ De manera predeterminada, el presupuesto cargado es el presupuesto de la campañ
 
 >[!NOTE]
 >
->Para obtener más información sobre gastos y presupuestos, consulte [esta sección](../campaigns/providers-stocks-and-budgets.md#cost-commitment--calculation-and-charging).
+>Para obtener más información sobre gastos y presupuestos, consulte [esta sección](../campaigns/providers-stocks-and-budgets.md).
 
 En esta ventana, también puede definir los objetivos que desea alcanzar. Los objetivos se expresan en términos de ingresos previstos para la tarea.
 

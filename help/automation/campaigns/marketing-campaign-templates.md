@@ -20,7 +20,7 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 55%
@@ -126,7 +126,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
 * **Grupo de control**
 
-  Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](marketing-campaign-deliveries.md#defining-a-control-group).
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la configuración avanzada de la plantilla y a las campañas basadas en esta plantilla. La configuración se puede definir mediante la plantilla o bien por separado para cada campaña. Obtenga más información sobre los grupos de control en [esta sección](marketing-campaign-deliveries.md).
 
   ![](assets/template-activate-1.png)
 
@@ -139,7 +139,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
 * **Documentos**
 
-  Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edit]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o bien por separado para cada campaña. Obtenga más información sobre los documentos en [esta sección](marketing-campaign-deliveries.md#manage-associated-documents).
+  Cuando se selecciona este módulo, se añade una pestaña adicional a la pestaña **[!UICONTROL Edit]** de la plantilla y a las campañas basadas en esta plantilla. Los documentos adjuntos se pueden agregar desde la plantilla o bien por separado para cada campaña. Obtenga más información sobre los documentos en [esta sección](marketing-campaign-deliveries.md).
 
   ![](assets/template-activate-3.png)
 
@@ -151,7 +151,7 @@ Además, los accesos directos a las ventanas de configuración se añaden al pan
 
 * **Establecimiento de objetivos y flujos de trabajo**
 
-  Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar individualmente para cada campaña basada en esta plantilla.Puede obtener más información sobre los flujos de trabajo de la campaña en [esta sección](marketing-campaign-deliveries.md#build-the-main-target-in-a-workflow).
+  Al seleccionar el módulo de **[!UICONTROL Targeting and workflows]**, se añade una pestaña para permitirle crear uno o más flujos de trabajo para las campañas basadas en esta plantilla. Los flujos de trabajo también se pueden configurar individualmente para cada campaña basada en esta plantilla.Puede obtener más información sobre los flujos de trabajo de la campaña en [esta sección](marketing-campaign-deliveries.md).
 
   ![](assets/template-activate-5.png)
 
