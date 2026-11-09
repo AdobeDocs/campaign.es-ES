@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 12%
@@ -63,7 +63,7 @@ Obtenga más información sobre **Uso compartido de recursos** entre Campaign y 
 
 >[!NOTE]
 >
->Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud.
+>Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq-comprehensive.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud.
 
 
 ## Integración con el conector CRM{#gs-crm-connectors}

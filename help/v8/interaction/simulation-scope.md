@@ -1,0 +1,69 @@
+---
+product: campaign
+title: Ámbito de la simulación
+description: Ámbito de la simulación
+feature: Interaction, Offers
+version: Campaign v8, Campaign Classic v7
+audience: interaction
+content-type: reference
+topic-tags: simulating-offers
+exl-id: 4f6b3de2-3fdf-441d-925d-476e20e75c6f
+TQID: 'https://experienceleague.adobe.com/mZ618bV3lzbXS09MXBXJxM5RizvMWl6lEgw0Bwb2bGI'
+product_v2:
+  - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
+feature_v2:
+  - id: b6fcaf36-3bc4-4604-94f3-81b5d3f41ecf
+    internal-label: Offer Management
+  - id: 65702805-0026-5ca1-843a-144fa79f0883
+    internal-label: Interaction
+  - id: ea08db70-4682-59a2-9408-9aedd9548e07
+    internal-label: Offers
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+workflow-type: tm+mt
+source-wordcount: '238'
+ht-degree: 100%
+---
+# Ámbito de la simulación{#simulation-scope}
+
+
+
+## Definición del ámbito {#definition-of-the-scope}
+
+Abra la pestaña **[!UICONTROL Scope]** para elegir los ajustes.
+
+Los siguientes campos son obligatorios:
+
+* Entorno o categoría de la oferta.
+* Espacio de ofertas.
+* Fecha de contacto. No se tienen en cuenta las ofertas no válidas en la fecha de contacto.
+* Población destinataria.
+
+  Si no se configura un filtro de destino, se tiene en cuenta toda la lista de destinatarios.
+
+* Número de propuestas a simular por cada destino.
+
+  El destinatario recibe todas estas propuestas. Por ejemplo, si introduce 5, cada destinatario recibe un máximo de 5 propuestas de oferta.
+
+  ![](assets/offer_simulation_009.png)
+
+Para perfeccionar las ofertas que se tienen en cuenta en la simulación, se pueden añadir uno o varios temas (especificados previamente en las categorías).
+
+También se puede optar por realizar la simulación en todas las ofertas o solo en las que están en línea. Si se desea, algunos filtros permiten modificar la selección.
+
+>[!NOTE]
+>
+>Se debe especificar una fecha de contacto. Esto permite que el motor de interacción clasifique las ofertas en el entorno o categoría seleccionados. Si no se configura ninguna fecha, la simulación generará un error.
+
+## Adición de ejes de informes {#adding-reporting-axes}
+
+Se puede mejorar el análisis de la simulación añadiendo ejes de informe al destino o a las propias ofertas mediante la pestaña **[!UICONTROL Calculations]**.
+
+Para ello, haga clic en el botón **[!UICONTROL Add]** y seleccione los campos adecuados. Los ejes se utilizan para determinar la simulación y se visualizan en el informe de análisis. Para obtener más información, consulte [Simulación de seguimiento](simulation-tracking.md).
+
+![](assets/offer_simulation_011.png)

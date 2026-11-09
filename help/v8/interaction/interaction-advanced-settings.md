@@ -20,9 +20,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '131'
+source-wordcount: '119'
 ht-degree: 0%
 ---
 # Configuración avanzada del módulo de interacción
@@ -31,7 +31,7 @@ La configuración del módulo Interacción de Campaign está reservada para usua
 
 Aprenda a utilizar datos contextuales adicionales en las ofertas [de esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=es){target="_blank"}.
 
-Aprenda a enriquecer los criterios de idoneidad de sus ofertas [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=es){target="_blank"}.
+Aprenda a enriquecer los criterios de idoneidad de sus ofertas [en esta página](extension-example.md).
 
 Aprenda los pasos para crear un entorno de prueba [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=es){target="_blank"}.
 

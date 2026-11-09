@@ -27,7 +27,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 88%
@@ -133,7 +133,7 @@ La enumeración **[!UICONTROL Domains]** se utiliza para generar informes integr
 
 Puede crear otras enumeraciones reservadas para agrupamiento y utilizarlas en otros cubos: todos los valores de alias se reagrupan en las bandejas especificadas en la primera pestaña de enumeración.
 
-Obtenga más información acerca de las enumeraciones en [esta página](../../v8/config/ui-settings.md#enumerations).
+Obtenga más información acerca de las enumeraciones en [esta página](../../v8/config/ui-settings.md).
 
 ## Agregados en cubos {#calculate-and-use-aggregates}
 

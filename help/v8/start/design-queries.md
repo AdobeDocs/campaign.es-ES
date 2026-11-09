@@ -1,5 +1,5 @@
 ---
-title: Diseño de consultas en Campaign v8
+title: Consulta de la base de datos de Campaign
 description: Obtenga información sobre cómo crear consultas en la consola del cliente de Campaign
 feature: Query Editor, Data Management
 role: User
@@ -27,9 +27,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '887'
 ht-degree: 30%
 ---
 # Base de datos de Query Campaign
@@ -155,7 +155,7 @@ En este ejemplo, los datos se ordenan de forma ascendente según la edad del des
 
 >[!NOTE]
 >
->Como en todas las listas disponibles en la consola, de forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. Para cambiar esto, ingrese un número en el cuadro **[!UICONTROL Lines to display]** y haga clic en **[!UICONTROL Start the preview of the data]**. [Más información](../config/ui-settings.md#manage-and-customize-lists)
+>Como en todas las listas disponibles en la consola, de forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. Para cambiar esto, ingrese un número en el cuadro **[!UICONTROL Lines to display]** y haga clic en **[!UICONTROL Start the preview of the data]**. [Más información](../config/ui-settings.md#customize-lists)
 
 
 

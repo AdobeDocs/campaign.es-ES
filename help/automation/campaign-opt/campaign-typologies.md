@@ -3,6 +3,7 @@ product: campaign
 title: Introducción a las tipologías de campaña
 description: Obtenga información sobre cómo configurar e implementar tipologías de campaña
 feature: Typology Rules
+version: Campaign v8, Campaign Classic v7
 exl-id: 7832ffe1-eb65-4b37-9fc5-1374516755d9
 TQID: 'https://experienceleague.adobe.com/Pxzz3-z8BorlEgP1gGwLK--l6hEAGZ-DQhGuxsLk6oU'
 product_v2:
@@ -27,7 +28,7 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 41%
@@ -67,7 +68,7 @@ Campaign viene con un conjunto de reglas predeterminadas **Filtering** y **Contr
 El complemento Optimización de la campaña proporciona dos tipos adicionales de **reglas de tipología**:
 
 * Reglas de **presión**, que permiten controlar la fatiga de marketing. [Más información](pressure-rules.md).
-* Reglas de **capacidad** que permiten limitar las cargas para garantizar condiciones de procesamiento óptimas. [Más información](consistency-rules.md#controlling-capacity).
+* Reglas de **capacidad** que permiten limitar las cargas para garantizar condiciones de procesamiento óptimas. [Más información](consistency-rules.md#control-capacity).
 
 
 >[!NOTE]

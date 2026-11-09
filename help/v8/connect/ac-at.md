@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 54%
@@ -46,7 +46,7 @@ Esta integración le ayuda a implementar casos de uso de la siguiente manera: cu
 >[!NOTE]
 >* La integración solo admite imágenes estáticas. Los otros tipos de contenido no se pueden personalizar.
 >
->* Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para implementar Experience Cloud déclencheur con Campaign.
+>* Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq-comprehensive.md#support) para implementar Experience Cloud déclencheur con Campaign.
 
 Adobe Target puede utilizar los siguientes tipos de datos:
 

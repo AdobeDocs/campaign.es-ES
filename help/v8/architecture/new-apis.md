@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 4%
@@ -224,7 +224,7 @@ Como resultado, la tabla de ensayo se actualiza según lo esperado.
 
 La administración de suscripciones en Campaign se describe en [esta página](../start/subscriptions.md).
 
-La inserción de los datos de suscripción y baja se basa en el [Mecanismo de ensayo](staging.md) de la base de datos local de Campaign. La información del suscriptor se almacena temporalmente en tablas de ensayo de la base de datos local y el flujo de trabajo de sincronización envía estos datos desde la base de datos local a la base de datos en la nube. Como consecuencia, los procesos de suscripción y baja son **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](replication.md#tech-wf)
+La inserción de los datos de suscripción y baja se basa en el [Mecanismo de ensayo](staging.md) de la base de datos local de Campaign. La información del suscriptor se almacena temporalmente en tablas de ensayo de la base de datos local y el flujo de trabajo de sincronización envía estos datos desde la base de datos local a la base de datos en la nube. Como consecuencia, los procesos de suscripción y baja son **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](replication.md#workflows)
 
 
 **Temas relacionados**

@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 5%
+source-wordcount: '503'
+ht-degree: 6%
 ---
 # Personalizar la instancia {#gs-ac-custom}
 
@@ -92,7 +92,7 @@ La interfaz de Adobe Campaign utiliza muchas aplicaciones web para acceder, admi
 
 Las aplicaciones web integradas se almacenan en la carpeta **Administration > Configuration > Web applications** del explorador.
 
-Aprenda a crear una página de información general en Campaign en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/designing-content/web-applications/use-cases-creating-overviews#creating-a-single-page-web-application){target="_blank"}
+Aprenda a crear una página de información general en Campaign en [esta sección](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
 
 
 ## Personalización de listas y creación de filtros {#gs-lists-and-filters}

@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
-source-wordcount: '11539'
+source-wordcount: '11533'
 ht-degree: 15%
 ---
 # Preguntas frecuentes {#faq}
@@ -169,7 +169,7 @@ La creación del primer correo electrónico en Campaign v8 es sencilla. Empiece 
 
 Para ponerse en contacto con Atención al cliente de Adobe, conéctese a [Adobe Admin Console](https://adminconsole.adobe.com/overview){target="_blank"} para crear un caso o iniciar una sesión de chat.
 
-Requiere cuentas individuales con los permisos correctos. Si no puede iniciar sesión, solicite acceso a través de Experience League. [Más información](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}
+Requiere cuentas individuales con los permisos correctos. Si no puede iniciar sesión, solicite acceso a través de Experience League. [Más información](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html){target="_blank"}
 
 También puede unirse a [Campaign Community](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"} para buscar respuestas o preguntar a expertos.
 
@@ -212,7 +212,7 @@ Estas limitaciones evolucionan a medida que Adobe mejora la versión 8 de. Consu
 
 **Temas relacionados:**
 
-[Migración de Campaign v7 a v8](../start/v7-to-v8.md#limitations) | [Arquitectura de FDAC](../architecture/enterprise-deployment.md)
+[Migración de Campaign v7 a v8](../start/v7-to-v8.md) | [Arquitectura de FDAC](../architecture/enterprise-deployment.md)
 
 +++
 
@@ -820,7 +820,7 @@ Sí. Campaign admite archivos adjuntos estáticos (el mismo archivo para todos l
 
 Utilice formatos de archivo seguros (PDF, JPEG, PNG, DOCX) y pruébelos con direcciones semilla antes de que se envíe el proceso de producción.
 
-Obtenga más información en la [guía de archivos adjuntos de correo electrónico](../send/email.md#attachments)
+Obtenga más información en la [guía de archivos adjuntos de correo electrónico](../send/email.md)
 
 +++
 
@@ -1515,7 +1515,7 @@ Aprenda a [explorar datos con cubos](../reporting/gs-cubes.md)
 
 **Temas relacionados:**
 
-[Introducción a las encuestas](https://experienceleague.adobe.com/es/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [Informes de encuesta](https://experienceleague.adobe.com/es/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
+[Introducción a las encuestas](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/about-surveys){target="_blank"} | [Informes de encuesta](https://experienceleague.adobe.com/en/docs/campaign-classic/using/online-surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"}
 
 +++
 
@@ -1754,7 +1754,7 @@ Consulte con un asesor legal para asegurarse de que su implementación cumple co
 
 **Temas relacionados:**
 
-[Servicios de suscripción](../start/subscriptions.md) | [Privacidad y consentimiento](../start/privacy.md#consent-retention-roles) | [Administración de privacidad](../start/privacy.md)
+[Servicios de suscripción](../start/subscriptions.md) | [Privacidad y consentimiento](../start/privacy.md) | [Administración de privacidad](../start/privacy.md)
 
 +++
 
@@ -1819,7 +1819,7 @@ La pista de auditoría de Campaign registra tanto el evento de eliminación como
 Conéctese con otros usuarios de Campaign y con expertos en Adobe para compartir conocimientos y obtener respuestas.
 
 * **[Comunidad de Adobe Campaign](https://experienceleaguecommunities.adobe.com/t5/adobe-campaign-classic/ct-p/adobe-campaign-classic-community?profile.language=es){target="_blank"}**: haga preguntas, comparta soluciones y conecte con la comunidad de Campaign
-* **[Foros de Experience League](https://experienceleaguecommunities.adobe.com/?profile.language=es&lang=es){target="_blank"}**: Examine los debates en todos los productos de Adobe
+* **[Foros de Experience League](https://experienceleaguecommunities.adobe.com/?lang=es){target="_blank"}**: Examine los debates en todos los productos de Adobe
 * **[Horario de oficina de la comunidad de Campaign](https://experienceleague.adobe.com/es){target="_blank"}**: únase a las sesiones en directo con los expertos de Adobe
 
 ### Documentación y aprendizaje
@@ -1839,12 +1839,12 @@ Encuentre documentación técnica detallada y recursos para desarrolladores.
 * **[Matriz de compatibilidad](compatibility-matrix.md)** - Sistemas y versiones compatibles
 * **[Preguntas frecuentes sobre versiones y actualizaciones](upgrades.md)**: comprueba tu versión y obtén información sobre las actualizaciones
 
-### Asistencia y servicios
+### Asistencia y servicios {#support}
 
 Obtenga ayuda del equipo de asistencia de Adobe y administre su instancia.
 
 * **[Adobe Admin Console](https://adminconsole.adobe.com/){target="_blank"}** - Registrar casos de soporte y administrar usuarios
-* **[Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html){target="_blank"}** - Comuníquese con el equipo de atención al cliente
+* **[Servicio de atención al cliente de Adobe](https://helpx.adobe.com/es/enterprise/using/support-for-experience-cloud.html){target="_blank"}** - Comuníquese con el equipo de atención al cliente
 * **[Panel de control de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"}** - Administrar la configuración de la instancia de Campaign
 * **[Estado del sistema](https://status.adobe.com/es-es/){target="_blank"}** - Comprobar el estado de los servicios de Adobe
 

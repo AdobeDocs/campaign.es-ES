@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f1f84f565326bd683b47e6e498add3100ea81c4c
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1024'
 ht-degree: 1%
 ---
 # Actualización de perfiles de Adobe Experience Platform desde páginas de aterrizaje de Adobe Campaign {#ac-aep-lp}
@@ -369,5 +369,5 @@ A continuación, se muestra un ejemplo de una página de aterrizaje y una activi
 ### Más información
 
 * [Configuración de una actividad de JavaScript code](../../automation/workflow/sql-code-and-javascript-code.md#javascript-code)
-* [Creación de una página de destino](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/creating-a-landing-page.html?lang=es){target="_blank"}
+* [Creación de una página de destino](../dev/web/creating-a-landing-page.md)
 * [Administración de suscripciones y bajas](../start/subscriptions.md)

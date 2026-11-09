@@ -25,14 +25,14 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 16%
 ---
 # Cambio de la fuente de datos {#change-data-source}
 
-Utilice la actividad **[!UICONTROL Change data source]** para cambiar el origen de datos de una [tabla de trabajo del flujo de trabajo](use-workflow-data.md#workflow-temporary-work-table). Esta actividad proporciona más flexibilidad para administrar datos en diferentes fuentes de datos, como el acceso de datos federado (FDA), la base de datos en la nube de Campaign (FDAC) y la base de datos local de Campaign.
+Utilice la actividad **[!UICONTROL Change data source]** para cambiar el origen de datos de una [tabla de trabajo del flujo de trabajo](use-workflow-data.md#work-table). Esta actividad proporciona más flexibilidad para administrar datos en diferentes fuentes de datos, como el acceso de datos federado (FDA), la base de datos en la nube de Campaign (FDAC) y la base de datos local de Campaign.
 
 El flujo de trabajo **[!UICONTROL Working table]** se usa para controlar y compartir datos con las actividades de flujo de trabajo.
 
@@ -57,7 +57,7 @@ Para usar la actividad **[!UICONTROL Change Data Source]**, debe:
 
 1. Consulte los destinatarios objetivo con una actividad **[!UICONTROL Query]**.
 
-   Para obtener más información sobre la actividad **[!UICONTROL Query]**, consulte esta [página](query.md#create-a-query)
+   Para obtener más información sobre la actividad **[!UICONTROL Query]**, consulte esta [página](query.md#creating-a-query)
 
 1. Agregue una actividad **[!UICONTROL Change data source]**.
 

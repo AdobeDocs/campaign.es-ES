@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 47%
+source-wordcount: '837'
+ht-degree: 48%
 ---
 # Creación de espacios de oferta{#creating-offer-spaces}
 
@@ -173,4 +173,4 @@ Si un destinatario no es elegible para ninguna oferta, esto se muestra en la vis
 
 La vista previa puede omitir los contextos cuando están restringidos a un espacio. Este es el caso cuando el esquema de interacción se ha ampliado para añadir campos a los que se hace referencia en un espacio mediante un canal entrante.
 
-Para obtener más información, consulte este ejemplo en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/extension-example.html?lang=es){target="_blank"}.
+Para obtener más información, consulte este ejemplo en [esta sección](extension-example.md).

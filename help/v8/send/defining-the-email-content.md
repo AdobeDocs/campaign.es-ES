@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
 workflow-type: tm+mt
-source-wordcount: '2096'
-ht-degree: 92%
+source-wordcount: '2072'
+ht-degree: 93%
 ---
 # Definición del contenido del correo electrónico {#defining-the-email-content}
 
@@ -92,7 +92,7 @@ Los mensajes se envían en formato HTML o texto de forma predeterminada, según 
 
 * Para importar un contenido HTML, usar el botón **[!UICONTROL Open]**. También puede pegar el código de fuente directamente en la subpestaña **[!UICONTROL Source]**.
 
-  Si está usando el editor de contenido (DCE), consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/designing-content/editing-html-content/use-case-creating-an-email-delivery.html?lang=es#step-3---selecting-a-content).
+  Si está usando el Editor de contenido digital (DCE), consulte [esta sección](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
 
   >[!IMPORTANT]
   >

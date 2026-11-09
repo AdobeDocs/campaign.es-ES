@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: 9b9c573de6120f4b3da0d5eee98192b56b4754df
+source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 86%
+source-wordcount: '1084'
+ht-degree: 88%
 ---
 
 # Documentación de Adobe Campaign versión 8 (consola) {#campaign-v8}
@@ -37,7 +37,6 @@ ht-degree: 86%
   + [De Campaign Classic v7 a v8](start/v7-to-v8.md)
   + [De Campaign Standard a v8](start/acs-to-v8.md)
   + [Preguntas frecuentes](start/campaign-faq-comprehensive.md)
-  + {hide-from-toc}[Preguntas más frecuentes](start/campaign-faq.md)
   + {hide-from-toc}[Píxeles de seguimiento de correo electrónico y guía de CNIL](start/cnil-pixel-tracking.md)
 + Mensajes {#send}
   + [Introducción a los mensajes](start/gs-message.md)
@@ -134,6 +133,44 @@ ht-degree: 86%
 + Páginas de aterrizaje y formularios {#content}
   + [Creación de páginas de aterrizaje](dev/landing-pages.md)
   + [Diseño de aplicaciones y formularios web](dev/webapps.md)
+  + Aplicaciones web {#web-applications}
+    + [Introducción a las aplicaciones web](dev/web/about-web-applications.md)
+    + [Creación de una nueva aplicación web](dev/web/creating-a-new-web-application.md)
+    + [Diseño de una aplicación web](dev/web/designing-a-web-application.md)
+    + [Caso de uso: Creación de descripciones generales](dev/web/use-cases-creating-overviews.md)
+    + [Traducción de una aplicación web](dev/web/translating-a-web-application.md)
+    + [Seguimiento de visitas en una aplicación web](dev/web/tracking-a-web-application.md)
+    + [Exclusión del seguimiento de aplicaciones web](dev/web/web-application-tracking-opt-out.md)
+  + Edición de contenido HTML {#editing-html-content}
+    + [Introducción al editor HTML](dev/web/about-campaign-html-editor.md)
+    + [Administración de plantillas](dev/web/template-management.md)
+    + [Interfaz del editor de contenido](dev/web/content-editor-interface.md)
+    + [Editar contenido](dev/web/editing-content.md)
+    + [Recomendaciones para la edición de contenido](dev/web/content-editing-best-practices.md)
+    + [Creación de una página de destino](dev/web/creating-a-landing-page.md)
+    + [Caso práctico: Crear un envío de correo electrónico](dev/web/use-case-creating-an-email-delivery.md)
+  + Formularios web {#web-forms}
+    + [Introducción a los formularios web](dev/web/about-web-forms.md)
+    + [Uso de una plantilla de formulario web](dev/web/using-a-web-form-template.md)
+    + [Adición de campos a un formulario web](dev/web/adding-fields-to-a-web-form.md)
+    + [Elementos estáticos de un formulario web](dev/web/static-elements-in-a-web-form.md)
+    + [Definición del diseño de los formularios web](dev/web/defining-web-forms-layout.md)
+    + [Procesamiento de formularios](dev/web/form-rendering.md)
+    + [Definición de la secuenciación de la página](dev/web/defining-web-forms-page-sequencing.md)
+    + [Guardado de respuestas de formularios web](dev/web/web-forms-answers.md)
+    + [Publicación de un formulario web](dev/web/publishing-a-web-form.md)
+    + [Definición de las propiedades de los formularios web](dev/web/defining-web-forms-properties.md)
+    + [Traducción de un formulario web](dev/web/translating-a-web-form.md)
+    + [Casos de uso: Formularios web](dev/web/use-cases-web-forms.md)
+  + Encuestas {#surveys}
+    + [Introducción a las encuestas](dev/surveys/about-surveys.md)
+    + [Pasos clave para crear una encuesta](dev/surveys/getting-started-with-surveys.md)
+    + [Diseño de una encuesta](dev/surveys/building-a-survey.md)
+    + [Administración de respuestas](dev/surveys/managing-answers.md)
+    + [Publicación, seguimiento y utilización de datos recopilados](dev/surveys/publish-track-and-use-collected-data.md)
+    + [Configuración de encuestas](dev/surveys/configuring-surveys.md)
+    + [Caso de uso: Creación de un formulario de referencia](dev/surveys/use-case-creating-a-refer-a-friend-form.md)
+    + [Caso de uso: visualización del informe de respuestas en una encuesta en línea](dev/surveys/use-case-displaying-report-on-answers-to-an-online-survey.md)
 + Campañas {#campaigns}
   + [Introducción a las campañas](start/campaigns.md)
   + [Documentación de Campaign Orchestration >](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/set-up-campaigns.html?lang=es)
@@ -156,8 +193,24 @@ ht-degree: 86%
     + [Contexto](interaction/interaction-present-offers.md)
     + [Invocación de una oferta en una página web](interaction/interaction-integration.md)
     + [Administración de interacciones anónimas](interaction/anonymous-interactions.md)
+  + Administración de un catálogo de ofertas {#managing-an-offer-catalog}
+    + [Aprobar y activar una oferta](interaction/approving-and-activating-an-offer.md)
+    + [Administración de plantillas de oferta](interaction/managing-offer-templates.md)
+    + [Administración de presentación de ofertas](interaction/managing-offer-presentation.md)
+  + Simulación de ofertas {#simulating-offers}
+    + [Acerca de la simulación de ofertas](interaction/about-offers-simulation.md)
+    + [Configuración de ejecución](interaction/execution-settings.md)
+    + [Ámbito de la simulación](interaction/simulation-scope.md)
+    + [Seguimiento de la simulación](interaction/simulation-tracking.md)
   + [Informes e historial](interaction/interaction-tracking.md)
   + [Casos de uso](interaction/interaction-use-cases.md)
+  + Ejemplos de casos de uso {#case-study}
+    + [Reglas de presentación](interaction/presentation-rules.md)
+    + [Ofertas en un canal de entrada](interaction/offers-on-an-inbound-channel.md)
+    + [Ofertas en un canal de salida](interaction/offers-on-an-outbound-channel.md)
+  + [Configuración avanzada](interaction/interaction-advanced-settings.md)
+  + Parámetros avanzados {#advanced-parameters}
+    + [Ejemplo de extensión](interaction/extension-example.md)
 + Consulta y datos {#data}
   + Consultar la base de datos {#query}
     + [Trabajo con el editor de consultas](start/query-editor.md)

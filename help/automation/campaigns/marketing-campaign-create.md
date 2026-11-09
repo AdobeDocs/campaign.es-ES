@@ -25,7 +25,7 @@ role_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
 workflow-type: tm+mt
 source-wordcount: '1288'
 ht-degree: 52%
@@ -119,11 +119,11 @@ Las campañas se crean mediante plantillas de campaña. Puede configurar plantil
 
 Para cada campaña, están disponibles las siguientes capacidades:
 
-* Documentos y recursos de referencia: puede asociar documentos a la campaña (resumen, informe, imágenes, etc.). Se admiten todos los formatos de documento. [Más información](marketing-campaign-deliveries.md#manage-associated-documents).
-* Definir costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costos de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers-stocks-and-budgets.md#defining-cost-categories).
+* Documentos y recursos de referencia: puede asociar documentos a la campaña (resumen, informe, imágenes, etc.). Se admiten todos los formatos de documento. [Más información](marketing-campaign-deliveries.md).
+* Definir costes: para cada campaña, Adobe Campaign permite definir las entradas de coste y las estructuras de cálculo de costes que se pueden utilizar al crear la campaña de marketing. Por ejemplo: costos de impresión, uso de una agencia externa, alquiler de salas, etc. [Más información](providers-stocks-and-budgets.md#define-cost-categories).
 * Definir objetivos: puede definir objetivos cuantificables para una campaña, por ejemplo: número de suscriptores, volumen comercial, etc. Esta información se utiliza posteriormente en los informes de campaña.
-* Administrar direcciones semilla y grupos de control. [Más información](marketing-campaign-deliveries.md#defining-a-control-group).
-* Manage approvals: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](marketing-campaign-approval.md#checking-and-approving-deliveries).
+* Administrar direcciones semilla y grupos de control. [Más información](marketing-campaign-deliveries.md).
+* Manage approvals: puede seleccionar los tratamientos que desea aprobar y, si es necesario, seleccionar los operadores o grupos de operadores revisores. [Más información](marketing-campaign-approval.md#review-and-approve-deliveries).
 
 >[!NOTE]
 >
@@ -218,7 +218,7 @@ Las aprobaciones de un destinatario o de un contenido de envío se pueden llevar
 
 ![](assets/web-access-approval.png)
 
-También puede utilizar el vínculo incluido en los mensajes de notificación. Para obtener más información, consulte [esta sección](marketing-campaign-approval.md#checking-and-approving-deliveries).
+También puede utilizar el vínculo incluido en los mensajes de notificación. Para obtener más información, consulte [esta sección](marketing-campaign-approval.md#review-and-approve-deliveries).
 
 
 ## Tutorial en vídeo {#video}

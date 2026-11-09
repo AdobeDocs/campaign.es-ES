@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 28%
@@ -38,7 +38,7 @@ Comprender la arquitectura de mensajería transaccional en [esta página](../arc
 
 >[!NOTE]
 >
->Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
+>Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq-comprehensive.md#support) para instalar y configurar la mensajería transaccional de Campaign en su entorno.
 
 ## Definición de permisos {#mc-permissions}
 

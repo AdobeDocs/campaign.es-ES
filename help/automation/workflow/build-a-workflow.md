@@ -10,19 +10,19 @@ TQID: https://experienceleague.adobe.com/EzHUErLy7-OcfF0lxH4UHXm1N1HYGt6kP9Io1LI
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
     internal-label: Campaign
+  - id: d0e9f0b2-1f2b-4134-9844-49cd4e950f27
+    internal-label: Campaign v8
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 15d7b12d07f84356fac7bee2a54a0057c5d00d41
+source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
 workflow-type: tm+mt
-source-wordcount: 845
+source-wordcount: '845'
 ht-degree: 78%
-
 ---
-
 # Creación de un flujo de trabajo {#build-a-workflow}
 
 ## Cree un nuevo flujo de trabajo {#create-a-new-workflow}
@@ -96,8 +96,8 @@ Puede cambiar la visualización y el diseño del gráfico mediante los siguiente
 
   Los iconos relacionados con el progreso y la visualización de registros se describen en estas secciones:
 
-   * [Mostrar progreso](monitor-workflow-execution.md#displaying-progress)
-   * [Mostrar registros](monitor-workflow-execution.md#displaying-logs)
+  * [Mostrar progreso](monitor-workflow-execution.md#displaying-progress)
+  * [Mostrar registros](monitor-workflow-execution.md#displaying-logs)
 
 * **Alineación de objetos**
 
