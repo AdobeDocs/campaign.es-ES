@@ -82,24 +82,24 @@ Las aplicaciones web de Adobe Campaign proporcionan acceso a las siguientes func
 * Interfaz de administración de páginas gráficas, diseño de página de varias columnas. Para obtener más información, consulte [esta página](designing-a-web-application.md).
 * Renderización de la personalización y la posición del campo. Para obtener más información, consulte [esta página](editing-content.md#adding-personalization-content).
 * Visualización condicional de los campos de encuesta según las respuestas. Para obtener más información, consulte [esta página](form-rendering.md#defining-fields-conditional-display).
-* Visualización aleatoria de preguntas. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} (documentación de Campaign v8).
+* Visualización aleatoria de preguntas. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} (documentación de Campaign v8).
 * Visualización condicional de la página. Para obtener más información, consulte [esta página](defining-web-forms-page-sequencing.md#conditional-page-display).
 * La información se comprueba antes de la validación según el tipo de datos esperado (número, dirección de correo electrónico, fecha, etc.) y los campos obligatorios. Para obtener más información, consulte esta [página](form-rendering.md#defining-control-settings).
 * Invitaciones o notificaciones por correo electrónico. Para obtener más información, consulte [esta página](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personalización de mensajes de error y de fin. Para obtener más información, consulte [esta página](defining-web-forms-properties.md#setting-up-an-error-page).
 * Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc. Para obtener más información, consulte esta [página](editing-content.md).
-* Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} (documentación de Campaign v8).
+* Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} (documentación de Campaign v8).
 
 El módulo opcional de creación **Survey** ofrece las siguientes funcionalidades adicionales:
 
-* Extensión dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} (documentación de Campaign v8).
-* Generación de informes específicos. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} (documentación de Campaign v8).
+* Extensión dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} (documentación de Campaign v8).
+* Generación de informes específicos. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} (documentación de Campaign v8).
 
 En comparación con las aplicaciones web, las encuestas tienen una interfaz gráfica simplificada con un número reducido de controles de edición.
 
 >[!NOTE]
 >
->Las encuestas se detallan en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentación de Campaign v8).
+>Las encuestas se detallan en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentación de Campaign v8).
 >
 >Las funcionalidades generales de los formularios web en Adobe Campaign se especifican en [esta sección](about-web-forms.md).
 
