@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 66d00cbaf20d714f56ab02bba593cff4a0d23571
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1071'
 ht-degree: 13%
 ---
 # Introducción a la arquitectura de Campaign{#gs-ac-archi}
@@ -51,7 +51,7 @@ Hay dos tipos de entornos disponibles:
 
 Puede exportar e importar paquetes de un entorno a otro.
 
-Obtenga más información sobre paquetes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html?lang=es){target="_blank"}
+Obtenga más información sobre paquetes en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/administration-basics/working-with-data-packages.html){target="_blank"}
 
 ## Modelos de implementación {#ac-deployment}
 
@@ -82,7 +82,7 @@ La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos 
 
 >[!AVAILABILITY]
 >
->Esta función solo está disponible para clientes con varias configuraciones de instancias intermediarias (MID).
+>Esta función se encuentra en disponibilidad limitada (LA) y está disponible para clientes con varias configuraciones de instancias intermediarias (MID) únicamente.
 
 Según el paquete de Campaign v8, se le proporciona un número específico de instancias intermediarias encargadas de ejecutar los envíos.
 
