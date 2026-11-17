@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 91%
+source-wordcount: '1661'
+ht-degree: 88%
 ---
 # Notas de la versión 2024 {#2024-rn}
 
@@ -115,7 +115,7 @@ Se han añadido los siguientes conectores FDA. Consulte [esta página](compatibi
 * Ya está disponible el nuevo conector ODBC de Amazon Redshift FDA. Ofrece una conectividad mejorada, un mantenimiento más sencillo y una compatibilidad mejorada. Esta nueva versión incorpora las siguientes mejoras:
 
   * El nuevo conector se basa en la interfaz ODBC, que se alinea con los conectores FDA más recientes. Esto garantiza una asistencia a largo plazo.
-  * También introduce un nuevo mecanismo de carga de datos mediante compartimentos s3, lo que mejora significativamente el rendimiento.
+  * También introduce un nuevo mecanismo de carga de datos mediante bloques s3, lo que mejora significativamente el rendimiento.
 
   El conector heredado aún se puede utilizar. Si desea probar el nuevo, póngase en contacto con su representante de Adobe.
 
@@ -188,7 +188,7 @@ _14 de febrero de 2024_
 
 ### Nuevas características {#new-8-6-1}
 
-* A partir de esta versión, tendrá acceso a la nueva **Interfaz de usuario web de Campaign**, disponible a través del entorno central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a Adobe Experience Cloud y acceder a la interfaz de Adobe Campaign Web [en esta página](campaign-ui.md#ac-web-ui).
+* A partir de esta versión, tendrá acceso a la nueva **interfaz de usuario web de Campaign**, disponible a través del entorno [!DNL Adobe CX Enterprise] central. [!DNL CX Enterprise] es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube. Obtenga información sobre cómo conectarse a [!DNL CX Enterprise] y obtener acceso a la interfaz web de Adobe Campaign [en esta página](campaign-ui.md#ac-web-ui).
 
   >[!AVAILABILITY]
   >

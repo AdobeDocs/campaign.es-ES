@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Data collection
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 100%
+source-wordcount: '466'
+ht-degree: 96%
 ---
 # Matriz de compatibilidad de Campaign v8 {#compat-matrix}
 
@@ -67,7 +67,7 @@ Se requieren los siguientes sistemas operativos y exploradores para utilizar la 
 
 A continuación se enumeran los sistemas de gestión de relaciones con el cliente (CRM) compatibles con Adobe Campaign. Obtenga más información sobre los conectores CRM en [esta página](../connect/crm.md).
 
-* **** Versión 49 de la API de conector de Salesforce
+* **&#x200B;**&#x200B;Versión 49 de la API de conector de Salesforce
 * Conector de **Microsoft Dynamics**, API web: Dynamics 365 local y en línea
 
 ## Acceso de datos federado (FDA){#FederatedDataAccessFDA}
@@ -112,4 +112,4 @@ Los siguientes exploradores son compatibles con Campaign for Web Access. Obtenga
 * [Instalación de la consola del cliente de Campaign](connect.md)
 * [Versiones del Panel de control](https://experienceleague.adobe.com/docs/control-panel/using/release-notes.html?lang=es){target="_blank"}
 
-Para recibir información sobre las nuevas versiones de la solución Experience Cloud, suscríbase para recibir la [actualización de producto prioritaria de Adobe](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.
+Para recibir información sobre las nuevas versiones de la solución [!DNL Adobe CX Enterprise], suscríbase a [Adobe Priority Product Update](https://www.adobe.com/es/subscription/priority-product-update.html){target="_blank"}.

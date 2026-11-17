@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2072'
-ht-degree: 93%
+source-wordcount: '2111'
+ht-degree: 91%
 ---
 # Definición del contenido del correo electrónico {#defining-the-email-content}
 
@@ -85,6 +85,10 @@ También puede insertar iconos gestuales en la línea de asunto con la ventana e
 >[!IMPORTANT]
 >
 >La versión 8.9.3 incluye una actualización de la lista de permitidos de URL externa. Asegúrese de que los dominios utilizados en el contenido del mensaje se añadan a la lista de permitidos aprobada de la instancia para que los recursos se sigan cargando sin interrupción. Como administrador de Campaign, utilice el Panel de control para añadir y administrar las URL incluidas en la lista de permitidos. Consulte [Adición de permisos de URL](https://experienceleague.adobe.com/es/docs/control-panel/using/instances-settings/url-permissions){target="_blank"} para conocer los pasos.
+
+>[!IMPORTANT]
+>
+>No use la etiqueta HTML `<base>` en el contenido del correo electrónico. Por motivos de seguridad, esta etiqueta no es compatible y puede evitar que el contenido se cargue en el editor de contenido. En su lugar, utilice direcciones URL absolutas para los vínculos y los recursos externos.
 
 El contenido del mensaje se define en la sección inferior de la ventana de configuración de entrega.
 

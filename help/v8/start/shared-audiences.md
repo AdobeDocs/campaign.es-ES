@@ -24,12 +24,12 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 76%
+source-wordcount: '255'
+ht-degree: 61%
 ---
-# Comparta públicos con soluciones de Adobe Experience Cloud{#shared-audiences}
+# Compartir audiencias con [!DNL Adobe CX Enterprise] soluciones{#shared-audiences}
 
 
 Opción 1: Fuentes y destinos de AEP
@@ -38,9 +38,9 @@ Opción 2: Adobe Personas/AAM
 
 Puede integrar **Adobe Campaign** con **Servicio principal Personas** o Adobe Audience Manager. Esto le permite:
 
-* Importar públicos y segmentos compartidos desde distintas soluciones de Adobe Experience Cloud a Adobe Campaign. Los públicos se pueden importar mediante listas en Adobe Campaign.
+* Importar audiencias y segmentos compartidos desde distintas soluciones de [!DNL CX Enterprise] en Adobe Campaign. Los públicos se pueden importar mediante listas en Adobe Campaign.
 
-* Exportación de listas en la forma de públicos compartidos de Adobe Experience Cloud. Estos públicos pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. Los públicos se pueden exportar después de la segmentación en un flujo de trabajo con la actividad específica **[!UICONTROL Update shared audience]**.
+* Exportar listas en forma de [!DNL CX Enterprise] audiencias compartidas. Estas audiencias pueden utilizarse con las diferentes soluciones de [!DNL CX Enterprise] que usa. Los públicos se pueden exportar después de la segmentación en un flujo de trabajo con la actividad específica **[!UICONTROL Update shared audience]**.
 
 Esta integración es compatible con dos tipos de ID de Adobe Experience Cloud:
 

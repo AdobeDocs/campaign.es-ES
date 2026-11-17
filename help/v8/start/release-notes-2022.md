@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1946'
-ht-degree: 88%
+source-wordcount: '1947'
+ht-degree: 87%
 ---
 # Notas de la versión de 2022{#2022-rn}
 
@@ -207,7 +207,7 @@ _jueves, 18 de mayo de 2022_
 </thead> 
 <tbody> 
 <tr> 
-<td> <p>La versión 8 de Campaign ahora se integra con el servicio principal de privacidad de Adobe. A través de la integración del Servicio principal de privacidad: las solicitudes de privacidad enviadas desde el Servicio principal de privacidad a todas las soluciones de Experience Cloud las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado.</p>
+<td> <p>La versión 8 de Campaign ahora se integra con el servicio principal de privacidad de Adobe. Las solicitudes de privacidad enviadas desde Privacy Core Service a todas las soluciones de Adobe CX Enterprise las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado.</p>
 <p>Para obtener más información, consulte la <a href="privacy.md">documentación detallada</a>.</p>
 </td> 
 </tr> 

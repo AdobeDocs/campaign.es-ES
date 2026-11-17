@@ -51,9 +51,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1055'
 ht-degree: 87%
 ---
 # Introducción a Adobe Campaign{#gs-ac-v8}
@@ -129,7 +129,7 @@ La función de creación de informes de campaña facilita la elaboración de inf
 
 Obtenga más información sobre las funciones de informes y seguimiento en [esta sección](../reporting/gs-reporting.md).
 
-## Integraciones con Adobe Experience Cloud {#adobe-experience-cloud-integrations}
+## Integraciones de [!DNL Adobe CX Enterprise] {#adobe-experience-cloud-integrations}
 
 Puede combinar las funcionalidades de envío y las funcionalidades avanzadas de administración de campañas de Adobe Campaign con un conjunto de soluciones creadas para ayudarle a personalizar la experiencia de los usuarios: Adobe Experience Manager, Adobe Analytics, Adobe Target o Adobe Experience Cloud, por ejemplo.
 

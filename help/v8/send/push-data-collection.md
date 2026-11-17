@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 18%
+source-wordcount: '1421'
+ht-degree: 17%
 ---
 # Configuración de notificaciones push revisada {#push-notifications-config}
 
@@ -267,7 +267,7 @@ Su propiedad móvil ahora se sincronizará automáticamente con el flujo de trab
 
 ## Añada Campaign Classic a su aplicación móvil {#campaign-mobile-app}
 
-El SDK móvil de Adobe Experience Platform impulsa las soluciones y los servicios Experience Cloud de Adobe en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas.
+Adobe Experience Platform Mobile SDK ayuda a impulsar las soluciones y los servicios de [!DNL Adobe CX Enterprise] en sus aplicaciones móviles. La configuración de los SDK se administra mediante la interfaz de usuario de recopilación de datos para lograr una configuración flexible e integraciones ampliables basadas en reglas.
 
 [Obtenga más información en la documentación de Adobe Developer](https://developer.adobe.com/client-sdks/documentation/adobe-campaign-classic/#add-campaign-classic-to-your-app){target="_blank"}.
 
