@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 70%
+source-wordcount: '1226'
+ht-degree: 67%
 ---
 # Descubrimiento de la interfaz de usuario {#ui-client-console}
 
@@ -48,7 +48,7 @@ Puede acceder a Adobe Campaign a través de su consola de cliente o de su interf
 
 * **API**: para abordar más casos de uso, se puede llamar al sistema desde aplicaciones externas utilizando las API de servicios web expuestas mediante el protocolo SOAP. Obtenga más información sobre las API de Campaign [en esta página](../dev/api.md).
 
-* **Interfaz de usuario web**: como usuario de la versión 8 de Campaign, a partir de la versión 8.6.1, ahora tendrá acceso a un entorno web, disponible a través de la interfaz de usuario central de Adobe Experience Cloud. A continuación, podrá conectarse a Adobe Campaign desde un explorador web. Esta nueva interfaz le permite crear, administrar y ejecutar acciones clave de marketing. Sin embargo, no todas las funcionalidades de Campaign están disponibles. [Más información](#ac-web-ui).
+* **Interfaz de usuario web**: Como usuario de Campaign v8, a partir de la versión v8.6.1, ahora tiene acceso a un entorno web, disponible a través de la interfaz de usuario central de [!DNL Adobe CX Enterprise]. A continuación, podrá conectarse a Adobe Campaign desde un explorador web. Esta nueva interfaz le permite crear, administrar y ejecutar acciones clave de marketing. Sin embargo, no todas las funcionalidades de Campaign están disponibles. [Más información](#ac-web-ui).
 
   >[!AVAILABILITY]
   >
@@ -75,7 +75,7 @@ Una vez que esté conectado a Campaign, acceda a la página principal de Adobe C
 
 >[!NOTE]
 >
->Si no se muestra la tarjeta de la interfaz de usuario web, asegúrese de que los siguientes campos no queden vacíos en la cuenta externa de A[Adobe Experience Cloud](../config/external-accounts.md): **Servidor**, **Inquilino**, **Servidor de devolución de llamada** y **Marca de asociación**.
+>Si no se muestra la tarjeta de la interfaz de usuario web, asegúrese de que los siguientes campos no queden vacíos en la [cuenta externa de Adobe Experience Cloud](../config/external-accounts.md): **Servidor**, **Inquilino**, **Servidor de devolución de llamada** y **Marca de asociación**.
 
 También puede acceder al [Panel de control de Campaign de Campaign](../config/self-service.md) desde la página de inicio.
 
@@ -144,7 +144,7 @@ Este espacio de trabajo permite acceder al árbol del Explorador para examinar t
 
 ## Interfaz de usuario web de Campaign {#ac-web-ui}
 
-Como usuario de Campaign v8, a partir de la versión v8.6.1, tiene acceso a un entorno web disponible a través de la interfaz de usuario central de Adobe Experience Cloud. Experience Cloud es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
+Como usuario de Campaign v8, a partir de la versión v8.6.1, tiene acceso a un entorno web disponible a través de la interfaz de usuario central de [!DNL CX Enterprise]. [!DNL CX Enterprise] es la familia integrada de aplicaciones, productos y servicios de marketing digital de Adobe. Desde su intuitiva interfaz, puede acceder rápidamente a sus aplicaciones, funciones de productos y servicios en la nube.
 
 ![Página de inicio de la interfaz de usuario web de Adobe Campaign](assets/ac-web-home.png)
 

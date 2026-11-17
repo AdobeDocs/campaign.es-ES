@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '2240'
-ht-degree: 70%
+source-wordcount: '2237'
+ht-degree: 68%
 ---
 # Flujos de trabajo técnicos{#about-technical-workflows}
 
@@ -90,11 +90,11 @@ Los flujos de trabajo detallados en esta página se instalan con los paquetes in
 | **Procesos de los foros de debate** (newsgroupMgt) | Recursos de Marketing (MRM) | Este flujo de trabajo gestiona el envío de notificaciones de los foros de debate. Se activa cuando se recibe una señal de aprobación. |
 | **Procesos de marketing distribuido** (centralLocalMgt) | Marketing central/local (Marketing distribuido) | Este flujo de trabajo comienza con el proceso vinculado al uso del módulo de marketing distribuido. Inicia la creación de las campañas locales y gestiona las notificaciones vinculadas a los pedidos y a la disponibilidad del paquete de campaña. |
 | **Depuración de eventos** (webAnalyticsPurgeWebEvents) | Conectores de análisis web | Este flujo de trabajo permite eliminar todos los eventos del campo de base de datos según el periodo configurado en el campo Lifespan. |
-| **Exportar públicos a Adobe Experience Cloud** (exportSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo exporta públicos como públicos o segmentos compartidos. Estos públicos pueden utilizarse con las diferentes soluciones de Adobe Experience Cloud que utiliza. |
+| **Exportar públicos a Adobe Experience Cloud** (exportSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo exporta públicos como públicos o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe CX Enterprise que utiliza. |
 | **Previsión**(previsión) | Instalado de forma predeterminada | Este flujo de trabajo analiza las entregadas guardadas en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada. |
 | **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Obtenga más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md). |
 | **Identificación de contactos convertidos** (webAnalyticsFindConverted) | Conectores de análisis web | Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en el reporte de eficiencia de remarketing (consulte esta página). |
-| **Importar públicos desde Adobe Experience Cloud** (importSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo permite importar públicos y segmentos de distintas soluciones de Adobe Experience Cloud en Adobe Campaign. |
+| **Importar públicos desde Adobe Experience Cloud** (importSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo le permite importar audiencias y segmentos de distintas soluciones de CX Enterprise en Adobe Campaign. |
 | **Trabajos en envíos en campañas** (deliveryMgt) | Instalado de forma predeterminada | Este flujo de trabajo activa los envíos aprobados e inicia el posprocesado del proveedor de servicios para un envío externo. También envía notificaciones de aprobación y recordatorios. |
 | **Trabajos en proveedores de servicios** (supplierMgt) | Instalado de forma predeterminada | Este flujo de trabajo comienza a procesar el proveedor (correo electrónico al enrutador y posprocesado) una vez que se aprueban los envíos. |
 | **Actualización de token de acceso de LINE V2** (updateLineV2AccessToken) | Canal LINE | Este flujo de trabajo actualiza el token de acceso a LINE V2. |
@@ -120,7 +120,7 @@ Los flujos de trabajo detallados en esta página se instalan con los paquetes in
 | **Replicar tablas de referencia** (ffdaReplicateReferenceTables) | Instalado de forma predeterminada solo en [implementaciones de Campaign Enterprise (FDAC)](../../v8/architecture/enterprise-deployment.md) | Realiza la replicación automática de tablas integradas que deben estar presentes en la base de datos local de Campaign (PostgreSQL) y en la base de datos en la nube ([!DNL Snowflake]). Está programado para ejecutarse cada hora, a diario. Si existe el campo **lastModified**, la replicación se produce de forma incremental; de lo contrario, se replica toda la tabla. [Más información sobre la replicación de datos](../../v8/architecture/replication.md) |
 | **Replicar datos de ensayo** (ffdaReplicateStagingData) | Instalado de forma predeterminada solo en [implementaciones de Campaign Enterprise (FDAC)](../../v8/architecture/enterprise-deployment.md) | Replica los datos de ensayo para llamadas unitarias. Está programado para ejecutarse cada hora, a diario. [Más información sobre la replicación de datos](../../v8/architecture/replication.md) |
 | **Sistema de informes de acumulados** (reportingAggregates) | Entrega | Este flujo de trabajo actualiza los agregados que se utilizan en los informes. Se activa cada día a la 2 de la mañana de forma predeterminada. |
-| **Envío de indicadores y atributos de campañas** (webAnalyticsSendMetrics) | Conectores de análisis web | Este flujo de trabajo permite enviar indicadores de campaña de correo electrónico desde Adobe Campaign a Adobe Experience Cloud Suite a través del conector de Adobe® Analytics. Los indicadores correspondientes son los siguientes: Enviado (iSent), Número total de aperturas (iTotalRecipientOpen), Número total de destinatarios que hicieron clic (iTotalRecipientClick), Errores (iError), Exclusión (opt-out) (iOptOut). |
+| **Envío de indicadores y atributos de campañas** (webAnalyticsSendMetrics) | Conectores de análisis web | Este flujo de trabajo permite enviar indicadores de campaña de correo electrónico desde Adobe Campaign a CX Enterprise a través del conector de Adobe® Analytics. Los indicadores correspondientes son los siguientes: Enviado (iSent), Número total de aperturas (iTotalRecipientOpen), Número total de destinatarios que hicieron clic (iTotalRecipientClick), Errores (iError), Exclusión (opt-out) (iOptOut). |
 | **Stock: pedidos y alertas** (stockMgt) | Instalado de forma predeterminada | Este flujo de trabajo inicia el cálculo de stock en las líneas de pedido y administra los umbrales de alertas de advertencia. |
 | **Sincronizar aplicaciones móviles de la recopilación de datos de Adobe Experience Platform** (syncWithLaunch) | Se instala de forma predeterminada a partir de la versión 8.5 | Este flujo de trabajo sincroniza automáticamente las propiedades móviles de la recopilación de datos con Adobe Campaign. |
 | **Sincronización de páginas de Twitter** (syncTwitter) | Social Marketing | Este flujo de trabajo importa los seguidores de X a Adobe Campaign todos los días a las 07:00. |

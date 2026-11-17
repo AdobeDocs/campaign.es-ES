@@ -30,20 +30,20 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 12%
+source-wordcount: '452'
+ht-degree: 13%
 ---
 # Conexión de Campaign con las soluciones{#gs-ac-connectors}
 
-Puede conectar la instancia de Campaign con las soluciones de Adobe Experience Cloud para combinar funciones.
+Puede conectar su instancia de Campaign con las soluciones [!DNL Adobe CX Enterprise] para combinar funciones.
 
 Adobe Campaign incluye varios conectores que le permiten comunicarse con aplicaciones externas, conectarse a motores de base de datos, compartir y sincronizar datos.
 
 ## Combinación de las soluciones de Adobe {#gs-ac-integration}
 
-Combine soluciones de Adobe Experience Cloud para modernizar su implementación.
+Combine [!DNL CX Enterprise] soluciones para modernizar su implementación.
 
 La versión 8 de Campaign puede conectarse con las siguientes soluciones de Adobe. Examine los vínculos para obtener más información sobre casos de uso, configuración y directrices:
 
@@ -55,15 +55,15 @@ La versión 8 de Campaign puede conectarse con las siguientes soluciones de Adob
 * Adobe Target. [Más información](../connect/ac-at.md)
 * Adobe Workfront. [Más información](../connect/ac-workfront.md)
 
-También puede combinar sus **audiencias** y **recursos** en las soluciones de Experience Cloud con las capacidades de uso compartido de recursos y audiencias.
+También puede combinar sus **audiencias** y **recursos** en las soluciones de [!DNL CX Enterprise] con las capacidades de uso compartido de recursos y Audiencias.
 
-Obtenga más información sobre **uso compartido de audiencias** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=es#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información acerca del uso compartido de **audiencias** entre Campaign y las soluciones [!DNL CX Enterprise] en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Obtenga más información sobre **Uso compartido de recursos** entre Campaign y las soluciones de Experience Cloud en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=es#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información sobre **Uso compartido de recursos** entre Campaign y [!DNL CX Enterprise] soluciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >
->Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq-comprehensive.md#support) para conectar Campaign con servicios y soluciones de Adobe Experience Cloud.
+>Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq-comprehensive.md#support) para conectar Campaign con [!DNL CX Enterprise] servicios y soluciones.
 
 
 ## Integración con el conector CRM{#gs-crm-connectors}
