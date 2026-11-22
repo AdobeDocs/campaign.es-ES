@@ -26,10 +26,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 17%
+source-wordcount: '820'
+ht-degree: 16%
 ---
 # Paquetes integrados {#built-in-packages}
 
@@ -65,7 +65,7 @@ En la tabla siguiente se enumeran los paquetes integrados para obtener informaci
 | Control y ejecución de mensajes transaccionales (Centro de mensajes) | Gestiona los mensajes de déclencheur generados a partir de eventos en sistemas de información, con mayor disponibilidad y mejor gestión de carga. [Más información](../send/transactional.md) |
 | Canal LINE | Realiza envíos a través del canal LINE. [Más información](../send/line/line.md) |
 | Canal de correo directo | Envía envíos a través del canal de correo postal. [Más información](../send/direct-mail.md) |
-| Canal móvil (SMS) | Envía envíos a través del canal móvil (SMS). [Más información](../send/sms/sms.md) |
+| Canal móvil (SMS) | Envía envíos a través del canal móvil (SMS), incluido el conector de SMS v2 (disponible de forma general desde la versión 8.9.1). [Más información](../send/sms/sms.md) |
 | Canal de aplicaciones móviles | Envía notificaciones personalizadas a dispositivos iOS y Android a través de aplicaciones. [Más información](../send/push.md) |
 | Administrador de contenido | Crea boletines informativos o sitios web recurrentes y, a continuación, valida y publica los mensajes. [Más información](../../automation/workflow/content-management.md) |
 | Encuestas en línea (Gestor de encuestas) | Crea y administra formularios en línea para agregar o modificar información de perfil, suscribirse, cancelar la suscripción o entrar en una competencia. [Más información](../dev/surveys/about-surveys.md) |
