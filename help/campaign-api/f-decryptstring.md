@@ -8,4 +8,4 @@ ht-degree: 3%
 
 > Advertencia:
 >
-> Esta documentación se ha actualizado. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#decryptstring-headding-anchor-decryptstring-javascript).
+> Esta documentación se ha actualizado. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/technotes/gcm-functions#decryptstring-headding-anchor-decryptstring-javascript).

@@ -8,7 +8,7 @@ ht-degree: 5%
 
 > Advertencia:
 >
-> Esta documentación se ha actualizado. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#decryptpassword-headding-anchor-decryptpassword-javascript).
+> Esta documentación se ha actualizado. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/technotes/gcm-functions#decryptpassword-headding-anchor-decryptpassword-javascript).
 
 Descifra una contraseña almacenada en una cuenta externa.
 

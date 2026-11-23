@@ -8,7 +8,7 @@ ht-degree: 6%
 
 > Advertencia:
 >
-> Esta función está totalmente obsoleta. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions).
+> Esta función está totalmente obsoleta. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/technotes/gcm-functions#deprecated-functions-headding-anchor-depracated-functions).
 
 Codifica una cadena de caracteres con la clave de la instancia o con cualquier otra clave.
 

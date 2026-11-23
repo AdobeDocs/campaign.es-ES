@@ -27,7 +27,7 @@ Ninguna.
 La función no se aplica a una consulta, pero es una función de la bandeja HttpClientRequest. Ejemplo:
 
 ```javascript
-var req = new HttpClientRequest("http://www.adobe.com/")
+var req = new HttpClientRequest("http://www.adobe.com/es/")
 req.complete = function(req, context, status) { logInfo(status) }
 req.execute(false, true)
 
