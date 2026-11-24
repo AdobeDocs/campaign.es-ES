@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1444'
-ht-degree: 86%
+ht-degree: 83%
 ---
 # Personalizar sus cubos{#cube-custom}
 
@@ -40,7 +40,7 @@ Utilice el agrupamiento de datos para simplificar la visualización de los datos
 
 En general, hay tres tipos de agrupamiento disponibles:
 
-1. Uso de intervalos de valores definidos manualmente. Por ejemplo: edad, carro de compras promedio, número de envíos abiertos, etc.). Para obtener más información, consulte [Definición de cada grupo](#defining-each-bin).
+1. Uso de intervalos de valores definidos manualmente. Por ejemplo: edad, carro de compras promedio, número de envíos abiertos, etc. Para obtener más información, consulte [Definición de cada grupo](#defining-each-bin).
 1. De forma dinámica, dependiendo de los valores de una [enumeración](../config/enumerations.md): solo se muestran los valores contenidos en la enumeración; los demás valores se agrupan en &#39;Otros&#39;. Para obtener más información, consulte [Administración dinámica de grupos](#dynamically-managing-bins).
 1. Uso de intervalos de valores; todos los demás se agrupan. Por ejemplo, de 18 a 25 años de edad, de 26 a 59 años de edad y el resto. Para obtener más información, consulte [Creación de intervalos de calores](#creating-value-ranges).
 
@@ -139,7 +139,7 @@ Obtenga más información acerca de las enumeraciones en [esta página](../../v8
 
 Los volúmenes de datos más grandes se pueden calcular en acumulados.
 
-Los acumulados son útiles para manipular grandes volúmenes de datos. Se actualizan automáticamente según la configuración definida en la casilla de flujo de trabajo dedicado para integrar los datos recopilados recientemente en los indicadores.
+Los acumulados son útiles para manipular grandes volúmenes de datos. Se actualizan automáticamente según la configuración definida en la casilla de flujo de trabajo dedicado para integrar los datos recopilados más recientemente en los indicadores
 
 Los acumulados se definen en la pestaña correspondiente de cada cubo.
 

@@ -26,7 +26,7 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 17%
@@ -72,7 +72,7 @@ Para seleccionar la audiencia de su envío, siga los pasos a continuación:
 
    La opción **[!UICONTROL Exclude recipients from this segment]** permite dirigirse a los destinatarios que no cumplan con los criterios de objetivo definidos. Para utilizar esta opción, seleccione el cuadro apropiado y, a continuación, aplique los objetivos, según lo definido anteriormente, para excluir los perfiles resultantes.
 
-1. Escriba el nombre de la audiencia en el campo de etiqueta y haga clic en el botón **[!UICONTROL Finish]** para validar la audiencia.
+1. Introduzca el nombre de la audiencia en el campo de etiqueta y haga clic en el botón **[!UICONTROL Finish]** para validar la audiencia.
 
    ![](assets/audience_finish.png){zoomable="yes"}
 

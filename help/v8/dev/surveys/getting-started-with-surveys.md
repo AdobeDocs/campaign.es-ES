@@ -21,10 +21,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '943'
-ht-degree: 98%
+ht-degree: 97%
 ---
 # Pasos clave para crear una encuesta{#getting-started-with-surveys}
 

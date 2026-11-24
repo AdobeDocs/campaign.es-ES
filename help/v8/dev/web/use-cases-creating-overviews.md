@@ -31,10 +31,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 94%
+ht-degree: 92%
 ---
 # Casos de uso: Creación de páginas de información general{#use-cases-creating-overviews}
 
@@ -65,7 +65,7 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
    ![](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. Abra la actividad **[!UICONTROL Page]** de la aplicación web y abra una lista (**[!UICONTROL Static element > List]**).
-1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]**&#x200B;**[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
+1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]****[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
 1. En la subpestaña **[!UICONTROL Filter]**, cree el siguiente filtro, tal y como se muestra a continuación, para visualizar las aplicaciones web y excluir las plantillas de la vista.
 
    ![](assets/s_ncs_configuration_webapp_filter.png)
@@ -140,7 +140,7 @@ Al configurar una lista en la descripción general, puede elegir visualizar deta
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. En la pestaña **[!UICONTROL Data]**, añada las columnas **[!UICONTROL Internal name]**&#x200B;**[!UICONTROL Primary key]**, y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
+1. En la ficha **[!UICONTROL Data]**, agregue las columnas **[!UICONTROL Primary key]**, **[!UICONTROL Internal name]** y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 

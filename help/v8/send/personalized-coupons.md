@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 98%
+ht-degree: 97%
 ---
 # Cupones personalizados{#personalized-coupons}
 
@@ -155,7 +155,7 @@ En el siguiente ejemplo, la entrega se crea desde la página principal. Para obt
 
 >[!NOTE]
 >
->Para obtener instrucciones sobre la administración de cupones insuficientes para una entrega, consulte [Administración de cupones insuficientes](#managing-insufficient-coupons).
+>Para obtener instrucciones sobre cómo administrar cupones insuficientes para una entrega, consulte [Administrar cupones insuficientes](#managing-insufficient-coupons).
 
 Para confirmar que la entrega se realizó correctamente:
 

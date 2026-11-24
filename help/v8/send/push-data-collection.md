@@ -23,10 +23,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 17%
+source-wordcount: '1425'
+ht-degree: 15%
 ---
 # Configuración de notificaciones push revisada {#push-notifications-config}
 
@@ -100,7 +100,7 @@ Se requiere el registro de credenciales push de aplicaciones móviles para autor
 
 1. Proporcione **[!UICONTROL App ID (Android package name)]**. Normalmente, el nombre del paquete es el ID de la aplicación que hay en el archivo `build.gradle`.
 
-1. Cambie **[!UICONTROL Push Credentials]** para agregar sus credenciales.
+1. Active **[!UICONTROL Push Credentials]** para agregar sus credenciales.
 
 1. Arrastre y suelte las credenciales push de FCM. Para obtener más información sobre cómo obtener las credenciales push, consulte [Documentación de Google](https://firebase.google.com/docs/admin/setup#initialize-sdk){target="_blank"}.
 

@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1733'
-ht-degree: 39%
+ht-degree: 38%
 ---
 # Administrar permisos de usuario{#manage-permissions}
 
@@ -239,7 +239,7 @@ La pertenencia a grupos de operadores puede conceder o restringir derechos de ac
 
 Los derechos asignados predeterminados en Adobe Campaign son:
 
-* **[!UICONTROL ADMINISTRATION]**: Los operadores con el derecho de **[!UICONTROL ADMINISTRATION]** tienen acceso total a la instancia. Los usuarios administradores pueden ejecutar, crear, editar o eliminar cualquier objeto, como flujo de trabajo, envío, secuencias de comandos, etc. **Nota:** Los perfiles de producto de Adobe Admin Console que contienen la palabra &quot;admin&quot; conceden acceso al Panel de control de Campaign de Campaign.
+* **[!UICONTROL ADMINISTRATION]**: los operadores con derecho de **[!UICONTROL ADMINISTRATION]** tienen acceso total en la instancia. Los usuarios administradores pueden ejecutar, crear, editar o eliminar cualquier objeto, como flujo de trabajo, envío, secuencias de comandos, etc. **Nota:** Los perfiles de producto de Adobe Admin Console que contienen la palabra &quot;admin&quot; conceden acceso al Panel de control de Campaign de Campaign.
 
 * **[!UICONTROL APPROVAL ADMINISTRATION]**: Puede definir varios pasos de aprobación dentro de flujos de trabajo y envíos para asegurarse de que un operador o grupo asignado ha aprobado el estado actual. Los usuarios con el derecho de **[!UICONTROL APPROVAL ADMINISTRATION]** pueden definir los pasos de aprobación y también asignar un operador o grupo de operadores que deben aprobar dichos pasos. **Nota:** Los perfiles de producto que contienen la palabra &quot;admin&quot; (como &quot;administrador de aprobación&quot;) conceden acceso al Panel de control de Campaign de Campaign.
 

@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '4458'
 ht-degree: 17%
@@ -229,7 +229,7 @@ Se recomienda mantenerse en contacto con el proveedor, que a menudo comunican lo
 * Compruebe que la red está configurada correctamente para que la conexión TCP se pueda establecer con el proveedor.
 * Pida al proveedor que compruebe que ha permitido correctamente las direcciones IP de la instancia de Adobe Campaign (la mayoría de los proveedores lo requieren).
 * Compruebe la configuración de la cuenta externa. Pregunte al proveedor en caso de duda sobre el valor de algunos campos.
-* Si la conexión es correcta pero inestable, compruebe [Problemas con conexiones inestables](#unstable-connections). más abajo.
+* Si la conexión es correcta pero inestable, consulte la sección [Problemas con conexiones inestables](#unstable-connections) a continuación.
 * Si los problemas de conexión son difíciles de diagnosticar, una captura de red le proporcionará mucha información. Asegúrese de que la captura de red se ejecuta simultáneamente mientras aparece el problema para que se pueda analizar de forma eficaz. También debe anotar la hora exacta en la que aparece el problema para que sea más fácil encontrarlo en las capturas de red.
 
 #### Problemas con conexiones inestables {#unstable-connections}

@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 93%
+ht-degree: 89%
 ---
 # Caso de uso: visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -93,7 +93,7 @@ Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
 ## Paso 2: Creación del cubo, sus medidas y sus indicadores {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-Después, puede crear el cubo y configurar sus medidas: se utilizan para crear los indicadores que se van a mostrar en el informe. Para obtener más información sobre la creación y configuración de los cubos, consulte [Acerca de cubos](https://experienceleague.adobe.com/es/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}.
+Después, puede crear el cubo y configurar sus medidas: se utilizan para crear los indicadores que se van a mostrar en el informe. Para obtener más información sobre la creación y configuración de los cubos, consulte [Acerca de cubos](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}.
 
 En este ejemplo, el cubo se basa en los datos de la lista suministrados por el flujo de trabajo creado anteriormente.
 

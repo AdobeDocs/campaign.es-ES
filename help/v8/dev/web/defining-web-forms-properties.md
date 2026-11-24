@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1382'
 ht-degree: 96%
@@ -159,7 +159,7 @@ Cuando se accede a la página, aparece el siguiente formulario de autenticación
 
 ![](assets/s_ncs_admin_survey_access_login.png)
 
-El inicio de sesión y la contraseña son los que utilizan los operadores de Adobe Campaign. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
+El inicio de sesión y la contraseña son los que utilizan los operadores de Adobe Campaign. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
 
 La opción **[!UICONTROL Use a specific account]** permite limitar el permiso de lectura o escritura del operador que accede al formulario. Utilice el cuadro desplegable para seleccionar un operador o un grupo de operadores que estén a cargo de la concesión de estos permisos.
 

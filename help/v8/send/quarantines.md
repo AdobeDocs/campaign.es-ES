@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1365'
 ht-degree: 32%
 ---
 # Cuarentena {#quarantine-management}
@@ -58,11 +58,11 @@ Cuando su dirección o número de teléfono están en cuarentena, los destinatar
 >
 >Cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con una palabra clave como &quot;DETENER&quot;, su dirección o número de teléfono se pone en cuarentena como **[!UICONTROL Denylisted]**. Su perfil se actualiza en consecuencia.
 
-Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de** como después de una baja (exclusión), para un canal determinado: esto implica que ya no están segmentados por ningún envío. Como consecuencia, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. [Más información](../audiences/view-profiles.md)
+Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de**, por ejemplo, después de una baja (exclusión), para un canal determinado: esto implica que ya no están segmentados por ningún envío. Como consecuencia, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. [Más información](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
->Los destinatarios que cancelaron la suscripción a través del método List-Unsubscribe [&quot;mailto&quot;](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} no se envían a la cuarentena. Se da de baja su suscripción al [servicio](../start/subscriptions.md) asociado con la entrega, o se envía a la lista de bloqueados de la (visible en la sección **[!UICONTROL No longer contact]** del perfil) si no se ha definido ningún servicio para la entrega.
+>Los destinatarios que cancelaron la suscripción a través del método List-Unsubscribe [&quot;mailto&quot;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} no se envían a la cuarentena. Se da de baja su suscripción al [servicio](../start/subscriptions.md) asociado con la entrega, o se envía a la lista de bloqueados de la (visible en la sección **[!UICONTROL No longer contact]** del perfil) si no se ha definido ningún servicio para la entrega.
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -121,7 +121,7 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 
 Además, el informe integrado **[!UICONTROL Non-deliverables and bounces]**, disponible en la sección **Informes** de esta página de inicio, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de una entrega específica o personalizar este informe según sea necesario.
 
-Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Dirección de correo en cuarentena {#quarantined-recipient}
 

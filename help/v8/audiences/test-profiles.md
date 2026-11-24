@@ -42,7 +42,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 53%
@@ -55,7 +55,7 @@ Los perfiles de prueba se crean como direcciones semilla. Se utilizan para dirig
 
 Las direcciones semilla tienen las siguientes ventajas:
 
-* Sustitución aleatoria de campos con datos tomados de perfiles de destinatarios: esto permite introducir únicamente la dirección de correo electrónico, por ejemplo, en la sección de la dirección semilla; además, permite que Campaign rellene automáticamente los demás campos del perfil. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}.
+* Sustitución aleatoria de campos con datos tomados de perfiles de destinatarios: esto permite introducir únicamente la dirección de correo electrónico, por ejemplo, en la sección de la dirección semilla; además, permite que Campaign rellene automáticamente los demás campos del perfil. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}.
 * Al utilizar un flujo de trabajo con funciones de gestión de datos, los datos adicionales procesados en los envíos se pueden introducir en el ámbito de la dirección semilla para forzar los valores, esto evita la sustitución de valores aleatorios.
 * Las direcciones sembradas se excluyen automáticamente de los informes en las siguientes estadísticas de envío: **[!UICONTROL Clicks]**, **[!UICONTROL Opens]**, **[!UICONTROL Unsubscriptions]**.
 
@@ -65,7 +65,7 @@ Las direcciones semilla se añaden al destino de las entregas mediante su import
 >
 >Las direcciones semilla no se crean en la tabla de destinatarios sino en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones semilla con los mismos datos. De lo contrario, los campos ampliados no se tienen en cuenta para las direcciones semilla.
 >
->Se presenta un ejemplo de cómo extender la tabla de direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}.
+>Se presenta un ejemplo de cómo extender la tabla de direcciones semilla en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}.
 
 ## Creación de direcciones semilla
 
@@ -120,7 +120,7 @@ Hay tres modos de inserción posibles:
 
 1. Cree una condición para seleccionar dinámicamente las direcciones de control que desea insertar. Para ello, haga clic en el enlace **[!UICONTROL Edit the dynamic condition...]** e introduzca los parámetros de selección de las direcciones semilla. Por ejemplo, puede incluir todas las direcciones semilla que contenga una carpeta específica o las pertenecientes a un departamento específico de su organización.
 
-   Se presenta un ejemplo de esto en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}.
+   Se presenta un ejemplo de esto en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/use-case-selecting-seed-addresses-on-criteria){target="_blank"}.
 
 Para las entregas, también se puede personalizar la forma en que se insertan las direcciones en los archivos de extracción. De forma predeterminada, se insertan en el orden de clasificación del archivo de salida, pero se puede elegir insertarlos al final o al principio del archivo o aleatoriamente entre los receptores del destino principal.
 
@@ -132,7 +132,7 @@ Haga clic en el vínculo **[!UICONTROL Advanced campaign settings...]** y luego 
 
 ## Direcciones semilla y tabla personalizada {#using-an-external-recipient-table}
 
-Si la lista de distribución es una tabla externa, debe realizar ajustes adicionales. Se debe ampliar el esquema **[!UICONTROL nms:seedmember]**. Se añade una pestaña a las direcciones semilla para definir los campos adecuados
+Si la lista de distribución es una tabla externa, debe realizar ajustes adicionales. Se debe ampliar el esquema **[!UICONTROL nms:seedmember]**. Se añade una pestaña a las direcciones semilla para definir los campos adecuados.
 
 En este caso, para añadir direcciones semilla al envío, introduzca los campos adecuados directamente en la pestaña correspondiente o importe las plantillas de dirección.
 

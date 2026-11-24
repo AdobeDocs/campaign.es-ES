@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '2043'
+source-wordcount: '2046'
 ht-degree: 10%
 ---
 # Diseño de un envío push enriquecido para Android {#rich-push}
 
 >[!IMPORTANT]
 >
->Antes de diseñar una notificación push enriquecida, primero debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) para ver el procedimiento detallado.
+>Antes de diseñar una notificación push enriquecida, primero debe configurar el conector V2. Consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/sending-push-notifications/configure-the-mobile-app/configuring-the-mobile-application-android#configuring-external-account-android) para ver el procedimiento detallado.
 
 Con Firebase Cloud Messaging, puede elegir entre dos tipos de mensajes:
 

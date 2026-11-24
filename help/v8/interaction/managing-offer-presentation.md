@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1023'
-ht-degree: 100%
+ht-degree: 97%
 ---
 # Administración de la presentación de ofertas{#managing-offer-presentation}
 
@@ -65,7 +65,7 @@ La interacción permite controlar el flujo de propuestas de ofertas utilizando l
 
 ### Criterios de aplicación {#application-criteria-}
 
-Los criterios de aplicación disponibles en la pestaña **[!UICONTROL General]** le permiten especificar las ofertas a las que se aplica la regla de presentación. Para hacer esto, necesita crear una consulta y elegir las ofertas que le interesen, como se describe a continuación.
+Los criterios de aplicación disponibles en la pestaña **[!UICONTROL General]** le permiten especificar las ofertas a las que se aplicará la regla de presentación. Para hacer esto, necesita crear una consulta y elegir las ofertas que le interesen, como se describe a continuación.
 
 1. En las reglas de tipología, haga clic en el vínculo **[!UICONTROL Edit the rule application conditions...]** para crear la consulta.
 
