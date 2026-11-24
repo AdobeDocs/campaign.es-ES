@@ -103,7 +103,7 @@ Las respuestas a una encuesta se pueden exportar a un archivo externo para su pr
 
    Para exportar los datos del informe, haga clic en el botón **[!UICONTROL Export]** y seleccione el formato de exportación.
 
-   Para obtener más información sobre la exportación de los datos de un informe, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}.
+   Para obtener más información sobre la exportación de los datos de un informe, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign){target="_blank"}.
 
 1. Exportación de respuestas
 

@@ -65,7 +65,7 @@ Hay dos modos de extensión de tabla disponibles:
 
 * A través de la interfaz, mediante el asistente **Nuevo campo**
 
-  Aprenda a añadir rápidamente un nuevo campo en Campaign en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html#configuring-campaign-classic){target="_blank"}
+  Aprenda a añadir rápidamente un nuevo campo en Campaign en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=es#configuring-campaign-classic){target="_blank"}
 
 * Mediante programación, ampliando el esquema. Aprenda a ampliar un esquema existente en [esta sección](../dev/extend-schema.md).
 
@@ -75,9 +75,9 @@ Para añadir un tipo de datos completamente nuevo que no existe de forma predete
 
 **Temas relacionados**
 
-Ejemplo de edición de esquema en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#configuring-campaign-classic){target="_blank"}
+Ejemplo de edición de esquema en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=es#configuring-campaign-classic){target="_blank"}
 
-Caso de uso: vincular un campo a una tabla de referencia existente en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html#uc-link){target="_blank"}
+Caso de uso: vincular un campo a una tabla de referencia existente en [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/examples-of-schemas-edition.html?lang=es#uc-link){target="_blank"}
 
 
 ## Modificación de los formularios de entrada

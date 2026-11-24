@@ -44,12 +44,12 @@ Los resultados de la simulación contienen un desglose de las propuestas por ran
 
 En caso necesario, se pueden guardar estos resultados y exportarlos creando un análisis descriptivo de los mismos. Para ello, haga clic en la ventana correspondiente de la barra de herramientas.
 
-Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"} para obtener más información sobre el asistente de análisis descriptivo.
+Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"} para obtener más información sobre el asistente de análisis descriptivo.
 
 ![](assets/offer_simulation_012.png)
 
 Una tabla dinámica proporciona una vista rápida de los desgloses de la oferta en función de su rango. Al igual que todos los informes de Adobe Campaign, puede exportarlos, imprimirlos, archivarlos o visualizarlos en un navegador web.
 
-Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}.
+Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}.
 
 ![](assets/offer_simulation_013.png)
