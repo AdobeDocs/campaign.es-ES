@@ -26,10 +26,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: a2ca220e4be9dfb4a90465b69dd08a3552040a07
+source-git-commit: 87e9b7ceb3c082407ac4534e0909c6f7db76e62a
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 16%
+source-wordcount: '811'
+ht-degree: 17%
 ---
 # Paquetes integrados {#built-in-packages}
 
@@ -43,7 +43,6 @@ Campaign utiliza dos tipos de paquetes. Asegúrese de que trabaja con el correct
 |---|---|---|
 | Objetivo | Proporcionar las funciones de Campaign, como canales, integraciones y complementos. | Exporte e importe su propia configuración y datos, por ejemplo, desde un entorno de ensayo a un entorno de producción. |
 | Quién los administra | Adobe los instala y administra. Con Cloud Services administrados, no puede modificar los paquetes integrados instalados. | Puede crearlos, exportarlos e importarlos. |
-| Dónde obtener más información | Esta página. | [Trabajar con paquetes de datos](../dev/packages.md) |
 
 ## Compruebe los paquetes instalados {#check-installed-packages}
 
