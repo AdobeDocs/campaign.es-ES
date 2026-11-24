@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3609'
-ht-degree: 33%
+source-wordcount: '3608'
+ht-degree: 32%
 ---
 # Notas de la versión de 2025 {#2025-rn}
 
@@ -233,7 +233,7 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 * Se han resuelto problemas de funcionalidad de reglas de tipología, lo que garantiza la correcta aplicación de las reglas de presión en las entregas PUSH. (NEO-84010)
 * Se han resuelto los errores de consulta de BigQuery causados por comparaciones de fechas y marcas de hora no coincidentes después de la actualización, lo que garantiza la compatibilidad con las condiciones de filtrado. (NEO-83826)
 * Se ha resuelto un problema en el cual las actividades de entrega fallaban al reanudar las entregas en pausa debido a errores de personalización. Esta corrección garantiza flujos de trabajo de envío más suaves y evita errores relacionados con actividades en pausa. (NEO-83809)
-* Se corrigió un problema en FDAC al utilizar la opción &quot;consulta de carga de registro de destinatario&quot;. Se ha agregado compatibilidad con las cláusulas &quot;order by&quot; y &quot;where&quot;. (NEO-83793)
+* Se ha corregido un problema en FDAC al utilizar la opción &quot;consulta de carga de registro de destinatario&quot;. Se ha agregado compatibilidad con las cláusulas &quot;order by&quot; y &quot;where&quot;. (NEO-83793)
 * Se han corregido errores de entrega recurrentes causados por valores nulos que se escribían en columnas que no admitían valores nulos en la tabla broadLogRcp. Esta corrección mejora la fiabilidad de la entrega y evita errores durante las campañas en directo. (NEO-83729)
 * Se ha resuelto un problema en el cual las direcciones semilla se duplicaban durante la preparación de la entrega, lo que producía discrepancias en los recuentos de mensajes. Esta corrección garantiza un direccionamiento preciso y evita errores de duplicación. (NEO-83703)
 * Se ha corregido un problema crítico por el que los envíos de producción se enviaban después de su periodo de validez, lo que podía causar problemas legales. Los envíos ahora respetan estrictamente los períodos de validez definidos. (NEO-83350)
@@ -294,7 +294,7 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 * Se han corregido discrepancias en las fechas de evento y las fechas de contacto para la administración de devoluciones. Se ha mejorado la lógica de administración de huso horario. (NEO-72277)
 * Tratamiento mejorado de caracteres UTF-8 convertidos incorrectamente en envíos de correo directo. Los caracteres ocultos ahora se procesan correctamente para evitar errores de entrega. (NEO-72148)
 * Se han corregido errores en la actividad de Inbound SMS donde los filtros causaban problemas de guardado. El flujo de trabajo ahora se guarda correctamente sin generar errores. (NEO-70427)
-* Se corrigió la generación de consultas SQL para criterios de idoneidad agrupados en los espacios de oferta. Se han agregado los paréntesis que faltan en las condiciones SQL para garantizar un filtrado adecuado. (NEO-70425)
+* Se corrigió la generación de consultas SQL para criterios de idoneidad agrupados en los espacios de oferta. Se han añadido paréntesis faltantes en las condiciones SQL para garantizar un filtrado adecuado. (NEO-70425)
 
 <!--
 * Updated the public documentation link in the `ffdaUnicity` workflow email template to point to the correct page for key management in v8. (NEO-67996)
@@ -312,7 +312,7 @@ _sábado, 25 de abril de 2025_
 
 ### Nuevas funciones {#features-8-6-5}
 
-**Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad para entornos que realizan la transición desde Adobe Campaign Standard. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y ampliado. [Más información](../send/sms/sms.md).
+**Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad para entornos que realizan la transición desde Adobe Campaign Standard. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y extendido. [Más información](../send/sms/sms.md).
 
 ### Mejoras generales {#improvements-8-6-5}
 
@@ -362,7 +362,7 @@ _14 de febrero de 2025_
 
 ### Nuevas funciones {#features-8-7-3}
 
-* **Informes dinámicos para mensajes transaccionales**: ahora puede supervisar los mensajes transaccionales en la interfaz de usuario de informes dinámicos. Estos informes permiten al experto en marketing ver todas las métricas y dimensiones de informes de los mensajes transaccionales, así como el desglose de envíos realizados a través de una plantilla en tiempo real. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}
+* **Informes dinámicos para mensajes transaccionales**: ahora puede supervisar los mensajes transaccionales en la interfaz de usuario de informes dinámicos. Estos informes permiten al experto en marketing ver todas las métricas y dimensiones de informes de los mensajes transaccionales, así como el desglose de envíos enviados a través de una plantilla en tiempo real. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}
 
 * **API REST de mensajería transaccional**: las API transaccionales basadas en eventos ya están disponibles para los correos electrónicos. [Más información](../dev/api/get-started-apis.md)
 
@@ -404,7 +404,7 @@ Se han añadido los siguientes conectores FDA. Consulte [esta página](compatibi
 * Ya está disponible el nuevo conector ODBC de Amazon Redshift FDA. Ofrece una conectividad mejorada, un mantenimiento más sencillo y una compatibilidad mejorada. Esta nueva versión incorpora las siguientes mejoras:
 
   * El nuevo conector se basa en la interfaz ODBC, que se alinea con los conectores FDA más recientes. Esto garantiza una asistencia a largo plazo.
-  * También introduce un nuevo mecanismo de carga de datos mediante compartimentos s3, lo que mejora significativamente el rendimiento.
+  * También introduce un nuevo mecanismo de carga de datos mediante bloques s3, lo que mejora significativamente el rendimiento.
 
   El conector heredado aún se puede utilizar. Si desea probar el nuevo, póngase en contacto con su representante de Adobe.
 

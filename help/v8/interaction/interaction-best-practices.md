@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1173'
-ht-degree: 67%
+source-wordcount: '1177'
+ht-degree: 57%
 ---
 # Prácticas recomendadas de interacción {#interaction-best-practices}
 
@@ -40,7 +40,7 @@ Esta sección presenta las prácticas recomendadas para administrar el módulo *
 
 * Al **implementar y configurar interacciones**, debe tener en cuenta las siguientes recomendaciones:
 
-  * Para el motor por lotes (generalmente utilizado en comunicaciones salientes como el correo electrónico), el rendimiento es la preocupación principal, ya que se pueden manejar varios contactos al mismo tiempo. El típico obstáculo es el rendimiento de la base de datos.
+  * Para el motor por lotes (generalmente utilizado en comunicaciones salientes como el correo electrónico), el rendimiento es la preocupación principal, ya que se pueden gestionar varios contactos al mismo tiempo. El típico obstáculo es el rendimiento de la base de datos.
   * La restricción principal del motor unitario (que generalmente se utiliza en comunicaciones entrantes como un banner en un sitio web) es la latencia, ya que alguien está esperando una respuesta. El típico obstáculo es el rendimiento de la CPU.
   * El diseño del catálogo de ofertas tiene un gran impacto en el rendimiento de Adobe Campaign.
   * Al trabajar con muchas ofertas, la práctica recomendada es dividirlas en varios catálogos de ofertas.
@@ -61,7 +61,7 @@ Esta sección presenta las prácticas recomendadas para administrar el módulo *
 
   * Utilice un número mínimo de reglas para realizar el procesamiento lo más rápidamente posible.
   * Limite el número de registros de la tabla de propuestas: mantenga únicamente los registros necesarios para realizar el seguimiento de su actualización de estado y lo que necesita las reglas, luego archívelo en otro sistema.
-  * Realice un mantenimiento intensivo de la base de datos en la tabla de propuestas, como la regeneración de índices o la regeneración de tablas.
+  * Realice un mantenimiento intensivo de la base de datos en la tabla de propuestas, como la reconstrucción de índices o la recreación de la tabla.
   * Limite el número de proposiciones solicitadas por destino. No configure más de lo que realmente va a utilizar.
   * Evite las uniones lo máximo posible en los criterios de regla.
 

@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '642'
-ht-degree: 51%
+ht-degree: 48%
 ---
 # Seguimiento de vínculos personalizados {#tracking-personalized-links}
 
@@ -36,7 +36,7 @@ Los vínculos del contenido del correo electrónico que contienen personalizaci�
 
 El uso de JavaScript en el contenido del correo electrónico (HTML o texto) le permite generar y enviar contenido dinámico a los destinatarios, con dos limitaciones:
 
-* La secuencia de comandos no puede acceder directamente a la base de datos (la función SQL y las funciones API no están disponibles),
+* La secuencia de comandos no puede acceder directamente a la base de datos (las funciones SQL y API no están disponibles),
 * Adobe Campaign debe poder detectar direcciones URL para poder rastrear los vínculos.
 
 ## Instrucciones de preprocesamiento {#pre-processing-instructions}

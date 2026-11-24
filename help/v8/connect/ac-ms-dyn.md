@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 36%
+source-wordcount: '1432'
+ht-degree: 35%
 ---
 # Uso de Campaign y Microsoft Dynamics 365{#crm-ms-dynamics}
 
@@ -145,7 +145,7 @@ El usuario de la aplicación es el usuario que usará la aplicación registrada 
 **Paso 1**: Crear un usuario no interactivo en el directorio activo de Azure
 
 1. Haga clic en **Azure Active Directory > Usuarios** y, luego, en **Nuevo usuario**.
-1. Proporcione el nombre pertinente que desee utilizar; además, el nombre de usuario debe estar en formato de correo electrónico.
+1. Asigne un nombre adecuado que desee utilizar y el nombre de usuario debe tener un formato de correo electrónico.
 1. Elija **Administrador de Dynamics 365** en la **Función de directorio**.
 
 **Paso 2**: Asignar una licencia adecuada al usuario creado

@@ -21,10 +21,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 99%
+source-wordcount: '943'
+ht-degree: 98%
 ---
 # Pasos clave para crear una encuesta{#getting-started-with-surveys}
 
@@ -109,7 +109,7 @@ En el siguiente ejemplo se utiliza una página de tipo **[!UICONTROL Page (v5 co
 
   ![](assets/s_ncs_admin_survey_add_qu.png)
 
-  Introduzca la etiqueta de la pregunta e inserte los campos de respuesta como una subcategoría de la pregunta. Para ello, se debe seleccionar el nodo vinculado a la pregunta al crear el campo de respuesta. Agregue un **[!UICONTROL drop-down listx]** mediante el icono **[!UICONTROL Selection controls]** o haciendo clic con el botón secundario, como se muestra a continuación:
+  Introduzca la etiqueta de la pregunta e inserte los campos de respuesta como una subcategoría de la pregunta. Para ello, se debe seleccionar el nodo vinculado a la pregunta al crear el campo de respuesta. Agregue un **[!UICONTROL drop-down list]** mediante el icono **[!UICONTROL Selection controls]** o haciendo clic con el botón secundario, como se muestra a continuación:
 
   ![](assets/s_ncs_admin_survey_add_list.png)
 
@@ -125,7 +125,7 @@ En el siguiente ejemplo se utiliza una página de tipo **[!UICONTROL Page (v5 co
 
   >[!NOTE]
   >
-  >Para cada campo o pregunta, puede adaptar el diseño de página según sus necesidades, gracias a las opciones de la pestaña **[!UICONTROL Advanced]**. El diseño de las pantallas de encuestas se explica en [esta sección](../web/about-web-forms.md).
+  >Para cada campo o pregunta, puede adaptar el diseño de página según sus necesidades, gracias a las opciones de la pestaña **[!UICONTROL Advanced]**. El diseño de las pantallas de encuestas se detalla en [esta sección](../web/about-web-forms.md).
 
   En la pantalla de detalles, haga clic en la pestaña **[!UICONTROL Preview]** para ver la renderización de la encuesta que acaba de crear.
 

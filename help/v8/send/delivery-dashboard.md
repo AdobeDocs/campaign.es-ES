@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1157'
-ht-degree: 70%
+ht-degree: 68%
 ---
 # Monitorización de entregas en la IU de Campaign {#delivery-dashboard}
 
@@ -64,7 +64,7 @@ El **panel de control de entregas** es fundamental para monitorizar las entregas
 
 Permite recuperar información de una entrega y editarla si es necesario. Tenga en cuenta que el contenido de las pestañas no se puede cambiar una vez realizada la entrega.
 
-A continuación, se muestra la información que puede monitorizar en las distintas pestañas disponibles en el panel de control:
+Esta es la información que puede monitorizar en las distintas pestañas disponibles en el panel:
 
 * [Resumen de entregas](#delivery-summary)
 * [Informes de envío](#delivery-reports)

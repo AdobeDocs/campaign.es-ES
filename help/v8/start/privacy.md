@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 85%
+ht-degree: 80%
 ---
 # Administrar solicitudes de privacidad en Campaign {#privacy}
 
@@ -45,7 +45,7 @@ Según la naturaleza de su negocio y las jurisdicciones bajo las que actúa, sus
 Adobe ofrece las herramientas de los controladores de datos para crear y procesar solicitudes de privacidad de datos almacenados en Campaign. Por ello, es responsabilidad del controlador de datos verificar la identidad del sujeto de datos que realiza la solicitud y confirmar que la información devuelta al solicitante sea sobre el sujeto de datos. Obtenga más información sobre los datos personales y las distintas entidades que administran los datos en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#personal-data){target="_blank"}.
 
 
-Para administrar la solicitud de privacidad en Campaign, primero debe [definir un espacio de nombres](#namespaces). A continuación, puede crear y administrar solicitudes de privacidad. Para ejecutar solicitudes de privacidad, utilice la integración **Privacy Service de Adobe**. Las solicitudes de privacidad enviadas desde Privacy Service a todas las [!DNL Adobe CX Enterprise] soluciones las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado. [Más información](#create-privacy-request)
+Para administrar las solicitudes de privacidad en Campaign, primero debe [definir un área de nombres](#namespaces). A continuación, puede crear y administrar solicitudes de privacidad. Para ejecutar solicitudes de privacidad, utilice la integración **Privacy Service de Adobe**. Las solicitudes de privacidad enviadas desde Privacy Service a todas las [!DNL Adobe CX Enterprise] soluciones las gestiona Campaign de forma automática a través de un flujo de trabajo dedicado. [Más información](#create-privacy-request)
 
 Obtenga información sobre el **Derecho de acceso** y el **Derecho a ser olvidado** (solicitud de eliminación) en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-management.html?lang=es#right-access-forgotten){target="_blank"}.
 
@@ -75,7 +75,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Cree un área de nombres en el [servicio de área de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#tag/Identity-Namespace){target="_blank"}.
 
-1. Al [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} disponibles para su organización, obtiene los siguientes detalles del área de nombres, por ejemplo:
+1. Al [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} disponibles para su organización, obtiene los siguientes detalles de área de nombres, por ejemplo:
 
    ```
    {
@@ -98,7 +98,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Introduzca un **[!UICONTROL Label]**.
 
-1. Complete los nuevos detalles del espacio de nombres para que coincidan con el espacio de nombres que ha creado en el servicio Espacio de nombres de identidad:
+1. Complete los nuevos detalles del área de nombres para que coincidan con el área de nombres que creó en el servicio Área de nombres de identidad:
 
    * el **[!UICONTROL AEC Namespace ID]** debe coincidir con el atributo &quot;id&quot;
    * el **[!UICONTROL Internal name]** debe coincidir con el atributo &quot;code&quot;

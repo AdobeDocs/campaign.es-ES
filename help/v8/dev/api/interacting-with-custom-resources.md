@@ -25,16 +25,16 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '146'
+source-wordcount: '145'
 ht-degree: 0%
 ---
 # Interacción con recursos personalizados {#interacting-with-custom-resources}
 
 El extremo **/customResources** le permite exponer los recursos personalizados de Campaign en REST. En función de esta API, hay disponible una integración entre entidades personalizadas y extremos externos.
 
-El extremo /customResources tiene exactamente el mismo comportamiento que el extremo /profileAndServices.
+El extremo /customResources tiene exactamente el mismo valor que el extremo /profileAndServices.
 
 Los recursos personalizados que se exponen dentro de esta API son los siguientes:
 

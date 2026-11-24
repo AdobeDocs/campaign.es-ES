@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '797'
-ht-degree: 98%
+ht-degree: 97%
 ---
 # Diseño de una encuesta{#building-a-survey}
 
@@ -38,7 +38,7 @@ Seleccione la plantilla de encuesta (**[!UICONTROL newSurvey]** de forma predete
 
 ![](assets/s_ncs_admin_survey_select_template.png)
 
-Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido de HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions)).
+Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido de HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions).
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ En [esta sección](../web/about-web-forms.md) se describen los distintos tipos d
 
 ## Elementos específicos de las encuestas {#survey-specific-elements}
 
-Las encuestas en línea están basadas en funcionalidades de las aplicaciones web. A continuación se describen las funcionalidades específicas de las encuestas.
+Las encuestas en línea se basan en las funcionalidades de la aplicación web. A continuación se describen las funcionalidades específicas de las encuestas.
 
 ### Opción múltiple {#multiple-choice}
 

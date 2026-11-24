@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '890'
 ht-degree: 98%
 ---
 # Cupones personalizados{#personalized-coupons}
@@ -58,7 +58,7 @@ Antes de iniciar los pasos siguientes, asegúrese de saber el tipo de cupón que
    ![](assets/deliv_coup_01.png)
 
 1. Haga clic en el botón **[!UICONTROL New]**.
-1. Introduzca el nombre del cupón en el campo **[!UICONTROL Label]**. Se ha introducido automáticamente un código único en **[!UICONTROL Coupon code]**. Puede mantener el código o introducir uno nuevo.
+1. Escriba el nombre del cupón en el campo **[!UICONTROL Label]**. Se ha introducido automáticamente un código único en **[!UICONTROL Coupon code]**. Puede mantener el código o introducir uno nuevo.
 
    ![](assets/deliv_coup_02.png)
 
@@ -94,7 +94,7 @@ Los valores de **[!UICONTROL channel]**, **[!UICONTROL status]** y **[!UICONTROL
 
 ## Inserción de un cupón en una entrega de correo electrónico {#inserting-a-coupon-into-an-email-delivery}
 
-En el siguiente ejemplo, la entrega se crea desde la página principal. Para obtener instrucciones detalladas sobre cómo crear una entrega, consulte [esta sección](email.md)
+En el siguiente ejemplo, la entrega se crea desde la página principal. Para obtener instrucciones detalladas sobre la creación de una entrega, consulte [esta sección](email.md).
 1. Vaya a **[!UICONTROL Campaigns]** y elija **[!UICONTROL Deliveries]**.
 1. Haga clic en **[!UICONTROL Create]**.
 

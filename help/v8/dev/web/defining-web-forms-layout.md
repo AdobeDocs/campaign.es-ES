@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '525'
-ht-degree: 100%
+ht-degree: 96%
 ---
 # Definición del diseño de los formularios web{#defining-web-forms-layout}
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 ## Creación de contenedores {#creating-containers}
 
-Los contenedores permiten combinar los campos de una página y configurar su diseño para organizar los elementos de la página.
+Los contenedores permiten combinar los campos de una página, configurar su diseño y organizar los elementos de la página.
 
 Para cada página del formulario, los contenedores se crean mediante el botón **[!UICONTROL Containers]** de la barra de herramientas.
 

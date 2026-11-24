@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '456'
 ht-degree: 6%
 ---
 # Ver perfiles existentes {#view-profiles}
@@ -66,7 +66,7 @@ Para un destinatario integrado típico, puede acceder a las siguientes pestañas
 
 * **[!UICONTROL General]**, para todos los datos de perfil generales. En particular, contiene los apellidos, el nombre, la dirección de correo electrónico, el formato de correo electrónico, etc.
 
-  Esta pestaña también almacena el indicador **opt-out** para el perfil: cuando se selecciona la opción **[!UICONTROL No longer contact (by any channel)]**, el perfil se encuentra en lista de bloqueados de la. Esta información se añade a los datos de contacto si el destinatario hace clic, por ejemplo, en un vínculo de baja en un boletín informativo. Este destinatario ya no se puede dirigir a ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../send/quarantines.md).
+  Esta pestaña también almacena el indicador **opt-out** para el perfil: cuando se selecciona la opción **[!UICONTROL No longer contact (by any channel)]**, el perfil se encuentra en la lista de bloqueados de la. Esta información se añade a los datos de contacto si el destinatario hace clic, por ejemplo, en un vínculo de baja en un boletín informativo. Este destinatario ya no está dirigido a ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../send/quarantines.md).
 
 * **Información de contacto**, que contiene la dirección de correo postal del perfil seleccionado.
 
@@ -92,7 +92,7 @@ Para un destinatario integrado típico, puede acceder a las siguientes pestañas
   >
 
 
-* **Suscripciones**, para todas las suscripciones activas a los servicios. Use la ficha **Historial** para obtener acceso a los detalles de suscripciones y bajas de este contacto.
+* **Suscripciones**, para todas las suscripciones activas a los servicios. Use la ficha **Historial** para obtener acceso a los detalles de suscripciones y bajas de suscripción para este contacto.
 
   ![](assets/subscription-tab.png)
 

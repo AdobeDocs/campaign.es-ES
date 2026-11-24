@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1295'
-ht-degree: 8%
+ht-degree: 9%
 ---
 # Trabajo con esquemas{#gs-ac-schemas}
 
@@ -65,7 +65,7 @@ Los esquemas permiten definir una entidad en la base de datos. Hay un esquema pa
 
 Adobe Campaign emplea esquemas de datos para:
 
-* Definir cómo se vinculan los objetos de datos de la aplicación a las tablas de bases de datos subyacentes.
+* Definir el modo en que los objetos de datos de la aplicación están vinculados a las tablas de bases de datos subyacentes.
 * Definir vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign.
 * Definir y describir los campos individuales incluidos en cada objeto.
 

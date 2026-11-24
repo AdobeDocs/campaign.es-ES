@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 100%
+ht-degree: 98%
 ---
 # Traducción de un formulario web{#translating-a-web-form}
 
@@ -85,7 +85,7 @@ Cada vez que se traduce una cadena, la traducción se añade al diccionario de t
 
 Cuando el proceso de recopilación detecta que ya existe una traducción, la muestra en la columna **[!UICONTROL Text]** de la unidad. El estado de la cadena cambia a **[!UICONTROL Translated]**.
 
-Para unidades de caracteres que no se hayan traducido nunca, el campo **[!UICONTROL Text]** está vacío y el estado es **[!UICONTROL To translate]**.
+Para cadenas de caracteres que no se hayan traducido nunca, el campo **[!UICONTROL Text]** está vacío y el estado es **[!UICONTROL To translate]**.
 
 ### Filtrado de cadenas {#filtering-strings}
 
@@ -143,7 +143,7 @@ Es posible exportar e importar cadenas de caracteres para traducirlas con una he
      >
      >Este tipo de exportación no está disponible para exportaciones XLIFF.
 
-1. A continuación, elija la **[!UICONTROL Target folder]** donde desea registrar los archivos.
+1. A continuación, elija **[!UICONTROL Target folder]** donde desea registrar los archivos.
 1. Seleccione el formato de archivo ( **[!UICONTROL CSV]** o **[!UICONTROL XLIFF]** ) y haga clic en **[!UICONTROL Start]**.
 
 ![](assets/s_ncs_admin_survey_trad_export_start.png)
@@ -188,7 +188,7 @@ si el idioma es el primer o único parámetro de la dirección URL. Por ejemplo:
 &lang=xx
 ```
 
-si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
+si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
 
 A continuación se enumeran los idiomas y diccionarios de traducción disponibles de forma predeterminada.
 
@@ -449,7 +449,7 @@ Puede añadir **?lang=es** o **?lang=de** para mostrarlo en español o alemán.
 >[!NOTE]
 >
 >Si ya se han añadido otros parámetros a esta aplicación web, añada **&amp;lang=**.\
->Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
+>Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
 
 ## Configuración avanzada de traducción {#advanced-translation-configuration}
 

@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 29%
+source-wordcount: '1119'
+ht-degree: 28%
 ---
 # Diseño de un envío push enriquecido para iOS {#rich-push}
 
@@ -187,9 +187,9 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 
 | Parámetro | Descripción |
 |---------|---------|
-| **[!UICONTROL Clean Badge]** | Active estas opciones para actualizar el valor del distintivo. |
+| **[!UICONTROL Clean Badge]** | Active esta opción para actualizar el valor del distintivo. |
 | **[!UICONTROL Value]** | Establezca un número que se utilizará para mostrar directamente en el icono de la aplicación la cantidad de información nueva no leída. |
-| **[!UICONTROL Critical alert mode]** | Active esta opción para agregar sonido a la notificación, incluso si el teléfono del usuario está activado o si el iPhone está silenciado. |
+| **[!UICONTROL Critical alert mode]** | Active esta opción para agregar sonido a la notificación incluso si el teléfono del usuario está activado o si el iPhone está silenciado. |
 | **[!UICONTROL Name]** | Seleccione el sonido que el terminal móvil debe reproducir cuando reciba la notificación. |
 | **[!UICONTROL Volume]** | Establece el volumen del sonido de 0 a 100. Los sonidos deben incluirse en la aplicación y definirse cuando se cree el servicio. |
 
@@ -201,7 +201,7 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 | **[!UICONTROL Thread-id]** | Establezca el identificador utilizado para agrupar las notificaciones relacionadas. |
 | **[!UICONTROL Category]** | Establezca el nombre de su ID de categoría, que mostrará botones de acción. Estas notificaciones proporcionan al usuario una forma más rápida de realizar distintas tareas en respuesta a una notificación sin necesidad de abrir ni navegar por la aplicación. |
 | **[!UICONTROL Target content ID]** | Establezca un identificador utilizado para destinar la ventana de aplicación que se reenvía cuando se abre la notificación. |
-| **[!UICONTROL Launch image]** | Defina el nombre del archivo de imagen de lanzamiento que desea mostrar. Si el usuario decide iniciar la aplicación, se mostrará la imagen seleccionada en lugar de la pantalla de inicio de la aplicación. |
+| **[!UICONTROL Launch image]** | Configure el nombre del archivo de imagen de lanzamiento para que se muestre. Si el usuario decide iniciar la aplicación, se mostrará la imagen seleccionada en lugar de la pantalla de inicio de la aplicación. |
 | **[!UICONTROL Click action]** | Configure la acción asociada con un clic del usuario en la notificación. |
 | **[!UICONTROL Interruption level]** | <ul><li>Activo: de forma predeterminada, el sistema presenta la notificación inmediatamente, ilumina la pantalla y puede reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.</li><li>Pasivo: el sistema añade la notificación a la lista de notificaciones sin iluminar la pantalla ni reproducir un sonido. Las notificaciones no rompen los modos de Enfoque.</li><li> Con distinción de tiempo: el sistema presenta la notificación inmediatamente, enciende la pantalla, puede reproducir un sonido y atravesar los modos de Enfoque. Este nivel no requiere un permiso especial de Apple.</li><li>Esencial: el sistema presenta la notificación inmediatamente, enciende la pantalla y evita el interruptor silencioso o los modos de enfoque. Tenga en cuenta que este nivel requiere un permiso especial de Apple.</li></ul> |
 | **[!UICONTROL Relevance score]** | Establezca una puntuación de relevancia de 0 a 100. El sistema utiliza esto para ordenar las notificaciones en el resumen de notificaciones. |

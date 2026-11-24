@@ -31,10 +31,10 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1783'
-ht-degree: 66%
+source-wordcount: '1782'
+ht-degree: 63%
 ---
 # Informes globales {#global-reports}
 
@@ -118,7 +118,7 @@ Se utilizan los siguientes indicadores:
 * **[!UICONTROL Inbox full]**: Tipo de error generado después de cinco intentos de entrega para indicar que la bandeja de entrada de los destinatarios contiene demasiados mensajes.
 * **[!UICONTROL Account disabled]**: tipo de error generado al realizar una entrega para indicar que la dirección ya no existe.
 * **[!UICONTROL Rejected]**: Tipo de error generado cuando el IAP (Proveedor de acceso a Internet) rechaza una dirección, por ejemplo, al aplicar una regla de seguridad (software contra correo no deseado).
-* **[!UICONTROL Unreachable]**: Tipo de error que se produce en la cadena de distribución de mensajes: incidente en la retransmisión SMTP, dominio temporalmente inaccesible, etc
+* **[!UICONTROL Unreachable]**: Tipo de error que se produce en la cadena de distribución de mensajes: incidente en la retransmisión SMTP, dominio temporalmente inaccesible, etc.
 * **[!UICONTROL Not connected]**: tipo de error que indica que el teléfono móvil de los destinatarios está apagado o desconectado de la red en el momento de la entrega.
 
   >[!NOTE]

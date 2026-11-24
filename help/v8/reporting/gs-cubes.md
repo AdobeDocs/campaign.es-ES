@@ -26,7 +26,7 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 76%
@@ -35,7 +35,7 @@ ht-degree: 76%
 
 Adobe Campaign incluye una herramienta de exploración de datos intuitiva para crear informes dinámicos.
 
-Utilice las capacidades de análisis de marketing para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Puede crear informes y generar poblaciones de público objetivo y almacenarlas en listas que se pueden utilizar en Adobe Campaign para tareas de segmentación o segmentación.
+Utilice las funciones de análisis de marketing para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Puede crear informes y generar poblaciones de público objetivo y almacenarlas en listas que se pueden utilizar en Adobe Campaign para tareas de segmentación o segmentación.
 
 Puede ampliar las capacidades de análisis y exploración de base de datos al mismo tiempo que facilita a los usuarios finales la configuración de informes y tablas: estos últimos solo necesitan seleccionar un cubo existente (completamente configurado) al crear su informe o tabla para procesar cálculos, medidas y estadísticas.
 

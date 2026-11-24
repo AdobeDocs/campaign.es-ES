@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2043'
 ht-degree: 10%
@@ -211,7 +211,7 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 
 1. En el menú **[!UICONTROL Color options]**, escriba los códigos de color hexadecimales para **[!UICONTROL Title]**, **[!UICONTROL Message]** y **[!UICONTROL Background]**.
 
-1. En el menú **[!UICONTROL Input box options]**, rellene la siguiente opción:
+1. En el menú **[!UICONTROL Input box options]**, rellene las opciones siguientes:
 
    * **[!UICONTROL Input receiver name]**: escriba el nombre o identificador del receptor de la entrada.
    * **[!UICONTROL Input text]**: escriba el texto para el **cuadro de entrada**.

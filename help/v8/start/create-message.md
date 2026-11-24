@@ -35,10 +35,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1565'
-ht-degree: 96%
+ht-degree: 93%
 ---
 # Creación de su primer envío {#create-a-msg}
 
@@ -129,7 +129,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
 
      ![](assets/target-recipient-delivery.png)
 
-   * **[!UICONTROL Delivery recipients belonging to a folder]**: utilice esta opción para generar el objetivo a partir de los envíos de destinatarios incluidos en una carpeta específica.
+   * **[!UICONTROL Delivery recipients belonging to a folder]**: utilice esta opción para generar el objetivo a partir de los destinatarios de los envíos incluidos en una carpeta específica.
 
      ![](assets/target-delivery-folder.png)
 
@@ -146,7 +146,7 @@ Para seleccionar los destinatarios de un envío, siga los siguientes pasos:
      ![](assets/target-service.png)
 
    * **[!UICONTROL User filters]**: esta opción le permite acceder a los filtros preconfigurados para utilizarlos como criterios de filtrado para los perfiles de la base de datos. Los filtros preconfigurados se muestran en [esta sección](../audiences/create-filters.md#default-filters).
-   * La opción **[!UICONTROL Exclude recipients from this segment]** le permite dirigirse a los destinatarios que no cumplen con los criterios de objetivo definidos. Para utilizar esta opción, seleccione el cuadro apropiado y, a continuación, aplique los objetivos, según lo definido anteriormente, para excluir los perfiles resultantes.
+   * La opción **[!UICONTROL Exclude recipients from this segment]** permite dirigirse a los destinatarios que no cumplan con los criterios de destino definidos. Para utilizar esta opción, seleccione el cuadro apropiado y, a continuación, aplique los objetivos, según lo definido anteriormente, para excluir los perfiles resultantes.
 
 1. Introduzca un nombre para estos objetivos en el campo **[!UICONTROL Label]**. De forma predeterminada, la etiqueta es la etiqueta del primer criterio de segmentación. Al combinar criterios de filtrado, se recomienda utilizar un nombre explícito.
 1. Haga clic en **[!UICONTROL Finish]** para validar las opciones de segmentación.
@@ -230,6 +230,6 @@ Para ello:
 
 ## Configuración y envío de la entrega {#configuring-and-sending-the-delivery}
 
-Acceda a los parámetros de envío para configurar más ajustes y definir cómo enviar los mensajes. Puede definir la prioridad de envío, configurar las olas de envío, configurar los reintentos y probar el envío. Una vez realizada la configuración, puede confirmar el envío. Los mensajes se envían inmediatamente o en función de la programación de los envíos.
+Acceda a los parámetros de envío para configurar más ajustes y definir cómo enviar los mensajes. Puede definir la prioridad de entrega, configurar las olas de entrega, configurar los reintentos y probar la entrega de entrega. Una vez realizada la configuración, puede confirmar el envío. Los mensajes se envían inmediatamente o en función de la programación de los envíos.
 
 Obtenga información sobre cómo configurar los valores de envío en [esta página](../send/configure-and-send.md).

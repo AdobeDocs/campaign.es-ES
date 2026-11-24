@@ -26,14 +26,14 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1461'
-ht-degree: 99%
+ht-degree: 91%
 ---
 # Definición del contenido interactivo{#defining-interactive-content}
 
-Adobe Campaign le permite usar el formato [AMP interactivo del correo electrónico](https://amp.dev/es/about/email/), que permite enviar correos electrónicos dinámicos en ciertas condiciones.
+Adobe Campaign le permite usar el formato interactivo [AMP para correo electrónico](https://amp.dev/es/about/email/), que le permite enviar correos electrónicos dinámicos en ciertas condiciones.
 
 Con AMP para correo electrónico, puede:
 * Probar el envío de correos electrónicos AMP a direcciones específicas correctamente configuradas.
@@ -45,7 +45,7 @@ Esta función está disponible a través de un paquete dedicado en Adobe Campaig
 
 ## Acerca de AMP para correo electrónico {#about-amp-for-email}
 
-Utilice el nuevo formato de **AMP para correo electrónico** para incluir componentes de AMP en los mensajes y mejorar la experiencia de correo electrónico con un contenido enriquecido y procesable. Con la funcionalidad moderna de la aplicación disponible directamente en los correos electrónicos, los destinatarios pueden interactuar dinámicamente con el contenido del mensaje.
+Use el nuevo formato de **AMP para correo electrónico** para incluir componentes de AMP en sus mensajes y mejorar la experiencia de correo electrónico con contenido enriquecido y procesable. Con la funcionalidad moderna de la aplicación disponible directamente en los correos electrónicos, los destinatarios pueden interactuar dinámicamente con el contenido del mensaje.
 
 Por ejemplo:
 * Los correos electrónicos escritos con AMP pueden contener elementos interactivos como carruseles de imágenes.
@@ -67,7 +67,7 @@ Para probar y enviar correctamente un correo electrónico de AMP con Adobe Campa
 
    >[!NOTE]
    >
-   >Actualmente, solo puede enviar correos electrónicos AMP a [direcciones de correo electrónico específicas](#testing-amp-delivery-for-selected-addresses) (para fines de prueba) o después de [registrarse](#delivering-amp-emails-by-registering) en los clientes de correo electrónico admitidos.
+   >Actualmente, solo puede enviar correos electrónicos AMP a [direcciones de correo electrónico específicas](#testing-amp-delivery-for-selected-addresses) (para fines de prueba) o después de [registrarse](#delivering-amp-emails-by-registering) con los clientes de correo electrónico admitidos.
 
 1. Envíe el correo electrónico como lo haría normalmente. Consulte [Envío de un correo electrónico de AMP](#sending-amp-email).
 
@@ -145,7 +145,7 @@ Al crear el contenido de AMP en Adobe Campaign, debe cumplir las condiciones par
 
 Actualmente dos proveedores de correo electrónico admiten la prueba de este formato: Gmail y Mail.ru.
 
-Todos los pasos y especificaciones requeridos para probar el envío con formato AMP en cuentas de Gmail se detallan en la documentación para desarrolladores de [Gmail](https://developers.google.com/gmail/ampemail?) y [Mail.ru.](https://postmaster.mail.ru/amp)
+Todos los pasos y especificaciones requeridos para probar la entrega con formato AMP en cuentas de Gmail se detallan en la documentación para desarrolladores de [Gmail](https://developers.google.com/gmail/ampemail?) y [Mail.ru](https://postmaster.mail.ru/amp) correspondiente.
 
 En particular, deben cumplirse los siguientes requisitos:
 * Siga los requisitos de seguridad de AMP específicos de [Gmail](https://developers.google.com/gmail/ampemail/security-requirements) y [Mail.ru](https://postmaster.mail.ru/amp/#howto).

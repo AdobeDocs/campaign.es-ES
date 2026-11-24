@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1196'
-ht-degree: 93%
+source-wordcount: '1198'
+ht-degree: 87%
 ---
 # Creación de entregas de LINE
 
@@ -144,7 +144,7 @@ Para crear una entrega de [!DNL LINE], debe seguir estos pasos:
 
    ![](assets/line_message_10.png)
 
-1. En el editor de envíos, haga clic en **[!UICONTROL Add]** para añadir uno o varios mensajes y seleccione **[!UICONTROL Content type]**.
+1. En el editor de envíos, haga clic en **[!UICONTROL Add]** para agregar uno o varios mensajes y seleccione **[!UICONTROL Content type]**.
 
    Para obtener más información sobre los diferentes **[!UICONTROL Content type]** disponibles, consulte [Definición del tipo de contenido](#defining-the-content).
 
@@ -160,7 +160,7 @@ Para crear una entrega de [!DNL LINE], debe seguir estos pasos:
 
 ## Definición del tipo de contenido {#defining-the-content}
 
-Para definir el contenido de una entrega de [!DNL LINE], primero debe añadir el tipo de mensaje a la entrega. Cada entrega de [!DNL LINE] puede contener hasta 5 mensajes.
+Para definir el contenido de una entrega [!DNL LINE], primero debe agregar un tipo de mensaje a la entrega. Cada entrega de [!DNL LINE] puede contener hasta 5 mensajes.
 
 Puede elegir entre tres tipos de mensaje:
 
@@ -222,7 +222,7 @@ Puede utilizar:
 
 ### Configuración de una entrega de mensaje de vídeo {#configuring-a-video-message-delivery}
 
-Una entrega de **[!UICONTROL Video message]** de [!DNL LINE] es un mensaje enviado a los destinatarios en forma de vídeo que puede contener una dirección URL.
+Una entrega **[!UICONTROL Video message]** [!DNL LINE] es un mensaje enviado a los destinatarios en forma de vídeo que puede contener una dirección URL.
 
 El campo **[!UICONTROL Preview Image URL]** permite añadir la dirección URL de una imagen de previsualización con un límite de caracteres de 1000. JPEG y PNG son compatibles con un límite de tamaño de archivo de 1 MB.
 

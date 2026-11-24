@@ -30,7 +30,7 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '4458'
 ht-degree: 17%
@@ -49,7 +49,7 @@ Antes de empezar, asegúrese de que su configuración de SMPP es correcta con la
 
 >[!NOTE]
 >
->Habilite los seguimientos detallados del SMPP durante las comprobaciones, lo que le ayudará a usted y al equipo de asistencia a comprender los problemas.
+>Habilite los seguimientos detallados del SMPP durante las comprobaciones, ya que esto le ayudará a usted y al equipo de asistencia a comprender la resolución de problemas.
 
 ### Comprobación de conflictos en la cuenta externa {#sms-external-accounts-check}
 
@@ -258,7 +258,7 @@ Una conexión se considera inestable si ocurre alguna de estas cosas:
 
 * Compruebe que la conexión sea estable: una conexión SMPP debe permanecer activa durante al menos 1 hora de forma continua. Consulte la sección &quot;Problema con conexiones inestables&quot; anterior.
 * Si al reiniciar el proceso de SMS hace que el envío de MT vuelva a funcionar por un período de tiempo corto, es probable que tenga un estrangulamiento debido a una conexión inestable. Consulte la sección &quot;Problema con conexiones inestables&quot; anterior.
-* Compruebe que el registro general está presente y en el estado correcto con las fechas correctas. Si no es así, no se trata de un problema de SMS, sino de un problema de envío o de preparación de envíos (que está fuera del ámbito de este documento).
+* Compruebe que el registro general está presente y en el estado correcto con las fechas correctas. Si no es así, no es un problema de SMS, sino de envío o de preparación de envíos (que está fuera del ámbito de este documento).
 * Compruebe que el conector SMS está vinculado con el equipo del proveedor. Pídale comentarios al proveedor para asegurarse de que todos los sistemas se comunican correctamente. Consulte PDU BIND_TRANSMITTER y BIND_TRANSCEIVER para obtener información sobre el proceso de enlace. Es posible que deba habilitar los seguimientos del SMPP para la correcta resolución de problemas.
 * Con los seguimientos del SMPP activados, compruebe que la PDU SUBMIT_SM contenga la información correcta (consulte la documentación anterior).
 * Compruebe que el proveedor responde con una PDU SUBMIT_SM_RESP con un valor &quot;OK&quot; (código 0). Asegúrese de que la PDU llega con un retraso razonable: cualquier valor superior a 1 segundo es sospechoso y debe ser consultado con el proveedor, normalmente llega en menos de 100 ms.
@@ -281,12 +281,12 @@ Mitigación de la cantidad de duplicados cuando hay un reintento:
 
 * Necesitará los seguimientos del SMPP habilitados para realizar cualquier tipo de resolución de problemas de SR.
 * Compruebe que la PDU DELIVER_SM proviene del proveedor y que está bien formada.
-* Compruebe que Campaign responde con una PDU DELIVER_SM_RESP correcta de manera oportuna. Esto garantiza que el SR se ha insertado en la tabla providerMsgStatus para que el proceso SMS lo procese de forma diferida.
+* Compruebe que Campaign responde con una PDU DELIVER_SM_RESP correcta de manera oportuna. Esto garantiza que el SR se ha insertado en la tabla providerMsgStatus para que el proceso de SMS lo procese de forma diferida.
 
 Si la PDU DELIVER_SM no se reconoce correctamente, debe comprobar algunas cosas:
 
 * Compruebe las expresiones regulares (regex) relacionadas con la extracción de ID y el procesamiento de errores en la cuenta externa. Es posible que tenga que validarlas con el contenido de la PDU DELIVER_SM.
-* Compruebe que los errores estén aprovisionados correctamente en la tabla broadLogMsg (la documentación de Campaign lo explica en detalle).
+* Compruebe que los errores se hayan aprovisionado correctamente en la tabla broadLogMsg (la documentación de Campaign lo explica en detalle).
 
 Si el conector SMPP extendido ACC ha reconocido la PDU DELIVER_SM pero el broadLog no se actualiza correctamente, compruebe el proceso de reconciliación de ID descrito en la sección Coincidencia de las entradas de MT, SR y broadlog anterior.
 

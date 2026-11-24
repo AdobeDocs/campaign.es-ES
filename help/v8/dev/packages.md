@@ -47,16 +47,16 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 30b0f5eda9c80b72af5c8574e01cec6965b05564
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1949'
-ht-degree: 50%
+ht-degree: 48%
 ---
 # Trabajo con paquetes de datos{#data-packages}
 
 ## Introducción a los paquetes {#gs-data-packages}
 
-Puede utilizar paquetes de datos para exportar e importar la configuración y los datos personalizados de la plataforma. Los paquetes pueden contener diferentes tipos de configuraciones y componentes, filtrados o no.
+Puede utilizar paquetes de datos para exportar e importar la configuración y los datos personalizados de la plataforma. Un paquete puede contener diferentes tipos de configuraciones y componentes, filtrados o no.
 
 En los paquetes de datos de Campaign, las entidades de la base de datos de Adobe Campaign se muestran en archivos XML. En un paquete, cada entidad se representa con todos sus datos.
 
@@ -344,7 +344,7 @@ Este tipo de paquete:
 
 **Campañas**
 
-Este paquete no es obligatorio. A veces resulta útil crear un tipo específico para todas las campañas, incluso si una campaña se puede ver como una función.
+Este paquete no es obligatorio. A veces resulta útil crear un tipo específico para todas las campañas, incluso si una campaña puede verse como una función.
 
 **Actualizaciones**
 
@@ -369,7 +369,7 @@ Por ejemplo, puede utilizar la siguiente convención:
 
 #### Orden de paquetes de entidades {#entity-packages-order}
 
-Para ayudar a la importación, los paquetes de entidades deben ordenarse a medida que se importan.
+Para ayudar a la importación, los paquetes de entidades deben ordenarse tal como deben importarse.
 
 Por ejemplo:
 

@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: e633414f053265108e33aa63d7b7504d307e05c3
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '3132'
-ht-degree: 98%
+ht-degree: 96%
 ---
 # Cálculo de métricas de informes integradas {#metrics-calculation}
 
@@ -416,7 +416,7 @@ Este informe se basa en la tabla **[!UICONTROL Internet Browser Statistics]** (n
   <tr> 
    <td> Páginas visitadas<br /> </td> 
    <td> @totalPages/@days<br /> </td> 
-   <td> Promedio diario del número total de clics en los vínculos de envíos por sistema operativo para todas las entregas.<br /> </td> 
+   <td> Promedio diario del número total de clics en los vínculos de envío por sistema operativo para todos los envíos.<br /> </td> 
    <td> Sum(@pages)<br /> </td> 
   </tr> 
   <tr> 
@@ -809,7 +809,7 @@ Este informe se basa en la tabla **[!UICONTROL Delivery]** (nms:delivery).
 
 Este informe se basa en las tablas de envío (nms:delivery) y **[!UICONTROL Consolidated tracking]** (nms:trackingStats).
 
-Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los vínculos de baja de bloques personalizados y los vínculos de páginas espejo se tienen en cuenta en el total de clics acumulados, pero no se visualizan en el informe.
+Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los bloques personalizados, los vínculos de baja de suscripción y los vínculos de páginas espejo se tienen en cuenta en el total de clics acumulados, pero no se muestran en el informe.
 
 ## Estadísticas de seguimiento {#tracking-statistics-1}
 
@@ -940,7 +940,7 @@ Si observa desincronizaciones o incoherencia en determinados indicadores, selecc
 
 ## Aperturas de seguimiento {#tracking-opens-}
 
-Para que Adobe Campaign detecte las aperturas del mensaje, el destinatario debe bajar las imágenes del correo electrónico. Los correos electrónicos HTML con varias partes o alternativos incluyen una imagen de 0 píxeles que permite detectar qué mensajes se han abierto. Dado que los mensajes en formato de texto no incluyen imágenes, es imposible detectar si se han abierto o no. Los valores calculados basados en las aperturas de mensajes siempre son estimaciones debido al margen del error relacionado con la visualización de la imagen.
+Para que Adobe Campaign detecte las aperturas del mensaje, el destinatario debe bajar las imágenes del correo electrónico. Los correos electrónicos HTML y multiparte/alternativos incluyen una imagen de 0 píxeles, que permite detectar qué mensajes se han abierto. Dado que los mensajes en formato de texto no incluyen imágenes, es imposible detectar si se han abierto o no. Los valores calculados basados en las aperturas de mensajes siempre son estimaciones debido al margen del error relacionado con la visualización de la imagen.
 
 ## Personas y destinatarios objetivo {#targeted-persons---recipients}
 

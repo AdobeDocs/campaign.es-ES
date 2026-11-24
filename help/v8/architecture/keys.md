@@ -40,9 +40,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '581'
 ht-degree: 3%
 ---
 # Administración de claves y unicidad {#key-management}
@@ -51,12 +51,12 @@ En el contexto de una implementación [empresarial (FDAC)](enterprise-deployment
 
 La versión 8 de Adobe Campaign usa [!DNL Snowflake] como base de datos principal. La arquitectura distribuida de la base de datos [!DNL Snowflake] no proporciona ningún mecanismo para garantizar la unicidad de una clave dentro de una tabla: los usuarios finales son responsables de la coherencia de claves dentro de la base de datos de Adobe Campaign.
 
-Evitar duplicados en las claves, y especialmente en las claves principales, es obligatorio para conservar la coherencia de la base de datos relacional. Los duplicados en las claves principales producen problemas con las actividades del flujo de trabajo de administración de datos como **Consulta**, **Reconciliación**, **Actualización de datos** y más. Esto es fundamental para definir criterios de reconciliación adecuados al actualizar [!DNL Snowflake] tablas.
+Evitar duplicados en las claves, y especialmente en las claves principales, es obligatorio para conservar la coherencia de la base de datos relacional. Los duplicados en las claves principales producen problemas con las actividades del flujo de trabajo de administración de datos como **Consulta**, **Reconciliación**, **Actualización de datos** y más. Esto es crítico para definir criterios de reconciliación adecuados al actualizar [!DNL Snowflake] tablas.
 
 
 >[!CAUTION]
 >
->Las claves duplicadas no están restringidas a UUID. Puede ocurrir en con los ID, incluidas las claves personalizadas creadas en tablas personalizadas.
+>Las claves duplicadas no están restringidas a UUID. Puede ocurrir con los ID, incluidas las claves personalizadas creadas en tablas personalizadas.
 
 
 ## Servicio de unicidad{#unicity-service}
@@ -90,7 +90,7 @@ Se envía una notificación específica al grupo de operadores **[!UICONTROL Wor
 
 ## Protecciones adicionales {#duplicates-guardrails}
 
-Campaign viene con un conjunto de nuevas protecciones para evitar la inserción de claves duplicadas en la base de datos [!DNL Snowflake].
+Campaign incluye un conjunto de nuevas protecciones para evitar la inserción de claves duplicadas en la base de datos [!DNL Snowflake].
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Campaign viene con un conjunto de nuevas protecciones para evitar la inserción 
 
 ### Preparación del envío {#remove-duplicates-delivery-preparation}
 
-Adobe Campaign elimina automáticamente cualquier UUID duplicado de una audiencia durante la preparación de la entrega. Este mecanismo evita que se produzcan errores al preparar una entrega. Como usuario final, puede comprobar esta información en los registros de envío: algunos destinatarios pueden excluirse del destinatario principal debido a la clave duplicada. En ese caso, se muestra la siguiente advertencia: `Exclusion of duplicates (based on the primary key or targeted records)`.
+Adobe Campaign elimina automáticamente cualquier UUID duplicado de una audiencia durante la preparación de la entrega. Este mecanismo evita que se produzcan errores al preparar una entrega. Como usuario final, puede comprobar esta información en los registros de envío: algunos destinatarios pueden excluirse del destinatario principal debido a claves duplicadas. En ese caso, se muestra la siguiente advertencia: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
 ![](assets/exclusion-duplicates-log.png)
 
@@ -110,7 +110,7 @@ En el contexto de una implementación [Enterprise (FDAC) deployment](enterprise-
 
 ### Consulta de un esquema con duplicados {#query-with-duplicates}
 
-Cuando un flujo de trabajo empieza a ejecutar una consulta en un esquema, Adobe Campaign comprueba si se ha informado de algún registro duplicado en la [tabla de unicidad de auditoría](#unicity-wf). Si es así, el flujo de trabajo registra una advertencia, ya que la operación posterior en los datos duplicados podría afectar al resultado del flujo de trabajo.
+Cuando un flujo de trabajo comienza a ejecutar una consulta en un esquema, Adobe Campaign comprueba si algún registro duplicado aparece en la [tabla de unicidad de auditoría](#unicity-wf). Si es así, el flujo de trabajo registra una advertencia, ya que la operación posterior en los datos duplicados podría afectar al resultado del flujo de trabajo.
 
 ![](assets/query-with-duplicates.png)
 

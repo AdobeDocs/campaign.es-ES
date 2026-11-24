@@ -27,10 +27,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 25%
+source-wordcount: '141'
+ht-degree: 26%
 ---
 # Uso de activadores de Campaign y de Experience Cloud
 
@@ -38,7 +38,7 @@ ht-degree: 25%
 >
 >Como usuario de Cloud Services administrados, [póngase en contacto con Adobe](../start/campaign-faq-comprehensive.md#support) para implementar Experience Cloud déclencheur con Campaign.
 
-Puede utilizar Déclencheur de Experience Cloud para conectar datos entre Adobe Campaign y Adobe Analytics mediante la canalización. La canalización recupera las acciones o déclencheur del usuario desde el sitio web. El abandono del carro de compras es un ejemplo de activador. Los activadores se procesan en Adobe Campaign para enviar correos electrónicos en tiempo casi real.
+Puede utilizar Déclencheur de Experience Cloud para conectar datos entre Adobe Campaign y Adobe Analytics mediante la canalización. La canalización recupera las acciones o activadores de los usuarios desde el sitio web. El abandono del carro de compras es un ejemplo de déclencheur. Los activadores se procesan en Adobe Campaign para enviar correos electrónicos en tiempo casi real.
 
 Obtenga más información acerca de Adobe Campaign y Experience Cloud Déclencheur en [esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/experience-triggers/about-triggers.html?lang=es){target="_blank"}.
 

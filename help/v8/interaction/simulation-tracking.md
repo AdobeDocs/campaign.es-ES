@@ -29,16 +29,16 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 83%
+source-wordcount: '164'
+ht-degree: 66%
 ---
 # Seguimiento de la simulación{#simulation-tracking}
 
 
 
-Una vez finalizada la simulación, se puede analizar su resultado mediante la pestaña **[!UICONTROL Results]** añadida a la ventana de simulación y el informe **[!UICONTROL Breakdown of offers by rank]** disponible en el panel de control.
+Una vez finalizada la simulación, puede analizar su resultado mediante la pestaña **[!UICONTROL Results]**, que se añade a la ventana de simulación, y el informe **[!UICONTROL Breakdown of offers by rank]**, disponible mediante el panel de simulación.
 
 Los resultados de la simulación contienen un desglose de las propuestas por rango y destinatario. Los ejes del sistema de informes también se tienen en cuenta y se muestran en esta pestaña.
 

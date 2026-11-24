@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '992'
 ht-degree: 54%
 ---
 # Trabajo con Campaign y Adobe Target
@@ -159,7 +159,7 @@ Primero debe definir la audiencia:
 
 1. Para crear otra experiencia, haga clic en **[!UICONTROL Add Experience Targeting]**.
 
-A continuación, añada un contenido para cada audiencia:
+A continuación, añada contenido para cada audiencia:
 
 1. Seleccione el nombre de la ubicación que eligió al insertar la oferta dinámica en Adobe Campaign.
 

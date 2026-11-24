@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1830'
 ht-degree: 22%
 ---
 # Configuración de canal de notificaciones push {#push-notification-configuration}
@@ -79,7 +79,7 @@ Para asignar los derechos de **Property** y **Company**, siga los pasos a contin
 1. En la ficha **[!UICONTROL Products]**, seleccione la tarjeta **[!UICONTROL Adobe Experience Platform Data Collection]**.
 1. Seleccione un(a) **[!UICONTROL Product Profile]** existente o cree uno nuevo con el botón **[!UICONTROL New profile]**. Aprenda a crear un nuevo(a) **[!UICONTROL New profile]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=es#ui){target="_blank"}.
 1. En la pestaña **[!UICONTROL Permissions]**, seleccione **[!UICONTROL Property Rights]**.
-1. Haga clic **[!UICONTROL Add all]**. Esto añadirá el siguiente derecho a su perfil de producto:
+1. Haga clic **[!UICONTROL Add all]**. Esto añadirá los siguientes derechos al perfil del producto:
    * **[!UICONTROL Approve]**
    * **[!UICONTROL Develop]**
    * **[!UICONTROL Edit Property]**
@@ -213,7 +213,7 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 1. Escriba el nombre de su aplicación en el campo **[!UICONTROL Label]**.
 1. (opcional) Puede enriquecer el contenido de un mensaje push con **[!UICONTROL Application variables]**. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
 
-   En el ejemplo siguiente, se agregan las variables **mediaURl** y **mediaExt** para crear notificaciones push enriquecidas y, a continuación, se proporciona a la aplicación la imagen que se mostrará en la notificación.
+   En el ejemplo siguiente, se agregan las variables **mediaURl** y **mediaExt** para crear notificaciones push enriquecidas y, a continuación, proporcionar a la aplicación la imagen que se mostrará en la notificación.
 
    ![](assets/ios-app-parameters.png){width="600"}
 

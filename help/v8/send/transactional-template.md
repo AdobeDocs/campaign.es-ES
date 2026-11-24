@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 54%
+source-wordcount: '1203'
+ht-degree: 53%
 ---
 # Crear y publicar una plantilla para la mensajería transaccional{#template-transactional-messages}
 
@@ -262,4 +262,4 @@ Una vez finalizada la cancelación de la publicación:
 
 * Una vez cancelada la publicación de una plantilla, puede eliminarla<!-- from the control instance-->.
 
-  Para ello, selecciónela en la lista y haga clic en el botón **[!UICONTROL Delete]** situado en la parte superior derecha de la pantalla.
+  Para ello, selecciónelo en la lista y haga clic en el botón **[!UICONTROL Delete]** en la parte superior derecha de la pantalla.

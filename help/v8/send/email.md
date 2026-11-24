@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 26%
@@ -105,7 +105,7 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
      Obtenga más información acerca de la administración de la página espejo en [esta sección](mirror-page.md#link-to-mirror-page).
 
-1. Puede definir parámetros adicionales para el correo electrónico, como enviar una copia de los mensajes a una dirección de la BBC, cambiar el formato del mensaje, configurar una codificación específica, etc. Obtenga más información en [esta sección](email-parameters.md).
+1. Puede definir parámetros adicionales para el correo electrónico, como enviar una copia de los mensajes a una dirección de CCO, cambiar el formato del mensaje, configurar una codificación específica, etc. Obtenga más información en [esta sección](email-parameters.md).
 
 1. Una vez que el contenido esté listo, haga clic en **Guardar**: ahora se mostrará en la lista de envíos, en la pestaña **[!UICONTROL Campaigns > Deliveries]**.
 

@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 93%
 ---
 # Recomendaciones para la edición de contenido{#content-editing-best-practices}
 
@@ -105,7 +105,7 @@ La sección superior del editor muestra mensajes relacionados con el estado del 
 * No se ha publicado la aplicación web y no se puede acceder en línea.
 * La aplicación web está en línea. Vuelva a publicar para aplicar cualquier cambio.
 * El contenido de la página no funciona. Debe incluir un formulario HTML (`<form>`)
-* Hay “n” zonas o botones de entrada para configurar.
+* Hay &quot;n&quot; zonas o botones de entrada para configurar.
 * Para habilitar la transición a la página siguiente, se debe vincular la acción “Página siguiente” a un botón o a un vínculo de la página actual.
 
 ### Lista de mensajes al editar una entrega {#list-of-messages-when-editing-a-delivery}

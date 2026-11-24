@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '116'
+ht-degree: 87%
 ---
 # Administración de plantillas{#template-management}
 
@@ -50,4 +50,4 @@ En la pestaña **Campañas**, abra la entrega seleccionada. Haga clic en el bot�
 
 ![](assets/dce_save_model.png)
 
-La nueva plantilla se guarda en el nodo **Resources > Templates > Content templates** de Explorer.
+La nueva plantilla se guardará en el nodo **Recursos > Plantillas > Plantillas de contenido** del explorador.

@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '441'
 ht-degree: 4%
 ---
 # API de campaña de FDAC específicas{#gs-new-api}
@@ -88,7 +88,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
    </soapenv:Envelope>
    ```
 
-1. UUID se devuelve a la respuesta de SOAP:
+1. El UUID se devuelve en la respuesta de SOAP:
 
    ```
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
@@ -164,7 +164,7 @@ Como resultado, la tabla de ensayo se alimenta según lo esperado.
 
 ## Actualización o eliminación de datos{#data-update-api}
 
-La API **xtk.session.IngestExt** está optimizada para actualizar o eliminar datos. Solo para insertar, prefiere **xtk.session.ingest**. Insert funciona si la clave de registro no está en la tabla provisional.
+La API **xtk.session.IngestExt** está optimizada para actualizar o eliminar datos. Solo para insertar, prefiere **xtk.session.ingest**. La opción Insertar funciona cuando la tecla de registro no está en la tabla provisional.
 
 ### Insertar/actualizar
 

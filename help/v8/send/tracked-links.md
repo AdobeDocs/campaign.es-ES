@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 80%
+source-wordcount: '572'
+ht-degree: 76%
 ---
 # Configuración de vínculos rastreados {#how-to-configure-tracked-links}
 
@@ -74,9 +74,9 @@ El seguimiento de mensajes está habilitado de forma predeterminada. Para person
    * **[!UICONTROL Enabled]**: activa el seguimiento en esta dirección URL.
    * **[!UICONTROL Not tracked]**: desactiva el seguimiento en esta dirección URL.
    * **[!UICONTROL Always enabled]**: siempre activa el seguimiento de esta dirección URL. Esta información se guarda de manera que la próxima vez, si la URL aparece de nuevo en el contenido de un mensaje futuro, el seguimiento se activa automáticamente.
-   * **[!UICONTROL Never tracked]**: nunca activa el seguimiento de esta dirección URL. Esta información se guarda de manera que la próxima vez, si la URL aparece de nuevo en un mensaje futuro, su seguimiento se desactiva automáticamente.
+   * **[!UICONTROL Never tracked]**: nunca activa el seguimiento de esta dirección URL. Esta información se guarda de modo que la próxima vez, si la URL aparece de nuevo en un mensaje futuro, su seguimiento se desactiva automáticamente.
    * **[!UICONTROL Opt-out]**: considera esta URL como una URL de exclusión o de baja.
-   * **[!UICONTROL Mirror page]**: considera esta URL como una URL de página espejo.
+   * **[!UICONTROL Mirror page]**: considera esta dirección URL como una dirección URL de página espejo.
 
 1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. Estas categorías se pueden mostrar en los informes, como en el informe **[!UICONTROL URLs and click streams]** (vea [esta sección](../reporting/delivery-reports.md#urls-and-click-streams)). Las categorías se definen en una enumeración específica: **[!UICONTROL urlCategory]**. Obtenga más información acerca de cómo trabajar con enumeraciones en [esta sección](../config/enumerations.md).
 

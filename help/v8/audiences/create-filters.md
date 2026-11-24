@@ -31,9 +31,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1943'
+source-wordcount: '1944'
 ht-degree: 40%
 ---
 # Trabajo con filtros{#create-filters}
@@ -241,14 +241,14 @@ Utilice la última pestaña para previsualizar los datos filtrados.
 
 #### Filtros predeterminados{#default-filters}
 
-Los campos encima de cada lista le permiten usar el **filtro predeterminado predefinido** para esta lista. Para la lista de destinatarios, puede filtrar el nombre y la dirección de correo electrónico de forma predeterminada.
+Los campos situados encima de cada lista permiten utilizar el **filtro predeterminado predefinido** para esta lista. Para la lista de destinatarios, puede filtrar el nombre y la dirección de correo electrónico de forma predeterminada.
 
 ![](assets/filter-recipient-name.png)
 
 
 >[!NOTE]
 >
->El carácter **%** reemplaza cualquier cadena de caracteres. Por ejemplo, escriba `%@gmail.com` en el campo Correo electrónico para mostrar todos los perfiles con una dirección de Gmail. Escriba `%@L` en el campo Apellidos para mostrar todos los perfiles con una L en su apellido.
+>El carácter **%** reemplaza cualquier cadena de caracteres. Por ejemplo, escriba `%@gmail.com` en el campo Correo electrónico para mostrar todos los perfiles con una dirección de Gmail. Escriba `%@L` en el campo Apellidos para mostrar todos los perfiles con una L en el apellido.
 
 Para cambiar el filtro predeterminado de una lista de destinatarios, vaya al nodo **[!UICONTROL Profiles and Targets > Predefined filters]**.
 
@@ -294,7 +294,7 @@ Para crear un **filtro rápido**, siga estos pasos:
    ![](assets/add-filter-above-the-list.png)
 
 
-Si necesita filtrar por un campo que no está disponible en el formulario, sino en las columnas, y filtrar en esa columna. Para ello,
+Si necesita filtrar por un campo que no está disponible en el formulario pero sí en las columnas, filtre por esa columna. Para ello,
 
 1. Haga clic en el icono **[!UICONTROL Configure list]**.
 
@@ -419,7 +419,7 @@ Los parámetros avanzados están disponibles para filtros predefinidos. Para acc
 
 * Para mostrar el filtro de forma predeterminada para todas las listas basadas en este tipo de documento, seleccione la opción **[!UICONTROL Default filter for the associated document type]**.
 
-  Por ejemplo, el filtro **[!UICONTROL By name or login]** se aplica a los operadores Esta opción está seleccionada, por lo que el filtro siempre se muestra en todas las listas de operadores.
+  Por ejemplo, el filtro **[!UICONTROL By name or login]** se aplica a los operadores. Esta opción está seleccionada, de modo que el filtro siempre se muestra en todas las listas de operadores.
 
 * Para que un filtro esté disponible para todos los operadores de Campaign, seleccione la opción **[!UICONTROL Filter shared with other operators]**.
 

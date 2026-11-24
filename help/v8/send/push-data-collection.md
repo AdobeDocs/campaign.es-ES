@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1421'
+source-wordcount: '1422'
 ht-degree: 17%
 ---
 # Configuración de notificaciones push revisada {#push-notifications-config}
@@ -44,7 +44,7 @@ En el contexto de esta implementación actualizada, para enviar notificaciones p
 
 1. [Creación y configuración de una propiedad móvil en la recopilación de datos de Adobe Experience Platform](#create-mobile-property)
 
-1. [Agregar extensión de Adobe Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(recomendado)
+1. [Agregar extensión de Adobe Experience Platform Assurance](https://developer.adobe.com/client-sdks/documentation/platform-assurance-sdk/){target="_blank"}(recomendado)
 
 1. [Añada Campaign Classic a su aplicación móvil](#campaign-mobile-ap)
 
@@ -88,7 +88,7 @@ Se requiere el registro de credenciales push de aplicaciones móviles para autor
 
 1. Proporcione la **ID de clave**. Es una cadena de 10 caracteres asignada durante la creación de la clave de autenticación p8.
 
-   Se encuentra en la pestaña **Keys** de las páginas **Certificados**, **Identificadores** y **Perfiles** de tu cuenta de desarrollador de Apple.
+   Se encuentra en la pestaña **Keys** de las páginas **Certificados**, **Identificadores** y **Perfiles** de su cuenta de desarrollador de Apple.
 
 1. Proporcione el **ID de equipo**. Es un valor de cadena que se encuentra en la ficha **Pertenencia**.
 
@@ -112,7 +112,7 @@ Se requiere el registro de credenciales push de aplicaciones móviles para autor
 
 ### Crear un servicio {#create-service}
 
-Antes de enviar notificaciones push, debe definir la configuración de las aplicaciones de iOS y Android en Adobe Campaign.
+Antes de enviar notificaciones push, debe definir la configuración de la aplicación de iOS y Android en Adobe Campaign.
 
 Las notificaciones push se envían a los usuarios de la aplicación a través de un servicio dedicado. Cuando los usuarios instalan la aplicación, se suscriben a este servicio: Adobe Campaign depende de este servicio para dirigirse únicamente a los suscriptores de la aplicación. En este servicio, debe agregar sus aplicaciones de iOS y Android para enviarlas en dispositivos iOS y Android.
 
@@ -142,7 +142,7 @@ Después de crear el servicio, debe definir las aplicaciones móviles que lo uti
 
 Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
-1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an iOS application]**. Haga clic en **[!UICONTROL Next]**.
+1. En el servicio, haga clic en **[!UICONTROL Add]** y luego seleccione **[!UICONTROL Create an iOS application]**. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/push-config-6.png)
 
@@ -152,7 +152,7 @@ Para crear una aplicación para dispositivos iOS, siga estos pasos:
 
 1. (opcional) Puede enriquecer el contenido de un mensaje push con **[!UICONTROL Application variables]**. Son totalmente personalizables y una parte de la carga útil de mensajes se envía al dispositivo móvil.
 
-   En el ejemplo siguiente, se agregan las variables **mediaURl** y **mediaExt** para crear notificaciones push enriquecidas y, a continuación, se proporciona a la aplicación la imagen que se mostrará en la notificación.
+   En el ejemplo siguiente, se agregan las variables **mediaURl** y **mediaExt** para crear notificaciones push enriquecidas y, a continuación, proporcionar a la aplicación la imagen que se mostrará en la notificación.
 
    ![](assets/push-config-8.png)
 
@@ -189,7 +189,7 @@ La aplicación de iOS ya está lista para su uso en Campaign.
 
 Para crear una aplicación para dispositivos Android, siga estos pasos:
 
-1. En su servicio, haga clic en **[!UICONTROL Add]** y seleccione **[!UICONTROL Create an Android application]**. Haga clic en **[!UICONTROL Next]**.
+1. En el servicio, haga clic en **[!UICONTROL Add]** y luego seleccione **[!UICONTROL Create an Android application]**. Haga clic en **[!UICONTROL Next]**.
 
    ![](assets/push-config-10.png)
 

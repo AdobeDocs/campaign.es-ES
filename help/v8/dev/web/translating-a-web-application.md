@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 100%
+source-wordcount: '365'
+ht-degree: 93%
 ---
 # Traducción de una aplicación web{#translating-a-web-application}
 
@@ -55,7 +55,7 @@ Para marcar las cadenas que se deben traducir:
 
    Hay tres casos específicos:
 
-   * Cuando el bloque seleccionado contiene varias cadenas o bloques, se marca como una sola cadena que se debe traducir. Entonces, la cadena contiene el código HTML de los elementos de este bloque.
+   * Cuando el bloque seleccionado contiene varias cadenas o bloques, se marca como una sola cadena que se debe traducir. A continuación, la cadena contiene el código HTML de los elementos de este bloque.
    * Cuando se desea marcar un bloque que contiene varias cadenas y al menos una de ellas está marcada, se muestra un mensaje de advertencia. A continuación, se puede eliminar la marca de la cadena aislada y añadir el bloque completo.
 
      ![](assets/dce_translation_4.png)
@@ -69,7 +69,7 @@ Para marcar las cadenas que se deben traducir:
 
    >[!NOTE]
    >
-   >Una vez que estén recopiladas las cadenas, estas no se quitan de la lista si se elimina la marca de traducción en el DCE. Esto permite mantenerlos en la memoria de traducción.
+   >Una vez que estén recopiladas las cadenas, estas no se quitan de la lista si se elimina la marca de traducción en el DCE. Esto le permite mantenerlos en la memoria de traducción.
 
 1. Traducción y aprobación de las cadenas.
 

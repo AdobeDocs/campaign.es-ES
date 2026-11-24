@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1590'
-ht-degree: 56%
+source-wordcount: '1592'
+ht-degree: 52%
 ---
 # Trabajo con Campaign y Adobe Analytics {#ac-aa}
 
@@ -199,7 +199,7 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
    >[!NOTE]
    >
-   >Los campos ID de campaña e ID de carga amplia se recopilan mediante JavaScript en la página de aterrizaje o mediante reglas de procesamiento. [Más información sobre las reglas de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >Los campos ID de campaña e ID de broadlog se recopilan mediante JavaScript en la página de aterrizaje o mediante reglas de procesamiento. [Más información sobre las reglas de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![](assets/analytics_connnector_11.png)
 
@@ -239,8 +239,8 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
 1. La pestaña **[!UICONTROL Advanced]** permite configurar o modificar más ajustes técnicos.
 
-   * **[!UICONTROL Lifespan]**: permite especificar el retraso (en días) después del cual los eventos web se recuperan en Adobe Campaign mediante flujos de trabajo técnicos. Predeterminado: 180 días.
-   * **[!UICONTROL Persistence]**: permite especificar el periodo durante el cual se pueden atribuir todos los eventos web (una compra, por ejemplo) a una nueva campaña de marketing. Predeterminado: 7 días.
+   * **[!UICONTROL Lifespan]**: permite especificar el retraso (en días) tras el cual los eventos web se recuperan en Adobe Campaign mediante flujos de trabajo técnicos. Predeterminado: 180 días.
+   * **[!UICONTROL Persistence]**: permite especificar el período durante el cual se pueden atribuir todos los eventos web (una compra, por ejemplo) a una nueva campaña de marketing. Predeterminado: 7 días.
 
 >[!NOTE]
 >
@@ -273,7 +273,7 @@ Los indicadores implicados son:
 
 >[!NOTE]
 >
->Los datos enviados son la información delta basada en el último resumen que puede generar un valor negativo en los datos de la métrica.
+>Los datos enviados son la información delta basada en el último resumen que puede generar valores negativos en los datos de la métrica.
 
 Los atributos enviados son los siguientes:
 
@@ -308,7 +308,7 @@ Para preparar la campaña de remarketing, simplemente cree plantillas de entrega
 
 Las campañas de remarketing se inician automáticamente una vez que Adobe Campaign ha terminado de recuperar los segmentos analizando el comportamiento de las personas a las que se dirigió la campaña inicial. En caso de abandono del carro de compras o de la visualización del producto sin compra, se realiza una entrega a los destinatarios en cuestión para que la navegación por su sitio finalice su compra.
 
-Adobe Campaign proporciona plantillas de entrega personalizadas que puede utilizar o aplicar a bases de datos propias para preparar las campañas.
+Adobe Campaign proporciona plantillas de envío personalizadas que puede utilizar o en las que puede basarse para preparar campañas.
 
 1. En **[!UICONTROL Explorer]**, vaya a la carpeta **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** del árbol de Adobe Campaign.
 1. Duplique la plantilla de **[!UICONTROL Email delivery (re-marketing)]** o los ejemplos de plantilla de remarketing que ofrece Adobe Campaign.

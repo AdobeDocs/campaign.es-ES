@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1382'
-ht-degree: 99%
+ht-degree: 96%
 ---
 # Definición de las propiedades de los formularios web{#defining-web-forms-properties}
 
@@ -107,7 +107,7 @@ En la parte inferior de la ventana de propiedades se muestra una renderización 
 
 Puede cambiar el logotipo utilizado en el formulario por su propio logotipo.
 
-En la pestaña **[!UICONTROL Rendering]** de las **[!UICONTROL Properties]** de su aplicación web, haga clic en el icono de lupa de la plantilla:
+En la ficha **[!UICONTROL Rendering]** dentro de **[!UICONTROL Properties]** de su aplicación web, haga clic en el icono de cristal de su plantilla:
 
 ![](assets/logo_glass.png)
 
@@ -115,7 +115,7 @@ En la nueva ventana, haga clic en el vínculo **[!UICONTROL Page layout]**:
 
 ![](assets/logo_pagelayout.png)
 
-Aquí tiene la posibilidad de cambiar la ruta de la imagen del logotipo:
+Aquí puede cambiar la ruta de la imagen del logotipo:
 
 ![](assets/logo_path.png)
 

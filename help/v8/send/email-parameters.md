@@ -20,9 +20,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '941'
 ht-degree: 41%
 ---
 # Parámetros de correo electrónico {#email-parameters}
@@ -81,7 +81,7 @@ La pestaña **[!UICONTROL SMTP]** de las propiedades de entrega también permite
 
 * **[!UICONTROL Errors-to-address]**: de forma predeterminada, los correos electrónicos rechazados se reciben en el cuadro de error predeterminado de la plataforma, pero se puede definir una dirección de error específica para una entrega.
 
-* **[!UICONTROL Bounce address]**: también puede definir otra dirección a la que se reenviarán los correos electrónicos rechazados sin procesar. Esta dirección permite investigar las razones de la devolución cuando la aplicación no pudo calificar automáticamente los correos electrónicos.
+* **[!UICONTROL Bounce address]**: también puede definir otra dirección a la que se reenviarán los correos electrónicos rechazados sin procesar. Esta dirección le permite investigar las razones de la devolución cuando la aplicación no pudo calificar automáticamente los correos electrónicos.
 
 Cada uno de estos campos se puede personalizar mediante el icono dedicado. Obtenga más información sobre los campos de personalización en [esta sección](personalization-fields.md).
 

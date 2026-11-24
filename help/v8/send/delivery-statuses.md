@@ -35,10 +35,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 66%
+source-wordcount: '558'
+ht-degree: 64%
 ---
 # Estados de la entrega {#delivery-statuses}
 
@@ -70,7 +70,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
   </tr> 
   <tr> 
    <td> Ignorado<br /> </td> 
-   <td> No se realizó la entrega al destinatario debido a un error con su dirección. Se lo incluyó en una lista de bloqueados o en cuarentena, no se proporcionó o está duplicado. <br /> </td> 
+   <td> No se realizó la entrega al destinatario debido a un error con su dirección. Se encontraba en la lista de bloqueados de la, en cuarentena, no se ha proporcionado o está duplicado. <br /> </td> 
   </tr> 
   <tr> 
    <td> Error<br /> </td> 

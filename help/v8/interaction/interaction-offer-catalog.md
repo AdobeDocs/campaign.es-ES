@@ -22,10 +22,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 29%
+ht-degree: 31%
 ---
 # Creación de un catálogo de ofertas
 
@@ -43,7 +43,7 @@ Para cada categoría, puede definir **fechas de idoneidad**, que es el período 
 
 Para crear una categoría nueva, siga los pasos a continuación:
 
-1. Navegador a la carpeta **[!UICONTROL Offer catalog]**.
+1. Examine la carpeta **[!UICONTROL Offer catalog]**.
 
    ![](assets/offer_cat_create_001.png)
 
@@ -67,13 +67,13 @@ Para crear una categoría nueva, siga los pasos a continuación:
 
    * **[!UICONTROL Edit query]** para aplicar filtros al destino de la oferta.
 
-   * Un resumen de las reglas de idoneidad.Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
+   * Un resumen de las reglas de idoneidad. Para visualizarlos, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules of the offer]**.
 
 ## Agregar una categoría de reserva
 
 Para asegurarse de que todos los destinatarios reciban una propuesta de oferta, es posible añadir de forma sistemática una o varias categorías de ofertas en las recomendaciones.
 
-Estas ofertas de reserva deben tener una ponderación baja (pero no nula), de modo que solo se tengan en cuenta si ninguna oferta de ponderación mayor es elegible.
+Estas ofertas de reserva deben tener una ponderación baja (pero no nula), de modo que solo se tengan en cuenta si ninguna oferta de ponderación superior es elegible.
 
 Además, no debe haber ninguna regla de presentación aplicada a estas ofertas para asegurarse de que se incluyen siempre en las recomendaciones. Esto significa que, durante una propuesta, si no hay una oferta de mayor peso disponible, el destinatario recibe como mínimo una oferta de esta categoría.
 

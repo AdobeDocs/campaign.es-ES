@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1028'
-ht-degree: 60%
+ht-degree: 58%
 ---
 # Informes de envío {#delivery-reports}
 
@@ -35,7 +35,7 @@ Se puede realizar un seguimiento de la ejecución de los envíos a través de di
 Para acceder a los informes, siga los pasos a continuación:
 
 1. Vaya a la pestaña **[!UICONTROL Campaigns]** y haga clic en el vínculo **[!UICONTROL Delivery]** para mostrar la lista de envíos.
-1. Haga clic en el nombre de la entrega al que desee acceder.
+1. Haga clic en el nombre de la entrega a cuyos informes desee acceder.
 1. Seleccione la pestaña **[!UICONTROL Summary]** y haga clic en el vínculo **[!UICONTROL Reports]** para acceder a los informes específicos de la entrega.
 
    ![](assets/detailed-report-2.png)
@@ -192,7 +192,7 @@ Esta sección incluye los siguientes indicadores:
 
 ## Clics activos {#hot-clicks}
 
-Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los bloques personalizados, los vínculos de cancelación de suscripción, los vínculos de páginas espejo y los vínculos de ofertas se tienen en cuenta en el total de clics acumulados, pero no se muestran en el informe.
+Este informe muestra el contenido del mensaje (HTML o texto) con el porcentaje de clics en los vínculos, por cada vínculo. Los bloques personalizados, los vínculos de baja de suscripción, los vínculos de páginas espejo y los vínculos de ofertas se tienen en cuenta en el total de clics acumulados, pero no se muestran en el informe.
 
 >[!NOTE]
 >

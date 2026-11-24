@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 31%
@@ -42,7 +42,7 @@ Para configurar el contenido de su envío de SMS:
 
    ![](assets/sms_content.png){zoomable="yes"}
 
-1. Puede personalizar el mensaje insertando campos personalizados (por ejemplo, añadiendo el nombre) o insertando bloques personalizados predefinidos (por ejemplo, añadiendo los saludos). Haga clic en el botón de personalización para añadir lo siguiente:
+1. Puede personalizar el mensaje insertando campos de personalización (por ejemplo, añadiendo el nombre) o bloques de personalización predefinidos (por ejemplo, añadiendo los saludos). Haga clic en el botón de personalización para añadir lo siguiente:
 
    ![](assets/sms_perso.png){zoomable="yes"}
 
@@ -52,7 +52,7 @@ Para configurar el contenido de su envío de SMS:
 
    Obtenga más información acerca de la personalización en Adobe Campaign en [esta sección](../personalize.md).
 
-1. Puede obtener una vista previa del contenido de su envío desde la pestaña **[!UICONTROL Preview]**. Para comprobar la configuración de personalización, haga clic en la lista desplegable **[!UICONTROL Test personalization]** y seleccione un destinatario.
+1. Puede obtener una vista previa del contenido de la entrega desde la pestaña **[!UICONTROL Preview]**. Para comprobar la configuración de personalización, haga clic en la lista desplegable **[!UICONTROL Test personalization]** y seleccione un destinatario.
 
    ![](assets/sms_preview.png){zoomable="yes"}
 

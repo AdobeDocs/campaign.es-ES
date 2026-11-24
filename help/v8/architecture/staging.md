@@ -34,14 +34,14 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '322'
 ht-degree: 2%
 ---
 # Mecanismo de ensayo de API de Campaign
 
-En el contexto de una implementación [empresarial (FDAC)](enterprise-deployment.md), no se recomienda la limpieza de llamadas unitarias con respecto al rendimiento (latencia y concurrencia). A menos que esté enviando un volumen extremadamente bajo, se debe **usar la operación por lotes**. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
+En el contexto de una implementación [empresarial (FDAC)](enterprise-deployment.md), no se recomienda la limpieza de llamadas unitarias con respecto al rendimiento (latencia y concurrencia). A menos que esté enviando un volumen extremadamente bajo, se deben **usar las operaciones por lotes**. Para mejorar el rendimiento, las API de ingesta se redirigen a la base de datos local.
 
 La capacidad de ensayo de Campaign está habilitada de forma predeterminada en algunos esquemas integrados. También podemos habilitarlo en cualquier esquema personalizado. Mecanismo de ensayo en pocas palabras:
 
@@ -51,7 +51,7 @@ La capacidad de ensayo de Campaign está habilitada de forma predeterminada en a
 
 Algunos esquemas integrados están clasificados de forma predeterminada, como nmsSubscriptionRcp, nmsAppSubscriptionRcp, nmsRecipient.
 
-Las API de Campaign Classic v7 siguen estando disponibles, pero no pueden beneficiarse de este nuevo mecanismo de ensayo: las llamadas de API fluyen directamente a la base de datos en la nube. Adobe recomienda utilizar el nuevo mecanismo de ensayo lo más posible para reducir la presión general y la latencia en la base de datos de Campaign Cloud.
+Las API de Campaign Classic v7 siguen estando disponibles, pero no pueden beneficiarse de este nuevo mecanismo de ensayo: las llamadas de API fluyen directamente a la base de datos en la nube. Adobe recomienda utilizar el nuevo mecanismo de ensayo en la medida de lo posible para reducir la presión general y la latencia en la base de datos de Campaign Cloud.
 
 >[!CAUTION]
 >

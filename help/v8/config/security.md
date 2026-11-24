@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2947'
-ht-degree: 51%
+ht-degree: 50%
 ---
 # Prácticas recomendadas de seguridad de Campaign {#ac-security}
 
@@ -103,7 +103,7 @@ Adobe Campaign forma parte de las soluciones de Adobe Experience Cloud. La forma
 
 * **Opciones de privacidad de los usuarios sobre el uso de Adobe Experience Cloud**
 
-  Adobe le pide que proporcione políticas de privacidad a sus clientes que describan lo siguiente:
+  Adobe le pide que proporcione las políticas de privacidad de sus clientes que describen lo siguiente:
 
   * Sus prácticas en cuanto a privacidad en relación con Adobe Experience Cloud
   * Cómo pueden los usuarios definir sus preferencias para la recopilación o el uso de su información en conexión con Adobe Experience Cloud
@@ -292,7 +292,7 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 Debe asegurarse de que los usuarios autenticados con privilegios bajos no puedan acceder a las contraseñas cifradas. Para ello, hay dos formas principales: restringir el acceso solo a campos de contraseña o a toda la entidad.
 
-Esta restricción permite eliminar los campos con contraseñas, pero deja la cuenta externa accesible desde la interfaz para todos los usuarios. Obtenga más información en [esta página](../dev/restrict-pi-view.md).
+Esta restricción permite eliminar los campos con contraseña, pero deja la cuenta externa accesible desde la interfaz para todos los usuarios. Obtenga más información en [esta página](../dev/restrict-pi-view.md).
 
 1. Ir en **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 

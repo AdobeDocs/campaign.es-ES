@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: aa436bfd174075f7ed3e144ea0b16832b6b811ff
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 96%
+ht-degree: 93%
 ---
 # Caso de uso: visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -69,7 +69,7 @@ Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
    ![](assets/reporting_usecase_1_01.png)
 
-1. Seleccione las columnas que desee extraer (en este caso, seleccione: todos los campos archivados). Son los campos que contienen las respuestas.
+1. Seleccione las columnas que desea extraer (en este caso, seleccione todos los campos archivados). Son los campos que contienen las respuestas.
 
    ![](assets/reporting_usecase_1_02.png)
 

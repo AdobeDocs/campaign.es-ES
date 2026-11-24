@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1276'
+source-wordcount: '1278'
 ht-degree: 58%
 ---
 # Enviar una oferta{#send}
@@ -189,7 +189,7 @@ Esta actividad funciona con el mismo principio que la actividad **Enrichment** c
 Después de configurar su actividad **Consulta**:
 
 1. Añada y abra una actividad **[!UICONTROL Offer engine]**.
-1. Complete los distintos campos disponibles para especificar el uso de los parámetros del motor de oferta (ofrecer espacio, categoría o tema, fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar.
+1. Complete los distintos campos disponibles para especificar el uso de los parámetros del motor de oferta (espacio de oferta, categoría o tema, fecha de contacto, número de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar.
 
    >[!CAUTION]
    >

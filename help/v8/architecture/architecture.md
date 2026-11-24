@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 66d00cbaf20d714f56ab02bba593cff4a0d23571
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1073'
 ht-degree: 13%
 ---
 # Introducción a la arquitectura de Campaign{#gs-ac-archi}
@@ -129,7 +129,7 @@ La mensajería transaccional (Centro de mensajes) es el módulo de Campaign dise
 
 Aprenda a enviar mensajes transaccionales en [esta sección](../send/transactional.md).
 
-En respuesta a una acción de un cliente en un sitio web, se envía un evento de Campaign a través de una API de REST, y la plantilla de mensaje se rellena con la información o los datos proporcionados a través de la llamada de API, y se envía un mensaje transaccional en tiempo real al cliente. Estos mensajes se pueden enviar por separado o en serie por correo electrónico, SMS o notificaciones push.
+En respuesta a una acción de un cliente en un sitio web, se envía un evento a Campaign a través de una API de REST, y la plantilla de mensaje se rellena con la información o los datos proporcionados a través de la llamada de API, y se envía un mensaje transaccional en tiempo real al cliente. Estos mensajes se pueden enviar por separado o en serie por correo electrónico, SMS o notificaciones push.
 
 En esta arquitectura específica, la celda de ejecución se separa de la instancia de control para garantizar una alta disponibilidad y administración de la carga.
 

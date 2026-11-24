@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Landing pages
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 94%
+source-wordcount: '988'
+ht-degree: 85%
 ---
 # Casos de uso: Formularios web{#use-cases-web-forms}
 
@@ -63,7 +63,7 @@ Los mensajes de confirmación se envían a través de una plantilla de envíos d
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_1d.png)
 
-1. Debido a que los destinatarios de este envío no han confirmado su aprobación, aún se encuentran en la lista de bloqueados de la base de datos. Para que reciban esta comunicación, debe autorizar las entregas basadas en esta plantilla para dirigirse a los destinatarios en la lista de bloqueados.
+1. Debido a que los destinatarios de este envío no han confirmado su aprobación, aún se encuentran en la lista de bloqueados de la base de datos. Para que reciban esta comunicación, debe autorizar las entregas basadas en esta plantilla para dirigirse a los destinatarios en la lista de bloqueados de la.
 
    Para ello, haga clic en la pestaña **[!UICONTROL Exclusions]**.
 
@@ -121,7 +121,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6f.png)
 
-   La primera actividad **[!UICONTROL Script]** coloca en la lista de bloqueados a los destinatarios hasta que confirmen su suscripción al boletín informativo. El contenido debe ser el siguiente:
+   La primera actividad **[!UICONTROL Script]** agregará destinatarios en la lista de bloqueados de la hasta que hayan confirmado su suscripción al boletín informativo. El contenido debe ser el siguiente:
 
    ```
    ctx.recipient.@blackList=1
@@ -129,7 +129,7 @@ Para realizar esto, siga los pasos a continuación:
 
    ![](assets/s_ncs_admin_survey_double-opt-in_sample_6bbis.png)
 
-   La segunda actividad **[!UICONTROL Script]** autoriza las entregas a los usuarios y los suscribe al boletín informativo. Las dos últimas líneas de la secuencia de comandos permiten transferir los destinatarios de la carpeta temporal a otra carpeta y reconciliarlos con perfiles existentes justo tras confirmar la suscripción.
+   La segunda actividad **[!UICONTROL Script]** autoriza las entregas a los usuarios y los suscribe al boletín informativo. Las dos últimas líneas de la secuencia de comandos permiten transferir los destinatarios de la carpeta temporal a otra carpeta y reconciliarlos con perfiles existentes en cuanto confirmen la suscripción.
 
    ```
    ctx.recipient.@blackList=0

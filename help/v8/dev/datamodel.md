@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 5%
 ---
 # Introducción al modelo de datos de Campaign {#gs-ac-datamodel}
@@ -47,7 +47,7 @@ La estructura básica del modelo de datos de Adobe Campaign se puede describir d
 
 * **Tabla de destinatarios**: el modelo de datos se basa en una tabla principal que es, de forma predeterminada, la tabla de destinatarios (**nmsRecipient**). Esta tabla almacena todos los perfiles de marketing. Obtenga más información acerca de la tabla de destinatarios en [esta sección](#ootb-profiles).
 
-* **Tabla de envío**: Esta tabla almacena un registro por acción de envío. Normalmente es la tabla de envío (**NmsDelivery**). en esta tabla representa una acción de envío o una plantilla de envío. Contiene todos los parámetros necesarios para realizar envíos como destinatario, contenido, etc. Cada registro se actualiza varias veces para reflejar el progreso de la entrega
+* **Tabla de envío**: Esta tabla almacena un registro por acción de envío. Normalmente es la tabla de envío (**NmsDelivery**). Un registro de esta tabla representa una acción de envío o una plantilla de envío. Contiene todos los parámetros necesarios para realizar envíos como destinatario, contenido, etc. Cada registro se actualiza varias veces para reflejar el progreso de la entrega
 
 * **Tablas de registros**: estas tablas almacenan todos los registros asociados con la ejecución de las campañas.
 

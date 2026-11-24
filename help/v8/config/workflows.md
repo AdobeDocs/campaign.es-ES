@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '644'
 ht-degree: 14%
 ---
 # Introducción a los flujos de trabajo{#gs-with-workflows}
@@ -52,7 +52,7 @@ Puede configurar lo siguiente:
 
 >[!NOTE]
 >
->La interfaz de usuario web de Adobe Campaign viene con un lienzo reinventado para los flujos de trabajo, lo que permite crear recorridos de cliente más dinámicos y personalizados. Para obtener más información sobre los flujos de trabajo para la interfaz de usuario web, consulte [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
+>La interfaz de usuario web de Adobe Campaign viene con un lienzo reinventado para los flujos de trabajo, que le permite crear recorridos de cliente más dinámicos y personalizados. Para obtener más información sobre los flujos de trabajo para la interfaz de usuario web, consulte [Documentación de la interfaz de usuario web de Adobe Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/wf/gs-workflows){target=_blank}.
 
 
 ## Diseñar y utilizar flujos de trabajo {#gs-ac-wf}

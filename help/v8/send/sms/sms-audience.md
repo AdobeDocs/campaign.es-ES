@@ -26,9 +26,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '460'
 ht-degree: 17%
 ---
 # Selección de la audiencia de envío de SMS {#sms-audience}
@@ -76,7 +76,7 @@ Para seleccionar la audiencia de su envío, siga los pasos a continuación:
 
    ![](assets/audience_finish.png){zoomable="yes"}
 
-   Puede agregar la población objetivo tantas como necesite al hacer clic de nuevo en el botón **[!UICONTROL Add]**. También puede eliminar algunos de ellos haciendo clic en la cruz situada después de su etiqueta.
+   Puede agregar tantas poblaciones objetivo como necesite haciendo clic nuevamente en el botón **[!UICONTROL Add]**. También puede eliminar algunos de ellos haciendo clic en la cruz situada después de su etiqueta.
 
 ## Audiencia en un archivo externo {#external-audience}
 

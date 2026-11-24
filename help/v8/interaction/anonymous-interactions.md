@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 75%
+source-wordcount: '400'
+ht-degree: 70%
 ---
 # Interacciones anónimas {#anonymous-interactions}
 
@@ -49,7 +49,7 @@ Aparece el campo **[!UICONTROL Visitor folder]**. Se completa automáticamente p
 
 Al igual que las interacciones de salida, las interacciones entrantes se organizan en un catálogo de ofertas que consta de categorías y ofertas.
 
-Para crear categorías y espacios, aplique el mismo proceso que para los visitantes identificados. Consulte [Crear una categoría de oferta](interaction-offer-catalog.md#creating-offer-categories) y [Crear un entorno de oferta](interaction-env.md#create-an-offer-environment)).
+Para crear categorías y espacios, aplique el mismo proceso que para los visitantes identificados. Consulte [Crear una categoría de oferta](interaction-offer-catalog.md#creating-offer-categories) y [Crear un entorno de oferta](interaction-env.md#create-an-offer-environment).
 
 ## Visitantes anónimos {#anonymous-visitors}
 

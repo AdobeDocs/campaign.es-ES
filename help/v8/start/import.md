@@ -29,9 +29,9 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3849'
+source-wordcount: '3848'
 ht-degree: 96%
 ---
 # Importación de datos en Campaign {#ootb-profiles}
@@ -443,7 +443,7 @@ Haga clic en **[!UICONTROL Start the preview of the data]** para obtener una pre
 
 >[!NOTE]
 >
->Como en todas las listas disponibles en la consola, de forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. Para cambiar esto, ingrese un número en el cuadro **[!UICONTROL Lines to display]** y haga clic en **[!UICONTROL Start the preview of the data]**. [Más información](../config/ui-settings.md#customize-lists)
+>En cuanto a todas las listas disponibles en la consola, de forma predeterminada, solo se muestran las 200 primeras líneas en la ventana **[!UICONTROL Data preview]**. Para cambiar esto, ingrese un número en el cuadro **[!UICONTROL Lines to display]** y haga clic en **[!UICONTROL Start the preview of the data]**. [Más información](../config/ui-settings.md#customize-lists)
 
 Haga clic en las pestañas de la parte inferior del asistente para cambiar de la vista previa de los resultados en columnas a los resultados en XML. También puede ver las consultas SQL generadas.
 

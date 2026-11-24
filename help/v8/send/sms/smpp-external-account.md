@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3638'
-ht-degree: 28%
+source-wordcount: '3642'
+ht-degree: 27%
 ---
 # Configuración de cuenta externa de SMPP {#smpp-external-account}
 
@@ -178,7 +178,7 @@ enquire_link es un tipo especial de PDU enviado para mantener la conexión viva.
 
 Consulte la [sección de codificación de texto SMS](sms-channel.md#sms-text-encoding) para obtener detalles sobre la codificación de texto.
 
-Esta configuración permite definir una asignación de codificación personalizada, diferente de la especificación. Podrá declarar una lista de codificaciones, junto con su valor data_coding. El MTA intentará codificar utilizando la primera codificación de la lista; si falla, intenta utilizar la siguiente codificación en la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error. Una vez encontrada la codificación, el MTA creará la PDU SUBMIT_SM con el texto codificado y el campo data_coding establecido con el valor especificado en la tabla.
+Esta configuración le permite definir una asignación de codificación personalizada, diferente de la especificación. Podrá declarar una lista de codificaciones, junto con su valor data_coding. El MTA intentará codificar utilizando la primera codificación de la lista; si falla, intenta utilizar la siguiente codificación en la lista, etc. Si no se puede utilizar ninguna codificación para codificar el mensaje, se producirá un error. Una vez encontrada la codificación, el MTA creará la PDU SUBMIT_SM con el texto codificado y el campo data_coding establecido con el valor especificado en la tabla.
 
 El orden de los elementos de la tabla es importante: las codificaciones se prueban de arriba abajo. Debe colocar la codificación más barata o recomendada en la parte superior de la lista, seguida de codificaciones más y más costosas (o menos deseables).
 
@@ -244,7 +244,7 @@ Esta función está diseñada para vaciar los búferes SR en el lado del proveed
 
 Si este campo se establece en 0, se deshabilita el mecanismo y siempre se devuelve &quot;ID de mensaje no válido&quot;; este es un comportamiento normal.
 
-Al establecer este campo en 1, el conector siempre responde &quot;OK&quot; aunque el ID no sea válido. Esto debe establecerse en 1 solo se utiliza bajo supervisión para la resolución de problemas y durante el mínimo tiempo, por ejemplo, para recuperarse de un problema del lado del proveedor.
+Al establecer este campo en 1, el conector siempre responde &quot;OK&quot; aunque el ID no sea válido. Esto debe establecerse en 1 y solo debe usarse bajo supervisión para la resolución de problemas y durante el mínimo tiempo, p. ej.: para recuperarse de un problema del lado del proveedor.
 
 ### Extracción del regex del ID en el SR
 
@@ -364,7 +364,7 @@ Para cada campo, se puede establecer la etiqueta asociada, así como su formato.
 
 ### Respuesta automática enviada al MO
 
-Esta función permite responder texto rápidamente a MO y controlar listas negras de código corto.
+Esta función le permite responder rápidamente con texto a MO y controlar listas negras de código corto.
 
 Las columnas *Keyword* y *Short code* definen condiciones para almacenar en déclencheur la respuesta automática: si ambos campos coinciden, se envía el MO y se activa la acción adicional. Para especificar un comodín, deje el campo vacío. La palabra clave coincide con la primera palabra alfanumérica del texto MO, omitiendo la puntuación y los espacios iniciales. Significa que el campo Palabra clave no puede contener espacios y debe ser una sola palabra.
 

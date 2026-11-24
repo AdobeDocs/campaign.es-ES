@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '501'
 ht-degree: 6%
 ---
 # Personalizar la instancia {#gs-ac-custom}
@@ -103,6 +103,6 @@ Cuando navega por el árbol del Explorador de Adobe Campaign, los datos contenid
 
 Obtenga información sobre cómo configurar listas y guardar una configuración de lista en [esta página](../start/campaign-ui.md).
 
-Puede aplicar filtros en estas listas para mostrar solo los datos necesarios para el operador. A continuación, se pueden ejecutar acciones en los datos filtrados. La configuración del filtro permite seleccionar datos de una lista de forma dinámica. Al modificar los datos, los datos filtrados se actualizan.
+Puede aplicar filtros a estas listas para mostrar solo los datos necesarios para el operador. Se pueden ejecutar acciones en los datos filtrados. La configuración del filtro permite seleccionar datos de una lista de forma dinámica. Al modificar los datos, los datos filtrados se actualizan.
 
 Obtenga más información acerca de las opciones de filtrado en [esta página](../audiences/create-filters.md).

@@ -37,14 +37,14 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 33%
+source-wordcount: '1364'
+ht-degree: 32%
 ---
 # Cuarentena {#quarantine-management}
 
-Adobe Campaign administra una lista de direcciones en cuarentena para canales en línea (correo electrónico, SMS, notificación push). Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser incluido en la lista de bloqueados de bloqueados por estos proveedores. Además, la cuarentena reduce el coste de envío de los SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
+Adobe Campaign administra una lista de direcciones en cuarentena para canales en línea (correo electrónico, SMS, notificación push). Algunos proveedores de acceso a Internet consideran automáticamente los correos electrónicos como correo no deseado si la tasa de direcciones no válidas es demasiado alta. Por lo tanto, la cuarentena le permite evitar ser agregado a la lista de bloqueados de la por estos proveedores. Además, la cuarentena reduce el coste de envío de los SMS mediante la exclusión en los envíos de los números de teléfono incorrectos.
 
 Cuando su dirección o número de teléfono están en cuarentena, los destinatarios se excluyen del objetivo durante el análisis de la entrega: no podrá enviar mensajes de marketing, incluidos correos electrónicos de flujo de trabajo automatizado, a esos contactos. Si esas direcciones en cuarentena también están presentes en las listas, se excluirán al enviarlas a esas listas. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno, si la dirección no existe o si el servidor de correo electrónico no está disponible.
 
@@ -58,7 +58,7 @@ Cuando su dirección o número de teléfono están en cuarentena, los destinatar
 >
 >Cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con una palabra clave como &quot;DETENER&quot;, su dirección o número de teléfono se pone en cuarentena como **[!UICONTROL Denylisted]**. Su perfil se actualiza en consecuencia.
 
-Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de** como después de una baja (exclusión), para un canal determinado: esto implica que ya no están en el objetivo de ningún envío. Como consecuencia, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. [Más información](../audiences/view-profiles.md)
+Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de** como después de una baja (exclusión), para un canal determinado: esto implica que ya no están segmentados por ningún envío. Como consecuencia, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. [Más información](../audiences/view-profiles.md)
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ Las direcciones en cuarentena se pueden mostrar para una entrega específica o p
 
 ### Cuarentenas para una entrega{#delivery-quarantines}
 
-Las direcciones en cuarentena se enumeran durante la fase de preparación de la entrega, en los registros de envío del panel de envío.
+Las direcciones en cuarentena se enumeran durante la fase de preparación de la entrega, en los registros de entrega del panel de entregas.
 
 Para cada entrega, también puede comprobar el informe **[!UICONTROL Delivery summary]**: muestra el número de direcciones en cuarentena en el destino de la entrega y muestra:
 

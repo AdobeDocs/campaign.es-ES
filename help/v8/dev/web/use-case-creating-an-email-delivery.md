@@ -34,12 +34,12 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 98%
+source-wordcount: '757'
+ht-degree: 89%
 ---
-# Caso de uso: creación de una entrega por correo electrónico{#use-case-creating-an-email-delivery}
+# Caso práctico: Crear un envío de correo electrónico{#use-case-creating-an-email-delivery}
 
 
 
@@ -66,7 +66,7 @@ Para crear un nuevo envío, coloque el cursor en la pestaña **Campaigns** y hag
 
 ## Paso 2: Selección de una plantilla {#step-2---selecting-a-template}
 
-Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic en **[!UICONTROL Continue]**.
+Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este encabezado se muestra en la lista de envíos. Haga clic en **[!UICONTROL Continue]**.
 
 ![](assets/dce_delivery_model.png)
 
@@ -78,7 +78,7 @@ Seleccione la plantilla de contenido que desea utilizar y haga clic en el botón
 
 ![](assets/dce_select_model.png)
 
-Asimismo, se puede importar un contenido HTML creado fuera de Adobe Campaign seleccionando **[!UICONTROL From a file]**.
+También puede importar contenido de HTML creado fuera de Adobe Campaign seleccionando **[!UICONTROL From a file]**.
 
 ![](assets/dce_select_from_file_template.png)
 

@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 44%
+source-wordcount: '504'
+ht-degree: 43%
 ---
 # Documentación de Adobe Campaign versión 8 (consola) {#campaign-documentation}
 
@@ -40,7 +40,7 @@ Eche un vistazo a las mejoras más recientes del producto y la documentación de
 
 >[!TAB La versión v8.9 de Campaign está activa]
 
-La última versión de Adobe Campaign ya está disponible. Lee las notas de la versión para obtener más información.
+La última versión de Adobe Campaign ya está disponible. Lea las notas de la versión para obtener más información.
 
 [![imagen](assets/do-not-localize/learn-more-button.svg)](start/release-notes.md)
 

@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 90%
+source-wordcount: '517'
+ht-degree: 83%
 ---
 # Panel de control de Campaign {#ac-control-panel}
 
@@ -45,7 +45,7 @@ Ventajas principales:
 * Configure las opciones en función de las diferentes necesidades comerciales en distintos momentos.
 * Mejore la seguridad controlando la configuración de acceso según sus necesidades.
 
-También puede utilizar el Panel de control de Campaign para configurar las instancias, como las listas de IP permitidas, los permisos de URL y recuperar información acerca de su instancia.
+También puede utilizar el Panel de control de Campaign de Campaign para ajustar la configuración de las instancias, como las listas de IP permitidas, los permisos de URL y recuperar información sobre su instancia.
 
 Obtenga más información en [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"}.
 
@@ -86,7 +86,7 @@ En Campaign v8 Managed Cloud Services, Adobe también supervisa los procesos de 
 
 ## Configuración de instancias
 
-Obtenga información sobre cómo administrar la configuración de las instancias de Campaign en el Panel de control.
+Obtenga información sobre cómo administrar la configuración de la instancia de Campaign en el Panel de control de Campaign.
 * [IP en la lista de permitidos](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/ip-allow-listing-instance-access.html?lang=es){target="_blank"}
 * [Permisos de URL](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/url-permissions.html?lang=es){target="_blank"}
 * [Detalles de instancias](https://experienceleague.adobe.com/docs/control-panel/using/instances-settings/instance-details.html?lang=es){target="_blank"}

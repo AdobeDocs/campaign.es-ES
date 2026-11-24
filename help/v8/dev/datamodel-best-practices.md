@@ -49,9 +49,9 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2777'
+source-wordcount: '2776'
 ht-degree: 5%
 ---
 # Prácticas recomendadas del modelo de datos {#data-model-best-practices}
@@ -101,7 +101,7 @@ Si no entra en ninguna de estas situaciones, lo más probable es que no necesite
 
 Para garantizar la buena arquitectura y el rendimiento de su sistema, siga las prácticas recomendadas a continuación para configurar los datos en Adobe Campaign.
 
-* En una tabla grande, se pueden insertar campos numéricos o de cadena y agregar vínculos a tablas de referencia (cuando se trabaja con listas de valores).
+* En las tablas grandes, se pueden insertar campos de cadena o numéricos y añadir vínculos a tablas de referencia (cuando se trabaja con listas de valores).
 * El atributo **expr** permite definir un atributo de esquema como un campo calculado en lugar de un valor de conjunto físico en una tabla. Esto puede permitir el acceso a la información en un formato diferente (como por ejemplo, edad y fecha de nacimiento) sin necesidad de almacenar ambos valores. Esta es una buena manera de evitar la duplicación de campos. Por ejemplo, la tabla Destinatario utiliza una expresión para el dominio, que ya está presente en el campo de correo electrónico.
 * Sin embargo, cuando el cálculo de la expresión es complejo, no se recomienda utilizar el atributo **expr**, ya que el cálculo sobre la marcha puede afectar al rendimiento de las consultas.
 * El tipo **XML** es una buena manera de evitar la creación de demasiados campos. Pero también ocupa espacio en disco, ya que utiliza una columna CLOB en la base de datos. También puede generar consultas SQL complejas y afectar al rendimiento.
@@ -268,5 +268,5 @@ Estas son algunas prácticas recomendadas con respecto al tamaño de las tablas:
 
 * Diseñe tablas grandes con menos campos y más datos numéricos.
 * No utilice el tipo de columna de número grande para almacenar números pequeños como valores booleanos.
-* Elimine las columnas no utilizadas de la definición de la tabla.
+* Elimine las columnas no utilizadas de la definición de tabla.
 * No mantenga datos históricos o inactivos en la base de datos de Adobe Campaign (exportación y limpieza).
