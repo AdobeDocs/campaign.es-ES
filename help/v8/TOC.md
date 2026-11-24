@@ -5,10 +5,10 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: b37128ff4180befd5655c0c16b9ff0834235a84a
+source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 88%
+source-wordcount: '1100'
+ht-degree: 87%
 ---
 
 # Documentación de Adobe Campaign versión 8 (consola) {#campaign-v8}
@@ -334,6 +334,8 @@ ht-degree: 88%
     + Administración de flujos de trabajo {#managing-workflows}
       + [Control de un flujo de trabajo](dev/api/controlling-a-workflow.md)
       + [Activación de una actividad de señal](dev/api/triggering-a-signal-activity.md)
++ Documentación de API {#api-documentation}
+  + [Documentación de la API de Campaign >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
 + Recursos adicionales {#resources}
   + [Notas técnicas de la campaña >](https://experienceleague.adobe.com/es/docs/campaign/technotes-ac/technotes-home)
   + [Documentación de la interfaz de usuario web de Campaign >](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home)

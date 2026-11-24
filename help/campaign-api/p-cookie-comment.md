@@ -1,0 +1,26 @@
+---
+source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
+workflow-type: tm+mt
+source-wordcount: '23'
+ht-degree: 17%
+---
+# comentario
+
+Comentario que describe la función de la cookie, nulo si no está definido.
+
+```text
+comment
+```
+
+## Funciones
+
+**Propiedad de la clase:** [Cookie](c-cookie.md)
+
+**Sólo lectura:**
+
+No
+
+**Disponible en:**
+
+* JSSP
+* WebApp
