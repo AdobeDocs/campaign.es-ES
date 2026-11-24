@@ -5,9 +5,9 @@ user-guide-description: Documentación del producto para la versión 8 de Adobe 
 title: Documentación de Adobe Campaign v8
 description: Documentación de Campaign versión 8
 breadcrumb-title: Documentación de la versión 8 de Campaign
-source-git-commit: ffa29306eb4402ed20c7d04bdbbaffd4dde5bfe4
+source-git-commit: 2da6239843538ec459e7d3dfe0514a56e4a941be
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1102'
 ht-degree: 87%
 ---
 
@@ -271,6 +271,7 @@ ht-degree: 87%
   + [Principios globales](architecture/general-architecture.md)
   + [Modelos de arquitectura](architecture/architecture.md)
   + {hide-from-toc}[Paquetes integrados](architecture/built-in-packages.md)
+  + {hide-from-toc}[Opciones de campaña](architecture/campaign-options.md)
   + [Implementación de FDA de Campaign](architecture/fda-deployment.md)
   + Implementación empresarial (FDAC) {#ffda}
     + [¿Qué es el FDAC de Campaign?](architecture/enterprise-deployment.md)
