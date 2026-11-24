@@ -26,9 +26,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 9f70a309a882347a0df658d00c47127f31d28eb9
+source-git-commit: a2ca220e4be9dfb4a90465b69dd08a3552040a07
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 16%
 ---
 # Paquetes integrados {#built-in-packages}
@@ -57,7 +57,7 @@ En la tabla siguiente se enumeran los paquetes integrados para obtener informaci
 
 | Paquete | Descripción |
 |---|---|
-| envío | Supervisa los envíos y los problemas encontrados cuando se envían mensajes. [Más información](../start/monitor.md) |
+| envío | Paquete principal obligatorio de Adobe Campaign. Permite realizar envíos. [Más información](../start/gs-message.md) |
 | Campañas de marketing (Campaign) | Define, optimiza, ejecuta y analiza las comunicaciones y las campañas de marketing. [Más información](../start/campaigns.md) |
 | Recursos de Marketing (MRM) | Controla las acciones de marketing de forma cooperativa, con administración y seguimiento de tareas, presupuestos y recursos de marketing. [Más información](../../automation/mrm/about-marketing-resource-management.md) |
 | Motor de ofertas (interacción) | Responde en tiempo real durante una interacción con un contacto realizando una o varias ofertas adaptadas. [Más información](../interaction/interaction.md) |
