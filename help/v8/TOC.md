@@ -336,7 +336,7 @@ ht-degree: 87%
       + [Control de un flujo de trabajo](dev/api/controlling-a-workflow.md)
       + [Activación de una actividad de señal](dev/api/triggering-a-signal-activity.md)
 + Documentación de API {#api-documentation}
-  + [Documentación de la API de Campaign >](https://experienceleague.adobe.com/en/docs/campaign/campaign-api/home)
+  + [Documentación de la API de Campaign >](https://experienceleague.adobe.com/es/docs/campaign/campaign-api/home)
 + Recursos adicionales {#resources}
   + [Notas técnicas de la campaña >](https://experienceleague.adobe.com/es/docs/campaign/technotes-ac/technotes-home)
   + [Documentación de la interfaz de usuario web de Campaign >](https://experienceleague.adobe.com/es/docs/campaign-web/v8/campaign-web-home)
