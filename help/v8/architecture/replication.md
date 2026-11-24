@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -87,7 +87,7 @@ Los flujos de trabajo técnicos que garantizan la duplicación de datos son los 
 
 Si es necesario, puede iniciar la sincronización de datos manualmente. Para ello, haga clic con el botón derecho en la actividad **Planificador** y seleccione **Ejecutar tareas pendientes ahora**.
 
-Además del flujo de trabajo técnico integrado **Replicar tablas de referencia**, puede forzar la replicación de datos en los flujos de trabajo mediante uno de estos métodos
+Además del flujo de trabajo técnico integrado **Replicar tablas de referencia**, puede forzar la replicación de datos en los flujos de trabajo mediante uno de estos métodos:
 
 +++Forzar la replicación de datos
 

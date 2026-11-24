@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 22%
+source-wordcount: '1833'
+ht-degree: 20%
 ---
 # Configuración de canal de notificaciones push {#push-notification-configuration}
 

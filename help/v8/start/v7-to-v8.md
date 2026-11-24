@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '731'
 ht-degree: 70%
 ---
 # Transición de [!DNL Campaign Classic] v7 a [!DNL Campaign] v8{#gs-matrix}
@@ -86,7 +86,7 @@ En su implementación [Enterprise (FDAC) Deployment](../../v8/architecture/enter
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FDAC) simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 
-Obtenga más información acerca de la arquitectura de [!DNL Campaign] v8 en [esta página](../../v8/architecture/architecture.md). Prueba
+Obtenga más información acerca de la arquitectura de [!DNL Campaign] v8 en [esta página](../../v8/architecture/architecture.md).
 
 
 ## Utilice su Adobe ID para conectarse a Campaign{#adobe-id}

@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '1327'
-ht-degree: 63%
+ht-degree: 61%
 ---
 # Comprender los entornos y la arquitectura de interacción de Campaign
 
@@ -68,7 +68,7 @@ Para poder admitir la escalabilidad y proporcionar un servicio de 24 horas al d�
 
 ![](assets/interaction_powerbooster_schema.png)
 
-Las instancias de control están dedicadas al canal entrante y contienen la versión en línea del catálogo. Cada instancia de ejecución es independiente y está dedicada a un segmento de contacto (por ejemplo, una instancia de ejecución por país). Las llamadas al motor de oferta deben realizarse directamente en la ejecución (una dirección URL específica por instancia de ejecución). Como la sincronización entre instancias no es automática, las interacciones del mismo contacto deben enviarse a través de la misma instancia.
+Las instancias de ejecución están dedicadas al canal entrante y contienen la versión en línea del catálogo. Cada instancia de ejecución es independiente y está dedicada a un segmento de contacto (por ejemplo, una instancia de ejecución por país). Las llamadas al motor de oferta deben realizarse directamente en la ejecución (una dirección URL específica por instancia de ejecución). Como la sincronización entre instancias no es automática, las interacciones del mismo contacto deben enviarse a través de la misma instancia.
 
 ### Sincronización {#synchronization}
 

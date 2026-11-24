@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '1364'
+source-wordcount: '1365'
 ht-degree: 32%
 ---
 # Cuarentena {#quarantine-management}
@@ -48,7 +48,7 @@ Adobe Campaign administra una lista de direcciones en cuarentena para canales en
 
 Cuando su dirección o número de teléfono están en cuarentena, los destinatarios se excluyen del objetivo durante el análisis de la entrega: no podrá enviar mensajes de marketing, incluidos correos electrónicos de flujo de trabajo automatizado, a esos contactos. Si esas direcciones en cuarentena también están presentes en las listas, se excluirán al enviarlas a esas listas. Una dirección de correo electrónico se puede poner en cuarentena, por ejemplo, cuando el buzón está lleno, si la dirección no existe o si el servidor de correo electrónico no está disponible.
 
-<!--For more on best practices to secure and optimize your deliveries, refer to [this page](delivery-best-practices.md).-->
+<!--For more on best practices to secure and optimize your deliveries, refer to [this page](../start/delivery-best-practices.md).-->
 
 ## Cuarentena frente a lista de bloqueados de
 
@@ -58,7 +58,7 @@ Cuando su dirección o número de teléfono están en cuarentena, los destinatar
 >
 >Cuando los destinatarios informan el mensaje como correo no deseado o responden a un mensaje SMS con una palabra clave como &quot;DETENER&quot;, su dirección o número de teléfono se pone en cuarentena como **[!UICONTROL Denylisted]**. Su perfil se actualiza en consecuencia.
 
-Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de** como después de una baja (exclusión), para un canal determinado: esto implica que ya no están segmentados por ningún envío. Como consecuencia, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. [Más información](../audiences/view-profiles.md)
+Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de**, por ejemplo, después de una baja (exclusión), para un canal determinado: esto implica que ya no están segmentados por ningún envío. Como consecuencia, si un perfil de la lista de bloqueados de la para el canal de correo electrónico tiene dos direcciones de correo electrónico, ambas se excluirán de la entrega. Puede comprobar si un perfil está en la lista de bloqueados de uno o más canales en la sección **[!UICONTROL No longer contact]** de la pestaña **[!UICONTROL General]** del perfil. [Más información](../audiences/view-profiles.md)
 
 >[!NOTE]
 >

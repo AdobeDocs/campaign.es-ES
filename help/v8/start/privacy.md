@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1090'
-ht-degree: 80%
+ht-degree: 78%
 ---
 # Administrar solicitudes de privacidad en Campaign {#privacy}
 
@@ -144,7 +144,7 @@ El patrón para un nombre de archivo es: `<InstanceName>-<NamespaceId>-<Reconcil
 
 Al realizar una solicitud de privacidad de eliminación o acceso, Adobe Campaign busca todos los datos del sujeto de datos en función de los datos **[!UICONTROL Reconciliation value]** en todas las tablas que tienen un vínculo a la tabla de destinatario (tipo propio).
 
-La lista de tablas integradas que se tienen en cuenta al ejecutar solicitudes de privacidad es la siguiente:
+La lista de tablas integradas que se tienen en cuenta al realizar solicitudes de privacidad es la siguiente:
 
 * Destinatarios (destinatario)
 * Registro de envíos de destinatario (broadLogRcp)

@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 96%
+source-wordcount: '875'
+ht-degree: 93%
 ---
 # Respuestas de formularios web{#web-forms-answers}
 
@@ -99,19 +99,19 @@ Esto significa que, si el usuario selecciona un vehículo comercial, el formular
 
 Para cada formulario, las respuestas proporcionadas pueden reutilizarse en los campos o en las etiquetas. Se deben utilizar las siguientes sintaxis:
 
-* Para un contenido almacenado en un campo de la base de datos:
+* Para el contenido almacenado en un campo de la base de datos:
 
   ```
   <%=ctx.recipient.@field name%
   ```
 
-* Para un contenido almacenado en una variable local:
+* Para el contenido almacenado en una variable local:
 
   ```
   <%= ctx.vars.variable name %
   ```
 
-* Para un contenido almacenado en un campo de texto HTML:
+* Para el contenido almacenado en un campo de texto de HTML:
 
   ```
   <%== HTML field name %

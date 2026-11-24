@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '2144'
-ht-degree: 96%
+ht-degree: 95%
 ---
 # Ofertas en un canal de entrada{#offers-on-an-inbound-channel}
 
@@ -415,7 +415,7 @@ Para configurar estos espacios de oferta en la página HTML del sitio web, siga 
 
    ![](assets/offer_inbound_fallback_example_049.png)
 
-   La URL contiene **EnvNeobankRecip**, el nombre interno del entorno identificado.
+   La dirección URL contiene **EnvNeobankIdnRecip**, el nombre interno del entorno identificado.
 
 Al abrir la página web, la secuencia de comandos permite visualizar al motor de interacción para mostrar el contenido de las ofertas en los espacios relevantes de la página web. Con una sola visualización del servidor de Adobe Campaign, el motor determina el entorno, el espacio de oferta y las categorías que se deben seleccionar.
 

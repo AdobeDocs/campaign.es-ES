@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 2%
 ---
 # Pista de auditoría{#audit-trail}
@@ -60,7 +60,7 @@ La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un regist
   * Restart
   * Limpieza igual al historial de purga de acciones
   * Simular, que es igual a la acción Iniciar en modo de simulación
-  * Activación igual a la acción Ejecutar tareas pendientes ahora
+  * Activación, que es igual a la acción Ejecutar tareas pendientes ahora
   * Interrupción incondicional
 
   Para obtener más información sobre los flujos de trabajo, consulte esta [página](../../automation/workflow/about-workflows.md).

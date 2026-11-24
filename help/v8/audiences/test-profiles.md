@@ -42,7 +42,7 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 53%
@@ -132,7 +132,7 @@ Haga clic en el vínculo **[!UICONTROL Advanced campaign settings...]** y luego 
 
 ## Direcciones semilla y tabla personalizada {#using-an-external-recipient-table}
 
-Si la lista de distribución es una tabla externa, debe realizar ajustes adicionales. Se debe ampliar el esquema **[!UICONTROL nms:seedmember]**. Se añade una pestaña a las direcciones semilla para definir los campos adecuados
+Si la lista de distribución es una tabla externa, debe realizar ajustes adicionales. Se debe ampliar el esquema **[!UICONTROL nms:seedmember]**. Se añade una pestaña a las direcciones semilla para definir los campos adecuados.
 
 En este caso, para añadir direcciones semilla al envío, introduzca los campos adecuados directamente en la pestaña correspondiente o importe las plantillas de dirección.
 

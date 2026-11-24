@@ -29,7 +29,7 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '3848'
 ht-degree: 96%
@@ -453,7 +453,7 @@ Haga clic en **[!UICONTROL Start]** para iniciar la exportación de datos.
 
 ![](assets/s_ncs_user_export_wizard08.png)
 
-A continuación, puede monitorizar la ejecución del trabajo de importación.
+A continuación, puede monitorizar la ejecución del trabajo de exportación.
 
 
 ## Recopilación de perfiles mediante aplicaciones web

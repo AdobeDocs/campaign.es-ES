@@ -28,7 +28,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 15%
@@ -63,7 +63,7 @@ Estas actualizaciones pueden ser:
 
 Encontrará información detallada sobre cada nueva versión en las [Notas de la versión](release-notes.md). Las correcciones relacionadas con la seguridad se llaman dentro de las notas de cada versión. Para obtener más información acerca de las notificaciones de seguridad, vea [Mantenerse informado](#security-staying-informed).
 
-Para garantizar una configuración estable, Adobe recomienda instalar **exactamente la misma versión** en todos los servidores de Campaign. Además, salvo que se indique lo contrario en las [notas de la versión](release-notes.md), la consola del cliente debe estar en **la misma versión** que la instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
+Para garantizar una configuración estable, Adobe recomienda instalar **exactamente la misma versión** en todos los servidores de Campaign. Además, a menos que se indique lo contrario en las [notas de la versión](release-notes.md), la consola del cliente debe estar en **la misma versión** que la instancia del servidor. Obtenga información sobre cómo actualizar la consola cliente [en esta página](../start/connect.md#upgrade-ac-console).
 
 ### Revisiones {#hotflixes}
 

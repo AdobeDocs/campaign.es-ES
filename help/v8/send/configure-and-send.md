@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 66%
@@ -103,7 +103,7 @@ Una regla de tipología específica, **[!UICONTROL Wave scheduling check]**, gar
 
 ### Monitorización de olas {#monitor-waves}
 
-Para supervisar sus envíos, vaya a los registros de envío. Ver [esta página](send.md)
+Para supervisar sus envíos, vaya a los registros de envío. Consulte [esta página](send.md).
 
 Se pueden ver los envíos que ya se han realizado en las olas procesadas (estado **[!UICONTROL Sent]**) y las que se envían en las olas restantes (estado **[!UICONTROL Pending]**).
 

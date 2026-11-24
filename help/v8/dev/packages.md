@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
 workflow-type: tm+mt
 source-wordcount: '1949'
-ht-degree: 48%
+ht-degree: 47%
 ---
 # Trabajo con paquetes de datos{#data-packages}
 
@@ -263,7 +263,7 @@ Las entidades se pueden añadir a una definición de paquete directamente desde 
 
 1. Seleccione **[!UICONTROL Add to a package definition]** y luego seleccione la definición del paquete a la que desea añadir la entidad.
 
-1. La entidad se añade a la definición del paquete y se exporta con el paquete (consulte [esta sección](#export-packages-from-a-package-definition)).
+1. La entidad se agrega a la definición del paquete y se exportará con el paquete (consulte [esta sección](#export-packages-from-a-package-definition)).
 
 ### Configuración de la generación de definiciones de paquetes {#configure-package-definitions-generation}
 
