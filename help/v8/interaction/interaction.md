@@ -29,7 +29,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 47%
@@ -44,7 +44,7 @@ La interacción permite crear y gestionar un catálogo de ofertas y configurar l
 
 ![](assets/interaction-cycle.png)
 
-En primer lugar, se produce un contacto entre un cliente y una empresa a través de un canal de comunicación: puede ser un sitio web (interacción saliente), un correo electrónico, un SMS, una notificación push (interacciones entrantes). [Más información](#interaction-types)
+En primer lugar, se produce un contacto entre un cliente y una empresa a través de un canal de comunicación: puede ser un sitio web (interacción entrante), un correo electrónico, un SMS, una notificación push (interacciones salientes). [Más información](#interaction-types)
 
 Este contacto llama al motor de oferta. (1)
 
