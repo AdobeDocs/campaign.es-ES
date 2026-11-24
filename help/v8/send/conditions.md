@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 52%
+source-wordcount: '429'
+ht-degree: 47%
 ---
 # Creación de contenido condicional{#conditional-content}
 
@@ -93,10 +93,10 @@ En el siguiente ejemplo, aprenda a crear un correo electrónico multilingüe. El
 
    >[!NOTE]
    >
-   >Como no se ha definido ninguna versión alternativa en el contenido de correo electrónico, asegúrese de filtrar la población de destino antes de enviar el correo electrónico.
+   >Como no se ha definido ninguna versión alternativa en el contenido del correo electrónico, asegúrese de filtrar la población de destinatarios antes de enviar el correo electrónico.
 
 ## Tutorial en vídeo {#conditionnal-content-video}
 
 Aprenda a añadir contenido condicional a un envío con el ejemplo de una newsletter multilingüe.
 
->[!VIDEO](https://video.tv.adobe.com/v/3446714?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/335682?quality=12)

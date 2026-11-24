@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1218'
-ht-degree: 97%
+ht-degree: 92%
 ---
 # Directrices de implementación de Campaign{#gs-implementation}
 
@@ -57,7 +57,7 @@ En esta sección, aprenderá a ajustar Adobe Campaign a los requisitos de su com
 
 >[!CAUTION]
 >
->Con **Campaign Managed Cloud Services**, su entorno y la configuración inicial los establece Adobe, según los términos del acuerdo de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
+>Con **Campaign Managed Cloud Services**, su entorno y la configuración inicial los establece Adobe, según los términos del contrato de licencia. No se le permite modificar paquetes integrados, esquemas integrados o informes instalados.
 >
 >Si ha de utilizar un complemento de Campaign o una funcionalidad específica que no se le haya suministrado, debe ponerse en contacto con el **Gestor de transición de Adobe**.
 
@@ -67,7 +67,7 @@ Esta sección contiene información esencial acerca de la privacidad y seguridad
 
 ### Privacidad{#implementation-privacy}
 
-Adobe Campaign incluye procesos y configuraciones que permiten utilizar Campaign de conformidad con las leyes aplicables sobre privacidad de datos y las preferencias de los destinatarios. Puede administrar:
+Adobe Campaign incluye procesos y configuraciones que le permiten utilizar Campaign de conformidad con las leyes aplicables sobre privacidad de datos y las preferencias de los destinatarios. Puede administrar:
 
 * **Adquisición de datos**: Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y administre el consentimiento de sus destinatarios.
 

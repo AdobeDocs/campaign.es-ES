@@ -28,20 +28,20 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '226'
 ht-degree: 0%
 ---
 # Monitorización y seguimiento de un SMS
 
 Es importante monitorizar la entrega de SMS para asegurarse de que las campañas de marketing sean eficientes.
 
-Aquí las posibilidades que tiene para saber lo que sucede después de la entrega de su entrega
+Estas son las posibilidades que tiene para saber qué sucede después de realizar su envío
 
-## Comprensión del panel de envío de SMS
+## Comprender el panel de envío de SMS
 
-El panel de envío le proporciona mucha información sobre su SMS.
+El panel de envío le proporciona mucha información acerca de su SMS.
 
 Para acceder al panel, haga doble clic en su entrega en la lista de envíos.
 

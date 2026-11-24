@@ -26,10 +26,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '734'
-ht-degree: 40%
+ht-degree: 37%
 ---
 # Acceso de datos federado (FDA){#gs-fda}
 
@@ -81,7 +81,7 @@ También puede definir directamente una conexión con una base de datos externa 
 
 >[!CAUTION]
 >
->Este tipo de configuración solo debe utilizarse de forma temporal para recopilar datos. La configuración de cuenta externa debe ser la preferida para cualquier otro uso.
+>Este tipo de configuración solo debe utilizarse temporalmente para recopilar datos. La configuración de cuenta externa debe ser la preferida para cualquier otro uso.
 
 Por ejemplo, en la actividad **[!UICONTROL Query]**, puede definir una conexión temporal con una base de datos externa de la siguiente manera:
 
@@ -92,5 +92,5 @@ Por ejemplo, en la actividad **[!UICONTROL Query]**, puede definir una conexión
 1. Seleccionar la tabla en la que se almacenan los datos. Puede introducir el nombre de la tabla directamente en el campo correspondiente o hacer clic en el icono de edición para acceder a la lista de las tablas de la base de datos.
 1. Hacer clic en el botón **[!UICONTROL Add]** para definir uno o varios campos de reconciliación entre los datos de la base de datos externa y los datos de la base de datos de Adobe Campaign. Los iconos **[!UICONTROL Edit expression]** del **[!UICONTROL Remote field]** y el **[!UICONTROL Local field]** le proporcionan acceso a la lista de campos de cada una de las tablas.
 1. Si es necesario, especifique una condición de filtrado y el modo de clasificación de datos.
-1. Seleccione los datos adicionales que se recopilarán en la base de datos externa. Para ello, haga doble clic en los campos que desea añadir para mostrarlos en las **[!UICONTROL Output columns]**.
+1. Seleccione los datos adicionales que se recopilarán en la base de datos externa. Para ello, haga doble clic en los campos que desee agregar para mostrarlos en **[!UICONTROL Output columns]**.
 1. Hacer clic en **[!UICONTROL Finish]** para confirmar esta configuración.

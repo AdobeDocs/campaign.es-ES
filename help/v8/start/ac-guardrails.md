@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '264'
 ht-degree: 78%
 ---
 # Mecanismos de protección del producto{#guardrails}
@@ -47,4 +47,4 @@ Los mecanismos de protección y las limitaciones identifican funcionalidades, ar
 * En el contexto de una [implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), los mecanismos de suscripción (inclusión) y baja (exclusión) y el registro móvil son procesos asincrónicos. Las solicitudes se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](../architecture/replication.md#workflows)
 * En el contexto de una implementación de [Enterprise (FDAC)](../architecture/enterprise-deployment.md), los usuarios finales deben gestionar manualmente los duplicados. [Más información](../architecture/keys.md)
 * Adobe Campaign v8 no admite rendimiento ampliado en aplicaciones web y API: en caso de necesidades específicas, póngase en contacto con Adobe para obtener ayuda
-* En el contexto de una [implementación empresarial (FDAC)](../architecture/enterprise-deployment.md), el módulo Optimización de la campaña de Adobe Campaign no tiene en cuenta los envíos programados en las reglas de tipología de presión. Obtenga más información en [esta página](../../automation/campaign-opt/pressure-rules.md)
+* En el contexto de una implementación [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md) , el módulo Optimization de Adobe Campaign no tiene en cuenta los envíos programados en las reglas de tipología de presión. Obtenga más información en [esta página](../../automation/campaign-opt/pressure-rules.md)

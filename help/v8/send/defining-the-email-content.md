@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2111'
-ht-degree: 91%
+ht-degree: 88%
 ---
 # Definición del contenido del correo electrónico {#defining-the-email-content}
 
@@ -94,7 +94,7 @@ El contenido del mensaje se define en la sección inferior de la ventana de conf
 
 Los mensajes se envían en formato HTML o texto de forma predeterminada, según las preferencias del destinatario. Se recomienda crear contenido en ambos formatos para garantizar que los mensajes se puedan visualizar correctamente en cualquier sistema de correo. Para obtener más información, consulte [Seleccionar formatos de mensajes](email-parameters.md#selecting-message-formats).
 
-* Para importar un contenido HTML, usar el botón **[!UICONTROL Open]**. También puede pegar el código de fuente directamente en la subpestaña **[!UICONTROL Source]**.
+* Para importar contenido de HTML, use el botón **[!UICONTROL Open]**. También puede pegar el código de fuente directamente en la subpestaña **[!UICONTROL Source]**.
 
   Si está usando el Editor de contenido digital (DCE), consulte [esta sección](../dev/web/use-case-creating-an-email-delivery.md#step-3---selecting-a-content).
 
@@ -132,14 +132,14 @@ Los mensajes se envían en formato HTML o texto de forma predeterminada, según 
 
   ![](assets/s_ncs_user_wizard_email01_141.png)
 
-  En cuanto al formato HTML, haga clic en la pestaña **[!UICONTROL Preview]** situada en la parte inferior de la página para ver la renderización del mensaje con su personalización.
+  En cuanto al formato HTML, haga clic en la pestaña **[!UICONTROL Preview]** en la parte inferior de la página para ver la renderización del mensaje con su personalización.
 
   ![](assets/s_ncs_user_wizard_email01_142.png)
 
 
 ## Definición del contenido interactivo {#amp-for-email-format}
 
-Adobe Campaign le permite probar el nuevo formato [AMP interactivo para correo electrónico](https://amp.dev/es/about/email/), que permite enviar correos electrónicos dinámicos en ciertas condiciones.
+Adobe Campaign le permite probar el nuevo formato interactivo [AMP para correo electrónico](https://amp.dev/es/about/email/), que le permite enviar correos electrónicos dinámicos en ciertas condiciones.
 
 Para obtener más información, consulte [esta sección](defining-interactive-content.md).
 
@@ -179,7 +179,7 @@ Los envíos de correo electrónico de formato HTML pueden contener imágenes. De
 
 Para evitar problemas de rendimiento, las imágenes incluidas en los correos electrónicos no pueden superar los 100 KB. Este límite, establecido de forma predeterminada, se puede cambiar desde la opción `NmsDelivery_MaxDownloadedImageSize`. Sin embargo, Adobe recomienda encarecidamente evitar imágenes grandes en los envíos de correo electrónico.
 
-Obtenga más información sobre la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#delivery).
+Obtenga más información sobre la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ### Tipos de imágenes {#img-types}
 
@@ -190,7 +190,7 @@ Las imágenes pueden ser:
 
   Los recursos públicos son accesibles a través del nodo **[!UICONTROL Resources > Online]** de la jerarquía de Adobe Campaign. Se agrupan en una biblioteca y se pueden incluir en mensajes de correo electrónico, pero también se pueden utilizar para campañas o tareas, o para la administración de contenido.
 
-* Un recurso compartido con Adobe Experience Cloud. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=es).
+* Un recurso compartido con Adobe Experience Cloud. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html).
 
 ### Inserción y administración de imágenes {#manage-images}
 

@@ -35,7 +35,7 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 1%
@@ -79,7 +79,7 @@ Por ahora, las API de REST enumeradas a continuación están disponibles para su
 
 ## Filtrado
 
-* Para utilizar los filtros en las cargas útiles de API REST, debe editarlos en Campaign v8 y proporcionar un nombre para utilizarlo en las cargas útiles. Para ello, obtenga acceso a los parámetros adicionales del filtro desde la ficha **[!UICONTROL Parameters]** y proporcione el nombre que desee en el campo **[!UICONTROL Filter name in REST API]**.
+* Para utilizar los filtros en las cargas útiles de API REST, debe editarlos en Campaign v8 y proporcionar un nombre para utilizarlo en las cargas útiles. Para ello, acceda a los parámetros adicionales del filtro desde la pestaña **[!UICONTROL Parameters]** y proporcione el nombre deseado en el campo **[!UICONTROL Filter name in REST API]**.
 
   ![](assets/api-filtering.png)
 

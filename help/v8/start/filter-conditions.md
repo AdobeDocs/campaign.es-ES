@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 239f132eab6976d228c6648917c3090f14cf5088
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3351'
-ht-degree: 99%
+source-wordcount: '3350'
+ht-degree: 98%
 ---
 # Definición de condiciones de filtro{#filter-conditions}
 
@@ -78,7 +78,7 @@ A continuación se muestra una lista de los operadores disponibles:
   <tr> 
    <td> <span class="uicontrol">Not equal to</span> <br /> </td> 
    <td> El resultado son todos los valores que no son idénticos al valor ingresado.<br /> </td> 
-   <td> <strong>Idioma (@language) igual a “inglés”</strong>.<br /> </td> 
+   <td> <strong>Idioma (@language) distinto de 'inglés'</strong>.<br /> </td> 
   </tr> 
   <tr> 
    <td> <span class="uicontrol">Starts with</span> <br /> </td> 
@@ -185,7 +185,7 @@ Ahora la condición **[!UICONTROL Gender (@gender) equal to Male]** está fuera 
 
 Los campos disponibles varían de una tabla a otra. Todos los campos se almacenan en un nodo principal denominado **[!UICONTROL Main element]**. En el siguiente ejemplo, los campos disponibles se encuentran en la tabla de destinatarios. Los campos siempre se muestran por orden alfabético.
 
-El campo seleccionado se puede ver en la parte inferior de la ventana. Por ejemplo, el campo **[!UICONTROL Email domain]** es un **[!UICONTROL Calculated SQL field]** y su extensión es **[!UICONTROL (@domain)]**.
+El detalle del campo seleccionado se puede ver en la parte inferior de la ventana. Por ejemplo, el campo **[!UICONTROL Email domain]** es un **[!UICONTROL Calculated SQL field]** y su extensión es **[!UICONTROL (@domain)]**.
 
 ![](assets/query_editor_nveau_59.png)
 
@@ -323,7 +323,7 @@ Para eliminar este campo calculado, haga clic en **[!UICONTROL Remove the calcul
 
 ## Expresiones de compilación {#building-expressions}
 
-La herramienta de edición de expresiones permite calcular acumulaciones, generar funciones o editar una fórmula con una expresión.
+La herramienta de edición de expresiones permite calcular acumulaciones, generar funciones o editar una fórmula mediante una expresión.
 
 El ejemplo siguiente muestra cómo ejecutar un recuento en una clave principal.
 
@@ -510,7 +510,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   </tr> 
   <tr> 
    <td> <strong>Md5Digest</strong><br /> </td> 
-   <td> Devuelve una representación hexadecimal de la clave MD5 de una cadena<br /> </td> 
+   <td> Devuelve una representación hexadecimal de la clave MD5 de una cadena <br /> </td> 
    <td> Md5Digest(&lt;string&gt;)<br /></td> 
   </tr> 
   <tr> 
@@ -758,7 +758,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
   <tr> 
    <td> <strong>TruncTime</strong><br /> </td> 
    <td> Redondea la parte de tiempo hasta el segundo más cercano<br /> </td> 
-   <td> TruncTim(e&lt;date&gt;, &lt;number of seconds&gt;)<br /> </td>  
+   <td> TruncTime(&lt;fecha&gt;, &lt;número de segundos&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncWeek</strong><br /> </td> 
@@ -781,7 +781,7 @@ Permite seleccionar campos en las tablas de la base de datos y añadir funciones
    <td> Year(&lt;fecha&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>YearAndMonth</strong><br /> </td> 
+   <td> <strong>AñoYMes</strong><br /> </td> 
    <td> Devuelve el número que representa el año y el mes de la fecha<br /> </td> 
    <td> YearAndMonth(&lt;fecha&gt;)<br /> </td>  
   </tr> 

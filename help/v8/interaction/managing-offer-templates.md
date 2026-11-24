@@ -23,16 +23,16 @@ feature_v2:
     internal-label: Offers
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 93%
 ---
 # Administración de las plantillas de oferta{#managing-offer-templates}
 
 
 
-Las plantillas de oferta se envían preestablecidas en Adobe Campaign. Puede utilizarlas después de crear sus ofertas, duplicar o adaptar la configuración a sus necesidades. También puede crear sus propias plantillas. Las ofertas de plantilla se almacenan en la carpeta **Recursos** > **Plantillas** > **Plantillas de oferta**.
+Las plantillas de oferta se entregan ya listas para usar en Adobe Campaign. Puede utilizarlas después de crear sus ofertas, duplicar o adaptar la configuración a sus necesidades. También puede crear sus propias plantillas. Las ofertas de plantilla se almacenan en la carpeta **Recursos** > **Plantillas** > **Plantillas de oferta**.
 
 ## Creación de una plantilla de oferta {#creating-an-offer-template}
 

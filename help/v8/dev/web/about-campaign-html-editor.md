@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 80%
+source-wordcount: '351'
+ht-degree: 74%
 ---
 # Introducción al editor HTML de Campaign{#about-campaign-html-editor}
 
@@ -41,7 +41,7 @@ ht-degree: 80%
 >
 >Para los casos de uso más comunes, cree sus páginas de destino en la interfaz de usuario de Campaign Web, donde podrá diseñarlas y publicarlas fácilmente. Las páginas de aterrizaje creadas en la consola del cliente, tal como se describe en esta sección, ofrecen más configuraciones y cubren casos de uso más avanzados.
 >
->[Obtenga más información acerca de las páginas de destino en la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Obtenga más información acerca de las páginas de destino en la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -79,7 +79,7 @@ Para crear una **aplicación web** simple, debe hacer lo siguiente:
 Para crear un **envío de correo electrónico**, debe hacer lo siguiente:
 
 1. Creación de un envío a partir de una plantilla de DCE: [Más información](use-case-creating-an-email-delivery.md)
-1. Seleccione un contenido existente o cree contenido desde una [plantilla estándar](template-management.md)
+1. Seleccione contenido existente o cree contenido desde una [plantilla estándar](template-management.md)
 1. Editar y configurar contenido en línea
 1. Realice el envío: obtenga más información en la [documentación de la versión 8 de Campaign](https://experienceleague.adobe.com/docs/campaign/campaign-v8/send/create-message.html?lang=es){target="_blank"}
 

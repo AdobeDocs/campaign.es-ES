@@ -36,7 +36,7 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 38%
@@ -56,7 +56,7 @@ Adobe Campaign viene con las siguientes asignaciones de destino integradas:
 | Name | Usar para | Esquema |
 |---|---|---|
 | Recipients | Envío a destinatarios (tabla de destinatarios integrada) | nms:recipient |
-| Visitantes | Envío a los visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) por ejemplo. | mns:visitor |
+| Visitantes | Envío a los visitantes cuyos perfiles se hayan recopilado mediante recomendación (marketing viral) por ejemplo. | nms:visitor |
 | Suscripciones | Envío a destinatarios suscritos a un servicio de información como un boletín informativo | nms:subscription |
 | Suscripciones de visitantes | Envío a los visitantes que están suscritos a un servicio de información | nms:visitorSub |
 | Operadores | Envío a los operadores de Adobe Campaign | nms:operator |

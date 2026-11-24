@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '580'
 ht-degree: 14%
 ---
 # SMS en una infraestructura intermediaria {#sms-mid}
@@ -55,7 +55,7 @@ Para crear su operador SMS, siga los pasos a continuación:
 1. En **[!UICONTROL Administration]** > **[!UICONTROL Access management]** > **[!UICONTROL Operators]**, haga clic en **[!UICONTROL New]** y rellene el formulario en la nueva ventana abierta.
 
    * **[!UICONTROL Name (login)]** y **[!UICONTROL Label]** son obligatorios.
-   * La contraseña no es obligatoria, pero es muy recomendable para la seguridad.
+   * La contraseña no es obligatoria, pero es muy recomendable por motivos de seguridad.
 
    Tenga en cuenta que el nombre (inicio de sesión) se utilizará más adelante para asignar un nombre a la cuenta externa de SMPP en el servidor intermediario.
 
@@ -78,7 +78,7 @@ Ahora puede verlo en la lista de operadores.
 
 ## Creación de una cuenta externa SMS en el servidor de marketing {#sms-external-account}
 
-En una infraestructura intermedia, debe crear una cuenta externa de SMS en el servidor de marketing como se muestra a continuación
+En una infraestructura intermedia, debe crear una cuenta externa SMS en el servidor de marketing como se muestra a continuación
 
 >[!IMPORTANT]
 >

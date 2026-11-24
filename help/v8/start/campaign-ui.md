@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 67%
+source-wordcount: '1224'
+ht-degree: 61%
 ---
 # Descubrimiento de la interfaz de usuario {#ui-client-console}
 
@@ -44,7 +44,7 @@ Puede acceder a Adobe Campaign a través de su consola de cliente o de su interf
 
   Obtenga información sobre cómo instalar y configurar la consola del cliente en [esta sección](../start/connect.md).
 
-* **Acceso web**: las funcionalidades de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de control de monitorización y mucho más.  Obtenga más información sobre el acceso web a Campaign [en esta sección](../start/connect.md#web-access).
+* **Acceso web**: las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario de HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de control de monitorización y mucho más.  Obtenga más información sobre el acceso web a Campaign [en esta sección](../start/connect.md#web-access).
 
 * **API**: para abordar más casos de uso, se puede llamar al sistema desde aplicaciones externas utilizando las API de servicios web expuestas mediante el protocolo SOAP. Obtenga más información sobre las API de Campaign [en esta página](../dev/api.md).
 
@@ -103,7 +103,7 @@ Una vez que esté conectado a la consola del cliente de Campaign, examine las pe
 
 Para cada funcionalidad, puede acceder al conjunto de características clave en la sección **[!UICONTROL Browsing]**. El vínculo **[!UICONTROL More]** le permite acceder a todos los demás componentes.
 
-Por ejemplo, al navegar a la pestaña **[!UICONTROL Profiles and targets]**, podrá acceder a las listas de destinatarios, los servicios de suscripción, los flujos de trabajo de segmentación existentes y los accesos directos para crear todos estos componentes.
+Por ejemplo, al navegar a la pestaña **[!UICONTROL Profiles and targets]**, puede acceder a las listas de destinatarios, los servicios de suscripción, los flujos de trabajo de objetivos existentes y los accesos directos para crear todos estos componentes.
 
 ![Interfaz de usuario de la consola de Campaign que muestra cómo acceder a las listas desde la pestaña Profiles and target](assets/overview-list.png)
 
@@ -120,7 +120,7 @@ Utilice los accesos directos de la sección **[!UICONTROL Create]** a la izquier
 <!--
 ## Use a web browser {#web-browser}
 
-You can also access a subset of Campaign capabilities through the a web browser.
+You can also access a subset of Campaign capabilities through a web browser.
 
 The web access interface is similar to the console interface. From a browser, you can use the same navigation and display features as in the console, but you can perform only a reduced set of actions on campaigns. For example, you can view and cancel campaigns, but you cannot modify campaigns.
 

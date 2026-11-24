@@ -50,9 +50,9 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1165'
 ht-degree: 7%
 ---
 # Arquitectura general{#general-architecture}
@@ -119,7 +119,7 @@ Otros procesos más técnicos también están disponibles:
 
 * **Módulos de supervisión** (nlserver watchdog): este proceso técnico actúa como un proceso principal que genera a los demás. También los monitoriza y los relanza automáticamente en caso de incidentes, manteniendo así el máximo tiempo de actividad del sistema.
 
-* **Servidor de estadísticas** (nlserver stat): este proceso mantiene estadísticas sobre el número de conexiones, los mensajes enviados para cada servidor de correo al que se envían los mensajes, así como sus limitaciones (número máximo de conexiones simultáneas, mensajes por hora/hora o conexión). También permite federar varias instancias o equipos si comparten las mismas direcciones IP públicas.
+* **Servidor de estadísticas** (nlserver stat): este proceso mantiene estadísticas sobre el número de conexiones, los mensajes enviados para cada servidor de correo al que se envían los mensajes, así como sus limitaciones (número máximo de conexiones simultáneas, mensajes por hora o por conexión). También permite federar varias instancias o equipos si comparten las mismas direcciones IP públicas.
 
 
 ## Contenedores de base de datos {#db-containers}
@@ -141,4 +141,4 @@ Puede implementar Adobe Campaign utilizando la base de datos y los esquemas pred
 
 La asignación de almacenamiento total se divide entre la base de datos principal y la base de datos secundaria (opcional) de Snowflake. El lugar donde se almacenan los datos debe determinarse en el momento de la implementación o la actualización, según los casos de uso específicos del cliente.
 
-Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=es){target="_blank"}.
+Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

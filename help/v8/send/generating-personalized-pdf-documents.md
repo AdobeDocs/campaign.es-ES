@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 97%
+source-wordcount: '501'
+ht-degree: 95%
 ---
 # Generación de documentos PDF personalizados{#generating-personalized-pdf-documents}
 
@@ -38,7 +38,7 @@ Se admiten las siguientes extensiones: “.docx”, “.doc” y “.odt”.
 
 Para personalizar los documentos, se encuentran disponibles las mismas funcionalidades de JavaScript que para la personalización del correo electrónico.
 
-Debe activar la opción **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]**. Esta opción está accesible al adjuntar el archivo al correo electrónico de entrega. Para obtener más información sobre cómo adjuntar un archivo calculado, consulte la [Documentación de la versión 8 de Campaign](attaching-files.md).
+Debe activar la opción **[!UICONTROL "The content of the file is personalized and converted to PDF during the delivery of each message"]**. Esta opción está accesible al adjuntar el archivo al correo electrónico de entrega. Para obtener más información sobre cómo adjuntar un archivo calculado, consulte la [documentación de Campaign v8](attaching-files.md).
 
 Para generar tablas dinámicas o incluir imágenes a través de una URL, se debe seguir un proceso específico.
 

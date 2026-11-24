@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 100%
+source-wordcount: '640'
+ht-degree: 78%
 ---
 # Descripción de los componentes y procesos de Campaign {#components-and-processes}
 
@@ -63,7 +63,7 @@ Puede acceder a Adobe Campaign a través de un cliente enriquecido, un cliente l
 
 * Cliente ligero
 
-  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de control de monitorización y mucho más.  [Obtenga más información sobre el acceso web de Campaign](../start/connect.md).
+  Las funciones de acceso web de Adobe Campaign le permiten acceder a un subconjunto de funciones de Campaign con un explorador web mediante una interfaz de usuario de HTML. Utilice esta interfaz web para acceder a informes, controlar y validar mensajes, acceder a paneles de control de monitorización y mucho más.  [Obtenga más información sobre el acceso web de Campaign](../start/connect.md).
 
 * Aplicaciones externas con API
 
@@ -71,13 +71,13 @@ Puede acceder a Adobe Campaign a través de un cliente enriquecido, un cliente l
 
 ### Capa de persistencia{#persistance-layer}
 
-Las bases de datos de Campaign se utilizan como capas de persistencia y contienen casi toda la información y los datos que administra Adobe Campaign. Esto incluye datos funcionales, como perfiles, suscripciones, contenido; datos técnicos, como trabajos y registros de envío, registros de seguimiento, y datos de trabajo (compras, posibles clientes).
+Las bases de datos de Campaign se utilizan como capa de persistencia y contienen casi toda la información y los datos que administra Adobe Campaign. Esto incluye datos funcionales, como perfiles, suscripciones, contenido; datos técnicos, como trabajos y registros de envío, registros de seguimiento, y datos de trabajo (compras, posibles clientes).
 
 La fiabilidad de la base de datos es de suma importancia porque la mayoría de los componentes de Adobe Campaign requieren acceder a la base de datos para poder realizar sus tareas (excepto al módulo de redirección).
 
 ### Capa de aplicación lógica{#logical-app-layer}
 
-La capa de aplicación lógica de Campaign se puede configurar fácilmente para satisfacer necesidades comerciales complejas. Puede utilizar Campaign como plataforma única con diferentes aplicaciones que se combinan para crear una arquitectura abierta y escalable. Cada instancia de Campaign es una colección de procesos en la capa de aplicación, algunos de los cuales se comparten y otros son exclusivos.
+La capa de aplicación lógica de Campaign se puede configurar fácilmente para satisfacer necesidades comerciales complejas. Puede utilizar Campaign como una plataforma única con diferentes aplicaciones que se combinan para crear una arquitectura abierta y escalable. Cada instancia de Campaign es una colección de procesos en la capa de aplicación, algunos de los cuales se comparten y otros están dedicados.
 
 ## Campaign Managed Cloud Services{#ac-managed-services}
 
@@ -97,6 +97,6 @@ The overall communication between Campaign processes are described in the follow
 ![](assets/do-not-localize//ac-standalone.png)
 -->
 
-El usuario se conecta al servidor de aplicaciones de Campaign mediante el protocolo HTTP. Todos los datos y la información se administran en la base de datos de Campaign. Si un desarrollador de Campaign realiza cualquier cambio en la configuración, se captura en la base de datos. Si un experto en marketing crea una nueva campaña, toda la información y los datos relacionados con esta nueva campaña también se administran en la base de datos. Cuando un experto en marketing ejecuta una campaña, los envíos de correo electrónico se realizan a los perfiles desde el servidor de Campaign a través del servidor SMTP. A medida que los perfiles interactúan con los envíos de correo electrónico, como, por ejemplo, abrir el correo electrónico, esos datos de seguimiento se envían de nuevo al servidor de seguimiento.
+El usuario se conecta al servidor de aplicaciones de Campaign mediante HTTP. Todos los datos y la información se administran en la base de datos de Campaign. Si un desarrollador de Campaign realiza cualquier cambio en la configuración, se captura en la base de datos. Si un experto en marketing crea una nueva campaña, toda la información y los datos relacionados con esta nueva campaña también se administran en la base de datos. Cuando un experto en marketing ejecuta una campaña, los envíos de correo electrónico se realizan a los perfiles desde el servidor de Campaign a través del servidor SMTP. A medida que los perfiles interactúan con los envíos de correo electrónico, como, por ejemplo, abrir el correo electrónico, esos datos de seguimiento se envían de nuevo al servidor de seguimiento.
 
 [Obtenga más información sobre los procesos de Campaign](../architecture/general-architecture.md#dev-env).

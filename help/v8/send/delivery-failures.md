@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f0e325102f748f6268a21a5397774a08a6994e51
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '3475'
-ht-degree: 55%
+source-wordcount: '3476'
+ht-degree: 54%
 ---
 # Comprender los errores de envío {#delivery-failures}
 
@@ -64,7 +64,7 @@ Si no es posible enviar un mensaje a un perfil, el servidor remoto envía autom�
 
 Una vez enviado un mensaje, puede ver el estado de envío de cada perfil y el tipo y el motivo de error asociado en los registros de envío.
 
-Cuando una dirección de correo electrónico está en cuarentena, o si un perfil está a la lista de bloqueados, el destinatario se excluye en el paso de preparación de la entrega. Los mensajes excluidos se muestran en el panel de control de entrega.
+Cuando una dirección de correo electrónico está en cuarentena, o si un perfil está en la lista de bloqueados de la, el destinatario se excluye en el paso de preparación de la entrega. Los mensajes excluidos se muestran en el panel de control de entrega.
 
 ## ¿Por qué ha fallado la entrega del mensaje? {#delivery-failure-reasons}
 
@@ -159,7 +159,7 @@ Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha 
 
 Un mensaje puede caducar antes del final de su periodo de validez cuando el siguiente reintento cae después de la hora de caducidad. A continuación, el registro de envío muestra el error del último intento de envío.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipos de error de correo electrónico {#email-error-types}
@@ -228,7 +228,7 @@ Para el canal de correo electrónico, a continuación se enumeran los posibles m
    <td> Excluido tras la mediación </td> 
    <td> Ignorado </td> 
    <td> 12 </td> 
-   <td> El destinatario se ha excluido mediante las reglas de tipología de campaña de tipo “mediación”.<br /> </td> 
+   <td> El destinatario se excluyó mediante una regla de tipología de campaña de tipo "mediación".<br /> </td> 
   </tr> 
   <tr> 
    <td> Excluido por una regla SQL </td> 
@@ -258,7 +258,7 @@ Para el canal de correo electrónico, a continuación se enumeran los posibles m
    <td> Sin definir </td> 
    <td> Sin definir </td> 
    <td> 0 </td> 
-   <td> La dirección está en proceso de clasificación porque el error aún no se ha sumado. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. Entonces pueden realizar análisis de mensajes y clasificar este error a través del nodo <span class="uicontrol">Administration</span>, <span class="uicontrol">Campaign Management</span>, <span class="uicontrol">Non deliverables Management</span> en la estructura del árbol.<br /> </td> 
+   <td> La dirección está en proceso de calificación porque el error aún no se ha incrementado. Este tipo de error se produce cuando el servidor envía un nuevo mensaje de error: puede tratarse de un error aislado; sin embargo, si vuelve a producirse, el contador de errores aumenta, lo que advierte a los equipos técnicos. Entonces pueden realizar análisis de mensajes y clasificar este error a través del nodo <span class="uicontrol">Administration</span>, <span class="uicontrol">Campaign Management</span>, <span class="uicontrol">Non deliverables Management</span> en la estructura del árbol.<br /> </td> 
   </tr> 
   <tr> 
    <td> No reúne los requisitos para las ofertas </td> 
@@ -309,7 +309,7 @@ Para el canal de aplicaciones móviles, los posibles motivos de un error de entr
 
 El protocolo HTTP/V2 permite los comentarios y el estado directo para cada notificación remota. Si se utiliza el conector de protocolo HTTP/V2, el flujo de trabajo **[!UICONTROL mobileAppOptOutMgt]** ya no se comunica con el servicio de comentarios. Un token de dispositivo se considera no registrado cuando se desinstala o se vuelve a instalar una aplicación móvil.
 
-Sincrónicamente, si APNS devuelve el estado “no registrado” para un mensaje, el token de destino se pone inmediatamente en cuarentena.
+Sincrónicamente, si APNS devuelve el estado &quot;no registrado&quot; para un mensaje, el token de destino se pone inmediatamente en cuarentena.
 
 +++ Haga clic para ver los escenarios de cuarentena de iOS
 
@@ -497,7 +497,7 @@ El mecanismo de cuarentena de Android V2 utiliza el mismo proceso que Android V1
    <td> No<br /> </td> 
   </tr> 
   <tr> 
-   <td> Rechazo de mensaje FCM: Todos los demás errores<br /> </td> 
+   <td> Rechazo de mensaje de FCM: Todos los demás errores <br /> </td> 
    <td> Fallo<br /> </td> 
    <td> El servidor de Firebase Cloud Messaging devolvió un código de error inesperado: {1} </td> 
    <td> </td> 

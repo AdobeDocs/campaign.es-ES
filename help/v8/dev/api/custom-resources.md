@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
@@ -42,7 +42,7 @@ Se puede acceder a los recursos personalizados mediante las API que usan el extr
 >
 >Para los recursos que no están listos para usarse, utilice siempre el prefijo <b>&quot;cus&quot;</b> antes del nombre del recurso.
 
-Puede realizar cualquier operación con recursos personalizados, siempre y cuando estén vinculados a la tabla Perfil. Por ejemplo, veamos la estructura de las tablas a continuación:
+Puede realizar cualquier operación con recursos personalizados, siempre y cuando estén vinculados a la tabla Perfil. Por ejemplo, veamos la siguiente estructura de tabla:
 
 ![texto alternativo](assets/cusresources.png)
 
@@ -62,7 +62,7 @@ Ejemplo de solicitud GET para acceder al recurso profileAndServicesExt ampliado.
 -H 'X-Api-Key: <API_KEY>' \
 ```
 
-Devuelve la lista de todos los recursos personalizados vinculados. A continuación, puede utilizar las direcciones URL de los recursos para realizar cualquier tarea de la API descrita en esta documentación.
+Devuelve la lista de todos los recursos personalizados vinculados. A continuación, puede utilizar las direcciones URL del recurso para realizar cualquier tarea de la API descrita en esta documentación.
 
 ```
 {

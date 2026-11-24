@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 40%
+source-wordcount: '1733'
+ht-degree: 39%
 ---
 # Administrar permisos de usuario{#manage-permissions}
 
@@ -221,7 +221,7 @@ Puede utilizar Admin Console para crear grupos de usuarios y asignarles usuarios
 
 Un grupo de usuarios es una colección de usuarios diferentes a los que se debe otorgar un conjunto compartido de permisos. Aprenda a crear grupos de usuarios en [esta sección](https://helpx.adobe.com/ie/enterprise/using/user-groups.html){target="_blank"}.
 
-Puede asignar perfiles de producto a grupos de usuarios. Por lo tanto, todos los usuarios de ese grupo deben recibir el mismo conjunto de permisos de producto.
+Puede asignar perfiles de producto a grupos de usuarios. Por lo tanto, todos los usuarios de ese grupo reciben el mismo conjunto de permisos de producto.
 
 ## Derechos asignados{#use-named-rights}
 
@@ -259,7 +259,7 @@ Los derechos asignados predeterminados en Adobe Campaign son:
 
 * **[!UICONTROL LOCAL]**: derecho para la administración local (Distributed Marketing).
 
-* **[!UICONTROL MERGE]**: Derecho para combinar los registros seleccionados en uno. Si los destinatarios existen como duplicados, el derecho de **[!UICONTROL MERGE]** permite al usuario seleccionar los duplicados y combinarlos en un destinatario principal.
+* **[!UICONTROL MERGE]**: Derecho para combinar los registros seleccionados en uno. Si los destinatarios existen como duplicados, el derecho **[!UICONTROL MERGE]** permite a los usuarios seleccionar los duplicados y combinarlos en un destinatario principal.
 
 * **[!UICONTROL PREPARE DELIVERIES]**: Derecho a crear, editar y guardar un envío. Los usuarios con el derecho de **[!UICONTROL PREPARE DELIVERIES]** también pueden iniciar el proceso de análisis de envíos.
 

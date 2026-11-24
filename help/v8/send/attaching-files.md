@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1006'
-ht-degree: 94%
+ht-degree: 93%
 ---
 # Adjuntar archivos a un correo electrónico{#attaching-files}
 
@@ -34,12 +34,12 @@ Puede adjuntar uno o varios archivos a una entrega de correo electrónico.
 
 >[!NOTE]
 >
->Para evitar problemas de rendimiento, se recomienda no incluir más de un archivo adjunto por correo electrónico. El umbral recomendado se puede configurar desde la lista de opciones de Campaign. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#delivery).
+>Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo por correo electrónico. El umbral recomendado se puede configurar desde la lista de opciones de Campaign. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 Hay dos casos posibles:
 
 * Seleccione un archivo y adjúntelo a la entrega tal cual.
-* Personalice el contenido del archivo adjunto para cada destinatario. En este caso, es necesario crear un archivo adjunto calculado: el nombre del archivo adjunto se calcula en el momento de la entrega de forma individual según cada mensaje en función del destinatario. **&#x200B;**&#x200B;El contenido también se puede personalizar y convertir en formato PDF en el momento de la entrega si tiene la opción **Impresión digital de variable**.
+* Personalice el contenido del archivo adjunto para cada destinatario. En este caso, es necesario crear un archivo adjunto calculado: el nombre del archivo adjunto se calcula en el momento de la entrega de forma individual según cada mensaje en función del destinatario. **** El contenido también se puede personalizar y convertir en formato PDF en el momento de la entrega si tiene la opción **Impresión digital de variable**.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Para evitar problemas de rendimiento, las imágenes incluidas en los correos ele
 
 Adobe también recomienda limitar el tamaño y el número de archivos adjuntos. De forma predeterminada, solo puede agregar un archivo como archivo adjunto a un correo electrónico. Este umbral se puede configurar desde la opción `NmsDelivery_MaxRecommendedAttachments`.
 
-Obtenga más información en la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#delivery).
+Obtenga más información en la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ## Adjuntar un archivo local {#attaching-a-local-file}
 
@@ -59,7 +59,7 @@ Para adjuntar un archivo local a una entrega, siga los pasos a continuación.
 
 >[!NOTE]
 >
->Puede adjuntar varios archivos a la entrega. Los archivos adjuntos pueden tener cualquier formato, incluido el formato compactado.
+>Puede adjuntar varios archivos a la entrega. Los archivos adjuntos pueden tener cualquier formato, incluido el formato comprimido.
 
 1. Haga clic en el vínculo **[!UICONTROL Attachments]**.
 1. Haga clic en el botón **[!UICONTROL Add]**.

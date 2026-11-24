@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 77%
+ht-degree: 75%
 ---
 # Introducción a las aplicaciones web{#about-web-applications}
 
@@ -51,7 +51,7 @@ ht-degree: 77%
 >
 >Para los casos de uso más comunes, cree sus páginas de destino en la interfaz de usuario de Campaign Web, donde podrá diseñarlas y publicarlas fácilmente. Las páginas de aterrizaje creadas en la consola del cliente, tal como se describe en esta sección, ofrecen más configuraciones y cubren casos de uso más avanzados.
 >
->[Obtenga más información acerca de las páginas de destino en la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Obtenga más información acerca de las páginas de destino en la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -82,24 +82,24 @@ Las aplicaciones web de Adobe Campaign proporcionan acceso a las siguientes func
 * Interfaz de administración de páginas gráficas, diseño de página de varias columnas. Para obtener más información, consulte [esta página](designing-a-web-application.md).
 * Renderización de la personalización y la posición del campo. Para obtener más información, consulte [esta página](editing-content.md#adding-personalization-content).
 * Visualización condicional de los campos de encuesta según las respuestas. Para obtener más información, consulte [esta página](form-rendering.md#defining-fields-conditional-display).
-* Visualización aleatoria de preguntas. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} (documentación de Campaign v8).
+* Visualización aleatoria de preguntas. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/building-a-survey#adding-questions){target="_blank"} (documentación de Campaign v8).
 * Visualización condicional de la página. Para obtener más información, consulte [esta página](defining-web-forms-page-sequencing.md#conditional-page-display).
 * La información se comprueba antes de la validación según el tipo de datos esperado (número, dirección de correo electrónico, fecha, etc.) y los campos obligatorios. Para obtener más información, consulte esta [página](form-rendering.md#defining-control-settings).
 * Invitaciones o notificaciones por correo electrónico. Para obtener más información, consulte [esta página](publishing-a-web-form.md#delivering-a-form-via-email).
 * Personalización de mensajes de error y de fin. Para obtener más información, consulte [esta página](defining-web-forms-properties.md#setting-up-an-error-page).
 * Uso de imágenes, vídeos, vínculos de hipertexto, captcha, etc. Para obtener más información, consulte esta [página](editing-content.md).
-* Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} (documentación de Campaign v8).
+* Seguimiento de las respuestas en tiempo real. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#response-tracking){target="_blank"} (documentación de Campaign v8).
 
 El módulo opcional de creación **Survey** ofrece las siguientes funcionalidades adicionales:
 
-* Extensión dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} (documentación de Campaign v8).
-* Generación de informes específicos. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} (documentación de Campaign v8).
+* Extensión dinámica de la base de datos: creación de respuestas no incluidas en la plantilla de datos inicial. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/managing-answers#storing-collected-answers){target="_blank"} (documentación de Campaign v8).
+* Generación de informes específicos. Para obtener más información, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/publish-track-and-use-collected-data#reports-on-surveys){target="_blank"} (documentación de Campaign v8).
 
 En comparación con las aplicaciones web, las encuestas tienen una interfaz gráfica simplificada con un número reducido de controles de edición.
 
 >[!NOTE]
 >
->Las encuestas se detallan en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentación de Campaign v8).
+>Las encuestas se detallan en [esta sección](https://experienceleague.adobe.com/en/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentación de Campaign v8).
 >
 >Las funcionalidades generales de los formularios web en Adobe Campaign se especifican en [esta sección](about-web-forms.md).
 
@@ -116,7 +116,7 @@ Para crear y publicar una aplicación web, debe:
 
 ## Configuración inicial de la aplicación web {#web-application-initial-configuration}
 
-La aplicación web se crea mediante el vínculo **[!UICONTROL Web Applications]** en el entorno **[!UICONTROL Campaigns]** y en el entorno **[!UICONTROL Profiles and targets]**.
+Las aplicaciones web se crean mediante el vínculo **[!UICONTROL Web Applications]** en las fichas **[!UICONTROL Campaigns]** y **[!UICONTROL Profiles and targets]**.
 
 Las aplicaciones web se almacenan en el nodo **[!UICONTROL Resources > Online > Web Applications]** del directorio de Adobe Campaign. Las configuraciones se desglosan en las siguientes carpetas:
 

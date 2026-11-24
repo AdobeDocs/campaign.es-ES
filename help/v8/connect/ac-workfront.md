@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 0%
@@ -31,4 +31,4 @@ Agilice la entrega de campañas asociando Campaign con Adobe Workfront. Facilite
 Los pasos para configurar esta integración se detallan en la documentación de Adobe Workfront.
 
 
-[Módulos Adobe Campaign en Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html?lang=es){target="_blank"}.
+[Módulos Adobe Campaign en Adobe Workfront](https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/adobe-campaign-classic-connector.html){target="_blank"}.

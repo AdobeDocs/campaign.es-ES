@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1458'
-ht-degree: 64%
+ht-degree: 63%
 ---
 # Adición de una oferta en una página web{#add-an-offer-in-web}
 
@@ -227,7 +227,7 @@ El caso de uso siguiente detalla las configuraciones que se deben realizar en Ad
 
 1. **Amplíe la fórmula de oferta para editar nuevos campos y modificar un campo existente**
 
-   Edite el formulario de entrada **Offer (nsm)**.
+   Edite el formulario de entrada **Oferta (nms)**.
 
    En la sección “Views”, inserte los dos nuevos campos con el contenido siguiente:
 

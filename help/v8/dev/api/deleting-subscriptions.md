@@ -22,7 +22,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 0%
@@ -109,7 +109,7 @@ Realice una petición DELETE en la dirección URL de servicio deseada.
 Este es un procedimiento de tres pasos.
 
 1. Recupere el servicio deseado y su URL de suscripción.
-1. Realice una petición GET en la URL de suscripciones para recuperar todos los perfiles y suscripciones.
+1. Realice una petición GET en la dirección URL de suscripciones para recuperar todas las suscripciones del perfil.
 1. Realice una petición DELETE en la URL de suscripción de perfil que desee.
 
 Si la solicitud de eliminación se realiza correctamente, el estado de respuesta es 204 Sin contenido.

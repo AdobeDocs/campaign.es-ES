@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1353'
-ht-degree: 24%
+source-wordcount: '1354'
+ht-degree: 22%
 ---
 # Características del canal SMS {#sms-channel}
 
@@ -49,7 +49,7 @@ Tanto los reconocimientos como SR pueden almacenar en déclencheur los errores. 
 
 ### Información transmitida por un SMS  {#sms-info}
 
-Un SMS lleva más información que texto. Aquí hay una lista de lo que puede encontrar en un SMS:
+Un SMS lleva más información que texto. Esta es una lista de lo que puede encontrar en un SMS:
 
 * El texto está limitado a 140 bytes, lo que significa entre 70 y 160 caracteres en función de la codificación. Consulte [Codificación de texto SMS](#sms-text-encoding) a continuación para obtener detalles y limitaciones.
 * Una dirección de destinatario, a veces denominada ADC o MSISDN (el nombre técnico para &quot;número de teléfono&quot;). Ese es el número del móvil que recibirá el SMS.
@@ -65,7 +65,7 @@ Un SMS lleva más información que texto. Aquí hay una lista de lo que puede en
 >
 >La codificación de SMS es un tema vasto y complejo con muchas trampas e implementaciones no conformes.
 
-La primera regla es **póngase siempre en contacto con el proveedor SMPP en caso de problemas de codificación**. Solo ellos, tienen un conocimiento preciso de la codificación que admiten y reglas especiales que pueden aplicarse debido a las limitaciones en su plataforma técnica. Haga que comprueben lo que le envía y lo que le devuelve. Es el único camino para una interconexión exitosa y estable.
+La primera regla es **póngase siempre en contacto con el proveedor SMPP en caso de problemas de codificación**. Solo ellos tienen un conocimiento preciso de la codificación que admiten y de las reglas especiales que pueden aplicarse debido a las limitaciones en su plataforma técnica. Haga que comprueben lo que le envía y lo que le devuelve. Es el único camino para una interconexión exitosa y estable.
 
 Los mensajes SMS utilizan una codificación especial de 7 bits, a menudo denominada codificación GSM7.  Wikipedia tiene [un buen artículo al respecto (GSM 03.38 en inglés)](https://en.wikipedia.org/wiki/GSM_03.38).
 
@@ -78,7 +78,7 @@ En caso de problemas de codificación, hay que comprobar algunos aspectos import
 * Latin-1 no siempre es compatible. Compruebe la compatibilidad con su proveedor SMPP antes de intentar usar Latin-1.
 * El conector Adobe Campaign no admite tablas de cambio de idioma nacional. Debe utilizar UCS-2 u otro data_coding en su lugar.
 * UCS-2 y UTF-16 suelen mezclarse por teléfono. Esto es un problema para las personas que envían emojis y otros caracteres poco utilizados que no están presentes en UCS-2.
-* Los teléfonos antiguos únicos no tienen glifos de fuentes para todos los caracteres UCS-2. Los teléfonos inteligentes más recientes tienden a ser capaces de mostrar caracteres raros con bastante facilidad, los teléfonos inteligentes más antiguos a menudo carecen de muchos emojis, y los teléfonos de funciones muy antiguos generalmente tienen soporte limitado a lo que es útil en la lengua nativa del país en el que se compraron. Si desea utilizar emoji o ASCII-art de algún tipo, pruébelo en una amplia variedad de teléfonos antes de enviarlo. La vista previa de Campaign no simula los glifos que faltan y muestra los símbolos que estén disponibles en el explorador web que muestra la vista previa.
+* Algunos teléfonos más antiguos no tienen glifos de fuentes para todos los caracteres UCS-2. Los teléfonos inteligentes más recientes tienden a ser capaces de mostrar caracteres raros con bastante facilidad, los teléfonos inteligentes más antiguos a menudo carecen de muchos emojis, y los teléfonos de funciones muy antiguos generalmente tienen soporte limitado a lo que es útil en la lengua nativa del país en el que se compraron. Si desea utilizar emoji o ASCII-art de algún tipo, pruébelo en una amplia variedad de teléfonos antes de enviarlo. La vista previa de Campaign no simula los glifos que faltan y muestra los símbolos que estén disponibles en el explorador web que muestra la vista previa.
 
 El campo *data_coding* indica qué codificación se usa. Un problema importante es que el valor 0 significa *codificación SMSC predeterminada* en la especificación; en general, significa GSM7, pero no siempre es así. Compruebe con el proveedor SMPP qué codificación está asociada con data_coding = 0. Otros valores data_coding tienden a seguir la especificación, pero la única manera de estar seguros es consultar con el proveedor SMPP.
 

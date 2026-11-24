@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '2404'
-ht-degree: 99%
+ht-degree: 96%
 ---
 # Adición de campos a un formulario web{#adding-fields-to-a-web-form}
 
@@ -88,11 +88,11 @@ Para añadir un campo de entrada, haga clic en el botón **[!UICONTROL Input con
 
 Se pueden insertar cinco tipos diferentes de campos de texto en una página de formulario:
 
-* **Texto**: permite al usuario introducir un texto en una línea.
+* **Texto**: permite al usuario introducir texto en una línea.
 
   ![](assets/s_ncs_admin_survey_txt_ex.png)
 
-* **Número**: permite al usuario introducir un texto en una línea. Para obtener más información, consulte [Añadir números](#adding-numbers).
+* **Número**: permite al usuario introducir un texto en una línea. Para obtener más información, consulte [Agregar números](#adding-numbers).
 
   Cuando se aprueba la página, se comprueba el contenido del campo para asegurarse de que el valor introducido sea compatible con el campo. Para obtener más información, consulte [Definir configuraciones de control](form-rendering.md#defining-control-settings),
 
@@ -233,7 +233,7 @@ Para añadir botones de opción a través de una lista, vaya al menú **[!UICONT
 
 ![](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
-Añada tantos botones de opción como etiquetas. La ventaja de esta función es que puede importar valores de un campo existente (en el caso de un campo desglosado) y hacer que el usuario seleccione una opción. Sin embargo, el diseño de los botones es menos flexible.
+Añada tantos botones de opción como etiquetas. La ventaja de esta función es que puede importar valores de un campo existente (en el caso de un campo desglosado) y hacer posible que el usuario elija una opción. Sin embargo, el diseño de los botones es menos flexible.
 
 >[!NOTE]
 >
@@ -332,7 +332,7 @@ Indique la etiqueta de la casilla de verificación y seleccione el servicio de i
 
 >[!NOTE]
 >
->Los servicios de información se describen en [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
+>Los servicios de información se describen en [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/subscriptions-and-referrals/managing-subscriptions){target="_blank"}.
 
 El usuario se suscribe al servicio seleccionando la opción correspondiente.
 

@@ -24,7 +24,7 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 1%
@@ -78,6 +78,6 @@ Al utilizar CCO del correo electrónico con Adobe Campaign, se aplican las sigui
 
 * El correo electrónico CCO <!--with Enhanced MTA--> se envía a la dirección de correo electrónico CCO antes de enviarse a los destinatarios, lo que puede dar como resultado que se envíen mensajes CCO aunque los envíos originales puedan haber rebotado. Para obtener más información sobre las devoluciones, consulte [Comprender los errores de entrega](delivery-failures.md).
 
-* No se deben abrir ni hacer clic en los mensajes de correo electrónico enviados a la dirección de CCO, ya que estas actividades se tienen en cuenta en **[!UICONTROL Total opens]** y **[!UICONTROL Clicks]** del análisis de envío. Esto puede provocar cálculos erróneos.
+* No se debe abrir ni hacer clic en los mensajes de correo electrónico enviados a la dirección de CCO, ya que estas actividades se tienen en cuenta en **[!UICONTROL Total opens]** y **[!UICONTROL Clicks]** del análisis de envío. Esto puede provocar cálculos erróneos.
 
 <!--Only successfully sent emails are taken in account, bounces are not.-->

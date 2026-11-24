@@ -32,7 +32,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1024'
 ht-degree: 1%
@@ -55,7 +55,7 @@ Los pasos principales para configurar esta integración son los siguientes:
 <td><img src="../assets/do-not-localize/icon-workflow.svg" width="60px"><p><a href="#script">Configuración del flujo de trabajo de página de aterrizaje</a></p></td>
 </table>
 
-## Configuración de una conexión de Oauth {#oauth}
+## Configuración de una conexión OAuth {#oauth}
 
 Las API de Adobe Cloud Platform utilizan el protocolo OAuth 2.0 para la autenticación y autorización. Para conectar Adobe Experience Platform a Adobe Campaign mediante llamadas a la API, debe generar un token de acceso mediante la integración de OAuth creada en Adobe Developer Console.
 
@@ -81,7 +81,7 @@ Con la conexión OAuth establecida, el siguiente paso es crear una conexión de 
 
    ![](assets/ac-lp-source.png){width="70%"}
 
-1. Configure la conexión según sus necesidades. Encontrará información detallada sobre cómo configurar una conexión HTTP API en [documentación de fuentes de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html?lang=es){target="_blank"}.
+1. Configure la conexión según sus necesidades. Encontrará información detallada sobre cómo configurar una conexión HTTP API en [documentación de fuentes de Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/streaming/http.html){target="_blank"}.
 
    En el paso **[!UICONTROL Authentication]**, active la opción **[!UICONTROL Enable authentication]** para autenticarse con el token de acceso generado anteriormente mediante la integración de OAuth.
 
@@ -123,7 +123,7 @@ Examine las pestañas siguientes para descubrir los dos métodos:
 
 >[!TAB Agregar opciones mediante una actividad de código JavaScript]
 
-Para configurar estas opciones automáticamente al ejecutar el flujo de trabajo de páginas de aterrizaje, agregue una actividad **[!UICONTROL JavaScript code]** al flujo de trabajo con el código siguiente. [Aprenda a configurar una actividad de código JavaScript](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}.
+Para configurar estas opciones automáticamente al ejecutar el flujo de trabajo de páginas de aterrizaje, agregue una actividad **[!UICONTROL JavaScript code]** al flujo de trabajo con el código siguiente. [Aprenda a configurar una actividad de código JavaScript](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/sql-code-and-javascript-code#JavaScript-code){target="_blank"}.
 
 En la ejecución del flujo de trabajo, las opciones se crean automáticamente en la consola de Campaign con los valores proporcionados.
 

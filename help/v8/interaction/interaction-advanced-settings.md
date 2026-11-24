@@ -20,20 +20,20 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '120'
 ht-degree: 0%
 ---
 # Configuración avanzada del módulo de interacción
 
 La configuración del módulo Interacción de Campaign está reservada para usuarios expertos. La configuración avanzada se detalla en **Documentación de Campaign Classic v7**:
 
-Aprenda a utilizar datos contextuales adicionales en las ofertas [de esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html?lang=es){target="_blank"}.
+Aprenda a utilizar datos contextuales adicionales en las ofertas [de esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/additional-data.html){target="_blank"}.
 
 Aprenda a enriquecer los criterios de idoneidad de sus ofertas [en esta página](extension-example.md).
 
-Aprenda los pasos para crear un entorno de prueba [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html?lang=es){target="_blank"}.
+Conozca los pasos para crear un entorno de prueba [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/creating-a-test-environment.html){target="_blank"}.
 
-Aprenda a utilizar los vínculos para modificar el comportamiento estándar del motor de oferta [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html?lang=es){target="_blank"}.
+Aprenda a utilizar los vínculos para modificar el comportamiento estándar del motor de oferta [en esta página](https://experienceleague.adobe.com/docs/campaign-classic/using/managing-offers/advanced-parameters/hooks.html){target="_blank"}.
 

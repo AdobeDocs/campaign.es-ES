@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1076'
 ht-degree: 11%
 ---
 # Trabajo con Campaign y X (Twitter) {#tw-ac-ovv}
@@ -79,7 +79,7 @@ Una vez aprobado con acceso elevado, cree una aplicación X para permitir que Ad
 1. Conectar con [X portal para desarrolladores](https://developer.twitter.com/en/apps){target="_blank"}.
 1. Seleccione **Crear una aplicación**.
 1. Deje que el asistente X le guíe a través del proceso.
-1. Para permitir que Adobe Campaign cree publicaciones en su cuenta, edite en **Permisos de aplicación** desde la sección Configuración de autenticación de usuario de su aplicación. Seleccione **Leer, escribir y dirigir mensajes**.
+1. Para permitir que Adobe Campaign cree publicaciones en su cuenta, edite los **permisos de la aplicación** desde la sección Configuración de autenticación de usuario de la aplicación. Seleccione **Leer, escribir y dirigir mensajes**.
 
    ![](assets/tw-permissions.png)
 
@@ -108,7 +108,7 @@ Para vincular la instancia de Campaign con la cuenta X, cree un servicio **Twitt
 >Adobe también debe crear cada servicio **Twitter** en su instancia intermediaria (MID). Póngase en contacto con su representante de Adobe para configurar su entorno.
 >
 
-Para introducir la configuración, debe acceder tanto a la consola del cliente de Adobe Campaign como a los permisos de la aplicación X.
+Para especificar la configuración, debe acceder tanto a la consola del cliente de Adobe Campaign como a los permisos de la aplicación X.
 
 1. En **Adobe Campaign**, vaya a la ficha **[!UICONTROL Profiles and targets]** y seleccione el vínculo **[!UICONTROL Services and Subscriptions]**
 1. Cree un nuevo servicio.
@@ -169,7 +169,7 @@ Una vez completada esta configuración, puede crear publicaciones en sus cuentas
 
 ## Crear una cuenta de prueba en X {#tw-test-account}
 
-Además de la cuenta X, cree una cuenta X privada que se pueda usar para enviar [pruebas de tweet](../send/twitter.md). Para realizar esto, siga los pasos a continuación:
+Además de una cuenta X, cree una cuenta X privada que se pueda usar para enviar [pruebas de tweet](../send/twitter.md). Para realizar esto, siga los pasos a continuación:
 
 1. Cree una nueva cuenta X.
 1. Acceda a la cuenta **Configuración**.

@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 100%
+source-wordcount: '2144'
+ht-degree: 96%
 ---
 # Ofertas en un canal de entrada{#offers-on-an-inbound-channel}
 
@@ -147,7 +147,7 @@ Se obtiene una estructura de árbol que contiene el nuevo entorno:
 
 ### Configuración del espacio de ofertas web en el sitio web {#configure-the-web-offer-space-on-the-website}
 
-Para que las ofertas que acaba de configurar estén visibles en el sitio web, inserte un código JavaScript en la página HTML del sitio para llamar al motor de interacción [(para obtener más información al respecto, consulte [Acerca de los canales entrantes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} documentación de la versión 8 de Campaign)].
+Para que las ofertas que acaba de configurar estén visibles en el sitio web, inserte código JavaScript en la página HTML del sitio para visualizar el motor de interacción (para obtener más información, consulte [Acerca de los canales entrantes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/inbound/interaction-present-offers){target="_blank"} (Documentación de Campaign v8)).
 
 1. Vaya a la página HTML e inserte un atributo @id con un valor que coincida con el nombre interno del espacio de oferta anónimo creado anteriormente (consulte [Crear espacios de oferta anónimos](#creating-anonymous-offer-spaces)), precedido por **i_**.
 
@@ -340,7 +340,7 @@ En este ejemplo, la identificación de los contactos tiene lugar gracias a la di
 Vamos a crear dos categorías independientes: la categoría **Mejor oferta** y la categoría **Socios**, cada una con dos ofertas personalizadas.
 
 1. En el entorno identificado, vaya al nodo **[!UICONTROL Offer catalogs]**.
-1. En el entorno anónimo, añada dos carpetas de **[!UICONTROL Offer category]** con las etiquetas **Mejor oferta** y **Socio**.
+1. En el entorno anónimo, agregue dos carpetas de **[!UICONTROL Offer category]** con **Mejor oferta** y **Socio** como etiquetas.
 
    ![](assets/offer_inbound_fallback_example_009.png)
 

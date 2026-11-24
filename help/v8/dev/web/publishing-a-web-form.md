@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1280'
-ht-degree: 100%
+ht-degree: 96%
 ---
 # Publicación de un formulario web{#publishing-a-web-form}
 
@@ -119,7 +119,7 @@ Existen tres fases en el ciclo de vida de un formulario:
 
    Cuando se haya completado la fase de diseño, se puede enviar el formulario.
 
-   Cuando un formulario tiene el estado **[!UICONTROL Being edited]** o **[!UICONTROL Pending publication]**, debe [publicarse](#publishing-a-form) para estar en línea y ser accesible a través de la URL del formulario web en un explorador.
+   Cuando un formulario tiene el estado **[!UICONTROL Being edited]** o **[!UICONTROL Pending publication]**, debe ser [publicado](#publishing-a-form) para estar en línea y ser accesible a través de la dirección URL del formulario web en un explorador.
 
    Una vez publicado, el fomulario estará activo hasta que caduca.
 
@@ -203,7 +203,7 @@ Obtenga más información sobre los distintos estados de un formulario web en [e
 
   * Si el formulario web ya existe en la nueva instancia, se reemplaza por la nueva versión del formulario y toma el estado **[!UICONTROL Pending publication]**, incluso si la versión antigua del formulario era **[!UICONTROL Online]**.
 
-  * Si el formulario existía o no, el formulario debe [publicarse](#publishing-a-form) para convertirse en **[!UICONTROL Online]** en la nueva instancia y ser accesible a través de la URL del formulario web en un explorador.
+  * Independientemente de si el formulario existe o no, el formulario debe ser [publicado](#publishing-a-form) para convertirse en **[!UICONTROL Online]** en la nueva instancia y accesible a través de la URL del formulario web en un explorador.
 
 * Si el estado del formulario web era **[!UICONTROL Being edited]** al exportarse:
 

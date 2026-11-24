@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 33%
 ---
 # Crear un cubo{#create-a-cube}
@@ -77,7 +77,7 @@ Con los cubos puede:
 
 ## Crear un cubo{#cube-create}
 
-Antes de empezar a crear un informe de cubo, identifique las dimensiones y medidas relevantes y créelas en el cubo.
+Antes de crear un informe de cubo, identifique las dimensiones y medidas relevantes y créelas en el cubo.
 
 Para crear un cubo, siga los siguientes pasos:
 

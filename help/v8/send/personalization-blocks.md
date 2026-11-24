@@ -24,9 +24,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '637'
 ht-degree: 40%
 ---
 # Utilizar bloques de personalización{#personalization-blocks}
@@ -100,4 +100,4 @@ Una vez guardado, el nuevo bloque personalizado está disponible en el editor de
 
 Obtenga información sobre cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido de su envío de correo electrónico en el siguiente vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449009?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

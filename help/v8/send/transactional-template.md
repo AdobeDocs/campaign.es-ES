@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 54%
+source-wordcount: '1203'
+ht-degree: 53%
 ---
 # Crear y publicar una plantilla para la mensajería transaccional{#template-transactional-messages}
 
@@ -113,7 +113,7 @@ Una dirección semilla permite mostrar una previsualización del mensaje, enviar
 
    ![](assets/messagecenter_create_seed_2.png)
 
-1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![](assets/messagecenter_create_custo_3.png)
 
@@ -262,4 +262,4 @@ Una vez finalizada la cancelación de la publicación:
 
 * Una vez cancelada la publicación de una plantilla, puede eliminarla<!-- from the control instance-->.
 
-  Para ello, selecciónela en la lista y haga clic en el botón **[!UICONTROL Delete]** situado en la parte superior derecha de la pantalla.
+  Para ello, selecciónelo en la lista y haga clic en el botón **[!UICONTROL Delete]** en la parte superior derecha de la pantalla.

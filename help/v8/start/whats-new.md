@@ -62,16 +62,16 @@ topic_v2:
     internal-label: Data management
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1501'
-ht-degree: 70%
+ht-degree: 63%
 ---
 # Funciones clave de Adobe Campaign v8 {#ac-gs-what-is-new}
 
-La versión 8 de Adobe Campaign está diseñada para especialistas en marketing en canales múltiples que necesitan la mejor solución de nube para la administración de campañas en canales múltiples a escala empresarial. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva desde cualquier sistema de TI para tareas como restablecimiento de contraseñas, confirmación de pedidos, recibos electrónicos y mucho más.
+La versión 8 de Adobe Campaign está diseñada para especialistas en marketing en canales múltiples que necesitan la mejor solución de nube para la administración de campañas en canales múltiples a escala empresarial. Proporciona sólidas capacidades de ETL y administración de datos para ayudar a diseñar y depurar la campaña perfecta. Su motor de orquestación proporciona programas de marketing multitáctil enriquecidos con un enfoque central en los recorridos impulsados por lotes. También viene acompañado de un servidor de mensajería en tiempo real escalable que permite a los equipos de marketing enviar mensajes predefinidos basados en una carga útil inclusiva de cualquier sistema de TI para cosas como restablecimiento de contraseña, confirmación de pedido, recibos electrónicos y mucho más.
 
-Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, entregabilidad y monitorización. Está disponible como **Cloud Service administrado** que combina servicios con supervisión proactiva y modificación oportuna. Obtenga más información sobre Adobe Campaign Managed Cloud Services [en esta sección](#acms-desc).
+Adobe Campaign v8 ofrece mejoras significativas en infraestructura, seguridad, entregabilidad y monitorización. Está disponible como **Cloud Service administrado** que combina servicios con supervisión proactiva y alertas oportunas. Obtenga más información sobre Adobe Campaign Managed Cloud Services [en esta sección](#acms-desc).
 
 ![](assets/home-page.png)
 
@@ -150,7 +150,7 @@ Tenga en cuenta que la nueva arquitectura en la nube permite a Campaign optimiza
 
 >[!AVAILABILITY]
 >
->* La versión 8 de Campaign **solo** está disponible as a Managed Cloud Service y no se puede implementar en entornos locales o híbridos.
+>* La versión 8 de Campaign está **solamente** disponible como Cloud Service administrado y no se puede implementar en un entorno local o híbrido.
 >
 >* La migración automatizada desde el entorno de la versión 7 de Campaign Classic existente aún no está disponible.
 
@@ -223,7 +223,7 @@ Este enfoque garantiza que la instancia de Campaign siempre sea segura, esté op
 
 ## Interfaz de administración de autoservicio{#self-service-admin}
 
-Como administrador de productos, puede administrar la configuración y rastrear los usos de cada una de las instancias de Campaign versión 8 con el **Panel de control de Campaign**.
+Como administrador de productos, puede administrar la configuración y rastrear el uso de cada una de las instancias de Campaign v8 con **Panel de control de Campaign de Campaign**.
 
 A través de una interfaz de usuario intuitiva, los administradores pueden monitorizar el uso de los recursos clave, realizar tareas avanzadas como incluir direcciones IP en la lista de permitidos, supervisar el almacenamiento SFTP, administrar claves, etc. Esta interfaz de autoservicio le ofrece más flexibilidad y le ayuda a lo siguiente:
 

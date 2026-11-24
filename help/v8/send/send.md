@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '832'
-ht-degree: 31%
+ht-degree: 30%
 ---
 # Envío y monitorización de correos electrónicos  {#send-and-monitor-emails}
 
@@ -96,7 +96,7 @@ Obtenga más información sobre DKIM en la [Guía de prácticas recomendadas de 
 
 ## Servicio de comentarios de correo electrónico {#email-feedback-service}
 
-El servicio de comentarios de correo electrónico de Campaign (EFS) informa del estado de cada envío de correo electrónico realizado con Adobe Campaign.
+El servicio de comentarios de correo electrónico de Campaign (EFS) informa del estado de cada envío de correo electrónico enviado con Adobe Campaign.
 
 Una vez iniciada la entrega, no hay ningún cambio en el porcentaje **[!UICONTROL Success]** cuando el mensaje se transmite correctamente de Campaign al servidor de correo. Los registros de envío muestran el estado **[!UICONTROL Taken into account by the service provider]** de cada dirección de destino.
 

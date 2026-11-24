@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '2569'
+source-wordcount: '2568'
 ht-degree: 4%
 ---
 # Introducción a los formularios de entrada {#gs-ac-forms}
@@ -186,7 +186,7 @@ Se agregó un texto de ayuda utilizando la etiqueta `<static>` con el tipo de ay
 
 Use **contenedores** para agrupar un conjunto de controles. Están representados por el elemento **`<container>`**. Se utilizaron anteriormente para dar formato a los controles en varias columnas.
 
-El atributo **xpath** de `<container>` le permite simplificar la referencia de los controles secundarios. La referencia de los controles es relativa al elemento primario `<container>`.
+El atributo **xpath** de `<container>` le permite simplificar la referencia de los controles secundarios. La referencia de los controles es relativa al elemento principal `<container>`.
 
 Ejemplo de un contenedor sin &quot;xpath&quot;:
 
@@ -529,7 +529,7 @@ Ejemplo en el campo &quot;Género&quot;:
 <input xpath="@gender" readOnly="true"/>
 ```
 
-## Añadir botón de opción {#radio-button}
+## Añadir un botón de opción {#radio-button}
 
 Un botón de opción le permite elegir entre varias opciones. Las etiquetas **`<input>`** se utilizan para enumerar las opciones posibles, y el atributo **checkvalue** especifica el valor asociado con la opción.
 

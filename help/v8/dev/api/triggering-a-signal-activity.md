@@ -22,16 +22,16 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '322'
 ht-degree: 2%
 ---
 # Activación de una actividad de señal {#triggering-a-signal-activity}
 
 En un flujo de trabajo de Adobe Campaign Standard, puede haber una o más actividades **External signal**. Estas actividades son &quot;oyentes&quot; que esperan a activarse.
 
-Las API de Campaign Standard le permiten almacenar en déclencheur una actividad **Señal externa** para llamar a un flujo de trabajo. La llamada de API puede incluir parámetros que se incorporarán a las variables de eventos del flujo de trabajo (un nombre de audiencia para el destinatario, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente las automatizaciones de Campaign con su sistema externo.
+Las API de Campaign Standard le permiten almacenar en déclencheur una actividad **Señal externa** para llamar a un flujo de trabajo. La llamada de API puede incluir parámetros que se incorporarán a las variables de evento del flujo de trabajo (un nombre de audiencia para el destinatario, un nombre de archivo para importar, una parte del contenido del mensaje, etc.). De este modo, puede integrar fácilmente las automatizaciones de Campaign con su sistema externo.
 
 >[!NOTE]
 >
@@ -118,7 +118,7 @@ Para almacenar en déclencheur una actividad de señal, realice una petición PO
 -d    "audience":"audience",
 -d    "email":"anna.varney@mail.com",
 -d    "template":"05",
--d    "contentURL":"http://www.adobe.com/es",
+-d    "contentURL":"http://www.adobe.com",
 -d    "test":"true",
 -d    "segmentCode":"my segment",
 -d    "attribute":"2019-04-03 08:17:19.100Z"}

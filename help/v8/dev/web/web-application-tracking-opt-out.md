@@ -32,18 +32,18 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '710'
-ht-degree: 100%
+ht-degree: 86%
 ---
 # Exclusión del seguimiento de aplicaciones web{#web-application-tracking-opt-out}
 
 
 
-Adobe Campaign permite detener el seguimiento en la web de los comportamientos de los usuarios finales que optan por no participar en él mediante cookies o señalización web. Esta funcionalidad incluye la posibilidad de mostrar un banner para ofrecerle esta opción al usuario; se pueden añadir estos banners a las aplicaciones web o a las páginas de destino.
+Adobe Campaign le permite detener el seguimiento en la web de los comportamientos de los usuarios finales que optan por no participar en él mediante cookies o señalizaciones web. Esta funcionalidad incluye la posibilidad de mostrar un banner para ofrecerle esta opción al usuario; se pueden añadir estos banners a las aplicaciones web o a las páginas de destino.
 
-Si un usuario final opta por no participar en el seguimiento de conductas mediante cookies o señalización web, la información se transmite al servidor de seguimiento de Adobe Campaign con las API de JavaScript. Tenga en cuenta que algunas jurisdicciones pueden requerir que el cliente ofrezca a los usuarios finales una adhesión antes de poder ofrecerles una exclusión (o que existan otros requisitos legales) y es responsabilidad del cliente cumplir con las leyes aplicables.
+Si un usuario final excluye el seguimiento de comportamiento mediante cookies o señalizaciones web, esa información se transmite al servidor de seguimiento de Adobe Campaign con las API de JavaScript. Tenga en cuenta que algunas jurisdicciones pueden requerir que el cliente ofrezca a los usuarios finales una adhesión antes de poder ofrecerles una exclusión (o que existan otros requisitos legales) y es responsabilidad del cliente cumplir con las leyes aplicables.
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ El banner incluye un CSS específico. Sin embargo, puede sobrescribir los estilo
 
 ## Configuración de la cookie de exclusión mediante API {#setting-the-opt-out-cookie-using-api}
 
-Adobe Campaign incluye las API que le permiten administrar el valor de la cookie y recuperar las preferencias de usuario.
+Adobe Campaign incluye API que le permiten administrar el valor de la cookie y recuperar las preferencias de usuario.
 
 El nombre de la cookie es **acoptout**. Los valores comunes son:
 
@@ -106,7 +106,7 @@ Las API de cliente disponibles para personalizar el banner son:
 
 * **NL.ClientWebTracking.allow()**: Define el valor de la cookie de exclusión para permitir el seguimiento web. El seguimiento web se permite de forma predeterminada.
 * **NL.ClientWebTracking.forbid()**: Establece el valor de la cookie de exclusión para prohibir el seguimiento web. El seguimiento web necesita la entrada de un usuario para prohibirlo.
-* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: Cierra el banner de la cookie de exclusión cuando el usuario ha hecho clic en el botón Aceptar o Rechazar. (durante la fase de propagación del evento de clic).
+* **NL.ClientWebTracking.closeOptOutBanner(bannerDomElt)**: Cierra el banner de la cookie de exclusión cuando el usuario ha hecho clic en el botón Aceptar o Rechazar (durante la fase de propagación del evento de clic).
 
   bannerDomElt {DOMElement} el elemento DOM raíz del banner de la cookie que debe eliminarse.
 

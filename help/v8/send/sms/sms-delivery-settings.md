@@ -30,9 +30,9 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '772'
 ht-degree: 19%
 ---
 # Configuración del envío de SMS {#sms-settings}
@@ -42,13 +42,13 @@ La configuración técnica necesaria para un envío SMS es:
 * La cuenta externa SMPP para el enrutamiento de mensajes. [Más información](smpp-external-account.md#smpp-connection-settings)
 * Configure la pestaña SMS. [Descubra cómo](#sms-tab)
 
-Puede configurar todos estos elementos en una plantilla de envíos para evitar tener que realizar la configuración para cada creación de envíos SMS.
+Puede configurar todos estos elementos en una plantilla de envíos para evitar realizar la configuración para cada creación de envíos SMS.
 
 ## Configuración de la pestaña SMS {#sms-tab}
 
 ![](assets/send_settings.png){zoomable="yes"}
 
-Aquí está la información que necesita para rellenar este formulario. Cada campo se explica a continuación:
+Esta es la información que necesita para rellenar este formulario. Cada campo se explica a continuación:
 
 * **[!UICONTROL Sender address]**
 

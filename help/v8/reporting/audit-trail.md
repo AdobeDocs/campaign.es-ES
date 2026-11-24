@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '627'
 ht-degree: 2%
 ---
 # Pista de auditoría{#audit-trail}
@@ -50,7 +50,7 @@ La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un regist
 
 * **Registro de auditoría de esquemas**: permite explorar los cambios realizados en los esquemas, así como identificar quién realizó estas modificaciones y cuándo se produjeron.
 
-  Para obtener información detallada sobre los esquemas, consulte [página](../dev/schemas.md).
+  Para obtener información detallada sobre los esquemas, consulte esta [página](../dev/schemas.md).
 
 * **Registro de auditoría de flujo de trabajo** rastrea todas las acciones relacionadas con sus flujos de trabajo, incluyendo:
 
@@ -69,7 +69,7 @@ La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un regist
 
 * **Seguimiento de auditoría de opciones** le permite comprobar las actividades y las últimas modificaciones realizadas en sus opciones.
 
-  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
+  Para obtener más información sobre las opciones, consulte esta [página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options).
 
 * **Registro de auditoría de envíos** le permite comprobar las actividades y las últimas modificaciones realizadas en los envíos.
 
@@ -77,7 +77,7 @@ La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un regist
 
 * **Cuenta externa** le permite comprobar las modificaciones realizadas en cuentas externas, utilizadas por procesos técnicos como flujos de trabajo técnicos o flujos de trabajo de campañas.
 
-  Para obtener más información sobre la cuenta externa, consulte esta [página](../config/external-accounts.md).
+  Para obtener más información sobre cuentas externas, consulte esta [página](../config/external-accounts.md).
 
 * **Asignación de entregas** le permite supervisar las actividades y las modificaciones recientes realizadas en sus Asignaciones de entregas.
 
@@ -85,11 +85,11 @@ La funcionalidad **[!UICONTROL Audit trail]** en Adobe Campaign ofrece un regist
 
 * **Aplicación web** le permite comprobar las modificaciones realizadas en los formularios web de Campaign V8 que se usan para crear páginas con campos de entrada y selección, y que pueden incluir datos de la base de datos.
 
-  Para obtener más información sobre la aplicación web, consulte esta [página](../dev/webapps.md).
+  Para obtener más información sobre las aplicaciones web, consulte esta [página](../dev/webapps.md).
 
 * **Oferta** le permite comprobar las actividades y las últimas modificaciones realizadas en sus ofertas.
 
-  Para obtener más información sobre la oferta, consulte esta [página](../interaction/interaction.md).
+  Para obtener más información sobre las ofertas, consulte esta [página](../interaction/interaction.md).
 
 * **Operador** le permite supervisar las actividades y las modificaciones recientes realizadas en sus Operadores.
 
@@ -115,7 +115,7 @@ Para acceder a **[!UICONTROL Audit trail]** de su instancia:
 
    * **[!UICONTROL Type]**: flujo de trabajo, opciones, envíos o esquemas.
    * **[!UICONTROL Entity]**: nombre interno de sus actividades.
-   * **[!UICONTROL Modified by]**: nombre de usuario de la última persona que modificó esta entidad por última vez.
+   * **[!UICONTROL Modified by]**: nombre de usuario de la persona que modificó esta entidad por última vez.
    * **[!UICONTROL Action]**: última acción realizada en esta entidad, ya sea creada, modificada o eliminada.
    * **[!UICONTROL Modification date]**: fecha de la última acción realizada en esta entidad.
 

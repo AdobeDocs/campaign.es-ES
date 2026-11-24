@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 63%
+source-wordcount: '890'
+ht-degree: 58%
 ---
 # Creación de una oferta
 
@@ -58,7 +58,7 @@ Ahora puede usar la ficha **[!UICONTROL Eligibility]** para definir:
 
 ### Período de idoneidad de oferta{#eligibility-period}
 
-En la pestaña **[!UICONTROL Eligibility]** de la oferta, defina el periodo de elegibilidad de la oferta. utilice las listas desplegables para seleccionar una fecha de inicio y una de finalización en el calendario.
+En la pestaña **[!UICONTROL Eligibility]** de la oferta, defina el periodo de elegibilidad de la oferta. Utilice las listas desplegables para seleccionar una fecha de inicio y otra de finalización en el calendario.
 
 ![](assets/offer_eligibility_create_002.png)
 
@@ -80,7 +80,7 @@ Si ya se han creado filtros predefinidos, puede seleccionarlos de la lista de fi
 
 Para permitir que el motor decida entre varias ofertas para las que el objetivo es apto, se debe asignar una o más ponderaciones a la oferta. Asimismo, se puede aplicar filtros al destino si es necesario o restringir el espacio de oferta al que se aplicará la ponderación. Se prefiere una oferta con una ponderación más significativa sobre una oferta con menos ponderación.
 
-Se puede configurar múltiples ponderaciones para la misma oferta, por ejemplo, para distinguir subperiodos, objetivos específicos o incluso un espacio de oferta.
+Se pueden configurar múltiples ponderaciones para la misma oferta, por ejemplo, para distinguir subperiodos, objetivos específicos o incluso un espacio de oferta.
 
 Por ejemplo, una oferta puede tener una ponderación de A para los contactos de 18 a 25 años de edad y una ponderación de B para los contactos que se encuentran por encima de dicho rango. Si una oferta es apta para todos los verano, también puede tener una ponderación de A en julio y un ponderación de B en agosto.
 
@@ -141,7 +141,7 @@ Utilice la ficha **[!UICONTROL Content]** para definir el contenido de la oferta
    * **[!UICONTROL Title]**: especifique el título que desea que aparezca en la oferta. Advertencia: esto no hace referencia a la etiqueta de la oferta, la cual se define en la pestaña **[!UICONTROL General]**.
    * **[!UICONTROL Destination URL]**: especifique la dirección URL de la oferta. Debe comenzar con &quot;http://&quot; o &quot;https://&quot;.
    * **[!UICONTROL Image URL]**: especifique una dirección URL o una ruta de acceso a la imagen de la oferta.
-   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: introduzca el cuerpo de la oferta en la pestaña que desee. Para generar un seguimiento, el **[!UICONTROL HTML content]** debe estar compuesto por elementos HTML que se puedan incluir en un elemento de tipo `<div>` Por ejemplo, el resultado de un elemento en la página HTML estará seguido por:`<table>`
+   * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: introduzca el cuerpo de la oferta en la pestaña que desee. Para generar un seguimiento, el **[!UICONTROL HTML content]** debe estar compuesto por elementos HTML que se puedan incluir en un elemento de tipo `<div>` Por ejemplo, el resultado de un elemento `<table>` en la página de HTML será el siguiente:
 
    ```
       <div> 

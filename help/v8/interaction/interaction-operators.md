@@ -27,12 +27,12 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 35%
 ---
-# Perfiles de operadores {#operator-profiles}
+# Perfiles de operador {#operator-profiles}
 
 Dos tipos de operadores pueden usar la interacción de campaña: **Administradores de ofertas** y **Administradores de envíos**. Cada uno de ellos tiene permisos y restricciones específicos. Obtenga más información acerca de los operadores y permisos de Campaign en [esta página](../start/gs-permissions.md).
 

@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: edaf625cfe93558dcbfa8570646633ab1bbf3adc
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '1103'
-ht-degree: 94%
+ht-degree: 87%
 ---
 # Conexión a la versión 8 de Adobe Campaign{#gs-ac-connect}
 
@@ -39,7 +39,7 @@ Antes de empezar, debe hacer lo siguiente:
 * Comprobar la compatibilidad del sistema y las herramientas con Adobe Campaign en la [matriz de compatibilidad](compatibility-matrix.md)
 * Obtener la URL del servidor de Campaign
 * Crear su Adobe ID o conseguir sus credenciales de usuario de su compañía
-* Instalar el tiempo de ejecución de Microsoft Edge WebView2 en su sistema. [Más información](#webview)
+* Instale el tiempo de ejecución de Microsoft Edge Webview2 en su sistema. [Más información](#webview)
 
 ## Instalación de la consola de cliente{#download-ac-console}
 
@@ -57,7 +57,7 @@ Hay dos opciones disponibles para descargar la consola del cliente:
 
 1. Como administrador de Campaign, conéctese a la [Distribución de software de Adobe](https://experience.adobe.com/#/downloads/content/software-distribution/es/campaign.html){target="_blank"}.
 
-1. Como usuario final, el administrador de Campaign implementa automáticamente la consola del cliente y la pone a su disposición a través de una dirección URL dedicada.
+1. Como usuario final, el administrador de Campaign implementa Client Console por usted y la pone a disposición a través de una dirección URL dedicada.
 
 Una vez descargado el programa de instalación de la consola del cliente, instálelo en el equipo local.
 
@@ -87,7 +87,7 @@ Puede añadir tantas conexiones como sea necesario para conectarse a los entorno
 
 ## Inicio de sesión en Adobe Campaign {#logon-to-ac}
 
-Los usuarios de Campaign se conectan a la consola de Adobe Campaign mediante su Adobe ID a través del sistema de administración de identidades (IMS) de Adobe. Pueden utilizar el mismo ID en todas las soluciones de Adobe. Cada conexión se guarda cuando se utiliza Adobe Campaign con otras soluciones. Obtenga más información sobre Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
+Los usuarios de Campaign se conectan a la consola de Adobe Campaign mediante su Adobe ID a través del sistema de administración de identidades (IMS) de Adobe. Pueden utilizar el mismo ID para todas las soluciones de Adobe. Cada conexión se guarda cuando se utiliza Adobe Campaign con otras soluciones. Obtenga más información sobre Adobe IMS en [esta página](https://helpx.adobe.com/es/enterprise/using/identity.html){target="_blank"}.
 
 Para iniciar sesión en una instancia, siga los pasos que se indican a continuación:
 
@@ -173,4 +173,4 @@ Mientras que con el acceso web, las opciones permiten principalmente la visualiz
 
 El acceso web también se utiliza en el proceso de validación: los operadores pueden hacer clic en el correo electrónico de solicitud de aprobación y conectarse a Campaign a través de su explorador web para validar o rechazar un contenido o presupuesto de entrega.
 
-Para acceder a su instancia de Campaign desde la web, la URL es la siguiente: `https://<your adobe campaign server>:<port number>/view/home`.
+Para acceder a su instancia de Campaign desde la web, la URL es: `https://<your adobe campaign server>:<port number>/view/home`.

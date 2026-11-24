@@ -31,10 +31,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
 workflow-type: tm+mt
 source-wordcount: '950'
-ht-degree: 96%
+ht-degree: 94%
 ---
 # Casos de uso: Creación de páginas de información general{#use-cases-creating-overviews}
 
@@ -56,7 +56,7 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
 
    ![](assets/s_ncs_configuration_webapp_create.png)
 
-1. Modificación del título de la página.
+1. Cambie el título de la página.
 
    Este título aparece en el encabezado de la descripción general y en la descripción general de la aplicación web.
 
@@ -65,7 +65,7 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
    ![](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. Abra la actividad **[!UICONTROL Page]** de la aplicación web y abra una lista (**[!UICONTROL Static element > List]**).
-1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]**&#x200B;**[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
+1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]****[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
 1. En la subpestaña **[!UICONTROL Filter]**, cree el siguiente filtro, tal y como se muestra a continuación, para visualizar las aplicaciones web y excluir las plantillas de la vista.
 
    ![](assets/s_ncs_configuration_webapp_filter.png)
@@ -103,7 +103,7 @@ En una descripción general, tiene la opción de acceder a los datos según su u
 
    >[!NOTE]
    >
-   >En esta fase, la aplicación web no está dentro del contexto de la aplicación; por lo que el filtro no se puede probar en la carpeta.
+   >En este momento, la aplicación web no está dentro del contexto de la aplicación; por lo tanto, el filtro no se puede probar en la carpeta.
 
 ## Adición de un botón para configurar una nueva aplicación web {#adding-a-button-to-configure-a-new-web-application}
 
@@ -140,7 +140,7 @@ Al configurar una lista en la descripción general, puede elegir visualizar deta
 
    ![](assets/s_ncs_configuration_webapp_detail.png)
 
-1. En la pestaña **[!UICONTROL Data]**, añada las columnas **[!UICONTROL Internal name]**&#x200B;**[!UICONTROL Primary key]**, y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
+1. En la pestaña **[!UICONTROL Data]**, añada las columnas **[!UICONTROL Internal name]****[!UICONTROL Primary key]**, y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
 
    ![](assets/s_ncs_configuration_webapp_detail002.png)
 
