@@ -134,7 +134,7 @@ La pestaña **[!UICONTROL General]** de la plantilla también permite especifica
 
 ### Transacciones {#transactions}
 
-Esta pestaña contiene los distintos campos y tablas que permiten guardar el historial de reacciones del destinatario en términos de transacciones. Consulte esta [sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/about-schema-reference){target="_blank"} para obtener más información sobre las tablas dedicadas a la gestión de respuestas.
+Esta pestaña contiene los distintos campos y tablas que permiten guardar el historial de reacciones del destinatario en términos de transacciones. Consulte esta [sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/about-schema-reference){target="_blank"} para obtener más información sobre las tablas dedicadas a la gestión de respuestas.
 
 * **[!UICONTROL Schema (reaction log storage)]**: seleccione la tabla de limpieza del destinatario. La tabla predeterminada de Adobe Campaign es **NmsRemaMatchRcp**.
 * **[!UICONTROL Transaction schema]**: elija la tabla a la que se referirán las hipótesis, es decir, la transacción o la tabla de compras.
