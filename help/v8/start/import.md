@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
+source-git-commit: 9548dde346f10c57350f21e5946690f2f988b939
 workflow-type: tm+mt
-source-wordcount: '4502'
-ht-degree: 82%
+source-wordcount: '4507'
+ht-degree: 78%
 ---
 # Importación de datos en Campaign {#ootb-profiles}
 
@@ -169,7 +169,7 @@ Existen cuatro tipos de campos calculados:
 
 ### Paso 4: Reconciliación {#step-4---reconciliation}
 
-El paso de reconciliación del asistente de importación le permite definir el modo de reconciliación de los datos del archivo con los datos existentes en la base de datos, y también establecer las reglas de prioridad entre los datos del archivo y los datos de la base de datos. La ventana de configuración tiene este aspecto:
+El paso de reconciliación del asistente de importación le permite definir cómo se reconcilian los datos del archivo con los datos existentes en la base de datos. También permite establecer las reglas de prioridad entre los datos del archivo y los datos de la base de datos. La ventana de configuración tiene este aspecto:
 
 ![Pantalla de reconciliación con el árbol de campos, donde Nombre se establece como parte de la clave de reconciliación 1.](assets/s_ncs_user_import_wizard04_1.png)
 
@@ -205,7 +205,7 @@ Se debe completar por lo menos una clave de reconciliación para administrar la 
 
 Una clave de reconciliación es un conjunto de campos utilizados para identificar un registro. Por ejemplo, para importar destinatarios, la clave de la reconciliación puede ser el número de cuenta, el campo “correo electrónico” o los campos “apellidos, nombre, compañía”, etc.
 
-En este caso, para averiguar si una línea de un archivo coincide con un destinatario existente en la base de datos, el motor de importación compara los valores del archivo con los de la base de datos para todos los campos de la clave. Cuando los campos son específicos de un registro, se puede realizar una comparación aproximada entre los datos de origen y destino, garantizando la integridad de los datos tras la importación. Se puede rellenar una segunda clave de reconciliación para la misma tabla; se utiliza para las líneas cuya primera clave está vacía.
+En este caso, el motor de importación compara los valores del archivo con los de la base de datos para todos los campos de la clave. Así averigua si una línea del archivo coincide con un destinatario existente en la base de datos. Cuando los campos son específicos de un registro, se puede realizar una comparación aproximada entre los datos de origen y destino, garantizando la integridad de los datos tras la importación. Se puede rellenar una segunda clave de reconciliación para la misma tabla; se utiliza para las líneas cuya primera clave está vacía.
 
 Evite elegir un campo que pueda modificarse durante la importación; si esto ocurre, el motor podría crear registros adicionales.
 
@@ -253,7 +253,7 @@ Los detalles de estos rechazos se pueden comprobar a través de la pestaña **[!
 Hay dos tipos de rechazos (el tipo se muestra en la columna **[!UICONTROL Connector]**):
 
 * Los rechazos del conector de texto se refieren a errores que ocurren mientras se procesa la línea del archivo (campo calculado, análisis de datos, etc.). En este caso, en caso de error se rechaza siempre la línea entera.
-* Los rechazos del conector de la base de datos se refieren a errores que ocurren durante la reconciliación de datos o la escritura en la base de datos. En el caso de una importación a varias tablas, el rechazo solo puede afectar a una parte del registro (por ejemplo, para una importación de destinatarios y eventos asociados, un error puede impedir la actualización de un evento sin rechazar el destinatario).
+* Los rechazos del conector de la base de datos se refieren a errores que ocurren durante la reconciliación de datos o la escritura en la base de datos. En el caso de una importación a varias tablas, el rechazo solo puede afectar a una parte del registro. Por ejemplo, para una importación de destinatarios y eventos asociados, un error puede impedir la actualización de un evento sin rechazar el destinatario.
 
 En la página de reconciliación de datos, puede definir el tipo de gestión de error deseado de forma individual para cada campo y para cada tabla.
 
@@ -271,7 +271,7 @@ Puede generar un archivo que contenga estos registros mediante el icono **[!UICO
 
 ### Paso 5: Paso adicional al importar destinatarios {#step-5---additional-step-when-importing-recipients}
 
-El siguiente paso del asistente de importación le permite seleccionar o crear la carpeta en la que se importan los datos, asignar automáticamente los destinatarios importados con una lista (nueva o existente) y suscribir destinatarios a un servicio.
+El siguiente paso del asistente de importación le permite seleccionar o crear la carpeta en la que se importan los datos. También puede asignar automáticamente destinatarios importados con una lista (nueva o existente) y suscribir destinatarios a un servicio.
 
 ![Pantalla de importación de destinatarios con vínculos de edición para la carpeta, la lista y el servicio, además del campo Origen.](assets/s_ncs_user_import_wizard05_1.png)
 
@@ -315,7 +315,7 @@ El siguiente paso del asistente de importación le permite seleccionar o crear l
 
   1. Suscripción a un servicio
 
-     Para suscribir a todos los destinatarios importados a un servicio informativo, haga clic en el vínculo **[!UICONTROL Edit...]** de la sección **[!UICONTROL Subscribe recipients to a service]** para seleccionar o crear el servicio informativo al que se deben suscribir los destinatarios. Puede seleccionar la opción **[!UICONTROL Send a confirmation message]** de confirmación: El contenido de este mensaje se define en la plantilla de entrega asociada al servicio de suscripción.
+     Para suscribir a todos los destinatarios importados a un servicio informativo, haga clic en el vínculo **[!UICONTROL Edit...]** de la sección **[!UICONTROL Subscribe recipients to a service]**. A continuación, seleccione o cree el servicio informativo al que se deben suscribir los destinatarios. Puede seleccionar la opción **[!UICONTROL Send a confirmation message]** de confirmación: El contenido de este mensaje se define en la plantilla de entrega asociada al servicio de suscripción.
 
      ![Suscribir destinatarios a un cuadro de diálogo de servicio con un servicio existente seleccionado y Enviar un mensaje de confirmación activado.](assets/s_ncs_user_import_wizard05_7.png)
 
