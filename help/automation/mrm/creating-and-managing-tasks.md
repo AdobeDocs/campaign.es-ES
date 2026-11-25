@@ -473,7 +473,7 @@ A continuación, se muestran las fases del ciclo de vida completo de una tarea p
 
    Al crear y editar una tarea **programada en el futuro** (siempre que no se alcance la fecha de inicio de la tarea), es posible enviar una notificación a los participantes y a los administradores para que sepan que se ha programado una nueva tarea.
 
-   ![Preguntar si desea enviar una notificación inicial para la tarea programada, con una flecha que señala al número ](assets/s_ncs_user_task_planed_send_message.png)
+   ![Preguntar si desea enviar una notificación inicial para la tarea programada, con una flecha que señala al número &#x200B;](assets/s_ncs_user_task_planed_send_message.png)
 
    Para enviar esta primera notificación, haga clic en **[!UICONTROL Yes]**. Esta notificación le informa sobre la siguiente tarea e incluye detalles sobre el contenido y el número de días restantes hasta su fecha límite.
 

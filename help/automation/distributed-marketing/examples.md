@@ -241,7 +241,7 @@ Los pasos son los siguientes:
 
    ![Nuevo cuadro de diálogo de campaña de marketing mediante la plantilla de campaña de colaboración (por formulario).](assets/mkg_dist_use_case_form_1.png)
 
-1. En la pestaña de la campaña **[!UICONTROL Edit]**, haga clic en el enlace **[!UICONTROL Advanced campaign parameters...]** para configurarlo como una campaña local. Consulte [Creación de una campaña local (por formulario) ](#creating-a-local-campaign--by-form-).
+1. En la pestaña de la campaña **[!UICONTROL Edit]**, haga clic en el enlace **[!UICONTROL Advanced campaign parameters...]** para configurarlo como una campaña local. Consulte [Creación de una campaña local (por formulario) &#x200B;](#creating-a-local-campaign--by-form-).
 
    ![Configuración avanzada, ficha Marketing distribuido: nivel de colaboración, configurable por formulario, valores predeterminados.](assets/mkg_dist_use_case_form_2.png)
 
