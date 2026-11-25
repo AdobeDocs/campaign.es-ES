@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 98%
+source-wordcount: '1332'
+ht-degree: 82%
 ---
 # Deduplicación{#deduplication}
 
@@ -66,7 +66,7 @@ Esta cuestión debe solucionarse de la siguiente manera:
 * Cree una actividad **Union** para unificar cada flujo entrante.
 * Cree una actividad **Deduplication** después de la actividad **Union**.
 
-![](assets/dedup-best-practice.png)
+![Dos consultas unidas por una unión, seguidas de una actividad de anulación de duplicación y una actualización de lista](assets/dedup-best-practice.png)
 
 ## Configuración {#configuration}
 
@@ -74,7 +74,7 @@ Para configurar una anulación de duplicación, introduzca su etiqueta, el méto
 
 1. Haga clic en el enlace **[!UICONTROL Edit configuration...]** para definir el modo de anulación de duplicación.
 
-   ![](assets/s_user_segmentation_dedup_param.png)
+   ![Ventana de actividad de deduplicación con el vínculo Editar configuración en Parámetros de deduplicación](assets/s_user_segmentation_dedup_param.png)
 
 1. Seleccione el tipo de destinatario para esta actividad (de forma predeterminada, la anulación de duplicación está vinculada a destinatarios) y el criterio que utilizar (es decir, el campo cuyos valores idénticos le permiten identificar duplicados).
 
@@ -84,30 +84,30 @@ Para configurar una anulación de duplicación, introduzca su etiqueta, el méto
    >
    >En el siguiente paso, la opción **[!UICONTROL Other]** permite seleccionar los criterios que se van a utilizar:
 
-   ![](assets/s_user_segmentation_dedup_param2.png)
+   ![Paso de dimensión de segmentación con correo electrónico, SMS, teléfono, fax, dirección postal y otras opciones](assets/s_user_segmentation_dedup_param2.png)
 
 1. En el siguiente paso, la opción **[!UICONTROL Other]** le permite seleccionar el criterio o los criterios que se van a utilizar en caso de valores idénticos.
 
-   ![](assets/s_user_segmentation_dedup_param3.png)
+   ![Paso Identificación de duplicados con la ventana Seleccionar una expresión y el campo Fecha de nacimiento seleccionado](assets/s_user_segmentation_dedup_param3.png)
 
 1. En la lista desplegable, seleccione el método de deduplicación que desea utilizar e introduzca el número de duplicados que desea conservar.
 
-   ![](assets/s_user_segmentation_dedup_param4.png)
+   ![Paso del método de deduplicación con valores dobles que se deben mantener y la lista de métodos que muestra cuatro métodos](assets/s_user_segmentation_dedup_param4.png)
 
    Los métodos disponibles son:
 
    * **[!UICONTROL Choose for me]**: selecciona de forma aleatoria el registro que se va a excluir de los duplicados.
    * **[!UICONTROL Following a list of values]**: permite definir una prioridad de valor para uno o varios campos. Para definir los valores, seleccione un campo o cree una expresión y, a continuación, añada los valores a la tabla adecuada. Para definir un nuevo campo, haga clic en el botón **[!UICONTROL Add]** situado sobre la lista de valores.
 
-     ![](assets/s_user_segmentation_dedup_param5.png)
+     ![Siguiendo un método de lista de valores con inglés y francés en la lista de prioridades y opciones Otros valores](assets/s_user_segmentation_dedup_param5.png)
 
    * **[!UICONTROL Non-empty value]**: esto permite mantener registros para los que el valor de la expresión seleccionada no está vacío como prioridad.
 
-     ![](assets/s_user_segmentation_dedup_param6.png)
+     ![Método de valor no vacío con el campo Expresión y el campo Número de cuenta seleccionados](assets/s_user_segmentation_dedup_param6.png)
 
    * **[!UICONTROL Using an expression]**: permite mantener los registros con el valor más bajo (o el más alto) de la expresión dada.
 
-     ![](assets/s_user_segmentation_dedup_param7.png)
+     ![Utilizando un método de expresión con Status como expresión y Keep the records with the major value selected](assets/s_user_segmentation_dedup_param7.png)
 
    >[!NOTE]
    >
@@ -119,11 +119,11 @@ Para configurar una anulación de duplicación, introduzca su etiqueta, el méto
 
    En la sección inferior de la ventana del editor de actividad, puede modificar la etiqueta para la transición de salida del objeto gráfico e introducir un código de segmento que se asociará al resultado de la actividad. Este código se puede utilizar posteriormente como criterio de establecimiento de objetivos.
 
-   ![](assets/s_user_segmentation_dedup_param8.png)
+   ![Actividad de deduplicación con etiqueta de resultado Target, código de segmento PRO y complemento Generate activada](assets/s_user_segmentation_dedup_param8.png)
 
 1. Seleccione la opción **[!UICONTROL Generate complement]** si desea utilizar la población restante. El complemento está formado por todos los duplicados. A continuación, se agregará una transición adicional a la actividad de la siguiente manera:
 
-   ![](assets/s_user_segmentation_dedup_param9.png)
+   ![Tres consultas de perfil que alimentan la anulación de duplicación, con salidas Duplicate y Target enviadas a dos actividades List update](assets/s_user_segmentation_dedup_param9.png)
 
 ## Ejemplo: identificar los duplicados antes de una entrega {#example--identify-the-duplicates-before-a-delivery}
 
@@ -133,7 +133,7 @@ El objetivo del flujo de trabajo es definir el objetivo de una entrega mediante 
 
 Los duplicados identificados también se incorporarán a una lista de duplicados que puede reutilizarse en caso necesario.
 
-![](assets/deduplication_example.png)
+![Flujo de trabajo con una unión de tres consultas de perfil, anulación de duplicación, una entrega y una actualización de lista en la transición de complemento](assets/deduplication_example.png)
 
 1. Agregue y vínculo las distintas actividades necesarias para que el flujo de trabajo funcione como se muestra arriba.
 
@@ -157,23 +157,23 @@ La funcionalidad **[!UICONTROL Merge]** permite configurar un conjunto de reglas
 
 Por ejemplo, con un conjunto de registros de duplicado, puede elegir mantener el número de teléfono más antiguo o el nombre más reciente.
 
-Hay un caso de uso que aprovecha esta función en [esta sección](deduplication-merge.md).
+Hay disponible un caso de uso que aprovecha esta característica en [Usar la funcionalidad Combinar de la actividad de anulación de duplicación](deduplication-merge.md).
 
 Para ello, siga estos pasos:
 
 1. En el paso de selección **[!UICONTROL Deduplication method]**, haga clic en el vínculo **[!UICONTROL Advanced Parameters]**.
 
-   ![](assets/dedup1.png)
+   ![Paso del método de deduplicación con el vínculo Advanced parameters resaltado](assets/dedup1.png)
 
 1. Seleccione la opción **[!UICONTROL Merge records]** para activar la funcionalidad.
 
    Si desea agrupar varios campos de datos en cada condición de combinación, active la opción **[!UICONTROL Use several record merging criteria]**.
 
-   ![](assets/dedup2.png)
+   ![Parámetros avanzados con registros de combinación y Usar varias opciones de criterios de combinación de registros comprobadas](assets/dedup2.png)
 
 1. Después de activar la funcionalidad, se agrega una pestaña **[!UICONTROL Merge]** a la actividad **[!UICONTROL Deduplication]**. Permite definir grupos de campos para combinar y sus reglas asociadas.
 
-   Para obtener más información al respecto, consulte el caso de uso detallado disponible en [esta sección](deduplication-merge.md).
+   Para obtener más información al respecto, consulte el caso de uso específico disponible en [Uso de la funcionalidad Combinar de la actividad de anulación de duplicación](deduplication-merge.md).
 
 ## Parámetros de entrada {#input-parameters}
 

@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 98%
+source-wordcount: '885'
+ht-degree: 91%
 ---
 # Definición de aprobaciones {#defining-approvals}
 
@@ -43,11 +43,11 @@ Se envía un mensaje a un grupo de operadores y el flujo de trabajo espera a rec
 
 Una aprobación puede contener múltiples opciones para que el operador elija. Sin embargo, se puede restringir el número de opciones a una para enviar una tarea a un operador para que la realice, como, por ejemplo, realizar la segmentación. El operador puede responder después de realizar la tarea (el proceso se reanuda). El siguiente ejemplo ilustra estos tipos de aprobaciones:
 
-![](assets/validation-1.png)
+![Flujo de trabajo con una aprobación de validación de entrega que lleva a enviar, notificar rechazo y notificar solicitud de modificación](assets/validation-1.png)
 
 En las operaciones, todas las etapas que requieren aprobación se basan en el mismo principio.
 
-![](assets/validation-1-in-op.png)
+![Bloque de envío de campaña con el menú de aprobación que muestra Aprobar contenido y Aprobar direccionamiento, ambos con aprobación pendiente](assets/validation-1-in-op.png)
 
 Un operador puede responder de una de estas dos maneras: validar mediante la página web vinculada en el mensaje de correo electrónico o a través de la consola.
 
@@ -69,7 +69,7 @@ En las operaciones, los elementos que se vayan a aprobar se muestran en el table
 
 Para los flujos de trabajo técnicos, se puede acceder a las tareas que el usuario puede aprobar desde la estructura de árbol de la carpeta **[!UICONTROL Administration > Production > Objects created automatically > Pending approvals]**.
 
-![](assets/validation-node.png)
+![Árbol del explorador con Administration > Production > Objects created automatically > Approvals pending selected](assets/validation-node.png)
 
 ## Grupos {#groups}
 
@@ -86,7 +86,7 @@ Las caducidades son transiciones específicas que se utilizan en diferentes clas
 
 La segunda pestaña de las propiedades de aprobación de actividad permite definir una o varias caducidades. De hecho, puede definir varios tipos de caducidad.
 
-![](assets/expiration.png)
+![Pestaña Caducidad de aprobación con una ventana de detalles de caducidad y la lista de opciones de demora de tipo Caducidad](assets/expiration.png)
 
 Para añadir una nueva caducidad, haga clic en **[!UICONTROL Add]**. Se añade una transición a cada una de las caducidades creadas. Se puede:
 

@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 97%
+source-wordcount: '566'
+ht-degree: 75%
 ---
 # Adición de un campo calculado de tipo Enumeración {#adding-an-enumeration-type-calculated-field}
 
@@ -50,23 +50,23 @@ Siga estos pasos:
 1. Abra [Generic query editor](../../v8/start/query-editor.md) y seleccione la tabla de destinatarios (**[!UICONTROL nms:recipient]**).
 1. En la ventana **[!UICONTROL Data to extract]**, seleccione **[!UICONTROL Last name]**, **[!UICONTROL First name]** y **[!UICONTROL Gender]**.
 
-   ![](assets/query_editor_nveau_73.png)
+   ![Datos para extraer la ventana con Apellidos, Nombre y Género en la lista Columnas de salida.](assets/query_editor_nveau_73.png)
 
 1. En la ventana **[!UICONTROL Sorting]**, haga clic en **[!UICONTROL Next]**: en este ejemplo, no es necesario ordenar.
 1. En **[!UICONTROL Data filtering]**, seleccione **[!UICONTROL Filtering conditions]**.
 1. En la ventana **[!UICONTROL Target element]**, defina una condición de filtro para recopilar los destinatarios que hablan en inglés.
 
-   ![](assets/query_editor_nveau_74.png)
+   ![Ventana del elemento de destino con la condición de filtro Idioma (@language) igual a EN.](assets/query_editor_nveau_74.png)
 
 1. En la ventana **[!UICONTROL Data formatting]**, haga clic en **[!UICONTROL Add a calculated field]**.
 
-   ![](assets/query_editor_nveau_75.png)
+   ![Ventana de formato de datos con el botón Agregar un campo calculado resaltado.](assets/query_editor_nveau_75.png)
 
 1. En la ventana **[!UICONTROL Type]**, vaya a la ventana **[!UICONTROL Export calculated field definition]** y seleccione **[!UICONTROL Enumerations]**.
 
    Defina la columna a la que debe hacer referencia el nuevo campo calculado. Para ello, en el menú desplegable **[!UICONTROL Gender]**, seleccione **[!UICONTROL Source column]** en la columna: los valores de destino coinciden con la columna **[!UICONTROL Gender]**.
 
-   ![](assets/query_editor_nveau_76.png)
+   ![Definición de campo calculada con Type establecido en Enumerations y Source establecido en Gender.](assets/query_editor_nveau_76.png)
 
    Defina los valores de **Origen** y **Destino**: el valor de destino facilita la lectura del resultado de la consulta. Esta consulta debe devolver el género del destinatario y el resultado será 0, 1 o 2.
 
@@ -79,7 +79,7 @@ Siga estos pasos:
 
    Haga clic en **[!UICONTROL OK]** para aprobar el campo calculado.
 
-   ![](assets/query_editor_nveau_77.png)
+   ![Valores de enumeración que asignan el origen 0, 1 y 2 a No indicado, Hombre y Mujer; mantenga seleccionado el valor de origen.](assets/query_editor_nveau_77.png)
 
 1. En la ventana **[!UICONTROL Data formatting]**, haga clic en **[!UICONTROL Next]**.
 1. En la ventana de vista previa, **[!UICONTROL start the preview of the data]**.
@@ -90,12 +90,12 @@ Siga estos pasos:
    * 1 para “Masculino”,
    * 2 para “Femenino”.
 
-   ![](assets/query_editor_nveau_78.png)
+   ![Vista previa de los datos con las columnas de especificaciones de Género y Género, por ejemplo 1 con Hombre y 0 con No indicado.](assets/query_editor_nveau_78.png)
 
    Por ejemplo, si no introduce el género “2” en **[!UICONTROL List of enumeration values]** y la función **[!UICONTROL Generate a warning and continue]** del campo **[!UICONTROL In other cases]** está seleccionada, aparece un registro de advertencia. Este registro indica que no se ha introducido el género “2” (Femenino). Se muestra en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos.
 
-   ![](assets/query_editor_nveau_79.png)
+   ![La vista previa de datos con una fila 2 de sexo marcado y el valor 2 de enumeración de registro no existe para el @gender de columna.](assets/query_editor_nveau_79.png)
 
    Tomemos otro ejemplo y digamos que el valor de la enumeración “2” no se ingresó. Seleccione la función **[!UICONTROL Generate an error and reject the line]**: todos los destinatarios cuyo sexo sea “2” generarán anomalías y el resto de la información de la línea (nombre y apellido, etc.) no se exportará. Se muestra un registro de error en el campo **[!UICONTROL Logs generated during export]** de la ventana de vista previa de datos. Este registro indica que no se ha introducido el valor de enumeración “2”.
 
-   ![](assets/query_editor_nveau_80.png)
+   ![Vista previa de datos con iconos de error en las filas de género 2 rechazadas y el valor de enumeración de registro 2 no existe.](assets/query_editor_nveau_80.png)

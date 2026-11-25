@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 100%
+source-wordcount: '170'
+ht-degree: 80%
 ---
 # Motor de oferta{#offer-engine}
 
@@ -36,7 +36,7 @@ La actividad **[!UICONTROL Offer engine]** permite definir una llamada al motor 
 
 Esta actividad funciona con el mismo principio que la actividad de enriquecimiento con acceso al motor, enriquece los datos de población entrantes con una oferta calculada por el motor antes de una entrega.
 
-![](assets/int_offerengine_activity2.png)
+![Diagrama de flujo de trabajo con la actividad Offer engine colocada entre una consulta y una entrega de correo directo.](assets/int_offerengine_activity2.png)
 
 Después de configurar la consulta (consulte esta [sección](query.md)):
 
@@ -47,6 +47,6 @@ Después de configurar la consulta (consulte esta [sección](query.md)):
    >
    >Si utiliza esta actividad, solo se almacenará la oferta que se haya utilizado en la entrega.
 
-   ![](assets/int_offerengine_activity1.png)
+   ![Actividad del motor de oferta con espacio de oferta, categoría de oferta, temas, número de propuestas a calcular y fecha de contacto.](assets/int_offerengine_activity1.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).

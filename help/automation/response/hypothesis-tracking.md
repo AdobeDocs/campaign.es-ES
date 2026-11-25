@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '534'
+ht-degree: 85%
 ---
 # Seguimiento de hipótesis{#hypothesis-tracking}
 
@@ -50,7 +50,7 @@ El resultado de los cálculos de hipótesis está disponible en varios niveles d
 
 Una vez que se ha calculado la hipótesis, se actualizan automáticamente varios indicadores de medida. Están disponibles en la pestaña **[!UICONTROL General]** de la hipótesis.
 
-![](assets/response_hypothesis_delivery_example_010.png)
+![Pestaña General de una hipótesis finalizada con los indicadores calculados por la hipótesis resaltada.](assets/response_hypothesis_delivery_example_010.png)
 
 Estos indicadores son:
 
@@ -62,7 +62,7 @@ Estos indicadores son:
 
 Para ver la lista completa de los indicadores, haga clic en el vínculo **[!UICONTROL Display the list]**:
 
-![](assets/response_hypothesis_indicators_002.png)
+![Ventana de solo lectura de indicadores abierta desde Mostrar la lista, mostrando la lista completa de indicadores y sus valores.](assets/response_hypothesis_indicators_002.png)
 
 Estos indicadores proporcionan la siguiente información:
 
@@ -88,7 +88,7 @@ Se pueden ver las reacciones de los destinatarios a las hipótesis a través de 
 1. Una vez completado el cálculo de la hipótesis, vaya a **[!UICONTROL Campaign management > Measurement hypotheses]** en el árbol de Adobe Campaign.
 1. Seleccione la hipótesis deseada y haga clic en la pestaña **[!UICONTROL Reactions]** para ver la lista de destinatarios que probablemente compren algo después de la campaña de marketing.
 
-   ![](assets/response_hypothesis_reactions_001.png)
+   ![Pestaña Reacciones de una hipótesis que enumera los encuestados y si cada uno pertenece al grupo de control.](assets/response_hypothesis_reactions_001.png)
 
 ## Informes {#reports}
 
@@ -96,8 +96,8 @@ El informe **[!UICONTROL Hypothesis report]** permite ver los resultados de las 
 
 * **At campaign level**: haga clic en el vínculo **[!UICONTROL Reports]** de la campaña correspondiente y seleccione el **[!UICONTROL Hypothesis report]**. Este informe contiene la lista de envíos de campañas y la hipótesis calculada para cada envío.
 
-  ![](assets/response_hypothesis_campaign_report_001.png)
+  ![Informe de hipótesis a nivel de campaña que enumera las hipótesis calculadas para cada envío con sus indicadores.](assets/response_hypothesis_campaign_report_001.png)
 
 * **At delivery level**: para acceder al informe, abra la entrega correspondiente, haga clic en **[!UICONTROL Reports]** en la pestaña **[!UICONTROL Summary]** y seleccione **[!UICONTROL Hypothesis report]**. Si se han calculado hipótesis para el mismo envío, el informe contendrá todas ellas.
 
-  ![](assets/response_hypothesis_delivery_report_001.png)
+  ![Informe de hipótesis a nivel de entrega que muestra los detalles de hipótesis, el estado y los indicadores calculados.](assets/response_hypothesis_delivery_report_001.png)

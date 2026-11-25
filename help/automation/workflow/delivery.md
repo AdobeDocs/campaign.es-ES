@@ -30,10 +30,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '1128'
+ht-degree: 81%
 ---
 # Entrega{#delivery}
 
@@ -41,7 +41,7 @@ Una actividad de tipo **Entrega** permite crear una acción de entrega. Se puede
 
 Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
-![](assets/edit_diffusion.png)
+![Ventana de actividad de envío con envío, destinatarios, contenido y acción para realizar secciones y transición saliente](assets/edit_diffusion.png)
 
 1. **Entrega**
 
@@ -53,27 +53,27 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
      En el ejemplo siguiente, se crea la entrega por primera vez. La población y el contenido se definen más adelante. A continuación, la información de estos tres elementos se reingresa en una nueva actividad de entrega utilizando la transición entrante para que se pueda enviar.
 
-     ![](assets/specified_transition_option_exemple.png)
+     ![Flujo de trabajo donde una actividad Create the delivery alimenta una segunda actividad Delivery establecida en Specified in the transition](assets/specified_transition_option_exemple.png)
 
    * Seleccione directamente la entrega correspondiente. Para ello, seleccione la opción **[!UICONTROL Explicit]** y seleccione la entrega en la lista desplegable del campo **[!UICONTROL Delivery]**.
 
      La lista muestra los envíos no finalizados contenidos en la carpeta **Envíos** de forma predeterminada. Para acceder a otras campañas, haga clic en el icono **[!UICONTROL Select link]**.
 
-     ![](assets/diffusion_edit_1.png)
+     ![Sección de envío con Explicit seleccionado y el icono Select link junto al campo Delivery](assets/diffusion_edit_1.png)
 
      Seleccione la campaña en la lista desplegable del campo **[!UICONTROL Folder]** o haga clic en **[!UICONTROL Display sub-levels]** para mostrar todas las entregas contenidos en las subcarpetas:
 
-     ![](assets/diffusion_edit_2.png)
+     ![Ventana de selección de envíos con el campo Folder establecido en Deliveries y el icono Display sub-levels](assets/diffusion_edit_2.png)
 
      Después de seleccionar la acción de entrega, puede mostrar el contenido haciendo clic en el icono **[!UICONTROL Edit link]**.
 
    * Cree una secuencia de comandos para calcular la entrega. Para ello, haga clic en la opción **[!UICONTROL Computed by a script]** e introduzca la secuencia de comandos. Puede abrir una ventana de entrada haciendo clic en la opción **[!UICONTROL Edit...]**. El ejemplo siguiente recupera el identificador de la entrega:
 
-     ![](assets/diffusion_edit_3.png)
+     ![Calculado mediante una opción de script con la ventana Editar script que muestra la expresión vars.deliveryId](assets/diffusion_edit_3.png)
 
    * Crear una entrega nueva. Para hacerlo, seleccione la opción **[!UICONTROL New, created from a template]** y la plantilla de entrega en la que se debe basar la entrega.
 
-     ![](assets/diffusion_edit_4.png)
+     ![Nuevo, creado a partir de una opción de plantilla con una plantilla de envío seleccionada y el icono Editar vínculo](assets/diffusion_edit_4.png)
 
      Haga clic en el icono **[!UICONTROL Select link]** para examinar las carpetas y haga clic en el icono **[!UICONTROL Edit link]** si desea ver el contenido de la plantilla seleccionada.
 
@@ -81,19 +81,19 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
    Los eventos de entrada pueden especificar los destinatarios, por ejemplo, con una importación de archivos o especificados en la acción de entrega. También pueden almacenarse en uno o más archivos.
 
-   ![](assets/diffusion_edit_5.png)
+   ![Sección de destinatarios con opciones especificadas por los eventos entrantes, especificadas en la entrega y archivos especificados](assets/diffusion_edit_5.png)
 
 1. **Content**
 
    El contenido del mensaje se puede definir en la entrega o en el evento de entrada.
 
-   ![](assets/diffusion_edit_6.png)
+   ![Sección de contenido con Especificado por el evento entrante y Especificado en las opciones de envío](assets/diffusion_edit_6.png)
 
 1. **Acción que quiere ejecutar**
 
    Puede crear la entrega, prepararlo, iniciarlo, estimar el objetivo o enviar una prueba.
 
-   ![](assets/diffusion_edit_7.png)
+   ![Acción para realizar las opciones desde Guardar para preparar e iniciar y la opción Generar una transición saliente](assets/diffusion_edit_7.png)
 
    Seleccione el tipo de acción que se va a realizar:
 
@@ -121,13 +121,13 @@ Para configurarlo, edite la actividad e introduzca las opciones de entrega.
 
    La pestaña **Script** permite modificar los parámetros de entrega.
 
-   ![](assets/edit_diffusion_fil_script.png)
+   ![Ficha Script de la actividad Delivery con un script de modificación de objeto de envío que establece la etiqueta de envío](assets/edit_diffusion_fil_script.png)
 
 ## Ejemplo: Flujo de trabajo de la entrega {#example--delivery-workflow}
 
 Cree un nuevo flujo de trabajo y añada actividades como se muestra en el gráfico siguiente:
 
-![](assets/new-workflow-5.png)
+![Flujo de trabajo con actividades de inicio, envío y aprobación; después, control de envío en Sí y finalización en No](assets/new-workflow-5.png)
 
 Abra la actividad **Entrega** y defina las propiedades como se indica a continuación:
 
@@ -135,7 +135,7 @@ Abra la actividad **Entrega** y defina las propiedades como se indica a continua
 * En la sección **[!UICONTROL Recipients]**, seleccione **[!UICONTROL Specified in the delivery]**.
 * En la sección **[!UICONTROL Action to execute]**, mantenga la opción **[!UICONTROL Prepare]**.
 
-![](assets/new-workflow-param-delivery.png)
+![Actividad de envío con New, creado a partir de una plantilla, Specified in the delivery recipients y Prepare selected](assets/new-workflow-param-delivery.png)
 
 Haga clic en **[!UICONTROL OK]** para cerrar la ventana de propiedades. Acaba de configurar una actividad que consista en crear y preparar una nueva entrega basada en una plantilla de entrega cuyo objetivo se especificará ahí dentro.
 
@@ -150,7 +150,7 @@ Abra la actividad **Approval** y defina las propiedades como se indica a continu
 
    Este es un mensaje que incluye una expresión escrita en JavaScript: **[!UICONTROL vars.recCount]** representa el número de destinatarios objetivo de la entrega de la tarea anterior. Para obtener más información sobre las expresiones JavaScript, consulte [Plantillas y secuencias de comandos de JavaScript](javascript-scripts-and-templates.md).
 
-   ![](assets/new-workflow-param-validation.png)
+   ![Actividad de aprobación con tipo de asignación de grupo y un mensaje que usa vars.recCount que solicita aprobar el objetivo](assets/new-workflow-param-validation.png)
 
    La tarea de aprobación se detalla en [Aprobación](approval.md).
 

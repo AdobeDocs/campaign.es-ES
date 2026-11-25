@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 77%
+source-wordcount: '296'
+ht-degree: 57%
 ---
 # Creación de un filtro {#creating-a-filter}
 
@@ -41,19 +41,19 @@ El nodo **[!UICONTROL Administration > Configuration > Predefined filters]** con
 
 Por ejemplo, la lista de operadores puede filtrarse con **[!UICONTROL Active accounts]**:
 
-![](assets/query_editor_filter_sample_1.png)
+![Lista de operadores con el menú Filtros abierto y el filtro Cuentas activas seleccionado](assets/query_editor_filter_sample_1.png)
 
 El filtro coincidente contiene la consulta en el valor **[!UICONTROL Account disabled]** del esquema **[!UICONTROL Operators]**:
 
-![](assets/query_editor_filter_sample_2.png)
+![Lista de filtros predefinidos con el filtro By login or label seleccionado, que muestra la etiqueta, el nombre interno y el tipo de documento](assets/query_editor_filter_sample_2.png)
 
 En la misma lista, el filtro **[!UICONTROL By login or label]** permite filtrar los datos de la lista en función del valor introducido en el campo de filtro:
 
-![](assets/query_editor_filter_sample_3.png)
+![La lista de operadores filtrada con la agencia escrita en el campo Login o label contiene, devolviendo un operador](assets/query_editor_filter_sample_3.png)
 
 Se crea de la siguiente manera:
 
-![](assets/query_editor_filter_sample_4.png)
+![Por definición de filtro de inicio de sesión o etiqueta con tres condiciones de filtro en etiqueta, nombre y descripción](assets/query_editor_filter_sample_4.png)
 
 Para hacer coincidir las condiciones de filtrado, la cuenta de operador debe comprobar una de las siguientes condiciones:
 
@@ -67,7 +67,7 @@ Para hacer coincidir las condiciones de filtrado, la cuenta de operador debe com
 
 La columna **[!UICONTROL Taken into account if]** permite definir los criterios de aplicación para estas condiciones de filtrado. En este caso, los caracteres **$(/tmp/@text)** representan el contenido del campo de entrada vinculado al filtro:
 
-![](assets/query_editor_filter_sample_5.png)
+![La lista de operadores con la agencia introducida en el campo Login o label contiene, devolviendo la agencia de Londres](assets/query_editor_filter_sample_5.png)
 
 Aquí, **$(/tmp/@text)=&#39;agency&#39;**
 

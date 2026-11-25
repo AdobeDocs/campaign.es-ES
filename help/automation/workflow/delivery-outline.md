@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 93%
 ---
 # Descripción del envío{#delivery-outline}
 
@@ -55,4 +55,4 @@ La actividad **Descripción de entrega**, disponible en los flujos de trabajo de
 
    La vista previa tiene en cuenta el número de ofertas especificadas en la entrega. Cuando se ejecuta un flujo de trabajo, se tiene en cuenta el número especificado en el esquema de entrega.
 
-   ![](assets/int_compo_offre_wf1.png)
+   ![Actividad de descripción de envío con ofertas seleccionadas, una serie de propuestas, un espacio de ofertas y tablas de reglas de filtrado.](assets/int_compo_offre_wf1.png)

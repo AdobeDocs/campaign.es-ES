@@ -27,10 +27,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 100%
+source-wordcount: '1375'
+ht-degree: 74%
 ---
 # Creación de hipótesis{#creating-hypotheses}
 
@@ -55,11 +55,11 @@ Para crear una hipótesis en una entrega existente, aplique el siguiente proceso
 1. En el árbol de Adobe Campaign, vaya a **[!UICONTROL Campaign management > Measurement hypotheses]**.
 1. Haga clic en el botón **[!UICONTROL New]** o haga clic con el botón derecho en la lista de hipótesis y seleccione **[!UICONTROL New]** en la lista desplegable.
 
-   ![](assets/response_hypothesis_instance_creation_002.png)
+   ![Lista de hipótesis de medición con el botón Nuevo y el cuadro de diálogo Nueva hipótesis para elegir una plantilla](assets/response_hypothesis_instance_creation_002.png)
 
 1. En la ventana de hipótesis, seleccione una plantilla creada previamente. [Más información](hypothesis-templates.md)
 
-   ![](assets/response_hypothesis_instance_creation_003.png)
+   ![Cuadro de diálogo Nueva hipótesis con la lista desplegable Plantilla de hipótesis que enumera las plantillas disponibles](assets/response_hypothesis_instance_creation_003.png)
 
    El contexto de hipótesis tal como se definió en el modelo seleccionado se muestra en la ventana.
 
@@ -67,11 +67,11 @@ Para crear una hipótesis en una entrega existente, aplique el siguiente proceso
    >
    >Los ajustes definidos en la plantilla y no visibles en este paso se mantendrán también en la memoria y se vuelven a asignar a la hipótesis en curso.
 
-   ![](assets/response_hypothesis_instance_creation_004.png)
+   ![Cuadro de diálogo de nueva hipótesis que muestra la consulta heredada de la plantilla seleccionada y el campo Entrega](assets/response_hypothesis_instance_creation_004.png)
 
 1. Seleccione la entrega para la que desea crear una hipótesis.
 
-   ![](assets/response_hypothesis_instance_creation_005.png)
+   ![Nuevo cuadro de diálogo de hipótesis con la lista desplegable Entrega que enumera las entregas que se deben seleccionar](assets/response_hypothesis_instance_creation_005.png)
 
 1. Puede personalizar la hipótesis mediante la edición de las pestañas **[!UICONTROL General]**, **[!UICONTROL Transactions]** y **[!UICONTROL Scope]**. [Más información](hypothesis-templates.md#creating-a-hypothesis-model)
 1. Inicie la hipótesis haciendo clic en **[!UICONTROL Start]**.
@@ -87,11 +87,11 @@ Para crear una hipótesis en una entrega existente, aplique el siguiente proceso
    >
    >Si ha comprobado esta opción, elimine el flujo de trabajo una vez que se haya ejecutado.
 
-   ![](assets/response_hypothesis_instance_creation_006.png)
+   ![Botón Inicio de la lista Hipótesis de medición y el mensaje de confirmación para iniciar la hipótesis](assets/response_hypothesis_instance_creation_006.png)
 
    Una vez finalizado el cálculo, los indicadores de medición se actualizan automáticamente.
 
-   ![](assets/response_hypothesis_instance_creation_007.png)
+   ![Pestaña Hypothesis General con los indicadores calculados por la hipótesis, como la tasa de respuesta y las reacciones](assets/response_hypothesis_instance_creation_007.png)
 
 1. Si es necesario, cambie la configuración y vuelva a iniciar la hipótesis.
 
@@ -99,14 +99,14 @@ Para crear una hipótesis en una entrega existente, aplique el siguiente proceso
 
 Puede hacer referencia a una hipótesis en una campaña de marketing antes de que se inicie. En este caso, la hipótesis se iniciará automáticamente una vez realizado la entrega, según la configuración de ejecución definida en la plantilla de hipótesis. Para crear una hipótesis en una entrega, aplique el siguiente proceso:
 
-1. Según sus necesidades, puede crear una o varias plantillas de tipo **[!UICONTROL Delivery]**, tal como se describe en [esta sección](hypothesis-templates.md#creating-a-hypothesis-model)
+1. Según sus necesidades, puede crear una o más **[!UICONTROL Delivery]** plantillas de tipo, tal como se describe en [Crear un modelo de hipótesis](hypothesis-templates.md#creating-a-hypothesis-model)
 1. Cree una campaña de marketing y flujos de trabajo de segmentación.
 1. En la ventana de envío, haga clic en el icono **[!UICONTROL Delivery measurement]**.
 1. Seleccione la plantilla de hipótesis (la consulta configurada en el modelo se muestra en la ventana de hipótesis).
 
    La hipótesis se calculará automáticamente una vez finalizada la campaña, según las fechas configuradas en el modelo. [Más información](hypothesis-templates.md#hypothesis-template-execution-settings)
 
-   ![](assets/response_hypothesis_instance_creation_008.png)
+   ![Ventana de medición de envíos con el botón Agregar para hacer referencia a una plantilla de hipótesis en una entrega](assets/response_hypothesis_instance_creation_008.png)
 
 ## Adición de una hipótesis predeterminada a las entregas de una campaña {#adding-a-default-hypothesis-to-deliveries-for-a-campaign}
 
@@ -115,15 +115,15 @@ Puede hacer referencia directamente a una hipótesis en el nivel de campaña. En
 1. Vaya a la pestaña **[!UICONTROL Edit]** de la campaña.
 1. En la sección de medición, haga clic en la pestaña **[!UICONTROL Default hypotheses]**.
 
-   ![](assets/response_hypothesis_instance_creation_010.png)
+   ![Ficha Campaign Edit, sección Measurement, con la ficha Default hypotheses resaltada](assets/response_hypothesis_instance_creation_010.png)
 
 1. Haga clic en **[!UICONTROL Add]** y seleccione una plantilla de hipótesis.
 
-   ![](assets/response_hypothesis_instance_creation_011.png)
+   ![Agregue un cuadro de diálogo de hipótesis con la lista desplegable de plantilla en la pestaña Hipótesis predeterminadas de una campaña](assets/response_hypothesis_instance_creation_011.png)
 
    Ahora se hará referencia a una hipótesis basada en esta plantilla por defecto en cada nueva entrega de la campaña.
 
-   ![](assets/response_hypothesis_instance_creation_012.png)
+   ![Ventana de medición de envíos en un flujo de trabajo de objetivos que enumera Hipótesis sobre compras](assets/response_hypothesis_instance_creation_012.png)
 
 Los resultados de la hipótesis pueden verse en las pestañas **[!UICONTROL General]** y **[!UICONTROL Reactions]** de la hipótesis. [Más información](hypothesis-tracking.md)
 
@@ -133,19 +133,19 @@ Para obtener más información, también puede consultar [este ejemplo](#example
 
 Crear una hipótesis sobre una propuesta de oferta es similar a crear una hipótesis de entrega sobre la marcha. La hipótesis se puede ejecutar siempre que la oferta esté activa. El periodo de cálculo se basa en la fecha de la propuesta de oferta. Cuando la hipótesis le permite vincular un destinatario a una compra, el estado de la propuesta de oferta susceptible de ser aceptada puede cambiar automáticamente. [Más información](hypothesis-templates.md#transactions)
 
-1. Cree uno o más **[!UICONTROL Offer]** modelos de tipo tal como se describe en [esta sección](hypothesis-templates.md#creating-a-hypothesis-model).
+1. Cree uno o más modelos de tipo **[!UICONTROL Offer]** como se describe en [Crear un modelo de hipótesis](hypothesis-templates.md#creating-a-hypothesis-model).
 1. Vaya al nodo **[!UICONTROL Campaign management > Measurement hypotheses]**.
 1. Cree una hipótesis de **[!UICONTROL Offers]** seleccionando el modelo creado anteriormente.
 
-   ![](assets/response_hypothesis_instance_offer_001.png)
+   ![Cuadro de diálogo Nueva hipótesis con la lista desplegable de plantillas que enumera plantillas de oferta como Nueva hipótesis de oferta](assets/response_hypothesis_instance_offer_001.png)
 
    La consulta creada en el modelo aparece en la ventana.
 
-   ![](assets/response_hypothesis_instance_offer_003.png)
+   ![Cuadro de diálogo Nueva hipótesis con la plantilla Hipótesis de oferta y el tipo de consulta igual a Elemento](assets/response_hypothesis_instance_offer_003.png)
 
 1. Elija la oferta para la que desea crear una hipótesis.
 
-   ![](assets/response_hypothesis_instance_offer_004.png)
+   ![Nuevo cuadro de diálogo de hipótesis con la lista desplegable de ofertas que incluye ofertas como Viaje a París](assets/response_hypothesis_instance_offer_004.png)
 
 1. Refine la consulta si es necesario.
 1. Haga clic en **[!UICONTROL Start]** para ejecutar la hipótesis.
@@ -153,7 +153,7 @@ Crear una hipótesis sobre una propuesta de oferta es similar a crear una hipót
 
    Se hace referencia a las hipótesis realizadas en una oferta en la pestaña **[!UICONTROL Measurement]**.
 
-   ![](assets/response_hypothesis_instance_offer_007.png)
+   ![Pestaña Medida de la oferta con la lista de hipótesis vinculadas a la oferta en Cálculo del ROI efectivo](assets/response_hypothesis_instance_offer_007.png)
 
    Si la opción **[!UICONTROL Update offer proposition status]** se habilitó en la plantilla de hipótesis, el estado de la propuesta de oferta cambia automáticamente, por lo tanto proporciona comentarios sobre el impacto de la campaña (para obtener más información, consulte [Transacciones](hypothesis-templates.md#transactions)).
 
@@ -169,7 +169,7 @@ Luego, afinaremos la consulta heredada del modelo para hacer una hipótesis sobr
 
 1. Configurar una dirección semilla: la plantilla de hipótesis creada anteriormente se configuró para tener en cuenta un grupo de control en los resultados de la reacción.
 
-   ![](assets/response_hypothesis_delivery_example_007.png)
+   ![Configuración avanzada de la campaña, ficha Población de control, con la configuración del grupo de control habilitada](assets/response_hypothesis_delivery_example_007.png)
 
    >[!NOTE]
    >
@@ -177,28 +177,28 @@ Luego, afinaremos la consulta heredada del modelo para hacer una hipótesis sobr
 
 1. Abra el **[!UICONTROL Direct mail delivery]** y haga clic en el icono **[!UICONTROL Delivery measurement]** y, a continuación, haga clic en **[!UICONTROL Add]**.
 
-   ![](assets/response_hypothesis_delivery_example_002.png)
+   ![Ventana de medición de envíos de un envío de correo postal con el botón Agregar para hipótesis](assets/response_hypothesis_delivery_example_002.png)
 
 1. Elija la plantilla de hipótesis creada anteriormente en la lista desplegable.
 
-   ![](assets/response_hypothesis_delivery_example_004.png)
+   ![Agregar un cuadro de diálogo de hipótesis con la lista desplegable de plantilla Hipótesis al comprar (HYP4)](assets/response_hypothesis_delivery_example_004.png)
 
    Se muestra la consulta creada en el modelo.
 
-   ![](assets/response_hypothesis_delivery_example_005.png)
+   ![Cuadro de diálogo Nueva hipótesis con la plantilla Hipótesis por línea de vale y su consulta Filtrar por producto](assets/response_hypothesis_delivery_example_005.png)
 
 1. Haga clic en **[!UICONTROL Edit query...]** y refine la consulta indicando el producto al que se vinculará la hipótesis.
 
-   ![](assets/response_hypothesis_delivery_example_006.png)
+   ![Editar ventana de consulta filtrando la hipótesis en el nombre del producto igual a Ropa](assets/response_hypothesis_delivery_example_006.png)
 
    Puede comprobar que la hipótesis está vinculada al envío en la pestaña **[!UICONTROL Edit]** > **[!UICONTROL Measurement]** de la campaña.
 
-   ![](assets/response_hypothesis_delivery_example_008.png)
+   ![La sección Medición de campaña, pestaña Hipótesis de medición, enumera Hipótesis sobre compras para una entrega](assets/response_hypothesis_delivery_example_008.png)
 
 1. Inicie el flujo de trabajo de objetivos y ejecute las comprobaciones necesarias hasta que finalice la campaña. Consulte la [documentación de Campaign v8](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-deliveries.html?lang=es#start-a-delivery){target=_blank}.
 
-   ![](assets/response_hypothesis_delivery_example_009.png)
+   ![Panel de campañas con una entrega de correo directo en curso y su estado, población de destinatarios y pruebas](assets/response_hypothesis_delivery_example_009.png)
 
 1. En el árbol de Adobe Campaign, vaya al nodo **[!UICONTROL Campaign management > Measurement hypotheses]** para comprobar los indicadores calculados por la hipótesis.
 
-   ![](assets/response_hypothesis_delivery_example_010.png)
+   ![Lista de hipótesis de medición y ficha General con los indicadores calculados, como la tasa de respuesta contactada](assets/response_hypothesis_delivery_example_010.png)

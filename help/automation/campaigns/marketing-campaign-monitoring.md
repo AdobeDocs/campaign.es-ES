@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 52%
+source-wordcount: '271'
+ht-degree: 42%
 ---
 # Monitorización de campañas de marketing {#monitor-marketing-campaigns}
 
@@ -38,11 +38,11 @@ Desde esta pestaña puede acceder a la siguiente información:
 
 * La subpestaña **[!UICONTROL Audit]** muestra el diario de actividad. Contiene los trabajos ejecutados en la campaña: creación o inicio del flujo de trabajo, aprobación, extracción, administración de existencias, etc.
 
-  ![](assets/campaign-audit-tab.png)
+  ![Pestaña Campaign Edit, sección Audit, subpestaña Journal con los mensajes del diario de actividad y los tipos de registro](assets/campaign-audit-tab.png)
 
 * La subpestaña **[!UICONTROL Deliveries]** contiene todas las entregas de la campaña. Se pueden editar desde esta vista. Para ello, seleccione la entrega y haga clic en el icono **[!UICONTROL Detail]**.
 
-  ![](assets/campaign-delivery-tab.png)
+  ![Sección Auditoría de campaña, subpestaña Envíos que enumera el canal, el estado, el estado de segmentación y el estado del contenido](assets/campaign-delivery-tab.png)
 
 * La subpestaña **[!UICONTROL Approvals]** contiene todo el proceso de aprobación de la campaña. Puede comprobar los detalles y los comentarios
 
@@ -52,7 +52,7 @@ Desde esta pestaña puede acceder a la siguiente información:
 
 La lista de envíos está disponible a través del vínculo **[!UICONTROL Deliveries]** del nodo Campaign.
 
-![](assets/filter-deliveries-from-homepage.png)
+![Lista de envíos en la página de inicio con la lista desplegable de filtro de estado Being edited, In progress y Finished](assets/filter-deliveries-from-homepage.png)
 
 Para cada envío, esta lista le permite acceder a los indicadores clave: estado, número de destinatarios dirigidos, campañas vinculadas, etc.
 

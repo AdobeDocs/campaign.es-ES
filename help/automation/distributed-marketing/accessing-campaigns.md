@@ -18,10 +18,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 90%
 ---
 # Acceso a campañas{#accessing-campaigns}
 
@@ -37,7 +37,7 @@ Una vez aprobada la solicitud y alcanzada la fecha de disponibilidad, la campañ
 
 Se añade a los detalles de la solicitud coincidente y se puede editar. El tablero completo permite gestionarlo en un nivel local.
 
-![](assets/mkg_dist_local_op_edit_new_op1.png)
+![Lista de paquetes de campaña con una campaña local abierta en su panel que muestra las entregas y el vínculo Add a delivery](assets/mkg_dist_local_op_edit_new_op1.png)
 
 Se puede acceder a la campaña desde la información general de la Campaign, a la que se puede acceder a través del vínculo **[!UICONTROL Campaigns]** en la página principal.
 

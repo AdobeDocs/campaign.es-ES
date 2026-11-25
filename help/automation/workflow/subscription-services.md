@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Targeting Activity
   - id: 2454f09c-f028-5647-8fef-1e986ec2d4e5
     internal-label: Subscription Services Activity
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 100%
+source-wordcount: '430'
+ht-degree: 93%
 ---
 # Servicios de suscripción{#subscription-services}
 
@@ -34,7 +34,7 @@ Una actividad del tipo de **Subscription services** permite crear o eliminar una
 
 Para configurarlo, edite la actividad e introduzca la etiqueta, luego seleccione la acción que se ejecutará (suscripción o baja) y el servicio, como en el siguiente ejemplo:
 
-![](assets/edit_service_inscription.png)
+![Actividad de servicios de suscripción con registro o baja, opción de mensaje de confirmación y lista de servicios](assets/edit_service_inscription.png)
 
 1. Introduzca la etiqueta de la actividad.
 1. Seleccione **[!UICONTROL Generate an outbound transition]** si desea crear una transición al final de la ejecución.
@@ -56,7 +56,7 @@ Para esto, también debe excluir los destinatarios que ya se hayan suscrito.
 >
 >Antes de suscribirse manualmente a un servicio, compruebe que estos destinatarios acepten recibir comunicaciones.
 
-![](assets/subscription_services_example.png)
+![Tres consultas alimentan una intersección, después una actualización de lista y una actividad de servicios de suscripción](assets/subscription_services_example.png)
 
 1. Añada las tres consultas siguientes:
 

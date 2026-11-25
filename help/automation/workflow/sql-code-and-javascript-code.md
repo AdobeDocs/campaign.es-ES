@@ -25,10 +25,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 68%
+source-wordcount: '436'
+ht-degree: 60%
 ---
 # Código SQL y código JavaScript{#sql-code-and-javascript-code}
 
@@ -36,7 +36,7 @@ ht-degree: 68%
 
 Una actividad de **[!UICONTROL SQL code]** ejecuta una secuencia de comandos SQL. La secuencia de comandos es una plantilla JST.
 
-![](assets/sql_code.png)
+![Cuadro de diálogo de actividad de código SQL con el campo Etiqueta, el editor de scripts SQL y la opción Procesar errores](assets/sql_code.png)
 
 * **[!UICONTROL Script]**
 
@@ -79,7 +79,7 @@ Para omitir este límite, debe establecer el valor en **0**.
 
 ### Código JavaScript {#js-code-desc}
 
-![](assets/javascript_code.png)
+![Cuadro de diálogo de actividad de código JavaScript con los campos Label, Stop execution after y Script y la opción Process errors](assets/javascript_code.png)
 
 * **[!UICONTROL Script]**: El área central del editor contiene la secuencia de comandos que se va a ejecutar.
 
@@ -87,7 +87,7 @@ Para omitir este límite, debe establecer el valor en **0**.
 
 ### Código JavaScript avanzado {#adv-js-code-desc}
 
-![](assets/advanced_javascript_code.png)
+![Actividad de código JavaScript avanzada con editores de scripts First call y Next calls y la transición Ok](assets/advanced_javascript_code.png)
 
 * **[!UICONTROL First call]**: La primera zona del editor contiene el script que se activará durante la primera llamada.
 * **[!UICONTROL Next calls]**: La segunda zona del editor contiene el script que se ejecutará durante las siguientes llamadas.

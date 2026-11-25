@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 96%
+source-wordcount: '329'
+ht-degree: 95%
 ---
 # Administración de permisos de flujo de trabajo{#managing-rights}
 
@@ -40,7 +40,7 @@ En términos generales, los operadores que intervienen en los flujos de trabajo 
 
 También se deben asignar a los derechos con un nombre que coincida con las acciones realizadas por los flujos de trabajo a los que afectan (importación de destinatarios, acceso a archivos, fusión, ejecución de secuencias de comandos SQL, etc.).
 
-Para obtener más información sobre la administración de operadores y permisos, consulte [esta sección](../../v8/start/gs-permissions.md).
+Para obtener más información sobre la administración de operadores y permisos, consulte [Introducción a los permisos en Campaign v8](../../v8/start/gs-permissions.md).
 
 ## Grupos de operadores {#operator-groups-wf}
 

@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 100%
+source-wordcount: '745'
+ht-degree: 77%
 ---
 # Uso de la funcionalidad Combinar de la actividad de anulación de duplicación {#deduplication-merge}
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 Este caso de uso describe cómo utilizar la funcionalidad **[!UICONTROL Merge]** en la actividad **[!UICONTROL Deduplication]**.
 
-Para obtener más información sobre esta funcionalidad, consulte [esta sección](deduplication.md#merging-fields-into-single-record).
+Para obtener más información sobre esta funcionalidad, consulte [Combinación de campos en un único registro de datos](deduplication.md#merging-fields-into-single-record).
 
 La actividad **[!UICONTROL Deduplication]** se utiliza para eliminar filas de duplicado de un conjunto de datos. En este caso de uso, los datos que se muestran a continuación se duplican en función del campo Correo electrónico.
 
@@ -57,11 +57,11 @@ Para habilitar la funcionalidad de combinación, primero debe configurar la acti
 
 1. Seleccione el campo de reconciliación que desee utilizar para la anulación de duplicación y haga clic en **[!UICONTROL Next]**. En este ejemplo, queremos anular la duplicación en función del campo de correo electrónico.
 
-   ![](assets/uc_merge_edit.png)
+   ![Ventana de dimensión de segmentación de anulación de duplicación con Destinatarios seleccionados y campo de reconciliación de correo electrónico elegido.](assets/uc_merge_edit.png)
 
 1. Haga clic en el vínculo **[!UICONTROL Advanced parameters]** y active las opciones **[!UICONTROL Merge records]** y **[!UICONTROL Use several record merging criteria]**.
 
-   ![](assets/uc_merge_advanced_parameters.png)
+   ![Cuadro de diálogo de parámetros de anulación de duplicación con Combinar registros y Usar varias opciones de criterios de combinación de registros marcadas.](assets/uc_merge_advanced_parameters.png)
 
 1. La pestaña **[!UICONTROL Merge]** se agrega a la pantalla de configuración **[!UICONTROL Deduplication]**. Utilizaremos esta pestaña para especificar los datos que se combinarán al realizar la anulación de duplicación.
 
@@ -78,31 +78,31 @@ Para configurar estas reglas, siga estos pasos:
 
 1. Abra la pestaña **[!UICONTROL Merge]** y, a continuación, haga clic en el botón **[!UICONTROL Add]**.
 
-   ![](assets/uc_merge_add.png)
+   ![Pestaña Combinar de la actividad de anulación de duplicación con el botón Agregar situado encima de una lista vacía de datos combinados.](assets/uc_merge_add.png)
 
 1. Especifique el identificador y la etiqueta del grupo de campos que se van a combinar.
 
-   ![](assets/uc_merge_identifier.png)
+   ![Paso de identificador y etiqueta del asistente Seleccionar datos para combinar, con el nombre del identificador y el nombre de la etiqueta especificados.](assets/uc_merge_identifier.png)
 
 1. Indique las condiciones para seleccionar los registros que deben tenerse en cuenta.
 
-   ![](assets/uc_merge_filter.png)
+   ![El paso de filtro con condiciones Nombre no está vacío y Apellidos no está vacío para seleccionar los registros que se van a combinar.](assets/uc_merge_filter.png)
 
 1. Se ordenan en la fecha de la última modificación para seleccionar el nombre más reciente.
 
-   ![](assets/uc_merge_sort.png)
+   ![Ordenar paso con fecha de modificación ordenada en orden descendente para seleccionar el registro más reciente.](assets/uc_merge_sort.png)
 
 1. Seleccione los campos que desea combinar. En este ejemplo, queremos mantener los campos de nombre y apellido.
 
-   ![](assets/uc_merge_keep.png)
+   ![Campos que se guardarán en el paso con el nombre y los apellidos seleccionados como columnas de salida.](assets/uc_merge_keep.png)
 
 1. Los campos se agregan al conjunto de datos para combinar y se agrega un nuevo elemento al esquema de flujo de trabajo.
 
    Repita estos pasos para configurar los campos de teléfono y teléfono móvil.
 
-   ![](assets/dedup8.png)
+   ![Combinar ficha que enumera los grupos combinados Nombre, móvil y teléfono con sus alias y condiciones de activación.](assets/dedup8.png)
 
-   ![](assets/dedup9.png)
+   ![Pestaña Esquema que muestra la estructura de datos generada de la anulación de duplicación con los nodos móviles, de nombre y de teléfono.](assets/dedup9.png)
 
 ## Resultados {#results}
 

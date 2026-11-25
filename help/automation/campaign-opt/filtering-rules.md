@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 77%
+source-wordcount: '659'
+ht-degree: 61%
 ---
 # Reglas de filtrado{#filtering-rules}
 
@@ -44,27 +44,27 @@ Para definir este filtro, aplique los siguientes pasos:
 1. Vaya a la carpeta **[!UICONTROL Administration > Campaign management > Typology management > Typology rules]** del explorador de Campaign y haga clic en el icono **Nuevo** para crear una regla de tipología.
 1. Cree una regla de tipología de **[!UICONTROL Filtering]** aplicable a todos los canales.
 
-   ![](assets/campaign_opt_create_filter_01.png)
+   ![Nueva regla de tipología con Filtering como tipo de regla y la opción All channels seleccionada en la lista Channel.](assets/campaign_opt_create_filter_01.png)
 
 1. Desde la ficha **Filter**, cambie la dimensión de segmentación predeterminada a **Subscriptions** (**nms:subscription**).
 
-   ![](assets/campaign_opt_create_filter_02.png)
+   ![Ficha Filter con el esquema Subscriptions (nms) seleccionado como dimensión de segmentación.](assets/campaign_opt_create_filter_02.png)
 
 1. Cree el filtro mediante el enlace **[!UICONTROL Edit the query from the targeting dimension...]**.
 
-   ![](assets/campaign_opt_create_filter_03.png)
+   ![Cuadro de diálogo Editar consulta de filtrado, paso Tipo de destino, con Condiciones de filtrado seleccionadas.](assets/campaign_opt_create_filter_03.png)
 
 1. Filtre por la edad del destinatario y guarde la condición de filtrado.
 
-   ![](assets/campaign_opt_create_filter_03b.png)
+   ![Editar cuadro de diálogo de consulta de filtrado con la condición Edad (destinatario/@age) mayor que 18.](assets/campaign_opt_create_filter_03b.png)
 
 1. En la ficha **Tipologías**, vincule esta regla a una tipología de campaña y guárdela.
 
-   ![](assets/campaign_opt_create_filter_04.png)
+   ![Pestaña Tipologías de la regla de filtrado con el cuadro de diálogo Agregar tipologías y la tipología Newsletters seleccionada.](assets/campaign_opt_create_filter_04.png)
 
 Cuando se utiliza esta regla en una entrega, se excluye automáticamente a los suscriptores menores de edad. Un mensaje específico indica cuándo se aplica la regla:
 
-![](assets/campaign_opt_create_filter_05.png)
+![Registro de análisis de envío con una flecha en las líneas que aplican las reglas Excluir direcciones y Excluir dominios.](assets/campaign_opt_create_filter_05.png)
 
 ## Condicionamiento de una regla de filtrado {#condition-a-filtering-rule}
 
@@ -86,17 +86,17 @@ En este caso, incluso si la regla está vinculada a todas las entregas, solo se 
 
 Puede crear tipologías de **[!UICONTROL Filtering]**: solo contienen reglas de filtrado.
 
-![](assets/campaign_opt_create_typo_filtering.png)
+![Tipología con la lista Tipo establecida en Filtrado y su ficha Reglas que enumera las reglas de filtrado que se deben aplicar.](assets/campaign_opt_create_typo_filtering.png)
 
 Estas tipologías específicas se pueden vincular a una entrega cuando se selecciona el destino: en el asistente de envíos, haga clic en el vínculo **[!UICONTROL To]** y, a continuación, haga clic en la pestaña **[!UICONTROL Exclusions]**.
 
-![](assets/campaign_opt_apply_typo_filtering.png)
+![Cuadro de diálogo Seleccionar destino, ficha Exclusiones, con el vínculo Agregar regla de filtrado en Reglas de filtrado.](assets/campaign_opt_apply_typo_filtering.png)
 
 A continuación, seleccione el filtro que se aplica a la entrega. Para ello, haga clic en el botón **[!UICONTROL Add]** y seleccione las tipologías que desea aplicar.
 
 También puede vincular reglas de filtrado directamente mediante esta pestaña, sin que se agrupen en una tipología. Para ello, utilice la sección inferior de la ventana.
 
-![](assets/campaign_opt_select_typo_filtering.png)
+![Pestaña Exclusiones con una tipología de filtrado y una regla de filtrado agregadas mediante los dos botones Agregar.](assets/campaign_opt_select_typo_filtering.png)
 
 >[!NOTE]
 >

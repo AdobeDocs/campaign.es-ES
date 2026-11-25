@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 94%
+source-wordcount: '173'
+ht-degree: 84%
 ---
 # Ofertas por celda{#offers-by-cell}
 
@@ -36,7 +36,7 @@ ht-degree: 94%
 
 La actividad **[!UICONTROL Offers by cell]** permite distribuir la población entrante (desde una consulta por ejemplo) en varios segmentos y especificar una oferta para presentar a cada uno de estos segmentos.
 
-Esta actividad solo se puede utilizar con **Interaction**. Obtenga más información acerca de la administración de ofertas en [esta sección](../../v8/interaction/interaction.md).
+Esta actividad solo se puede utilizar con **Interaction**. Obtenga más información acerca de la administración de ofertas en [Interacción de campaña - Administración de ofertas](../../v8/interaction/interaction.md).
 
 Para ello:
 
@@ -47,6 +47,6 @@ Para ello:
    * Especifique la población del subconjunto utilizando las reglas de filtrado y limitación disponibles.
    * A continuación, seleccione la oferta que desee presentar al subconjunto. Las ofertas disponibles son aquellas aptas en el espacio de oferta seleccionado en el paso anterior.
 
-     ![](assets/int_offer_per_cell1.png)
+     ![Ventana de subconjunto de ofertas por celda: opciones de filtrado y limitación de registros, espacio de ofertas y lista de ofertas.](assets/int_offer_per_cell1.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).

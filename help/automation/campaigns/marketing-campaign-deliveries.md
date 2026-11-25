@@ -27,10 +27,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 46%
+source-wordcount: '861'
+ht-degree: 38%
 ---
 # Entregas de campañas de marketing {#marketing-campaign-deliveries}
 
@@ -44,13 +44,13 @@ Tiene dos formas de añadir envíos a sus campañas de marketing:
 
 * Desde el vínculo **[!UICONTROL Add a delivery]** en el panel de campañas.
 
-  ![](assets/campaign_op_add_delivery.png)
+  ![Panel de campañas con el vínculo Add a delivery y la nueva ventana de entrega para seleccionar una plantilla y una etiqueta.](assets/campaign_op_add_delivery.png)
 
   Una vez guardada, la entrega se agrega al panel de campañas.
 
 * Desde un flujo de trabajo de campaña, en la pestaña **[!UICONTROL Targeting and workflows]**, agregando la entrega.
 
-  ![](assets/campaign-wf-delivery.png)
+  ![Ficha Targeting and workflows con la paleta Deliveries y un flujo de trabajo que termina en una actividad de entrega.](assets/campaign-wf-delivery.png)
 
   Una vez iniciado el flujo de trabajo, la entrega se agrega al panel de campañas.
 
@@ -60,23 +60,23 @@ Aprenda a configurar y ejecutar el flujo de aprobación de envíos [en esta pág
 
 Se puede realizar una entrega una vez que se hayan concedido todas las aprobaciones. El proceso de ejecución de la entrega depende del canal.
 
-* Para los envíos por correo electrónico o por canal móvil, consulte [esta sección](#start-an-online-delivery)
+* Para las entregas por correo electrónico o por canal móvil, consulte [Iniciar una entrega por correo electrónico o móvil](#start-an-online-delivery)
 
-* Para las entregas de correo postal, consulte [esta sección](#start-an-offline-delivery)
+* Para las entregas de correo postal, consulte [Iniciar una entrega de correo postal](#start-an-offline-delivery)
 
 ### Iniciar un envío de correo electrónico o móvil {#start-an-online-delivery}
 
 Una vez concedidas todas las solicitudes de aprobación, el estado de entrega cambia a **[!UICONTROL Pending confirmation]** y se puede iniciar. Los revisores que pueden iniciar la entrega reciben una notificación avisando de que una entrega está listo para iniciarse.
 
-![](assets/confirm-delivery.png)
+![Resumen de envío con el botón Confirmar envío, que se muestra una vez que se han concedido todas las aprobaciones y el estado es Pendiente.](assets/confirm-delivery.png)
 
 La información también aparece en el panel de control de campañas. El enlace **[!UICONTROL Confirm delivery]** le permite iniciar la entrega.
 
-![](assets/confirm-delivery-from-dashboard.png)
+![Panel de campañas con el vínculo Confirm delivery en una entrega con confirmación pendiente.](assets/confirm-delivery-from-dashboard.png)
 
 La confirmación de la entrega está restringida a administradores y al operador o grupo de operadores mencionados explícitamente en la entrega o en las propiedades de la campaña. Si no se diseña ningún operador, los administradores y el propietario de la campaña pueden aprobarla.
 
-![](assets/select-delivery-reviewers.png)
+![Pestaña Aprobaciones de propiedades de entrega que muestra los revisores de cada aprobación y de inicio de entrega.](assets/select-delivery-reviewers.png)
 
 Sin embargo, también puede permitir que el propietario de la campaña confirme el envío, incluso si se han definido revisores específicos en las propiedades de entrega o de campaña. Para ello, como administrador, cree la opción **NmsCampaign_Activate_OwnerConfirmation** y configúrela en **1**. Las opciones se administran desde la carpeta **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Options]** del explorador de Campaign.
 
@@ -93,7 +93,7 @@ Siga los pasos a continuación para validar el contenido y enviar el archivo al 
 
    Este paso solo está disponible si la opción **[!UICONTROL Enable the sending and validation of proofs (Direct mail)]** se habilitó en la pestaña **[!UICONTROL Approvals]** de los parámetros de campaña avanzados.
 
-   ![](assets/enable-proof-validation.png)
+   ![Ventana de validación de pruebas con Habilitar el envío y la validación de pruebas (correo postal) seleccionado y un grupo de prueba.](assets/enable-proof-validation.png)
 
 1. Haga clic en el botón **[!UICONTROL Send a proof]** para crear las pruebas.
 
@@ -115,17 +115,17 @@ La extracción de archivos inicia dos procesos: cálculo de presupuesto y cálcu
 
 * La pestaña **[!UICONTROL Budget]** le permite administrar los presupuestos de la campaña. El total de las entradas de costes se muestra en el campo **[!UICONTROL Calculated cost]** de la pestaña principal de la campaña y del programa al que pertenece. Las cantidades también se reflejan en el presupuesto de la campaña.
 
-  ![](assets/campaign-budget-tab.png)
+  ![Pestaña Presupuesto de campaña que muestra el presupuesto relacionado, el costo calculado y la lista de líneas de costo por entrega.](assets/campaign-budget-tab.png)
 
   El coste real se calcula a partir de la información proporcionada por el enrutador. Solo se facturan los mensajes que se han enviado realmente.
 
 * Las existencias se definen en el nodo **[!UICONTROL Administration > Campaign management > Stocks]** del árbol.
 
-  ![](assets/campaign-stocks.png)
+  ![Nodo de existencias en el explorador de Campaign con el panel de existencias de los folletos de ventas y sus líneas de existencias.](assets/campaign-stocks.png)
 
   Estructuras de coste en el nodo **[!UICONTROL Administration > Campaign management > Service providers]**.
 
-  ![](assets/campaign-service-providers.png)
+  ![Nodo de proveedores de servicios en el explorador de Campaign con el proveedor de impresión azul y su lista de servicios.](assets/campaign-service-providers.png)
 
   Las líneas de existencias se pueden ver en la sección existencias. Para definir las existencias iniciales, abra una línea de existencias. Las existencias se reducen cada vez que se produce una entrega. Puede definir un nivel de alerta y notificaciones.
 

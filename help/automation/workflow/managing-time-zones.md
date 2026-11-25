@@ -29,10 +29,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '285'
+ht-degree: 93%
 ---
 # Administración de zonas horarias{#managing-time-zones}
 
@@ -46,7 +46,7 @@ Puede planificar la ejecución de tareas utilizando el planificador (consulte [P
 
 Para todas las tareas planificadas, es decir, todas las actividades con opciones de planificación, puede seleccionar la zona horaria que desee aplicar. La zona horaria se selecciona a través de la pestaña **[!UICONTROL Advanced]** de la actividad correspondiente:
 
-![](assets/wf-timezone-in-a-box.png)
+![Ficha Planificador avanzado con la lista desplegable Zona horaria abierta, en la que se enumeran las zonas horarias predeterminadas, Servidor, Operador y base de datos.](assets/wf-timezone-in-a-box.png)
 
 Los valores posibles son:
 

@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '3145'
-ht-degree: 94%
+source-wordcount: '3612'
+ht-degree: 82%
 ---
 # Reglas de presión{#pressure-rules}
 
@@ -67,17 +67,17 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
 1. En la lista de reglas de tipología de campaña, seleccione el icono **[!UICONTROL New]** situado encima de la lista.
 
-   ![](assets/campaign_opt_create_a_rule_01.png)
+   ![Lista de reglas de tipología en la carpeta Administración con el icono Nuevo resaltado encima de la lista.](assets/campaign_opt_create_a_rule_01.png)
 
 1. En la pestaña **[!UICONTROL General]** de la nueva regla, seleccione una regla de tipo **Pressure** e introduzca un nombre y una descripción para ella.
 
-   ![](assets/campaign_opt_create_a_rule_02.png)
+   ![Nueva regla de tipología, ficha General, con la opción Presión seleccionada en la lista de tipo de regla.](assets/campaign_opt_create_a_rule_02.png)
 
 1. Cambie el orden de ejecución si es necesario. Cuando se aplican varias reglas de tipología como un conjunto de **[!UICONTROL Typology]**, primero se aplican las reglas ordenadas parcialmente. [Más información](apply-rules.md#execution-order).
 1. En la sección **[!UICONTROL Calculation parameters]**, defina una frecuencia si desea guardar el objetivo más allá de la siguiente ejecución diaria de mediación. [Más información](apply-rules.md#adjust-calculation-frequency).
 1. Haga clic en la pestaña **[!UICONTROL Pressure]** y seleccione el periodo del calendario durante el cual se aplica la regla de tipología.
 
-   ![](assets/campaign_opt_create_a_rule_03.png)
+   ![Pestaña Presión con la sección Periodo deslizante y la lista de tipo Periodo que muestra las opciones de agrupación.](assets/campaign_opt_create_a_rule_03.png)
 
    La regla se aplica a las entregas cuya fecha de contacto se incluya en el periodo de interés.
 
@@ -91,11 +91,11 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
    De forma predeterminada, el umbral es constante y es necesario indicar un número máximo de mensajes autorizados por la regla.
 
-   ![](assets/campaign_opt_create_a_rule_03b.png)
+   ![Pestaña Presión con el tipo de umbral establecido en Constante y una cantidad de 4.](assets/campaign_opt_create_a_rule_03b.png)
 
    Para definir un umbral de variable, en el campo **[!UICONTROL Depends on the recipient]** seleccione el valor **[!UICONTROL Type of threshold]** y utilice el icono de la derecha para abrir el editor de expresiones.
 
-   ![](assets/campaign_opt_create_a_rule_04.png)
+   ![Lista de tipo de umbral que muestra Constante y Depende del destinatario.](assets/campaign_opt_create_a_rule_04.png)
 
    Para obtener más información, consulte [Número máximo de mensajes](#maximum-number-of-messages).
 
@@ -110,7 +110,7 @@ Para crear y configurar una regla de tipología de **[!UICONTROL Pressure]**, si
 
      En el siguiente ejemplo, solo se tienen en cuenta los destinatarios guardados en la carpeta **NewContacts** y las entregas que comienzan con **Newsletter**.
 
-   ![](assets/campaign_opt_create_a_rule_05.png)
+   ![Mensajes para contar la sección con una consulta de carpeta en NewRecipients y una consulta de envío en etiquetas que comienzan con Newsletter.](assets/campaign_opt_create_a_rule_05.png)
 
 1. La pestaña **[!UICONTROL Typologies]** permite ver las tipologías de campaña que aplican esta regla o relaciona la regla con una o más tipologías existentes. [Más información](campaign-typologies.md#apply-typologies).
 
@@ -122,7 +122,7 @@ Cada regla de presión define un umbral, es decir, un número máximo de mensaje
 
 Los valores de umbral pueden ser constantes o calculados mediante una fórmula con variables. Esto significa que, para un periodo determinado, los umbrales pueden variar de un destinatario a otro o incluso en un mismo destinatario.
 
-![](assets/campaign_opt_create_a_rule_threshold.png)
+![Número máximo de mensajes resaltados en la sección de la ficha Presión, con un umbral constante de 1.](assets/campaign_opt_create_a_rule_threshold.png)
 
 >[!CAUTION]
 >
@@ -132,7 +132,7 @@ Los valores de umbral pueden ser constantes o calculados mediante una fórmula c
 
 Puede indexar el número de mensajes autorizados según el segmento al que pertenezca el destinatario. Esto significa que un destinatario que pertenece al segmento web puede recibir más mensajes que otros destinatarios. Una fórmula de tipo **[!UICONTROL Iif (@origin='Web', 5, 3)]** autoriza la entrega de 5 mensajes a los destinatarios y 3 para otros segmentos. La configuración resultante es la siguiente:
 
-![](assets/campaign_opt_pressure_sample.png)
+![El tipo de umbral depende del destinatario con la fórmula Iif(el origen es igual a &#39;Web&#39;, 5, 3).](assets/campaign_opt_pressure_sample.png)
 
 Para definir el umbral, puede utilizar una dimensión vinculada a la dimensión de segmentación: por ejemplo, para incluir mensajes enviados a los perfiles de destinatario almacenados en la [tabla de visitantes](../../v8/audiences/target-mappings.md) o para evitar que se envíe más de un mensaje por semana a la misma familia (que puede hacer referencia a varias direcciones de correo electrónico) identificada en una dimensión vinculada a los destinatarios.
 
@@ -156,7 +156,7 @@ En el ejemplo siguiente, queremos vincular el peso de los boletines de noticias 
 1. Cree un nuevo campo para almacenar las puntuaciones de tendencia de los receptores. El campo, en este caso **@Music**, se enriquece con las respuestas a los sondeos y encuestas en línea, los datos de seguimiento recopilados, etc.
 1. Cree una regla de tipología para calcular el peso del mensaje en función de este campo.
 
-   ![](assets/campaign_opt_pressure_weight_sample.png)
+   ![Seleccione un cuadro de diálogo de expresión abierto desde la fórmula Weight, con el campo Music seleccionado en los campos disponibles.](assets/campaign_opt_pressure_weight_sample.png)
 
 1. Aplique esta regla a los mensajes con el siguiente asunto: boletines informativos, ofertas especiales, etc. El peso de estos envíos y, por lo tanto, su nivel de prioridad depende de la puntuación de tendencia de cada destinatario.
 
@@ -191,19 +191,19 @@ Cuando un periodo es superior a 0 (1, por ejemplo), el umbral de cálculo puede 
 
 Queremos crear una regla de presión que limite las solicitudes a 3 mensajes por cada periodo de dos semanas, con una agrupación por mes del calendario.
 
-![](assets/campaign_opt_pressure_period_sample_1a.png)
+![Pestaña Presión con un período de 15d, agrupación por mes del calendario y un umbral constante de 3 mensajes.](assets/campaign_opt_pressure_period_sample_1a.png)
 
 Tomemos 6 boletines con el mismo peso, programados para el 30/05, el 3/06, el 08/06, el 12/06, el 22/06 y el 30/06.
 
-![](assets/campaign_opt_pressure_period_sample_0.png)
+![Dos calendarios de noviembre de 2016; el segundo resalta las fechas de entrega 3, 8, 12, 22 y 30.](assets/campaign_opt_pressure_period_sample_0.png)
 
 las entregas programadas para el 12 y 30 de junio no se envían: la entrega del 12/06 supera el umbral de 3 mensajes por periodo de dos semanas y la entrega del día 30 supera el umbral de comunicaciones autorizadas por mes del calendario.
 
-![](assets/campaign_opt_pressure_period_sample_1.png)
+![Lista de envíos con estados Pendiente, Fallido y En proceso de edición, y con recuentos de destinatarios y envíos pendientes.](assets/campaign_opt_pressure_period_sample_1.png)
 
 La mediación excluye a todos los destinatarios de estos envíos durante la fase de análisis:
 
-![](assets/campaign_opt_pressure_period_sample_2.png)
+![Registros de exclusión de un envío que enumera los destinatarios con el motivo Excluido tras la mediación.](assets/campaign_opt_pressure_period_sample_2.png)
 
 Por la misma regla, si se agrupan las entregas por trimestre, los destinatarios del **boletín informativo n.º 5** también se excluyen y este no se envía.
 
@@ -223,7 +223,7 @@ Por lo tanto, para cada destinatario, Adobe Campaign comprueba que el número de
 
 Si este número supera el umbral, se aplican las reglas de mediación definidas en la campaña de tipología y los destinatarios se excluyen de las campañas con un peso menor.
 
-![](assets/campaign_opt_pressure_exclusion.png)
+![Resumen del envío con 12 destinatarios y 9 para enviar, y registros de exclusión que muestran Excluido después del arbitraje.](assets/campaign_opt_pressure_exclusion.png)
 
 >[!NOTE]
 >
@@ -244,21 +244,21 @@ Para crear la regla, siga los siguientes pasos:
 
    Haga clic en el botón **[!UICONTROL Advanced parameters]** para definir la fórmula de cálculo.
 
-   ![](assets/campaign_opt_pressure_sample_1_1.png)
+   ![Seleccione un cuadro de diálogo de expresión abierto desde el campo Fórmula, con el campo Estado seleccionado.](assets/campaign_opt_pressure_sample_1_1.png)
 
 1. Seleccione la opción **[!UICONTROL Edit the formula using an expression]** y haga clic en **[!UICONTROL Next]**.
 
-   ![](assets/campaign_opt_pressure_sample_1_2.png)
+   ![Paso de tipo de fórmula con la opción Edit the formula using an expression seleccionada.](assets/campaign_opt_pressure_sample_1_2.png)
 
 1. En la lista de funciones, haga doble clic en la función **Iif** en el nodo **[!UICONTROL Others]**.
 
    A continuación, seleccione el **estado** de los destinatarios en la sección **[!UICONTROL Available fields]**.
 
-   ![](assets/campaign_opt_pressure_sample_1_3.png)
+   ![Edite el cuadro de diálogo de expresión con la función Iif de Otros y el campo Estado en la fórmula.](assets/campaign_opt_pressure_sample_1_3.png)
 
    Introduzca la fórmula siguiente: **Iif(@status=0,2,4)**
 
-   ![](assets/campaign_opt_pressure_sample_1_4.png)
+   ![Edite el cuadro de diálogo de expresión con la fórmula completada Iif(@status=0,2,4).](assets/campaign_opt_pressure_sample_1_4.png)
 
    Esta fórmula permite asignar el valor 2 si el estado es igual a 0 y el valor 4 para todos los demás estados.
 
@@ -266,7 +266,7 @@ Para crear la regla, siga los siguientes pasos:
 
 1. Indique el periodo durante el cual desea aplicar la regla: 7 días en este caso, para obtener la cantidad de mensajes por semana.
 
-   ![](assets/campaign_opt_pressure_sample_1_5.png)
+   ![Pestaña Presión con la lista de tipo Periodo y una fórmula que depende del estado del destinatario.](assets/campaign_opt_pressure_sample_1_5.png)
 
 1. Guarde la regla para aprobar la creación.
 
@@ -275,13 +275,13 @@ Ahora, vincule la regla que acaba de crear a una tipología para aplicarla a las
 1. Cree una tipología de campaña.
 1. Vaya a la pestaña **[!UICONTROL Rules]**, haga clic en el botón **[!UICONTROL Add]** y seleccione la regla que acaba de crear.
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![Pestaña Reglas de una nueva tipología con el cuadro de diálogo Agregar reglas que enumera las reglas de tipología que se van a seleccionar.](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. Guarde la tipología: se añade a la lista de tipologías existentes.
 
 Para utilizar esta tipología en las entregas, selecciónela en las propiedades de entrega, en la pestaña **[!UICONTROL Typology]** como se muestra a continuación:
 
-![](assets/campaign_opt_pressure_sample_1_7.png)
+![Propiedades de entrega, ficha Tipología, con la tipología Presión de clientes o clientes potenciales seleccionada en la lista Tipología.](assets/campaign_opt_pressure_sample_1_7.png)
 
 >[!NOTE]
 >
@@ -291,15 +291,15 @@ Durante el análisis de la entrega, los destinatarios de la entrega se excluyen 
 
 * Consultar el resultado del análisis:
 
-  ![](assets/campaign_opt_pressure_sample_1_8.png)
+  ![Ventana de análisis de envío con el registro de preparación completado y la regla Exclude addresses resaltada.](assets/campaign_opt_pressure_sample_1_8.png)
 
 * Edite la entrega y haga clic en la pestaña **[!UICONTROL Delivery]** y en la subpestaña **[!UICONTROL Exclusions]**:
 
-  ![](assets/campaign_opt_pressure_sample_1_9.png)
+  ![Pestaña Entrega, subpestaña Exclusiones, con los registros de exclusión que se muestran como Excluido tras la mediación.](assets/campaign_opt_pressure_sample_1_9.png)
 
 * Haga clic en la pestaña **[!UICONTROL Audit]** y luego en la subpestaña **[!UICONTROL Causes of exclusions]** para mostrar el número de exclusiones y las reglas de tipología aplicadas:
 
-  ![](assets/campaign_opt_pressure_sample_1_10.png)
+  ![Pestaña Auditoría, subpestaña Causas de exclusiones, con el volumen de exclusiones por regla de tipología.](assets/campaign_opt_pressure_sample_1_10.png)
 
 ### Cálculo del peso del envío según el comportamiento {#calculate-the-delivery-weight-based-on-behavior}
 
@@ -314,15 +314,15 @@ Aplique los siguientes pasos de configuración:
 1. Cree una nueva regla de tipología de tipo **presión**.
 1. Edite la pestaña **[!UICONTROL Pressure]**. Se busca crear una fórmula de umbral que se base en cada destinatario individual: haga clic en el icono **[!UICONTROL Edit expression]** a la derecha del campo **[!UICONTROL Weight formula]**.
 
-   ![](assets/campaign_opt_pressure_sample_2_1.png)
+   ![Pestaña Presión con el icono Editar expresión resaltado junto al campo Fórmula de peso.](assets/campaign_opt_pressure_sample_2_1.png)
 
 1. De forma predeterminada, el valor **5** se muestra en la sección superior del editor de expresiones. Queremos añadir la puntuación de tendencia de cada destinatario a este peso: coloque el cursor a la derecha de 5, introduzca el carácter **+** y seleccione el campo **Propensity**.
 
-   ![](assets/campaign_opt_pressure_sample_2_2.png)
+   ![Edite el cuadro de diálogo de expresión con la fórmula de ponderación 5+@Affinity y el campo de afinidad seleccionado.](assets/campaign_opt_pressure_sample_2_2.png)
 
 1. A continuación, añada un valor más alto para los destinatarios que ya han realizado una compra. Para ellos, el peso de la entrega se debe aumentar en 5, mientras el resto debe hacerlo solo en 4.
 
-   ![](assets/campaign_opt_pressure_sample_2_3.png)
+   ![Edite el cuadro de diálogo de la expresión con una fórmula de ponderación que agregue un campo y una condición Iif en Interés.](assets/campaign_opt_pressure_sample_2_3.png)
 
 1. Haga clic en **[!UICONTROL Finish]** para guardar esta regla.
 1. Vincule la regla a una tipología de campaña y haga referencia a esta tipología en una entrega para aprobarla.
@@ -338,7 +338,7 @@ Primero, configure la regla de presión.
 1. Cree una regla de presión. [Más información](#create-a-pressure-rule).
 1. En la pestaña **[!UICONTROL General]** , seleccione la opción **[!UICONTROL Re-apply the rule at the start of personalization]** .
 
-   ![](assets/campaign_opt_pressure_example_5.png)
+   ![Pestaña General de una regla de presión con la opción Re-apply the rule at the start of personalization seleccionada.](assets/campaign_opt_pressure_example_5.png)
 
    Esta opción anula el valor definido en el campo **[!UICONTROL Frequency]** y aplica automáticamente la regla durante la fase de personalización. [Más información](apply-rules.md#adjust-calculation-frequency).
 
@@ -353,17 +353,17 @@ Ahora cree y configure un flujo de trabajo para cada envío al que desee aplicar
 1. Añada una actividad de **[!UICONTROL Email delivery]** al flujo de trabajo y ábrala. Para obtener más información sobre esta actividad, consulte [esta sección](../workflow/delivery.md).
 1. En **[!UICONTROL Approvals]** vaya a la pestaña **[!UICONTROL Delivery properties]** y deshabilite todas las aprobaciones.
 
-   ![](assets/campaign_opt_pressure_example_2.png)
+   ![Propiedades de entrega, ficha Aprobaciones, con todas las opciones de aprobación y confirmación de entrega borradas.](assets/campaign_opt_pressure_example_2.png)
 
 1. En la pestaña **[!UICONTROL Typology]** dentro de **[!UICONTROL Delivery properties]** haga referencia a la tipología de campaña para aplicar la regla. Defina un peso para la entrega.
 
-   ![](assets/campaign_opt_pressure_example_3.png)
+   ![Propiedades de entrega, ficha Tipología, con el campo Tipología y un peso de entrega de 10 resaltado.](assets/campaign_opt_pressure_example_3.png)
 
 1. En el envío, haga clic en **[!UICONTROL Scheduling]** y seleccione **[!UICONTROL Schedule delivery (automatic execution when the scheduled date is reached)]**. En este ejemplo, seleccione la opción **[!UICONTROL Use a calculation formula]**.
 1. Establezca la fecha de extracción en 10 minutos (fecha actual + 10 minutos).
 1. Configure la fecha de contacto en el día siguiente (fecha actual + 1 día).
 
-   ![](assets/campaign_opt_pressure_example_4.png)
+   ![Cuadro de diálogo de programación con extracción establecida en fecha actual + 10 minutos y fecha de contacto en fecha actual + 1 día.](assets/campaign_opt_pressure_example_4.png)
 
    Para que las exclusiones de regla de presión se implementen correctamente, asegúrese de establecer la fecha y hora de extracción antes de la fecha y la hora de contacto, así como antes de que se reaplique la mediación por la noche. [Más información](#exclusion-after-arbitration).
 

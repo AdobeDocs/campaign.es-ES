@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 100%
+source-wordcount: '1775'
+ht-degree: 70%
 ---
 # Información de entrega de la consulta {#querying-delivery-information}
 
@@ -50,7 +50,7 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
 1. Abra el **[!UICONTROL Generic query editor]** y seleccione el esquema **[!UICONTROL Recipient tracking logs]**.
 
-   ![](assets/query_editor_tracklog_05.png)
+   ![Ventana de tipo de documento filtrada en el seguimiento con registros de seguimiento de destinatarios (nms) seleccionados.](assets/query_editor_tracklog_05.png)
 
 1. En la ventana **[!UICONTROL Data to extract]**, se desea crear un acumulado para recopilar información. Para ello, añada la clave principal (ubicada encima del elemento **[!UICONTROL Recipient tracking logs]** principal): el recuento de registros de seguimiento se realiza en este campo **[!UICONTROL Primary key]**. La expresión editada es **[!UICONTROL x=count(primary key)]**. Vincula la suma de diversos registros de seguimiento a una sola dirección de correo electrónico.
 
@@ -58,27 +58,27 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    * A la derecha del campo **[!UICONTROL Add]**, haga clic en el icono **[!UICONTROL Output columns]**. En la ventana **[!UICONTROL Formula type]**, seleccione la opción **[!UICONTROL Edit the formula using an expression]** haciendo clic en **[!UICONTROL Next]**. En la ventana **[!UICONTROL Field to select]**, haga clic en **[!UICONTROL Advanced selection]**.
 
-     ![](assets/query_editor_tracklog_06.png)
+     ![Campo para seleccionar ventana para el esquema de registro de seguimiento de destinatarios con el botón de selección avanzada resaltado.](assets/query_editor_tracklog_06.png)
 
    * En la ventana **[!UICONTROL Formula type]**, ejecute un proceso en la función de acumulado. Este proceso es un recuento de clave principal.
 
      Seleccione **[!UICONTROL Process on an aggregate function]** en la sección **[!UICONTROL Aggregate]** y haga clic en **[!UICONTROL Count]**.
 
-     ![](assets/query_editor_nveau_18.png)
+     ![Ventana de tipo de fórmula con Proceso en una función de agregado y Recuento seleccionado.](assets/query_editor_nveau_18.png)
 
-     Haga clic en **[!UICONTROL Next]**.
+     Haga clic **[!UICONTROL Next]**.
 
    * Seleccione el campo **[!UICONTROL Primary key (@id)]**. Se configura la columna de salida **[!UICONTROL count (primary key)]**.
 
-     ![](assets/query_editor_nveau_19.png)
+     ![Datos para extraer la ventana con la columna de salida count(primary key) configurada.](assets/query_editor_nveau_19.png)
 
 1. Seleccione el otro campo que se desea mostrar en la columna de salida. En la columna **[!UICONTROL Available fields]**, abra el nodo **[!UICONTROL Recipient]** y elija **[!UICONTROL Email]**. Marque la casilla **[!UICONTROL Group]** en **[!UICONTROL Yes]** para agrupar los registros de seguimiento por dirección de correo electrónico: este grupo relaciona cada registro con su destinatario.
 
-   ![](assets/query_editor_nveau_20.png)
+   Se agregaron ![datos para extraer la ventana con el correo electrónico (destinatario) como segunda columna de salida y el grupo se estableció en Sí.](assets/query_editor_nveau_20.png)
 
 1. Configure la ordenación de columnas para que se muestren primero los destinatarios más activos (con la mayoría de registros de seguimiento). Marque **[!UICONTROL Yes]** en la columna **[!UICONTROL Descending sort]**.
 
-   ![](assets/query_editor_nveau_64.png)
+   ![Ventana de ordenación con la ordenación descendente establecida en Sí en la columna count(primary key).](assets/query_editor_nveau_64.png)
 
 1. A continuación, se debe filtrar los registros de interés, es decir, aquellos que tengan menos de 2 semanas y que impliquen envíos relacionados con ventas.
 
@@ -86,46 +86,46 @@ Para llevar a cabo este ejemplo, aplique los siguientes pasos:
 
    * Configure el filtrado de datos. Para ello, seleccione **[!UICONTROL Filter conditions]** y haga clic en **[!UICONTROL Next]**.
 
-     ![](assets/query_editor_nveau_22.png)
+     ![Ventana de filtrado de datos con las condiciones de filtrado seleccionadas en la lista de filtros restringidos.](assets/query_editor_nveau_22.png)
 
    * Recupere los registros de seguimiento durante un periodo determinado para una entrega específica. Se necesitan tres condiciones de filtrado: dos condiciones de fecha para establecer el periodo de búsqueda entre 2 semanas antes de la fecha actual y el día antes de la fecha actual; y otra condición para restringir la búsqueda a una entrega específica.
 
      En la ventana **[!UICONTROL Target element]**, configure la fecha empezando desde la cual se deben tomar en cuenta los registros de seguimiento. Haga clic en **[!UICONTROL Add]**. Se muestra una línea de condición. Edite la columna **[!UICONTROL Expression]** haciendo clic en la función **[!UICONTROL Edit expression]**. En la ventana **[!UICONTROL Field to select]**, elija **[!UICONTROL Date (@logDate)]**.
 
-     ![](assets/query_editor_nveau_23.png)
+     ![Campo para seleccionar una ventana para el esquema de registro de seguimiento de destinatarios que enumera la fecha, el identificador externo y la clave principal.](assets/query_editor_nveau_23.png)
 
      Seleccione el operador **[!UICONTROL greater than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]** y, en la ventana **[!UICONTROL Formula type]**, seleccione **[!UICONTROL Process on dates]**. Finalmente, en **[!UICONTROL Current date minus n days]**, escriba &quot;15&quot;.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
-     ![](assets/query_editor_nveau_24.png)
+     ![Ventana de tipo Fórmula con las fechas Proceso y Fecha actual menos N días establecida en 15 y el estado Fin resaltado.](assets/query_editor_nveau_24.png)
 
    * Para seleccionar la fecha de finalización de la búsqueda del registro de seguimiento, cree una segunda condición haciendo clic en **[!UICONTROL Add]**. En la columna **[!UICONTROL Expression]**, elija **[!UICONTROL Date (@logDate)]** nuevamente.
 
      Seleccione el operador **[!UICONTROL less than]**. En la columna **[!UICONTROL Value]**, haga clic en **[!UICONTROL Edit expression]**. Para el procesamiento de fechas, vaya a la ventana **[!UICONTROL Formula type]** y escriba “1” en **[!UICONTROL Current date minus n days]**.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
-     ![](assets/query_editor_nveau_65.png)
+     ![Ventana de tipo de fórmula con las fechas Proceso en y Fecha actual menos n días establecida en 1 y el estado Fin resaltado.](assets/query_editor_nveau_65.png)
 
      Ahora, se desea configurar la tercera condición de filtro; es decir, la etiqueta de envío que abarca la consulta.
 
    * Haga clic en la función **[!UICONTROL Add]** para crear otra condición de filtrado. En la columna **[!UICONTROL Expression]**, haga clic en **[!UICONTROL Edit expression]**. En la ventana **[!UICONTROL Field to select]**, elija **[!UICONTROL Label]** en el nodo **[!UICONTROL Delivery]**.
 
-     Haga clic en **[!UICONTROL Finish]**.
+     Haga clic **[!UICONTROL Finish]**.
 
-     ![](assets/query_editor_nveau_66.png)
+     ![Campo para seleccionar ventana con el campo Etiqueta (@label) resaltado y el campo Finalizar resaltado.](assets/query_editor_nveau_66.png)
 
      Busque una entrega que contenga la palabra “ventas”. Como no recuerda su etiqueta exacta, puede elegir el operador **[!UICONTROL contains]** e introducir “sales” en la columna **[!UICONTROL Value]**.
 
-     ![](assets/query_editor_nveau_25.png)
+     ![Ventana de elemento de destino con fecha posterior a 15 días antes, fecha anterior a 1 días antes y etiqueta que contiene ventas.](assets/query_editor_nveau_25.png)
 
 1. Haga clic en **[!UICONTROL Next]** hasta que llegue a la ventana **[!UICONTROL Data preview]**: no se requiere formato alguno.
 1. En la ventana **[!UICONTROL Data preview]**, haga clic en **[!UICONTROL Start the preview of the data]** para ver el número de registros de seguimiento para cada destinatario de la entrega.
 
    El resultado se muestra en orden descendente.
 
-   ![](assets/query_editor_tracklog_04.png)
+   ![Ventana de vista previa de datos que enumera los recuentos de registros de seguimiento por correo electrónico de destinatario en orden descendente, de 6 a 2.](assets/query_editor_tracklog_04.png)
 
    El número mayor de registros para un usuario es 6 para esta entrega. Cinco usuarios diferentes han abierto el correo electrónico de entrega o han hecho clic en uno de los vínculos del mismo.
 
@@ -138,33 +138,33 @@ Para crear este ejemplo, aplique los pasos siguientes:
 1. Arrastre y suelte una actividad **[!UICONTROL Query]** en un flujo de trabajo y ábrala.
 1. Haga clic en **[!UICONTROL Edit query]** y configure las dimensiones de objetivo y filtrado en **[!UICONTROL Recipients]**.
 
-   ![](assets/query_recipients_1.png)
+   ![Ventana de dimensión de segmentación y filtrado con ambas dimensiones definidas como Recipients y Filtering conditions seleccionadas.](assets/query_recipients_1.png)
 
 1. Seleccione **[!UICONTROL Filtering conditions]**, luego haga clic en **[!UICONTROL Next]**.
 1. Haga clic en el botón **[!UICONTROL Add]** y seleccione **[!UICONTROL Tracking logs]**.
 1. Defina el **[!UICONTROL Operator]** de la expresión **[!UICONTROL Tracking logs]** en **[!UICONTROL Do not exist such as]**.
 
-   ![](assets/query_open_1.png)
+   ![La ventana de filtro con la expresión Tracking logs (trackingLog) y el operador no existen como.](assets/query_open_1.png)
 
 1. Agregue otra expresión. Seleccione **[!UICONTROL Type]** en la categoría **[!UICONTROL URL]**.
 1. A continuación, configure su **[!UICONTROL Operator]** en **[!UICONTROL equal to]** y su **[!UICONTROL Value]** en **[!UICONTROL Open]**.
 
-   ![](assets/query_open_2.png)
+   ![Ventana de filtro con una condición Type (url/@type) establecida en Open bajo la expresión Tracking logs.](assets/query_open_2.png)
 
 1. Añada otra expresión y seleccione **[!UICONTROL Date]**. **[!UICONTROL Operator]** se debe configurar en **[!UICONTROL on or after]**.
 
-   ![](assets/query_open_3.png)
+   ![Ventana de filtro con una condición de Fecha de registros de seguimiento (@logDate) usando el operador el o después, valor que sigue vacío.](assets/query_open_3.png)
 
 1. Para configurar el valor los últimos 7 días, haga clic en el botón **[!UICONTROL Edit expression]** del campo **[!UICONTROL Value]**.
 1. En la categoría **[!UICONTROL Function]**, seleccione **[!UICONTROL Current date minus n days]** y añada el número de días que desee establecer como objetivo. En este caso, se busca fijar como objetivo los últimos 7 días.
 
-   ![](assets/query_open_4.png)
+   ![Ventana de tipo fórmula con el valor de Procesar en fechas y Fecha actual menos n días establecido en 7.](assets/query_open_4.png)
 
 La transición saliente contiene destinatarios que no han abierto un correo electrónico en los últimos 7 días.
 
 Si, por el contrario, se desea filtrar los destinatarios que hayan abierto al menos un correo electrónico, la consulta debe ser la siguiente: Tenga en cuenta que, en este caso, la **[!UICONTROL Filtering dimension]** se debe configurar en **[!UICONTROL Tracking logs (Recipients)]**.
 
-![](assets/query_open_5.png)
+![Ventana de filtro con la condición Primary key (@id) not equal to 0 y el resumen de la consulta debajo de ella.](assets/query_open_5.png)
 
 ## Destinatarios que han abierto una entrega {#recipients-who-have-opened-a-delivery}
 
@@ -172,25 +172,25 @@ El ejemplo siguiente muestra cómo dirigirse a perfiles que han abierto una entr
 
 1. Para segmentar perfiles que hayan abierto una entrega, debe utilizar los registros de seguimiento. se almacenan en una tabla relacionada: comience seleccionando esta tabla en la lista desplegable del campo **[!UICONTROL Filtering dimension]**, como se muestra a continuación:
 
-   ![](assets/s_advuser_query_sample1.0.png)
+   ![Lista desplegable de dimensión de filtrado con registro de seguimiento de destinatario entre las tablas disponibles.](assets/s_advuser_query_sample1.0.png)
 
 1. Con respecto a las condiciones de filtrado, haga clic en el icono **[!UICONTROL Edit expression]** de los criterios que se muestran en la estructura de sub-árbol de los registros de seguimiento. Seleccione el campo **[!UICONTROL Date]**.
 
-   ![](assets/s_advuser_query_sample1.1.png)
+   ![Dimensión de filtrado establecida en el registro de seguimiento de destinatarios, con el campo Fecha seleccionado en la ventana Campo para seleccionar.](assets/s_advuser_query_sample1.1.png)
 
    Haga clic en **[!UICONTROL Finish]** para confirmar la selección.
 
    Para recuperar únicamente los registros de seguimiento con menos de dos semanas, seleccione el operador **[!UICONTROL Greater than]**.
 
-   ![](assets/s_advuser_query_sample1.4.png)
+   ![Ventana de filtro en Fecha (@logDate) con la lista desplegable de operadores abierta y el operador después resaltado.](assets/s_advuser_query_sample1.4.png)
 
    A continuación, haga clic en el icono **[!UICONTROL Edit expression]** de la columna **[!UICONTROL Value]** para definir la fórmula de cálculo que se desea aplicar. Seleccione la fórmula **[!UICONTROL Current date minus n days]** y escriba 15 en el campo relacionado.
 
-   ![](assets/s_advuser_query_sample1.5.png)
+   Se abrió la ventana ![Tipo de fórmula desde Edit expression, con Current date minus n days establecido en 15.](assets/s_advuser_query_sample1.5.png)
 
    Haga clic en el botón **[!UICONTROL Finish]** de la ventana de la fórmula. En la ventana de filtrado, haga clic en la pestaña **[!UICONTROL Preview]** para comprobar los criterios de objetivo.
 
-   ![](assets/s_advuser_query_sample1.6.png)
+   ![Ventana de filtro en la ficha Vista previa que enumera los 53 destinatarios que coinciden con los criterios de segmentación.](assets/s_advuser_query_sample1.6.png)
 
 ## Filtrado del comportamiento de los destinatarios después de una entrega {#filtering-recipients--behavior-folllowing-a-delivery}
 
@@ -210,17 +210,17 @@ Los siguientes pasos muestran cómo configurar la casilla **[!UICONTROL Split]**
 
 1. Inserte la casilla **[!UICONTROL Split]** en el flujo de trabajo. Esta casilla desglosa los destinatarios de la primera entrega en los dos envíos siguientes. El desglose se produce en función de las condiciones de filtrado vinculadas al comportamiento del destinatario durante la primera entrega.
 
-   ![](assets/query_editor_ex_09.png)
+   ![Flujo de trabajo con consulta, envío de ofertas de deportes de verano, espera 4 días y una división basada en la actividad de comportamiento.](assets/query_editor_ex_09.png)
 
 1. Abra la casilla **[!UICONTROL Split]**. En la pestaña **[!UICONTROL General]**, introduzca una etiqueta: **Split based on behavior**, por ejemplo.
 
-   ![](assets/query_editor_ex_04.png)
+   ![Dividir actividad ficha General con el campo Etiqueta establecido en Dividir según el comportamiento.](assets/query_editor_ex_04.png)
 
 1. En la pestaña **[!UICONTROL Subsets]**, defina la primera rama de división. Por ejemplo, introduzca la etiqueta en los que se ha hecho **clic** para esta rama.
 1. Seleccione la opción **[!UICONTROL Add a filtering condition on the incoming population]**. Haga clic en **[!UICONTROL Edit]**.
 1. En la ventana **[!UICONTROL Targeting and filtering dimension]**, haga doble clic en el filtro **[!UICONTROL Recipients of a delivery]**.
 
-   ![](assets/query_editor_ex_05.png)
+   ![Dividir subconjuntos ficha con Agregar condición de filtrado seleccionada y Destinatarios de entrega resaltados.](assets/query_editor_ex_05.png)
 
 1. En la ventana **[!UICONTROL Target element]**, seleccione el comportamiento que desee aplicar a esta rama: **[!UICONTROL Recipients having clicked (email)]**.
 
@@ -228,23 +228,23 @@ Los siguientes pasos muestran cómo configurar la casilla **[!UICONTROL Split]**
 
    Este es la entrega “Oferta de deportes acuáticos”.
 
-   ![](assets/query_editor_ex_08.png)
+   ![Ventana del elemento de destino con el comportamiento establecido en los destinatarios que han hecho clic (correo electrónico) y el envío especificado por la transición.](assets/query_editor_ex_08.png)
 
 1. Defina la segunda rama. Esta rama incluye el correo electrónico de seguimiento con el mismo contenido que para la primera entrega. Vaya a la pestaña **[!UICONTROL Subsets]** y haga clic en **[!UICONTROL Add]** para crearlo.
 
-   ![](assets/query_editor_ex_06.png)
+   ![Separe la pestaña Subconjuntos con el subconjunto en el que se hizo clic y el botón Agregar resaltado para crear un segundo subconjunto.](assets/query_editor_ex_06.png)
 
 1. Se muestra otra subpestaña. Denomínela “**No han hecho clic**”.
 1. Haga clic en **[!UICONTROL Add a filtering condition for the incoming population]**. A continuación, haga clic en **[!UICONTROL Edit...]**.
 
-   ![](assets/query_editor_ex_07.png)
+   ![Ficha Dividir subconjuntos para el subconjunto No se hizo clic en él con el vínculo Editar resaltado para la condición de filtrado.](assets/query_editor_ex_07.png)
 
 1. Haga clic **[!UICONTROL Delivery recipients]** en la **[!UICONTROL Targeting and filtering dimension]** ventana.
 1. En la ventana **[!UICONTROL Target element]**, seleccione el comportamiento **[!UICONTROL Recipients who did not click (email)]**. Seleccione la opción **[!UICONTROL Delivery specified by the transition]** como se muestra para la última rama.
 
    La casilla **[!UICONTROL Split]** ahora está totalmente configurada.
 
-   ![](assets/query_editor_ex_03.png)
+   ![Flujo de trabajo donde la división envía los destinatarios en los que se hizo clic a la oferta de deportes acuáticos y no hizo clic en los del recordatorio.](assets/query_editor_ex_03.png)
 
 A continuación, se muestra la lista de los distintos componentes configurados de forma predeterminada:
 
@@ -256,4 +256,4 @@ A continuación, se muestra la lista de los distintos componentes configurados d
 * **[!UICONTROL Recipients who didn't open or click (email),]**
 * **[!UICONTROL Recipients who didn't click (email).]**
 
-  ![](assets/query_editor_ex_02.png)
+  ![Lista de comportamiento del elemento de destino con todos los destinatarios, abiertos o en los que se hizo clic, en los que se hizo clic, con error y sin hacer clic en las opciones.](assets/query_editor_ex_02.png)

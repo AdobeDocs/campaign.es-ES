@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 96%
+source-wordcount: '1202'
+ht-degree: 91%
 ---
 # Introducción al marketing distribuido{#about-distributed-marketing}
 
@@ -103,7 +103,7 @@ Si una entidad local se registra para una campaña, esto se convierte en un pedi
 
 Se puede acceder a la lista de paquetes de campañas desde la pestaña **Campañas**: haga clic en el vínculo **[!UICONTROL Campaign packages]**.
 
-![](assets/mkg_dist_home_local_op.png)
+![Pestaña Campañas: al hacer clic en Paquetes de campaña en el menú Exploración se abre la lista de paquetes de campañas.](assets/mkg_dist_home_local_op.png)
 
 Esta ventana permite que todos los operadores locales vean las campañas disponibles para su organismo local.
 
@@ -113,7 +113,7 @@ En el caso de las agencias centrales, esta ventana muestra todos los paquetes di
 
 Comience especificando los operadores de entidad central y local a través de la carpeta **[!UICONTROL Access management]**.
 
-![](assets/s_advuser_mkg_dist_tree.png)
+![Árbol del explorador con Administración > Administración de acceso expandido, que muestra operadores y entidades organizativas.](assets/s_advuser_mkg_dist_tree.png)
 
 ### Operadores {#operators}
 
@@ -123,13 +123,13 @@ Los operadores centrales deben pertenecer al grupo de operadores **[!UICONTROL C
 
 Los operadores locales deben pertenecer al grupo de operadores **[!UICONTROL Local management]** o tener el nombre **[!UICONTROL LOCAL]** adecuado. También deben estar vinculados a su entidad local.
 
-![](assets/s_advuser_mkg_dist_local_create.png)
+![Pestaña Derechos de acceso de operador que enumera los grupos de seguridad Administración local y Administración central.](assets/s_advuser_mkg_dist_local_create.png)
 
 ### Entidades organizativas {#organizational-entities}
 
 Para crear una entidad organizativa, haga clic en la carpeta **[!UICONTROL Administration > Access management > Organizational entities]** y luego en el icono **[!UICONTROL New]** sobre la lista de entidades.
 
-![](assets/s_advuser_mkg_dist_local_list.png)
+![Carpeta de entidades organizativas con el icono Nuevo resaltado encima de la lista de entidades.](assets/s_advuser_mkg_dist_local_list.png)
 
 Cada entidad organizativa contiene información de identificación (etiqueta, nombre interno, información de contacto, etc.) y grupos involucrados en el proceso de aprobación de la solicitud. Se definen en la sección **[!UICONTROL Notifications and approvals]** ubicada en la pestaña **[!UICONTROL General]**.
 
@@ -152,7 +152,7 @@ El procedimiento de implementación depende del tipo de paquete de campaña util
 1. Cree entidades locales.
 1. Vincule los destinatarios con los operadores que administran las entidades locales.
 
-   ![](assets/mkg_dist_local_entity_association.png)
+   ![Formulario de destinatario con el campo Origen resaltado, que vincula al destinatario con una entidad local.](assets/mkg_dist_local_entity_association.png)
 
 1. Especifique derechos y reglas de navegación para entidades locales
 1. Especifique el conjunto de campos necesarios para la localización de la campaña:

@@ -30,16 +30,16 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 79%
+source-wordcount: '128'
+ht-degree: 59%
 ---
 # Flujos de trabajo de la campaña {#campaign-workflows}
 
 Para cada campaña se pueden crear flujos de trabajo que se ejecutan desde la pestaña **[!UICONTROL Targeting and workflows]**. Estos flujos de trabajo son específicos de la campaña.
 
-![](assets/wf-in-op-edit-delivery-tab.png)
+![Ficha Targeting and workflows de una campaña que muestra la lista de flujos de trabajo y un diagrama con consultas, divisiones y envíos.](assets/wf-in-op-edit-delivery-tab.png)
 
 Esta pestaña contiene las mismas actividades para todos los flujos de trabajo. [Más información](#implementation-steps-)
 
@@ -47,6 +47,6 @@ Además de las campañas de destino, los flujos de trabajo de la campaña permit
 
 Todos los flujos de trabajo de campaña están centralizados en el nodo **[!UICONTROL Administration > Production > Objects created automatically > Campaign workflows]**.
 
-![](assets/campaigns_wf.png)
+![Explorador con el nodo Administration > Production > Objects created automatically > Campaign workflows seleccionado.](assets/campaigns_wf.png)
 
-Los flujos de trabajo de campañas y los ejemplos de implementación se detallan en [esta sección](../campaigns/marketing-campaign-target.md).
+Los flujos de trabajo de campañas y algunos ejemplos de implementación se detallan en [Destinatarios de campañas de marketing](../campaigns/marketing-campaign-target.md).

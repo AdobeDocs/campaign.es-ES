@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 94%
+source-wordcount: '1180'
+ht-degree: 91%
 ---
 # Iniciar, pausar y detener un flujo de trabajo {#starting-a-workflow}
 
@@ -50,7 +50,7 @@ A continuación se detalla la lista de opciones disponibles en el menú **[!UICO
 
 El botón **[!UICONTROL Actions]** de la barra de herramientas le permite acceder a opciones de ejecución adicionales en los flujos de trabajo seleccionados. También puede utilizar el menú **[!UICONTROL File > Actions]** o hacer clic con el botón derecho del ratón en un flujo de trabajo y seleccionar **[!UICONTROL Actions]**.
 
-![](assets/purge_historique.png)
+![Lista de flujo de trabajo con el menú Acciones abierto y Purgar historial resaltado entre las opciones Iniciar, Pausar, Detener y Reiniciar.](assets/purge_historique.png)
 
 * **[!UICONTROL Start]**
 
@@ -134,7 +134,7 @@ Mejore la estabilidad de las instancias mediante la implementación de las sigui
 
 Cuando haya seleccionado una o más actividades de flujo de trabajo, puede hacer clic con el botón derecho para actuar sobre la selección.
 
-![](assets/contextual_menu.png)
+![Menú contextual en una actividad de flujo de trabajo con Mostrar registros resaltados, además de las opciones Abrir, Cortar, Copiar, Eliminar y Guardar.](assets/contextual_menu.png)
 
 Las siguientes opciones están disponibles en el menú del botón derecho:
 

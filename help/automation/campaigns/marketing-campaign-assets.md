@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 70%
+source-wordcount: '881'
+ht-degree: 55%
 ---
 # Administración de recursos y documentos {#manage-assets-documents}
 
@@ -54,19 +54,19 @@ Para una campaña, la ficha **[!UICONTROL Documents]** contiene:
 
 Los documentos están vinculados al programa o a la campaña a través de la pestaña **[!UICONTROL Edit > Documents]**.
 
-![](assets/op_add_document.png)
+![Pestaña Editar campaña, subpestaña Documentos: lista de documentos adjuntos con los botones Agregar, Eliminar y Detalle.](assets/op_add_document.png)
 
 También puede añadir un documento a una campaña desde el vínculo dedicado del panel.
 
-![](assets/add_a_document_in_op.png)
+![Panel de campañas con el vínculo Agregar documento y el cuadro de diálogo Documento de marketing para cargar un archivo.](assets/add_a_document_in_op.png)
 
 Haga clic en el icono **[!UICONTROL Detail...]** para ver el contenido de un archivo y añadir información:
 
-![](assets/add_document_details.png)
+![Cuadro de diálogo de documentos abierto desde Detalle: etiqueta, versión, naturaleza, vínculo de archivo cargado y descripción.](assets/add_document_details.png)
 
 En el panel de control, los documentos asociados a la campaña se agrupan en la sección **[!UICONTROL Document(s)]**, como en el siguiente ejemplo:
 
-![](assets/edit_documents.png)
+![Panel de campañas con la sección de documentos que resalta los documentos adjuntos a la campaña.](assets/edit_documents.png)
 
 También pueden editarse y modificarse desde esta vista.
 
@@ -86,7 +86,7 @@ Para una campaña, las descripciones de envío permiten estructurar los elemento
 
 Para crear una descripción de la entrega, haga clic en la subpestaña **[!UICONTROL Delivery outlines]** en la pestaña **[!UICONTROL Edit > Documents]** de la campaña correspondiente.
 
-![](assets/add-a-delivery-outline.png)
+![Ficha Campaign Edit, subpestaña Documents, Delivery outlines con el vínculo Add a delivery outline.](assets/add-a-delivery-outline.png)
 
 
 >[!NOTE]
@@ -98,33 +98,33 @@ Después, haga clic **[!UICONTROL Add a delivery outline]** y cree la jerarquía
 1. Haga clic con el botón derecho del ratón en la raíz del árbol y seleccione **[!UICONTROL New > Delivery outlines]**.
 1. Haga clic con el botón derecho en la descripción que acaba de crear y seleccione **[!UICONTROL New > Item]** o **[!UICONTROL New > Personalization fields]**.
 
-![](assets/del-outline-add-new-item.png)
+![Árbol de descripciones de envío con el menú contextual: Nuevo > Elemento, Campos de personalización u Oferta.](assets/del-outline-add-new-item.png)
 
 Una descripción puede contener elementos, campos de personalización y ofertas:
 
 * Los elementos pueden ser documentos físicos, por ejemplo, a los que se hace referencia y que se describen aquí y se adjuntan al envío.
 * Los campos de personalización permiten crear elementos de personalización relacionados con las entregas en lugar de con los destinatarios. Por lo tanto, es posible crear valores que se utilizarán en los envíos para un objetivo específico (oferta de bienvenida, descuento, etc.). Se crean en Adobe Campaign y se importan a la descripción mediante el vínculo **[!UICONTROL Import personalization fields...]**.
 
-  ![](assets/del-outline-perso-field.png)
+  ![Seleccione el cuadro de diálogo de campos de personalización que muestra Pack, Gold y Premium, abierto desde Importar campos de personalización.](assets/del-outline-perso-field.png)
 
   También pueden crearse directamente en la descripción haciendo clic en el icono **[!UICONTROL Add]** a la derecha del área de la lista.
 
-  ![](assets/add-del-outline-button.png)
+  ![Lista de campos personalizados en un esquema de envío con valores ingresados y el icono Agregar a la derecha de la lista.](assets/add-del-outline-button.png)
 
 
 ### Selección de una descripción {#select-an-outline}
 
 Para cada envío, puede seleccionar la descripción que desea asociar desde la sección reservada para la descripción de la extracción, como en el siguiente ejemplo:
 
-![](assets/select-delivery-outline.png)
+![Ficha Correo directo de una entrega con el cuadro de diálogo Seleccionar un esquema de entrega que enumera Unidad B, Unidad C y Unidad A.](assets/select-delivery-outline.png)
 
 El esquema seleccionado se muestra en la sección inferior de la ventana. Se puede editar mediante el icono a la derecha del campo o modificar mediante la lista desplegable:
 
-![](assets/delivery-outline-selected.png)
+![Ficha Correo directo de una entrega con el campo Descripción de entrega resaltado y la unidad C.](assets/delivery-outline-selected.png)
 
 La pestaña **[!UICONTROL Summary]** de la entrega también muestra esta información:
 
-![](assets/delivery-outline-in-dashboard.png)
+![Pestaña Resumen de entrega con una flecha que señala al valor de Esquema de entrega, Unidad C.](assets/delivery-outline-in-dashboard.png)
 
 ### Resultado de la extracción {#extraction-result}
 
@@ -132,6 +132,6 @@ En el archivo extraído y enviado al proveedor de servicio, el nombre de la desc
 
 En el siguiente ejemplo, la etiqueta, el coste estimado y la descripción asociada con la entrega se añaden al archivo de extracción.
 
-![](assets/campaign-export-template.png)
+![Datos para extraer el paso de la plantilla de exportación con la columna de salida Etiqueta (esquema de envío/envío) resaltada.](assets/campaign-export-template.png)
 
 El modelo de exportación debe estar asociado al proveedor de servicios seleccionado para la entrega. Consulte [esta sección](providers-stocks-and-budgets.md#create-service-providers-and-their-cost-structures).

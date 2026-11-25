@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 78%
+source-wordcount: '1850'
+ht-degree: 62%
 ---
 # Selección del público de las campañas {#marketing-campaign-deliveries}
 
@@ -39,7 +39,7 @@ En una campaña de marketing, puede definir lo siguiente por envío:
 
 * La audiencia de destino. Puede enviar mensajes a una [lista de destinatarios](#send-to-a-group) o crear una [audiencia en un flujo de trabajo](#build-the-main-target-in-a-workflow)
 * Un grupo de control. Puede [agregar un grupo de control](#add-a-control-group) para supervisar el comportamiento de los destinatarios después de enviar el mensaje
-* Direcciones semilla: obtenga más información en [esta sección](../../v8/audiences/test-profiles.md).
+* Direcciones semilla: obtenga más información en [Crear perfiles de prueba en Campaign](../../v8/audiences/test-profiles.md).
 
 Parte de esta información se hereda de la [plantilla de campaña](marketing-campaign-templates.md#campaign-templates).
 
@@ -54,16 +54,16 @@ Puede importar una población a una lista y luego establecer como objetivo esta 
 1. Edite la entrega y haga clic en el vínculo **[!UICONTROL To]** para cambiar la población de destino.
 1. En la pestaña **[!UICONTROL Main target]**, seleccione la opción **[!UICONTROL Defined via the database]** y haga clic en **[!UICONTROL Add]** para seleccionar destinatarios.
 
-   ![](assets/select-main-target.png)
+   ![Cuadro de diálogo Seleccionar destino, ficha Destino principal, con Definido en la base de datos seleccionada y el vínculo Agregar para la población de destinatarios](assets/select-main-target.png)
 
 1. Elija **[!UICONTROL A list of recipients]**.
 
-   ![](assets/target-a-list.png)
+   ![Cuadro de diálogo Seleccionar elemento de destino, paso Tipo de destino, con Una lista de destinatarios seleccionados en la lista de filtros restringidos](assets/target-a-list.png)
 
 
 1. Haga clic en **[!UICONTROL Next]** para seleccionar la lista.
 
-   ![](assets/select-the-list.png)
+   ![Cuadro de diálogo Seleccionar elemento de destino, paso de elemento de destino, con una lista seleccionada en la carpeta Lists](assets/select-the-list.png)
 
    Puede refinar el objetivo añadiendo nuevos criterios de filtrado.
 
@@ -81,7 +81,7 @@ El objetivo principal de una entrega también se puede definir en el flujo de tr
 
 El objetivo se puede crear mediante una combinación de condiciones de filtrado en una secuencia gráfica de un flujo de trabajo. Puede crear poblaciones y subpoblaciones según lo necesite. Para mostrar el editor de flujo de trabajo, haga clic en la pestaña **[!UICONTROL Targeting and workflows]** del panel de control de campañas.
 
-![](assets/targeting-and-wf-tab.png)
+![Tablero de campaña con la ficha Segmentación y flujos de trabajo resaltada junto a las fichas Tablero y Editar](assets/targeting-and-wf-tab.png)
 
 La población de destino se extrae de la base de datos de Adobe Campaign a través de una o varias consultas ubicadas en un flujo de trabajo. Aprenda a generar una consulta en [esta sección](../workflow/query.md).
 
@@ -89,7 +89,7 @@ Puede iniciar consultas y compartir poblaciones mediante cuadros como Unión, In
 
 Seleccione los objetos de las listas a la izquierda del espacio de trabajo y enlácelos para crear el objetivo.
 
-![](assets/campaign-wf.png)
+![Pestaña Segmentación y flujos de trabajo con un diagrama: consulta A y B, unión, deduplicación, enriquecimiento, división, envíos](assets/campaign-wf.png)
 
 En el diagrama, vincule las consultas de objetivo y de programación necesarias para la creación del objetivo en el diagrama. Puede ejecutar el objetivo mientras la creación está en curso para comprobar la población extraída de la base de datos.
 
@@ -101,7 +101,7 @@ La sección izquierda del editor contiene una biblioteca de objetos gráficos qu
 
 Es posible acceder a las funciones de formato y ejecución del flujo de trabajo de objetivos mediante la barra de herramientas del editor de diagramas.
 
-![](assets/wf-diagram.png)
+![Barra de herramientas de diagrama de flujo de trabajo con una flecha que señala al botón Alineación horizontal situado encima del diagrama de destino](assets/wf-diagram.png)
 
 >[!NOTE]
 >
@@ -111,7 +111,7 @@ Puede crear varios flujos de trabajo de objetivos para una sola campaña. Para a
 
 1. Vaya a la sección superior izquierda de la zona de creación del flujo de trabajo, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Add]**. También puede utilizar el botón **[!UICONTROL New]** situado encima de esta zona.
 
-   ![](assets/add-a-wf.png)
+   ![Haga clic con el botón derecho en el menú del flujo de trabajo predeterminado en la ficha Segmentación y flujos de trabajo, con la opción Agregar resaltada](assets/add-a-wf.png)
 
 1. Seleccione la plantilla **[!UICONTROL New workflow]** y asigne un nombre a este flujo de trabajo.
 1. Haga clic en **[!UICONTROL OK]** para confirmar la creación del flujo de trabajo y, a continuación, cree el diagrama para este flujo de trabajo.
@@ -130,7 +130,7 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
   * El icono **[!UICONTROL Start]** permite iniciar el flujo de trabajo de destino. Al hacer clic en este icono, todas las actividades sin transición de entrada se activan (excepto los saltos de extremo final).
 
-    ![](assets/start.png)
+    ![Barra de herramientas de flujo de trabajo con el icono Inicio resaltado y la información de objeto Inicio mostrada](assets/start.png)
 
     El servidor tiene en cuenta la solicitud, tal como muestra su estado: **[!UICONTROL Start as soon as possible]**.
 
@@ -142,17 +142,17 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
     Al hacer clic en **[!UICONTROL Pause]**, las operaciones en curso **[!UICONTROL are not]** no se pausan, pero no se inicia ninguna otra actividad hasta el siguiente reinicio.
 
-    ![](assets/pause.png)
+    ![Barra de herramientas de flujo de trabajo con el icono Pausa resaltado y la información sobre pausa mostrada](assets/pause.png)
 
     El servidor tiene en cuenta el comando, como muestra su estado: **[!UICONTROL Pause requested]**.
 
     También puede pausar un flujo de trabajo de objetivos automáticamente cuando su ejecución alcanza una actividad determinada. Para ello, haga clic con el botón derecho en la actividad desde la que desea pausar el flujo de trabajo de objetivos y seleccione **[!UICONTROL Enable but do not execute]**.
 
-    ![](assets/donotexecute.png)
+    ![Menú contextual de actividad con la opción Habilitar pero no ejecutar resaltada](assets/donotexecute.png)
 
     Esta configuración se muestra mediante un icono especial.
 
-    ![](assets/pause_activity.png)
+    ![Diagrama de flujo de trabajo donde la actividad de anulación de duplicación muestra un icono de pausa después de Habilitar pero no ejecutar](assets/pause_activity.png)
 
     >[!NOTE]
     >
@@ -162,17 +162,17 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
   * Haga clic en el icono **[!UICONTROL Stop]** para detener la ejecución en curso.
 
-    ![](assets/stop.png)
+    ![Barra de herramientas de flujo de trabajo con el icono Detener resaltado y la información de objeto Detener mostrada](assets/stop.png)
 
     El servidor tiene en cuenta el comando, como muestra su estado: **[!UICONTROL Stop requested]**.
 
   También puede detener automáticamente un flujo de trabajo de objetivos cuando la ejecución alcance una actividad. Para ello, haga clic con el botón derecho en la actividad desde la que desea detener el flujo de trabajo de objetivos y seleccione **[!UICONTROL Do not activate]**.
 
-  ![](assets/donotactivate.png)
+  ![Menú contextual de actividad con la opción No habilitar resaltada](assets/donotactivate.png)
 
   Esta configuración se muestra mediante un icono especial.
 
-  ![](assets/unactivation.png)
+  ![Diagrama de flujo de trabajo donde la actividad de anulación de duplicación muestra un icono rojo prohibido después de No habilitar](assets/unactivation.png)
 
 
   >[!NOTE]
@@ -185,7 +185,7 @@ Los iconos de la barra de herramientas permiten realizar acciones en cuanto a la
 
   Puede detener el flujo de trabajo de forma incondicional haciendo clic en el icono **[!UICONTROL Actions]** y seleccionando Interrupción **[!UICONTROL Unconditional]**. Esta acción termina el flujo de trabajo de la campaña.
 
-  ![](assets/stop_unconditional.png)
+  ![Menú de acciones de flujo de trabajo con la opción de detención incondicional resaltada](assets/stop_unconditional.png)
 
   >[!CAUTION]
   >
@@ -208,14 +208,14 @@ Puede definir un grupo de control en el nivel de la campaña, en cuyo caso se ap
 1. Edite la campaña en cuestión y haga clic en la pestaña **[!UICONTROL Edit]** .
 1. Haga clic **[!UICONTROL Advanced campaign parameters...]**.
 
-   ![](assets/enable-control-group.png)
+   ![Configuración avanzada, ficha Población de control, con la opción Habilitar y editar la configuración del grupo de control seleccionada y el vínculo Editar](assets/enable-control-group.png)
 
 1. Seleccione la opción **[!UICONTROL Enable and edit control group configuration]**.
 1. Haga clic en **[!UICONTROL Edit...]** para configurar el grupo de control.
 
-   ![](assets/edit-control-group.png)
+   ![Cuadro de diálogo Control de población, Tipo de paso de límite, con muestreo aleatorio seleccionado y la lista Grupo de control de población adicional](assets/edit-control-group.png)
 
-El procedimiento completo se detalla en [esta sección](#extract-the-control-group-from-the-main-target). Obtenga más información sobre los grupos de control en [esta sección](#add-a-population).
+El procedimiento completo se detalla en [Extraer el grupo de control del destinatario principal](#extract-the-control-group-from-the-main-target). Más información acerca de los grupos de control en [Usar una nueva población como grupo de control](#add-a-population).
 
 ### Activación del grupo de control para una entrega {#activate-the-control-group-for-a-delivery}
 
@@ -230,11 +230,11 @@ De manera predeterminada, la configuración del grupo de control definida al niv
 1. Edite la entrega en cuestión y, a continuación, haga clic en el vínculo **[!UICONTROL To]**.
 1. Haga clic en la pestaña **[!UICONTROL Control group]** y seleccione **[!UICONTROL Enable and edit control group configuration]**.
 
-   ![](assets/enable-control-group-for-a-delivery.png)
+   ![Cuadro de diálogo Seleccionar destino, ficha Grupo de control, con la opción Habilitar y editar la configuración del grupo de control seleccionada y el vínculo Editar](assets/enable-control-group-for-a-delivery.png)
 
 1. Haga clic en **[!UICONTROL Edit...]** para configurar el grupo de control.
 
-El procedimiento completo se detalla en [esta sección](#extract-the-control-group-from-the-main-target).
+El procedimiento completo se detalla en [Extraer el grupo de control del destinatario principal](#extract-the-control-group-from-the-main-target).
 
 ### Uso de una nueva población como grupo de control {#add-a-population}
 
@@ -242,17 +242,17 @@ Puede utilizar una población específica para el grupo de control. En ese caso,
 
 Esta población puede proceder de una lista de destinatarios o puede definirla mediante una consulta específica.
 
-![](assets/new-population-as-control-group.png)
+![Cuadro de diálogo Controlar población con la sección Población adicional resaltada: lista de grupos de control y condición dinámica](assets/new-population-as-control-group.png)
 
 >[!NOTE]
 >
->El editor de consultas de Adobe Campaign se muestra en [esta sección](../../v8/start/query-editor.md).
+>El editor de consultas de Adobe Campaign se presenta en [Trabajar con el editor de consultas](../../v8/start/query-editor.md).
 
 ### Extracción del grupo de control a partir del objetivo principal {#extract-the-control-group-from-the-main-target}
 
 También puede extraer destinatarios del objetivo principal de la entrega. En este caso, los destinatarios se toman del objetivo de las acciones de envío afectadas por esta configuración. Esta extracción puede ser aleatoria o puede ser el resultado de la ordenación de los destinatarios.
 
-![](assets/extract-control-group-from-target.png)
+![Cuadro de diálogo de población de control con Mantener solo los primeros registros después de ordenar seleccionados en la sección Extracción de destino](assets/extract-control-group-from-target.png)
 
 Para extraer un grupo de control, habilite el grupo de control para la campaña o entrega y seleccione una de las siguientes opciones: **[!UICONTROL Activate random sampling]** o **[!UICONTROL Keep only the first records after sorting]**.
 
@@ -261,7 +261,7 @@ Para extraer un grupo de control, habilite el grupo de control para la campaña 
 
 Haga clic en **[!UICONTROL Next]** para definir el orden de clasificación (si es necesario) y seleccione el modo de limitación de destinatarios.
 
-![](assets/limit-control-group.png)
+![Paso Controlar los límites de población con el valor de Tamaño como porcentaje establecido en 5,00, además de las opciones de tamaño fijo y por agrupación de datos](assets/limit-control-group.png)
 
 Esta configuración equivale a una actividad **[!UICONTROL Split]** del flujo de trabajo, lo que permite desglosar el objetivo en subconjuntos. El grupo de control es uno de estos subconjuntos.
 

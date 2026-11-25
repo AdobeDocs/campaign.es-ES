@@ -26,26 +26,26 @@ topic_v2:
     internal-label: Implementation
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 23%
+source-wordcount: '141'
+ht-degree: 15%
 ---
 # Actividades de flujo de trabajo{#wf-activities}
 
 Las actividades de flujo de trabajo se agrupan por categoría en cuatro pestañas diferentes.
 
-![](assets/wf-activity-tabs.png)
+![Paleta de actividades con sus cuatro fichas de categoría resaltadas y las actividades de segmentación enumeradas.](assets/wf-activity-tabs.png)
 
 Según los permisos, la implementación y el contexto en el que se diseñe el flujo de trabajo, las actividades disponibles pueden diferir.
 
 Por ejemplo, los flujos de trabajo creados en una campaña tienen una ficha **Envíos** específica, con todos los canales. Esta ficha no está disponible en [flujo de trabajo técnico](technical-workflows.md).
 
-![](assets/campaign-wf-activities.png)
+![Pestaña Envíos de un flujo de trabajo de campaña: correo electrónico, correo directo, móvil, iOS, Android, otro y envío recurrente.](assets/campaign-wf-activities.png)
 
 Los flujos de trabajo técnicos tienen una ficha **Events** específica que no está disponible en [flujos de trabajo de campaña](campaign-workflows.md).
 
-![](assets/tech-wf-activities.png)
+![Pestaña Eventos de un flujo de trabajo técnico: recopilador de archivos, transferencia de archivos, descarga web, correos electrónicos entrantes y SMS entrantes.](assets/tech-wf-activities.png)
 
 Todas las actividades se detallan en las secciones siguientes:
 

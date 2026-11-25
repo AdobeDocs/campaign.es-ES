@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 94%
+source-wordcount: '666'
+ht-degree: 77%
 ---
 # Introducción a los flujos de trabajo{#gs-workflows}
 
@@ -50,7 +50,7 @@ El flujo de trabajo es una definición de proceso: el diagrama de flujo de traba
 
 La plantilla de flujo de trabajo describe las diversas tareas que se realizan y cómo se relacionan entre sí. Las plantillas de tareas se denominan actividades y se representan mediante iconos. Se vinculan entre sí mediante transiciones.
 
-![](assets/example1.png)
+![Diagrama de flujo de trabajo de dos consultas de carpeta a través de Unión, Enriquecimiento, Envío y Aprobación para actualizar datos o Finalizar](assets/example1.png)
 
 ## Principios clave
 
@@ -62,7 +62,7 @@ Cada flujo de trabajo contiene:
 
   En un diagrama de flujo de trabajo, una actividad determinada puede producir varias tareas, en particular cuando hay un bucle o una acción recurrente (periódica).
 
-  Todas las actividades de flujo de trabajo se enumeran en [esta sección](activities.md), incluidos los ejemplos de uso y las muestras.
+  Todas las actividades de flujo de trabajo se enumeran en [Acerca de las actividades de flujo de trabajo](activities.md), incluidos los casos de uso y las muestras.
 
 * **[!UICONTROL Transitions]**
 
@@ -74,22 +74,22 @@ Cada flujo de trabajo contiene:
   >
   >Se puede ejecutar igualmente un flujo de trabajo que contenga transiciones no finalizadas: se genera un mensaje de advertencia y el flujo de trabajo se pausa una vez que llega a la transición, pero no genera un error. Por lo tanto, es posible iniciar un flujo de trabajo sin que haya terminado y añadirlo a medida que avanza
 
-  Para obtener más información sobre la creación de flujos de trabajo, consulte [esta sección](build-a-workflow.md).
+  Para obtener más información sobre cómo generar un flujo de trabajo, consulte [Generar un flujo de trabajo](build-a-workflow.md).
 
 * **[!UICONTROL Worktables]**
 
   La tabla de trabajo contiene toda la información que transmite la transición. Cada flujo de trabajo utiliza varias tablas de trabajo. Los datos transmitidos en estas tablas pueden acelerarse y utilizarse en todo el ciclo de vida del flujo de trabajo, siempre y cuando no se depure. De hecho, las tablas innecesarias se depuran cada vez que se desactiva el flujo de trabajo y posiblemente durante la ejecución de los flujos de trabajo más grandes para evitar sobrecargar el servidor.
 
-  Para obtener más información sobre los datos y las tablas de flujos de trabajo, consulte [esta sección](use-workflow-data.md).
+  Obtenga más información sobre tablas y datos de flujo de trabajo en [Usar datos de flujo de trabajo](use-workflow-data.md).
 
 ## Secciones relacionadas
 
 Consulte estas secciones para ver instrucciones y prácticas recomendadas para automatizar procesos con flujos de trabajo:
 
-* Obtenga más información sobre las actividades de flujo de trabajo en [esta página](use-workflow-data.md).
-* Obtenga información sobre cómo crear un flujo de trabajo en [esta sección](build-a-workflow.md).
-* Descubra cómo usar flujos de trabajo para importar datos en Campaign en [esta sección](campaign-workflows.md).
-* Las prácticas recomendadas sobre los flujos de trabajo se detallan en [esta página](workflow-best-practices.md).
-* Encontrará instrucciones sobre la ejecución de flujos de trabajo en [esta sección](start-a-workflow.md).
-* Obtenga información sobre cómo monitorizar flujos de trabajo en [esta página](monitor-workflow-execution.md).
-* Obtenga información sobre cómo conceder acceso a los usuarios para que utilicen flujos de trabajo en [esta página](managing-rights.md).
+* Obtenga más información acerca de las actividades de flujo de trabajo en [Usar datos de flujo de trabajo](use-workflow-data.md).
+* Aprenda a crear un flujo de trabajo en [Crear un flujo de trabajo](build-a-workflow.md).
+* Descubra cómo usar flujos de trabajo para importar datos en Campaign en [Tipo de flujos de trabajo](campaign-workflows.md).
+* Las prácticas recomendadas de flujo de trabajo se detallan en [Prácticas recomendadas de flujo de trabajo](workflow-best-practices.md).
+* Encuentre orientación sobre la ejecución del flujo de trabajo en [Iniciar un flujo de trabajo](start-a-workflow.md).
+* Aprenda a monitorizar los flujos de trabajo en [Supervisar la ejecución del flujo de trabajo](monitor-workflow-execution.md).
+* Aprenda a conceder acceso a los usuarios para que utilicen flujos de trabajo en [Administrar permisos de flujo de trabajo](managing-rights.md).

@@ -24,20 +24,20 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 99%
+source-wordcount: '1246'
+ht-degree: 77%
 ---
 # Creación de una lista de resumen{#creating-a-summary-list}
 
 Este caso de uso detalla la creación de un flujo de trabajo que, después de recopilar archivos y luego de varios enriquecimientos, permite crear una lista de resumen. El ejemplo se basa en una lista de contactos que realizaron compras en una tienda.
 
-![](assets/uc2_enrich_overview.png)
+![Diagrama de flujo de trabajo: Recopilador de archivos, Carga de datos (archivo), Enriquecimiento, Actualización de datos, Enriquecimiento 2, Actualización de lista y una Espera.](assets/uc2_enrich_overview.png)
 
 Se utiliza la siguiente estructura de datos:
 
-![](assets/uc2_enrich_data.png)
+![Estructura de datos: compras y tablas de contacto vinculadas, y una tabla Stores independiente con refStoreName y zipCodeRef.](assets/uc2_enrich_data.png)
 
 Su objetivo es:
 
@@ -73,21 +73,21 @@ Estos datos se incluyen en un archivo de texto “Compras.txt”.
 
    La actividad **Recolección de archivos** permite recopilar y enviar archivos desde y hacia el servidor de Adobe Campaign.
 
-   La actividad **Carga de datos (archivo)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información, consulte [esta página](data-loading-file.md).
+   La actividad **Carga de datos (archivo)** permite enriquecer la tabla de trabajo del flujo de trabajo con los datos recopilados. Para obtener más información, consulte [Carga de datos (archivo)](data-loading-file.md).
 
 1. Configure la actividad **Recolector de ficheros** para recopilar archivos de texto (*.txt) &#42; del directorio seleccionado.
 
-   ![](assets/uc2_enrich_collecteur.png)
+   ![Actividad de recolección de archivos: ficha Directorio con el filtro *.txt y la opción Procesar la inexistencia de archivos activada.](assets/uc2_enrich_collecteur.png)
 
    La actividad **Recolector de ficheros** permite administrar la ausencia de un archivo en el directorio fuente. Para ello, marque la opción **[!UICONTROL Process file nonexistence]**. En este flujo de trabajo se ha agregado una actividad de **Espera** para probar otra recopilación de archivos si no se encuentra en el directorio en el momento de la recopilación.
 
 1. Configure la actividad **Data loading (file)** con un archivo de muestra con el mismo formato que los datos que se desean importar.
 
-   ![](assets/uc2_enrich_chargement1.png)
+   ![Actividad de carga de datos (archivo) con Purchases.txt como archivo de muestra y una vista previa de productName, productPrice, storeName.](assets/uc2_enrich_chargement1.png)
 
    Haga clic en el vínculo **[!UICONTROL Click here to change the file format...]** para cambiar el nombre de las columnas con los nombres y etiquetas internos de la tabla &quot;Purchases&quot;.
 
-   ![](assets/uc2_enrich_chargement2.png)
+   ![Ventana de formato de archivo con columnas productName, productPrice y storeName, separador de punto y coma y primera línea como encabezado.](assets/uc2_enrich_chargement2.png)
 
 Una vez importados los datos, se lleva a cabo el enriquecimiento creando un vínculo a una tabla de referencia que coincida con el esquema “Stores”.
 
@@ -95,22 +95,22 @@ Añada la actividad de enriquecimiento y configúrela como se indica a continuac
 
 1. Seleccione el conjunto principal compuesto de los datos en la actividad **Data loading(file)**.
 
-   ![](assets/uc2_enrich_enrich1.png)
+   ![Actividad de enriquecimiento con carga de datos (archivo) como conjunto principal, además de los vínculos Agregar datos y Editar datos adicionales.](assets/uc2_enrich_enrich1.png)
 
 1. Haga clic en **[!UICONTROL Add data]**, luego seleccione la opción **[!UICONTROL A link]**.
 
-   ![](assets/uc2_enrich_enrich2.png)
+   ![Seleccione el tipo de datos que desea agregar en la ventana con la opción A link seleccionada.](assets/uc2_enrich_enrich2.png)
 
 1. Seleccione la opción **[!UICONTROL Define a collection]**.
 1. Seleccione el esquema “Stores” como objetivo.
 
-   ![](assets/uc2_enrich_enrich3.png)
+   ![Definición de vínculo: defina una colección seleccionada como tipo de vínculo, con el esquema Almacenes como esquema de destino.](assets/uc2_enrich_enrich3.png)
 
 Para obtener más información sobre los distintos tipos de vínculos, consulte [Enriquecimiento y modificación de datos](targeting-workflows.md#enrich-and-modify-data).
 
 En la siguiente ventana, se debe crear una condición de unión seleccionando el campo de origen (en el conjunto principal) y el campo de objetivo (perteneciente al esquema “Stores”) para configurar la reconciliación de datos.
 
-![](assets/uc2_enrich_enrich4.png)
+![Las condiciones de unión de la definición del vínculo que coinciden con el campo de origen storeName y el campo de destino refStoreName.](assets/uc2_enrich_enrich4.png)
 
 Con el vínculo ya creado, se agrega una columna a la tabla de trabajo del flujo de trabajo desde el esquema “Stores”: el campo “ZipCode Reference”.
 
@@ -118,11 +118,11 @@ Con el vínculo ya creado, se agrega una columna a la tabla de trabajo del flujo
 1. Haga clic en **[!UICONTROL Edit additional data]**.
 1. Agregue el campo “ZipCode Reference” a **[!UICONTROL Output columns]**.
 
-![](assets/uc2_enrich_enrich5.png)
+![Campo de referencia de código postal desde el vínculo Tiendas agregado a las columnas de salida del enriquecimiento.](assets/uc2_enrich_enrich5.png)
 
 Los datos de la tabla de trabajo del flujo de trabajo después de este enriquecimiento son los siguientes:
 
-![](assets/uc2_enrich_population1.png)
+![Trabaje con datos de la tabla después del enriquecimiento, con la columna Referencia de código postal junto a productName, productPrice y storeName.](assets/uc2_enrich_population1.png)
 
 ## Paso 2: Escriba datos enriquecidos en la tabla “Compras” {#step-2--writing-enriched-data-to-the--purchases--table}
 
@@ -136,7 +136,7 @@ Se debe llevar a cabo una reconciliación entre los datos de la tabla de trabajo
 1. Seleccione una “Destination expression” para los datos de la tabla “Purchases” (el campo “storename” en este caso).
 1. Marque la opción **[!UICONTROL Keep unreconciled data coming from the work table]**.
 
-![](assets/uc2_enrich_reconciliation.png)
+![Pestaña Reconciliación con la dimensión de segmentación de Purchases y storeName coincidió con @storeName.](assets/uc2_enrich_reconciliation.png)
 
 En la actividad **Update date**, se necesita la siguiente configuración:
 
@@ -160,23 +160,23 @@ El propósito de este segundo enriquecimiento es crear un agregado en el esquema
 1. Haga clic en la opción **[!UICONTROL Data linked to the filtering dimension]** de la ventana **[!UICONTROL Select fields to add]**.
 1. Seleccione el nodo **[!UICONTROL Purchases]** y haga clic en **[!UICONTROL Next]**.
 
-   ![](assets/uc2_enrich_enrich9.png)
+   ![Seleccione campos para agregar una ventana con datos vinculados a la dimensión de filtrado seleccionada y el nodo Purchases resaltado.](assets/uc2_enrich_enrich9.png)
 
 1. Cambie el campo **[!UICONTROL Collected data]** seleccionando la opción **[!UICONTROL Aggregates]**.
 
-   ![](assets/uc2_enrich_enrich10.png)
+   ![Parámetros generales de la colección Purchases con el campo Data collected establecido en Aggregates.](assets/uc2_enrich_enrich10.png)
 
-1. Haga clic en **[!UICONTROL Next]**.
+1. Haga clic **[!UICONTROL Next]**.
 1. Agregue la siguiente expresión para calcular el total de compra para cada contacto:&quot;Sum(@prodprice)&quot;.
 
-   ![](assets/uc2_enrich_enrich6.png)
+   ![Datos para agregar una ventana con la expresión Sum(product Price) definida como una columna de salida para el total de compras.](assets/uc2_enrich_enrich6.png)
 
 Para preparar la lista de resumen, se debe agregar campos desde “Purchases” y del primer enriquecimiento: el campo “ZipCode Reference”.
 
 1. Haga clic en el vínculo **[!UICONTROL Edit additional data...]** de la actividad de enriquecimiento.
 1. Agregue los campos “Store name” y “Purchases / Zip Code Reference”.
 
-   ![](assets/uc2_enrich_enrich7.png)
+   ![Columnas de salida del enriquecimiento 2: vínculo Purchases, Sum(productPrice), storeName y el campo Zip Code Reference.](assets/uc2_enrich_enrich7.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Properties]**.
 1. Cambie el segundo vínculo para crear solo una línea.
@@ -196,4 +196,4 @@ Una vez ejecutado el flujo de trabajo, la lista incluye:
 * una columna “Store name”,
 * una columna “Zip Code Reference” para todas las tiendas incluidas en el esquema de referencia de tiendas.
 
-![](assets/uc2_enrich_listfinal.png)
+![Contenido de lista final con columnas de contactos, Sum(productPrice), Nombre de tienda y Código postal.](assets/uc2_enrich_listfinal.png)

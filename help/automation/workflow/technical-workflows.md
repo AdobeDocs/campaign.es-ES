@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d84cdb408568bebaf60d85c2d0cdd08c569afc06
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '2237'
-ht-degree: 68%
+source-wordcount: '2271'
+ht-degree: 67%
 ---
 # Flujos de trabajo técnicos{#about-technical-workflows}
 
@@ -51,17 +51,17 @@ Adobe Campaign incluye un conjunto de flujos de trabajo técnicos integrados. Co
 
 De forma predeterminada, los flujos de trabajo técnicos están disponibles en una subcarpeta del siguiente nodo: **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]**.
 
-![](assets/navtree.png){width="50%" zoomable="yes"}
+![Árbol del explorador con Administración > Producción expandida y la carpeta de flujos de trabajo técnicos seleccionada.](assets/navtree.png){width="50%" zoomable="yes"}
 
 >[!NOTE]
 >
->* La lista de flujos de trabajo técnicos instalados con cada módulo está disponible en [esta sección](#list-technical-workflows).
+>* La lista de flujos de trabajo técnicos instalados con cada módulo está disponible en [Flujos de trabajo técnicos integrados](#list-technical-workflows).
 >
 >* Los flujos de trabajo técnicos relacionados con el complemento Centro de mensajes se almacenan de forma predeterminada en el nodo **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Message Center]** > **[!UICONTROL Technical workflows]**.
 
 La subcarpeta **[!UICONTROL Campaign process]** centraliza los flujos de trabajo necesarios para ejecutar procesos en las campañas: notificación de tareas, administración de existencias, cálculo de costes, etc.
 
-![](assets/campaign-processes-wf.png)
+![Carpeta de proceso de campaña seleccionada en el árbol Flujos de trabajo técnicos, con su lista de flujos de trabajo y diagrama.](assets/campaign-processes-wf.png)
 
 ## Administrar y crear flujos de trabajo técnicos {#manage-tech-workflows}
 
@@ -92,7 +92,7 @@ Los flujos de trabajo detallados en esta página se instalan con los paquetes in
 | **Depuración de eventos** (webAnalyticsPurgeWebEvents) | Conectores de análisis web | Este flujo de trabajo permite eliminar todos los eventos del campo de base de datos según el periodo configurado en el campo Lifespan. |
 | **Exportar públicos a Adobe Experience Cloud** (exportSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo exporta públicos como públicos o segmentos compartidos. Estas audiencias pueden utilizarse con las diferentes soluciones de Adobe CX Enterprise que utiliza. |
 | **Previsión**(previsión) | Instalado de forma predeterminada | Este flujo de trabajo analiza las entregadas guardadas en el calendario provisional (crea registros provisionales). Se activa cada día a la 1 de la mañana de forma predeterminada. |
-| **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Obtenga más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md). |
+| **Cálculo acumulado completo (cubo propositionrcp)** (agg_nmspropositionrcp_full) | Motor de ofertas (interacción) | Este flujo de trabajo actualiza el acumulado completo para el cubo Propuesta de oferta. Se activa todos los días a las 6 a. m. de manera predeterminada. Este acumulado captura las siguientes dimensiones: Canal, Envío, Oferta de marketing y Fecha. Luego se utiliza el cubo Propuesta de oferta para generar informes basados en ofertas. Obtenga más información sobre los cubos en [Introducción a los informes de Adobe Campaign Analytics](../../v8/reporting/gs-cubes.md). |
 | **Identificación de contactos convertidos** (webAnalyticsFindConverted) | Conectores de análisis web | Este flujo de trabajo lista a los visitantes del sitio que han finalizado su compra después de la campaña de remarketing. Los datos recopilados por este flujo de trabajo se pueden consultar en el reporte de eficiencia de remarketing (consulte esta página). |
 | **Importar públicos desde Adobe Experience Cloud** (importSharedAudience) | Integración con Adobe Experience Cloud | Este flujo de trabajo le permite importar audiencias y segmentos de distintas soluciones de CX Enterprise en Adobe Campaign. |
 | **Trabajos en envíos en campañas** (deliveryMgt) | Instalado de forma predeterminada | Este flujo de trabajo activa los envíos aprobados e inicia el posprocesado del proveedor de servicios para un envío externo. También envía notificaciones de aprobación y recordatorios. |

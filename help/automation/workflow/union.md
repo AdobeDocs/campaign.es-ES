@@ -19,20 +19,20 @@ subfeature_v2:
     internal-label: Workflows
   - id: ff84ab2f-a7c2-4ced-a3c8-5113f4348d99
     internal-label: Targeting Activity
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 84%
+source-wordcount: '333'
+ht-degree: 75%
 ---
 # Unión{#union}
 
 Un(a) **[!UICONTROL Union]** agrupa el resultado de varias actividades entrantes en un solo destino. El objetivo se crea con todos los resultados recibidos: por lo tanto, todas las actividades anteriores deben terminar para que se ejecute la unión.
 
-![](assets/s_user_segmentation_union.png)
+![Actividad de unión con opciones de reconciliación, la casilla Limit the size of the population generated y la etiqueta Results](assets/s_user_segmentation_union.png)
 
 >[!NOTE]
 >
->Para obtener más información sobre cómo configurar y usar la actividad **[!UICONTROL Union]**, consulte [esta página](targeting-workflows.md#combine-several-targets--union-).
+>Para obtener más información sobre cómo configurar y usar la actividad **[!UICONTROL Union]**, consulte [Combinar varios objetivos (unión)](targeting-workflows.md#combine-several-targets--union-).
 
 ## Ejemplo de unión {#union-example}
 
@@ -49,7 +49,7 @@ En el ejemplo siguiente, los resultados de dos consultas se han combinado para a
 1. Apruebe la actividad **[!UICONTROL Union]** y configure la actividad [List update](list-update.md).
 1. Inicie el flujo de trabajo. El número de resultados se muestra y la lista definida en la actividad de actualización de lista se crea o actualiza. Esta lista contiene el conjunto de destinatarios para ambas consultas o, si corresponde, el número definido en el paso anterior.
 
-   ![](assets/union_example.png)
+   ![Flujo de trabajo donde dos consultas alimentan una actividad Union, que genera 5 resultados en una actividad List update](assets/union_example.png)
 
 ## Parámetros de entrada {#input-parameters}
 

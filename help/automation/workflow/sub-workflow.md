@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 84%
 ---
 # Subflujo de trabajo{#sub-workflow}
 
@@ -30,13 +30,13 @@ La actividad **[!UICONTROL Sub-workflow]** permite activar la ejecución de otro
 
 Puede activar varios subflujos de trabajo en un solo flujo de trabajo. Los subflujos de trabajo se ejecutan de forma sincrónica.
 
-En el ejemplo siguiente, un flujo de trabajo principal llama a un subflujo de trabajo mediante saltos. Para obtener más información sobre los objetos gráficos de tipo salto, consulte [esta sección](jump-start-point-and-end-point.md).
+En el ejemplo siguiente, un flujo de trabajo principal llama a un subflujo de trabajo mediante saltos. Para obtener más información sobre los objetos gráficos de tipo salto, consulte [Salto (puntos iniciales y finales)](jump-start-point-and-end-point.md).
 
 1. Cree un flujo de trabajo que utilizará como subflujo de trabajo en otro flujo de trabajo.
 1. Inserte una actividad **[!UICONTROL Jump (end point)]** con una prioridad de 1 al principio del flujo de trabajo. Si tiene varios saltos del tipo &quot;llegada&quot;, Adobe Campaign utiliza el salto de &quot;llegada&quot; con el número más bajo.
 1. Inserte una actividad **[!UICONTROL Jump (start point)]** con una prioridad de 2 al final del flujo de trabajo. Si tiene varios saltos del tipo &quot;inicio&quot;, Adobe Campaign utiliza el salto &quot;inicio&quot; con el número más alto.
 
-   ![](assets/subworkflow_jumps.png)
+   ![Diagrama de subflujo de trabajo que comienza con Jump (punto final) 1 y termina con Jump (punto inicial) 2 alrededor de las consultas y una Union.](assets/subworkflow_jumps.png)
 
    >[!NOTE]
    >
@@ -49,12 +49,12 @@ En el ejemplo siguiente, un flujo de trabajo principal llama a un subflujo de tr
 1. Inserte una actividad **[!UICONTROL Sub-workflow]** y ábrala.
 1. Seleccione el flujo de trabajo que desee utilizar en la lista desplegable **[!UICONTROL Workflow template]**.
 
-   ![](assets/subworkflow_selection.png)
+   ![Actividad de subflujo de trabajo con la lista desplegable Plantilla de flujo de trabajo que enumera los flujos de trabajo disponibles, Flujo de trabajo secundario (WKF55) seleccionado.](assets/subworkflow_selection.png)
 
 1. También puede agregar un script de configuración para alterar el flujo de trabajo al que se hace referencia.
 1. Haga clic **[!UICONTROL Ok]**. Se crea automáticamente una transición saliente con la etiqueta de la actividad **[!UICONTROL Jump (start point)]** del flujo de trabajo seleccionado.
 
-   ![](assets/subworkflow_outbound.png)
+   ![Flujo de trabajo principal con subflujo de trabajo de llamada y una transición saliente denominada Jump (start point) 2.](assets/subworkflow_outbound.png)
 
 1. Ejecute el flujo de trabajo.
 
@@ -64,7 +64,7 @@ Una vez ejecutado, el flujo de trabajo llamado como subflujo de trabajo permanec
 * No se puede mostrar el recuento de poblaciones intermedias.
 * Los registros de subflujo de trabajo se muestran en el flujo de trabajo principal.
 
-  ![](assets/subworkflow_logs.png)
+  ![Pestaña Auditoría del flujo de trabajo principal que muestra mensajes de registro de subflujo de trabajo para la consulta de resultados.](assets/subworkflow_logs.png)
 
 >[!NOTE]
 >

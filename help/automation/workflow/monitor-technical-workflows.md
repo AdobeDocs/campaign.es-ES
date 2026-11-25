@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 89%
+source-wordcount: '513'
+ht-degree: 82%
 ---
 # Monitorización de flujos de trabajo técnicos {#monitoring-technical-workflows}
 
@@ -37,7 +37,7 @@ Es necesario supervisar los flujos de trabajo técnicos, y deben tomarse medidas
 
 Se puede acceder al tablero de monitorización de instancias a través de la pestaña **[!UICONTROL Monitoring]**.
 
-![](assets/monitoring_technical_workflows1.png)
+![Panel de monitorización de instancias con la lista de procesos, flujos de trabajo y envíos fallidos y vínculos de indicadores del sistema](assets/monitoring_technical_workflows1.png)
 
 En los indicadores del sistema y los archivos principales, compruebe que no hay indicadores resaltados en rojo. Si así fuera:
 
@@ -75,7 +75,7 @@ En el caso de **[!UICONTROL Campaign process ('operationMgt', 'deliveryMgt', ...
 
 El grupo **[!UICONTROL Workflow supervisors]** debe contener operadores a los que hay que mantener informados sobre los fallos y que pueden actuar a tiempo.
 
-![](assets/monitoring_technical_workflows3.png)
+![Pestaña General de propiedades de flujo de trabajo con supervisores de flujo de trabajo seleccionados en el campo Supervisor(s)](assets/monitoring_technical_workflows3.png)
 
 Se debe generar una alerta y enviarla al grupo correcto en caso de problemas.
 
@@ -93,7 +93,7 @@ Todos los flujos de trabajo técnicos personalizados deben documentarse en una h
 * Operador responsable de la monitorización.
 * Instrucciones sobre qué hacer en caso de error.
 
-![](assets/monitoring_technical_workflows4.png)
+![Hoja de cálculo de mantenimiento que enumera cada frecuencia, inicio, duración, carpeta, nombre, crítica y dependencias de flujo de trabajo](assets/monitoring_technical_workflows4.png)
 
 ## Planificación y automatización de la monitorización {#planning-and-automation-of-monitoring}
 
