@@ -22,10 +22,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 31%
+source-wordcount: '463'
+ht-degree: 25%
 ---
 # Creación de un catálogo de ofertas
 
@@ -45,15 +45,15 @@ Para crear una categoría nueva, siga los pasos a continuación:
 
 1. Examine la carpeta **[!UICONTROL Offer catalog]**.
 
-   ![](assets/offer_cat_create_001.png)
+   ![Árbol del explorador con la carpeta Catálogo de ofertas seleccionada en Ofertas - diseño y entorno - Destinatario](assets/offer_cat_create_001.png)
 
 1. Haga clic derecho en el ratón y, en la lista desplegable, seleccione **[!UICONTROL Create a new "Offer category" folder]**.
 
-   ![](assets/offer_cat_create_002.png)
+   ![Menú contextual en el catálogo de ofertas con la opción Crear una nueva carpeta de categorías de ofertas resaltada](assets/offer_cat_create_002.png)
 
 1. Cambie el nombre de la categoría. Se puede editar la etiqueta más adelante mediante la pestaña **[!UICONTROL General]**.
 
-   ![](assets/offer_cat_create_003.png)
+   ![Nueva carpeta de categoría denominada Neobank - Banca personal en el árbol del catálogo de ofertas, lista para cambiar el nombre](assets/offer_cat_create_003.png)
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Para crear una categoría nueva, siga los pasos a continuación:
 
    * asignar las fechas de idoneidad en la pestaña **[!UICONTROL Eligibility]**.
 
-     ![](assets/offer_cat_create_004.png)
+     ![Pestaña Elegibilidad con campos Fecha de inicio y Fecha de finalización, un calendario abierto y el vínculo Editar consulta para los filtros de destino](assets/offer_cat_create_004.png)
 
    * **[!UICONTROL Edit query]** para aplicar filtros al destino de la oferta.
 
@@ -81,6 +81,6 @@ Para incluir una categoría de reserva en las recomendaciones, siga los pasos a 
 
 1. Vaya al catálogo de ofertas.
 1. Haga clic en la ficha **[!UICONTROL Eligibility]** y seleccione la opción **[!UICONTROL Always include this category in the recommendations]**.
-1. Haga clic en **[!UICONTROL Save]**.
+1. Haga clic **[!UICONTROL Save]**.
 
-   ![](assets/offer_cat_default_001.png)
+   ![Pestaña Elegibilidad de categoría con Incluir siempre esta categoría en las recomendaciones seleccionadas](assets/offer_cat_default_001.png)

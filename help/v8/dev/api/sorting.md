@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Metadata
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
     internal-label: Customer experience
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 2%
+ht-degree: 1%
 ---
 # Operaciones adicionales {#additional-operations}
 
@@ -41,7 +41,7 @@ ht-degree: 2%
 
 La ordenación está disponible de forma predeterminada en orden ascendente. Para ordenar en orden descendente, agregue **%20desc** al valor del parámetro **_order**.
 
-Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable&quot; en los metadatos del recurso. Para obtener más información, consulte [esta sección](metadata-mechanism.md).
+Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable&quot; en los metadatos del recurso. Para obtener más información, consulte [Mecanismo de metadatos](metadata-mechanism.md).
 
 <br/>
 
@@ -49,7 +49,7 @@ Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable
 
 * Solicitud GET de muestra para recuperar correos electrónicos en la base de datos ordenados alfabéticamente.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -59,7 +59,7 @@ Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
   "content": [
       "adam@email.com",
@@ -74,7 +74,7 @@ Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable
 
 * Ejemplo de petición GET para recuperar el correo electrónico en la base de datos en orden alfa descendente.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_order=email%20desc \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -84,7 +84,7 @@ Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
   "content": [
       "tombinder@example.com",
@@ -100,7 +100,7 @@ Para saber si un campo se puede ordenar, compruebe el parámetro &quot;ordenable
 
 ### Recuperando metadatos de filtros
 
-Los filtros están disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una petición GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. Para obtener más información sobre metadatos, consulte [esta sección](metadata-mechanism.md).
+Los filtros están disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una petición GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. Para obtener más información sobre metadatos, consulte [Mecanismo de metadatos](metadata-mechanism.md).
 
 Para identificar los metadatos de un filtro y determinar cómo utilizarlos, debe realizar una petición GET en la dirección URL devuelta anteriormente.
 
@@ -110,7 +110,7 @@ Para identificar los metadatos de un filtro y determinar cómo utilizarlos, debe
 
 Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos de filtro &quot;byText&quot; para el recurso de &quot;perfil&quot;. Primero realice una petición GET en los metadatos de recurso de &quot;perfil&quot;.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -120,7 +120,7 @@ Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos 
 
 Devuelve la dirección URL donde se describen los filtros.
 
-```
+```json
 {
 "filters": {
         "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/<PKEY>/filters/"
@@ -130,7 +130,7 @@ Devuelve la dirección URL donde se describen los filtros.
 
 Realice una petición GET en la dirección URL. Devuelve la lista de filtros para el recurso de perfil, con los metadatos asociados a cada filtro.
 
-```
+```json
 {
 "birthday": {
         "PKey": "@FL-CbDFXbnHbXcVpeCGWL46VXJLn1LqxLMPagt2vz8sCxQ52lvB15KiUaxXkxJYQw-tZXYrgUWG6K8QcB4gxVY9RKoba5bRFY3294YFshDmorRr8",
@@ -156,7 +156,7 @@ La misma estructura de metadatos está disponible para cada filtro:
 
 Ejemplo de estructura de metadatos de filtro:
 
-```
+```json
 "byText": {
         "PKey": "...",
         "category": "99_none",
@@ -184,7 +184,7 @@ Es posible combinar varios filtros en una sola solicitud:
 
 * Solicitud GET de muestra para recuperar los recursos del &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -194,7 +194,7 @@ Es posible combinar varios filtros en una sola solicitud:
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -217,7 +217,7 @@ Es posible combinar varios filtros en una sola solicitud:
 * Solicitud GET de muestra para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en
 los campos correo electrónico o apellidos (el filtro por texto busca en los campos correo electrónico y apellidos).
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -227,7 +227,7 @@ los campos correo electrónico o apellidos (el filtro por texto busca en los cam
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -245,7 +245,7 @@ los campos correo electrónico o apellidos (el filtro por texto busca en los cam
 
 * Solicitud GET de muestra para recuperar los recursos del servicio con el tipo &quot;correo electrónico&quot; y la etiqueta &quot;deporte&quot;.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -255,7 +255,7 @@ los campos correo electrónico o apellidos (el filtro por texto busca en los cam
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -292,7 +292,7 @@ Para obtener más información, consulte la documentación de Campaign Standard:
 
 Solicitud GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100 $ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y se ha vinculado a la tabla personalizada &quot;Transaction&quot;.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -356,7 +356,7 @@ La API de REST de Adobe Campaign puede contar el número de registros de una sol
 
 Para contar todos los servicios que tienen un valor **messageType** igual a &quot;sms&quot;, realice una petición GET con el filtro **byChannel**.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -366,7 +366,7 @@ Para contar todos los servicios que tienen un valor **messageType** igual a &quo
 
 Devuelve los servicios correspondientes al filtro.
 
-```
+```json
 {
     "content": [
         {
@@ -387,7 +387,7 @@ Devuelve los servicios correspondientes al filtro.
 
 Realice una petición GET en la dirección URL del nodo **count** para recuperar el número de resultados.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -397,7 +397,7 @@ Realice una petición GET en la dirección URL del nodo **count** para recuperar
 
 Devuelve el número de registros.
 
-```
+```json
 {
     "count": 26
 }
@@ -421,7 +421,7 @@ El parámetro **_lineCount** le permite limitar el número de recursos enumerado
 
 Ejemplo de solicitud GET para mostrar 1 registro del recurso de perfil.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -431,7 +431,7 @@ Ejemplo de solicitud GET para mostrar 1 registro del recurso de perfil.
 
 Respuesta a la solicitud, con el nodo **next** para realizar la paginación.
 
-```
+```json
 {
     "content": [
         {
@@ -452,7 +452,7 @@ Respuesta a la solicitud, con el nodo **next** para realizar la paginación.
 
 De manera predeterminada, el nodo **next** no está disponible cuando se interactúa con tablas con una gran cantidad de datos. Para poder realizar la paginación, debe agregar el parámetro **_forcePagination=true** a la dirección URL de la llamada.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

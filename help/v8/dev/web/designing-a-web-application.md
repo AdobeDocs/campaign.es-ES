@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '347'
+ht-degree: 82%
 ---
 # Diseño de una aplicación web{#designing-a-web-application}
 
@@ -47,21 +47,21 @@ Las aplicaciones web se crean y se administran según el mismo principio que los
 
 Se pueden incluir gráficos en las aplicaciones web. Para ello, utilice la lista desplegable de la barra de herramientas para seleccionar el tipo de gráfico que desea insertar.
 
-![](assets/s_ncs_admin_webapps_bar_graph.png)
+![Gráfico desplegable del editor de páginas de la barra de herramientas que enumera Histograma, Circular, Radar, Áreas, Curvas y Funnel.](assets/s_ncs_admin_webapps_bar_graph.png)
 
 También puede seleccionar el menú **[!UICONTROL Add a chart]**.
 
-![](assets/s_ncs_admin_webapps_graph.png)
+![Menú contextual de página con el submenú Agregar un gráfico que enumera Histograma, Circular, Radar, Áreas, Curvas y Funnel.](assets/s_ncs_admin_webapps_graph.png)
 
 ## Inserción de tablas en una aplicación web {#inserting-tables-in-a-web-application}
 
 Para añadir una tabla, utilice la lista desplegable de la barra de herramientas para seleccionar el tipo de tabla que desea utilizar.
 
-![](assets/s_ncs_admin_webapps_bar_table.png)
+![Lista desplegable de tabla de barra de herramientas del editor de páginas que muestra la tabla dinámica, la lista con grupo y la distribución.](assets/s_ncs_admin_webapps_bar_table.png)
 
 También puede seleccionar el tipo de tabla en el menú desplegable.
 
-![](assets/s_ncs_admin_webapps_table.png)
+![Menú contextual de página con el submenú Agregar una tabla que enumere Tabla dinámica, Lista con grupo y Distribución.](assets/s_ncs_admin_webapps_table.png)
 
 ## Aplicaciones web de tipo “descripción general” {#overview-type-web-applications}
 

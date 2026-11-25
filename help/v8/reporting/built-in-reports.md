@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
     internal-label: Measurement
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 87%
+source-wordcount: '1189'
+ht-degree: 80%
 ---
 # Informes integrados de Adobe Campaign {#ootb-reports}
 
@@ -57,32 +57,32 @@ Para acceder a los informes integrados de Campaign:
 
 1. Seleccione la pestaña **[!UICONTROL Reports]** de la interfaz de Adobe Campaign.
 
-   ![](assets/reporting-access-from-home.png)
+   ![La pestaña Informes resaltada en la página de inicio de Campaign muestra la lista de informes globales de informes integrados.](assets/reporting-access-from-home.png)
 
 1. Utilice los campos de búsqueda para filtrar los informes mostrados.
 
 1. Luego haga clic en el informe que desee mostrar.
 
-   ![](assets/edit-a-report.png)
+   ![Lista de informes globales filtrada con el campo de búsqueda según el presupuesto, que muestra los informes coincidentes que se van a abrir.](assets/edit-a-report.png)
 
 1. Haga clic en el vínculo **[!UICONTROL Back]** en la parte superior de la pantalla para volver a la lista de informes.
 
-   ![](assets/back-button.png)
+   ![Informe de análisis de costos con el botón Atrás resaltado en la parte superior derecha para volver a la lista de informes.](assets/back-button.png)
 
 Se puede acceder a los informes que son específicos de una campaña o una entrega a través de sus respectivos paneles de control.
 
-![](assets/reporting-on-delivery.png)
+![Panel de envío con el vínculo Informes resaltado, que enumera los informes de envío.](assets/reporting-on-delivery.png)
 
 El principio es el mismo para listas, servicios, ofertas, etc., como se muestra a continuación:
 
-![](assets/reporting-on-offer.png)
+![Panel de lista con el vínculo Informes resaltado para tener acceso a los informes de lista.](assets/reporting-on-offer.png)
 
 
 ## Informes sobre entregas {#reports-on-deliveries}
 
 Los informes integrados proporcionados por Adobe Campaign se pueden encontrar en la siguiente tabla.
 
-Para más información sobre el contenido de estos informes, consulte [esta sección](delivery-reports.md).
+Para obtener más información sobre el contenido de estos informes, consulte [Informes de envío integrados de Adobe Campaign](delivery-reports.md).
 
 <table> 
  <tbody> 

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Implementation
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '2404'
-ht-degree: 96%
+source-wordcount: '3152'
+ht-degree: 73%
 ---
 # Adición de campos a un formulario web{#adding-fields-to-a-web-form}
 
@@ -39,7 +39,7 @@ En un formulario web, los campos permiten a los usuarios introducir información
 
 Cuando se utiliza el asistente para añadir campos, el tipo de campo se detecta automáticamente en función del campo o de la variable de almacenamiento seleccionados. Puede editarlo mediante el cuadro desplegable **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**.
 
-![](assets/s_ncs_admin_webform_change_type.png)
+![Cuadro de diálogo Página, ficha General, con la lista desplegable Tipo abierta para cambiar un campo de Cuadro combinado a otro tipo de campo](assets/s_ncs_admin_webform_change_type.png)
 
 Al utilizar los botones de la barra de herramientas, seleccione el tipo de campo que desea añadir.
 
@@ -66,23 +66,23 @@ Especifique el modo de registro de respuestas: actualice un campo de la base de 
 
 Para cada página del formulario, puede añadir un campo con el primer botón de la barra de herramientas. Para ello, vaya al menú **[!UICONTROL Add using the assistant]**.
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![Asistente para la creación de campos que ofrece las funciones Responder a una pregunta, Editar un destinatario, Agregar una variable e Importar una pregunta existente](assets/s_ncs_admin_survey_add_field_menu.png)
 
 Seleccione el tipo de campo que desea crear: puede elegir añadir un campo en la base de datos, añadir una variable o importar un grupo de campos creados en otro formulario y recopilados en un contenedor.
 
 Haga clic en **[!UICONTROL Next]** y seleccione el campo de almacenamiento o variable o el contenedor que desee importar.
 
-![](assets/s_ncs_admin_webform_wz_confirm_db.png)
+![Asistente para la creación de campos, Editar paso de perfil, con el campo de base de datos Salutation seleccionado antes de hacer clic en Finalizar](assets/s_ncs_admin_webform_wz_confirm_db.png)
 
 Haga clic en **[!UICONTROL Finish]** para insertar el campo seleccionado en la página.
 
-![](assets/s_ncs_admin_webform_wz_insert_field.png)
+![Cuadro de diálogo de página que muestra el campo del cuadro combinado Salutation insertado en la página de bienvenida después del asistente](assets/s_ncs_admin_webform_wz_insert_field.png)
 
 ## Adición de campos de entrada {#adding-input-fields}
 
 Para añadir un campo de entrada, haga clic en el botón **[!UICONTROL Input control]** y elija el tipo de campo que desea añadir.
 
-![](assets/s_ncs_admin_webform_select_field.png)
+![Menú de control de entrada que enumera los tipos de campo Texto, Número, Contraseña, Texto multilínea y Texto de HTML](assets/s_ncs_admin_webform_select_field.png)
 
 ### Tipos de campos de entrada {#types-of-input-fields}
 
@@ -90,7 +90,7 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
 * **Texto**: permite al usuario introducir texto en una línea.
 
-  ![](assets/s_ncs_admin_survey_txt_ex.png)
+  ![Campo de texto procesado etiquetado como Su apellido que contiene un valor de una línea](assets/s_ncs_admin_survey_txt_ex.png)
 
 * **Número**: permite al usuario introducir un texto en una línea. Para obtener más información, consulte [Agregar números](#adding-numbers).
 
@@ -98,7 +98,7 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
 * **Contraseña**: permite al usuario introducir texto en una sola línea. Durante la entrada de texto, los caracteres se sustituyen por puntos:
 
-  ![](assets/s_ncs_admin_survey_passwd_ex.png)
+  ![Campo de contraseña procesada etiquetado como Su contraseña con los caracteres escritos enmascarados como puntos](assets/s_ncs_admin_survey_passwd_ex.png)
 
   >[!CAUTION]
   >
@@ -106,7 +106,7 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
 * **Texto multilínea**: permite al usuario introducir texto en varias líneas.
 
-  ![](assets/s_ncs_admin_survey_txtmulti_ex.png)
+  ![Campo de texto multilínea procesado etiquetado como Su mensaje con una barra de desplazamiento y un texto de ejemplo](assets/s_ncs_admin_survey_txtmulti_ex.png)
 
   >[!CAUTION]
   >
@@ -115,21 +115,21 @@ Se pueden insertar cinco tipos diferentes de campos de texto en una página de f
 
 * **Texto enriquecido multilínea**: permite al usuario introducir texto con un diseño que se almacena en formato HTML.
 
-  ![](assets/s_ncs_admin_survey_txthtmli_ex.png)
+  ![Editor de texto enriquecido procesado con barra de herramientas de formato, negrita, vínculos y una imagen insertada](assets/s_ncs_admin_survey_txthtmli_ex.png)
 
   Se puede seleccionar el tipo de editor ofrecido a los usuarios. Para ello, en la pestaña **[!UICONTROL Advanced]**, utilice el cuadro desplegable del campo **[!UICONTROL HTML editor]**.
 
-  ![](assets/webapp_enrich_text_type.png)
+  ![Ficha Avanzadas con la lista desplegable del editor de HTML Minimalista, Básico, Intermedio y Avanzado](assets/webapp_enrich_text_type.png)
 
   El número de iconos mostrados varía en función del tipo de editor. Para un editor **[!UICONTROL Advanced]**, la renderización es la siguiente:
 
-  ![](assets/webapp_enrich_text_max.png)
+  ![Editor de HTML avanzado en una página de formulario con barra de herramientas completa y la lista desplegable Tamaño de fuente abierta](assets/webapp_enrich_text_max.png)
 
 ### Configuración de los campos de entrada {#configure-input-fields}
 
 Todos los campos de entrada se configuran del mismo modo, con las siguientes opciones:
 
-![](assets/s_ncs_admin_survey_txt_param.png)
+![Pestaña General de un campo de entrada Texto con Etiqueta, Obligatorio, Almacenamiento, Editar vínculo de almacenamiento y Valor predeterminado](assets/s_ncs_admin_survey_txt_param.png)
 
 La pestaña **[!UICONTROL General]** permite introducir el nombre del campo y el atributo como valor predeterminado si es necesario.
 
@@ -145,17 +145,17 @@ La pestaña **[!UICONTROL Advanced]** permite definir parámetros de visualizaci
 
 Puede insertar una lista desplegable en una página de encuesta. Esto permite al usuario seleccionar un valor de los que se ofrecen en un menú desplegable.
 
-![](assets/s_ncs_admin_survey_dropdown_sample.png)
+![Lista desplegable procesada con la etiqueta Título que ofrece Señor, Señora y Señorita](assets/s_ncs_admin_survey_dropdown_sample.png)
 
 Para agregar un cuadro desplegable a una página de formulario, haga clic en el botón **[!UICONTROL Selection controls > Drop-down list]** de la barra de herramientas del editor de páginas.
 
-![](assets/s_ncs_admin_survey_create_dropdown.png)
+![Menú de barra de herramientas del editor de páginas Controles de selección con cuadro combinado, casilla de verificación, botón de opción, opción múltiple, fecha, cuadrícula](assets/s_ncs_admin_survey_create_dropdown.png)
 
 Seleccione el modo de almacenamiento de respuestas y confirme su selección.
 
 Defina las etiquetas y los valores de la lista en la sección inferior de la pestaña **[!UICONTROL General]**. Si la información se almacena en un campo existente de la base de datos y es un campo de enumeración, puede rellenar los valores automáticamente haciendo clic en **[!UICONTROL Initialize the list of values from the database]**, como se muestra a continuación:
 
-![](assets/s_ncs_admin_survey_database_values.png)
+![Ficha General del cuadro combinado con el vínculo Inicializar la lista de valores de la base de datos y la lista rellenada](assets/s_ncs_admin_survey_database_values.png)
 
 >[!NOTE]
 >
@@ -163,11 +163,11 @@ Defina las etiquetas y los valores de la lista en la sección inferior de la pes
 
 Si los datos se almacenan en una tabla vinculada, puede seleccionar el campo en el que se guardan los valores sugeridos en la lista. Por ejemplo, si selecciona la tabla de países, haga clic en **[!UICONTROL Initialize the list of values from the database...]** y seleccione el campo deseado.
 
-![](assets/s_ncs_admin_survey_preload_values.png)
+![Cuadro de diálogo de la aplicación web para seleccionar el campo Etiqueta de la tabla País, con el cuadro de diálogo Seleccionar una expresión](assets/s_ncs_admin_survey_preload_values.png)
 
 A continuación, haga clic en el vínculo **[!UICONTROL Load]** para recuperar los valores:
 
-![](assets/s_ncs_admin_survey_load_button.png)
+![Cuadro de diálogo de la aplicación web después de hacer clic en Cargar, con una lista de vista previa de etiquetas de país y valores](assets/s_ncs_admin_survey_load_button.png)
 
 >[!CAUTION]
 >
@@ -177,7 +177,7 @@ A continuación, haga clic en el vínculo **[!UICONTROL Load]** para recuperar l
 
 Para que el usuario seleccione una opción, debe utilizar una casilla de verificación.
 
-![](assets/s_ncs_admin_survey_check_box.png)
+![Casilla de verificación procesada, marcada con la etiqueta Deseo recibir su boletín informativo](assets/s_ncs_admin_survey_check_box.png)
 
 Para añadir una casilla a un formulario, haga clic en el icono **[!UICONTROL Selection controls > Checkbox...]** de la barra de herramientas del editor de páginas.
 
@@ -185,33 +185,33 @@ Seleccione el modo de almacenamiento de respuestas y confirme su selección.
 
 Introduzca la etiqueta de la casilla en el campo **[!UICONTROL Label]** de la pestaña **[!UICONTROL General]**.
 
-![](assets/s_ncs_admin_survey_check_box_edit.png)
+![Ficha General de casilla de verificación con los campos Etiqueta, Almacenamiento, Seleccionado de forma predeterminada, Valor y Valor vacío](assets/s_ncs_admin_survey_check_box_edit.png)
 
 Una casilla de verificación permite asignar un valor al campo (o valor) de almacenamiento en función de si se ha marcado o no la casilla. La sección **[!UICONTROL Values]** permite introducir el valor que se asigna si se marca la casilla (en el campo **[!UICONTROL Value]**) y el valor que se asigna si no se marca (en el campo **[!UICONTROL Empty value]**). Estos valores dependen del formato de almacenamiento de datos.
 
 Si el campo de almacenamiento (o variable) es booleano, el valor que se asigna si la casilla no está marcada se deduce automáticamente. En este caso, solo se ofrece el campo **[!UICONTROL Value if checked]**, como se muestra a continuación:
 
-![](assets/s_ncs_admin_survey_check_box_enum.png)
+![Ficha General de casilla de verificación para un campo booleano, con la lista desplegable Valor si está marcada que ofrece Sí y No](assets/s_ncs_admin_survey_check_box_enum.png)
 
 ## Asignación de un valor a un campo si se marca una casilla {#example--assign-a-value-to-a-field-if-a-box-is-checked}
 
 Se busca insertar una casilla en un formulario para enviar una solicitud de mantenimiento, como se muestra a continuación:
 
-![](assets/s_ncs_admin_survey_check_box_ex.png)
+![Página de formulario procesada con una lista desplegable de productos, un campo de fecha de envío y una casilla de verificación de mantenimiento requerida](assets/s_ncs_admin_survey_check_box_ex.png)
 
 La información se carga en la base de datos y en un campo existente (en este caso, el campo **[!UICONTROL Comment]**):
 
-![](assets/s_ncs_admin_survey_check_box_ex_list.png)
+![Lista de destinatarios con una columna Comentario que muestra Mantenimiento requerido o Mantenimiento no requerido](assets/s_ncs_admin_survey_check_box_ex_list.png)
 
 Si la casilla “Mantenimiento requerido” está marcada, la columna **[!UICONTROL Comment]** contiene “Mantenimiento requerido”. Si la casilla no está marcada, la columna contiene “Mantenimiento no requerido”. Para obtener este resultado, aplique la configuración siguiente a la casilla de verificación de la página del formulario:
 
-![](assets/s_ncs_admin_survey_check_box_ex_edit.png)
+![Casilla de verificación requerida por mantenimiento almacenada en el campo de comentario, con textos de valor y valor vacío](assets/s_ncs_admin_survey_check_box_ex_edit.png)
 
 ## Adición de botones de opción {#adding-radio-buttons}
 
 Los botones de opción le permiten ofrecer al usuario varias opciones exclusivas entre las que elegir. Estas opciones son valores diferentes para un mismo campo.
 
-![](assets/s_ncs_admin_survey_radio_button.png)
+![Botones de radio procesados Señor, Señora y Señorita, con la Señora seleccionada](assets/s_ncs_admin_survey_radio_button.png)
 
 Puede crear botones de opción por separado (botones unitarios) o a través de una lista de selección múltiple, pero ya que el objetivo de los botones de opción es seleccionar una opción u otra, siempre creamos al menos un par de botones de opción en vez de uno solo.
 
@@ -223,7 +223,7 @@ Puede crear botones de opción por separado (botones unitarios) o a través de u
 
 Para añadir un botón de opción a una página de formulario, vaya al menú **[!UICONTROL Selection controls > Radio button]** de la barra de herramientas del editor de páginas y elija un modo de almacenamiento.
 
-![](assets/s_ncs_admin_survey_radio_button_sample.png)
+![Pestaña General de un campo de botón de opción con la opción de etiqueta 1, almacenamiento de variables, Seleccionado de forma predeterminada y Valor](assets/s_ncs_admin_survey_radio_button_sample.png)
 
 Los botones de opción se configuran de forma similar a las casillas de verificación (consulte). [Agregar casillas de verificación](#adding-checkboxes). Sin embargo, no se asigna ningún valor si no se selecciona la opción. Para que varios botones puedan ser interdependientes, es decir, que se deseleccione uno automáticamente si se selecciona el otro, se deben almacenar en el mismo campo. Si no se almacenan en la base de datos, se debe utilizar la misma variable local para el almacenamiento temporal. Consulte [Campos de almacenamiento de respuesta](web-forms-answers.md#response-storage-fields).
 
@@ -231,7 +231,7 @@ Los botones de opción se configuran de forma similar a las casillas de verifica
 
 Para añadir botones de opción a través de una lista, vaya al menú **[!UICONTROL Selection controls>Multiple choice]** de la barra de herramientas del editor de páginas.
 
-![](assets/s_ncs_admin_survey_radio_button_sample2.png)
+![Campo de opción múltiple: ficha General que enumera las opciones 1 a 3 con las columnas Valor, Seleccionado y Puntuación](assets/s_ncs_admin_survey_radio_button_sample2.png)
 
 Añada tantos botones de opción como etiquetas. La ventaja de esta función es que puede importar valores de un campo existente (en el caso de un campo desglosado) y hacer posible que el usuario elija una opción. Sin embargo, el diseño de los botones es menos flexible.
 
@@ -244,15 +244,15 @@ Añada tantos botones de opción como etiquetas. La ventaja de esta función es 
 
 Las cuadrículas se utilizan para diseñar páginas de votación en aplicaciones web. Esto permite ofrecer listas de botones de opción para responder a los formularios web de tipo encuesta o evaluación, como se muestra a continuación:
 
-![](assets/s_ncs_admin_survey_vote_param.png)
+![Cuadrícula de clasificación procesada con las filas del Vídeo 1 al Vídeo 3 y los botones de radio de 1 pobre a 5 excelentes](assets/s_ncs_admin_survey_vote_param.png)
 
 Para utilizar este tipo de elemento en un formulario, cree una cuadrícula sencilla y añada una línea para cada elemento que desea evaluar.
 
-![](assets/s_ncs_admin_survey_vote_sample.png)
+![Editor de páginas con una cuadrícula simple de notas y tres líneas de cuadrícula, de vídeo 1 a vídeo 3 y valores de clasificación de 1 a 5](assets/s_ncs_admin_survey_vote_sample.png)
 
 El número de botones de opción de cada línea de la cuadrícula coincide con el número de valores definidos en la cuadrícula simple.
 
-![](assets/s_ncs_admin_survey_vote_ex.png)
+![Cuadrícula procesada con una fila de encabezado de cuadrícula simple de 1 a 5 y tres líneas de cuadrícula, un botón de opción elegido por cada línea](assets/s_ncs_admin_survey_vote_ex.png)
 
 Solo se puede seleccionar una opción por cada línea de cuadrícula.
 
@@ -266,17 +266,17 @@ Se puede dar formato al contenido de los campos del formulario para que coincida
 
 ### Adición de fechas {#adding-dates}
 
-![](assets/s_ncs_admin_survey_date_calendar.png)
+![Campo de fecha con el selector de calendario abierto en enero de 2017 y un día seleccionado](assets/s_ncs_admin_survey_date_calendar.png)
 
 Para permitir que el usuario escriba una fecha en una página de formulario, agregue un campo de entrada y seleccione el tipo **[!UICONTROL Date...]**.
 
 Introduzca una etiqueta para el campo y configure el modo de almacenamiento de datos.
 
-![](assets/s_ncs_admin_survey_date_edit.png)
+![Pestaña General de un campo Fecha de nacimiento de tipo Fecha, con menús desplegables de Formato de fecha y Formato de hora](assets/s_ncs_admin_survey_date_edit.png)
 
 La sección inferior de la ventana permite seleccionar los formatos de fecha y hora para los valores almacenados en este campo.
 
-![](assets/s_ncs_admin_survey_date_edit_values.png)
+![Formatos de lista desplegable de formato de fecha como 31/12/12, 31 de diciembre de 2012 y 31 de diciembre de 2012](assets/s_ncs_admin_survey_date_edit_values.png)
 
 También puede optar por no mostrar la fecha (o la hora).
 
@@ -288,37 +288,37 @@ Las fechas se pueden seleccionar mediante un calendario o casillas desplegables.
 
 Sin embargo, en algunos casos (para introducir fechas de nacimiento, por ejemplo), puede ser más fácil utilizar las listas desplegables.
 
-![](assets/s_ncs_admin_survey_date_list_select.png)
+![Campo de fecha de nacimiento procesado con tres listas desplegables para día, mes y año](assets/s_ncs_admin_survey_date_list_select.png)
 
 Para ello, haga clic en la pestaña **[!UICONTROL Advanced]** y seleccione el modo de entrada mediante las **[!UICONTROL Drop-down lists]**.
 
-![](assets/s_ncs_admin_survey_date_selection.png)
+![Ficha avanzada con la lista desplegable de modo de entrada configurada para elegir Entrada de fecha mediante un calendario o Listas desplegables](assets/s_ncs_admin_survey_date_selection.png)
 
 A continuación, puede establecer límites de los valores ofrecidos en la lista.
 
-![](assets/s_ncs_admin_survey_date_first_last_y.png)
+![Pestaña General del campo de fecha con los cuadros Primer año y Último año que limitan los años ofrecidos en las listas](assets/s_ncs_admin_survey_date_first_last_y.png)
 
 ### Adición de números {#adding-numbers}
 
 Puede crear campos adecuados para introducir números.
 
-![](assets/s_ncs_admin_survey_number.png)
+![Campo numérico procesado etiquetado como Points que contiene el valor 2 500](assets/s_ncs_admin_survey_number.png)
 
 En un campo numérico, el usuario solo puede introducir números. El control de introducción se aplica automáticamente cuando se aprueba la página.
 
 Según el campo en el que se almacenen los datos en la base de datos, puede aplicar formatos especiales o determinadas restricciones. Asimismo, puede especificar valores máximos y mínimos. Este tipo de campo se configura de la siguiente manera:
 
-![](assets/s_ncs_admin_survey_number_edit.png)
+![Pestaña General del campo Numérico con las opciones Valor predeterminado, Valor mínimo y Aprobación máxima del valor](assets/s_ncs_admin_survey_number_edit.png)
 
 El valor predeterminado es el valor mostrado en el campo cuando se publica el formulario. El usuario puede corregirlo.
 
 Se puede añadir un prefijo o un sufijo al campo numérico mediante la pestaña **[!UICONTROL Advanced]**, como se muestra a continuación:
 
-![](assets/s_ncs_admin_survey_number_ex_conf.png)
+![La pestaña Avanzado de un campo numérico con el Prefijo establecido en Tiene y el Sufijo establecido en puntos](assets/s_ncs_admin_survey_number_ex_conf.png)
 
 En el formulario, la renderización es la siguiente:
 
-![](assets/s_ncs_admin_survey_number_ex.png)
+![Campo numérico procesado que muestra el prefijo que tiene, el valor 10 y los puntos de sufijo](assets/s_ncs_admin_survey_number_ex.png)
 
 ## Casillas de verificación de suscripción {#subscription-checkboxes}
 
@@ -326,7 +326,7 @@ Puede añadir controles para permitir a los usuarios suscribirse o dar de baja l
 
 Para crear una casilla de verificación de suscripción, haga clic en **[!UICONTROL Advanced controls>Subscription]**.
 
-![](assets/s_ncs_admin_survey_subscription_edit.png)
+![Pestaña General del campo de suscripción con la lista desplegable Servicio que enumera los servicios de información que se van a seleccionar](assets/s_ncs_admin_survey_subscription_edit.png)
 
 Indique la etiqueta de la casilla de verificación y seleccione el servicio de información correspondiente mediante la casilla desplegable **[!UICONTROL Service]**.
 
@@ -336,7 +336,7 @@ Indique la etiqueta de la casilla de verificación y seleccione el servicio de i
 
 El usuario se suscribe al servicio seleccionando la opción correspondiente.
 
-![](assets/s_ncs_admin_survey_subscribe.png)
+![Procesar formulario de confirmación de perfil y selección de boletines con casillas de verificación de la newsletter y un botón Validar](assets/s_ncs_admin_survey_subscribe.png)
 
 >[!CAUTION]
 >
@@ -352,11 +352,11 @@ El propósito de las pruebas de **captcha** es evitar el uso fraudulento de los 
 
 Para insertar un objeto captcha en un formulario, haga clic en el primer botón de la barra de herramientas y seleccione **[!UICONTROL Advanced controls>Captcha]**.
 
-![](assets/s_ncs_admin_survey_add_captcha.png)
+![Menú de barra de herramientas de controles avanzados que enumera Archivo, Suscripción, Constante y Captcha, con Captcha resaltado](assets/s_ncs_admin_survey_add_captcha.png)
 
 Introduzca la etiqueta del campo. Esta etiqueta se muestra delante del área de visualización del captcha. Puede cambiar la posición de esta etiqueta en la pestaña **[!UICONTROL Advanced]**.
 
-![](assets/s_ncs_admin_survey_captcha_adv.png)
+![Pestaña Captcha Advanced con la lista desplegable Label position que ofrece Inherited, Left, Right, Above, Bottom, Hidden](assets/s_ncs_admin_survey_captcha_adv.png)
 
 >[!NOTE]
 >
@@ -364,15 +364,15 @@ Introduzca la etiqueta del campo. Esta etiqueta se muestra delante del área de 
 
 El componente captcha se inserta en la página con un campo de entrada situado bajo la ilustración. Estos dos elementos son inseparables y se consideran un solo elemento de cara al diseño de la página (ocupan una sola celda).
 
-![](assets/s_ncs_admin_survey_captcha_sample.png)
+![Página de formulario procesada con una imagen captcha de caracteres distorsionados y un campo de entrada debajo](assets/s_ncs_admin_survey_captcha_sample.png)
 
 Cuando se confirma la página, el campo de entrada aparece en rojo si el contenido del captcha no se ha introducido correctamente.
 
-![](assets/s_ncs_admin_survey_captcha_error.png)
+![La página de formulario muestra un mensaje de error rojo que indica que los caracteres introducidos deben coincidir con la imagen captcha](assets/s_ncs_admin_survey_captcha_error.png)
 
 Puede crear el mensaje de error que desea mostrar. Para ello, en la pestaña **[!UICONTROL General]**, utilice el enlace **[!UICONTROL Personalize the message]**.
 
-![](assets/s_ncs_admin_survey_captcha_error_msg.png)
+![Pestaña Captcha General con el vínculo Personalizar el mensaje que abre el cuadro de diálogo de personalización del mensaje](assets/s_ncs_admin_survey_captcha_error_msg.png)
 
 >[!NOTE]
 >
@@ -382,7 +382,7 @@ Puede crear el mensaje de error que desea mostrar. Para ello, en la pestaña **[
 
 Puede añadir un campo de carga a una página. Esta funcionalidad puede ser útil para compartir archivos de la intranet, por ejemplo.
 
-![](assets/s_ncs_admin_survey_download_file.png)
+![Campo de carga procesado etiquetado Cargar la imagen con el botón Examinar](assets/s_ncs_admin_survey_download_file.png)
 
 Para insertar un campo de carga en una página de formulario, en la barra de herramientas del editor de páginas, seleccione el menú **[!UICONTROL Advanced controls > File...]**.
 
@@ -408,4 +408,4 @@ Para ello, coloque una **constante** en la página y especifique el valor y la u
 
 En el ejemplo siguiente, el campo de **origen** del perfil de destinatario se rellena automáticamente cada vez que un usuario aprueba esta página. La constante no se muestra en la página.
 
-![](assets/s_ncs_admin_survey_constante.png)
+![Campo constante denominado Origin, almacenado en el campo de base de datos de origen, con el valor External](assets/s_ncs_admin_survey_constante.png)

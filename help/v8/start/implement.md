@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 92%
+source-wordcount: '1252'
+ht-degree: 81%
 ---
 # Directrices de implementación de Campaign{#gs-implementation}
 
@@ -77,7 +77,7 @@ Adobe Campaign incluye procesos y configuraciones que le permiten utilizar Campa
 
   Obtenga más información en [Documentación de privacidad de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/privacy/privacy-and-recommendations.html?lang=es#consent){target="_blank"}
 
-* **Reglamentos de protección de datos y privacidad**: consulte [esta sección](privacy.md) para obtener información sobre los requisitos de privacidad y cómo afectan estas regulaciones a su organización y a Adobe Campaign.
+* **Reglamentos de protección de datos y privacidad**: consulte [Administrar solicitudes de privacidad en Campaign](privacy.md) para obtener información sobre los requisitos de privacidad y cómo estos reglamentos afectan a su organización y a Adobe Campaign.
 
 ### Seguridad
 
@@ -89,7 +89,7 @@ Conozca las directrices y los principios de seguridad con Adobe Campaign en la [
 
 Puede añadir usuarios manualmente a Campaign y asociarlos a grupos, alineados con la jerarquía de funciones. Los usuarios podrán entonces iniciar sesión y acceder a los datos y permisos adecuados para ellos.
 
-Aprenda a añadir usuarios a Adobe Campaign en [esta sección](../start/gs-permissions.md).
+Obtenga información sobre cómo agregar usuarios a Adobe Campaign en [Introducción a los permisos en la versión 8 de Campaign](../start/gs-permissions.md).
 
 ### Instalación de la consola del cliente de Campaign{#implementation-install-console}
 
@@ -145,17 +145,17 @@ Puede personalizar muchas áreas y capacidades de Campaign diferentes. La mayor�
 
    Consulte esta sección para obtener más información sobre el [modelo de datos integrado de Campaign](../dev/datamodel.md).
 
-   Puede ampliar los esquemas existentes o crear nuevos esquemas desde cero. Obtenga más información en [esta página](../dev/customize.md).
+   Puede ampliar los esquemas existentes o crear nuevos esquemas desde cero. Más información en [Personalizar tu instancia](../dev/customize.md).
 
 1. **Paneles de control y listas**
 
    Puede configurar listas, añadir y quitar campos, y personalizar columnas fácilmente.
 
-   Obtenga información sobre cómo administrar filtros y listas en Campaign en [esta página](../dev/customize.md#gs-lists-and-filters).
+   Aprenda a administrar filtros y listas en Campaign en [Personalizar listas y crear filtros](../dev/customize.md#gs-lists-and-filters).
 
    También puede crear nuevos paneles de control para mostrar los datos de Campaign según sus necesidades.
 
-   Obtenga más información en [esta página](../dev/customize.md#gs-custom-dashboards).
+   Obtenga más información en [Personalizar paneles](../dev/customize.md#gs-custom-dashboards).
 
 1. **Informes**
 
@@ -163,7 +163,7 @@ Puede personalizar muchas áreas y capacidades de Campaign diferentes. La mayor�
 
    Además de los informes integrados, Adobe Campaign permite generar informes en distintos contextos y satisfacer diferentes necesidades. En este documento se describen los principios de uso y los modos de implementación.
 
-   Obtenga más información sobre las funcionalidades de creación de informes en Campaign en [esta página](../reporting/gs-reporting.md).
+   Obtenga más información acerca de las funcionalidades de creación de informes en Campaign en [Introducción a las herramientas de creación de informes de Adobe Campaign](../reporting/gs-reporting.md).
 
 
 ## Configuración de la automatización de campañas{#implementation-automation}
@@ -172,7 +172,7 @@ Para organizar campañas de marketing complejas para distintos públicos en vari
 
 * Use **flujos de trabajo** para administrar procesos y datos. Obtenga más información en [esta documentación](../../automation/workflow/about-workflows.md)
 
-* Configure procesos de **suscripción** y **páginas de destino**.  Obtenga más información en [esta página](../start/subscriptions.md)
+* Configure procesos de **suscripción** y **páginas de destino**.  Más información en [Administrar suscripciones y bajas en Campaign](../start/subscriptions.md)
 
 * Configure **reglas de tipología** para definir la fatiga y la gestión de control.  Obtenga más información en [esta documentación](../../automation/campaign-opt/campaign-typologies.md)
 
@@ -193,7 +193,7 @@ Si utiliza otras soluciones de Adobe, puede conectarlas al entorno de Campaign y
 * Campaign: Conectores de datos de Analytics
 
 
-También puede utilizar el inicio de sesión único (SSO) para conectarse a Campaign. Obtenga más información en [esta página](connect.md).
+También puede utilizar el inicio de sesión único (SSO) para conectarse a Campaign. Obtenga más información en [Conectarse a Campaign v8](connect.md).
 
 Descubra la lista completa de soluciones de Adobe que se pueden integrar con Adobe Campaign [en esta página](../connect/integration.md).
 
@@ -201,16 +201,16 @@ Descubra la lista completa de soluciones de Adobe que se pueden integrar con Ado
 
 Conecte Campaign con sistemas de terceros para combinar una amplia gama de funcionalidades y automatizar procesos.
 
-Obtenga más información sobre los conectores disponibles en [esta sección](../connect/integration.md).
+Obtenga más información acerca de los conectores disponibles en [Conecte Campaign con sus soluciones](../connect/integration.md).
 
 **Conexión del CRM a Campaign**
 
 Puede conectar su plataforma de Adobe Campaign a sus sistemas de terceros de CRM y sincronizar los datos: contactos, cuentas, compras, etc.
 
-Aprenda a conectar su sistema CRM a Campaign en [esta sección](../connect/integration.md#gs-crm-connectors)
+Aprenda a conectar su sistema CRM a Campaign en [Integración con su conector CRM](../connect/integration.md#gs-crm-connectors)
 
 **Conexión a una base de datos externa**
 
 Puede conectar la base de datos de Campaign Cloud a sistemas externos mediante el módulo de acceso de datos federado (FDA).
 
-Aprenda a configurar el módulo FDA de Campaign para definir los parámetros de acceso en [esta sección](../connect/integration.md#gs-fda)
+Aprenda a configurar el módulo FDA de Campaign para definir los parámetros de acceso en [Conectar terceros con el acceso de datos federado](../connect/integration.md#gs-fda)

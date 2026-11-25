@@ -28,9 +28,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '311'
 ht-degree: 0%
 ---
 # Monitorización y seguimiento de un SMS
@@ -47,25 +47,25 @@ Para acceder al panel, haga doble clic en su entrega en la lista de envíos.
 
 En la ficha **[!UICONTROL Summary]**, tiene los datos principales, como el número de mensajes procesados y el número de mensajes correctos.
 
-![](assets/sms_summary.png){zoomable="yes"}
+![Pestaña Resumen del panel de entregas de SMS con mensajes para enviar, tasas de éxito y procesados y estado de entrega](assets/sms_summary.png){zoomable="yes"}
 
 Después de enviar el SMS, ya no se puede acceder a la pestaña **[!UICONTROL SMS]**, que trata sobre el contenido de la entrega, para variar.
 
 En la ficha **[!UICONTROL Delivery]**, tiene la información sobre los registros de envío. Para cada dirección contactada, puede ver si el SMS se ha enviado o no
 
-![](assets/sms_deliverylogs.png){zoomable="yes"}
+![Ficha de envío Registra la lista que muestra, por cada dirección contactada, si el SMS se envió, con el estado y el motivo](assets/sms_deliverylogs.png){zoomable="yes"}
 
 Puede ver en la pestaña **[!UICONTROL Exclusions]** los detalles de por qué algunas direcciones se excluyen del destino.
 
-![](assets/sms_exclusions.png){zoomable="yes"}
+![La pestaña Exclusiones de la pestaña Entrega enumera las direcciones omitidas con el motivo, como la dirección Incluida en la lista de bloqueados o Double](assets/sms_exclusions.png){zoomable="yes"}
 
 La ficha **[!UICONTROL Tracking]** trata sobre el seguimiento. A continuación, se muestra el ejemplo de una dirección URL rastreada en el contenido del SMS.
 
-![](assets/sms_trackinglogs.png){zoomable="yes"}
+![La lista de URL de la ficha de seguimiento muestra una URL rastreada del contenido del SMS con su etiqueta, tipo y URL de origen](assets/sms_trackinglogs.png){zoomable="yes"}
 
 Y por último, la pestaña **[!UICONTROL Audit]** con todos los detalles durante el inicio de la entrega:
 
-![](assets/sms_audit.png){zoomable="yes"}
+![Registro de la pestaña Auditoría que enumera los mensajes registrados durante el inicio de la entrega, con las columnas de fecha y mensaje](assets/sms_audit.png){zoomable="yes"}
 
 ## Comprender los errores de SMS
 

@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '744'
-ht-degree: 1%
+ht-degree: 0%
 ---
 # Administración de mensajes transaccionales {#managing-transactional-messages}
 
@@ -47,11 +47,11 @@ Por ejemplo, desea que se active un evento &quot;Abandono del carro de compras&q
 
 El evento transaccional se envía a través de una solicitud de POST con la siguiente estructura de URL:
 
-```
+```http
 POST https://mc.adobe.io/<ORGANIZATION>/campaign/<transactionalAPI>/<eventID>
 ```
 
-* **&lt;ORGANIZATION>**: su ID. DE ORGANIZACIÓN personal. Consulte [esta sección](must-read.md).
+* **&lt;ORGANIZATION>**: su ID. DE ORGANIZACIÓN personal. Consulte [Lectura obligatoria](must-read.md).
 
 * **&lt;transactionalAPI>**: los extremos de la API de mensajes transaccionales.
 
@@ -67,7 +67,7 @@ La solicitud debe contener un encabezado &quot;Content-Type: application/json&qu
 
 Debe agregar un conjunto de caracteres, por ejemplo **utf-8**. Tenga en cuenta que este valor depende de la aplicación REST que utilice.
 
-```
+```bash
 -X POST \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -100,7 +100,7 @@ Si la carga útil solo contiene &quot;mobilePhone&quot;, se activa el canal de c
 
 El ejemplo siguiente muestra una carga útil en la que se activará una comunicación SMS:
 
-```
+```bash
 curl --location 'https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment' \
 --header 'Authorization: Bearer <ACCESS_TOKEN>' \
 --header 'Cache-Control: no-cache' \
@@ -135,7 +135,7 @@ La respuesta POST devuelve el estado del evento transaccional en el momento en q
 
 petición POST para enviar el evento.
 
-```
+```bash
 -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/mcAdobe/EVTcartAbandonment \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
 -H 'Cache-Control: no-cache' \
@@ -161,7 +161,7 @@ petición POST para enviar el evento.
 
 Respuesta a la solicitud de POST.
 
-```
+```json
 {
   "PKey":"<PKEY>",
   "ctx":

@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 74%
+source-wordcount: '232'
+ht-degree: 44%
 ---
 # Historial de interacciones en tiempo real e informes
 
@@ -44,15 +44,15 @@ Una vez que se hayan realizado las propuestas de oferta, podrá visualizar el hi
 
 * En el nivel de oferta, en la pestaña **[!UICONTROL Edit]**, haga clic en **[!UICONTROL Propositions]**.
 
-  ![](assets/offer_followup_006.png)
+  ![Pestaña Proposiciones de una oferta que enumera las propuestas realizadas para la oferta con fecha de evento, espacio y estado](assets/offer_followup_006.png)
 
 * En el perfil de un destinatario, haga clic en la pestaña **[!UICONTROL Propositions]**.
 
-  ![](assets/offer_followup_002.png)
+  ![La pestaña Propositions de un perfil de destinatario enumera ofertas con fecha de evento, estado, espacio de ofertas y envío](assets/offer_followup_002.png)
 
 * En el nivel de espacio de oferta, haga clic en la pestaña **[!UICONTROL Propositions]**.
 
-  ![](assets/offer_space_prop_001_b.png)
+  ![Pestaña Proposiciones de un espacio de ofertas que enumera propuestas realizadas con clasificación, peso y estado](assets/offer_space_prop_001_b.png)
 
 ## Informe de análisis de oferta{#offer-analysis-report}
 
@@ -62,14 +62,14 @@ Las estadísticas se clasifican según tres criterios:
 
 * Por fecha:
 
-  ![](assets/offer_report_perdate.png)
+  ![Informe de análisis de oferta, estadísticas por fecha, con recuentos de propuestas, tasas aceptadas y rechazadas y un gráfico](assets/offer_report_perdate.png)
 
 * Por espacio:
 
-  ![](assets/offer_report_perspaces.png)
+  ![Informe de análisis de oferta, estadísticas por espacio, con tasas aceptadas y rechazadas por canal y un gráfico de barras](assets/offer_report_perspaces.png)
 
 * Por entrega:
 
-  ![](assets/offer_report_perdeliveries.png)
+  ![Informe de análisis de oferta, estadísticas por envío, con propuestas, recuentos aceptados y rechazados por envío](assets/offer_report_perdeliveries.png)
 
 Los datos se pueden filtrar según los distintos criterios disponibles en la sección superior del informe. Una vez que haya seleccionado los criterios deseados, haga clic en el enlace **[!UICONTROL Refresh]** para aplicarlos al informe.

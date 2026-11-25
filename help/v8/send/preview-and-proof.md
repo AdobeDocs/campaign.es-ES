@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 22%
+source-wordcount: '829'
+ht-degree: 18%
 ---
 # Previsualización y prueba del correo electrónico {#preview-test}
 
@@ -41,11 +41,11 @@ Para obtener una vista previa del contenido del mensaje, siga los pasos a contin
 1. Vaya a la pestaña **Vista previa** del envío.
 1. Haga clic en el botón **[!UICONTROL Test personalization]** para seleccionar un perfil y rellenar los datos de personalización. Puede elegir un destinatario específico en la base de datos, una dirección semilla o seleccionar un perfil de la población de destinatarios, si ya se ha definido. También puede comprobar el contenido sin personalización.
 
-   ![](assets/test-personalization.png)
+   ![Menú de personalización de prueba en la pestaña Preview: Recipient, A seed address, Delivery target population, No personalization](assets/test-personalization.png)
 
 1. La previsualización se genera para que pueda comprobar la renderización del mensaje. En la vista previa del mensaje, los elementos personalizados se sustituyen por los datos del perfil de prueba seleccionado.
 
-   ![](assets/test-personalization-with-a-recipient.png)
+   ![Vista previa del correo electrónico con el asunto y el encabezado personalizados con el nombre del perfil de prueba seleccionado](assets/test-personalization-with-a-recipient.png)
 
 1. Seleccione otros perfiles de prueba para previsualizar el procesamiento de correo electrónico para cada variante del mensaje.
 
@@ -59,7 +59,7 @@ Una prueba es un mensaje específico que le permite probar un mensaje antes de e
 
 El objetivo de la prueba se puede definir en la plantilla de envíos o puede ser específico de un envío. En ambos casos, vaya a la pantalla de definición de destino desde el vínculo **[!UICONTROL To]** y seleccione la pestaña **[!UICONTROL Target of the proofs]**.
 
-![](assets/target-of-proofs.png)
+![Cuadro de diálogo Seleccionar destino, destino de la pestaña de pruebas, con la lista desplegable Modo de segmentación y el botón Agregar](assets/target-of-proofs.png)
 
 El tipo de destino de prueba está seleccionado en la lista desplegable **[!UICONTROL Targeting mode]**.
 
@@ -68,11 +68,11 @@ El tipo de destino de prueba está seleccionado en la lista desplegable **[!UICO
 
   De forma predeterminada, la sustitución se realiza de forma aleatoria, pero se puede seleccionar un destinatario específico del destino principal mediante el icono **[!UICONTROL Detail]**.
 
-  ![](assets/target-of-proofs-substitution-details.png){width="800"}
+  ![Sustitución del modo de dirección que enumera direcciones de prueba, con el icono Detalle utilizado para seleccionar un perfil específico](assets/target-of-proofs-substitution-details.png){width="800"}
 
   Elija la opción **[!UICONTROL Select a profile (must be included in the target)]** y seleccione un destinatario.
 
-  ![](assets/target-of-proofs-substitution.png){width="800"}
+  ![Cuadro de diálogo de destinatario de prueba independiente con la opción Select a profile y un destinatario elegido de la lista](assets/target-of-proofs-substitution.png){width="800"}
 
 
 * Utilice la opción **[!UICONTROL Seed addresses]** para usar las direcciones semilla como destino de prueba. Estas direcciones pueden importarse desde un archivo o introducirse manualmente.
@@ -81,7 +81,7 @@ El tipo de destino de prueba está seleccionado en la lista desplegable **[!UICO
   >
   >Las direcciones semilla no pertenecen a la tabla de destinatarios predeterminada (nms:recipient), sino que se crean en una tabla independiente. Si se amplía la lista de distribución con nuevos datos, debe ampliar la lista de direcciones sembradas con los mismos datos.
 
-  Obtenga más información sobre las direcciones semilla en [esta sección](../audiences/test-profiles.md).
+  Obtenga más información acerca de las direcciones semilla en [Crear perfiles de prueba en Campaign](../audiences/test-profiles.md).
 
 * Utilice la opción **[!UICONTROL Specific target and Seed addresses]** para combinar direcciones semilla y direcciones de correo electrónico específicas. Las configuraciones relacionadas se definen en dos subpestañas independientes.
 
@@ -93,7 +93,7 @@ Para enviar pruebas de mensajes, siga los pasos a continuación:
 1. En la ventana **[!UICONTROL Send a proof]**, compruebe los destinatarios de prueba.
 1. Haga clic en **[!UICONTROL Analyze]** para iniciar la preparación del mensaje de prueba.
 
-   ![](assets/send-proof-analyze.png){width="800"}
+   ![Envíe una ventana de prueba con direcciones de sustitución y el registro de análisis de envío ejecutándose después de hacer clic en Analizar](assets/send-proof-analyze.png){width="800"}
 
 1. Una vez completada la preparación del envío, use **[!UICONTROL Confirm delivery]** para empezar a enviar mensajes de prueba.
 
@@ -115,7 +115,7 @@ Las propiedades de prueba se establecen en la pestaña **[!UICONTROL Advanced]**
 
 De manera predeterminada, los mensajes de prueba se identifican mediante la mención `Proof #N` en el asunto, donde `N` es el número de prueba. Este número se incrementa con cada análisis de entrega de prueba. Puede cambiar el prefijo `proof` según sea necesario.
 
-![](assets/proof-parameters.png){width="800"}
+![Cuadro de diálogo Propiedades de prueba de la pestaña Avanzadas con opciones de prueba y el campo Prefijo de etiqueta establecido en Prueba](assets/proof-parameters.png){width="800"}
 
 
 ## Vídeos explicativos {#video-proof}

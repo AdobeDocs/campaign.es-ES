@@ -24,16 +24,16 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 64aef99ddbae2debf7d5e637f9de43a19931be90
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '601'
+source-wordcount: '603'
 ht-degree: 28%
 ---
 # Configuración de mensajería transaccional {#mc-settings}
 
-La mensajería transaccional (Centro de mensajes) es un módulo de Campaign diseñado para gestionar mensajes activados. Obtenga más información acerca de la mensajería transaccional en [esta sección](../send/transactional.md).
+La mensajería transaccional (Centro de mensajes) es un módulo de Campaign diseñado para gestionar mensajes activados. Obtenga más información acerca de la mensajería transaccional en [Mensajería transaccional de Campaign](../send/transactional.md).
 
-Comprender la arquitectura de mensajería transaccional en [esta página](../architecture/architecture.md#transac-msg-archi).
+Comprender la arquitectura de mensajería transaccional en [arquitectura del Centro de mensajes](../architecture/architecture.md#transac-msg-archi).
 
 
 >[!NOTE]

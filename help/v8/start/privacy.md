@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 78%
+source-wordcount: '1116'
+ht-degree: 77%
 ---
 # Administrar solicitudes de privacidad en Campaign {#privacy}
 
@@ -52,7 +52,7 @@ Obtenga información sobre el **Derecho de acceso** y el **Derecho a ser olvidad
 
 >[!NOTE]
 >
->Esta funcionalidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](compatibility-matrix.md)
+>Esta funcionalidad está disponible a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [Matriz de compatibilidad de Campaign v8](compatibility-matrix.md)
 
 ## Definir un espacio de nombres {#namespaces}
 
@@ -77,7 +77,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. Al [listar las áreas de nombres de identidad](https://developer.adobe.com/experience-platform-apis/references/identity-service/#operation/getIdNamespaces){target="_blank"} disponibles para su organización, obtiene los siguientes detalles de área de nombres, por ejemplo:
 
-   ```
+   ```json
    {
            "updateTime": 1632903236731,
            "code": "lumanamespace",
@@ -94,7 +94,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
 
 1. En Adobe Campaign, vaya a **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL Namespaces]** y seleccione **[!UICONTROL New]**.
 
-   ![](assets/privacy-namespaces-new.png)
+   ![Administración de rutas de exploración > Plataforma > Áreas de nombres con el botón Nuevo resaltado](assets/privacy-namespaces-new.png)
 
 1. Introduzca un **[!UICONTROL Label]**.
 
@@ -104,7 +104,7 @@ Three namespaces are available out-of-the-box: email, phone and mobile phone. If
    * el **[!UICONTROL Internal name]** debe coincidir con el atributo &quot;code&quot;
    * el **[!UICONTROL Reconciliation key]** debe coincidir con el atributo &quot;idType&quot;
 
-   ![](assets/privacy-namespaces-details.png)
+   ![Nuevo formulario de área de nombres con campos resaltados de ID de área de nombres AEC, Nombre interno y Clave de reconciliación](assets/privacy-namespaces-details.png)
 
    El campo **[!UICONTROL Reconciliation key]** se utilizará para identificar el sujeto de datos en la base de datos de Adobe Campaign.
 

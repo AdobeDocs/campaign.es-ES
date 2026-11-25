@@ -22,7 +22,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '200'
 ht-degree: 1%
@@ -46,7 +46,7 @@ Este es un procedimiento de dos pasos.
 
 Realice una petición GET para recuperar el servicio.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -56,7 +56,7 @@ Realice una petición GET para recuperar el servicio.
 
 Devuelve la URL de suscripciones del servicio.
 
-```
+```json
   {
     ...
     "messageType": "email",
@@ -70,7 +70,7 @@ Devuelve la URL de suscripciones del servicio.
 
 Realice una petición GET en la dirección URL de suscripciones.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -80,7 +80,7 @@ Realice una petición GET en la dirección URL de suscripciones.
 
 Se muestra la lista de suscripciones para el servicio, con cada perfil asociado.
 
-```
+```json
   {
     ...
     "service": ...,
@@ -108,7 +108,7 @@ Este es un procedimiento de dos pasos.
 
 Realice una petición GET para recuperar el perfil.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -118,7 +118,7 @@ Realice una petición GET para recuperar el perfil.
 
 Devuelve la URL de suscripciones del perfil.
 
-```
+```json
   {
     ...
     "postalAddress":...,
@@ -132,7 +132,7 @@ Devuelve la URL de suscripciones del perfil.
 
 Realice una petición GET en la dirección URL de suscripciones.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>/subscriptions \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -142,7 +142,7 @@ Realice una petición GET en la dirección URL de suscripciones.
 
 Devuelve la lista de servicios a los que se suscribió el perfil.
 
-```
+```json
   {
     ...
     "PKey": "<PKEY>",

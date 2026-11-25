@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1028'
-ht-degree: 58%
+source-wordcount: '1071'
+ht-degree: 55%
 ---
 # Informes de envío {#delivery-reports}
 
@@ -38,7 +38,7 @@ Para acceder a los informes, siga los pasos a continuación:
 1. Haga clic en el nombre de la entrega a cuyos informes desee acceder.
 1. Seleccione la pestaña **[!UICONTROL Summary]** y haga clic en el vínculo **[!UICONTROL Reports]** para acceder a los informes específicos de la entrega.
 
-   ![](assets/detailed-report-2.png)
+   ![Pestaña Resumen de entrega con el vínculo Informes resaltado, en el que se enumeran los informes de entrega disponibles.](assets/detailed-report-2.png)
 
    De manera predeterminada, están disponibles los siguientes informes:
 
@@ -64,7 +64,7 @@ Este informe combina los indicadores clave para realizar un seguimiento del comp
 >
 >Los valores calculados en función de los mensajes abiertos siempre son estimaciones, debido al margen de error vinculado a los correos electrónicos en formato de texto. Los indicadores **[!UICONTROL Distinct opens/Sum of opens for the population reached]** tienen en cuenta este margen de error. [Más información](metrics-calculation.md#tracking-opens-).
 
-![](assets/tracking-report-synthesis.png)
+![Informe de indicadores de seguimiento con cuatro secciones numeradas, desde Estadísticas de envío hasta Flujos de clics generados.](assets/tracking-report-synthesis.png)
 
 **[!UICONTROL 1. Delivery statistics]**
 
@@ -101,7 +101,7 @@ Esta tabla de valores muestra el desglose de envíos, aperturas, clics y reaccio
 >
 >Los nombres de dominio mostrados en este informe se definen en la lista desglosada utilizada al nivel de cubo. Para cambiar, añadir o quitar dominios predeterminados, edite la lista desglosada **[!UICONTROL Domains]** y modifique los valores y alias. La categoría **[!UICONTROL Others]** incluye nombres de dominio que no pertenecen a ningún valor de la lista desglosada.
 >
->Obtenga información sobre cómo acceder y configurar las enumeraciones en [esta página](../config/enumerations.md).
+>Obtenga información sobre cómo acceder y configurar las enumeraciones en [Administrar enumeraciones](../config/enumerations.md).
 
 
 **[!UICONTROL 4. Generated click streams]**
@@ -168,7 +168,7 @@ This chart shows the breakdown of cumulated clicks per day.
 
 Este informe proporciona toda la información principal sobre la entrega.
 
-![](assets/user-report-summary.png)
+![Resumen del informe de envío con las secciones Población de público objetivo inicial, Causas de exclusión y Estadísticas de envío.](assets/user-report-summary.png)
 
 **[!UICONTROL Target population]**
 

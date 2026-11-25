@@ -26,12 +26,12 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 98%
+source-wordcount: '793'
+ht-degree: 83%
 ---
-# Procesamiento de la bandeja de entrada{#inbox-rendering}
+# Representación de la bandeja de entrada{#inbox-rendering}
 
 ## Acerca del procesamiento de la bandeja de entrada {#about-inbox-rendering}
 
@@ -72,7 +72,7 @@ Cada vez que se utiliza la función **[!UICONTROL Inbox rendering]** en un enví
 
 El número de tokens restantes disponibles se muestra en el [Informe de renderizado de la bandeja de entrada](#inbox-rendering-report).
 
-![](assets/s_tn_inbox_rendering_tokens.png)
+![Informe de resultados de procesamiento de la bandeja de entrada con el número de tokens utilizados del paquete mensual resaltado](assets/s_tn_inbox_rendering_tokens.png)
 
 Normalmente, la función de renderización de la bandeja de entrada se utiliza para probar el marco HTML de un correo electrónico recién diseñado. Cada renderización requiere aproximadamente 70 tokens (dependiendo de la cantidad de entornos en los que se pruebe). Sin embargo, en algunos casos puede necesitar varios informes de renderización de la bandeja de entrada para probar al completo su envío. Por lo tanto, puede requerir más tokens para realizar varias comprobaciones.
 
@@ -87,17 +87,17 @@ Para obtener más información sobre cómo crear, diseñar y segmentar una entre
 
 1. Seleccione **[!UICONTROL Analyze]** para iniciar el proceso de captura.
 
-   ![](assets/s_tn_inbox_rendering_button.png)
+   ![Botón de renderización de la Bandeja de entrada en la barra de herramientas de envío y el botón Analizar del cuadro de diálogo de renderización de la Bandeja de entrada](assets/s_tn_inbox_rendering_button.png)
 
-   Se envía una prueba. Se puede acceder a las miniaturas de renderización de esa prueba unos minutos después de enviar los mensajes de correo electrónico. Para obtener más información la entrega de pruebas, consulte [esta sección](preview-and-proof.md#send-proofs).
+   Se envía una prueba. Se puede acceder a las miniaturas de renderización de esa prueba unos minutos después de enviar los mensajes de correo electrónico. Para obtener más información sobre cómo enviar pruebas, consulte [Enviar pruebas](preview-and-proof.md#send-proofs).
 
 1. Una vez enviada, la prueba aparece en la lista de envío. Haga doble clic en ella.
 
-   ![](assets/s_tn_inbox_rendering_delivery_list.png)
+   ![Lista de envíos con la prueba del envío de correo electrónico seleccionado después de enviarlo](assets/s_tn_inbox_rendering_delivery_list.png)
 
 1. Vaya a la pestaña **Inbox Rendering** de la prueba.
 
-   ![](assets/s_tn_inbox_rendering_tab.png)
+   ![Pestaña Inbox Rendering de la prueba, resaltada, con el resumen del informe y la sección móvil](assets/s_tn_inbox_rendering_tab.png)
 
    Se muestra el informe de renderización de la bandeja de entrada.
 
@@ -107,14 +107,14 @@ Este informe muestra las renderizaciones de la bandeja de entrada tal y como apa
 
 La sección superior presenta la repartición del número de mensajes recibidos, no deseados (spam), no recibidos o pendientes de recepción a través de una representación gráfica codificada mediante colores.
 
-![](assets/s_tn_inbox_rendering_summary.png){width="40%"}
+![Gráfico circular de la bandeja de entrada, correo no deseado, no recibido y en espera de recepción, con No recibido y En espera oculto](assets/s_tn_inbox_rendering_summary.png){width="40%"}
 
 Pase el puntero por encima del gráfico para ver los detalles de cada color. Haga clic en un elemento de la lista para ocultar o mostrar la categoría correspondiente en el gráfico.
 
 El cuerpo del informe se divide en tres partes: **[!UICONTROL Mobile]**, **[!UICONTROL Desktop]** y **[!UICONTROL Webmails]**. Desplácese hacia abajo por el informe para mostrar todas las representaciones agrupadas en estas tres categorías.
 
-![](assets/s_tn_inbox_rendering_report.png)
+![Sección de correos electrónicos del informe de procesamiento de la Bandeja de entrada con una tarjeta para cada combinación de correo web y explorador](assets/s_tn_inbox_rendering_report.png)
 
 Para obtener los detalles de cada informe, haga clic en la tarjeta correspondiente. Se muestra la renderización del método de recepción seleccionado.
 
-![](assets/s_tn_inbox_rendering_example.png)
+![Procesamiento detallado del correo electrónico en Gmail en Chrome, abierto desde su tarjeta en el informe](assets/s_tn_inbox_rendering_example.png)

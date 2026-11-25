@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d027f76f86f34524ddf5b620de32cdcc98e60d21
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 58%
+source-wordcount: '1119'
+ht-degree: 45%
 ---
 # Creación de una oferta
 
@@ -60,7 +60,7 @@ Ahora puede usar la ficha **[!UICONTROL Eligibility]** para definir:
 
 En la pestaña **[!UICONTROL Eligibility]** de la oferta, defina el periodo de elegibilidad de la oferta. Utilice las listas desplegables para seleccionar una fecha de inicio y otra de finalización en el calendario.
 
-![](assets/offer_eligibility_create_002.png)
+![Pestaña Elegibilidad con el calendario desplegable de las fechas de inicio y finalización para el período de elegibilidad de la oferta.](assets/offer_eligibility_create_002.png)
 
 Fuera de este periodo, la oferta no se selecciona. Si también se han configurado las fechas de idoneidad para la categoría de oferta, se aplica el periodo más restrictivo.
 
@@ -70,11 +70,11 @@ En la pestaña **[!UICONTROL Eligibility]** de la oferta, aplique filtros al des
 
 Para ello, haga clic en el vínculo **[!UICONTROL Edit query]** y seleccione el filtro que desea aplicar.
 
-![](assets/offer_eligibility_create_003.png)
+![Seleccione el asistente de condiciones de filtrado de destino, abierto desde el vínculo Editar consulta en la ficha Elegibilidad.](assets/offer_eligibility_create_003.png)
 
 Si ya se han creado filtros predefinidos, puede seleccionarlos de la lista de filtros de usuario. [Más información](interaction-predefined-filters.md)
 
-![](assets/offer_eligibility_create_004.png)
+![Lista de filtros de usuario en el asistente de direccionamiento, con el filtro seleccionado aplicado y una vista previa de los destinatarios coincidentes.](assets/offer_eligibility_create_004.png)
 
 ### Definición de la ponderación de la oferta {#offer-weight}
 
@@ -92,11 +92,11 @@ Para crear una ponderación en una oferta, siga los siguientes pasos:
 
 1. En la ficha **[!UICONTROL Eligibility]** de la oferta, haga clic en **[!UICONTROL Add]**.
 
-   ![](assets/offer_weight_create_001.png)
+   ![Pestaña Elegibilidad con el botón Agregar que abre el cuadro de diálogo Ponderación para crear una ponderación de oferta.](assets/offer_weight_create_001.png)
 
 1. Cambie la etiqueta y asigne un peso. El valor predeterminado es 1.
 
-   ![](assets/offer_weight_create_006.png)
+   ![Cuadro de diálogo Peso con el campo Etiqueta y el valor Peso en la sección Arbitraje.](assets/offer_weight_create_006.png)
 
    >[!CAUTION]
    >
@@ -104,19 +104,19 @@ Para crear una ponderación en una oferta, siga los siguientes pasos:
 
 1. Si desea que el peso se aplique durante un periodo determinado, defina las fechas de idoneidad.
 
-   ![](assets/offer_weight_create_002.png)
+   ![Cuadro de diálogo Peso con fecha de inicio y fecha de finalización establecidas en la sección Fechas de idoneidad.](assets/offer_weight_create_002.png)
 
 1. Si es necesario, limite el peso a un espacio de oferta específico.
 
-   ![](assets/offer_weight_create_003.png)
+   ![Cuadro de diálogo Peso con la lista desplegable Espacio de ofertas que enumera los espacios a los que se puede restringir el peso.](assets/offer_weight_create_003.png)
 
 1. Aplicar un filtro a un destino.
 
-   ![](assets/offer_weight_create_004.png)
+   ![Cuadro de diálogo Grosor con el vínculo Editar consulta en Filtros del destino resaltado.](assets/offer_weight_create_004.png)
 
 1. Haga clic en **[!UICONTROL OK]** para guardar la ponderación.
 
-   ![](assets/offer_weight_create_005.png)
+   ![Tabla de ponderación de la ficha Elegibilidad que enumera la nueva ponderación Premium con sus fechas y filtro.](assets/offer_weight_create_005.png)
 
    >[!NOTE]
    >
@@ -128,13 +128,13 @@ Una vez completada la configuración, se encontrará disponible un resumen de la
 
 Para visualizarlo, haga clic en el vínculo **[!UICONTROL Schedule and eligibility rules]**.
 
-![](assets/offer_eligibility_create_005.png)
+![Panel de ofertas con el vínculo Programación y reglas de elegibilidad resaltado.](assets/offer_eligibility_create_005.png)
 
 ## Creación del contenido de la oferta {#creating-the-offer-content}
 
 Utilice la ficha **[!UICONTROL Content]** para definir el contenido de la oferta.
 
-![](assets/offer_content_create_001.png)
+![Pestaña Contenido de la oferta con título, dirección URL de destino, campos de dirección URL de imagen y el editor de contenido de HTML.](assets/offer_content_create_001.png)
 
 1. Defina los distintos parámetros del contenido de la oferta.
 
@@ -143,7 +143,7 @@ Utilice la ficha **[!UICONTROL Content]** para definir el contenido de la oferta
    * **[!UICONTROL Image URL]**: especifique una dirección URL o una ruta de acceso a la imagen de la oferta.
    * **[!UICONTROL HTML content]** / **[!UICONTROL Text content]**: introduzca el cuerpo de la oferta en la pestaña que desee. Para generar un seguimiento, el **[!UICONTROL HTML content]** debe estar compuesto por elementos HTML que se puedan incluir en un elemento de tipo `<div>` Por ejemplo, el resultado de un elemento `<table>` en la página de HTML será el siguiente:
 
-   ```
+   ```xml
       <div> 
        <table>
         <tr>
@@ -158,13 +158,13 @@ Utilice la ficha **[!UICONTROL Content]** para definir el contenido de la oferta
       </div>
    ```
 
-   Aprenda a definir la dirección URL de aceptación en [esta sección](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
+   Aprenda a definir la dirección URL de aceptación en [Estado de la oferta cuando se acepte la propuesta](interaction-offer-spaces.md#configuring-the-status-when-the-proposition-is-accepted).
 
-   ![](assets/offer_content_create_002.png)
+   ![La ficha Contenido se ha rellenado con un título, una dirección URL de destino y una dirección URL de imagen, además del vínculo Definiciones de contenido.](assets/offer_content_create_002.png)
 
    Para buscar los campos requeridos tal y como estaban definidos durante la configuración del espacio de oferta, haga clic en el vínculo **[!UICONTROL Content definitions]** para mostrar la lista. [Más información](interaction-offer-spaces.md)
 
-   ![](assets/offer_content_create_003.png)
+   ![Los campos de contenido requeridos para cada espacio de oferta incluyen los campos de definición de contenido.](assets/offer_content_create_003.png)
 
    En este ejemplo, la oferta debe incluir un título, una imagen, contenido HTML y una dirección URL de destino.
 
@@ -176,11 +176,11 @@ Para ello, haga lo siguiente:
 
 1. Haga clic en la pestaña **[!UICONTROL Preview]**.
 
-   ![](assets/offer_preview_create_001.png)
+   ![Pestaña Vista previa de la oferta, que enumera las representaciones para obtener una vista previa de cada espacio de oferta.](assets/offer_preview_create_001.png)
 
 1. Seleccione la representación de la oferta que desee ver.
 
-   ![](assets/offer_preview_create_002.png)
+   ![Pestaña Vista previa con la representación de correo electrónico/clientes expandida para mostrar el contenido de oferta procesado.](assets/offer_preview_create_002.png)
 
 1. Si ha personalizado el contenido de la oferta, seleccione el objetivo de la oferta para ver la personalización.
 
@@ -202,13 +202,13 @@ Creating hypotheses is detailed in [this page](../../automation/response/about-r
 
 Ahora puede aprobar y activar la oferta para que esté disponible en el entorno **Live**.
 
-Para obtener más información, consulte [esta sección](approving-and-activating-an-offer.md#approving-offer-content).
+Para obtener más información, consulte [Aprobación del contenido de la oferta](approving-and-activating-an-offer.md#approving-offer-content).
 
 ## Administración de presentación de ofertas{#offer-presentation}
 
 Campaign permite controlar el flujo de propuestas de ofertas utilizando las reglas de presentación. Estas reglas, que son específicas de la interacción de Campaign, son **reglas de tipología**. Permiten excluir ofertas basadas en el historial de propuestas que ya se hayan hecho a un destinatario. Se las menciona en el entorno.
 
-Para obtener más información, consulte [esta sección](managing-offer-presentation.md).
+Para obtener más información, consulte [Administración de la presentación de ofertas](managing-offer-presentation.md).
 
 ## Simulación de oferta
 
@@ -216,4 +216,4 @@ El módulo de **Simulation** permite probar la distribución de ofertas pertenec
 
 La simulación tiene en cuenta los contextos y las reglas de idoneidad aplicadas anteriormente a las ofertas y sus reglas de presentación. Esto permite probar y perfeccionar varias versiones de la propuesta de oferta sin utilizar realmente una por encima o por debajo del objetivo, ya que la simulación no tiene ningún impacto en los destinatarios a los que va dirigida.
 
-Para obtener más información sobre la simulación de oferta, consulte [esta sección](about-offers-simulation.md).
+Para obtener más información sobre la simulación de ofertas, consulte [Simulación de ofertas](about-offers-simulation.md).

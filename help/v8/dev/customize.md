@@ -38,9 +38,9 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '513'
 ht-degree: 6%
 ---
 # Personalizar la instancia {#gs-ac-custom}
@@ -67,7 +67,7 @@ Hay dos modos de extensión de tabla disponibles:
 
   Aprenda a añadir rápidamente un nuevo campo en Campaign en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/editing-schemas/new-field-wizard.html?lang=es#configuring-campaign-classic){target="_blank"}
 
-* Mediante programación, ampliando el esquema. Aprenda a ampliar un esquema existente en [esta sección](../dev/extend-schema.md).
+* Mediante programación, ampliando el esquema. Aprenda a ampliar un esquema existente en [Ampliar esquemas de Campaign](../dev/extend-schema.md).
 
 También puede crear nuevas tablas en la base de datos de Campaign y ampliar el modelo de datos integrado.
 
@@ -84,7 +84,7 @@ Caso de uso: vincular un campo a una tabla de referencia existente en [documenta
 
 Los formularios de entrada de la campaña se pueden adaptar a su implementación. Puede agregar o quitar campos de formulario modificando el contenido XML.
 
-Aprenda a modificar un formulario de entrada existente o a crear un nuevo formulario en [esta sección](../dev/forms.md).
+Aprenda a modificar un formulario de entrada existente o a crear uno nuevo en [Formularios de entrada de campaña](../dev/forms.md).
 
 ## Personalizar paneles{#gs-custom-dashboards}
 
@@ -92,7 +92,7 @@ La interfaz de Adobe Campaign utiliza muchas aplicaciones web para acceder, admi
 
 Las aplicaciones web integradas se almacenan en la carpeta **Administration > Configuration > Web applications** del explorador.
 
-Aprenda a crear una página de información general en Campaign en [esta sección](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
+Aprenda a crear una página de información general en Campaign en [Creación de una aplicación web de una sola página](web/use-cases-creating-overviews.md#creating-a-single-page-web-application)
 
 
 ## Personalización de listas y creación de filtros {#gs-lists-and-filters}
@@ -101,8 +101,8 @@ Las listas de campañas incluyen filtros predefinidos para facilitar la navegaci
 
 Cuando navega por el árbol del Explorador de Adobe Campaign, los datos contenidos en la base de datos se muestran en listas. Puede filtrar estas listas, ejecutar búsquedas, añadir información, filtrar y ordenar datos.
 
-Obtenga información sobre cómo configurar listas y guardar una configuración de lista en [esta página](../start/campaign-ui.md).
+Obtenga información sobre cómo configurar listas y guardar una configuración de lista en [Interfaz de usuario de Discover Campaign](../start/campaign-ui.md).
 
 Puede aplicar filtros a estas listas para mostrar solo los datos necesarios para el operador. Se pueden ejecutar acciones en los datos filtrados. La configuración del filtro permite seleccionar datos de una lista de forma dinámica. Al modificar los datos, los datos filtrados se actualizan.
 
-Obtenga más información acerca de las opciones de filtrado en [esta página](../audiences/create-filters.md).
+Más información sobre las opciones de filtrado en [Trabajar con filtros en Adobe Campaign](../audiences/create-filters.md).

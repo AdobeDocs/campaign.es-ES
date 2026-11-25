@@ -24,9 +24,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '11502'
+source-wordcount: '11508'
 ht-degree: 14%
 ---
 # Preguntas frecuentes {#faq}
@@ -102,7 +102,7 @@ Obtenga información sobre cómo conectarse a [!DNL CX Enterprise] y obtener acc
 
 +++ ¿Cuáles son los conceptos de la interfaz de usuario de Campaign que debería conocer?
 
-Consulte [esta sección](campaign-ui.md) para obtener más información sobre los conceptos básicos de la interfaz de usuario de Adobe Campaign.
+Consulte la [Interfaz de usuario de Discover Campaign](campaign-ui.md) para obtener más información sobre los conceptos básicos de la interfaz de usuario de Adobe Campaign.
 
 A partir de la versión 8.6 de Campaign, también tiene acceso a la nueva **interfaz de usuario web de Campaign**, disponible a través del entorno central [!DNL CX Enterprise].
 
@@ -534,7 +534,7 @@ Aprenda a diseñar mensajes de marketing eficaces en Campaign v8, incluidas plan
 
 +++ ¿Cuáles son las prácticas recomendadas para diseñar correos electrónicos en Campaign?
 
-Directrices clave: Garantice un diseño adaptable a dispositivos móviles, utilice un código compatible con HTML 4.0/XHTML con CSS en línea, optimice las imágenes (menos de 100 KB) con texto alternativo, utilice campos de combinación de personalización, realice pruebas en clientes de correo electrónico antes de enviarlo e incluya una versión de texto sin formato. Consiga un tamaño total de correo electrónico inferior a 500 KB para conseguir una entrega óptima.
+Directrices clave: Garantice un diseño interactivo para móviles y utilice código compatible con HTML 4.0/XHTML con CSS en línea. Optimizar imágenes (inferiores a 100 KB) con texto alternativo, utilizar campos combinados de personalización, realizar pruebas entre clientes de correo electrónico antes de enviarlo e incluir una versión de texto sin formato. Consiga un tamaño total de correo electrónico inferior a 500 KB para conseguir una entrega óptima.
 
 **Temas relacionados:**
 
@@ -1212,7 +1212,7 @@ El Panel de control de Campaign de Campaign es una interfaz administrativa basad
 Adobe Campaign v8 ofrece la capacidad de comparar toda la configuración actual de cuentas administrativas de nivel superior y cuentas privilegiadas con los valores predeterminados seguros recomendados.
 
 * **Configuración actual (visibilidad completa):** Toda la configuración de las cuentas administrativas y con privilegios se puede revisar en **[!UICONTROL Administration]** > **[!UICONTROL Access management]** (consola de cliente o interfaz de usuario web de Campaign): **[!UICONTROL Operators]**, **[!UICONTROL Operator groups]**, **[!UICONTROL Named rights]** (por ejemplo, ADMINISTRACIÓN, ADMINISTRACIÓN DE APROBACIÓN) y permisos de nivel de carpeta. Los administradores de productos también pueden revisar la configuración a nivel de instancia en [Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/control-panel-home.html?lang=es){target="_blank"} (lista de permitidos IP, permisos de URL, detalles de instancias y más).
-* **Valores predeterminados seguros recomendados:** Las [Directrices de seguridad](../config/security.md) definen la línea de base segura recomendada para las cuentas administrativas y con privilegios, entre las que se incluyen: crear suficientes grupos de seguridad, asignar los derechos de acceso adecuados por operador y limitar el uso del operador de administración y del grupo de administración. Si corresponde, consulte también el [complemento de seguridad mejorada](../config/enhanced-security.md) para proteger la red y el cifrado.
+* **Valores predeterminados seguros recomendados:** Las [Directrices de seguridad](../config/security.md) definen la línea de base segura recomendada para las cuentas administrativas y con privilegios. Le recomiendan que cree suficientes grupos de seguridad, asigne los derechos de acceso adecuados por operador y limite el uso del operador de administración y del grupo de administración. Si corresponde, consulte también el [complemento de seguridad mejorada](../config/enhanced-security.md) para proteger la red y el cifrado.
 * **Comparación:** Los administradores comparan su configuración actual con estas recomendaciones documentadas para identificar brechas y alinearse con los valores predeterminados seguros.
 
 **Temas relacionados:**

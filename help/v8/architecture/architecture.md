@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 13%
+source-wordcount: '1166'
+ht-degree: 12%
 ---
 # Introducción a la arquitectura de Campaign{#gs-ac-archi}
 
@@ -62,7 +62,7 @@ Hay dos modelos de implementación disponibles: **Implementación de FDA de Camp
 En su [implementación de FDA](fda-deployment.md), [!DNL Adobe Campaign] v8 se puede conectar a [!DNL Snowflake] para acceder a los datos a través de la capacidad de acceso de datos federado: puede acceder y procesar la información y los datos externos almacenados en la base de datos [!DNL Snowflake] sin cambiar la estructura de los datos de Adobe Campaign. PostgreSQL es la base de datos principal y puede utilizar Snowflake como base de datos secundaria para ampliar el modelo de datos y almacenar los datos en Snowflake. Posteriormente, puede ejecutar ETL, segmentación e informes en un conjunto de datos grande con un rendimiento sobresaliente.
 
 
-![](assets/P1-P3-architecture.png){zoomable="yes"}
+![Arquitectura de FDA de Campaign v8: servidor de aplicaciones, bases de datos Postgres y Snowflake, servidores de entrega en tiempo real y por lotes](assets/P1-P3-architecture.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -75,7 +75,7 @@ En el contexto de una implementación [Enterprise (FDAC) Deployment](enterprise-
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FDAC) simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 
-![](assets/P4-architecture.png){zoomable="yes"}
+![Arquitectura de FDAC de Campaign v8: servidor de aplicaciones, base de datos en la nube con Snowflake, replicación de Postgres, servidores de entrega](assets/P4-architecture.png){zoomable="yes"}
 
 
 ## Ejecución de envío dividido {#split}
@@ -97,7 +97,7 @@ Para ello, se crean cuentas externas adicionales con el modo de enrutamiento **[
 * Envío dividido: iOS (splitDeliveryIOS)
 * Envío dividido: Android (splitDeliveryAndroid)
 
-![](assets/splitted-delivery.png)
+![Envío dividido de cuenta externa - Correo electrónico: tipo de enrutamiento, canal de correo electrónico, modo de envío intermediario, nombre splitDeliveryEmail](assets/splitted-delivery.png)
 
 >[!IMPORTANT]
 >
@@ -109,11 +109,11 @@ Para que las cuentas externas divididas sean la cuenta predeterminada para reali
 
 1. Vaya a la carpeta **[!UICONTROL Resources]** / **[!UICONTROL Templates]** / **[!UICONTROL Delivery templates]** y abra la plantilla de envío deseada. En este ejemplo, deseamos editar la plantilla de envíos de correo electrónico.
 
-   ![](assets/split-default-list.png)
+   ![Lista de plantillas de envío en Recursos, Plantillas, con la plantilla de envío de correo electrónico (correo) seleccionada](assets/split-default-list.png)
 
 1. Haga clic en el botón **[!UICONTROL Properties]** y cambie el proveedor de enrutamiento a la cuenta externa de entrega dividida correspondiente.
 
-   ![](assets/split-default-delivery.png)
+   ![Cuadro de diálogo de propiedades de envío con el campo Enrutamiento y la lista de cuentas externas que muestra SplitEmail](assets/split-default-delivery.png)
 
 1. Guarde los cambios. Todos los envíos realizados con la plantilla utilizan el modo de enrutamiento dividido de forma predeterminada.
 
@@ -127,7 +127,7 @@ In addition, you can select split external accounts as the default routing provi
 
 La mensajería transaccional (Centro de mensajes) es el módulo de Campaign diseñado para gestionar mensajes de activación.
 
-Aprenda a enviar mensajes transaccionales en [esta sección](../send/transactional.md).
+Aprenda a enviar mensajes transaccionales en [Mensajería transaccional de Campaign](../send/transactional.md).
 
 En respuesta a una acción de un cliente en un sitio web, se envía un evento a Campaign a través de una API de REST, y la plantilla de mensaje se rellena con la información o los datos proporcionados a través de la llamada de API, y se envía un mensaje transaccional en tiempo real al cliente. Estos mensajes se pueden enviar por separado o en serie por correo electrónico, SMS o notificaciones push.
 
@@ -135,7 +135,7 @@ En esta arquitectura específica, la celda de ejecución se separa de la instanc
 
 * Los especialistas en marketing y los equipos de TI utilizan la **instancia de control** (o instancia de marketing) para crear, configurar y publicar plantillas de mensajes. Esta instancia también centraliza la monitorización y el historial de eventos.
 
-  Aprenda a crear y publicar plantillas de mensajes en [esta sección](../send/transactional.md).
+  Aprenda a crear y publicar plantillas de mensajes en [Mensajería transaccional de Campaign](../send/transactional.md).
 
 * La **instancia de ejecución** recupera los eventos entrantes (restablecimiento de contraseña o pedidos de un sitio web, por ejemplo) y envía mensajes personalizados. Puede haber más de una instancia de ejecución para procesar mensajes a través del equilibrador de carga y escalar el número de eventos que se procesarán para obtener la máxima disponibilidad.
 
@@ -143,7 +143,7 @@ En esta arquitectura específica, la celda de ejecución se separa de la instanc
 >
 >La instancia de control y las instancias de ejecución deben estar instaladas en diferentes equipos. No pueden compartir la misma instancia de Campaign.
 
-![](assets/messagecenter_diagram.png)
+![Centro de mensajes: los eventos del sitio web llegan a la instancia de control P y a las instancias de ejecución E1 a EN, que envían mensajes](assets/messagecenter_diagram.png)
 
 ### Autenticación
 
@@ -156,4 +156,4 @@ A continuación, con el sessionToken proporcionado por la instancia de ejecució
 * Varias instancias de ejecución
 En una arquitectura de ejecución de varias celdas con varias instancias de ejecución detrás de un equilibrador de carga, el método de inicio de sesión invocado por la aplicación externa pasa a través del equilibrador de carga: por ese motivo, no se puede utilizar una autenticación basada en token. Se requiere una autenticación basada en usuario/contraseña.
 
-Obtenga más información acerca de los eventos de mensajería transaccional en [esta página](../send/event-processing.md).
+Obtenga más información acerca de los eventos de mensajería transaccional en [Recopilar y procesar eventos](../send/event-processing.md).

@@ -36,22 +36,22 @@ topic_v2:
     internal-label: Customer experience
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 78%
+source-wordcount: '675'
+ht-degree: 73%
 ---
 # Descripción de los componentes y procesos de Campaign {#components-and-processes}
 
 Adobe Campaign es una solución de marketing en canales múltiples que automatiza las campañas por correo electrónico, en móviles, redes sociales y sin conexión. Adobe Campaign ofrece un lugar central para acceder a los datos y perfiles de los clientes. Utilice Adobe Campaign para orquestar experiencias coherentes para sus clientes, diseñar, ejecutar y personalizar su marketing a través de canales, a la vez que mejora las experiencias de los clientes en cada dispositivo y punto de contacto. Con Adobe Campaign, puede administrar varias fuentes de datos, definir los segmentos de público y planificar y ejecutar campañas en canales múltiples y con varios pasos a través de una interfaz de flujo de trabajo visual de tipo arrastrar y soltar.
 
-Obtenga más información sobre las funcionalidades clave de Campaign [en esta página](../start/get-started.md).
+Obtenga más información acerca de las funcionalidades clave de Campaign en [Introducción a Campaign v8](../start/get-started.md).
 
 ## Componentes de Campaign {#ac-components}
 
 A continuación se describen los componentes y la arquitectura global de Adobe Campaign.
 
-![](assets/do-not-localize//ac-components.png)
+![Arquitectura: integración, presentación, aplicación lógica y capas de persistencia, además de la ejecución de correo electrónico, correo y SMS](assets/do-not-localize//ac-components.png)
 
 ### Capa de presentación{#presentation-layer}
 
@@ -87,7 +87,7 @@ La versión 8 de Adobe Campaign se implementa como “As a Managed Service”. T
 
 El servidor web de Campaign controla el acceso a los procesos web de Campaign. JavaScript es el lenguaje del lado del servidor que se utiliza para las funciones y personalizaciones principales del producto. Tomcat es el motor back-end y está integrado en el producto Campaign como parte del proceso web. JavaScript se utiliza, por ejemplo, en páginas JSP o JSSP para procesar contenido dinámico.
 
-![](assets/do-not-localize/ac-processes.png)
+![La consola del cliente y otras aplicaciones llaman al servidor web y al proceso web, que tienen acceso a la base de datos a través de SQL](assets/do-not-localize/ac-processes.png)
 
 La consola del cliente de Campaign se conecta al servidor web mediante SOAP XML a través de HTTP. El servidor web proporciona la capa de seguridad, pasa las solicitudes a la capa de aplicación mediante JavaScript y los procesos internos de Campaign acceden a la base de datos mediante SQL.
 

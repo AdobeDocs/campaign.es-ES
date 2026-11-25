@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 3%
+source-wordcount: '647'
+ht-degree: 2%
 ---
 # Introducción a los canales personalizados {#gs-custom-channel}
 
@@ -40,11 +40,11 @@ Para obtener información sobre cómo crear y realizar una entrega basada en un 
 
 Estos son los pasos para configurar un nuevo canal personalizado en la consola del cliente. Estos pasos son comunes a los canales externos y API personalizados:
 
-1. Configure el esquema [más información](#configure-schema)
-1. Crear una nueva cuenta externa, [leer más](#create-ext-account)
-1. Crear una nueva plantilla de envíos, [leer más](#create-template)
+1. Configure el esquema [Configure el esquema](#configure-schema)
+1. Crear una nueva cuenta externa, [Crear una nueva cuenta externa](#create-ext-account)
+1. Crear una nueva plantilla de envíos, [Crear una nueva plantilla de envíos](#create-template)
 
-Los canales de API personalizados requieren una configuración adicional. [Más información](#api-additional)
+Los canales de API personalizados requieren una configuración adicional. [Configuración adicional de API personalizada](#api-additional)
 
 ## Configuración del esquema{#configure-schema}
 
@@ -56,14 +56,14 @@ En primer lugar, se debe configurar el esquema para añadir el nuevo canal a la 
 
    Por ejemplo:
 
-   ```
+   ```xml
    <enumeration basetype="byte" default="mail" label="Channel" name="messageType">
    <value desc="My Webpush" img="ncm:channels.png" label="My Webpush" name="webpush"
           value="122"/>
    </enumeration>
    ```
 
-   ![](assets/cus-schema.png){zoomable="yes"}
+   ![Esquema de origen de envíos (cus) con la enumeración messageType para el canal personalizado resaltado](assets/cus-schema.png){zoomable="yes"}
 
 ## Cree una nueva cuenta externa{#create-ext-account}
 
@@ -75,7 +75,7 @@ A continuación, debe crear una nueva cuenta externa de enrutamiento.
 
 1. Seleccione el canal y cambie el modo de envío. Elija **Externo** para canales externos personalizados y **Masivo** para canales API personalizados.
 
-   ![](assets/cus-ext-account.png){zoomable="yes"}
+   ![Cuenta externa de tipo Enrutamiento con el canal personalizado seleccionado y el modo de envío establecido en Externo](assets/cus-ext-account.png){zoomable="yes"}
 
 ## Creación de una nueva plantilla de envíos{#create-template}
 
@@ -87,7 +87,7 @@ Ahora, vamos a crear la nueva plantilla asociada al nuevo canal.
 
 1. Haga clic en **Propiedades** y seleccione la carpeta y el enrutamiento correctos.
 
-   ![](assets/cus-template.png){zoomable="yes"}
+   ![Propiedades de la plantilla de envío, ficha General, con los campos Carpeta y Enrutamiento establecidos en la cuenta externa del canal personalizado](assets/cus-template.png){zoomable="yes"}
 
 El nuevo canal ya está disponible. Puede crear y ejecutar envíos basados en este canal.
 
@@ -107,13 +107,13 @@ En la interfaz de usuario web de Campaign, configure la definición de pantalla 
 
 1. Abra el esquema **Delivery** y haga clic en **Screen edition**.
 
-   ![](assets/cus-schema2.png){zoomable="yes"}
+   ![Página de esquema de envíos (nms) con el botón Screen edition en la parte superior derecha](assets/cus-schema2.png){zoomable="yes"}
 
 1. Seleccione la pestaña que corresponde al canal y defina cómo se mostrarán los campos en la pantalla de contenido del envío. Para obtener más información sobre la edición en pantalla, consulte esta [página](https://experienceleague.adobe.com/docs/campaign-web/v8/conf/schemas.html?lang=es#fields){target="_blank"}.
 
-   ![](assets/cus-schema3.png){zoomable="yes"}
+   ![Cuadro de diálogo de definición de pantalla, ficha de canal personalizado, que enumera campos personalizados con etiqueta, atributo, tipo y opción obligatoria](assets/cus-schema3.png){zoomable="yes"}
 
-1. En la sección **Vista previa para simular contenido**, seleccione el JSP dedicado. Esto es opcional. Esto activa la previsualización en la pantalla de simulación de envío. [Más información](#api-additional-preview)
+1. En la sección **Vista previa para simular contenido**, seleccione el JSP dedicado. Esto es opcional. Esto activa la previsualización en la pantalla de simulación de envío. [Configurar la vista previa](#api-additional-preview)
 
 ### Configuración de la previsualización{#api-additional-preview}
 
@@ -128,7 +128,7 @@ Cuando hace clic en **Abrir vista previa** en la pantalla de simulación de env�
 
 En la consola del cliente, seleccione **Administración** > **Configuración** > **Páginas dinámicas de JavaScript** y cree un nuevo JSSP. Este es un ejemplo con los parámetros que deben recuperarse.
 
-```
+```html
 <%@ page import="xtk:shared/nl.js"
 %><%
   NL.require("/nl/core/shared/core.js")

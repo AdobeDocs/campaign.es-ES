@@ -34,7 +34,7 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 2%
@@ -61,7 +61,7 @@ Estos filtros se introducen en el nivel principal **element** de los esquemas y,
 
   En este caso, el filtro se utiliza para impedir los permisos de ESCRITURA en el esquema a los operadores sin el permiso ADMINISTRACIÓN. Esto significa que solo los administradores tendrán permisos de escritura en las entidades descritas en este esquema.
 
-  ```
+  ```xml
   <sysFilter name="writeAccess">      
    <condition enabledIf="hasNamedRight('admin')=false" expr="FALSE"/>    
   </sysFilter>
@@ -71,7 +71,7 @@ Estos filtros se introducen en el nivel principal **element** de los esquemas y,
 
   En este caso, el filtro se utiliza para impedir los permisos de LECTURA y ESCRITURA en el esquema para todos los operadores. Solo la cuenta **internal**, representada por la expresión &quot;$(loginId)!=0&quot;, tiene estos permisos.
 
-  ```
+  ```xml
   <sysFilter name="readAccess"> 
    <condition enabledIf="$(loginId)!=0" expr="FALSE"/>
   </sysFilter>

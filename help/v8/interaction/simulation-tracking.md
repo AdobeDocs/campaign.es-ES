@@ -29,10 +29,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 66%
+source-wordcount: '198'
+ht-degree: 55%
 ---
 # Seguimiento de la simulación{#simulation-tracking}
 
@@ -46,10 +46,10 @@ En caso necesario, se pueden guardar estos resultados y exportarlos creando un a
 
 Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis){target="_blank"} para obtener más información sobre el asistente de análisis descriptivo.
 
-![](assets/offer_simulation_012.png)
+![Pestaña Simulation Results con el desglose de propuestas por ofertas y el vínculo Descriptive analysis of results](assets/offer_simulation_012.png)
 
 Una tabla dinámica proporciona una vista rápida de los desgloses de la oferta en función de su rango. Al igual que todos los informes de Adobe Campaign, puede exportarlos, imprimirlos, archivarlos o visualizarlos en un navegador web.
 
 Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/reporting/creating-new-reports/actions-on-reports){target="_blank"}.
 
-![](assets/offer_simulation_013.png)
+![Panel de simulación, informe Desglose de ofertas por rango, con tabla de clasificación de ofertas, gráfico circular y barra de herramientas de exportación](assets/offer_simulation_013.png)

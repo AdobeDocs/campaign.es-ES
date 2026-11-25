@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 13%
+source-wordcount: '472'
+ht-degree: 12%
 ---
 # Conexión de Campaign con las soluciones{#gs-ac-connectors}
 
@@ -73,13 +73,13 @@ Puede conectar su plataforma Adobe Campaign a sus **sistemas de terceros de CRM*
 Active los datos de CRM en la comunicación entre canales: Aprenda a pasar contactos de su sistema CRM a Adobe Campaign y a compartir los datos de campaña de Adobe Campaign con su sistema CRM.
 Los conectores CRM permiten una integración de datos rápida y sencilla: Adobe Campaign proporciona un asistente dedicado para recopilar y seleccionar de las tablas disponibles en CRM. De este modo, se garantiza la sincronización bidireccional para asegurar que los datos estén actualizados en todo momento en todos los sistemas.
 
-Aprenda a integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en [esta página](crm.md).
+Aprenda a integrar Campaign con Microsoft Dynamics 365 y Salesforce.com en [Trabaje con Campaign y su CRM](crm.md).
 
 ## Conexión de terceros con acceso de datos federado{#gs-fda}
 
 Utilice el conector FDA (Acceso de datos federado) para conectar Campaign a una o más **bases de datos externas** y procesar la información almacenada en ellas sin afectar a los datos de la base de datos en la nube de Campaign.
 
-Obtenga más información en [esta página](fda.md).
+Obtenga más información en [Trabajar con bases de datos de Campaign y externas (FDA)](fda.md).
 
 ## Uso de medios sociales{#gs-social}
 
@@ -91,6 +91,6 @@ Se puede:
 * Publica en tu cuenta X
 * Recopilar nuevos contactos
 
-Aprenda a configurar y utilizar la integración X en [esta página](../connect/ac-tw.md).
+Aprenda a configurar y utilizar la integración X en [Trabajar con Campaign y X (Twitter)](../connect/ac-tw.md).
 
-Aprenda a crear publicaciones X y a enviar mensajes directos a sus seguidores en [esta página](../send/twitter.md).
+Aprenda a crear publicaciones X y a enviar mensajes directos a sus seguidores en [Publicar mensajes en X (Twitter) con Adobe Campaign](../send/twitter.md).

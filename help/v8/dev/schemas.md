@@ -38,10 +38,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 9%
+source-wordcount: '1376'
+ht-degree: 8%
 ---
 # Trabajo con esquemas{#gs-ac-schemas}
 
@@ -69,7 +69,7 @@ Adobe Campaign emplea esquemas de datos para:
 * Definir vínculos entre los diferentes objetos de datos dentro de la aplicación de Campaign.
 * Definir y describir los campos individuales incluidos en cada objeto.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta sección](datamodel.md).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [Introducción al modelo de datos de Campaign](datamodel.md).
 
 >[!CAUTION]
 >
@@ -81,7 +81,7 @@ El elemento raíz del esquema es **`<srcschema>`**. Contiene los subelementos **
 
 El primer subelemento **`<element>`** coincide con la raíz de la entidad.
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">  
     <attribute name="lastName"/>
@@ -97,7 +97,7 @@ El primer subelemento **`<element>`** coincide con la raíz de la entidad.
 >
 >El elemento raíz de la entidad tiene el mismo nombre que el esquema.
 
-![](assets/schema_and_entity.png)
+![Un esquema define la estructura XML de los datos del destinatario; una entidad es un registro específico que la sigue.](assets/schema_and_entity.png)
 
 Las etiquetas **`<element>`** definen los nombres de los elementos de entidad. Las etiquetas **`<attribute>`** del esquema definen los nombres de los atributos en las etiquetas **`<element>`** a las que se han vinculado.
 
@@ -137,7 +137,7 @@ Para añadir un tipo de datos completamente nuevo que no existe en Adobe Campaig
 
 Para obtener más información, consulte [Crear un nuevo esquema](create-schema.md).
 
-![](assets/schemaextension_1.png)
+![Asistente para la creación de esquemas de datos, paso de tipo de esquema, con las opciones New table y Extension of a schema resaltadas.](assets/schemaextension_1.png)
 
 
 Una vez creado o ampliado un esquema para trabajar en, la práctica recomendada es definir sus elementos de contenido XML en el mismo orden en que aparecen a continuación.
@@ -221,13 +221,13 @@ En este ejemplo, en lugar de permitir que el atributo **@autopk** o **@autouuid*
 >
 >Al crear un nuevo esquema o durante una extensión de esquema, se debe mantener el mismo valor de secuencia de clave principal (@pkSequence) para todo el conjunto.
 
-Obtenga más información acerca de las claves en [esta sección](database-mapping.md).
+Obtenga más información acerca de las claves en [Asignación de bases de datos de Campaign](database-mapping.md).
 
 ## Atributos (campos) {#attributes--fields-}
 
-Los atributos permiten definir los campos que conforman el objeto de datos. Puede usar el botón **[!UICONTROL Insert]** de la barra de herramientas de la edición de esquemas para soltar plantillas de atributos vacías en el XML donde se encuentra el cursor. Obtenga más información en [esta sección](create-schema.md).
+Los atributos permiten definir los campos que conforman el objeto de datos. Puede usar el botón **[!UICONTROL Insert]** de la barra de herramientas de la edición de esquemas para soltar plantillas de atributos vacías en el XML donde se encuentra el cursor. Más información en [Crear un nuevo esquema en Campaign](create-schema.md).
 
-![](assets/schemaextension_2.png)
+![Edite el paso del esquema con el menú Insertar abierto para agregar un atributo como Cadena, Booleano, Entero o Fecha.](assets/schemaextension_2.png)
 
 La lista completa de atributos está disponible en la sección de elementos `<attribute>` de la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/schema-reference/elements-attributes/attribute.html?lang=es#content-model){target="_blank"}. Estos son algunos de los atributos más utilizados: **@advanced**, **@dataPolicy**, **@default**, **@desc**, **@enum**, **@expr**, **@label**, **@length**, **@name**, **@notNull**, **@required**, **@ref**, **@xml**, **@type**.
 
@@ -311,9 +311,9 @@ Utilice el ejemplo siguiente para incluir campos relacionados con la fecha de cr
 
 Una vez completados y guardados los cambios, cualquier cambio que pueda afectar a la estructura SQL debe aplicarse a la base de datos. Para ello, utilice el asistente de actualización de bases de datos.
 
-![](assets/schemaextension_3.png)
+![Herramientas, menú Avanzado en la consola con la opción Actualizar estructura de base de datos seleccionada para aplicar cambios de esquema.](assets/schemaextension_3.png)
 
-Para obtener más información, consulte [esta sección](update-database-structure.md).
+Para obtener más información, consulte [Actualizar la estructura de la base de datos](update-database-structure.md).
 
 >[!NOTE]
 >

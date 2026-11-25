@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 100%
+source-wordcount: '262'
+ht-degree: 82%
 ---
 # Uso de una plantilla de formulario web{#using-a-web-form-template}
 
@@ -38,7 +38,7 @@ Desde aquí puede crear nuevas plantillas o convertir un formulario existente en
 
 Un formulario se puede convertir en una plantilla y su configuración se reutiliza. Para ello, seleccione el formulario, haga clic con el botón derecho del ratón y seleccione **[!UICONTROL Actions > Save as template...]**
 
-![](assets/s_ncs_admin_survey_saveastemplate.png)
+![Lista de aplicaciones web con el menú Acciones abierto al hacer clic con el botón secundario y Guardar como plantilla resaltada](assets/s_ncs_admin_survey_saveastemplate.png)
 
 Esta acción abre la ventana para crear aplicaciones web. Puede introducir el nombre y la descripción de la plantilla y seleccionar la carpeta donde se guarda.
 
@@ -46,11 +46,11 @@ Esta acción abre la ventana para crear aplicaciones web. Puede introducir el no
 
 Para crear una plantilla de formulario web, haga clic con el botón derecho en la lista de plantillas de aplicaciones web y seleccione **[!UICONTROL New]**. También puede utilizar el botón **[!UICONTROL New]** situado sobre la lista de plantillas.
 
-![](assets/s_ncs_admin_survey_createtemplate.png)
+![Carpeta de plantillas de aplicación web en el Explorador, con el botón Nuevo utilizado para crear una plantilla](assets/s_ncs_admin_survey_createtemplate.png)
 
 Introduzca el nombre de la plantilla. En el campo **[!UICONTROL Instance folder]**, seleccione la carpeta donde se guardan los formularios web creados basándose en esta plantilla. El campo **[!UICONTROL Nature]** permite añadir información descriptiva para ordenar y filtrar las distintas plantillas de aplicación web.
 
-![](assets/s_ncs_admin_survey_createtemplate_details.png)
+![Cuadro de diálogo Nueva aplicación web con las opciones Etiqueta, Encuesta y Sitio web avanzado, los campos de carpeta Naturaleza e Instancias](assets/s_ncs_admin_survey_createtemplate_details.png)
 
 Haga clic en el botón **[!UICONTROL Save]** para crear la plantilla y después cree el contenido de esta plantilla y defina sus parámetros.
 

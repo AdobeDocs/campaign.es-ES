@@ -29,18 +29,18 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 9548dde346f10c57350f21e5946690f2f988b939
 workflow-type: tm+mt
-source-wordcount: '3848'
-ht-degree: 96%
+source-wordcount: '4507'
+ht-degree: 78%
 ---
 # Importación de datos en Campaign {#ootb-profiles}
 
 Campaign le ayuda a añadir contactos a la base de datos. Puede cargar un archivo, programar y automatizar varias actualizaciones de contacto, recopilar datos en la web o introducir información de perfil directamente en la tabla de destinatarios.
 
-Las importaciones de perfil se configuran en plantillas dedicadas ejecutadas a través de flujos de trabajo mediante la actividad **Importación**. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. Obtenga más información en [esta sección](../../automation/workflow/recurring-import-workflow.md).
+Las importaciones de perfil se configuran en plantillas dedicadas ejecutadas a través de flujos de trabajo mediante la actividad **Importación**. Se pueden repetir automáticamente según un programa, por ejemplo, para automatizar el intercambio de datos entre varios sistemas de información. Más información en [Configurar una importación recurrente](../../automation/workflow/recurring-import-workflow.md).
 
-![](assets/import-wf.png)
+![Flujo de trabajo de actualización de perfiles: se actualizaron los contactos y se leyó la exclusión de fuentes de lista, después se anuló la duplicación y después se actualizaron los datos.](assets/import-wf.png)
 
 ## Ejecución de una importación
 
@@ -48,7 +48,7 @@ Adobe Campaign permite importar datos a la base de datos desde uno o varios arch
 
 >[!NOTE]
 >
->Puede importar datos sin asignarlos con los datos de la base de datos mediante la función **[!UICONTROL Import a list]**. Posteriormente, los datos se pueden utilizar exclusivamente en flujos de trabajo mediante el objeto **[!UICONTROL Read list]**. Para obtener más información, consulte [esta página](../../automation/workflow/read-list.md).
+>Puede importar datos sin asignarlos con los datos de la base de datos mediante la función **[!UICONTROL Import a list]**. Posteriormente, los datos se pueden utilizar exclusivamente en flujos de trabajo mediante el objeto **[!UICONTROL Read list]**. Para obtener más información, consulte [Leer lista](../../automation/workflow/read-list.md).
 
 
 ## Uso del asistente de importación
@@ -57,7 +57,7 @@ El asistente de importación permite configurar la importación, definir sus opc
 
 El asistente de importación se muestra después de crear un nuevo trabajo de importación.
 
-![](assets/new-import.png)
+![Lista de trabajos con el menú Crear que muestra New import y New export, y el cuadro de diálogo File to import del asistente de importación.](assets/new-import.png)
 
 En el archivo de origen, cada línea coincide con un registro. Los datos de los registros están separados por delimitadores (espacio, tabulación, carácter, etc.). Esto significa que los datos se recuperan en forma de columnas y cada columna está asociada a un campo de la base de datos.
 
@@ -68,7 +68,7 @@ Al iniciar el asistente de importación, primero debe seleccionar una plantilla.
 1. Seleccione la carpeta **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]**.
 1. Haga clic en **Nuevo** y, a continuación, en **Importar** para crear la plantilla de importación.
 
-   ![](assets/s_ncs_user_import_wizard01_1.png)
+   ![Pantalla de selección de plantilla: nueva plantilla de importación de texto, etiqueta, descripción, tipo de importación simple y carpeta de destino.](assets/s_ncs_user_import_wizard01_1.png)
 
 1. Haga clic en la flecha a la derecha del campo **[!UICONTROL Import template]** para seleccionar la plantilla o haga clic en **[!UICONTROL Select link]** para explorar el árbol.
 
@@ -79,11 +79,11 @@ Al iniciar el asistente de importación, primero debe seleccionar una plantilla.
 
    Para una importación múltiple, seleccione **[!UICONTROL Multiple import]** en la lista desplegable de **[!UICONTROL Import type]** en la primera pantalla del asistente de importación.
 
-   ![](assets/s_ncs_user_import_wizard01_2.png)
+   ![Pantalla de selección de plantilla con la lista desplegable Tipo de importación Importación simple e Importación múltiple.](assets/s_ncs_user_import_wizard01_2.png)
 
 1. Especifique los campos que desea importar haciendo clic en **[!UICONTROL Add]**.
 
-   ![](assets/s_ncs_user_import_wizard01_3.png)
+   ![Importar lista de pasos de una importación múltiple con dos archivos de origen y el botón Agregar para agregar otro archivo.](assets/s_ncs_user_import_wizard01_3.png)
 
    Cada vez que se añade un archivo, se muestra la pantalla del asistente **[!UICONTROL File to import]**. Consulte la sección [Paso 2: Selección de archivos de origen](#step-2---source-file-selection) y siga los pasos del asistente para definir las opciones de importación como para una importación simple.
 
@@ -97,11 +97,11 @@ El archivo de origen puede estar en formato de texto (txt, csv, pestaña, ancho 
 
 La **[!UICONTROL Upload file on the server]** está seleccionada de forma predeterminada. Haga clic en la carpeta situada a la derecha del campo **[!UICONTROL Local file]** para buscar en el disco local y seleccione el archivo que desea importar. Puede desmarcar esta opción para introducir la ruta de acceso y el nombre del archivo que desea importar si se encuentra en el servidor.
 
-![](assets/s_ncs_user_import_wizard02_1.png)
+![Archivo para importar con un campo de archivo local vacío y la opción Upload file on the server seleccionada.](assets/s_ncs_user_import_wizard02_1.png)
 
 Cuando haya especificado el archivo, puede ver sus datos en la sección inferior de la ventana haciendo clic en **[!UICONTROL Auto-detect format]**. Esta previsualización muestra las 200 primeras líneas del archivo de origen.
 
-![](assets/s_ncs_user_import_wizard02_2.png)
+![Archivo para importar con un archivo de origen seleccionado y sus primeras líneas previsualizadas después de hacer clic en el formato de detección automática.](assets/s_ncs_user_import_wizard02_2.png)
 
 Utilice las opciones que se ofrecen en la parte superior de esta vista para configurar la importación. Los parámetros definidos a través de estas opciones se transfieren a la previsualización. Estas son las opciones disponibles:
 
@@ -115,7 +115,7 @@ Utilice las opciones que se ofrecen en la parte superior de esta vista para conf
 
 La opción **[!UICONTROL Click here to change the file format...]** permite dar formato a los datos del archivo de origen y, en concreto, especificar el separador de columnas y el tipo de datos de cada campo. Esta configuración se realiza a través de la siguiente ventana:
 
-![](assets/s_ncs_user_import_wizard02_3.png)
+![Cuadro de diálogo de formato de archivo: tipo de archivo, codificación, separadores de columna, etiqueta por columna y tipo de datos, y vista previa.](assets/s_ncs_user_import_wizard02_3.png)
 
 Este paso permite describir cómo se deben leer los valores de los campos del archivo. Por ejemplo, en el caso de una fecha, los datos Fecha o Fecha y Hora pueden asociarse a un formato (dd/mm/aaaa, dd/mm/aa, etc.). Si los datos de entrada no coinciden con el formato esperado, se producen rechazos durante la importación.
 
@@ -127,7 +127,7 @@ Haga clic en **[!UICONTROL OK]** para guardar el formato y, a continuación, hag
 
 Después, debe seleccionar el esquema de destino y asignar los datos de cada columna a los campos de la base de datos.
 
-![](assets/s_ncs_user_import_wizard03_1.png)
+![Pantalla de asignación de campos con el esquema de destino de destinatario y las columnas de origen asignadas a los campos de destino.](assets/s_ncs_user_import_wizard03_1.png)
 
 * El campo **[!UICONTROL Destination schema]** permite seleccionar el esquema en el que se deben importar los datos. Esta información es obligatoria. Haga clic en el icono **[!UICONTROL Select link]** para seleccionar uno de los esquemas existentes. Haga clic en **[!UICONTROL Edit link]** para mostrar el contenido de la tabla seleccionada.
 * La tabla central muestra todos los campos definidos en el archivo de origen. Seleccione los campos que desea importar para asociar a ellos un archivo de destino. Estos campos se pueden asignar manualmente o automáticamente.
@@ -142,7 +142,7 @@ Después, debe seleccionar el esquema de destino y asignar los datos de cada col
 
 * Puede aplicar una transformación a los campos importados. Para ello, haga clic en la celda de la columna **[!UICONTROL Transformation]** relacionada con el campo y seleccione la transformación que desee aplicar.
 
-  ![](assets/s_ncs_user_import_wizard03_2.png)
+  ![Pantalla de asignación de campos con la lista desplegable Transformación: Ninguno, minúsculas, mayúsculas y primera letra en mayúsculas.](assets/s_ncs_user_import_wizard03_2.png)
 
   >[!IMPORTANT]
   >
@@ -161,23 +161,23 @@ Existen cuatro tipos de campos calculados:
 * **[!UICONTROL JavaScript expression]**: el valor del campo calculado es el resultado de la evaluación de una función de JavaScript. El valor devuelto puede ser un número, una fecha, etc.
 * **[!UICONTROL Enumeration]**: el valor del campo se atribuye de acuerdo con un valor contenido en el archivo de origen. El editor permite especificar la columna de origen e introducir la lista de valores de enumeración, como en el siguiente ejemplo:
 
-  ![](assets/s_ncs_user_import_wizard03_3.png)
+  ![Importe la definición del campo calculado del tipo Enumerations asignando los valores de origen 0 y 1 a no registrados.](assets/s_ncs_user_import_wizard03_3.png)
 
   La pestaña **[!UICONTROL Preview]** permite ver el resultado de la configuración definida. En este caso, se ha añadido la columna **[!UICONTROL Subscription]**. El valor se calcula desde el campo **Estado**.
 
-  ![](assets/s_ncs_user_import_wizard03_4.png)
+  ![Pestaña Vista previa de la definición del campo calculado que muestra la nueva columna Servicio calculada a partir de los datos de origen.](assets/s_ncs_user_import_wizard03_4.png)
 
 ### Paso 4: Reconciliación {#step-4---reconciliation}
 
-El paso de reconciliación del asistente de importación le permite definir el modo de reconciliación de los datos del archivo con los datos existentes en la base de datos, y también establecer las reglas de prioridad entre los datos del archivo y los datos de la base de datos. La ventana de configuración tiene este aspecto:
+El paso de reconciliación del asistente de importación le permite definir cómo se reconcilian los datos del archivo con los datos existentes en la base de datos. También permite establecer las reglas de prioridad entre los datos del archivo y los datos de la base de datos. La ventana de configuración tiene este aspecto:
 
-![](assets/s_ncs_user_import_wizard04_1.png)
+![Pantalla de reconciliación con el árbol de campos, donde Nombre se establece como parte de la clave de reconciliación 1.](assets/s_ncs_user_import_wizard04_1.png)
 
 La sección central de la pantalla contiene un árbol con los campos y las tablas de la base de datos de Adobe Campaign a la que se importan los datos.
 
 Hay opciones especiales disponibles para cada nodo (tabla o campo). Al hacer clic en el nodo correspondiente en la lista, a continuación aparecen sus parámetros y una breve descripción. El comportamiento definido para cada elemento se muestra en la columna **[!UICONTROL Behavior]** correspondiente.
 
-![](assets/s_ncs_user_import_wizard04_2.png)
+![Pantalla de reconciliación con la configuración Operación y la lista desplegable Administración de duplicaciones: Actualizar, Rechazar entidad, Omitir.](assets/s_ncs_user_import_wizard04_2.png)
 
 #### Tipos de operación {#types-of-operation}
 
@@ -205,11 +205,11 @@ Se debe completar por lo menos una clave de reconciliación para administrar la 
 
 Una clave de reconciliación es un conjunto de campos utilizados para identificar un registro. Por ejemplo, para importar destinatarios, la clave de la reconciliación puede ser el número de cuenta, el campo “correo electrónico” o los campos “apellidos, nombre, compañía”, etc.
 
-En este caso, para averiguar si una línea de un archivo coincide con un destinatario existente en la base de datos, el motor de importación compara los valores del archivo con los de la base de datos para todos los campos de la clave. Cuando los campos son específicos de un registro, se puede realizar una comparación aproximada entre los datos de origen y destino, garantizando la integridad de los datos tras la importación. Se puede rellenar una segunda clave de reconciliación para la misma tabla; se utiliza para las líneas cuya primera clave está vacía.
+En este caso, el motor de importación compara los valores del archivo con los de la base de datos para todos los campos de la clave. Así averigua si una línea del archivo coincide con un destinatario existente en la base de datos. Cuando los campos son específicos de un registro, se puede realizar una comparación aproximada entre los datos de origen y destino, garantizando la integridad de los datos tras la importación. Se puede rellenar una segunda clave de reconciliación para la misma tabla; se utiliza para las líneas cuya primera clave está vacía.
 
 Evite elegir un campo que pueda modificarse durante la importación; si esto ocurre, el motor podría crear registros adicionales.
 
-![](assets/s_ncs_user_import_wizard04_3.png)
+![Pantalla de reconciliación con el campo de correo electrónico seleccionado y establecido como parte de la clave de reconciliación 2.](assets/s_ncs_user_import_wizard04_3.png)
 
 >[!NOTE]
 >
@@ -244,16 +244,16 @@ Las opciones **[!UICONTROL Reject]** e **[!UICONTROL Ignore]** funcionan como se
 
 La mayoría de las operaciones de transferencia de datos generan varios tipos de errores (formato de línea incoherente, dirección de correo electrónico no válida, etc.). Todos los errores y todas las advertencias generadas por el motor de importación se almacenan y vinculan a la instancia de importación.
 
-![](assets/s_ncs_user_import_general_tab.png)
+![Pestaña General del trabajo de importación con contadores para errores, advertencias, rechazos, dobles y duplicados resaltados.](assets/s_ncs_user_import_general_tab.png)
 
 Los detalles de estos rechazos se pueden comprobar a través de la pestaña **[!UICONTROL Rejects]**.
 
-![](assets/s_ncs_user_import_rejets_tab.png)
+![La pestaña Rechazos de un trabajo de importación muestra los registros rechazados por Connector y el mensaje de rechazo del registro seleccionado.](assets/s_ncs_user_import_rejets_tab.png)
 
 Hay dos tipos de rechazos (el tipo se muestra en la columna **[!UICONTROL Connector]**):
 
 * Los rechazos del conector de texto se refieren a errores que ocurren mientras se procesa la línea del archivo (campo calculado, análisis de datos, etc.). En este caso, en caso de error se rechaza siempre la línea entera.
-* Los rechazos del conector de la base de datos se refieren a errores que ocurren durante la reconciliación de datos o la escritura en la base de datos. En el caso de una importación a varias tablas, el rechazo solo puede afectar a una parte del registro (por ejemplo, para una importación de destinatarios y eventos asociados, un error puede impedir la actualización de un evento sin rechazar el destinatario).
+* Los rechazos del conector de la base de datos se refieren a errores que ocurren durante la reconciliación de datos o la escritura en la base de datos. En el caso de una importación a varias tablas, el rechazo solo puede afectar a una parte del registro. Por ejemplo, para una importación de destinatarios y eventos asociados, un error puede impedir la actualización de un evento sin rechazar el destinatario.
 
 En la página de reconciliación de datos, puede definir el tipo de gestión de error deseado de forma individual para cada campo y para cada tabla.
 
@@ -261,19 +261,19 @@ En la página de reconciliación de datos, puede definir el tipo de gestión de 
 * **[!UICONTROL Reject parent element]**: se rechaza toda la línea del registro, no solo el campo que provocó un error.
 * **[!UICONTROL Reject all elements]**: la importación se detiene y todos los elementos del registro se rechazan.
 
-  ![](assets/s_ncs_user_import_wizard04_4.png)
+  ![Reconciliación En caso de error, lista desplegable: Ignorar y registrar una advertencia, Rechazar elemento principal, Rechazar todos los elementos.](assets/s_ncs_user_import_wizard04_4.png)
 
 El árbol de la pantalla de rechazo de una instancia de importación indica qué campos se rechazaron y dónde se produjeron los errores.
 
 Puede generar un archivo que contenga estos registros mediante el icono **[!UICONTROL Export rejects]**:
 
-![](assets/s_ncs_user_import_errors_export.png)
+![Lista genérica de importaciones y exportaciones con una importación que finalizó con errores seleccionados y el icono Exportar rechazados.](assets/s_ncs_user_import_errors_export.png)
 
 ### Paso 5: Paso adicional al importar destinatarios {#step-5---additional-step-when-importing-recipients}
 
-El siguiente paso del asistente de importación le permite seleccionar o crear la carpeta en la que se importan los datos, asignar automáticamente los destinatarios importados con una lista (nueva o existente) y suscribir destinatarios a un servicio.
+El siguiente paso del asistente de importación le permite seleccionar o crear la carpeta en la que se importan los datos. También puede asignar automáticamente destinatarios importados con una lista (nueva o existente) y suscribir destinatarios a un servicio.
 
-![](assets/s_ncs_user_import_wizard05_1.png)
+![Pantalla de importación de destinatarios con vínculos de edición para la carpeta, la lista y el servicio, además del campo Origen.](assets/s_ncs_user_import_wizard05_1.png)
 
 >[!NOTE]
 >
@@ -291,35 +291,35 @@ El siguiente paso del asistente de importación le permite seleccionar o crear l
 
      Para seleccionar la carpeta de importación, haga clic en la flecha a la derecha del campo **[!UICONTROL Folder]** y seleccione la carpeta correspondiente. También puede utilizar el icono **[!UICONTROL Select link]** para mostrar el árbol en una nueva ventana o crear una carpeta nueva.
 
-     ![](assets/s_ncs_user_import_wizard05_2.png)
+     ![Importar a un cuadro de diálogo de carpeta con la opción Agregar a una carpeta existente y un campo Carpeta.](assets/s_ncs_user_import_wizard05_2.png)
 
      Para crear una carpeta nueva, seleccione el nodo del que desea añadir una carpeta y haga clic con el botón derecho del ratón. Seleccione **[!UICONTROL Create a new 'Recipients' folder]**.
 
-     ![](assets/s_ncs_user_import_wizard05_3.png)
+     ![Árbol de carpetas con el menú contextual que muestra Crear una nueva carpeta de destinatarios.](assets/s_ncs_user_import_wizard05_3.png)
 
      La carpeta se crea debajo del nodo actual. Introduzca el nombre de la nueva carpeta, pulse Enter para confirmar y haga clic en **[!UICONTROL OK]**.
 
-     ![](assets/s_ncs_user_import_wizard05_4.png)
+     ![Árbol de carpetas con una nueva carpeta Newsletter agregada debajo del nodo seleccionado, listo para confirmar con Aceptar.](assets/s_ncs_user_import_wizard05_4.png)
 
   1. Asociación con una lista.
 
      El enlace **[!UICONTROL Edit...]** la sección **[!UICONTROL Add recipients to a list]** permite seleccionar o crear una lista a la que se importan los destinatarios.
 
-     ![](assets/s_ncs_user_import_wizard05_5.png)
+     ![Agregar destinatarios a un cuadro de diálogo de lista con la opción Agregar a una lista existente y una lista desplegable.](assets/s_ncs_user_import_wizard05_5.png)
 
      Puede crear una lista nueva para estos destinatarios haciendo clic en **[!UICONTROL Select link]** y luego en **[!UICONTROL Create]**.
 
-     ![](assets/s_ncs_user_import_wizard05_6.png)
+     ![Cuadro de diálogo de selección de lista con el icono Crear utilizado para agregar una nueva lista de destinatarios.](assets/s_ncs_user_import_wizard05_6.png)
 
      Puede decidir añadir los destinatarios a los que ya están presentes en una lista o volver a crear la lista con los nuevos destinatarios. En este caso, si la lista ya contiene destinatarios, estos se eliminan y reemplazan por los destinatarios importados.
 
   1. Suscripción a un servicio
 
-     Para suscribir a todos los destinatarios importados a un servicio informativo, haga clic en el vínculo **[!UICONTROL Edit...]** de la sección **[!UICONTROL Subscribe recipients to a service]** para seleccionar o crear el servicio informativo al que se deben suscribir los destinatarios. Puede seleccionar la opción **[!UICONTROL Send a confirmation message]** de confirmación: El contenido de este mensaje se define en la plantilla de entrega asociada al servicio de suscripción.
+     Para suscribir a todos los destinatarios importados a un servicio informativo, haga clic en el vínculo **[!UICONTROL Edit...]** de la sección **[!UICONTROL Subscribe recipients to a service]**. A continuación, seleccione o cree el servicio informativo al que se deben suscribir los destinatarios. Puede seleccionar la opción **[!UICONTROL Send a confirmation message]** de confirmación: El contenido de este mensaje se define en la plantilla de entrega asociada al servicio de suscripción.
 
-     ![](assets/s_ncs_user_import_wizard05_7.png)
+     ![Suscribir destinatarios a un cuadro de diálogo de servicio con un servicio existente seleccionado y Enviar un mensaje de confirmación activado.](assets/s_ncs_user_import_wizard05_7.png)
 
-     Puede crear un nuevo servicio para estos destinatarios haciendo clic en **[!UICONTROL Select link]** y, luego, en el icono **[!UICONTROL Create]**. La administración de los servicios de información se presenta en [esta sección](../start/subscriptions.md).
+     Puede crear un nuevo servicio para estos destinatarios haciendo clic en **[!UICONTROL Select link]** y, luego, en el icono **[!UICONTROL Create]**. La administración de los servicios informativos se presenta en [Administrar suscripciones y cancelaciones de suscripción en Campaign](../start/subscriptions.md).
 
 * Utilice el campo **[!UICONTROL Origin]** para añadir información sobre el origen de los destinatarios a sus perfiles. Esta información es especialmente útil en el marco de una importación múltiple.
 
@@ -329,7 +329,7 @@ Haga clic en **[!UICONTROL Next]** para validar este paso y mostrar el siguiente
 
 El último paso del asistente le permite iniciar la importación de datos. Para ello, haga clic en el botón **[!UICONTROL Start]**.
 
-![](assets/s_ncs_user_import_wizard06_1.png)
+![Pantalla de ejecución de importación de datos con el botón Inicio, registros de ejecución, recuento procesado y una barra de progreso del 100 %.](assets/s_ncs_user_import_wizard06_1.png)
 
 A continuación, puede supervisar la ejecución del trabajo de importación (consulte [Supervisión de la ejecución del flujo de trabajo](../../automation/workflow/monitor-workflow-execution.md)).
 
@@ -350,7 +350,7 @@ Al iniciar el asistente de exportación, primero debe seleccionar una plantilla.
 1. Seleccione la carpeta **[!UICONTROL Profiles and Targets > Job > Generic imports and exports]**.
 1. Haga clic en **Nuevo** y, a continuación, en **Exportar** para crear la plantilla de exportación.
 
-   ![](assets/s_ncs_user_export_wizard01.png)
+   ![Pantalla de selección de plantillas de exportación con nueva plantilla, etiqueta, descripción, tipo de exportación simple y carpeta.](assets/s_ncs_user_export_wizard01.png)
 
 1. Haga clic en la flecha a la derecha del campo **[!UICONTROL Export template]** para seleccionar la plantilla o haga clic en **[!UICONTROL Select link]** para explorar el árbol.
 
@@ -365,7 +365,7 @@ Seleccione el tipo de documento que desea exportar, por ejemplo, el esquema de l
 
 De forma predeterminada, cuando se inicia la exportación desde el nodo **[!UICONTROL Jobs]**, los datos proceden de la tabla de destinatarios. Cuando se inicia la exportación desde una lista de datos (desde el menú **[!UICONTROL right click > Export]**), la tabla a la que pertenecen los datos se rellena automáticamente en el campo **[!UICONTROL Document type]**.
 
-![](assets/s_ncs_user_export_wizard02.png)
+![Archivo para exportar a la pantalla con tipo de documento de destinatario, opción de descarga, ruta de acceso del archivo local y nombre.](assets/s_ncs_user_export_wizard02.png)
 
 * La opción **[!UICONTROL Download the file generated on the server after the export]** está seleccionada de forma predeterminada. En el campo **[!UICONTROL Local file]**, indique el nombre y la ruta del archivo que va a crear o busque el disco local haciendo clic en la carpeta a la derecha del campo. Puede desmarcar esta opción para introducir la ruta de acceso y el nombre del archivo de salida del servidor.
 
@@ -377,7 +377,7 @@ De forma predeterminada, cuando se inicia la exportación desde el nodo **[!UICO
 
 * Puede crear una exportación diferencial para exportar solo los registros que se han modificado desde la última ejecución. Para ello, haga clic en el vínculo **[!UICONTROL Advanced parameters]**, luego en la pestaña **[!UICONTROL Differential export]** y seleccione **[!UICONTROL Activate differential export]**.
 
-  ![](assets/s_ncs_user_export_wizard02_b.png)
+  ![Parámetros avanzados, ficha Exportación diferencial: active la exportación diferencial activada y un campo Fecha de modificación.](assets/s_ncs_user_export_wizard02_b.png)
 
   Debe especificar la fecha de la última modificación. Puede recuperarla de un campo o calcularla.
 
@@ -385,7 +385,7 @@ De forma predeterminada, cuando se inicia la exportación desde el nodo **[!UICO
 
 Seleccione un formato de salida para el archivo de exportación. Se pueden utilizar los siguientes formatos: texto, texto de ancho fijo, csv y xml.
 
-![](assets/s_ncs_user_export_wizard03.png)
+![Pantalla de formato de destino con formato de salida de texto, separador de columnas, delimitador de cadenas, codificación y formatos.](assets/s_ncs_user_export_wizard03.png)
 
 * En el caso de los archivos de formato **[!UICONTROL Text]**, seleccione los delimitadores para separar las columnas (tabulaciones, comas, punto y coma o personalizado) y las cadenas (comillas simples o dobles, o ninguna).
 * Para **[!UICONTROL text]** y **[!UICONTROL CSV]**, puede seleccionar la opción **[!UICONTROL Use first lines as column titles]**.
@@ -399,7 +399,7 @@ Seleccione los campos que desea exportar. Para ello, haga lo siguiente:
 1. Haga doble clic en los campos deseados en la lista **[!UICONTROL Available fields]** para añadirlos a la sección **[!UICONTROL Output columns]**.
 1. Utilice las flechas de la derecha de la lista para definir el orden de los campos en el archivo de salida.
 
-   ![](assets/s_ncs_user_export_wizard04.png)
+   ![Datos para extraer la pantalla con la lista Campos disponibles y las columnas de salida seleccionadas.](assets/s_ncs_user_export_wizard04.png)
 
 1. Haga clic en el botón **[!UICONTROL Add]** para llamar a las funciones.
 
@@ -407,13 +407,13 @@ Seleccione los campos que desea exportar. Para ello, haga lo siguiente:
 
 Seleccione el orden de las columnas.
 
-![](assets/s_ncs_user_export_wizard05.png)
+![Clasificando las columnas de salida de la pantalla con las opciones de ordenación Ordenar y Descender.](assets/s_ncs_user_export_wizard05.png)
 
 ### Paso 6: Condiciones de filtro {#step-6---filter-conditions-}
 
 Puede añadir condiciones de filtro para evitar la exportación de todos los datos. La configuración de este filtro es la misma que el direccionamiento de destinatarios en el asistente de envíos.
 
-![](assets/s_ncs_user_export_wizard05_b.png)
+![Lista de filtros de restricción de filtrado de datos, con el cuadro de diálogo Suscriptores de un elemento de destino de servicio informativo abierto.](assets/s_ncs_user_export_wizard05_b.png)
 
 ### Paso 7: Formato de datos {#step-7---data-formatting}
 
@@ -427,19 +427,19 @@ Puede modificar el orden y las etiquetas de los campos del archivo de salida y a
   * Cambiar a mayúsculas
   * Primera letra en mayúsculas
 
-  ![](assets/s_ncs_user_export_wizard06.png)
+  ![Pantalla de formato de datos con la lista desplegable Transformación para la columna Compañía: Ninguno, inferior, superior, primera letra.](assets/s_ncs_user_export_wizard06.png)
 
 * Haga clic en **[!UICONTROL Add a calculated field]** si desea crear un nuevo campo calculado (por ejemplo, una columna que contenga apellidos y nombre). Para obtener más información, consulte la sección Importar datos.
 
 Si desea exportar una recopilación de elementos (por ejemplo, suscripciones de destinatarios, listas a las que pertenecen, etc.), debe especificar el número de elementos de la recopilación que desea exportar.
 
-![](assets/s_ncs_user_export_wizard06_c.png)
+![Cuadros de diálogo de personalización de la colección para limitar las líneas que se recuperarán y filtrarán los elementos de la colección Subscriptions.](assets/s_ncs_user_export_wizard06_c.png)
 
 ### Paso 8: Previsualización de datos {#step-8---data-preview}
 
 Haga clic en **[!UICONTROL Start the preview of the data]** para obtener una previsualización del resultado de la exportación.
 
-![](assets/s_ncs_user_export_wizard07.png)
+![Pantalla de vista previa de datos con Inicio de la vista previa de los datos, Líneas para mostrar el campo y vista previa de las columnas de resultados.](assets/s_ncs_user_export_wizard07.png)
 
 >[!NOTE]
 >
@@ -451,7 +451,7 @@ Haga clic en las pestañas de la parte inferior del asistente para cambiar de la
 
 Haga clic en **[!UICONTROL Start]** para iniciar la exportación de datos.
 
-![](assets/s_ncs_user_export_wizard08.png)
+![Pantalla de ejecución de exportación de datos con el botón Inicio, registros de ejecución y una barra de progreso del 100 %.](assets/s_ncs_user_export_wizard08.png)
 
 A continuación, puede monitorizar la ejecución del trabajo de exportación.
 
@@ -460,9 +460,9 @@ A continuación, puede monitorizar la ejecución del trabajo de exportación.
 
 Utilice Campaign para crear formularios web y recopilar y administrar la información de perfil de forma fácil y eficaz. Puede compartir estos formularios en su sitio web, lo que facilita que sus contactos proporcionen su información. Su información se envía a Campaign para crear su perfil o actualizar su información si ya está presente en la base de datos.
 
-![](assets/web-form-page.png)
+![Flujo de trabajo de la aplicación web con Inicio, Precarga, Página, Almacenamiento y Fin, y el editor de páginas con un formulario de registro por correo electrónico.](assets/web-form-page.png)
 
-Aprenda a crear formularios web en [esta sección](../dev/web/about-web-forms.md).
+Aprenda a crear formularios web en [Introducción a los formularios web](../dev/web/about-web-forms.md).
 
 **Temas relacionados**
 

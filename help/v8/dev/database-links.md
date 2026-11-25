@@ -30,9 +30,9 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '957'
 ht-degree: 0%
 ---
 # Administración de vínculos {#links--relation-between-tables}
@@ -49,14 +49,14 @@ En la interfaz de usuario, las cardinalidades se representan con un icono espec�
 
 Para relaciones de unión con una tabla o base de datos de campaña:
 
-* ![](assets/do-not-localize/join_with_campaign11.png): cardinalidad 1-1. Por ejemplo, entre un destinatario y un pedido actual. Un destinatario solo puede estar relacionado con una incidencia de la tabla de pedidos actual a la vez.
-* ![](assets/do-not-localize/externaljoin11.png): cardinalidad 1-1, unión externa. Por ejemplo, entre un destinatario y su país. Un destinatario solo puede estar relacionado con una incidencia del país de la tabla. No se guardará el contenido de la lista del país.
-* ![](assets/do-not-localize/join_with_campaign1n.png): Cardinalidad 1-N. Por ejemplo, entre un destinatario y la tabla de suscripciones. Un destinatario puede estar relacionado con varias incidencias en la tabla de suscripciones.
+* ![Icono para un vínculo de cardinalidad 1-1](assets/do-not-localize/join_with_campaign11.png): Cardinalidad 1-1. Por ejemplo, entre un destinatario y un pedido actual. Un destinatario solo puede estar relacionado con una incidencia de la tabla de pedidos actual a la vez.
+* ![Icono para una combinación externa de cardinalidad 1-1](assets/do-not-localize/externaljoin11.png): Cardinalidad 1-1, combinación externa. Por ejemplo, entre un destinatario y su país. Un destinatario solo puede estar relacionado con una incidencia del país de la tabla. No se guardará el contenido de la lista del país.
+* ![Icono para un vínculo de cardinalidad 1-N](assets/do-not-localize/join_with_campaign1n.png): Cardinalidad 1-N. Por ejemplo, entre un destinatario y la tabla de suscripciones. Un destinatario puede estar relacionado con varias incidencias en la tabla de suscripciones.
 
 Para relaciones de unión mediante el acceso a bases de datos federadas (FDA):
 
-* ![](assets/do-not-localize/join_fda_11.png): cardinalidad 1-1
-* ![](assets/do-not-localize/join_fda_1m.png): cardinalidad 1-N
+* ![Icono para un vínculo de cardinalidad 1-1](assets/do-not-localize/join_fda_11.png): Cardinalidad 1-1
+* ![Icono para un vínculo de cardinalidad 1-N](assets/do-not-localize/join_fda_1m.png): Cardinalidad 1-N
 
 Para obtener más información sobre las tablas de FDA, consulte [Acceso a una base de datos externa](../connect/fda.md).
 

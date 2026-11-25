@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 17%
+source-wordcount: '850'
+ht-degree: 13%
 ---
 # Trabajo con Campaign y Adobe Experience Manager {#ac-aem}
 
@@ -56,35 +56,35 @@ Esta integración puede utilizarse, por ejemplo, para crear un “newsletter” 
 
 1. Vaya a la instancia de autor de [!DNL Adobe Experience Manager] y haga clic en Adobe Experience en la esquina superior izquierda de la página. Elija **[!UICONTROL Sites]** en el menú.
 
-   ![](assets/aem_authoring_1.png)
+   ![Menú de navegación de Adobe Experience Manager con la opción Sitios resaltada](assets/aem_authoring_1.png)
 
 1. Acceso **[!UICONTROL Campaigns > Name of your brand (here we.Shopping) > Main Area > Email]**.
 
 1. Haga clic en **[!UICONTROL Create]** y seleccione **[!UICONTROL Page]** en el menú desplegable.
 
-   ![](assets/aem_authoring_2.png)
+   ![Carpeta de correo electrónico de AEM Sites con el menú Crear abierto y Página seleccionada](assets/aem_authoring_2.png)
 
 1. Seleccione la plantilla de **[!UICONTROL Adobe Campaign Email]** y asigne un nombre al newsletter.
 
 1. Después de crear su página, acceda al menú **[!UICONTROL Page information]** y haga clic en **[!UICONTROL Open Properties]**.
 
-   ![](assets/aem_authoring_3.png)
+   ![Editor de páginas de newsletter con el menú Page information abierto y las propiedades abiertas resaltadas](assets/aem_authoring_3.png)
 
 1. Personalice el contenido del correo electrónico añadiendo componentes como, por ejemplo, campos de personalización de Adobe Campaign. Obtenga más información en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/content/sites/authoring/aem-adobe-campaign/campaign.html?lang=es#editing-email-content){target="_blank"}.
 
 1. Cuando el correo electrónico esté listo, vaya al menú **[!UICONTROL Page information]** y haga clic en **[!UICONTROL Start workflow]**.
 
-   ![](assets/aem_authoring_4.png)
+   ![Editor de página de newsletter con el menú Page information abierto e Iniciar flujo de trabajo resaltado](assets/aem_authoring_4.png)
 
 1. En la primera lista desplegable, seleccione **[!UICONTROL Approve Adobe Campaign]** como modelo de flujo de trabajo y haga clic en **[!UICONTROL Start workflow]**.
 
-   ![](assets/aem_authoring_5.png)
+   ![Iniciar diálogo de flujo de trabajo con la opción Aprobar para Adobe Campaign seleccionada como modelo de flujo de trabajo](assets/aem_authoring_5.png)
 
 1. Aparecerá un aviso de exención de responsabilidad en la parte superior de la página que indica `This page is subject to the workflow Approve for Adobe Campaign`. Haga clic en **[!UICONTROL Complete]** al lado del aviso legal para confirmar la revisión y luego haga clic en **[!UICONTROL Ok]**.
 
 1. Vuelva a hacer clic en **[!UICONTROL Complete]** y seleccione **[!UICONTROL Newsletter approval]** en la lista desplegable **[!UICONTROL Next Step]**.
 
-   ![](assets/aem_authoring_6.png)
+   ![Completar cuadro de diálogo de elemento de trabajo con la aprobación de la newsletter seleccionada en la lista Paso siguiente y el botón Aceptar](assets/aem_authoring_6.png)
 
 El boletín ya está listo y sincronizado en Adobe Campaign.
 
@@ -94,7 +94,7 @@ El boletín ya está listo y sincronizado en Adobe Campaign.
 
 1. Elija la plantilla **[!UICONTROL Email delivery with AEM content (mailAEMContent)]** del menú desplegable **[!UICONTROL Delivery template]**.
 
-   ![](assets/aem_authoring_7.png)
+   ![Lista de plantillas de envíos de campaña con envío de correo electrónico con contenido de AEM (mailAEMContent) seleccionado](assets/aem_authoring_7.png)
 
 1. Añada a la entrega una **[!UICONTROL Label]** y haga clic en **[!UICONTROL Continue]**.
 
@@ -102,15 +102,15 @@ El boletín ya está listo y sincronizado en Adobe Campaign.
 
    Si el botón no está visible en la interfaz, vaya al botón **[!UICONTROL Properties]** y acceda a la pestaña **[!UICONTROL Advanced]**. Asegúrese de que el campo **[!UICONTROL Content editing mode]** esté configurado en **[!UICONTROL AEM]** e introduzca los detalles de la instancia de AEM en el campo **[!UICONTROL AEM account]**.
 
-   ![](assets/aem_authoring_8.png)
+   ![Barra de herramientas de envío de correo electrónico de Campaign con el botón Sincronizar resaltado](assets/aem_authoring_8.png)
 
 1. Seleccione la entrega de AEM creada anteriormente en [!DNL Adobe Experience Manager] y confirme haciendo clic en **[!UICONTROL Ok]**.
 
-   ![](assets/aem_authoring_11.png)
+   ![Sincronizar con el cuadro de diálogo de contenido de AEM que enumera los correos electrónicos de AEM aprobados con la fila de Newsletter seleccionada](assets/aem_authoring_11.png)
 
 1. Asegúrese de hacer clic en el botón **[!UICONTROL Refresh content]** cada vez que se realicen modificaciones en la entrega de AEM.
 
-   ![](assets/aem_authoring_12.png)
+   ![Envío de correo electrónico sincronizado con el botón Actualizar contenido resaltado y el botón Desincronizar](assets/aem_authoring_12.png)
 
 1. Para eliminar la vinculación entre Experience Manager y Campaign, haga clic en **[!UICONTROL Desynchronize]**.
 
@@ -124,11 +124,11 @@ También puede insertar recursos directamente desde su [!DNL Adobe Experience Ma
 
 1. Vaya a la instancia de autor de [!DNL Adobe Experience Manager] y haga clic en Adobe Experience en la esquina superior izquierda de la página. Elija **[!UICONTROL Assets]** `>` **[!UICONTROL Files]** en el menú.
 
-   ![](assets/aem_assets_1.png)
+   ![Menú de navegación de AEM Assets con la opción Archivos resaltada](assets/aem_assets_1.png)
 
 1. Haga clic en **Crear** y luego en **Archivos** para importar el recurso en la **biblioteca de Adobe Experience Manager Assets**. Obtenga más información en [Documentación de Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-65/content/assets/managing/manage-assets.html?lang=es#uploading-assets){target="_blank"}.
 
-   ![](assets/aem_assets_2.png)
+   ![Vista Archivos de AEM Assets con el menú Crear abierto y Archivos seleccionados para cargar un recurso](assets/aem_assets_2.png)
 
 1. Cambie el nombre del recurso si es necesario y seleccione **Cargar**.
 
@@ -138,7 +138,7 @@ El recurso se ha cargado a la **biblioteca de Adobe Experience Manager Assets**.
 
 1. En Adobe Campaign, para crear una entrega nueva, vaya a la pestaña **Campañas**, haga clic en **Envíos** y haga clic en el botón **Crear** situado sobre la lista de envíos existentes.
 
-   ![](assets/aem_assets_3.png)
+   ![Lista de envíos de campaña en la pestaña Campañas con el botón Crear resaltado](assets/aem_assets_3.png)
 
 1. Seleccione una **plantilla de envíos** y asigne un nombre a la entrega.
 
@@ -148,14 +148,14 @@ El recurso se ha cargado a la **biblioteca de Adobe Experience Manager Assets**.
 
    Elija su **cuenta de AEM** y habilite la opción **[!UICONTROL Use above AEM instance as shared asset library]**.
 
-   ![](assets/aem_authoring_9.png)
+   ![Pestaña Propiedades de entrega avanzadas con conjunto de cuentas de AEM y opción de biblioteca de recursos compartidos habilitada](assets/aem_authoring_9.png)
 
 1. Desde el icono **Image**, accede al menú **[!UICONTROL Select a shared asset]**.
 
-   ![](assets/aem_assets_4.png)
+   ![Menú de imagen del editor de correo electrónico de Campaign con Seleccionar un recurso compartido resaltado](assets/aem_assets_4.png)
 
 1. En la ventana de selección, selecciona una imagen de tu **biblioteca Adobe Experience Manager Assets** y, a continuación, **selecciona**.
 
-   ![](assets/aem_assets_5.png)
+   ![Seleccione una ventana de recursos compartidos que enumere los archivos de biblioteca de AEM Assets con jogging-newsletter.jpg seleccionado](assets/aem_assets_5.png)
 
 El recurso se ha cargado a su envío de correo electrónico. Ahora puede especificar la audiencia de destino, confirmar la entrega y continuar enviándolo.

@@ -26,14 +26,14 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 56%
+source-wordcount: '744'
+ht-degree: 49%
 ---
 # Procesamiento de eventos {#event-processing}
 
-En el contexto de los mensajes transaccionales, un sistema de información genera un evento y este se envía a Adobe Campaign mediante los métodos **[!UICONTROL PushEvent]** y **[!UICONTROL PushEvents]**. Estos métodos se describen en [esta sección](event-description.md).
+En el contexto de los mensajes transaccionales, un sistema de información genera un evento y este se envía a Adobe Campaign mediante los métodos **[!UICONTROL PushEvent]** y **[!UICONTROL PushEvents]**. Estos métodos se describen en [Comprender la descripción del evento](event-description.md).
 
 Este evento contiene datos vinculados al evento, como:
 
@@ -43,7 +43,7 @@ Este evento contiene datos vinculados al evento, como:
 
 Ejemplo de datos de eventos:
 
-![](assets/mc-event-request.png)
+![Ejemplo de XML de evento: atributos de datos de evento (tipo, correo electrónico, origen) y datos de evento personalizados en el elemento ctx](assets/mc-event-request.png)
 
 Para procesar los eventos de mensajería transaccional, se aplican los siguientes pasos a las instancias de ejecución:
 
@@ -65,11 +65,11 @@ Los eventos que genera el sistema de información se pueden recopilar de dos mod
 
 Una vez recopilados, los eventos se desglosan, por flujos de trabajo técnicos, entre colas en tiempo real y por lotes de las instancias de ejecución, mientras esperan vincularse a una [plantilla de mensaje](transactional-template.md).
 
-![](assets/mc-event-queues.png)
+![Carpetas del centro de mensajes en la instancia de ejecución: eventos en tiempo real y eventos por lotes en la carpeta predeterminada](assets/mc-event-queues.png)
 
 >[!NOTE]
 >
->En las instancias de ejecución, las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas, ya que esto podría provocar problemas con el derecho de acceso. Para obtener más información sobre la configuración de una carpeta como vista, consulte [esta sección](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
+>En las instancias de ejecución, las carpetas **[!UICONTROL Real time events]** o **[!UICONTROL Batch events]** no deben configurarse como vistas, ya que esto podría provocar problemas con el derecho de acceso. Para obtener más información sobre cómo configurar una carpeta como vista, consulte [Convertir una carpeta en una vista](../audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 ## Transferencia de un evento a una plantilla {#event-to-template}
 
@@ -79,11 +79,11 @@ El paso de enrutamiento consiste en vincular un evento a la plantilla de mensaje
 
 * El tipo de evento especificado en las propiedades del propio evento:
 
-  ![](assets/event-type-sample.png)
+  ![XML de evento por lotes con el atributo de tipo de evento establecido en purchase_order](assets/event-type-sample.png)
 
 * El tipo de evento especificado en las propiedades de la plantilla de mensaje:
 
-  ![](assets/event-type-select.png)
+  ![Asistente para plantillas de mensajes con la lista de tipos de eventos que muestra purchase y purchase_def](assets/event-type-select.png)
 
 De forma predeterminada, el enrutamiento se basa en la siguiente información:
 

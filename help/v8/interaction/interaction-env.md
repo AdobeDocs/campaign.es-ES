@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 57%
+source-wordcount: '478'
+ht-degree: 48%
 ---
 # Trabajo con entornos{#work-with-environments}
 
@@ -41,7 +41,7 @@ La interacción funciona con dos tipos de entornos de oferta:
 * Entornos de oferta **[!UICONTROL Design]** que incluyen ofertas que se están editando y pueden modificarse. Estas ofertas no han pasado a través del ciclo de aprobación y no se entregan a los contactos.
 * Entornos de oferta **[!UICONTROL Live]** que incluyen ofertas aprobadas a medida que se presentan a los contactos. Las ofertas de este entorno son de solo lectura.
 
-![](assets/offer_environments_overview_001.png)
+![Árbol del explorador con entornos de diseño y ofertas en directo, cada uno con espacios de ofertas y carpetas de administración.](assets/offer_environments_overview_001.png)
 
 Cada entorno **[!UICONTROL Design]** está relacionado con un entorno **[!UICONTROL Live]**. Cuando se completa una oferta, sus reglas de contenido y de elegibilidad están sujetas a un ciclo de aprobación. Una vez completado este ciclo, la oferta correspondiente se implementa automáticamente en el entorno **[!UICONTROL Live]**. A partir de este momento, estará disponible para su envío.
 
@@ -51,7 +51,7 @@ De manera predeterminada, Campaign viene con un entorno **[!UICONTROL Design]** 
 >
 >Para dirigirse a la tabla de destinatarios, debe utilizar el asistente de asignación de destino para crear los entornos. [Más información](#creating-an-offer-environment).
 
-![](assets/offer_environments_overview_002.png)
+![Pestaña General del entorno de diseño con el tipo de diseño y su campo de entorno en directo vinculado resaltado.](assets/offer_environments_overview_002.png)
 
 Los administradores de envío solo pueden ver el entorno **[!UICONTROL Live]** y aprovechar las ofertas para enviarlas. Los administradores de ofertas pueden ver y utilizar el entorno **[!UICONTROL Design]**, así como ver el entorno **[!UICONTROL Live]**. [Más información](interaction-operators.md)
 
@@ -63,11 +63,11 @@ Siga estos pasos:
 
 1. Vaya a **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**, haga clic con el botón derecho en la asignación de destino que desee utilizar y seleccione **[!UICONTROL Actions]** > **[!UICONTROL Modify the options of the targeting dimension]**.
 
-   ![](assets/offer_env_anonymous_001.png)
+   ![Lista de asignaciones de destino con el menú Acciones y Modificar las opciones de la dimensión de destino seleccionada.](assets/offer_env_anonymous_001.png)
 
 1. Haga clic en **[!UICONTROL Next]**, seleccione la opción **[!UICONTROL Generate a storage schema for propositions]** y haga clic en **[!UICONTROL Save]**.
 
-   ![](assets/offer_env_anonymous_002.png)
+   ![Paso Extensiones del asistente con Generar un esquema de almacenamiento para las propuestas seleccionadas.](assets/offer_env_anonymous_002.png)
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ Esta opción permite activar funciones específicas de interacción anónimas, e
 
 Por ejemplo, puede vincular un entorno de destinatario con espacio de ofertas (contacto identificado) con un espacio de oferta que coincida con un entorno de visitante (contacto no identificado). De esta manera, se ponen a disposición del contacto distintas ofertas en función de si está, o no, identificado. Para obtener más información, consulte [Creación de espacios de ofertas](interaction-offer-spaces.md).
 
-![](assets/offer_env_anonymous_003.png)
+![Diseño de visitantes y entornos en vivo, con la opción dedicada a interacciones anónimas entrantes marcada.](assets/offer_env_anonymous_003.png)
 
 >[!NOTE]
 >

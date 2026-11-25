@@ -39,10 +39,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 49%
+source-wordcount: '1153'
+ht-degree: 44%
 ---
 # Trabajo con plantillas de envío {#work-with-delivery-template}
 
@@ -59,7 +59,7 @@ Una plantilla puede incluir ajustes de configuración parciales o completos, com
 * Contenido, logotipo de una compañía o firma
 * Otras propiedades del envío, como la validez de los recursos, los parámetros de reintento o la configuración de cuarentena.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#delivery-template-video)
+![Icono de reproducción para el vínculo del vídeo](assets/do-not-localize/how-to-video.png) [Descubra esta característica en el vídeo](#delivery-template-video)
 
 Las plantillas de envío se almacenan en la carpeta **[!UICONTROL Resources > Templates > Delivery templates]** del explorador. En Adobe Campaign, puede trabajar con dos tipos de plantillas:
 
@@ -88,15 +88,15 @@ Para duplicar una plantilla de envíos, siga estos pasos:
 1. Seleccione una plantilla de envíos integrada. Las plantillas integradas aparecen en negrita en la lista.
 1. Haga clic con el botón derecho y seleccione **[!UICONTROL Duplicate]**.
 
-   ![](assets/duplicate-built-in-template.png)
+   ![Lista de plantillas de envío con el menú contextual abierto y Duplicado seleccionado en una plantilla integrada](assets/duplicate-built-in-template.png)
 
 1. Defina la configuración de la plantilla y guarde la nueva plantilla.
 
-   ![](assets/delivery-template-new.png)
+   ![Propiedades de una plantilla de correo electrónico duplicada con su etiqueta, dirección de origen, asunto y contenido de HTML](assets/delivery-template-new.png)
 
 La plantilla se añade a la lista de plantillas de envío. Ahora puede seleccionarlo al crear un nuevo envío.
 
-![](assets/select-the-new-template.png)
+![Plantillas de envío con lista desplegable de plantillas integradas y el nuevo anuncio de plantilla personalizada Envío por correo electrónico](assets/select-the-new-template.png)
 
 ### Conversión de un envío existente en una plantilla {#convert-an-existing-delivery}
 
@@ -108,11 +108,11 @@ Para convertir un envío en una plantilla, siga los pasos a continuación:
 
 1. Haga clic con el botón derecho y seleccione **[!UICONTROL Actions > Save as template...]**.
 
-   ![](assets/save-as-template.png)
+   ![Menú contextual de lista de envío con Acciones y Guardar como plantilla seleccionada](assets/save-as-template.png)
 
 1. Edite las propiedades de la entrega y seleccione la carpeta donde debe guardarse la nueva plantilla (en el campo **[!UICONTROL Folder]**) y la carpeta donde deben crearse las entregas basados en esta plantilla (en el campo **[!UICONTROL Execution folder]**).
 
-   ![](assets/template-select-folders.png)
+   ![Propiedades de entrega con los campos Carpeta de ejecución, Carpeta y Enrutamiento para la nueva plantilla](assets/template-select-folders.png)
 
 ### Creación de una nueva plantilla {#create-a-new-template}
 
@@ -140,11 +140,11 @@ Para configurar una plantilla de envíos desde cero, siga los pasos a continuaci
 
 Para crear una entrega basada en una plantilla existente, seleccione la plantilla de la lista de plantillas de entrega disponibles.
 
-![](assets/select-the-new-template.png)
+![Plantillas de envío con lista desplegable de plantillas integradas y el nuevo anuncio de plantilla personalizada Envío por correo electrónico](assets/select-the-new-template.png)
 
 Si no puede ver la plantilla, haga clic en la carpeta **[!UICONTROL Select link]** a la derecha del campo para examinar las carpetas de Campaign.
 
-![](assets/browse-templates.png)
+![Cuadro de diálogo de selección de carpetas que muestra plantillas de entrega, abierto desde el campo Plantilla de entrega](assets/browse-templates.png)
 
 Seleccione el directorio que desee en el campo **[!UICONTROL Folder]** o haga clic en el icono **[!UICONTROL Display sub-levels]** para mostrar el contenido de los directorios en los subárboles del directorio actual.
 
@@ -160,7 +160,7 @@ Para ejecutar una plantilla manualmente, siga estos pasos:
 
    También puede usar **[!UICONTROL File>Actions>Execute the delivery template...]**.
 
-   ![](assets/execute-delivery-template.png)
+   ![Lista de plantillas de envío con la opción de menú Execute the delivery template seleccionada](assets/execute-delivery-template.png)
 
 1. Introduzca los parámetros de envío y haga clic en **[!UICONTROL Send]**.
 

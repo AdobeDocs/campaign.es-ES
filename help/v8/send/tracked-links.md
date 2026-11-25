@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 76%
+source-wordcount: '621'
+ht-degree: 70%
 ---
 # Configuración de vínculos rastreados {#how-to-configure-tracked-links}
 
@@ -39,17 +39,17 @@ Para cada entrega, puede hacer un seguimiento de la recepción de mensajes y la 
 
 >[!NOTE]
 >
->Los vínculos del contenido del correo electrónico que contienen personalización necesitan una sintaxis específica para poder rastrearse. Obtenga más información acerca de cómo agregar vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento en [esta sección](personalized-links.md).
+>Los vínculos del contenido del correo electrónico que contienen personalización necesitan una sintaxis específica para poder rastrearse. Obtenga más información sobre cómo agregar vínculos en correos electrónicos que se pueden personalizar y que admiten el seguimiento en [Seguimiento de vínculos personalizados](personalized-links.md).
 
 El seguimiento de mensajes está habilitado de forma predeterminada. Para personalizar cómo se realiza el seguimiento de las direcciones URL, siga los pasos a continuación:
 
 1. Seleccione la opción **[!UICONTROL Display URLs]** en la sección inferior del asistente de envíos, bajo el contenido del mensaje.
 
-   ![](assets/s_ncs_user_email_del_display_urls.png)
+   ![Contenido de HTML de entrega con la opción Mostrar URL debajo del contenido, aún no seleccionado](assets/s_ncs_user_email_del_display_urls.png)
 
    Al seleccionar una dirección URL de la lista de direcciones URL rastreadas, se resalta en el contenido de la entrega, excepto en el vínculo en la página espejo y el vínculo de cancelación de la suscripción que se proporciona de forma predeterminada.
 
-   ![](assets/s_ncs_user_email_del_show_urls.png)
+   ![Lista de direcciones URL rastreadas con una dirección URL seleccionada y su vínculo correspondiente resaltado en el contenido de la entrega](assets/s_ncs_user_email_del_show_urls.png)
 
 1. Seleccione si desea activar o no el seguimiento para cada URL del mensaje.
 
@@ -67,7 +67,7 @@ El seguimiento de mensajes está habilitado de forma predeterminada. Para person
 
 1. Si es necesario, cambie el modo de seguimiento y seleccione un nuevo modo en la columna **[!UICONTROL Tracking]** que coincida con el vínculo de destino, como se muestra a continuación:
 
-   ![](assets/s_ncs_user_select_tracking_mode.png)
+   ![La lista desplegable de la columna de seguimiento enumera los modos de seguimiento de una dirección URL, desde Habilitado a Página espejo](assets/s_ncs_user_select_tracking_mode.png)
 
    Para cada URL individual, puede definir el modo de seguimiento en uno de estos valores:
 
@@ -78,7 +78,7 @@ El seguimiento de mensajes está habilitado de forma predeterminada. Para person
    * **[!UICONTROL Opt-out]**: considera esta URL como una URL de exclusión o de baja.
    * **[!UICONTROL Mirror page]**: considera esta dirección URL como una dirección URL de página espejo.
 
-1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. Estas categorías se pueden mostrar en los informes, como en el informe **[!UICONTROL URLs and click streams]** (vea [esta sección](../reporting/delivery-reports.md#urls-and-click-streams)). Las categorías se definen en una enumeración específica: **[!UICONTROL urlCategory]**. Obtenga más información acerca de cómo trabajar con enumeraciones en [esta sección](../config/enumerations.md).
+1. Además, puede seleccionar una categoría para cada URL rastreada en la lista desplegable de la columna **[!UICONTROL Category]**. Estas categorías se pueden mostrar en los informes, como en el informe **[!UICONTROL URLs and click streams]** (vea [URL y flujos de clics](../reporting/delivery-reports.md#urls-and-click-streams)). Las categorías se definen en una enumeración específica: **[!UICONTROL urlCategory]**. Obtenga más información acerca de cómo trabajar con enumeraciones en [Administrar enumeraciones](../config/enumerations.md).
 
 ## Prácticas recomendadas para delimitadores de URL {#url-delimiters}
 

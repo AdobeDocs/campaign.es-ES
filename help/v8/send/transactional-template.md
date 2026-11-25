@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 53%
+source-wordcount: '1491'
+ht-degree: 42%
 ---
 # Crear y publicar una plantilla para la mensajería transaccional{#template-transactional-messages}
 
@@ -50,16 +50,16 @@ Para crear una plantilla de mensaje, siga los pasos a continuación:
 1. Vaya a la carpeta **[!UICONTROL Message Center >Transactional message templates]** en el árbol de Adobe Campaign.
 1. En la lista de las plantillas de mensajes transaccionales, haga clic con el botón derecho y seleccione **[!UICONTROL New]** en el menú desplegable o haga clic en el botón **[!UICONTROL New]** situado sobre la lista de las plantillas de mensajes transaccionales.
 
-   ![](assets/messagecenter_create_model_001.png)
+   ![Nuevo botón de la lista de plantillas de mensajes transaccionales, utilizado para crear una plantilla de mensaje](assets/messagecenter_create_model_001.png)
 
 1. En la ventana de envío, seleccione la plantilla de envío adecuada para el canal que desee utilizar.
 
-   ![](assets/messagecenter_create_model_002.png)
+   ![Lista de plantillas de envío con plantillas de mensajes transaccionales para Android, correo directo, correo electrónico, iOS y móviles](assets/messagecenter_create_model_002.png)
 
 1. Cambie la etiqueta si es necesario.
 1. Seleccione el tipo de evento que coincida con el mensaje que desea enviar. Los tipos de eventos que Adobe Campaign va a procesar deben crearse de antemano. [Más información](../send/transactional.md#create-event-types)
 
-   ![](assets/messagecenter_create_model_003.png)
+   ![Menú desplegable de tipo de evento en la nueva ventana de envío de mensaje transaccional, que enumera los tipos de evento de compra y comando](assets/messagecenter_create_model_003.png)
 
    >[!CAUTION]
    >
@@ -80,7 +80,7 @@ La definición del contenido del mensaje transaccional es la misma que para toda
 
 Una vez definido el contenido del mensaje, puede integrar la información del evento en el cuerpo del mensaje y personalizarlo. La información del evento se inserta en el cuerpo del texto gracias a las etiquetas de personalización.
 
-![](assets/messagecenter_create_content.png)
+![Editor de contenido de HTML con el menú Mensaje abierto para insertar campos de personalización en un mensaje transaccional](assets/messagecenter_create_content.png)
 
 * Todos los campos de personalización proceden de la carga útil.
 * Es posible hacer referencia a uno o varios bloques de personalización en un mensaje transaccional. <!--The block content will be added to the delivery content during the publication to the execution instance.-->
@@ -91,11 +91,11 @@ Para insertar etiquetas de personalización en el cuerpo de un mensaje de correo
 1. Introduzca el cuerpo del mensaje.
 1. En el cuerpo del texto, inserte la etiqueta utilizando los menús **[!UICONTROL Real time events>Event XML]**.
 
-   ![](assets/messagecenter_create_custo_1.png)
+   ![Menú de eventos en tiempo real con XML de evento seleccionado para insertar una etiqueta de personalización de evento en el contenido de HTML](assets/messagecenter_create_custo_1.png)
 
 1. Complete la etiqueta con la siguiente sintaxis: **nombre de elemento**.@**nombre de atributo** tal como se muestra a continuación.
 
-   ![](assets/messagecenter_create_custo_2.png)
+   ![Etiquetas de personalización de eventos en el contenido de HTML usando el nombre del elemento y la sintaxis de atributo, una etiqueta subrayada](assets/messagecenter_create_custo_2.png)
 
 ## Prueba de la plantilla de mensaje transaccional {#test-message-template}
 
@@ -105,23 +105,23 @@ Una dirección semilla permite mostrar una previsualización del mensaje, enviar
 
 1. En la plantilla de mensaje transaccional, haga clic en la pestaña **[!UICONTROL Seed addresses]** y, a continuación, haga clic en el botón **[!UICONTROL Add]**.
 
-   ![](assets/messagecenter_create_seed_1.png)
+   ![Pestaña Direcciones semilla de la plantilla con el botón Agregar resaltado](assets/messagecenter_create_seed_1.png)
 
 1. Asigne una etiqueta para facilitar la selección posterior e introduzca la dirección semilla (correo electrónico o teléfono móvil según el canal de comunicación).
 
 1. Introduzca el identificador externo: este campo opcional permite introducir una clave de negocio (ID único, nombre + correo electrónico, etc.) que es común a todas las aplicaciones del sitio web y sirve para identificar los perfiles. Si este campo también está presente en la base de datos de marketing de Adobe Campaign, puede reconciliar un evento con un perfil de la base de datos.
 
-   ![](assets/messagecenter_create_seed_2.png)
+   ![Cuadro de diálogo Dirección semilla con los campos Etiqueta, Correo electrónico e Identificador externo](assets/messagecenter_create_seed_2.png)
 
 1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
-   ![](assets/messagecenter_create_custo_3.png)
+   ![Cuadro de diálogo Dirección semilla con datos de prueba en la sección Contenido, escrito como XML para el contexto de evento](assets/messagecenter_create_custo_3.png)
 
 1. Haga clic en **[!UICONTROL Ok]** para confirmar la creación de la dirección semilla.
 
 1. Repita el proceso para crear todas las direcciones que sean necesarias.
 
-   ![](assets/messagecenter_create_seed_6.png)
+   ![Pestaña Direcciones semilla con tres direcciones semilla creadas para la plantilla de entrega de compra](assets/messagecenter_create_seed_6.png)
 
 Una vez creadas las direcciones, puede acceder a su vista previa y personalización.
 
@@ -150,11 +150,11 @@ Una vez que haya creado una o varias direcciones semilla y el cuerpo del mensaje
 
 1. En la plantilla del mensaje, haga clic en la ficha **[!UICONTROL Preview]** y, a continuación, seleccione **[!UICONTROL A seed address]** en la lista desplegable.
 
-   ![](assets/messagecenter_preview_1.png)
+   ![Pestaña Vista previa con el menú Test personalization abierto y una dirección semilla seleccionada](assets/messagecenter_preview_1.png)
 
 1. Seleccione la dirección semilla creada anteriormente para mostrar el mensaje personalizado.
 
-   ![](assets/messagecenter_create_seed_7.png)
+   ![Cuadro de diálogo de selección de direcciones semilla y vista previa con el contenido de mensaje personalizado](assets/messagecenter_create_seed_7.png)
 
 ### Envío de una prueba {#send-proof}
 
@@ -162,7 +162,7 @@ Puede probar el envío de mensajes enviando una prueba a una dirección semilla 
 
 El envío de una prueba implica realizar el mismo proceso que para cualquier entrega.
 
-Obtenga más información acerca de las revisiones en [esta sección](../send/preview-and-proof.md#proofs-send).
+Obtenga más información acerca de las revisiones en [Enviar una revisión](../send/preview-and-proof.md#proofs-send).
 
 Sin embargo, para enviar una prueba de un mensaje transaccional, debe realizar las siguientes operaciones:
 
@@ -175,15 +175,15 @@ Para enviar la prueba:
 1. Analice la entrega.
 1. Corrija los errores y confirme la entrega.
 
-   ![](assets/messagecenter_send_proof_001.png)
+   ![Envíe un cuadro de diálogo de prueba que muestre la preparación de la entrega completada con Mensajes para enviar y el botón Confirmar entrega](assets/messagecenter_send_proof_001.png)
 
 1. Compruebe que el mensaje se haya enviado a la dirección semilla y que su contenido cumpla con su configuración.
 
-   ![](assets/messagecenter_send_proof_002.png)
+   ![Se recibió un correo electrónico de revisión con valores de personalización de los datos de las direcciones semilla subrayados](assets/messagecenter_send_proof_002.png)
 
 Se puede acceder a las pruebas en cada plantilla a través de la pestaña **[!UICONTROL Audit]**.
 
-![](assets/messagecenter_send_proof_003.png)
+![Pestaña Auditoría de la plantilla que enumera las pruebas enviadas, con sus mensajes para enviar, procesados y recuentos de éxito](assets/messagecenter_send_proof_003.png)
 
 #### Transición desde [!DNL Campaign Classic] v7 {#transition-from-v7}
 
@@ -193,7 +193,7 @@ Sin embargo, al crear una plantilla de mensaje transaccional, el enrutamiento ne
 
 Por lo tanto, para enviar una prueba para la plantilla de mensaje transaccional, debe cambiar el enrutamiento de envío de correo electrónico interno a **cuenta de enrutamiento intermediaria**.
 
-![](assets/messagecenter_send_proof_004.png)
+![Pestaña Propiedades de entrega: General con el campo Enrutamiento y el enrutamiento de correo electrónico con la cuenta intermediaria seleccionada](assets/messagecenter_send_proof_004.png)
 
 Una vez enviadas las pruebas, debe cambiar el enrutamiento de nuevo a envío de correo electrónico interno antes de publicar la plantilla de mensaje transaccional.
 
@@ -215,13 +215,13 @@ Publication lets you automatically create two message templates on the execution
 
 1. Vaya a la carpeta **[!UICONTROL Message Center > Transactional message templates]** del árbol.
 1. Seleccione la plantilla que desea publicar<!--on your execution instances-->.
-1. Haga clic en **[!UICONTROL Publish]**.
+1. Haga clic **[!UICONTROL Publish]**.
 
-   ![](assets/messagecenter_publish_template.png)
+   ![Publicación del cuadro de diálogo de la plantilla con el proceso completado y el registro de la publicación, después de hacer clic en Publicar](assets/messagecenter_publish_template.png)
 
 Una vez terminada la publicación, las dos plantillas de mensaje que se aplican a los eventos de tipo por lotes y en tiempo real se crean en la carpeta **[!UICONTROL Administration > Production > Message Center Execution> Default > Transactional message templates]**.
 
-![](assets/messagecenter_deployed_model.png)
+![Plantilla publicada en la lista y sus dos plantillas implementadas en la carpeta Message Center Execution](assets/messagecenter_deployed_model.png)
 
 Una vez publicada una plantilla, si se activa el evento correspondiente, Adobe Campaign<!--execution instance--> recibirá el evento, lo vinculará a la plantilla transaccional y enviará el mensaje transaccional correspondiente a cada destinatario.
 
@@ -250,7 +250,7 @@ Para cancelar la publicación de una plantilla de mensaje transaccional, siga lo
 1. Haga clic **[!UICONTROL Unpublish]**.
 1. Haga clic **[!UICONTROL Start]**.
 
-![](assets/message-center-unpublish.png)
+![Anular la publicación del cuadro de diálogo de plantilla con el botón Inicio, abierto desde el botón Cancelar publicación de una plantilla publicada](assets/message-center-unpublish.png)
 
 El estado de la plantilla de mensaje transaccional cambia de **[!UICONTROL Published]** a **[!UICONTROL Being edited]**.
 

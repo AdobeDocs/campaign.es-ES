@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '3642'
+source-wordcount: '3734'
 ht-degree: 27%
 ---
 # Configuración de cuenta externa de SMPP {#smpp-external-account}
@@ -53,7 +53,7 @@ El equipo de red en el lado del proveedor de servicios SMS suele conocerse como 
 
 ## Configuración de conexión {#smpp-connection-settings}
 
-![](assets/smpp_connection_settings.png){zoomable="yes"}
+![Pestaña Configuración de conexión de la cuenta externa de SMPP: servidor, puerto, cuenta, contraseña y modo de conexión](assets/smpp_connection_settings.png){zoomable="yes"}
 
 Estos son los parámetros y su función necesarios para configurar la conexión:
 
@@ -94,7 +94,7 @@ Cuando se habilita, se generan registros adicionales en el archivo de registro. 
 
 ## Configuración de canal SMPP {#smpp-channel-settings}
 
-![](assets/smpp_channel_settings.png){zoomable="yes"}
+![Pestaña Configuración de canal de SMPP: opción de transliteración, número de origen, TON/NPI de origen y destino, tipo de servicio](assets/smpp_channel_settings.png){zoomable="yes"}
 
 ### Autorizar transliteración de caracteres {#smpp-transliteration}
 
@@ -124,7 +124,7 @@ Este campo se transmite tal cual en el campo service_type de la PDU SUBMIT_SM. C
 
 ## Rendimiento y retrasos {#smpp-delays}
 
-![](assets/smpp_throughput.png){zoomable="yes"}
+![Pestaña Rendimiento y retrasos: ventana de envío, rendimiento máximo de MT, reconexión, caducidad, tiempo de espera de enlace, enquire_link](assets/smpp_throughput.png){zoomable="yes"}
 
 Esta configuración controla todos los aspectos de tiempo del canal SMPP. Algunos proveedores requieren un control muy preciso de la velocidad de mensajes, la ventana y los tiempos de reintento, por lo que esta configuración debe establecerse en valores que coincidan con la capacidad del proveedor y las condiciones indicadas en su contrato.
 
@@ -134,7 +134,7 @@ La ventana es el número de PDU SUBMIT_SM que se pueden enviar sin esperar una S
 
 Ejemplo de una transmisión con una ventana máxima de 4:
 
-![](assets/sms_sending_window.png){zoomable="yes"}
+![Secuencia entre Campaign y SMSC: las solicitudes SUBMIT_SM y SUBMIT_SM_RESP responden con una ventana de 4](assets/sms_sending_window.png){zoomable="yes"}
 
 La ventana ayuda a aumentar el rendimiento cuando el vínculo de red tiene una latencia alta. El valor de la ventana debe ser al menos el número de SMS/s multiplicado por la latencia del vínculo (en segundos), de modo que el conector nunca está esperando a SUBMIT_SM_RESP antes de enviar el siguiente mensaje.
 
@@ -199,7 +199,7 @@ Si el mensaje no se puede codificar en GSM, se codificará en UCS-2 y establecer
 
 ## Especificaciones de SMSC {#smsc-specificities}
 
-![](assets/smsc_specificities.png){zoomable="yes"}
+![Pestaña SMSC specificities con message_payload, enlace TON/NPI, expresiones regulares de estado, formatos de ID y opciones TLS](assets/smsc_specificities.png){zoomable="yes"}
 
 ### Activar message_payload
 
@@ -347,7 +347,7 @@ Si se habilita, todas las conexiones al SMSC se cifrarán con TLS.
 
 ## Tráfico entrante {#incoming-traffic}
 
-![](assets/incoming_traffic.png){zoomable="yes"}
+![Pestaña Tráfico entrante: parámetros SMPP opcionales (TLV) en MO y la tabla de respuesta automática para MO](assets/incoming_traffic.png){zoomable="yes"}
 
 ### Parámetros SMPP opcionales (TLV) en MO
 

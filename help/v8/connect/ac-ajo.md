@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '126'
+source-wordcount: '142'
 ht-degree: 0%
 ---
 # Trabajo con Campaign y Adobe Journey Optimizer
@@ -40,7 +40,7 @@ La integración entre Adobe Campaign y Adobe Journey Optimizer le permite organi
 Los pasos básicos son crear una plantilla de mensaje transaccional en Campaign y luego crear el evento, la acción y el recorrido en Adobe Journey Optimizer.
 
 
-![](assets/ajo-integration.png)
+![Lienzo de recorrido de Journey Optimizer con la acción ActionCampaign_v8 y sus parámetros de correo electrónico, nombre y pedido](assets/ajo-integration.png)
 
 
 [Descubra esta integración en esta muestra integral](https://experienceleague.adobe.com/es/docs/journey-optimizer/using/connect-systems/adobe-solutions/acc-action){target="_blank"}.

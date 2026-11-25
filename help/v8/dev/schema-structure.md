@@ -39,16 +39,16 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1448'
-ht-degree: 12%
+source-wordcount: '1524'
+ht-degree: 11%
 ---
 # Estructura del esquema{#schema-structure}
 
 La estructura básica de `<srcschema>` es la siguiente:
 
-```
+```xml
 <srcSchema>
     <enumeration>
         ...          //definition of enumerations
@@ -88,7 +88,7 @@ La estructura básica de `<srcschema>` es la siguiente:
 
 El documento XML de un esquema de datos debe contener **`<srcschema>`** el elemento raíz con los atributos **name** y **namespace** para rellenar el nombre del esquema y su espacio de nombres.
 
-```
+```xml
 <srcSchema name="schema_name" namespace="namespace">
 ...
 </srcSchema>
@@ -96,7 +96,7 @@ El documento XML de un esquema de datos debe contener **`<srcschema>`** el eleme
 
 Utilice el siguiente contenido XML para ilustrar la estructura de un esquema de datos:
 
-```
+```xml
 <recipient email="John.doe@aol.com" created="AAAA/DD/MM" gender="1"> 
   <location city="London"/>
 </recipient>
@@ -104,7 +104,7 @@ Utilice el siguiente contenido XML para ilustrar la estructura de un esquema de 
 
 Con su esquema de datos correspondiente:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email"/>
@@ -123,7 +123,7 @@ El punto de entrada del esquema es el elemento principal. Es fácil de identific
 
 En nuestro ejemplo, el elemento principal se representa mediante la siguiente línea:
 
-```
+```xml
 <element name="recipient">
 ```
 
@@ -131,7 +131,7 @@ Los elementos **`<attribute>`** y **`<element>`** que siguen al elemento princip
 
 En nuestro esquema de ejemplo, estos son:
 
-```
+```xml
 <attribute name="email"/>
 <attribute name="created"/>
 <attribute name="gender"/>
@@ -181,7 +181,7 @@ Los siguientes tipos de datos son compatibles con los esquemas:
 
 Este es un ejemplo de esquema con los tipos introducidos:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <element name="recipient">
     <attribute name="email" type="string" length="80"/>
@@ -208,13 +208,13 @@ Los elementos **`<elements>`** y **`<attributes>`** del esquema de datos se pued
 
   **Ejemplo**:
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email"/>
   ```
 
   La etiqueta se puede ver desde el formulario de entrada de la consola del cliente de Adobe Campaign:
 
-  ![](assets/schema_label.png)
+  ![Campo de entrada de correo electrónico en la consola, etiquetado como Correo electrónico con una dirección de correo electrónico ingresada.](assets/schema_label.png)
 
 * La propiedad **desc** permite escribir una descripción larga.
 
@@ -226,7 +226,7 @@ Los elementos **`<elements>`** y **`<attributes>`** del esquema de datos se pued
 
   **Ejemplo**:
 
-  ```
+  ```xml
   <attribute name="email" type="string" length="80" label="Email" desc="Email of recipient"/>
   ```
 
@@ -234,7 +234,7 @@ Los elementos **`<elements>`** y **`<attributes>`** del esquema de datos se pued
 
 La propiedad **default** permite definir una expresión que devuelva un valor predeterminado al crear contenido.
 
-El valor debe ser una expresión compatible con el lenguaje XPath. Para obtener más información, consulte [esta sección](#reference-with-xpath).
+El valor debe ser una expresión compatible con el lenguaje XPath. Para obtener más información, consulte [Referencia con XPath](#reference-with-xpath).
 
 **Ejemplo**:
 
@@ -267,7 +267,7 @@ El nombre dado a la enumeración puede elegirse libremente y compartirse con otr
 
 Estos valores se muestran en una lista desplegable del formulario de entrada:
 
-![](assets/schema_user_enum.png)
+![Campo de ciudad en el formulario de entrada que muestra una lista desplegable de valores de una enumeración de usuarios.](assets/schema_user_enum.png)
 
 >[!NOTE]
 >
@@ -281,11 +281,11 @@ El atributo **enum** hace referencia a la definición de una clase de enumeraci�
 
 Las enumeraciones permiten al usuario seleccionar un valor de una lista desplegable en lugar de introducir el valor en un campo de entrada normal:
 
-![](assets/schema_enum.png)
+![Lista desplegable de sexo que muestra los valores Ninguno especificado, Hombre y Mujer.](assets/schema_enum.png)
 
 Ejemplo de una declaración de enumeración en el esquema de datos:
 
-```
+```xml
 <enumeration name="gender" basetype="byte" default="0">    
   <value name="unknown" label="Not specified" value="0"/>    
   <value name="male" label="male" value="1"/>   
@@ -317,13 +317,13 @@ Los valores de enumeración se declaran en el elemento **`<value>`** con los atr
 
   Esta enumeración se utiliza para especificar la naturaleza de las campañas, por ejemplo.
 
-  ![](assets/schema_dbenum.png)
+  ![Nuevo cuadro de diálogo de campaña de marketing con la lista desplegable Naturaleza abierta, que muestra Ninguno especificado y Remarketing.](assets/schema_dbenum.png)
 
 ### Ejemplo {#example}
 
 A continuación, se muestra un ejemplo de esquema con las propiedades rellenadas:
 
-```
+```xml
 <srcSchema name="recipient" namespace="cus">
   <enumeration name="gender" basetype="byte">    
     <value name="unknown" label="Not specified" value="0"/>    
@@ -350,7 +350,7 @@ El atributo **unbound** con el valor &quot;true&quot; permite rellenar un elemen
 
 **Ejemplo**: definición del elemento de colección **`<group>`** en el esquema.
 
-```
+```xml
 <element name="group" unbound="true" label="List of groups">
   <attribute name="label" type="string" label="Label"/>
 </element>
@@ -358,7 +358,7 @@ El atributo **unbound** con el valor &quot;true&quot; permite rellenar un elemen
 
 Con proyección del contenido XML:
 
-```
+```xml
 <group label="Group1"/>
 <group label="Group2"/>
 ```
@@ -396,7 +396,7 @@ Se han añadido funciones de alto nivel a las expresiones para enriquecer el pot
 
 Puede acceder a la lista de funciones disponibles a través de cualquier editor de expresiones en la consola del cliente de Adobe Campaign:
 
-![](assets/schema_function.png)
+![Árbol de funciones del editor de expresiones con grupos agregados, de cadena, de fecha y numéricos, como Abs, Ceil y Round.](assets/schema_function.png)
 
 **Ejemplo**:
 
@@ -412,7 +412,7 @@ Una **Compute string** es una expresión XPath que se usa para construir una cad
 
 **Ejemplo**: calcule la cadena de la tabla de destinatarios.
 
-```
+```xml
 <srcSchema name="recipient" namespace="nms">  
   <element name="recipient">
     <compute-string expr="@lastName + ' ' + @firstName +' (' + @email + ')' "/>

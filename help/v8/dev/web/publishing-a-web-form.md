@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Accessibility
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 96%
+source-wordcount: '1481'
+ht-degree: 82%
 ---
 # Publicación de un formulario web{#publishing-a-web-form}
 
@@ -49,7 +49,7 @@ Puede utilizar los siguientes métodos de identificación:
 
 * **[!UICONTROL DES encryption]**
 
-  ![](assets/s_ncs_admin_survey_preload_methods_001.png)
+  ![Sección de identificación de precarga con el método establecido en cifrado DES, un campo de clave DES y omitir precarga si no hay ID](assets/s_ncs_admin_survey_preload_methods_001.png)
 
   Este método de cifrado utiliza un identificador (ID) proporcionado externamente, vinculado a una clave compartida por Adobe Campaign y el proveedor externo. El campo **[!UICONTROL Des key]** permite introducir esta clave de cifrado.
 
@@ -57,7 +57,7 @@ Puede utilizar los siguientes métodos de identificación:
 
   Esta opción le permite elegir entre los campos del contexto actual del formulario, los que se utilizan para encontrar el perfil correspondiente en la base de datos.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_002.png)
+  ![Sección de identificación de precarga con el método de lista de campos y el campo de correo electrónico seleccionado como identificador](assets/s_ncs_admin_survey_preload_methods_002.png)
 
   Los campos se pueden añadir a las propiedades del formulario mediante la pestaña **[!UICONTROL Parameters]** (consulte [Adición de parámetros](defining-web-forms-properties.md#adding-parameters)). Se ubican en la dirección URL del formulario o en las zonas de entrada.
 
@@ -69,11 +69,11 @@ Puede utilizar los siguientes métodos de identificación:
 
   La dirección URL puede incluir la dirección de correo electrónico sin cifrar, en cuyo caso los usuarios tienen acceso directo a las páginas que les afectan.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_003.png)
+  ![URL del formulario web que contiene la dirección de correo electrónico, abriendo el formulario de información del cliente prerrellenado directamente](assets/s_ncs_admin_survey_preload_methods_003.png)
 
   De no ser así, se les pide su contraseña.
 
-  ![](assets/s_ncs_admin_survey_preload_methods_004.png)
+  ![URL de formulario web sin correo electrónico, abriendo una página Escriba la contraseña que solicita la contraseña](assets/s_ncs_admin_survey_preload_methods_004.png)
 
   >[!CAUTION]
   >
@@ -89,7 +89,7 @@ La opción **[!UICONTROL Load additional data]** permite añadir información qu
 
 Por ejemplo, se puede precargar el género del destinatario y dirigirlo automáticamente a la página adecuada a través de un cuadro de prueba.
 
-![](assets/s_ncs_admin_survey_preload_ex.png)
+![Cuadro de precarga que carga el campo de género, seguido de un cuadro de prueba que envía los destinatarios a la página correspondiente](assets/s_ncs_admin_survey_preload_ex.png)
 
 ## Administración de la entrega y seguimiento de formularios web {#managing-web-forms-delivery-and-tracking}
 
@@ -137,13 +137,13 @@ Existen tres fases en el ciclo de vida de un formulario:
 
 El estado de publicación de un formulario se muestra en la lista de formularios.
 
-![](assets/s_ncs_admin_survey_status.png)
+![Lista de aplicaciones web que muestra el estado de publicación de cada formulario, como En línea y En proceso de edición](assets/s_ncs_admin_survey_status.png)
 
 ### Publicación de un formulario {#publishing-a-form}
 
 Para cambiar el estado de un formulario, debe publicarlo. Para ello, haga clic en el botón **[!UICONTROL Publication]** situado sobre la lista de formularios web y seleccione el estado en la casilla desplegable.
 
-![](assets/webapp_publish_webform.png)
+![Panel de formulario web con el botón Publicar, que lleva al cuadro de diálogo de publicación de la aplicación web con un botón Iniciar](assets/webapp_publish_webform.png)
 
 ### Publicación de un formulario en línea {#making-a-form-available-online}
 
@@ -151,7 +151,7 @@ Para que los usuarios puedan acceder, el formulario debe estar en producción e 
 
 * Utilice los campos de la sección **[!UICONTROL Project]** para introducir las fechas de inicio y finalización del formulario.
 
-  ![](assets/webapp_availability_date.png)
+  ![Pestaña General de Propiedades con los campos Fecha de inicio y Fecha de finalización en la sección Proyecto y el calendario Fecha de finalización abierto](assets/webapp_availability_date.png)
 
 * Haga clic en el vínculo **[!UICONTROL Personalize the message displayed if the form is closed...]** para definir el mensaje de error que se muestra si el usuario intenta acceder al formulario cuando este no es válido.
 
@@ -161,7 +161,7 @@ Para que los usuarios puedan acceder, el formulario debe estar en producción e 
 
 Cuando envía una invitación por correo electrónico, puede utilizar la opción **[!UICONTROL Adobe Campaign Encryption]** para la reconciliación de datos. Para ello, vaya al asistente de envíos y adapte el vínculo al formulario añadiendo el parámetro siguiente:
 
-```
+```xml
 <a href="https://server/webApp/APP264?&id=<%=escapeUrl(recipient.cryptedId) %>">
 ```
 
@@ -169,21 +169,21 @@ En este caso, la clave de reconciliación para el almacenamiento de datos debe s
 
 En este caso, es necesario marcar la opción **[!UICONTROL Update the preloaded record]** en la casilla de registro. Para obtener más información, consulte [Guardado de respuestas de formularios web](web-forms-answers.md#saving-web-forms-answers).
 
-![](assets/s_ncs_admin_survey_save_box_option.png)
+![Cuadro de diálogo de cuadro de almacenamiento con la opción Actualizar el registro precargado activada](assets/s_ncs_admin_survey_save_box_option.png)
 
 ### Respuestas al registro {#log-responses}
 
 El seguimiento de respuestas puede activarse en una pestaña específica para monitorizar el impacto del formulario web. Para ello, haga clic en el vínculo **[!UICONTROL Advanced parameters...]** en la ventana de propiedades del formulario y seleccione la opción **[!UICONTROL Log responses]**.
 
-![](assets/s_ncs_admin_survey_trace.png)
+![Cuadro de diálogo de parámetros avanzados con la opción Registrar respuestas activada, abierta desde las propiedades del formulario](assets/s_ncs_admin_survey_trace.png)
 
 La pestaña **[!UICONTROL Responses]** aparece para mostrarle la identidad de los encuestados.
 
-![](assets/s_ncs_admin_survey_trace_tab.png)
+![Pestaña Respuestas del formulario web que enumera la fecha y el destinatario de cada respuesta de formulario](assets/s_ncs_admin_survey_trace_tab.png)
 
 Seleccione un destinatario y haga clic en el botón **[!UICONTROL Detail...]** para ver las respuestas proporcionadas.
 
-![](assets/s_ncs_admin_survey_trace_edit.png)
+![Botón Detalle de la ficha Respuestas que abre una ventana de respuestas de formulario con las respuestas que ha introducido un destinatario](assets/s_ncs_admin_survey_trace_edit.png)
 
 Puede procesar los registros de respuestas proporcionados en las consultas, por ejemplo para dirigirse solo a los no encuestados para enviarles recordatorios o para ofrecer comunicaciones específicas únicamente a los encuestados.
 
@@ -191,7 +191,7 @@ Puede procesar los registros de respuestas proporcionados en las consultas, por 
 
 Al exportar e importar un paquete que incluye un formulario web de una instancia a otra (por ejemplo, de una fase a otra de producción), el estado del formulario web en la nueva instancia puede variar según varias condiciones. Los diferentes casos se enumeran a continuación.
 
-Obtenga más información sobre los distintos estados de un formulario web en [esta sección](#life-cycle-of-a-form).
+Obtenga más información sobre los diferentes estados de un formulario web en [Ciclo de vida de un formulario](#life-cycle-of-a-form).
 
 >[!NOTE]
 >

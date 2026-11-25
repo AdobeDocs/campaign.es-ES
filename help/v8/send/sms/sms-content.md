@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 31%
+source-wordcount: '334'
+ht-degree: 23%
 ---
 # Definición del contenido del SMS {#sms-content}
 
@@ -40,25 +40,25 @@ Para configurar el contenido de su envío de SMS:
 
 1. Escriba el contenido del mensaje en la ficha **[!UICONTROL Text content]**.
 
-   ![](assets/sms_content.png){zoomable="yes"}
+   ![Pestaña Text content del envío de SMS con el texto del mensaje introducido](assets/sms_content.png){zoomable="yes"}
 
 1. Puede personalizar el mensaje insertando campos de personalización (por ejemplo, añadiendo el nombre) o bloques de personalización predefinidos (por ejemplo, añadiendo los saludos). Haga clic en el botón de personalización para añadir lo siguiente:
 
-   ![](assets/sms_perso.png){zoomable="yes"}
+   ![Menú de Personalization abierto en el contenido de texto SMS con el submenú Destinatario que muestra Nombre y otros campos](assets/sms_perso.png){zoomable="yes"}
 
    Por ejemplo, después de hacer clic en **[!UICONTROL Recipient]** > **[!UICONTROL First name]**, el contenido del SMS se actualiza con el campo de personalización, como se muestra a continuación:
 
-   ![](assets/sms_perso_recipient.png){zoomable="yes"}
+   ![Contenido de texto SMS con el campo de personalización del nombre insertado en el mensaje](assets/sms_perso_recipient.png){zoomable="yes"}
 
-   Obtenga más información acerca de la personalización en Adobe Campaign en [esta sección](../personalize.md).
+   Obtenga más información acerca de la personalización en Adobe Campaign en [Introducción a la personalización](../personalize.md).
 
 1. Puede obtener una vista previa del contenido de la entrega desde la pestaña **[!UICONTROL Preview]**. Para comprobar la configuración de personalización, haga clic en la lista desplegable **[!UICONTROL Test personalization]** y seleccione un destinatario.
 
-   ![](assets/sms_preview.png){zoomable="yes"}
+   ![Pestaña Preview del SMS con la lista desplegable Test personalization abierta para seleccionar un destinatario](assets/sms_preview.png){zoomable="yes"}
 
    Puede comprobar la previsualización de su SMS con la personalización:
 
-   ![](assets/sms_preview_phone.png){zoomable="yes"}
+   ![Vista previa de SMS con el nombre reemplazado por el valor del destinatario, mostrado como texto y en una maqueta telefónica](assets/sms_preview_phone.png){zoomable="yes"}
 
 >[!NOTE]
 >

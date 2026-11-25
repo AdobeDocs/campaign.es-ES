@@ -38,14 +38,14 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3608'
-ht-degree: 32%
+source-wordcount: '3632'
+ht-degree: 31%
 ---
 # Notas de la versión de 2025 {#2025-rn}
 
-En esta página se indican las nuevas funcionalidades, mejoras y correcciones que se incluyen con la **la versión 8 de Campaign de 2025**. Para obtener la última versión, consulte [esta página](release-notes.md).
+En esta página se indican las nuevas funcionalidades, mejoras y correcciones que se incluyen con la **la versión 8 de Campaign de 2025**. Para obtener la última versión, consulte [Notas de la versión de Campaign v8](release-notes.md).
 
 Para cualquier implementación nueva o actualización a un entorno existente, instale [la versión más reciente](release-notes.md).
 
@@ -112,7 +112,7 @@ _jueves, 09 de julio de 2025_
 
 Lanzada anteriormente para un pequeño conjunto de clientes, la siguiente funcionalidad ya está disponible para todos los entornos de FDA de Campaign:
 
-* **Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y extendido. Póngase en contacto con Adobe si desea realizar la transición al nuevo conector. [Más información](../send/sms/sms.md)
+* **Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y extendido. Póngase en contacto con Adobe si desea realizar la transición al nuevo conector. [Enviar SMS con Adobe Campaign](../send/sms/sms.md)
 
   >[!NOTE]
   >
@@ -169,13 +169,13 @@ ACC - Dynamic Reporting - As a Campaign Standard migrated user, you can access D
 * **Dynamic Reporting for Multilingual** - Dynamic reporting is now available for multilingual email deliveries. For more information, refer to the [detailed documentation](../reporting/global-reports.md).
 -->
 
-* **API de REST**: ahora puede usar las API de REST para crear integraciones para Adobe Campaign y construir su propio ecosistema al interconectar Adobe Campaign con el panel de tecnologías que usa. La API de REST de mensajería transaccional también está disponible para el canal SMS. Cuando el correo electrónico como el teléfono móvil están presentes en la carga útil, puede utilizar el campo &quot;wishedChannel&quot; para especificar el canal. Si no se proporciona, el correo electrónico se utilizará de forma predeterminada a menos que wishedChannel solicite explícitamente un SMS. Las API transaccionales basadas en eventos también están disponibles para los correos electrónicos. [Más información](../dev/api/get-started-apis.md)
+* **API de REST**: ahora puede usar las API de REST para crear integraciones para Adobe Campaign y construir su propio ecosistema al interconectar Adobe Campaign con el panel de tecnologías que usa. La API de REST de mensajería transaccional también está disponible para el canal SMS. Cuando el correo electrónico como el teléfono móvil están presentes en la carga útil, puede utilizar el campo &quot;wishedChannel&quot; para especificar el canal. Si no se proporciona, el correo electrónico se utilizará de forma predeterminada a menos que wishedChannel solicite explícitamente un SMS. Las API transaccionales basadas en eventos también están disponibles para los correos electrónicos. [Introducción a las API de REST de Campaign](../dev/api/get-started-apis.md)
 
   >[!NOTE]
   >
   >Esta característica es **no** disponible para [implementaciones de FDAC de Campaign](../architecture/enterprise-deployment.md).
 
-* **Cancelación de suscripción a una lista de un clic**: dado que los principales ISP requieren que los remitentes permitan que los destinatarios se excluyan instantáneamente con un solo clic, ahora puede habilitar el encabezado Cancelación de suscripción a una lista de un clic en la interfaz de usuario, directamente desde la plantilla de correo electrónico o las propiedades de entrega. Esta opción está habilitada de manera predeterminada. [Más información](../send/email-parameters.md#one-click-list-unsubscribe)
+* **Cancelación de suscripción a una lista de un clic**: dado que los principales ISP requieren que los remitentes permitan que los destinatarios se excluyan instantáneamente con un solo clic, ahora puede habilitar el encabezado Cancelación de suscripción a una lista de un clic en la interfaz de usuario, directamente desde la plantilla de correo electrónico o las propiedades de entrega. Esta opción está habilitada de manera predeterminada. [Habilitar cancelación de suscripción a lista de un clic](../send/email-parameters.md#one-click-list-unsubscribe)
 
 <!--
 ACC - Rest APIs - As a Campaign Standard migrated user, you can use Rest APIs to create integrations for Adobe Campaign and build your own ecosystem by interfacing Adobe Campaign with the panel of technologies that you use. Read more
@@ -196,11 +196,11 @@ Consulte las [notas de la versión](https://experienceleague.adobe.com/docs/camp
 
 ### Mejoras generales {#improvements-8-8-1}
 
-* Microsoft Fabrics ahora se admite como base de datos externa con Adobe Campaign Federated Data Access (FDA). [Más información](../config/external-accounts.md#transfer-data-external-accounts)
-* La versión 8 de Campaign ahora es compatible con Android 15 y iOS 18 para las notificaciones push. [Más información](../start/compatibility-matrix.md#MobileSDK)
-* Ahora se admiten bases de datos en la nube además de las bases de datos locales para el túnel de red privada virtual segura. [Más información](../config/enhanced-security.md#vpn-databases)
-* Se ha añadido un nuevo conjunto de campos &quot;ID de proveedor&quot; en la sección &quot;Tráfico entrante&quot; del conector SMS 2.0. [Más información](../send/sms/smpp-external-account.md#incoming-traffic)
-* Los destinatarios que cancelen su suscripción mediante el método &quot;mailto&quot; List-Unsubscribe ya no se envían a cuarentena. Se dan de baja del servicio asociado a la entrega o se envían a la lista de bloqueados de la (sección &quot;Ya no se puede contactar&quot; del perfil) si no se ha definido ningún servicio para la entrega. [Más información](../send/quarantines.md)
+* Microsoft Fabrics ahora se admite como base de datos externa con Adobe Campaign Federated Data Access (FDA). [Transferir datos a cuentas externas](../config/external-accounts.md#transfer-data-external-accounts)
+* La versión 8 de Campaign ahora es compatible con Android 15 y iOS 18 para las notificaciones push. [SDK móvil](../start/compatibility-matrix.md#MobileSDK)
+* Ahora se admiten bases de datos en la nube además de las bases de datos locales para el túnel de red privada virtual segura. [Bases de datos y dispositivos compatibles](../config/enhanced-security.md#vpn-databases)
+* Se ha añadido un nuevo conjunto de campos &quot;ID de proveedor&quot; en la sección &quot;Tráfico entrante&quot; del conector SMS 2.0. [Tráfico entrante](../send/sms/smpp-external-account.md#incoming-traffic)
+* Los destinatarios que cancelen su suscripción mediante el método &quot;mailto&quot; List-Unsubscribe ya no se envían a cuarentena. Se dan de baja del servicio asociado a la entrega o se envían a la lista de bloqueados de la (sección &quot;Ya no se puede contactar&quot; del perfil) si no se ha definido ningún servicio para la entrega. [Administración de cuarentena en Campaign](../send/quarantines.md)
 * Ya está disponible en la consola del cliente de Adobe Campaign una versión renovada del informe de renderización de la bandeja de entrada.
 * El archivo `setup-client.exe` se ha reemplazado con un archivo `ac-client.msi`, lo que proporciona un método más sencillo para que los administradores realicen actualizaciones masivas sin que sea necesaria la intervención del usuario.
 
@@ -312,7 +312,7 @@ _sábado, 25 de abril de 2025_
 
 ### Nuevas funciones {#features-8-6-5}
 
-**Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad para entornos que realizan la transición desde Adobe Campaign Standard. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y extendido. [Más información](../send/sms/sms.md).
+**Nuevo conector de envío de SMS**: el conector de envío de SMS se ha modernizado y mejorado para habilitar conexiones SMPP en modo transceptor, habilitar conexiones SMPP persistentes y garantizar una mejor compatibilidad para entornos que realizan la transición desde Adobe Campaign Standard. Ya está disponible una nueva cuenta externa de SMS para todas las implementaciones de SMS nuevas. Las implementaciones existentes siguen siendo compatibles, pero se recomienda pasar a este nuevo conector moderno y extendido. [Enviar SMS con Adobe Campaign](../send/sms/sms.md).
 
 ### Mejoras generales {#improvements-8-6-5}
 
@@ -364,7 +364,7 @@ _14 de febrero de 2025_
 
 * **Informes dinámicos para mensajes transaccionales**: ahora puede supervisar los mensajes transaccionales en la interfaz de usuario de informes dinámicos. Estos informes permiten al experto en marketing ver todas las métricas y dimensiones de informes de los mensajes transaccionales, así como el desglose de envíos enviados a través de una plantilla en tiempo real. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}
 
-* **API REST de mensajería transaccional**: las API transaccionales basadas en eventos ya están disponibles para los correos electrónicos. [Más información](../dev/api/get-started-apis.md)
+* **API REST de mensajería transaccional**: las API transaccionales basadas en eventos ya están disponibles para los correos electrónicos. [Introducción a las API de REST de Campaign](../dev/api/get-started-apis.md)
 
 ### Correcciones {#fixes-8-7-3}
 
@@ -380,8 +380,8 @@ _15 de enero de 2025_
 
 * La estabilidad de la aplicación de Campaign se ha mejorado durante el análisis del envío en el contexto de una [implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md).
 * Esta versión incorpora mecanismos de arquitectura de FDAC mejorados y reforzados, incluida la administración de claves, el ensayo y la replicación de datos.
-* Se han introducido nuevos flujos de trabajo técnicos para la [implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md). Estos flujos de trabajo replican el envío y los datos relacionados centralizando las solicitudes de replicación paralelas en las tablas correspondientes. Estos flujos de trabajo comienzan con `Replicate nms`. [Más información](../architecture/replication.md)
-* Ahora hay disponible una nueva opción **Habilitar el supervisor de vigilancia para mantener el flujo de trabajo en ejecución de forma permanente** en las propiedades del flujo de trabajo. Cuando esta opción está habilitada, los flujos de trabajo se reinician automáticamente si se produce un error. De forma predeterminada, el reinicio se produce cada 30 segundos si el flujo de trabajo sigue dando error. Para ajustar este intervalo, puede crear una nueva opción `XtkWorkflow_WatchdogRestartTimerTimeout` y establecer un tipo de datos Integer para especificar el nuevo retraso. Esta opción solo debe habilitarse en flujos de trabajo técnicos. [Más información](../../automation/workflow/workflow-properties.md#execution)
+* Se han introducido nuevos flujos de trabajo técnicos para la [implementación empresarial (FDAC)](../../v8/architecture/enterprise-deployment.md). Estos flujos de trabajo replican el envío y los datos relacionados centralizando las solicitudes de replicación paralelas en las tablas correspondientes. Estos flujos de trabajo comienzan con `Replicate nms`. [Replicación de datos](../architecture/replication.md)
+* Ahora hay disponible una nueva opción **Habilitar el supervisor de vigilancia para mantener el flujo de trabajo en ejecución de forma permanente** en las propiedades del flujo de trabajo. Cuando esta opción está habilitada, los flujos de trabajo se reinician automáticamente si se produce un error. De forma predeterminada, el reinicio se produce cada 30 segundos si el flujo de trabajo sigue dando error. Para ajustar este intervalo, puede crear una nueva opción `XtkWorkflow_WatchdogRestartTimerTimeout` y establecer un tipo de datos Integer para especificar el nuevo retraso. Esta opción solo debe habilitarse en flujos de trabajo técnicos. [Ejecución](../../automation/workflow/workflow-properties.md#execution)
 
 ### Mejoras de seguridad {#security-8-6-4}
 

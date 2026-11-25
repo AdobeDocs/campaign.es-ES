@@ -27,10 +27,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 26%
+source-wordcount: '251'
+ht-degree: 23%
 ---
 # Introducción a las aplicaciones web y los formularios web{#gs-ac-web}
 
@@ -42,12 +42,12 @@ ht-degree: 26%
 
 Adobe Campaign incluye un módulo gráfico para definir y publicar **formularios web** a fin de crear páginas con campos de entrada y selección, que pueden incluir datos de la base de datos. Esto le permite diseñar y publicar páginas web a las que los usuarios pueden acceder para ver o introducir información.
 
-Aprenda a crear y publicar formularios web en [esta sección](web/about-web-forms.md).
+Aprenda a crear y publicar formularios web en [Introducción a los formularios web](web/about-web-forms.md).
 
-![](assets/sample.png)
+![Ejemplo de formulario web para una suscripción a la newsletter por correo electrónico con campos de correo electrónico, nombre y país y un botón Suscribirse.](assets/sample.png)
 
 Adobe Campaign también le permite crear y publicar **aplicaciones web** dinámicas e interactivas con datos de la base de datos y contenido adaptado a los derechos del usuario conectado.
 
 Puede crear páginas, como un formulario de edición en una extranet, o formularios de notificación en los que se incluya la información de la base de datos con tablas, gráficos, formularios de entrada, etc. Esta funcionalidad permite diseñar y enviar páginas web en las que los usuarios pueden buscar o introducir información.
 
-Aprenda a crear y publicar aplicaciones web en [esta sección](web/about-web-applications.md).
+Aprenda a crear y publicar aplicaciones web en [Introducción a las aplicaciones web](web/about-web-applications.md).

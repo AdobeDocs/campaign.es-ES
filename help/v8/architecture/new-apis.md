@@ -24,10 +24,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 4%
+source-wordcount: '492'
+ht-degree: 3%
 ---
 # API de campaña de FDAC específicas{#gs-new-api}
 
@@ -53,7 +53,7 @@ La API **xtk.session.ingest** está dedicada únicamente a la inserción de dato
 
 Utilice el siguiente código en una actividad **Javascript code** para insertar datos en la base de datos en la nube sin reconciliación:
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg
                                 testcol1="testValue1"
                                 testcol2="testValue2"
@@ -70,7 +70,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -90,7 +90,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
 
 1. El UUID se devuelve en la respuesta de SOAP:
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -102,7 +102,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
 
 Como resultado, la tabla de ensayo se alimenta según lo esperado.
 
-![](assets/no-reconciliation.png)
+![Contenido de tabla de muestra (ensayo) de esquema de ensayo que enumera cuatro registros con valores de Col de prueba 1 y Col de prueba 2](assets/no-reconciliation.png)
 
 ### Insertar con reconciliación
 
@@ -110,7 +110,7 @@ Como resultado, la tabla de ensayo se alimenta según lo esperado.
 
 Utilice el siguiente código en una actividad **Javascript code** para insertar datos en la base de datos en la nube con reconciliación:
 
-```
+```javascript
 var xmlStagingSampleTable = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue1"
                               testcol2="testValue2"
@@ -122,7 +122,7 @@ logInfo(strUuid);
 
 Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo esperado.
 
-![](assets/with-reconciliation.png)
+El contenido de ![Tabla de muestra de esquema de ensayo (ensayo) ahora enumera seis registros, incluidos ABC12345 y ABDCD321](assets/with-reconciliation.png)
 
 
 **Desde una llamada de SOAP**
@@ -130,7 +130,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -150,7 +150,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se alimenta según lo 
 
 1. En este caso, el UUID no se devuelve a la respuesta porque se ha proporcionado en la carga útil. La respuesta es:
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default">
@@ -172,7 +172,7 @@ La API **xtk.session.IngestExt** está optimizada para actualizar o eliminar dat
 
 Utilice el siguiente código en una actividad **Javascript code** para actualizar los datos en la base de datos en la nube:
 
-```
+```javascript
 var xmlStagingRecipient = <sampleTableStg  _key="@id" id="ABC12345"
                               testcol1="testValue A (updated)"
                               testcol2="testValue B (updated)"
@@ -183,14 +183,14 @@ xtk.session.IngestExt(xmlStagingRecipient);
 
 Una vez ejecutado el flujo de trabajo, la tabla de ensayo se actualiza según lo esperado.
 
-![](assets/updated-data.png)
+![Contenido de tabla de ensayo donde el registro ABC12345 ahora muestra testValue A (actualizado) y testValue B (actualizado)](assets/updated-data.png)
 
 **Desde una llamada de SOAP**
 
 1. Obtenga el token de autenticación.
 1. Almacene en déclencheur la API. La carga útil es:
 
-   ```
+   ```xml
    <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:xtk:session">
    <soapenv:Header/>
    <soapenv:Body>
@@ -210,7 +210,7 @@ Una vez ejecutado el flujo de trabajo, la tabla de ensayo se actualiza según lo
 
 1. La respuesta de SOAP es:
 
-   ```
+   ```xml
    <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="urn:wpp:default" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
    <SOAP-ENV:Body>
        <IngestExtResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns="urn:wpp:default"/>
@@ -222,7 +222,7 @@ Como resultado, la tabla de ensayo se actualiza según lo esperado.
 
 ## Administración de suscripciones {#sub-apis}
 
-La administración de suscripciones en Campaign se describe en [esta página](../start/subscriptions.md).
+La administración de suscripciones en Campaign se describe en [Administrar suscripciones y bajas de suscripción en Campaign](../start/subscriptions.md).
 
 La inserción de los datos de suscripción y baja se basa en el [Mecanismo de ensayo](staging.md) de la base de datos local de Campaign. La información del suscriptor se almacena temporalmente en tablas de ensayo de la base de datos local y el flujo de trabajo de sincronización envía estos datos desde la base de datos local a la base de datos en la nube. Como consecuencia, los procesos de suscripción y baja son **asíncronos**. Las solicitudes de inclusión y exclusión se procesan cada hora a través de un flujo de trabajo técnico específico. [Más información](replication.md#workflows)
 

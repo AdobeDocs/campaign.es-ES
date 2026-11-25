@@ -30,10 +30,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 59%
+source-wordcount: '468'
+ht-degree: 57%
 ---
 # Introducción a la mensajería transaccional{#send-transactional-messages}
 
@@ -49,9 +49,9 @@ Los mensajes transaccionales se utilizan para enviar:
 * una respuesta individual en tiempo real a una acción del cliente
 * contenido no promocional
 
-La configuración de la mensajería transaccional se detalla en [esta sección](../config/transactional-msg-settings.md).
+La configuración de mensajería transaccional se detalla en [Configuración de mensajería transaccional de Campaign](../config/transactional-msg-settings.md).
 
-Comprender la arquitectura de mensajería transaccional en [esta página](../architecture/architecture.md#transac-msg-archi).
+Comprender la arquitectura de mensajería transaccional en [arquitectura del Centro de mensajes](../architecture/architecture.md#transac-msg-archi).
 
 ## Principio operativo de mensajería transaccional {#transactional-messaging-operating-principle}
 
@@ -86,7 +86,7 @@ Para crear tipos de eventos que Adobe Campaign procesará, siga los pasos a cont
 1. Seleccione la enumeración **[!UICONTROL Event type]** de la lista.
 1. Haga clic en **[!UICONTROL Add]** para crear un valor de enumeración. Puede ser una confirmación de pedido, cambio de contraseña o de envío de pedido, etc.
 
-   ![](assets/messagecenter_eventtype_enum_001.png)
+   ![Enumeración de tipos de eventos en Administration > Platform > Enumerations, con el cuadro de diálogo Add y Enumeration value](assets/messagecenter_eventtype_enum_001.png)
 
    >[!CAUTION]
    >

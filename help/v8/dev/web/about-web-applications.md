@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 74%
+source-wordcount: '886'
+ht-degree: 67%
 ---
 # Introducción a las aplicaciones web{#about-web-applications}
 
@@ -61,7 +61,7 @@ Puede crear páginas, como un formulario de edición en una extranet, o formular
 
 Puede ser un formulario de suscripción que contenga datos previamente cargados con información contenida en la base de datos de Adobe Campaign, como se muestra a continuación:
 
-![](assets/webapp_form_sample.png)
+![Formulario de suscripción cargado previamente con un correo electrónico, nombre y país, con un botón Suscribirse.](assets/webapp_form_sample.png)
 
 En este capítulo se ofrece información general sobre cómo administrar aplicaciones web.
 
@@ -101,7 +101,7 @@ En comparación con las aplicaciones web, las encuestas tienen una interfaz grá
 >
 >Las encuestas se detallan en [esta sección](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/content/surveys/about-surveys){target="_blank"} (documentación de Campaign v8).
 >
->Las funcionalidades generales de los formularios web en Adobe Campaign se especifican en [esta sección](about-web-forms.md).
+>Las funcionalidades generales de los formularios web en Adobe Campaign se detallan en [Introducción a los formularios web](about-web-forms.md).
 
 ## Implementación de aplicación web {#web-application-implementation}
 
@@ -109,7 +109,7 @@ Para crear y publicar una aplicación web, debe:
 
 1. Crear el contenido (campos, listas, tablas, gráficos, etc.).
 
-   También puede ver la sección que muestra los campos disponibles para los formularios; todos estos campos también están disponibles para las aplicaciones web. Esta información está disponible en [esta página](adding-fields-to-a-web-form.md).
+   También puede ver la sección que muestra los campos disponibles para los formularios; todos estos campos también están disponibles para las aplicaciones web. Esta información está disponible en [Agregar campos a un formulario web](adding-fields-to-a-web-form.md).
 
 1. Si es necesario, puede añadir pasos de precarga, pruebas y almacenamiento, además de configurar el sistema de control de acceso (principalmente en el marco de una publicación en extranet).
 1. Publique la aplicación web para que esté disponible en una extranet o en Adobe Campaign.
@@ -120,7 +120,7 @@ Las aplicaciones web se crean mediante el vínculo **[!UICONTROL Web Application
 
 Las aplicaciones web se almacenan en el nodo **[!UICONTROL Resources > Online > Web Applications]** del directorio de Adobe Campaign. Las configuraciones se desglosan en las siguientes carpetas:
 
-* **[!UICONTROL Administration > Configuration > Form renderings]**: contiene las plantillas de renderización para la visualización del formulario web (aplicaciones y encuestas). La plantilla permite generar el formulario. También se utiliza una hoja de estilos CSS. Esta hoja de estilos se puede cargar a nivel de la plantilla. Para obtener más información, consulte [esta página](form-rendering.md#selecting-the-form-rendering-template).
+* **[!UICONTROL Administration > Configuration > Form renderings]**: contiene las plantillas de renderización para la visualización del formulario web (aplicaciones y encuestas). La plantilla permite generar el formulario. También se utiliza una hoja de estilos CSS. Esta hoja de estilos se puede cargar a nivel de la plantilla. Para obtener más información, consulte [Selección de la plantilla de procesamiento del formulario](form-rendering.md#selecting-the-form-rendering-template).
 * **[!UICONTROL Resources > Templates > Web application templates]**: contiene plantillas de formulario. Para crear un formulario o una aplicación web, se debe comenzar desde una plantilla.
 
 ## Plantillas de aplicación web {#web-application-templates}
@@ -135,7 +135,7 @@ Puede crear más plantillas a través del nodo **[!UICONTROL Resources > Templat
 
 El asistente de creación le permite seleccionar las opciones que desee habilitar, como se muestra a continuación.
 
-![](assets/webapp_create_template.png)
+![Nuevo cuadro de diálogo de aplicación web con las opciones de Encuesta y sitio web avanzado (extranet) para habilitar.](assets/webapp_create_template.png)
 
 >[!CAUTION]
 >

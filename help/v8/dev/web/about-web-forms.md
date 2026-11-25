@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 98%
+source-wordcount: '623'
+ht-degree: 79%
 ---
 # Introducción a los formularios web{#about-web-forms}
 
@@ -55,19 +55,19 @@ Se accede a los formularios web a través del menú Aplicaciones web del entorno
 
 Para crear un formulario web, haga clic en el botón **[!UICONTROL Create]** situado sobre la lista de aplicaciones web.
 
-![](assets/webapp_create_new.png)
+![Lista de aplicaciones web en Campañas con el botón Crear resaltado para iniciar un nuevo formulario web.](assets/webapp_create_new.png)
 
 Seleccione la plantilla de formulario web (**[!UICONTROL newWebForm]** de forma predeterminada).
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![Cuadro de diálogo Nueva aplicación web con la plantilla Nuevo formulario web (newWebForm) seleccionada en la lista Plantilla.](assets/s_ncs_admin_survey_select_template.png)
 
 Esto le lleva al panel de control del formulario.
 
-![](assets/webapp_empty_dashboard.png)
+![Pestaña Panel de un nuevo formulario web que muestra su estado, esquema, carpeta, URL pública y el botón Publicar.](assets/webapp_empty_dashboard.png)
 
 La pestaña **[!UICONTROL Edit]** le permite crear su contenido.
 
-![](assets/webapp_edit_tab.png)
+![Ficha Edit de un formulario web que muestra el diagrama de actividades (Inicio, Página, Prueba, Almacenamiento, Fin) y la paleta de actividades.](assets/webapp_edit_tab.png)
 
 Para definir la configuración y el contenido del formulario web, realice los siguientes pasos:
 
@@ -104,12 +104,12 @@ En las siguientes secciones se detalla cómo definir el contenido y el diseño d
 
 También puede utilizar los iconos de la barra de herramientas o hacer clic con el botón derecho para insertar una zona de entrada.
 
-![](assets/s_ncs_admin_webform_add_selection.png)
+![Menú de barra de herramientas del editor de páginas para agregar un campo de entrada: cuadro combinado, casilla de verificación, botón de opción, opción múltiple, fecha, cuadrícula.](assets/s_ncs_admin_webform_add_selection.png)
 
 En este caso, comience por seleccionar el tipo de campo que desea añadir y el modo de almacenamiento de respuestas.
 
-![](assets/s_ncs_admin_webform_select_storage.png)
+![Cuadro de diálogo de almacenamiento: elija Editar un destinatario o una variable y, a continuación, elija el campo Base de datos con la expresión Edit.](assets/s_ncs_admin_webform_select_storage.png)
 
 Haga clic en **[!UICONTROL Ok]** para aprobar la selección.
 
-![](assets/s_ncs_admin_webform_confirm_storage.png)
+![Al seleccionar el campo Salutation en Seleccione una expresión, se rellena el campo Database en el cuadro de diálogo Storage; haga clic en Ok.](assets/s_ncs_admin_webform_confirm_storage.png)

@@ -23,10 +23,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 87%
+source-wordcount: '1164'
+ht-degree: 81%
 ---
 # Conexión a la versión 8 de Adobe Campaign{#gs-ac-connect}
 
@@ -93,7 +93,7 @@ Para iniciar sesión en una instancia, siga los pasos que se indican a continuac
 
 1. Inicie la consola y examine el vínculo en la esquina derecha para acceder a la pantalla de configuración de la conexión.
 
-   ![](assets/connectToCampaign.png)
+   Se abrió el cuadro de diálogo ![Conexiones desde la pantalla de inicio de sesión, con la opción Conectarse con un Adobe ID seleccionada](assets/connectToCampaign.png)
 
 1. Seleccione la instancia de Campaign en la que debe iniciar sesión.
 
@@ -101,7 +101,7 @@ Para iniciar sesión en una instancia, siga los pasos que se indican a continuac
 
 A continuación, puede iniciar sesión en Campaign con su Adobe ID.
 
-![](assets/adobeID.png)
+![Pantalla de inicio de sesión de Adobe ID de la consola del cliente de Campaign con campo de correo electrónico y botón Continuar](assets/adobeID.png)
 
 >[!NOTE]
 >
@@ -139,7 +139,7 @@ Adobe Campaign le permite definir y administrar los derechos asignados a los dis
 
 Como administrador de Campaign, es responsable de crear los operadores y compartir sus credenciales con los usuarios.
 
-Obtenga más información sobre los usuarios y cómo definir sus permisos en [esta sección](gs-permissions.md).
+Obtenga más información acerca de los usuarios y cómo definir sus permisos en [Introducción a los permisos en la versión 8 de Campaign](gs-permissions.md).
 
 
 ## Acceso a Campaign con un explorador web {#connect-web-ac}
@@ -165,11 +165,11 @@ El acceso web proporciona una interfaz similar a la consola , pero con un conjun
 
 Por ejemplo, para un operador determinado, aparece una campaña con las siguientes opciones en la consola:
 
-![](assets/campaign-from-console.png)
+![Panel de campañas en la consola del cliente, con fichas de edición y acciones completas disponibles](assets/campaign-from-console.png)
 
 Mientras que con el acceso web, las opciones permiten principalmente la visualización de lo siguiente:
 
-![](assets/campaign-from-web.png)
+![Panel de campañas en el acceso web, con principalmente opciones de visualización](assets/campaign-from-web.png)
 
 El acceso web también se utiliza en el proceso de validación: los operadores pueden hacer clic en el correo electrónico de solicitud de aprobación y conectarse a Campaign a través de su explorador web para validar o rechazar un contenido o presupuesto de entrega.
 

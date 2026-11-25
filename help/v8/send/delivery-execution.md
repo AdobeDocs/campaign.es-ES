@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 54%
+source-wordcount: '820'
+ht-degree: 51%
 ---
 # Envío y monitorización de mensajes transaccionales {#delivery-execution}
 
@@ -71,7 +71,7 @@ Adobe Campaign ofrece varios informes que permiten controlar la actividad y la e
 
 Se puede acceder a estos informes del centro de mensajería desde la pestaña **[!UICONTROL Reports]**&#x200B;**de la instancia de control**.
 
-![](assets/mc-reports.png)
+![Página de informes globales en la ficha Informes con los tres informes del Centro de mensajes resaltados](assets/mc-reports.png)
 
 ### Historial de eventos del centro de mensajes {#history-events}
 
@@ -86,7 +86,7 @@ Puede ver los datos específicos para cada tipo de evento por periodo. La column
 
 El informe **[!UICONTROL Message Center processing time]** muestra los indicadores principales relacionados con la cola en tiempo real. También se puede acceder a este informe a través de la pestaña **[!UICONTROL Monitoring]** de la instancia de control.
 
-![](assets/mc-processing-time-report.png)
+![Informe de tiempo de procesamiento del centro de mensajes con filtros, indicadores y gráficos de canal, instancia y período](assets/mc-processing-time-report.png)
 
 Puede elegir mostrar las estadísticas globales o las relativas a una instancia de ejecución determinada. También puede filtrar los datos por canal y por un periodo específico.
 
@@ -135,4 +135,4 @@ Para realizar esto, siga los pasos a continuación:
 1. Abra el asistente de implementación en la **instancia de ejecución** y vaya a la página **[!UICONTROL Message Center]**.
 1. Utilice las flechas para modificar los umbrales.
 
-   ![](assets/mc-thresholds.png)
+   ![Asistente para la configuración del Centro de mensajes con la configuración de la instancia de ejecución y los umbrales de advertencia y alerta](assets/mc-thresholds.png)

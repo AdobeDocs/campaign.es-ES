@@ -38,10 +38,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 35%
+source-wordcount: '1472'
+ht-degree: 34%
 ---
 # Uso de Campaign y Microsoft Dynamics 365{#crm-ms-dynamics}
 
@@ -102,7 +102,7 @@ Para generar el certificado, puede utilizar openssl.
 
 Por ejemplo:
 
-```
+```bash
 - openssl req -x509 -sha256 -nodes -days 365 -newkey rsa:2048 -keyout '<'private key name'>' -out '<'public certificate name'>
 ```
 
@@ -173,7 +173,7 @@ En primer lugar, debe crear la cuenta externa de Microsoft Dynamics 365.
 1. Seleccione la cuenta externa **[!UICONTROL Microsoft Dynamics CRM]** en la sección **Tipo**.
 1. Seleccione el método de autenticación en la lista desplegable **[!UICONTROL CRM O-Auth type]**.
 
-   ![](assets/ms-dyn-external-account.png)
+   ![Cuenta externa de Microsoft Dynamics CRM con servidor, cuenta, tipo de autenticación de CRM, contraseña y versión de CRM](assets/ms-dyn-external-account.png)
 
    1. Para configurar la cuenta externa de Microsoft Dynamics CRM para que se conecte con Adobe Campaign con **credenciales de contraseña**, proporcione los siguientes detalles:
 
@@ -186,10 +186,10 @@ En primer lugar, debe crear la cuenta externa de Microsoft Dynamics 365.
    1. Para configurar la cuenta externa de Microsoft Dynamics CRM para que se conecte con Adobe Campaign con un **Certificado**, proporcione los siguientes detalles:
 
       * **Servidor**: URL de su servidor Microsoft CRM. Para encontrar la URL del servidor de Microsoft CRM, acceda a su cuenta de Microsoft Dynamics CRM, haga clic en Dynamics 365 y seleccione la aplicación. A continuación, puede encontrar la URL del servidor en la barra de direcciones del explorador, por ejemplo: https://myserver.crm.dynamics.com/.
-      * **Clave privada**: copie/pegue la clave privada, codificada en base64 como se explica en [esta sección](#config-certificate-key-id).
-      * **Id. de clave**: Clave disponible en la ficha **Manifiesto** de su aplicación, tal como se explica en [esta sección](#config-certificate-key-id).
-      * **Identificador de clave personalizada**: identificador disponible en la ficha **Manifiesto** de su aplicación, tal como se explica en [esta sección](#config-certificate-key-id).
-      * **Identificador de cliente**: ID de aplicación (cliente) que se puede encontrar desde el portal de administración de Microsoft Azure como se explica en [esta sección](#get-client-id-microsoft).
+      * **Clave privada**: copie/pegue la clave privada, codificada en base64 como se explica en [Generar identificador de clave de certificado Microsoft Dynamics e ID de clave](#config-certificate-key-id).
+      * **ID de clave**: clave disponible en la ficha **Manifiesto** de su aplicación, tal como se explica en [Generar identificador de clave de certificado Microsoft Dynamics e ID de clave](#config-certificate-key-id).
+      * **Identificador de clave personalizada**: identificador disponible en la ficha **Manifiesto** de su aplicación, tal como se explica en [Generar identificador de clave de certificado Microsoft Dynamics e ID de clave](#config-certificate-key-id).
+      * **Identificador de cliente**: ID de aplicación (cliente) que se puede encontrar desde el portal de administración de Microsoft Azure como se explica en [Obtener el ID de cliente de Dynamics 365](#get-client-id-microsoft).
       * **CRM version**: Elija Dynamics CRM 365 CRM version.
 
 1. Seleccione la opción **Enable** para activar la cuenta en Campaign.

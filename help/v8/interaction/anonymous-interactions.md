@@ -22,10 +22,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 69%
+source-wordcount: '448'
+ht-degree: 62%
 ---
 # Interacciones anónimas {#anonymous-interactions}
 
@@ -39,7 +39,7 @@ El **[!UICONTROL Targeting dimension]** se completa automáticamente. De manera 
 
 Aparece el campo **[!UICONTROL Visitor folder]**. Se completa automáticamente para vincular la carpeta **[!UICONTROL Visitors]**. Este campo permite elegir dónde almacenar los perfiles de visitantes.
 
-![](assets/anonymous_environment_option.png)
+![Entorno de oferta con entorno dedicado a interacciones anónimas entrantes seleccionadas y campos de carpeta de visitantes](assets/anonymous_environment_option.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Durante este paso, se realiza una comparación entre los datos que recuperan las
 
 Para ejecutar este análisis para el espacio de ofertas, marque la opción **[!UICONTROL Implicitly identify the individual based on their browser history]**.
 
-![](assets/identification_anonymous_visitors.png)
+![Espacio de ofertas con la opción Identificar implícitamente al individuo según el historial del explorador seleccionado](assets/identification_anonymous_visitors.png)
 
 ## Procesamiento de visitantes anónimos sin identificar {#processing-unidentified-anonymous-visitors}
 
@@ -69,4 +69,4 @@ Si no hay ningún elemento que permita identificar un contacto o si no se desea 
 
 Para ello, marque la casilla de verificación **[!UICONTROL Fall back on an anonymous environment if no individuals were identified]** y, a continuación, especifique el entorno dedicado a estos visitantes no identificados en el **[!UICONTROL Linked anonymous space]** al especificar un espacio de ofertas.
 
-![](assets/anonymous_to_anonymous_environment.png)
+![Espacio de ofertas con la opción Visita en el orden previsto en un entorno anónimo seleccionado y un campo Espacio anónimo vinculado](assets/anonymous_to_anonymous_environment.png)

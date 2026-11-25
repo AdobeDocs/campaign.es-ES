@@ -19,10 +19,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '126'
-ht-degree: 93%
+source-wordcount: '140'
+ht-degree: 84%
 ---
 # Configuración de encuestas en línea{#configuring-surveys}
 
@@ -38,7 +38,7 @@ Las encuestas en línea son totalmente configurables y personalizables para sati
 
 Los parámetros disponibles se explican en [este documento](../web/defining-web-forms-properties.md).
 
-![](assets/s_ncs_admin_survey_properties_general.png)
+![Ficha de edición de la aplicación web para eventos infantiles con el botón Propiedades resaltado encima del flujo de trabajo.](assets/s_ncs_admin_survey_properties_general.png)
 
 ## Almacenamiento de datos de encuestas {#survey-data-storage}
 

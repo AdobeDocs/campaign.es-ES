@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 83%
+source-wordcount: '1786'
+ht-degree: 66%
 ---
 # Personalizar sus cubos{#cube-custom}
 
@@ -46,7 +46,7 @@ En general, hay tres tipos de agrupamiento disponibles:
 
 Para habilitar el agrupamiento, marque la casilla adecuada al crear la dimensión.
 
-![](assets/cube-class.png)
+![Cuadro de diálogo de creación de Dimension con la opción Habilitar agrupamiento seleccionada en Configurar agrupamiento.](assets/cube-class.png)
 
 Puede crear bandejas manualmente o vincularlas a una [enumeración](../config/enumerations.md) existente.
 
@@ -56,15 +56,15 @@ Adobe Campaign también ofrece un asistente para el agrupamiento automático: lo
 
 Para crear cada grupo individualmente, seleccione la opción **[!UICONTROL Define each bin]** y utilice la tabla para crear los distintos grupos.
 
-![](assets/cube-binning.png)
+![Configuración de agrupamiento de Dimension con la opción Define each bin seleccionada y una tabla Bins vacía.](assets/cube-binning.png)
 
 Haga clic en el botón **[!UICONTROL Add]** para crear un nuevo grupo y enumere los valores que desea agrupar en dicho grupo.
 
-![](assets/cube-add-new-bin.png)
+![Cuadro de diálogo Nuevo grupo con una lista de valores, francés e italiano, y el botón Agregar para enumerar más valores.](assets/cube-add-new-bin.png)
 
 En el siguiente ejemplo, los idiomas se agrupan en tres categorías: inglés/alemán/holandés, francés/italiano/español y otros.
 
-![](assets/cube-add-new-bin-2.png)
+![Dimensión de idioma con dos grupos: francés, italiano, español e inglés, alemán, holandés; otros valores etiquetados como Otros.](assets/cube-add-new-bin-2.png)
 
 Puede utilizar una máscara SQL para combinar varios valores en un filtro. Para ello, en la columna **[!UICONTROL Yes]**, marque **[!UICONTROL Use an SQL mask]** e introduzca el filtro SQL que desea aplicar en la columna **[!UICONTROL Value or expression]**.
 
@@ -79,11 +79,11 @@ Para crear este tipo de agrupamiento de valores, siga los pasos siguientes:
 1. Cree una nueva dimensión y habilite un agrupamiento.
 1. Seleccione la opción **[!UICONTROL Dynamically link the values to an enumeration]** y seleccione la enumeración correspondiente.
 
-   ![](assets/cube-link-to-enum.png)
+   ![Vincule dinámicamente los valores a una opción de enumeración seleccionada, con la lista de enumeraciones disponibles abierta.](assets/cube-link-to-enum.png)
 
    Siempre que se actualizan los valores de la enumeración, los grupos coincidentes se adaptan automáticamente.
 
-   Obtenga más información acerca de las enumeraciones en [esta página](../config/enumerations.md).
+   Obtenga más información sobre las enumeraciones en [Administrar enumeraciones](../config/enumerations.md).
 
 ### Creación de rangos de valores {#create-value-ranges}
 
@@ -115,11 +115,11 @@ Para mejorar la relevancia y legibilidad de un informe, Adobe Campaign permite c
 
 Adobe Campaign también ofrece una enumeración de dominios que permite mostrar una lista de los dominios de correo electrónico de todos los contactos de la base de datos, reagrupados por ISP, como se muestra en el siguiente ejemplo:
 
-![](assets/nmx_report_sample.png)
+![Informe de dominio de correo electrónico y origen del cliente con dominios de correo electrónico agrupados por ISP (AOL, Gratis, Gmail, Microsoft, Yahoo, Otros).](assets/nmx_report_sample.png)
 
 Se crea mediante la siguiente plantilla:
 
-![](assets/nmx_enum_domain.png)
+La enumeración ![Domains se ha establecido en Reserved at binning, con sus valores (AOL, Free, Gmail, Microsoft, Yahoo) y alias de dominio.](assets/nmx_enum_domain.png)
 
 Para crear un informe con esta enumeración, cree un cubo con la dimensión **[!UICONTROL Email domain]**. Elija la opción **[!UICONTROL Enable binning]** luego **[!UICONTROL Dynamically link the values to an enumeration]**. A continuación, seleccione la enumeración **Dominios** como se muestra arriba. Todos los valores que no tengan un alias especificado se reagrupan con la etiqueta **Otros**.
 
@@ -127,13 +127,13 @@ Luego, cree un informe basado en este cubo para mostrar los valores.
 
 Solo se debe modificar la enumeración para actualizar el informe relacionado. Por ejemplo, cree el valor **Adobe** y añada el alias **adobe.com**, y el informe se actualiza automáticamente con el valor de Adobe al nivel de la enumeración.
 
-![](assets/nmx_add_alias.png)
+![Agregando el alias neolane.com a la enumeración Domains, que agrega una línea Neolane al informe.](assets/nmx_add_alias.png)
 
 La enumeración **[!UICONTROL Domains]** se utiliza para generar informes integrados que muestran la lista de dominios. Para adaptar el contenido de estos informes, se puede editar esta lista.
 
 Puede crear otras enumeraciones reservadas para agrupamiento y utilizarlas en otros cubos: todos los valores de alias se reagrupan en las bandejas especificadas en la primera pestaña de enumeración.
 
-Obtenga más información acerca de las enumeraciones en [esta página](../../v8/config/ui-settings.md).
+Obtenga más información acerca de las enumeraciones en [Configuración de la interfaz de Campaign](../../v8/config/ui-settings.md).
 
 ## Agregados en cubos {#calculate-and-use-aggregates}
 
@@ -143,7 +143,7 @@ Los acumulados son útiles para manipular grandes volúmenes de datos. Se actual
 
 Los acumulados se definen en la pestaña correspondiente de cada cubo.
 
-![](assets/cube-agregate.png)
+![Pestaña Agregados de un cubo en el Explorador, que enumera los agregados del cubo con el botón Agregar.](assets/cube-agregate.png)
 
 >[!NOTE]
 >
@@ -156,7 +156,7 @@ Para crear un nuevo acumulado, siga los siguientes pasos:
 1. Seleccione una dimensión y un nivel. Repita este proceso para cada dimensión y cada nivel.
 1. Haga clic en la pestaña **[!UICONTROL Workflow]** para crear el flujo de trabajo de acumulación.
 
-   * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [esta sección](../../automation/workflow/scheduler.md).
+   * La actividad **[!UICONTROL Scheduler]** permite definir la frecuencia de las actualizaciones del cálculo. El planificador se detalla en [Configuración de la actividad del planificador](../../automation/workflow/scheduler.md#configuring-scheduler-activity).
    * La actividad **[!UICONTROL Aggregate update]** permite seleccionar el modo de actualización que desea aplicar: completo o parcial.
 
      De forma predeterminada, se lleva a cabo una actualización completa durante cada cálculo. Para habilitar una actualización parcial, seleccione la opción correspondiente y defina las condiciones de actualización.
@@ -171,15 +171,15 @@ Para definir una nueva medida, siga los siguientes pasos:
 
 1. Haga clic en el botón **[!UICONTROL Add]** situado encima de la lista de medidas y seleccione el tipo de medida y la fórmula que desea calcular.
 
-   ![](assets/cube-create-a-measure.png)
+   ![Cuadro de diálogo de creación de medidas con la lista de operadores abierta: Recuento, Suma, Mínimo, Máximo, Promedio y otros.](assets/cube-create-a-measure.png)
 
 1. Si es necesario, y dependiendo el operador, elija la expresión correspondiente a la operación.
 
-   El botón **[!UICONTROL Advanced selection]** permite crear fórmulas de cálculo complejas. Para obtener más información, consulte [esta sección](../../automation/workflow/query.md).
+   El botón **[!UICONTROL Advanced selection]** permite crear fórmulas de cálculo complejas. Para obtener más información, consulte [Consulta](../../automation/workflow/query.md).
 
 1. El vínculo **[!UICONTROL Filter the measure data...]** permite restringir el campo de cálculo y aplicarlo solo a datos específicos de la base de datos.
 
-   ![](assets/cube-create-measure-2.png)
+   ![Condiciones de filtro de una medida, con la lista de operadores abierta en la expresión BasketMusic.](assets/cube-create-measure-2.png)
 
 1. Introduzca la etiqueta de la medida y añada una descripción; luego, haga clic en **[!UICONTROL Finish]** para crearla.
 
@@ -197,7 +197,7 @@ Las medidas calculadas en el cubo se configuran mediante el botón **[!UICONTROL
 
 Mueva las líneas para cambiar la secuencia de visualización. En el ejemplo siguiente, los datos franceses se mueven al final de la lista: esto significa que se muestran en la última columna.
 
-![](assets/cube-in-report-settings.png)
+![Ventana de configuración de medidas donde, al arrastrar la medida francesa al final, se mueve su columna al final del informe.](assets/cube-in-report-settings.png)
 
 ### Configuración de la visualización {#configuring-the-display}
 
@@ -207,17 +207,17 @@ La configuración de las medidas, líneas y columnas se puede realizar individua
 
   Puede elegir si desea mostrar o no las etiquetas de las medidas, así como configurar su diseño (líneas o columnas).
 
-![](assets/cube-pivot-table-config-details.png)
+![Cuadro de diálogo de configuración de tabla dinámica con las opciones de Lista de orientación (en filas, en columnas), Etiquetas, Alineación y Pie de ilustración.](assets/cube-pivot-table-config-details.png)
 
 Las opciones de color permiten resaltar valores importantes para facilitar la lectura.
 
-![](assets/cube-pivot-table-color.png)
+![Configuración de tabla dinámica con la sección Colorear: Activar, Medida utilizada, Límite inferior, Límite superior y Escala de color.](assets/cube-pivot-table-color.png)
 
 ### Modificación del tipo de medida mostrada {#changing-the-type-of-measure-displayed}
 
 En cada medida, se puede definir la unidad y el formato que se va a aplicar.
 
-![](assets/cube-pivot-table-config-units.png)
+![Configurar la ventana de medidas con Etiqueta, Formato, Número de decimales, Ubicación de unidad y Unidad para una medida.](assets/cube-pivot-table-config-units.png)
 
 ## Uso compartido del informe {#share-a-report}
 
@@ -225,7 +225,7 @@ Una vez configurado el informe, puede guardarlo y compartirlo con otros operador
 
 Para ello, haga clic en el icono **[!UICONTROL Show the report properties]** y habilite la opción **[!UICONTROL Share this report]**.
 
-![](assets/cube_share_option.png)
+![Cuadro de diálogo Propiedades del informe con la opción Compartir el informe establecida en Sí, más los campos Categoría y Relevancia.](assets/cube_share_option.png)
 
 Especifique la categoría a la que pertenece el informe, así como su relevancia. <!--For more on this, refer in [this page](../../reporting/using/configuring-access-to-the-report.md#report-display-context) to the **Display sequence** and **Defining the filtering options** sections.-->
 
@@ -239,13 +239,13 @@ Para ello, haga lo siguiente:
 
 1. Haga clic en el icono **[!UICONTROL Add a filter]**.
 
-   ![](assets/cube_add_filter.png)
+   ![Barra de herramientas de informes con el icono Agregar filtro resaltado encima de la tabla dinámica Clientes por compañía.](assets/cube_add_filter.png)
 
 1. Seleccione la dimensión del filtro correspondiente.
 
 1. Seleccione el tipo de filtro y su nivel de precisión.
 
-   ![](assets/cube_ceate_filter.png)
+   ![Agregue un cuadro de diálogo de filtro con casillas de verificación para seleccionar los intervalos de valores que desea conservar, como los intervalos de edad.](assets/cube_ceate_filter.png)
 
 1. Una vez creado, el filtro se muestra encima del informe.
 
@@ -253,7 +253,7 @@ Para ello, haga lo siguiente:
 
    Puede combinar tantos filtros como sea necesario: todos se muestran en esta área.
 
-   ![](assets/cube_multiple_filters.png)
+   ![Área de filtro encima del informe que muestra tres filtros combinados: Ciudad, Empresa y Edad.](assets/cube_multiple_filters.png)
 
 Cada vez que se modifica un filtro (añadido, eliminado, modificado), se debe volver a calcular el informe.
 
@@ -261,8 +261,8 @@ Los filtros también se pueden crear en función de una selección. Para ello, s
 
 Para seleccionar una línea, columna o celda, haga clic en ella. Para anular la selección, haga clic de nuevo.
 
-![](assets/cube_create_filter_from_selection.png)
+![mi informe CLIENTES con la línea LONDRES seleccionada y el filtro en el icono de selección resaltado.](assets/cube_create_filter_from_selection.png)
 
 El filtro se aplica automáticamente y se añade a la zona de filtro encima del informe.
 
-![](assets/cube_create_filter_display.png)
+![Informe filtrado en Londres, con el filtro Ciudad = Londres mostrado en el área de filtro encima del informe.](assets/cube_create_filter_display.png)

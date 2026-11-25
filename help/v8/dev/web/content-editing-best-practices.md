@@ -28,10 +28,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 93%
+source-wordcount: '599'
+ht-degree: 87%
 ---
 # Recomendaciones para la edición de contenido{#content-editing-best-practices}
 
@@ -45,19 +45,19 @@ Para garantizar la operación óptima del editor, se recomienda seguir las sigui
 
   Ejemplo de código HTML en la plantilla:
 
-  ```
+  ```xml
   <input id="email" type="email" name="email"/>
   ```
 
   El atributo **“type”** es visible en la interfaz en el siguiente formulario:
 
-  ![](assets/dce_sidebar_inputtypechanges.png)
+  ![Panel lateral de la zona de entrada (correo electrónico) con la sección de datos del formulario, un selector de campos y la opción Obligatoria Sí o No](assets/dce_sidebar_inputtypechanges.png)
 
   La lista oficial de atributos &quot;type&quot; está disponible [en este sitio web](https://www.w3schools.com/tags/att_input_type.asp).
 
 * Pasos para simular una página final con el DCE:
 
-  ![](assets/dce_enchainement.png)
+  ![Diagrama de formulario con los cuadros Preloading, Page, Storage y Page 2 en secuencia, simulando una página final](assets/dce_enchainement.png)
 
 * Compruebe que solo haya uno en la página.`<body> </body>`
 * Cuando se carga un archivo CSS o JS, no se cargan las imágenes incluidas en el archivo .zip. Por lo tanto, las referencias a estas imágenes presentes en CSS no se actualizan.

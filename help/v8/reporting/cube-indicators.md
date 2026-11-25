@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 33%
+source-wordcount: '1000'
+ht-degree: 24%
 ---
 # Crear un cubo{#create-a-cube}
 
@@ -43,7 +43,7 @@ ht-degree: 33%
 
 Para acceder a los cubos, vaya a **[!UICONTROL Administration > Configuration > Cubes]** desde el explorador de Campaign.
 
-![](assets/cube-node.png)
+![Nodo de cubos en Administration > Configuration en el explorador, con la lista de cubos y los detalles del cubo seleccionado](assets/cube-node.png)
 
 Con los cubos puede:
 
@@ -51,21 +51,21 @@ Con los cubos puede:
 
   Para ello, cree un nuevo informe y seleccione el cubo que desee utilizar.
 
-  ![](assets/create-new-cube.png)
+  ![Creando un nuevo informe a partir de las plantillas de cubo disponibles, con Destinatarios seleccionados y una etiqueta introducida antes de Crear](assets/create-new-cube.png)
 
   Los cubos aparecen como plantillas basadas en los informes creados. Una vez que haya elegido una plantilla, haga clic en **[!UICONTROL Create]** para configurar y ver el nuevo informe.
 
   Puede adaptar las medidas, cambiar el modo de visualización o configurar la tabla y, a continuación, mostrar el informe usando el botón principal.
 
-  ![](assets/display-cube-table.png)
+  ![Nuevo informe basado en un cubo, con campos Measures, Age y Country/Region y el botón para mostrar la tabla dinámica](assets/display-cube-table.png)
 
 * Hacer referencia a un cubo en la casilla **[!UICONTROL Query]** de un informe para utilizar sus indicadores, como se muestra a continuación:
 
-  ![](assets/cube-report-query.png)
+  ![Actividad de consulta de un informe con la opción Usar un cubo seleccionada y un cubo seleccionado en el campo Cubo](assets/cube-report-query.png)
 
 * Inserte una tabla dinámica basada en un cubo en cualquier página de un informe. Para ello, haga referencia al cubo que desee utilizar en la pestaña **[!UICONTROL Data]** de la tabla dinámica de la página correspondiente.
 
-  ![](assets/cube-in-a-report.png)
+  ![Ficha Datos de una tabla dinámica en una página de informe, con un cubo seleccionado en el campo Cubo y dimensiones Edad y Ciudad](assets/cube-in-a-report.png)
 
   Para obtener más información sobre esto, consulte [Exploración de los datos en un informe](cube-tables.md#explore-the-data-in-a-report).
 
@@ -94,14 +94,14 @@ Para crear un cubo, siga los pasos a continuación:
 
 1. Haga clic en el botón **[!UICONTROL New]** situado sobre la lista de cubos.
 
-   ![](assets/create-a-cube.png)
+   ![Cuadro de diálogo de nuevo cubo con las opciones de origen de hechos, el campo de esquema de hechos, una etiqueta y el botón Guardar](assets/create-a-cube.png)
 
 1. Seleccione el esquema que contiene los elementos que desea explorar (también conocido como &quot;esquema de hechos&quot;). En este ejemplo, seleccione la tabla predeterminada **Destinatario**.
 1. Haga clic en **[!UICONTROL Save]** para crear el cubo: se agrega a la lista de cubos. Ahora puede utilizar las pestañas para configurarlo.
 
 1. Haga clic en **[!UICONTROL Filter the source data...]** para aplicar los cálculos de este cubo a los datos de la base de datos.
 
-   ![](assets/cube-filter-source.png)
+   ![Pestaña Cubo general con el vínculo Filtrar los datos de origen abriendo el cuadro de diálogo Editar filtro con la condición Edad mayor que 18](assets/cube-filter-source.png)
 
 ### Defina las dimensiones {#define-dimensions}
 
@@ -112,7 +112,7 @@ Para crear dimensiones, siga los pasos a continuación:
 1. Vaya a la pestaña **[!UICONTROL Dimension]** del cubo y haga clic en el botón **[!UICONTROL Add]** para crear una nueva dimensión.
 1. En **[!UICONTROL Expression field]**, haga clic en el icono **[!UICONTROL Edit expression]** para seleccionar el campo que contiene los datos relevantes.
 
-   ![](assets/cube-add-dimension.png)
+   ![Pestaña Dimensiones con el botón Agregar y el cuadro de diálogo nueva dimensión; el icono Editar expresión selecciona el campo](assets/cube-add-dimension.png)
 
 1. En este ejemplo, se selecciona el destinatario **Age**. Para este campo, se puede definir el agrupamiento para reunir las edades y facilitar la lectura de la información. Se recomienda utilizar un agrupamiento cuando exista la probabilidad de que haya varios valores separados.
 
@@ -121,7 +121,7 @@ Para ello, marque la opción **[!UICONTROL Enable binning]**. [Más información
 1. Añada una dimensión de tipo **Fecha.** Aquí nos interesa mostrar las fechas de creación del perfil de destinatario. Para ello, haga clic en **[!UICONTROL Add]** y seleccione el campo **[!UICONTROL Creation date]** en la tabla de destinatarios.
 Puede personalizar el modo de visualización de la fecha. Para ello, seleccione la jerarquía que se va a utilizar y los niveles que se van a generar:
 
-![](assets/cube-date-dimension.png)
+![Cuadro de diálogo de dimensión de fecha de creación con los niveles para crear opciones: años, trimestres, meses, días y horas](assets/cube-date-dimension.png)
 
 En nuestro ejemplo, solo queremos mostrar años, meses y días. Tenga en cuenta que no puede trabajar con semanas y semestres/meses al mismo tiempo: estos niveles no son compatibles.
 
@@ -131,11 +131,11 @@ Puede habilitar el agrupamiento para facilitar la lectura de la información y v
 
 Seleccione la enumeración en la lista desplegable. Observe que esta enumeración debe definirse como **[!UICONTROL Reserved for binning]**.
 
-![](assets/cube-dimension-with-enum.png)
+![Dimensión de ciudad con Enable binning, vincula dinámicamente los valores a una enumeración y etiqueta de los otros valores](assets/cube-dimension-with-enum.png)
 
 Solo se muestran los valores de la enumeración. Los demás se agrupan con la etiqueta definida en el campo **[!UICONTROL Label of the other values]**.
 
-Para obtener más información, consulte [esta sección](customize-cubes.md#dynamically-manage-bins).
+Para obtener más información, consulte [Administrar grupos dinámicamente](customize-cubes.md#dynamically-manage-bins).
 
 ### Genere los indicadores {#build-indicators}
 
@@ -148,15 +148,15 @@ Para crear indicadores, siga los pasos a continuación:
 1. Vaya a la ficha **[!UICONTROL Measures]** y haga clic en el botón **[!UICONTROL Add]**.
 1. Seleccione el tipo de medida y la fórmula que desea aplicar. En este ejemplo, se cuenta el número de mujeres entre los destinatarios. La medición se basa en el esquema de hechos y utiliza el operador **[!UICONTROL Count]**.
 
-   ![](assets/cube-new-measure.png)
+   ![Cuadro de diálogo de nueva medida con la medida definida mediante el esquema de hechos, el operador Count y el vínculo Filter the measure data](assets/cube-new-measure.png)
 
    Use el vínculo **[!UICONTROL Filter the measure data...]** para seleccionar solo mujeres. [Más información](customize-cubes.md#define-measures).
 
-   ![](assets/cube-filter-measure-data.png)
+   ![Editar diálogo de filtro con la condición Género igual a y el valor Femenino seleccionado en la lista Valor](assets/cube-filter-measure-data.png)
 
 1. Introduzca la etiqueta de la medida y guárdela.
 
-   ![](assets/cube-save-measure.png)
+   ![Las mujeres completadas miden con el operador Count, el género de filtro es igual a Femenino y el campo Label antes de guardar](assets/cube-save-measure.png)
 
 1. Guarde el cubo.
 

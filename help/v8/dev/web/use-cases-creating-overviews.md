@@ -31,10 +31,10 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 92%
+source-wordcount: '1259'
+ht-degree: 69%
 ---
 # Casos de uso: Creación de páginas de información general{#use-cases-creating-overviews}
 
@@ -48,13 +48,13 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
 * un filtro por herramienta de edición de vínculos (consulte [Crear un filtro con un editor de vínculos](#creating-a-filter-using-a-link-editor)),
 * un vínculo de actualización (consulte [Crear un vínculo de actualización](#creating-a-refresh-link)).
 
-![](assets/s_ncs_configuration_webapp_overview.png)
+![Página de información general de la aplicación web con etiquetas: filtro de carpeta, botón Nuevo, filtro del editor de vínculos, Actualizar vínculo, lista, detalle.](assets/s_ncs_configuration_webapp_overview.png)
 
 ## Creación de una aplicación web de una sola página {#creating-a-single-page-web-application}
 
 1. Cree una aplicación web **[!UICONTROL Page]** y deshabilite las transiciones salientes y las transiciones a la página siguiente.
 
-   ![](assets/s_ncs_configuration_webapp_create.png)
+   ![Propiedades de página, ficha General, con la opción Deshabilitar página siguiente seleccionada y Habilitar transiciones salientes desactivada.](assets/s_ncs_configuration_webapp_create.png)
 
 1. Cambie el título de la página.
 
@@ -62,19 +62,19 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
 
 1. En las propiedades de la aplicación web, modifique la renderización de la aplicación seleccionando la plantilla **[!UICONTROL Single-page Web application]**.
 
-   ![](assets/s_ncs_configuration_webapp_rendering.png)
+   ![Cuadro de diálogo Propiedades, ficha Representación, con la plantilla Aplicación web de una sola página seleccionada en la lista Plantilla.](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. Abra la actividad **[!UICONTROL Page]** de la aplicación web y abra una lista (**[!UICONTROL Static element > List]**).
 1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]**&#x200B;**[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
 1. En la subpestaña **[!UICONTROL Filter]**, cree el siguiente filtro, tal y como se muestra a continuación, para visualizar las aplicaciones web y excluir las plantillas de la vista.
 
-   ![](assets/s_ncs_configuration_webapp_filter.png)
+   ![Ficha Datos de lista, subficha Filtro, con condiciones Plantilla igual a No y Clave principal no igual a 0.](assets/s_ncs_configuration_webapp_filter.png)
 
 1. Cierre la ventana de configuración de la página y haga clic en **[!UICONTROL Preview]**.
 
    Se muestra la lista de aplicaciones web disponibles en la base de datos.
 
-   ![](assets/s_ncs_configuration_webapp_preview.png)
+   ![Pestaña Vista previa de la aplicación web que muestra la lista de aplicaciones web por etiqueta.](assets/s_ncs_configuration_webapp_preview.png)
 
 ## Adición de un filtro a una carpeta {#adding-a-filter-on-a-folder}
 
@@ -91,15 +91,15 @@ En una descripción general, tiene la opción de acceder a los datos según su u
 
 1. Aplicar el tipo **[!UICONTROL XML]** a la variable.
 
-   ![](assets/s_ncs_configuration_webapp_variable_xml.png)
+   ![Seleccione la entrada de carpeta con Editar almacenamiento abierto y Editar ramas que muestran la variable de carpeta de tipo XML.](assets/s_ncs_configuration_webapp_variable_xml.png)
 
 1. Seleccione la interacción **[!UICONTROL Refresh page]**.
 
-   ![](assets/s_ncs_configuration_webapp_variable.png)
+   ![Entrada de carpeta con la acción Actualizar página seleccionada para que la acción se realice al seleccionar una carpeta.](assets/s_ncs_configuration_webapp_variable.png)
 
 1. Coloque el cursor en la lista y en la pestaña **[!UICONTROL Advanced]** haga referencia a la variable creada previamente en la pestaña **[!UICONTROL Folder filter XPath]** de la lista. Debe utilizar el nombre del elemento al que hace referencia el vínculo de carpeta, por ejemplo **folder**.
 
-   ![](assets/s_ncs_configuration_webapp_variable002.png)
+   ![Ficha Lista avanzada con el campo XPath del filtro de carpeta establecido en la carpeta Almacenamiento / Filtrado.](assets/s_ncs_configuration_webapp_variable002.png)
 
    >[!NOTE]
    >
@@ -129,7 +129,7 @@ En una descripción general, tiene la opción de acceder a los datos según su u
 
    Se hace referencia a este estilo en la plantilla **[!UICONTROL Single-page Web application]** seleccionada previamente.
 
-   ![](assets/s_ncs_configuration_webapp_link.png)
+   ![Nuevo elemento de vínculo con la dirección URL que abre el nuevo formulario de aplicación web y el campo Estilo establecido en botón.](assets/s_ncs_configuration_webapp_link.png)
 
 ## Adición de detalles a una lista {#adding-detail-to-a-list}
 
@@ -138,17 +138,17 @@ Al configurar una lista en la descripción general, puede elegir visualizar deta
 1. Coloque el cursor en el elemento de lista creado previamente.
 1. En la pestaña **[!UICONTROL General]**, seleccione el modo de visualización **[!UICONTROL Columns and additional detail]** en la lista desplegable.
 
-   ![](assets/s_ncs_configuration_webapp_detail.png)
+   ![Ficha General de lista con la opción Ver establecida en Columnas y Detalles adicionales.](assets/s_ncs_configuration_webapp_detail.png)
 
 1. En la ficha **[!UICONTROL Data]**, agregue las columnas **[!UICONTROL Primary key]**, **[!UICONTROL Internal name]** y **[!UICONTROL Description]** y seleccione la opción **[!UICONTROL Hidden field]** para cada una de ellas.
 
-   ![](assets/s_ncs_configuration_webapp_detail002.png)
+   ![Pestaña Datos de lista con las columnas de salida Clave principal, Nombre interno y Descripción marcadas como Campo oculto.](assets/s_ncs_configuration_webapp_detail002.png)
 
    De este modo, esta información solo se puede ver en el detalle de cada entrada.
 
 1. En la pestaña **[!UICONTROL Additional detail]**, añada el siguiente código:
 
-   ```
+   ```html
    <div class="detailBox">
      <div class="actionBox">
        <span class="action"><img src="/xtk/img/fileEdit.png"/><a title="Open" class="linkAction" href="xtk://open/?schema=nms:webApp&form=nms:webApp&pk=
@@ -192,22 +192,22 @@ Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gr
 1. Coloque el cursor en el elemento **[!UICONTROL Page]** y seleccione **[!UICONTROL Container > Standard]**.
 1. Especifique el número de columnas en **2**, de modo que el editor de vínculos y el vínculo estén uno junto al otro.
 
-   ![](assets/s_ncs_configuration_webapp_container.png)
+   ![Contenedor de filtro con el campo de estilo Apariencia establecido en dottedFilter y dos columnas.](assets/s_ncs_configuration_webapp_container.png)
 
-   Para obtener más información sobre la disposición de elementos, consulte [esta sección](about-web-forms.md).
+   Para obtener información sobre el diseño de elementos, consulte [Introducción a los formularios web](about-web-forms.md).
 
 1. Aplicar **dottedFilter**.
 
    Se hace referencia a este estilo en la plantilla **[!UICONTROL Single-page Web application]** seleccionada previamente.
 
-   ![](assets/s_ncs_configuration_webapp_container002.png)
+   ![Ficha General del contenedor de filtros con el campo Estilo de apariencia establecido en dottedFilter.](assets/s_ncs_configuration_webapp_container002.png)
 
 ### Creación de un filtro mediante un editor de vínculos {#creating-a-filter-using-a-link-editor}
 
 1. Coloque el cursor en el contenedor creado durante la fase anterior e inserte un editor de vínculos mediante el menú **[!UICONTROL Advanced controls]**.
 1. En la ventana de almacenamiento que se abre automáticamente, seleccione la opción **[!UICONTROL Variables]** y, a continuación, haga clic en el vínculo **[!UICONTROL Edit variables]** y cree una variable XML para filtrar los datos.
 
-   ![](assets/s_ncs_configuration_webapp_variable003.png)
+   ![Entrada del editor de vínculos: edite el almacenamiento, edite las variables y el cuadro de diálogo Variable creando la variable XML var2.](assets/s_ncs_configuration_webapp_variable003.png)
 
 1. Modifique la etiqueta.
 
@@ -215,7 +215,7 @@ Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gr
 
 1. Seleccione la tabla Operador como esquema de aplicación.
 
-   ![](assets/s_ncs_configuration_webapp_linkeditor.png)
+   ![Editor de vínculos etiquetado como Creado por, que se almacena en la variable var2, con el esquema de la aplicación Operator seleccionado.](assets/s_ncs_configuration_webapp_linkeditor.png)
 
 1. Coloque el cursor en el elemento de la lista y cree un filtro a través de la pestaña **[!UICONTROL Data > Filter]**:
 
@@ -224,7 +224,7 @@ Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gr
    * **Value:** Variables (variables)
    * **Taken into account if:** &#39;$(var2/@id)&#39;!=&#39;&#39;&#39;
 
-   ![](assets/s_ncs_configuration_webapp_filter002.png)
+   ![Las condiciones de filtro de lista, incluida la clave de vínculo Creado por igual a Variables, se aplican únicamente si se establece el id. de var2.](assets/s_ncs_configuration_webapp_filter002.png)
 
 >[!CAUTION]
 >
@@ -237,13 +237,13 @@ Estos dos elementos se agrupan en el mismo contenedor para que se clasifiquen gr
 1. Seleccione **[!UICONTROL Refresh data in a list]**.
 1. Añada la lista creada previamente.
 
-   ![](assets/s_ncs_configuration_webapp_refreshlink.png)
+   ![Actualizar vínculo con los datos de actualización en una acción de lista y Lista 1 elegida en Listas para actualizar.](assets/s_ncs_configuration_webapp_refreshlink.png)
 
 1. Agregue el icono de actualización en el campo **[!UICONTROL Image]**: **/xtk/img/refresh.png**.
 1. Con las flechas de selección, reorganice los distintos elementos de la aplicación web como se muestra a continuación.
 
-   ![](assets/s_ncs_configuration_webapp_orderelements.png)
+   ![Árbol de elementos de página con las flechas de ordenación resaltadas para mover la Lista 1 debajo del elemento Filtro.](assets/s_ncs_configuration_webapp_orderelements.png)
 
 La aplicación web ya está configurada. Se puede hacer clic en la pestaña **[!UICONTROL Preview]** para previsualizarla.
 
-![](assets/s_ncs_configuration_webapp_result.png)
+![Vista previa de la aplicación web finalizada: filtro de carpeta, Nuevo vínculo, Creado por filtro, Actualizar vínculo y lista.](assets/s_ncs_configuration_webapp_result.png)

@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '642'
 ht-degree: 48%
@@ -45,7 +45,7 @@ Puede añadir instrucciones de preprocesamiento específicas para crear una secu
 
 Por ejemplo:
 
-```
+```html
 <%@ value object="myObject" xpath="@myField" %>
 ```
 
@@ -71,7 +71,7 @@ Donde:
 
 Cuando la página que se va a descargar es la misma para todos los destinatarios, se recomienda utilizar:
 
-```
+```html
 <%@ include url="http://mynewsletter.com" %>
 ```
 
@@ -81,7 +81,7 @@ En ese caso, la página se descarga durante el análisis, antes de la detección
 
 Después de procesar `<%@` instrucciones, la dirección URL que se va a rastrear debe tener la siguiente sintaxis:
 
-```
+```xml
 <a href="http://myurl.com/a.php?param1=aaa&param2=<%=escapeUrl(recipient.xxx)%>&param3=<%=escapeUrl(recipient.xxx)%>">
 ```
 
@@ -95,7 +95,7 @@ Para asegurarse de que las direcciones URL personalizadas se rastrean correctame
 
 **Ejemplo:**
 
-```
+```xml
 <a href="http://myurl.com/a.php?name=<%=escapeUrl(recipient.lastName)%>">Click here</a>
 ```
 
@@ -107,7 +107,7 @@ La instrucción `<%@ foreach %>` le permite iterar matrices de objetos cargados 
 
 ### Sintaxis
 
-```
+```html
 <%@ foreach object="myObject" xpath="myLink" index="3" item="myItem" %>
   <!-- Content to repeat -->
 <%@ end %>
@@ -126,7 +126,7 @@ En las propiedades/personalización de envío, cargue una matriz de artículos y
 
 Puede mostrar vínculos a estos artículos con seguimiento individual:
 
-```
+```html
 <%@ foreach object="articleList" item="article" %>
   <a href="http://example.com/article.jsp?id=<%@ value object="article" xpath="@id" %>">
     <%@ value object="article" xpath="@title" %>

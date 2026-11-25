@@ -15,10 +15,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 97%
+source-wordcount: '996'
+ht-degree: 76%
 ---
 # Diseño de una encuesta{#building-a-survey}
 
@@ -36,7 +36,7 @@ Se accede a los formularios web a través del nodo de árbol **[!UICONTROL Resou
 
 Seleccione la plantilla de encuesta (**[!UICONTROL newSurvey]** de forma predeterminada).
 
-![](assets/s_ncs_admin_survey_select_template.png)
+![Cuadro de diálogo Nueva aplicación web con la lista de plantillas abierta para elegir una encuesta o una plantilla de formulario web.](assets/s_ncs_admin_survey_select_template.png)
 
 Las páginas del formulario se crean utilizando un editor especial que permite definir y configurar campos de entrada (texto), campos de selección (listas, casillas de verificación, etc.) y elementos estáticos (imágenes, contenido de HTML, etc.). Se pueden recopilar en “contenedores” y mostrar según los requisitos. [Más información](#adding-questions).
 
@@ -48,7 +48,7 @@ Las páginas del formulario se crean utilizando un editor especial que permite d
 
 Los campos de un formulario permiten a los usuarios introducir información y seleccionar opciones. Se crean mediante el primer botón de la barra de herramientas de cada página del formulario, con el menú **[!UICONTROL Add using the assistant]**.
 
-![](assets/s_ncs_admin_survey_add_field_menu.png)
+![Se abrió el asistente para la creación de campos desde Agregar mediante el asistente, con cuatro opciones de campo desde Responder a una pregunta a Importar.](assets/s_ncs_admin_survey_add_field_menu.png)
 
 >[!NOTE]
 >
@@ -65,13 +65,13 @@ Cuando añada un campo a una encuesta, debe seleccionar su tipo. Estas son las o
 
    >[!NOTE]
    >
-   >Los modos de almacenamiento y las importaciones de campo se detallan en [esta sección](managing-answers.md#storing-collected-answers).
+   >Los modos de almacenamiento y las importaciones de campo se detallan en [Almacenar respuestas recopiladas](managing-answers.md#storing-collected-answers).
 
 La naturaleza del campo que desea añadir (lista desplegable, campo de texto, casillas de verificación, etc.) se adapta al modo de almacenamiento seleccionado. Se puede cambiar con el campo **[!UICONTROL Type]** de la pestaña **[!UICONTROL General]**, pero asegúrese de mantener la coherencia con el tipo de datos.
 
-![](assets/s_ncs_admin_survey_change_type.png)
+![Pestaña General del editor de páginas con la lista Tipo abierta, que muestra Opción múltiple, Cuadro combinado y otros tipos de campo.](assets/s_ncs_admin_survey_change_type.png)
 
-En [esta sección](../web/about-web-forms.md) se describen los distintos tipos de campos disponibles.
+Los diversos tipos de campos disponibles se detallan en [Introducción a los formularios web](../web/about-web-forms.md).
 
 ## Elementos específicos de las encuestas {#survey-specific-elements}
 
@@ -81,11 +81,11 @@ Las encuestas en línea se basan en las funcionalidades de la aplicación web. A
 
 Para los controles de tipo **[!UICONTROL Multiple choice]**, puede definir una cantidad mínima y máxima de selecciones. Por ejemplo, esta opción le permite forzar la selección de al menos **2** valores y como máximo **4** valores de las opciones disponibles:
 
-![](assets/s_ncs_admin_survey_multichoice_ex1.png)
+![Página de encuesta Seleccione sus intereses con casillas de verificación, de tres a cuatro opciones seleccionadas.](assets/s_ncs_admin_survey_multichoice_ex1.png)
 
 Si el número de selecciones es demasiado grande o demasiado pequeño, se muestra el mensaje correspondiente.
 
-![](assets/s_ncs_admin_survey_multichoice_ex2.png)
+![Página de encuesta de intereses que muestra el mensaje de error. No elija más de cuatro intereses.](assets/s_ncs_admin_survey_multichoice_ex2.png)
 
 >[!NOTE]
 >
@@ -93,11 +93,11 @@ Si el número de selecciones es demasiado grande o demasiado pequeño, se muestr
 
 La configuración correspondiente es la siguiente:
 
-![](assets/s_ncs_admin_survey_multichoice_ex3.png)
+![Campo de opción múltiple establecido para permitir selecciones múltiples, con 2 selecciones requeridas y 4 permitidas.](assets/s_ncs_admin_survey_multichoice_ex3.png)
 
 Además, la ubicación de almacenamiento para este campo de entrada debe ser un **campo archivado** de tipo **[!UICONTROL Multiple values]**:
 
-![](assets/s_ncs_admin_survey_multiple_values_field.png)
+![Crear nuevo cuadro de diálogo de campo archivado con la opción Valores múltiples activada para el campo Intereses.](assets/s_ncs_admin_survey_multiple_values_field.png)
 
 >[!CAUTION]
 >
@@ -114,7 +114,7 @@ Utilice un contenedor de **Pregunta** para añadir una pregunta a la página y p
 >
 >Nunca inserte un contenedor **Pregunta** debajo de otro contenedor **Pregunta** en la jerarquía.
 
-![](assets/s_ncs_admin_question_label.png)
+![Pestaña General del contenedor de preguntas con la opción Enter the title in HTML format activada y el editor de HTML mostrado.](assets/s_ncs_admin_question_label.png)
 
 La etiqueta de la pregunta se introduce en el campo de etiqueta. En este caso, se aplica el estilo de la hoja de estilo del formulario. Seleccione la opción **[!UICONTROL Enter the title in HTML format]** para personalizarla. Esto le proporciona acceso al editor HTML.
 
@@ -124,11 +124,11 @@ La etiqueta de la pregunta se introduce en el campo de etiqueta. En este caso, s
 
 Por ejemplo:
 
-![](assets/s_ncs_admin_survey_containers_qu_arbo.png)
+![Árbol de páginas con contenedores de Pregunta para formato de correo electrónico y contratos, y la configuración de la pestaña General de página.](assets/s_ncs_admin_survey_containers_qu_arbo.png)
 
 En el ejemplo anterior, el procesamiento es el siguiente:
 
-![](assets/s_ncs_admin_survey_containers_qu_ex.png)
+![Se ha procesado la página de encuesta con campos, una lista desplegable de formato de correo electrónico y una pregunta de casilla de verificación de contratos.](assets/s_ncs_admin_survey_containers_qu_ex.png)
 
 >[!NOTE]
 >
@@ -136,11 +136,11 @@ En el ejemplo anterior, el procesamiento es el siguiente:
 
 Adobe Campaign permite habilitar el planteamiento de preguntas de forma aleatoria. A continuación, es posible especificar la cantidad de preguntas que desea mostrar en la página, en el campo situado en la parte inferior de la ventana de configuración.
 
-![](assets/s_ncs_admin_survey_containers_qu_display.png)
+![Ficha General de página con la opción Mostrar aleatoriamente marcada y el número de preguntas que se mostrarán establecido en 1.](assets/s_ncs_admin_survey_containers_qu_display.png)
 
 La renderización debería tener este aspecto:
 
-![](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
+![Se ha procesado una página que muestra solo dos preguntas seleccionadas aleatoriamente, la Pregunta 2 y la Pregunta 3, con el botón Siguiente.](assets/s_ncs_admin_survey_containers_qu_display_rendering.png)
 
 Cuando se actualiza la página, las preguntas mostradas no son las mismas.
 

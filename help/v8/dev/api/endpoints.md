@@ -28,19 +28,19 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 9%
+source-wordcount: '201'
+ht-degree: 0%
 ---
 # Puntos de conexión {#endpoints}
 
 Los extremos disponibles para la API de REST de Adobe Campaign:
 
 * **/profileAndServices**: interactúe con los campos predeterminados. No se puede acceder a los campos extendidos con este extremo.
-* **/profileAndServicesExt**: interactúe con los campos personalizados agregados durante la extensión de recursos personalizados de perfil o servicios. Para obtener más información sobre los recursos personalizados, consulte [esta sección](custom-resources.md).
-* **/&lt;transactionalAPI>**: interactúe con la API de mensajes transaccionales (el nombre del extremo de la API de mensajes transaccionales depende de la configuración de su instancia). Para obtener más información, consulte [esta sección](managing-transactional-messages.md).
-* **/workflow/execution**: interactuar con flujos de trabajo. Para obtener más información, consulte [esta sección](controlling-a-workflow.md).
+* **/profileAndServicesExt**: interactúe con los campos personalizados agregados durante la extensión de recursos personalizados de perfil o servicios. Para obtener más información sobre recursos personalizados, consulte [Recursos personalizados](custom-resources.md).
+* **/&lt;transactionalAPI>**: interactúe con la API de mensajes transaccionales (el nombre del extremo de la API de mensajes transaccionales depende de la configuración de su instancia). Para obtener más información, consulte [Administración de mensajes transaccionales](managing-transactional-messages.md).
+* **/workflow/execution**: interactuar con flujos de trabajo. Para obtener más información, consulte [Control de un flujo de trabajo](controlling-a-workflow.md).
 
 De manera predeterminada, los recursos principales disponibles para las API **profileAndServices** y **profileAndServicesExt** son:
 

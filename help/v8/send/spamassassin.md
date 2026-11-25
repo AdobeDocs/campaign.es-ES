@@ -19,10 +19,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 92%
+source-wordcount: '315'
+ht-degree: 77%
 ---
 # SpamAssassin{#spamassassin}
 
@@ -52,7 +52,7 @@ Para obtener más información sobre cómo crear y diseñar una entrega, consult
 1. Vaya a la pestaña **[!UICONTROL Preview]**.
 1. Seleccione un destinatario para obtener una previsualización de la entrega.
 
-   ![](assets/s_tn_del_preview_spamassassin_recipient.png)
+   ![Pestaña Delivery Preview con la lista de destinatarios abierta para elegir un destinatario para la comprobación de correo no deseado](assets/s_tn_del_preview_spamassassin_recipient.png)
 
    >[!NOTE]
    >
@@ -60,13 +60,13 @@ Para obtener más información sobre cómo crear y diseñar una entrega, consult
 
 1. Un mensaje de advertencia le muestra el resultado de la prueba. Si se detecta un alto nivel de riesgo, se muestra el siguiente mensaje de advertencia:
 
-   ![](assets/s_tn_del_preview_spamassassin_ko.png)
+   ![Advertencia de la ficha de vista previa: la comprobación de correo no deseado ha detectado un alto riesgo para este correo electrónico, con el vínculo Más](assets/s_tn_del_preview_spamassassin_ko.png)
 
 1. Haga clic en el vínculo **[!UICONTROL More...]** situado junto a la advertencia.
 1. Seleccione la pestaña **[!UICONTROL Anti-spam checking]** .
 1. Vaya a la sección **[!UICONTROL Points / Rule / Description]** para ver las causas de este riesgo.
 
-   ![](assets/s_tn_del_msg_spamassassin_ko.png)
+   ![Pestaña de comprobación de correo no deseado con puntuación de correo no deseado, puntuación máxima autorizada y la lista de puntos/regla/descripción](assets/s_tn_del_msg_spamassassin_ko.png)
 
 >[!NOTE]
 >

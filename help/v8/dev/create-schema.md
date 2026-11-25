@@ -34,10 +34,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 2%
+source-wordcount: '515'
+ht-degree: 0%
 ---
 # Creación de un nuevo esquema {#create-new-schema}
 
@@ -47,11 +47,11 @@ Para editar, crear y configurar los esquemas, haga clic en el nodo **[!UICONTROL
 >
 >Solo un administrador de la consola de Adobe Campaign puede eliminar esquemas de datos integrados.
 
-![](assets/schema_navtree.png)
+![Árbol del explorador con Administration, Configuration y el nodo Data schemas resaltado.](assets/schema_navtree.png)
 
 La pestaña **[!UICONTROL Edit]** muestra el contenido XML de un esquema:
 
-![](assets/schema_edition.png)
+![Editor de esquemas de Source, ficha Editar, que muestra los campos Nombre y Etiqueta y el contenido XML del esquema.](assets/schema_edition.png)
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ La pestaña **[!UICONTROL Edit]** muestra el contenido XML de un esquema:
 
 La ficha **[!UICONTROL Preview]** genera automáticamente el esquema extendido:
 
-![](assets/schema_edition2.png)
+![Editor de esquemas de Source, ficha Vista previa, que muestra el XML de esquema extendido generado.](assets/schema_edition2.png)
 
 >[!NOTE]
 >
@@ -76,11 +76,11 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
 1. Edite el nodo **[!UICONTROL Administration > Configuration > Data schemas]** del árbol de Adobe Campaign y haga clic en **[!UICONTROL New]**.
 1. Elija la opción **[!UICONTROL Create a new table in the data template]** y haga clic en **[!UICONTROL Next]**
 
-   ![](assets/create_new_schema.png)
+   ![Página de tipo de esquema del asistente de esquema de datos con Crear una nueva tabla en la plantilla de datos seleccionada.](assets/create_new_schema.png)
 
 1. Especifique un nombre para la tabla y un área de nombres.
 
-   ![](assets/create_new_param.png)
+   ![Página de parámetros de esquema con el área de nombres cus, contratos de nombre, etiqueta, etiqueta (singular) y descripción completados.](assets/create_new_param.png)
 
    >[!NOTE]
    >
@@ -88,7 +88,7 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
 
 1. Cree el contenido de la tabla. Se recomienda utilizar el asistente dedicado para asegurarse de que no falta ninguna configuración. Para ello, haga clic en el botón **[!UICONTROL Insert]** y elija el tipo de configuración que desea agregar.
 
-   ![](assets/create_new_content.png)
+   ![Editar página de esquema con el menú Insertar abierto, mostrando tipos de atributo como Cadena y Entero.](assets/create_new_content.png)
 
 1. Defina la configuración de la tabla de contratos.
 
@@ -138,6 +138,6 @@ Para ello, debe crear el esquema de la tabla y actualizar la estructura de la ba
 
 1. Guarde el esquema y haga clic en la pestaña **[!UICONTROL Structure]** para generar la estructura:
 
-   ![](assets/configuration_structure.png)
+   ![Pestaña Estructura de los atributos de titular, copropietario, número de contrato y fecha de suscripción del esquema Contracts.](assets/configuration_structure.png)
 
-1. Actualice la estructura de la base de datos para crear la tabla a la que se vinculará el esquema. Para obtener más información, consulte [esta sección](update-database-structure.md).
+1. Actualice la estructura de la base de datos para crear la tabla a la que se vinculará el esquema. Para obtener más información, consulte [Actualizar la estructura de la base de datos](update-database-structure.md).

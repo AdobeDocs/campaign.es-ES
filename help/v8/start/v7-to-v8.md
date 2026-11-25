@@ -34,10 +34,10 @@ topic_v2:
     internal-label: Security
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 70%
+source-wordcount: '744'
+ht-degree: 65%
 ---
 # Transición de [!DNL Campaign Classic] v7 a [!DNL Campaign] v8{#gs-matrix}
 
@@ -62,7 +62,7 @@ La nueva oferta combina los mejores servicios con supervisión proactiva y alert
 * **Experiencia del servicio**: disponibilidad proactiva, capacidad y supervisión y respuesta del rendimiento para prevenir interrupciones, resolver incidentes más rápidamente y revisar el servicio regularmente para mejorar continuamente.
 * **Experiencia en campañas profundas**: servicio de alta afinidad de equipos expertos en ingeniería de clientes para satisfacer las necesidades funcionales, técnicas o de capacidad de envío, reducir el riesgo de implementación y mejorar la administración de cambios.
 
-Como antiguo usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría de las funciones de la versión 7 de [!DNL Campaign Classic] están disponibles en la versión 8 de [!DNL Campaign], excepto un pequeño conjunto de ellas, que se enumeran en [esta sección](#gs-removed).
+Como antiguo usuario de [!DNL Campaign Classic], tenga en cuenta que la mayoría de las características de [!DNL Campaign Classic] v7 están disponibles en [!DNL Campaign] v8, excepto un pequeño conjunto de ellas, que se enumeran en [Características no admitidas](#gs-removed).
 
 >La nueva arquitectura de la nube permite a Campaign optimizar los procesos, reducir los costes, administrar los riesgos y mejorar la seguridad de los datos. Su entorno de Campaign v8 viene con una nube privada virtual (VPC) dedicada preconfigurada para usted.
 
@@ -77,7 +77,7 @@ Como consecuencia:
 * El estado de los envíos no se actualiza instantáneamente: se ejecuta un proceso técnico en la instancia de Marketing que actualizará los estados de entrega de forma oportuna.
 
 
-Obtenga más información acerca del envío de pruebas de mensajes transaccionales al realizar la transición desde la versión 7 en [esta página](../send/transactional-template.md#transition-from-v7).
+Obtenga más información acerca del envío de pruebas de mensajes transaccionales al realizar la transición desde la versión 7 en [Transición desde Campaign Classic v7](../send/transactional-template.md#transition-from-v7).
 
 
 ## [!DNL Campaign] y [!DNL Snowflake] {#ac-gs-snowflake}
@@ -86,20 +86,20 @@ En su implementación [Enterprise (FDAC) Deployment](../../v8/architecture/enter
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube. Con esta nueva arquitectura, la implementación de Campaign v8 Enterprise (FDAC) simplifica la administración de datos: no se requiere ningún índice en la base de datos en la nube. Basta con crear las tablas, copiar los datos y empezar. La tecnología de la base de datos en la nube no requiere ningún mantenimiento específico para garantizar el nivel de rendimiento.
 
-Obtenga más información acerca de la arquitectura de [!DNL Campaign] v8 en [esta página](../../v8/architecture/architecture.md).
+Obtenga más información acerca de la arquitectura de [!DNL Campaign] v8 en [Introducción a la arquitectura de Campaign](../../v8/architecture/architecture.md).
 
 
 ## Utilice su Adobe ID para conectarse a Campaign{#adobe-id}
 
 Los usuarios de Campaign solo se conectan mediante su Adobe ID. El mismo Adobe ID se usa para mantener todos sus planes de Adobe y productos asociados a una sola cuenta, para todas las soluciones de [!DNL Adobe CX Enterprise].
 
-Aprenda a conectarse a [!DNL Campaign] en [esta página](connect.md).
+Aprenda a conectarse a [!DNL Campaign] en [Conectarse a Campaign v8](connect.md).
 
 ## Analizar datos con cubos{#adobe-reporting}
 
 Utilice el módulo Marketing Analytics para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Además, cree informes y genere poblaciones destinatarias: una vez identificados, se almacenan en listas que se pueden utilizar en Adobe Campaign (direccionamiento, segmentación, etc.).
 
-Los informes cubo de Adobe Campaign versión 8 están optimizados y disponen de mejores prestaciones de escalado que la versión 7 de Campaign Classic. En ese modelo de implementación específico, las anteriores limitaciones de los cubos no se aplican en la versión 8 de Campaign. Puede obtener más información sobre los cubos en [esta sección](../../v8/reporting/gs-cubes.md).
+Los informes cubo de Adobe Campaign versión 8 están optimizados y disponen de mejores prestaciones de escalado que la versión 7 de Campaign Classic. En ese modelo de implementación específico, las anteriores limitaciones de los cubos no se aplican en la versión 8 de Campaign. Obtenga más información sobre los cubos en [Introducción a los informes de Adobe Campaign Analytics](../../v8/reporting/gs-cubes.md).
 
 ## Funciones no disponibles{#gs-unavailable-features}
 

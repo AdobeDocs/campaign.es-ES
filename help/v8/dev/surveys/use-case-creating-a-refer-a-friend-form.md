@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 91%
+source-wordcount: '820'
+ht-degree: 71%
 ---
 # Caso de uso: Creación de un formulario de referencia{#use-case-creating-a-refer-a-friend-form}
 
@@ -45,7 +45,7 @@ ht-degree: 91%
 
 En este ejemplo queremos ofrecer una competencia a los destinatarios de la base de datos. El formulario web incluye una sección para introducir respuestas y otra para recomendar a un amigo introduciendo su dirección de correo electrónico.
 
-![](assets/s_ncs_admin_survey_viral_sample_0.png)
+![Formulario de competencia con área de identificación, área de prueba con preguntas aleatorias y área de invitación para recomendar a un amigo](assets/s_ncs_admin_survey_viral_sample_0.png)
 
 Los bloques de identificación y competencia se crean siguiendo los procesos descritos anteriormente.
 
@@ -53,7 +53,7 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
 1. Cree un formulario web de competencia con preguntas y un campo para introducir la información de contacto de un amigo, como se muestra a continuación:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_2.png)
+   ![Estructura de formulario de la competencia con una sección de identificación, un juego y una referencia con campos de contacto de amigos](assets/s_ncs_admin_survey_viral_sample_2.png)
 
    El campo **Su mensaje** le permite introducir un mensaje para el destinatario del reenvío. El remitente de la entrega debe también introducir su **Apellido**, **Nombre** y **Correo electrónico**.
 
@@ -65,7 +65,7 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
    >
    >En este ejemplo, queremos dirigirnos a los destinatarios para sugerirles que participen en la competición recomendada por el remitente del reenvío. Sin embargo, en este mensaje también deseamos ofrecerles una suscripción a uno de nuestros servicios de información. Si se suscriben, se los puede almacenar en la base de datos.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_5.png)
+   ![Estructura del formulario con el campo Su apellido en la sección Referir a un amigo seleccionada](assets/s_ncs_admin_survey_viral_sample_5.png)
 
    El contenido de los campos relativos al destinatario del reenvío se utilizan en la secuencia de comandos de creación de perfiles y en el mensaje enviado a ellos.
 
@@ -73,9 +73,9 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
    Contiene las siguientes instrucciones:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4.png)
+   ![Diagrama de formulario con el cuadro de secuencia de comandos de información de destinatario del reenvío abierto, que establece los campos id de visitante, URL de reenvío y referente](assets/s_ncs_admin_survey_viral_sample_4.png)
 
-   ```
+   ```javascript
    ctx.recipient.visitor.@id = xtk.session.GetNewIds(1)
    ctx.recipient.visitor.@forwardUrl = "APP5"
    ctx.recipient.visitor.@referrerEmail = ctx.recipient.@email
@@ -89,23 +89,23 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
 1. El cuadro de almacenamiento le permite recopilar información y almacenarla en la base de datos.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_4b.png)
+   ![Cuadro de diálogo de almacenamiento con el elemento de visitante seleccionado en las opciones de reconciliación para almacenar al destinatario secundario](assets/s_ncs_admin_survey_viral_sample_4b.png)
 
 1. A continuación, cree la plantilla de envío relacionada con el servicio de información creado durante el paso 1. Se selecciona en el campo **[!UICONTROL Choose scenario]** del servicio de información.
 
    La plantilla de envío utilizada para crear el mensaje de oferta de reenvío contiene la siguiente información:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7.png)
+   ![Invitar a un amigo a enviar una plantilla con un asunto y contenido de HTML que utilice campos de personalización](assets/s_ncs_admin_survey_viral_sample_7.png)
 
    Esta plantilla tiene las siguientes características:
 
    * Seleccione la tabla de visitantes como asignación de destino.
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7b.png)
+     ![Cuadro de diálogo Seleccionar destino con Visitantes (nms:visitor) seleccionados como asignación de destino de la entrega](assets/s_ncs_admin_survey_viral_sample_7b.png)
 
    * La información de contacto del destinatario del reenvío, así como la información sobre el remitente del reenvío, se toma de la tabla del visitante. Se inserta mediante el botón de personalización.
 
-     ![](assets/s_ncs_admin_survey_viral_sample_7a.png)
+     ![Menú Personalization en el contenido de la entrega, submenú Visitante con los campos Apellido, Nombre, Correo electrónico y Referente](assets/s_ncs_admin_survey_viral_sample_7a.png)
 
    * Esta plantilla contiene un vínculo al formulario de competencia y el vínculo de suscripción para que el destinatario del reenvío se suscriba al boletín informativo.
 
@@ -119,9 +119,9 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
 1. Cree la segunda secuencia de comandos para enviar los mensajes de suscripción.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_7c.png)
+   ![Caja de scripts para el almacenamiento del referente y el envío de mensajes, con código que pone en cola la notificación por correo electrónico de referencia al destinatario del reenvío](assets/s_ncs_admin_survey_viral_sample_7c.png)
 
-   ```
+   ```javascript
    // Updtate visitor to have a link to the referrer recipient
    ctx.recipient.visitor.@referrerId = ctx.recipient.@id
    ctx.recipient.visitor.@xtkschema = "nms:visitor"
@@ -146,10 +146,10 @@ Para configurar y crear el bloque de recomendación, siga estos pasos:
 
 1. Publique el formulario de competencia y envíe una invitación a los destinatarios del objetivo inicial. Cuando uno de ellos invita a un amigo, se crea una entrega basado en la plantilla de **oferta de reenvío**.
 
-   ![](assets/s_ncs_admin_survey_viral_sample_8.png)
+   ![Se ha completado una página de prueba con una sección de Invitar a un amigo y la lista de entregas muestra esa entrega en curso](assets/s_ncs_admin_survey_viral_sample_8.png)
 
    El destinatario del reenvío se añade a la carpeta del visitante en el **[!UICONTROL Administration > Visitors node]**:
 
-   ![](assets/s_ncs_admin_survey_viral_sample_9.png)
+   ![Carpeta de visitantes que enumera el destinatario secundario, con la ficha General del visitante que muestra el nombre, el correo electrónico y el destinatario secundario](assets/s_ncs_admin_survey_viral_sample_9.png)
 
    Su perfil contiene la información introducida por el remitente del reenvío. Se almacena en función de las configuraciones introducidas en la secuencia de comandos del formulario. Si decide suscribirse al boletín informativo, se guardan en la tabla de destinatarios.

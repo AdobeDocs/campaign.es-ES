@@ -40,10 +40,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 3%
+source-wordcount: '682'
+ht-degree: 2%
 ---
 # Administración de claves y unicidad {#key-management}
 
@@ -73,11 +73,11 @@ Este flujo de trabajo técnico está disponible en el nodo **[!UICONTROL Adminis
 
 Este flujo de trabajo comprueba todos los esquemas personalizados e integrados para detectar filas duplicadas.
 
-![](assets/unicity-alerting-wf.png)
+![Flujo de trabajo de alertas de unicidad (ffdaUnicity): comprobaciones de esquema, prueba de filas duplicadas detectadas, actividades de alerta, finalización y limpieza](assets/unicity-alerting-wf.png)
 
 Si el flujo de trabajo **[!UICONTROL Unicity alerting]** (ffdaUnicity) detecta claves duplicadas, estas se agregan a una tabla **Audit Unicity** específica, que incluye el nombre del esquema, el tipo de clave, el número de filas afectadas y la fecha. Puede acceder a las claves duplicadas desde el nodo **[!UICONTROL Administration > Audit > Key Unicity]**.
 
-![](assets/unicity-table.png)
+![Lista de unicidad de clave con Id. de esquema, definición de clave, tipo de clave, valor duplicado, recuento duplicado, fecha de creación](assets/unicity-table.png)
 
 Como administrador de bases de datos, puede utilizar una actividad SQL para eliminar los duplicados o ponerse en contacto con el servicio de atención al cliente de Adobe para obtener más información.
 
@@ -85,7 +85,7 @@ Como administrador de bases de datos, puede utilizar una actividad SQL para elim
 
 Se envía una notificación específica al grupo de operadores **[!UICONTROL Workflow Supervisors]** cuando se detectan claves duplicadas. El contenido y la audiencia de esta alerta se pueden cambiar en la actividad **Alerta** del flujo de trabajo **[!UICONTROL Unicity alerting]**.
 
-![](assets/wf-alert-activity.png)
+![Actividad de alerta en alertas de unicidad, asignada al grupo de supervisores de flujo de trabajo con el mensaje de claves duplicadas](assets/wf-alert-activity.png)
 
 
 ## Protecciones adicionales {#duplicates-guardrails}
@@ -94,25 +94,25 @@ Campaign incluye un conjunto de nuevas protecciones para evitar la inserción de
 
 >[!NOTE]
 >
->Estas protecciones están disponibles a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [esta sección](../start/compatibility-matrix.md)
+>Estas protecciones están disponibles a partir de la versión 8.3 de Campaign. Para comprobar su versión, consulte [Matriz de compatibilidad de Campaign v8](../start/compatibility-matrix.md)
 
 ### Preparación del envío {#remove-duplicates-delivery-preparation}
 
 Adobe Campaign elimina automáticamente cualquier UUID duplicado de una audiencia durante la preparación de la entrega. Este mecanismo evita que se produzcan errores al preparar una entrega. Como usuario final, puede comprobar esta información en los registros de envío: algunos destinatarios pueden excluirse del destinatario principal debido a claves duplicadas. En ese caso, se muestra la siguiente advertencia: `Exclusion of duplicates (based on the primary key or targeted records)`.
 
-![](assets/exclusion-duplicates-log.png)
+![Registro de envíos con la línea Exclusión de duplicados (basada en la clave principal de los registros de destino) resaltada por una flecha](assets/exclusion-duplicates-log.png)
 
 ### Actualización de datos en un flujo de trabajo {#duplicates-update-data}
 
 En el contexto de una implementación [Enterprise (FDAC) deployment](enterprise-deployment.md), no se puede seleccionar una clave interna (UUID) como campo para actualizar los datos en un flujo de trabajo.
 
-![](assets/update-data-no-internal-key.png)
+![Actualice la actividad de datos con el selector de campos para el destinatario (nms:recipient), donde no se puede seleccionar ningún campo de clave interna](assets/update-data-no-internal-key.png)
 
 ### Consulta de un esquema con duplicados {#query-with-duplicates}
 
 Cuando un flujo de trabajo comienza a ejecutar una consulta en un esquema, Adobe Campaign comprueba si algún registro duplicado aparece en la [tabla de unicidad de auditoría](#unicity-wf). Si es así, el flujo de trabajo registra una advertencia, ya que la operación posterior en los datos duplicados podría afectar al resultado del flujo de trabajo.
 
-![](assets/query-with-duplicates.png)
+![Registro de flujo de trabajo con la advertencia Restricción de unicidad violada. Se encontraron datos duplicados en el esquema nms:recipient](assets/query-with-duplicates.png)
 
 Esta comprobación se realiza en las siguientes actividades de flujo de trabajo:
 

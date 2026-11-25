@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 33%
+source-wordcount: '822'
+ht-degree: 32%
 ---
 # Trabajo con enumeraciones {#enumerations}
 
@@ -42,7 +42,7 @@ Una lista desglosada (también denominada lista detallada) es una lista predefin
 
 Cuando se definen, los valores se muestran en una lista desplegable. Puede seleccionar un valor directamente o introducirlo mediante una entrada predictiva, que sugiere y completa entradas coincidentes. Algunos campos incluyen listas desglosadas predefinidas y se pueden crear listas desglosadas adicionales si es necesario.
 
-![](assets/enum_values.png)
+![Formulario de destinatario con la lista desplegable Idioma abierta, que enumera los valores de la lista desglosada Inglés, francés, italiano, ruso y español](assets/enum_values.png)
 
 
 ## Tipos de enumeraciones {#types-of-enum}

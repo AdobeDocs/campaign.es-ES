@@ -25,24 +25,24 @@ level_v2:
     internal-label: Intermediate
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '153'
 ht-degree: 0%
 ---
 # Actualizar la estructura de la base de datos {#updating-the-database-structure}
 
 Para aplicar las modificaciones realizadas en los esquemas, inicie el asistente de actualización de la base de datos. Se puede acceder a este asistente mediante **[!UICONTROL Tools > Advanced > Update database structure]**. Comprueba si la estructura física de la base de datos coincide con su descripción lógica y ejecuta los scripts de actualización de SQL.
 
-![](assets/schema_update.png)
+![Asistente para actualizar la base de datos Actualice la página de parámetros con el botón Siguiente para iniciar el proceso de detección automática](assets/schema_update.png)
 
 Los módulos de la base de datos se rellenan y activan automáticamente.
 
-![](assets/schema_update_select2.png)
+![Asistente de actualización de bases de datos Editar tablas página que enumera tablas, con la tabla CusContracts configurada para sincronizar](assets/schema_update_select2.png)
 
 Siga los pasos y vea el script SQL de actualización de la base de datos:
 
-![](assets/schema_update2.png)
+![Asistente de actualización de bases de datos: página Actualizar script con el script SQL CREATE TABLE para CusContracts](assets/schema_update2.png)
 
 >[!NOTE]
 >
@@ -50,4 +50,4 @@ Siga los pasos y vea el script SQL de actualización de la base de datos:
 
 A continuación, inicie la actualización de la base de datos:
 
-![](assets/schema_update3.png)
+![Asistente para actualizar la base de datos: página de inicio de la actualización de la base de datos con el registro que muestra la actualización completada al 100%](assets/schema_update3.png)

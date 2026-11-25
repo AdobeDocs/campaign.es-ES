@@ -32,9 +32,9 @@ topic_v2:
     internal-label: Customer journeys
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '664'
 ht-degree: 14%
 ---
 # Introducción a los flujos de trabajo{#gs-with-workflows}
@@ -126,7 +126,7 @@ Obtenga más información acerca de **propiedades del flujo de trabajo** en [est
 
 Desde la pestaña **[!UICONTROL Execution]** de **[!UICONTROL Properties]** de su flujo de trabajo, puede elegir vincular el flujo de trabajo a diferentes almacenes y optimizar la administración de la carga de trabajo. Para obtener más información sobre **Almacenes**, consulte la [documentación de Snowflake](https://docs.snowflake.com/en/user-guide/warehouses-overview.html){target="_blank"}.
 
-![](assets/warehouse.png)
+![Pestaña Workflow properties Execution con la lista desplegable Warehouse abierta: Default, Campaign, Import / Export y Campaign Burst](assets/warehouse.png)
 
 Según el propósito del flujo de trabajo, puede elegir entre los tres almacenes siguientes de la lista desplegable **[!UICONTROL Warehouse]**:
 
@@ -151,11 +151,11 @@ Aprenda a crear una campaña recurrente en [esta página](https://experienceleag
 
 Utilice la mensajería transaccional de Campaign para automatizar los mensajes generados a partir de eventos activados desde sistemas de información. Estos mensajes transaccionales pueden ser facturas, confirmaciones de pedidos, confirmaciones de envío, cambios de contraseña, notificaciones de no disponibilidad de productos, extractos de cuentas o creación de cuentas en sitios web, por ejemplo. Estos mensajes se pueden enviar por separado o en lote por correo electrónico, SMS o notificaciones push.
 
-Obtenga más información acerca de las funcionalidades de mensajería transaccional en [esta sección](../send/transactional.md).
+Obtenga más información acerca de las funcionalidades de mensajería transaccional en [Mensajería transaccional de Campaign](../send/transactional.md).
 
 Conecte Adobe Campaign y Adobe Analytics para recuperar las acciones del usuario y enviar mensajes personalizados casi en tiempo real.
 
-Aprenda a integrar Campaign con otras soluciones en [esta sección](../start/connect.md)
+Aprenda a integrar Campaign con otras soluciones en [Conectarse a la versión 8 de Campaign](../start/connect.md)
 
 
 ## Casos de uso de extremo a extremo del flujo de trabajo{#end-to-end-uc}

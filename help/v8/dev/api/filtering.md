@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 0%
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 ## Recuperando metadatos de filtros
 
-Los filtros están disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una petición GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. Para obtener más información sobre metadatos, consulte [esta sección](metadata-mechanism.md).
+Los filtros están disponibles para cada recurso. Para identificar los filtros asociados a un recurso, debe realizar una petición GET en los metadatos del recurso. Esta solicitud devuelve la dirección URL donde se definen todos los filtros para un recurso determinado. Para obtener más información sobre metadatos, consulte [Mecanismo de metadatos](metadata-mechanism.md).
 
 Para identificar los metadatos de un filtro y determinar cómo utilizarlos, debe realizar una petición GET en la dirección URL devuelta anteriormente.
 
@@ -37,7 +37,7 @@ Para identificar los metadatos de un filtro y determinar cómo utilizarlos, debe
 
 Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos de filtro &quot;byText&quot; para el recurso de &quot;perfil&quot;. Primero realice una petición GET en los metadatos de recurso de &quot;perfil&quot;.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -47,7 +47,7 @@ Las siguientes cargas útiles de ejemplo muestran cómo recuperar los metadatos 
 
 Devuelve la dirección URL donde se describen los filtros.
 
-```
+```json
 {
 "filters": {
         "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/resourceType/<PKEY>/filters/"
@@ -57,7 +57,7 @@ Devuelve la dirección URL donde se describen los filtros.
 
 Realice una petición GET en la dirección URL. Devuelve la lista de filtros para el recurso de perfil, con los metadatos asociados a cada filtro.
 
-```
+```json
 {
 "birthday": {
         "PKey": "@FL-CbDFXbnHbXcVpeCGWL46VXJLn1LqxLMPagt2vz8sCxQ52lvB15KiUaxXkxJYQw-tZXYrgUWG6K8QcB4gxVY9RKoba5bRFY3294YFshDmorRr8",
@@ -83,7 +83,7 @@ La misma estructura de metadatos está disponible para cada filtro:
 
 Ejemplo de estructura de metadatos de filtro:
 
-```
+```json
 "byText": {
         "PKey": "...",
         "category": "99_none",
@@ -111,7 +111,7 @@ Es posible combinar varios filtros en una sola solicitud:
 
 * Solicitud GET de muestra para recuperar los recursos del &quot;servicio&quot; con el tipo &quot;correo electrónico&quot;.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -121,7 +121,7 @@ Es posible combinar varios filtros en una sola solicitud:
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -144,7 +144,7 @@ Es posible combinar varios filtros en una sola solicitud:
 * Solicitud GET de muestra para recuperar los recursos de &quot;perfil&quot; que contienen &quot;Listo&quot; en
 los campos correo electrónico o apellidos (el filtro por texto busca en los campos correo electrónico y apellidos).
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Doe \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -154,7 +154,7 @@ los campos correo electrónico o apellidos (el filtro por texto busca en los cam
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -172,7 +172,7 @@ los campos correo electrónico o apellidos (el filtro por texto busca en los cam
 
 * Solicitud GET de muestra para recuperar los recursos del servicio con el tipo &quot;correo electrónico&quot; y la etiqueta &quot;deporte&quot;.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/byText?channel=email&text=sport \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -182,7 +182,7 @@ los campos correo electrónico o apellidos (el filtro por texto busca en los cam
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -219,7 +219,7 @@ Para obtener más información, consulte la documentación de Campaign Standard:
 
 Solicitud GET de muestra para recuperar los recursos de &quot;perfil&quot; con importes de transacción de 100 $ o más. Tenga en cuenta que el filtro &quot;byAmount&quot; se ha definido primero en la interfaz de Adobe Campaign Standard y se ha vinculado a la tabla personalizada &quot;Transaction&quot;.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byAmount?amount_parameter=100 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

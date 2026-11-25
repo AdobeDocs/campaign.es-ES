@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Security
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 14%
+source-wordcount: '762'
+ht-degree: 11%
 ---
 # SMS en una infraestructura intermediaria {#sms-mid}
 
@@ -59,22 +59,22 @@ Para crear su operador SMS, siga los pasos a continuación:
 
    Tenga en cuenta que el nombre (inicio de sesión) se utilizará más adelante para asignar un nombre a la cuenta externa de SMPP en el servidor intermediario.
 
-   ![](assets/smsoperator_mid.png){zoomable="yes"}
+   ![Nuevo formulario de operador de SMS en el servidor central con Nombre (inicio de sesión), Contraseña y Etiqueta y el botón Agregar para los derechos](assets/smsoperator_mid.png){zoomable="yes"}
 
 1. En la parte **[!UICONTROL Groups and named rights]**, haga clic en el botón **[!UICONTROL Add]**.
 En la nueva ventana abierta, elija **[!UICONTROL Named rights]** en la lista **[!UICONTROL Folder]** y seleccione **[!UICONTROL ADMINISTRATION]** en la lista derecha.
 
 1. Haga clic en el botón **[!UICONTROL Ok]**.
 
-   ![](assets/smsoperator_rights.png){zoomable="yes"}
+   ![Cuadro de diálogo Agregar grupos o derechos asignados con el derecho asignado ADMINISTRACIÓN seleccionado](assets/smsoperator_rights.png){zoomable="yes"}
 
 1. Haga clic en el botón **[!UICONTROL Save]** para finalizar la creación de su operador de SMS.
 
-   ![](assets/smsoperator_save.png){zoomable="yes"}
+   ![Formulario de operador de SMS con derechos de ADMINISTRACIÓN agregados y el botón Guardar resaltado](assets/smsoperator_save.png){zoomable="yes"}
 
 Ahora puede verlo en la lista de operadores.
 
-![](assets/smsoperator_list.png){zoomable="yes"}
+![Lista de operadores que muestra el nuevo operador sms intermediario (smsOperator)](assets/smsoperator_list.png){zoomable="yes"}
 
 ## Creación de una cuenta externa SMS en el servidor de marketing {#sms-external-account}
 
@@ -86,17 +86,17 @@ En una infraestructura intermedia, debe crear una cuenta externa SMS en el servi
 
 1. En **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**, haga clic en el icono **[!UICONTROL New]**
 
-   ![](assets/sms_extaccount.png){zoomable="yes"}
+   ![Lista de cuentas externas en Administración > Plataforma con el icono Nuevo resaltado](assets/sms_extaccount.png){zoomable="yes"}
 
 1. Configure **[!UICONTROL Label]** y **[!UICONTROL Internal name]** de su cuenta externa. Defina el tipo de cuenta como **[!UICONTROL Routing]**, marque la casilla **[!UICONTROL Enabled]**, seleccione **[!UICONTROL Mobile (SMS)]** para el canal y **[!UICONTROL Mid-sourcing]** para el modo de envío.
 
-   ![](assets/mid_smsextaccount.png){zoomable="yes"}
+   ![Pestaña General de cuenta externa: Tipo de enrutamiento, Habilitado, Canal móvil (SMS) y Modo de envío intermediario](assets/mid_smsextaccount.png){zoomable="yes"}
 
 1. En la pestaña **[!UICONTROL Mid-sourcing]**, rellene el formulario con la URL del servidor intermediario y el operador SMS creado anteriormente en el servidor intermediario.
 
    Confirme la conexión haciendo clic en el botón **[!UICONTROL Test the connection]**.
 
-   ![](assets/midtab_smsextaccount.png){zoomable="yes"}
+   ![Pestaña intermediaria con dirección URL del servidor, cuenta de operador de SMS, contraseña y botón de prueba de conexión](assets/midtab_smsextaccount.png){zoomable="yes"}
 
 1. Haga clic en **[!UICONTROL Save]**.
 
@@ -120,13 +120,13 @@ Para realizar esto, siga los pasos a continuación:
    >
 
    Defina el tipo de cuenta como **[!UICONTROL Routing]**, marque la casilla **[!UICONTROL Enabled]**, seleccione **[!UICONTROL Mobile (SMS)]** para el canal y **[!UICONTROL Bulk delivery]** para el modo de envío.
-   ![](assets/mid_extaccount.png){zoomable="yes"}
+   ![Pestaña General de la cuenta externa del servidor central: Tipo de enrutamiento, Habilitado, Canal móvil (SMS) y Modo de envío masivo](assets/mid_extaccount.png){zoomable="yes"}
 
 1. En la ficha **[!UICONTROL Mobile]**, mantenga a **[!UICONTROL Extended generic SMPP]** en la lista desplegable **[!UICONTROL Connector]**.
 
    La casilla **[!UICONTROL Send messages through a dedicated process]** está marcada de manera predeterminada.
 
-   ![](assets/sms_extaccount_connector.png){zoomable="yes"}
+   ![Se ha marcado la pestaña móvil con el conector SMPP genérico extendido y ha marcado la opción Enviar mensajes mediante un proceso dedicado](assets/sms_extaccount_connector.png){zoomable="yes"}
 
    Para configurar la conexión, debe rellenar las pestañas de este formulario. Para obtener más información, [obtenga más información sobre la cuenta externa SMPP](smpp-external-account.md#smpp-connection-settings).
 
@@ -136,18 +136,18 @@ Para facilitar la creación de su envío SMS, cree una plantilla de envíos SMS 
 
 En **[!UICONTROL Resources]** > **[!UICONTROL Templates]** > **[!UICONTROL Delivery templates]** en el servidor de marketing, haga clic con el botón derecho en la plantilla de entrega móvil existente y elija **[!UICONTROL Duplicate]**.
 
-![](assets/sms_template_duplicate.png){zoomable="yes"}
+![Lista de plantillas de envío con Duplicate seleccionado en el menú contextual para la plantilla de SMS móvil](assets/sms_template_duplicate.png){zoomable="yes"}
 
 Cambie **[!UICONTROL Label]** y **[!UICONTROL Internal name]** de la plantilla para reconocerlo fácilmente y haga clic en el botón **[!UICONTROL Properties]**.
 
-![](assets/sms_template_name.png){zoomable="yes"}
+![Plantilla de envío duplicada con campos Etiqueta y Nombre interno y el botón Propiedades resaltado](assets/sms_template_name.png){zoomable="yes"}
 
 En la ficha **[!UICONTROL General]**, en **[!UICONTROL Routing]**, seleccione su cuenta externa SMPP.
 
-![](assets/mid_template.png){zoomable="yes"}
+![Pestaña General de propiedades de entrega con el campo Enrutamiento establecido en la cuenta externa SMPP](assets/mid_template.png){zoomable="yes"}
 
 En la ficha **[!UICONTROL SMS]**, puede agregar parámetros opcionales a la plantilla.
 
-![](assets/sms_template_properties.png){zoomable="yes"}
+![Pestaña SMS de propiedades de entrega con parámetros generales y parámetros SMPP opcionales (TLV)](assets/sms_template_properties.png){zoomable="yes"}
 
 [Más información sobre esta configuración de ficha de SMS](sms-delivery-settings.md).

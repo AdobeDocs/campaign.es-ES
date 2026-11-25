@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6db6c9152f6060b40596bd65a2ce705f916401be
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 91%
+source-wordcount: '1044'
+ht-degree: 68%
 ---
 # Creación de una página de destino{#creating-a-landing-page}
 
@@ -56,24 +56,24 @@ Para crear una nueva aplicación web de tipo página de destino, siga estos paso
 1. Vaya a la ficha **[!UICONTROL Campaigns]**, haga clic en el vínculo **[!UICONTROL Web application]** y, a continuación, haga clic en el botón **[!UICONTROL Create]**.
 1. Seleccione la plantilla **[!UICONTROL New landing page]**, introduzca una etiqueta y luego haga clic en **[!UICONTROL Save]**.
 
-   ![](assets/dce_uc1_newlandingpage.png)
+   ![Cuadro de diálogo Nueva aplicación web con la plantilla Nueva página de aterrizaje, una etiqueta y la carpeta Aplicaciones web](assets/dce_uc1_newlandingpage.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Edit]**.
 1. Elimine la actividad **End**.
 1. Añada una actividad **[!UICONTROL Page]** después de la actividad **[!UICONTROL Storage]**.
 1. Edite la actividad **Page 2** y, a continuación, en la pestaña **[!UICONTROL Activate outbound transitions]**, desactive la opción **[!UICONTROL Properties]**.
 
-   ![](assets/dce_uc1_transition.png)
+   ![Pestaña Propiedades de la actividad de página denominada Página 2 con Habilitar transiciones salientes borrada](assets/dce_uc1_transition.png)
 
 1. Guarde los cambios.
 
 A continuación, se obtiene la siguiente secuencia:
 
-![](assets/dce_uc1_edition_activity.png)
+![Flujo de aplicación web: precargando, página, almacenamiento y actividades de página 2 conectadas en secuencia](assets/dce_uc1_edition_activity.png)
 
 >[!NOTE]
 >
->Para obtener más información sobre la creación de una aplicación web, consulte [esta sección](creating-a-new-web-application.md).
+>Para obtener más información sobre la creación de una aplicación web, consulte [Crear una nueva aplicación web](creating-a-new-web-application.md).
 
 ## Paso 1: Selección y carga de plantillas {#step-1---selecting-and-loading-templates}
 
@@ -90,7 +90,7 @@ Para cargar la plantilla en la primera página, realice los pasos siguientes:
 1. Abra la primera actividad **[!UICONTROL Page]** de la aplicación web.
 1. Seleccione **[!UICONTROL From a file]** para buscar la plantilla de contenido.
 
-   ![](assets/dce_uc1_selectmodel.png)
+   ![Elija un cuadro de diálogo de contenido que enumere las plantillas: desde un archivo, Contacto, Pulsación detallada, Pulsación y adquisición](assets/dce_uc1_selectmodel.png)
 
 1. Seleccione el archivo HTML que desea utilizar.
 1. Haga clic en **Abrir** para iniciar la importación.
@@ -99,7 +99,7 @@ Para cargar la plantilla en la primera página, realice los pasos siguientes:
 
    Haga clic en el botón **[!UICONTROL Close]** cuando haya finalizado la importación.
 
-   ![](assets/dce_uc1_import.png)
+   ![Registro de recursos de publicación de archivos de script, imagen y CSS cargados, que termina con un mensaje de éxito del 100 %](assets/dce_uc1_import.png)
 
    >[!CAUTION]
    >
@@ -108,7 +108,7 @@ Para cargar la plantilla en la primera página, realice los pasos siguientes:
 1. Haga clic en la pestaña **[!UICONTROL Properties]**.
 1. Escriba una **etiqueta** para cada página (por ejemplo: Página 1= Recopilar, Página 2=Gracias).
 
-   ![](assets/dce_uc1_pagelabel.png)
+   ![Pestaña Propiedades de la actividad de página con la etiqueta Recopilación y Habilitar transiciones salientes seleccionadas](assets/dce_uc1_pagelabel.png)
 
 Realice estos pasos para cada página insertada en la aplicación web.
 
@@ -120,7 +120,7 @@ Realice estos pasos para cada página insertada en la aplicación web.
 
 En esta sección, se muestra cómo ajustar el contenido importado y relacionar los campos de la base de datos al formulario de la página web. La aplicación web creada anteriormente es:
 
-![](assets/dce_uc1_lp_enchainement.png)
+![Flujo de aplicación web con actividades de precarga, recopilación, almacenamiento y agradecimiento conectadas en secuencia](assets/dce_uc1_lp_enchainement.png)
 
 ### Modificación del contenido {#modifying-content}
 
@@ -132,11 +132,11 @@ Comencemos por cambiar los colores de la página. Para ello:
 1. Seleccione un nuevo color de fondo.
 1. Haga clic en **Aceptar** para confirmar el cambio.
 
-   ![](assets/dce_uc1_changecolor.png)
+   ![Editor de páginas con un cuadro de diálogo de selección de color que cambia el color de fondo del botón de vínculo de hipertexto seleccionado](assets/dce_uc1_changecolor.png)
 
 1. Aplique estos mismos procesos para cambiar el color del botón.
 
-   ![](assets/dce_uc1_finalcolor.png)
+   ![Página del formulario de registro resultante con campos Nombre, Correo electrónico, Teléfono y Dirección y un botón ENVIAR TI de color](assets/dce_uc1_finalcolor.png)
 
 ### Vinculación de campos de formulario {#linking-form-fields}
 
@@ -146,13 +146,13 @@ Enlacemos los campos de la página a los de la base de datos para poder guardar 
 1. Edite la sección **[!UICONTROL Field]** en el lado derecho del editor.
 1. Seleccione el campo de base de datos que desea vincular con el campo seleccionado.
 
-   ![](assets/dce_uc1_mapping.png)
+   ![Campo del cuadro de diálogo Destinatario con el nombre seleccionado para asignar la zona de entrada a un campo de base de datos](assets/dce_uc1_mapping.png)
 
 1. Repita este proceso para cada campo de la página.
 
 Puede hacer que un campo sea obligatorio: por ejemplo, haga clic en el campo **[!UICONTROL Email]** y habilite la opción **Mandatory**.
 
-![](assets/dce_uc1_fieldmandatory.png)
+![El editor de páginas especificó la configuración de zona con la opción Obligatorio establecida en Sí en la sección de datos del formulario](assets/dce_uc1_fieldmandatory.png)
 
 ### Creación de un vínculo a la página siguiente {#creating-a-link-to-the-next-page}
 
@@ -162,7 +162,7 @@ Este paso es obligatorio porque permite a la aplicación web determinar la secue
 1. Haga clic en el menú desplegable **[!UICONTROL Action]**.
 1. Seleccione la acción **[!UICONTROL Next page]**.
 
-   ![](assets/dce_uc1_actionbouton.png)
+   ![Configuración de vínculo de hipertexto con la lista desplegable Acción abierta y Página siguiente seleccionada](assets/dce_uc1_actionbouton.png)
 
 ### Inserción de un campo de personalización. {#inserting-a-personalization-field}
 
@@ -173,21 +173,21 @@ Este paso le permite personalizar la página de agradecimiento. Para ello:
 1. En el menú **[!UICONTROL Personalization field]** de la barra de herramientas, seleccione **[!UICONTROL Insert]**.
 1. Seleccione el nombre.
 
-   ![](assets/dce_uc1_persochamp.png)
+   ![Menú Insertar con el campo Personalization seleccionado y el campo Nombre elegido en el cuadro de diálogo Insertar un elemento](assets/dce_uc1_persochamp.png)
 
 El campo de personalización aparece con fondo amarillo en el editor.
 
-![](assets/dce_uc1_edit_champperso.png)
+![Encabezado de la página de agradecimiento con el campo de personalización Nombre resaltado en amarillo](assets/dce_uc1_edit_champperso.png)
 
 ## Paso 3: Publicación de contenidos {#step-3---publishing-content}
 
 El contenido se publica desde el panel de control de aplicaciones web. Haga clic en el botón **[!UICONTROL Publish]** para ejecutarlo.
 
-![](assets/dce_uc1_pub_dashboard.png)
+![Panel de aplicación web con el botón Publicar y un mensaje que indica que la aplicación debe publicarse](assets/dce_uc1_pub_dashboard.png)
 
 Durante la publicación se muestra un “log”. El sistema de publicación analiza todo el contenido encontrado en la aplicación web.
 
-![](assets/dce_uc1_pub_dashboard_journal.png)
+![Registro de publicación de aplicación web que termina con Proceso completado (con advertencias) y un botón Cerrar](assets/dce_uc1_pub_dashboard_journal.png)
 
 >[!NOTE]
 >
