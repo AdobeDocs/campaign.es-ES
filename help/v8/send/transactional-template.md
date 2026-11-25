@@ -113,7 +113,7 @@ Una dirección semilla permite mostrar una previsualización del mensaje, enviar
 
    ![Cuadro de diálogo Dirección semilla con los campos Etiqueta, Correo electrónico e Identificador externo](assets/messagecenter_create_seed_2.png)
 
-1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/en/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
+1. Insertar datos de prueba. [Obtenga más información sobre los datos de personalización en la documentación de Campaign Classic v7](https://experienceleague.adobe.com/es/docs/campaign-classic/using/transactional-messaging/message-templates/testing-message-templates#personalization-datal){target="_blank"}
 
    ![Cuadro de diálogo Dirección semilla con datos de prueba en la sección Contenido, escrito como XML para el contexto de evento](assets/messagecenter_create_custo_3.png)
 
