@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 57%
+source-wordcount: '1269'
+ht-degree: 53%
 ---
 # Prácticas recomendadas de interacción {#interaction-best-practices}
 
@@ -77,13 +77,13 @@ Al seleccionar ofertas en una actividad **Enrichment**, puede elegir qué espaci
 
 En el ejemplo siguiente, el espacio de oferta seleccionado en la entrega es **[!UICONTROL Email (Environment - Recipient)]**:
 
-![](assets/Interaction-best-practices-offer-space-selected.png)
+![Sección de selección de ofertas de una entrega con el campo Espacio de ofertas establecido en Correo electrónico (Entorno - Destinatario).](assets/Interaction-best-practices-offer-space-selected.png)
 
 Si el espacio de oferta seleccionado en la entrega no tiene una función de renderización HTML configurada, no la va a ver en el menú de entrega y no va a estar disponible para su selección. Esto es independiente del espacio de oferta seleccionado en la actividad **Enrichment**.
 
 En el ejemplo siguiente, la función de renderización HTML está disponible en la lista desplegable porque el espacio de oferta seleccionado en la entrega tiene una función de renderización:
 
-![](assets/Interaction-best-practices-HTML-rendering.png)
+![Menú de campo de Personalization con Propuestas, propuesta y la opción de procesamiento de HTML resaltadas.](assets/Interaction-best-practices-HTML-rendering.png)
 
 Esta función inserta un código como: `<%@ include proposition="targetData.proposition" view="rendering/html" %>`.
 
@@ -99,7 +99,7 @@ Por lo tanto, para evitar cualquier problema, se recomienda que todos los espaci
 
 Los espacios de oferta tienen la capacidad de almacenar datos en la tabla de propuesta cuando se generan o aceptan propuestas:
 
-![](assets/Interaction-best-practices-offer-space-storage.png)
+![Pestaña Almacenamiento de un espacio de ofertas con las expresiones de estado En propuesta y En aceptación y ruta de almacenamiento.](assets/Interaction-best-practices-offer-space-storage.png)
 
 Sin embargo, esto solo se aplica a las interacciones entrantes.
 
@@ -109,15 +109,15 @@ Cualquier campo de la tabla temporal del flujo de trabajo cuyo nombre coincida c
 
 Por ejemplo, al seleccionar una oferta manualmente (sin interacción) en una actividad de flujo de trabajo **Enrichment**, los campos estándar se definen de la siguiente manera:
 
-![](assets/Interaction-best-practices-manual-offer-std-fields.png)
+![Columnas de salida de una actividad de enriquecimiento con los campos estándar para una oferta seleccionada manualmente.](assets/Interaction-best-practices-manual-offer-std-fields.png)
 
 Se pueden agregar campos adicionales, como un campo `@rank`:
 
-![](assets/Interaction-best-practices-manual-offer-add-fields.png)
+![Columnas de salida de una actividad de enriquecimiento con un campo de clasificación agregado para la propuesta.](assets/Interaction-best-practices-manual-offer-add-fields.png)
 
 Dado que hay un campo en la tabla de propuestas denominado `@rank`, el valor de la tabla temporal del flujo de trabajo se copiará.
 
-Para obtener más información sobre el almacenamiento de campos adicionales en la tabla de propuestas, consulte [esta sección](interaction-send-offers.md#storing-offer-rankings-and-weights).
+Para obtener más información sobre el almacenamiento de campos adicionales en la tabla de propuestas, consulte [Almacenar calificaciones y consideraciones de ofertas](interaction-send-offers.md#storing-offer-rankings-and-weights).
 
 En el caso de las ofertas salientes con interacción, esto resulta útil cuando se seleccionan varias ofertas y se desea registrar en qué orden se van a mostrar en un mensaje de correo electrónico.
 
@@ -127,7 +127,7 @@ Al utilizar la interacción saliente, se puede agregar el campo `@rank`, como en
 
 Al utilizar la interacción y seleccionar ofertas manualmente, el usuario puede combinar ambos métodos. Por ejemplo, el usuario puede establecer manualmente el campo `@rank` como 1 para la oferta seleccionada manualmente y utilizar una expresión como `"1 + @rank"` para las ofertas devueltas por interacción. Si damos por supuesto que la interacción selecciona tres ofertas, las ofertas devueltas por ambos métodos se van a clasificar de 1 a 4:
 
-![](assets/Interaction-best-practices-manual-offer-combined.png)
+![Columnas de salida que combinan la interacción de oferta con una expresión de clasificación 1 + para establecer la clasificación manualmente.](assets/Interaction-best-practices-manual-offer-combined.png)
 
 ### Ampliar el esquema nms:offer {#extending-nms-offer-schema}
 
@@ -135,7 +135,7 @@ Al ampliar el esquema nms:offer, asegúrese de seguir la estructura predetermina
 * Defina cualquier campo nuevo para almacenamiento de contenido en `<element name="view">`.
 * Cada nuevo campo debe definirse dos veces. Una vez como campo XML normal y una vez como campo XML CDATA con “_jst” anexado al nombre. Por ejemplo:
 
-  ```
+  ```xml
   <element label="Price" name="price" type="long" xml="true"/>
   <element advanced="true" label="Script price" name="price_jst" type="CDATA" xml="true"/>
   ```

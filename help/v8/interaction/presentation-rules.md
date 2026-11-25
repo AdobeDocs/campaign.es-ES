@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 93%
+source-wordcount: '703'
+ht-degree: 62%
 ---
 # Reglas de presentación{#presentation-rules}
 
@@ -42,57 +42,57 @@ Vamos a configurar nuestra regla para que el viaje a Canadá se ofrezca solo una
 1. En el árbol de Adobe Campaign, vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]**.
 1. Cree una nueva regla de tipo **[!UICONTROL Offer presentation]**.
 
-   ![](assets/offer_typology_example_001.png)
+   ![Formulario de creación de reglas de tipología con la lista de tipos de reglas abierta y la presentación de ofertas seleccionada](assets/offer_typology_example_001.png)
 
 1. Cambie la etiqueta y la descripción si es necesario.
 
-   ![](assets/offer_typology_example_002.png)
+   ![Ficha General de regla de tipología con una etiqueta, el tipo de presentación de oferta, el canal de correo electrónico y una descripción ingresada](assets/offer_typology_example_002.png)
 
 1. Elija la opción **[!UICONTROL All channels]** para ampliar la regla a todos los canales.
 
-   ![](assets/offer_typology_example_003.png)
+   ![Lista de canales de la regla de tipología con todos los canales seleccionados](assets/offer_typology_example_003.png)
 
 1. Haga clic en el vínculo **[!UICONTROL Edit expression]** y elija el nodo **[!UICONTROL Category]** como una expresión.
 
-   ![](assets/offer_typology_example_004.png)
+   ![Ventana de consulta con el cuadro de diálogo Seleccionar una expresión abierto para elegir el campo Categoría](assets/offer_typology_example_004.png)
 
 1. Seleccione la categoría que coincida con la oferta de viajes para Canadá y haga clic en **[!UICONTROL OK]** para cerrar la ventana de consultas.
 
-   ![](assets/offer_typology_example_005.png)
+   ![Consulta en una categoría igual a Canadá, con la carpeta Canadá seleccionada en el árbol de categorías de ofertas de viajes](assets/offer_typology_example_005.png)
 
 1. En la pestaña **[!UICONTROL Offer presentation]**, elija las mismas dimensiones que las configuradas en el entorno.
 
-   ![](assets/offer_typology_example_006.png)
+   ![Pestaña Presentación de ofertas que muestra la dimensión Segmentación y la dimensión Almacenamiento, que coinciden con el entorno](assets/offer_typology_example_006.png)
 
 1. Indique el periodo durante el que se aplica la regla.
 
-   ![](assets/offer_typology_example_007.png)
+   ![Pestaña Presentación de ofertas con el periodo deslizante, campo Period considered establecido en 10d](assets/offer_typology_example_007.png)
 
 1. Limite la propuesta a una de forma que los destinatarios que ya hayan rechazado el viaje a Canadá no reciban otra oferta similar.
 
-   ![](assets/offer_typology_example_008.png)
+   ![Pestaña Presentación de ofertas con el campo Cantidad máxima de propuestas establecido en 1](assets/offer_typology_example_008.png)
 
 1. Seleccione el filtro **[!UICONTROL Offers for the same category]** para excluir todas las ofertas de la categoría **Canada**.
 
-   ![](assets/offer_typology_example_020.png)
+   ![Ofertas desplegables en Proposiciones a contar con Ofertas para la misma categoría seleccionada](assets/offer_typology_example_020.png)
 
 1. Seleccione el filtro **[!UICONTROL Rejected propositions]** que tendrá en cuenta solo propuestas que el destinatario rechace.
 
-   ![](assets/offer_typology_example_021.png)
+   ![Menú desplegable de estado de la propuesta en Proposiciones que contar con propuestas rechazadas seleccionadas](assets/offer_typology_example_021.png)
 
 1. Indique los destinatarios para los cuales se asigna la regla.
 
    En nuestro ejemplo, elegimos los destinatarios **viajeros frecuentes**.
 
-   ![](assets/offer_typology_example_009.png)
+   ![Edite el asistente para consultas de filtrado seleccionando la carpeta de destinatario Frequent travelers como destino de regla](assets/offer_typology_example_009.png)
 
 1. Cite la regla en la tipología de ofertas.
 
-   ![](assets/offer_typology_example_013.png)
+   ![Pestaña Tipologías de la regla con el cuadro de diálogo Agregar tipologías que enumera la tipología de ofertas seleccionada](assets/offer_typology_example_013.png)
 
 1. Vaya al entorno de ofertas (**Environment - Recipient** en este caso) y cite la nueva tipología creada con la lista desplegable de la pestaña **[!UICONTROL Eligibility]**.
 
-   ![](assets/offer_typology_example_014.png)
+   ![Pestaña Elegibilidad del entorno de ofertas con la lista de tipología de presentación de ofertas que muestra Ofertas](assets/offer_typology_example_014.png)
 
 ## Aplicación de la regla de presentación {#applying-the-presentation-rule}
 
@@ -104,14 +104,14 @@ Queremos enviar una primera propuesta de oferta perteneciente a la categoría Ca
 
    En nuestro ejemplo, **Tim Ramsey** es apto para una oferta que forma parte de la categoría **América**.
 
-   ![](assets/offer_typology_example_015.png)
+   ![Pestaña Propuestas de destinatario, subpestaña Vista previa, que enumera la oferta elegible para la categoría América](assets/offer_typology_example_015.png)
 
 1. Comience creando una entrega por correo electrónico dirigido a sus destinatarios **viajeros frecuentes** con ofertas.
 1. Seleccione los parámetros para visualizar el motor de ofertas.
 
    En nuestro ejemplo, se elige la categoría **Viaje en América**, que contiene las subcategorías de **Canadá** y **Estados Unidos**.
 
-   ![](assets/offer_typology_example_016.png)
+   ![Cuadro de diálogo de administración de ofertas de una entrega por correo electrónico con la categoría América y 2 propuestas por mensaje](assets/offer_typology_example_016.png)
 
 1. Inserte sus ofertas en el cuerpo del mensaje y mande la entrega. Para obtener más información al respecto, consulte [Acerca de los canales salientes](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/interaction-send-offers){target="_blank"} (documentación de la versión 8 de Campaign).
 
@@ -119,10 +119,10 @@ Queremos enviar una primera propuesta de oferta perteneciente a la categoría Ca
 
 1. El destinatario rechazó la oferta de Canadá como se muestra en el historial de propuestas.
 
-   ![](assets/offer_typology_example_018.png)
+   ![Historial de propuestas de destinatarios con la oferta de la moto de nieve Canadá en estado Rechazado](assets/offer_typology_example_018.png)
 
 1. Compruebe las ofertas para las que ahora son aptos.
 
    Podemos ver que no se han elegido ofertas para Canadá.
 
-   ![](assets/offer_typology_example_019.png)
+   ![Pestaña Vista previa de destinatario que muestra ofertas elegibles de Nueva York y el Gran Cañón, sin oferta de Canadá](assets/offer_typology_example_019.png)

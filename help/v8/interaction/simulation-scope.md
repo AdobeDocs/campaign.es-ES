@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '271'
+ht-degree: 87%
 ---
 # Ámbito de la simulación{#simulation-scope}
 
@@ -50,7 +50,7 @@ Los siguientes campos son obligatorios:
 
   El destinatario recibe todas estas propuestas. Por ejemplo, si introduce 5, cada destinatario recibe un máximo de 5 propuestas de oferta.
 
-  ![](assets/offer_simulation_009.png)
+  ![Ficha Ámbito de simulación con fecha de contacto, número de propuestas y la carpeta de destino de los grandes viajeros](assets/offer_simulation_009.png)
 
 Para perfeccionar las ofertas que se tienen en cuenta en la simulación, se pueden añadir uno o varios temas (especificados previamente en las categorías).
 
@@ -66,4 +66,4 @@ Se puede mejorar el análisis de la simulación añadiendo ejes de informe al de
 
 Para ello, haga clic en el botón **[!UICONTROL Add]** y seleccione los campos adecuados. Los ejes se utilizan para determinar la simulación y se visualizan en el informe de análisis. Para obtener más información, consulte [Simulación de seguimiento](simulation-tracking.md).
 
-![](assets/offer_simulation_011.png)
+![Pestaña Cálculos con el cuadro de diálogo Seleccionar una expresión que elige Fecha de finalización para agregar un eje de informes de oferta](assets/offer_simulation_011.png)

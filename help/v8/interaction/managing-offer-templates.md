@@ -23,10 +23,10 @@ feature_v2:
     internal-label: Offers
   - id: baf8e746-117b-5e73-b179-0a83edc0295f
     internal-label: Templates
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 93%
+source-wordcount: '211'
+ht-degree: 76%
 ---
 # Administración de las plantillas de oferta{#managing-offer-templates}
 
@@ -41,7 +41,7 @@ Para crear una plantilla de oferta, siga estos pasos:
 1. Vaya a **Recursos** > **Plantillas** > **Plantillas de oferta**.
 1. Haga clic en el icono **Nueva**.
 
-   ![](assets/offer_model_001.png)
+   ![Carpeta de plantillas de oferta en el Explorador con el botón Nuevo resaltado y la nueva pestaña de oferta General](assets/offer_model_001.png)
 
 1. Configure la plantilla aplicando el mismo proceso que para una oferta normal y, a continuación, guárdela haciendo clic en **Guardar**.
 
@@ -52,10 +52,10 @@ Para duplicar una plantilla de oferta (preestablecida o no), siga estos pasos:
 1. Vaya a **Recursos > Plantillas > Plantillas de oferta**.
 1. Con el ratón, haga clic con el botón derecho en la plantilla que desee duplicar y seleccione **Duplicado** del menú desplegable.
 
-   ![](assets/offer_model_002.png)
+   ![Menú contextual de plantillas de oferta con el comando Duplicar resaltado](assets/offer_model_002.png)
 
 1. Si es necesario, configure los parámetros que desea ver en la plantilla y, a continuación, guarde la plantilla haciendo clic en **Guardar**.
 
 Esta plantilla se ofrecerá ahora al crear una oferta.
 
-![](assets/offer_modelcreated_001.png)
+![Cuadro de diálogo de selección de oferta de marketing en la carpeta de plantillas de oferta, que enumera dos plantillas de oferta](assets/offer_modelcreated_001.png)

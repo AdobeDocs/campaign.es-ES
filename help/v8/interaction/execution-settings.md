@@ -21,10 +21,10 @@ feature_v2:
     internal-label: Interaction
   - id: ea08db70-4682-59a2-9408-9aedd9548e07
     internal-label: Offers
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 84%
+source-wordcount: '154'
+ht-degree: 75%
 ---
 # Configuración de ejecución{#execution-settings}
 
@@ -34,7 +34,7 @@ En caso necesario, se pueden especificar los ajustes de ejecución al crear la s
 
 Estos ajustes se pueden cambiar posteriormente en la pestaña **[!UICONTROL General]** de la ventana de simulación.
 
-![](assets/offer_simulation_008.png)
+![Pestaña General de una simulación con configuración de ejecución: programación de actividad baja, registro SQL y lista de prioridad.](assets/offer_simulation_008.png)
 
 * **[!UICONTROL Schedule execution for a time of low activity]** : permite programar la simulación en función de la prioridad elegida (baja, media o alta) para optimizar el rendimiento de Adobe Campaign.
 * **[!UICONTROL Priority]**: este es el nivel que se aplica a la simulación para programarla. Cuando se marca la opción **[!UICONTROL Schedule execution for a time of low activity]**, el flujo de trabajo del procesamiento de la campaña selecciona un periodo de actividad baja para iniciarla.

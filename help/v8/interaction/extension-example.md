@@ -26,10 +26,10 @@ feature_v2:
 subfeature_v2:
   - id: e739ee2b-6228-412e-878f-45de0791417d
     internal-label: Use cases
-source-git-commit: 936b7519d13ab54d94df9305ef05d4ceb6d6742d
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 85%
 ---
 # Ejemplo de extensión{#extension-example}
 
@@ -41,12 +41,12 @@ En el caso de un contacto entrante (centro de llamadas o sitio web), las ofertas
 
   En el siguiente ejemplo, los criterios añadidos son el código de país y la última página visitada.
 
-  ![](assets/s_ncs_configuration_offer_schemas.png)
+  ![Se agregó el esquema de datos de interacciones con el código de país y los atributos de la última página visitada.](assets/s_ncs_configuration_offer_schemas.png)
 
 * A continuación, se puede utilizar los atributos creados previamente al realizar la definición de criterios de idoneidad.
 
   En el ejemplo siguiente, se puede crear criterios de idoneidad para mostrar una oferta en función del país del usuario o de la última página web que visitó.
 
-  ![](assets/s_ncs_configuration_offer_context.png)
+  ![Editor de consultas de idoneidad con los campos Código de país y Última interacción de página visitada seleccionables como criterios.](assets/s_ncs_configuration_offer_context.png)
 
 * Al configurar las llamadas SOAP, inserte el elemento XML **context** para hacer referencia a la información contextual añadida en el esquema de interacción. Para obtener más información, consulte [Integración mediante SOAP (lado del servidor)](https://experienceleague.adobe.com/es/docs/campaign/campaign-v8/offers/inbound/interaction-integration){target="_blank"} (documentación de Campaign v8).

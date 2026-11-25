@@ -21,20 +21,20 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 25%
+source-wordcount: '209'
+ht-degree: 15%
 ---
 # Presentar la mejor oferta{#interaction-present-offers}
 
 Las ofertas se pueden presentar en varios espacios de ofertas usando [un canal entrante o saliente](interaction-architecture.md#interaction-types). En este capítulo se detallan algunas funciones específicas de los canales entrantes.
 
-![](assets/inbound-interactions.png)
+![Flujo entrante: explora un sitio, identifica al visitante por cookie o inicio de sesión, el motor de oferta elige la mejor oferta del catálogo](assets/inbound-interactions.png)
 
 Para que el motor de oferta pueda seleccionar una oferta, debe aprobarse y estar disponible en un entorno en directo.
 
-Para obtener más información, consulte [esta sección](approving-and-activating-an-offer.md#approving-offer-content).
+Para obtener más información, consulte [Aprobación del contenido de la oferta](approving-and-activating-an-offer.md#approving-offer-content).
 
 En el contexto de un contacto entrante, el sitio web puede identificar o no al usuario que está explorando la página. El motor de oferta presenta diferentes ofertas para perfiles identificados y para perfiles anónimos.
 
@@ -44,4 +44,4 @@ Antes de poder presentar ofertas en un canal entrante, se debe configurar la lla
 >
 >Para las interacciones entrantes, se debe configurar específicamente el motor de oferta para presentar y actualizar una o varias ofertas.
 >
->Asimismo, se debe habilitar el modo unitario en los espacios de oferta. Para obtener más información, consulte [esta página](interaction-offer-spaces.md).
+>Asimismo, se debe habilitar el modo unitario en los espacios de oferta. Para obtener más información, consulte [Espacios de ofertas de interacción de campaña](interaction-offer-spaces.md).

@@ -24,10 +24,10 @@ feature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 97%
+source-wordcount: '1201'
+ht-degree: 83%
 ---
 # Administración de la presentación de ofertas{#managing-offer-presentation}
 
@@ -42,24 +42,24 @@ La interacción permite controlar el flujo de propuestas de ofertas utilizando l
 1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typology rules]**.
 1. Cree una regla de tipología y elija el tipo **[!UICONTROL Offer presentation]**.
 
-   ![](assets/offer_typology_001.png)
+   ![Nodo de reglas de tipología con un nuevo formulario de regla y la lista de tipo de regla que muestra la presentación de la oferta](assets/offer_typology_001.png)
 
 1. Especifique el canal al cual se debe aplicar la regla.
 
-   ![](assets/offer_typology_002.png)
+   ![Lista de canales de la regla de tipología con todos los canales resaltados](assets/offer_typology_002.png)
 
 1. Configure los criterios de aplicación de la regla. Para obtener más información, consulte [Presentation rule settings](#presentation-rule-settings),
 1. Vaya al nodo **[!UICONTROL Administration]** > **[!UICONTROL Campaign execution]** > **[!UICONTROL Typology management]** > **[!UICONTROL Typologies]** y cree una tipología que agrupe todas las reglas del tipo **[!UICONTROL Offer presentation]**.
 
-   ![](assets/offer_typology_003.png)
+   ![Nodo de tipologías con la tipología Ofertas seleccionada y la pestaña General mostrada](assets/offer_typology_003.png)
 
 1. Una vez creada la tipología, coloque el cursor en las reglas de tipología y agrúpelas en la tipología que acaba de crear.
 
-   ![](assets/offer_typology_004.png)
+   ![Pestaña Tipologías de la regla con el cuadro de diálogo Agregar tipologías que enumera la tipología de ofertas seleccionada](assets/offer_typology_004.png)
 
 1. En el entorno de oferta, haga referencia a la tipología con la lista desplegable.
 
-   ![](assets/offer_typology_005.png)
+   ![Pestaña Elegibilidad del entorno: los visitantes ofrecen el entorno y la lista de tipología de presentación de ofertas con ofertas](assets/offer_typology_005.png)
 
 ## Configuración de la regla de presentación {#presentation-rule-settings}
 
@@ -69,13 +69,13 @@ Los criterios de aplicación disponibles en la pestaña **[!UICONTROL General]**
 
 1. En las reglas de tipología, haga clic en el vínculo **[!UICONTROL Edit the rule application conditions...]** para crear la consulta.
 
-   ![](assets/offer_typology_006.png)
+   ![Pestaña General de una regla de tipología con el vínculo Editar las condiciones de aplicación de regla resaltado](assets/offer_typology_006.png)
 
 1. En la ventana de consulta, puede aplicar un filtro en las ofertas en las que desee aplicar una regla de tipología.
 
    Por ejemplo, puede seleccionar una categoría de oferta.
 
-   ![](assets/offer_typology_008.png)
+   ![Consulta en la categoría igual a una categoría de oferta seleccionada en el árbol de ofertas](assets/offer_typology_008.png)
 
 ### Dimensiones de la oferta {#offer-dimensions}
 
@@ -83,7 +83,7 @@ En la pestaña **[!UICONTROL Offer presentation]** debe especificar las mismas d
 
 La **[!UICONTROL Targeting dimension]** coincide con la tabla de destinatarios (de forma predeterminada: `nms:recipients`) que recibirán las propuestas de ofertas. La **[!UICONTROL Storage dimension]** coincide con la tabla que contiene el historial de propuestas vinculado a la dimensión de segmentación (de forma predeterminada, `nms:propositionRcp`).
 
-![](assets/offer_typology_009.png)
+![Pestaña Presentación de ofertas con los campos Dimensión de segmentación y Dimensión de almacenamiento resaltados](assets/offer_typology_009.png)
 
 >[!NOTE]
 >
@@ -100,7 +100,7 @@ El periodo comienza **n** días antes de la fecha de la propuesta y finaliza **n
 
 Utilice las flechas para cambiar el número de días o introduzca directamente un periodo (“2 d 6 h”, por ejemplo).
 
-![](assets/offer_typology_010.png)
+![Pestaña Presentación de ofertas con el período deslizante, campo de período considerado resaltado](assets/offer_typology_010.png)
 
 ### Número de propuestas {#number-of-propositions}
 
@@ -108,7 +108,7 @@ Es posible establecer el número más alto de propuestas que se pueden realizar 
 
 Utilice las flechas para cambiar el número de las propuestas de las ofertas.
 
-![](assets/offer_typology_011.png)
+![Pestaña Presentación de ofertas con el número máximo de propuestas, campo Cantidad resaltado](assets/offer_typology_011.png)
 
 ## Definición de propuestas y destinatarios {#defining-propositions-and-recipients}
 
@@ -118,7 +118,7 @@ La sección **[!UICONTROL Propositions to count]** permite especificar los desti
 
 Puede seleccionar los criterios de filtrado para excluir las propuestas en función del canal, las ofertas correspondientes o el estado de las propuestas asignadas anteriormente.
 
-![](assets/offer_typology_014.png)
+![Propuestas para contar la sección con Solo en el mismo canal, Ofertas y Filtros de estado de Propuesta resaltados](assets/offer_typology_014.png)
 
 Estos criterios representan las aplicaciones más frecuentes de las reglas de presentación. Para utilizar otros criterios, se puede crear una consulta utilizando el vínculo **[!UICONTROL Limit propositions...]**. Para obtener más información, consulte [Creación de una consulta sobre proposiciones](#creating-a-query-on-propositions).
 
@@ -164,7 +164,7 @@ Estos criterios representan las aplicaciones más frecuentes de las reglas de pr
 
 Para especificar los destinatarios, haga clic en el vínculo **[!UICONTROL Edit the query from the targeting dimension...]** y seleccione los destinatarios según la regla.
 
-![](assets/offer_typology_012.png)
+![Editar el asistente para consultas de filtrado seleccionando Destinatarios incluidos en una carpeta como consulta de dimensión de segmentación](assets/offer_typology_012.png)
 
 ### Creación de una consulta en propuestas {#creating-a-query-on-propositions}
 
@@ -172,4 +172,4 @@ Para especificar las propuestas que se van a contar mediante una consulta, haga 
 
 En el ejemplo siguiente, las propuestas que se van a contar después de dos presentaciones son las de la categoría **Ofertas especiales**, para el espacio del **centro de llamadas**, con un peso inferior a **20**.
 
-![](assets/offer_typology_013.png)
+![Limitar la consulta de propuestas según el peso, ofrecer espacio y un peso inferior a 20 para que las propuestas cuenten](assets/offer_typology_013.png)

@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 709e38026d74ed707d10fc8109356289dc9f4ac9
+source-git-commit: 8bfb312d62f56f19899a83de6b0dd58c56e04ab2
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1636'
 ht-degree: 47%
 ---
 # Administración de interacciones en tiempo real
@@ -42,7 +42,7 @@ Puede crear un catálogo de ofertas que interactúe con sus canales salientes (c
 
 La interacción permite crear y gestionar un catálogo de ofertas y configurar las reglas de elegibilidad y los temas de la aplicación vinculados a ellas. Según el canal elegido, el contenido de la oferta puede personalizarse gracias a las diversas funciones de renderización. Finalmente, puede utilizar el módulo de simulación para calcular el impacto de la presentación de una oferta.
 
-![](assets/interaction-cycle.png)
+![Ciclo del motor de ofertas: acceso al motor, llamada al catálogo, selección y personalización, historial, presentación de ofertas](assets/interaction-cycle.png)
 
 En primer lugar, se produce un contacto entre un cliente y una empresa a través de un canal de comunicación: puede ser un sitio web (interacción entrante), un correo electrónico, un SMS, una notificación push (interacciones salientes). [Más información](#interaction-types)
 
@@ -76,7 +76,7 @@ Si el espacio se define mediante un canal unitario en modo identificado, se debe
 
 1. Configure el Motor de oferta para que las interacciones entrantes presenten y actualicen una o varias ofertas.
 
-   Los distintos modos de integración se detallan en [esta sección](interaction-present-offers.md).
+   Los distintos modos de integración se detallan en [Presentar una oferta (interacción entrante)](interaction-present-offers.md).
 
    >[!NOTE]
    >
