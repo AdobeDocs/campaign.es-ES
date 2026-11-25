@@ -23,9 +23,9 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '627'
 ht-degree: 0%
 ---
 # Uso compartido y sincronización de audiencias con Adobe Experience Platform {#gs-ac-aep}
@@ -44,13 +44,13 @@ Los pasos principales para enviar audiencias de Adobe Experience Platform a Adob
   1. Acceda al catálogo Destinos de Adobe Experience Platform y cree una nueva conexión **[!UICONTROL Adobe Campaign Managed Cloud Services]**.
   1. Proporcione detalles sobre la instancia de Campaign que se utilizará y elija **[!UICONTROL Audience sync]** como tipo de sincronización.
 
-     ![](assets/aep-audience-sync.png){width="800" align="center"}
+     ![Configurar nueva página de destino en Experience Platform con Seleccionar tipo de sincronización establecido en Sincronización de audiencias](assets/aep-audience-sync.png){width="800" align="center"}
 
   1. Seleccione los segmentos que desea enviar a Adobe Campaign.
   1. Configure los atributos que desee exportar en la audiencia.
   1. Una vez configurado el flujo, las audiencias seleccionadas estarán disponibles para su activación en Adobe Campaign.
 
-     ![](assets/aep-destination.png){width="800" align="center"}
+     ![Lista de audiencias de AEP en la consola de Adobe Campaign que muestra segmentos sincronizados y detalles de audiencia](assets/aep-destination.png){width="800" align="center"}
 
   Encontrará información detallada sobre cómo configurar el destino en [Documentación de conexión de Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/destinations-adobe-campaign-managed-cloud-services-en){target="_blank"}
 
@@ -58,7 +58,7 @@ Los pasos principales para enviar audiencias de Adobe Experience Platform a Adob
 
   Para ello, configure una nueva conexión de Adobe Campaign Managed Cloud Services **Source** para introducir eventos de Campaign en Adobe Experience Platform. Proporcione detalles sobre la instancia de Campaign y el esquema que desea utilizar, seleccione un conjunto de datos donde se deben introducir los datos y, a continuación, configure los campos que desea recuperar. [Aprenda a crear una conexión de origen de Adobe Campaign Managed Cloud Services](https://www.adobe.com/go/sources-campaign-ui-en)
 
-  ![](assets/aep-logs.png){width="800" align="center"}
+  ![Página de actividad del conjunto de datos Registros de seguimiento de Adobe Campaign con registros ingeridos, lotes y estado de éxito](assets/aep-logs.png){width="800" align="center"}
 
 ## Sincronización de atributos de perfil entre Adobe Experience Platform y Adobe Campaign {#profile}
 
@@ -75,7 +75,7 @@ Los pasos principales para sincronizar atributos de perfil de Adobe Experience P
 1. Acceda al catálogo Destinos de Adobe Experience Platform y cree una nueva conexión **[!UICONTROL Adobe Campaign Managed Cloud Services]**.
 1. Proporcione detalles sobre la instancia de Campaign que se utilizará y elija **[!UICONTROL Profile sync (Update only)]** como tipo de sincronización.
 
-   ![](assets/aep-profile-sync.png){width="800" align="center"}
+   ![Configurar nueva página de destino en Experience Platform con Seleccionar tipo de sincronización establecido en Sincronización de perfiles (solo actualización)](assets/aep-profile-sync.png){width="800" align="center"}
 
 1. Seleccione los segmentos dirigidos a los perfiles que desea actualizar en la base de datos de Adobe Campaign.
 1. Configure los atributos de perfil que desee actualizar en Adobe Campaign.

@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 52%
+source-wordcount: '1833'
+ht-degree: 45%
 ---
 # Trabajo con Campaign y Adobe Analytics {#ac-aa}
 
@@ -77,17 +77,17 @@ Para crear su **[!UICONTROL Report suite]** en [!DNL Adobe Analytics], siga los 
 
 1. En [!DNL Adobe Analytics], seleccione **[!UICONTROL Admin tab]** y haga clic en **[!UICONTROL All admin]**.
 
-   ![](assets/analytics_connnector_1.png)
+   ![Menú de administración de Adobe Analytics con todos los administradores resaltados](assets/analytics_connnector_1.png)
 
 1. Haga clic en **[!UICONTROL Report suites]**.
 
-   ![](assets/analytics_connnector_2.png)
+   ![Página de administrador en Adobe Analytics con el vínculo de grupos de informes resaltado](assets/analytics_connnector_2.png)
 
 1. En la página **[!UICONTROL Report suite manager]**, haga clic en **[!UICONTROL Create new]** y luego en **[!UICONTROL Report suite]**.
 
-   Para ver el procedimiento detallado sobre la creación de **[!UICONTROL Report suite]**, consulte [Documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}.
+   Para ver el procedimiento detallado sobre la creación de **[!UICONTROL Report suite]**, consulte [Documentación de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}.
 
-   ![](assets/analytics_connnector_3.png)
+   ![Administrador de grupos de informes con el menú Crear nuevo abierto y la opción de grupos de informes](assets/analytics_connnector_3.png)
 
 1. Seleccione una plantilla.
 
@@ -99,7 +99,7 @@ Para crear su **[!UICONTROL Report suite]** en [!DNL Adobe Analytics], siga los 
    * **[!UICONTROL Go Live Date]**
    * **[!UICONTROL Estimated Page Views Per Day]**
 
-   ![](assets/analytics_connnector_4.png)
+   ![Configure su nuevo formulario de grupo de informes con ID, título de sitio, zona horaria, fecha de lanzamiento y vistas de página](assets/analytics_connnector_4.png)
 
 1. Cuando esté configurado, haga clic en **[!UICONTROL Create report suite]**.
 
@@ -111,19 +111,19 @@ Después de crear su **[!UICONTROL Report suite]**, debe configurar sus **[!UICO
 
 1. En el botón **[!UICONTROL Edit settings]**, seleccione **[!UICONTROL Conversion]** > **[!UICONTROL Conversion variables]**.
 
-   ![](assets/analytics_connnector_5.png)
+   ![Menú Editar configuración con Conversión > Variables de conversión resaltadas](assets/analytics_connnector_5.png)
 
 1. Haga clic en **[!UICONTROL Add new]** para crear los identificadores necesarios para medir el impacto de la campaña de correo electrónico; es decir, el nombre de la campaña interna (cid) y el ID de tabla de iNmsBroadlog (bid).
 
    Para aprender a editar **[!UICONTROL Conversion variables]**, consulte esta [Documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/t-conversion-variables-admin.html?lang=es#admin-tools){target="_blank"}.
 
-   ![](assets/analytics_connnector_6.png)
+   ![Lista de variables de conversión con eVar 5 denominado ID de campaña y eVar 6 denominado ID de Broadlog](assets/analytics_connnector_6.png)
 
 1. Haga clic en **[!UICONTROL Save]** cuando termine.
 
 1. A continuación, para crear su **[!UICONTROL Success events]**, seleccione **[!UICONTROL Conversion]** > **[!UICONTROL Success events]** en el botón **[!UICONTROL Edit settings]**.
 
-   ![](assets/analytics_connnector_7.png)
+   ![Menú Editar configuración con Conversión > Eventos de éxito resaltados](assets/analytics_connnector_7.png)
 
 1. Haga clic en **[!UICONTROL Add new]** para configurar los siguientes **[!UICONTROL Success events]**:
 
@@ -138,9 +138,9 @@ Después de crear su **[!UICONTROL Report suite]**, debe configurar sus **[!UICO
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=es)
+   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
 
-   ![](assets/analytics_connnector_8.png)
+   ![Lista de eventos de éxito personalizados con eventos del 7 al 16 habilitados: Se hizo clic, se abrió, se envió y se canceló la suscripción](assets/analytics_connnector_8.png)
 
 1. Haga clic en **[!UICONTROL Save]** cuando termine.
 
@@ -152,11 +152,11 @@ Para crear el conjunto de clasificaciones:
 
 1. En la barra de menú superior [!DNL Adobe Analytics], seleccione **[!UICONTROL Components]** > **[!UICONTROL Classification sets]** y luego haga clic en **[!UICONTROL New]**.
 
-   ![](assets/analytics_connnector_16.png)
+   ![Menú Componentes de Adobe Analytics con conjuntos de clasificaciones resaltados](assets/analytics_connnector_16.png)
 
 1. En el diálogo **[!UICONTROL Add New Classification Set]**:
 
-   ![](assets/analytics_connnector_17.png)
+   ![Agregar nuevo cuadro de diálogo Conjunto de clasificaciones con nombre, tipo principal, notificaciones y suscripción al grupo de informes](assets/analytics_connnector_17.png)
 
    * Escriba un **[!UICONTROL Name]** para el conjunto de clasificaciones.
    * Establezca **[!UICONTROL Type]** en **[!UICONTROL Primary]**.
@@ -165,7 +165,7 @@ Para crear el conjunto de clasificaciones:
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
 
 Cuando se configuren el grupo de informes, las variables de conversión, los eventos de éxito y el conjunto de clasificaciones, deberá configurar **[!UICONTROL External accounts]** en Adobe Campaign.
 
@@ -179,11 +179,11 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
 1. Vaya a la carpeta **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External accounts]** del árbol del explorador de Adobe Campaign y haga clic en **[!UICONTROL New]**.
 
-   ![](assets/analytics_connnector_9.png)
+   ![Lista de cuentas externas en el explorador de Campaign con el botón New indicado](assets/analytics_connnector_9.png)
 
 1. Utilice la lista desplegable para seleccionar el tipo **[!UICONTROL Web Analytics]** y **[!UICONTROL Adobe Analytics]** en el desplegable **[!UICONTROL Integration]**.
 
-   ![](assets/analytics_connnector_10.png)
+   ![Nueva cuenta externa con tipo de Web Analytics e integración con Adobe Analytics, Configurar vínculo](assets/analytics_connnector_10.png)
 
 1. Haga clic en **[!UICONTROL Configure]** junto a la lista desplegable **[!UICONTROL Integration]**.
 
@@ -199,9 +199,9 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
    >[!NOTE]
    >
-   >Los campos ID de campaña e ID de broadlog se recopilan mediante JavaScript en la página de aterrizaje o mediante reglas de procesamiento. [Más información sobre las reglas de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >Los campos ID de campaña e ID de broadlog se recopilan mediante JavaScript en la página de aterrizaje o mediante reglas de procesamiento. [Más información sobre las reglas de procesamiento](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
-   ![](assets/analytics_connnector_11.png)
+   ![Configurar la integración con el grupo de informes de asignación de pestañas de Adobe Analytics, eVars y eventos de éxito](assets/analytics_connnector_11.png)
 
 1. Desde la categoría **[!UICONTROL Events]**, asigne los diez **[!UICONTROL Success events]** configurados en [!DNL Adobe Analytics].
 
@@ -213,7 +213,7 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
    Con el botón **[!UICONTROL Sync]**, [!DNL Adobe Campaign] sincronizará los cambios de nombre realizados en [!DNL Adobe Analytics]. Si el componente se elimina en [!DNL Adobe Analytics], se tachará en [!DNL Adobe Campaign] o se mostrará con un mensaje de **no encontrado**.
 
-   ![](assets/analytics_connnector_12.png)
+   ![La pestaña Configuración de datos enumera eVars, eventos y clasificaciones de integración, con el botón Sincronizar](assets/analytics_connnector_12.png)
 
    >[!NOTE]
    >
@@ -221,15 +221,15 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
 1. En **[!UICONTROL External account]**, haga clic en el enlace **[!UICONTROL Enrich the formula...]** para cambiar la fórmula de cálculo de URL y especificar la información de integración de la herramienta de análisis web (ID de campaña) y los dominios de los sitios cuya actividad debe rastrearse.
 
-   ![](assets/analytics_connnector_13.png)
+   ![Cuenta externa con el vínculo Enriquecimiento de la fórmula resaltado](assets/analytics_connnector_13.png)
 
 1. Especifique los nombres de dominio de los sitios.
 
-   ![](assets/analytics_connnector_14.png)
+   ![Enriquecimiento de la fórmula de cálculo para el diálogo de direcciones URL rastreadas con el campo Dominios](assets/analytics_connnector_14.png)
 
 1. Haga clic en **[!UICONTROL Next]** y asegúrese de que los nombres de dominio se hayan guardado.
 
-   ![](assets/analytics_connnector_15.png)
+   ![Editor de fórmulas de cálculo con la opción Sobrecargar la fórmula y el script de seguimiento](assets/analytics_connnector_15.png)
 
 1. Si es necesario, puede sobrecargar la fórmula de cálculo. Para ello, marque la casilla y edite la fórmula directamente en la ventana.
 
@@ -252,7 +252,7 @@ El intercambio de datos entre Adobe Campaign y Adobe Analytics se administra med
 
 Este flujo de trabajo está disponible en el árbol de Campaign Explorer, en la carpeta **[!UICONTROL Administration]** > **[!UICONTROL Production]** > **[!UICONTROL Technical workflows]** > **[!UICONTROL Web analytics process]**.
 
-![](assets/webanalytics_workflows.png)
+![Flujo de trabajo técnico de proceso de Web Analytics con pasos de envío de señal, cálculo delta e indicador](assets/webanalytics_workflows.png)
 
 El flujo de trabajo **[!UICONTROL Sending of indicators and campaign attributes]** le permite enviar indicadores de campaña de correo electrónico a través de Adobe Campaign a [!DNL CX Enterprise] mediante el Conector de Adobe Analytics. Este flujo de trabajo se activa a las 4 de la mañana cada día y los datos pueden tardar hasta 24 horas en enviarse a Analytics.
 
@@ -292,12 +292,12 @@ Para que [!DNL CX Enterprise] pueda rastrear la actividad en los sitios una vez 
 
 1. Abra la entrega de la campaña a rastrear.
 
-   ![](assets/webanalytics_delivery_properties_003.png)
+   ![Envío de correo electrónico en un flujo de trabajo de campaña con una flecha al botón de propiedades de envío](assets/webanalytics_delivery_properties_003.png)
 
 1. Abra las propiedades de entrega.
 1. Vaya a la pestaña **[!UICONTROL Web Analytics]** y seleccione la cuenta externa creada anteriormente. Consulte [Configuración de la cuenta externa en Adobe Campaign](#external-account-ac).
 
-   ![](assets/webanalytics_delivery_properties_002.png)
+   ![Pestaña Propiedades de entrega de Web Analytics con la lista de cuentas de Web Analytics que muestra la integración de Adobe Analytics](assets/webanalytics_delivery_properties_002.png)
 
 1. Ahora puede realizar la entrega y acceder a su informe en Adobe Analytics.
 
