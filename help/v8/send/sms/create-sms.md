@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 14%
+source-wordcount: '208'
+ht-degree: 12%
 ---
 # Creación de su primer envío de SMS {#sms-delivery}
 
@@ -37,9 +37,9 @@ Para diseñar un envío de SMS nuevo, siga los pasos a continuación:
 
 1. Cree una nueva entrega y seleccione la [plantilla de envíos de SMS](sms-mid-sourcing.md#sms-delivery-template) que creó para sus envíos de SMS.
 
-   ![](assets/sms_create.png){zoomable="yes"}
+   ![Lista de plantillas de envío para un nuevo envío, con la plantilla de SMS Enviar a móviles (SMPP) resaltada](assets/sms_create.png){zoomable="yes"}
 
-   Los pasos de creación de entregas se detallan en [esta página](../../start/create-message.md).
+   Los pasos para la creación de la entrega se detallan en [Crear su primera entrega](../../start/create-message.md).
 
 <!--
  * For standalone instance,  [learn more here](sms-standalone-instance.md#sms-delivery-template).
@@ -52,13 +52,13 @@ Para diseñar un envío de SMS nuevo, siga los pasos a continuación:
 
 1. Puede comprobar en el botón **[!UICONTROL Properties]** que todo está configurado según sea necesario. [Más información sobre la ficha SMS](sms-delivery-settings.md#sms-tab)
 
-   ![](assets/sms_settings.png){zoomable="yes"}
+   ![Propiedades de entrega del envío SMS con la pestaña General, el campo Enrutamiento y la pestaña SMS resaltados](assets/sms_settings.png){zoomable="yes"}
 
 1. [Defina el contenido](sms-content.md) de su envío.
 
 1. [Seleccione la audiencia](sms-audience.md).
 
-Los pasos para definir una audiencia se detallan en [esta página](../../audiences/create-audiences.md).
+Los pasos para definir una audiencia se detallan en [Crear audiencias de perfil en Campaign](../../audiences/create-audiences.md).
 
 ## Validación y envío de SMS {#sms-validate}
 

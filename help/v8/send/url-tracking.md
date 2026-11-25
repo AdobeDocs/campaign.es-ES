@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '169'
-ht-degree: 94%
+source-wordcount: '212'
+ht-degree: 71%
 ---
 # Configuración de las opciones de seguimiento de URL {#personalizing-url-tracking}
 
@@ -45,7 +45,7 @@ Es posible acceder a la configuración avanzada de seguimiento de mensajes media
 >
 >La administración de imágenes en correos electrónicos también se configura en esta ventana. Consulte [Adición de imágenes](defining-the-email-content.md#adding-images).
 
-![](assets/s_ncs_user_email_del_tracking_ico.png)
+![Envío de correo electrónico con el icono Seguimiento e imágenes resaltado en la barra de herramientas](assets/s_ncs_user_email_del_tracking_ico.png)
 
 Puede configurar las opciones de seguimiento:
 
@@ -57,15 +57,15 @@ Puede configurar las opciones de seguimiento:
 
 * Activación/Desactivación del seguimiento de las aperturas de mensaje.
 
-![](assets/s_ncs_user_email_del_tracking_param.png)
+![Ventana Seguimiento e imágenes, ficha Seguimiento, con las opciones Activar seguimiento y Abrir seguimiento y el árbol de direcciones URL rastreadas](assets/s_ncs_user_email_del_tracking_param.png)
 
 Las direcciones URL rastreadas se enumeran en la ventana central del formulario de árbol.
 
-Puede activar o desactivar el seguimiento individualmente para cada dirección URL del mensaje. Para obtener más información, consulte [esta sección](tracked-links.md).
+Puede activar o desactivar el seguimiento individualmente para cada dirección URL del mensaje. Para obtener más información, consulte [Configurar vínculos rastreados](tracked-links.md).
 
 La pestaña **[!UICONTROL Advanced]** permite personalizar las fórmulas de cálculo de las direcciones URL y apertura de la URL.
 
-![](assets/s_ncs_user_email_del_tracking_param_adv.png)
+![Ventana Tracking &amp; Images, ficha Advanced, con las fórmulas de cálculo tracked-URL y Open URL](assets/s_ncs_user_email_del_tracking_param_adv.png)
 
 >[!CAUTION]
 >

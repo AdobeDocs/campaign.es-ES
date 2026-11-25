@@ -34,9 +34,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '688'
 ht-degree: 3%
 ---
 # Prueba del seguimiento de mensajes {#testing-tracking}
@@ -59,7 +59,7 @@ Puede probar el seguimiento en páginas espejo, &quot;logs&quot; de correo elect
 1. Diseñe el contenido del correo electrónico con los vínculos que desee rastrear. [Más información sobre el diseño del contenido del correo electrónico](defining-the-email-content.md)
 1. Añada un bloque de personalización de página espejo en el contenido del correo electrónico. [Más información sobre los bloques de personalización](personalization-blocks.md)
 
-   ![](assets/mirror-page-insert.png)
+   ![Menú Personalization con Incluir y Vincular a página espejo seleccionada en el editor de contenido de correo electrónico](assets/mirror-page-insert.png)
 
 1. Especifique el usuario que debe recibir el correo electrónico. Dado que este usuario debe abrir el correo electrónico y hacer clic en los vínculos que contiene, asegúrese de seleccionar una dirección de destinatario de la prueba que usted controle. [Más información sobre los perfiles de prueba](../audiences/test-profiles.md)
 
@@ -71,7 +71,7 @@ Puede probar el seguimiento en páginas espejo, &quot;logs&quot; de correo elect
    * Asegúrese de que **[!UICONTROL Activate tracking]** esté marcado
    * Asegúrese de que **[!UICONTROL Opens tracking]** esté marcado si desea rastrear aperturas
 
-   ![](assets/s_ncs_user_email_del_tracking_param.png)
+   ![Seguimiento e imágenes con seguimiento de activación y Aperturas activado y la lista de URL seguidas](assets/s_ncs_user_email_del_tracking_param.png)
 
    [Más información acerca de las opciones de seguimiento de URL](url-tracking.md)
 
@@ -92,7 +92,7 @@ Puede probar el seguimiento en páginas espejo, &quot;logs&quot; de correo elect
    * Seleccione la ficha **[!UICONTROL Tracking]**
    * Compruebe que la lista de registros de seguimiento aparece con las direcciones URL donde se hizo clic y otros eventos de seguimiento
 
-   ![](assets/s_ncs_user_delivery_tracking_tab.png)
+   ![Pestaña Seguimiento de entrega con una lista de registros de seguimiento que muestran etiquetas, tipos de clics y aperturas y destinatarios](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## Paso 4: Compruebe la pestaña de seguimiento de destinatarios {#check-recipient-tracking}
 
@@ -101,7 +101,7 @@ Puede probar el seguimiento en páginas espejo, &quot;logs&quot; de correo elect
 
 1. Seleccione la pestaña **[!UICONTROL Tracking]** [Más información sobre los registros de seguimiento](tracking-logs.md)
 
-   ![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+   ![Ficha de seguimiento de perfil de destinatario que enumera los registros de seguimiento con fecha, etiqueta, tipo y envío](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 1. Compruebe que los registros de seguimiento aparecen con:
    * El valor **[!UICONTROL Mirror Page]** en la columna **[!UICONTROL Type]**

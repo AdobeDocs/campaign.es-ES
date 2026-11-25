@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 26%
+source-wordcount: '704'
+ht-degree: 22%
 ---
 # Diseño y envío de correos electrónicos
 
@@ -42,13 +42,13 @@ Con Adobe Campaign, cree envíos de correo electrónico para enviar correos elec
 >Para crear correos electrónicos cautivadores y personalizados individualmente, ve a la [interfaz de usuario web](../start/campaign-ui.md#ac-web-ui). Adobe Campaign viene con el Designer de correo electrónico, una intuitiva interfaz de arrastrar y soltar, que le permite diseñar y refinar todo el contenido de cada correo electrónico.
 
 
-Conozca los pasos clave para crear y configurar una entrega en [esta página](../start/create-message.md).
+Conozca los pasos clave para crear y configurar un envío en [Cree su primer envío](../start/create-message.md).
 
 ## Creación de una entrega de correo electrónico
 
 Cree correos electrónicos personalizados y relevantes para el contexto que sean coherentes con el resto de la experiencia del cliente.
 
-![](assets/new-email-content.png)
+![Editor de envíos de correo electrónico con un asunto, contenido de HTML y la lista de direcciones URL rastreadas que se muestra a continuación](assets/new-email-content.png)
 
 
 En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de correo electrónico en Adobe Campaign que contenga datos personalizados, vínculos a una dirección URL externa y un vínculo a la página espejo.
@@ -57,19 +57,19 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
    Para crear una entrega nueva, vaya a la pestaña **Campaigns**, haga clic en **Deliveries** y haga clic en el botón **Create** situado sobre la lista de entregas existentes.
 
-   ![](assets/delivery_step_1.png)
+   ![Lista de envíos en la pestaña Campañas con el nodo Envíos y el botón Crear resaltado](assets/delivery_step_1.png)
 
 1. **Seleccione la plantilla**
 
-   Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic en **[!UICONTROL Continue]**.
+   Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este título se muestra en la lista de envíos. Haga clic **[!UICONTROL Continue]**.
 
-   ![](assets/dce_delivery_model.png)
+   ![Nuevo cuadro de diálogo de envío con la plantilla de envío de correo electrónico seleccionada, una etiqueta introducida y, a continuación, Continuar](assets/dce_delivery_model.png)
 
 1. **Importe su contenido**
 
    Haga clic en la ficha **Source** para pegar el contenido de HTML.
 
-   ![](assets/paste-content.png)
+   ![Editor de envíos de correo electrónico con la pestaña Source abierta que muestra el código HTML que se va a pegar](assets/paste-content.png)
 
    >[!NOTE]
    >
@@ -81,13 +81,13 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
      Para insertar el nombre y los apellidos de los perfiles de destino en el contenido del mensaje, coloque el cursor donde desee insertarlos, haga clic en el último icono de la barra de herramientas, luego haga clic en **[!UICONTROL Include]** y seleccione **[!UICONTROL Greetings]**.
 
-     ![](assets/include-greetings.png)
+     ![Menú Personalization con Incluir y Saludos seleccionado en el contenido de HTML de correo electrónico](assets/include-greetings.png)
 
      Vaya a la pestaña preview para comprobar la personalización seleccionando un destinatario.
 
-     ![](assets/perso-check.png)
+     ![Pestaña Vista previa con un destinatario seleccionado y el saludo personalizado resaltado en el texto del correo electrónico](assets/perso-check.png)
 
-     Obtenga más información acerca de las opciones de personalización en [esta sección](personalize.md).
+     Más información sobre las opciones de personalización en [Introducción a la personalización](personalize.md).
 
    * Inserción de un vínculo rastreado
 
@@ -95,7 +95,7 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
      Introduzca la dirección URL del vínculo en el campo **URL** con el formato **https://www.myURL.com** y, a continuación, confirme la acción.
 
-     ![](assets/add-a-link.png)
+     ![Cuadro de diálogo Agregar vínculo de hipertexto con una dirección URL especificada y el botón Agregar, sobre el texto seleccionado](assets/add-a-link.png)
 
    * Adición de una página espejo
 
@@ -103,9 +103,9 @@ En el siguiente ejemplo, se muestran los pasos para diseñar una entrega de corr
 
      Coloque el cursor donde desee insertar este vínculo y haga clic en el último icono de la barra de herramientas; a continuación, haga clic en **[!UICONTROL Include]** y seleccione **[!UICONTROL link to mirror page]**.
 
-     Obtenga más información acerca de la administración de la página espejo en [esta sección](mirror-page.md#link-to-mirror-page).
+     Obtenga más información acerca de la administración de la página espejo en [Agregar un vínculo a la página espejo](mirror-page.md#link-to-mirror-page).
 
-1. Puede definir parámetros adicionales para el correo electrónico, como enviar una copia de los mensajes a una dirección de CCO, cambiar el formato del mensaje, configurar una codificación específica, etc. Obtenga más información en [esta sección](email-parameters.md).
+1. Puede definir parámetros adicionales para el correo electrónico, como enviar una copia de los mensajes a una dirección de CCO, cambiar el formato del mensaje, configurar una codificación específica, etc. Obtenga más información en [Parámetros de correo electrónico en Adobe Campaign](email-parameters.md).
 
 1. Una vez que el contenido esté listo, haga clic en **Guardar**: ahora se mostrará en la lista de envíos, en la pestaña **[!UICONTROL Campaigns > Deliveries]**.
 
@@ -124,7 +124,7 @@ Aprenda a crear un flujo de trabajo para importar un contenido de correo electr�
 
 ## Prueba y validación de correos electrónicos
 
-Campaign ofrece varias formas de probar y validar los correos electrónicos antes de enviarlos a sus audiencias. Obtenga información sobre cómo obtener una vista previa y probar el contenido de su correo electrónico en [esta sección](../send/preview-and-proof.md).
+Campaign ofrece varias formas de probar y validar los correos electrónicos antes de enviarlos a sus audiencias. Obtenga información sobre cómo obtener una vista previa y probar el contenido de su correo electrónico en [Obtener una vista previa y probar su correo electrónico](../send/preview-and-proof.md).
 
 Se puede:
 

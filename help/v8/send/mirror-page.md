@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 56%
+source-wordcount: '482'
+ht-degree: 50%
 ---
 # Vínculo a la página espejo {#mirror-page}
 
@@ -51,7 +51,7 @@ Se recomienda insertar un vínculo a la página espejo. Este vínculo puede ser,
 
 En Adobe Campaign, puede insertar un vínculo a la página espejo en el contenido del correo electrónico mediante el **bloque de personalización** específico. El bloque de personalización integrado **Vínculo a página espejo** inserta el siguiente código en el contenido del correo electrónico: `<%@ include view='MirrorPage' %>`.
 
-![](assets/mirror-page-insert.png){width="800"}
+![Menú de personalización del editor de correo electrónico con Incluir y luego Vínculo a la página espejo seleccionada](assets/mirror-page-insert.png){width="800"}
 
 
 Para obtener más información sobre cómo insertar bloques de contenido personalizado, consulte [Bloques de personalización](personalization-blocks.md).
@@ -65,7 +65,7 @@ Puede controlar el modo de generación de la página espejo del correo electrón
 1. Vaya a la pestaña **[!UICONTROL Validity]** de las propiedades de correo electrónico.
 1. En la sección **Administración de páginas espejo**, marque la lista desplegable **[!UICONTROL Mode]**.
 
-![](assets/mirror-page-generation.png){width="800"}
+![Pestaña Validez con la lista desplegable Modo de administración de página espejo que enumera cuatro opciones de generación](assets/mirror-page-generation.png){width="800"}
 
 Además del modo predeterminado, están disponibles las siguientes opciones:
 
@@ -83,6 +83,6 @@ Para acceder a esta página espejo:
 
 1. Seleccione un destinatario y haga clic en el vínculo **[!UICONTROL Display the mirror page for this message...]**.
 
-   ![](assets/mirror-page-display.png){width="800"}
+   ![Registros de envío con un registro seleccionado y el vínculo Mostrar la página espejo de este mensaje en la parte inferior izquierda](assets/mirror-page-display.png){width="800"}
 
    La página espejo se muestra en una pantalla dedicada, con datos de personalización para el destinatario seleccionado.

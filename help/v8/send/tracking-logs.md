@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 19%
+source-wordcount: '372'
+ht-degree: 17%
 ---
 # Acceder a registros de seguimiento {#accessing-the-tracking-logs}
 
@@ -45,7 +45,7 @@ Cuando se realiza el envío y el seguimiento está activado, el flujo de trabajo
 
 Esta información aparece en la pestaña **[!UICONTROL Tracking]** del perfil de los destinatarios objetivo del envío, como en el siguiente ejemplo:
 
-![](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
+![La pestaña Tracking de un perfil de destinatario enumera los clics seguidos y las aperturas con fecha, etiqueta, tipo y entrega](assets/s_ncs_user_select_tracking_tab_from_recipient.png)
 
 Esta pestaña muestra todas las direcciones URL rastreadas y seleccionadas por el destinatario, incluidas:
 
@@ -60,7 +60,7 @@ Puede filtrar y ordenar esta información para analizar el comportamiento de los
 
 También se puede acceder a la información de seguimiento a través de la pestaña **[!UICONTROL Tracking]** de la entrega.
 
-![](assets/s_ncs_user_select_tracking_tab_from_del.png)
+![Ficha Tracking de un registro de seguimiento de lista de envío con fecha, etiqueta, tipo y destinatario](assets/s_ncs_user_select_tracking_tab_from_del.png)
 
 Desde esta pestaña, puede ver:
 
@@ -73,7 +73,7 @@ Desde esta pestaña, puede ver:
 
 >[!NOTE]
 >
->Si no ve la pestaña **[!UICONTROL Tracking]** de un envío, significa que el seguimiento no está activado. Consulte [esta sección](tracked-links.md) para obtener información sobre cómo configurar el seguimiento.
+>Si no ve la pestaña **[!UICONTROL Tracking]** de un envío, significa que el seguimiento no está activado. Consulte [Configurar vínculos rastreados](tracked-links.md) para obtener información sobre cómo configurar el seguimiento.
 
 ### Compruebe el flujo de trabajo técnico Tracking {#check-tracking-workflow}
 

@@ -25,10 +25,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 52%
+source-wordcount: '748'
+ht-degree: 48%
 ---
 # Análisis de envíos {#analyze-delivery}
 
@@ -41,11 +41,11 @@ Para preparar la entrega, asegúrese de que se han definido el contenido y el ob
 1. En las ventanas de envío, haga clic en el botón **[!UICONTROL Send]**.
 1. Seleccione **[!UICONTROL Deliver as soon as possible]** para realizar el cálculo de audiencia y la preparación de contenido para un envío inmediato. También puede posponer la entrega a una fecha posterior u obtener una estimación de la población sin preparar el contenido.
 
-   ![](assets/delivery-analysis-start.png)
+   ![Enviar al cuadro de diálogo de destino de envío principal con la opción Enviar lo antes posible seleccionada, además del botón Analizar](assets/delivery-analysis-start.png)
 
 1. Haga clic en **[!UICONTROL Analyze]** para iniciar el análisis manualmente. La barra de progreso muestra el progreso del análisis.
 
-   Se aplica un conjunto de reglas de comprobación durante el análisis de envío. Estas reglas se definen en una **tipología**, que se selecciona en la pestaña **[!UICONTROL Typology]** de las propiedades de entrega. Obtenga más información acerca de las tipologías en [esta sección](../../automation/campaign-opt/campaign-typologies.md).
+   Se aplica un conjunto de reglas de comprobación durante el análisis de envío. Estas reglas se definen en una **tipología**, que se selecciona en la pestaña **[!UICONTROL Typology]** de las propiedades de entrega. Obtenga más información acerca de las tipologías en [Introducción a las tipologías de campaña](../../automation/campaign-opt/campaign-typologies.md).
 
    De forma predeterminada, en el caso de los correos electrónicos, el análisis cubre los siguientes puntos:
 
@@ -72,7 +72,7 @@ Para preparar la entrega, asegúrese de que se han definido el contenido y el ob
    * El icono amarillo indica un error de procesamiento no crítico.
    * Un icono rojo indica un error crítico que impide realizar el envío.
 
-   ![](assets/delivery-analysis-results.png){width="800"}
+   ![Resultados del análisis: preparación completa, 22 mensajes para enviar, registro con una advertencia y el botón Confirmar envío](assets/delivery-analysis-results.png){width="800"}
 
 1. Haga clic en **[!UICONTROL Close]** para corregir los errores. Después de realizar los cambios, reinicie el análisis haciendo clic en **[!UICONTROL Analyze]**.
 
@@ -88,7 +88,7 @@ Para preparar la entrega, asegúrese de que se han definido el contenido y el ob
 
 Vaya a la pestaña **[!UICONTROL Analysis]** de las propiedades de entrega para definir la configuración de la preparación del mensaje durante la fase de análisis.
 
-![](assets/delivery-properties-analysis-tab.png){width="800"}
+![Pestaña Análisis de propiedades de entrega con opciones de código y etiqueta, modo de aprobación establecido en Manual y configuración de FDAC](assets/delivery-properties-analysis-tab.png){width="800"}
 
 Esta pestaña proporciona acceso a las siguientes opciones:
 

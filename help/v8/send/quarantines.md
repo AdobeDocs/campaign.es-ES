@@ -37,10 +37,10 @@ topic_v2:
     internal-label: Reporting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 32%
+source-wordcount: '1417'
+ht-degree: 30%
 ---
 # Cuarentena {#quarantine-management}
 
@@ -62,7 +62,7 @@ Por otro lado, **perfiles** pueden estar en la **lista de bloqueados de**, por e
 
 >[!NOTE]
 >
->Los destinatarios que cancelaron la suscripción a través del método List-Unsubscribe [&quot;mailto&quot;](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} no se envían a la cuarentena. Se da de baja su suscripción al [servicio](../start/subscriptions.md) asociado con la entrega, o se envía a la lista de bloqueados de la (visible en la sección **[!UICONTROL No longer contact]** del perfil) si no se ha definido ningún servicio para la entrega.
+>Los destinatarios que cancelaron la suscripción a través del método List-Unsubscribe [&quot;mailto&quot;](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations#mailto-list-unsubscribe){target="_blank"} no se envían a la cuarentena. Se da de baja su suscripción al [servicio](../start/subscriptions.md) asociado con la entrega, o se envía a la lista de bloqueados de la (visible en la sección **[!UICONTROL No longer contact]** del perfil) si no se ha definido ningún servicio para la entrega.
 
 <!--For the mobile app channel, device tokens are quarantined.-->
 
@@ -103,13 +103,13 @@ Para cada entrega, también puede comprobar el informe **[!UICONTROL Delivery su
 * El número de direcciones puestas en cuarentena durante el análisis de la entrega.
 * El número de direcciones puestas en cuarentena después de la acción de entrega.
 
-Obtenga más información sobre los informes de envíos en [esta sección](../reporting/gs-reporting.md).
+Obtenga más información acerca de los informes de entregas en [Introducción a las herramientas de informes de Adobe Campaign](../reporting/gs-reporting.md).
 
 ### Direcciones de devolución y envío no permitidas{#non-deliverable-bounces}
 
 Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los administradores de Campaign pueden examinar **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**. Esta sección lista los elementos en cuarentena para los canales **email**, **SMS** y **Notificación push**.
 
-![](assets/tech-quarantine.png)
+![Registro de direcciones en cuarentena con estado de cuarentena, motivo del error, texto del error y la acción de entrega](assets/tech-quarantine.png)
 
 >[!NOTE]
 >
@@ -121,7 +121,7 @@ Para ver la lista de direcciones en cuarentena **para toda la plataforma**, los 
 
 Además, el informe integrado **[!UICONTROL Non-deliverables and bounces]**, disponible en la sección **Informes** de esta página de inicio, muestra información sobre las direcciones en cuarentena, los tipos de error encontrados y un desglose de errores por dominio. Puede filtrar los datos de una entrega específica o personalizar este informe según sea necesario.
 
-Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las direcciones de rechazo en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/metrics-for-deliverability/bounces.html){target="_blank"}.
 
 ### Dirección de correo en cuarentena {#quarantined-recipient}
 
@@ -131,7 +131,7 @@ Para ello, seleccione el perfil de destinatario y haga clic en la pestaña **[!U
 
 Para cada carpeta, puede mostrar solo los destinatarios cuya dirección de correo electrónico esté en cuarentena, con el filtro integrado **[!UICONTROL Quarantined email address]**, como se muestra a continuación:
 
-![](assets/quarantine-filter.png)
+![Menú de filtros de lista de destinatarios con el filtro integrado de direcciones de correo electrónico en cuarentena resaltado](assets/quarantine-filter.png)
 
 
 ## Eliminación de una dirección en cuarentena {#remove-a-quarantined-address}
@@ -143,7 +143,7 @@ El flujo de trabajo integrado de **[!UICONTROL Database cleanup]** elimina autom
 Las direcciones se eliminan automáticamente de la lista de cuarentena en los siguientes casos:
 
 * Las direcciones de un estado **[!UICONTROL With errors]** se eliminarán de la lista de cuarentena tras un envío correcto.
-* Las direcciones de un estado **[!UICONTROL With errors]** se eliminarán de la lista de cuarentena si el último rebote suave se produjo hace más de 10 días. Para obtener más información sobre la administración de errores leves, consulte [esta sección](#soft-error-management).
+* Las direcciones de un estado **[!UICONTROL With errors]** se eliminarán de la lista de cuarentena si el último rebote suave se produjo hace más de 10 días. Para obtener más información sobre la administración de errores leves, consulte [Administración de errores leves](#soft-error-management).
 * Las direcciones con un estado **[!UICONTROL With errors]** que rebotó con el error **[!UICONTROL Mailbox full]** se eliminarán de la lista de cuarentena pasados 30 días.
 
 A continuación, su estado cambia a **[!UICONTROL Valid]**.
@@ -156,7 +156,7 @@ A continuación, su estado cambia a **[!UICONTROL Valid]**.
 
 También puede eliminar manualmente una dirección de la lista de cuarentena. Para quitar manualmente una dirección de la cuarentena, puede cambiar su estado a **[!UICONTROL Valid]** desde el nodo **[!UICONTROL Administration > Campaign Management > Non deliverables Management > Non deliverables and addresses]**.
 
-![](assets/tech-quarantine-status.png)
+![Registro de direcciones con la lista desplegable Estado abierta y el estado Válido seleccionado para quitarlo de la cuarentena](assets/tech-quarantine-status.png)
 
 ### Actualizaciones masivas {#unquarantine-bulk}
 

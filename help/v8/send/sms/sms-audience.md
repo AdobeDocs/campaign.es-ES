@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 17%
+source-wordcount: '524'
+ht-degree: 15%
 ---
 # Selección de la audiencia de envío de SMS {#sms-audience}
 
@@ -45,7 +45,7 @@ Para seleccionar la audiencia de su envío, siga los pasos a continuación:
 
 1. Dado que la audiencia está almacenada en la base de datos de Adobe Campaign, en la pestaña **[!UICONTROL Main target]**, elija la opción **[!UICONTROL Defined in the database]**.
 
-   ![](assets/audience_to.png){zoomable="yes"}
+   ![Cuadro de diálogo Seleccionar destino con la opción Definido en la base de datos seleccionada, abierta desde el vínculo Para](assets/audience_to.png){zoomable="yes"}
 
 1. Seleccione **[!UICONTROL Target mapping]** en la lista desplegable. La asignación de destino predeterminada de Adobe Campaign es Recipients, según el esquema **[!UICONTROL nms:recipient]**.
 
@@ -55,7 +55,7 @@ Para seleccionar la audiencia de su envío, siga los pasos a continuación:
 
    A continuación, se puede seleccionar el tipo de filtrado que desee aplicar:
 
-   ![](assets/audience_filters.png){zoomable="yes"}
+   ![Seleccione el cuadro de diálogo de elementos de destino que enumera los tipos de destino y los filtros de usuario entre los que elegir](assets/audience_filters.png){zoomable="yes"}
 
    Para usar un tipo de destino, selecciónelo y haga clic en el botón **[!UICONTROL Next]**.
 
@@ -74,7 +74,7 @@ Para seleccionar la audiencia de su envío, siga los pasos a continuación:
 
 1. Introduzca el nombre de la audiencia en el campo de etiqueta y haga clic en el botón **[!UICONTROL Finish]** para validar la audiencia.
 
-   ![](assets/audience_finish.png){zoomable="yes"}
+   ![La definición del elemento de destino con la etiqueta móvil no está vacía; se resaltó un filtro en móvil y un botón Finalizar](assets/audience_finish.png){zoomable="yes"}
 
    Puede agregar tantas poblaciones objetivo como necesite haciendo clic nuevamente en el botón **[!UICONTROL Add]**. También puede eliminar algunos de ellos haciendo clic en la cruz situada después de su etiqueta.
 
@@ -88,7 +88,7 @@ Estos son los pasos para esto:
 
 1. Elija la opción **[!UICONTROL Defined in an external file]**.
 
-   ![](assets/audience_externalfile.png){zoomable="yes"}
+   ![Seleccione el cuadro de diálogo de destino con la opción Definido en un archivo externo seleccionada y el vínculo de definición de formato de archivo](assets/audience_externalfile.png){zoomable="yes"}
 
 1. De forma predeterminada, los destinatarios se importan en la base de datos. Debe seleccionar **[!UICONTROL Target mapping]** en ese caso. Para obtener más información sobre las asignaciones de destino, consulte [Trabajar con asignaciones de destino](../../audiences/target-mappings.md).
 

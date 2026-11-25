@@ -21,10 +21,10 @@ role_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 93%
+source-wordcount: '1290'
+ht-degree: 72%
 ---
 # Adjuntar archivos a un correo electrónico{#attaching-files}
 
@@ -34,12 +34,12 @@ Puede adjuntar uno o varios archivos a una entrega de correo electrónico.
 
 >[!NOTE]
 >
->Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo por correo electrónico. El umbral recomendado se puede configurar desde la lista de opciones de Campaign. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#delivery).
+>Para evitar problemas de rendimiento, se recomienda no adjuntar más de un archivo por correo electrónico. El umbral recomendado se puede configurar desde la lista de opciones de Campaign. Consulte la [documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 Hay dos casos posibles:
 
 * Seleccione un archivo y adjúntelo a la entrega tal cual.
-* Personalice el contenido del archivo adjunto para cada destinatario. En este caso, es necesario crear un archivo adjunto calculado: el nombre del archivo adjunto se calcula en el momento de la entrega de forma individual según cada mensaje en función del destinatario. **&#x200B;**&#x200B;El contenido también se puede personalizar y convertir en formato PDF en el momento de la entrega si tiene la opción **Impresión digital de variable**.
+* Personalice el contenido del archivo adjunto para cada destinatario. En este caso, es necesario crear un archivo adjunto calculado: el nombre del archivo adjunto se calcula en el momento de la entrega de forma individual según cada mensaje en función del destinatario. **** El contenido también se puede personalizar y convertir en formato PDF en el momento de la entrega si tiene la opción **Impresión digital de variable**.
 
 >[!NOTE]
 >
@@ -51,7 +51,7 @@ Para evitar problemas de rendimiento, las imágenes incluidas en los correos ele
 
 Adobe también recomienda limitar el tamaño y el número de archivos adjuntos. De forma predeterminada, solo puede agregar un archivo como archivo adjunto a un correo electrónico. Este umbral se puede configurar desde la opción `NmsDelivery_MaxRecommendedAttachments`.
 
-Obtenga más información en la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es#delivery).
+Obtenga más información en la lista de opciones de Campaign en [Documentación de Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#delivery).
 
 ## Adjuntar un archivo local {#attaching-a-local-file}
 
@@ -65,21 +65,21 @@ Para adjuntar un archivo local a una entrega, siga los pasos a continuación.
 1. Haga clic en el botón **[!UICONTROL Add]**.
 1. Haga clic en **[!UICONTROL File...]** para seleccionar el archivo que desea adjuntar al envío.
 
-   ![](assets/s_ncs_user_wizard_email_attachement.png)
+   ![Cuadro de diálogo Editar archivos adjuntos con el menú Agregar abierto y Archivo... seleccionado para adjuntar un archivo a una entrega de correo electrónico](assets/s_ncs_user_wizard_email_attachement.png)
 
 También puede arrastrar y soltar directamente el archivo en el campo **[!UICONTROL Attachments]** de envío o utilizar el icono **[!UICONTROL Attach]** de la barra de herramientas del asistente de envío.
 
-![](assets/s_ncs_user_wizard_add_file_ico.png)
+![Adjunte un icono en la barra de herramientas del asistente de envío, junto a la sección Parámetros de correo electrónico](assets/s_ncs_user_wizard_add_file_ico.png)
 
 Una vez seleccionado el documento, se sube inmediatamente al servidor para que esté disponible en el momento de la entrega. Se muestra en el campo **[!UICONTROL Attachments]** .
 
-![](assets/s_ncs_user_wizard_email_attachement_e.png)
+![Parámetros de correo electrónico con el archivo cargado enumerados en el campo Datos adjuntos](assets/s_ncs_user_wizard_email_attachement_e.png)
 
 ## Creación de archivos adjuntos calculados {#creating-a-calculated-attachment}
 
 Al crear un archivo adjunto calculado, el nombre del archivo adjunto se puede calcular durante el análisis o la entrega de cada mensaje y puede depender del destinatario. También se puede personalizar y convertir a PDF.
 
-![](assets/s_ncs_user_wizard_attachment.png)
+![Cuadro de diálogo Editar archivos adjuntos con el menú Agregar abierto y Datos adjuntos calculados... seleccionados](assets/s_ncs_user_wizard_attachment.png)
 
 Para crear un archivo adjunto personalizado, siga estos pasos:
 
@@ -87,7 +87,7 @@ Para crear un archivo adjunto personalizado, siga estos pasos:
 1. Haga clic en el botón **[!UICONTROL Add]** y seleccione **[!UICONTROL Calculated attachment]**.
 1. Seleccione el tipo de cálculo de **[!UICONTROL Type]** en la lista desplegable:
 
-![](assets/s_ncs_user_wizard_email01_136.png)
+![Cuadro de diálogo de definición de datos adjuntos con la lista desplegable Tipo que muestra las cuatro opciones de datos adjuntos calculadas](assets/s_ncs_user_wizard_email01_136.png)
 
 Estas son las opciones disponibles:
 
@@ -103,11 +103,11 @@ Si el archivo adjunto es un archivo local, seleccione la opción: **[!UICONTROL 
 1. Seleccione el archivo que desea cargar en el campo **[!UICONTROL Local file]**.
 1. Especifique la etiqueta si es necesario. La etiqueta sustituye al nombre de archivo cuando se visualiza en los sistemas de mensajería. Si no se especifica nada, se utiliza el nombre de archivo de forma predeterminada.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
+   ![Pestaña General de definición de datos adjuntos con los campos Tipo, Etiqueta y Archivo local y la opción Cargar archivo en el servidor](assets/s_ncs_user_wizard_email_calc_attachement_02.png)
 
 1. Si es necesario, seleccione **[!UICONTROL Upload file on the server]** y, a continuación, haga clic en **[!UICONTROL Update on server]** para iniciar la transferencia.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
+   ![Ventana de progreso de carga que enumera los mensajes de registro y muestra la transferencia de archivos al servidor al 100 por ciento](assets/s_ncs_user_wizard_email_calc_attachement_01.png)
 
 A continuación, el archivo está disponible en el servidor para asociarlo a las diferentes entregas creadas a partir de esta plantilla.
 
@@ -115,7 +115,7 @@ A continuación, el archivo está disponible en el servidor para asociarlo a las
 
 La opción **[!UICONTROL The file content is personalized and converted into PDF format at the time of delivery for each message]** permite seleccionar un archivo con campos de personalización, como el apellido y el nombre del destinatario deseado.
 
-![](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
+![Documento de procesador de Word que contiene campos personalizados de nombre y apellido de destinatario para un archivo adjunto de PDF](assets/s_ncs_user_wizard_email_calc_attachement_06.png)
 
 Para este tipo de archivos adjuntos, aplique los siguientes pasos de configuración:
 
@@ -124,13 +124,13 @@ Para este tipo de archivos adjuntos, aplique los siguientes pasos de configuraci
 1. Seleccione **[!UICONTROL Upload file on the server]** y, a continuación, haga clic en **[!UICONTROL Update on server]** para iniciar la transferencia.
 1. Puede mostrar una previsualización. Para ello, seleccione un destinatario.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
+   ![Cuadro de diálogo de definición de datos adjuntos que previsualiza el PDF personalizado para un destinatario seleccionado de la lista de vista previa](assets/s_ncs_user_wizard_email_calc_attachement_07.png)
 
 1. Analice su envío y, a continuación, inícielo.
 
    Cada destinatario recibe un PDF personalizado adjunto a la entrega.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
+   ![Se recibió un correo electrónico con un archivo adjunto personalizado de PDF, abierto para mostrar el nombre del destinatario en el saludo](assets/s_ncs_user_wizard_email_calc_attachement_08.png)
 
 
 
@@ -149,13 +149,13 @@ Puede calcular el nombre del archivo adjunto durante la preparación de la entre
    >
    >El archivo debe estar presente en el servidor.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
+   ![Definición de archivo adjunto con un script que calcula la ruta de acceso y el nombre del archivo, incluida la fecha, durante el análisis de envío](assets/s_ncs_user_wizard_email_calc_attachement_04.png)
 
 1. Analice y, a continuación, inicie su envío.
 
    El nombre de archivo se puede ver en el “log” de análisis.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
+   ![Registro de análisis de envío con la línea que muestra el resultado del nombre de archivo adjunto calculado resaltado](assets/s_ncs_user_wizard_email_calc_attachement_05.png)
 
 ### Adjuntar un archivo personalizado {#attach-a-personalized-file}
 
@@ -168,7 +168,7 @@ Al seleccionar los archivos adjuntos, puede elegir la opción **[!UICONTROL The 
 1. Especifique la etiqueta que desea aplicar al archivo adjunto.
 1. Especifique la ruta de acceso del archivo y su nombre exacto en la ventana de definición. Si el nombre de archivo es personalizado, puede utilizar los campos personalizados para los valores relevantes.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
+   ![Definición de archivo adjunto que usa el apellido del destinatario en la ruta de acceso del archivo para elegir un archivo diferente para cada destinatario](assets/s_ncs_user_wizard_email_calc_attachement_010.png)
 
    >[!IMPORTANT]
    >
@@ -178,21 +178,21 @@ Al seleccionar los archivos adjuntos, puede elegir la opción **[!UICONTROL The 
 
    En el ejemplo que se muestra a continuación, el archivo adjunto se eligió en función del nombre definido con los campos de combinación.
 
-   ![](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
+   ![Se recibió un correo electrónico con un archivo adjunto cuyo nombre se creó a partir del apellido del destinatario](assets/s_ncs_user_wizard_email_calc_attachement_011.png)
 
 ### Configuración de archivos adjuntos {#attachment-settings}
 
 Para las dos primeras opciones, puede elegir **[!UICONTROL Upload file on the server]** al seleccionar la opción adecuada. El vínculo **[!UICONTROL Update the file on the server]** le permite iniciar la carga.
 
-![](assets/s_ncs_user_wizard_email01_137.png)
+![Ficha General de definición de datos adjuntos con Upload file on the server selected y el vínculo Update on server](assets/s_ncs_user_wizard_email01_137.png)
 
 Un mensaje le informa de que el archivo se ha cargado en el servidor:
 
-![](assets/s_ncs_user_wizard_email01_1371.png)
+![La definición de datos adjuntos que muestra el archivo ya existe en el mensaje del servidor](assets/s_ncs_user_wizard_email01_1371.png)
 
 Al tratar de cambiar el archivo, aparece un mensaje de advertencia:
 
-![](assets/s_ncs_user_wizard_email01_1372.png)
+![Definición de datos adjuntos que muestra la advertencia de que el archivo local no es igual al del servidor](assets/s_ncs_user_wizard_email01_1372.png)
 
 La pestaña **[!UICONTROL Advanced]** permite definir las opciones avanzadas de los archivos adjuntos:
 
@@ -201,4 +201,4 @@ La pestaña **[!UICONTROL Advanced]** permite definir las opciones avanzadas de 
 
   Introduzca el texto en la ventana y utilice los campos personalizados disponibles en la lista desplegable. En el ejemplo siguiente, el nombre de archivo está personalizado para contener la fecha del día y el nombre del destinatario.
 
-  ![](assets/s_ncs_user_wizard_email_calc_attachement_09.png)
+  ![Ficha avanzada con un script que personaliza el nombre del archivo adjunto y el correo electrónico que muestra el nombre resultante](assets/s_ncs_user_wizard_email_calc_attachement_09.png)

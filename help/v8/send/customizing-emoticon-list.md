@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 90%
+source-wordcount: '532'
+ht-degree: 78%
 ---
 # Personalización de la lista de emoticonos {#customize-emoticons}
 
@@ -55,9 +55,9 @@ Tenga en cuenta que los emoticonos solo están disponibles para correo electrón
    >
    >Solo un administrador de la consola de Adobe Campaign Classic puede administrar las enumeraciones predeterminadas.
 
-   ![](assets/emoticon_1.png)
+   ![Explorador con administración, plataforma y enumeraciones seleccionadas y lista de emoticonos resaltada](assets/emoticon_1.png)
 
-1. Haga clic **[!UICONTROL Add]**.
+1. Haga clic en **[!UICONTROL Add]**.
 
 1. Rellene los campos:
 
@@ -66,7 +66,7 @@ Tenga en cuenta que los emoticonos solo están disponibles para correo electrón
 
    * **[!UICONTROL Label]**: Etiqueta del nuevo emoticono.
 
-   ![](assets/emoticon_5.png)
+   ![Cuadro de diálogo de valor de enumeración con los campos Código U+ y Etiqueta para un nuevo emoticono](assets/emoticon_5.png)
 
 1. Haga clic en **[!UICONTROL Ok]** y luego en **[!UICONTROL Save]** cuando finalice la configuración.
 El nuevo emoticono se coloca automáticamente en la tienda.
@@ -77,7 +77,7 @@ El nuevo emoticono se coloca automáticamente en la tienda.
 
    <br>En este ejemplo, elegimos el número de orden de visualización 61, lo que significa que si una entrada ya tenía este orden, automáticamente se mueve a la tienda y la nueva entrada ocupará su lugar en la enumeración.
 
-   ![](assets/emoticon_2.png)
+   ![Cuadro de diálogo de valor de enumeración con código U+, etiqueta y campo de orden de visualización establecido en 61](assets/emoticon_2.png)
 
 1. El nuevo emoticono se ha añadido a la enumeración predeterminada **[!UICONTROL Insert emoticon list]**. Puede cambiar su **[!UICONTROL Display order]** en cualquier momento o moverlo a la tienda si ya no lo necesita.
 
@@ -85,8 +85,8 @@ El nuevo emoticono se coloca automáticamente en la tienda.
 
 1. El nuevo emoticono ahora se encuentra en los envíos de la ventana emergente **[!UICONTROL Insert emoticon]** en la posición 61, que se configuró en los pasos anteriores. Para obtener más información sobre cómo usar emoticonos en los envíos, consulte esta [sección](defining-the-email-content.md#inserting-emoticons).
 
-   ![](assets/emoticon_4.png)
+   ![Insertar ventana emergente de emoticono con el nuevo emoticono agregado en la última posición](assets/emoticon_4.png)
 
 1. Si los siguientes emoticonos aparecen en la ventana emergente **[!UICONTROL Insert emoticon]**, significa que no se han configurado correctamente. Compruebe si el código **[!UICONTROL U+]** o **[!UICONTROL Display order]** es correcto en la **[!UICONTROL Emoticon list]**.
 
-   ![](assets/emoticon_6.png)
+   ![Insertar ventana emergente de emoticonos con dos iconos rojos que marcan emoticonos configurados incorrectamente](assets/emoticon_6.png)

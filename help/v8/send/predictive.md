@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Customer journeys
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
     internal-label: Machine learning
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 56%
+source-wordcount: '817'
+ht-degree: 54%
 ---
 # Optimización del tiempo de envío y puntuación de participación predictiva{#optimize-message-delivery}
 
@@ -81,7 +81,7 @@ Detalles de salida:
 
 La optimización del tiempo de envío predictivo se almacena en el nivel de perfil:
 
-![](assets/sto-schema.png)
+![Estructura de esquema de destinatarios con los campos de optimización del tiempo de envío predictivo para el mejor momento para hacer clic y abrir](assets/sto-schema.png)
 
 
 >[!NOTE]

@@ -27,10 +27,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 63%
+source-wordcount: '985'
+ht-degree: 54%
 ---
 # Creación de envíos de correo directo
 
@@ -52,14 +52,14 @@ Para crear una nueva envío de correo directo, siga los pasos a continuación:
 
 >[!NOTE]
 >
->En [esta sección](../start/create-message.md) se exponen conceptos globales sobre la creación de envíos.
+>Los conceptos globales sobre la creación de envíos se presentan en [Cree su primer envío](../start/create-message.md).
 
 1. Cree un nuevo envío, por ejemplo, en el panel de control de envíos.
 1. Seleccione la plantilla de envío **Enviar por correo directo (papel)**.
 
-   ![](assets/direct_mail.png)
+   ![Nuevo cuadro de diálogo de envío con la plantilla Entregar por correo directo (papel) seleccionada en la lista](assets/direct_mail.png)
 
-1. Identifique su envío con una etiqueta, un código y una descripción. Para obtener más información, consulte [esta sección](../start/create-message.md#create-the-delivery).
+1. Identifique su envío con una etiqueta, un código y una descripción. Para obtener más información, consulte [Crear la entrega](../start/create-message.md#create-the-delivery).
 1. Haga clic en **Continuar** para confirmar esta información y mostrar la ventana de configuración de mensajes.
 
 ## Definición del público{#defining-the-direct-mail-audience}
@@ -70,7 +70,7 @@ Las direcciones postales son campos calculados. Una dirección puede contener de
 
 Se considera que una dirección está completa si el nombre, el campo de código postal y el campo de municipio o ciudad no están vacíos. Los destinatarios con direcciones incompletas se excluirán de los envíos de correo directo.
 
-Obtenga más información en [esta sección](../start/create-message.md#target-population).
+Obtenga más información en [Definición de la audiencia de destino](../start/create-message.md#target-population).
 
 ## Definición del contenido del archivo{#defining-the-direct-mail-content}
 
@@ -80,21 +80,21 @@ El nombre del archivo que contiene los datos extraídos se define en el campo **
 
 De forma predeterminada, el archivo de extracción se crea y se almacena en el servidor. Puede guardarlo en el equipo. Para ello, marque la **[!UICONTROL Download the generated file after the analysis of the delivery]**. En este caso, es necesario indicar la ruta de acceso al directorio de almacenamiento local así como al nombre de archivo.
 
-![](assets/s_ncs_user_mail_delivery_local_file.png)
+![Pestaña Extracción con la opción Descargar el archivo generado activada y una ruta de acceso al archivo local](assets/s_ncs_user_mail_delivery_local_file.png)
 
 Para una entrega de correo directo, el contenido de la extracción se define en el vínculo **[!UICONTROL Edit the extraction file format...]**.
 
-![](assets/s_ncs_user_mail_delivery_format_link.png)
+![Pestaña Extracción con el vínculo Editar formato de archivo de extracción resaltado](assets/s_ncs_user_mail_delivery_format_link.png)
 
 Este vínculo le permite acceder al asistente de extracción y definir la información (columnas) que se va a exportar en el archivo de salida.
 
-![](assets/s_ncs_user_mail_delivery_format_wz.png)
+![Datos para extraer el asistente con campos arrastrados desde los campos disponibles a las columnas de salida](assets/s_ncs_user_mail_delivery_format_wz.png)
 
-Puede insertar una URL personalizada en el archivo de extracción. Para obtener más información, consulte [esta sección](../dev/web/publishing-a-web-form.md).
+Puede insertar una URL personalizada en el archivo de extracción. Para obtener más información, consulte [Publicar un formulario web](../dev/web/publishing-a-web-form.md).
 
 >[!NOTE]
 >
->Este asistente incluye los pasos del asistente de exportación detallados en la [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html?lang=es){target="_blank"} de Adobe Campaign Classic.
+>Este asistente incluye los pasos del asistente de exportación detallados en la [documentación](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/executing-export-jobs.html){target="_blank"} de Adobe Campaign Classic.
 
 ## Validación de la entrega{#validating}
 
@@ -102,7 +102,7 @@ Compruebe el resultado del análisis y el contenido del archivo de salida.
 
 En el contexto de una campaña de marketing, en la fecha de extracción se crea el archivo de extracción. Puede ver el contenido del archivo extraído, aprobarlo o cambiar el formato y volver a iniciar la extracción si es necesario. Una vez aprobado el archivo, puede enviar el correo electrónico de notificación al enrutador. Obtenga más información en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/campaign-orchestration/marketing-campaign-approval.html?lang=es){target="_blank"}.
 
-Los conceptos globales al validar una entrega se presentan en [esta sección](../start/create-message.md#validate-the-delivery).
+Los conceptos globales al validar un envío se presentan en [Prepare and validate your delivery](../start/create-message.md#validate-the-delivery).
 
 El archivo de salida de una entrega de correo directo se genera durante el análisis de la entrega. El contenido del archivo depende de las columnas de salida seleccionadas (consulte este [archivo de sección](#defining-the-direct-mail-content)).
 
@@ -116,7 +116,7 @@ Compruebe el resultado del análisis y el contenido del archivo de salida antes 
 
 La confirmación de la entrega inicia la extracción de datos en el archivo especificado.
 
-![](assets/s_ncs_user_postal_del_send_confirm_postal.png)
+![Iniciar cuadro de diálogo de confirmación de envío con Aceptar y Cancelar para un envío de correo directo en estado Pendiente](assets/s_ncs_user_postal_del_send_confirm_postal.png)
 
 A continuación, puede cerrar el asistente y ver los registros de envío a través de la pestaña **[!UICONTROL Delivery]**, a la que se puede acceder a través de los detalles de envío.
 

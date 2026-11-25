@@ -20,10 +20,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 41%
+source-wordcount: '1048'
+ht-degree: 36%
 ---
 # Parámetros de correo electrónico {#email-parameters}
 
@@ -31,13 +31,13 @@ Esta sección presenta las opciones y los parámetros disponibles en las propied
 
 ## Usar CCO del correo electrónico {#email-bcc}
 
-Puede configurar Adobe Campaign para que conserve una copia de los correos electrónicos enviados desde su plataforma. Esta opción se detalla en [esta página](email-bcc.md).
+Puede configurar Adobe Campaign para que conserve una copia de los correos electrónicos enviados desde su plataforma. Esta opción se detalla en [Enviar una copia de los mensajes a una dirección de CCO](email-bcc.md).
 
 ## Seleccionar formatos de mensaje {#selecting-message-formats}
 
 Puede cambiar el formato de los mensajes de correo electrónico enviados. Para ello, edite las propiedades de la entrega y haga clic en la pestaña **[!UICONTROL Delivery]**.
 
-![](assets/email-message-format.png)
+![Pestaña Entrega de las propiedades de entrega con la sección Formatos de correo resaltada y tres opciones de formato](assets/email-message-format.png)
 
 Seleccione el formato del correo electrónico en la sección inferior de la ventana:
 
@@ -73,7 +73,7 @@ Por ejemplo, desea enviar un correo electrónico que contenga caracteres japones
 
 Para ello, seleccione la opción **[!UICONTROL Force the encoding used for messages]** en la sección **[!UICONTROL Character encoding]** y elija una codificación en la lista desplegable que se muestra.
 
-![](assets/email-smtp-encoding.png)
+![Ficha SMTP con Forzar la codificación utilizada para los mensajes seleccionados y la lista desplegable Codificación abierta](assets/email-smtp-encoding.png)
 
 ## Administrar correos electrónicos rechazados {#managing-bounce-emails}
 
@@ -83,19 +83,19 @@ La pestaña **[!UICONTROL SMTP]** de las propiedades de entrega también permite
 
 * **[!UICONTROL Bounce address]**: también puede definir otra dirección a la que se reenviarán los correos electrónicos rechazados sin procesar. Esta dirección le permite investigar las razones de la devolución cuando la aplicación no pudo calificar automáticamente los correos electrónicos.
 
-Cada uno de estos campos se puede personalizar mediante el icono dedicado. Obtenga más información sobre los campos de personalización en [esta sección](personalization-fields.md).
+Cada uno de estos campos se puede personalizar mediante el icono dedicado. Obtenga más información sobre los campos de personalización en [Agregar campos de personalización](personalization-fields.md).
 
-![](assets/email-smtp-bounce.png)
+![Ficha SMTP con la sección Correos devueltos resaltada: Campos Dirección de error a y Dirección de rechazo](assets/email-smtp-bounce.png)
 
-Para obtener más información sobre la gestión de correo rechazado, consulte [esta sección](delivery-failures.md#bounce-mail-qualification).
+Para obtener más información sobre la administración de correo rechazado, consulte [Calificación de correo rechazado](delivery-failures.md#bounce-mail-qualification).
 
 ## Habilitar cancelación de suscripción a una lista de un clic {#one-click-list-unsubscribe}
 
-La URL de cancelación de suscripción a una lista de un clic es un vínculo o botón que se muestra junto a la información del remitente del correo electrónico, lo que permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=es#list-unsubscribe){target="_blank"}-->
+La URL de cancelación de suscripción a una lista de un clic es un vínculo o botón que se muestra junto a la información del remitente del correo electrónico, lo que permite a los destinatarios excluirse instantáneamente de sus listas de correo con un solo clic. <!--[Learn more](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"}-->
 
 Se muestra como un vínculo **Cancelar la suscripción** en las interfaces de correo electrónico de los ISP. Por ejemplo:
 
-![](assets/email-list-unsubscribe-example.png)
+![Línea de remitente del cliente de correo electrónico con el vínculo Cancelar suscripción mostrado junto a la dirección del remitente](assets/email-list-unsubscribe-example.png)
 
 Añadir un encabezado SMTP denominado List-Unsubscribe es obligatorio para garantizar una gestión óptima de la entrega, y se puede utilizar como alternativa al icono &quot;Notificar como correo no deseado&quot;. De hecho, el uso de esta funcionalidad reduce las tasas de quejas y ayuda a proteger su reputación.
 
@@ -109,7 +109,7 @@ Para habilitar esta funcionalidad, seleccione la opción **[!UICONTROL Addition 
 >
 >Esta opción está habilitada de manera predeterminada.
 
-![](assets/email-smtp-list-unsubscribe.png)
+![Ficha SMTP con la sección Cancelación de suscripción a una lista de un clic y la opción de encabezado seleccionada de forma predeterminada](assets/email-smtp-list-unsubscribe.png)
 
 <!--
 >[!WARNING]
@@ -131,7 +131,7 @@ Según el cliente de correo electrónico y el método que utilice para realizar 
 
 >[!NOTE]
 >
->También puede establecer manualmente los métodos [One-Click List-Unsubscribe](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} y [&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/es/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. Los pasos detallados se describen en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html?lang=es#list-unsubscribe){target="_blank"} de Experience Cloud.
+>También puede establecer manualmente los métodos [One-Click List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#one-click-list-unsubscribe){target="_blank"} y [&quot;mailto&quot; List-Unsubscribe](https://experienceleague.adobe.com/en/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations?lang=en#mailto-list-unsubscribe){target="_blank"}. Los pasos detallados se describen en la [Guía de prácticas recomendadas de entrega](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/acc-technical-recommendations.html#list-unsubscribe){target="_blank"} de Experience Cloud.
 
 
 ## Añadir encabezados SMTP {#adding-smtp-headers}
@@ -148,11 +148,11 @@ Los valores se codifican automáticamente si es necesario.
 >
 >La sintaxis de esta secuencia de comandos debe cumplir con los requisitos de este tipo de contenido: no dejar espacios sin utilizar, ninguna línea vacía, etc.
 
-![](assets/email-smtp-headers.png)
+![Ficha SMTP con el área de script de encabezados SMTP adicionales resaltada, con el formato nombre:value](assets/email-smtp-headers.png)
 
 
 ## Generar página espejo {#generating-mirror-page}
 
 La página espejo es una página HTML accesible en línea mediante un navegador web. Su contenido es idéntico al del correo electrónico. Puede resultar útil si los destinatarios están experimentando problemas de procesamiento o imágenes rotas al intentar ver el correo electrónico en su bandeja de entrada.
 
-Aprenda a insertar un vínculo a la página espejo de [esta sección](mirror-page.md)
+Aprenda a insertar un vínculo a la página espejo en [Agregar un vínculo a la página espejo](mirror-page.md)

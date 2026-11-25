@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 91%
+source-wordcount: '1553'
+ht-degree: 85%
 ---
 # Definición del contenido interactivo{#defining-interactive-content}
 
@@ -39,7 +39,7 @@ Con AMP para correo electrónico, puede:
 * Probar el envío de correos electrónicos AMP a direcciones específicas correctamente configuradas.
 * Enviar correos electrónicos AMP a las direcciones de Gmail o Mail.ru después de registrarse con los proveedores correspondientes.
 
-Para obtener más información acerca de la prueba y el envío de correos electrónicos AMP, consulte [esta sección](#targeting-amp-email).
+Para obtener más información sobre cómo probar y enviar correos electrónicos AMP, consulte [Destinar un correo electrónico AMP](#targeting-amp-email).
 
 Esta función está disponible a través de un paquete dedicado en Adobe Campaign. Según los permisos y el modelo de implementación, puede instalar este paquete o ponerse en contacto con Adobe para que se lo instalen.
 
@@ -56,7 +56,7 @@ AMP para correo electrónico es compatible con los correos electrónicos existen
 
 Para obtener más información sobre la AMP para los requisitos y especificaciones de formato de correo electrónico, consulte la [documentación para desarrolladores de AMP](https://amp.dev/documentation/guides-and-tutorials/learn/email-spec/amp-email-format/?format=email).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#amp-email-video)
+![Icono de reproducción para el vídeo de AMP para correo electrónico](assets/do-not-localize/how-to-video.png) [Descubra esta característica en el vídeo](#amp-email-video)
 
 ## Pasos clave para utilizar AMP para correo electrónico con Adobe Campaign {#key-steps-to-use-amp}
 
@@ -87,7 +87,7 @@ Para generar un correo electrónico con el formato AMP, siga los pasos a continu
 
 1. Haga clic en la pestaña **[!UICONTROL AMP content]**.
 
-   ![](assets/amp_tab.png)
+   ![Envío de correo electrónico con la pestaña Contenido de AMP resaltada y el código fuente de AMP mostrado](assets/amp_tab.png)
 
 1. Edite el contenido de AMP para adaptarlo a sus necesidades.
 
@@ -99,7 +99,7 @@ Para generar un correo electrónico con el formato AMP, siga los pasos a continu
 
 1. Personalice el contenido de AMP según sea necesario, como lo haría normalmente con el formato HTML en Adobe Campaign, con campos y bloques de personalización.
 
-   ![](assets/amp_tab_perso.png)
+   ![Editor de contenido AMP con un campo personalizado de nombre de destinatario resaltado en el código](assets/amp_tab_perso.png)
 
 1. Una vez finalizado el proceso de edición, seleccione todo el contenido de AMP, cópielo y péguelo en el [validador basado en web de AMP](https://validator.ampproject.org) o en un sitio web similar.
 
@@ -107,7 +107,7 @@ Para generar un correo electrónico con el formato AMP, siga los pasos a continu
    >
    >Asegúrese de seleccionar **AMP4 EMAIL** en la lista desplegable de la parte superior de la pantalla.
 
-   ![](assets/amp_validator.png)
+   ![Validador de AMP con formato AMP4EMAIL seleccionado y estado de validación con error al enumerar direcciones URL relativas no permitidas](assets/amp_validator.png)
 
    Los errores se marcan en la línea.
 
@@ -117,7 +117,7 @@ Para generar un correo electrónico con el formato AMP, siga los pasos a continu
 
 1. Realice las modificaciones necesarias hasta que el contenido de AMP pase la validación.
 
-   ![](assets/amp_validator_pass.png)
+   ![Validador de AMP con formato AMP4EMAIL seleccionado y estado de validación: PASS resaltado](assets/amp_validator_pass.png)
 
 1. Para previsualizar el contenido, copie y pegue el contenido validado en [AMP Playground](https://playground.amp.dev) o un sitio web similar.
 
@@ -125,7 +125,7 @@ Para generar un correo electrónico con el formato AMP, siga los pasos a continu
    >
    >Asegúrese de seleccionar **AMP for Email** en la lista desplegable de la parte superior de la pantalla.
 
-   ![](assets/amp_playground.png)
+   ![AMP Playground con AMP para correo electrónico seleccionado y una vista previa del correo electrónico a la derecha](assets/amp_playground.png)
 
    >[!NOTE]
    >
@@ -178,7 +178,7 @@ Para ello:
 
 Para obtener más información, consulte la documentación para desarrolladores de [Gmail](https://developers.google.com/gmail/ampemail/testing-dynamic-email).
 
-![](assets/amp_from_field.png)
+![Parámetros de correo electrónico con el campo De resaltado encima de la pestaña Contenido de AMP](assets/amp_from_field.png)
 
 Para probar el envío de un correo electrónico AMP a una dirección Mail.ru, siga los pasos de la [documentación del desarrollador de Mail.ru](https://postmaster.mail.ru/amp/#howto) (sección **Si es un usuario**).
 
@@ -216,4 +216,4 @@ Por ejemplo, si ha incluido una lista de productos en el correo electrónico, al
 
 El siguiente vídeo explica cómo activar AMP en Adobe Campaign y cómo usarlo.
 
->[!VIDEO](https://video.tv.adobe.com/v/33567?captions=spa&quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/29940?quality=12&learn=on)

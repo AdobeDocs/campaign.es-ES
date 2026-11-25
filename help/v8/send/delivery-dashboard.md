@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 68%
+source-wordcount: '1279'
+ht-degree: 58%
 ---
 # Monitorización de entregas en la IU de Campaign {#delivery-dashboard}
 
@@ -46,7 +46,7 @@ La monitorización de las entregas es esencial para garantizar que las campañas
 
 Puede acceder a las entregas desde la lista de entregas a través del nodo **[!UICONTROL Campaign Management > Deliveries]** del árbol.
 
-![](assets/deliveries-list.png)
+![Lista de envíos en Campaign Management con estado y recuentos de mensajes, y el panel de envío seleccionado debajo de](assets/deliveries-list.png)
 
 De forma predeterminada, la lista de entregas contiene los nombres y estados de las entregas creados en el nodo seleccionado. También muestra el número de mensajes que se van a enviar, procesados y enviados con éxito.
 
@@ -73,7 +73,7 @@ Esta es la información que puede monitorizar en las distintas pestañas disponi
 * [Procesamiento de entregas](#delivery-rendering)
 * [Auditoría de entregas](#delivery-audit-)
 
-![](assets/s_ncs_user_del_details.png)
+![Pestaña Resumen del panel de entregas con para enviar, cifras de éxito y procesadas, estado y configuración de correo electrónico](assets/s_ncs_user_del_details.png)
 
 **Temas relacionados:**
 
@@ -90,9 +90,9 @@ La pestaña **[!UICONTROL Summary]** contiene las características de la entrega
 
 El vínculo **[!UICONTROL Reports]** le permite ver un conjunto de informes relativos a la acción de entrega: informes de entregas generales, informes detallados, informes de entregas, distribución de mensajes fallidos, tasa de apertura, clics y transacciones, etc.**[!UICONTROL Summary]**
 
-El contenido de esta pestaña se puede configurar según sus necesidades. Para obtener más información sobre los informes de entregas, consulte [esta sección](../reporting/delivery-reports.md).
+El contenido de esta pestaña se puede configurar según sus necesidades. Para obtener más información sobre los informes de envío, consulte [Informes de envío integrados de Adobe Campaign](../reporting/delivery-reports.md).
 
-![](assets/delivery-report.png)
+![Vista de informes de la pestaña Resumen de entrega con los informes de entrega disponibles](assets/delivery-report.png)
 
 ## Registros de envíos, historial y exclusiones {#delivery-logs-and-history}
 
@@ -102,15 +102,15 @@ Para una entrega, puede mostrar, por ejemplo, solo los destinatarios con una ent
 
 >[!NOTE]
 >
->La lista que muestra los registros de envío se puede personalizar, como cualquier lista de Campaign. Por ejemplo, puede agregar una columna para saber qué dirección IP envió cada correo electrónico en una entrega. Para obtener más información sobre la configuración de listas, consulte [esta sección](../config/ui-settings.md#customize-lists).
+>La lista que muestra los registros de envío se puede personalizar, como cualquier lista de Campaign. Por ejemplo, puede agregar una columna para saber qué dirección IP envió cada correo electrónico en una entrega. Para obtener más información sobre cómo configurar la lista, consulte [Administrar y personalizar listas](../config/ui-settings.md#customize-lists).
 
-![](assets/s_ncs_user_delivery_delivery_tab.png)
+![Pestaña Entrega: registra la subpestaña con la lista desplegable de filtro Estado que enumera los estados de los registros de entregas](assets/s_ncs_user_delivery_delivery_tab.png)
 
 El enlace **[!UICONTROL Display the mirror page for this message...]** permite ver la página espejo del contenido de la entrega seleccionado en la lista en una nueva ventana.
 
 La página espejo solo está disponible para los envíos para los que se ha definido contenido HTML. Para obtener más información, consulte [Vínculo a la página espejo](mirror-page.md).
 
-![](assets/s_ncs_user_wizard_miror_page_link.png)
+![Lista de registros de envío con el vínculo resaltado Mostrar la página espejo de este mensaje](assets/s_ncs_user_wizard_miror_page_link.png)
 
 ## Registros de seguimiento de entregas e historial {#tracking-logs}
 
@@ -122,9 +122,9 @@ La pestaña **[!UICONTROL Tracking]** enumera el historial de seguimiento de est
 
 La configuración de seguimiento se realiza en la fase adecuada del asistente de envíos. Consulte [Configuración de los vínculos rastreados](tracking.md).
 
-Los datos de **[!UICONTROL Tracking]** se interpretan en los informes de entrega. Consulte [esta sección](../reporting/delivery-reports.md).
+Los datos de **[!UICONTROL Tracking]** se interpretan en los informes de entrega. Ver [informes de envío integrados de Adobe Campaign](../reporting/delivery-reports.md).
 
-![](assets/s_ncs_user_delivery_tracking_tab.png)
+![La pestaña Seguimiento registra las aperturas y los clics rastreados con fecha, etiqueta, tipo y destinatario](assets/s_ncs_user_delivery_tracking_tab.png)
 
 ## Procesamiento de la bandeja de entrada {#delivery-rendering}
 
@@ -132,7 +132,7 @@ La pestaña **[!UICONTROL Inbox rendering]** le permite obtener una previsualiza
 
 Así, puede asegurarse de que su mensaje se mostrará a los destinatarios de una forma óptima en una gran variedad de clientes, correos web y dispositivos.
 
-Para obtener más información sobre la renderización de la bandeja de entrada, consulte [esta página](inbox-rendering.md).
+Para obtener más información sobre la representación de la bandeja de entrada, consulte [Procesamiento de la bandeja de entrada en Campaign](inbox-rendering.md)
 
 
 ## Auditoría de entregas {#delivery-audit-}
@@ -145,9 +145,9 @@ Los iconos especiales permiten identificar errores o advertencias. Consulte [An�
 
 La subpestaña **[!UICONTROL Proofs]** permite ver la lista de pruebas que se han enviado.
 
-![](assets/s_ncs_user_delivery_log_tab.png)
+![Pestaña Auditoría: subpestaña Pruebas que enumera las pruebas enviadas para la entrega con mensajes a enviar, procesados y correctos](assets/s_ncs_user_delivery_log_tab.png)
 
-Puede modificar la información mostrada en esta ventana (y la de las pestañas **[!UICONTROL Delivery]** y **[!UICONTROL Tracking]**) seleccionando las columnas que desea mostrar. Para ello, haga clic en el icono **[!UICONTROL Configure list]** situado en la esquina inferior derecha. Para obtener más información sobre la configuración de listas, consulte [esta sección](../config/ui-settings.md#customize-lists).
+Puede modificar la información mostrada en esta ventana (y la de las pestañas **[!UICONTROL Delivery]** y **[!UICONTROL Tracking]**) seleccionando las columnas que desea mostrar. Para ello, haga clic en el icono **[!UICONTROL Configure list]** situado en la esquina inferior derecha. Para obtener más información sobre cómo configurar la lista, consulte [Administrar y personalizar listas](../config/ui-settings.md#customize-lists).
 
 ## Sincronización del panel de control de entregas {#delivery-dashboard-synchronization}
 

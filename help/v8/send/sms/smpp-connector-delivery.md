@@ -28,9 +28,9 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1322'
 ht-degree: 2%
 ---
 # Descripción del conector SMPP {#smpp-connector-desc}
@@ -41,7 +41,7 @@ En esta sección se describe cómo gestiona los datos el proceso SMS.
 
 Este es un diagrama de bloque de alto nivel que resume cómo el proceso SMS interactúa con su entorno.
 
-![](assets/smsv2_highlevel.png){zoomable="yes"}
+![Proceso SMS con conector SMPP y reconciliación SR vinculados a la base de datos de Campaign y al proveedor SMPP](assets/smsv2_highlevel.png){zoomable="yes"}
 
 El proceso SMS aloja 2 componentes importantes: el propio conector SMPP que gestiona la comunicación con el proveedor SMPP y una tarea en segundo plano para la reconciliación SR.
 
@@ -91,7 +91,7 @@ Para cada cuenta SMPP activa, el conector SMPP intenta mantener las conexiones a
 
 Este es un diagrama que describe todo el proceso:
 
-![](assets/message_processing.png){zoomable="yes"}
+![Diagrama de secuencia de tres fases entre el registro general, providerMsgId, providerMsgStatus, conector SMPP y provider](assets/message_processing.png){zoomable="yes"}
 
 **Fase 1**
 

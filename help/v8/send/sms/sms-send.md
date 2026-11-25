@@ -26,10 +26,10 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 3%
+source-wordcount: '143'
+ht-degree: 2%
 ---
 # Envíe su envío de SMS a la audiencia {#sms-send-audience}
 
@@ -40,10 +40,10 @@ En la ventana abierta, elija la acción que mejor se adapte a sus necesidades.
 
    En el ejemplo siguiente, elegimos **[!UICONTROL Deliver it as soon as possible]**, cuando apareció el botón **[!UICONTROL Analyze]**. Hacemos clic en ese botón **[!UICONTROL Analyze]**.
 
-   ![](assets/send_action.png){zoomable="yes"}
+   ![Enviar al cuadro de diálogo de destino de envío principal con Enviar lo antes posible seleccionado y Analizar resaltado](assets/send_action.png){zoomable="yes"}
 
    Adobe Campaign realizará todo el control antes de validar el envío de la prueba. Ahí verá el volumen real de la audiencia. Al final del análisis, se podrá hacer clic en el botón **[!UICONTROL Confirm delivery]**.
 
-   ![](assets/send_analyze.png){zoomable="yes"}
+   ![Análisis de envío completado que muestra el número de mensajes que se van a enviar y el botón Confirmar envío](assets/send_analyze.png){zoomable="yes"}
 
 1. Para enviar su envío de SMS a su audiencia, haga clic en el botón **[!UICONTROL Confirm delivery]**.

@@ -24,16 +24,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 40%
+source-wordcount: '689'
+ht-degree: 37%
 ---
 # Utilizar bloques de personalización{#personalization-blocks}
 
 Los bloques personalizados son contenidos dinámicos que contienen una renderización específica que puede insertar en los envíos. Por ejemplo, puede añadir un logotipo, un mensaje de saludo o un enlace a una página espejo.
 
-Para acceder a bloques de contenido personalizados, vaya al nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador. Los bloques de personalización integrados se enumeran en [esta sección](#ootb-personalization-blocks).
+Para acceder a bloques de contenido personalizados, vaya al nodo **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador. Los bloques de personalización integrados se enumeran en [Bloques de personalización integrados](#ootb-personalization-blocks).
 
 También puede definir nuevos bloques para optimizar la personalización de las entregas. [Más información](#create-custom-personalization-blocks).
 
@@ -44,7 +44,7 @@ Para insertar un bloque de personalización en un mensaje, siga los pasos a cont
 1. En el editor de contenido del asistente de envíos, haga clic en el icono de personalización y seleccione el menú **[!UICONTROL Include]**.
 1. Seleccione un bloque personalizado de la lista o haga clic en el menú **[!UICONTROL Other...]** para acceder a la lista completa.
 
-   ![](assets/perso-content-block.png)
+   ![Incluir submenú en el menú de personalización que enumera bloques como Vínculo a página espejo, con Otro... al final](assets/perso-content-block.png)
 
 1. A continuación, el bloque personalizado se inserta como una secuencia de comandos. Se adapta automáticamente al perfil de destinatario cuando se genera la personalización.
 1. Vaya a la pestaña **[!UICONTROL Preview]** y seleccione un destinatario para ver el contenido de este bloque para un destinatario específico.
@@ -82,11 +82,11 @@ Para crear un bloque personalizado, siga los pasos a continuación:
 1. Vaya a la carpeta **[!UICONTROL Resources > Campaign Management > Personalization blocks]** del explorador de Campaign.
 1. Sobre la lista de bloques integrados, haga clic en **[!UICONTROL New]**.
 
-   ![](assets/perso-new-block.png)
+   ![Lista de bloques personalizados en el explorador de Campaign con una flecha en el botón Nuevo](assets/perso-new-block.png)
 
 1. Rellene la configuración del bloque personalizado:
 
-   ![](assets/perso-custom-block.png)
+   ![Nuevo formulario de bloque personalizado con etiqueta, nombre interno, tipo de contenido y contenido de script para un vínculo de no participación](assets/perso-custom-block.png)
 
    * Introduzca la etiqueta del bloque. Esta etiqueta se muestra en la ventana de inserción del campo personalizado.
    * Seleccione un tipo de contenido de **Envío**.
@@ -100,4 +100,4 @@ Una vez guardado, el nuevo bloque personalizado está disponible en el editor de
 
 Obtenga información sobre cómo crear bloques de contenido dinámico y cómo utilizarlos para personalizar el contenido de su envío de correo electrónico en el siguiente vídeo.
 
->[!VIDEO](https://video.tv.adobe.com/v/3449009?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/342088?quality=12)

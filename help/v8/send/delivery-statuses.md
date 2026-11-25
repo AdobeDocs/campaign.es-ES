@@ -35,16 +35,16 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 64%
+source-wordcount: '576'
+ht-degree: 59%
 ---
 # Estados de la entrega {#delivery-statuses}
 
 Una vez enviada una entrega, el tablero de entregas muestra un estado que le permite monitorizar si el envío se ha realizado correctamente. Los estados posibles se detallan en la sección siguiente.
 
-![](assets/delivery-status.png)
+![Resumen del panel de entregas con el campo de estado resaltado, que muestra Finished y la fecha de finalización](assets/delivery-status.png)
 
 Para obtener más información sobre los diferentes errores de entrega que pueden surgir y cómo resolverlos, consulte [Comprender los errores de entrega](delivery-failures.md).
 
@@ -108,7 +108,7 @@ Para obtener más información sobre los diferentes errores de entrega que puede
  </tbody> 
 </table>
 
-Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte [esta sección](about-deliverability.md). Para profundizar en la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
+Para aprender a optimizar la entrega de los correos electrónicos de Adobe Campaign, consulte [Introducción a la entrega en Campaign](about-deliverability.md). Para profundizar en la capacidad de entrega, consulte la [Guía de prácticas recomendadas de entrega de Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/introduction.html?lang=es).
 
 ## Estado pendiente {#pending-status}
 
@@ -122,7 +122,7 @@ Si el envío no se realiza y su estado sigue siendo **[!UICONTROL Pending]**, pu
 
   El límite de campañas simultáneas se define en la opción **[!UICONTROL NmsOperation_LimitConcurrency]**. El valor predeterminado es 10.
 
-  Como usuario de Cloud Services administrados, puede trabajar con Adobe para ajustar este límite si es necesario. Obtenga más información acerca de las opciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=es){target="_blank"}.
+  Como usuario de Cloud Services administrados, puede trabajar con Adobe para ajustar este límite si es necesario. Obtenga más información acerca de las opciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html){target="_blank"}.
 
 * **Problemas de disponibilidad de recursos**
 

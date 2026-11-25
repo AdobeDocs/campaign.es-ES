@@ -23,10 +23,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 95%
+source-wordcount: '517'
+ht-degree: 92%
 ---
 # Generación de documentos PDF personalizados{#generating-personalized-pdf-documents}
 
@@ -75,7 +75,7 @@ Para ello, se debe configurar un bloque personalizado y, a continuación, inclui
 * Cree un nuevo bloque personalizado llamado “My Logo” con “My_Logo” como nombre interno.
 * Haga clic en el vínculo **[!UICONTROL Advanced parameters...]** y luego marque la opción **[!UICONTROL "The content of the block is included in an attachment"]**. Esto permite copiar la definición del bloque personalizado directamente en el contenido del archivo de OpenOffice.
 
-  ![](assets/s_ncs_pdf_bloc_option.png)
+  ![Bloque personalizado My Logo con su tipo de contenido y la definición XML de OpenOffice en el editor](assets/s_ncs_pdf_bloc_option.png)
 
   Se deben diferenciar dos tipos de declaraciones dentro del bloque personalizado:
 
