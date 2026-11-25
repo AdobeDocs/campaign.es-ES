@@ -47,10 +47,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 47%
+source-wordcount: '2026'
+ht-degree: 45%
 ---
 # Trabajo con paquetes de datos{#data-packages}
 
@@ -128,7 +128,7 @@ Para exportar un conjunto de objetos en un paquete de datos, siga estos pasos:
 1. Vaya al asistente de exportación de paquetes a través del menú **[!UICONTROL Tools > Advanced > Export package...]** del explorador.
 1. Seleccione los [tipos de paquetes](#types-of-packages).
 
-   ![](assets/package_type.png)
+   ![Asistente para exportación de paquetes con las opciones Paquete de usuario, Paquete de plataforma y Paquete de administrador, Paquete de usuario seleccionado](assets/package_type.png)
 
 1. Haga clic en el botón **Agregar** para seleccionar las entidades que desea exportar como paquete.
 
@@ -142,7 +142,7 @@ Para exportar un conjunto de objetos en un paquete de datos, siga estos pasos:
 
    >[!NOTE]
    >
-   >El editor de consultas se muestra en [esta sección](../../automation/workflow/query.md).
+   >El editor de consultas se presenta en [Crear una consulta](../../automation/workflow/query.md#creating-a-query).
 
 1. Haga clic en **[!UICONTROL Next]** y seleccione el criterio de ordenación de los datos exportados.
 
@@ -159,7 +159,7 @@ El proceso de exportación realiza un seguimiento de los vínculos entre los dis
 
 >[!NOTE]
 >
->Los tipos de integridad vinculados a elementos de esquema se definen en [esta página](database-links.md).
+>Los tipos de integridad vinculados a elementos de esquema se definen en [Administración de vínculos en los esquemas de Campaign](database-links.md).
 
 #### Exportación de una campaña {#export-a-campaign}
 
@@ -241,7 +241,7 @@ Se puede acceder a las definiciones de paquetes desde el menú **[!UICONTROL Adm
 
 Para crear una definición de paquete, haga clic en el botón **[!UICONTROL New]** y complete la información general de la definición del paquete.
 
-![](assets/packagedefinition_create.png)
+![Carpeta de definiciones de paquetes con el botón Nuevo y los campos de ficha General Etiqueta, Nombre y Distribuidor](assets/packagedefinition_create.png)
 
 A continuación, se pueden añadir entidades a la definición del paquete y exportarla a un paquete de archivos XML.
 
@@ -253,9 +253,9 @@ A continuación, se pueden añadir entidades a la definición del paquete y expo
 
 ### Adición de entidades a una definición de paquete {#add-entities-to-a-package-definition}
 
-En la pestaña **[!UICONTROL Content]**, haga clic en el botón **[!UICONTROL Add]** para seleccionar las entidades que desea exportar con el paquete. Las prácticas recomendadas al seleccionar entidades se presentan en [esta sección](#export-a-set-of-objects-in-a-package).
+En la pestaña **[!UICONTROL Content]**, haga clic en el botón **[!UICONTROL Add]** para seleccionar las entidades que desea exportar con el paquete. Las prácticas recomendadas al seleccionar entidades se presentan en [Exportar un conjunto de objetos en un paquete](#export-a-set-of-objects-in-a-package).
 
-![](assets/packagedefinition_addentities.png)
+![Pestaña Contenido de una definición de paquete con el botón Agregar que abre el cuadro de diálogo Exportar entidades con una lista de esquemas](assets/packagedefinition_addentities.png)
 
 Las entidades se pueden añadir a una definición de paquete directamente desde su ubicación en la instancia. Para realizar esto, siga los pasos a continuación:
 
@@ -263,13 +263,13 @@ Las entidades se pueden añadir a una definición de paquete directamente desde 
 
 1. Seleccione **[!UICONTROL Add to a package definition]** y luego seleccione la definición del paquete a la que desea añadir la entidad.
 
-1. La entidad se agrega a la definición del paquete y se exportará con el paquete (consulte [esta sección](#export-packages-from-a-package-definition)).
+1. La entidad se agrega a la definición del paquete y se exportará con el paquete (consulte [Exportar paquetes desde una definición de paquete](#export-packages-from-a-package-definition)).
 
 ### Configuración de la generación de definiciones de paquetes {#configure-package-definitions-generation}
 
 La generación de paquetes se puede configurar desde la pestaña de **[!UICONTROL Content]** de definición del paquete. Para ello, haga clic en el vínculo **[!UICONTROL Generation parameters]**.
 
-![](assets/packagedefinition_generationparameters.png)
+![Cuadro de diálogo Parámetros de generación con Incluir la definición, Incluir un script de instalación e Incluir valores predeterminados](assets/packagedefinition_generationparameters.png)
 
 * Utilice la opción **[!UICONTROL Include the definition]** para incluir la definición utilizada actualmente en la definición del paquete.
 * Utilice la opción **[!UICONTROL Include an installation script]** para agregar un script javascript para ejecutarlo en la importación del paquete. Al seleccionarlo, se añade una pestaña **[!UICONTROL Script]** en la pantalla de definición del paquete.

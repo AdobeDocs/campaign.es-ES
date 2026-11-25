@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Reporting
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 89%
+source-wordcount: '657'
+ht-degree: 66%
 ---
 # Caso de uso: visualización del informe con las respuestas a una encuesta en línea{#use-case-displaying-report-on-answers-to-an-online-survey}
 
@@ -63,27 +63,27 @@ Antes de comenzar este ejemplo de uso, debe tener acceso a una encuesta y a un c
 
 Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
-1. Cree un flujo de trabajo y añada una actividad **[!UICONTROL Answers to a survey]**. Para obtener más información sobre esta actividad, consulte [esta sección](publish-track-and-use-collected-data.md#using-the-collected-data).
+1. Cree un flujo de trabajo y añada una actividad **[!UICONTROL Answers to a survey]**. Para obtener más información sobre esta actividad, consulte [Uso de los datos recopilados](publish-track-and-use-collected-data.md#using-the-collected-data).
 1. Edite la actividad y seleccione la encuesta cuyas respuestas desee analizar.
 1. Habilite la opción **[!UICONTROL Select all the answer data]** para recopilar toda la información.
 
-   ![](assets/reporting_usecase_1_01.png)
+   ![Actividad de respuestas de encuesta en el flujo de trabajo de Encuesta en línea con una encuesta seleccionada y Seleccionar todos los datos de respuesta habilitados.](assets/reporting_usecase_1_01.png)
 
 1. Seleccione las columnas que desea extraer (en este caso, seleccione todos los campos archivados). Son los campos que contienen las respuestas.
 
-   ![](assets/reporting_usecase_1_02.png)
+   ![Seleccione el cuadro de diálogo de columnas adicionales para elegir los campos archivados que se agregarán a las columnas de salida.](assets/reporting_usecase_1_02.png)
 
 1. Una vez configurado el cuadro de recopilación de respuestas, añada una actividad de tipo **[!UICONTROL List update]** para guardar los datos.
 
-   ![](assets/reporting_usecase_1_04.png)
+   ![Flujo de trabajo con una actividad Survey responses vinculada por una transición Result a una actividad List update.](assets/reporting_usecase_1_04.png)
 
    En esta actividad, especifique la lista que desea actualizar y desmarque la opción **[!UICONTROL Purge and re-use the list if it exists (otherwise add to the list)]**: las respuestas se añaden a la tabla existente. Esta opción permite hacer referencia a la lista en un cubo. El esquema vinculado a la lista no se regenera para cada actualización, lo que garantiza la integridad del cubo que utiliza esta lista.
 
-   ![](assets/reporting_usecase_1_03.png)
+   ![Cuadro de diálogo de actualización de lista con la opción Purgar y reutilizar la lista si existe desactivada para que se agreguen las respuestas a la lista.](assets/reporting_usecase_1_03.png)
 
 1. Inicie el flujo de trabajo para confirmar su configuración.
 
-   ![](assets/reporting_usecase_1_05.png)
+   ![Diagrama del flujo de trabajo de encuestas en línea con respuestas de encuestas conectadas a la actualización de lista, listo para iniciarse.](assets/reporting_usecase_1_05.png)
 
    La lista especificada se crea e incluye el esquema de las respuestas a la encuesta.
 
@@ -93,15 +93,15 @@ Para recopilar las respuestas a la encuesta, realice los pasos siguientes:
 
 ## Paso 2: Creación del cubo, sus medidas y sus indicadores {#step-2---creating-the-cube--its-measures-and-its-indicators}
 
-Después, puede crear el cubo y configurar sus medidas: se utilizan para crear los indicadores que se van a mostrar en el informe. Para obtener más información sobre la creación y configuración de los cubos, consulte [Acerca de cubos](https://experienceleague.adobe.com/es/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}.
+Después, puede crear el cubo y configurar sus medidas: se utilizan para crear los indicadores que se van a mostrar en el informe. Para obtener más información sobre la creación y configuración de los cubos, consulte [Acerca de cubos](https://experienceleague.adobe.com/en/docs/campaign-classic/using/reporting/ac-cubes){target="_blank"}.
 
 En este ejemplo, el cubo se basa en los datos de la lista suministrados por el flujo de trabajo creado anteriormente.
 
-![](assets/reporting_usecase_2_01.png)
+![Cubo de diálogo Responde Encuesta en línea con Utilizar una lista seleccionada y la lista de REPRESENTANTES WEB como lista de hechos.](assets/reporting_usecase_2_01.png)
 
 Defina las dimensiones y las medidas que desea mostrar en el informe. Aquí queremos mostrar la fecha del contrato y el país del encuestado.
 
-![](assets/reporting_usecase_2_02.png)
+![Pestaña Dimensiones de cubo con país y departamento y Pestaña Medidas con respuesta, contrato de 2016 y contrato de 2017.](assets/reporting_usecase_2_02.png)
 
 La pestaña **[!UICONTROL Preview]** permite controlar la renderización del informe.
 
@@ -109,8 +109,8 @@ La pestaña **[!UICONTROL Preview]** permite controlar la renderización del inf
 
 Después, se puede crear un informe basado en este cubo y procesar los datos y la información.
 
-![](assets/reporting_usecase_3_01.png)
+![Creando una nueva página de informe con la plantilla de cubo Encuesta en línea de respuestas seleccionada y el botón Crear.](assets/reporting_usecase_3_01.png)
 
 Adapte la información para que se muestre según sus necesidades.
 
-![](assets/reporting_usecase_3_02.png)
+![Tabla de informes de encuestas en línea de los recuentos de contratos de 2016 y 2017 por país, con la dimensión País en las filas.](assets/reporting_usecase_3_02.png)

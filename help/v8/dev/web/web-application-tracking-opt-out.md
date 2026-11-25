@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 86%
+source-wordcount: '740'
+ht-degree: 82%
 ---
 # Exclusión del seguimiento de aplicaciones web{#web-application-tracking-opt-out}
 
@@ -66,11 +66,11 @@ Si el seguimiento web está activado, puede darse lo siguiente:
 * No tener banner.
 * Configure el banner manualmente en cada página: marque esta opción y seleccione el banner en cada página de las propiedades de página.
 
-  ![](assets/pageproperties.png)
+  ![Encabezado de diálogo de propiedades de página con la opción Habilitar transiciones salientes activada.](assets/pageproperties.png)
 
 * Agregue automáticamente el banner a todas las páginas: seleccione el banner directamente en las propiedades de la aplicación web.
 
-  ![](assets/optoutconfig.png)
+  ![Pestaña Propiedades de la aplicación web: General con las opciones de banner de exclusión: sin banner, manual por página o automático.](assets/optoutconfig.png)
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ Si el seguimiento web está activado, puede darse lo siguiente:
 
 El banner predeterminado tiene la siguiente estructura:
 
-```
+```xml
 <div onClick="NL.ClientWebTracking.closeOptOutBanner(this);" id="defaultOptOutBanner">
   <p>Please insert your message here
    <a onClick="NL.ClientWebTracking.allow();" class="optout-accept">Accept</a>
@@ -90,7 +90,7 @@ El banner predeterminado tiene la siguiente estructura:
 
 Debe reemplazar el mensaje **Introduzca el mensaje aquí** con el bloque que contiene la información de seguimiento. Este reemplazo debe ejecutarse en el nuevo bloque personalizado relacionado con el banner de exclusión.
 
-El banner incluye un CSS específico. Sin embargo, puede sobrescribir los estilos al crear y configurar una página web. Consulte [esta página](content-editor-interface.md).
+El banner incluye un CSS específico. Sin embargo, puede sobrescribir los estilos al crear y configurar una página web. Consulte [Interfaz de editor de contenido](content-editor-interface.md).
 
 ## Configuración de la cookie de exclusión mediante API {#setting-the-opt-out-cookie-using-api}
 
@@ -137,7 +137,7 @@ Si tiene que escribir una JSSP, las API de servidor están disponibles:
 
 Ejemplo de JSSP:
 
-```
+```html
 <%@ page import="/nl/core/shared/nl.js" %>
 <!doctype html>
 <%

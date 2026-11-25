@@ -36,10 +36,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 2%
+source-wordcount: '353'
+ht-degree: 1%
 ---
 # Ampliación de un esquema{#extend-schemas}
 
@@ -54,32 +54,32 @@ Los pasos clave para personalizar el modelo de datos de Campaign son:
 >[!CAUTION]
 >El esquema integrado no debe modificarse directamente. Si necesita adaptar un esquema integrado, debe ampliarlo.
 
-Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [esta página](datamodel.md). Vea también recomendaciones al crear un nuevo esquema en [esta página](create-schema.md).
+Para comprender mejor las tablas integradas de Campaign y su interacción, consulte [Introducción al modelo de datos de Campaign](datamodel.md). Vea también recomendaciones al crear un nuevo esquema en [Crear un nuevo esquema en Campaign](create-schema.md).
 
 Para ampliar un esquema, siga los pasos a continuación:
 
 1. Vaya a la carpeta **[!UICONTROL Administration > Configuration > Data schemas]** en el Explorador.
 1. Haga clic en el botón **Nuevo** y seleccione **[!UICONTROL Extend the data in a table using an extension schema]**.
 
-   ![](assets/extend-schema-option.png)
+   ![Paso de tipo de esquema con Ampliar los datos de la tabla utilizando un esquema de extensión seleccionado](assets/extend-schema-option.png)
 
 1. Identifique el esquema integrado para ampliarlo y seleccionarlo.
 
-   ![](assets/extend-schema-select.png)
+   ![Cuadro de diálogo de selección de esquema de Source filtrado en el destinatario, con Destinatarios (nms) seleccionados](assets/extend-schema-select.png)
 
    De forma predeterminada, asigne al esquema de extensión el mismo nombre que al esquema integrado y utilice un área de nombres personalizada.  Tenga en cuenta que algunas áreas de nombres solo son internas. [Más información](schemas.md#reserved-namespaces)
 
-   ![](assets/extend-schema-validate.png)
+   ![Paso de parámetros de esquema para el esquema de extensión con código de área de nombres, nombre de destinatario y etiqueta de Destinatarios](assets/extend-schema-validate.png)
 
 1. Una vez en el editor de esquemas, añada los elementos que necesite mediante el menú contextual y guarde.
 
-   ![](assets/extend-schema-edit.png)
+   ![Editor de esquemas con el menú Insertar abierto en Atributo, que muestra Cadena, Booleano, Entero, Fecha y otros tipos](assets/extend-schema-edit.png)
 
    En el ejemplo siguiente, agregamos el atributo **MembershipYear**, establecemos un límite de longitud para el apellido (este límite sobrescribirá el predeterminado) y eliminamos la fecha de nacimiento del esquema integrado.
 
-   ![](assets/extend-schema-sample.png)
+   ![XML de esquema de extensión agregando MembershipYear, una longitud de 50 caracteres lastName y eliminando birthDate](assets/extend-schema-sample.png)
 
-   ```
+   ```xml
    <srcSchema created="YYYY-MM-DD" desc="Recipient table" extendedSchema="nms:recipient"
            img="nms:recipient.png" label="Recipients" labelSingular="Recipient" lastModified="YYYY-MM-DD"
            mappingType="sql" name="recipient" namespace="cus" xtkschema="xtk:srcSchema">
@@ -93,7 +93,7 @@ Para ampliar un esquema, siga los pasos a continuación:
 
 1. Desconecte y vuelva a conectarse a Campaign para comprobar la actualización de la estructura de esquemas en la pestaña **[!UICONTROL Structure]**.
 
-   ![](assets/extend-schema-structure.png)
+   ![Pestaña Estructura del esquema cus:recipient que enumera campos, incluido el nuevo campo Miembro desde](assets/extend-schema-structure.png)
 
 1. Actualice la estructura de la base de datos para aplicar los cambios. [Más información](update-database-structure.md)
 

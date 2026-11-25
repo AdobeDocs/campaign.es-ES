@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Landing pages
   - id: c8da4fdd-eb94-4751-a43c-f82733fb2d6e
     internal-label: Email design
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 95%
+source-wordcount: '661'
+ht-degree: 77%
 ---
 # Interfaz del editor de contenido{#content-editor-interface}
 
@@ -38,7 +38,7 @@ ht-degree: 95%
 
 La ventana de edición de DCE se desglosa en tres secciones diferentes. Permiten ver, modificar y comprobar el estado del contenido.
 
-![](assets/dce_decoupe_window_nb.png)
+![Ventana de edición de DCE con tres secciones numeradas: mensaje de estado, área de contenido y panel de opciones derecho](assets/dce_decoupe_window_nb.png)
 
 1. La sección **superior** es un área de visualización para mensajes al usuario. Estos mensajes indican el estado de la aplicación web o de la entrega que se está creando, así como advertencias y mensajes de error relacionados con el contenido. Para obtener más información, consulte [Estados de contenido HTML](content-editing-best-practices.md#html-content-statuses).
 1. La sección a la **izquierda** de la ventana es el área para editar contenido. Desde esta área, el usuario puede interactuar directamente con el contenido mediante la barra de herramientas emergente: insertar un vínculo en una imagen, cambiar la fuente, eliminar un campo, etc. Para obtener más información, consulte [Edición de formularios](editing-content.md#editing-forms).
@@ -48,17 +48,17 @@ La ventana de edición de DCE se desglosa en tres secciones diferentes. Permiten
 
 La sección superior derecha del editor da acceso a las opciones globales que permiten controlar el contenido que se está creando.
 
-![](assets/dce_global_options.png)
+![Parte superior derecha del editor con cuatro iconos de opción globales encima del panel de opciones de bloque](assets/dce_global_options.png)
 
 Tiene cuatro iconos:
 
-![](assets/dce_icons_sidebar.png)
+![Iconos de opciones globales: mostrar/ocultar bloques, elegir otro contenido, guardar como plantilla y propiedades de la página](assets/dce_icons_sidebar.png)
 
 * El icono **Display/Hide blocks** permite mostrar marcos azules alrededor de los bloques de contenido (correspondiente a la etiqueta `<div>` HTML).
 
 * El icono **Seleccionar otro contenido** permite al usuario cargar contenido nuevo desde una plantilla (plantilla existente o plantilla predeterminada).
 
-  ![](assets/dce_popup_templatechoice.png)
+  ![Elija un cuadro de diálogo de contenido con Desde un archivo y plantillas disponibles como Contacto y Clic](assets/dce_popup_templatechoice.png)
 
   >[!CAUTION]
   >
@@ -66,15 +66,15 @@ Tiene cuatro iconos:
 
 * El icono **Guardar como plantilla** permite guardar el contenido actual como una plantilla. Debe indicar la etiqueta y el nombre interno de la plantilla. Las plantillas se almacenan en el nodo **[!UICONTROL Resources > Templates > Content templates]**.
 
-  ![](assets/dce_popup_savetemplate.png)
+  ![Guardar como plantilla con los campos Etiqueta, Nombre interno y Carpeta](assets/dce_popup_savetemplate.png)
 
   Una vez guardada, la plantilla está disponible y se puede seleccionar al crear contenido nuevo.
 
-  ![](assets/dce_create_fromtemplate.png)
+  ![Pestaña de contenido de HTML de envío de correo electrónico con la plantilla de música y arte guardada disponible entre las plantillas de contenido](assets/dce_create_fromtemplate.png)
 
 * El icono de **Propiedades de página** permite seleccionar información de contenido en la parte superior de la página HTML.
 
-  ![](assets/dce_popup_headerhtml.png)
+  ![Propiedades del cuadro de diálogo de página con los campos Título, Palabras clave y Descripción para el encabezado de página de HTML](assets/dce_popup_headerhtml.png)
 
   >[!NOTE]
   >
@@ -86,7 +86,7 @@ Tiene cuatro iconos:
 
 La sección a la derecha del editor agrupa las opciones principales que permiten actuar sobre el contenido. Para mostrar estas opciones, debe seleccionar un bloque: las características de estas opciones dependen del bloque seleccionado.
 
-![](assets/dce_right_section.png)
+![Sección derecha del editor con las opciones de bloqueo: condición de visibilidad, bordes y color de fondo](assets/dce_right_section.png)
 
 Se puede:
 

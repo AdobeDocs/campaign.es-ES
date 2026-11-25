@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 74%
+source-wordcount: '370'
+ht-degree: 66%
 ---
 # Introducción al editor HTML de Campaign{#about-campaign-html-editor}
 
@@ -41,7 +41,7 @@ ht-degree: 74%
 >
 >Para los casos de uso más comunes, cree sus páginas de destino en la interfaz de usuario de Campaign Web, donde podrá diseñarlas y publicarlas fácilmente. Las páginas de aterrizaje creadas en la consola del cliente, tal como se describe en esta sección, ofrecen más configuraciones y cubren casos de uso más avanzados.
 >
->[Obtenga más información acerca de las páginas de destino en la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/es/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
+>[Obtenga más información acerca de las páginas de destino en la interfaz de usuario web de Campaign](https://experienceleague.adobe.com/en/docs/campaign-web/v8/landing-pages/get-started-lp){target="_blank"}
 
 
 
@@ -63,7 +63,7 @@ Esta sección presenta los pasos clave para editar y cargar contenido editado co
 
 La operación general funciona de la siguiente manera:
 
-![](assets/dce_schema.png)
+![La página de aterrizaje y la entrega por correo electrónico pasan a través del editor de contenido digital y luego se envían para su publicación o envío](assets/dce_schema.png)
 
 Para crear una **aplicación web** simple, debe hacer lo siguiente:
 
@@ -74,7 +74,7 @@ Para crear una **aplicación web** simple, debe hacer lo siguiente:
 
 >[!NOTE]
 >
->En [esta sección](creating-a-landing-page.md) encontrará una muestra completa de la implementación en el contexto de una aplicación web.
+>Hay disponible una muestra completa de implementación en el contexto de una aplicación web en [Crear una página de aterrizaje](creating-a-landing-page.md).
 
 Para crear un **envío de correo electrónico**, debe hacer lo siguiente:
 

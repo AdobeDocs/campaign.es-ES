@@ -26,10 +26,10 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '990'
-ht-degree: 100%
+source-wordcount: '1298'
+ht-degree: 76%
 ---
 # Procesamiento de formularios{#form-rendering}
 
@@ -39,17 +39,17 @@ ht-degree: 100%
 
 La configuración del formulario permite seleccionar la plantilla utilizada para generar las páginas. Para acceder a ellas, haga clic en el botón **[!UICONTROL Properties]** de la barra de herramientas de detalles del formulario y seleccione la pestaña **[!UICONTROL Rendering]**. Existe una cantidad de plantillas (hojas de estilo) disponibles de forma predeterminada.
 
-![](assets/s_ncs_admin_survey_rendering_select.png)
+![Pestaña Procesamiento de propiedades de formulario con la lista Plantilla abierta, que muestra el formulario estándar y el tema 1 al tema 7.](assets/s_ncs_admin_survey_rendering_select.png)
 
 La sección inferior del editor permite ver una renderización de la plantilla seleccionada.
 
 La funcionalidad de zoom permite editar la plantilla seleccionada.
 
-![](assets/s_ncs_admin_survey_render_edit.png)
+![Cuadro de diálogo Tema 5 de la plantilla de generación de formularios con el vínculo Diseño de página y la configuración de CSS.](assets/s_ncs_admin_survey_render_edit.png)
 
 Puede modificar o desactivar estas plantillas. Para ello, haga clic en el vínculo **[!UICONTROL Page layout...]** y personalice la información.
 
-![](assets/s_ncs_admin_survey_render_edit_param.png)
+![Cuadro de diálogo de diseño de página, ficha Propiedades, con la imagen del logotipo, la anchura y la altura, y la ruta de acceso de la imagen de vista previa.](assets/s_ncs_admin_survey_render_edit_param.png)
 
 Se puede:
 
@@ -58,19 +58,19 @@ Se puede:
 
 La pestaña **[!UICONTROL Headers/Footers]** permite cambiar la información que se muestra en los encabezados y pies de página de cada página de formulario que use esta plantilla.
 
-![](assets/s_ncs_admin_survey_render_edit_header.png)
+![Cuadro de diálogo Diseño de página, ficha Encabezados/pies de página, con las líneas Encabezados de página y Pie de página y los campos Posición.](assets/s_ncs_admin_survey_render_edit_header.png)
 
 Cada línea de las secciones **[!UICONTROL Page headers]** y **[!UICONTROL Page footers]** corresponde a una línea de la página HTML. Haga clic en **[!UICONTROL Add]** para crear una línea nueva.
 
 Seleccione una línea existente y haga clic en el botón **[!UICONTROL Detail]** para personalizarlo.
 
-![](assets/s_ncs_admin_survey_render_edit_header_detail.png)
+![Cuadro de diálogo de detalles de encabezados de página con diseño de página, fichas Bordes y fuente y contenido de las zonas izquierda y derecha.](assets/s_ncs_admin_survey_render_edit_header_detail.png)
 
 Puede cambiar el contenido de la línea, añadir bordes y cambiar los atributos de fuente a través de las pestañas correspondientes. Haga clic en **[!UICONTROL OK]** para confirmar estos cambios.
 
 Los campos **[!UICONTROL Position]** permiten definir la posición de los elementos en el encabezado y pie de página de la página.
 
-![](assets/s_ncs_admin_survey_render_edit_header_position.png)
+![Pestaña Encabezados/pies de página con las listas Posición para encabezados y pies de página, que ofrecen Oculto, Fuera de la página, En la página.](assets/s_ncs_admin_survey_render_edit_header_position.png)
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Se puede sobrecargar la hoja de estilo para cada elemento del formulario (campos
 
 Para ello, utilice la pestaña **[!UICONTROL Advanced]**.
 
-![](assets/s_ncs_admin_survey_advanced_tab.png)
+![Ficha avanzada de un elemento de formulario con configuración de visualización, como Número de celdas y Alineación vertical.](assets/s_ncs_admin_survey_advanced_tab.png)
 
 Permite definir las siguientes propiedades:
 
@@ -98,7 +98,7 @@ Permite definir las siguientes propiedades:
 * **[!UICONTROL Lines]**: número de líneas de una zona del tipo **[!UICONTROL Multi-line text]**.
 * **[!UICONTROL Style inline]**: permite sobrecargar la hoja de estilos CSS con ajustes adicionales. Estos se separan con caracteres **;** como se muestra en el ejemplo siguiente:
 
-  ![](assets/s_ncs_admin_survey_advanced_tab_inline.png)
+  ![Ficha avanzada con el valor en línea Estilo establecido en font-size:16pt; fondo: azul.](assets/s_ncs_admin_survey_advanced_tab_inline.png)
 
 ### Definición de encabezados y pies de página {#defining-headers-and-footers}
 
@@ -106,7 +106,7 @@ Los campos se agrupan en una estructura de directorio cuya raíz tiene el mismo 
 
 El título de la ventana se debe introducir en la pestaña **[!UICONTROL Page]** de la ventana de propiedad del formulario. También puede agregar un contenido definido al encabezado y al pie de la página (esta información se muestra en todas las páginas). Este contenido se introduce en las secciones coincidentes de la pestaña **[!UICONTROL Texts]**, como se muestra a continuación:
 
-![](assets/s_ncs_admin_survey_titles_config.png)
+![Pestaña Página de propiedades de formulario con el título de la ventana, el encabezado de la página y el contenido del pie de página.](assets/s_ncs_admin_survey_titles_config.png)
 
 ### Adición de elementos al encabezado HTML {#adding-elements-to-html-header}
 
@@ -114,7 +114,7 @@ Puede introducir elementos adicionales para su inserción en el encabezado HTML 
 
 Esto permite, por ejemplo, hacer referencia a un icono que se muestra en la barra de título de la página.
 
-![](assets/webform_header_page_tab.png)
+![Pestaña Encabezado de página con un elemento de vínculo para un icono de acceso directo agregado al encabezado de HTML.](assets/webform_header_page_tab.png)
 
 ## Definición de la configuración de control {#defining-control-settings}
 
@@ -124,19 +124,19 @@ Cuando el usuario rellena el formulario, se realiza una comprobación automátic
 
 Para hacer que ciertos campos sean obligatorios, seleccione esta opción al crear el campo.
 
-![](assets/s_ncs_admin_survey_required_field.png)
+![Ficha General de campo con la opción Obligatorio activada para el campo Apellidos.](assets/s_ncs_admin_survey_required_field.png)
 
 Si el usuario aprueba esta página sin haber introducido el campo, se muestra el siguiente mensaje:
 
-![](assets/s_ncs_admin_survey_required_default_msg.png)
+![La página de formulario que muestra el mensaje de error predeterminado El campo &#39;Apellidos&#39; es obligatorio, con el campo vacío resaltado.](assets/s_ncs_admin_survey_required_default_msg.png)
 
 Puede personalizar este mensaje haciendo clic en el vínculo **[!UICONTROL Personalize this message]**.
 
-![](assets/s_ncs_admin_survey_required_custom_msg.png)
+![Se abrió el cuadro de diálogo de personalización de mensajes desde Personalizar el mensaje con texto personalizado para un campo obligatorio vacío.](assets/s_ncs_admin_survey_required_custom_msg.png)
 
 Si el usuario aprueba esta página sin haber introducido el campo, se muestra el siguiente mensaje:
 
-![](assets/s_ncs_admin_survey_required_custom_msg2.png)
+![Página de formulario que muestra el mensaje CAMPO OBLIGATORIO personalizado sobre el campo vacío resaltado.](assets/s_ncs_admin_survey_required_custom_msg2.png)
 
 ### Comprobación del formato de datos {#checking-data-format}
 
@@ -146,7 +146,7 @@ Para las comprobaciones de formularios cuyos valores se almacenan en una variabl
 
 Por ejemplo, si crea una comprobación **[!UICONTROL Number]** para almacenar el número de clientes como se muestra a continuación:
 
-![](assets/s_ncs_admin_survey_choose_format.png)
+![Campo de tipo numérico que almacena su valor en una variable cliente, con cuadros de diálogo Almacenar y Editar ramas que muestran el tipo entero.](assets/s_ncs_admin_survey_choose_format.png)
 
 El usuario debe escribir un número entero en el campo del formulario.
 
@@ -156,13 +156,13 @@ Se puede configurar la visualización de campos en la página para que se muestr
 
 Para cada elemento de la página, la sección **[!UICONTROL Visibility]** permite definir las condiciones de visualización.
 
-![](assets/s_ncs_admin_survey_condition_edit.png)
+![Pestaña Contenedor general con el vínculo Editar visibilidad que abre el cuadro de diálogo Condición de visibilidad.](assets/s_ncs_admin_survey_condition_edit.png)
 
 Las condiciones pueden afectar al valor de los campos o de las variables de la base de datos.
 
 En la ventana de selección de campos, se puede elegir entre los siguientes datos:
 
-![](assets/s_ncs_admin_survey_condition_select.png)
+![Seleccione un cuadro de diálogo de campo que muestre el árbol de contexto con identificador, idioma, origen, destinatarios y variables.](assets/s_ncs_admin_survey_condition_select.png)
 
 * El directorio principal contiene los parámetros del contexto del formulario. Los parámetros predeterminados son el identificador (que coincide con el identificador cifrado del destinatario), idioma y origen.
 
@@ -186,11 +186,11 @@ Para importar un elemento en un formulario, siga los siguientes pasos:
 
 1. Edite la página en la que desea insertar uno o más elementos y, a continuación, haga clic en **[!UICONTROL Import an existing block]** en la barra de herramientas.
 
-   ![](assets/s_ncs_admin_survey_import_block.png)
+   ![Barra de herramientas del editor de páginas con el botón Importar un bloque existente resaltado.](assets/s_ncs_admin_survey_import_block.png)
 
 1. Seleccione el formulario web que contiene los campos que desea importar y seleccione los contenedores y campos que desea importar.
 
-   ![](assets/s_ncs_admin_survey_import_block_selection.png)
+   ![Importar un cuadro de diálogo de bloques existente con una aplicación web de origen y comprobar los bloques que se van a importar.](assets/s_ncs_admin_survey_import_block_selection.png)
 
    >[!NOTE]
    >
@@ -198,4 +198,4 @@ Para importar un elemento en un formulario, siga los siguientes pasos:
 
 1. Haga clic en **[!UICONTROL Ok]** para confirmar la inserción.
 
-   ![](assets/s_ncs_admin_survey_import_block_rendering.png)
+   ![Árbol de páginas después de la importación, que ahora contiene los campos Apellido, País, Nº de cuenta y Correo electrónico.](assets/s_ncs_admin_survey_import_block_rendering.png)

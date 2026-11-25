@@ -19,10 +19,10 @@ feature_v2:
 subfeature_v2:
   - id: ed29abcd-b6a8-4d4b-ab8b-b7e746973281
     internal-label: Web Forms
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 99%
+source-wordcount: '1168'
+ht-degree: 73%
 ---
 # Administración de respuestas{#managing-answers}
 
@@ -44,7 +44,7 @@ Además de los modos de almacenamiento estándar comunes a todos los formularios
 
 Es fácil ampliar la plantilla de datos mediante la adición de nuevos espacios de almacenamiento para guardar las respuestas que se proporcionan en las encuestas. Para ello, seleccione la opción **[!UICONTROL Store answers to a question]** al crear el campo de entrada. Haga clic en el vínculo **[!UICONTROL New field...]** y proporcione sus propiedades:
 
-![](assets/s_ncs_admin_survey_new_space.png)
+![Cuadro de diálogo de almacenamiento con respuestas de almacenamiento a una pregunta seleccionada y el cuadro de diálogo Crear nuevo campo archivado para un campo de contrato.](assets/s_ncs_admin_survey_new_space.png)
 
 Introduzca la etiqueta y el nombre del campo y seleccione el tipo de campo: Texto, Booleano, Número entero o decimal, Fecha, etc.
 
@@ -62,15 +62,15 @@ Si este campo se utiliza en una lista, los valores de la enumeración pueden rec
 
 Por ejemplo, puede crear una lista desplegable para que el usuario seleccione su lengua materna. El campo archivado correspondiente se puede asociar a la enumeración **idioma** que contiene una lista de idiomas:
 
-![](assets/s_ncs_admin_survey_database_values_2b.png)
+![Crear nuevo cuadro de diálogo de campo archivado con la enumeración de idioma seleccionada y el icono Editar vínculo resaltado.](assets/s_ncs_admin_survey_database_values_2b.png)
 
 El icono **[!UICONTROL Edit link]** situado a la derecha del campo permite editar el contenido de esta enumeración:
 
-![](assets/s_ncs_admin_survey_database_values_2c.png)
+![Editor de idioma de enumeración (idioma) que enumera los valores inglés, francés y alemán.](assets/s_ncs_admin_survey_database_values_2c.png)
 
 En la pestaña **[!UICONTROL General]** del campo, el vínculo **[!UICONTROL Initialize the list of values from the database]** permite introducir automáticamente la lista de etiquetas ofrecidas.
 
-![](assets/s_ncs_admin_survey_database_values_2.png)
+![Ficha General del campo desplegable, Inicialice la lista de valores del vínculo de base de datos que rellena las etiquetas de idioma.](assets/s_ncs_admin_survey_database_values_2.png)
 
 **Ejemplo**: almacene los contratos de un destinatario en un campo
 
@@ -78,31 +78,31 @@ Para almacenar distintos tipos de contratos en un campo, cree un campo de entrad
 
 Haga clic en el vínculo **[!UICONTROL New field...]** para introducir las propiedades del campo. Seleccione la opción **[!UICONTROL Multiple values]** para habilitar el almacenamiento de varios valores.
 
-![](assets/s_ncs_admin_survey_storage_multi_ex1.png)
+![Crear nuevo cuadro de diálogo de campo archivado para los contratos con la opción Varios valores seleccionada.](assets/s_ncs_admin_survey_storage_multi_ex1.png)
 
 Cree campos de entrada para los demás contratos y almacene los datos en el mismo campo archivado.
 
-![](assets/s_ncs_admin_survey_storage_multi_ex2.png)
+![Cuadro de diálogo de almacenamiento y selector de campo que vincula un campo de entrada al campo archivado de Contracts.](assets/s_ncs_admin_survey_storage_multi_ex2.png)
 
 Cuando los usuarios aprueban la encuesta, sus respuestas se almacenan en el campo **[!UICONTROL Contracts]**.
 
 En nuestro ejemplo, para las siguientes respuestas:
 
-![](assets/s_ncs_admin_survey_storage_multi_ex3.png)
+![Página de encuesta de contratos con cuatro campos de contrato rellenados con los valores M, L, T y V.](assets/s_ncs_admin_survey_storage_multi_ex3.png)
 
 El perfil del encuestado contiene los cuatro contratos especificados.
 
 Se pueden ver en la pestaña **[!UICONTROL Answers]** de la encuesta mostrando las columnas relevantes.
 
-![](assets/s_ncs_admin_survey_storage_multi_ex4.png)
+![La pestaña Respuestas enumera las respuestas con las columnas Contrat_1 a Contrat_4 que muestran los valores de las respuestas con varios valores.](assets/s_ncs_admin_survey_storage_multi_ex4.png)
 
 También puede filtrar los destinatarios en función de las respuestas para mostrar solo los usuarios que le interesen. Para ello, cree un flujo de trabajo de objetivos y haga clic en la casilla **[!UICONTROL Survey responses]**.
 
-![](assets/s_ncs_admin_survey_read_responses_wf.png)
+![Flujo de trabajo de segmentación con la actividad Survey responses arrastrada desde la paleta Targeting al diagrama.](assets/s_ncs_admin_survey_read_responses_wf.png)
 
 Cree la consulta en función de los perfiles que desee recuperar. En el ejemplo siguiente, la consulta permite seleccionar perfiles con al menos dos contratos, incluido un contrato de tipo A.
 
-![](assets/s_ncs_admin_survey_read_responses_edit.png)
+![Actividad Survey responses y su filtro Query dialog en Contract_1 igual a E y Contract_2 igual a R.](assets/s_ncs_admin_survey_read_responses_edit.png)
 
 Para cada formulario, las respuestas proporcionadas pueden utilizarse en campos o etiquetas. Utilice la siguiente sintaxis para el contenido almacenado en un campo archivado:
 
@@ -127,17 +127,17 @@ Para ello, haga lo siguiente:
 * En la pestaña **[!UICONTROL Properties]**, edite las propiedades de la encuesta con el botón **[!UICONTROL Edit]**.
 * Haga clic en el vínculo **[!UICONTROL Advanced parameters]** y marque la opción **[!UICONTROL Save a copy of raw answers]**.
 
-![](assets/s_ncs_admin_survey_xml_archive_option.png)
+![Cuadro de diálogo Parámetros avanzados de la aplicación web con la opción Guardar una copia de respuestas sin procesar seleccionada.](assets/s_ncs_admin_survey_xml_archive_option.png)
 
 Puede habilitarlo de manera predeterminada para todas las encuestas (esta opción se aplica cuando se publica la encuesta). Para ello, cree la opción **[!UICONTROL NmsWebApp_XmlBackup]** y asígnele un valor **[!UICONTROL 1]**, como se muestra a continuación:
 
-![](assets/s_ncs_admin_survey_xml_global_option.png)
+![Nodo de opciones en Administration, Platform con la opción NmsWebApp_XmlBackup creada con el valor 1.](assets/s_ncs_admin_survey_xml_global_option.png)
 
 ## Gestión de la puntuación {#score-management}
 
 Puede asignar una puntuación a las opciones ofrecidas en las páginas del formulario. Solo pueden vincularse con preguntas cerradas: casilla de verificación, valor de una lista desplegable, suscripción, etc.
 
-![](assets/s_ncs_admin_survey_score_create.png)
+![Pestaña General del campo del cuadro combinado que enumera los valores de la tarjeta de fidelidad Estándar para VIP con una columna Puntuación de 2.00 a 10.00.](assets/s_ncs_admin_survey_score_create.png)
 
 Las puntuaciones se acumulan y se guardan en el servidor cuando se confirma la página, es decir, cuando el usuario hace clic en el botón **[!UICONTROL Next]** o **[!UICONTROL Finish]**.
 
@@ -153,7 +153,7 @@ Las puntuaciones se pueden utilizar en pruebas o secuencias de comandos.
 
 * Para utilizar puntuaciones en pruebas, utilice el campo **[!UICONTROL Score]** de la fórmula de cálculo de prueba, como se muestra a continuación:
 
-  ![](assets/s_ncs_admin_survey_score_in_a_test.png)
+  ![Actividad de prueba con una condición en una puntuación mayor que 6, seleccionando el campo Puntuación del documento Contexto.](assets/s_ncs_admin_survey_score_in_a_test.png)
 
 * Puede utilizar la puntuación en una secuencia de comandos.
 
@@ -161,18 +161,18 @@ Las puntuaciones se pueden utilizar en pruebas o secuencias de comandos.
 
 * En una encuesta, la siguiente página permite asignar distintas puntuaciones a los usuarios según el valor seleccionado en la lista desplegable:
 
-  ![](assets/s_ncs_admin_survey_score_exa.png)
+  ![Campo desplegable de niveles de clase, preescolar a universitario, con puntuaciones de 2.00 a 7.00.](assets/s_ncs_admin_survey_score_exa.png)
 
 * Puede combinar esta puntuación con un segundo valor, en función de la opción seleccionada:
 
-  ![](assets/s_ncs_admin_survey_score_exb.png)
+  ![Campo de opción múltiple... el padre obtuvo una puntuación de 7,00 y el alumno obtuvo una puntuación de 2,00.](assets/s_ncs_admin_survey_score_exb.png)
 
 * Cuando el usuario hace clic en el botón **[!UICONTROL Next]**, se añaden dos valores.
 
-  ![](assets/s_ncs_admin_survey_score_exe.png)
+  ![Página de bienvenida con la secundaria seleccionada en la lista Nivel y la opción Principal seleccionada en Estado.](assets/s_ncs_admin_survey_score_exe.png)
 
 * Se pueden aplicar condiciones para que la página se muestre según la puntuación. Se configura de la siguiente manera:
 
-  ![](assets/s_ncs_admin_survey_score_exd.png)
+  ![Actividad de prueba con una condición Editar rama: puntuación superior a 7,00.](assets/s_ncs_admin_survey_score_exd.png)
 
-  ![](assets/s_ncs_admin_survey_score_exg.png)
+  ![La actividad de prueba se dirige al nivel 1 cuando la puntuación es inferior a 7, al nivel 2 cuando es igual a 7 y al nivel 3 por encima de 7.](assets/s_ncs_admin_survey_score_exg.png)

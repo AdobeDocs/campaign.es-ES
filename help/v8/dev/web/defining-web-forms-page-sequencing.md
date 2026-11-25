@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 100%
+source-wordcount: '938'
+ht-degree: 75%
 ---
 # Definición de la secuenciación de la página de formularios web{#defining-web-forms-page-sequencing}
 
@@ -36,7 +36,7 @@ El formulario puede contener una o más páginas. Se crea mediante un diagrama q
 
 Para cada página, puede eliminar los botones **[!UICONTROL Next]** o **[!UICONTROL Previous]**. Para ello, seleccione la página que desee y seleccione la opción **[!UICONTROL Disable next page]** o **[!UICONTROL Disallow returning to the previous page]**.
 
-![](assets/s_ncs_admin_survey_no_next_page.png)
+![Propiedades de página, ficha General, con la opción Deshabilitar página siguiente seleccionada en la sección Exploración.](assets/s_ncs_admin_survey_no_next_page.png)
 
 Puede reemplazar estos botones con vínculos. Consulte [Inserción de contenido HTML](static-elements-in-a-web-form.md#inserting-html-content).
 
@@ -48,19 +48,19 @@ El destino puede ser:
 
 * otra página del formulario. Para ello, seleccione **[!UICONTROL Internal activity]** y luego especifique la página deseada, como se muestra a continuación:
 
-  ![](assets/s_ncs_admin_jump_param1.png)
+  ![Cuadro de diálogo de salto con actividad interna seleccionada y la lista de actividad que muestra las páginas del formulario a las que saltar.](assets/s_ncs_admin_jump_param1.png)
 
 * otro formulario. Para esto, haga clic en la opción **[!UICONTROL Explicit]** y especifique el formulario de destino.
 
-  ![](assets/s_ncs_admin_jump_param2.png)
+  ![Cuadro de diálogo de saltos con Explicit seleccionado y un formulario de destino elegido en el campo Target Web application.](assets/s_ncs_admin_jump_param2.png)
 
 * El destino se puede almacenar en una variable. En este caso, selecciónelo en la lista desplegable, como se muestra a continuación:
 
-  ![](assets/s_ncs_admin_jump_param3.png)
+  ![Cuadro de diálogo de salto con Almacenado en una variable seleccionada y abierta la lista desplegable Variable local.](assets/s_ncs_admin_jump_param3.png)
 
 * La pestaña **[!UICONTROL Comment]** permite introducir información que puede ver el operador cuando haga clic en el objeto del diagrama.
 
-  ![](assets/s_ncs_admin_survey_jump_comment.png)
+  ![Ficha Comentario del cuadro de diálogo Saltar; el texto aparece como información sobre herramientas en el objeto Saltar del diagrama de formulario.](assets/s_ncs_admin_survey_jump_comment.png)
 
 ## Ejemplo: acceso a otro formulario de acuerdo con un parámetro de la URL {#example--accessing-another-form-according-to-a-parameter-of-the-url}
 
@@ -68,15 +68,15 @@ En el ejemplo siguiente, se desea configurar un formulario web que, cuando está
 
 1. Inserte un salto al final de un formulario: este reemplaza la casilla **[!UICONTROL End]**.
 
-   ![](assets/s_ncs_admin_survey_jump_sample1.png)
+   ![Diagrama de formulario con un objeto Jump insertado después de Storage al final del formulario, reemplazando el cuadro End.](assets/s_ncs_admin_survey_jump_sample1.png)
 
 1. En las propiedades del formulario, añada un parámetro (**siguiente**) almacenado en una variable local (**siguiente**). Las variables locales se detallan en [Almacenamiento de datos en una variable local](web-forms-answers.md#storing-data-in-a-local-variable).
 
-   ![](assets/s_ncs_admin_survey_jump_sample2.png)
+   ![Propiedades del formulario Ficha Parámetros agregando el siguiente parámetro, almacenado en la variable local siguiente.](assets/s_ncs_admin_survey_jump_sample2.png)
 
 1. Edite el objeto **[!UICONTROL Jump]**, seleccione la opción **[!UICONTROL Stored in a variable]** y seleccione la variable **siguiente** en el cuadro desplegable.
 
-   ![](assets/s_ncs_admin_survey_jump_sample3.png)
+   ![Cuadro de diálogo de salto con Almacenado en una variable seleccionada y la siguiente variable elegida en la lista de variables locales.](assets/s_ncs_admin_survey_jump_sample3.png)
 
 1. La dirección URL de envío debe incluir el nombre interno del formulario de destino, por ejemplo:
 
@@ -98,7 +98,7 @@ La casilla **[!UICONTROL Test]** permite condicionar la secuenciación de págin
 
 Por ejemplo, se puede mostrar una página diferente para los clientes que ya hayan realizado un pedido en línea y otra para aquellos que hayan realizado más de diez pedidos. Para ello, en la primera página del formulario, inserte un campo de entrada de tipo **[!UICONTROL Number]** para que el usuario declare cuántas solicitudes ha realizado.
 
-![](assets/s_ncs_admin_survey_test_ex0.png)
+![Página de formulario Tus detalles y pedidos con título, nombre, campos de correo electrónico y un¿Con qué frecuencia haces pedidos en la pregunta web?](assets/s_ncs_admin_survey_test_ex0.png)
 
 Se puede almacenar esta información en un campo de la base de datos o utilizar una variable local.
 
@@ -108,17 +108,17 @@ Se puede almacenar esta información en un campo de la base de datos o utilizar 
 
 En este ejemplo, se desea utilizar una variable:
 
-![](assets/s_ncs_admin_survey_test_ex1.png)
+![Campo de recuento de pedidos de la página con su almacenamiento establecido en la opción Variable y la variable Pedidos seleccionados.](assets/s_ncs_admin_survey_test_ex1.png)
 
 En el diagrama del formulario, inserte un cuadro de prueba para definir las condiciones. Para cada condición, se añade una nueva rama en la salida del cuadro de prueba.
 
-![](assets/s_ncs_admin_survey_test_ex2.png)
+![Cuadro de diálogo Pruebas con las ramas Pedidos +10 y Pedidos 1—>9 y el cuadro de diálogo Editar rama que define sus condiciones.](assets/s_ncs_admin_survey_test_ex2.png)
 
 Seleccione la opción **[!UICONTROL Activate the default branching]** para añadir una transición en casos en los que ninguna de las condiciones sea verdadera. Esta opción no es necesaria si las condiciones abarcan cada caso posible.
 
 A continuación, defina la secuenciación de la página cuando una o varias de las condiciones sean verdaderas, por ejemplo:
 
-![](assets/s_ncs_admin_survey_test_ex3.png)
+![Diagrama de formulario: ¿los pedidos? La prueba lleva a páginas nuevas, estándar o doradas, todas las cuales conducen al almacenamiento y al final.](assets/s_ncs_admin_survey_test_ex3.png)
 
 ### Mostrar según los parámetros {#display-based-on-parameters}
 
@@ -134,7 +134,7 @@ Se debe colocar una página final en el extremo del diagrama. La página final s
 
 Para personalizar esta página, haga doble clic en **[!UICONTROL End]** e introduzca el contenido de la página en el editor central.
 
-![](assets/s_ncs_admin_survey_end_page_edit.png)
+![Finalizar diálogo con el título de la página final y el editor de contenido, mostrando un mensaje de agradecimiento por completar la encuesta.](assets/s_ncs_admin_survey_end_page_edit.png)
 
 * Puede copiar y pegar contenido HTML existente. Para ello, haga clic en **[!UICONTROL Display source code]** e inserte el código HTML.
 * Se puede utilizar una URL externa. Para ello, seleccione la opción correspondiente e introduzca la dirección URL de la página que desea mostrar.

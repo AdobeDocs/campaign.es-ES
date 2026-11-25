@@ -34,10 +34,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 89%
+source-wordcount: '866'
+ht-degree: 78%
 ---
 # Caso práctico: Crear un envío de correo electrónico{#use-case-creating-an-email-delivery}
 
@@ -60,15 +60,15 @@ El objetivo final es crear una entrega con una plantilla personalizada que conte
 
 ## Paso 1: Creación de una entrega {#step-1---creating-a-delivery}
 
-Para crear un nuevo envío, coloque el cursor en la pestaña **Campaigns** y haga clic en **Deliveries**. Después, haga clic en el botón **Crear** situado encima de la lista de envíos existentes. Para obtener más información sobre la creación de envíos, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}.
+Para crear un nuevo envío, coloque el cursor en la pestaña **Campaigns** y haga clic en **Deliveries**. Después, haga clic en el botón **Crear** situado encima de la lista de envíos existentes. Para obtener más información sobre la creación de envíos, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}.
 
-![](assets/delivery_step_1.png)
+![Lista de envíos en la pestaña Campañas con el botón Crear usado para iniciar un nuevo envío.](assets/delivery_step_1.png)
 
 ## Paso 2: Selección de una plantilla {#step-2---selecting-a-template}
 
 Seleccione una plantilla de envío y asigne un nombre a la entrega. Este nombre solo está visible para los usuarios de la consola de Adobe Campaign y no para los destinatarios. Sin embargo, este encabezado se muestra en la lista de envíos. Haga clic en **[!UICONTROL Continue]**.
 
-![](assets/dce_delivery_model.png)
+![Cuadro de diálogo de creación de envío con la plantilla de envío de correo electrónico, un campo Etiqueta y el botón Continuar.](assets/dce_delivery_model.png)
 
 ## Paso 3: Selección de contenido {#step-3---selecting-a-content}
 
@@ -76,11 +76,11 @@ El editor de contenido digital incluye varias plantillas predeterminadas con dis
 
 Seleccione la plantilla de contenido que desea utilizar y haga clic en el botón **[!UICONTROL Start with the selected content]** para mostrar la plantilla en la entrega creada.
 
-![](assets/dce_select_model.png)
+![Paso de envío de contenido que enumera las plantillas de contenido con el botón Comenzar con el contenido seleccionado.](assets/dce_select_model.png)
 
 También puede importar contenido de HTML creado fuera de Adobe Campaign seleccionando **[!UICONTROL From a file]**.
 
-![](assets/dce_select_from_file_template.png)
+![Plantillas de contenido disponibles con la opción Desde un archivo resaltada.](assets/dce_select_from_file_template.png)
 
 Se puede guardar este contenido como una plantilla para su uso futuro. Una vez creada una plantilla de contenido personalizada, se puede obtener una vista previa de la misma en la lista de plantillas. Para obtener más información, consulte [Administración de plantillas](template-management.md).
 
@@ -94,13 +94,13 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
   Para insertar el primer y el segundo nombre de los destinatarios en un campo de texto de su envío, haga clic en el campo de texto seleccionado y, a continuación, coloque el cursor donde desee mostrarlos. Haga clic en el primer icono de la barra de herramientas emergente y, a continuación, haga clic en **[!UICONTROL Personalization block]**. Seleccione **[!UICONTROL Greetings]** y haga clic en **[!UICONTROL OK]**.
 
-  ![](assets/dce_personalizationblock_greetings.png)
+  ![Insertar un cuadro de diálogo de elementos con el bloque personalizado Greetings seleccionado, abierto desde el menú de la barra de herramientas.](assets/dce_personalizationblock_greetings.png)
 
 * Inserción de un vínculo en una imagen
 
   Para transferir los destinatarios de envíos a una dirección externa a través de una imagen, haga clic en la imagen correspondiente para mostrar la barra de herramientas emergente, coloque el cursor en el primer icono y haga clic en **[!UICONTROL Link to an external URL]**. Para obtener más información, consulte [Adición de un vínculo](editing-content.md#adding-a-link).
 
-  ![](assets/dce_externalpage.png)
+  ![Menú de la barra de herramientas de imágenes con la opción Vínculo a una URL externa seleccionada.](assets/dce_externalpage.png)
 
   Introduzca la dirección URL del vínculo en el campo **URL** con el formato **https://www.myURL.com** y, a continuación, confirme la acción.
 
@@ -122,7 +122,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
   Haga clic en el campo de texto en el que desea ver el vínculo publicado. Haga clic en el primer icono de la barra de herramientas emergente, seleccione **[!UICONTROL Personalization block]** y luego **[!UICONTROL Link to Mirror Page (MirrorPage)]**. Haga clic en **[!UICONTROL Save]** para confirmar.
 
-  ![](assets/dce_mirrorpage.png)
+  ![Menú de la barra de herramientas en el editor de texto con la opción de bloque de Personalization seleccionada.](assets/dce_mirrorpage.png)
 
   >[!CAUTION]
   >
@@ -134,7 +134,7 @@ Se puede guardar este contenido como una plantilla para su uso futuro. Una vez c
 
   Seleccione un campo de texto para enlazar a una aplicación web y, a continuación, haga clic en el primer icono. Seleccione **[!UICONTROL Link to a Web application]** y luego seleccione la aplicación deseada haciendo clic en el icono situado al final del campo **Web Application**.
 
-  ![](assets/dce_webapp.png)
+  ![Insertar un cuadro de diálogo de vínculo con los campos Etiqueta y Aplicación web y un botón Aceptar.](assets/dce_webapp.png)
 
   Haga clic en **Guardar** para confirmar.
 

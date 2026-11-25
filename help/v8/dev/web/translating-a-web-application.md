@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 93%
+source-wordcount: '428'
+ht-degree: 78%
 ---
 # Traducción de una aplicación web{#translating-a-web-application}
 
@@ -36,18 +36,18 @@ Si, en la opción **[!UICONTROL Localization]** de una aplicación web, seleccio
 
 Esta opción le permite indicar si el contenido del bloque debe traducirse o no.
 
-Las cadenas que desea traducir se recopilan del mismo modo que las otras cadenas de la aplicación web, a través de la pestaña **[!UICONTROL Translations]** de la aplicación. Para obtener más información, consulte [esta página](translating-a-web-form.md).
+Las cadenas que desea traducir se recopilan del mismo modo que las otras cadenas de la aplicación web, a través de la pestaña **[!UICONTROL Translations]** de la aplicación. Para obtener más información, consulte [Traducir un formulario web](translating-a-web-form.md).
 
 Para marcar las cadenas que se deben traducir:
 
 1. Abra una página de contenido editada con DCE en una aplicación web.
 
-   ![](assets/dce_translation_3.png)
+   ![Editor de aplicaciones web con la actividad de página resaltada en los flujos Preloading, Page, Storage y End](assets/dce_translation_3.png)
 
 1. Seleccione un bloque HTML.
 1. En el bloque de parámetros de la derecha, la opción **[!UICONTROL Localization]** le permite marcar el contenido del bloque seleccionado. De forma predeterminada, solo se debe traducir el título de la página.
 
-   ![](assets/dce_translation_1.png)
+   ![Bloquear opciones con la sección de localización y su opción de traducción Sí/No resaltada](assets/dce_translation_1.png)
 
    >[!NOTE]
    >
@@ -58,11 +58,11 @@ Para marcar las cadenas que se deben traducir:
    * Cuando el bloque seleccionado contiene varias cadenas o bloques, se marca como una sola cadena que se debe traducir. A continuación, la cadena contiene el código HTML de los elementos de este bloque.
    * Cuando se desea marcar un bloque que contiene varias cadenas y al menos una de ellas está marcada, se muestra un mensaje de advertencia. A continuación, se puede eliminar la marca de la cadena aislada y añadir el bloque completo.
 
-     ![](assets/dce_translation_4.png)
+     ![Advertencia del cuadro de diálogo de confirmación de agrupación de que el bloque ya contiene 2 elementos por traducir](assets/dce_translation_4.png)
 
    * Si desea eliminar la marca de una cadena contenida en un bloque que ya está marcado, no se puede modificar directamente la opción de traducción de la cadena. Sin embargo, puede acceder al bloque que contiene la cadena para cambiarla.
 
-     ![](assets/dce_translation_2.png)
+     ![Advertencia de sección de localización de que el elemento ya está en un bloque para traducir, con un botón Seleccionar bloque](assets/dce_translation_2.png)
 
 1. Cuando haya terminado de marcar las cadenas, vuelva a la aplicación web y seleccione la pestaña **[!UICONTROL Translations]**.
 1. Seleccione **[!UICONTROL Collect the strings to translate]**. Las cadenas marcadas en el DCE se añaden a las cadenas de la aplicación web.

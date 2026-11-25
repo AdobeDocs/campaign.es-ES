@@ -21,10 +21,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 93%
+source-wordcount: '1069'
+ht-degree: 76%
 ---
 # Respuestas de formularios web{#web-forms-answers}
 
@@ -35,7 +35,7 @@ Las respuestas a los formularios se pueden guardar en un campo de la base de dat
 
 Para cada campo de entrada de un formulario, están disponibles las siguientes opciones de almacenamiento:
 
-![](assets/s_ncs_admin_survey_select_storage.png)
+![Campo de entrada Apellidos con el vínculo Editar almacenamiento y el cuadro de diálogo Almacenamiento que muestra las opciones Editar un destinatario y Variable.](assets/s_ncs_admin_survey_select_storage.png)
 
 * **[!UICONTROL Edit a recipient]**
 
@@ -43,13 +43,13 @@ Para cada campo de entrada de un formulario, están disponibles las siguientes o
 
 * **[!UICONTROL Variable]**
 
-  Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local &#x200B;](#storing-data-in-a-local-variable).
+  Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local ](#storing-data-in-a-local-variable).
 
 ### Almacenamiento de información en la base de datos {#storing-data-in-the-database}
 
 Para guardar la información en un campo existente de la base de datos, haga clic en el icono **[!UICONTROL Edit expression]** y selecciónela en la lista de campos disponibles.
 
-![](assets/s_ncs_admin_survey_storage_type1.png)
+![Cuadro de diálogo de almacenamiento con la expresión Edit que abre el selector de campo, donde Apellido (@lastName) está seleccionado.](assets/s_ncs_admin_survey_storage_type1.png)
 
 >[!NOTE]
 >
@@ -61,15 +61,15 @@ Puede utilizar variables locales para que, aun cuando los datos no estén almace
 
 Esto significa que se puede utilizar el valor de un campo sin guardar para autorizar la visualización de un grupo de opciones en la página. En la página siguiente, el tipo de vehículo no se almacena en la base de datos:
 
-![](assets/s_ncs_admin_survey_no_storage_variable.png)
+![Tipo de cuadro combinado de coche con el almacenamiento establecido en la variable typeV y el vínculo Editar almacenamiento.](assets/s_ncs_admin_survey_no_storage_variable.png)
 
 Se almacena en una variable que se debe seleccionar cuando se crea la casilla desplegable o a través del vínculo **[!UICONTROL Edit storage...]**.
 
-![](assets/s_ncs_admin_survey_no_storage_variable2.png)
+![Cuadro de diálogo de almacenamiento con la opción Variable y un listado desplegable Tipo de automóvil, Camión móvil y Vehículo personal.](assets/s_ncs_admin_survey_no_storage_variable2.png)
 
 Puede mostrar las variables existentes y crear variables nuevas mediante el vínculo **[!UICONTROL Edit variables...]**. Haga clic en el botón **[!UICONTROL Add]** para crear una variable nueva.
 
-![](assets/s_ncs_admin_survey_add_a_variable.png)
+![Editar lista de variables y cuadro de diálogo Variable con la etiqueta Energía del automóvil y el nombre, escriba Texto para agregar una variable.](assets/s_ncs_admin_survey_add_a_variable.png)
 
 La variable añadida está disponible en la lista de variables locales cuando se crean los campos de entrada de la página.
 
@@ -81,19 +81,19 @@ La variable añadida está disponible en la lista de variables locales cuando se
 
 En el ejemplo anterior, el contenedor que incluye los datos sobre los vehículos privados solo se muestra si la opción **[!UICONTROL Private]** está seleccionada en la lista desplegable, como se indica en la condición de visibilidad:
 
-![](assets/s_ncs_admin_survey_add_a_condition.png)
+![Condición de visibilidad del contenedor de coche personal: tipo de coche igual a Personal.](assets/s_ncs_admin_survey_add_a_condition.png)
 
 Si el usuario selecciona un vehículo privado, el formulario web ofrece las siguientes opciones:
 
-![](assets/s_ncs_admin_survey_no_storage_conda.png)
+![Página de formulario de reserva de vehículo que muestra la lista desplegable Tipo de vehículo con Seleccionar, Compacto, Intermedio y Estándar.](assets/s_ncs_admin_survey_no_storage_conda.png)
 
 El contenedor que contiene los datos sobre los vehículos comerciales se muestra si se selecciona la opción Profesional, tal como expresa la condición de visibilidad:
 
-![](assets/s_ncs_admin_survey_view_a_condition.png)
+![Condición de visibilidad del contenedor de camión/furgoneta: el origen es igual al del camión.](assets/s_ncs_admin_survey_view_a_condition.png)
 
 Esto significa que, si el usuario selecciona un vehículo comercial, el formulario ofrece las siguientes opciones:
 
-![](assets/s_ncs_admin_survey_no_storage_condb.png)
+![Formulario de reserva de auto con camioneta en movimiento seleccionada y una lista desplegable de Clase Minibus, Recogida, Camioneta de carga y Camión 20.](assets/s_ncs_admin_survey_no_storage_condb.png)
 
 ## Uso de información recopilada {#using-collected-information}
 
@@ -125,7 +125,7 @@ Para cada formulario, las respuestas proporcionadas pueden reutilizarse en los c
 
 Para guardar la información recopilada en las páginas de un formulario, se debe colocar un cuadro de almacenamiento en el diagrama.
 
-![](assets/s_ncs_admin_survey_save_box.png)
+![Diagrama de formulario web con las actividades Página de bienvenida, Suscribirse, Almacenamiento y Finalizar; se resaltó el cuadro de almacenamiento.](assets/s_ncs_admin_survey_save_box.png)
 
 Este cuadro se puede utilizar de dos formas:
 
@@ -139,13 +139,13 @@ Este cuadro se puede utilizar de dos formas:
 
 * Para enriquecer los datos de los destinatarios en la base de datos, edite el cuadro de almacenamiento y seleccione la clave de reconciliación. Para uso interno (normalmente un sistema intranet) o para un formulario utilizado para crear perfiles nuevos, se pueden seleccionar los campos de reconciliación. El cuadro ofrece todos los campos de la base de datos utilizados en las distintas páginas de la aplicación web:
 
-  ![](assets/s_ncs_admin_survey_save_box_edit.png)
+  ![Cuadro de diálogo de actividad de almacenamiento con el árbol de opciones de reconciliación de los campos Destinatarios y el campo Carpeta de búsqueda.](assets/s_ncs_admin_survey_save_box_edit.png)
 
 De forma predeterminada, los datos se importan en la base de datos mediante una operación **[!UICONTROL Update or insertion]**: si existe en la base de datos, el elemento se actualiza (por ejemplo, la newsletter seleccionada o la dirección de correo electrónico ingresada). Si no existe, se añade la información.
 
 Sin embargo, se puede cambiar este comportamiento. Para ello, seleccione la raíz del elemento y la operación que desea ejecutar en la lista desplegable:
 
-![](assets/s_ncs_admin_survey_save_operation.png)
+![Lista de operaciones de actividad de almacenamiento: sólo reconciliación, actualizar o insertar, insertar, actualizar y eliminar.](assets/s_ncs_admin_survey_save_operation.png)
 
 Puede seleccionar una carpeta de búsqueda para la reconciliación y una carpeta de creación de nuevos perfiles. Si estos campos están vacíos, los perfiles se buscan y se crean en la carpeta predeterminada del operador.
 
@@ -153,4 +153,4 @@ Puede seleccionar una carpeta de búsqueda para la reconciliación y una carpeta
 >
 >Las operaciones posibles son: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
 >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene permiso de escritura.\
->Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
+>Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.

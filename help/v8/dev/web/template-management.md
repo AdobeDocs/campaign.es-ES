@@ -25,10 +25,10 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 87%
+source-wordcount: '148'
+ht-degree: 68%
 ---
 # Administración de plantillas{#template-management}
 
@@ -38,7 +38,7 @@ El editor de contenido digital ofrece **plantillas estándar** para las aplicaci
 
 Al crear una aplicación web de tipo página de destino, el usuario puede elegir una de estas plantillas. Asimismo, se puede importar una plantilla HTML creada fuera de Adobe Campaign.
 
-![](assets/dce_popup_templatechoice.png)
+![Elija un cuadro de diálogo de contenido que enumere las plantillas de contenido disponibles, como Desde un archivo, Contacto y Clic](assets/dce_popup_templatechoice.png)
 
 Para añadir una plantilla, consulte [Opciones globales](content-editor-interface.md#global-options).
 
@@ -48,6 +48,6 @@ Después de configurar una entrega, puede guardarla como plantilla para reutiliz
 
 En la pestaña **Campañas**, abra la entrega seleccionada. Haga clic en el botón **Guardar como plantilla**, asigne un nombre a la plantilla y guárdela.
 
-![](assets/dce_save_model.png)
+![Editor de contenido de HTML con el icono Guardar como plantilla resaltado en la barra de herramientas derecha](assets/dce_save_model.png)
 
 La nueva plantilla se guardará en el nodo **Recursos > Plantillas > Plantillas de contenido** del explorador.

@@ -32,10 +32,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: d3b34546c1b08190772154efe6f818b98cc1094c
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '511'
+ht-degree: 76%
 ---
 # Seguimiento de las visitas en una aplicación web{#tracking-a-web-application}
 
@@ -50,11 +50,11 @@ Las principales mejoras incluidas en esta versión son las siguientes:
 * Posibilidad de insertar varias etiquetas de seguimiento en una misma página para facilitar la definición de las rutas de navegación (por ejemplo: compras, suscripciones, devoluciones, etc.).
 * Visualización de rutas de navegación y las etiquetas de seguimiento de las diferentes páginas en el panel de control de la aplicación web.
 
-  ![](assets/trackers_1.png)
+  ![Panel de aplicaciones web con la sección de etiquetas de seguimiento que enumera las rutas de conversión y la fase de etiqueta de seguimiento en cada página](assets/trackers_1.png)
 
 * Generación de un informe de seguimiento completo.
 
-  ![](assets/trackers_5.png)
+  ![Informe de análisis de etiquetas de seguimiento con visitas totales, visitantes únicos, tasa de conversión, tasa de salida hacia otro sitio y gráfico de visitas](assets/trackers_5.png)
 
   Los indicadores principales son los siguientes:
 
@@ -71,7 +71,7 @@ Se pueden utilizar dos modos diferentes para identificar de dónde proviene el v
 1. Al realizar una entrega específica para conceder acceso a las páginas de la aplicación web: en este caso, la fuente de tráfico es la entrega.
 1. Al asociar la aplicación web a una fuente de tráfico específica: en este caso, debe ser una entrega del tipo fuente de tráfico externa. Se puede seleccionar desde las propiedades de la aplicación web o desde la asignación de destino.
 
-   ![](assets/trackers_6.png)
+   ![Cuadro de diálogo de parámetros avanzados de las propiedades de la aplicación web, con el campo Traffic source establecido en una entrega web](assets/trackers_6.png)
 
 Para identificar el origen del tráfico en una aplicación web, Adobe Campaign espera sucesivamente la siguiente información:
 
@@ -85,14 +85,14 @@ Para identificar el origen del tráfico en una aplicación web, Adobe Campaign e
 
 ## Aplicaciones web diseñadas con el editor de contenido digital (DCE) {#web-applications-designed-with-digital-content-editor--dce-}
 
-Cuando se crea una aplicación web con el editor de contenido HTML **Editor de contenido digital (DCE)**, las etiquetas de seguimiento se insertan desde la pestaña **[!UICONTROL Properties]** del editor. Para obtener más información sobre el editor de contenido (DCE), consulte [esta sección](about-campaign-html-editor.md).
+Cuando se crea una aplicación web con el editor de contenido HTML **Editor de contenido digital (DCE)**, las etiquetas de seguimiento se insertan desde la pestaña **[!UICONTROL Properties]** del editor. Para obtener más información sobre el editor de contenido (DCE), consulte [Introducción al editor de HTML de Campaign](about-campaign-html-editor.md).
 
-![](assets/trackers_2.png)
+![Pestaña Propiedades de la página DCE donde se asigna una etiqueta de seguimiento a un objetivo, como Suscripción, Conversión o Actualización](assets/trackers_2.png)
 
 Al utilizar la interfaz web, se deben insertar las etiquetas de seguimiento desde las propiedades de la página.
 
-![](assets/trackers_3.png)
+![Propiedades del cuadro de diálogo de página, ficha Etiquetas de seguimiento, que enumera cada etiqueta con su acción de fase y destino](assets/trackers_3.png)
 
 El icono **[!UICONTROL Display blocks]** permite ver el número de etiquetas de seguimiento establecidas para la página.
 
-![](assets/trackers_4.png)
+![Icono de bloques de visualización en el editor web, con información sobre herramientas que indica 2 etiquetas de seguimiento en la página](assets/trackers_4.png)
