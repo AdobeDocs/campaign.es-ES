@@ -34,9 +34,9 @@ level_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '322'
+source-wordcount: '345'
 ht-degree: 2%
 ---
 # Mecanismo de ensayo de API de Campaign
@@ -66,7 +66,7 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
 
 1. Cree un esquema personalizado de ejemplo en la base de datos de Campaign Cloud. No hay ningún ensayo habilitado en este paso.
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" created="YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -79,13 +79,13 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
    </srcSchema>
    ```
 
-   Obtenga más información acerca de la creación de esquemas personalizados en [esta página](../dev/create-schema.md).
+   Obtenga más información acerca de la creación de esquemas personalizados en [Crear un nuevo esquema en Campaign](../dev/create-schema.md).
 
 1. Guarde y actualice la estructura de la base de datos.  [Más información](../dev/update-database-structure.md)
 
 1. Habilite el mecanismo de ensayo en la definición del esquema agregando el parámetro **autoStg=&quot;true&quot;**.
 
-   ```
+   ```xml
    <srcSchema _cs="Sample Table (dem)" "YYYY-DD-MM"
            entitySchema="xtk:srcSchema" img="xtk:schema.png" label="Sample Table"
            lastModified="YYYY-DD-MM HH:MM:SS.TZ" mappingType="sql" md5="XXX"
@@ -100,6 +100,6 @@ Para implementar el mecanismo de ensayo de Campaign en una tabla específica, si
 
 1. Guarde la modificación. Hay disponible un nuevo esquema de ensayo, que es una copia local del esquema inicial.
 
-   ![](assets/staging-mechanism.png)
+   ![Origen XML del esquema de ensayo generado dem:sampleTableStg para la tabla de muestra (ensayo), una copia local del esquema inicial](assets/staging-mechanism.png)
 
 1. Actualizar la estructura de la base de datos. La tabla de ensayo se creará en la base de datos local de Campaign.

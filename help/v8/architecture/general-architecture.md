@@ -50,9 +50,9 @@ topic_v2:
     internal-label: Personalization
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1180'
 ht-degree: 7%
 ---
 # Arquitectura general{#general-architecture}
@@ -128,7 +128,7 @@ En su [implementación empresarial (FDAC)](enterprise-deployment.md), la base de
 
 Puede implementar Adobe Campaign utilizando la base de datos y los esquemas predefinidos y, si es necesario, se puede ampliar este entorno predefinido. Adobe Campaign accede a todos los datos del data mart a través de llamadas SQL. Adobe Campaign también proporciona un complemento completo de herramientas de extracción, transformación y carga (ETL) para importar y exportar datos dentro y fuera del sistema.
 
-![](assets/data-flow-diagram.png)
+![Tráfico entre equipos cliente, servidores frontales con seguimiento y MTA, servidor de aplicaciones, base de datos, buzón de rechazos](assets/data-flow-diagram.png)
 
 
 >[!CAUTION]
@@ -141,4 +141,4 @@ Puede implementar Adobe Campaign utilizando la base de datos y los esquemas pred
 
 La asignación de almacenamiento total se divide entre la base de datos principal y la base de datos secundaria (opcional) de Snowflake. El lugar donde se almacenan los datos debe determinarse en el momento de la implementación o la actualización, según los casos de uso específicos del cliente.
 
-Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html?lang=es){target="_blank"}.
+Aprenda a monitorizar el uso de la base de datos en [Documentación del Panel de control de Campaign de Campaign](https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/database-monitoring/database-monitoring.html){target="_blank"}.

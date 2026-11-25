@@ -42,10 +42,10 @@ topic_v2:
     internal-label: Reporting
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 9d4ec9f8454acd6a939221075251c265a1ffd672
 workflow-type: tm+mt
-source-wordcount: '1073'
-ht-degree: 44%
+source-wordcount: '1093'
+ht-degree: 42%
 ---
 # Implementación de FDAC [!DNL Campaign] {#gs-ac-ffda}
 
@@ -63,7 +63,7 @@ Este es un cambio fundamental en la arquitectura del software. Ahora, los datos 
 
 El almacenamiento en la nube se realiza en **[!DNL Snowflake]**: una nueva **cuenta externa** integrada garantiza la conectividad con la base de datos en la nube. Está configurado por Adobe y no debe modificarse. [Más información](../config/external-accounts.md)
 
-Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de datos en la nube viene con una extensión de esquema integrada en el espacio de nombres xxl.**&#x200B;** Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos de [!DNL Campaign] local a la base de datos de [!DNL Snowflake] en la nube y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
+Cualquier esquema o tabla integrada que deba moverse o replicarse en la base de datos en la nube viene con una extensión de esquema integrada en el espacio de nombres xxl.**** Estas extensiones contienen cualquier modificación necesaria para mover esquemas integrados de la base de datos de [!DNL Campaign] local a la base de datos de [!DNL Snowflake] en la nube y adaptar su estructura en consecuencia: nuevo UUID, vínculos actualizados, etc.
 
 >[!CAUTION]
 >
@@ -76,11 +76,11 @@ En una implementación [empresarial (FDAC)](../architecture/enterprise-deploymen
 
 La versión 8 de Campaign Enterprise incorpora el concepto de **Acceso de datos federado completo** (FDAC): todos los datos ahora son remotos en la base de datos en la nube.
 
-Hay API específicas disponibles para administrar los datos entre la base de datos local y la base de datos en la nube. Descubra cómo funcionan estas nuevas API y cómo utilizarlas en [esta página](new-apis.md).
+Hay API específicas disponibles para administrar los datos entre la base de datos local y la base de datos en la nube. Descubra cómo funcionan estas nuevas API y cómo utilizarlas en [Nuevas API de Campaign v8](new-apis.md).
 
 La comunicación general entre servidores y procesos se realiza según el siguiente esquema:
 
-![](assets/architecture.png)
+![Instancia de marketing con Snowflake y PgSQL, instancias de centro de mensajes y fuentes intermedias, consumidores, seguimiento, pasos del 1 al 4](assets/architecture.png)
 
 * Los módulos de administración de ejecución y rechazos están desactivados en la instancia.
 * La aplicación está configurada para ejecutar mensajes en un servidor &quot;intermediario&quot; remoto que se administra mediante llamadas de SOAP (a través de HTTP o HTTPS).
