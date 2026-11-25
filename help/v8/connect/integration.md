@@ -57,9 +57,9 @@ La versión 8 de Campaign puede conectarse con las siguientes soluciones de Adob
 
 También puede combinar sus **audiencias** y **recursos** en las soluciones de [!DNL CX Enterprise] con las capacidades de uso compartido de recursos y Audiencias.
 
-Obtenga más información acerca del uso compartido de **audiencias** entre Campaign y las soluciones [!DNL CX Enterprise] en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información acerca del uso compartido de **audiencias** entre Campaign y las soluciones [!DNL CX Enterprise] en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/audience-sharing/sharing-audiences-with-adobe-experience-cloud.html?lang=es#integrating-with-adobe-experience-cloud){target="_blank"}.
 
-Obtenga más información sobre **Uso compartido de recursos** entre Campaign y [!DNL CX Enterprise] soluciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html#integrating-with-adobe-experience-cloud){target="_blank"}.
+Obtenga más información sobre **Uso compartido de recursos** entre Campaign y [!DNL CX Enterprise] soluciones en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/integrating-with-adobe-experience-cloud/asset-sharing/sharing-assets-with-adobe-experience-cloud.html?lang=es#integrating-with-adobe-experience-cloud){target="_blank"}.
 
 >[!NOTE]
 >
