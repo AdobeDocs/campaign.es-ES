@@ -63,7 +63,7 @@ La página de error se define en la pestaña correspondiente de la ventana de pr
 
 Muestra la siguiente información de forma predeterminada:
 
-![Página del explorador que muestra el mensaje de error predeterminado: se produjo un error. Si el problema persiste, póngase en contacto con el administrador ](assets/s_ncs_admin_survey_default_error_page.png)
+![Página del explorador que muestra el mensaje de error predeterminado: se produjo un error. Si el problema persiste, póngase en contacto con el administrador &#x200B;](assets/s_ncs_admin_survey_default_error_page.png)
 
 El contenido de las cadenas mostradas se define en la pestaña **[!UICONTROL Error page]** de la ventana de propiedades. La pestaña **[!UICONTROL HTML]** muestra la renderización y la pestaña **[!UICONTROL Texts]** permite modificar las cadenas de texto y añadir texto si es necesario:
 

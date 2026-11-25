@@ -194,7 +194,7 @@ La suscripción al boletín informativo implica los pasos siguientes:
 
 1. Al hacer clic en este vínculo, la página de aprobación se muestra en el explorador.
 
-   ![ página de navegador titulada ¡Felicitaciones! confirmando que la suscripción está activa.](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
+   ![&#x200B; página de navegador titulada ¡Felicitaciones! confirmando que la suscripción está activa.](assets/s_ncs_admin_survey_double-opt-in_sample_8.png)
 
    En Adobe Campaign se actualiza el perfil de usuario:
 

@@ -65,7 +65,7 @@ En el siguiente ejemplo, se crean aplicaciones web de tipo “descripción gener
    ![Cuadro de diálogo Propiedades, ficha Representación, con la plantilla Aplicación web de una sola página seleccionada en la lista Plantilla.](assets/s_ncs_configuration_webapp_rendering.png)
 
 1. Abra la actividad **[!UICONTROL Page]** de la aplicación web y abra una lista (**[!UICONTROL Static element > List]**).
-1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]****[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
+1. En la pestaña **[!UICONTROL Data]** de la lista, seleccione el tipo de documento **[!UICONTROL Web applications]** y las columnas de salida **[!UICONTROL Creation date]**&#x200B;**[!UICONTROL Label]**, y **[!UICONTROL Type of application]**.
 1. En la subpestaña **[!UICONTROL Filter]**, cree el siguiente filtro, tal y como se muestra a continuación, para visualizar las aplicaciones web y excluir las plantillas de la vista.
 
    ![Ficha Datos de lista, subficha Filtro, con condiciones Plantilla igual a No y Clave principal no igual a 0.](assets/s_ncs_configuration_webapp_filter.png)
