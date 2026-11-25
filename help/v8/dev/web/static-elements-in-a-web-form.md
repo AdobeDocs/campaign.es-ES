@@ -26,7 +26,7 @@ topic_v2:
     internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 100%
@@ -77,7 +77,7 @@ Para añadir un vínculo de hipertexto, vaya a **[!UICONTROL Static elements]** 
 ![](assets/s_ncs_admin_survey_add_link.png)
 
 * **[!UICONTROL Label]** es el contenido del vínculo de hipertexto tal como muestra en la página del formulario.
-* **[!UICONTROL URL]** es la dirección deseada, por ejemplo: [https://www.adobe.com/es](https://www.adobe.com/es) para un sitio web o [info@adobe.com](mailto:info@adobe.com) para enviar un mensaje.
+* **[!UICONTROL URL]** es la dirección deseada, por ejemplo: [https://www.adobe.com](https://www.adobe.com) para un sitio web o [info@adobe.com](mailto:info@adobe.com) para enviar un mensaje.
 * El campo **[!UICONTROL Window]** permite seleccionar el modo de visualización para el vínculo en el caso de un sitio. Puede decidir abrir el vínculo en una nueva ventana, en la ventana actual o en otra ventana.
 * Puede añadir una descripción emergente sobre herramientas, como se muestra a continuación:
 
@@ -145,7 +145,7 @@ En nuestro ejemplo, el nombre y los apellidos del destinatario se almacenan en u
 
 ![](assets/webapp_perso_vars_include.png)
 
-```
+```xml
 <P>Welcome <%= ctx.recipient.@firstName %> <%= ctx.recipient.@lastName %>,</P>
 <P>To start your customized study, please select your car <%=ctx.vars.marque%> and its year of purchase.</P>
 ```

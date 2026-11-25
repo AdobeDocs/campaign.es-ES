@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '89'
 ht-degree: 0%
@@ -33,7 +33,7 @@ La API de REST de Adobe Campaign puede contar el número de registros de una sol
 
 Para contar todos los servicios que tienen un valor **messageType** igual a &quot;sms&quot;, realice una petición GET con el filtro **byChannel**.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel?channel=sms \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -43,7 +43,7 @@ Para contar todos los servicios que tienen un valor **messageType** igual a &quo
 
 Devuelve los servicios correspondientes al filtro.
 
-```
+```json
 {
     "content": [
         {
@@ -64,7 +64,7 @@ Devuelve los servicios correspondientes al filtro.
 
 Realice una petición GET en la dirección URL del nodo **count** para recuperar el número de resultados.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/service/byChannel/_count?channel=sms&_lineStart=@iKTZ2q3IiSEDqZ5Nw1vdoGnQCqF-8DAUJRaVwR9obqqTxhMy \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ Realice una petición GET en la dirección URL del nodo **count** para recuperar
 
 Devuelve el número de registros.
 
-```
+```json
 {
     "count": 26
 }

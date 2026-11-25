@@ -26,7 +26,7 @@ subfeature_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '1583'
 ht-degree: 98%
@@ -178,17 +178,17 @@ Una vez finalizada la traducción externa, puede importar los archivos traducido
 
 Los formularios web se muestran en el idioma predeterminado especificado en la pestaña **[!UICONTROL Localization]** de las propiedades de la aplicación web. Para cambiar de idioma, debe añadir los siguientes caracteres al final de la dirección URL (donde **xx** es el símbolo del idioma):
 
-```
+```text
 ?lang=xx
 ```
 
 si el idioma es el primer o único parámetro de la dirección URL. Por ejemplo: **https://myserver/webApp/APP34**
 
-```
+```text
 &lang=xx
 ```
 
-si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
+si hay otros parámetros antes del idioma en la dirección URL. Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 A continuación se enumeran los idiomas y diccionarios de traducción disponibles de forma predeterminada.
 
@@ -449,7 +449,7 @@ Puede añadir **?lang=es** o **?lang=de** para mostrarlo en español o alemán.
 >[!NOTE]
 >
 >Si ya se han añadido otros parámetros a esta aplicación web, añada **&amp;lang=**.\
->Por ejemplo: **https://myserver/webApp/APP34?status=1&lang=en**
+>Por ejemplo: **https://myserver/webApp/APP34?status=1&amp;lang=en**
 
 ## Configuración avanzada de traducción {#advanced-translation-configuration}
 

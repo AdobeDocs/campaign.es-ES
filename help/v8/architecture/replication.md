@@ -40,7 +40,7 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 2%
@@ -74,7 +74,7 @@ Las políticas de replicación definen la cantidad de datos que se duplican desd
 
 La versión 8 de Campaign se basa en flujos de trabajo técnicos específicos para administrar la duplicación de datos programada. Estos flujos de trabajo técnicos están disponibles en el nodo **[!UICONTROL Administration > Production > Technical workflows > Full FFDA Replication]** del explorador de Campaign. **No se deben modificar.**
 
-Los flujos de trabajo técnicos ejecutan procesos o trabajos, programados de forma regular en el servidor. La lista completa de flujos de trabajo técnicos se detalla en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html?lang=es){target="_blank"}.
+Los flujos de trabajo técnicos ejecutan procesos o trabajos, programados de forma regular en el servidor. La lista completa de flujos de trabajo técnicos se detalla en [esta página](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/wf-type/technical-workflows.html){target="_blank"}.
 
 Los flujos de trabajo técnicos que garantizan la duplicación de datos son los siguientes:
 
@@ -93,7 +93,7 @@ Además del flujo de trabajo técnico integrado **Replicar tablas de referencia*
 
 * Agregue una actividad **Javascript code** específica con el siguiente código:
 
-  ```
+  ```javascript
   nms.replicationStrategy.StartReplicateStagingData("dem:sampleTable")
   ```
 
@@ -101,7 +101,7 @@ Además del flujo de trabajo técnico integrado **Replicar tablas de referencia*
 
 * Agregue una actividad **nlmodule** específica con el siguiente comando:
 
-  ```
+  ```bash
   nlserver ffdaReplicateStaging -stagingSchema -instance:acc1
   ```
 
@@ -121,7 +121,7 @@ Las API permiten la replicación de datos personalizados y predeterminados de la
 
 Ejemplo:
 
-```
+```javascript
 var dataSource = "nms:extAccount:ffda";
 var xml = xtk.builder.CopyXxlData(
     <params dataSource={dataSource} policy="xs">
@@ -147,6 +147,6 @@ Cada cola se administra mediante un flujo de trabajo técnico, que administra la
 
 Este vídeo presenta los conceptos clave de las bases de datos que utiliza Adobe Campaign v8, por qué se replican los datos, qué datos se replican y cómo funciona el proceso de replicación.
 
->[!VIDEO](https://video.tv.adobe.com/v/3416864?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/334460?quality=12)
 
-Hay disponibles [tutoriales adicionales de la consola del cliente de Campaign v8 aquí](https://experienceleague.adobe.com/es/docs/campaign-learn/tutorials/overview).
+Hay disponibles [tutoriales adicionales de la consola del cliente de Campaign v8 aquí](https://experienceleague.adobe.com/en/docs/campaign-learn/tutorials/overview).

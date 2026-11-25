@@ -21,7 +21,7 @@ subfeature_v2:
     internal-label: Web Forms
   - id: d7be2b01-dc9c-40f7-aace-a151707504ed
     internal-label: Landing pages
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 93%
@@ -43,7 +43,7 @@ Para cada campo de entrada de un formulario, están disponibles las siguientes o
 
 * **[!UICONTROL Variable]**
 
-  Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local &#x200B;](#storing-data-in-a-local-variable).
+  Si no desea almacenar información en la base de datos, puede utilizar una variable. Las variables locales se pueden declarar en sentido ascendente. Consulte [Almacenamiento de datos en una variable local ](#storing-data-in-a-local-variable).
 
 ### Almacenamiento de información en la base de datos {#storing-data-in-the-database}
 
@@ -101,19 +101,19 @@ Para cada formulario, las respuestas proporcionadas pueden reutilizarse en los c
 
 * Para el contenido almacenado en un campo de la base de datos:
 
-  ```
+  ```html
   <%=ctx.recipient.@field name%
   ```
 
 * Para el contenido almacenado en una variable local:
 
-  ```
+  ```html
   <%= ctx.vars.variable name %
   ```
 
 * Para el contenido almacenado en un campo de texto de HTML:
 
-  ```
+  ```html
   <%== HTML field name %
   ```
 
@@ -153,4 +153,4 @@ Puede seleccionar una carpeta de búsqueda para la reconciliación y una carpeta
 >
 >Las operaciones posibles son: **[!UICONTROL Simple reconciliation]**, **[!UICONTROL Update or insertion]**, **[!UICONTROL Insertion]**, **[!UICONTROL Update]**, **[!UICONTROL Deletion]**.\
 >La carpeta predeterminada de un operador es la primera carpeta para la que el operador tiene permiso de escritura.\
->Consulte [esta sección](https://experienceleague.adobe.com/es/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.
+>Consulte [esta sección](https://experienceleague.adobe.com/en/docs/campaign-classic/using/getting-started/permissions/access-management){target="_blank"}.

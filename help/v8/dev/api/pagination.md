@@ -18,7 +18,7 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 1%
@@ -41,7 +41,7 @@ El parámetro **_lineCount** le permite limitar el número de recursos enumerado
 
 Ejemplo de solicitud GET para mostrar 1 registro del recurso de perfil.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_lineCount=1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -51,7 +51,7 @@ Ejemplo de solicitud GET para mostrar 1 registro del recurso de perfil.
 
 Respuesta a la solicitud, con el nodo **next** para realizar la paginación.
 
-```
+```json
 {
     "content": [
         {
@@ -72,7 +72,7 @@ Respuesta a la solicitud, con el nodo **next** para realizar la paginación.
 
 De manera predeterminada, el nodo **next** no está disponible cuando se interactúa con tablas con una gran cantidad de datos. Para poder realizar la paginación, debe agregar el parámetro **_forcePagination=true** a la dirección URL de la llamada.
 
-```
+```bash
 -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile?_forcePagination=true \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \

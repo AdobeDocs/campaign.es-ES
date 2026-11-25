@@ -24,7 +24,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
     internal-label: Intermediate
-source-git-commit: 04759fefdf28498191634f2f1b3e1a236b7e458f
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 96%
@@ -53,7 +53,7 @@ Ambos métodos contienen un elemento **`<urn:sessiontoken>`** para iniciar sesi�
 
 Si utiliza un servidor balanceador de carga, puede utilizar la autenticación Usuario/Contraseña (en el nivel del mensaje RT). Ejemplo:
 
-```
+```xml
 <PushEvent xmlns="urn:nms:rtEvent">
 <sessiontoken>mc/PASSWORD</sessiontoken>
 <domEvent>
@@ -71,7 +71,7 @@ El método **PushEvents** está formado por un parámetro **`<urn:domeventcollec
 
 Ejemplo con PushEvent:
 
-```
+```xml
 <urn:PushEvent>
 
  <sessiontoken>___921f9b38-72ac-49ad-b481-ab32973efc50</sessiontoken>
@@ -95,7 +95,7 @@ Ejemplo con PushEvent:
 
 Ejemplo con PushEvents:
 
-```
+```xml
 <urn:PushEvents>
 
  <sessiontoken>___921f9b38-72ac-49ad-b481-ab32973efc50</sessiontoken>
@@ -127,7 +127,7 @@ Los atributos obligatorios de los elementos **`<rtevent>`** y **`<batchEvent>`**
 
 `<rtevent> configuration example:`
 
-```
+```xml
 <rtEvent type="order_confirmation" email="john.doe@domain.com" origin="eCommerce" wishedChannel="0" externalId="1242" mobilePhone="+33620202020"> 
 ```
 
@@ -149,7 +149,7 @@ El elemento **`<ctx>`** contiene los datos del mensaje. Su contenido XML está a
 
 Ejemplo de datos:
 
-```
+```xml
    <ctx>
                <client>
                         <firstname>John</firstname>
@@ -178,7 +178,7 @@ Cuando recibe un evento, Adobe Campaign genera un ID de retorno único. Este es 
 
 * Ejemplo de un identificador devuelto por el método cuando el procesamiento de eventos es exitoso:
 
-  ```
+  ```xml
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">
@@ -194,7 +194,7 @@ Sin embargo, si no se puede procesar el evento, el método devuelve un mensaje d
 
 * Ejemplo de proceso de un evento que falla cuando la consulta no contiene un inicio de sesión o el operador especificado no tiene los derechos requeridos:
 
-  ```
+  ```xml
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
         <SOAP-ENV:Fault>
@@ -208,7 +208,7 @@ Sin embargo, si no se puede procesar el evento, el método devuelve un mensaje d
 
 * Ejemplo de un evento que ha fallado debido a un error en la consulta (la clasificación XML no se cumple):
 
-  ```
+  ```xml
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
         <SOAP-ENV:Fault>
@@ -233,7 +233,7 @@ Sin embargo, si no se puede procesar el evento, el método devuelve un mensaje d
 
 * Ejemplo de un evento que ha fallado y devuelto un identificador cero (nombre de método incorrecto):
 
-  ```
+  ```xml
   <SOAP-ENV:Envelope xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns="http://xml.apache.org/xml-soap" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
      <SOAP-ENV:Body>
         <urn:PushEventResponse SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:urn="urn:nms:rtEvent">

@@ -25,7 +25,7 @@ level_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: f058ae441fff4b10bcffd84e1b7e44f00e4828a8
 workflow-type: tm+mt
 source-wordcount: '130'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 * Solicitud GET de muestra en la colección de perfiles.
 
 
-  ```
+  ```bash
   $curl  
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
@@ -60,7 +60,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   Devuelve una matriz de perfiles.
 
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -84,7 +84,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 * Ejemplo de petición GET en un perfil específico.
 
 
-  ```
+  ```bash
   $curl  
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
@@ -96,7 +96,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
   Devuelve el perfil solicitado.
 
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "firstName": "John",
@@ -110,7 +110,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 * Ejemplo de solicitud POST para crear un perfil.
 
 
-  ```
+  ```bash
   -X POST https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -121,7 +121,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
   Devuelve el perfil con los campos predeterminados.
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "firstName": "John",
@@ -133,7 +133,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
 * Solicitud de PATCH de ejemplo para actualizar un perfil.
 
-  ```
+  ```bash
   -X PATCH https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -144,7 +144,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
   Devuelve la PKEY y la URL para recuperar el perfil actualizado.
 
-  ```
+  ```json
   {
       "PKey": "<PKEY>",
       "href": "https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY>"
@@ -153,7 +153,7 @@ Los verbos disponibles para realizar operaciones en los recursos son:
 
 * Ejemplo de solicitud de DELETE para eliminar un perfil.
 
-  ```
+  ```bash
   -X DELETE https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/<PKEY> \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
