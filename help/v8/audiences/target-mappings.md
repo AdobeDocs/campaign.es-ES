@@ -36,10 +36,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 38%
+source-wordcount: '449'
+ht-degree: 32%
 ---
 # Trabajar con asignaciones de destino{#gs-target-mappings}
 
@@ -71,7 +71,7 @@ También puede crear una asignación de destino. Es posible que tenga que agrega
 * se utiliza una tabla de destinatarios personalizada,
 * puede configurar una dimensión de filtrado diferente de la dimensión de segmentación integrada en la pantalla de asignación de destino.
 
-Obtenga más información acerca de las tablas de destinatarios personalizadas en [esta página](../dev/custom-recipient.md).
+Obtenga más información acerca de las tablas de destinatarios personalizadas en [Cambiar la tabla de destinatarios predeterminada](../dev/custom-recipient.md).
 
 El asistente de creación de asignaciones de destino de Adobe Campaign le ayuda a crear todos los esquemas necesarios para utilizar la asignación de destino personalizada.
 
@@ -79,16 +79,16 @@ El asistente de creación de asignaciones de destino de Adobe Campaign le ayuda 
 
 1. Cree una nueva asignación de destino y seleccione el esquema personalizado como dimensión de segmentación.
 
-   ![](assets/new-target-mapping.png)
+   ![Seleccione el paso de dimensión de segmentación del nuevo asistente de asignación de destino, con Contratos de dimensión de segmentación y Clientes de etiquetas.](assets/new-target-mapping.png)
 
 
 1. Indique los campos donde se almacena la información de perfil: apellidos, nombre, correo electrónico, dirección, etc.
 
-   ![](assets/wf_new_mapping_define_join.png)
+   ![Edite el paso de los formularios de direcciones, donde cada campo de dirección de entrega, como Correo electrónico, está vinculado a un campo de la nueva dimensión.](assets/wf_new_mapping_define_join.png)
 
 1. Especifique los parámetros para el almacenamiento de información, incluido el sufijo de los esquemas de extensión para que se puedan identificar fácilmente.
 
-   ![](assets/wf_new_mapping_define_names.png)
+   ![Paso de almacenamiento con área de nombres, sufijo de los esquemas de extensión y opciones de exclusiones para almacenar exclusiones y mensajes.](assets/wf_new_mapping_define_names.png)
 
    Puede elegir si desea almacenar las exclusiones (**excludelog**), con mensajes (**broadlog**) o en una tabla independiente.
 
@@ -96,6 +96,6 @@ El asistente de creación de asignaciones de destino de Adobe Campaign le ayuda 
 
 1. A continuación, seleccione las extensiones que se van a tener en cuenta. El tipo de extensión depende de la configuración de Campaign y de los complementos.
 
-   ![](assets/wf_new_mapping_define_extensions.png)
+   Paso ![Extensiones con la opción Generate a storage schema for propositions seleccionada en Offer engine.](assets/wf_new_mapping_define_extensions.png)
 
    Haga clic en el botón **[!UICONTROL Save]** para iniciar la creación de la asignación de entrega: todas las tablas vinculadas se crean automáticamente en función de los parámetros seleccionados.

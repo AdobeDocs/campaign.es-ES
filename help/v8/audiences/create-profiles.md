@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 14%
+source-wordcount: '134'
+ht-degree: 10%
 ---
 # Creación de perfiles manual{#create-profiles-manual}
 
@@ -38,15 +38,15 @@ Para crear un destinatario manualmente, siga los pasos a continuación:
 
 1. Vaya a la ficha **[!UICONTROL Profiles and targets]** y seleccione la categoría **[!UICONTROL Recipients]**.
 
-   ![](assets/profiles-and-targets.png)
+   ![Ficha Profiles and targets seleccionada en la página principal, con la lista Destinatarios y el botón Crear.](assets/profiles-and-targets.png)
 
    De forma predeterminada, los destinatarios se almacenan en el nodo **[!UICONTROL Profiles and Targets > Recipients]** del árbol de También puede crear destinatarios a partir de esta vista.
 
 1. Haga clic en **[!UICONTROL Create button]**.
 1. Introduzca los datos del perfil.
 
-   ![](assets/new-recipient.png)
+   ![Formulario de destinatario con la ficha General rellenada: Nombre, Apellidos, Correo electrónico, Estado y Origen, además de Guardar y Cancelar.](assets/new-recipient.png)
 
-   Obtenga más información acerca del formulario integrado de destinatario en [esta página](view-profiles.md#edit-a-profiles).
+   Obtenga más información acerca del formulario integrado del destinatario en [Editar un perfil](view-profiles.md#edit-a-profiles).
 
 1. Haga clic en **[!UICONTROL Save]**: el perfil se agrega a Campaign, en la carpeta de destinatarios predeterminada.

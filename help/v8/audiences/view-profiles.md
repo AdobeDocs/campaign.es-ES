@@ -31,10 +31,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 6%
+source-wordcount: '582'
+ht-degree: 3%
 ---
 # Ver perfiles existentes {#view-profiles}
 
@@ -42,11 +42,11 @@ Vaya a **[!UICONTROL Profiles and targets]** para acceder a los destinatarios al
 
 Desde esta página, puede [crear un destinatario nuevo](create-profiles.md), editar un destinatario existente y acceder a sus detalles de perfil.
 
-![](assets/profiles-and-targets.png)
+![Pestaña Perfiles y objetivos de la página principal de Campaign, que muestra la lista Destinatarios con el botón Crear](assets/profiles-and-targets.png)
 
 Para realizar manipulaciones de perfiles más avanzadas, acceda al árbol de Campaign desde el vínculo **[!UICONTROL Explorer]** de la página principal de Adobe Campaign.
 
-![](assets/recipients-in-explorer.png)
+![Árbol del explorador con la carpeta Destinatarios seleccionada, la lista de destinatarios y los detalles del destinatario seleccionado](assets/recipients-in-explorer.png)
 
 
 >[!CAUTION]
@@ -58,7 +58,7 @@ Para realizar manipulaciones de perfiles más avanzadas, acceda al árbol de Cam
 
 Seleccione un perfil para mostrar los detalles en una nueva pestaña.
 
-![](assets/edit-a-profile.png)
+![Pestaña de perfil de destinatario con las secciones General, Información de contacto, Otros, Suscripciones, Envíos y Seguimiento](assets/edit-a-profile.png)
 
 Los datos concernientes a los perfiles se agrupan en fichas. Estas pestañas y su contenido dependen de la configuración específica y de los paquetes instalados.
 
@@ -66,7 +66,7 @@ Para un destinatario integrado típico, puede acceder a las siguientes pestañas
 
 * **[!UICONTROL General]**, para todos los datos de perfil generales. En particular, contiene los apellidos, el nombre, la dirección de correo electrónico, el formato de correo electrónico, etc.
 
-  Esta pestaña también almacena el indicador **opt-out** para el perfil: cuando se selecciona la opción **[!UICONTROL No longer contact (by any channel)]**, el perfil se encuentra en la lista de bloqueados de la. Esta información se añade a los datos de contacto si el destinatario hace clic, por ejemplo, en un vínculo de baja en un boletín informativo. Este destinatario ya no está dirigido a ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [esta página](../send/quarantines.md).
+  Esta pestaña también almacena el indicador **opt-out** para el perfil: cuando se selecciona la opción **[!UICONTROL No longer contact (by any channel)]**, el perfil se encuentra en la lista de bloqueados de la. Esta información se añade a los datos de contacto si el destinatario hace clic, por ejemplo, en un vínculo de baja en un boletín informativo. Este destinatario ya no está dirigido a ningún canal (correo electrónico, correo postal, etc.). Para obtener más información, consulte [Administración de cuarentena en Campaign](../send/quarantines.md).
 
 * **Información de contacto**, que contiene la dirección de correo postal del perfil seleccionado.
 
@@ -76,15 +76,15 @@ Para un destinatario integrado típico, puede acceder a las siguientes pestañas
 
   Utilice el menú contextual **[!UICONTROL Field properties…]** para cambiar los nombres de los campos y definir su formato.
 
-  ![](assets/other-tab-field-properties.png)
+  ![Pestaña Other de un destinatario con la opción Field properties seleccionada en el menú contextual del campo Boolean 1](assets/other-tab-field-properties.png)
 
   Introduzca la nueva configuración como se muestra a continuación:
 
-  ![](assets/change-field-properties.png)
+  ![Cuadro de diálogo Propiedades del campo con el campo Etiqueta establecido en Programa Luma Gold y el campo Descripción rellenado](assets/change-field-properties.png)
 
   Compruebe la actualización en la interfaz de usuario:
 
-  ![](assets/other-tab-updated.png)
+  ![Pestaña Otros de un destinatario en el que el campo Booleano 1 aparece ahora como Programa Luma Gold con un valor Sí o No](assets/other-tab-updated.png)
 
 
   >[!CAUTION]
@@ -94,7 +94,7 @@ Para un destinatario integrado típico, puede acceder a las siguientes pestañas
 
 * **Suscripciones**, para todas las suscripciones activas a los servicios. Use la ficha **Historial** para obtener acceso a los detalles de suscripciones y bajas de suscripción para este contacto.
 
-  ![](assets/subscription-tab.png)
+  ![Pestaña Suscripciones de un destinatario que enumera las suscripciones activas, con las fichas Suscripciones activas e Historial](assets/subscription-tab.png)
 
   Obtenga más información acerca de las suscripciones [en esta sección](../start/subscriptions.md).
 

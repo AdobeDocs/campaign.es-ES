@@ -32,10 +32,10 @@ level_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 34%
+source-wordcount: '304'
+ht-degree: 32%
 ---
 # Importación de perfiles de un archivo{#create-profiles}
 
@@ -51,9 +51,9 @@ Prepare y estructurar los datos en un archivo para importarlos con un flujo de t
 
 ### Carga de datos desde un archivo {#data-from-a-file}
 
-Los datos procesados en un flujo de trabajo se pueden extraer de un archivo estructurado para que se puedan importar en Adobe Campaign. [Más información](https://experienceleague.adobe.com/es/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}.
+Los datos procesados en un flujo de trabajo se pueden extraer de un archivo estructurado para que se puedan importar en Adobe Campaign. [Más información](https://experienceleague.adobe.com/en/docs/campaign/automation/workflows/wf-activities/action-activities/data-loading-file){target="_blank"}.
 
-Una vez recopilados los datos, puede utilizarlos en sus flujos de trabajo, por ejemplo para enriquecer una entrega o actualizar la base de datos. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html?lang=es){target="_blank"}.
+Una vez recopilados los datos, puede utilizarlos en sus flujos de trabajo, por ejemplo para enriquecer una entrega o actualizar la base de datos. Para obtener más información, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign/automation/workflows/introduction/use-workflow-data.html){target="_blank"}.
 
 ## Importaciones de una sola vez{#import-jobs}
 
@@ -61,6 +61,6 @@ Adobe Campaign proporciona una capacidad de importación genérica que le permit
 
 Las importaciones genéricas se administran desde el menú **[!UICONTROL Profiles and Targets > Jobs]** de la página principal de Adobe Campaign.
 
-![](assets/new-import-job.png)
+![Lista de trabajos en Perfiles y destinos con el menú Crear abierto en Nueva importación y Nueva exportación.](assets/new-import-job.png)
 
 Los pasos para realizar una importación genérica se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/generic-imports-exports/about-generic-imports-exports.html?lang=es){target="_blank"}.

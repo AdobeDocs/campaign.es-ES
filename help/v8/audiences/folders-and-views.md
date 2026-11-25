@@ -39,10 +39,10 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: bf608c313c238d3ba16f9fe6902bb66bb2b90d98
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 5%
+source-wordcount: '793'
+ht-degree: 4%
 ---
 # Administrar carpetas y vistas {#folders-and-views}
 
@@ -74,13 +74,13 @@ Para crear una carpeta, haga clic con el botón derecho en una carpeta existente
 
 Para crear el mismo tipo de carpeta que la seleccionada, elija la primera opción en el menú contextual. Por ejemplo, en una carpeta Destinatarios, seleccione **[!UICONTROL Create a new 'Recipients' folder]**.
 
-![](assets/create-recipient-folder.png)
+![Menú contextual de la carpeta Destinatarios con la opción Crear una nueva carpeta &quot;Destinatarios&quot; resaltada](assets/create-recipient-folder.png)
 
 Puede arrastrar y soltar la nueva carpeta para organizar el árbol del explorador de Campaign según sea necesario.
 
 Para crear otro tipo de carpeta, haga clic con el botón derecho en una carpeta existente y seleccione **[!UICONTROL Add new folder]**. Puede crear todos los tipos de carpetas, según los datos que desee almacenar.
 
-![](assets/add-new-folder.png)
+![Agregar nuevo menú de carpeta que muestra el submenú Base de datos con el tipo de carpeta Listas seleccionado](assets/add-new-folder.png)
 
 >[!CAUTION]
 >
@@ -109,15 +109,15 @@ En el siguiente ejemplo, crearemos una nueva carpeta para mostrar solo los enví
 1. Haga clic con el botón derecho en esta carpeta y seleccione **[!UICONTROL Properties...]**.
 1. En la pestaña **[!UICONTROL Restriction]**, seleccione **[!UICONTROL This folder is a view]**. Eso hace que se muestren todos los envíos de la base de datos.
 
-   ![](assets/this-folder-is-a-view.png)
+   ![Propiedades de carpeta de envíos de EE. UU. con la opción This folder is a view seleccionada en la ficha Restriction](assets/this-folder-is-a-view.png)
 
 1. Defina los criterios de filtro desde el editor de consultas en la sección central de la ventana: en la carpeta solo se muestran las entregas correspondientes al filtro.
 
-   ![](assets/filter-view.png)
+   ![Restricción de condiciones de filtro de ficha que definen la vista como nombre interno que comienza con US](assets/filter-view.png)
 
    >[!NOTE]
    >
-   >Aprenda a diseñar consultas en [esta página](create-filters.md#advanced-filters)
+   >Aprenda a diseñar consultas en [Filtros avanzados](create-filters.md#advanced-filters)
 
 
 >[!CAUTION]
@@ -132,7 +132,7 @@ Examine la pestaña **Subcarpetas** de las propiedades de la carpeta para organi
 
 Puede mover las carpetas con las flechas a la derecha o seleccionar la opción **[!UICONTROL Sort the sub-folders in alphabetical order]** para ordenarlas automáticamente.
 
-![](assets/sort-folders.png)
+![Ficha Subcarpetas de las propiedades de la carpeta con la flecha Bajar y la opción Ordenar alfabéticamente](assets/sort-folders.png)
 
 
 ## Filtrado de datos en una carpeta{#filter-data-in-a-folder}
@@ -141,9 +141,9 @@ Para filtrar los datos almacenados en una carpeta, acceda a las propiedades de l
 
 Por ejemplo, la carpeta a continuación solo contendrá contactos con una dirección de correo electrónico y cuyo origen no esté marcado como &quot;Externo&quot; o esté vacío.
 
-![](assets/add-a-filter-to-a-folder.png)
+![Pestaña Restriction de las propiedades de la carpeta US Deliveries, filtrada según el nombre interno que comience por US](assets/add-a-filter-to-a-folder.png)
 
 
 ## Restringir el acceso a una carpeta{#restrict-access-to-a-folder}
 
-Utilice permisos en las carpetas para organizar y controlar el acceso a los datos de Campaign. Obtenga más información acerca de los permisos en las carpetas de [esta sección](../start/folder-permissions.md).
+Utilice permisos en las carpetas para organizar y controlar el acceso a los datos de Campaign. Obtenga más información acerca de los permisos en las carpetas de [Conceder y restringir permisos en las carpetas de Campaign](../start/folder-permissions.md).
