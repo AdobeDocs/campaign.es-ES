@@ -130,7 +130,7 @@ Una vez definido el contenido del mensaje, puede utilizar los suscriptores de pr
 
    Para obtener más información sobre cómo administrar los vínculos de la aplicación de Android, consulte [Documentación para desarrolladores de Android](https://developer.android.com/training/app-links).
 
-   ![Tabla de botones de notificación básica con un botón de URL web etiquetado ¡Comprar ahora! y Recordar campos posteriores completados en ](assets/rich_push_basic_3.png)
+   ![Tabla de botones de notificación básica con un botón de URL web etiquetado ¡Comprar ahora! y Recordar campos posteriores completados en &#x200B;](assets/rich_push_basic_3.png)
 
 1. Para personalizar aún más la notificación push, configure **[!UICONTROL Notification options]** y **[!UICONTROL HTTPv1 additional options]** de la notificación push. [Más información](#push-advanced)
 
