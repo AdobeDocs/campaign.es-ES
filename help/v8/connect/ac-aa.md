@@ -85,7 +85,7 @@ Para crear su **[!UICONTROL Report suite]** en [!DNL Adobe Analytics], siga los 
 
 1. En la página **[!UICONTROL Report suite manager]**, haga clic en **[!UICONTROL Create new]** y luego en **[!UICONTROL Report suite]**.
 
-   Para ver el procedimiento detallado sobre la creación de **[!UICONTROL Report suite]**, consulte [Documentación de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}.
+   Para ver el procedimiento detallado sobre la creación de **[!UICONTROL Report suite]**, consulte [Documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/c-new-report-suite/t-create-a-report-suite#prerequisites){target="_blank"}.
 
    ![Administrador de grupos de informes con el menú Crear nuevo abierto y la opción de grupos de informes](assets/analytics_connnector_3.png)
 
@@ -138,7 +138,7 @@ Después de crear su **[!UICONTROL Report suite]**, debe configurar sus **[!UICO
    * **[!UICONTROL Unique Opens]**
    * **[!UICONTROL Unsubscribed]**
 
-   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html)
+   Para aprender a configurar **[!UICONTROL Success events]**, consulte esta [documentación de Adobe Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/conversion-variables/success-event.html?lang=es)
 
    ![Lista de eventos de éxito personalizados con eventos del 7 al 16 habilitados: Se hizo clic, se abrió, se envió y se canceló la suscripción](assets/analytics_connnector_8.png)
 
@@ -165,7 +165,7 @@ Para crear el conjunto de clasificaciones:
 
 1. Haga clic en **[!UICONTROL Save]**.
 
-Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
+Para obtener más información sobre los conjuntos de clasificaciones, consulte la [documentación de Adobe Analytics](https://experienceleague.adobe.com/es/docs/analytics/components/classifications/sets/create-set){target="_blank"}.
 
 Cuando se configuren el grupo de informes, las variables de conversión, los eventos de éxito y el conjunto de clasificaciones, deberá configurar **[!UICONTROL External accounts]** en Adobe Campaign.
 
@@ -199,7 +199,7 @@ Para obtener más información, consulte la página [Perfiles de producto para A
 
    >[!NOTE]
    >
-   >Los campos ID de campaña e ID de broadlog se recopilan mediante JavaScript en la página de aterrizaje o mediante reglas de procesamiento. [Más información sobre las reglas de procesamiento](https://experienceleague.adobe.com/en/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
+   >Los campos ID de campaña e ID de broadlog se recopilan mediante JavaScript en la página de aterrizaje o mediante reglas de procesamiento. [Más información sobre las reglas de procesamiento](https://experienceleague.adobe.com/es/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/report-suite-general/c-processing-rules/processing-rules)
 
    ![Configurar la integración con el grupo de informes de asignación de pestañas de Adobe Analytics, eVars y eventos de éxito](assets/analytics_connnector_11.png)
 
