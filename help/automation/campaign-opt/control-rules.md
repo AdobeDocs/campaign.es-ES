@@ -20,10 +20,10 @@ subfeature_v2:
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 96%
+source-wordcount: '457'
+ht-degree: 75%
 ---
 # Reglas de control{#control-rules}
 
@@ -52,11 +52,11 @@ Siga estos pasos:
 
 1. Cree una regla de tipología de **[!UICONTROL Control]**. Seleccione un nivel de alerta **[!UICONTROL Warning]**.
 
-   ![](assets/campaign_opt_create_control_01.png)
+   ![Cuadro de diálogo de creación de reglas de tipología, pestaña General: Tipo de regla de control, canal SMS, lista desplegable Nivel con advertencia resaltada.](assets/campaign_opt_create_control_01.png)
 
 1. En la pestaña **[!UICONTROL Code]**, introduzca la secuencia de comandos para aplicar el umbral deseado, como se muestra a continuación:
 
-   ![](assets/campaign_opt_create_control_02.png)
+   ![Pestaña Código de regla de tipología con el script que registra una advertencia cuando el destino de la entrega supera los 100 contactos.](assets/campaign_opt_create_control_02.png)
 
    Esta secuencia de comandos activa una advertencia si la entrega supera los 100 destinatarios:
 
@@ -66,18 +66,18 @@ Siga estos pasos:
 
 1. Vincule esta regla a una tipología de campaña y haga referencia a la tipología en la entrega de SMS correspondiente.
 
-   ![](assets/campaign_opt_create_control_03.png)
+   ![Propiedades de entrega, pestaña Tipología: la lista desplegable Tipología incluye Móvil (máximo 100) entre las tipologías disponibles.](assets/campaign_opt_create_control_03.png)
 
 1. Durante el análisis de envío, se aplica la regla y se crea una advertencia si procede.
 
-   ![](assets/campaign_opt_create_control_04.png)
+   ![Registro de análisis de envío que muestra una advertencia de que la regla +100 mensajes detectó un problema; Confirmar envío está disponible.](assets/campaign_opt_create_control_04.png)
 
    Sin embargo, la entrega está listo para realizarse.
 
    Si aumenta el nivel de alerta, esto impide que se inicie la entrega.
 
-   ![](assets/campaign_opt_create_control_05.png)
+   ![Ficha General de regla de tipología con la lista desplegable Nivel abierta y Error seleccionado en lugar de Advertencia.](assets/campaign_opt_create_control_05.png)
 
    Al final del análisis, el botón **[!UICONTROL Confirm delivery]** deja de estar disponible.
 
-   ![](assets/campaign_opt_create_control_06.png)
+   ![El registro de análisis de envío termina en un error, con el botón Confirmar envío deshabilitado.](assets/campaign_opt_create_control_06.png)

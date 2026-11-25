@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Implementation
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 97%
+source-wordcount: '1151'
+ht-degree: 76%
 ---
 # Creación de una campaña colaborativa{#creating-a-collaborative-campaign-intro}
 
 
 
-La entidad central crea campañas de colaboración a partir de plantillas de campañas de **Distributed Marketing.** Consulte [esta página](about-distributed-marketing.md).
+La entidad central crea campañas de colaboración a partir de plantillas de campañas de **Distributed Marketing.** Consulte [Introducción al marketing distribuido](about-distributed-marketing.md).
 
 ## Creación de una campaña colaborativa {#creating-a-collaborative-campaign}
 
@@ -48,23 +48,23 @@ El proceso de configuración de una base de datos de campaña de colaboración e
 
 Para crear una campaña de colaboración (por formulario), la plantilla **[!UICONTROL Collaborative campaign (by form)]** debe estar seleccionada.
 
-![](assets/mkg_dist_mutual_op_form2.png)
+![Nuevo cuadro de diálogo de campaña de marketing con la plantilla Campaña de colaboración (por formulario) seleccionada.](assets/mkg_dist_mutual_op_form2.png)
 
 En la pestaña **[!UICONTROL Edit]**, haga clic en el vínculo **[!UICONTROL Advanced campaign parameters...]** para acceder a la pestaña **Marketing distribuido**.
 
-Seleccione la interfaz web **Por formulario**. Este tipo de interfaz le permite crear campos de personalización que se utilizarán en entidades locales cuando se solicite una campaña. Consulte [Creación de una campaña local (por formulario) &#x200B;](examples.md#creating-a-local-campaign--by-form-).
+Seleccione la interfaz web **Por formulario**. Este tipo de interfaz le permite crear campos de personalización que se utilizarán en entidades locales cuando se solicite una campaña. Consulte [Creación de una campaña local (por formulario) ](examples.md#creating-a-local-campaign--by-form-).
 
 Guarde la campaña. Ahora puede usarlo desde la vista **Campaign packages** en la pestaña **Campaign**, haciendo clic en el botón **[!UICONTROL Create]**.
 
 La vista **[!UICONTROL Campaign Package]** permite utilizar plantillas de campañas locales (ya sean predeterminadas o duplicadas), así como campañas de referencia para campañas de colaboración con el objetivo de crear campañas para diferentes entidades de organización.
 
-![](assets/mkg_dist_mutual_op_form1b.png)
+![Lista de paquetes de campañas con el cuadro de diálogo de creación de paquetes y la lista desplegable de campañas de referencia abierta.](assets/mkg_dist_mutual_op_form1b.png)
 
 ### Por campaña {#by-campaign}
 
 Para crear una campaña de colaboración (por campaña), debe estar seleccionada la plantilla **[!UICONTROL Collaborative campaign (by campaign) (opCollaborativeByCampaign)]**.
 
-![](assets/mkg_dist_mutual_op_by_op2.png)
+![Nuevo cuadro de diálogo de campaña de marketing con la plantilla de campaña Collaborative campaign (by campaign) seleccionada.](assets/mkg_dist_mutual_op_by_op2.png)
 
 Al realizar la solicitud de la campaña, la entidad local puede completar los criterios predefinidos por la entidad central y evaluar la campaña antes de realizar la solicitud.
 
@@ -78,13 +78,13 @@ La entidad local ejecuta la campaña secundaria. La entidad central ejecuta la c
 
 La entidad central puede ver todas las campañas secundarias relacionadas con una **Collaborative Campaign (by campaign)** desde este panel de control (a través del vínculo **[!UICONTROL List of associated campaigns]**).
 
-![](assets/mkg_dist_mutual_op_by_op.png)
+![Panel de campañas de colaboración con el vínculo List of linked campaigns para abrir la lista de campañas vinculadas.](assets/mkg_dist_mutual_op_by_op.png)
 
 ### Por aprobación de destino {#by-target-approval}
 
 Para crear una campaña de colaboración (por aprobación de destino), debe estar seleccionada la plantilla **[!UICONTROL Collaborative campaign (by target approval)]**.
 
-![](assets/mkg_dist_mutual_op_by_valid.png)
+![Nuevo cuadro de diálogo de campaña de marketing con la plantilla Collaborative campaign (by target approval) seleccionada.](assets/mkg_dist_mutual_op_by_valid.png)
 
 >[!NOTE]
 >
@@ -98,23 +98,23 @@ El flujo de trabajo de campaña debe integrar la actividad de tipo de **Local ap
 
 Se debe crear la distribución de datos del tipo de **Local entity distribution** . La plantilla de distribución de datos permite limitar el número de registros de una lista de valores de agrupación. En **[!UICONTROL Resources > Campaign management > Data distribution]**, haga clic en el icono **[!UICONTROL New]** para crear una nueva **[!UICONTROL Data distribution]**. Para obtener más información sobre la distribución de datos,
 
-![](assets/mkg_dist_data_distribution.png)
+![Formulario de distribución de datos con dimensión de segmentación, campo de distribución y tipo de asignación de entidad local.](assets/mkg_dist_data_distribution.png)
 
 Seleccione **Targeting dimension** y **[!UICONTROL Distribution field]**. Para **[!UICONTROL Assignment type]**, seleccione **Local entity**.
 
 En la pestaña **[!UICONTROL Distribution]**, añada un campo para cada entidad local y especifique el valor.
 
-![](assets/mkg_dist_data_distribution2.png)
+![Pestaña Desglose de una distribución de datos que enumera cada valor de campo de distribución, recuento fijo y entidad local.](assets/mkg_dist_data_distribution2.png)
 
 Puede añadir una segunda **aprobación de destino** después de la actividad de **envío** para configurar un informe.
 
 En el mensaje de notificación de creación de la campaña, la entidad local recibe una lista de contactos predefinida por los parámetros de la entidad central.
 
-![](assets/mkg_dist_mutual_op_by_valid1.png)
+![Correo electrónico de aprobación de destino vinculado a una página web donde la entidad local revisa su lista de contactos.](assets/mkg_dist_mutual_op_by_valid1.png)
 
 La entidad local puede eliminar ciertos contactos según el contenido de la campaña.
 
-![](assets/mkg_dist_mutual_op_by_valid2.png)
+![Página de aprobación de destino con algunos contactos borrados, un comentario y el botón Aprobar destino.](assets/mkg_dist_mutual_op_by_valid2.png)
 
 ### Sencilla {#simple}
 
@@ -142,13 +142,13 @@ Para las **campañas de colaboración**, la entidad central debe especificar el 
 >
 >**[!UICONTROL Personalization deadline]** permite que la entidad central elija un plazo en el que las entidades locales deben haber enviado los documentos (hojas de cálculo, imágenes) para configurar la campaña. Esta no es una opción obligatoria. Omitir esta fecha no afecta la implementación de la campaña.
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry.png)
+![Cuadro de diálogo del paquete de campaña con la sección Programación de ejecución, incluidos los plazos de personalización y registro.](assets/s_advuser_mkg_dist_create_mutual_entry.png)
 
 ### Público {#audience}
 
 La entidad central debe especificar las entidades locales involucradas en cada campaña en cuanto se cree la campaña colaborativa.
 
-![](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
+![Cuadro de diálogo del paquete de campaña con el botón Agregar que abre la selección de entidades locales para la audiencia.](assets/s_advuser_mkg_dist_create_mutual_entry2.png)
 
 >[!CAUTION]
 >
@@ -158,36 +158,36 @@ La entidad central debe especificar las entidades locales involucradas en cada c
 
 Para las **campañas de colaboración**, se puede especificar el modo de aprobación de la solicitud.
 
-![](assets/mkg_dist_edit_kit1.png)
+![Pestaña Editar paquete de campaña con la lista desplegable Modo de aprobación que ofrece Manual y Automático.](assets/mkg_dist_edit_kit1.png)
 
 En modo manual, la entidad local necesita suscribirse para poder participar en la campaña.
 
 En modo automático, la entidad local se presuscribe automáticamente a la campaña. Puede cancelar la suscripción de la campaña o modificar sus parámetros sin necesidad de que la entidad central lo apruebe.
 
-![](assets/mkg_dist_edit_kit2.png)
+![Correo electrónico de suscripción de Campaign con los vínculos Rechazar la suscripción y Cambiar los parámetros del pedido.](assets/mkg_dist_edit_kit2.png)
 
 ### Notificaciones {#notifications}
 
-La configuración de las notificaciones es idéntica a las notificaciones de una entidad local. Consulte [esta sección](creating-a-local-campaign.md#notifications).
+La configuración de las notificaciones es idéntica a las notificaciones de una entidad local. Consulte [Notificaciones](creating-a-local-campaign.md#notifications).
 
 ## Solicitud de una campaña {#ordering-a-campaign}
 
 Cuando se añade una campaña colaborativa a la lista de paquetes de campañas, se notifica a las entidades locales pertenecientes a la audiencia definida por la entidad central (**Collaborative campaigns (by target approval)** no tienen un público predefinido). El mensaje enviado contiene un vínculo que le permite registrarse en la campaña, como se muestra a continuación:
 
-![](assets/mkg_dist_mutual_op_notification.png)
+![Correo electrónico de suscripción de Campaign con el vínculo Registrarse para la campaña y los detalles del paquete.](assets/mkg_dist_mutual_op_notification.png)
 
 Este mensaje también permite que las entidades locales vean la descripción introducida por el operador central que creó el paquete, así como los documentos vinculados a la campaña. No pertenecen a la misma campaña, aunque proporcionan información adicional sobre ella.
 
 Una vez que los operadores locales se han registrado a través de una interfaz web, pueden añadir información personalizada a la campaña de colaboración que deseen solicitar:
 
-![](assets/mkg_dist_mutual_op_command.png)
+![Página web de pedidos de campaña en la que la entidad local introduce una etiqueta de pedido y un comentario de pedido.](assets/mkg_dist_mutual_op_command.png)
 
 Una vez que una entidad local ha finalizado su registro, se notifica a las entidades centrales por correo electrónico para que aprueben la solicitud.
 
-![](assets/mkg_dist_mutual_op_valid_command.png)
+![Aprobación del correo electrónico de solicitud de campaña y de la página de aprobación de solicitud con las opciones Aceptar y Rechazar y un comentario.](assets/mkg_dist_mutual_op_valid_command.png)
 
 Para obtener más información, consulte la sección [Proceso de aprobación](creating-a-local-campaign.md#approval-process).
 
 ## Aprobación de una solicitud {#approving-an-order}
 
-El proceso de aprobación de una solicitud de paquete de campaña de colaboración es el mismo que al hacerlo para una campaña local. Consulte [esta sección](creating-a-local-campaign.md#approving-an-order).
+El proceso de aprobación de una solicitud de paquete de campaña de colaboración es el mismo que al hacerlo para una campaña local. Consulte [Aprobación de una solicitud](creating-a-local-campaign.md#approving-an-order).

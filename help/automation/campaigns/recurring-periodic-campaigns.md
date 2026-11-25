@@ -22,10 +22,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 63%
+source-wordcount: '888'
+ht-degree: 57%
 ---
 # Campañas recurrentes y periódicas {#recurring-and-periodic-campaigns}
 
@@ -43,10 +43,10 @@ Para crear una plantilla para campañas recurrentes, siga los pasos a continuaci
 
 1. Abra el explorador de Campaign y vaya a **[!UICONTROL Resources > Templates > Campaign templates]**.
 1. Duplique la plantilla **[!UICONTROL Recurring campaign]** integrada.
-   ![](assets/recurring-campaign-duplicate.png)
+   ![Lista de plantillas de campaña con el comando Duplicar seleccionado en el menú contextual de la plantilla de campaña recurrente.](assets/recurring-campaign-duplicate.png)
 1. Introduzca el nombre de la plantilla y la duración de la campaña.
 1. Para este tipo de campaña, se añade una pestaña **[!UICONTROL Schedule]** para crear la programación de ejecución de la plantilla. Utilice esta pestaña para definir las fechas de ejecución de las campañas basadas en esta plantilla.
-   ![](assets/recurring-campaign-schedule.png)
+   ![Pestaña Programación de una plantilla de campaña con la lista Programación de ejecución y un selector de calendario para establecer una fecha de inicio.](assets/recurring-campaign-schedule.png)
 
    El modo de configuración de la programación de ejecución coincide con el objeto **[!UICONTROL Scheduler]** del flujo de trabajo. [Más información](../workflow/scheduler.md).
 
@@ -61,7 +61,7 @@ Para crear una plantilla para campañas recurrentes, siga los pasos a continuaci
    >
    >Este flujo de trabajo debe guardarse como plantilla de flujo de trabajo recurrente. Para ello, edite las propiedades del flujo de trabajo y, en la pestaña **[!UICONTROL Recurring workflow template]**, seleccione la opción **[!UICONTROL Execution]**.
 
-   ![](assets/recurring-campaign-wf-properties.png)
+   ![Propiedades del flujo de trabajo, ficha Ejecución, con la opción Plantilla de flujo de trabajo recurrente seleccionada.](assets/recurring-campaign-wf-properties.png)
 
 ### Creación de la campaña recurrente {#create-the-recurring-campaign}
 
@@ -81,13 +81,13 @@ Para crear la campaña recurrente y ejecutar sus flujos de trabajo según la pro
 
 1. Los flujos de trabajo recurrentes se crean automáticamente a partir de la plantilla de flujo de trabajo presente en la campaña. Se pueden ver en la pestaña **[!UICONTROL Targeting and workflows]** de la campaña.
 
-   ![](assets/recurring-wf-created.png)
+   ![La pestaña Targeting and workflows enumera el flujo de trabajo predeterminado y sus instancias recurrentes numeradas #1 y #2.](assets/recurring-wf-created.png)
 
    La etiqueta de una instancia de flujo de trabajo recurrente consta de su etiqueta de plantilla y el número de flujo de trabajo, con el carácter # en el medio.
 
    Los flujos de trabajo creados a partir de la programación se asocian automáticamente a él en la columna **[!UICONTROL Workflow]** de la pestaña **[!UICONTROL Schedule]**.
 
-   ![](assets/recurring-wf-schedule-executed.png)
+   ![Pestaña Programación con la columna Flujo de trabajo que vincula los flujos de trabajo creados con las líneas de programación; creado de antemano para es 15d.](assets/recurring-wf-schedule-executed.png)
 
    Cada flujo de trabajo se puede editar desde esta pestaña.
 

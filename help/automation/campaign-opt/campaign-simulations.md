@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 88%
+source-wordcount: '1511'
+ht-degree: 72%
 ---
 # Simulaciones en Campaign{#campaign-simulations}
 
@@ -43,7 +43,7 @@ Esto significa que las reglas de presión y capacidad solo se aplican a los env�
 
 El modo de entrega se elige en la subpestaña **[!UICONTROL Typology]** en las propiedades de la entrega.
 
-![](assets/simu_campaign_select_delivery_mode.png)
+![Pestaña Tipología de propiedades de entrega con la lista desplegable Modo de entrega que enumera tres modos.](assets/simu_campaign_select_delivery_mode.png)
 
 
 ### Creación de una simulación {#create-a-simulation}
@@ -52,19 +52,19 @@ Para crear una simulación, aplique los pasos siguientes:
 
 1. Vaya a la pestaña **[!UICONTROL Campaigns]** y, dentro de la sección **[!UICONTROL Create]**, haga clic en el vínculo **[!UICONTROL More]** y seleccione la opción **[!UICONTROL Simulation]**.
 
-   ![](assets/simu_campaign_opti_01.png)
+   ![Página de inicio del calendario de Campaign con el menú Más debajo de Crear abierto y Simulación resaltada.](assets/simu_campaign_opti_01.png)
 
 1. Introduzca la plantilla y el nombre de la simulación. Haga clic en **[!UICONTROL Save]** para crear la simulación.
 
-   ![](assets/simu_campaign_opti_02.png)
+   ![Cuadro de diálogo de creación de simulación con los campos Plantilla de simulación y Etiqueta resaltados y el botón Guardar.](assets/simu_campaign_opti_02.png)
 
 1. Haga clic en la pestaña **[!UICONTROL Edit]** para configurarla.
 
-   ![](assets/simu_campaign_opti_edit.png)
+   ![Pestaña Editar de la simulación con las secciones General, Ámbito, Cálculos y Auditoría y la configuración de ejecución.](assets/simu_campaign_opti_edit.png)
 
 1. En la pestaña **[!UICONTROL Scope]**, especifique los envíos que desea tener en cuenta para esta simulación. Para ello, haga clic en el botón **[!UICONTROL Add]** y especifique el modo de selección de envíos que desea tener en cuenta.
 
-   ![](assets/simu_campaign_opti_edit_scope.png)
+   ![Sección de ámbito con el botón Agregar y el cuadro de diálogo de elemento de simulación para elegir cómo se seleccionan los envíos.](assets/simu_campaign_opti_edit_scope.png)
 
    Puede seleccionar cada entrega manualmente u ordenarlos por campaña, programa o plan.
 
@@ -74,17 +74,17 @@ Para crear una simulación, aplique los pasos siguientes:
    >  
    >Si no lo hace, los envíos que no estén disponibles en el plan, programa o campaña cuando se cree la simulación no se tienen en cuenta: los envíos añadidos posteriormente se omiten.
 
-   ![](assets/simu_campaign_opti_edit_scope_update.png)
+   ![Cuadro de diálogo del elemento de simulación con todas las entregas de uno o más programas y la opción Refresh the selection activada.](assets/simu_campaign_opti_edit_scope_update.png)
 
 1. Seleccione los elementos que desea incluir en el ámbito de simulación. Si es necesario, seleccione varios elementos utilizando las teclas Shift y Ctrl.
 
-   ![](assets/simu_campaign_opti_edit_scope_select.png)
+   ![Cuadro de diálogo de selección de envíos con varios envíos resaltados y el botón Finalizar.](assets/simu_campaign_opti_edit_scope_select.png)
 
    Haga clic en **[!UICONTROL Finish]** para aprobar la selección.
 
    Puede combinar manualmente los envíos seleccionados y los envíos que pertenezcan a planes, programas o campañas.
 
-   ![](assets/simu_campaign_opti_edit_scope_save.png)
+   ![Lista de ámbitos que combina programas, campañas y un plan, con el botón Guardar y el vínculo Editar la condición dinámica.](assets/simu_campaign_opti_edit_scope_save.png)
 
    Si es necesario, puede utilizar una condición dinámica mediante el enlace **[!UICONTROL Edit the dynamic condition...]**.
 
@@ -96,11 +96,11 @@ Para crear una simulación, aplique los pasos siguientes:
 
 1. En la pestaña **[!UICONTROL Calculations]**, seleccione una dimensión de análisis como, por ejemplo, el esquema de destinatario.
 
-   ![](assets/simu_campaign_opti_dimension.png)
+   ![Sección de cálculos con el cuadro de diálogo de selección de esquema abierto y Destinatarios (nms) seleccionados como dimensión de análisis.](assets/simu_campaign_opti_dimension.png)
 
 1. A continuación, puede añadir expresiones.
 
-   ![](assets/simu_campaign_opti_dimension_02.png)
+   ![Sección de cálculos con los destinatarios (nms) como dimensión de análisis y los ejes de informes Cuenta y Estado enumerados.](assets/simu_campaign_opti_dimension_02.png)
 
 ### Configuración de ejecución {#execution-settings}
 
@@ -118,11 +118,11 @@ Una vez definido el ámbito de simulación, puede ejecutarlo.
 
 Para ello, abra el panel de control de simulación y haga clic en **[!UICONTROL Start simulation]**.
 
-![](assets/simu_campaign_opti_start.png)
+![Panel de simulación con el botón Iniciar simulación.](assets/simu_campaign_opti_start.png)
 
 Una vez finalizada la ejecución, abra la simulación y haga clic en la pestaña **[!UICONTROL Results]** para ver los objetivos calculados para cada entrega.
 
-![](assets/simu_campaign_opti_results.png)
+![Pestaña Resultados, subpestaña Envíos que enumera cada envío con su Recuento inicial y Recuento final.](assets/simu_campaign_opti_results.png)
 
 1. La subpestaña **[!UICONTROL Deliveries]** enumera todas las entregas que tiene en cuenta la simulación. Muestra dos recuentos:
 
@@ -135,12 +135,12 @@ Una vez finalizada la ejecución, abra la simulación y haga clic en la pestaña
 
 1. La subpestaña **[!UICONTROL Exclusions]** le permite ver el desglose de la exclusión.
 
-   ![](assets/simu_campaign_opti_14.png)
+   ![Pestaña Resultados, subpestaña Exclusiones que muestra el recuento de exclusiones por entrega y regla.](assets/simu_campaign_opti_14.png)
 
 1. La subpestaña **[!UICONTROL Alerts]** agrupa todos los mensajes de alerta generados durante la simulación. Los mensajes de alerta se pueden enviar en caso de sobrecarga de capacidad (si el número de destinatarios supera la capacidad del conjunto, por ejemplo).
 1. La subpestaña **[!UICONTROL Exploration of the exclusions]** permite crear una tabla de análisis de resultados. El usuario debe indicar variables en los ejes de abscisas y ordenadas.
 
-   Para ver un ejemplo de creación de tablas de análisis, consulte el final de [esta sección](#explore-results).
+   Para ver un ejemplo de creación de tablas de análisis, consulte el final de [Explorar resultados](#explore-results).
 
 ### Visualización de resultados {#view-results}
 
@@ -148,7 +148,7 @@ Una vez finalizada la ejecución, abra la simulación y haga clic en la pestaña
 
 La pestaña **[!UICONTROL Audit]** permite monitorizar la ejecución de la simulación. La subpestaña **[!UICONTROL SQL Logs]** resulta útil para los usuarios expertos. Muestra los registros de ejecución en formato SQL. Estos registros solo se muestran si la opción **[!UICONTROL Save SQL queries in the log]** se ha seleccionado en la pestaña **[!UICONTROL General]** antes de la ejecución de la simulación.
 
-![](assets/simu_campaign_opti_11.png)
+![Sección de auditoría con las subpestañas Journal y SQL logs, los registros SQL muestran consultas de ejecución.](assets/simu_campaign_opti_11.png)
 
 #### Exploración de resultados {#explore-results}
 
@@ -180,7 +180,7 @@ Los siguientes informes se ofrecen de forma predeterminada:
 
 Para acceder a los informes, haga clic en el vínculo **[!UICONTROL Reports]** de la simulación de destinatarios a través de su panel de control.
 
-![](assets/campaign_opt_reporting_edit_from_board.png)
+![Informes del panel de simulación muestran mosaicos de informes como Detalles de exclusiones de simulación.](assets/campaign_opt_reporting_edit_from_board.png)
 
 También puede editar informes mediante el vínculo **[!UICONTROL Reports]** al que se puede acceder desde el panel de control de simulación.
 
@@ -196,12 +196,12 @@ Para comparar los resultados, debe utilizar los informes. De hecho, Adobe Campai
 1. En la pestaña **[!UICONTROL Reports]**, edite uno de los informes disponibles, como por ejemplo **[!UICONTROL Detail of simulation exclusions]**.
 1. En la sección superior derecha del informe, haga clic en el icono para crear un nuevo historial.
 
-   ![](assets/campaign_opt_reporting_create_hist.png)
+   ![Detalle del informe de exclusiones de simulación con el icono Nuevo historial resaltado en la barra de herramientas.](assets/campaign_opt_reporting_create_hist.png)
 
 1. Cierre la simulación y cambie la configuración de tipología **A**.
 1. Vuelva a ejecutar la simulación y compare el resultado con el que se muestra en el informe para el que se creó el historial.
 
-   ![](assets/campaign_opt_reporting_edit_hist.png)
+   ![Detalle del informe de exclusiones de simulación comparado con un historial guardado abierto desde el icono Historial disponible.](assets/campaign_opt_reporting_edit_hist.png)
 
    Puede guardar tantos historiales de informes como sea necesario.
 
@@ -221,7 +221,7 @@ En el siguiente ejemplo, deseamos crear un eje de informes adicional basado en e
 1. Para definir un eje de creación de informes, seleccione la tabla que contiene la información que se debe procesar en el campo **[!UICONTROL Analysis dimension]**. Esta información es obligatoria.
 1. Aquí, deseamos seleccionar el campo Segmento de la tabla de destinatarios.
 
-   ![](assets/simu_campaign_opti_09.png)
+   ![Sección de cálculos con Destinatarios (nms) como dimensión de análisis y un eje de informes de estado basado en @status.](assets/simu_campaign_opti_09.png)
 
 1. Estas son las opciones disponibles:
 
@@ -241,7 +241,7 @@ Cuando se muestran los resultados de la simulación, la información de la expre
 
 La superposición de destinatarios de la entrega indica que han estado presentes en al menos dos entregas de una simulación.
 
-![](assets/simu_campaign_opti_13.png)
+![Pestaña Resultados, superpone la subpestaña que enumera cada entrega, su entrega simultánea y el recuento de superposición.](assets/simu_campaign_opti_13.png)
 
 >[!NOTE]
 >

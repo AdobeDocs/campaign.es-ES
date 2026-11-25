@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 84%
+source-wordcount: '1058'
+ht-degree: 77%
 ---
 # Aplicación de reglas de tipología{#applying-rules}
 
@@ -45,14 +45,14 @@ Para realizar esto, siga los pasos a continuación:
 
 1. Vaya a la pestaña **[!UICONTROL Rules]**, haga clic en el botón **[!UICONTROL Add]** y seleccione las reglas que desea aplicar con esta tipología.
 
-   ![](assets/campaign_opt_pressure_sample_1_6.png)
+   ![Ficha Reglas de tipología con el botón Agregar y el cuadro de diálogo Agregar reglas que enumera las reglas de tipología que se van a seleccionar](assets/campaign_opt_pressure_sample_1_6.png)
 
 1. Guarde la tipología: se añade a la lista de tipologías existentes.
 1. Abra la entrega al que desee aplicar las reglas.
 1. Vaya a las propiedades de entrega y abra la pestaña **[!UICONTROL Typology]**.
 1. Seleccione la tipología en la lista desplegable.
 
-   ![](assets/campaign_opt_pressure_sample_1_7.png)
+   ![Propiedades de entrega, ficha Tipología, con la lista desplegable Tipología que enumera la presión de clientes/clientes potenciales](assets/campaign_opt_pressure_sample_1_7.png)
 
    >[!NOTE]
    >
@@ -68,7 +68,7 @@ Para definir las condiciones de aplicación de una regla, en la pestaña **[!UIC
 
 A continuación, use [editor de consultas](../../v8/start/query-editor.md) para definir las condiciones de filtrado. En el siguiente ejemplo, la regla de capacidad respeta solo los envíos con la palabra “oferta” en su etiqueta o los envíos creados antes del 1 de abril de 2013.
 
-![](assets/campaign_opt_create_capacity_criterion.png)
+![La pestaña General de regla de capacidad con la consulta de condiciones de aplicación en la etiqueta contiene la fecha de oferta y creación](assets/campaign_opt_create_capacity_criterion.png)
 
 >[!NOTE]
 >
@@ -119,7 +119,7 @@ Por ejemplo, una regla de presión con un orden de ejecución de 20 se ejecuta a
 
 Para las reglas **[!UICONTROL Control]**, puede decidir en qué punto del ciclo de vida de la entrega se aplica la regla: antes o después del objetivo, al inicio de la personalización, al final del análisis. En la pestaña **[!UICONTROL Phase]** de la regla de tipología, seleccione el valor que se deba aplicar en la lista desplegable del campo **[!UICONTROL General]**.
 
-![](assets/campaign_opt_define_control_phase.png)
+![Pestaña General de regla de tipología de control con la lista desplegable Fase que enumera las cuatro fases de la aplicación](assets/campaign_opt_define_control_phase.png)
 
 Los valores posibles son:
 
@@ -147,7 +147,7 @@ Los valores posibles son:
 
 Como opción, puede utilizar el campo **[!UICONTROL Managing affinities with IP addresses]** para relacionar envíos al servidor de entrega (MTA) con esta afinidad. Esto permite limitar el número de correos electrónicos para envíos específicos hacia equipos o direcciones de salida.
 
-![](assets/campaign_opt_select_ip_affinity.png)
+![Ficha General de tipología con el campo Afinidad en Administración de afinidades con direcciones IP](assets/campaign_opt_select_ip_affinity.png)
 
 >[!NOTE]
 >
@@ -161,9 +161,9 @@ Como opción, puede utilizar el campo **[!UICONTROL Managing affinities with IP 
 
 La pestaña **[!UICONTROL Distributed Marketing]** permite definir la reasignación de tipologías y las reglas que se aplican cuando una campaña compartida se ha solicitado o está reservada. Las reglas o tipologías definidas para una entidad local (vinculadas a las reglas o tipologías definidas a nivel de la entidad central) sustituyen a las reglas o tipologías vinculadas a la entidad central. La reasignación le permite adaptar las reglas de la entidad central a las entidades locales que encargan la campaña.
 
-![](assets/simu_campaign_opti_distrib_mkg.png)
+![Ficha de marketing distribuido de tipología con la entidad organizativa y los campos de tipología central asociados](assets/simu_campaign_opti_distrib_mkg.png)
 
 >[!NOTE]
 >
 >En las tipologías y en las reglas de tipologías, se añade la pestaña **[!UICONTROL Distributed Marketing]** si la licencia incluye esta opción: compruebe el contrato de licencia.\
->Para obtener más información sobre marketing distribuido, consulte [esta sección](../distributed-marketing/about-distributed-marketing.md).
+>Para obtener más información sobre marketing distribuido, consulte [Introducción al marketing distribuido](../distributed-marketing/about-distributed-marketing.md).

@@ -28,16 +28,16 @@ topic_v2:
     internal-label: Optimization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 41%
+source-wordcount: '508'
+ht-degree: 35%
 ---
 # Introducción a las tipologías de campaña{#about-campaign-typologies}
 
 **Campaign Optimization** es el módulo de Adobe Campaign que permite controlar, filtrar y monitorizar las entregas. Para evitar conflictos entre campañas, Adobe Campaign puede probar distintas combinaciones mediante la aplicación de reglas de restricción específicas. Esto garantiza que los mensajes enviados respondan de la mejor forma a las necesidades y expectativas de los clientes, de acuerdo con las políticas de comunicación de la compañía.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#typologies-video)
+![Icono del botón de reproducción para el vídeo de tipologías](assets/do-not-localize/how-to-video.png) [Descubra esta característica en vídeo](#typologies-video)
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ Las reglas y tipologías de tipología integradas están disponibles en la carpe
 
 Para cada tipología, la pestaña **[!UICONTROL Rules]** le permite agregar, eliminar o ver las reglas de tipología que se pueden aplicar.
 
-![](assets/campaign_opt_rules_tab.png)
+![Lista de tipologías con una tipología seleccionada y su pestaña Reglas que enumera las reglas de tipología que se deben aplicar](assets/campaign_opt_rules_tab.png)
 
 Una vez creadas, las reglas de tipología se agrupan en las **tipologías** de la campaña a las que se hace referencia en las entregas. [Más información](#apply-typologies).
 
@@ -93,7 +93,7 @@ Los pasos detallados se enumeran en la siguiente sección:
 
 Durante la preparación de la entrega, los destinatarios se excluyen cuando se cumple el criterio. Puede comprobar los registros para monitorizar las exclusiones.
 
-En [esta página](pressure-rules.md#use-cases-on-pressure-rules) se encuentran disponibles ejemplos de uso de las reglas de tipología de presión.
+Casos de uso de muestra sobre reglas de tipología de presión están disponibles en [Casos de uso sobre reglas de presión](pressure-rules.md#use-cases-on-pressure-rules).
 
 ## Tutoriales en vídeo {#typologies-video}
 
@@ -101,11 +101,11 @@ En [esta página](pressure-rules.md#use-cases-on-pressure-rules) se encuentran d
 
 En este vídeo se explica cómo implementar la administración de la fatiga en Adobe Campaign mediante reglas de tipología.
 
->[!VIDEO](https://video.tv.adobe.com/v/3448334?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333787?quality=12)
 
 ### Configuración de la administración de la fatiga mediante filtros predefinidos
 
 La administración de la fatiga controla la frecuencia y la cantidad de mensajes para evitar el exceso de solicitudes de destinatarios. Si no tiene el módulo de optimización de la campaña en la instancia de campaña, puede configurar un filtro predefinido que filtrará la población objetivo por el número de mensajes recibidos
 En este vídeo se explica cómo implementar la administración de la fatiga en Adobe Campaign mediante filtros.
 
->[!VIDEO](https://video.tv.adobe.com/v/3444603?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/333778?quality=12)

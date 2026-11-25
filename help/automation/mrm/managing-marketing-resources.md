@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '1113'
-ht-degree: 46%
+source-wordcount: '1339'
+ht-degree: 38%
 ---
 # Administración de recursos de marketing{#managing-marketing-resources}
 
@@ -43,9 +43,9 @@ Para añadir un recurso de marketing, siga los pasos a continuación:
 1. Vaya a la ficha **[!UICONTROL Campaigns]** y seleccione **[!UICONTROL Marketing resouces]**.
 
 1. Haga clic en el botón **[!UICONTROL Create]**.
-   ![](assets/add-a-mkt-resource.png)
+   ![Lista de recursos de mercadotecnia en la ficha Campañas con el botón Crear resaltado.](assets/add-a-mkt-resource.png)
 1. Arrastre y suelte el archivo en la ventana de recursos de marketing para cargarlo en el servidor de Campaign. También puede usar el vínculo **[!UICONTROL Upload file to server...]**.
-   ![](assets/mkt-resource-creation.png)
+   ![Ventana de creación de recursos de marketing con el vínculo Cargar archivo al servidor para agregar el archivo.](assets/mkt-resource-creation.png)
 
 Una vez completada la carga, el recurso se añade a la lista de recursos disponibles.
 
@@ -53,11 +53,11 @@ Una vez completada la carga, el recurso se añade a la lista de recursos disponi
 
 Una vez cargado, el recurso de marketing está disponible para todos los operadores de Adobe Campaign. Pueden verlo, realizar una copia para modificarlo o actualizar el archivo en el servidor.
 
-![](assets/open-a-marketing-resource.png)
+![Panel de control de recursos de marketing con fichas de panel, edición y vista previa, estado, archivo y operador asignado.](assets/open-a-marketing-resource.png)
 
 Utilice la lista desplegable **[!UICONTROL Assigned to]** de la ficha **[!UICONTROL Edit]** para seleccionar el operador responsable del recurso.
 
-![](assets/assign-a-mkt-resource.png)
+![Pestaña Editar de un recurso de marketing con la lista desplegable Asignado a de operadores abierta.](assets/assign-a-mkt-resource.png)
 
 También puede seleccionar los operadores o grupos de operadores a cargo de la validación de recursos y la publicación de recursos. Para acceder a estas opciones, haga clic en el vínculo **[!UICONTROL Advanced parameters]**.
 
@@ -83,18 +83,18 @@ Un recurso de marketing solo se puede bloquear si no se ha aprobado.
 
 Para bloquear un recurso, debe hacer clic en el botón **[!UICONTROL Lock]** del panel de recursos.
 
-![](assets/lock-a-resource.png)
+![Panel de recursos de marketing con una flecha que señala al botón Bloquear.](assets/lock-a-resource.png)
 
 
 Cuando se haya actualizado el recurso, haga clic en el botón **[!UICONTROL Lock]** del panel de recursos para que todos los operadores estén disponibles de nuevo.
 
 Un mensaje especial notifica a los operadores que intentan acceder a él:
 
-![](assets/mkt-resource-locked.png)
+![Editar mensaje de la ficha que indica que el archivo está en el servidor y que otro operador lo está editando.](assets/mkt-resource-locked.png)
 
 La ficha **[!UICONTROL Tracking]** indica el nombre del operador que ha bloqueado el recurso.
 
-![](assets/mkt-resource-audit-tab.png)
+![Pestaña Auditoría de un recurso de marketing con el lector de pruebas, la fecha de disponibilidad, el propietario y la entrada de bloqueo en el diario.](assets/mkt-resource-audit-tab.png)
 
 
 >[!NOTE]
@@ -105,7 +105,7 @@ La ficha **[!UICONTROL Tracking]** indica el nombre del operador que ha bloquead
 
 La pestaña **[!UICONTROL Forum]** de cada recurso permite que los participantes compartan información.
 
-![](assets/mkt-resource-forum.png)
+![Cuadro de diálogo de foro de debate sobre un recurso de marketing con Asunto, Mensaje y Operador para notificar campos.](assets/mkt-resource-forum.png)
 
 Obtenga más información en la sección [Foros de debate](discussion-forums.md).
 
@@ -115,13 +115,13 @@ La fecha de disponibilidad prevista se muestra en los detalles del recurso si di
 
 Para aprobar un recurso, haga clic en el botón **[!UICONTROL Approve the resource]** de su panel.
 
-![](assets/mkt-resouce-approve.png)
+![Panel de recursos de marketing con una flecha que señala al botón Aprobar el recurso.](assets/mkt-resouce-approve.png)
 
 Los operadores autorizados pueden aceptar o rechazar la aprobación. Esta acción se puede realizar a través del mensaje de correo electrónico enviado (haciendo clic en el vínculo en el mensaje de notificación) o a través de la consola del cliente (haciendo clic en el botón **[!UICONTROL Approve]** ).
 
 La ventana de aprobación permite introducir un comentario.
 
-![](assets/mkt-resource-approval-confirmation.png)
+![Acción en el cuadro de diálogo de recursos con las opciones Aceptar y Rechazar, un campo Comentario y el botón Aprobación.](assets/mkt-resource-approval-confirmation.png)
 
 Vaya a la pestaña **[!UICONTROL Tracking]** para comprobar las aprobaciones.
 
@@ -135,7 +135,7 @@ Cuando se aprueba, el recurso de marketing debe publicarse. El proceso de public
 
 Para publicar un recurso, haga clic en el botón **[!UICONTROL Publish]** en el área de edición del panel de control de recursos de marketing.
 
-![](assets/mkt-resource-publish.png)
+![Panel de recursos de marketing aprobado con una flecha que señala al botón Publicar.](assets/mkt-resource-publish.png)
 
 También puede automatizar la publicación de un recurso mediante un flujo de trabajo.
 
@@ -143,7 +143,7 @@ La publicación de un recurso implica que está disponible para su uso (por ejem
 
 Para que Adobe Campaign publique, se debe crear un flujo de trabajo adecuado y vincularlo al recurso. Para ello, abra el cuadro **[!UICONTROL Advanced settings...]** del recurso y seleccione el flujo de trabajo deseado en el campo **[!UICONTROL Post-processing]**.
 
-![](assets/mkt-resource-post-processing-wf.png)
+![Cuadro de diálogo Parámetros avanzados con el campo Flujo de trabajo de posprocesamiento en Publicación de recursos.](assets/mkt-resource-post-processing-wf.png)
 
 Se ejecuta el flujo de trabajo:
 
@@ -160,7 +160,7 @@ Los recursos de marketing se pueden asociar a las campañas, siempre que esta ca
 
 Vaya a la pestaña **[!UICONTROL Edit > Documents > Resources]** en el panel de campañas y luego haga clic en **[!UICONTROL Add]** para seleccionar el recurso que desee.
 
-![](assets/link-a-mkt-resource-to-a-campaign.png)
+![Pestaña Recursos de una campaña con el botón Agregar y el cuadro de diálogo de selección de recursos de marketing.](assets/link-a-mkt-resource-to-a-campaign.png)
 
 Puede filtrar los recursos por estado, naturaleza o tipo, o aplicar un filtro personalizado.
 
@@ -170,15 +170,15 @@ Utilice el botón **[!UICONTROL Details]** para editar y previsualizar el recurs
 
 Los recursos de marketing se pueden asociar a los envíos a través de las descripciones de entrega.
 
-Obtenga más información sobre los esquemas de entrega en [esta sección](../campaigns/marketing-campaign-deliveries.md).
+Obtenga más información acerca de los esquemas de entrega en [envíos de campañas de marketing](../campaigns/marketing-campaign-deliveries.md).
 
 Para ello, haga clic con el botón derecho en un esquema de entrega y seleccione **Nuevo > Recurso**.
 
-![](assets/mkt-resource-add-in-del-outline.png)
+![Menú contextual de descripción de entrega con Nuevo y la opción Recurso seleccionada.](assets/mkt-resource-add-in-del-outline.png)
 
 Introduzca el nombre del recurso y selecciónelo en la lista desplegable **Recurso de marketing**.
 
-![](assets/mkt-resource-select-in-del-outline.png)
+![Lista desplegable de recursos de marketing de descripción de entrega que muestra los recursos disponibles para seleccionar.](assets/mkt-resource-select-in-del-outline.png)
 
 
 ## Gestión de stock {#stock-management}
@@ -188,11 +188,11 @@ Puede asociar un recurso de marketing con uno o más inventarios de existencias 
 
 Para asociar un recurso de marketing a un inventario de stock, siga los pasos a continuación:
 
-1. Edite un inventario o cree uno nuevo. Obtenga más información sobre las existencias en [esta sección](../campaigns/providers-stocks-and-budgets.md#stock-management).
+1. Edite un inventario o cree uno nuevo. Más información sobre las existencias en [Gestión de existencias](../campaigns/providers-stocks-and-budgets.md#stock-management).
 
 1. Añada una línea de stock y seleccione el recurso de marketing correspondiente.
 
-   ![](assets/mkt-resource-in-a-stock-line.png)
+   ![Cuadro de diálogo de línea de existencias con el campo Recurso de marketing, existencias iniciales y nivel de alerta.](assets/mkt-resource-in-a-stock-line.png)
 
    Puede editar el recurso seleccionado mediante el icono **[!UICONTROL Edit the link]** ubicado a la derecha del recurso una vez que se ha seleccionado.
 

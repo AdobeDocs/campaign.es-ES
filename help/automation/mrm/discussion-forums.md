@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7e1c567dc2f70e2d9ada67c2ec46918c5821753e
+source-git-commit: cdc2fbe67fe123c895c8d3d71daffe022ba5c030
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 45%
+source-wordcount: '568'
+ht-degree: 42%
 ---
 # Foros de debate{#discussion-forums}
 
@@ -43,13 +43,13 @@ Los operadores pueden suscribirse a un foro para recibir un correo electrónico 
 
 Para acceder a un foro, vaya a un panel y haga clic en el vínculo **[!UICONTROL Forum]** en la esquina superior derecha.
 
-![](assets/mrm-forum-icon.png)
+![Panel de campañas con una flecha que señala al vínculo Foro y a la lista de discusiones.](assets/mrm-forum-icon.png)
 
 Los mensajes y sus respuestas se muestran de más reciente a más antiguo.
 
 Para iniciar un nuevo subproceso, haga clic en el botón **[!UICONTROL Add a discussion]** en la esquina superior derecha. De esta forma, aparece el cuadro **[!UICONTROL Discussion forum]** (consulte más abajo).
 
-![](assets/mrm-forum-new-thread.png)
+![Cuadro de diálogo de foro de discusión con Asunto, Mensaje, Operador al que notificar, Adjuntar un documento y Crear el mensaje.](assets/mrm-forum-new-thread.png)
 
 
 Introduzca el texto en el campo **[!UICONTROL Message]** y un título de conversación en el campo **[!UICONTROL Subject]**.
@@ -85,7 +85,7 @@ Para responder a un mensaje, haga clic en el cuerpo del correo electrónico y lu
 
 * Su panel de control personal enumera los foros a los que está suscrito. Haga clic en el vínculo **[!UICONTROL Subscription to discussion forums]** para mostrar la lista y luego haga clic en el elemento que le interese para acceder al foro correspondiente.
 
-  ![](assets/forum-subscribed.png)
+  ![Panel de operador con la lista Suscripciones a foros de discusión resaltada.](assets/forum-subscribed.png)
 
 
 ## Solución de problemas de entrega de notificaciones {#checking-notification-delivery}
