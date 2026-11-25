@@ -28,10 +28,10 @@ level_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 14%
+source-wordcount: '319'
+ht-degree: 12%
 ---
 # Introducción a las API de [!DNL Campaign] {#gs-ac-api}
 
@@ -46,7 +46,7 @@ ht-degree: 14%
 
 Puede usar [las API de JavaScript de Campaign](https://experienceleague.adobe.com/es/tools/campaign-api){target="_blank"} para escribir en la base de datos de la nube de Campaign o leer desde la base de datos:
 
-* API específicas de la empresa que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html?lang=es){target="_blank"}.
+* API específicas de la empresa que le permiten actuar sobre cada objeto: envíos, flujos de trabajo, suscripciones, etc. Obtenga más información en la [documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/configuring-campaign-classic/api/business-oriented-apis.html){target="_blank"}.
 * API genéricas de acceso a datos para consultar los datos del modelo de datos usando `queryDef` y el objeto `NLWS`. Obtenga más información en [Consulte la base de datos con queryDef](query-api.md).
 
 Tenga en cuenta que en su implementación de [Enterprise (FDAC) Deployment](../architecture/enterprise-deployment.md), Campaign funciona con dos bases de datos: una base de datos local para la mensajería en tiempo real y consultas unitarias y escritura a través de API de la interfaz de usuario, y una base de datos de Cloud para la ejecución de campañas, la creación de informes, la ingesta de datos, las consultas por lotes y la ejecución del flujo de trabajo.
@@ -69,7 +69,7 @@ Antes de usar las API de [!DNL Adobe Campaign], debe estar familiarizado con los
 Para usar las API e interactuar con [!DNL Adobe Campaign], también debe estar familiarizado con el modelo de datos.
 
 >[!NOTE]
->Puede generar una descripción completa del modelo de datos. Obtenga más información en [esta página](datamodel.md).
+>Puede generar una descripción completa del modelo de datos. Obtenga más información en [Introducción al modelo de datos de Campaign](datamodel.md).
 
 
 **Temas relacionados**

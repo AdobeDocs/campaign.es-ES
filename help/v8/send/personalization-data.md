@@ -24,10 +24,10 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 46%
+source-wordcount: '627'
+ht-degree: 45%
 ---
 # Fuentes de datos de Personalization{#personalization-data}
 
@@ -53,7 +53,7 @@ Para seleccionar el archivo que se usará como origen de datos, busque el víncu
 
 Los datos de Personalization se pueden extraer de una tabla externa mediante [Acceso de datos federado](../connect/fda.md).  Si desea personalizar los envíos utilizando datos de la base de datos externa, recopile los datos para utilizarlos en un flujo de trabajo para que estén disponibles en una tabla temporal.
 
-Para ello, agregue una actividad **Query** al flujo de trabajo de objetivos y use el vínculo **Add data...** para seleccionar la base de datos externa. El proceso detallado está disponible en [esta sección](../../automation/workflow/query.md#adding-data).
+Para ello, agregue una actividad **Query** al flujo de trabajo de objetivos y use el vínculo **Add data...** para seleccionar la base de datos externa. El proceso detallado está disponible en [Agregar datos](../../automation/workflow/query.md#adding-data).
 
 A continuación, utilice los datos de la tabla temporal para personalizar su envío. Una vez configurada la actividad de consulta, acceda a los datos externos en las opciones de personalización, desde la entrada **Target extension**.
 
@@ -87,4 +87,4 @@ Una vez completado el análisis, vaya al flujo de trabajo **[!UICONTROL Properti
 
 Cuando se crea una entrega en el contexto de un flujo de trabajo, se pueden utilizar los datos de la tabla de flujo de trabajo temporal. Los datos almacenados en la tabla de trabajo temporal del flujo de trabajo están disponibles para tareas de personalización. Los datos se pueden utilizar en los campos personalizados.
 
-Estos datos se agrupan en el menú **[!UICONTROL Target extension]**. Para obtener más información, consulte [esta sección](../../automation/workflow/use-workflow-data.md#target-data).
+Estos datos se agrupan en el menú **[!UICONTROL Target extension]**. Para obtener más información, consulte [Aprovechar los datos de destino](../../automation/workflow/use-workflow-data.md#target-data).

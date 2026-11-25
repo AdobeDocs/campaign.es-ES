@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 37%
+source-wordcount: '541'
+ht-degree: 36%
 ---
 # Trabajo con audiencias en Campaign{#gs-ac-audiences}
 
@@ -44,13 +44,13 @@ Obtenga información sobre cómo importar, actualizar y administrar perfiles y a
 
 Una lista es un conjunto estático de contactos que puede centrarse en acciones de envío o actualizarse durante una importación u otra acción de flujo de trabajo. Por ejemplo, una población extraída de la base de datos mediante una consulta se puede almacenar como una lista.
 
-Aprenda a crear y administrar listas en [esta página](../audiences/create-audiences.md).
+Aprenda a crear y administrar listas en [Crear audiencias de perfil en Campaign](../audiences/create-audiences.md).
 
 ## Filtrar la base de datos{#filter-the-database}
 
 La configuración del filtro permite seleccionar datos de una lista **[!UICONTROL dynamically]**: cuando se modifican los datos, los datos filtrados se actualizan. Puede crear sus propios filtros o utilizar los filtros integrados para definir una audiencia objetivo.
 
-Aprenda a crear y administrar filtros en [esta página](../audiences/create-filters.md).
+Aprenda a crear y administrar filtros en [Trabajar con filtros en Adobe Campaign](../audiences/create-filters.md).
 
 ## Creación de una audiencia en un flujo de trabajo
 

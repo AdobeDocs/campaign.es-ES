@@ -25,7 +25,7 @@ topic_v2:
     internal-label: Data quality
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
     internal-label: Troubleshooting
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 57%
@@ -44,7 +44,7 @@ El [informe de procesamiento de la bandeja de entrada](inbox-rendering.md) le pe
 
 ### Rendimiento del envío {#throughput-reports}
 
-El informe **[!UICONTROL Delivery throughput]** proporciona una visión general del rendimiento de toda la plataforma durante un período determinado. Para obtener más información, consulte [esta sección](../reporting/global-reports.md#delivery-throughput).
+El informe **[!UICONTROL Delivery throughput]** proporciona una visión general del rendimiento de toda la plataforma durante un período determinado. Para obtener más información sobre esto, consulte [Rendimiento de los envíos](../reporting/global-reports.md#delivery-throughput).
 
 ### Estadísticas de difusión {#broadcast-statistics}
 

@@ -35,10 +35,10 @@ topic_v2:
     internal-label: Email marketing
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 31%
+source-wordcount: '350'
+ht-degree: 29%
 ---
 # Conexión de su CRM con Campaign {#gs-crm}
 
@@ -69,8 +69,8 @@ Los CRM y versiones compatibles se detallan en Campaign [Matriz de compatibilida
 
 ## Pasos de implementación {#crm-implementation-steps}
 
-Aprenda el procedimiento paso a paso para conectar Campaign y Microsoft Dynamics en [esta página](ac-ms-dyn.md).
+Aprenda el procedimiento paso a paso para conectar Campaign y Microsoft Dynamics en [Trabajar con Campaign y Microsoft Dynamics](ac-ms-dyn.md).
 
-Aprenda el procedimiento paso a paso para conectar Campaign y Salesforce.com en [esta página](ac-sfdc.md).
+Aprenda el procedimiento paso a paso para conectar Campaign y Salesforce.com en [Trabajar con Campaign y SFDC](ac-sfdc.md).
 
-La sincronización de datos entre Adobe Campaign y CRM se lleva a cabo mediante una actividad de flujo de trabajo dedicada. Cree sus flujos de trabajo para automatizar la sincronización entre Campaign y CRM. Puede crear un flujo de trabajo que importe los contactos a través de Microsoft Dynamics, los sincronice con los datos de Adobe Campaign existentes, elimine los contactos duplicados y, a continuación, actualice la base de datos de Adobe Campaign. Obtenga más información en [esta página](crm-data-sync.md).
+La sincronización de datos entre Adobe Campaign y CRM se lleva a cabo mediante una actividad de flujo de trabajo dedicada. Cree sus flujos de trabajo para automatizar la sincronización entre Campaign y CRM. Puede crear un flujo de trabajo que importe los contactos a través de Microsoft Dynamics, los sincronice con los datos de Adobe Campaign existentes, elimine los contactos duplicados y, a continuación, actualice la base de datos de Adobe Campaign. Obtenga más información en [Sincronización de datos de conectores de CRM](crm-data-sync.md).

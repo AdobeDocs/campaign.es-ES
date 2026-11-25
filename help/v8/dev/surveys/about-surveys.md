@@ -30,10 +30,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: 2ac66c0844ec361de9a1658f666c190fcfac8ffa
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 98%
+source-wordcount: '541'
+ht-degree: 95%
 ---
 # Introducción a las encuestas{#about-surveys}
 
@@ -49,7 +49,7 @@ El complemento opcional **Encuesta** le permite crear un nuevo tipo de aplicaci�
 
 Este capítulo detalla cómo realizar la creación y la administración **Encuestas**, administración de campos y páginas, modos de almacenamiento y registros.
 
-Aprenda a crear la primera encuesta en [esta página](getting-started-with-surveys.md).
+Aprenda a crear su primera encuesta en [Pasos clave para crear una encuesta](getting-started-with-surveys.md).
 
 >[!NOTE]
 >

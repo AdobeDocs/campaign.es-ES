@@ -14,9 +14,9 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '355'
 ht-degree: 0%
 ---
 # Solución de problemas API {#troubleshooting}
@@ -32,7 +32,7 @@ Esto significa que hay un problema con el aprovisionamiento de IMS de su product
 Para obtener más información, puede llamar a la API de IMS con su token para ver el aspecto de su perfil IMS: Debe tener un prodCtx donde el organization_id sea el mismo que el que puso en su URL para Adobe.io para poder enrutar su solicitud.
 Si falta, es necesario corregir el aprovisionamiento de IMS.
 
-```
+```bash
 -X GET https://mc.adobe.io/{ORGANIZATION}/campaign/profileAndServices/profile \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -42,13 +42,13 @@ Si falta, es necesario corregir el aprovisionamiento de IMS.
 
 Devuelve el siguiente error.
 
-```
+```json
 {"error_code":"403023","message":"Profile is not valid"}
 ```
 
 Compruebe su perfil IMS con esta solicitud.
 
-```
+```bash
 -X GET https://ims-na1.adobelogin.com/ims/profile/v1 \
 -H 'Content-Type: application/json' \
 -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -58,7 +58,7 @@ Compruebe su perfil IMS con esta solicitud.
 
 En la respuesta, el valor ORGANIZATION_ID debe ser el mismo en la primera petición GET.
 
-```
+```json
 {
   "countryCode": "FR",
   "mrktPermEmail": null,
@@ -91,7 +91,7 @@ Su token no es válido (se ha utilizado una llamada IMS incorrecta para generar 
 
 * **No veo mi perfil después de la creación**
 
-Según la configuración de la instancia, el perfil creado debe asociarse a una **orgUnit**. Para saber cómo agregar este campo en su creación, consulte [esta sección](creating-profiles-api.md).
+Según la configuración de la instancia, el perfil creado debe asociarse a una **orgUnit**. Para saber cómo agregar este campo en la creación, consulte [Creación de perfiles con API](creating-profiles-api.md).
 
 <!--
  * (error duplicate key : quand tu crées un profile qui existe déjà , il faut faire un patch pour updater le profile plutôt qu'un POST)

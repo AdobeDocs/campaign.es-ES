@@ -49,10 +49,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '3476'
-ht-degree: 54%
+source-wordcount: '3478'
+ht-degree: 53%
 ---
 # Comprender los errores de envío {#delivery-failures}
 
@@ -159,7 +159,7 @@ Una vez que un mensaje ha estado en la cola de MTA durante 3,5 días y no se ha 
 
 Un mensaje puede caducar antes del final de su periodo de validez cuando el siguiente reintento cae después de la hora de caducidad. A continuación, el registro de envío muestra el error del último intento de envío.
 
-<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html?lang=es#defining-validity-period){target="_blank"}.-->
+<!--For more on the validity period, see the [Adobe Campaign Classic v7 documentation](https://experienceleague.adobe.com/docs/campaign-classic/using/sending-messages/key-steps-when-creating-a-delivery/steps-sending-the-delivery.html#defining-validity-period){target="_blank"}.-->
 
 
 ## Tipos de error de correo electrónico {#email-error-types}
@@ -714,7 +714,7 @@ Antes de que se clasifique un nuevo tipo de error, el motivo del error se establ
 
 Ejemplo de mensaje generado:
 
-```
+```text
 SR Generic DELIVRD 000|#MESSAGE#
 ```
 
@@ -750,7 +750,7 @@ Los registros de entregas son esenciales para saber por qué ha fallado una entr
 
 Si los mensajes al destinatario fallan e indican el error “inaccesible”:
 
-```
+```text
 Error while compiling script 'content htmlContent' line X: `[table]` is not defined. JavaScript: error while evaluating script 'content htmlContent
 ```
 
@@ -758,13 +758,13 @@ Error while compiling script 'content htmlContent' line X: `[table]` is not defi
 
 **Resolución**: revise el flujo de trabajo y el contenido de la entrega para determinar específicamente qué personalización está intentando llamar a la tabla en cuestión. A continuación, elimine la llamada a esta tabla en HTML o corrija la asignación a la entrega.
 
-Obtenga más información acerca de la personalización en [esta sección](personalize.md).
+Más información sobre la personalización en [Introducción a la personalización](personalize.md).
 
 ### Error de valores de personalización múltiple {#multiple-values-error}
 
 Cuando una entrega falla, el siguiente error puede aparecer en los “logs” de envío:
 
-```
+```text
 DLV-XXXX The count of message prepared (123) is greater than the number of messages to send (111). Please contact support.
 ```
 
@@ -776,7 +776,7 @@ DLV-XXXX The count of message prepared (123) is greater than the number of messa
 
 Algunos envíos pueden fallar con un error que indica &quot;inaccesible&quot;:
 
-```
+```text
 Inbound email bounce (rule 'Auto_replies' has matched this bounce).
 ```
 

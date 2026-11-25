@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
     internal-label: Experienced
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 4%
+source-wordcount: '238'
+ht-degree: 0%
 ---
 # Recuperación de perfiles con API {#retrieving-profiles}
 
@@ -30,7 +30,7 @@ La recuperación de perfiles se realiza con una solicitud **GET**.
 
 A continuación, puede restringir la búsqueda mediante filtros, pedidos y paginación. Para obtener más información, consulte la sección [Operaciones adicionales](sorting.md).
 
-Además, las API de Campaign Standard le permiten buscar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado. Para obtener más información, consulte [esta sección](#searching-field).
+Además, las API de Campaign Standard le permiten buscar perfiles en función de uno de estos campos: correo electrónico, nombre, apellidos o cualquier campo personalizado. Para obtener más información, consulte [Búsqueda de perfiles basados en un campo](#searching-field).
 
 <br/>
 
@@ -38,7 +38,7 @@ Además, las API de Campaign Standard le permiten buscar perfiles en función de
 
 * Ejemplo de petición GET para recuperar todos los perfiles.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -48,7 +48,7 @@ Además, las API de Campaign Standard le permiten buscar perfiles en función de
 
   Respuesta a la solicitud.
 
-  ```
+  ```json
   {
       "content": [
           {
@@ -64,7 +64,7 @@ Además, las API de Campaign Standard le permiten buscar perfiles en función de
 
 * Ejemplo de petición GET para recuperar los primeros 10 valores de correo electrónico.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/email?_lineCount=10 \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -74,7 +74,7 @@ Además, las API de Campaign Standard le permiten buscar perfiles en función de
 
   Respuesta a la solicitud. El nodo &quot;siguiente&quot; devuelve la dirección URL que le permite acceder a los 10 valores de correo electrónico siguientes.
 
-  ```
+  ```json
   {
   "content": [
       "amy.dakota@mail.com",
@@ -107,7 +107,7 @@ El parámetro **[!UICONTROL filterType]** le permite recuperar perfiles basados 
 
 * Solicitud de muestra para filtrar perfiles sobre la base del nombre.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John&filterType=firstName \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -117,7 +117,7 @@ El parámetro **[!UICONTROL filterType]** le permite recuperar perfiles basados 
 
 * Solicitud de muestra para filtrar perfiles según el apellido.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=Miller&filterType=lastName \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -127,7 +127,7 @@ El parámetro **[!UICONTROL filterType]** le permite recuperar perfiles basados 
 
 * Solicitud de muestra para filtrar perfiles según el correo electrónico.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServices/profile/byText?text=John%40gmail.com&filterType=email \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \
@@ -137,7 +137,7 @@ El parámetro **[!UICONTROL filterType]** le permite recuperar perfiles basados 
 
 * Solicitud de muestra para filtrar perfiles en función del campo personalizado &quot;Afición&quot;.
 
-  ```
+  ```bash
   -X GET https://mc.adobe.io/<ORGANIZATION>/campaign/profileAndServicesExt/profile/byText?cusHobby=Dancing&filterType=Hobby \
   -H 'Content-Type: application/json' \
   -H 'Authorization: Bearer <ACCESS_TOKEN>' \

@@ -26,10 +26,10 @@ topic_v2:
     internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 6a24d7e3aeb7dad381478821a50835b985e34b62
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 30%
+source-wordcount: '838'
+ht-degree: 27%
 ---
 # Envío y monitorización de correos electrónicos  {#send-and-monitor-emails}
 
@@ -77,7 +77,7 @@ El MTA califica el rebote SMTP y devuelve esa calificación a Campaign en forma 
 >
 >Actualmente, las **devoluciones asincrónicas** están calificadas por el proceso de inMail a través de las reglas **[!UICONTROL Inbound email]**.
 
-Obtenga más información sobre los errores de entrega en [esta sección](delivery-failures.md).
+Obtenga más información sobre los errores de entrega en [Errores de entrega en Campaign](delivery-failures.md).
 
 
 ### Reglas MX específicas
@@ -112,9 +112,9 @@ Cuando se generan informes de los mensajes de rebote suave desde el servidor de 
 
 >[!NOTE]
 >
->Para obtener más información acerca de las devoluciones suaves y duras, consulte [esta sección](delivery-failures.md#delivery-failure-reasons).
+>Para obtener más información sobre las devoluciones suaves y duras, consulte [Por qué ha fallado la entrega del mensaje](delivery-failures.md#delivery-failure-reasons).
 >
->Para obtener más información sobre reintentos después de un error temporal de envío, consulte [esta sección](delivery-failures.md#retries).
+>Para obtener más información sobre reintentos después de un error temporal de entrega, consulte [Administración de reintentos](delivery-failures.md#retries).
 
 La tabla siguiente muestra cómo se actualizan los KPI y los estados de registros de envío en cada paso del proceso de envío.
 
