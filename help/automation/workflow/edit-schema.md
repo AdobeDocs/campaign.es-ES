@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '149'
+ht-degree: 77%
 ---
 # Edición del esquema{#edit-schema}
 
@@ -38,10 +38,10 @@ En el flujo de trabajo, los datos se pueden transformar, normalizar y, si es nec
 
 Esta actividad no cambia los datos de la tabla de trabajo, solo cambia su esquema, es decir, la vista lógica de los datos.
 
-![](assets/wf_manipulation_box.png)
+![Editar actividad de esquema con columnas y expresiones de salida, incluida una columna Promedio de pedido calculada con Avg](assets/wf_manipulation_box.png)
 
 También se pueden crear vínculos con otras tablas de trabajo a través de la pestaña **[!UICONTROL Links]**.
 
-![](assets/wf_manipulation_box_link_tab.png)
+![Pestaña Vínculos de Editar esquema con el cuadro de diálogo Definición de vínculo que muestra el esquema de destino y las condiciones de unión](assets/wf_manipulation_box_link_tab.png)
 
 La sección inferior permite configurar la lista de condiciones del vínculo, es decir, los criterios utilizados para reconciliar los datos de las dos tablas.

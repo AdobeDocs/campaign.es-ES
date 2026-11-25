@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 80%
+source-wordcount: '684'
+ht-degree: 75%
 ---
 # Propiedades del flujo de trabajo{#workflow-properties}
 
@@ -35,7 +35,7 @@ ht-degree: 80%
 
 La pestaña **[!UICONTROL Execution]**, dentro de la ventana **[!UICONTROL Properties]** en un flujo de trabajo, se divide en 3 secciones:
 
-![](assets/wf_execution_tab.png)
+![Pestaña Ejecución con las secciones Planificador, Ejecución y Administración de errores de las propiedades del flujo de trabajo.](assets/wf_execution_tab.png)
 
 ### Planificador {#scheduler}
 
@@ -65,7 +65,7 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
   Las consultas se muestran en una pestaña **[!UICONTROL SQL logs]** que se añade al flujo de trabajo (excepto a los flujos de trabajo de la campaña) y a la actividad **[!UICONTROL Properties]** cuando la opción está habilitada. La pestaña **[!UICONTROL Audit]** también incluye consultas SQL.
 
-  ![](assets/wf_tab_log_sql.png)
+  ![Ventana de flujo de trabajo con la ficha Registros SQL resaltada junto a las fichas Diagrama y Auditoría.](assets/wf_tab_log_sql.png)
 
 * **[!UICONTROL Execute in the engine]**
 
@@ -102,7 +102,7 @@ Esta sección solo aparece en los flujos de trabajo de la campaña.
 
   Los operadores afectados reciben una notificación por correo electrónico si su perfil incluye una dirección de correo electrónico. Para designar los supervisores del flujo de trabajo, vaya al campo **[!UICONTROL Supervisor(s)]** de las propiedades (pestaña **[!UICONTROL General]**).
 
-  ![](assets/wf-properties_select-supervisors.png)
+  ![Pestaña General con la lista desplegable Supervisor(s) abierta y Workflow supervisors resaltada.](assets/wf-properties_select-supervisors.png)
 
   La plantilla predeterminada **[!UICONTROL Notification to a workflow supervisor]** incluye un vínculo para obtener acceso a la consola del cliente de Adobe Campaign a través de la web para que el destinatario pueda solucionar el problema una vez que haya iniciado sesión.
 

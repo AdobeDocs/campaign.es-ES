@@ -28,16 +28,16 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 92%
+source-wordcount: '822'
+ht-degree: 73%
 ---
 # Aprobación local{#local-approval}
 
 Cuando se integra en un flujo de trabajo de objetivos, la actividad **[!UICONTROL Local approval]** permite configurar un proceso de aprobación de destinatarios antes de la entrega.
 
-![](assets/local_validation_0.png)
+![Actividad de aprobación local con acción de notificación de aprobación de destino, administración de aprobación y opción Generate complement.](assets/local_validation_0.png)
 
 >[!CAUTION]
 >
@@ -47,23 +47,23 @@ Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plan
 
 Comience introduciendo una etiqueta para la actividad y el campo **[!UICONTROL Action to execute]**:
 
-![](assets/local_validation_1.png)
+![Etiqueta de actividad de aprobación local y acción a realizar: notificación de aprobación de destino o informe de comentarios de entrega.](assets/local_validation_1.png)
 
 * Seleccione la opción **[!UICONTROL Target approval notification]** para enviar un correo electrónico de notificación a los supervisores locales antes de la entrega para pedirles que aprueben los destinatarios asignados a ellos.
 
 * **Incremental query**: permite realizar una consulta y planificar su ejecución. Consulte la sección [Consulta incremental](incremental-query.md).
 
-  ![](assets/local_validation_intro_3.png)
+  ![Página web de validación local con una lista de comentarios de entrega de destinatarios por sexo y su estado: enviado, abierto, hecho clic](assets/local_validation_intro_3.png)
 
 ## Notificación de aprobación del objetivo {#target-approval-notification}
 
 En este caso, la actividad **[!UICONTROL Local approval]** se coloca entre el objetivo ascendente y la entrega:
 
-![](assets/local_validation_2.png)
+![Flujo de trabajo con la actividad de validación local colocada entre la Consulta 1 y la Entrega.](assets/local_validation_2.png)
 
 Los campos que se deben ingresar en caso de una notificación para la aprobación del objetivo son los siguientes:
 
-![](assets/local_validation_3.png)
+![Campos de aprobación locales para una notificación de aprobación de destino: contexto de distribución, tipo de aprobación, plantilla, recordatorio.](assets/local_validation_3.png)
 
 * **[!UICONTROL Distribution context]**: seleccione la opción **[!UICONTROL Specified in the transition]** si utiliza una actividad de tipo **[!UICONTROL Split]** para limitar la población objetivo. En este caso, la plantilla de distribución se introduce en la actividad dividida. Si no limita la población objetivo, seleccione la opción **[!UICONTROL Explicit]** aquí e introduzca la plantilla de distribución en el campo **[!UICONTROL Data distribution]**.
 
@@ -90,11 +90,11 @@ Los campos que se deben ingresar en caso de una notificación para la aprobació
 
 En este caso, la actividad **[!UICONTROL Local approval]** se coloca después de la entrega:
 
-![](assets/local_validation_4.png)
+![Flujo de trabajo con una actividad Wait and a Local validation 2 colocada después de la actividad Delivery.](assets/local_validation_4.png)
 
 En caso de un informe de comentarios de la entrega, se deben ingresar los siguientes campos:
 
-![](assets/local_validation_workflow_4.png)
+![Aprobación local establecida en Informe de comentarios de entrega, con la opción de entrega Especificado en la transición y la plantilla.](assets/local_validation_workflow_4.png)
 
 * Seleccione la opción **[!UICONTROL Specified in the transition]** si la entrega se ha ingresado durante una actividad anterior. Seleccione **[!UICONTROL Explicit]** para especificar la entrega en la actividad de aprobación local.
 * Seleccione la plantilla de envío y la finalidad del correo electrónico de notificación. Hay una plantilla predeterminada: **[!UICONTROL Local approval notification]**.
@@ -111,22 +111,22 @@ Un operador puede aprobar una entrega de una de las dos maneras siguientes: medi
 
   Para aprobar la entrega, haga clic en el vínculo correspondiente e inicie sesión en la consola del cliente de Adobe Campaign.
 
-  ![](assets/new-workflow-valid-webaccess.png)
+  ![Correo electrónico de solicitud de aprobación que pregunta si se aprueban los 574 destinatarios, con un vínculo Haga clic aquí para responder.](assets/new-workflow-valid-webaccess.png)
 
   Seleccione y haga clic en el botón **[!UICONTROL Submit]**.
 
-  ![](assets/new-workflow-valid-webaccess-confirm.png)
+  ![Página web de aprobación con un campo de comentarios, la opción Sí y No y el botón Enviar.](assets/new-workflow-valid-webaccess-confirm.png)
 
 * Aprobación mediante la consola de cliente
 
   En la estructura de árbol, el nodo **[!UICONTROL Administration > Production > Objects created automatically > Approvals pending]** contiene la lista de tareas que debe aprobar el operador conectado actualmente. La lista debe mostrar una línea. Haga doble clic en esta línea para responder. Se muestra la siguiente ventana:
 
-![](assets/new-workflow-7.png)
+![Nodo de aprobaciones pendientes en la consola del cliente y en la ventana de aprobación de la tarea con la opción Sí seleccionada y el botón Aprobar.](assets/new-workflow-7.png)
 
 Seleccione **Yes** y haga clic en **[!UICONTROL Approve]**. Un mensaje le informará de que la respuesta se ha registrado.
 
 Vuelva a la pantalla de flujo de trabajo: Después de unos diez segundos, el diagrama se muestra de la siguiente manera:
 
-![](assets/new-workflow-8.png)
+![Diagrama de flujo de trabajo después de la aprobación: envío, aprobación, control de envío y finalización, con la rama Yes seguida.](assets/new-workflow-8.png)
 
 El flujo de trabajo ha ejecutado la tarea **[!UICONTROL Delivery control]**, que en este caso implica iniciar la entrega creada previamente. El flujo de trabajo ha finalizado sin errores.

@@ -25,10 +25,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 16%
+source-wordcount: '355'
+ht-degree: 14%
 ---
 # Cambio de la fuente de datos {#change-data-source}
 
@@ -61,22 +61,22 @@ Para usar la actividad **[!UICONTROL Change Data Source]**, debe:
 
 1. Agregue una actividad **[!UICONTROL Change data source]**.
 
-   ![](assets/change-data-source.png)
+   ![Flujo de trabajo con Inicio y Consulta y la actividad Cambiar datos de Source resaltada en la paleta](assets/change-data-source.png)
 
 1. Edite su actividad **[!UICONTROL Change data source]** para seleccionar **[!UICONTROL Default data source]**.
 
    La tabla de trabajo, que contiene el resultado de la consulta, se mueve a la base de datos local de Campaign predeterminada.
 
-   ![](assets/change-data-source_2.png)
+   ![Cambiar actividad de Data Source con la opción de fuente de datos predeterminada seleccionada](assets/change-data-source_2.png)
 
 1. Agregue una actividad **[!UICONTROL JavaScript code]** para realizar operaciones unitarias en la tabla de trabajo.
 
-   Para obtener más información sobre la actividad **[!UICONTROL JavaScript code]**, consulte [esta página](sql-code-and-javascript-code.md#javascript-code).
+   Para obtener más información sobre la actividad **[!UICONTROL JavaScript code]**, consulte [Código JavaScript y Código JavaScript avanzado](sql-code-and-javascript-code.md#javascript-code).
 
 1. Añada otra actividad **[!UICONTROL Change data source]** para volver a la base de datos en la nube.
 
 1. Edite esta actividad y seleccione **[!UICONTROL Active FDA external account]**, junto con la cuenta externa correspondiente **[!UICONTROL External database]**.
 
-   ![](assets/change-data-source_3.png)
+   ![Cambiar la actividad de Data Source con la cuenta externa de Active FDA seleccionada y Snowflake resaltada en la lista](assets/change-data-source_3.png)
 
 1. Ahora puede iniciar el flujo de trabajo.

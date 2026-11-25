@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '342'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 89%
 ---
 # Correos electrónicos entrantes{#inbound-emails}
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 La actividad **Inbound emails** permite descargar y procesar correos electrónicos desde un servidor de correo POP3.
 
-![](assets/email_rec_edit_1.png)
+![Cuadro de diálogo de actividad de correos electrónicos entrantes con el servidor POP3, los campos Cuenta externa y Script](assets/email_rec_edit_1.png)
 
 La primera pestaña de la actividad **Inbound Emails** permite introducir los parámetros del servidor POP3 e introducir la secuencia de comandos que se ejecutará al recibir cada mensaje. La segunda pestaña permite asignar una programación a la actividad y la tercera define las condiciones de caducidad de la actividad.
 
@@ -46,7 +46,7 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
      Si no se selecciona esta opción, se deberán especificar los siguientes parámetros:
 
-     ![](assets/email_rec_edit_1b.png)
+     ![Sección de servidor POP3 con los campos Servidor POP3, Cuenta POP3, Contraseña y Puerto](assets/email_rec_edit_1b.png)
 
      * **[!UICONTROL POP3 server]**
 
@@ -91,6 +91,6 @@ La primera pestaña de la actividad **Inbound Emails** permite introducir los pa
 
    Puede definir los retrasos de caducidad a través de la pestaña **[!UICONTROL Expiration]**
 
-   ![](assets/email_rec_edit_3.png)
+   ![Pestaña Caducidad de correos electrónicos entrantes con la lista de tipo Caducidad que muestra las opciones de retraso y caducidad](assets/email_rec_edit_3.png)
 
    La configuración es la misma que para la actividad de programación. Consulte [Caducidad](define-approvals.md).

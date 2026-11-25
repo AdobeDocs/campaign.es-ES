@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 85%
+source-wordcount: '292'
+ht-degree: 79%
 ---
 # Entrega recurrente{#recurring-delivery}
 
@@ -34,7 +34,7 @@ ht-degree: 85%
 
 Una actividad de **[!UICONTROL Recurring delivery]** permite configurar una ocurrencia de plantilla de envío específica de una campaña.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#recurring-delivery-video)
+![Icono del botón de reproducción para el vínculo de vídeo.](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#recurring-delivery-video)
 
 Esta actividad solo está disponible en la pestaña **[!UICONTROL Targeting and workflows]** ubicada en una campaña.
 
@@ -42,7 +42,7 @@ Para ello:
 
 1. Seleccione la plantilla de envío en la que se basa la actividad.
 
-   ![](assets/recurring_delivery_001.png)
+   ![Ventana de envío con la lista desplegable de Delivery template abierta y Email delivery (mail) seleccionado.](assets/recurring_delivery_001.png)
 
 1. Configure la plantilla de envío.
 
@@ -68,6 +68,6 @@ Si desea detener la ejecución de una entrega recurrente, debe cancelar completa
 
 En este vídeo se explica cómo configurar un envío recurrente y una actividad de planificador.
 
->[!VIDEO](https://video.tv.adobe.com/v/27509?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25040?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

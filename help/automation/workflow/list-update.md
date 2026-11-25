@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 84%
 ---
 # Actualización de listas{#list-update}
 
@@ -36,13 +36,13 @@ ht-degree: 97%
 
 Una actividad **List update** almacena la población especificada en la transición a una lista de destinatarios.
 
-![](assets/s_user_segmentation_update_group.png)
+![Editor de actividades de actualización de lista con Especificado seleccionado explícitamente, la carpeta Listas y las opciones de tipo de guardado.](assets/s_user_segmentation_update_group.png)
 
 La lista se puede seleccionar de la lista de grupos existentes.
 
 También se puede crear con las opciones **[!UICONTROL Create the list if necessary (Computed name)]** y **[!UICONTROL Create the list if necessary (Computed Folder and Name)]**. Estas opciones permiten seleccionar la etiqueta que desee para crear una lista y, posteriormente, la carpeta en la que se guardará. La etiqueta también se puede generar automáticamente insertando campos dinámicos o un script. Los distintos campos dinámicos están disponibles en el menú desplegable situado a la derecha de la etiqueta.
 
-![](assets/s_user_segmentation_update_list_calc.png)
+![Actividad de actualización de lista con la opción Crear la lista si es necesario (Nombre calculado) seleccionada y un script de etiqueta calculado.](assets/s_user_segmentation_update_list_calc.png)
 
 Si la lista ya existe, los destinatarios se añaden al contenido existente, a no ser que marque la opción **[!UICONTROL Purge the list if it exists (otherwise add to the list)]**. En este caso, el contenido de la lista se elimina antes de la actualización.
 
@@ -52,7 +52,7 @@ Para utilizar la opción, dichas tablas específicas deben haberse configurado e
 
 Por lo general, guardar un destino en una lista indica el final de un flujo de trabajo. De forma predeterminada, la actividad **[!UICONTROL List update]** no tiene una transición saliente. Marque la opción **[!UICONTROL Generate an outbound transition]** para agregar una.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra cómo crear una lista de destinatarios desde el Explorador con este vídeo](#video)
+![Icono del botón de reproducción para el vínculo de vídeo.](assets/do-not-localize/how-to-video.png) [Descubra cómo crear una lista de destinatarios desde Explorer en vídeo](#video)
 
 ## Ejemplo: actualización de lista {#example--list-update}
 
@@ -71,7 +71,7 @@ En el ejemplo siguiente, la actividad de actualización de la lista sigue una co
 1. Deje la opción **[!UICONTROL Generate an outbound transition]** sin marcar.
 1. Haga clic en **[!UICONTROL Ok]** y comience el flujo de trabajo.
 
-   ![](assets/s_user_segmentation_update_list_calc_example.png)
+   ![Actividad de actualización de lista establecida para crear la lista M_WestUS_18-30 en la carpeta Listas, con la opción de purga y reutilización activada.](assets/s_user_segmentation_update_list_calc_example.png)
 
    A continuación, se crea o actualiza la lista de destinatarios coincidentes.
 
@@ -90,6 +90,6 @@ Identifique la población que se va a guardar en el grupo.
 
 Este vídeo muestra cómo crear una lista de destinatarios desde Explorer.
 
->[!VIDEO](https://video.tv.adobe.com/v/27504?captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25602/quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

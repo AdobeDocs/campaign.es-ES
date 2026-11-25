@@ -23,10 +23,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 75%
+source-wordcount: '138'
+ht-degree: 56%
 ---
 # Conector CRM{#crm-connector}
 
@@ -39,10 +39,10 @@ Con esta actividad, puede:
 * Importación de objetos eliminados en CRM
 * Eliminación de objetos en CRM
 
-![](assets/crm_task_select_op.png)
+![Actividad del conector CRM con la lista Tipo abierta que muestra las opciones de importación, exportación y eliminación y la cuenta de Salesforce CRM](assets/crm_task_select_op.png)
 
 Seleccionar la cuenta externa que coincide con el CRM con el que desea configurar la sincronización y, a continuación, seleccione el objeto que se va a sincronizar (cuentas, oportunidades, contactos, etc.).
 
-![](assets/crm_task_select_obj.png)
+![Actividad del conector CRM con Importar desde CRM y la lista de objetos remotos abierta con el contacto resaltado](assets/crm_task_select_obj.png)
 
-Para obtener más información sobre conectores CRM en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html?lang=es){target="_blank"}.
+Para obtener más información sobre conectores CRM en Adobe Campaign, consulte [esta sección](https://experienceleague.adobe.com/docs/campaign/campaign-v8/connect/ac-crm/crm.html){target="_blank"}.

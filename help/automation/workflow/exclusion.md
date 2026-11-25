@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 100%
+source-wordcount: '404'
+ht-degree: 88%
 ---
 # Exclusión{#exclusion}
 
@@ -36,7 +36,7 @@ Una actividad de tipo **exclusión** permite crear un objetivo basado en un obje
 
 Para configurar esta actividad, introduzca su etiqueta y seleccione el grupo de destinatarios principal: la población del conjunto principal le permite construir el resultado. Se excluirán los perfiles compartidos por el conjunto principal y al menos una de las actividades de entrada.
 
-![](assets/s_user_segmentation_exclu.png)
+![Actividad de exclusión con el conjunto principal, las reglas de exclusión, la etiqueta de resultado y la opción Generar complemento.](assets/s_user_segmentation_exclu.png)
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Para configurar esta actividad, introduzca su etiqueta y seleccione el grupo de 
 
 Seleccione la opción **[!UICONTROL Generate complement]** si desea utilizar la población restante. El complemento contendrá la población entrante principal menos la población saliente. A continuación, se agregará una transición de salida adicional a la actividad de la siguiente manera:
 
-![](assets/s_user_segmentation_exclu_compl.png)
+![Actividad de exclusión con dos transiciones salientes etiquetadas como Resultado y Complemento.](assets/s_user_segmentation_exclu_compl.png)
 
 ## Ejemplos de exclusión {#exclusion-examples}
 
@@ -56,7 +56,7 @@ En el ejemplo siguiente, se busca compilar una lista de destinatarios que tengan
 1. Apruebe la configuración de exclusión y, a continuación, inserte una actividad de lista de actualización en el resultado. También puede insertar una actualización de lista adicional al complemento donde sea necesario.
 1. Ejecución de un flujo de trabajo. En este ejemplo, el resultado está compuesto por destinatarios de entre 18 y 30 años, pero los que viven en París se excluyen y envían al complemento.
 
-   ![](assets/exclusion_example.png)
+   ![Flujo de trabajo donde 18-30 y viven en consultas de París alimentan una exclusión con resultados y complemento cada uno yendo a una actualización de lista.](assets/exclusion_example.png)
 
 ## Parámetros de entrada {#input-parameters}
 

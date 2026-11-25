@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 100%
+source-wordcount: '146'
+ht-degree: 73%
 ---
 # SMS entrantes{#inbound-sms}
 
@@ -41,7 +41,7 @@ La actividad de **SMS entrantes** permite descargar y procesar mensajes de texto
 
 ## Propiedades {#properties}
 
-![](assets/sms_rec_edit.png)
+![Actividad de SMS entrante con el campo Cuenta externa, el vínculo Filtros mensajes a procesar y un área de script.](assets/sms_rec_edit.png)
 
 La primera pestaña de la actividad de **Inbound SMS** permite introducir los parámetros de enrutamiento para mensajes SMS e introducir la secuencia de comandos que se ejecutará al recibir cada mensaje. La segunda pestaña le permite asignar una programación a la actividad y la tercera pestaña define las condiciones de caducidad de la actividad.
 
@@ -49,7 +49,7 @@ La primera pestaña de la actividad de **Inbound SMS** permite introducir los pa
 1. **[!UICONTROL Script]**
 1. **[!UICONTROL Schedule]**
 
-   ![](assets/sms_rec_edit_2.png)
+   ![Pestaña Programación de SMS de entrada con la ejecución del plan activada y la programación de detención en cuanto se ha recibido un SMS activada.](assets/sms_rec_edit_2.png)
 
 1. **[!UICONTROL Expiration]**
 

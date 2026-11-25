@@ -25,10 +25,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 100%
+source-wordcount: '1729'
+ht-degree: 75%
 ---
 # Enriquecimiento{#enrichment}
 
@@ -36,24 +36,24 @@ ht-degree: 100%
 
 La actividad **[!UICONTROL Enrichment]** permite agregar información a una lista de perfiles y vínculos a una lista existente (creación de un nuevo vínculo). También se pueden definir criterios de reconciliación con los perfiles de la base de datos.
 
-![](assets/enrichment_design.png)
+![Diagrama de flujo de trabajo con actividades de enriquecimiento, como 3 boletines informativos y el servicio de etiquetas, que alimentan una actividad Top 1000.](assets/enrichment_design.png)
 
 ## Definiciones {#definitions}
 
 Para utilizar la actividad de enriquecimiento, debe estar familiarizado con las diversas opciones disponibles al añadir datos.
 
-![](assets/enrichment_edit.png)
+![Actividad de enriquecimiento Agregue vínculo de datos abriendo el Asistente para datos adicionales con los cinco tipos de datos que desea agregar.](assets/enrichment_edit.png)
 
 La opción **[!UICONTROL Data linked to the filtering dimension]** le da acceso a:
 
 * Datos de la dimensión de filtrado: acceso a los datos de la tabla de trabajo
 * Datos vinculados a la dimensión del filtrado: acceso a los datos vinculados a la tabla de trabajo
 
-![](assets/wf_enrich_linkoptions.png)
+![Seleccione campos para agregar página con datos de la dimensión de filtrado y datos vinculados a las opciones de la dimensión de filtrado.](assets/wf_enrich_linkoptions.png)
 
 La opción **[!UICONTROL A link]** permite crear una unión en cualquier tabla de la base de datos.
 
-![](assets/wf_enrich_linkstype.png)
+![Página de definición de vínculo que enumera los cuatro tipos de vínculo, con la opción Definir una colección seleccionada y la sección Destino del vínculo.](assets/wf_enrich_linkstype.png)
 
 Existen cuatro tipos de vínculos:
 
@@ -83,27 +83,27 @@ El campo **[!UICONTROL Primary set]** permite seleccionar la transición entrant
 
 Haga clic en el vínculo **[!UICONTROL Add data]** y seleccione el tipo de datos que desee añadir. La lista de tipos de datos ofrecidos depende de los módulos y las opciones instalados en la plataforma. En una configuración básica, siempre se pueden agregar datos vinculados a la dimensión de filtrado y al vínculo.
 
-![](assets/enrichment_edit.png)
+![Actividad de enriquecimiento Agregue vínculo de datos abriendo el Asistente para datos adicionales con los cinco tipos de datos que desea agregar.](assets/enrichment_edit.png)
 
 En el ejemplo que se muestra a continuación, la transición saliente se ampliará con información sobre la edad de los perfiles destinatarios.
 
-![](assets/enrichment_add_data.png)
+![Datos para agregar página con el campo Edad seleccionado en Dimensión de segmentación y enumerado en Columnas de salida.](assets/enrichment_add_data.png)
 
 Haga clic con el botón derecho en la transición entrante de la actividad desarrollada para ver los datos antes de la fase de enriquecimiento.
 
-![](assets/enrichment_content_before.png)
+![Menú contextual en la transición después de Union 2 con la opción Display the target resaltada.](assets/enrichment_content_before.png)
 
 La tabla de trabajo contiene el esquema asociado y los siguientes datos:
 
-![](assets/enrichment_content_before_a.png)
+![Ver la población con los datos de la tabla de trabajo antes del enriquecimiento y su esquema con la clave principal y la dimensión de segmentación.](assets/enrichment_content_before_a.png)
 
 Repita esta operación en la salida de la fase de ampliación.
 
-![](assets/enrichment_content_after.png)
+![Menú contextual en la transición después de la actividad Enrichment 3 con la opción Display the target resaltada.](assets/enrichment_content_after.png)
 
 Se puede ver que se han agregado los datos relativos a las edades:
 
-![](assets/enrichment_content_after_a.png)
+![Ver la población con la columna Age agregada y el esquema enriquecido con Age, Primary key y Targeting dimension.](assets/enrichment_content_after_a.png)
 
 El esquema coincidente también se ha enriquecido.
 
@@ -111,11 +111,11 @@ El esquema coincidente también se ha enriquecido.
 
 Desmarque la opción **[!UICONTROL Keep all additional data from the main set]** si no desea conservar los datos adicionales definidos previamente. En este caso, solo las columnas adicionales seleccionadas en la actividad de enriquecimiento se añadirán a la tabla de trabajo saliente. La información adicional añadida a las actividades anteriores no se guardará.
 
-![](assets/enrichment_edit_without_additional.png)
+![Pestaña Enrichment con Mantenga borrados todos los datos adicionales del conjunto principal y solo se enumera Age (Targeting dimension).](assets/enrichment_edit_without_additional.png)
 
 Los datos y el esquema en la salida de la fase de ampliación serán los siguientes:
 
-![](assets/enrichment_content_after_without_additional.png)
+![Ver ventana de población con la columna Age y su esquema después del enriquecimiento sin el conjunto principal de datos adicionales.](assets/enrichment_content_after_without_additional.png)
 
 ## Creación de un vínculo {#creating-a-link}
 
@@ -140,19 +140,19 @@ Para ello, siga los siguientes pasos:
 
 1. Edite la actividad de enriquecimiento y haga clic en el vínculo **Add data...** para establecer un vínculo con la tabla del país.
 
-   ![](assets/enrichment_edit_after_file_box.png)
+   ![Flujo de trabajo con el recopilador de archivos, la carga de datos (archivo) y el enriquecimiento, con el vínculo Añadir datos de la actividad de enriquecimiento.](assets/enrichment_edit_after_file_box.png)
 
 1. Seleccione la opción **[!UICONTROL Link definition]** y haga clic en el botón **[!UICONTROL Next]**. Especifique el tipo de vínculo que se va a crear. En este ejemplo, se desea reconciliar el país del destinatario del archivo con un país en la lista de países disponibles de la tabla de la base de datos. Elija la opción **[!UICONTROL Define a link by searching for a reference among several options]**. Seleccione la lista del país en el campo **[!UICONTROL Target schema]**.
 
-   ![](assets/enrichment_add_a_link_select_option4.png)
+   ![Definición de vínculo con Definir un vínculo buscando una referencia entre varias opciones y País (nms) de destino.](assets/enrichment_add_a_link_select_option4.png)
 
 1. Finalmente, seleccione los campos que le permitirán vincular los valores del archivo de origen a los de la base de datos.
 
-   ![](assets/enrichment_add_a_link_select_join.png)
+   ![Las condiciones de unión de la definición del vínculo asignan el país de origen al campo de etiqueta en inglés del esquema de país.](assets/enrichment_add_a_link_select_join.png)
 
 En la salida de esta actividad de enriquecimiento, el esquema temporal contendrá el vínculo a la tabla del país:
 
-![](assets/enrichment_external_link_schema.png)
+![Ficha Esquema de la ventana de resultados que muestra la estructura generada con la clave externa y el vínculo País y sus campos.](assets/enrichment_external_link_schema.png)
 
 ## Reconciliación de datos {#data-reconciliation}
 
@@ -162,7 +162,7 @@ Seleccione la opción **[!UICONTROL Identify the targeting document based on wor
 
 Se pueden utilizar uno o más criterios de reconciliación.
 
-![](assets/enrichment_reconciliations_tab_01.png)
+![Ficha de reconciliación con Identifique el documento a partir de los datos de trabajo y las expresiones de origen y destino.](assets/enrichment_reconciliations_tab_01.png)
 
 Si se especifican varias condiciones de vínculo, todas deben verificarse para que los datos puedan vincularse.
 
@@ -174,7 +174,7 @@ Para obtener más información sobre la actividad de enriquecimiento, consulte e
 
 Por ejemplo, puede ampliar los datos de una consulta al destinatario antes de una entrega.
 
-![](assets/int_enrichment_offer1.png)
+![Flujo de trabajo con una actividad Query, una actividad Enrichment y una actividad Direct mail delivery conectados en secuencia.](assets/int_enrichment_offer1.png)
 
 Después de configurar la consulta (consulte esta [sección](query.md)):
 
@@ -182,18 +182,18 @@ Después de configurar la consulta (consulte esta [sección](query.md)):
 1. En la pestaña **[!UICONTROL Enrichment]**, seleccione **[!UICONTROL Add data]**.
 1. Seleccione **[!UICONTROL An offer proposition]** en los tipos de datos que desea añadir.
 
-   ![](assets/int_enrichment_offer2.png)
+   ![Seleccione el tipo de datos para agregar la página con una propuesta de oferta seleccionada.](assets/int_enrichment_offer2.png)
 
 1. Especifique un identificador y una etiqueta para la propuesta a añadir.
 1. Especifique la selección de la oferta. Hay dos formas de hacerlo:
 
    * **[!UICONTROL Search for the best offer in a category]**: marque esta opción y especifique los parámetros de recurso del motor de oferta (espacio de oferta, categoría o temas, fecha de contacto, cantidad de ofertas que desea mantener). Según estos parámetros, el motor calculará automáticamente las ofertas a agregar. Se recomienda completar el campo **[!UICONTROL Category]** o el campo **[!UICONTROL Theme]** en vez de ambos al mismo tiempo.
 
-     ![](assets/int_enrichment_offer3.png)
+     ![Página de propuesta de oferta con los campos Identificador, Etiqueta, Espacio, Categoría de oferta y Fecha de contacto para la mejor búsqueda de ofertas.](assets/int_enrichment_offer3.png)
 
    * **[!UICONTROL A predefined offer]**: marque esta opción y especifique un espacio de oferta, una oferta específica y una fecha de contacto para configurar directamente la oferta que desee añadir, sin recurrir al motor de oferta.
 
-     ![](assets/int_enrichment_offer4.png)
+     ![Página de propuesta de oferta con identificador, etiqueta, espacio, una oferta específica y fecha de contacto para una oferta predefinida.](assets/int_enrichment_offer4.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).
 
@@ -211,11 +211,11 @@ Para ello:
 1. En la ventana donde se elige el tipo de datos a añadir, seleccione **[!UICONTROL A link]**.
 1. Seleccione el tipo de vínculo que desea establecer y su destino. En este caso, el destino es el esquema de oferta.
 
-   ![](assets/int_enrichment_link1.png)
+   ![Página de definición de vínculo con un vínculo cuyo destino siempre está disponible y ofertas de marketing (nms) como esquema de destino.](assets/int_enrichment_link1.png)
 
 1. Especifique el vínculo entre los datos de la lista entrante en la actividad de enriquecimiento (lista de destinatarios) y la lista de oferta. Por ejemplo, se puede vincular un código de oferta a un destinatario.
 
-   ![](assets/int_enrichment_link2.png)
+   ![Las condiciones de unión de la definición de vínculo vinculan el cryptedId de origen con el código de oferta, con la oferta de identificador.](assets/int_enrichment_link2.png)
 
 1. A continuación, configure una actividad de entrega que corresponda al canal elegido. Consulte [Envíos multicanal](cross-channel-deliveries.md).
 
@@ -234,11 +234,11 @@ Sin embargo, se puede almacenar esta información de la siguiente manera:
 1. Cree una llamada al motor de oferta en una actividad de enriquecimiento colocada después de una consulta y antes de una actividad de entrega.
 1. En la ventana principal de la actividad, seleccione **[!UICONTROL Edit additional data...]**
 
-   ![](assets/ita_enrichment_rankweight_1.png)
+   ![La pestaña Enrichment enumera las columnas de la propuesta de oferta, con el vínculo Edit additional data resaltado.](assets/ita_enrichment_rankweight_1.png)
 
 1. Añada las columnas **[!UICONTROL @rank]** para la clasificación y **[!UICONTROL @weight]** para las ponderaciones de la oferta.
 
-   ![](assets/ita_enrichment_rankweight_2.png)
+   ![Seleccione la ventana de columnas adicionales con las columnas Peso y Clasificación agregadas a la propuesta mediante Agregar un subelemento.](assets/ita_enrichment_rankweight_2.png)
 
 1. Confirme su adición y guarde el flujo de trabajo.
 

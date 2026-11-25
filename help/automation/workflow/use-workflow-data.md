@@ -23,16 +23,16 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 73%
+source-wordcount: '898'
+ht-degree: 58%
 ---
 # Uso de datos de flujo de trabajo{#how-to-use-workflow-data}
 
 Puede utilizar las actividades de flujo de trabajo para realizar varias tareas. A continuación, encontrará ejemplos de uso para actualizar la base de datos creando listas, administrando suscripciones, enviando mensajes a través de un flujo de trabajo o enriqueciendo las entregas y sus audiencias.
 
-Hay un conjunto de casos de uso de flujo de trabajo disponibles en [esta sección](workflow-use-cases.md).
+Hay disponible un conjunto de casos de uso de flujo de trabajo en [Casos de uso de flujo de trabajo](workflow-use-cases.md).
 
 ## Ciclo de vida de datos {#data-life-cycle}
 
@@ -42,7 +42,7 @@ En los flujos de trabajo, los datos que pasan de una actividad a otra se almacen
 
 Estos datos se pueden mostrar y analizar haciendo clic con el botón derecho en la transición correspondiente.
 
-![](assets/wf-right-click-analyze.png)
+![Flujo de trabajo con un menú que se abre al hacer clic con el botón secundario en una transición que muestra las opciones Mostrar destino y Analizar destino.](assets/wf-right-click-analyze.png)
 
 Para ello, seleccione el menú correspondiente:
 
@@ -50,13 +50,13 @@ Para ello, seleccione el menú correspondiente:
 
   Este menú muestra los datos disponibles sobre la población objetivo.
 
-  ![](assets/wf-right-click-display.png)
+  ![Ventana Ver población, pestaña Datos, que enumera los registros del destino con sus campos.](assets/wf-right-click-display.png)
 
   Puede obtener acceso a la estructura de la tabla de trabajo en la ficha **[!UICONTROL Schema]**.
 
-  ![](assets/wf-right-click-schema.png)
+  ![Ver ventana de población, ficha Esquema, que muestra la estructura de la tabla de trabajo temp:enrich y sus campos.](assets/wf-right-click-schema.png)
 
-  Para obtener más información, consulte [esta sección](monitor-workflow-execution.md#worktables-and-workflow-schema).
+  Para obtener más información, consulte [Esquema de tablas de trabajo y flujo de trabajo](monitor-workflow-execution.md#worktables-and-workflow-schema).
 
 * **[!UICONTROL Analyze target...]**
 
@@ -66,7 +66,7 @@ Para ello, seleccione el menú correspondiente:
 
 Los datos del público objetivo se depuran mientras se ejecuta el flujo de trabajo. Solo se puede acceder a la última tabla de trabajo. Puede configurar el flujo de trabajo para que todas las tablas de trabajo permanezcan accesibles: marque la opción **[!UICONTROL Keep the result of interim populations between two executions]** en las propiedades del flujo de trabajo.
 
-![](assets/wf-purge-data-option.png)
+![Propiedades del flujo de trabajo con la opción Keep the result of interim populations between two executions activada.](assets/wf-purge-data-option.png)
 
 >[!CAUTION]
 >
@@ -89,7 +89,7 @@ En el ejemplo siguiente, se recopila una lista de información sobre los cliente
 
 1. Cree un flujo de trabajo para recopilar información, reconciliarla con los datos que ya se encuentran en la base de datos y, a continuación, iniciar una entrega.
 
-   ![](assets/wf-targetdata-sample-1.png)
+   ![Flujo de trabajo con actividades de carga de datos (archivo), enriquecimiento y envío conectadas en secuencia.](assets/wf-targetdata-sample-1.png)
 
 1. En nuestro ejemplo, el contenido del archivo es el siguiente:
 
@@ -105,15 +105,15 @@ En el ejemplo siguiente, se recopila una lista de información sobre los cliente
 
    Para cargar el archivo, configure la actividad **[!UICONTROL Data loading (file)]** como se muestra a continuación:
 
-   ![](assets/wf-targetdata-sample-2.png)
+   ![Actividad de carga de datos (archivo) con un archivo CSV de ejemplo, una vista previa de sus columnas y Cargar un archivo desde el equipo local.](assets/wf-targetdata-sample-2.png)
 
 1. Configure la actividad **[!UICONTROL Enrichment]** para reconciliar los datos recopilados con la base de datos de Adobe Campaign. En este caso, la clave de la reconciliación es el número de cuenta:
 
-   ![](assets/wf-targetdata-sample-3.png)
+   ![Actividad de enriquecimiento, ficha Reconciliación, con la expresión de origen Cuenta coincidente con la @account de destino.](assets/wf-targetdata-sample-3.png)
 
 1. A continuación, configure el **[!UICONTROL Delivery]**: se crea en función de una plantilla y la transición entrante especifica los destinatarios.
 
-   ![](assets/wf-targetdata-sample-4.png)
+   ![Actividad de envío creada a partir de una plantilla, con destinatarios especificados por los eventos de entrada y la acción de preparación.](assets/wf-targetdata-sample-4.png)
 
    >[!CAUTION]
    >
@@ -123,13 +123,13 @@ En el ejemplo siguiente, se recopila una lista de información sobre los cliente
 
    Para ello, inserte los campos personalizados de tipo **[!UICONTROL Target extension]**.
 
-   ![](assets/wf-targetdata-sample-5.png)
+   ![Menú personalizado del editor de envíos con la extensión de Target abierta, que enumera campos como Música, Cuenta y Tarjeta.](assets/wf-targetdata-sample-5.png)
 
    Aquí, queremos insertar el género musical favorito del cliente y el tipo de medio (CD o DVD) como se indica en el archivo recopilado por el flujo de trabajo.
 
    Además, vamos a añadir un cupón para los titulares de la tarjeta de lealtad. Por ejemplo, para los destinatarios para los que el valor “Tarjeta” sea igual a 1.
 
-   ![](assets/wf-targetdata-sample-6.png)
+   ![Contenido de entrega con un script que agrega un 10% de descuento cuando targetData.Card es igual a 1 y personalización targetData.Music.](assets/wf-targetdata-sample-6.png)
 
    El tipo de datos **[!UICONTROL Target extension]** (targetData) se inserta en las entregas utilizando las mismas características que en todos los campos personalizados. También pueden utilizarse en el asunto, en las etiquetas de los vínculos o en los propios vínculos.
 
@@ -146,7 +146,7 @@ Los datos de la base de datos de Adobe Campaign y de las listas existentes puede
 
   Puede seleccionar una lista existente o crearla. En este caso, se calculan el nombre y, posiblemente, la carpeta de registros.
 
-  ![](assets/s_user_create_list.png)
+  ![Actividad de actualización de lista con una lista especificada explícitamente, guardada en la base de datos de dimensiones de segmentación con su propia tabla.](assets/s_user_create_list.png)
 
   Consulte [Actualización de listas](list-update.md).
 

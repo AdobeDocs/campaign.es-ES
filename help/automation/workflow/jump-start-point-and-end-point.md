@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 100%
+source-wordcount: '153'
+ht-degree: 77%
 ---
 # Saltos (puntos iniciales y finales){#jump-start-point-and-end-point}
 
@@ -36,12 +36,12 @@ Los saltos son transiciones sin flechas.
 
 Pasan de una actividad a otra, como en el ejemplo siguiente:
 
-![](assets/s_user_segmentation_jump_sample.png)
+![El flujo de trabajo donde los saltos de punto de inicio reemplazan las transiciones largas a dos saltos de punto final que alimentan una unión y una deduplicación.](assets/s_user_segmentation_jump_sample.png)
 
 Para cada transición de tipo “punto inicial”, se debe colocar una transición de tipo “punto final”.
 
 Puede insertar varios saltos de punto iniciales y finales en el mismo flujo de trabajo. Se identifican con un número que se debe introducir en los parámetros:
 
-![](assets/s_user_segmentation_jump_in.png)
+![Actividad de salto (punto de inicio) con el campo Etiqueta y el campo Número de salto establecido en 1.](assets/s_user_segmentation_jump_in.png)
 
 Para mejorar la legibilidad del diagrama, puede cambiar la imagen asociada a los saltos para mostrar el número relacionado. Consulte [Cambio de imágenes de actividad](change-activity-images.md).

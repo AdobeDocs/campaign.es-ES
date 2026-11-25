@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Personalization
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 77%
 ---
 # Extracción de datos (archivo){#extraction-file}
 
@@ -46,29 +46,29 @@ Para configurar la extracción de datos, siga estos pasos:
 1. Especifique el nombre del archivo de salida: este nombre puede contener variables insertadas mediante el botón de personalización a la derecha del campo.
 1. Haga clic en **[!UICONTROL Edit the file format...]** para seleccionar los datos que desea extraer.
 
-   ![](assets/s_advuser_extract_file_param.png)
+   ![Actividad de extracción de datos (archivo) con la ventana de formato del archivo de extracción abierta desde el vínculo Editar formato de archivo.](assets/s_advuser_extract_file_param.png)
 
    La opción **[!UICONTROL Handle groupings (GROUP BY + HAVING)]** añade un paso adicional para filtrar el resultado final del acumulado, por ejemplo, en un tipo de pedido determinado, clientes que hayan hecho un pedido más de 10 veces, etc.
 
 1. Si es necesario, puede añadir nuevas columnas al archivo de salida, como, por ejemplo, calcular o procesar resultados. Para hacer esto, haga clic en el icono **[!UICONTROL Add]**.
 
-   ![](assets/s_advuser_extract_file_add_col.png)
+   ![Ventana de formato de archivo de extracción con el icono Agregar resaltado a la derecha de la lista Columnas de salida.](assets/s_advuser_extract_file_add_col.png)
 
    En la línea adicional, haga clic en el icono **[!UICONTROL Edit expression]** para definir el contenido de la nueva columna.
 
-   ![](assets/s_advuser_extract_file_add_exp.png)
+   ![Lista de columnas de salida con el icono Editar expresión en la columna Fecha de creación.](assets/s_advuser_extract_file_add_exp.png)
 
    A continuación, tendrá acceso a la ventana de selección. Haga clic **[!UICONTROL Advanced selection]** para elegir el proceso que se aplicará a los datos.
 
-   ![](assets/s_advuser_extract_file_advanced_selection.png)
+   ![Campo para seleccionar ventana que enumera campos de destinatario, con el botón de selección avanzada resaltado.](assets/s_advuser_extract_file_advanced_selection.png)
 
    Elija la fórmula deseada de la lista.
 
-   ![](assets/s_advuser_extract_file_agregate_values.png)
+   ![Ventana de tipo de fórmula con Process en una función de agregado seleccionada y la opción Maximum value elegida.](assets/s_advuser_extract_file_agregate_values.png)
 
 Puede definir un proceso posterior que se va a ejecutar durante la extracción de datos, permitiéndole comprimir o cifrar los archivos. Para ello, se debe agregar el comando deseado en la pestaña **[!UICONTROL Script]** de la actividad.
 
-![](assets/postprocessing_dataextraction.png)
+![Actividad de extracción de datos (archivo) con la ficha Script resaltada para agregar un comando posterior al proceso.](assets/postprocessing_dataextraction.png)
 
 ## Lista de funciones acumuladas {#list-of-aggregate-functions}
 

@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 96%
+source-wordcount: '388'
+ht-degree: 90%
 ---
 # Envío continuo{#continuous-delivery}
 
@@ -34,11 +34,11 @@ ht-degree: 96%
 
 Una acción del tipo **Entrega continua** permite agregar nuevos destinatarios a una entrega existente. Este tipo de envío evita tener que crear una nueva cada vez: este modo suele ser más eficaz, en particular para alertas de bajo volumen o notificaciones enviadas cuando es necesario.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra esta función en vídeo](#continuous-delivery-video)
+![Icono de reproducción de vídeo](assets/do-not-localize/how-to-video.png) [Descubra esta característica en el vídeo](#continuous-delivery-video)
 
 A nivel de la plantilla de envío, puede especificar un script para calcular la etiqueta (y la carpeta de la campaña) de la entrega asociado. Si la secuencia de comandos calcula una entrega que aún no existe, se crea sobre la marcha.
 
-![](assets/edit_diffusion_fil.png)
+![Actividad de envío continuo con un campo de plantilla y opciones de destinatarios, además de la casilla de verificación Procesar errores](assets/edit_diffusion_fil.png)
 
 La opción **[!UICONTROL Process errors]** muestra una transición particular que se activa si se genera un error. En este caso, el flujo de trabajo no pasa al modo de error y se activa con la ejecución.
 
@@ -79,6 +79,6 @@ Un envío continuo creará un envío ÚNICO y registros de envío (broadLog) y r
 
 Este vídeo muestra cómo configurar un envío continuo con una consulta incremental.
 
->[!VIDEO](https://video.tv.adobe.com/v/27514?captions=spa&quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/25039?quality=12)
 
-Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html?lang=es){target="_blank"}.
+Puede encontrar disponibles más vídeos de procedimientos para Campaign [aquí](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/getting-started/introduction-to-adobe-campaign.html){target="_blank"}.

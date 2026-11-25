@@ -22,10 +22,10 @@ subfeature_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1835'
-ht-degree: 92%
+source-wordcount: '2149'
+ht-degree: 76%
 ---
 # División{#split}
 
@@ -37,9 +37,9 @@ Esta actividad no desencadena una unión de poblaciones entrantes. Si varias tra
 >
 >No se pueden realizar operaciones de división en tablas que tienen orígenes diferentes. Para ello, debe añadir una actividad **Enriquecimiento** antes que la actividad **División**.
 
-* Para ver un ejemplo de la actividad dividida que se está usando, consulte [esta sección](targeting-workflows.md#create-subsets-using-the-split-activity).
-* En [esta sección](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar la actividad Partición para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
-* Un ejemplo que muestra cómo usar una variable de instancia en una actividad de división está disponible en [Campaign Knowlegde Base](javascript-scripts-and-templates.md).
+* Para ver un ejemplo de la actividad dividida que se está usando, consulte [Crear subconjuntos con la actividad dividida](targeting-workflows.md#create-subsets-using-the-split-activity).
+* En [Flujo de trabajo de entrega en canales múltiples](cross-channel-delivery-workflow.md) se describe un ejemplo que ilustra cómo usar la actividad Split para segmentar el objetivo en diferentes poblaciones utilizando condiciones de filtrado.
+* Un ejemplo que muestra cómo usar una variable de instancia en una actividad Split está disponible en [plantillas y scripts de JavaScript](javascript-scripts-and-templates.md).
 
 Para configurar esta actividad, defina el contenido del subconjunto y la etiqueta en la pestaña **[!UICONTROL Subsets]**, luego elija la dimensión de destino en la pestaña **[!UICONTROL General]**.
 
@@ -62,11 +62,11 @@ Para crear un subconjunto:
 
    Un asistente le permite elegir el modo de selección para los registros de este subconjunto. [Más información](#limit-the-number-of-subset-records).
 
-   ![](assets/s_user_segmentation_partage4.png)
+   ![Ficha Subsets con Subconjunto 1, limitar los registros seleccionados y el vínculo Editar que abre el asistente de limitación](assets/s_user_segmentation_partage4.png)
 
 1. Si lo desea, puede **añadir otros subconjuntos** con el botón **[!UICONTROL Add]**.
 
-   ![](assets/s_user_segmentation_partage_add.png)
+   ![Ficha Subsets con el botón Agregar y fichas Subconjunto 1, Subconjunto 2 y Subconjunto 3 en la parte inferior](assets/s_user_segmentation_partage_add.png)
 
    >[!NOTE]
    >
@@ -74,7 +74,7 @@ Para crear un subconjunto:
 
    Para cada subconjunto creado, se agregará una transición saliente a la actividad dividida.
 
-   ![](assets/s_user_segmentation_partage_add2.png)
+   ![Dividir actividad con una transición saliente por subconjunto: Subconjunto 1, Subconjunto 2 y Subconjunto 3](assets/s_user_segmentation_partage_add2.png)
 
    Puede optar por generar una sola transición saliente (e identificar conjuntos mediante el código de segmento): para hacerlo, seleccione la opción **[!UICONTROL Generate subsets in the same table]** en la pestaña **[!UICONTROL General]**.
 
@@ -93,15 +93,15 @@ Si no desea utilizar toda la población contenida en un subconjunto, puede limit
 
      Por ejemplo, si selecciona el campo **[!UICONTROL Age]** como criterio de clasificación y luego define un límite de 100, pero los 2000 destinatarios más jóvenes en la base de datos tienen todos 18, entonces se seleccionarán 100 destinatarios aleatoriamente de esos 2000.
 
-   ![](assets/s_user_segmentation_partage_wz1.png)
+   ![Tipo de paso del asistente de límite: muestreo aleatorio, primeros registros después de ordenar o primeros registros después de ordenar (criterios, aleatorio)](assets/s_user_segmentation_partage_wz1.png)
 
 1. Si desea definir los criterios de ordenación, un paso adicional le permite definir las columnas y el orden de clasificación.
 
-   ![](assets/s_user_segmentation_partage_wz1.1.png)
+   ![Paso del asistente de ordenación con dimensiones de filtrado y direccionamiento y columnas de ordenación Fecha de creación y Empresa, descendente](assets/s_user_segmentation_partage_wz1.1.png)
 
 1. A continuación, elija el método de limitación de datos.
 
-   ![](assets/s_user_segmentation_partage_wz2.png)
+   ![Limita el paso del asistente con el tamaño (en %) seleccionado y establecido en 10,00, además de las demás opciones de limitación de datos](assets/s_user_segmentation_partage_wz2.png)
 
    Hay varias formas de hacerlo:
 
@@ -125,15 +125,15 @@ Por ejemplo, si selecciona el campo **[!UICONTROL Language]** como valor de grup
 
 1. Después de seleccionar los valores de limitación de datos, seleccione **[!UICONTROL By data grouping]** o **[!UICONTROL By data grouping (as a %)]** y haga clic en **[!UICONTROL Next]**.
 
-   ![](assets/s_user_segmentation_partage_wz3.png)
+   ![Paso del asistente de límites con la opción Por agrupación de datos seleccionada y un mensaje para que haga clic en Siguiente para escribir la información adicional](assets/s_user_segmentation_partage_wz3.png)
 
 1. A continuación, seleccione los campos de agrupación (el campo **[!UICONTROL Language]** por ejemplo) y haga clic en **[!UICONTROL Next]**.
 
-   ![](assets/s_user_segmentation_partage_wz4.png)
+   ![Paso del asistente de agrupación de datos que enumera el campo Idioma como expresión de agrupación](assets/s_user_segmentation_partage_wz4.png)
 
 1. Finalmente, especifique los umbrales de agrupación de datos (mediante los valores fijos o porcentajes según el método de agrupación seleccionado previamente). Para definir el mismo umbral para cada valor, por ejemplo, si desea definir el número de registros para cada idioma en 10, seleccione la opción **[!UICONTROL All data groupings are the same size]**. Para definir un límite diferente para cada valor, seleccione la opción **[!UICONTROL Limitations by grouping value]**. Esto le permitirá elegir una limitación diferente para inglés, francés, etc.
 
-   ![](assets/s_user_segmentation_partage_wz5.png)
+   ![Paso de agrupación de datos con Todas las agrupaciones de datos tienen el mismo tamaño seleccionado y un valor de 8](assets/s_user_segmentation_partage_wz5.png)
 
 1. Haga clic en **[!UICONTROL Finish]** para aprobar la limitación y volver a la edición de la actividad dividida.
 
@@ -141,9 +141,9 @@ Por ejemplo, si selecciona el campo **[!UICONTROL Language]** como valor de grup
 
 Si los campos de agrupación contienen un número demasiado elevado de valores o si desea evitar valores de restablecimiento para cada nueva actividad dividida, Adobe Campaign permite crear una limitación por cada distribución de datos. Al seleccionar [valores de limitación de datos](#create-subsets) (sección), seleccione la opción **[!UICONTROL By data distribution]** y seleccione una plantilla en el menú desplegable. A continuación se muestra la creación de una plantilla de distribución de datos.
 
-Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plantilla de distribución, consulte [esta página](local-approval-activity.md).
+Para ver un ejemplo de la actividad **[!UICONTROL Local approval]** con una plantilla de distribución, consulte [Usar la actividad de aprobación local](local-approval-activity.md).
 
-![](assets/s_user_segmentation_partage_wz6.png)
+![Limita el paso del asistente con By data distribution seleccionado y la plantilla Distribution aplicada a los destinatarios](assets/s_user_segmentation_partage_wz6.png)
 
 >[!CAUTION]
 >
@@ -153,11 +153,11 @@ La plantilla de distribución de datos permite limitar el número de registros u
 
 1. Para crear la plantilla de distribución de datos, vaya al nodo **[!UICONTROL Resources > Campaign management > Data distribution]** y haga clic en **[!UICONTROL New]**.
 
-   ![](assets/local_validation_data_distribution_1.png)
+   ![Árbol del explorador con el nodo Data distribution bajo Resources and Campaign Management y el botón New](assets/local_validation_data_distribution_1.png)
 
 1. La pestaña **[!UICONTROL General]** permite introducir la etiqueta y el contexto de ejecución de la distribución (dimensión de segmentación, campo de distribución).
 
-   ![](assets/local_validation_data_distribution_2.png)
+   ![Pestaña General de distribución de datos con dimensión de segmentación, campo de distribución, tipo de distribución y almacenamiento de aprobación](assets/local_validation_data_distribution_2.png)
 
    Se deben introducir los campos siguientes:
 
@@ -171,7 +171,7 @@ La plantilla de distribución de datos permite limitar el número de registros u
 
 1. Si está usando una actividad [Aprobación local](local-approval.md), ingrese **[!UICONTROL Advanced settings]** para la plantilla de distribución:
 
-   ![](assets/local_validation_data_distribution_3.png)
+   ![Parámetros avanzados con la configuración de Aprobar los mensajes de destino, Etiqueta de entrega, Campo de agrupación e Interfaz web](assets/local_validation_data_distribution_3.png)
 
    Se deben introducir los campos siguientes:
 
@@ -181,21 +181,21 @@ La plantilla de distribución de datos permite limitar el número de registros u
      >
      >Esta opción se selecciona de forma predeterminada.
 
-     ![](assets/local_validation_notification.png)
+     ![Lista de destinatarios de notificación de aprobación para aprobar, cada uno con una casilla de verificación resaltada en rojo](assets/local_validation_notification.png)
 
    * **[!UICONTROL Delivery label]**: permite definir una expresión para mostrar la etiqueta de entrega en la notificación de retorno. La expresión predeterminada proporciona información sobre la etiqueta estándar de la entrega (cadena calculada). Puede modificar esta expresión.
 
-     ![](assets/local_validation_notification_3.png)
+     ![Notificación de comentarios sobre la entrega con la línea de entrega, que muestra la etiqueta de entrega, resaltada en rojo](assets/local_validation_notification_3.png)
 
    * **[!UICONTROL Grouping field]**: este campo permite definir la agrupación utilizada para mostrar los destinatarios en la aprobación y las notificaciones de devolución.
 
-     ![](assets/local_validation_notification_4.png)
+     ![Lista de aprobación donde los destinatarios se agrupan bajo los encabezados Hombre y Mujer resaltados en rojo](assets/local_validation_notification_4.png)
 
    * **[!UICONTROL Web Interface]**: permite enlazar una aplicación web a la lista de destinatarios. En la aprobación y en la notificación de retorno, se puede hacer clic en cada destinatario y enlazarlos a la aplicación web seleccionada. El campo **[!UICONTROL Parameters]** (por ejemplo **[!UICONTROL recipientId]**) permite configurar el parámetro adicional que se utilizará en la URL y en la aplicación web.
 
 1. La pestaña **[!UICONTROL Breakdown]** permite definir la lista de valores de distribución.
 
-   ![](assets/local_validation_data_distribution_4.png)
+   ![La pestaña Breakdown enumera los valores de los campos de distribución con su porcentaje, etiqueta y grupo u operador](assets/local_validation_data_distribution_4.png)
 
    * **[!UICONTROL Value]**: introduzca los valores de distribución.
    * **[!UICONTROL Percentage / Set]**: introduzca el límite de registros (fijo o porcentual) vinculado a cada valor.
@@ -215,11 +215,11 @@ La plantilla de distribución de datos permite limitar el número de registros u
 
 Haga clic en la pestaña **[!UICONTROL General]** para introducir la etiqueta de actividad: Seleccione las dimensiones de destino y filtro para esta división. Si es necesario, puede cambiar estas dimensiones para un subconjunto determinado.
 
-![](assets/s_user_segmentation_partage_general.png)
+![Pestaña General de la actividad Split con dimensiones de segmentación y filtrado y la opción Generate complement activada](assets/s_user_segmentation_partage_general.png)
 
 Seleccione la opción **[!UICONTROL Generate complement]** si desea utilizar la población restante. El complemento es el destino entrante menos la unión de los subconjuntos. A continuación, se agregará una transición saliente adicional a la actividad de la siguiente manera:
 
-![](assets/s_user_segmentation_partage_compl.png)
+![Dividir actividad con transiciones salientes Subconjunto 1, Subconjunto 2, Subconjunto 3 y una transición adicional de complemento](assets/s_user_segmentation_partage_compl.png)
 
 Para que esta opción funcione correctamente, los datos entrantes deben tener una clave principal.
 

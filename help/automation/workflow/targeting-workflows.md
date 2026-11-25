@@ -29,10 +29,10 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '2258'
-ht-degree: 93%
+source-wordcount: '2646'
+ht-degree: 78%
 ---
 # Creación de un flujo de trabajo de segmentación{#target-data}
 
@@ -46,11 +46,11 @@ Todas estas actividades se encuentran en la primera pestaña del flujo de trabaj
 
 >[!NOTE]
 >
->Las actividades de segmentación se describen en esta [página](activities.md).
+>Las actividades de segmentación se detallan en [Acerca de las actividades de flujo de trabajo](activities.md).
 
 Los flujos de trabajo de objetivos se pueden crear y editar mediante el nodo **[!UICONTROL Profiles and Targets > Jobs > Targeting workflows]** del árbol de Adobe Campaign o a través del menú **[!UICONTROL Profiles and Targets > Targeting workflows]** de la página principal.
 
-![](assets/target_wf.png)
+![Lista de flujos de trabajo de destino en la consola de cliente en Perfiles y destinos, con flujos de trabajo existentes y un botón Crear.](assets/target_wf.png)
 
 Dentro del marco de una campaña, los flujos de trabajo de objetivos se almacenan con todos los flujos de trabajo de la campaña.
 
@@ -76,17 +76,17 @@ Estas dos dimensiones deben estar vinculadas. Por lo tanto, el contenido de la l
 
 Por ejemplo, para los destinatarios (**recipient**), están disponibles las siguientes dimensiones de filtrado:
 
-![](assets/query-filter-dimensions.png)
+![Cuadro de diálogo de consulta con Destinatarios de dimensión de segmentación y la lista de dimensión de filtrado abierta, que muestra el registro de envíos de destinatarios.](assets/query-filter-dimensions.png)
 
 Mientras que para **Visitantes**, la lista contendrá las siguientes dimensiones de filtrado:
 
-![](assets/query-filter-dimension-2.png)
+![Cuadro de diálogo de consulta con visitantes de dimensión de segmentación y la lista de dimensión de filtrado abierta, que muestra la suscripción de visitante.](assets/query-filter-dimension-2.png)
 
 ## Creación de consultas {#create-queries}
 
 ### Trabajo con datos adicionales {#select-data}
 
-Una actividad **[!UICONTROL Query]** permite seleccionar datos básicos para crear la población objetivo. Para obtener más información, consulte [esta sección](query.md#creating-a-query).
+Una actividad **[!UICONTROL Query]** permite seleccionar datos básicos para crear la población objetivo. Para obtener más información, consulte [Crear una consulta](query.md#creating-a-query).
 
 También puede utilizar las siguientes actividades para consultar y acotar los datos de la base de datos: [Incremental query](incremental-query.md), [Read list](read-list.md).
 
@@ -98,19 +98,19 @@ Una vez añadidos los datos adicionales, se pueden editar o utilizar para acotar
 
 El enlace **[!UICONTROL Edit additional data...]** permite ver los datos añadidos y modificarlos o añadirlos a él.
 
-![](assets/edit-additional-data.png)
+![Actividad de consulta con el vínculo Editar datos adicionales resaltado en Información complementaria.](assets/edit-additional-data.png)
 
 Para añadir datos a las columnas de salida definidas anteriormente, selecciónelas en la lista de campos disponibles. Para crear una nueva columna de salida, haga clic en el icono **[!UICONTROL Add]**, luego seleccione el campo y haga clic en **[!UICONTROL Edit expression]**.
 
-![](assets/query_add_an_output_column.png)
+![Ventana de columnas adicionales con campos disponibles, columnas de salida y el icono Agregar resaltado para crear una columna de salida.](assets/query_add_an_output_column.png)
 
 Haga clic en el botón **Selección avanzada**.
 
-![](assets/query_add_an_output_column_formula.png)
+![Seleccione una ventana de expresión que enumere los campos de destinatario, con el botón de selección avanzada en la parte inferior.](assets/query_add_an_output_column_formula.png)
 
 Defina un modo de cálculo para el campo que desee añadir, por ejemplo, un acumulado.
 
-![](assets/query_add_aggregate.png)
+![Paso de tipo de fórmula con Process en una función de agregado seleccionada y la opción Sum elegida.](assets/query_add_aggregate.png)
 
 La opción **[!UICONTROL Add a sub-item]** permite adjuntar datos calculados a la colección. Esto permite seleccionar los datos adicionales de la colección o definir cálculos acumulados en los elementos de colección.
 
@@ -122,23 +122,23 @@ Las colecciones se muestran en la subpestaña **[!UICONTROL Collections]**. Pued
 
 Los datos adicionales recopilados pueden permitirle acotar el filtrado de datos de la base de datos. Para ello, haga clic en el enlace **[!UICONTROL Refine the target using additional data...]**: esto permite volver a filtrar los datos añadidos.
 
-![](assets/wf_add_data_use_additional_data.png)
+![Actividad de consulta con el vínculo Restringir el destinatario mediante datos adicionales resaltados.](assets/wf_add_data_use_additional_data.png)
 
 ### Homogeneización de datos {#homogenize-data}
 
 En las actividades de tipo **[!UICONTROL Union]** o **[!UICONTROL Intersection]**, puede elegir mantener solamente los datos adicionales compartidos para mantener la homogeneidad de los datos. En este caso, la tabla de trabajo temporal de salida de esta actividad solo contiene los datos adicionales encontrados en todos los conjuntos entrantes.
 
-![](assets/use-common-add-data-only.png)
+![Actividad de intersección con la opción Usar solo datos adicionales comunes resaltada y seleccionada.](assets/use-common-add-data-only.png)
 
 ### Reconciliación con los datos adicionales {#reconciliation-with-additional-data}
 
 Durante las fases de reconciliación de datos (actividades **[!UICONTROL Union]**, **[!UICONTROL Intersection]**, etc.), puede seleccionar las columnas que se utilizarán para la reconciliación de datos en las columnas adicionales. Para ello, configure una reconciliación sobre una selección de columnas y especifique el conjunto principal. A continuación, seleccione las columnas en la columna inferior de la ventana, como se muestra en el siguiente ejemplo:
 
-![](assets/select-column-and-join.png)
+![Actividad de intersección con una selección de columnas elegidas, un conjunto principal y las columnas utilizadas para la lista de combinación.](assets/select-column-and-join.png)
 
 Seleccione una expresión y confirme.
 
-![](assets/select-column-and-join-2.png)
+![Seleccione una ventana de expresión para una intersección que enumere los campos de la dimensión de segmentación con el número de cuenta seleccionado.](assets/select-column-and-join-2.png)
 
 
 ### Creación de subconjuntos {#create-subsets}
@@ -147,7 +147,7 @@ La actividad **[!UICONTROL Split]** permite crear subconjuntos sobre criterios d
 
 Puede dividir un destino en varios subconjuntos utilizando únicamente datos adicionales como condiciones de filtro o sumarlos a los datos de destino. También puede utilizar datos externos si ha adquirido la opción **Federated Data Access**.
 
-Para obtener más información, consulte [esta sección](#create-subsets-using-the-split-activity).
+Para obtener más información, consulte [Crear subconjuntos con la actividad Dividir](#create-subsets-using-the-split-activity).
 
 ## Datos de segmentos {#segment-data}
 
@@ -155,7 +155,7 @@ Para obtener más información, consulte [esta sección](#create-subsets-using-t
 
 La actividad de unión permite combinar el resultado de varias actividades dentro de una transición. Los conjuntos no tienen que ser necesariamente homogéneos.
 
-![](assets/union-keys-only.png)
+![Actividad de unión solo con las opciones de reconciliación Keys, All shared columns y A selection of columns.](assets/union-keys-only.png)
 
 Estas son las opciones de reconciliación de datos disponibles:
 
@@ -175,7 +175,7 @@ Estas son las opciones de reconciliación de datos disponibles:
 
   Para empezar, seleccione el conjunto principal (el que contiene los datos de origen) y las columnas que desea utilizar para el enlace.
 
-  ![](assets/join-reconciliation-options.png)
+  ![Actividad de unión con una selección de columnas, un conjunto principal y la cuenta y el origen de las columnas de unión que se están seleccionando.](assets/join-reconciliation-options.png)
 
   >[!CAUTION]
   >
@@ -187,11 +187,11 @@ Estas son las opciones de reconciliación de datos disponibles:
 
   Los registros se toman primero de la población de la primera transición entrante en la lista, y después, si no se ha alcanzado el máximo, se toman de la población de la segunda transición entrante, etc.
 
-  ![](assets/join_limit_nb_priority.png)
+  ![Actividad de unión con Limitar el tamaño de la población generada comprobada y las prioridades de las poblaciones entrantes.](assets/join_limit_nb_priority.png)
 
 ### Extracción de datos conjuntos (intersección) {#extract-joint-data--intersection-}
 
-![](assets/traitements.png)
+![Poblaciones A, B y C con contornos que marcan las áreas cubiertas por unión, intersección y exclusión.](assets/traitements.png)
 
 La intersección permite recuperar únicamente las líneas compartidas por las poblaciones de las transiciones entrantes. Esta actividad debe configurarse como la actividad de unión.
 
@@ -207,7 +207,7 @@ Si es necesario, se pueden manipular las tablas entrantes. De hecho, para exclui
 
 La reconciliación de datos se lleva a cabo mediante un identificador, un eje de cambio o una unión.
 
-![](assets/exclusion-add-rule.png)
+![Actividad de exclusión con el cuadro de diálogo Definición de excepción abierto, con las opciones Conjunto de exclusión y Cambiar dimensión.](assets/exclusion-add-rule.png)
 
 ### Creación de subconjuntos con la actividad División {#create-subsets-using-the-split-activity}
 
@@ -221,15 +221,15 @@ Para configurarlo, primero debe seleccionar unos criterios:
 1. En la pestaña **[!UICONTROL General]**, seleccione la opción que desee: **[!UICONTROL Use data from the target and additional data]**, **[!UICONTROL Use the additional data only]** o **[!UICONTROL Use external data]**.
 1. Si la opción **[!UICONTROL Use data from the target and additional data]** está seleccionada, la dimensión de segmentación permite utilizar todos los datos transmitidos por la transición entrante.
 
-   ![](assets/split-general-tab-options.png)
+   ![Dividir actividad ficha General con la opción Usar datos del destino y los datos adicionales y la lista de dimensiones de filtrado.](assets/split-general-tab-options.png)
 
    Cuando se crean subconjuntos, se utilizan los parámetros de filtrado mencionados.
 
    Para definir las condiciones de filtrado, seleccione la opción **[!UICONTROL Add a filtering condition on the inbound population]** y haga clic en el enlace **[!UICONTROL Edit...]**. A continuación, especifique las condiciones de filtrado para crear este subconjunto.
 
-   ![](assets/split-subset-config-all-data.png)
+   ![Dividir la pestaña Subconjuntos de actividades con Agregar una condición de filtrado a la población entrante seleccionada y el vínculo Editar.](assets/split-subset-config-all-data.png)
 
-   En **[!UICONTROL Split]** esta sección se describe un ejemplo de cómo utilizar las condiciones de filtrado en la actividad [&#128279;](cross-channel-delivery-workflow.md) para segmentar el objetivo en diferentes poblaciones.
+   En [Flujo de trabajo de entrega en canales múltiples](cross-channel-delivery-workflow.md) se describe un ejemplo que muestra cómo usar las condiciones de filtrado en la actividad **[!UICONTROL Split]** para segmentar el objetivo en diferentes poblaciones.
 
    El campo **[!UICONTROL Label]** permite asignar un nombre al nuevo subconjunto, que coincide con la transición saliente.
 
@@ -237,7 +237,7 @@ Para configurarlo, primero debe seleccionar unos criterios:
 
    Si es necesario, se pueden cambiar individualmente las dimensiones de filtrado y destino para cada subconjunto que desee crear. Para ello, edite la condición de filtrado del subconjunto y marque la opción **[!UICONTROL Use a specific filtering dimension]**.
 
-   ![](assets/split-subset-config-specific-filtering.png)
+   ![Cuadro de diálogo de consulta con la opción Use a specific filtering dimension activada, encima de las dimensiones de segmentación y filtrado.](assets/split-subset-config-specific-filtering.png)
 
 1. Si se selecciona la opción **[!UICONTROL Use the additional data only]**, solo se ofrecen datos adicionales para el filtrado del subconjunto.
 
@@ -247,21 +247,21 @@ A continuación, es preciso añadir nuevos subconjuntos:
 
 1. Haga clic en el botón **[!UICONTROL Add]** para definir las condiciones de filtrado.
 
-   ![](assets/wf_split_add_a_tab.png)
+   ![Dividir la pestaña Subconjuntos de actividad con el botón Agregar resaltado para crear una nueva pestaña de subconjunto junto a Subconjunto.](assets/wf_split_add_a_tab.png)
 
 1. Defina la dimensión de filtrado en la pestaña **[!UICONTROL General]** de la actividad (consulte más arriba). Se aplica a todos los subconjuntos de forma predeterminada.
 
-   ![](assets/wf_split_edit_filtering.png)
+   ![Dividir actividad Subconjuntos que muestra las fichas del Subconjunto A, B y C y las opciones de condición de filtrado para el Subconjunto B.](assets/wf_split_edit_filtering.png)
 
 1. Si es necesario, se puede cambiar la dimensión de filtrado, individualmente, para cada subconjunto. Esto permite crear un conjunto para todos los titulares de la tarjeta Gold, otro para todos los destinatarios que hicieron clic en el último boletín y un tercero para las personas de 18 a 25 años que realizaron una compra en la tienda en los últimos 30 días, utilizando todos la misma actividad de división. Para ello, seleccione la opción **[!UICONTROL Use a specific filtering dimension]** y seleccione los criterios de filtrado.
 
 Una vez creados los subconjuntos, la actividad de división muestra de forma predeterminada tantas transiciones de salida como subconjuntos:
 
-![](assets/wf_split_multi_outputs.png)
+![Flujo de trabajo en el que una actividad dividida tiene tres transiciones salientes, Subconjunto 1, Subconjunto 2 y Subconjunto 3, a actividades independientes.](assets/wf_split_multi_outputs.png)
 
 Puede agrupar todos estos subconjuntos en una sola transición de salida. En este caso, el vínculo a los respectivos subconjuntos se puede ver en el código del segmento, por ejemplo. Para ello, seleccione la opción **[!UICONTROL Generate all subsets in the same table]**.
 
-![](assets/wf_split_single_output.png)
+![Dividir actividad en la pestaña General con la opción Generate all subsets in the same table activada y resaltada.](assets/wf_split_single_output.png)
 
 Por ejemplo, puede colocar una sola actividad de entrega y personalizar el contenido de la entrega en función del código de segmento de cada grupo de destinatarios.
 
@@ -306,7 +306,7 @@ Para implementar estas operaciones, Adobe Campaign ofrece:
 
 ### Enriquecimiento y modificación de datos {#enrich-and-modify-data}
 
-Además de la dimensión de segmentación, la dimensión de filtrado permite especificar la naturaleza de los datos recopilados. Consulte [esta sección](targeting-workflows.md#targeting-and-filtering-dimensions).
+Además de la dimensión de segmentación, la dimensión de filtrado permite especificar la naturaleza de los datos recopilados. Consulte [Segmentación y filtrado de dimensiones](targeting-workflows.md#targeting-and-filtering-dimensions).
 
 Los datos identificados y recopilados se pueden enriquecer, añadir y manipular para optimizar la construcción de objetivos. Para ello, además de las actividades de manipulación de datos detalladas en [esta sección](#segmen-data), use lo siguiente:
 

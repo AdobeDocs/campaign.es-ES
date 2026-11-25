@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 86%
 ---
 # Señal externa{#external-signal}
 
@@ -38,7 +38,7 @@ Consulte la documentación en línea sobre las llamadas SOAP para obtener más i
 
 Puede configurar esta actividad para definir eventos si no se recibe ninguna señal. Para ello, edite la actividad y haga clic en la pestaña **[!UICONTROL Expiration]**. Haga clic en el botón **[!UICONTROL Insert]** para crear y configurar un evento.
 
-![](assets/edit_signal.png)
+![Pestaña Expiración de señal externa que enumera tres caducidades, con la ventana de detalles de caducidad abierta](assets/edit_signal.png)
 
 La configuración de la caducidad se detalla en [Caducidad](define-approvals.md).
 
@@ -46,4 +46,4 @@ El campo **Delay** permite especificar un retraso de la caducidad en las unidade
 
 Cada línea representa un tipo de caducidad y coincide con una transición.
 
-![](assets/external_sign_diag.png)
+![Actividad de señal externa con transiciones salientes de Caducidad, Caducidad 2, Caducidad 3 y Nuevo](assets/external_sign_diag.png)

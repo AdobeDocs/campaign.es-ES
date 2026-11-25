@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 96%
+source-wordcount: '1287'
+ht-degree: 83%
 ---
 # Carga de datos (archivo){#data-loading-file}
 
@@ -45,13 +45,13 @@ La sección superior de la ventana de configuración de esta actividad permite d
 
 >[!CAUTION]
 >
->Solo se admiten archivos de estructura “plana” (por ejemplo, CSV, TXT, etc.). No se recomienda utilizar el formato XML. Con la consola del cliente, puede cargar archivos de hasta un tamaño máximo de 150 MB. En la interfaz de usuario web, la actividad Cargar archivo tiene un límite de 50 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html?lang=es){target="_blank"}
+>Solo se admiten archivos de estructura “plana” (por ejemplo, CSV, TXT, etc.). No se recomienda utilizar el formato XML. Con la consola del cliente, puede cargar archivos de hasta un tamaño máximo de 150 MB. En la interfaz de usuario web, la actividad Cargar archivo tiene un límite de 50 MB. [Más información](https://experienceleague.adobe.com/docs/campaign-web/v8/wf/design-workflows/load-file.html){target="_blank"}
 
-![](assets/s_advuser_wf_etl_file.png)
+![Actividad de carga de datos (archivo) con un archivo de muestra, vista previa de las columnas, opciones de nombre de archivo y administración de rechazos.](assets/s_advuser_wf_etl_file.png)
 
 Puede definir un proceso previo para que se ejecute durante la importación de archivos, por ejemplo, para que no tenga que descomprimir el archivo en el servidor (y, por lo tanto, ahorrar espacio para el archivo descomprimido), y para incluir la descompresión en el procesamiento de archivos. Seleccione la opción **[!UICONTROL Pre-process the file]** y elija una de las 3 opciones: **[!UICONTROL None]**, **[!UICONTROL Decompression]** (zcat) o **[!UICONTROL Decrypt]** (gpg).
 
-![](assets/preprocessing-dataloading.png)
+![Carga de datos (archivo) con procesamiento previo del archivo seleccionado y la lista de comandos: Ninguno, Descompresión, Descifrar.](assets/preprocessing-dataloading.png)
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ Al cargar un archivo, el formato de columna se detecta automáticamente con los 
 
 Para ello, en la ventana principal de la actividad **[!UICONTROL Data loading (file)]**, seleccione **[!UICONTROL Click here to change the file format...]**. A continuación, se abrirá la ventana de detalles de formato.
 
-![](assets/file_loading_columns_format.png)
+![Ventana de formato de archivo con configuración general de archivo y una tabla de columnas con tipo de datos, Permitir valores NULL y longitud.](assets/file_loading_columns_format.png)
 
 A continuación, puede modificar el formato general del archivo y el de cada columna.
 
@@ -108,7 +108,7 @@ El formato de columna permite definir el valor de procesamiento de cada columna:
 
 El ejemplo siguiente permite recopilar un fichero en el servidor todos los días, cargar su contenido y actualizar los datos en la base de datos según la información que contenga. El archivo que se va a recopilar contiene información sobre los clientes que pueden haber realizado compras (de más o menos de 3000 euros), los que solicitaron un reembolso por una compra o realizaron una visita sin comprar nada. En función de esta información, se aplicarán varios procesos a sus perfiles en la base de datos.
 
-![](assets/s_advuser_load_file_sample_0.png)
+![Flujo de trabajo con el recopilador de archivos, la carga de datos (archivo) y la división, que lleva a cuatro actividades de actualización de datos por tipo de compra.](assets/s_advuser_load_file_sample_0.png)
 
 1. El recolector de archivos permite recuperar ficheros almacenados en un directorio, según la frecuencia dada.
 
@@ -116,13 +116,13 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
    El uso de **[!UICONTROL File collector]** se detalla en la sección de [Recolector de archivos](file-collector.md).
 
-   ![](assets/s_advuser_load_file_sample_1.png)
+   ![Ficha Directorio de recopiladores de archivos con un directorio de servidor y el filtro para los archivos de texto de los clientes.](assets/s_advuser_load_file_sample_1.png)
 
    La pestaña **[!UICONTROL Schedule]** permite programar la ejecución del recolector, es decir, especificar la frecuencia con la que se comprueba la presencia de estos archivos.
 
    En este caso, deseamos activar el recolector todos los días a las 9 p. m.
 
-   ![](assets/s_advuser_load_file_sample_2.png)
+   ![Pestaña Programación del recolector de archivos con la ejecución del plan activada y el déclencheur diario a las 9:00 p.m., además del botón Cambiar.](assets/s_advuser_load_file_sample_2.png)
 
    Para ello, haga clic en el botón **[!UICONTROL Change...]** situado en la sección inferior derecha de la herramienta de edición y configure la programación.
 
@@ -130,7 +130,7 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
 1. A continuación, configure la actividad de carga de datos (archivos) para indicar cómo se deben leer los ficheros recopilados. Para esto, seleccione un fichero de muestra con la misma estructura que los ficheros que se van a cargar.
 
-   ![](assets/s_advuser_load_file_sample_3.png)
+   ![Actividad de carga de datos (archivo) con un archivo de muestra y una vista previa del evento, apellidos, nombre y otras columnas.](assets/s_advuser_load_file_sample_3.png)
 
    En este caso, el archivo contiene cinco columnas:
 
@@ -143,15 +143,15 @@ El ejemplo siguiente permite recopilar un fichero en el servidor todos los días
 
    La actividad dividida se detalla en la sección.
 
-   ![](assets/s_advuser_load_file_sample_4.png)
+   ![Dividir subconjunto para Sin compra, con el vínculo Editar abriendo una consulta donde el campo Evento está seleccionado como expresión.](assets/s_advuser_load_file_sample_4.png)
 
    Para cada subconjunto, especifique uno de los valores en la columna **Event**.
 
-   ![](assets/s_advuser_load_file_sample_5.png)
+   ![Condición de filtro de consulta con la expresión Event (Event) igual a 0 para el subconjunto.](assets/s_advuser_load_file_sample_5.png)
 
    La actividad **[!UICONTROL Split]**, por lo tanto, contiene la siguiente información:
 
-   ![](assets/s_advuser_load_file_sample_6.png)
+   ![Actividad dividida con fichas de subconjunto por menos de 3000 compras, sin compras, con devolución y más de 3000 compras; no se muestra ninguna compra.](assets/s_advuser_load_file_sample_6.png)
 
 1. A continuación, especifique los procesos que se van a realizar para cada tipo de población. En el ejemplo, vamos a **[!UICONTROL Update the data]** en la base de datos. Para esto, coloque una actividad **[!UICONTROL Update data]** al final de cada transición saliente desde la actividad de división.
 

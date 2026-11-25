@@ -24,10 +24,10 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 98%
+source-wordcount: '772'
+ht-degree: 81%
 ---
 # Caso de uso: Supervisión de flujos de trabajo{#supervising-workflows}
 
@@ -49,7 +49,7 @@ Para monitorizar el estado de un conjunto de flujos de trabajo, se debe seguir e
 >
 >Además del flujo de trabajo, Campaign **Mapa de calor de flujo de trabajo** permite analizar los detalles que se están ejecutando actualmente. Para obtener más información, consulte [la sección dedicada](heatmap.md).
 >
->Para obtener más información sobre cómo **monitorizar la ejecución de los flujos de trabajo**, consulte [esta sección](monitor-workflow-execution.md).
+>Para obtener más información sobre cómo **supervisar la ejecución de sus flujos de trabajo**, consulte [Supervisar la ejecución del flujo de trabajo](monitor-workflow-execution.md).
 
 ## Paso 1: Creación del flujo de trabajo de monitorización {#step-1--creating-the-monitoring-workflow}
 
@@ -59,7 +59,7 @@ El **flujo de trabajo de monitorización** se almacena en la raíz de la carpeta
 
 El esquema siguiente muestra la secuencia de actividades:
 
-![](assets/uc_monitoring_workflow_overview.png)
+![Flujo de trabajo de supervisión con actividades de inicio, código JavaScript, prueba, envío y espera vinculadas por transiciones](assets/uc_monitoring_workflow_overview.png)
 
 Este flujo de trabajo consta de:
 
@@ -137,11 +137,11 @@ La actividad “Prueba” permite determinar si una entrega debe ser realizado o
 
 Se realiza una entrega al supervisor **si al menos una de las tres variables de evento “vars.strWorkflowError”, “vars.strWorkflowPaused” o “vars.strWorkflowStop” es válida.**
 
-![](assets/uc_monitoring_workflow_test.png)
+![Actividad de prueba con una condición True que comprueba que las tres longitudes de variable de flujo de trabajo son 0 y un valor predeterminado False](assets/uc_monitoring_workflow_test.png)
 
 La actividad “Espera” se puede configurar para reiniciar el flujo de trabajo de monitorización a intervalos regulares. Para este caso de uso, **el tiempo de espera se establece en una hora**.
 
-![](assets/uc_monitoring_workflow_attente.png)
+![Actividad de espera con el campo Duración establecido en 1h](assets/uc_monitoring_workflow_attente.png)
 
 ## Paso 4: Preparación de una entrega {#step-4--preparing-the-delivery}
 
@@ -152,7 +152,7 @@ Esta plantilla debe incluir:
 * **la dirección de correo electrónico del supervisor**.
 * **Contenido HTML** para insertar texto personalizado.
 
-  ![](assets/uc_monitoring_workflow_variables_diffusion.png)
+  ![Pestaña Variables de la plantilla de envío que enumera WF_Stop, WF_Error y WF_Paused como variables de texto](assets/uc_monitoring_workflow_variables_diffusion.png)
 
   Las tres variables declaradas (WF_Stop, WF_Paused, WF_Error) coinciden con las tres variables de evento de flujo de trabajo.
 
@@ -162,7 +162,7 @@ Esta plantilla debe incluir:
 
   La plantilla de envío tiene el siguiente contenido:
 
-  ![](assets/uc_monitoring_workflow_model_diffusion.png)
+  ![Contenido de HTML de la plantilla de envío con encabezados y variables de flujos de trabajo con error, en pausa y detenidos.WF_ tags](assets/uc_monitoring_workflow_model_diffusion.png)
 
 Una vez creada y aprobada la plantilla, se debe configurar la actividad **Envío** para:
 
@@ -176,13 +176,13 @@ Haga doble clic en la actividad de **Envío** y seleccione las siguientes opcion
 * Acción que quiere ejecutar: seleccione **Preparación e inicio**.
 * Anule la selección de la opción **Procesamiento de errores**.
 
-  ![](assets/uc_monitoring_workflow_optionmodel.png)
+  ![Actividad de envío con New, creado a partir de una plantilla, Specified in the delivery y Prepare and start selected](assets/uc_monitoring_workflow_optionmodel.png)
 
 * Vaya a la pestaña **Script** de la actividad **Envío**, añada tres variables de **cadena de caracteres** a través del menú del campo de personalización.
 
-  ![](assets/uc_monitoring_workflow_selectlinkvariables.png)
+  ![Ficha Script de la actividad Delivery con el menú personalizado abierto en Delivery y la opción Other](assets/uc_monitoring_workflow_selectlinkvariables.png)
 
-  ![](assets/uc_monitoring_workflow_linkvariables.png)
+  ![Ventana de campos disponibles con Variables seleccionadas y el campo Valor (texto) resaltado](assets/uc_monitoring_workflow_linkvariables.png)
 
   Las tres variables declaradas son:
 

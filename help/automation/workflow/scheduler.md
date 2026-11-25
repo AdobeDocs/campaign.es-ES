@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 42%
+source-wordcount: '473'
+ht-degree: 35%
 ---
 # Planificador {#scheduler}
 
@@ -50,22 +50,22 @@ La actividad del **[!UICONTROL Scheduler]** debe considerarse como un inicio pro
 
 El planificador define la programación de activación de la transición. Para configurarlo, haga doble clic en el objeto gráfico y, a continuación, haga clic en **[!UICONTROL Change...]**.
 
-![](assets/s_user_segmentation_scheduler.png)
+![Cuadro de diálogo de actividad del programador con el botón Cambiar utilizado para definir la frecuencia de ejecución](assets/s_user_segmentation_scheduler.png)
 
 Un asistente le permite definir la frecuencia y el periodo de validez de la actividad. Los pasos de configuración son los siguientes:
 
 1. Seleccione la frecuencia de activación y haga clic en **[!UICONTROL Next]**.
 
-   ![](assets/s_user_segmentation_scheduler2.png)
+   ![Asistente de edición de programación, Seleccionar tipo de frecuencia: varias veces al día, Diario, Semanal, Mensual, Una vez](assets/s_user_segmentation_scheduler2.png)
 
 1. Indique las horas y días de activación. Los parámetros de este paso dependen de la frecuencia seleccionada en el paso anterior. Si elige iniciar la actividad varias veces al día, las opciones de configuración serán las siguientes:
 
-   ![](assets/s_user_segmentation_scheduler3.png)
+   ![Asistente para programar la edición, muchas veces al día: selección de horas en las horas seleccionadas y selección de días con los días laborables](assets/s_user_segmentation_scheduler3.png)
 
 1. Defina el periodo de validez de la programación o especifique cuántas veces se va a ejecutar.
 
-   ![](assets/s_user_segmentation_scheduler4.png)
+   ![Asistente de edición de programación, Período de validez: validez permanente, Fechas de Válido desde y Hasta o Número máximo de iteraciones](assets/s_user_segmentation_scheduler4.png)
 
 1. Compruebe la configuración y haga clic en **[!UICONTROL Finish]** para guardar.
 
-   ![](assets/s_user_segmentation_scheduler5.png)
+   ![Asistente de edición de programación, resumen: descripción de programación y lista de horas de inicio siguientes, con el botón Finalizar](assets/s_user_segmentation_scheduler5.png)

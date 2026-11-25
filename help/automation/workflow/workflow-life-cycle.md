@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 93%
+source-wordcount: '279'
+ht-degree: 83%
 ---
 # Ciclo de vida del flujo de trabajo {#workflow-life-cycle}
 
@@ -42,7 +42,7 @@ El ciclo de flujo de trabajo tiene tres pasos principales.
 
 Por ejemplo, las actividades **Inicio** y **entrega** se destacan, mientras que la actividad de **Aprobación** parpadea en el flujo de trabajo inferior.
 
-![](assets/new-workflow-6.png)
+![Flujo de trabajo con actividades de inicio y entrega delineadas y la actividad de aprobación en ejecución, luego Control de entrega y finalización](assets/new-workflow-6.png)
 
 Esto significa que las dos primeras actividades se han ejecutado correctamente y que la aprobación está en curso, es decir, que se ha creado, pero aún no ha finalizado.
 
@@ -50,4 +50,4 @@ Los caracteres **574 -Ok** que se muestran encima de la transición a continuaci
 
 El flujo de trabajo se inicia y está esperando a que un operador que pertenezca al grupo especificado en la actividad **Aprobación** tome una decisión. Se notifica a los operadores que pertenecen al grupo y a los que tienen una dirección de correo electrónico o un número de móvil.
 
-Para obtener más información sobre cómo monitorizar los flujos de trabajo, consulte [esta sección](monitor-workflow-execution.md).
+Para obtener más información sobre cómo monitorizar sus flujos de trabajo, consulte [Monitorizar la ejecución del flujo de trabajo](monitor-workflow-execution.md).

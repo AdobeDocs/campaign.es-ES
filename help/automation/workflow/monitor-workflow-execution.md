@@ -32,16 +32,16 @@ topic_v2:
     internal-label: Data management
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 96%
+source-wordcount: '2288'
+ht-degree: 80%
 ---
 # Monitorización de la ejecución del flujo de trabajo {#monitoring-workflow-execution}
 
 Esta sección presenta información sobre cómo monitorizar la ejecución de los flujos de trabajo.
 
-En [esta sección](workflow-supervision.md#supervising-workflows) está disponible un caso de uso que detalla la creación de un flujo de trabajo que permite monitorizar el estado de un conjunto de flujos de trabajo que están “en pausa”, “detenidos” o “con errores”.
+También está disponible en [Caso de uso: supervisar sus flujos de trabajo](workflow-supervision.md#supervising-workflows) un caso de uso sobre cómo crear un flujo de trabajo que le permita monitorizar el estado de un conjunto de flujos de trabajo que están &quot;en pausa&quot;, &quot;detenidos&quot; o &quot;con errores&quot;.
 
 Además, los administradores de la instancia pueden utilizar la **pista de auditoría** para comprobar las actividades y las últimas modificaciones realizadas en los flujos de trabajo y el estado de los mismos. Obtenga más información sobre la pista de auditoría en esta [página](../../v8/reporting/audit-trail.md){target="_blank"}.
 
@@ -51,11 +51,11 @@ Puede monitorizar la ejecución mediante la visualización del progreso con el i
 
 El icono **[!UICONTROL Display progress information]** permite mostrar el estado y el resultado de la actividad en la pantalla de ejecución.
 
-![](assets/s_user_segmentation_toolbar_progr.png)
+![Mostrar icono de información de progresión en la barra de herramientas del flujo de trabajo](assets/s_user_segmentation_toolbar_progr.png)
 
 Cuando se selecciona esta opción, las actividades ejecutadas se muestran en azul, las actividades pendientes parpadean, las advertencias se muestran en naranja y los errores en rojo. Esta opción también muestra el resultado de las actividades en su transición saliente, seguido de la etiqueta del resultado como se establece en las propiedades de la actividad y la duración del trabajo si esta es superior a un segundo
 
-![](assets/s_user_segmentation_results.png)
+![Diagrama de flujo de trabajo con recuentos de resultados y etiquetas mostradas en las transiciones salientes de las actividades](assets/s_user_segmentation_results.png)
 
 ## Visualización de registros {#displaying-logs}
 
@@ -63,11 +63,11 @@ El “log” contiene el historial o la pista de auditoría del flujo de trabajo
 
 * Seleccione la pestaña **[!UICONTROL Tracking]** en los detalles. Esta lista contiene todos los mensajes del flujo de trabajo.
 
-  ![](assets/new-workflow-display-log-tab.png)
+  ![Lista de flujo de trabajo con la ficha Auditoría del flujo de trabajo seleccionado que muestra mensajes en el diario](assets/new-workflow-display-log-tab.png)
 
 * Filtrado de los mensajes de “log” por actividad. Para ello, haga clic en **[!UICONTROL Display the tasks and the log]** en la barra de herramientas situada encima del diagrama para mostrar las pestañas **[!UICONTROL Log]** y **[!UICONTROL Tasks]** debajo del diagrama. Seleccione una actividad para ver todos los mensajes relacionados. Esta lista contiene todos los mensajes cuando no hay actividad seleccionada.
 
-  ![](assets/new-workflow-display-log-activity.png)
+  ![Diagrama de flujo de trabajo con la actividad de aprobación seleccionada y la ficha Diario filtrada en esa actividad](assets/new-workflow-display-log-activity.png)
 
   >[!NOTE]
   >
@@ -75,7 +75,7 @@ El “log” contiene el historial o la pista de auditoría del flujo de trabajo
 
 * Visualice solo los mensajes vinculados a una tarea determinada. Para ello, seleccione la pestaña **[!UICONTROL Tasks]** y elija una actividad en el diagrama para restringir la lista. Haga doble clic en una tarea para mostrar la información; la última pestaña de la ventana contiene el “log”.
 
-  ![](assets/new-workflow-display-tasks-activity.png)
+  ![Diagrama de flujo de trabajo con la actividad de aprobación seleccionada y la ficha Tareas con sus tareas](assets/new-workflow-display-tasks-activity.png)
 
   El botón **[!UICONTROL Details...]** permite mostrar toda la información adicional sobre la ejecución de la actividad. Por ejemplo, puede ver el operador de validación y, cuando corresponda, el comentario que ha introducido durante la aprobación.
 
@@ -89,7 +89,7 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
   Una vez que se ha ejecutado una campaña de objetivos, haga clic en la pestaña **[!UICONTROL Tracking]** para ver el historial de ejecución.
 
-  ![](assets/s_user_segmentation_journal.png)
+  ![Vista de auditoría de un flujo de trabajo que enumera mensajes en el diario con fecha, nombre de actividad y mensaje](assets/s_user_segmentation_journal.png)
 
   Se muestran todos los mensajes de campaña: campañas realizadas, así como advertencias o errores.
 
@@ -99,25 +99,25 @@ El “log” muestra la lista de mensajes de ejecución relacionados con las act
 
   1. Seleccione la actividad de objetivo y haga clic en el icono **[!UICONTROL Display the tasks and the log]**.
 
-     ![](assets/s_user_segmentation_show_logs.png)
+     ![Mostrar las tareas y el icono de registro en la barra de herramientas del flujo de trabajo](assets/s_user_segmentation_show_logs.png)
 
      La sección inferior del diagrama muestra dos pestañas: Logs y Tasks.
 
      Las actividades seleccionadas dentro del diagrama actúan como filtros en la lista de “logs” y tareas.
 
-     ![](assets/s_user_segmentation_logs.png)
+     ![Diagrama de flujo de trabajo con las fichas de diario y tareas debajo, filtrado en la actividad seleccionada](assets/s_user_segmentation_logs.png)
 
   1. Haga clic con el botón derecho del ratón en la carpeta y seleccione **[!UICONTROL Display logs]**.
 
-     ![](assets/s_user_segmentation_logs_menu.png)
+     ![Menú contextual de una actividad con la opción Mostrar registros resaltada](assets/s_user_segmentation_logs_menu.png)
 
      El registro se muestra en una ventana independiente.
 
 ## Depuración de registros {#purging-the-logs}
 
-El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]**&#x200B;**[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](start-a-workflow.md).
+El historial del flujo de trabajo no se purga automáticamente: todos los mensajes se mantienen de forma predeterminada. El historial se puede eliminar a través del menú **[!UICONTROL File > Actions]****[!UICONTROL Actions]** o haciendo clic en el botón ubicado en la barra de herramientas situada encima de la lista. Seleccione **[!UICONTROL Purge history]**. Las opciones disponibles en el menú **[!UICONTROL Actions]** se detallan en la sección [Barra de herramientas de acciones](start-a-workflow.md).
 
-![](assets/purge_historique.png)
+![Menú de acciones de la lista de flujos de trabajo con la opción Purgar historial resaltada](assets/purge_historique.png)
 
 ## Esquema de tablas de trabajo y flujo de trabajo {#worktables-and-workflow-schema}
 
@@ -131,31 +131,31 @@ Las tablas de trabajo del flujo de trabajo se eliminan automáticamente cuando e
 
 Cuando se produce un error, el flujo de trabajo se detiene y la actividad que se está ejecutando cuando se produce el error parpadea en rojo. En la descripción general del flujo de trabajo, en la pestaña **[!UICONTROL Monitoring]** del vínculo **[!UICONTROL Workflows]**, puede mostrar solo los flujos de trabajo con errores, como se muestra a continuación.
 
-![](assets/wf-global-view_filter_only_errors.png)
+![Pestaña Supervisión, página Flujos de trabajo con la lista desplegable de estado y la opción Error seleccionada](assets/wf-global-view_filter_only_errors.png)
 
 En Adobe Campaign Explorer, la lista de flujos de trabajo muestra una columna **[!UICONTROL Failed]** de forma predeterminada.
 
-![](assets/wf-explorer_errors_col.png)
+![Lista de flujo de trabajo en el Explorador con la columna Error resaltada](assets/wf-explorer_errors_col.png)
 
 Cuando un flujo de trabajo sufre un error, se notifica por correo electrónico a los operadores que pertenecen al grupo de supervisión del flujo de trabajo, siempre y cuando su dirección de correo electrónico se muestre en su perfil. Este grupo está seleccionado en el campo **[!UICONTROL Supervisor(s)]** de las propiedades del flujo de trabajo.
 
-![](assets/wf-properties_select-supervisors.png)
+![Propiedades del flujo de trabajo, ficha General, con la lista de campos Supervisor(s) y Workflow supervisors seleccionados](assets/wf-properties_select-supervisors.png)
 
 El contenido de la notificación está configurado en la plantilla predeterminada **[!UICONTROL Workflow manager notification]**: Esta plantilla está seleccionada en la pestaña **[!UICONTROL Execution]** de las propiedades del flujo de trabajo. La notificación muestra el nombre del flujo de trabajo de error y la tarea correspondiente.
 
 Ejemplo de notificación:
 
-![](assets/wf-notification_error-msg.png)
+![Correo electrónico de notificación de error que indica que el flujo de trabajo está detenido, con un vínculo de clic aquí al detalle del flujo de trabajo](assets/wf-notification_error-msg.png)
 
 El vínculo le permite acceder a la consola del cliente de Adobe Campaign en el modo web y trabajar con el flujo de trabajo del error una vez que haya iniciado sesión.
 
-![](assets/wf-notification_error-console.png)
+![Página de la consola web que muestra El flujo de trabajo ha fallado, con los botones Iniciar el flujo de trabajo y Detener](assets/wf-notification_error-console.png)
 
 Puede configurar el flujo de trabajo para que no se detenga y continúe la ejecución en caso de errores. Para ello, edite **[!UICONTROL Properties]** del flujo de trabajo y, en la sección **[!UICONTROL Error management]**, seleccione la opción **[!UICONTROL Ignore]** del campo **[!UICONTROL In case of error]**. Puede especificar el número de errores consecutivos que se pueden omitir antes de que se ponga en pausa el proceso.
 
 En este caso, se anula la tarea de error. Este modo es especialmente apropiado para los flujos de trabajo diseñados para volver a probar la campaña más tarde (acciones periódicas).
 
-![](assets/wf_edit_properties_for_error_mgt.png)
+![Propiedades del flujo de trabajo, ficha Ejecución, sección Administración de errores con En caso de error establecido en Omitir](assets/wf_edit_properties_for_error_mgt.png)
 
 >[!NOTE]
 >
@@ -187,15 +187,15 @@ La página **[!UICONTROL Instance supervision]** permite ver la actividad del se
 
 Para acceder a esta página, vaya a la pestaña **[!UICONTROL Monitoring]** y haga clic en el vínculo **[!UICONTROL General view]**.
 
-![](assets/wf-monitoring_from-homepage.png)
+![Página de instancia de monitorización con la lista de procesos y los paneles Flujos de trabajo y Envíos](assets/wf-monitoring_from-homepage.png)
 
 Para mostrar todos los flujos de trabajo, haga clic en el vínculo **[!UICONTROL Workflows]**. Utilice la lista desplegable para mostrar los flujos de trabajo en la plataforma según su estado.
 
-![](assets/wf-monitoring_edit-wf.png)
+![Página Flujos de trabajo de la ficha Supervisión con la lista desplegable de estado y Error seleccionado](assets/wf-monitoring_edit-wf.png)
 
 Haga clic en el vínculo de un flujo de trabajo con errores para abrirlo y ver su “log”.
 
-![](assets/wf-monitoring_edit-task-wf.png)
+![Se ha abierto un flujo de trabajo con errores desde la lista, mostrando su diagrama con la actividad con errores y su mensaje del diario](assets/wf-monitoring_edit-task-wf.png)
 
 ## Prevención de las ejecuciones múltiples simultáneas {#preventing-simultaneous-multiple-executions}
 
@@ -207,17 +207,17 @@ Si tiene una actividad de señal al comienzo del flujo de trabajo, puede que des
 
 El principio general es el siguiente:
 
-![](assets/workflow-reentrancy-protection-principle.png)
+![Principio de bloqueo: si el bloqueo está establecido, omitir; si no, poner bloqueo, ejecutar pasos protegidos y, a continuación, liberar bloqueo](assets/workflow-reentrancy-protection-principle.png)
 
 La solución consiste en utilizar una variable de instancia. Las variables de instancia se comparten en todas las ejecuciones paralelas de los flujos de trabajo.
 
 A continuación se muestra un sencillo flujo de trabajo de prueba:
 
-![](assets/wkf_simultaneous_execution1.png)
+![Flujo de trabajo con un Planificador, una actividad de Prueba denominada Continuar, una actividad de Espera y dos actividades Fin](assets/wkf_simultaneous_execution1.png)
 
 **[!UICONTROL Scheduler]** activa un evento cada minuto. La siguiente actividad **[!UICONTROL Test]** prueba la variable de instancia **isRunning** para decidir si debe continuar o no la ejecución:
 
-![](assets/wkf_simultaneous_execution2.png)
+![Actividad de prueba con la condición yes !instance.vars.isRunning y la rama predeterminada etiquetada como no](assets/wkf_simultaneous_execution2.png)
 
 >[!NOTE]
 >
@@ -279,7 +279,7 @@ Estas son las opciones disponibles:
 * **[!UICONTROL Failed]**: enumera todos los flujos de trabajo con errores.
 * ** ).
 
-![](assets/workflow-monitoring-views.png)
+![Árbol del explorador, Administración > Auditoría > Estado de flujos de trabajo con las vistas En ejecución, Inicio pendiente, En pausa y Error](assets/workflow-monitoring-views.png)
 
 De forma predeterminada, se puede acceder a estas vistas en la carpeta **[!UICONTROL Audit]**. Sin embargo, puede volver a crearlas en la ubicación que elija en el árbol de carpetas. De esta manera, van a estar disponibles para los usuarios estándar sin derecho de administración.
 
@@ -287,7 +287,7 @@ Para ello:
 
 1. Haga clic derecho en la carpeta donde desee añadir la vista.
 1. En **[!UICONTROL Add new folder]** / **[!UICONTROL Administration]**, seleccione la vista que desee añadir.
-1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar vistas, consulte [esta página](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
+1. Una vez añadida la carpeta al árbol, asegúrese de configurarla como una vista para que muestre todos los flujos de trabajo, independientemente de la carpeta de origen. Para obtener más información sobre cómo configurar vistas, consulte [Convertir una carpeta en una vista](../../v8/audiences/folders-and-views.md#turn-a-folder-to-a-view).
 
 Además de estas vistas, puede configurar carpetas de filtros que le permitan filtrar la lista de flujos de trabajo según su estado de ejecución. Para ello, haga lo siguiente:
 
@@ -295,6 +295,6 @@ Además de estas vistas, puede configurar carpetas de filtros que le permitan fi
 1. Configure el filtro para que el campo **[!UICONTROL @status]** del flujo de trabajo sea igual al estado que elija.
 1. Guarde y asigne un nombre al filtro. Luego va a estar disponible directamente desde la lista de filtros.
 
-![](assets/workflow-monitoring-filter.png)
+![Diálogo de filtro avanzado con la condición Estado real (@status) igual a Suspendido y el icono de guardar resaltado](assets/workflow-monitoring-filter.png)
 
 Para obtener más información, consulte estas secciones:

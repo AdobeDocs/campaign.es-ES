@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 83%
+source-wordcount: '566'
+ht-degree: 69%
 ---
 # Administración de contenido{#content-management}
 
@@ -39,7 +39,7 @@ Una actividad de **Administración de contenido** permite crear y manipular cont
 
 >[!NOTE]
 >
->La interfaz de usuario web de Adobe Campaign permite utilizar fragmentos de contenido para el contenido. Permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados, gracias a componentes reutilizables a los que se puede hacer referencia en uno o más mensajes, lo que le permite ensamblar rápidamente el contenido de los mensajes en un proceso de diseño mejorado. Para obtener más información sobre fragmentos de contenido, consulte la [documentación de la interfaz de usuario web de Adobe Campaign.](https://experienceleague.adobe.com/es/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
+>La interfaz de usuario web de Adobe Campaign permite utilizar fragmentos de contenido para el contenido. Permite a los usuarios de marketing generar previamente varios bloques de contenido personalizados, gracias a componentes reutilizables a los que se puede hacer referencia en uno o más mensajes, lo que le permite ensamblar rápidamente el contenido de los mensajes en un proceso de diseño mejorado. Para obtener más información sobre fragmentos de contenido, consulte la [documentación de la interfaz de usuario web de Adobe Campaign.](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/manage-reusable-content/fragments/fragments){target=_blank}
 
 Las propiedades de la actividad se dividen en tres pasos:
 
@@ -47,7 +47,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 * **Content update**: la tarea puede modificar el asunto del contenido o importar todo el contenido XML.
 * **Action**: el contenido resultante se puede guardar o generar.
 
-  ![](assets/content_mgmt_edit.png)
+  ![Actividad de administración de contenido con contenido, actualización de contenido y acción para realizar secciones y una transición saliente](assets/content_mgmt_edit.png)
 
 1. **Content**
 
@@ -59,19 +59,19 @@ Las propiedades de la actividad se dividen en tres pasos:
 
      Esta opción le permite seleccionar un contenido ya creado, a través del campo **[!UICONTROL Content]**. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Explicit]**.
 
-     ![](assets/content_mgmt_explicit.png)
+     ![Sección de contenido con la opción Explícito seleccionada y un campo de contenido establecido en un contenido existente](assets/content_mgmt_explicit.png)
 
    * **[!UICONTROL Calculated by a script]**
 
      El identificador de contenido se calcula mediante una secuencia de comandos. El campo **[!UICONTROL Script]** permite definir una plantilla JavaScript que evalúe el identificador (clave principal) del contenido. Este campo solo está visible cuando se selecciona la opción **[!UICONTROL Calculated by a script]**.
 
-     ![](assets/content_mgmt_script.png)
+     ![Sección de contenido con Calculado por un script seleccionado y el campo Script mostrado](assets/content_mgmt_script.png)
 
    * **[!UICONTROL New, created from a publication template]**
 
      Crea un nuevo contenido a partir de una plantilla de publicación. Los datos se almacenan en el archivo indicado en el campo **[!UICONTROL String]**. El campo **[!UICONTROL Template]** especifica la plantilla de publicación que se utiliza para crear el contenido.
 
-     ![](assets/content_mgmt_new.png)
+     ![Sección de contenido con Nuevo, creada a partir de una plantilla de publicación seleccionada y los campos Plantilla y Canal](assets/content_mgmt_new.png)
 
 1. **Update content**
 
@@ -83,7 +83,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 
      Esta opción permite construir el contenido de un documento XML descargado mediante una hoja de estilos XSL. Cuando se selecciona esta opción, el campo **[!UICONTROL URL]** especifica la URL de descarga del contenido XML. La **[!UICONTROL XSL stylesheet]** permite especificar la hoja de estilos que se utilizará para transformar el documento XML descargado. Esta propiedad es opcional.
 
-     ![](assets/content_mgmt_xmlcontent.png)
+     ![Actualice la sección de contenido con acceso a los datos de una fuente XML marcada, que muestra los campos URL y hoja de estilos XSL](assets/content_mgmt_xmlcontent.png)
 
 1. **Acción que quiere ejecutar**
 
@@ -97,7 +97,7 @@ Las propiedades de la actividad se dividen en tres pasos:
 
      Esta opción guarda el contenido y genera los archivos de salida para cada plantilla de transformación con una publicación de tipo “Archivo”.
 
-     ![](assets/content_mgmt_generate.png)
+     ![Acción a realizar con la sección Generar seleccionada y el campo Carpeta de publicación mostrado](assets/content_mgmt_generate.png)
 
      La transición saliente se activa para cada archivo generado con el identificador del contenido guardado en la variable **[!UICONTROL contentId]** como parámetro y el nombre del archivo en la variable **[!UICONTROL filename]**.
 

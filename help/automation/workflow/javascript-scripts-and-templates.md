@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1251'
-ht-degree: 100%
+source-wordcount: '1377'
+ht-degree: 90%
 ---
 # Plantillas y secuencias de comandos de JavaScript{#javascript-scripts-and-templates}
 
@@ -39,7 +39,7 @@ Las secuencias de comandos son ubicuas en los diagramas de flujo de trabajo:
 * La actividad “Test” evalúa las expresiones JavaScript para activar la transición apropiada.
 * La mayoría de los campos de texto son plantillas JavaScript: Las expresiones de JavaScript se pueden incluir entre &lt;%= and %>. Estos campos presentan un botón que abre una lista desplegable para ayudarle a introducir expresiones.
 
-  ![](assets/script-button.png)
+  ![Botón con una flecha desplegable a la derecha de un campo de texto que enumera las propiedades disponibles para las expresiones.](assets/script-button.png)
 
 ## Objetos expuestos {#objects-exposed}
 
@@ -63,7 +63,7 @@ Las propiedades disponibles para estos objetos se pueden ver en una lista desple
 
 En este ejemplo, y en los ejemplos siguientes, cree un flujo de trabajo que incluya una actividad **JavaScript code** y una actividad **End** como se muestra en el diagrama siguiente.
 
-![](assets/script-1.png)
+![Flujo de trabajo con una actividad JavaScript code conectada mediante una transición Ok a una actividad End.](assets/script-1.png)
 
 Haga doble clic en la actividad **JavaScript code** e inserte las siguientes secuencias de comandos:
 
@@ -104,7 +104,7 @@ Las distintas actividades modifican o leen ciertas variables de evento. Todas so
 
 >[!NOTE]
 >
->Los casos de uso de flujo de trabajo adicional están disponibles en [esta sección](workflow-use-cases.md).
+>Hay casos de uso de flujo de trabajo adicionales disponibles en [Casos de uso de flujo de trabajo](workflow-use-cases.md).
 
 **Ejemplo 1**
 
@@ -116,7 +116,7 @@ En este ejemplo, se utiliza una variable de instancia para calcular dinámicamen
 
    Por ejemplo: `instance.vars.segmentpercent = 10;`
 
-   ![](assets/js_ex1.png)
+   ![Actividad de código JavaScript con el script instance.vars.segmentpercent = 10; introducido en el campo Script.](assets/js_ex1.png)
 
 1. Agregar una actividad de consulta y dirigir los destinatarios según sus necesidades.
 
@@ -124,7 +124,7 @@ En este ejemplo, se utiliza una variable de instancia para calcular dinámicamen
 
    Este porcentaje se actualiza dinámicamente gracias a la variable de instancia definida anteriormente.
 
-   ![](assets/js_ex2.png)
+   ![Dividir la pestaña Subconjuntos de actividad con Limitar los registros seleccionados habilitados y Muestreo aleatorio limitado al 50 %.](assets/js_ex2.png)
 
 1. En la sección Secuencia de comandos de inicialización de la ficha Avanzadas de la actividad Dividir, defina una condición JS. La condición JS selecciona el porcentaje de muestreo aleatorio de la primera transición que sale de la actividad Split y la actualiza a un valor establecido por la variable de instancia creada anteriormente.
 
@@ -132,13 +132,13 @@ En este ejemplo, se utiliza una variable de instancia para calcular dinámicamen
    activity.transitions.extractOutput[0].limiter.percent = instance.vars.segmentpercent;
    ```
 
-   ![](assets/js_ex3.png)
+   ![Dividir actividad en la pestaña Avanzadas con el script de inicialización limiter.percent a instance.vars.segmentpercent.](assets/js_ex3.png)
 
 1. Asegúrese de que el complemento se genera en una transición independiente de la actividad Dividir y agregue actividades de finalización después de cada una de las transiciones de salida.
 
 1. Guarde y ejecute el flujo de trabajo. El muestreo dinámico se aplica según la variable de instancia.
 
-   ![](assets/js_ex4.png)
+   ![Flujo de trabajo con código JavaScript, una consulta y una división, con transiciones First Set y Complement a dos actividades End.](assets/js_ex4.png)
 
 **Ejemplo 2**
 
@@ -180,7 +180,7 @@ Por ejemplo:
 
 1. Cree una variable de instancia que defina el nombre interno de un envío mediante el ****[!UICONTROL JavaScript code]**: instance.vars.deliveryIN = “DM42”**.
 
-   ![](assets/wkf_js_activity_1.png)
+   ![Actividad de código JavaScript con el script instance.vars.deliveryIN = &#39;DM42&#39; en el campo Script.](assets/wkf_js_activity_1.png)
 
 1. Cree una consulta cuyos objetivos y dimensiones de filtrado sean los destinatarios. En las condiciones, especifique que desea buscar todos los destinatarios a los que se envió la entrega especificado por la variable.
 
@@ -190,7 +190,7 @@ Por ejemplo:
 
    El flujo de trabajo devuelve los destinatarios de la entrega DM42.
 
-   ![](assets/wkf_var_in_query.png)
+   ![Filtro de consulta en los registros de envío de los destinatarios donde el nombre interno de envío es igual al valor de instance/vars/deliveryIN.](assets/wkf_var_in_query.png)
 
 ## Funciones avanzadas {#advanced-functions}
 

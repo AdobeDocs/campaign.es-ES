@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 94%
 ---
 # Bifurcación{#fork}
 
@@ -40,7 +40,7 @@ Para configurar la actividad **[!UICONTROL Fork]** y sus actividades relacionada
 
 1. Abra la actividad **[!UICONTROL Fork]** y defina el nombre y la etiqueta de las transiciones salientes.
 
-   ![](assets/s_user_segmentation_fork.png)
+   ![Actividad de bifurcación con cuatro transiciones y la ventana de transición utilizada para editar el nombre y la etiqueta de la transición 4.](assets/s_user_segmentation_fork.png)
 
 1. Abra cada transición saliente y configúrela.
 1. De forma opcional, para unirse a las transiciones salientes, añada una actividad AND-join. [Más información](and-join.md).

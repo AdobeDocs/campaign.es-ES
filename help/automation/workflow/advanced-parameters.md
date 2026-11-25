@@ -26,10 +26,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 ---
 # Parámetros avanzados{#advanced-parameters}
 
@@ -39,11 +39,11 @@ La pantalla de propiedades de una actividad tiene una pestaña **[!UICONTROL Adv
 
 * una versión simplificada (para las actividades **[!UICONTROL Start]** y **[!UICONTROL End]**, por ejemplo)
 
-  ![](assets/wf-advanced-basic.png)
+  ![Pestaña avanzada simplificada de una actividad de inicio con los campos Nombre, Imagen, Script de inicialización y Comentario.](assets/wf-advanced-basic.png)
 
 * una versión más detallada (para la actividad **[!UICONTROL Query]**, por ejemplo)
 
-  ![](assets/wf-advanced-full.png)
+  ![Pestaña Avanzadas detalladas de una actividad de consulta con los campos Ejecución, Afinidad, Comportamiento, Zona horaria y administración de errores.](assets/wf-advanced-full.png)
 
 Los campos que se introducen en la pestaña **[!UICONTROL Advanced]** se describen en las siguientes secciones.
 

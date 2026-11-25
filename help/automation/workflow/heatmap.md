@@ -28,10 +28,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 95%
+source-wordcount: '1305'
+ht-degree: 81%
 ---
 # Mapa de calor del flujo de trabajo {#workflow-heatmap}
 
@@ -64,7 +64,7 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
 
 1. Vaya a **[!UICONTROL Monitoring]** y haga clic en el vínculo **[!UICONTROL Workflow HeatMap]** para mostrar la página **[!UICONTROL Campaign Workflow HeatMap]**.
 
-   ![](assets/wkf_monitoring_path.png)
+   ![Pestaña Supervisión con el vínculo Mapa de calor del flujo de trabajo seleccionado, que abre la cuadrícula Mapa de calor del flujo de trabajo de campaña.](assets/wkf_monitoring_path.png)
 
 1. Haga clic en el calendario para seleccionar un día.
 
@@ -76,15 +76,15 @@ El uso del mapa de calor del flujo de trabajo requiere comprender bien los sigui
 
 1. Haga clic en el botón **[!UICONTROL Filters]**.
 
-   ![](assets/wkf_monitoring_filters.png)
+   ![Página de mapa de calor del flujo de trabajo de campaña con el botón Filtros resaltado junto a los datos de ayuda y carga.](assets/wkf_monitoring_filters.png)
 
 1. Utilice el control deslizante para establecer la duración mínima de 0 segundo a 1 hora. Esto le permite buscar únicamente flujos de trabajo que se ejecuten durante más de un determinado número de segundos o minutos.
 
-   ![](assets/wkf_monitoring_filters_duration.png)
+   ![Panel de filtros de mapa de calor con el control deslizante de duración mínima establecido en 30 minutos, encima de los campos Flujos de trabajo y Tipo de flujo de trabajo.](assets/wkf_monitoring_filters_duration.png)
 
 1. También puede elegir un flujo de trabajo específico en la lista desplegable **[!UICONTROL Workflows]**.
 
-   ![](assets/wkf_monitoring_filters_workflows.png)
+   ![Lista desplegable de flujos de trabajo en los filtros de mapa de calor que muestra todo, Limpieza de base de datos, Previsión y otros flujos de trabajo.](assets/wkf_monitoring_filters_workflows.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ El mapa de calor del flujo de trabajo de la campaña es una cuadrícula legible 
 
 Para conocer cómo se aplica el código de color y cómo navegar por el mapa de calor, haga clic en el botón de **[!UICONTROL Help]**.
 
-![](assets/wkf_monitoring_legend.png)
+![Panel de ayuda de mapa de calor que enumera los controles de teclado y la leyenda de color de verde para 1 flujo de trabajo a rojo para 50.](assets/wkf_monitoring_legend.png)
 
 Cada fila representa una hora del día y cada celda representa 5 minutos de esa hora.
 
@@ -116,11 +116,11 @@ La cuadrícula muestra todos los flujos de trabajo que se ejecutan al mismo tiem
 
 En el ejemplo siguiente, entre las 8:00 y las 8:05 a.m., se están ejecutando tres flujos de trabajo (independientemente de su duración individual):
 
-![](assets/wkf_monitoring_ex_8am.png)
+![Cuadrícula de mapa de calor con la fila 08 h, celda de columna 00 m resaltada, que muestra tres flujos de trabajo que se ejecutan entre las 8:00 y las 8:05 a.m.](assets/wkf_monitoring_ex_8am.png)
 
 1. Haga clic en una celda de color para mostrar los detalles de todos los flujos de trabajo simultáneos que se ejecutan durante este periodo.
 
-   ![](assets/wkf_monitoring_details.png)
+   ![Mapa de calor con la celda 08h seleccionada y una tabla que enumera los tres flujos de trabajo simultáneos con actividad y duración.](assets/wkf_monitoring_details.png)
 
    Para cada flujo de trabajo, se muestran todas las actividades que contiene, con su duración.
 
@@ -139,7 +139,7 @@ Como administrador de Campaign, el mapa de calor del flujo de trabajo puede ayud
 1. Establezca la duración en unos segundos o en unos minutos.
 1. Excluya los flujos de trabajo más cortos que no sean significativos aumentando el filtro de duración.
 
-   ![](assets/wkf_monitoring_short_duration.png)
+   ![Filtros de mapa de calor con el control deslizante de duración mínima establecido en 3 minutos (189 segundos) para excluir los flujos de trabajo más cortos.](assets/wkf_monitoring_short_duration.png)
 
 1. Explore los resultados para comprender la carga de la instancia y realizar las acciones correspondientes:
 
@@ -153,7 +153,7 @@ Como administrador de Campaign, el mapa de calor del flujo de trabajo le ayuda a
 1. En la vista **[!UICONTROL Campaign Workflow HeatMap]**, haga clic en el botón **[!UICONTROL Filters]**.
 1. Establezca la duración en 1 hora.
 
-   ![](assets/wkf_monitoring_long_duration.png)
+   ![Filtros de mapa de calor con el control deslizante de duración mínima establecido en el máximo de 1 hora (3600 segundos).](assets/wkf_monitoring_long_duration.png)
 
 1. Incluya más resultados disminuyendo el filtro de **[!UICONTROL Min duration]**.
 1. Explore los resultados para encontrar los flujos de trabajo más largos, que pueden tener un mayor impacto en los recursos del servidor y la base de datos (CPU, RAM, red, IOPS, etc.).
@@ -173,7 +173,7 @@ En este caso, muchos usuarios se quejan del rendimiento del flujo de trabajo. De
 1. Establezca el filtro **[!UICONTROL Workflow type]** en **[!UICONTROL Marketing]**.
 1. Desde la cuadrícula de mapa de calor, observe lo siguiente:
 
-   ![](assets/wkf_monitoring_without.png)
+   ![Cuadrícula de mapa de calor sin el filtro de duración, con un máximo de 50 flujos de trabajo en la fila 10 horas y pocas celdas después de las 14 horas.](assets/wkf_monitoring_without.png)
 
    * Cincuenta flujos de trabajo de campaña de larga duración (más de 5 minutos) se ejecutan a las 10 de la mañana.
    * La mayoría de ellos tienen un estado pendiente (de forma predeterminada, el límite de concurrencia está establecido en 20).
@@ -184,7 +184,7 @@ En este caso, muchos usuarios se quejan del rendimiento del flujo de trabajo. De
 1. Vuelva a la página **[!UICONTROL Campaign Workflow HeatMap]** y haga clic en el botón **[!UICONTROL Reload data]**.
 1. Ahora observe lo siguiente:
 
-   ![](assets/wkf_monitoring_with.png)
+   ![Cuadrícula de mapa de calor con el filtro de duración aplicado, que muestra una distribución diferente con el pico reducido a 18 flujos de trabajo.](assets/wkf_monitoring_with.png)
 
    * Solo dieciocho flujos de trabajo de campaña de larga duración siguen funcionando a las 10:00 a.m.
    * No hay más flujos de trabajo en estado pendiente (el límite de concurrencia sigue establecido en 20).

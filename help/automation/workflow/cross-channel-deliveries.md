@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 74%
+source-wordcount: '337'
+ht-degree: 56%
 ---
 # Entregas multicanal{#cross-channel-deliveries}
 
@@ -46,26 +46,26 @@ En el siguiente ejemplo, aprenda a crear un flujo de trabajo para enviar un corr
    >
    >Para las notificaciones push, recuerde utilizar la dimensión objetivo **aplicaciones del suscriptor**.
 
-   ![](assets/cross_channel_delivery_1.png)
+   ![Actividad de consulta con el esquema de aplicaciones del suscriptor seleccionado como documento por el que filtrar.](assets/cross_channel_delivery_1.png)
 
 1. Agregue las condiciones de filtro a la consulta. En este caso, se seleccionarán los destinatarios que tengan un número de teléfono móvil o una dirección de correo electrónico.
 
-   ![](assets/cross_channel_delivery_2.png)
+   ![El filtro de consulta con Mobile no está vacío y una condición O para Email no está vacía.](assets/cross_channel_delivery_2.png)
 
 1. Añada una actividad **[!UICONTROL Split]** al flujo de trabajo para dividir los destinatarios que tienen número de móvil y aquellos que tienen dirección de correo electrónico.
 1. En la pestaña **[!UICONTROL Delivery]**, seleccione una entrega para cada uno de sus destinatarios.
 
    Cree su envío de la misma manera que con el asistente de envíos clásico haciendo doble clic en la actividad de envío del flujo de trabajo.
 
-   ![](assets/cross_channel_delivery_3.png)
+   ![Flujo de trabajo de campaña con una consulta y una división que llevan a una entrega móvil y una entrega por correo electrónico.](assets/cross_channel_delivery_3.png)
 
 1. Añada y configure una actividad **[!UICONTROL Wait]** para que los destinatarios no reciban demasiados envíos a la vez.
 1. Añada una actividad **[!UICONTROL Split]** para dividir los suscriptores de aplicaciones móviles iOS o Android.
 
    Seleccione un servicio para cada uno de los sistemas operativos.
 
-   ![](assets/cross_channel_delivery_4.png)
+   ![Cuadro de diálogo de consulta con aplicaciones de suscriptor como dimensión de segmentación y suscriptores de una aplicación móvil de Android seleccionados.](assets/cross_channel_delivery_4.png)
 
 1. Seleccione y configure una entrega de aplicaciones para dispositivos móviles para cada uno de los sistemas operativos.
 
-   ![](assets/cross_channel_delivery_5.png)
+   ![Flujo de trabajo con envíos de correo electrónico y SMS que se unen a una actividad de espera y, a continuación, envíos de Split a Push iOS y Push Android.](assets/cross_channel_delivery_5.png)

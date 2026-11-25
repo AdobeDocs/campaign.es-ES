@@ -23,10 +23,10 @@ role_v2:
     internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 82%
+source-wordcount: '1391'
+ht-degree: 80%
 ---
 # Prácticas recomendadas con flujos de trabajo{#workflow-best-practices}
 
@@ -76,7 +76,7 @@ Antes de empezar a crear un flujo de trabajo, recuerde establecer los supervisor
 
 Compruebe con regularidad la pestaña **[!UICONTROL Monitoring]** para ver el estado general de los flujos de trabajo activos. Para obtener más información, consulte [Supervisión de instancias](monitor-workflow-execution.md#instance-supervision).
 
-El HeatMap de flujo de trabajo permite a los administradores de la plataforma de Adobe Campaign monitorizar la carga en la instancia y planificar los flujos de trabajo en consecuencia. Para obtener más información, consulte [Monitoreo de flujos de trabajo](heatmap.md).
+Workflow HeatMap permite a los administradores de la plataforma de Adobe Campaign monitorizar la carga en la instancia y planificar los flujos de trabajo en consecuencia. Para obtener más información, consulte [Monitoreo de flujos de trabajo](heatmap.md).
 
 ## Actividades {#using-activities}
 
@@ -95,7 +95,7 @@ El nombre de la actividad se puede encontrar en la pestaña **[!UICONTROL Advanc
 * Inicie siempre el flujo de trabajo con una actividad **[!UICONTROL Start]** o una actividad **[!UICONTROL Scheduler]**. Si es relevante, también puede utilizar una actividad **[!UICONTROL External signal]**.
 * Al crear el flujo de trabajo, utilice solamente una actividad **[!UICONTROL Scheduler]** por rama. Si la misma rama de un flujo de trabajo tiene varios planificadores (vinculados entre sí), el número de tareas que se van a ejecutar se multiplica exponencialmente, lo cual sobrecarga considerablemente la base de datos. Esta regla también se aplica para todas las actividades con una pestaña de **[!UICONTROL Scheduling & History]**. Más información sobre [Programación](scheduler.md).
 
-  ![](assets/wf-scheduler.png)
+  ![Diseño correcto con un Planificador por rama, frente a dos Planificadores en una rama marcados como no permitidos.](assets/wf-scheduler.png)
 
 * Utilice las actividades **[!UICONTROL End]** para cada flujo de trabajo. Esto permite a Adobe Campaign liberar espacio temporal utilizado para los cálculos dentro de los flujos de trabajo. Para obtener más información, consulte [Inicio y finalización](start-and-end.md).
 
@@ -158,4 +158,4 @@ Se deben aplicar prácticas recomendadas adicionales en la planificación de la 
 
 En un entorno de producción, evite ejecutar flujos de trabajo en el motor. Cuando se marca la opción **[!UICONTROL Execute in the engine]** en **[!UICONTROL Workflow properties]**, el flujo de trabajo tiene prioridad y el motor de flujo de trabajo detiene todo el resto de flujos de trabajo hasta que este haya terminado.
 
-![](assets/wf-execute-in-engine.png)
+![Propiedades del flujo de trabajo Ficha de ejecución con Ejecutar en el motor (no usar en la producción) marcado.](assets/wf-execute-in-engine.png)

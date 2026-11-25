@@ -23,10 +23,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 211c0ee8403987c0f93ca7e0e0a62c51e11d9664
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 67%
+source-wordcount: '589'
+ht-degree: 47%
 ---
 # Dimensión cambiante{#change-dimension}
 
@@ -42,11 +42,11 @@ Para configurar la actividad **[!UICONTROL Change dimension]**, siga los siguien
 
 1. Seleccione la nueva dimensión de segmentación mediante el campo **[!UICONTROL Change dimension]**.
 
-   ![](assets/s_user_change_dimension_param1.png)
+   ![Cambie el campo de dimensión de la actividad con el selector de campo abierto y las suscripciones seleccionadas como la nueva dimensión](assets/s_user_change_dimension_param1.png)
 
 1. Durante el cambio de dimensión, se pueden mantener todos los elementos o seleccionar los que desea conservar en la salida. En el ejemplo siguiente, el número máximo de duplicados se establece en 2.
 
-   ![](assets/s_user_change_dimension_limit.png)
+   ![Opción Limita el número de elementos en el nuevo documento de segmentación seleccionado con el campo Límite establecido en 2](assets/s_user_change_dimension_limit.png)
 
    Cuando decide mantener un solo registro, se muestra una colección en el esquema de trabajo: Esta colección representa todos los registros que no van a ser objetivo en el resultado final (ya que solo se guarda un registro). Al igual que todas las demás colecciones, este permite calcular las agregaciones o recuperar información en columnas.
 
@@ -54,7 +54,7 @@ Para configurar la actividad **[!UICONTROL Change dimension]**, siga los siguien
 
 1. Si elige no conservar toda esta información, puede configurar el modo de gestión del duplicado.
 
-   ![](assets/s_user_change_dimension_param2.png)
+   ![Cuadro de diálogo de deduplicación que enumera los campos de correo electrónico y número de cuenta con las flechas que establecen su prioridad](assets/s_user_change_dimension_param2.png)
 
    Las flechas azules permiten definir la prioridad de procesamiento duplicada.
 
@@ -66,7 +66,7 @@ Para configurar la actividad **[!UICONTROL Change dimension]**, siga los siguien
 
    * Haga clic en el vínculo **[!UICONTROL Add data...]** y seleccione **[!UICONTROL Data linked to the filtering dimension]**.
 
-     ![](assets/wf_change-dimension_sample_01.png)
+     ![Pestaña Resultado Agregar vínculo de datos al abrir el Asistente para datos adicionales con datos vinculados a la dimensión de filtrado seleccionada](assets/wf_change-dimension_sample_01.png)
 
      >[!NOTE]
      >
@@ -74,22 +74,22 @@ Para configurar la actividad **[!UICONTROL Change dimension]**, siga los siguien
 
    * Seleccione la dimensión de segmentación anterior (antes del cambio de eje) y, en el subárbol **[!UICONTROL Zip Code]** del destinatario, seleccione **[!UICONTROL Location]** y haga clic en **[!UICONTROL Edit expression]**.
 
-     ![](assets/wf_change-dimension_sample_02.png)
+     ![Asistente para datos adicionales con código postal desde el subárbol de ubicación agregado como columna de salida y Editar expresión](assets/wf_change-dimension_sample_02.png)
 
    * Haga clic en **[!UICONTROL Advanced selection]** y elija **[!UICONTROL Edit the formula using an expression]**.
 
-     ![](assets/wf_change-dimension_sample_03.png)
+     ![Botón de selección avanzada que abre el tipo de fórmula con Editar la fórmula usando una expresión seleccionada](assets/wf_change-dimension_sample_03.png)
 
    * Utilice las funciones ofrecidas en la lista y especifique el cálculo que se va a realizar.
 
-     ![](assets/wf_change-dimension_sample_04.png)
+     ![Editor de expresiones con la fórmula Subcadena del código postal del carácter 1 con la longitud 2 y la lista de funciones](assets/wf_change-dimension_sample_04.png)
 
    * Finalmente, introduzca la etiqueta de la columna que acaba de crear.
 
-     ![](assets/wf_change-dimension_sample_05.png)
+     ![Columnas de salida con la etiqueta County y la expresión Substring(zip/Postcode, 1, 2)](assets/wf_change-dimension_sample_05.png)
 
 1. Ejecute el flujo de trabajo para ver el resultado de esta configuración. Compare los datos de las tablas antes y después de la actividad de dimensión cambiante y compare la estructura de las tablas de flujo de trabajo, como se muestra en los ejemplos siguientes:
 
-   ![](assets/wf_change-dimension_sample_06.png)
+   ![Mostrar la opción de destino en la transición antes de cambiar dimensión, con sus datos y esquema en Ver población](assets/wf_change-dimension_sample_06.png)
 
-   ![](assets/wf_change-dimension_sample_07.png)
+   ![Mostrar la opción de destino después de la dimensión Cambiar, mostrando los datos con la columna Condado y el nuevo esquema](assets/wf_change-dimension_sample_07.png)

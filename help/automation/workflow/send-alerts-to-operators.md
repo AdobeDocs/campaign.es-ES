@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 100%
+source-wordcount: '467'
+ht-degree: 74%
 ---
 # Envío de alertas personalizadas a operadores{#sending-personalized-alerts-to-operators}
 
@@ -37,7 +37,7 @@ El proceso consiste en crear un flujo de trabajo como se muestra a continuación
 1. Utilice una actividad **[!UICONTROL Test]** para comprobar el recuento de población.
 1. Utilice una actividad **[!UICONTROL Alert]** para enviar una alerta a un operador, según el resultado de la actividad **[!UICONTROL Test]**.
 
-![](assets/uc_operator_1.png)
+![Flujo de trabajo con una actividad query, JavaScript code y Test; la rama True lleva a una actividad Alert, False al End 2.](assets/uc_operator_1.png)
 
 ## Guardado de la población en la variable de instancia {#saving-the-population-to-the-instance-variable}
 
@@ -60,21 +60,21 @@ Asegúrese de que el código Javascript corresponde con la información de su fl
 * La etiqueta **[!UICONTROL queryDef schema]** debe corresponder al nombre de la dimensión de segmentación utilizado en la actividad de consulta.
 * La etiqueta **[!UICONTROL node expr]** debe corresponder al nombre de los campos que se desea recuperar.
 
-![](assets/uc_operator_3.png)
+![Script de código JavaScript con el esquema queryDef temp:query y los nodos firstName y lastName de destino resaltados.](assets/uc_operator_3.png)
 
 Para recuperar dicha información, siga los pasos siguientes:
 
 1. Haga clic con el botón derecho en la transición saliente desde la actividad **[!UICONTROL Query]** y seleccione **[!UICONTROL Display the target]**.
 
-   ![](assets/uc_operator_4.png)
+   ![Haga clic con el botón secundario en el menú de la transición saliente de la actividad Consulta con Mostrar el destino seleccionado.](assets/uc_operator_4.png)
 
 1. Haga clic con el botón derecho en la lista y, luego, seleccione **[!UICONTROL Configure list]**.
 
-   ![](assets/uc_operator_5.png)
+   ![Registros de la lista de destinos con el menú contextual abierto y la lista Configurar seleccionada.](assets/uc_operator_5.png)
 
 1. Los nombres de las dimensiones y los campos de segmentación de consulta se muestran en la lista.
 
-   ![](assets/uc_operator_6.png)
+   ![Configure la pestaña Columnas de lista que muestra el elemento raíz query temp:query resaltado y sus campos de dimensión de segmentación.](assets/uc_operator_6.png)
 
 ## Prueba del recuento de población {#testing-the-population-count}
 
@@ -84,7 +84,7 @@ Añada el código siguiente a la actividad **[!UICONTROL Test]** para comprobar 
 var.recCount>0
 ```
 
-![](assets/uc_operator_7.png)
+![Prueba la actividad con una bifurcación condicional True usando la condición vars.recCount>0 y una bifurcación False predeterminada.](assets/uc_operator_7.png)
 
 ## Configuración de la alerta {#setting-up-the-alert}
 
@@ -108,4 +108,4 @@ for each (var item in items){
 >El comando **[!UICONTROL <%= item.target.recipient.@fieldName %>]** permite agregar uno de los campos que se han guardado en la variable de instancia a través de la actividad **[!UICONTROL JavaScript code]**.\
 >Puede agregar tantos campos como desee, siempre que se hayan insertado en el código JavaScript.
 
-![](assets/uc_operator_8.png)
+![Actividad de alerta asignada a un operador, con un mensaje que recorre en bucle los elementos guardados para mostrar el nombre y los apellidos.](assets/uc_operator_8.png)

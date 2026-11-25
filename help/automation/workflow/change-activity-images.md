@@ -28,10 +28,10 @@ topic_v2:
     internal-label: Implementation
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 100%
+source-wordcount: '213'
+ht-degree: 74%
 ---
 # Cambio de imágenes de actividad{#change-activity-images}
 
@@ -41,7 +41,7 @@ Las imágenes utilizadas en los diagramas de los distintos flujos de trabajo pue
 
 * Para cambiar la imagen de fondo, seleccione el flujo de trabajo de objetivos deseado y haga clic en la pestaña **[!UICONTROL Properties]**.
 
-  ![](assets/s_user_segmentation_properties_tab.png)
+  ![Propiedades del flujo de trabajo, ficha Avanzadas: campo de imagen de fondo con el icono Seleccionar vínculo resaltado.](assets/s_user_segmentation_properties_tab.png)
 
   Para seleccionar la imagen que desea utilizar, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Background image]**.
 
@@ -49,7 +49,7 @@ Las imágenes utilizadas en los diagramas de los distintos flujos de trabajo pue
   >
   >La anchura en píxeles de la imagen de fondo debe ser múltiplo de 4.
 
-  ![](assets/s_user_segmentation_background_select.png)
+  ![Ventana de selección de imágenes con imágenes de fondo como backgrounds/grid.png, con Ok para confirmar.](assets/s_user_segmentation_background_select.png)
 
   El icono **[!UICONTROL Edit link]** permite ver la imagen seleccionada.
 
@@ -57,11 +57,11 @@ Las imágenes utilizadas en los diagramas de los distintos flujos de trabajo pue
 
   Para seleccionar la imagen que desea utilizar, haga clic en el icono **[!UICONTROL Select link]** a la derecha del campo **[!UICONTROL Image]**.
 
-  ![](assets/s_user_segmentation_activity_image.png)
+  ![Ficha avanzada de una actividad con el campo Imagen resaltado, establecido en activities/dedup.png.](assets/s_user_segmentation_activity_image.png)
 
   El icono **[!UICONTROL Edit link]** permite ver la imagen seleccionada.
 
-  ![](assets/s_user_segmentation_activity_image_select.png)
+  ![Vista previa de la imagen seleccionada nms:activities/dedup.png, mostrada con el icono Editar vínculo.](assets/s_user_segmentation_activity_image_select.png)
 
 >[!NOTE]
 >

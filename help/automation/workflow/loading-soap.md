@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 81%
 ---
 # Carga (SOAP){#loading-soap}
 
@@ -42,17 +42,17 @@ La operación es la siguiente:
 
    El siguiente ejemplo proviene de un flujo de trabajo técnico del módulo Centro de mensajes.
 
-   ![](assets/load_soap_002.png)
+   ![Actividad de carga (SOAP) con Use un XML de ejemplo seleccionado, un ejemplo de resultado y el script de inicialización.](assets/load_soap_002.png)
 
 1. Para un ejemplo XML, seleccione un archivo de muestra. El archivo se analiza para establecer un ejemplo del resultado.
 
    Para un WSDL, introduzca la URL de acceso coincidente y, a continuación, genere el código esquemático. El servicio y la llamada seleccionados se actualizan y se muestran automáticamente.
 
-   ![](assets/soap_load_003.png)
+   ![Formato de resultado con Utilizar un WSDL seleccionado, un campo URL de acceso y el vínculo Generar el código esquemático.](assets/soap_load_003.png)
 
 1. Seleccione **[!UICONTROL Click here to view and edit analysis results]** para especificar cada columna identificada.
 
-   ![](assets/soap_load_001.png)
+   ![Ventana de formato de archivo que enumera columnas identificadas, con la etiqueta, el tipo de datos y el nombre interno de la columna seleccionada.](assets/soap_load_001.png)
 
    Si desea actualizar el ejemplo, seleccione **[!UICONTROL Re-analyze the example]**.
 

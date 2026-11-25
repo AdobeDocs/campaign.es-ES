@@ -25,10 +25,10 @@ role_v2:
     internal-label: User
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
     internal-label: Developer
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 78%
 ---
 # Lista de lectura{#read-list}
 
@@ -38,15 +38,15 @@ La actividad **[!UICONTROL Read list]** permite copiar los datos de una lista en
 
 La lista que se procese puede especificarse explícitamente, computarse mediante un lista de comandos o localizarse dinámicamente, de acuerdo con las opciones seleccionadas y los parámetros definidos en una actividad **[!UICONTROL Read list]**.
 
-![](assets/list_edit_select_option_01.png)
+![Actividad de lista de lectura con Specified seleccionada explícitamente, una lista elegida y el vínculo Edit query bajo Source filtering](assets/list_edit_select_option_01.png)
 
 Si la lista no se especifica explícitamente, debe proporcionar una lista que se utilizará como plantilla para averiguar su estructura.
 
-![](assets/s_advuser_list_template_select.png)
+![Actividad de lista de lectura con Name calculado por un script seleccionado y la lista desplegable abierta](assets/s_advuser_list_template_select.png)
 
 Una vez que se ha configurado la selección de la lista, puede añadir un filtro utilizando la opción **[!UICONTROL Edit query]** para mantener una parte de la población para el siguiente flujo de trabajo.
 
-![](assets/wf_readlist_1.png)
+![La actividad Leer lista con un filtro Editar consulta en Precio no está vacía aplicada a la lista seleccionada](assets/wf_readlist_1.png)
 
 >[!CAUTION]
 >
@@ -58,21 +58,21 @@ Las listas se pueden crear directamente en Adobe Campaign mediante el vínculo *
 
 El ejemplo siguiente permite utilizar una lista de direcciones de correo electrónico para excluir del destino de envío de correo electrónico.
 
-![](assets/s_advuser_list_read_sample_1.png)
+![Flujo de trabajo con una lista de lectura y una consulta de archivo de nuevos contactos unidos en una exclusión, después una entrega y una espera de 3 días](assets/s_advuser_list_read_sample_1.png)
 
 Los perfiles contenidos en la carpeta **New contacts** deben ser dirigidos a una acción de envío. Las direcciones de correo electrónico que se excluirán del destino se almacenan en una lista externa. En nuestro ejemplo, solo se necesita la información sobre las direcciones de correo electrónico para la exclusión.
 
 1. La consulta de selección de la carpeta **New Contact** s debe permitirle cargar las direcciones de correo electrónico de los perfiles seleccionados, con el fin de permitir la alineación con la información de la lista.
 
-   ![](assets/s_advuser_list_read_sample_0.png)
+   ![Nuevos contactos consultan la actividad con el campo de correo electrónico agregado en Información complementaria](assets/s_advuser_list_read_sample_0.png)
 
 1. En este caso, la lista se almacena en la carpeta **Lists** y se calcula su etiqueta.
 
-   ![](assets/s_advuser_list_read_sample_2.png)
+   ![Actividad de lista de lectura con la carpeta Lists y una etiqueta calculada para el archivo blacklist](assets/s_advuser_list_read_sample_2.png)
 
 1. Para excluir las direcciones de correo electrónico de la lista externa desde el destino principal, debe configurar la actividad de exclusión y especificar que la carpeta **New Contacts** contenga los datos que se van a mantener. Los datos conjuntos entre este conjunto y cualquier otro conjunto entrante de la actividad de exclusión se eliminarán del objetivo.
 
-   ![](assets/s_advuser_list_read_sample_3.png)
+   ![Actividad de exclusión con el archivo de nuevos contactos establecido como conjunto principal y la tabla de reglas de exclusión](assets/s_advuser_list_read_sample_3.png)
 
    Las reglas de exclusión se configuran en la sección central de la herramienta de edición. Haga clic en el botón **[!UICONTROL Add]** para definir el tipo de exclusión que se aplicará.
 
@@ -82,6 +82,6 @@ Los perfiles contenidos en la carpeta **New contacts** deben ser dirigidos a una
 
    En nuestro ejemplo, tenemos una exclusión en las combinaciones: los datos contenidos en la lista se reconciliarán con los datos del conjunto principal a través del campo que contiene la dirección de correo electrónico. Para configurar la unión, seleccione **[!UICONTROL Joins]** en el campo **[!UICONTROL Change dimension]**.
 
-   ![](assets/s_advuser_list_read_sample_4.png)
+   ![Definición de excepción con la lista de lectura como conjunto de exclusión y la opción Joins en la dimensión Change](assets/s_advuser_list_read_sample_4.png)
 
 1. A continuación, seleccione el campo correspondiente a la dirección de correo electrónico en los dos conjuntos (origen y destino). Las columnas se enlazan y los destinatarios cuya dirección de correo electrónico se encuentre en la lista de direcciones importadas se excluirán del objetivo.

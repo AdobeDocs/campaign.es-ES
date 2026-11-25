@@ -30,24 +30,24 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 28%
+source-wordcount: '166'
+ht-degree: 19%
 ---
 # Celdas{#cells}
 
 La actividad **[!UICONTROL Cells]** proporciona una vista de los distintos subconjuntos como columnas de datos. Facilita la manipulación de subconjuntos y está diseñado para aprovechar las capacidades de personalización.
 
-![](assets/wf_split_cells.png)
+![La pestaña Celdas de la actividad Celdas enumera el subconjunto 1 a 3 con columnas de filtro, limitación, exclusión y código de segmento.](assets/wf_split_cells.png)
 
 Esta actividad se puede configurar para que introduzca parámetros específicos basados en las necesidades del usuario. De forma predeterminada, el detalle de cada subconjunto se detalla en una ventana dedicada a través de las pestañas **[!UICONTROL Cells]** y **[!UICONTROL Advanced]**.
 
-![](assets/wf_split_cells_with_customization.png)
+![Ficha Celdas con el botón Detalle resaltado para abrir los detalles del subconjunto seleccionado.](assets/wf_split_cells_with_customization.png)
 
 En el ejemplo que se muestra a continuación, se ha modificado el formulario de entrada: se ha agregado una pestaña **[!UICONTROL Data]** para habilitar la asociación de una oferta y un nivel de prioridad para cada subconjunto.
 
-![](assets/cells-activity-sample.png)
+![Detalles del subconjunto con una ficha de datos personalizada que contiene los campos Código de segmento, Prioridad, Identificador de celda y Ofertas.](assets/cells-activity-sample.png)
 
 Para esta configuración, se agregó la siguiente información al formulario de flujo de trabajo, en el nodo **[!UICONTROL Administration > Configurations > Input forms]** del explorador de Adobe Campaign:
 

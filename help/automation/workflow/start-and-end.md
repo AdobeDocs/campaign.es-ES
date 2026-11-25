@@ -17,10 +17,10 @@ feature_v2:
 subfeature_v2:
   - id: fcb46c0f-76e1-48bc-9dd0-fcf9d97526cf
     internal-label: Workflows
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 100%
+source-wordcount: '175'
+ht-degree: 77%
 ---
 # Inicio y final{#start-and-end}
 
@@ -32,14 +32,14 @@ Las actividades **[!UICONTROL Start]** y **[!UICONTROL End]** permiten marcar de
 
   La ejecución de un flujo de trabajo comienza con actividades sin una transición entrante y actividades del tipo inicial.
 
-  ![](assets/s_user_segmentation_start_stop.png)
+  ![Flujo de trabajo con una actividad Start, Delivery, Approval, Delivery control y dos actividades End, una por resultado de aprobación.](assets/s_user_segmentation_start_stop.png)
 
 * **[!UICONTROL End]**
 
   Puede configurar la actividad **[!UICONTROL End]** para interrumpir todas las tareas que estén en curso. Para ello, haga doble clic en la actividad para mostrar sus propiedades y marque la opción apropiada.
 
-  ![](assets/s_user_segmentation_end.png)
+  ![Finalizar propiedades de actividad con la opción Detener todas las tareas en curso seleccionada.](assets/s_user_segmentation_end.png)
 
   Los datos de la tabla de trabajo se eliminan automáticamente cuando se habilita la actividad final. Si no es necesario y para evitar cargas innecesarias, puede optar por deshabilitar la transición en la última salida de actividad. Por ejemplo, en una salida de envío, si no hay ningún proceso programado, anule la selección de la opción correspondiente como se muestra a continuación:
 
-  ![](assets/s_advuser_delivery_option_no_output.png)
+  ![Propiedades de la actividad de envío con la opción Generate an outbound transition desactivada.](assets/s_advuser_delivery_option_no_output.png)

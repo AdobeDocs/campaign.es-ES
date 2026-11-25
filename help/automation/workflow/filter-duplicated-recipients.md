@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 100%
+source-wordcount: '206'
+ht-degree: 71%
 ---
 # Filtro de destinatarios duplicados {#filtering-duplicated-recipients}
 
@@ -37,19 +37,19 @@ Para crear este ejemplo, aplique los pasos siguientes:
 1. Arrastre y suelte una actividad **[!UICONTROL Query]** en un flujo de trabajo y ábrala.
 1. Haga clic en **[!UICONTROL Edit query]** y configure las dimensiones de objetivo y filtrado en **[!UICONTROL Recipients]**.
 
-   ![](assets/query_recipients_1.png)
+   ![Paso de dimensión de segmentación y filtrado de la actividad de consulta con los destinatarios seleccionados, condiciones de filtrado resaltadas.](assets/query_recipients_1.png)
 
 1. Defina la siguiente condición de filtro para segmentar al destinatario que existe en el registro de envíos. Elija **Registro de destinatarios de envío (broadlog)** en la columna **Expresión**, elija **existe como** en la columna **Operador**.
 
-   ![](assets/query_recipients_2.png)
+   ![El paso del filtro con la condición Registros de envío del destinatario (broadLog) y el operador existe como.](assets/query_recipients_2.png)
 
 1. Defina la siguiente condición de filtro para dirigir su envío. En la columna Expresión, elija **[!UICONTROL Internal name]** y luego, en la columna Operador, **[!UICONTROL equal to]** .
 1. En la columna de valor, agregue el nombre interno de la entrega segmentado.
 
-   ![](assets/query_recipients_3.png)
+   ![Condición de filtro en el nombre interno de la entrega, igual al valor Summer_delivery_sales, en existe como.](assets/query_recipients_3.png)
 
 1. Con un operador **[!UICONTROL AND]**, repita las mismas operaciones para segmentar otros envíos.
 
-   ![](assets/query_recipients_4.png)
+   ![Existen dos como condiciones unidas por Y, dirigidas a Summer_delivery_sales y Summer_delivery_new_collection.](assets/query_recipients_4.png)
 
 La transición saliente contiene los destinatarios duplicados dirigidos en las entregas.

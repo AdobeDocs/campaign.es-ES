@@ -33,10 +33,10 @@ topic_v2:
     internal-label: Measurement
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c8cb0f8a3f752a46fae533c8fd0608aa4545d37c
+source-git-commit: 8839c1717cb026a38987a745ffc080a79f344bce
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 100%
+source-wordcount: '820'
+ht-degree: 91%
 ---
 # Configuración del Gestor de respuestas de Campaign{#configuration}
 
@@ -78,7 +78,7 @@ Recomendamos añadir una fecha de evento.
 
 El esquema siguiente muestra las uniones entre las distintas tablas una vez completada la configuración:
 
-![](assets/response_data_model.png)
+![Modelo de datos de las tablas de respuesta: entregas, registros de entregas, hipótesis de medición y destinatarios vinculados a reacciones](assets/response_data_model.png)
 
 ### Gestor de respuestas y destinatarios {#response-management-with-adobe-campaign-recipients}
 
@@ -89,17 +89,17 @@ La tabla de registros de respuesta de un destinatario **[!UICONTROL nms:remaMatc
 1. Mediante Adobe Campaign Explorer, seleccione **[!UICONTROL Administration]** > **[!UICONTROL Campaign management]** > **[!UICONTROL Target mappings]**.
 1. Haga clic con el botón secundario en **Destinatario** y luego seleccione **[!UICONTROL Actions]** y **[!UICONTROL Modify the options of the targeting dimensions]**.
 
-   ![](assets/delivery_mapping1.png)
+   ![Lista de asignaciones de destino con el menú Acciones abierto y Modificar las opciones de la dimensión de segmentación seleccionada](assets/delivery_mapping1.png)
 
 1. Puede personalizar **[!UICONTROL Extension namespace]** en la siguiente ventana y, a continuación, haga clic en **[!UICONTROL Next]**.
 
-   ![](assets/delivery_mapping2.png)
+   ![Paso de almacenamiento de las opciones de dimensión de segmentación con el espacio de nombres de extensión y el sufijo de los campos de esquemas de extensión](assets/delivery_mapping2.png)
 
 1. En la categoría **[!UICONTROL Response management]**, asegúrese de que la casilla **[!UICONTROL Generate a storage schema for reactions]** está seleccionada.
 
    A continuación, haga clic en **[!UICONTROL Define additional fields...]** para seleccionar las tablas de transacción relacionadas y añada los campos deseados a la extensión del esquema nms:remaMatchRcp.
 
-   ![](assets/delivery_mapping3.png)
+   ![Paso Extensiones con Generar un esquema de almacenamiento para las reacciones comprobadas y la extensión del cuadro de diálogo de esquema de reacciones](assets/delivery_mapping3.png)
 
 El esquema creado tiene este aspecto:
 

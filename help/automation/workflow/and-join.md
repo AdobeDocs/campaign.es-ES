@@ -21,10 +21,10 @@ subfeature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 96%
+source-wordcount: '212'
+ht-degree: 83%
 ---
 # AND-join{#and-join}
 
@@ -34,7 +34,7 @@ Una unión activa su transición saliente solo cuando se activan todas las trans
 
 Por ejemplo, puede utilizar una actividad AND-join en el contexto de la creación de contenido y la automatización de entrega de envíos para asegurarse de que un envío se inicie solo cuando se hayan completado los pasos de consultas de destinatario y actualizaciones de contenido. Hay un caso de uso específico en
 
-![](assets/and-join-usage.png)
+![Flujo de trabajo en el que una ramificación ejecuta una consulta y administración de contenido en paralelo en una unión AND antes de la entrega.](assets/and-join-usage.png)
 
 >[!NOTE]
 >
@@ -46,4 +46,4 @@ La transición saliente solo puede contener una de las poblaciones de transició
 
 >[!CAUTION]
 >
->En el caso de las actividades de tipo **AND-join**, las variables de eventos se combinan, pero si se define el mismo evento variable dos veces, se genera un conflicto y el valor se mantiene indeterminado. Para obtener más información, consulte [esta sección](javascript-scripts-and-templates.md#event-variables).
+>En el caso de las actividades de tipo **AND-join**, las variables de eventos se combinan, pero si se define el mismo evento variable dos veces, se genera un conflicto y el valor se mantiene indeterminado. Para obtener más información, consulte [Variables de eventos](javascript-scripts-and-templates.md#event-variables).

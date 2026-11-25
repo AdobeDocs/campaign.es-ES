@@ -24,10 +24,10 @@ role_v2:
 topic_v2:
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: e13b3537d149f2bdad7e9dd66768837e5c4b595b
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 93%
 ---
 # Recolector de ficheros{#file-collector}
 
@@ -43,7 +43,7 @@ Los archivos deben estar en el servidor en el que se ejecuta el módulo wfserver
 
 La primera pestaña de la actividad **[!UICONTROL File collector]** permite seleccionar el directorio de origen y, si es necesario, filtrar los archivos recopilados. Las otras pestañas se detallan en [Inbound Emails](inbound-emails.md) (pestañas **[!UICONTROL Schedule]** y **[!UICONTROL Expiry]**).
 
-![](assets/file_collect_edit.png)
+![Ficha Directorio de recolección de archivos con las opciones Directorio, Filtrar y Detener tan pronto como se haya procesado un archivo](assets/file_collect_edit.png)
 
 1. **Downloading files**
 
@@ -89,7 +89,7 @@ La primera pestaña de la actividad **[!UICONTROL File collector]** permite sele
 
 El orden de procesamiento del archivo no se puede determinar. Para procesar un conjunto de archivos secuencialmente, utilice la opción **[!UICONTROL Stop as soon as a file has been processed]** y cree un bucle. En este caso, los archivos se procesan en orden alfabético. La opción **[!UICONTROL Process file nonexistence]** permite finalizar la iteración.
 
-![](assets/file_collect_loop.png)
+![Bucle de flujo de trabajo desde Importar de nuevo al recolector de archivos, con una actividad de Alerta en la transición Sin archivo](assets/file_collect_loop.png)
 
 ## Parámetros de salida {#output-parameters}
 
