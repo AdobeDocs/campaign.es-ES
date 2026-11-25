@@ -31,20 +31,20 @@ topic_v2:
     internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '1782'
-ht-degree: 63%
+source-wordcount: '1984'
+ht-degree: 56%
 ---
 # Informes globales {#global-reports}
 
 Estos informes hacen referencia a la actividad de los datos de toda la base de datos. Para ver el tablero de informes, vaya a la pestaña **[!UICONTROL Reports]**.
 
-![](assets/reports-tab.png)
+![Pestaña Informes de la página de inicio de Adobe Campaign, que muestra el tablero Informes globales con mosaicos de informes](assets/reports-tab.png)
 
 Para mostrar los informes, haga clic en el nombre de cada uno. Los siguientes informes están disponibles de forma predeterminada:
 
-![](assets/report-global-list.png)
+![Lista de informes globales que muestra los informes predeterminados, como las actividades de usuario, el rendimiento de entrega y los navegadores](assets/report-global-list.png)
 
 >[!NOTE]
 >
@@ -68,7 +68,7 @@ Para mostrar los informes, haga clic en el nombre de cada uno. Los siguientes in
 
 Este informe contiene información sobre el rendimiento de entrega de toda la plataforma durante un periodo determinado. Para medir la velocidad a la que se envían los mensajes, los criterios son la cantidad de mensajes enviados por hora y el tamaño de los mensajes (en bits por segundo). En el siguiente ejemplo, el primer gráfico muestra las entregas correctas en azul y la cantidad de entregas incorrectas en naranja.
 
-![](assets/report-toolbar.png)
+![Informe de rendimiento del envío con el intervalo de tiempo Parámetros, el vínculo Actualizar y gráficos de éxitos y errores por hora](assets/report-toolbar.png)
 
 Puede configurar los valores que se muestran cambiando la escala temporal: vista de 1 hora, de 3 horas, de 24 horas, etc. Haga clic en **[!UICONTROL Refresh]** para confirmar su selección.
 
@@ -139,11 +139,11 @@ Para cada nombre de dominio, se muestra:
 
 Se pueden abrir todas las líneas de la tabla de valores haciendo clic en el símbolo [+]. Para cada tipo de dominio, se puede mostrar el desglose de mensajes de error por tipo de error.
 
-![](assets/errors-report-details.png)
+![Desglose de errores por tabla de dominio, con filas de dominio expandibles que muestran recuentos de errores por tipo de error](assets/errors-report-details.png)
 
 >[!NOTE]
 >
->Los nombres de dominio mostrados en este informe se definen al nivel de cubo. Para cambiar estos valores, edite el cubo **[!UICONTROL Delivery logs (broadlogrcp)]**. Para obtener más información, consulte [esta sección](gs-cubes.md). La categoría **[!UICONTROL Others]** incluye nombres de dominio que no pertenecen a una clase específica.
+>Los nombres de dominio mostrados en este informe se definen al nivel de cubo. Para cambiar estos valores, edite el cubo **[!UICONTROL Delivery logs (broadlogrcp)]**. Para obtener más información, consulte [Introducción a los informes de Adobe Campaign Analytics](gs-cubes.md). La categoría **[!UICONTROL Others]** incluye nombres de dominio que no pertenecen a una clase específica.
 
 ## Navegadores {#browsers}
 
@@ -157,7 +157,7 @@ Este informe muestra el desglose de los navegadores de Internet que utilizan los
 
 Las estadísticas globales de uso del navegador se presentan en forma de una tabla de valores y de un gráfico.
 
-![](assets/browser-report.png)
+![Los exploradores de Internet muestran una tabla de visitantes, páginas vistas, tasa de uso por explorador y un gráfico circular](assets/browser-report.png)
 
 Se utilizan los siguientes indicadores:
 
@@ -169,7 +169,7 @@ Se utilizan los siguientes indicadores:
 
 En la tabla de valores de estadísticas globales, se puede hacer clic en el nombre de cada navegador para ver sus estadísticas de uso.
 
-![](assets/browser-report-info.png)
+![Estadísticas para un navegador, con la curva Historial, el gráfico Desglose por versiones y la tasa global y la tasa relativa](assets/browser-report-info.png)
 
 Las estadísticas se presentan en forma de una curva, un gráfico y una tabla de valores.
 
@@ -247,7 +247,7 @@ Este informe muestra el desglose de los sistemas operativos utilizados los desti
 
 Las estadísticas de uso global de los sistemas operativos se presentan en forma de una tabla de valores y de un gráfico.
 
-![](assets/os-report.png)
+![Informe de sistemas operativos con una tabla de visitantes, páginas vistas, tasa de uso por sistema y gráfico circular](assets/os-report.png)
 
 Se utilizan los siguientes indicadores:
 
@@ -259,7 +259,7 @@ Se utilizan los siguientes indicadores:
 
 En la tabla de valores de estadísticas globales, haga clic en el nombre de cada sistema operativo para ver las estadísticas por sistema operativo.
 
-![](assets/os-report-details.png)
+![Página de estadísticas de Windows con la curva Historial, Gráfico de desglose por versiones y Tasa global y Tasa relativa por versión](assets/os-report-details.png)
 
 Las estadísticas se presentan en forma de una curva, un gráfico y una tabla de valores.
 
@@ -276,11 +276,11 @@ La tabla de valores utiliza los indicadores siguientes:
 
 Este informe permite monitorizar las suscripciones a los servicios de información. Muestra las suscripciones y bajas de suscripción.
 
-![](assets/service-report.png)
+![Informe de seguimiento de suscripciones con la evolución general de la tabla de suscripciones y las curvas de evolución de las suscripciones](assets/service-report.png)
 
 Se puede visualizar para una suscripción haciendo clic en el nodo **[!UICONTROL Profiles and targets > Services and subscriptions]** de la página principal o de Explorer. Seleccione la suscripción deseada y, a continuación, haga clic en la pestaña **[!UICONTROL Reports]**. El informe **[!UICONTROL Subscriptions tracking]** está disponible de forma predeterminada. Permite ver las tendencias de suscripción y de bajas de suscripción y la tasa de lealtad durante un periodo. Se puede configurar la representación de estos datos a través de la lista desplegable. Haga clic en **[!UICONTROL Refresh]** para validar la configuración seleccionada.
 
-Para obtener más información, consulte [esta página](../start/subscriptions.md).
+Para obtener más información, consulte [Administrar suscripciones y bajas en Campaign](../start/subscriptions.md).
 
 **[!UICONTROL Number subscribed to date]** representa el número total de personas suscritas actualmente.
 
@@ -302,7 +302,7 @@ Este gráfico muestra la evolución de las suscripciones y las bajas de suscripc
 
 Este informe muestra el desglose por dominio de Internet, de todos los mensajes procesados y enviados, de los rechazos graves o leves, aperturas, clics y bajas de suscripción.
 
-![](assets/broadcast-report.png)
+![Informe de estadísticas de envío que muestra correos electrónicos procesados, enviados, rechazos, aperturas, clics y bajas de suscripción por dominio de correo electrónico](assets/broadcast-report.png)
 
 Se utilizan los siguientes indicadores:
 
@@ -313,7 +313,7 @@ Se utilizan los siguientes indicadores:
 
   >[!NOTE]
   >
-  >Para obtener más información sobre las devoluciones suaves y duras, consulte [esta página](../send/quarantines.md).
+  >Para obtener más información sobre las devoluciones suaves y duras, consulte [Administración de cuarentena en Campaign](../send/quarantines.md).
 
 * **[!UICONTROL Opens]**: porcentaje del número de destinatarios objetivo que abrieron un mensaje al menos una vez comparado con el número de mensajes procesados correctamente.
 * **[!UICONTROL Clicks]**: porcentaje del número de personas que hizo clic en una entrega al menos una vez comparado con el número de mensajes procesados correctamente.
@@ -323,9 +323,9 @@ Se utilizan los siguientes indicadores:
 
 Este informe muestra el desglose de aperturas por sistema operativo, dispositivo y navegador durante el periodo correspondiente. Para cada categoría se utilizan dos gráficos. El primero muestra estadísticas relacionadas con las aperturas en un ordenador y en dispositivos móviles. El segundo muestra estadísticas relacionadas únicamente con las aperturas en dispositivos móviles.
 
-El número de aperturas corresponde al número total de mensajes abiertos. No se cuentan los correos electrónicos de formato de texto. Para obtener más información sobre el seguimiento de las aperturas, consulte [esta sección](metrics-calculation.md#tracking-opens-).
+El número de aperturas corresponde al número total de mensajes abiertos. No se cuentan los correos electrónicos de formato de texto. Para obtener más información sobre el seguimiento de aperturas, consulte [Seguimiento de aperturas](metrics-calculation.md#tracking-opens-).
 
-![](assets/user-agent-report.png)
+![Informe de desglose de aperturas con gráficos circulares de sistemas operativos, dispositivos y exploradores para todas las aperturas y solo aperturas móviles](assets/user-agent-report.png)
 
 >[!NOTE]
 >

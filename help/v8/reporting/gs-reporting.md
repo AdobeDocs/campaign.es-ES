@@ -32,10 +32,10 @@ topic_v2:
     internal-label: Reporting
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: 63e73a31c5c46cb7544917557c3a0670d7ac91c9
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 25%
+source-wordcount: '460'
+ht-degree: 18%
 ---
 # Introducción a los informes{#gs-ac-reports}
 
@@ -43,7 +43,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
 * **Informes dinámicos**
 
-  El sistema de informes dinámico, disponible con la interfaz de usuario web de Campaign, proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Consulte la [documentación de Web UI v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html?lang=es){target="_blank"}.
+  El sistema de informes dinámico, disponible con la interfaz de usuario web de Campaign, proporciona informes totalmente personalizables y en tiempo real para medir el impacto de las actividades de marketing. Este añade acceso a los datos de perfil, lo que permite el análisis demográfico por dimensiones de perfil como sexo, ciudad y edad, además de datos funcionales de campaña de correo electrónico como aperturas y clics. Consulte la [documentación de Web UI v7](https://experienceleague.adobe.com/docs/campaign-web/v8/reports/dynamic-reporting/get-started-reporting.html){target="_blank"}.
 
 * **Cubos**
 
@@ -51,11 +51,11 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   Utilice las funciones de análisis de marketing para analizar y medir datos, calcular estadísticas y simplificar y optimizar la creación y el cálculo de informes. Puede crear informes y generar poblaciones de público objetivo y almacenarlas en listas que se pueden utilizar en Adobe Campaign para tareas de segmentación o segmentación.
 
-  ![](assets/create-a-report.png)
+  ![Creando una nueva página de informe con las plantillas de cubo disponibles y la plantilla de destinatarios seleccionada](assets/create-a-report.png)
 
   Según la complejidad de las consultas, los cálculos y los volúmenes, los datos analizados en estos informes pueden recopilarse mediante una consulta y preacumularse en una lista (flujo de trabajo de tipo de gestión de datos) o en un cubo (con Marketing Analytics). Se muestra en forma de tabla dinámica o lista de grupos.
 
-  Para obtener más información, consulte [esta sección](gs-cubes.md).
+  Para obtener más información, consulte [Introducción a los informes de Adobe Campaign Analytics](gs-cubes.md).
 
 * **Informes integrados**
 
@@ -63,9 +63,9 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   Use la ficha **Informes** para tener acceso a estos informes.
 
-  ![](assets/built-in-reports.png)
+  ![Pestaña Informes que muestra la lista de informes globales de informes integrados, como Estadísticas de difusión y Exploradores](assets/built-in-reports.png)
 
-  Para obtener más información, consulte [esta sección](built-in-reports.md).
+  Para obtener más información, consulte [Informes integrados de Adobe Campaign](built-in-reports.md).
 
 * **Análisis de datos descriptivo**
 
@@ -73,7 +73,7 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   Utilice el menú **[!UICONTROL Tools > Descriptive analysis...]** para crear un nuevo informe.
 
-  ![](assets/desc-analysis-report.png)
+  ![Asistente de análisis descriptivo: configuración de tabla con el cuadro de diálogo de definición de variable abierto desde Agregar](assets/desc-analysis-report.png)
 
   Los informes de análisis descriptivos de Campaign se presentan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/analyzing-populations/about-descriptive-analysis.html?lang=es){target="_blank"}.
 
@@ -81,4 +81,4 @@ Adobe Campaign proporciona un conjunto de herramientas de creación de informes 
 
   Utilice Adobe Campaign para crear informes sobre los datos de la base de datos. Una vez creados, haga que sean accesibles en los contextos adecuados.
 
-  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html?lang=es){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.
+  Los pasos para crear un informe se detallan en [Documentación de Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/reporting/creating-new-reports/about-reports-creation-in-campaign.html){target="_blank"}. La creación personalizada de informes está reservada para usuarios avanzados.
