@@ -29,10 +29,10 @@ level_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 7fd43a8d3d6afe9f4d3fb000d925cc6185ba9f40
+source-git-commit: 8ab3ced33b95f977032d9f0ffccd1dc50c7a59e8
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 28%
+source-wordcount: '333'
+ht-degree: 27%
 ---
 # Administrar permisos de carpeta{#manage-folder-permissions}
 
@@ -40,14 +40,14 @@ ht-degree: 28%
 
 Utilice permisos en las carpetas para organizar y controlar el acceso a los datos de Campaign.
 
-La administración de carpetas se detalla en [esta página](../audiences/folders-and-views.md).
+La administración de carpetas se detalla en [Carpetas y vistas](../audiences/folders-and-views.md).
 
 Para editar permisos en una carpeta de Campaign específica, siga los pasos a continuación:
 
 1. Haga clic con el botón derecho en la carpeta y seleccione **[!UICONTROL Properties...]**.
 1. Vaya a la pestaña **[!UICONTROL Security]** para ver las autorizaciones de esta carpeta.
 
-   ![](assets/folder-permissions.png)
+   ![Pestaña Seguridad de propiedades de carpeta con autorizaciones para operadores o grupos y derechos de lectura, escritura y eliminación de datos](assets/folder-permissions.png)
 
 * Para **autorizar un grupo o un operador**, haga clic en el botón **[!UICONTROL Add]** y seleccione el grupo u operador para asignar autorizaciones a esta carpeta.
 * Para **prohibir un grupo o un operador**, haga clic en **[!UICONTROL Delete]** y seleccione el grupo u operador para quitar la autorización de esta carpeta.
