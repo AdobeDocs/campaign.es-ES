@@ -37,9 +37,9 @@ topic_v2:
     internal-label: Measurement
   - id: d3cdead0-685a-4489-9250-4bb709942f66
     internal-label: Data collection
-source-git-commit: c4f3ffbf421621fa15b1b4d56480bd0ff9304254
+source-git-commit: 011875268793bca1a000d745818dbd6c69461227
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1890'
 ht-degree: 20%
 ---
 # Configuración de canal de notificaciones push {#push-notification-configuration}
@@ -67,17 +67,17 @@ Para configurar la aplicación con los SDK para móviles de Adobe Experience Pla
 
 ### Configuración de permisos {#setup-permissions}
 
-Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos para las etiquetas en Adobe Experience Platform. Los permisos de usuario para las etiquetas en Adobe Experience Platform se asignan a los usuarios a través de Adobe Admin Console. Obtenga más información en [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=es){target="_blank"}.
+Antes de crear una aplicación móvil, primero debe asegurarse de que tiene o asigna los permisos de usuario correctos para las etiquetas en Adobe Experience Platform. Los permisos de usuario para las etiquetas en Adobe Experience Platform se asignan a los usuarios a través de Adobe Admin Console. Obtenga más información en [Documentación de etiquetas](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html){target="_blank"}.
 
 >[!CAUTION]
 >
->La configuración push la debe realizar un usuario experto. Según el modelo de implementación y las personas involucradas en esta implementación, es posible que deba asignar el conjunto completo de permisos a un único perfil de producto o compartir permisos entre el desarrollador de la aplicación y el administrador de **Adobe Campaign**.
+>La configuración push la debe realizar un usuario experto. Según el modelo de implementación y las personas implicadas, es posible que tenga que asignar el conjunto completo de permisos a un único perfil de producto. También puede compartir los permisos entre el desarrollador de la aplicación y el administrador de **Adobe Campaign**.
 
 Para asignar los derechos de **Property** y **Company**, siga los pasos a continuación:
 
 1. Obtener acceso a **[!DNL Admin Console]**.
 1. En la ficha **[!UICONTROL Products]**, seleccione la tarjeta **[!UICONTROL Adobe Experience Platform Data Collection]**.
-1. Seleccione un(a) **[!UICONTROL Product Profile]** existente o cree uno nuevo con el botón **[!UICONTROL New profile]**. Aprenda a crear un nuevo(a) **[!UICONTROL New profile]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html?lang=es#ui){target="_blank"}.
+1. Seleccione un(a) **[!UICONTROL Product Profile]** existente o cree uno nuevo con el botón **[!UICONTROL New profile]**. Aprenda a crear un nuevo(a) **[!UICONTROL New profile]** en la [documentación de Admin Console](https://experienceleague.adobe.com/docs/experience-platform/access-control/ui/create-profile.html#ui){target="_blank"}.
 1. En la pestaña **[!UICONTROL Permissions]**, seleccione **[!UICONTROL Property Rights]**.
 1. Haga clic **[!UICONTROL Add all]**. Esto añadirá los siguientes derechos al perfil del producto:
    * **[!UICONTROL Approve]**
@@ -109,7 +109,7 @@ Para asignar este(a) **[!UICONTROL Product profile]** a usuarios, siga los pasos
 
    >[!NOTE]
    >
-   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/es/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
+   >Si el usuario no se creó anteriormente en Admin Console, consulte la [Documentación para agregar usuarios](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users){target="_blank"}.
 
 ### Configurar su aplicación {#configure-app}
 
@@ -171,7 +171,7 @@ To get the SDKs needed for push notification to work you will need the following
 * **[!UICONTROL Adobe Experience Platform Assurance]**, optional but recommended to debug the mobile implementation.
 -->
 
-Obtenga más información acerca de las etiquetas [!DNL Adobe Experience Platform Data Collection] en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html?lang=es){target="_blank"}.
+Obtenga más información acerca de las etiquetas [!DNL Adobe Experience Platform Data Collection] en [Documentación de Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/initial-configuration/configure-tags.html){target="_blank"}.
 
 Una vez creada, abra la nueva propiedad de etiqueta y cree una biblioteca. Para ello:
 
@@ -182,7 +182,7 @@ Una vez creada, abra la nueva propiedad de etiqueta y cree una biblioteca. Para 
 
 ## Configuración de los servicios móviles en Campaign {#push-service}
 
-Una vez configurada la aplicación móvil en [!DNL Adobe Experience Platform Data Collection], debe crear dos servicios (uno para dispositivos iOS y otro para dispositivos Android) para poder enviar notificaciones push desde **[!DNL Adobe Campaign]**.
+Una vez configurada la aplicación móvil en [!DNL Adobe Experience Platform Data Collection], cree dos servicios: uno para dispositivos iOS y otro para dispositivos Android. Estos servicios le permiten enviar notificaciones push desde **[!DNL Adobe Campaign]**.
 
 Las notificaciones push se envían a los usuarios de la aplicación a través de un servicio dedicado. Cuando los usuarios instalan la aplicación, se suscriben a este servicio: Adobe Campaign depende de este servicio para dirigirse únicamente a los suscriptores de la aplicación. En este servicio, debe agregar sus aplicaciones de iOS y Android para enviarlas en dispositivos iOS y Android.
 
