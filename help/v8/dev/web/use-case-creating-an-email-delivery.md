@@ -60,7 +60,7 @@ El objetivo final es crear una entrega con una plantilla personalizada que conte
 
 ## Paso 1: Creación de una entrega {#step-1---creating-a-delivery}
 
-Para crear un nuevo envío, coloque el cursor en la pestaña **Campaigns** y haga clic en **Deliveries**. Después, haga clic en el botón **Crear** situado encima de la lista de envíos existentes. Para obtener más información sobre la creación de envíos, consulte [esta página](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}.
+Para crear un nuevo envío, coloque el cursor en la pestaña **Campaigns** y haga clic en **Deliveries**. Después, haga clic en el botón **Crear** situado encima de la lista de envíos existentes. Para obtener más información sobre la creación de envíos, consulte [esta página](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/about-email-channel){target="_blank"}.
 
 ![Lista de envíos en la pestaña Campañas con el botón Crear usado para iniciar un nuevo envío.](assets/delivery_step_1.png)
 
