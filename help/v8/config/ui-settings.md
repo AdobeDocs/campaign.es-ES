@@ -25,10 +25,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
-source-git-commit: d7b0f2882114b0d5c88e438af5018a962deeb141
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 45%
+source-wordcount: '1077'
+ht-degree: 44%
 ---
 # Configuración de la interfaz de usuario de Campaign {#ui-settings}
 
@@ -45,13 +45,13 @@ En Adobe Campaign, para los campos que expresan una duración (por ejemplo, un p
 
 Puede añadir carpetas al explorador de Campaign, crear vistas y asignar permisos.
 
-Obtenga información sobre cómo administrar carpetas y vistas en [esta página](../audiences/folders-and-views.md)
+Obtenga información sobre cómo administrar carpetas y vistas en [Carpetas y vistas](../audiences/folders-and-views.md)
 
 ## Administración y personalización de listas {#customize-lists}
 
 En la consola del cliente de Campaign, los datos se muestran en listas. Puede adaptar estas listas a sus necesidades. Por ejemplo, puede añadir columnas, filtrar datos, contar registros, y guardar y compartir su configuración.
 
-Además, puede crear y guardar filtros.  Más información sobre los filtros de [esta página](../audiences/create-filters.md).
+Además, puede crear y guardar filtros.  Más información sobre los filtros en [Trabajar con filtros en Adobe Campaign](../audiences/create-filters.md).
 
 ### Número de registros {#number-of-records}
 
@@ -107,7 +107,7 @@ Si necesita quitar una columna, selecciónela y haga clic en el icono **Papelera
 
 Puede usar el icono **[!UICONTROL Distribution of values]** para ver cómo se reparten los valores del campo seleccionado en la carpeta actual.
 
-![](assets/value-distribution.png)
+![Cuadro de diálogo Distribución de valores que enumera cada tipo con su recuento y porcentaje para la carpeta Servicios y suscripciones](assets/value-distribution.png)
 
 
 ### Creación de una columna nueva {#create-a-new-column}
@@ -145,7 +145,7 @@ Para guardar una configuración de lista para que se pueda reutilizar, siga los 
 1. Haga clic en **[!UICONTROL Advanced settings]** y, a continuación, especifique un nombre en el campo **[!UICONTROL Configuration]**.
 1. Haga clic en **[!UICONTROL OK]** y luego en **[!UICONTROL Save]**.
 
-A continuación, puede aplicar esta configuración a otra carpeta del mismo tipo. Más información sobre las carpetas de [esta página](../audiences/folders-and-views.md).
+A continuación, puede aplicar esta configuración a otra carpeta del mismo tipo. Más información acerca de las carpetas en [Carpetas y vistas](../audiences/folders-and-views.md).
 
 ### Exportación de una lista {#exporting-a-list}
 

@@ -41,10 +41,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: ba520da057d2568b2ef65042342301f5ad5eacd8
+source-git-commit: f22ef7562e86372db4c5c05c04acd986d1c557fb
 workflow-type: tm+mt
-source-wordcount: '2947'
-ht-degree: 50%
+source-wordcount: '2990'
+ht-degree: 46%
 ---
 # Prácticas recomendadas de seguridad de Campaign {#ac-security}
 
@@ -82,7 +82,7 @@ Actualmente, Adobe Campaign no proporciona ninguna guía de configuración segur
 
 ## Privacidad
 
-Para gestionar correctamente la privacidad y administrar los datos personales, siga la legislación aplicable a la región o regiones en las que opera. Las funcionalidades de Adobe Campaign le ayudan a cumplir con las regulaciones enumeradas en [esta página](../start/privacy.md)
+Para gestionar correctamente la privacidad y administrar los datos personales, siga la legislación aplicable a la región o regiones en las que opera. Las funcionalidades de Adobe Campaign le ayudan a cumplir con las regulaciones enumeradas en [Administrar solicitudes de privacidad en Campaign](../start/privacy.md)
 
 ### Privacidad de Adobe Experience Cloud {#experience-cloud-privacy}
 
@@ -98,7 +98,7 @@ Adobe Campaign forma parte de las soluciones de Adobe Experience Cloud. La forma
 
 * **Uso de Adobe Experience Cloud para recopilar información**
 
-  * Las soluciones de Adobe Experience Cloud utilizan cookies y tecnologías similares, como señalizaciones web (también conocidas como etiquetas o píxeles), para permitirle recopilar información. Para obtener más información sobre las cookies y las capacidades de seguimiento con Adobe Campaign, consulte [esta sección](#tracking-capabilities).
+  * Las soluciones de Adobe Experience Cloud utilizan cookies y tecnologías similares, como señalizaciones web (también conocidas como etiquetas o píxeles), para permitirle recopilar información. Para obtener más información sobre las cookies y las funcionalidades de seguimiento con Adobe Campaign, consulte [Funcionalidades de seguimiento](#tracking-capabilities).
   * También puede utilizar las tecnologías de Adobe Experience Cloud en sus aplicaciones móviles. Para obtener más información sobre la entrega de envíos móviles con Campaign, consulte [Canal de SMS](../send/sms/sms-channel.md) y Canal de aplicaciones móviles.
 
 * **Opciones de privacidad de los usuarios sobre el uso de Adobe Experience Cloud**
@@ -142,7 +142,7 @@ Estas son las distintas personalidades utilizadas en este ejemplo:
 
 * **Adobe Campaign** es el **procesador de datos**.
 
-![](assets/privacy-gdpr-flow.png)
+![Flujo de solicitud de privacidad: Laura envía una solicitud, Anne consulta Adobe Campaign, se devuelven los resultados y Anne responde a Laura](assets/privacy-gdpr-flow.png)
 
 Este es el flujo general para este ejemplo de uso:
 
@@ -159,20 +159,20 @@ Este es el flujo general para este ejemplo de uso:
 Adobe Campaign le permite recopilar datos, incluida la información personal y confidencial. Por lo tanto, es esencial que reciba y supervise el consentimiento de sus destinatarios.
 
 * Los destinatarios siempre deben aceptar recibir comunicaciones. Para ello, siga atendiendo las solicitudes de exclusión lo más rápido posible y verifique el consentimiento a través de un proceso de doble inclusión. Para obtener más información sobre esto, consulte [Creación de un formulario de suscripción con doble inclusión](../dev/web/use-cases-web-forms.md).
-* No importe listas fraudulentas ni utilice direcciones semilla para comprobar que el archivo cliente no se está utilizando de forma fraudulenta. Para obtener más información sobre esto, consulte [Acerca de las direcciones semilla](https://experienceleague.adobe.com/es/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}.
-* A través de la administración de derechos y consentimiento, puede rastrear las preferencias de sus destinatarios, así como administrar quién dentro de su organización puede acceder a qué datos. Para obtener más información, consulte [esta sección](#consent).
-* Facilite y administre las solicitudes de privacidad de sus destinatarios. Para obtener más información, consulte [esta sección](#privacy-requests).
+* No importe listas fraudulentas ni utilice direcciones semilla para comprobar que el archivo cliente no se está utilizando de forma fraudulenta. Para obtener más información sobre esto, consulte [Acerca de las direcciones semilla](https://experienceleague.adobe.com/en/docs/campaign-classic/using/sending-messages/using-seed-addresses/about-seed-addresses){target=_blank}.
+* A través de la administración de derechos y consentimiento, puede rastrear las preferencias de sus destinatarios, así como administrar quién dentro de su organización puede acceder a qué datos. Para obtener más información, consulte [Consentimiento, retención y funciones](#consent).
+* Facilite y administre las solicitudes de privacidad de sus destinatarios. Para obtener más información, consulte [Solicitudes de privacidad](#privacy-requests).
 
 ## Administración de la privacidad {#privacy-management}
 
 La administración de la privacidad se refiere a todos los procesos y herramientas que pueden ayudarle a cumplir con las regulaciones de privacidad (RGPD, CCPA, etc.).
 
 Adobe Campaign le ofrece varios conjuntos de funciones dedicadas a la administración de la privacidad:
-* administración de consentimiento, retención de datos y funciones de usuario. Consulte [esta sección](#consent).
-* Solicitudes de privacidad (derecho de acceso y derecho a ser olvidado). Consulte [esta sección](#privacy-requests).
+* administración de consentimiento, retención de datos y funciones de usuario. Ver [Consentimiento, retención y funciones](#consent).
+* Solicitudes de privacidad (derecho de acceso y derecho a ser olvidado). Ver [solicitudes de privacidad](#privacy-requests).
 * Exclusión para la venta de información personal (específica de la CCPA).
 
-Las principales funcionalidades de privacidad en Campaign y un ejemplo de las personas implicadas se presentan en [esta sección](#personal-data).
+Las principales funcionalidades de privacidad en Campaign y un ejemplo de las personas involucradas se presentan en [Datos personales y Personas](#personal-data).
 
 ### Consentimiento, retención y funciones {#consent}
 
@@ -180,7 +180,7 @@ En principio, Adobe Campaign ofrece funcionalidades importantes que son esencial
 
 * **Gestión del consentimiento**: A través del proceso de administración de suscripciones, puede administrar las preferencias de sus destinatarios y rastrear qué destinatarios han elegido qué tipo de suscripciones. Para obtener más información sobre esto, consulte [Acerca de las suscripciones](../../automation/workflow/subscription-services.md).
 * **Retención de datos**: Todas las tablas de registro integradas tienen períodos de retención preestablecidos, lo que generalmente limita su almacenamiento de datos a 6 meses o menos. Se pueden configurar períodos de retención adicionales con flujos de trabajo. Para obtener más información, póngase en contacto con los consultores o administradores técnicos de Adobe.
-* **Administración de derechos**: Adobe Campaign permite administrar los derechos asignados a los distintos operadores de campaña a través de diferentes funciones generadas previamente o personalizadas. Esto le permite administrar qué persona de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Para obtener más información sobre esto, consulte [Acerca de la administración de acceso](https://experienceleague.adobe.com/es/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}.
+* **Administración de derechos**: Adobe Campaign permite administrar los derechos asignados a los distintos operadores de campaña a través de diferentes funciones generadas previamente o personalizadas. Esto le permite administrar qué persona de su compañía puede acceder, modificar o exportar diferentes tipos de datos. Para obtener más información sobre esto, consulte [Acerca de la administración de acceso](https://experienceleague.adobe.com/en/docs/campaign-classic/using/installing-campaign-classic/security-privacy/access-management){target=_blank}.
 
 ### Solicitudes de privacidad {#privacy-requests}
 
@@ -190,9 +190,9 @@ Adobe Campaign proporciona funciones adicionales que le ayudan a facilitar su pr
 
 * El **Derecho al olvido** (solicitud de eliminación) autoriza al sujeto de datos a hacer que el controlador de datos borre sus datos personales.
 
-Las solicitudes de **acceso** y **eliminación** se presentan en [esta sección](../start/privacy.md).
+Las solicitudes **Access** y **Delete** se presentan en [Administrar solicitudes de privacidad en Campaign](../start/privacy.md).
 
-Los pasos de implementación para crear estas solicitudes se detallan en [esta sección](../start/privacy.md).
+Los pasos de implementación para crear estas solicitudes se detallan en [Administrar solicitudes de privacidad en Campaign](../start/privacy.md).
 
 ## Funcionalidades de seguimiento {#tracking-capabilities}
 
@@ -214,13 +214,13 @@ Las regulaciones como el reglamento general de protección de datos (RGPD) estab
 
 Adobe Campaign permite rastrear los correos electrónicos enviados y el comportamiento de los destinatarios de envío: abrir, hacer clic en vínculos, cancelar suscripciones, etc. Para obtener más información, consulte [Acerca de los mensajes](../start/gs-message.md).
 
-Para ello, agregue vínculos de seguimiento a sus mensajes para medir el impacto del comportamiento de envío y destinatario en la pestaña Seguimiento del panel de envío. El seguimiento de datos se interpreta en el informe Seguimiento de indicadores. Para obtener más información sobre el seguimiento, consulte [esta página](../send/tracking.md).
+Para ello, agregue vínculos de seguimiento a sus mensajes para medir el impacto del comportamiento de envío y destinatario en la pestaña Seguimiento del panel de envío. El seguimiento de datos se interpreta en el informe Seguimiento de indicadores. Para obtener más información sobre el seguimiento, consulte [Introducción al seguimiento de mensajes](../send/tracking.md).
 
 ### Seguimiento web {#web-tracking}
 
 >[!AVAILABILITY]
 >
->El seguimiento web no está disponible en Campaign v8. Más información sobre las características no disponibles en [esta página](../start/v7-to-v8.md#gs-unavailable-features).
+>El seguimiento web no está disponible en Campaign v8. Más información sobre las características no disponibles en [Características no disponibles](../start/v7-to-v8.md#gs-unavailable-features).
 
 ## Protección de datos y PII {#data-and-pii-protection}
 
@@ -248,7 +248,7 @@ La administración del acceso es una parte importante del refuerzo de la segurid
 * **Use perfiles de producto de forma coherente**: prefiera asignar usuarios a perfiles de producto (grupos de operadores) en Admin Console; mantenga la coherencia de nomenclatura (por ejemplo, `campaign - <instance> - <group>`). Consulte [Introducción a los permisos](../start/gs-permissions.md).
 * **Acceso al Panel de control de Campaign**: en Campaign v8, los perfiles de producto o los derechos asignados cuyo nombre contenga &quot;admin&quot; pueden conceder acceso al Panel de control de Campaign de Campaign. Evite utilizar &quot;admin&quot; en los nombres de perfiles o grupos a menos que dichos usuarios deban tener acceso al Panel de control de Campaign.
 
-Puede obtener más información sobre permisos en [esta sección](../start/gs-permissions.md).
+Obtenga más información acerca de los permisos en [Introducción a los permisos en la versión 8 de Campaign](../start/gs-permissions.md).
 
 ## Autenticación y sesión {#authentication-and-session}
 
@@ -275,7 +275,7 @@ Al desarrollar en Adobe Campaign (flujos de trabajo, Javascript, JSSP, etc.), si
 * **Validar y sanear la entrada**: valide y sanee la entrada del usuario en las aplicaciones web y los parámetros de flujo de trabajo para reducir los riesgos de inyección y XSS.
 * **Usar la lista de permitidos para SQL**: cuando sea necesario ejecutar SQL o script, use la lista de permitidos para las funciones SQL permitidas y evite crear consultas a partir de la entrada del usuario a través de la concatenación de cadenas.
 
-Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html?lang=es#installing-campaign-classic){target="_blank"}.
+Obtenga más información en [Documentación de Adobe Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/scripting-coding-guidelines.html#installing-campaign-classic){target="_blank"}.
 
 
 ## Personalización
@@ -292,7 +292,7 @@ Al añadir enlaces personalizados al contenido, evite siempre cualquier personal
 
 Debe asegurarse de que los usuarios autenticados con privilegios bajos no puedan acceder a las contraseñas cifradas. Para ello, hay dos formas principales: restringir el acceso solo a campos de contraseña o a toda la entidad.
 
-Esta restricción permite eliminar los campos con contraseña, pero deja la cuenta externa accesible desde la interfaz para todos los usuarios. Obtenga más información en [esta página](../dev/restrict-pi-view.md).
+Esta restricción permite eliminar los campos con contraseña, pero deja la cuenta externa accesible desde la interfaz para todos los usuarios. Obtenga más información en [Restringir la vista IP](../dev/restrict-pi-view.md).
 
 1. Ir en **[!UICONTROL Administration]** > **[!UICONTROL Configuration]** > **[!UICONTROL Data schemas]**.
 
@@ -304,7 +304,7 @@ Esta restricción permite eliminar los campos con contraseña, pero deja la cuen
 
    Puede reemplazar el elemento principal (`<element name="extAccount" ... >`):
 
-   ```
+   ```xml
    <element name="extAccount">
        <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
        <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="clientSecret"/>
@@ -325,7 +325,7 @@ Esta restricción permite eliminar los campos con contraseña, pero deja la cuen
 
    Por lo tanto, el srcSchema extendido puede tener el siguiente aspecto:
 
-   ```
+   ```xml
    <...>
        <element name="extAccount">
            <attribute accessibleIf="$(loginId) = 0 or $(login) = 'admin'" name="password"/>
