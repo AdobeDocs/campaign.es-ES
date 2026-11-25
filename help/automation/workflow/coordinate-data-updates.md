@@ -55,7 +55,7 @@ Para crear un flujo de trabajo, siga los pasos siguientes:
    >
    >“isRunning” es el nombre de la variable de instancia que se ha elegido para este ejemplo. Esta no es una variable integrada.
 
-   ![ se está ejecutando? actividad de prueba con la condición Yes instance.vars.isRunning y la rama predeterminada denominada No.](assets/uc_dataupdate_test.png)
+   ![&#x200B; se está ejecutando? actividad de prueba con la condición Yes instance.vars.isRunning y la rama predeterminada denominada No.](assets/uc_dataupdate_test.png)
 
 1. Agregue una actividad **Fin** a la bifurcación **No.** De este modo, no se ejecuta nada si el flujo de trabajo ya se está ejecutando.
 1. Agregue las actividades deseadas a la bifurcación **Sí.** En este caso, las actividades **Consulta** y **Actualización de datos**

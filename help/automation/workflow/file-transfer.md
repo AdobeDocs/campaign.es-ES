@@ -109,7 +109,7 @@ El enlace **[!UICONTROL Advanced parameters...]** permite acceder a las siguient
 
   Permite especificar el puerto de conexión que se utilizará para la transferencia de datos.
 
-El vínculo **[!UICONTROL File historization settings...]** da acceso a las opciones detalladas en [ Descarga web](web-download.md) (paso **[!UICONTROL File historization]**).
+El vínculo **[!UICONTROL File historization settings...]** da acceso a las opciones detalladas en [&#x200B; Descarga web](web-download.md) (paso **[!UICONTROL File historization]**).
 
 ## Parámetros de entrada {#input-parameters}
 
