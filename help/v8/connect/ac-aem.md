@@ -30,16 +30,27 @@ level_v2:
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: df8d8e17c486122e23a6db0e44263f9f9632a204
+source-git-commit: 765af3342eb29f27dafa12f72634f5d91361bed5
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 13%
+source-wordcount: '982'
+ht-degree: 11%
 ---
 # Trabajo con Campaign y Adobe Experience Manager {#ac-aem}
 
 La integración entre Adobe Campaign y Adobe Experience Manager le permite gestionar el contenido de las entregas de los correos electrónicos y los formularios directamente en Adobe Experience Manager.
 
-[Descubra cómo editar el contenido de Adobe Experience Manager as a Cloud Service en la interfaz web de Campaign](https://experienceleague.adobe.com/docs/campaign-web/v8/integrations/aem-content.html?lang=es){target="_blank"}.
+## Uso de Adobe Experience Manager as a Cloud Service con la interfaz de usuario web de Campaign {#aem-cs-web-ui}
+
+Con la interfaz de usuario web de Campaign, puede conectar su entorno de Adobe Experience Manager as a Cloud Service para centralizar el contenido. Una única fuente fiable para recursos y plantillas mantiene la coherencia de los mensajes de correo electrónico en todos los canales y evita la duplicación de contenido entre las dos soluciones.
+
+* **Assets**: administre sus recursos en Adobe Experience Manager Assets y reutilícelos directamente en el contenido de su correo electrónico. [Más información](https://experienceleague.adobe.com/es/docs/campaign-web/v8/integrations/aem-assets){target="_blank"}
+* **Plantillas**: cree y apruebe plantillas de correo electrónico en Adobe Experience Manager as a Cloud Service y, a continuación, utilícelas como plantillas de contenido en las entregas. [Más información](https://experienceleague.adobe.com/es/docs/campaign-web/v8/integrations/aem-content){target="_blank"}
+
+La conexión depende de una cuenta externa **[!UICONTROL AEM]** configurada en la consola del cliente. Ver [Cuentas externas](../config/external-accounts.md).
+
+## Uso de Adobe Experience Manager con la consola del cliente {#aem-console}
+
+Las secciones siguientes describen la integración en la consola del cliente de Campaign.
 
 [Obtenga más información acerca de Adobe Experience Manager en este documento](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/campaignonpremise.html?lang=es#aem-and-adobe-campaign-integration-workflow){target="_blank"}.
 
